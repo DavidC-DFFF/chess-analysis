@@ -88,7 +88,15 @@
  .legend{margin-top:4px;font-size:.73rem}
  .lesson p{margin-top:4px;font-size:.82rem;line-height:1.35}
 }
-.move-note{margin:6px 0 0!important;color:#b7c3b5;font-size:.8rem!important;line-height:1.35}
+.move-note{margin:7px 0 0;color:#d8e2d3;font-size:.82rem;line-height:1.4}.move-note strong{display:block;color:#e9ca8d;margin-bottom:3px}.move-note p{margin:0!important;color:#d8e2d3!important;font-size:inherit!important;line-height:inherit!important}
+
+.piece{width:82%;height:82%;object-fit:contain;font:initial;max-width:100%;max-height:100%}
+.sq.hint-target{box-shadow:inset 0 0 0 5px #83def5,inset 0 0 30px #83def588}
+.sq.hint-origin{box-shadow:inset 0 0 0 5px #83def5,inset 0 0 22px #83def588}
+.sq.hint-origin .piece{filter:drop-shadow(0 0 8px #8ae5ff)}
+.sq.hint-origin::after{content:"";position:absolute;inset:8%;border:2px solid #a5ecff;border-radius:50%;pointer-events:none;z-index:2;animation:hint-pulse 1.2s ease-in-out infinite alternate}
+@keyframes hint-pulse{from{opacity:.55;transform:scale(.88)}to{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.sq.hint-origin::after{animation:none}}
 </style>
 </head>
 <body>
@@ -109,41 +117,495 @@
 <section class="panel training-panel"><h2>Parcourir la ligne</h2>
 <div class="controls"><button id="first" aria-label="Début">⏮</button><button id="prev" aria-label="Coup précédent">←</button><span id="step" class="step-label"></span><button id="next" aria-label="Coup suivant">→</button><button id="last" aria-label="Fin">⏭</button></div>
 <div class="actions"><button id="hint">Indice</button><button id="answer" class="primary">Voir la réponse</button><button id="reset">Recommencer</button></div>
-<p id="status" class="status" aria-live="polite"></p><p id="move-note" class="move-note" hidden></p></section>
+<p id="status" class="status" aria-live="polite"></p><div id="move-note" class="move-note" hidden><strong id="move-title"></strong><p id="move-detail"></p></div></section>
 <section class="panel moves-panel"><div class="panel-heading"><h2>Suite de coups</h2><button id="toggle-sequence" type="button" aria-label="Révéler la suite de coups">Révéler</button></div><div id="sequence" class="sequence blurred" aria-hidden="true"></div><div class="legend">Révèle la suite pour revenir à un coup précis.</div></section>
 
 </aside>
 </main>
 <script>
 const raw = [
-["Italienne","1.e4","Développer vite et viser le centre avec le fou en c4",[
-["e4","e2e4","Le pion prend de l’espace et contrôle d5 et f5."],["e5","e7e5","Les Noirs répondent au centre."],["Nf3","g1f3","Le cavalier attaque le pion e5."],["Nc6","b8c6","Les Noirs défendent e5 et développent."],["Bc4","f1c4","Le fou vise la case f7, souvent sensible."],["Bc5","f8c5","Les Noirs placent aussi leur fou sur une diagonale active."],["c3","c2c3","Les Blancs préparent souvent d4."],["Nf6","g8f6","Les Noirs attaquent e4 et achèvent leur développement naturel."]]],
-["Espagnole","1.e4","Mettre la pression sur le défenseur du pion e5",[
-["e4","e2e4","Prise du centre."],["e5","e7e5","Réponse symétrique au centre."],["Nf3","g1f3","Attaque e5."],["Nc6","b8c6","Défense e5."],["Bb5","f1b5","Le fou attaque indirectement e5 en visant le cavalier c6."],["a6","a7a6","Les Noirs questionnent le fou."],["Ba4","b5a4","Le fou reste sur la diagonale importante."],["Nf6","g8f6","Les Noirs développent et attaquent e4."]]],
-["Écossaise","1.e4","Ouvrir rapidement le centre avec d4",[
-["e4","e2e4","Prise du centre."],["e5","e7e5","Les Noirs contestent le centre."],["Nf3","g1f3","Attaque e5."],["Nc6","b8c6","Défense e5."],["d4","d2d4","Rupture centrale immédiate."],["exd4","e5d4","Les Noirs acceptent l’échange central."],["Nxd4","f3d4","Le cavalier reprend au centre."],["Nf6","g8f6","Les Noirs développent en attaquant e4."]]],
-["Sicilienne","1.e4","Répondre à e4 par un centre asymétrique",[
-["e4","e2e4","Les Blancs occupent le centre."],["c5","c7c5","Les Noirs contrôlent d4 sans copier e5."],["Nf3","g1f3","Développement et préparation de d4."],["d6","d7d6","Les Noirs soutiennent e5 et préparent le développement."],["d4","d2d4","Les Blancs ouvrent le centre."],["cxd4","c5d4","Échange du pion c contre le pion d."],["Nxd4","f3d4","Le cavalier reprend une case centrale."],["Nf6","g8f6","Les Noirs attaquent e4."]]],
-["Française","1.e4","Préparer d5 contre le centre blanc",[
-["e4","e2e4","Les Blancs prennent de l’espace."],["e6","e7e6","Les Noirs préparent d5."],["d4","d2d4","Les Blancs forment un duo central."],["d5","d7d5","Les Noirs attaquent immédiatement e4."],["Nc3","b1c3","Le cavalier protège e4."],["Nf6","g8f6","Les Noirs augmentent la pression sur e4."]]],
-["Caro-Kann","1.e4","Contester e4 avec une structure solide",[
-["e4","e2e4","Les Blancs occupent le centre."],["c6","c7c6","Les Noirs préparent d5 en gardant libre le fou c8."],["d4","d2d4","Les Blancs renforcent leur centre."],["d5","d7d5","Les Noirs attaquent e4."],["Nc3","b1c3","Le cavalier soutient e4."],["dxe4","d5e4","Les Noirs clarifient le centre."],["Nxe4","c3e4","Le cavalier reprend une case active."],["Bf5","c8f5","Le fou sort avant que les Noirs jouent e6."]]],
-["Gambit de la dame refusé","1.d4","Défendre d5 sans prendre le pion c4",[
-["d4","d2d4","Contrôle de e5 et c5."],["d5","d7d5","Les Noirs contestent le centre."],["c4","c2c4","Les Blancs attaquent le pion d5."],["e6","e7e6","Les Noirs soutiennent d5."],["Nc3","b1c3","Développement avec pression sur d5."],["Nf6","g8f6","Les Noirs développent et contrôlent e4."]]],
-["Système de Londres","1.d4","Installer une structure facile à reconnaître",[
-["d4","d2d4","Premier pied au centre."],["d5","d7d5","Réponse centrale des Noirs."],["Bf4","c1f4","Le fou sort avant e3."],["Nf6","g8f6","Développement naturel."],["e3","e2e3","Les Blancs sécurisent d4 et ouvrent le fou f1."],["e6","e7e6","Les Noirs consolident d5."],["Nf3","g1f3","Le cavalier renforce le centre."],["Bd6","f8d6","Les Noirs proposent l’échange des fous de cases noires."]]],
-["Indienne du roi","1.d4","Laisser le centre blanc avancer, puis le contester",[
-["d4","d2d4","Les Blancs occupent le centre."],["Nf6","g8f6","Les Noirs empêchent e4 facilement."],["c4","c2c4","Les Blancs gagnent de l’espace."],["g6","g7g6","Préparation du fianchetto."],["Nc3","b1c3","Le cavalier soutient e4."],["Bg7","f8g7","Le fou vise la longue diagonale."],["e4","e2e4","Les Blancs construisent un large centre."],["d6","d7d6","Les Noirs préparent le roque et la lutte centrale."]]],
-["Nimzo-indienne","1.d4","Clouer le cavalier qui soutient le centre",[
-["d4","d2d4","Prise d’espace centrale."],["Nf6","g8f6","Contrôle de e4."],["c4","c2c4","Les Blancs étendent le centre."],["e6","e7e6","Les Noirs ouvrent le fou f8."],["Nc3","b1c3","Le cavalier soutient e4."],["Bb4","f8b4","Le fou cloue le cavalier c3 au roi."]]],
-["Anglaise","1.c4","Contrôler d5 depuis l’aile dame",[
-["c4","c2c4","Le pion contrôle d5."],["e5","e7e5","Les Noirs prennent de l’espace au centre."],["Nc3","b1c3","Le cavalier appuie d5 et e4."],["Nf6","g8f6","Développement et contrôle central."],["g3","g2g3","Préparation du fou en g2."],["d5","d7d5","Les Noirs contestent maintenant le centre."]]]
+  [
+    "Italienne",
+    "1.e4",
+    "Développer vite et viser le centre avec le fou en c4",
+    [
+      [
+        "e4",
+        "e2e4",
+        "Occupe le centre avec le pion-roi, contrôle d5 et f5 et ouvre les diagonales de la dame et du fou f1."
+      ],
+      [
+        "e5",
+        "e7e5",
+        "Occupe à son tour le centre et empêche les Blancs d’y installer facilement un second pion avec d4."
+      ],
+      [
+        "Nf3",
+        "g1f3",
+        "Développe le cavalier tout en attaquant e5 ; les Noirs doivent tenir compte de cette menace et les Blancs se rapprochent du roque."
+      ],
+      [
+        "Nc6",
+        "b8c6",
+        "Protège le pion e5 attaqué par le cavalier blanc, contrôle d4 et développe une pièce de l’aile dame."
+      ],
+      [
+        "Bc4",
+        "f1c4",
+        "Place le fou sur une diagonale active vers f7, case sensible au début, tout en préparant le roque blanc."
+      ],
+      [
+        "Bc5",
+        "f8c5",
+        "Développe le fou vers f2 pour répondre à l’activité du fou blanc et préparer le roque noir."
+      ],
+      [
+        "c3",
+        "c2c3",
+        "Prépare la poussée d4 : le pion c3 pourra soutenir un centre blanc plus fort après cette avance."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Développe le cavalier en attaquant e4, ce qui oblige les Blancs à surveiller leur pion central."
+      ]
+    ]
+  ],
+  [
+    "Espagnole",
+    "1.e4",
+    "Mettre la pression sur le défenseur du pion e5",
+    [
+      [
+        "e4",
+        "e2e4",
+        "Occupe le centre avec e4, contrôle d5 et f5 et libère le fou f1 pour un développement rapide."
+      ],
+      [
+        "e5",
+        "e7e5",
+        "Répond au centre blanc avec un pion central, tout en libérant le fou f8 et la dame."
+      ],
+      [
+        "Nf3",
+        "g1f3",
+        "Attaque le pion e5 avec le cavalier, développe une pièce et prépare le roque."
+      ],
+      [
+        "Nc6",
+        "b8c6",
+        "Défend e5 contre le cavalier f3 et contrôle la case d4 avec une pièce développée."
+      ],
+      [
+        "Bb5",
+        "f1b5",
+        "Met la pression sur le cavalier c6, principal défenseur du pion e5, sans échanger immédiatement le fou."
+      ],
+      [
+        "a6",
+        "a7a6",
+        "Demande au fou b5 de se décider : reculer ou échanger le cavalier, tout en gagnant de l’espace à l’aile dame."
+      ],
+      [
+        "Ba4",
+        "b5a4",
+        "Conserve le fou actif et maintient la pression potentielle sur c6 au lieu de l’échanger."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Développe le cavalier en attaquant e4 ; les Blancs doivent prévoir la protection de leur pion central."
+      ]
+    ]
+  ],
+  [
+    "Écossaise",
+    "1.e4",
+    "Ouvrir rapidement le centre avec d4",
+    [
+      [
+        "e4",
+        "e2e4",
+        "Prend de l’espace au centre avec e4 et ouvre la voie au fou f1."
+      ],
+      [
+        "e5",
+        "e7e5",
+        "Répond au centre blanc et garde une présence noire sur les cases centrales."
+      ],
+      [
+        "Nf3",
+        "g1f3",
+        "Développe le cavalier en attaquant e5, ce qui oblige les Noirs à défendre leur pion."
+      ],
+      [
+        "Nc6",
+        "b8c6",
+        "Protège e5 et prépare la lutte contre une éventuelle poussée blanche d4."
+      ],
+      [
+        "d4",
+        "d2d4",
+        "Ouvre tout de suite le centre avec d4, attaque e5 et cherche un jeu actif pour les pièces blanches."
+      ],
+      [
+        "exd4",
+        "e5d4",
+        "Échange le pion e5 contre d4 pour empêcher les Blancs de conserver deux pions centraux côte à côte."
+      ],
+      [
+        "Nxd4",
+        "f3d4",
+        "Reprend en d4 avec le cavalier, qui occupe une case centrale et accélère le développement blanc."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Développe une pièce en attaquant e4, afin de contester le centre blanc après les échanges."
+      ]
+    ]
+  ],
+  [
+    "Sicilienne",
+    "1.e4",
+    "Répondre à e4 par un centre asymétrique",
+    [
+      [
+        "e4",
+        "e2e4",
+        "Occupe le centre et prépare le développement du fou f1 et de la dame."
+      ],
+      [
+        "c5",
+        "c7c5",
+        "Contrôle d4 depuis l’aile dame et crée une structure asymétrique sans répondre par un pion en e5."
+      ],
+      [
+        "Nf3",
+        "g1f3",
+        "Développe le cavalier, contrôle d4 et prépare l’ouverture du centre par la poussée d4."
+      ],
+      [
+        "d6",
+        "d7d6",
+        "Soutient le pion c5, contrôle e5 et prépare le développement du cavalier g8."
+      ],
+      [
+        "d4",
+        "d2d4",
+        "Attaque le pion c5 et ouvre le centre avant que les Noirs terminent leur développement."
+      ],
+      [
+        "cxd4",
+        "c5d4",
+        "Échange le pion c contre le pion d blanc, ce qui modifie la structure centrale en faveur des Noirs."
+      ],
+      [
+        "Nxd4",
+        "f3d4",
+        "Reprend avec le cavalier pour l’installer au centre et conserver l’initiative des pièces blanches."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Attaque e4 tout en développant un cavalier ; les Blancs doivent défendre leur pion central."
+      ]
+    ]
+  ],
+  [
+    "Française",
+    "1.e4",
+    "Préparer d5 contre le centre blanc",
+    [
+      [
+        "e4",
+        "e2e4",
+        "Occupe le centre avec e4 et prépare un second pion central en d4."
+      ],
+      [
+        "e6",
+        "e7e6",
+        "Prépare la poussée d5 contre e4 sans avancer directement le pion e noir."
+      ],
+      [
+        "d4",
+        "d2d4",
+        "Forme un duo de pions e4-d4 qui donne aux Blancs plus d’espace au centre."
+      ],
+      [
+        "d5",
+        "d7d5",
+        "Attaque le pion e4 et force les Blancs à choisir entre défense, avance ou échange."
+      ],
+      [
+        "Nc3",
+        "b1c3",
+        "Développe le cavalier en protégeant e4 et en soutenant le centre blanc."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Ajoute une attaque sur e4 avec le cavalier et prépare le roque noir."
+      ]
+    ]
+  ],
+  [
+    "Caro-Kann",
+    "1.e4",
+    "Contester e4 avec une structure solide",
+    [
+      [
+        "e4",
+        "e2e4",
+        "Occupe le centre et ouvre la diagonale du fou f1."
+      ],
+      [
+        "c6",
+        "c7c6",
+        "Prépare d5 avec le soutien du pion c6, tout en laissant au fou c8 la possibilité de sortir avant e6."
+      ],
+      [
+        "d4",
+        "d2d4",
+        "Renforce le centre blanc avec deux pions et gagne de l’espace."
+      ],
+      [
+        "d5",
+        "d7d5",
+        "Conteste e4 avec un pion soutenu par c6, sans enfermer encore le fou c8."
+      ],
+      [
+        "Nc3",
+        "b1c3",
+        "Défend e4 par une pièce et développe le cavalier vers le centre."
+      ],
+      [
+        "dxe4",
+        "d5e4",
+        "Échange le pion d5 contre e4 pour réduire le centre blanc et ouvrir les lignes des pièces noires."
+      ],
+      [
+        "Nxe4",
+        "c3e4",
+        "Reprend en e4 avec le cavalier, qui reste actif au centre au lieu de déplacer un autre pion."
+      ],
+      [
+        "Bf5",
+        "c8f5",
+        "Sort le fou avant une éventuelle poussée e6 et attaque le cavalier blanc installé en e4."
+      ]
+    ]
+  ],
+  [
+    "Gambit de la dame refusé",
+    "1.d4",
+    "Défendre d5 sans prendre le pion c4",
+    [
+      [
+        "d4",
+        "d2d4",
+        "Contrôle e5 et c5 avec le pion d et libère le fou c1."
+      ],
+      [
+        "d5",
+        "d7d5",
+        "Répond à d4 par un pion central qui contrôle e4 et protège l’espace noir."
+      ],
+      [
+        "c4",
+        "c2c4",
+        "Attaque le pion d5 pour pousser les Noirs à défendre leur centre ou à l’échanger."
+      ],
+      [
+        "e6",
+        "e7e6",
+        "Soutient d5 avec le pion e6, au prix d’un développement temporairement moins facile du fou c8."
+      ],
+      [
+        "Nc3",
+        "b1c3",
+        "Développe le cavalier en augmentant la pression sur d5 et en préparant éventuellement e4."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Développe le cavalier, contrôle e4 et prépare le roque sans abandonner le pion d5."
+      ]
+    ]
+  ],
+  [
+    "Système de Londres",
+    "1.d4",
+    "Installer une structure facile à reconnaître",
+    [
+      [
+        "d4",
+        "d2d4",
+        "Prend une première case centrale et prépare une structure de pions solide."
+      ],
+      [
+        "d5",
+        "d7d5",
+        "Conteste le centre blanc avec un pion qui contrôle e4."
+      ],
+      [
+        "Bf4",
+        "c1f4",
+        "Sort le fou c1 avant de jouer e3, pour éviter de l’enfermer derrière la chaîne de pions."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Développe le cavalier, contrôle e4 et laisse encore plusieurs choix de structure aux Noirs."
+      ],
+      [
+        "e3",
+        "e2e3",
+        "Soutient d4 et ouvre la diagonale du fou f1, pendant que le fou f4 reste actif."
+      ],
+      [
+        "e6",
+        "e7e6",
+        "Renforce d5 et ouvre la voie au fou f8 pour poursuivre le développement noir."
+      ],
+      [
+        "Nf3",
+        "g1f3",
+        "Développe le cavalier, protège d4 et rapproche les Blancs du roque."
+      ],
+      [
+        "Bd6",
+        "f8d6",
+        "Attaque le fou f4 depuis d6 pour proposer un échange et réduire l’influence blanche sur e5."
+      ]
+    ]
+  ],
+  [
+    "Indienne du roi",
+    "1.d4",
+    "Laisser le centre blanc avancer, puis le contester",
+    [
+      [
+        "d4",
+        "d2d4",
+        "Occupe le centre et conserve la possibilité d’ajouter un pion en c4 ou en e4."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Contrôle e4 avec le cavalier sans fixer encore la structure des pions noirs."
+      ],
+      [
+        "c4",
+        "c2c4",
+        "Gagne de l’espace à l’aile dame et renforce le contrôle blanc de d5."
+      ],
+      [
+        "g6",
+        "g7g6",
+        "Prépare le développement du fou en g7, d’où il pourra peser sur le centre à longue distance."
+      ],
+      [
+        "Nc3",
+        "b1c3",
+        "Développe le cavalier pour soutenir une future poussée e4 et contrôler d5."
+      ],
+      [
+        "Bg7",
+        "f8g7",
+        "Installe le fou en fianchetto ; il pourra exercer une pression centrale lorsque les lignes s’ouvriront."
+      ],
+      [
+        "e4",
+        "e2e4",
+        "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+      ],
+      [
+        "d6",
+        "d7d6",
+        "Prépare le roque et les ruptures centrales noires par e5 ou c5 contre les pions blancs."
+      ]
+    ]
+  ],
+  [
+    "Nimzo-indienne",
+    "1.d4",
+    "Clouer le cavalier qui soutient le centre",
+    [
+      [
+        "d4",
+        "d2d4",
+        "Prend de l’espace au centre et ouvre la diagonale du fou c1."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Contrôle e4 avec le cavalier et laisse aux Noirs plusieurs réponses au pion d4."
+      ],
+      [
+        "c4",
+        "c2c4",
+        "Étend le centre blanc et augmente le contrôle de d5."
+      ],
+      [
+        "e6",
+        "e7e6",
+        "Ouvre le fou f8 et prépare une lutte pour d5 sans avancer tout de suite le pion d noir."
+      ],
+      [
+        "Nc3",
+        "b1c3",
+        "Développe le cavalier pour soutenir e4, mais l’expose au clouage du fou noir."
+      ],
+      [
+        "Bb4",
+        "f8b4",
+        "Cloue le cavalier c3 au roi blanc, ce qui rend la poussée e4 plus difficile à préparer."
+      ]
+    ]
+  ],
+  [
+    "Anglaise",
+    "1.c4",
+    "Contrôler d5 depuis l’aile dame",
+    [
+      [
+        "c4",
+        "c2c4",
+        "Contrôle d5 depuis l’aile dame tout en gardant libres les pions d et e pour choisir la structure plus tard."
+      ],
+      [
+        "e5",
+        "e7e5",
+        "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+      ],
+      [
+        "Nc3",
+        "b1c3",
+        "Développe le cavalier, renforce d5 et soutient le pion c4."
+      ],
+      [
+        "Nf6",
+        "g8f6",
+        "Développe une pièce, contrôle e4 et prépare le roque noir."
+      ],
+      [
+        "g3",
+        "g2g3",
+        "Prépare le fou en g2, qui visera le centre et l’aile dame depuis la grande diagonale."
+      ],
+      [
+        "d5",
+        "d7d5",
+        "Frappe le centre avant que les Blancs ne jouent d4 et cherche à égaliser l’espace."
+      ]
+    ]
+  ]
 ];
 const openings = raw.map(([name,first,summary,moves])=>({name,first,summary,moves:moves.map(([san,uci,note])=>({san,uci,note}))}));
-const icons={wk:"♔",wq:"♕",wr:"♖",wb:"♗",wn:"♘",wp:"♙",bk:"♚",bq:"♛",br:"♜",bb:"♝",bn:"♞",bp:"♟"};
 const names={p:"pion",n:"cavalier",b:"fou",r:"tour",q:"dame",k:"roi"};
 const files="abcdefgh";
-let opening=openings[0],step=0,flipped=false,selected="",showHint=false,message="",mode="autonomous",replyTimer=null,sequenceHidden=true;
+let opening=openings[0],step=0,flipped=false,selected="",hintLevel=0,message="",mode="autonomous",replyTimer=null,sequenceHidden=true;
 function initialBoard(){const b={};for(let i=0;i<8;i++){b[files[i]+"2"]="wp";b[files[i]+"7"]="bp";b[files[i]+"1"]="w"+"rnbqkbnr"[i];b[files[i]+"8"]="b"+"rnbqkbnr"[i]}return b}
 function makeMove(b,uci){const from=uci.slice(0,2),to=uci.slice(2,4),p=b[from];if(!p)return;b[to]=uci[4]?p[0]+uci[4]:p;delete b[from];if(p[1]==="k"&&Math.abs(files.indexOf(from[0])-files.indexOf(to[0]))===2){const rank=from[1],short=to[0]==="g",rf=(short?"h":"a")+rank,rt=(short?"f":"d")+rank;b[rt]=b[rf];delete b[rf]}}
 function boardAt(n){const b=initialBoard();for(let i=0;i<n;i++)makeMove(b,opening.moves[i].uci);return b}
@@ -152,7 +614,6 @@ function center(square){let col=files.indexOf(square[0]),row=8-Number(square[1])
 function showMessage(text){message=text;document.getElementById("status").textContent=text}
 function autoTurn(){return step<opening.moves.length&&((mode==="white"&&step%2===1)||(mode==="black"&&step%2===0))}
 function cancelReply(){if(replyTimer!==null){clearTimeout(replyTimer);replyTimer=null}}
-function hintPiece(){const next=opening.moves[step];if(!next)return "";const piece=boardAt(step)[next.uci.slice(0,2)];return ({p:"un pion",n:"un cavalier",b:"un fou",r:"une tour",q:"la dame",k:"le roi"})[piece?.[1]]||"une pièce"}
 function updateSequenceVisibility(){const el=document.getElementById("sequence"),button=document.getElementById("toggle-sequence");el.classList.toggle("blurred",sequenceHidden);el.inert=sequenceHidden;el.setAttribute("aria-hidden",String(sequenceHidden));button.textContent=sequenceHidden?"Révéler":"Flouter";button.setAttribute("aria-label",sequenceHidden?"Révéler la suite de coups":"Flouter la suite de coups")}
 function clickSquare(square,b){
  if(step>=opening.moves.length)return;
@@ -161,13 +622,14 @@ function clickSquare(square,b){
  if(!selected){if(b[square]&&b[square][0]===side){selected=square;message="";render()}else showMessage("Sélectionne une pièce du camp qui doit jouer.");return}
  if(square===selected){selected="";render();return}
  if(selected+square===expected.slice(0,4)){const san=opening.moves[step].san;go(step+1,true);if(mode==="autonomous")showMessage("Bien joué : "+san+".")}
- else{selected="";showHint=false;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
+ else{selected="";hintLevel=0;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
 }
 function draw(){
  const b=boardAt(step),board=document.getElementById("board");board.replaceChildren();
- const move=opening.moves[step-1],uci=move?.uci;
- for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){const glyph=document.createElement("span");glyph.className="piece "+(piece[0]==="w"?"white":"black");glyph.textContent=icons[piece];cell.append(glyph)}cell.addEventListener("click",()=>clickSquare(sq,b));board.append(cell)}
- const arrow=document.getElementById("arrow");if(uci){const a=center(uci.slice(0,2)),z=center(uci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class","");arrow.style.display=""}else arrow.style.display="none"
+ const move=hintLevel?null:opening.moves[step-1],uci=move?.uci;
+ const hinted=opening.moves[step]?.uci,hintFrom=hintLevel>=1?hinted.slice(0,2):null,hintTo=hintLevel>=2?hinted.slice(2,4):null;
+ for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(sq===hintFrom)cell.classList.add("hint-origin");if(sq===hintTo)cell.classList.add("hint-target");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){const image=document.createElement("img");image.className="piece";image.src="pieces/kaneo/"+piece[0]+piece[1].toUpperCase()+".svg";image.alt="";image.draggable=false;cell.append(image)}cell.addEventListener("click",()=>clickSquare(sq,b));board.append(cell)}
+ const arrow=document.getElementById("arrow");const arrowUci=hintLevel>=3?hinted:uci;if(arrowUci){const a=center(arrowUci.slice(0,2)),z=center(arrowUci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",hintLevel>=3?"blue":"");arrow.style.display=""}else arrow.style.display="none"
 }
 function render(){
  document.getElementById("title").textContent=opening.name;document.getElementById("intro").textContent=opening.summary;
@@ -176,17 +638,19 @@ function render(){
  document.getElementById("step").textContent=last?(Math.ceil(step/2)+". "+(step%2?"":"… ")+last.san):"Position initiale";
  document.getElementById("first").disabled=document.getElementById("prev").disabled=step===0;
  document.getElementById("next").disabled=document.getElementById("last").disabled=step===opening.moves.length;
- document.getElementById("hint").disabled=document.getElementById("answer").disabled=!next||replyTimer!==null;
+ document.getElementById("hint").disabled=!next||replyTimer!==null||hintLevel>=3;
+ document.getElementById("hint").textContent="Indice "+Math.min(hintLevel+1,3)+"/3";
+ document.getElementById("answer").disabled=!next||replyTimer!==null;
  document.getElementById("flip").disabled=mode!=="autonomous";
  const status=document.getElementById("status");status.classList.toggle("finished",!next);
- const prompt=!next?"Ligne terminée. Choisis une autre ouverture ou recommence.":autoTurn()?(replyTimer!==null?"Réponse des "+(step%2?"Noirs":"Blancs")+" dans une seconde…":"Réponse en pause. Utilise « Voir la réponse »."):"À toi de jouer avec les "+(step%2?"Noirs":"Blancs")+". Trouve le prochain coup.";
+ const prompt=!next?"Ligne terminée.":autoTurn()?(replyTimer!==null?"Réponse des "+(step%2?"Noirs":"Blancs")+" dans une seconde…":"Réponse en pause. Utilise « Voir la réponse »."):"À toi · "+(step%2?"Noirs":"Blancs");
  status.textContent=message||prompt;
- const note=document.getElementById("move-note");note.hidden=!last;note.textContent=last?last.note:"";
+ const note=document.getElementById("move-note"),explained=next||last;note.hidden=!explained;if(explained){document.getElementById("move-title").textContent=next?"Objectif du prochain coup":"Objectif de "+Math.ceil(step/2)+(step%2?". ":"… ")+last.san;document.getElementById("move-detail").textContent=explained.note}
  for(const button of document.querySelectorAll(".move"))button.classList.toggle("active",Number(button.dataset.step)===step);
  document.getElementById("opening-select").value=opening.name;
 }
 function go(n,auto=false){
- cancelReply();step=Math.max(0,Math.min(opening.moves.length,n));selected="";showHint=false;message="";
+ cancelReply();step=Math.max(0,Math.min(opening.moves.length,n));selected="";hintLevel=0;message="";
  if(auto&&autoTurn()){const scheduledStep=step;replyTimer=setTimeout(()=>{replyTimer=null;if(step===scheduledStep&&autoTurn())go(step+1,true)},1000)}
  render()
 }
@@ -205,7 +669,7 @@ document.getElementById("prev").addEventListener("click",()=>go(step-1));
 document.getElementById("next").addEventListener("click",()=>go(step+1));
 document.getElementById("last").addEventListener("click",()=>go(opening.moves.length));
 document.getElementById("reset").addEventListener("click",()=>go(0,true));
-document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length){showHint=true;message="Indice : joue "+hintPiece()+".";render()}});
+document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length&&hintLevel<3){hintLevel++;message=["","La pièce à déplacer est éclairée.","La case d’arrivée est éclairée.","Coup conseillé : "+opening.moves[step].san+"."][hintLevel];render()}});
 document.getElementById("answer").addEventListener("click",()=>{if(step<opening.moves.length)go(step+1,true)});
 document.getElementById("toggle-sequence").addEventListener("click",()=>{sequenceHidden=!sequenceHidden;updateSequenceVisibility()});
 document.addEventListener("keydown",e=>{if(e.key==="ArrowLeft"){e.preventDefault();go(step-1)}if(e.key==="ArrowRight"){e.preventDefault();go(step+1)}});
