@@ -1,0 +1,16 @@
+{
+  "title": "Position transmise · 1.d4",
+  "subtitle": "Exemple de revue",
+  "complete": false,
+  "pgn": "[Event \"Position transmise\"]\n[White \"Blancs\"]\n[Black \"Noirs\"]\n[Result \"*\"]\n\n1. d4 *",
+  "initialStep": 1,
+  "notes": [
+    {
+      "ply": 1,
+      "category": "Ouverture",
+      "explanation": "Après 1.d4, le pion blanc occupe d4. Il contrôle c5 et e5 et ouvre la diagonale du fou c1. La position affichée correspond au FEN transmis.",
+      "advice": "Avec la partie complète, j’identifierai les coups à revoir et montrerai la meilleure suite sur cet échiquier.",
+      "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1"
+    }
+  ]
+}

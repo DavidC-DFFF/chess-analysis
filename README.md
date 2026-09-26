@@ -1,6 +1,6 @@
 # Atelier d’analyse d’échecs
 
-Lecteur local de parties PGN avec échiquier interactif. Il affiche la position, le dernier coup, les commentaires inclus dans le PGN et permet de parcourir les coups au clavier.
+Support visuel pour les revues de parties préparées par Codex. Il affiche les positions, les conseils, les coups à revoir et les variantes fournies dans src/review.json. Le site ne calcule pas lui-même les évaluations.
 
 ## Démarrer
 
@@ -17,4 +17,4 @@ Ouvrir ensuite l’adresse indiquée par Vite (par défaut `http://127.0.0.1:517
 npm run build
 ```
 
-Le site accepte actuellement une partie PGN à la fois. Il ne calcule pas encore d’évaluation moteur ni de conseils stratégiques : cette étape sera ajoutée sur une partie fournie par David. Les fichiers PGN personnels sont ignorés par Git.
+Le fichier src/review.json contient pour le moment la position FEN transmise après 1.d4. Quand David enverra le PGN complet, Codex analysera la partie et remplacera cette revue par ses classifications, conseils et variantes. Les fichiers PGN personnels sont ignorés par Git.
