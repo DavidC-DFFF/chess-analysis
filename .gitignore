@@ -2,3 +2,4 @@ node_modules/
 dist/
 *.pgn
 .DS_Store
+.analysis-tools/

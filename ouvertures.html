@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#17211d">
+<meta name="description" content="Apprendre les grandes ouvertures d’échecs hors ligne, sur un échiquier interactif.">
+<title>Ouvertures · Atelier d’échecs</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#e9ece5;background:#17211d}*{box-sizing:border-box}body{margin:0}button{font:inherit;cursor:pointer}button:focus-visible{outline:3px solid #e4bd71;outline-offset:2px}.top{border-bottom:1px solid #3b4a40;padding:18px clamp(16px,4vw,56px);display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-size:.92rem;font-weight:800;letter-spacing:.09em}.brand span:first-child{color:#ddbb7c;font-size:1.9rem;line-height:1}.offline{color:#aab8ac;font-size:.84rem}.shell{max-width:1440px;margin:auto;padding:28px clamp(14px,3.5vw,52px) 48px;display:grid;grid-template-columns:minmax(330px,1fr) minmax(320px,410px);gap:clamp(22px,4vw,56px)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(1.5rem,2.7vw,2.2rem);line-height:1.18;margin-bottom:8px}h2{font-size:1.08rem;margin-bottom:10px}h3{font-size:1rem;margin-bottom:8px}.eyebrow{font-size:.72rem;letter-spacing:.17em;font-weight:800;color:#d8ba7c;margin-bottom:9px}.muted{color:#a5b4a6;line-height:1.48}.board-head{display:flex;align-items:center;justify-content:space-between;gap:14px;max-width:700px;margin-bottom:17px}.icon{width:44px;height:44px;border:1px solid #526451;background:#29392f;color:#d8ba7c;border-radius:9px;font-size:1.5rem}.board-wrap{width:min(100%,700px);aspect-ratio:1;position:relative;box-shadow:0 20px 60px #0008}.board{width:100%;height:100%;display:grid;grid-template-columns:repeat(8,1fr);border-radius:4px;overflow:hidden}.sq{min-width:0;min-height:0;border:0;border-radius:0;position:relative;display:flex;align-items:center;justify-content:center;padding:0}.sq.light{background:#e3dccb;color:#6e826d}.sq.dark{background:#70876d;color:#e8e7d9}.sq.selected{box-shadow:inset 0 0 0 5px #f2d679}.sq.last{box-shadow:inset 0 0 0 100px #dfb75c80}.sq.hint{box-shadow:inset 0 0 0 100px #65bee276}.piece{font:clamp(2rem,5.8vw,4.5rem)/1 Georgia,"Times New Roman",serif;position:relative;z-index:1;pointer-events:none}.piece.white{color:#fff9ed;text-shadow:0 2px 2px #2e342d,1px 1px #4e564b,-1px -1px #4e564b}.piece.black{color:#212a24;text-shadow:0 1px 1px #c6ccbd}.coord{position:absolute;font-size:clamp(.58rem,1vw,.75rem);font-weight:800;z-index:2;pointer-events:none}.rank{top:3px;left:4px}.file{bottom:2px;right:5px}.arrows{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.arrows line{stroke:#f0c060;stroke-width:12;stroke-linecap:round;marker-end:url(#head);opacity:.9}.arrows line.blue{stroke:#65bee2;marker-end:url(#head-blue)}.controls{width:min(100%,700px);display:flex;align-items:center;justify-content:center;gap:10px;margin-top:16px}.controls button,.actions button{border:1px solid #526451;background:#29392f;color:#e9ece5;border-radius:8px;padding:10px 14px}.controls button{min-width:48px;font-size:1.15rem}.controls button:disabled{opacity:.4;cursor:default}.controls button:hover:not(:disabled),.actions button:hover{background:#3b5041}.step-label{min-width:140px;text-align:center;font-weight:700;color:#dfc28c}.actions{width:min(100%,700px);display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:12px}.actions .primary{background:#dbb979;color:#1d281f;font-weight:800;border-color:#dbb979}.actions .primary:hover{background:#edce94}.status{width:min(100%,700px);min-height:42px;text-align:center;color:#e3d3aa;line-height:1.5;margin:13px 0 0}.sidebar{display:flex;flex-direction:column;gap:16px;min-width:0}.panel{background:#223027;border:1px solid #415446;border-radius:13px;padding:20px}.panel p{font-size:.91rem;color:#b7c3b5;line-height:1.5;margin-bottom:12px}.opening-list{display:grid;grid-template-columns:1fr 1fr;gap:7px;max-height:254px;overflow:auto;padding-right:2px}.opening{border:1px solid #465b4b;border-radius:8px;background:#29392f;color:#e5e9df;text-align:left;padding:10px;line-height:1.3;min-height:57px}.opening small{display:block;color:#a8b9a8;font-size:.73rem;margin-top:3px}.opening.active{border-color:#dfbe80;background:#3a4332;color:#ffe3ad}.opening:hover{border-color:#dfbe80}.sequence{max-height:185px;overflow:auto;display:grid;grid-template-columns:32px 1fr 1fr;gap:5px;align-items:center}.sequence .num{color:#9aac9c;font-size:.84rem}.move{border:0;border-radius:5px;background:transparent;color:#e7ece4;text-align:left;padding:6px 8px}.move:hover{background:#354a3a}.move.active{background:#dabb7e;color:#19241c;font-weight:800}.lesson{border-color:#74674b;background:#2c3429}.lesson strong{color:#f0cd8d}.lesson p{margin:8px 0 0}.legend{font-size:.79rem;color:#8fa392;margin-top:10px}.finished{color:#a6d79c!important}@media(max-width:900px){.shell{grid-template-columns:1fr;max-width:750px}.sidebar{display:grid;grid-template-columns:1fr 1fr}.opening-panel{grid-column:1/-1}}@media(max-width:560px){.top{padding:12px 16px}.offline{font-size:.72rem}.shell{padding:18px 10px 32px;gap:18px}.sidebar{display:flex}.panel{padding:16px}.controls{gap:5px}.controls button{min-width:40px;padding:9px}.step-label{min-width:100px;font-size:.85rem}.piece{font-size:clamp(1.9rem,9vw,3.5rem)}}
+</style>
+</head>
+<body>
+<header class="top"><div class="brand"><span>♞</span><span>ATELIER DES OUVERTURES</span></div><span class="offline">100 % local · sans serveur</span></header>
+<main class="shell">
+<section aria-label="Échiquier d’entraînement">
+<div class="board-head"><div><p class="eyebrow">APPRENDRE UNE LIGNE</p><h1 id="title"></h1><p id="intro" class="muted"></p></div><button id="flip" class="icon" aria-label="Retourner l’échiquier" title="Retourner l’échiquier">⇅</button></div>
+<div class="board-wrap"><div id="board" class="board" role="group" aria-label="Cases de l’échiquier"></div><svg class="arrows" viewBox="0 0 800 800" aria-hidden="true"><defs><marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#f0c060"/></marker><marker id="head-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#65bee2"/></marker></defs><line id="arrow"/></svg></div>
+<div class="controls"><button id="first" aria-label="Début">⏮</button><button id="prev" aria-label="Coup précédent">←</button><span id="step" class="step-label"></span><button id="next" aria-label="Coup suivant">→</button><button id="last" aria-label="Fin">⏭</button></div>
+<div class="actions"><button id="hint">Indice</button><button id="answer" class="primary">Voir la réponse</button><button id="reset">Recommencer</button></div>
+<p id="status" class="status" aria-live="polite"></p>
+</section>
+<aside class="sidebar">
+<section class="panel opening-panel"><h2>Choisir une ouverture</h2><p>Choisis une ligne, puis joue sur l’échiquier les coups des deux camps. Plusieurs autres réponses restent possibles dans une vraie partie.</p><div id="openings" class="opening-list"></div></section>
+<section class="panel"><h2>Suite de coups</h2><div id="sequence" class="sequence"></div><div class="legend">Clique sur un coup pour revoir la position.</div></section>
+<section class="panel lesson"><h2>Idée à retenir</h2><div id="lesson"></div></section>
+</aside>
+</main>
+<script>
+const raw = [
+["Italienne","1.e4","Développer vite et viser le centre avec le fou en c4",[
+["e4","e2e4","Le pion prend de l’espace et contrôle d5 et f5."],["e5","e7e5","Les Noirs répondent au centre."],["Nf3","g1f3","Le cavalier attaque le pion e5."],["Nc6","b8c6","Les Noirs défendent e5 et développent."],["Bc4","f1c4","Le fou vise la case f7, souvent sensible."],["Bc5","f8c5","Les Noirs placent aussi leur fou sur une diagonale active."],["c3","c2c3","Les Blancs préparent souvent d4."],["Nf6","g8f6","Les Noirs attaquent e4 et achèvent leur développement naturel."]]],
+["Espagnole","1.e4","Mettre la pression sur le défenseur du pion e5",[
+["e4","e2e4","Prise du centre."],["e5","e7e5","Réponse symétrique au centre."],["Nf3","g1f3","Attaque e5."],["Nc6","b8c6","Défense e5."],["Bb5","f1b5","Le fou attaque indirectement e5 en visant le cavalier c6."],["a6","a7a6","Les Noirs questionnent le fou."],["Ba4","b5a4","Le fou reste sur la diagonale importante."],["Nf6","g8f6","Les Noirs développent et attaquent e4."]]],
+["Écossaise","1.e4","Ouvrir rapidement le centre avec d4",[
+["e4","e2e4","Prise du centre."],["e5","e7e5","Les Noirs contestent le centre."],["Nf3","g1f3","Attaque e5."],["Nc6","b8c6","Défense e5."],["d4","d2d4","Rupture centrale immédiate."],["exd4","e5d4","Les Noirs acceptent l’échange central."],["Nxd4","f3d4","Le cavalier reprend au centre."],["Nf6","g8f6","Les Noirs développent en attaquant e4."]]],
+["Sicilienne","1.e4","Répondre à e4 par un centre asymétrique",[
+["e4","e2e4","Les Blancs occupent le centre."],["c5","c7c5","Les Noirs contrôlent d4 sans copier e5."],["Nf3","g1f3","Développement et préparation de d4."],["d6","d7d6","Les Noirs soutiennent e5 et préparent le développement."],["d4","d2d4","Les Blancs ouvrent le centre."],["cxd4","c5d4","Échange du pion c contre le pion d."],["Nxd4","f3d4","Le cavalier reprend une case centrale."],["Nf6","g8f6","Les Noirs attaquent e4."]]],
+["Française","1.e4","Préparer d5 contre le centre blanc",[
+["e4","e2e4","Les Blancs prennent de l’espace."],["e6","e7e6","Les Noirs préparent d5."],["d4","d2d4","Les Blancs forment un duo central."],["d5","d7d5","Les Noirs attaquent immédiatement e4."],["Nc3","b1c3","Le cavalier protège e4."],["Nf6","g8f6","Les Noirs augmentent la pression sur e4."]]],
+["Caro-Kann","1.e4","Contester e4 avec une structure solide",[
+["e4","e2e4","Les Blancs occupent le centre."],["c6","c7c6","Les Noirs préparent d5 en gardant libre le fou c8."],["d4","d2d4","Les Blancs renforcent leur centre."],["d5","d7d5","Les Noirs attaquent e4."],["Nc3","b1c3","Le cavalier soutient e4."],["dxe4","d5e4","Les Noirs clarifient le centre."],["Nxe4","c3e4","Le cavalier reprend une case active."],["Bf5","c8f5","Le fou sort avant que les Noirs jouent e6."]]],
+["Gambit de la dame refusé","1.d4","Défendre d5 sans prendre le pion c4",[
+["d4","d2d4","Contrôle de e5 et c5."],["d5","d7d5","Les Noirs contestent le centre."],["c4","c2c4","Les Blancs attaquent le pion d5."],["e6","e7e6","Les Noirs soutiennent d5."],["Nc3","b1c3","Développement avec pression sur d5."],["Nf6","g8f6","Les Noirs développent et contrôlent e4."]]],
+["Système de Londres","1.d4","Installer une structure facile à reconnaître",[
+["d4","d2d4","Premier pied au centre."],["d5","d7d5","Réponse centrale des Noirs."],["Bf4","c1f4","Le fou sort avant e3."],["Nf6","g8f6","Développement naturel."],["e3","e2e3","Les Blancs sécurisent d4 et ouvrent le fou f1."],["e6","e7e6","Les Noirs consolident d5."],["Nf3","g1f3","Le cavalier renforce le centre."],["Bd6","f8d6","Les Noirs proposent l’échange des fous de cases noires."]]],
+["Indienne du roi","1.d4","Laisser le centre blanc avancer, puis le contester",[
+["d4","d2d4","Les Blancs occupent le centre."],["Nf6","g8f6","Les Noirs empêchent e4 facilement."],["c4","c2c4","Les Blancs gagnent de l’espace."],["g6","g7g6","Préparation du fianchetto."],["Nc3","b1c3","Le cavalier soutient e4."],["Bg7","f8g7","Le fou vise la longue diagonale."],["e4","e2e4","Les Blancs construisent un large centre."],["d6","d7d6","Les Noirs préparent le roque et la lutte centrale."]]],
+["Nimzo-indienne","1.d4","Clouer le cavalier qui soutient le centre",[
+["d4","d2d4","Prise d’espace centrale."],["Nf6","g8f6","Contrôle de e4."],["c4","c2c4","Les Blancs étendent le centre."],["e6","e7e6","Les Noirs ouvrent le fou f8."],["Nc3","b1c3","Le cavalier soutient e4."],["Bb4","f8b4","Le fou cloue le cavalier c3 au roi."]]],
+["Anglaise","1.c4","Contrôler d5 depuis l’aile dame",[
+["c4","c2c4","Le pion contrôle d5."],["e5","e7e5","Les Noirs prennent de l’espace au centre."],["Nc3","b1c3","Le cavalier appuie d5 et e4."],["Nf6","g8f6","Développement et contrôle central."],["g3","g2g3","Préparation du fou en g2."],["d5","d7d5","Les Noirs contestent maintenant le centre."]]]
+];
+const openings = raw.map(([name,first,summary,moves])=>({name,first,summary,moves:moves.map(([san,uci,note])=>({san,uci,note}))}));
+const icons={wk:"♔",wq:"♕",wr:"♖",wb:"♗",wn:"♘",wp:"♙",bk:"♚",bq:"♛",br:"♜",bb:"♝",bn:"♞",bp:"♟"};
+const names={p:"pion",n:"cavalier",b:"fou",r:"tour",q:"dame",k:"roi"};
+const files="abcdefgh";
+let opening=openings[0],step=0,flipped=false,selected="",showHint=false,message="";
+function initialBoard(){const b={};for(let i=0;i<8;i++){b[files[i]+"2"]="wp";b[files[i]+"7"]="bp";b[files[i]+"1"]="w"+"rnbqkbnr"[i];b[files[i]+"8"]="b"+"rnbqkbnr"[i]}return b}
+function makeMove(b,uci){const from=uci.slice(0,2),to=uci.slice(2,4),p=b[from];if(!p)return;b[to]=uci[4]?p[0]+uci[4]:p;delete b[from];if(p[1]==="k"&&Math.abs(files.indexOf(from[0])-files.indexOf(to[0]))===2){const rank=from[1],short=to[0]==="g",rf=(short?"h":"a")+rank,rt=(short?"f":"d")+rank;b[rt]=b[rf];delete b[rf]}}
+function boardAt(n){const b=initialBoard();for(let i=0;i<n;i++)makeMove(b,opening.moves[i].uci);return b}
+function squareAt(row,col){return files[flipped?7-col:col]+(flipped?row+1:8-row)}
+function center(square){let col=files.indexOf(square[0]),row=8-Number(square[1]);return[(flipped?7-col:col)*100+50,(flipped?7-row:row)*100+50]}
+function showMessage(text){message=text;document.getElementById("status").textContent=text}
+function clickSquare(square,b){
+ if(step>=opening.moves.length)return;
+ const expected=opening.moves[step].uci,side=step%2===0?"w":"b";
+ if(!selected){if(b[square]&&b[square][0]===side){selected=square;render()}else showMessage("Sélectionne une pièce du camp qui doit jouer.");return}
+ if(square===selected){selected="";render();return}
+ if(selected+square===expected.slice(0,4)){const san=opening.moves[step].san;step++;selected="";showHint=false;message="Bien joué : "+san+".";render()}
+ else{selected="";showHint=false;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
+}
+function draw(){
+ const b=boardAt(step),board=document.getElementById("board");board.replaceChildren();
+ const move=showHint?opening.moves[step]:opening.moves[step-1],uci=move?.uci;
+ for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add(showHint?"hint":"last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){const glyph=document.createElement("span");glyph.className="piece "+(piece[0]==="w"?"white":"black");glyph.textContent=icons[piece];cell.append(glyph)}cell.addEventListener("click",()=>clickSquare(sq,b));board.append(cell)}
+ const arrow=document.getElementById("arrow");if(uci){const a=center(uci.slice(0,2)),z=center(uci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",showHint?"blue":"");arrow.style.display=""}else arrow.style.display="none"
+}
+function render(){
+ document.getElementById("title").textContent=opening.name;document.getElementById("intro").textContent=opening.summary;
+ draw();
+ const last=opening.moves[step-1],next=opening.moves[step];
+ document.getElementById("step").textContent=last?(Math.ceil(step/2)+". "+(step%2?"":"… ")+last.san):"Position initiale";
+ document.getElementById("first").disabled=document.getElementById("prev").disabled=step===0;
+ document.getElementById("next").disabled=document.getElementById("last").disabled=step===opening.moves.length;
+ document.getElementById("hint").disabled=document.getElementById("answer").disabled=!next;
+ const status=document.getElementById("status");status.classList.toggle("finished",!next);status.textContent=message||(next?"À toi de jouer avec les "+(step%2?"Noirs":"Blancs")+". Trouve le prochain coup.":"Ligne terminée. Choisis une autre ouverture ou recommence.");
+ const lesson=document.getElementById("lesson");lesson.replaceChildren();const strong=document.createElement("strong");strong.textContent=showHint&&next?"Indice : "+next.san:last?"Pourquoi "+last.san+" ?":"Objectif";const p=document.createElement("p");p.textContent=showHint&&next?next.note:last?last.note:opening.summary;lesson.append(strong,p);
+ for(const button of document.querySelectorAll(".move"))button.classList.toggle("active",Number(button.dataset.step)===step);
+ for(const button of document.querySelectorAll(".opening"))button.classList.toggle("active",button.dataset.name===opening.name);
+}
+function go(n){step=Math.max(0,Math.min(opening.moves.length,n));selected="";showHint=false;message="";render()}
+function renderLists(){
+ const list=document.getElementById("openings");list.replaceChildren();
+ for(const item of openings){const button=document.createElement("button");button.className="opening";button.dataset.name=item.name;button.innerHTML="<strong></strong><small></small>";button.querySelector("strong").textContent=item.name;button.querySelector("small").textContent=item.first;button.addEventListener("click",()=>{opening=item;go(0);renderSequence()});list.append(button)}
+ renderSequence()
+}
+function renderSequence(){const el=document.getElementById("sequence");el.replaceChildren();for(let i=0;i<opening.moves.length;i+=2){const num=document.createElement("span");num.className="num";num.textContent=(i/2+1)+".";el.append(num);for(let j=i;j<Math.min(i+2,opening.moves.length);j++){const b=document.createElement("button");b.className="move";b.dataset.step=j+1;b.textContent=opening.moves[j].san;b.addEventListener("click",()=>go(j+1));el.append(b)}}render()}
+document.getElementById("flip").addEventListener("click",()=>{flipped=!flipped;render()});
+document.getElementById("first").addEventListener("click",()=>go(0));
+document.getElementById("prev").addEventListener("click",()=>go(step-1));
+document.getElementById("next").addEventListener("click",()=>go(step+1));
+document.getElementById("last").addEventListener("click",()=>go(opening.moves.length));
+document.getElementById("reset").addEventListener("click",()=>go(0));
+document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length){showHint=true;message="La flèche bleue indique le coup de cette ligne.";render()}});
+document.getElementById("answer").addEventListener("click",()=>{if(step<opening.moves.length)go(step+1)});
+document.addEventListener("keydown",e=>{if(e.key==="ArrowLeft"){e.preventDefault();go(step-1)}if(e.key==="ArrowRight"){e.preventDefault();go(step+1)}});
+renderLists();
+</script>
+</body>
+</html>

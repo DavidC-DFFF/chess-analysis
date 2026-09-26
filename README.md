@@ -18,3 +18,7 @@ npm run build
 ```
 
 Le fichier src/review.json contient pour le moment la position FEN transmise après 1.d4. Quand David enverra le PGN complet, Codex analysera la partie et remplacera cette revue par ses classifications, conseils et variantes. Les fichiers PGN personnels sont ignorés par Git.
+
+## Apprendre les ouvertures sans serveur
+
+Ouvrir `ouvertures.html` directement dans un navigateur (double-clic sur le fichier). La page contient ses styles, son JavaScript et 11 lignes d’ouverture ; elle ne demande ni installation, ni connexion, ni serveur. On peut jouer chaque coup sur l’échiquier, demander un indice, afficher la réponse ou revenir à une position précédente.
