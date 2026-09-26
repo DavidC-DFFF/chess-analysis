@@ -14,7 +14,7 @@
 .opening-panel select{width:100%;padding:11px 38px 11px 12px;border:1px solid #708069;border-radius:8px;background:#17251c;color:#f2ede2;font:inherit;cursor:pointer}
 .opening-panel select:focus-visible{outline:3px solid #e4bd71;outline-offset:2px}
 .opening-panel p{margin:9px 0 0;font-size:.83rem}
-@media (min-width:1000px) and (min-height:700px){
+@media (min-width:1000px) and (min-height:760px){
  body{height:100dvh;overflow:hidden}
  .top{height:56px;padding-top:8px;padding-bottom:8px}
  .shell{height:calc(100dvh - 56px);padding-top:12px;padding-bottom:10px;grid-template-columns:minmax(0,1fr) minmax(300px,360px);gap:24px;align-items:start}
@@ -22,7 +22,7 @@
  .board-head h1{font-size:1.55rem;margin-bottom:3px}
  .board-head .muted{font-size:.85rem;margin-bottom:0}
  .board-head .eyebrow{margin-bottom:4px}
- .board-wrap{width:min(100%,700px,calc(100dvh - 300px))}
+ .board-wrap{width:min(100%,700px,calc(100dvh - 180px))}
  .controls{margin-top:8px}
  .controls button,.actions button{padding:7px 12px}
  .actions{margin-top:7px}
@@ -33,6 +33,19 @@
  .sequence{max-height:none;overflow:visible}
  .legend{margin-top:5px}
 }
+
+.training-panel .controls{width:100%;display:grid;grid-template-columns:38px 38px minmax(0,1fr) 38px 38px;gap:5px;margin:0}
+.training-panel .controls button{min-width:0;height:38px;padding:4px;font-size:1rem}
+.training-panel .step-label{min-width:0;white-space:nowrap;font-size:.84rem}
+.training-panel .actions{width:100%;display:grid;grid-template-columns:.8fr 1.45fr 1.3fr;gap:6px;margin-top:9px}
+.training-panel .actions button{min-width:0;padding:8px 5px;font-size:.83rem;white-space:nowrap}
+.training-panel .status{width:100%;min-height:0;text-align:left;margin:9px 0 0;font-size:.84rem}
+@media (min-width:1000px) and (min-height:760px){
+ .sidebar{gap:8px}
+ .panel{padding:12px}
+ .sequence .move{padding:4px 7px}
+ .opening-panel p{margin-top:7px}
+}
 </style>
 </head>
 <body>
@@ -41,12 +54,14 @@
 <section aria-label="Échiquier d’entraînement">
 <div class="board-head"><div><p class="eyebrow">APPRENDRE UNE LIGNE</p><h1 id="title"></h1><p id="intro" class="muted"></p></div><button id="flip" class="icon" aria-label="Retourner l’échiquier" title="Retourner l’échiquier">⇅</button></div>
 <div class="board-wrap"><div id="board" class="board" role="group" aria-label="Cases de l’échiquier"></div><svg class="arrows" viewBox="0 0 800 800" aria-hidden="true"><defs><marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#f0c060"/></marker><marker id="head-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#65bee2"/></marker></defs><line id="arrow"/></svg></div>
-<div class="controls"><button id="first" aria-label="Début">⏮</button><button id="prev" aria-label="Coup précédent">←</button><span id="step" class="step-label"></span><button id="next" aria-label="Coup suivant">→</button><button id="last" aria-label="Fin">⏭</button></div>
-<div class="actions"><button id="hint">Indice</button><button id="answer" class="primary">Voir la réponse</button><button id="reset">Recommencer</button></div>
-<p id="status" class="status" aria-live="polite"></p>
+
 </section>
 <aside class="sidebar">
 <section class="panel opening-panel"><label for="opening-select">Choisir une ouverture</label><select id="opening-select" aria-label="Ouverture"></select><p>Joue les coups des deux camps sur l’échiquier. D’autres réponses restent possibles dans une vraie partie.</p></section>
+<section class="panel training-panel"><h2>Parcourir la ligne</h2>
+<div class="controls"><button id="first" aria-label="Début">⏮</button><button id="prev" aria-label="Coup précédent">←</button><span id="step" class="step-label"></span><button id="next" aria-label="Coup suivant">→</button><button id="last" aria-label="Fin">⏭</button></div>
+<div class="actions"><button id="hint">Indice</button><button id="answer" class="primary">Voir la réponse</button><button id="reset">Recommencer</button></div>
+<p id="status" class="status" aria-live="polite"></p></section>
 <section class="panel"><h2>Suite de coups</h2><div id="sequence" class="sequence"></div><div class="legend">Clique sur un coup pour revoir la position.</div></section>
 <section class="panel lesson"><h2>Idée à retenir</h2><div id="lesson"></div></section>
 </aside>
