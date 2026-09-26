@@ -46,6 +46,49 @@
  .sequence .move{padding:4px 7px}
  .opening-panel p{margin-top:7px}
 }
+
+.mode-picker{border:0;padding:0;margin:10px 0 0;min-width:0}
+.mode-picker legend{font-size:.81rem;font-weight:700;color:#c4d0c0;margin-bottom:6px}
+.mode-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}
+.mode-option{display:flex;align-items:center;justify-content:center;gap:4px;min-height:34px;padding:4px;border:1px solid #526451;border-radius:7px;background:#29392f;color:#e9ece5;font-size:.82rem;cursor:pointer;white-space:nowrap}
+.mode-option:has(input:checked){border-color:#dabb7e;background:#3b4332;color:#ffe3ad}
+.mode-option input{accent-color:#dabb7e;width:13px;height:13px;margin:0}
+.icon:disabled{opacity:.4;cursor:default}
+
+.panel-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.panel-heading h2{margin:0}
+.panel-heading button{border:1px solid #526451;border-radius:6px;background:#29392f;color:#e9ece5;padding:5px 8px;font-size:.78rem}
+.panel-heading button:hover{background:#3b5041}
+.sequence.blurred{filter:blur(5px);user-select:none;pointer-events:none}
+@media (min-width:780px) and (min-height:650px){
+ body{height:100dvh;overflow:hidden}
+ .top{height:50px;padding-top:5px;padding-bottom:5px}
+ .shell{max-width:1440px;height:calc(100dvh - 50px);padding:10px clamp(14px,3vw,44px) 8px;display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,340px);gap:18px;align-items:start}
+ .board-head{margin-bottom:7px}
+ .board-head h1{font-size:1.5rem;margin-bottom:2px}
+ .board-head .eyebrow{margin-bottom:3px}
+ .board-head .muted{font-size:.82rem;margin-bottom:0}
+ .board-wrap{width:min(100%,700px,calc(100dvh - 170px))}
+ .sidebar{display:flex;flex-direction:column;gap:6px}
+ .panel{padding:10px}
+ .panel h2{margin-bottom:5px}
+ .opening-panel{grid-column:auto}
+ .opening-panel label{margin-bottom:5px}
+ .opening-panel select{padding:7px 32px 7px 9px;font-size:.9rem}
+ .mode-picker{margin-top:6px}
+ .mode-picker legend{margin-bottom:4px}
+ .mode-option{min-height:29px;padding:3px;font-size:.76rem}
+ .training-panel .controls button{height:33px}
+ .training-panel .actions{margin-top:6px}
+ .training-panel .actions button{padding:6px 4px;font-size:.78rem}
+ .training-panel .status{margin-top:6px;font-size:.8rem;line-height:1.35}
+ .panel-heading{margin-bottom:4px}
+ .sequence{max-height:none;overflow:visible;gap:2px}
+ .sequence .move{padding:3px 6px;font-size:.85rem}
+ .legend{margin-top:4px;font-size:.73rem}
+ .lesson p{margin-top:4px;font-size:.82rem;line-height:1.35}
+}
+.move-note{margin:6px 0 0!important;color:#b7c3b5;font-size:.8rem!important;line-height:1.35}
 </style>
 </head>
 <body>
@@ -57,13 +100,18 @@
 
 </section>
 <aside class="sidebar">
-<section class="panel opening-panel"><label for="opening-select">Choisir une ouverture</label><select id="opening-select" aria-label="Ouverture"></select><p>Joue les coups des deux camps sur l’échiquier. D’autres réponses restent possibles dans une vraie partie.</p></section>
+<section class="panel opening-panel"><label for="opening-select">Choisir une ouverture</label><select id="opening-select" aria-label="Ouverture"></select>
+<fieldset class="mode-picker"><legend>Mode de jeu</legend><div class="mode-options">
+<label class="mode-option"><input type="radio" name="mode" value="white">Blancs</label>
+<label class="mode-option"><input type="radio" name="mode" value="black">Noirs</label>
+<label class="mode-option"><input type="radio" name="mode" value="autonomous" checked>Autonome</label>
+</div></fieldset></section>
 <section class="panel training-panel"><h2>Parcourir la ligne</h2>
 <div class="controls"><button id="first" aria-label="Début">⏮</button><button id="prev" aria-label="Coup précédent">←</button><span id="step" class="step-label"></span><button id="next" aria-label="Coup suivant">→</button><button id="last" aria-label="Fin">⏭</button></div>
 <div class="actions"><button id="hint">Indice</button><button id="answer" class="primary">Voir la réponse</button><button id="reset">Recommencer</button></div>
-<p id="status" class="status" aria-live="polite"></p></section>
-<section class="panel"><h2>Suite de coups</h2><div id="sequence" class="sequence"></div><div class="legend">Clique sur un coup pour revoir la position.</div></section>
-<section class="panel lesson"><h2>Idée à retenir</h2><div id="lesson"></div></section>
+<p id="status" class="status" aria-live="polite"></p><p id="move-note" class="move-note" hidden></p></section>
+<section class="panel moves-panel"><div class="panel-heading"><h2>Suite de coups</h2><button id="toggle-sequence" type="button" aria-label="Révéler la suite de coups">Révéler</button></div><div id="sequence" class="sequence blurred" aria-hidden="true"></div><div class="legend">Révèle la suite pour revenir à un coup précis.</div></section>
+
 </aside>
 </main>
 <script>
@@ -95,26 +143,31 @@ const openings = raw.map(([name,first,summary,moves])=>({name,first,summary,move
 const icons={wk:"♔",wq:"♕",wr:"♖",wb:"♗",wn:"♘",wp:"♙",bk:"♚",bq:"♛",br:"♜",bb:"♝",bn:"♞",bp:"♟"};
 const names={p:"pion",n:"cavalier",b:"fou",r:"tour",q:"dame",k:"roi"};
 const files="abcdefgh";
-let opening=openings[0],step=0,flipped=false,selected="",showHint=false,message="";
+let opening=openings[0],step=0,flipped=false,selected="",showHint=false,message="",mode="autonomous",replyTimer=null,sequenceHidden=true;
 function initialBoard(){const b={};for(let i=0;i<8;i++){b[files[i]+"2"]="wp";b[files[i]+"7"]="bp";b[files[i]+"1"]="w"+"rnbqkbnr"[i];b[files[i]+"8"]="b"+"rnbqkbnr"[i]}return b}
 function makeMove(b,uci){const from=uci.slice(0,2),to=uci.slice(2,4),p=b[from];if(!p)return;b[to]=uci[4]?p[0]+uci[4]:p;delete b[from];if(p[1]==="k"&&Math.abs(files.indexOf(from[0])-files.indexOf(to[0]))===2){const rank=from[1],short=to[0]==="g",rf=(short?"h":"a")+rank,rt=(short?"f":"d")+rank;b[rt]=b[rf];delete b[rf]}}
 function boardAt(n){const b=initialBoard();for(let i=0;i<n;i++)makeMove(b,opening.moves[i].uci);return b}
 function squareAt(row,col){return files[flipped?7-col:col]+(flipped?row+1:8-row)}
 function center(square){let col=files.indexOf(square[0]),row=8-Number(square[1]);return[(flipped?7-col:col)*100+50,(flipped?7-row:row)*100+50]}
 function showMessage(text){message=text;document.getElementById("status").textContent=text}
+function autoTurn(){return step<opening.moves.length&&((mode==="white"&&step%2===1)||(mode==="black"&&step%2===0))}
+function cancelReply(){if(replyTimer!==null){clearTimeout(replyTimer);replyTimer=null}}
+function hintPiece(){const next=opening.moves[step];if(!next)return "";const piece=boardAt(step)[next.uci.slice(0,2)];return ({p:"un pion",n:"un cavalier",b:"un fou",r:"une tour",q:"la dame",k:"le roi"})[piece?.[1]]||"une pièce"}
+function updateSequenceVisibility(){const el=document.getElementById("sequence"),button=document.getElementById("toggle-sequence");el.classList.toggle("blurred",sequenceHidden);el.inert=sequenceHidden;el.setAttribute("aria-hidden",String(sequenceHidden));button.textContent=sequenceHidden?"Révéler":"Flouter";button.setAttribute("aria-label",sequenceHidden?"Révéler la suite de coups":"Flouter la suite de coups")}
 function clickSquare(square,b){
  if(step>=opening.moves.length)return;
+ if(autoTurn()){showMessage(replyTimer!==null?"Attends la réponse automatique.":"Ce coup appartient à l’autre camp. Utilise « Voir la réponse » pour continuer.");return}
  const expected=opening.moves[step].uci,side=step%2===0?"w":"b";
- if(!selected){if(b[square]&&b[square][0]===side){selected=square;render()}else showMessage("Sélectionne une pièce du camp qui doit jouer.");return}
+ if(!selected){if(b[square]&&b[square][0]===side){selected=square;message="";render()}else showMessage("Sélectionne une pièce du camp qui doit jouer.");return}
  if(square===selected){selected="";render();return}
- if(selected+square===expected.slice(0,4)){const san=opening.moves[step].san;step++;selected="";showHint=false;message="Bien joué : "+san+".";render()}
+ if(selected+square===expected.slice(0,4)){const san=opening.moves[step].san;go(step+1,true);if(mode==="autonomous")showMessage("Bien joué : "+san+".")}
  else{selected="";showHint=false;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
 }
 function draw(){
  const b=boardAt(step),board=document.getElementById("board");board.replaceChildren();
- const move=showHint?opening.moves[step]:opening.moves[step-1],uci=move?.uci;
- for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add(showHint?"hint":"last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){const glyph=document.createElement("span");glyph.className="piece "+(piece[0]==="w"?"white":"black");glyph.textContent=icons[piece];cell.append(glyph)}cell.addEventListener("click",()=>clickSquare(sq,b));board.append(cell)}
- const arrow=document.getElementById("arrow");if(uci){const a=center(uci.slice(0,2)),z=center(uci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",showHint?"blue":"");arrow.style.display=""}else arrow.style.display="none"
+ const move=opening.moves[step-1],uci=move?.uci;
+ for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){const glyph=document.createElement("span");glyph.className="piece "+(piece[0]==="w"?"white":"black");glyph.textContent=icons[piece];cell.append(glyph)}cell.addEventListener("click",()=>clickSquare(sq,b));board.append(cell)}
+ const arrow=document.getElementById("arrow");if(uci){const a=center(uci.slice(0,2)),z=center(uci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class","");arrow.style.display=""}else arrow.style.display="none"
 }
 function render(){
  document.getElementById("title").textContent=opening.name;document.getElementById("intro").textContent=opening.summary;
@@ -123,29 +176,38 @@ function render(){
  document.getElementById("step").textContent=last?(Math.ceil(step/2)+". "+(step%2?"":"… ")+last.san):"Position initiale";
  document.getElementById("first").disabled=document.getElementById("prev").disabled=step===0;
  document.getElementById("next").disabled=document.getElementById("last").disabled=step===opening.moves.length;
- document.getElementById("hint").disabled=document.getElementById("answer").disabled=!next;
- const status=document.getElementById("status");status.classList.toggle("finished",!next);status.textContent=message||(next?"À toi de jouer avec les "+(step%2?"Noirs":"Blancs")+". Trouve le prochain coup.":"Ligne terminée. Choisis une autre ouverture ou recommence.");
- const lesson=document.getElementById("lesson");lesson.replaceChildren();const strong=document.createElement("strong");strong.textContent=showHint&&next?"Indice : "+next.san:last?"Pourquoi "+last.san+" ?":"Objectif";const p=document.createElement("p");p.textContent=showHint&&next?next.note:last?last.note:opening.summary;lesson.append(strong,p);
+ document.getElementById("hint").disabled=document.getElementById("answer").disabled=!next||replyTimer!==null;
+ document.getElementById("flip").disabled=mode!=="autonomous";
+ const status=document.getElementById("status");status.classList.toggle("finished",!next);
+ const prompt=!next?"Ligne terminée. Choisis une autre ouverture ou recommence.":autoTurn()?(replyTimer!==null?"Réponse des "+(step%2?"Noirs":"Blancs")+" dans une seconde…":"Réponse en pause. Utilise « Voir la réponse »."):"À toi de jouer avec les "+(step%2?"Noirs":"Blancs")+". Trouve le prochain coup.";
+ status.textContent=message||prompt;
+ const note=document.getElementById("move-note");note.hidden=!last;note.textContent=last?last.note:"";
  for(const button of document.querySelectorAll(".move"))button.classList.toggle("active",Number(button.dataset.step)===step);
  document.getElementById("opening-select").value=opening.name;
 }
-function go(n){step=Math.max(0,Math.min(opening.moves.length,n));selected="";showHint=false;message="";render()}
+function go(n,auto=false){
+ cancelReply();step=Math.max(0,Math.min(opening.moves.length,n));selected="";showHint=false;message="";
+ if(auto&&autoTurn()){const scheduledStep=step;replyTimer=setTimeout(()=>{replyTimer=null;if(step===scheduledStep&&autoTurn())go(step+1,true)},1000)}
+ render()
+}
 function renderLists(){
  const select=document.getElementById("opening-select");
  select.replaceChildren();
  for(const item of openings){const option=document.createElement("option");option.value=item.name;option.textContent=item.name+" · "+item.first;select.append(option)}
- select.addEventListener("change",()=>{opening=openings.find(item=>item.name===select.value);go(0);renderSequence()});
+ select.addEventListener("change",()=>{opening=openings.find(item=>item.name===select.value);go(0,true);renderSequence()});
  renderSequence()
 }
-function renderSequence(){const el=document.getElementById("sequence");el.replaceChildren();for(let i=0;i<opening.moves.length;i+=2){const num=document.createElement("span");num.className="num";num.textContent=(i/2+1)+".";el.append(num);for(let j=i;j<Math.min(i+2,opening.moves.length);j++){const b=document.createElement("button");b.className="move";b.dataset.step=j+1;b.textContent=opening.moves[j].san;b.addEventListener("click",()=>go(j+1));el.append(b)}}render()}
-document.getElementById("flip").addEventListener("click",()=>{flipped=!flipped;render()});
+function renderSequence(){const el=document.getElementById("sequence");el.replaceChildren();for(let i=0;i<opening.moves.length;i+=2){const num=document.createElement("span");num.className="num";num.textContent=(i/2+1)+".";el.append(num);for(let j=i;j<Math.min(i+2,opening.moves.length);j++){const b=document.createElement("button");b.className="move";b.dataset.step=j+1;b.textContent=opening.moves[j].san;b.addEventListener("click",()=>go(j+1));el.append(b)}}updateSequenceVisibility();render()}
+document.getElementById("flip").addEventListener("click",()=>{if(mode==="autonomous"){flipped=!flipped;render()}});
+for(const input of document.querySelectorAll('input[name="mode"]'))input.addEventListener("change",()=>{if(!input.checked)return;mode=input.value;flipped=mode==="black";go(0,true)});
 document.getElementById("first").addEventListener("click",()=>go(0));
 document.getElementById("prev").addEventListener("click",()=>go(step-1));
 document.getElementById("next").addEventListener("click",()=>go(step+1));
 document.getElementById("last").addEventListener("click",()=>go(opening.moves.length));
-document.getElementById("reset").addEventListener("click",()=>go(0));
-document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length){showHint=true;message="La flèche bleue indique le coup de cette ligne.";render()}});
-document.getElementById("answer").addEventListener("click",()=>{if(step<opening.moves.length)go(step+1)});
+document.getElementById("reset").addEventListener("click",()=>go(0,true));
+document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length){showHint=true;message="Indice : joue "+hintPiece()+".";render()}});
+document.getElementById("answer").addEventListener("click",()=>{if(step<opening.moves.length)go(step+1,true)});
+document.getElementById("toggle-sequence").addEventListener("click",()=>{sequenceHidden=!sequenceHidden;updateSequenceVisibility()});
 document.addEventListener("keydown",e=>{if(e.key==="ArrowLeft"){e.preventDefault();go(step-1)}if(e.key==="ArrowRight"){e.preventDefault();go(step+1)}});
 renderLists();
 </script>

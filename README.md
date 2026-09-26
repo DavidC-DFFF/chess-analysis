@@ -21,4 +21,4 @@ Le fichier src/review.json contient pour le moment la position FEN transmise apr
 
 ## Apprendre les ouvertures sans serveur
 
-Ouvrir `ouvertures.html` directement dans un navigateur (double-clic sur le fichier). La page contient ses styles, son JavaScript et 11 lignes d’ouverture ; elle ne demande ni installation, ni connexion, ni serveur. On peut jouer chaque coup sur l’échiquier, demander un indice, afficher la réponse ou revenir à une position précédente.
+Ouvrir `ouvertures.html` directement dans un navigateur (double-clic sur le fichier). La page contient ses styles, son JavaScript et 11 lignes d’ouverture ; elle ne demande ni installation, ni connexion, ni serveur. Les modes Blancs et Noirs font jouer l’autre camp après une seconde et placent le camp choisi en bas ; le mode Autonome laisse jouer les deux camps. On peut flouter la suite, demander un indice limité à la pièce, afficher la réponse ou revenir à une position précédente.
