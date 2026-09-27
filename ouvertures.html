@@ -91,6 +91,7 @@
 .move-note{margin:7px 0 0;color:#d8e2d3;font-size:.82rem;line-height:1.4}.move-note strong{display:block;color:#e9ca8d;margin-bottom:3px}.move-note p{margin:0!important;color:#d8e2d3!important;font-size:inherit!important;line-height:inherit!important}
 
 .piece{width:82%;height:82%;object-fit:contain;font:initial;max-width:100%;max-height:100%}
+.sq.has-piece{touch-action:none}.sq.dragging .piece{opacity:.3}.drag-ghost{position:fixed;z-index:50;pointer-events:none;user-select:none;filter:drop-shadow(0 8px 10px #0008)}
 .sq.hint-target{box-shadow:inset 0 0 0 5px #83def5,inset 0 0 30px #83def588}
 .sq.hint-origin{box-shadow:inset 0 0 0 5px #83def5,inset 0 0 22px #83def588}
 .sq.hint-origin .piece{filter:drop-shadow(0 0 8px #8ae5ff)}
@@ -605,7 +606,7 @@ const raw = [
 const openings = raw.map(([name,first,summary,moves])=>({name,first,summary,moves:moves.map(([san,uci,note])=>({san,uci,note}))}));
 const names={p:"pion",n:"cavalier",b:"fou",r:"tour",q:"dame",k:"roi"};
 const files="abcdefgh";
-let opening=openings[0],step=0,flipped=false,selected="",hintLevel=0,message="",mode="autonomous",replyTimer=null,sequenceHidden=true;
+let opening=openings[0],step=0,flipped=false,selected="",preview=null,hintLevel=0,message="",dragState=null,suppressNextClick=false,mode="autonomous",replyTimer=null,sequenceHidden=true;
 function initialBoard(){const b={};for(let i=0;i<8;i++){b[files[i]+"2"]="wp";b[files[i]+"7"]="bp";b[files[i]+"1"]="w"+"rnbqkbnr"[i];b[files[i]+"8"]="b"+"rnbqkbnr"[i]}return b}
 function makeMove(b,uci){const from=uci.slice(0,2),to=uci.slice(2,4),p=b[from];if(!p)return;b[to]=uci[4]?p[0]+uci[4]:p;delete b[from];if(p[1]==="k"&&Math.abs(files.indexOf(from[0])-files.indexOf(to[0]))===2){const rank=from[1],short=to[0]==="g",rf=(short?"h":"a")+rank,rt=(short?"f":"d")+rank;b[rt]=b[rf];delete b[rf]}}
 function boardAt(n){const b=initialBoard();for(let i=0;i<n;i++)makeMove(b,opening.moves[i].uci);return b}
@@ -615,21 +616,66 @@ function showMessage(text){message=text;document.getElementById("status").textCo
 function autoTurn(){return step<opening.moves.length&&((mode==="white"&&step%2===1)||(mode==="black"&&step%2===0))}
 function cancelReply(){if(replyTimer!==null){clearTimeout(replyTimer);replyTimer=null}}
 function updateSequenceVisibility(){const el=document.getElementById("sequence"),button=document.getElementById("toggle-sequence");el.classList.toggle("blurred",sequenceHidden);el.inert=sequenceHidden;el.setAttribute("aria-hidden",String(sequenceHidden));button.textContent=sequenceHidden?"Révéler":"Flouter";button.setAttribute("aria-label",sequenceHidden?"Révéler la suite de coups":"Flouter la suite de coups")}
+function playDraggedMove(from,to){
+ if(step>=opening.moves.length||autoTurn()||from===to)return;
+ const expected=opening.moves[step].uci;
+ if(from+to===expected.slice(0,4)){const san=opening.moves[step].san;go(step+1,true);if(mode==="autonomous")showMessage("Bien joué : "+san+".")}
+ else{selected="";preview=null;hintLevel=0;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
+}
 function clickSquare(square,b){
  if(step>=opening.moves.length)return;
  if(autoTurn()){showMessage(replyTimer!==null?"Attends la réponse automatique.":"Ce coup appartient à l’autre camp. Utilise « Voir la réponse » pour continuer.");return}
- const expected=opening.moves[step].uci,side=step%2===0?"w":"b";
- if(!selected){if(b[square]&&b[square][0]===side){selected=square;message="";render()}else showMessage("Sélectionne une pièce du camp qui doit jouer.");return}
- if(square===selected){selected="";render();return}
- if(selected+square===expected.slice(0,4)){const san=opening.moves[step].san;go(step+1,true);if(mode==="autonomous")showMessage("Bien joué : "+san+".")}
- else{selected="";hintLevel=0;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
+ const side=step%2===0?"w":"b";
+ if(b[square]?.[0]===side){
+  selected=selected===square?"":square;preview=null;message="";render();return
+ }
+ if(!selected){showMessage("Sélectionne une pièce du camp qui doit jouer.");return}
+ preview={from:selected,to:square};selected="";hintLevel=0;message="Trajet affiché. Glisse la pièce pour jouer le coup.";render()
 }
+function updateDragGhost(x,y){
+ if(!dragState?.ghost)return;
+ dragState.ghost.style.left=x-dragState.ghost.width/2+"px";
+ dragState.ghost.style.top=y-dragState.ghost.height/2+"px"
+}
+const boardElement=document.getElementById("board");
+boardElement.addEventListener("pointerdown",e=>{
+ const cell=e.target.closest(".sq"),square=cell?.dataset.square,piece=boardAt(step)[square];
+ if(!cell||!piece||step>=opening.moves.length||autoTurn()||(e.pointerType==="mouse"&&e.button!==0)||piece[0]!== (step%2===0?"w":"b"))return;
+ dragState={id:e.pointerId,from:square,x:e.clientX,y:e.clientY,cell,dragging:false,ghost:null}
+});
+boardElement.addEventListener("pointermove",e=>{
+ if(!dragState||e.pointerId!==dragState.id)return;
+ if(!dragState.dragging&&Math.hypot(e.clientX-dragState.x,e.clientY-dragState.y)<8)return;
+ if(!dragState.dragging){
+  dragState.dragging=true;dragState.cell.classList.add("dragging");
+  const image=dragState.cell.querySelector(".piece"),ghost=image.cloneNode();
+  ghost.className="drag-ghost";ghost.alt="";ghost.draggable=false;
+  const size=dragState.cell.getBoundingClientRect().width*.82;
+  ghost.width=size;ghost.height=size;document.body.append(ghost);dragState.ghost=ghost;
+  boardElement.setPointerCapture?.(e.pointerId)
+ }
+ e.preventDefault();updateDragGhost(e.clientX,e.clientY)
+});
+function finishDrag(e){
+ if(!dragState||e.pointerId!==dragState.id)return;
+ const {from,dragging,cell,ghost}=dragState;
+ if(dragging){
+  e.preventDefault();suppressNextClick=true;setTimeout(()=>{suppressNextClick=false},0);
+  cell.classList.remove("dragging");ghost?.remove();
+  if(boardElement.hasPointerCapture?.(e.pointerId))boardElement.releasePointerCapture(e.pointerId);
+  const target=e.type==="pointerup"?document.elementFromPoint(e.clientX,e.clientY)?.closest(".sq"):null;
+  dragState=null;
+  if(target)playDraggedMove(from,target.dataset.square)
+ }else dragState=null
+}
+boardElement.addEventListener("pointerup",finishDrag);
+boardElement.addEventListener("pointercancel",finishDrag);
 function draw(){
  const b=boardAt(step),board=document.getElementById("board");board.replaceChildren();
- const move=hintLevel?null:opening.moves[step-1],uci=move?.uci;
+ const move=hintLevel||preview?null:opening.moves[step-1],uci=move?.uci;
  const hinted=opening.moves[step]?.uci,hintFrom=hintLevel>=1?hinted.slice(0,2):null,hintTo=hintLevel>=2?hinted.slice(2,4):null;
- for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(sq===hintFrom)cell.classList.add("hint-origin");if(sq===hintTo)cell.classList.add("hint-target");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){const image=document.createElement("img");image.className="piece";image.src="pieces/kaneo/"+piece[0]+piece[1].toUpperCase()+".svg";image.alt="";image.draggable=false;cell.append(image)}cell.addEventListener("click",()=>clickSquare(sq,b));board.append(cell)}
- const arrow=document.getElementById("arrow");const arrowUci=hintLevel>=3?hinted:uci;if(arrowUci){const a=center(arrowUci.slice(0,2)),z=center(arrowUci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",hintLevel>=3?"blue":"");arrow.style.display=""}else arrow.style.display="none"
+ for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.dataset.square=sq;cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(sq===hintFrom)cell.classList.add("hint-origin");if(sq===hintTo)cell.classList.add("hint-target");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){cell.classList.add("has-piece");const image=document.createElement("img");image.className="piece";image.src="pieces/kaneo/"+piece[0]+piece[1].toUpperCase()+".svg";image.alt="";image.draggable=false;cell.append(image)}cell.addEventListener("click",()=>{if(suppressNextClick)return;clickSquare(sq,b)});board.append(cell)}
+ const arrow=document.getElementById("arrow");const arrowUci=preview?preview.from+preview.to:hintLevel>=3?hinted:uci;if(arrowUci){const a=center(arrowUci.slice(0,2)),z=center(arrowUci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",preview||hintLevel>=3?"blue":"");arrow.style.display=""}else arrow.style.display="none"
 }
 function render(){
  document.getElementById("title").textContent=opening.name;document.getElementById("intro").textContent=opening.summary;
@@ -643,14 +689,14 @@ function render(){
  document.getElementById("answer").disabled=!next||replyTimer!==null;
  document.getElementById("flip").disabled=mode!=="autonomous";
  const status=document.getElementById("status");status.classList.toggle("finished",!next);
- const prompt=!next?"Ligne terminée.":autoTurn()?(replyTimer!==null?"Réponse des "+(step%2?"Noirs":"Blancs")+" dans une seconde…":"Réponse en pause. Utilise « Voir la réponse »."):"À toi · "+(step%2?"Noirs":"Blancs");
+ const prompt=!next?"Ligne terminée.":autoTurn()?(replyTimer!==null?"Réponse des "+(step%2?"Noirs":"Blancs")+" dans une seconde…":"Réponse en pause. Utilise « Voir la réponse »."):(step%2?"Noirs":"Blancs")+" : glisse une pièce pour jouer.";
  status.textContent=message||prompt;
  const note=document.getElementById("move-note"),explained=next||last;note.hidden=!explained;if(explained){document.getElementById("move-title").textContent=next?"Objectif du prochain coup":"Objectif de "+Math.ceil(step/2)+(step%2?". ":"… ")+last.san;document.getElementById("move-detail").textContent=explained.note}
  for(const button of document.querySelectorAll(".move"))button.classList.toggle("active",Number(button.dataset.step)===step);
  document.getElementById("opening-select").value=opening.name;
 }
 function go(n,auto=false){
- cancelReply();step=Math.max(0,Math.min(opening.moves.length,n));selected="";hintLevel=0;message="";
+ cancelReply();step=Math.max(0,Math.min(opening.moves.length,n));selected="";preview=null;hintLevel=0;message="";
  if(auto&&autoTurn()){const scheduledStep=step;replyTimer=setTimeout(()=>{replyTimer=null;if(step===scheduledStep&&autoTurn())go(step+1,true)},1000)}
  render()
 }
@@ -669,7 +715,7 @@ document.getElementById("prev").addEventListener("click",()=>go(step-1));
 document.getElementById("next").addEventListener("click",()=>go(step+1));
 document.getElementById("last").addEventListener("click",()=>go(opening.moves.length));
 document.getElementById("reset").addEventListener("click",()=>go(0,true));
-document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length&&hintLevel<3){hintLevel++;message=["","La pièce à déplacer est éclairée.","La case d’arrivée est éclairée.","Coup conseillé : "+opening.moves[step].san+"."][hintLevel];render()}});
+document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length&&hintLevel<3){selected="";preview=null;hintLevel++;message=["","La pièce à déplacer est éclairée.","La case d’arrivée est éclairée.","Coup conseillé : "+opening.moves[step].san+"."][hintLevel];render()}});
 document.getElementById("answer").addEventListener("click",()=>{if(step<opening.moves.length)go(step+1,true)});
 document.getElementById("toggle-sequence").addEventListener("click",()=>{sequenceHidden=!sequenceHidden;updateSequenceVisibility()});
 document.addEventListener("keydown",e=>{if(e.key==="ArrowLeft"){e.preventDefault();go(step-1)}if(e.key==="ArrowRight"){e.preventDefault();go(step+1)}});
