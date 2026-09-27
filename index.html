@@ -10,6 +10,11 @@
   </head>
   <body>
     <div id="app"></div>
+    <script>
+      if (location.pathname === "/chess-analysis/" || location.pathname === "/chess-analysis/index.html") {
+        location.replace(new URL("./ouvertures.html", location.href));
+      }
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
