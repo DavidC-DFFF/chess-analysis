@@ -99,7 +99,7 @@
 .sq.hint-origin::after{content:"";position:absolute;inset:8%;border:2px solid #a5ecff;border-radius:50%;pointer-events:none;z-index:2;animation:hint-pulse 1.2s ease-in-out infinite alternate}
 @keyframes hint-pulse{from{opacity:.55;transform:scale(.88)}to{opacity:1;transform:scale(1)}}
 @media(prefers-reduced-motion:reduce){.sq.hint-origin::after{animation:none}}
-.opening-panel #classic-options,.opening-panel #attack-options{margin-top:9px}
+.opening-panel #classic-options,.opening-panel #attack-options,.opening-panel #order-options{margin-top:9px}
 .shell>section,.panel{min-width:0}
 .opening-panel select{min-width:0;max-width:100%}
 @media(max-width:560px){.top{flex-wrap:wrap;gap:6px 12px}.shell{grid-template-columns:minmax(0,1fr)}.board-head>div{min-width:0}.board-head h1{overflow-wrap:anywhere}}
@@ -108,7 +108,26 @@
 .feedback[data-kind="correct"]{color:#bfe6b8!important}
 .feedback[data-kind="wrong"]{color:#f4d49d!important}
 [hidden]{display:none!important}
-@media(min-width:780px) and (min-height:650px){.sidebar{max-height:calc(100dvh - 104px);overflow-y:auto;padding-right:4px}.sequence{max-height:190px;overflow:auto}}
+/* Size the board column to the board itself; let the controls use the remaining space. */
+@media(min-width:780px) and (min-height:650px){
+ body{height:auto;min-height:100dvh;overflow:auto;display:flex;flex-direction:column}
+ .top,.site-footer{flex-shrink:0}
+ .shell{--board-size:min(700px,calc(100dvh - 202px),calc(56vw - 80px));width:100%;max-width:1800px;height:auto;flex:1;grid-template-columns:minmax(0,var(--board-size)) minmax(300px,1fr);gap:24px}
+ .board-wrap,.board-head{width:100%;max-width:700px}
+ .sidebar{max-height:none;overflow:visible;padding-right:0}
+ .sequence{max-height:190px;overflow:auto}
+ .sequence.blurred{max-height:60px;overflow:hidden}
+}
+@media(min-width:1400px) and (min-height:650px){
+ .shell{--board-size:min(700px,calc(100dvh - 202px));gap:24px}
+ .sidebar{display:grid;grid-template-columns:minmax(300px,1fr) minmax(280px,340px);grid-template-rows:auto 1fr;gap:14px;align-items:start}
+ .opening-panel{grid-column:2;grid-row:1}
+ .training-panel{grid-column:1;grid-row:1 / span 2}
+ .moves-panel{grid-column:2;grid-row:2}
+ .sequence{max-height:clamp(60px,calc(100dvh - 670px),240px)}
+ .sequence.blurred{max-height:60px;overflow:hidden}
+}
+.variant-label{color:#f0cd8d!important;font-weight:650;line-height:1.45;margin:0 0 12px!important}
 </style>
 </head>
 <body>
@@ -122,13 +141,13 @@
 <aside class="sidebar">
 <section class="panel opening-panel"><label for="practice-select">Choisir un entraînement</label><select id="practice-select"><option value="classic">Ouvertures classiques</option><option value="fegatello">Répondre à Fégatello</option><option value="berger">Répondre au coup du Berger</option></select>
 <div id="classic-options"><label for="opening-select">Choisir une ouverture</label><select id="opening-select" aria-label="Ouverture"></select></div>
-<div id="attack-options" hidden><label for="variant-select">Variante à travailler</label><select id="variant-select"></select><p>Joue les Noirs. En mode mélangé, les réponses du répertoire sont acceptées et les Blancs varient leurs coups.</p><button id="new-variant" type="button">Autre variante</button><p id="practice-progress" aria-live="polite"></p></div>
+<div id="attack-options" hidden><label for="variant-select">Variante à travailler</label><select id="variant-select"></select><div id="order-options"><label for="order-select">Parcours des variantes</label><select id="order-select"><option value="rotation">Rotation · dans l’ordre</option><option value="random">Aléatoire · sans répétition</option></select></div><p>Joue les Noirs. Toutes les variantes sont proposées avant le tour suivant.</p><button id="new-variant" type="button">Variante suivante</button><p id="coverage-progress" aria-live="polite"></p><p id="practice-progress" aria-live="polite"></p></div>
 <fieldset class="mode-picker"><legend>Mode de jeu</legend><div class="mode-options">
 <label class="mode-option"><input type="radio" name="mode" value="white">Blancs</label>
 <label class="mode-option"><input type="radio" name="mode" value="black">Noirs</label>
 <label class="mode-option"><input type="radio" name="mode" value="autonomous" checked>Autonome</label>
 </div></fieldset></section>
-<section class="panel training-panel"><h2>Parcourir la ligne</h2>
+<section class="panel training-panel"><h2>Parcourir la ligne</h2><p id="variant-label" class="variant-label" aria-live="polite" hidden></p>
 <div class="controls"><button id="first" aria-label="Début">⏮</button><button id="prev" aria-label="Coup précédent">←</button><span id="step" class="step-label"></span><button id="next" aria-label="Coup suivant">→</button><button id="last" aria-label="Fin">⏭</button></div>
 <div class="actions"><button id="hint">Indice</button><button id="answer" class="primary">Voir la réponse</button><button id="reset">Recommencer</button></div>
 <p id="status" class="status" aria-live="polite"></p><p id="feedback" class="feedback" role="status" hidden></p><div id="move-note" class="move-note" hidden><strong id="move-title"></strong><p id="move-detail"></p></div></section>
@@ -1660,9 +1679,18 @@ const trainingGroups = attackRaw.map(group=>({...group,lines:group.lines.map(([n
 const names={p:"pion",n:"cavalier",b:"fou",r:"tour",q:"dame",k:"roi"};
 const files="abcdefgh";
 let opening=openings[0],step=0,flipped=false,selected="",preview=null,hintLevel=0,message="",dragState=null,suppressNextClick=false,mode="autonomous",replyTimer=null,sequenceHidden=true;
-let training=null,variantFilter="",exerciseBag=[],feedback="",feedbackKind="",correctAnswers=0,wrongAnswers=0,assists=0;
+let training=null,variantFilter="",trainingOrder="rotation",feedback="",feedbackKind="",correctAnswers=0,wrongAnswers=0,assists=0;
+const trainingCycles=new Map();
 let classicOpening=opening,classicMode=mode;
 function shuffled(items){const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]]}return copy}
+function trainingCycle(){if(!trainingCycles.has(training.id))trainingCycles.set(training.id,{seen:new Set(),round:1});return trainingCycles.get(training.id)}
+function nextTrainingLine(){
+ const cycle=trainingCycle();
+ let remaining=training.lines.filter(line=>!cycle.seen.has(line.name));
+ if(!remaining.length){cycle.seen.clear();cycle.round++;remaining=training.lines;if(trainingOrder==="random"&&remaining.length>1)remaining=remaining.filter(line=>line!==opening)}
+ const line=trainingOrder==="random"?shuffled(remaining)[0]:remaining[0];
+ cycle.seen.add(line.name);return line
+}
 function trainingCandidates(){
  const lines=variantFilter?training.lines.filter(line=>line.name===variantFilter):training.lines;
  return lines.filter(line=>line.moves.length>step&&opening.moves.slice(0,step).every((move,i)=>line.moves[i]?.uci===move.uci))
@@ -1671,7 +1699,7 @@ function startExercise(repeat=false){
  cancelReply();
  if(!repeat){
   if(variantFilter)opening=training.lines.find(line=>line.name===variantFilter);
-  else{if(!exerciseBag.length){exerciseBag=shuffled(training.lines);if(exerciseBag.length>1&&exerciseBag.at(-1)===opening)[exerciseBag[0],exerciseBag[exerciseBag.length-1]]=[exerciseBag.at(-1),exerciseBag[0]]}opening=exerciseBag.pop()}
+  else opening=nextTrainingLine();
  }
  mode="black";flipped=true;sequenceHidden=true;feedback="";correctAnswers=0;wrongAnswers=0;assists=0;
  go(training.start);renderSequence()
@@ -1683,10 +1711,10 @@ function selectPractice(){
  document.getElementById("classic-options").hidden=!!training;
  document.getElementById("attack-options").hidden=!training;
  document.querySelector(".mode-picker").hidden=!!training;
- feedback="";variantFilter="";exerciseBag=[];
+ feedback="";variantFilter="";
  if(training){
   const select=document.getElementById("variant-select");select.replaceChildren();
-  const mixed=document.createElement("option");mixed.value="";mixed.textContent="Variantes mélangées";select.append(mixed);
+  const mixed=document.createElement("option");mixed.value="";mixed.textContent="Toutes les variantes";select.append(mixed);
   for(const line of training.lines){const option=document.createElement("option");option.value=line.name;option.textContent=line.name;select.append(option)}
   startExercise()
  }else{opening=classicOpening;mode=classicMode;flipped=mode==="black";sequenceHidden=true;go(0,true);renderSequence()}
@@ -1719,7 +1747,11 @@ function replyThreat(game){
 function playTrainingMove(from,to,shown=false){
  const uci=from+to,candidates=trainingCandidates().filter(line=>line.moves[step].uci.slice(0,4)===uci);
  if(candidates.length){
-  if(!candidates.includes(opening))opening=shuffled(candidates)[0];
+  if(!candidates.includes(opening)){
+   const unseen=candidates.filter(line=>!trainingCycle().seen.has(line.name)),choices=unseen.length?unseen:candidates;
+   opening=trainingOrder==="random"?shuffled(choices)[0]:choices[0];
+   if(!variantFilter)trainingCycle().seen.add(opening.name)
+  }
   const move=opening.moves[step];
   if(shown)assists++;else correctAnswers++;
   feedback=(shown?"Réponse montrée : ":"Bonne réponse pour cette variante : ")+move.san+". "+move.note;feedbackKind=shown?"help":"correct";
@@ -1821,6 +1853,10 @@ function render(){
  const result=document.getElementById("feedback");result.hidden=!training||!feedback;result.textContent=feedback;result.dataset.kind=feedbackKind;
  document.getElementById("practice-progress").textContent=correctAnswers+" réponse(s) trouvée(s) · "+wrongAnswers+" essai(s) à revoir · "+assists+" aide(s)";
  document.getElementById("new-variant").hidden=!!variantFilter;
+ document.getElementById("order-options").hidden=!!variantFilter;
+ document.getElementById("new-variant").textContent=trainingOrder==="rotation"?"Variante suivante":"Autre variante";
+ const variantLabel=document.getElementById("variant-label");variantLabel.hidden=!training;
+ if(training){variantLabel.textContent="Variante "+(training.lines.indexOf(opening)+1)+" / "+training.lines.length+" · "+opening.name;const cycle=trainingCycle();document.getElementById("coverage-progress").textContent=variantFilter?"Répétition de la variante sélectionnée":"Tour "+cycle.round+" · "+cycle.seen.size+" / "+training.lines.length+" variantes vues"}
  for(const input of document.querySelectorAll('input[name="mode"]'))input.checked=input.value===mode;
  for(const button of document.querySelectorAll(".move"))button.classList.toggle("active",Number(button.dataset.step)===step);
  document.getElementById("opening-select").value=opening.name;
@@ -1849,7 +1885,8 @@ document.getElementById("hint").addEventListener("click",()=>{if(step<opening.mo
 document.getElementById("answer").addEventListener("click",()=>{if(step<opening.moves.length){if(training&&!autoTurn()){const uci=opening.moves[step].uci;playTrainingMove(uci.slice(0,2),uci.slice(2,4),true)}else go(step+1,true)}});
 document.getElementById("toggle-sequence").addEventListener("click",()=>{sequenceHidden=!sequenceHidden;updateSequenceVisibility()});
 document.getElementById("practice-select").addEventListener("change",selectPractice);
-document.getElementById("variant-select").addEventListener("change",()=>{variantFilter=document.getElementById("variant-select").value;exerciseBag=[];startExercise()});
+document.getElementById("variant-select").addEventListener("change",()=>{variantFilter=document.getElementById("variant-select").value;startExercise()});
+document.getElementById("order-select").addEventListener("change",()=>{trainingOrder=document.getElementById("order-select").value;render()});
 document.getElementById("new-variant").addEventListener("click",()=>startExercise());
 document.addEventListener("keydown",e=>{if(e.target.closest('select,input,textarea'))return;if(e.key==="ArrowLeft"){e.preventDefault();go(step-1)}if(e.key==="ArrowRight"){e.preventDefault();go(step+1)}});
 renderLists();

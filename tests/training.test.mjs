@@ -97,9 +97,32 @@ test('montrer une réponse compte une aide, pas une réussite autonome',()=>{
  assert.match(s.state().feedback,/Réponse montrée/);
 });
 
-test('le sac de variantes parcourt chaque ligne avant de se renouveler',()=>{
+test('la rotation propose chaque variante dans l’ordre avant de recommencer',()=>{
  const s=session();const visited=new Set();
- for(let i=0;i<7;i++){s.run('startExercise()');visited.add(s.state().opening.name);assert.equal(s.state().step,7)}
+ for(let i=0;i<7;i++){s.run('startExercise()');visited.add(s.state().opening.name);assert.equal(s.state().opening.name,data.trainingGroups[0].lines[i].name);assert.equal(s.state().step,7)}
  assert.equal(visited.size,7);
  const previous=s.state().opening.name;s.run('startExercise()');assert.notEqual(s.state().opening.name,previous);
+ assert.equal(s.state().opening.name,data.trainingGroups[0].lines[0].name);
+ assert.equal(s.run('trainingCycle().round'),2);
+});
+
+test('le parcours aléatoire ne répète aucune variante pendant un tour',()=>{
+ const s=session();s.run('trainingOrder="random"');
+ for(let round=1;round<=3;round++){
+  const visited=new Set();
+  for(let i=0;i<7;i++){s.run('startExercise()');visited.add(s.state().opening.name)}
+  assert.equal(visited.size,7);
+  assert.equal(s.run('trainingCycle().round'),round);
+ }
+});
+
+test('changer de parcours conserve les variantes déjà vues ; recommencer ne fait pas avancer',()=>{
+ const s=session();s.run('startExercise();startExercise();trainingOrder="random"');
+ const seen=s.run('[...trainingCycle().seen]');
+ s.run('startExercise()');assert.ok(!seen.includes(s.state().opening.name));
+ const current=s.state().opening.name;
+ s.run('startExercise(true)');assert.equal(s.state().opening.name,current);
+ assert.equal(s.run('trainingCycle().seen.size'),3);
+ s.run('trainingOrder="rotation";startExercise()');
+ assert.equal(s.run('trainingCycle().seen.size'),4);
 });
