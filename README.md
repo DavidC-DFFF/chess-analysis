@@ -31,6 +31,8 @@ Ouvrir `ouvertures.html`, puis choisir **Répondre à Fégatello** ou **Répondr
 
 Le répertoire comprend **12 variantes** : 7 des Deux Cavaliers / Fégatello et 5 du Berger. Les lignes risquées avec `4…Nxe4` sont identifiées ; leur présence ne signifie pas qu’elles donnent un avantage noir. Les trajets illégaux du texte initial ont été corrigés : `Bxc6+` intervient après `Bxb5 Qxd5` et la dame passe par f3 avant de rejoindre b3. Les commentaires corrigent également la prétendue protection supplémentaire de f7 par `Nf6` et le faux clouage du pion f3.
 
+La variante « Capture du fou · 5.Bxd5 » continue après `6…Qxg5` par `7.dxc6 Qxg2 8.Rf1 Qxc6`. Elle illustre la menace sur la tour h1 et la perte du droit au petit roque après son déplacement. Le grand roque reste autorisé en principe ; le bilan final est un pion de plus pour les Noirs, avec autant de pièces mineures de chaque côté.
+
 Sur grand écran, l’échiquier, les commandes avec leurs commentaires et les sélecteurs occupent trois colonnes. Les panneaux restent entièrement accessibles sans barre de défilement sur la colonne de droite. Sur une fenêtre plus étroite, la disposition revient à deux colonnes, puis à une seule sur mobile ; le défilement de la page reste possible si la hauteur disponible l’exige.
 
 Les règles de `chess.js` sont embarquées dans le fichier HTML, avec leur licence BSD, pour conserver le fonctionnement hors ligne. Pour vérifier la légalité des lignes, les plateaux et les réponses alternatives :

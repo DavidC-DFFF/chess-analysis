@@ -36,6 +36,17 @@ test('le plateau autonome reproduit toutes les captures et tous les roques',()=>
  }
 });
 
+test('la variante Bxd5 continue jusqu’à Qxc6 et retire seulement le petit roque blanc',()=>{
+ const line=data.trainingGroups[0].lines.find(line=>line.name==='Capture du fou · 5.Bxd5');
+ assert.deepEqual(Array.from(line.moves.slice(-4),move=>move.san),['dxc6','Qxg2','Rf1','Qxc6']);
+ const game=new Chess();for(const move of line.moves)game.move(move.san,{strict:true});
+ assert.deepEqual(game.getCastlingRights('w'),{k:false,q:true});
+ assert.equal(game.get('f1')?.type,'r');assert.equal(game.get('c6')?.type,'q');
+ const pieces=game.board().flat().filter(Boolean);
+ assert.equal(pieces.filter(p=>p.color==='b'&&p.type==='p').length-pieces.filter(p=>p.color==='w'&&p.type==='p').length,1);
+ assert.equal(pieces.filter(p=>p.color==='b'&&['n','b'].includes(p.type)).length,pieces.filter(p=>p.color==='w'&&['n','b'].includes(p.type)).length);
+});
+
 function session(lineIndex=0,step=7){
  const group=data.trainingGroups[0];
  const elements=new Map();
