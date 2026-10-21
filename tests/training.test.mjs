@@ -71,20 +71,22 @@ test('une bonne réponse explique la rupture centrale',()=>{
 });
 
 test('le mode mélangé accepte une autre réponse étudiée et suit sa branche',()=>{
- const s=session();s.run('playTrainingMove("f6","e4")');
+ const s=session();s.run('trainingOrder="random";playTrainingMove("f6","e4")');
  assert.equal(s.state().step,8);
  assert.equal(s.state().opening.moves[7].san,'Nxe4');
  assert.equal(s.state().wrongAnswers,0);
- const second=session(0,9);second.run('playTrainingMove("b7","b5")');
+ const second=session(0,9);second.run('trainingOrder="random";playTrainingMove("b7","b5")');
  assert.equal(second.state().opening.moves[9].san,'b5');
  assert.equal(second.state().step,10);
 });
 
-test('une variante imposée distingue un coup légal hors répertoire',()=>{
+test('une variante sélectionnée s’adapte à une autre réponse du répertoire',()=>{
  const s=session();s.run('variantFilter=opening.name;playTrainingMove("f6","e4")');
- assert.equal(s.state().step,7);
- assert.equal(s.state().wrongAnswers,1);
- assert.match(s.state().feedback,/est légal.*pas partie/);
+ assert.equal(s.state().step,8);
+ assert.equal(s.state().wrongAnswers,0);
+ assert.equal(s.state().opening.moves[7].san,'Nxe4');
+ assert.equal(s.run('variantFilter'),s.state().opening.name);
+ assert.match(s.state().feedback,/Bonne réponse/);
 });
 
 test('h6 permet la fourchette sur la dame et la tour ; la position reste en place',()=>{
@@ -117,6 +119,36 @@ test('la rotation propose chaque variante dans l’ordre avant de recommencer',(
  assert.equal(s.run('trainingCycle().round'),2);
 });
 
+test('la rotation ne répète pas la même variante après un changement de réponse au dernier exercice',()=>{
+ const s=session();for(let i=0;i<7;i++)s.run('startExercise()');
+ s.run('playTrainingMove("d7","d5")');
+ const current=s.state().opening.name;
+ s.run('startExercise()');
+ assert.notEqual(s.state().opening.name,current);
+});
+
+test('la rotation accepte une autre branche puis passe à une variante encore non vue',()=>{
+ const s=session();s.run('startExercise()');
+ s.run('playTrainingMove("f6","e4")');
+ assert.equal(s.state().opening.moves[7].san,'Nxe4');
+ assert.equal(s.state().step,8);
+ assert.equal(s.state().wrongAnswers,0);
+ const seen=s.run('[...trainingCycle().seen]');
+ s.run('startExercise()');assert.ok(!seen.includes(s.state().opening.name));
+});
+
+test('passer de l’aléatoire à la rotation en fin de tour continue dans l’ordre sans répéter la variante',()=>{
+ const s=session();s.run('trainingOrder="random";Math.random=()=>0');
+ for(let i=0;i<7;i++)s.run('startExercise()');
+ assert.equal(s.state().opening.name,data.trainingGroups[0].lines[0].name);
+ s.run('trainingOrder="rotation"');
+ for(let i=1;i<=7;i++){
+  s.run('startExercise()');
+  assert.equal(s.state().opening.name,data.trainingGroups[0].lines[i%7].name);
+ }
+ assert.equal(s.run('trainingCycle().round'),2);
+});
+
 test('le parcours aléatoire ne répète aucune variante pendant un tour',()=>{
  const s=session();s.run('trainingOrder="random"');
  for(let round=1;round<=3;round++){
@@ -136,4 +168,28 @@ test('changer de parcours conserve les variantes déjà vues ; recommencer ne fa
  assert.equal(s.run('trainingCycle().seen.size'),3);
  s.run('trainingOrder="rotation";startExercise()');
  assert.equal(s.run('trainingCycle().seen.size'),4);
+});
+
+test('Learn commence au premier coup et revenir en Test conserve la variante et le parcours',()=>{
+ const s=session();s.run('startExercise()');
+ const current=s.state().opening.name;
+ s.run('learningMode="learn";startExercise(true)');
+ assert.equal(s.state().step,0);
+ assert.equal(s.state().opening.name,current);
+ assert.equal(s.run('trainingCycle().seen.size'),1);
+ s.run('learningMode="test";startExercise(true)');
+ assert.equal(s.state().step,7);
+ assert.equal(s.state().opening.name,current);
+ assert.equal(s.run('trainingCycle().seen.size'),1);
+});
+
+test('Learn ne déclenche pas de réponse automatique et accepte une autre branche étudiée',()=>{
+ const s=session();s.run(script.slice(script.indexOf('function autoTurn()'),script.indexOf('function cancelReply()')));
+ s.run('learningMode="learn";trainingOrder="random";step=0');
+ assert.equal(s.run('autoTurn()'),false);
+ s.run('step=7;playTrainingMove("f6","e4")');
+ assert.equal(s.state().step,8);
+ assert.equal(s.state().opening.moves[7].san,'Nxe4');
+ assert.equal(s.state().correctAnswers,0);
+ assert.equal(s.state().wrongAnswers,0);
 });

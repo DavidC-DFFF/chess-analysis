@@ -128,6 +128,11 @@
  .sequence.blurred{max-height:60px;overflow:hidden}
 }
 .variant-label{color:#f0cd8d!important;font-weight:650;line-height:1.45;margin:0 0 12px!important}
+.study-picker{border:0;padding:0;margin:0 0 12px;min-width:0}
+.study-picker legend{font-size:.81rem;color:#c4d0c0;margin-bottom:6px}
+.study-picker .mode-options{grid-template-columns:repeat(2,minmax(0,1fr))}
+.training-panel .actions:has(#hint[hidden]){grid-template-columns:1fr 1fr}
+.move-ghost{position:fixed;z-index:50;pointer-events:none;user-select:none;object-fit:contain}
 </style>
 </head>
 <body>
@@ -148,6 +153,7 @@
 <label class="mode-option"><input type="radio" name="mode" value="autonomous" checked>Autonome</label>
 </div></fieldset></section>
 <section class="panel training-panel"><h2>Parcourir la ligne</h2><p id="variant-label" class="variant-label" aria-live="polite" hidden></p>
+<fieldset id="study-picker" class="study-picker" hidden><legend>Mode d’entraînement</legend><div class="mode-options"><label class="mode-option"><input type="radio" name="study-mode" value="learn">Learn · apprendre</label><label class="mode-option"><input type="radio" name="study-mode" value="test" checked>Test · mémoriser</label></div></fieldset>
 <div class="controls"><button id="first" aria-label="Début">⏮</button><button id="prev" aria-label="Coup précédent">←</button><span id="step" class="step-label"></span><button id="next" aria-label="Coup suivant">→</button><button id="last" aria-label="Fin">⏭</button></div>
 <div class="actions"><button id="hint">Indice</button><button id="answer" class="primary">Voir la réponse</button><button id="reset">Recommencer</button></div>
 <p id="status" class="status" aria-live="polite"></p><p id="feedback" class="feedback" role="status" hidden></p><div id="move-note" class="move-note" hidden><strong id="move-title"></strong><p id="move-detail"></p></div></section>
@@ -723,17 +729,17 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Nf3",
             "g1f3",
-            "Développe le cavalier, protège d4 et rapproche les Blancs du roque."
+            "Le cavalier se développe, attaque le pion e5 et prépare le petit roque blanc."
           ],
           [
             "Nc6",
@@ -748,7 +754,7 @@ const attackRaw = [
           [
             "Nf6",
             "g8f6",
-            "Le cavalier f6 intercepte la ligne de la dame f3 vers f7 et se développe vers le centre."
+            "Le cavalier attaque le pion e4 et prépare le roque noir : c’est la défense des Deux Cavaliers."
           ],
           [
             "Ng5",
@@ -763,7 +769,7 @@ const attackRaw = [
           [
             "exd5",
             "e4d5",
-            "Le pion e4 capture en d5 et ouvre la colonne e."
+            "Le pion e4 capture le pion d5 et attaque les cases c6 et e6 depuis sa nouvelle position."
           ],
           [
             "Na5",
@@ -820,12 +826,12 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Le pion-roi occupe le centre et libère les diagonales du fou f1 et de la dame."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Les Noirs occupent le centre, contrôlent d4 et f4 et ouvrent leur fou f8."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Nf3",
@@ -870,7 +876,7 @@ const attackRaw = [
           [
             "exd5",
             "e4d5",
-            "Le pion e4 capture en d5 et ouvre la colonne e."
+            "Le pion e4 capture le pion d5 et attaque les cases c6 et e6 depuis sa nouvelle position."
           ],
           [
             "Qxg5",
@@ -907,17 +913,17 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Nf3",
             "g1f3",
-            "Développe le cavalier, protège d4 et rapproche les Blancs du roque."
+            "Le cavalier se développe, attaque le pion e5 et prépare le petit roque blanc."
           ],
           [
             "Nc6",
@@ -932,7 +938,7 @@ const attackRaw = [
           [
             "Nf6",
             "g8f6",
-            "Le cavalier f6 intercepte la ligne de la dame f3 vers f7 et se développe vers le centre."
+            "Le cavalier attaque le pion e4 et prépare le roque noir : c’est la défense des Deux Cavaliers."
           ],
           [
             "Ng5",
@@ -947,7 +953,7 @@ const attackRaw = [
           [
             "exd5",
             "e4d5",
-            "Le pion e4 capture en d5 et ouvre la colonne e."
+            "Le pion e4 capture le pion d5 et attaque les cases c6 et e6 depuis sa nouvelle position."
           ],
           [
             "b5",
@@ -974,17 +980,17 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Nf3",
             "g1f3",
-            "Développe le cavalier, protège d4 et rapproche les Blancs du roque."
+            "Le cavalier se développe, attaque le pion e5 et prépare le petit roque blanc."
           ],
           [
             "Nc6",
@@ -999,7 +1005,7 @@ const attackRaw = [
           [
             "Nf6",
             "g8f6",
-            "Le cavalier f6 intercepte la ligne de la dame f3 vers f7 et se développe vers le centre."
+            "Le cavalier attaque le pion e4 et prépare le roque noir : c’est la défense des Deux Cavaliers."
           ],
           [
             "Ng5",
@@ -1014,7 +1020,7 @@ const attackRaw = [
           [
             "exd5",
             "e4d5",
-            "Le pion e4 capture en d5 et ouvre la colonne e."
+            "Le pion e4 capture le pion d5 et attaque les cases c6 et e6 depuis sa nouvelle position."
           ],
           [
             "b5",
@@ -1081,17 +1087,17 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Nf3",
             "g1f3",
-            "Développe le cavalier, protège d4 et rapproche les Blancs du roque."
+            "Le cavalier se développe, attaque le pion e5 et prépare le petit roque blanc."
           ],
           [
             "Nc6",
@@ -1106,7 +1112,7 @@ const attackRaw = [
           [
             "Nf6",
             "g8f6",
-            "Le cavalier f6 intercepte la ligne de la dame f3 vers f7 et se développe vers le centre."
+            "Le cavalier attaque le pion e4 et prépare le roque noir : c’est la défense des Deux Cavaliers."
           ],
           [
             "Ng5",
@@ -1138,17 +1144,17 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Nf3",
             "g1f3",
-            "Développe le cavalier, protège d4 et rapproche les Blancs du roque."
+            "Le cavalier se développe, attaque le pion e5 et prépare le petit roque blanc."
           ],
           [
             "Nc6",
@@ -1163,7 +1169,7 @@ const attackRaw = [
           [
             "Nf6",
             "g8f6",
-            "Le cavalier f6 intercepte la ligne de la dame f3 vers f7 et se développe vers le centre."
+            "Le cavalier attaque le pion e4 et prépare le roque noir : c’est la défense des Deux Cavaliers."
           ],
           [
             "Ng5",
@@ -1205,17 +1211,17 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Nf3",
             "g1f3",
-            "Développe le cavalier, protège d4 et rapproche les Blancs du roque."
+            "Le cavalier se développe, attaque le pion e5 et prépare le petit roque blanc."
           ],
           [
             "Nc6",
@@ -1230,7 +1236,7 @@ const attackRaw = [
           [
             "Nf6",
             "g8f6",
-            "Le cavalier f6 intercepte la ligne de la dame f3 vers f7 et se développe vers le centre."
+            "Le cavalier attaque le pion e4 et prépare le roque noir : c’est la défense des Deux Cavaliers."
           ],
           [
             "Ng5",
@@ -1274,12 +1280,12 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Qh5",
@@ -1304,7 +1310,7 @@ const attackRaw = [
           [
             "Qf3",
             "h5f3",
-            "Les Blancs jouent Qf3 pour poursuivre cette variante."
+            "La dame quitte l’attaque du pion g6 et renouvelle la menace de mat en f7 avec le fou c4."
           ],
           [
             "Nf6",
@@ -1334,7 +1340,7 @@ const attackRaw = [
           [
             "f3",
             "f2f3",
-            "Le pion f3 coupe la diagonale c6–g2, mais affaiblit les cases autour du roi blanc."
+            "Le pion f3 soutient e4, mais affaiblit les cases autour du roi blanc. Il n’est pas cloué dans cette position."
           ],
           [
             "Nxe4",
@@ -1351,12 +1357,12 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Qh5",
@@ -1381,7 +1387,7 @@ const attackRaw = [
           [
             "Qf3",
             "h5f3",
-            "Les Blancs jouent Qf3 pour poursuivre cette variante."
+            "La dame quitte l’attaque du pion g6 et renouvelle la menace de mat en f7 avec le fou c4."
           ],
           [
             "Nf6",
@@ -1401,7 +1407,7 @@ const attackRaw = [
           [
             "d3",
             "d2d3",
-            "Les Blancs jouent d3 pour poursuivre cette variante."
+            "Le pion d3 soutient e4 et libère la diagonale du fou c1 pour son développement."
           ],
           [
             "O-O",
@@ -1416,7 +1422,7 @@ const attackRaw = [
           [
             "h6",
             "h7h6",
-            "Le pion h6 attaque le cavalier g5 et lui demande de se replier."
+            "Le pion h6 attaque le fou g5 et lui demande de choisir entre un repli et un échange."
           ],
           [
             "Bh4",
@@ -1441,7 +1447,7 @@ const attackRaw = [
           [
             "exd5",
             "e4d5",
-            "Le pion e4 capture en d5 et ouvre la colonne e."
+            "Le pion e4 capture le pion d5 et attaque les cases c6 et e6 depuis sa nouvelle position."
           ],
           [
             "Bg4",
@@ -1458,12 +1464,12 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Qh5",
@@ -1488,7 +1494,7 @@ const attackRaw = [
           [
             "Qf3",
             "h5f3",
-            "Les Blancs jouent Qf3 pour poursuivre cette variante."
+            "La dame quitte l’attaque du pion g6 et renouvelle la menace de mat en f7 avec le fou c4."
           ],
           [
             "Nf6",
@@ -1508,7 +1514,7 @@ const attackRaw = [
           [
             "d3",
             "d2d3",
-            "Les Blancs jouent d3 pour poursuivre cette variante."
+            "Le pion d3 soutient e4 et libère la diagonale du fou c1 pour son développement."
           ],
           [
             "O-O",
@@ -1523,7 +1529,7 @@ const attackRaw = [
           [
             "h6",
             "h7h6",
-            "Le pion h6 attaque le cavalier g5 et lui demande de se replier."
+            "Le pion h6 attaque le fou g5 et lui demande de choisir entre un repli et un échange."
           ],
           [
             "Bh4",
@@ -1548,7 +1554,7 @@ const attackRaw = [
           [
             "exd5",
             "e4d5",
-            "Le pion e4 capture en d5 et ouvre la colonne e."
+            "Le pion e4 capture le pion d5 et attaque les cases c6 et e6 depuis sa nouvelle position."
           ],
           [
             "Bg4",
@@ -1565,12 +1571,12 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Qh5",
@@ -1595,7 +1601,7 @@ const attackRaw = [
           [
             "Qf3",
             "h5f3",
-            "Les Blancs jouent Qf3 pour poursuivre cette variante."
+            "La dame quitte l’attaque du pion g6 et renouvelle la menace de mat en f7 avec le fou c4."
           ],
           [
             "Nf6",
@@ -1642,12 +1648,12 @@ const attackRaw = [
           [
             "e4",
             "e2e4",
-            "Forme le duo de pions d4-e4 et gagne de l’espace, mais offre aux Noirs une cible à contre-attaquer."
+            "Le pion-roi occupe le centre, contrôle d5 et f5 et libère les diagonales de la dame et du fou f1."
           ],
           [
             "e5",
             "e7e5",
-            "Occupe le centre et contrôle d4 et f4, créant un jeu asymétrique face au pion c4."
+            "Les Noirs occupent le centre, contrôlent d4 et f4 et libèrent la diagonale du fou f8."
           ],
           [
             "Bc4",
@@ -1682,7 +1688,7 @@ const attackRaw = [
           [
             "exd5",
             "e4d5",
-            "Le pion e4 capture en d5 et ouvre la colonne e."
+            "Le pion e4 capture le pion d5 et attaque les cases c6 et e6 depuis sa nouvelle position."
           ],
           [
             "e4",
@@ -1699,21 +1705,23 @@ const trainingGroups = attackRaw.map(group=>({...group,lines:group.lines.map(([n
 const names={p:"pion",n:"cavalier",b:"fou",r:"tour",q:"dame",k:"roi"};
 const files="abcdefgh";
 let opening=openings[0],step=0,flipped=false,selected="",preview=null,hintLevel=0,message="",dragState=null,suppressNextClick=false,mode="autonomous",replyTimer=null,sequenceHidden=true;
-let training=null,variantFilter="",trainingOrder="rotation",feedback="",feedbackKind="",correctAnswers=0,wrongAnswers=0,assists=0;
+let training=null,variantFilter="",trainingOrder="rotation",learningMode="test",feedback="",feedbackKind="",correctAnswers=0,wrongAnswers=0,assists=0;
 const trainingCycles=new Map();
 let classicOpening=opening,classicMode=mode;
+let activeMoveAnimations=[],renderedOpening=null,renderedStep=-1,renderedFlipped=false,pendingMoveOrigin=null;
 function shuffled(items){const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]]}return copy}
 function trainingCycle(){if(!trainingCycles.has(training.id))trainingCycles.set(training.id,{seen:new Set(),round:1});return trainingCycles.get(training.id)}
 function nextTrainingLine(){
- const cycle=trainingCycle();
+ const cycle=trainingCycle(),continueRotation=cycle.seen.size>0;
  let remaining=training.lines.filter(line=>!cycle.seen.has(line.name));
  if(!remaining.length){cycle.seen.clear();cycle.round++;remaining=training.lines;if(trainingOrder==="random"&&remaining.length>1)remaining=remaining.filter(line=>line!==opening)}
- const line=trainingOrder==="random"?shuffled(remaining)[0]:remaining[0];
+ const currentIndex=training.lines.indexOf(opening);
+ const ordered=continueRotation?[...training.lines.slice(currentIndex+1),...training.lines.slice(0,currentIndex+1)]:training.lines;
+ const line=trainingOrder==="random"?shuffled(remaining)[0]:ordered.find(item=>remaining.includes(item));
  cycle.seen.add(line.name);return line
 }
 function trainingCandidates(){
- const lines=variantFilter?training.lines.filter(line=>line.name===variantFilter):training.lines;
- return lines.filter(line=>line.moves.length>step&&opening.moves.slice(0,step).every((move,i)=>line.moves[i]?.uci===move.uci))
+ return training.lines.filter(line=>line.moves.length>step&&opening.moves.slice(0,step).every((move,i)=>line.moves[i]?.uci===move.uci))
 }
 function startExercise(repeat=false){
  cancelReply();
@@ -1722,7 +1730,7 @@ function startExercise(repeat=false){
   else opening=nextTrainingLine();
  }
  mode="black";flipped=true;sequenceHidden=true;feedback="";correctAnswers=0;wrongAnswers=0;assists=0;
- go(training.start);renderSequence()
+ go(learningMode==="learn"?0:training.start,false,false);renderSequence()
 }
 function selectPractice(){
  const id=document.getElementById("practice-select").value;
@@ -1770,10 +1778,11 @@ function playTrainingMove(from,to,shown=false){
   if(!candidates.includes(opening)){
    const unseen=candidates.filter(line=>!trainingCycle().seen.has(line.name)),choices=unseen.length?unseen:candidates;
    opening=trainingOrder==="random"?shuffled(choices)[0]:choices[0];
-   if(!variantFilter)trainingCycle().seen.add(opening.name)
+   trainingCycle().seen.add(opening.name);
+   if(variantFilter){variantFilter=opening.name;document.getElementById("variant-select").value=variantFilter}
   }
   const move=opening.moves[step];
-  if(shown)assists++;else correctAnswers++;
+  if(learningMode==="test"){if(shown)assists++;else correctAnswers++}
   feedback=(shown?"Réponse montrée : ":"Bonne réponse pour cette variante : ")+move.san+". "+move.note;feedbackKind=shown?"help":"correct";
   renderSequence();go(step+1,true);return
  }
@@ -1790,15 +1799,20 @@ function boardAt(n){const b=initialBoard();for(let i=0;i<n;i++)makeMove(b,openin
 function squareAt(row,col){return files[flipped?7-col:col]+(flipped?row+1:8-row)}
 function center(square){let col=files.indexOf(square[0]),row=8-Number(square[1]);return[(flipped?7-col:col)*100+50,(flipped?7-row:row)*100+50]}
 function showMessage(text){message=text;document.getElementById("status").textContent=text}
-function autoTurn(){return step<opening.moves.length&&((mode==="white"&&step%2===1)||(mode==="black"&&step%2===0))}
+function autoTurn(){return !(training&&learningMode==="learn")&&step<opening.moves.length&&((mode==="white"&&step%2===1)||(mode==="black"&&step%2===0))}
 function cancelReply(){if(replyTimer!==null){clearTimeout(replyTimer);replyTimer=null}}
 function updateSequenceVisibility(){const el=document.getElementById("sequence"),button=document.getElementById("toggle-sequence");el.classList.toggle("blurred",sequenceHidden);el.inert=sequenceHidden;el.setAttribute("aria-hidden",String(sequenceHidden));button.textContent=sequenceHidden?"Révéler":"Flouter";button.setAttribute("aria-label",sequenceHidden?"Révéler la suite de coups":"Flouter la suite de coups")}
-function playDraggedMove(from,to){
+function playDraggedMove(from,to,dropPoint=null){
  if(step>=opening.moves.length||autoTurn()||from===to)return;
- if(training){playTrainingMove(from,to);return}
+ const previousStep=step;pendingMoveOrigin=dropPoint;
+ if(training){playTrainingMove(from,to)}
+ else{
  const expected=opening.moves[step].uci;
  if(from+to===expected.slice(0,4)){const move=opening.moves[step];go(step+1,true);if(mode==="autonomous")showMessage("Bonne réponse : "+move.san+". "+move.note)}
  else{selected="";preview=null;hintLevel=0;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
+ }
+ pendingMoveOrigin=null;
+ if(step===previousStep&&dropPoint)animateRejectedMove(from,dropPoint)
 }
 function clickSquare(square,b){
  if(step>=opening.moves.length)return;
@@ -1808,7 +1822,7 @@ function clickSquare(square,b){
   selected=selected===square?"":square;preview=null;message="";render();return
  }
  if(!selected){showMessage("Sélectionne une pièce du camp qui doit jouer.");return}
- preview={from:selected,to:square};selected="";hintLevel=0;message="Trajet affiché. Glisse la pièce pour jouer le coup.";render()
+ const from=selected;selected="";preview=null;playDraggedMove(from,square)
 }
 function updateDragGhost(x,y){
  if(!dragState?.ghost)return;
@@ -1843,34 +1857,43 @@ function finishDrag(e){
   if(boardElement.hasPointerCapture?.(e.pointerId))boardElement.releasePointerCapture(e.pointerId);
   const target=e.type==="pointerup"?document.elementFromPoint(e.clientX,e.clientY)?.closest(".sq"):null;
   dragState=null;
-  if(target)playDraggedMove(from,target.dataset.square)
+  if(target)playDraggedMove(from,target.dataset.square,{x:e.clientX,y:e.clientY})
  }else dragState=null
 }
 boardElement.addEventListener("pointerup",finishDrag);
 boardElement.addEventListener("pointercancel",finishDrag);
 function draw(){
+ cancelMoveAnimations();
  const b=boardAt(step),board=document.getElementById("board");board.replaceChildren();
  const move=hintLevel||preview?null:opening.moves[step-1],uci=move?.uci;
- const hinted=opening.moves[step]?.uci,hintFrom=hintLevel>=1?hinted.slice(0,2):null,hintTo=hintLevel>=2?hinted.slice(2,4):null;
+ const guided=training&&learningMode==="learn",hinted=opening.moves[step]?.uci,hintFrom=(guided||hintLevel>=1)?hinted?.slice(0,2):null,hintTo=(guided||hintLevel>=2)?hinted?.slice(2,4):null;
  for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.dataset.square=sq;cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(sq===hintFrom)cell.classList.add("hint-origin");if(sq===hintTo)cell.classList.add("hint-target");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){cell.classList.add("has-piece");const image=document.createElement("img");image.className="piece";image.src="pieces/kaneo/"+piece[0]+piece[1].toUpperCase()+".svg";image.alt="";image.draggable=false;cell.append(image)}cell.addEventListener("click",()=>{if(suppressNextClick)return;clickSquare(sq,b)});board.append(cell)}
- const arrow=document.getElementById("arrow");const arrowUci=preview?preview.from+preview.to:hintLevel>=3?hinted:uci;if(arrowUci){const a=center(arrowUci.slice(0,2)),z=center(arrowUci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",preview||hintLevel>=3?"blue":"");arrow.style.display=""}else arrow.style.display="none"
+ const arrow=document.getElementById("arrow");const arrowUci=preview?preview.from+preview.to:(guided||hintLevel>=3)?hinted||uci:uci;if(arrowUci){const a=center(arrowUci.slice(0,2)),z=center(arrowUci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",preview||guided||hintLevel>=3?"blue":"");arrow.style.display=""}else arrow.style.display="none";
+ renderedOpening=opening;renderedStep=step;renderedFlipped=flipped
 }
 function render(){
- document.getElementById("title").textContent=training?training.name:opening.name;document.getElementById("intro").textContent=training?(step===opening.moves.length?opening.name+" : "+opening.summary:"Joue les Noirs. Trouve une réponse, puis observe la suite des Blancs."):opening.summary;
+ const learn=!!training&&learningMode==="learn",testing=!!training&&!learn,minimum=testing?training.start:0;
+ document.getElementById("title").textContent=training?training.name:opening.name;document.getElementById("intro").textContent=training?(step===opening.moves.length?opening.name+" : "+opening.summary:learn?"Avance coup par coup avec les flèches, puis passe en Test pour vérifier ta mémoire.":"Joue les Noirs, par glisser-déposer ou en cliquant sur le départ puis l’arrivée."):opening.summary;
  draw();
  const last=opening.moves[step-1],next=opening.moves[step];
  document.getElementById("step").textContent=last?(Math.ceil(step/2)+". "+(step%2?"":"… ")+last.san):"Position initiale";
- document.getElementById("first").disabled=document.getElementById("prev").disabled=step===0;
- document.getElementById("next").disabled=document.getElementById("last").disabled=step===opening.moves.length;
+ document.getElementById("first").disabled=document.getElementById("prev").disabled=step<=minimum;
+ document.getElementById("next").disabled=step===opening.moves.length||(testing&&replyTimer!==null);
+ document.getElementById("last").disabled=step===opening.moves.length||testing;
  document.getElementById("hint").disabled=!next||replyTimer!==null||hintLevel>=3;
  document.getElementById("hint").textContent="Indice "+Math.min(hintLevel+1,3)+"/3";
+ document.getElementById("hint").hidden=learn;
  document.getElementById("answer").disabled=!next||replyTimer!==null;
+ document.getElementById("answer").textContent=learn?"Jouer ce coup":"Voir la réponse";
  document.getElementById("flip").disabled=mode!=="autonomous";
  const status=document.getElementById("status");status.classList.toggle("finished",!next);
- const prompt=!next?(training?"Variante terminée. Rejoue-la ou passe à une autre variante.":"Ligne terminée."):autoTurn()?(replyTimer!==null?"Réponse des "+(step%2?"Noirs":"Blancs")+" dans une seconde…":"Réponse en pause. Utilise « Voir la réponse »."):(step%2?"Noirs":"Blancs")+" : glisse une pièce pour jouer.";
+ const prompt=!next?(training?(learn?"Variante terminée. Passe en Test pour vérifier ta mémoire.":"Variante terminée. Rejoue-la ou passe à une autre variante."):"Ligne terminée."):learn?"À jouer : "+(Math.floor(step/2)+1)+(step%2?"… ":". ")+next.san+". Utilise → ou joue le coup.":autoTurn()?(replyTimer!==null?"Réponse des "+(step%2?"Noirs":"Blancs")+" dans une seconde…":"Réponse en pause. Utilise « Voir la réponse »."):(step%2?"Noirs":"Blancs")+" : glisse une pièce ou clique sur le départ puis l’arrivée.";
  status.textContent=message||prompt;
- const note=document.getElementById("move-note"),explained=next||last;note.hidden=!!training||!explained;if(explained&&!training){document.getElementById("move-title").textContent=next?"Objectif du prochain coup":"Objectif de "+Math.ceil(step/2)+(step%2?". ":"… ")+last.san;document.getElementById("move-detail").textContent=explained.note}
- const result=document.getElementById("feedback");result.hidden=!training||!feedback;result.textContent=feedback;result.dataset.kind=feedbackKind;
+ const note=document.getElementById("move-note"),explained=learn?(last||next):(next||last);note.hidden=testing||!explained;if(explained&&!testing){document.getElementById("move-title").textContent=learn?(last?"Coup joué : "+Math.ceil(step/2)+(step%2?". ":"… ")+last.san:"Premier coup : "+next.san):(next?"Objectif du prochain coup":"Objectif de "+Math.ceil(step/2)+(step%2?". ":"… ")+last.san);document.getElementById("move-detail").textContent=explained.note}
+ const result=document.getElementById("feedback");result.hidden=!training||!feedback||(learn&&feedbackKind!=="wrong");result.textContent=feedback;result.dataset.kind=feedbackKind;
+ document.getElementById("study-picker").hidden=!training;
+ document.getElementById("practice-progress").hidden=learn;
+ for(const input of document.querySelectorAll('input[name="study-mode"]'))input.checked=input.value===learningMode;
  document.getElementById("practice-progress").textContent=correctAnswers+" réponse(s) trouvée(s) · "+wrongAnswers+" essai(s) à revoir · "+assists+" aide(s)";
  document.getElementById("new-variant").hidden=!!variantFilter;
  document.getElementById("order-options").hidden=!!variantFilter;
@@ -1881,10 +1904,50 @@ function render(){
  for(const button of document.querySelectorAll(".move"))button.classList.toggle("active",Number(button.dataset.step)===step);
  document.getElementById("opening-select").value=opening.name;
 }
-function go(n,auto=false){
- cancelReply();step=Math.max(0,Math.min(opening.moves.length,n));selected="";preview=null;hintLevel=0;message="";
+function go(n,auto=false,animate=true){
+ const minimum=training&&learningMode==="test"?training.start:0,target=Math.max(minimum,Math.min(opening.moves.length,n));
+ const motions=animate?captureMoveMotions(target):[];
+ cancelReply();step=target;selected="";preview=null;hintLevel=0;message="";
  if(auto&&autoTurn()){const scheduledStep=step;replyTimer=setTimeout(()=>{replyTimer=null;if(step===scheduledStep&&autoTurn())go(step+1,true)},1000)}
- render()
+ render();for(const motion of motions)animatePieceMotion(motion)
+}
+function cancelMoveAnimations(){
+ for(const item of activeMoveAnimations){item.animation.cancel();item.ghost.remove();item.target.style.visibility=""}
+ activeMoveAnimations=[]
+}
+function reducedMotion(){return typeof matchMedia==="function"&&matchMedia("(prefers-reduced-motion: reduce)").matches}
+function motionFor(from,to,origin=null){
+ const source=document.querySelector(`[data-square="${from}"] .piece`),cell=document.querySelector(`[data-square="${to}"]`);
+ if(!source||!cell||typeof source.animate!=="function"||reducedMotion())return null;
+ const rect=source.getBoundingClientRect(),dest=cell.getBoundingClientRect();
+ if(!rect.width||!dest.width)return null;
+ return{image:source.cloneNode(),to,width:rect.width,height:rect.height,start:origin||{x:rect.left+rect.width/2,y:rect.top+rect.height/2},end:{x:dest.left+dest.width/2,y:dest.top+dest.height/2}}
+}
+function captureMoveMotions(target){
+ cancelMoveAnimations();
+ const origin=pendingMoveOrigin;pendingMoveOrigin=null;
+ if(renderedOpening!==opening||renderedStep!==step||renderedFlipped!==flipped||Math.abs(target-step)!==1)return [];
+ const forward=target>step,uci=opening.moves[forward?step:target].uci;
+ const from=uci.slice(0,2),to=uci.slice(2,4),routes=[[from,to]];
+ const piece=boardAt(step)[forward?from:to];
+ if(piece?.[1]==="k"&&Math.abs(files.indexOf(from[0])-files.indexOf(to[0]))===2){const rank=from[1],short=to[0]==="g";routes.push([(short?"h":"a")+rank,(short?"f":"d")+rank])}
+ return routes.map(([a,b],i)=>motionFor(forward?a:b,forward?b:a,i===0?origin:null)).filter(Boolean)
+}
+function animatePieceMotion(motion){
+ const target=document.querySelector(`[data-square="${motion.to}"] .piece`);
+ if(!target||reducedMotion())return;
+ const ghost=motion.image;ghost.className="move-ghost";ghost.alt="";ghost.draggable=false;
+ Object.assign(ghost.style,{left:motion.start.x-motion.width/2+"px",top:motion.start.y-motion.height/2+"px",width:motion.width+"px",height:motion.height+"px",visibility:"visible",opacity:"1"});
+ document.body.append(ghost);target.style.visibility="hidden";
+ const animation=ghost.animate([{transform:"translate(0,0)"},{transform:`translate(${motion.end.x-motion.start.x}px,${motion.end.y-motion.start.y}px)`}],{duration:240,easing:"cubic-bezier(.22,1,.36,1)"});
+ const item={ghost,target,animation};activeMoveAnimations.push(item);
+ animation.finished.catch(()=>{}).then(()=>{ghost.remove();target.style.visibility="";activeMoveAnimations=activeMoveAnimations.filter(entry=>entry!==item)})
+}
+function animateRejectedMove(from,point){const motion=motionFor(from,from,point);if(motion)animatePieceMotion(motion)}
+function advanceForward(){
+ if(step>=opening.moves.length||replyTimer!==null)return;
+ if(training&&learningMode==="test"&&!autoTurn()){const uci=opening.moves[step].uci;playTrainingMove(uci.slice(0,2),uci.slice(2,4),true)}
+ else go(step+1,!training||learningMode!=="learn")
 }
 function renderLists(){
  const select=document.getElementById("opening-select");
@@ -1898,17 +1961,20 @@ document.getElementById("flip").addEventListener("click",()=>{if(mode==="autonom
 for(const input of document.querySelectorAll('input[name="mode"]'))input.addEventListener("change",()=>{if(!input.checked||training)return;mode=input.value;flipped=mode==="black";go(0,true)});
 document.getElementById("first").addEventListener("click",()=>go(0));
 document.getElementById("prev").addEventListener("click",()=>go(step-1));
-document.getElementById("next").addEventListener("click",()=>go(step+1));
+document.getElementById("next").addEventListener("click",advanceForward);
 document.getElementById("last").addEventListener("click",()=>go(opening.moves.length));
 document.getElementById("reset").addEventListener("click",()=>{if(training)startExercise(true);else go(0,true)});
 document.getElementById("hint").addEventListener("click",()=>{if(step<opening.moves.length&&hintLevel<3){selected="";preview=null;hintLevel++;if(training)assists++;message=["","La pièce à déplacer est éclairée.","La case d’arrivée est éclairée.","Coup conseillé : "+opening.moves[step].san+"."][hintLevel];render()}});
-document.getElementById("answer").addEventListener("click",()=>{if(step<opening.moves.length){if(training&&!autoTurn()){const uci=opening.moves[step].uci;playTrainingMove(uci.slice(0,2),uci.slice(2,4),true)}else go(step+1,true)}});
+document.getElementById("answer").addEventListener("click",advanceForward);
 document.getElementById("toggle-sequence").addEventListener("click",()=>{sequenceHidden=!sequenceHidden;updateSequenceVisibility()});
 document.getElementById("practice-select").addEventListener("change",selectPractice);
 document.getElementById("variant-select").addEventListener("change",()=>{variantFilter=document.getElementById("variant-select").value;startExercise()});
 document.getElementById("order-select").addEventListener("change",()=>{trainingOrder=document.getElementById("order-select").value;render()});
 document.getElementById("new-variant").addEventListener("click",()=>startExercise());
-document.addEventListener("keydown",e=>{if(e.target.closest('select,input,textarea'))return;if(e.key==="ArrowLeft"){e.preventDefault();go(step-1)}if(e.key==="ArrowRight"){e.preventDefault();go(step+1)}});
+for(const input of document.querySelectorAll('input[name="study-mode"]'))input.addEventListener("change",()=>{if(!input.checked||!training)return;learningMode=input.value;startExercise(true)});
+document.addEventListener("keydown",e=>{if(e.target.closest('select,input,textarea'))return;if(e.key==="ArrowLeft"){e.preventDefault();go(step-1)}if(e.key==="ArrowRight"){e.preventDefault();advanceForward()}});
+window.addEventListener("resize",cancelMoveAnimations);
+window.addEventListener("scroll",cancelMoveAnimations,true);
 renderLists();
 document.getElementById("copyright-year").textContent=new Date().getFullYear();
 </script>
