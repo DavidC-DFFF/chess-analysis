@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/comprendre-les-finales/sacrifier-pour-promouvoir",
+  "capturedAt": "2026-10-22T12:23:37.865Z",
+  "title": "Sacrifier pour promouvoir",
+  "exercises": [
+    {
+      "fen": "6k1/p4pp1/Pr2pb1p/8/7P/4Q1P1/P4PK1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion avancé des blancs en a6 est bloqué et sur le point d'être capturé par la tour noire. Trouvez un puissant sacrifice qui ouvrira le chemin du pion a6 !",
+        "[%wrong Ce coup ne va pas permettre au pion a6 d'avancer. Cherchez encore !][%hint L'objectif : prendre une pièce pour ouvrir la colonne a.]",
+        "Bravo ! En sacrfiant la dame, vous avez ouvert la voie à votre pion a. Poussez-le !",
+        "[%wrong Il est temps de pousser le pion !][%hint Le pion n'est qu'à deux cases de la promotion. Poussez-le !] Les blancs vont récupérer leur dame dès le prochain coup en promouvant le pion. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p4pp1/Pr2pb1p/8/7P/4Q1P1/P4PK1/8 w - - 0 1\"]\r\n\r\n{Le pion avancé des blancs en a6 est bloqué et sur le point d'être capturé par la tour noire. Trouvez un puissant sacrifice qui ouvrira le chemin du pion a6 !}\r\n1.Qxb6\r\n    {[%wrong Ce coup ne va pas permettre au pion a6 d'avancer. Cherchez encore !][%hint L'objectif : prendre une pièce pour ouvrir la colonne a.]}\r\n1...axb6\r\n    {Bravo ! En sacrfiant la dame, vous avez ouvert la voie à votre pion a. Poussez-le !}\r\n2.a7\r\n    {[%wrong Il est temps de pousser le pion !][%hint Le pion n'est qu'à deux cases de la promotion. Poussez-le !] Les blancs vont récupérer leur dame dès le prochain coup en promouvant le pion. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "8/k4P2/8/2b5/8/8/1B4K1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou des noirs empêche les blancs de promouvoir leur pion. Trouvez un sacrifice qui débloquera la situation !",
+        "[%wrong Ce coup n'est pas un sacrifice gagnant. Essayez encore !][%hint Le roi et le fou noir sont alignés sur la même diagonale. Rappelez-vous le thème du clouage !]",
+        "Protéger la case de promotion ne va pas nous aider. Le fou des noirs va simplement se sacrifier contre notre future dame pour annuler la partie. Trouvez une idée qui force la décision !",
+        "Bien joué ! Les blancs sacrifient leur fou pour promouvoir leur pion. Quelle pièce choisir ?",
+        "[%wrong Sauf contre-indication exceptionnelle, il faut toujours promouvoir ses pions en dames !][%hint Sauf contre-indication exceptionnelle, il faut toujours promouvoir ses pions en dames !] Formidable ! Ce sacrifice nous a permis de rentrer dans une finale dame contre fou gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/k4P2/8/2b5/8/8/1B4K1/8 w - - 0 1\"]\r\n\r\n{Le fou des noirs empêche les blancs de promouvoir leur pion. Trouvez un sacrifice qui débloquera la situation !}\r\n1.Bd4\r\n    {[%wrong Ce coup n'est pas un sacrifice gagnant. Essayez encore !][%hint Le roi et le fou noir sont alignés sur la même diagonale. Rappelez-vous le thème du clouage !]}\r\n    (1.Bg7 $2 {Protéger la case de promotion ne va pas nous aider. Le fou des noirs va simplement se sacrifier contre notre future dame pour annuler la partie. Trouvez une idée qui force la décision !})\r\n1...Bxd4\r\n    {Bien joué ! Les blancs sacrifient leur fou pour promouvoir leur pion. Quelle pièce choisir ?}\r\n2.f8=Q\r\n    {[%wrong Sauf contre-indication exceptionnelle, il faut toujours promouvoir ses pions en dames !][%hint Sauf contre-indication exceptionnelle, il faut toujours promouvoir ses pions en dames !] Formidable ! Ce sacrifice nous a permis de rentrer dans une finale dame contre fou gagnante.}\r\n*"
+    },
+    {
+      "fen": "8/pp3p2/5p2/5p1P/1P1bk3/P5B1/2K5/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent pousser leur pion h jusqu'à la promotion, mais ce n'est pas aussi simple qu'il n'y paraît... Trouvez le seul coup qui assure la promotion.",
+        "[%wrong Ce coup n'empêche pas les noirs de jouer ...f4 puis ...f5, ouvrant la diagonale de leur fou vers la case de promotion h8. Essayez encore !][%hint Les noirs veulent jouer ...f4. Comment empêcher ce coup ?]",
+        "Ce coup laisse du contre-jeu aux noirs, qui vont pouvoir enchaîner par ...f5 pour ouvrir la diagonale de leur fou vers la case de promotion h8. Comment empêcher ce plan ?",
+        "Hélas, cette idée subtile ne fonctionne pas. Les noirs vont jouer ...f4 puis ...f5, ouvrant la diagonale de leur fou vers la case de promotion h8. Essayez encore !",
+        "Superbe ! Le roi noir bloque son propre pion f. Nous pouvons maintenant pousser le pion h !",
+        "[%wrong Ce coup n'avance pas le pion h.][%hint Les pions passés sont fait pour être poussés !] Le pion blanc ne peut plus être arrêté dans sa course à la promotion. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pp3p2/5p2/5p1P/1P1bk3/P5B1/2K5/8 w - - 0 1\"]\r\n\r\n{Les blancs veulent pousser leur pion h jusqu'à la promotion, mais ce n'est pas aussi simple qu'il n'y paraît... Trouvez le seul coup qui assure la promotion.}\r\n1.Bf4\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...f4 puis ...f5, ouvrant la diagonale de leur fou vers la case de promotion h8. Essayez encore !][%hint Les noirs veulent jouer ...f4. Comment empêcher ce coup ?]}\r\n    (1.h6 $2 f4 {Ce coup laisse du contre-jeu aux noirs, qui vont pouvoir enchaîner par ...f5 pour ouvrir la diagonale de leur fou vers la case de promotion h8. Comment empêcher ce plan ?})\r\n    (1.Bf2 $2 Be5 {Hélas, cette idée subtile ne fonctionne pas. Les noirs vont jouer ...f4 puis ...f5, ouvrant la diagonale de leur fou vers la case de promotion h8. Essayez encore !})\r\n1...Kxf4\r\n    {Superbe ! Le roi noir bloque son propre pion f. Nous pouvons maintenant pousser le pion h !}\r\n2.h6\r\n    {[%wrong Ce coup n'avance pas le pion h.][%hint Les pions passés sont fait pour être poussés !] Le pion blanc ne peut plus être arrêté dans sa course à la promotion. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "8/3k4/6pP/2p5/rpP5/8/PK6/4R3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs s'apprêtent à jouer ...Ta8 pour empêcher les blancs de promouvoir leur pion h6. Trouvez un sacrifice qui réfutera cette défense.",
+        "[%wrong Ce coup ne va pas nous permettre de promouvoir notre pion h. Essayez encore !][%hint Comment contrôler la case a8 tout en empêchant la tour noire de revenir sur la dernière rangée ?]",
+        "La tour noire revient à temps pour bloquer le pion passé blanc. Essayez encore !",
+        "La tour noire revient à temps pour bloquer le pion passé blanc. Essayez encore !",
+        "Fantastique ! Notre tour empêche le coup ...Ta8. Maintenant que le roi noir bloque le chemin vers la dernière rangée, il est temps de pousser le pion !",
+        "[%wrong Nous voulons maintenant avancer le pion h.][%hint Pousser le pion h !] Les noirs ne peuvent plus nous empêcher de promouvoir notre pion au prochain coup, ce qui va nous assurer le gain de la partie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/6pP/2p5/rpP5/8/PK6/4R3 w - - 0 1\"]\r\n\r\n{Les noirs s'apprêtent à jouer ...Ta8 pour empêcher les blancs de promouvoir leur pion h6. Trouvez un sacrifice qui réfutera cette défense.}\r\n1.Re8\r\n    {[%wrong Ce coup ne va pas nous permettre de promouvoir notre pion h. Essayez encore !][%hint Comment contrôler la case a8 tout en empêchant la tour noire de revenir sur la dernière rangée ?]}\r\n    (1.Rh1 $2 Ra8 {La tour noire revient à temps pour bloquer le pion passé blanc. Essayez encore !})\r\n    (1.h7 $2 Ra8 {La tour noire revient à temps pour bloquer le pion passé blanc. Essayez encore !})\r\n1...Kxe8\r\n    {Fantastique ! Notre tour empêche le coup ...Ta8. Maintenant que le roi noir bloque le chemin vers la dernière rangée, il est temps de pousser le pion !}\r\n2.h7\r\n    {[%wrong Nous voulons maintenant avancer le pion h.][%hint Pousser le pion h !] Les noirs ne peuvent plus nous empêcher de promouvoir notre pion au prochain coup, ce qui va nous assurer le gain de la partie.}\r\n*"
+    },
+    {
+      "fen": "6k1/5pp1/7p/2n2P2/1b1P1R2/1Pp5/2P3PP/4K3 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion avancé c3 des noirs est bloqué. Trouvez un puissant sacrifice qui force l'ouverture de la colonne c ou qui gagne une pièce.",
+        "[%wrong Ce coup n'est pas un sacrifice permettant la création d'un pion passé ou le gain d'une pièce. Essayez encore !][%hint Cherchez la fourchette...]",
+        "Les blancs ne sont pas obligés de prendre le cavalier noir, et leur puissante tour va maintenant pouvoir se poster sur une colonne ouverte. Il existe un coup beaucoup plus fort. Trouvez-le !",
+        "Bien joué ! Si les blancs ne prennent pas le cavalier, nous gagnons leur tour. Cet enchaînement nous permet de promouvoir le pion c.",
+        "[%wrong Ce coup ne nous aide pas à promouvoir le pion c. Allez de l'avant !!][%hint Les pions passés sont fait pour être poussés !] Joliment fait ! En avançant le pion c, nous avons déclenché un échec à la découverte, ce qui va empêcher les blancs de défendre la case de promotion à temps !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/7p/2n2P2/1b1P1R2/1Pp5/2P3PP/4K3 b - - 0 1\"]\r\n\r\n{Le pion avancé c3 des noirs est bloqué. Trouvez un puissant sacrifice qui force l'ouverture de la colonne c ou qui gagne une pièce.}\r\n1...Nd3+\r\n    {[%wrong Ce coup n'est pas un sacrifice permettant la création d'un pion passé ou le gain d'une pièce. Essayez encore !][%hint Cherchez la fourchette...]}\r\n    (1...Nxb3 $2 2.Re4 {Les blancs ne sont pas obligés de prendre le cavalier noir, et leur puissante tour va maintenant pouvoir se poster sur une colonne ouverte. Il existe un coup beaucoup plus fort. Trouvez-le !})\r\n2.cxd3\r\n    {Bien joué ! Si les blancs ne prennent pas le cavalier, nous gagnons leur tour. Cet enchaînement nous permet de promouvoir le pion c.}\r\n2...c2+\r\n    {[%wrong Ce coup ne nous aide pas à promouvoir le pion c. Allez de l'avant !!][%hint Les pions passés sont fait pour être poussés !] Joliment fait ! En avançant le pion c, nous avons déclenché un échec à la découverte, ce qui va empêcher les blancs de défendre la case de promotion à temps !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "f21ade26-9ce9-11e8-80fa-9736aa95632d",
+    "name": "Sacrifier pour promouvoir",
+    "path": "sacrifier-pour-promouvoir",
+    "description": "Un pion adverse vous empêche d’accéder à la promotion ? Il faut parfois sacrifier un pion, ou même plus, pour se frayer un passage. En finale, la promotion est l’objectif ultime. N’hésitez pas à sacrifier du matériel pour y parvenir.",
+    "glyphName": "trophy-medal-badge-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-sacrificing-to-promote-g2s.mp4",
+    "fen": "8/3k4/6pP/2p5/rpP5/8/PK6/4R3 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p4pp1/Pr2pb1p/8/7P/4Q1P1/P4PK1/8 w - - 0 1\"]\r\n\r\n{Le pion avancé des blancs en a6 est bloqué et sur le point d'être capturé par la tour noire. Trouvez un puissant sacrifice qui ouvrira le chemin du pion a6 !}\r\n1.Qxb6\r\n    {[%wrong Ce coup ne va pas permettre au pion a6 d'avancer. Cherchez encore !][%hint L'objectif : prendre une pièce pour ouvrir la colonne a.]}\r\n1...axb6\r\n    {Bravo ! En sacrfiant la dame, vous avez ouvert la voie à votre pion a. Poussez-le !}\r\n2.a7\r\n    {[%wrong Il est temps de pousser le pion !][%hint Le pion n'est qu'à deux cases de la promotion. Poussez-le !] Les blancs vont récupérer leur dame dès le prochain coup en promouvant le pion. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/k4P2/8/2b5/8/8/1B4K1/8 w - - 0 1\"]\r\n\r\n{Le fou des noirs empêche les blancs de promouvoir leur pion. Trouvez un sacrifice qui débloquera la situation !}\r\n1.Bd4\r\n    {[%wrong Ce coup n'est pas un sacrifice gagnant. Essayez encore !][%hint Le roi et le fou noir sont alignés sur la même diagonale. Rappelez-vous le thème du clouage !]}\r\n    (1.Bg7 $2 {Protéger la case de promotion ne va pas nous aider. Le fou des noirs va simplement se sacrifier contre notre future dame pour annuler la partie. Trouvez une idée qui force la décision !})\r\n1...Bxd4\r\n    {Bien joué ! Les blancs sacrifient leur fou pour promouvoir leur pion. Quelle pièce choisir ?}\r\n2.f8=Q\r\n    {[%wrong Sauf contre-indication exceptionnelle, il faut toujours promouvoir ses pions en dames !][%hint Sauf contre-indication exceptionnelle, il faut toujours promouvoir ses pions en dames !] Formidable ! Ce sacrifice nous a permis de rentrer dans une finale dame contre fou gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pp3p2/5p2/5p1P/1P1bk3/P5B1/2K5/8 w - - 0 1\"]\r\n\r\n{Les blancs veulent pousser leur pion h jusqu'à la promotion, mais ce n'est pas aussi simple qu'il n'y paraît... Trouvez le seul coup qui assure la promotion.}\r\n1.Bf4\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...f4 puis ...f5, ouvrant la diagonale de leur fou vers la case de promotion h8. Essayez encore !][%hint Les noirs veulent jouer ...f4. Comment empêcher ce coup ?]}\r\n    (1.h6 $2 f4 {Ce coup laisse du contre-jeu aux noirs, qui vont pouvoir enchaîner par ...f5 pour ouvrir la diagonale de leur fou vers la case de promotion h8. Comment empêcher ce plan ?})\r\n    (1.Bf2 $2 Be5 {Hélas, cette idée subtile ne fonctionne pas. Les noirs vont jouer ...f4 puis ...f5, ouvrant la diagonale de leur fou vers la case de promotion h8. Essayez encore !})\r\n1...Kxf4\r\n    {Superbe ! Le roi noir bloque son propre pion f. Nous pouvons maintenant pousser le pion h !}\r\n2.h6\r\n    {[%wrong Ce coup n'avance pas le pion h.][%hint Les pions passés sont fait pour être poussés !] Le pion blanc ne peut plus être arrêté dans sa course à la promotion. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/6pP/2p5/rpP5/8/PK6/4R3 w - - 0 1\"]\r\n\r\n{Les noirs s'apprêtent à jouer ...Ta8 pour empêcher les blancs de promouvoir leur pion h6. Trouvez un sacrifice qui réfutera cette défense.}\r\n1.Re8\r\n    {[%wrong Ce coup ne va pas nous permettre de promouvoir notre pion h. Essayez encore !][%hint Comment contrôler la case a8 tout en empêchant la tour noire de revenir sur la dernière rangée ?]}\r\n    (1.Rh1 $2 Ra8 {La tour noire revient à temps pour bloquer le pion passé blanc. Essayez encore !})\r\n    (1.h7 $2 Ra8 {La tour noire revient à temps pour bloquer le pion passé blanc. Essayez encore !})\r\n1...Kxe8\r\n    {Fantastique ! Notre tour empêche le coup ...Ta8. Maintenant que le roi noir bloque le chemin vers la dernière rangée, il est temps de pousser le pion !}\r\n2.h7\r\n    {[%wrong Nous voulons maintenant avancer le pion h.][%hint Pousser le pion h !] Les noirs ne peuvent plus nous empêcher de promouvoir notre pion au prochain coup, ce qui va nous assurer le gain de la partie.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/7p/2n2P2/1b1P1R2/1Pp5/2P3PP/4K3 b - - 0 1\"]\r\n\r\n{Le pion avancé c3 des noirs est bloqué. Trouvez un puissant sacrifice qui force l'ouverture de la colonne c ou qui gagne une pièce.}\r\n1...Nd3+\r\n    {[%wrong Ce coup n'est pas un sacrifice permettant la création d'un pion passé ou le gain d'une pièce. Essayez encore !][%hint Cherchez la fourchette...]}\r\n    (1...Nxb3 $2 2.Re4 {Les blancs ne sont pas obligés de prendre le cavalier noir, et leur puissante tour va maintenant pouvoir se poster sur une colonne ouverte. Il existe un coup beaucoup plus fort. Trouvez-le !})\r\n2.cxd3\r\n    {Bien joué ! Si les blancs ne prennent pas le cavalier, nous gagnons leur tour. Cet enchaînement nous permet de promouvoir le pion c.}\r\n2...c2+\r\n    {[%wrong Ce coup ne nous aide pas à promouvoir le pion c. Allez de l'avant !!][%hint Les pions passés sont fait pour être poussés !] Joliment fait ! En avançant le pion c, nous avons déclenché un échec à la découverte, ce qui va empêcher les blancs de défendre la case de promotion à temps !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "23cce244-a559-11e8-9aa6-effd2afc771b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Parfois, il faut sacrifier du matériel pour faire une nouvelle dame.",
+    "outroText": "Joli. Vous avez trouvé de superbes sacrifices.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "path": "comprendre-les-finales",
+      "title": "Comprendre les finales",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/23cce244-a559-11e8-9aa6-effd2afc771b.c6ee284d.728x410o.fc91752ed604.png"
+    },
+    "parentId": "b998e1cc-83aa-11e8-a41e-a708f548825e",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sacrificing-to-promote5d125425a6872.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sacrificing-to-promote-5668860a2a02af.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sacrificing-to-promote-15ea242c34fc88.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sacrificing-to-promote-2602c121fa3a46.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 59,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "name": "Comprendre les finales",
+      "path": "comprendre-les-finales",
+      "order": 2
+    }
+  }
+}

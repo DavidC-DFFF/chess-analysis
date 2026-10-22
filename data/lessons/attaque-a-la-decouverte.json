@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/attaque-a-la-decouverte",
+  "capturedAt": "2026-10-22T12:23:39.569Z",
+  "title": "L'attaque à la découverte",
+  "exercises": [
+    {
+      "fen": "r1b2rk1/pp3ppp/3q1n2/3p2B1/8/2PB4/PP1N1PP1/R2Q1RK1 w - - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette partie a été jouée à l'aveugle par le grand-maître Timour Gareyev, qui affrontait à cette occasion quinze joueurs en même temps ! Pour le moment, suivons le coup de l'expert et jouons 14.Cc4.",
+        "[%wrong Jouons le coup du grand-maître, Cc4.][%hint Déplacez le cavalier blanc en c4.]",
+        "Le conducteur des noirs pensait sans doute que le grand-maître aux yeux bandés, jouant uniquement de mémoire, venait de gaffer son cavalier. Pas du tout ! Trouvez l'idée derrière ce sacrifice.",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Notez que la dame des noirs n'est pas protégée, et qu'elle est alignée avec notre dame...]",
+        "Bien essayé, mais les noirs attaquent les deux fous blancs et obtiennent une bonne position. Il existe un coup bien plus fort. Trouvez-le !",
+        "Formidable ! Dans la vraie partie, les noirs abandonnèrent. Profitons tout de même du plaisir de prendre la dame noire !",
+        "Bravo, vous avez vu la tactique du grand-maître ! [%wrong Ce coup ne prend pas la dame noire !] [%hint Prenez la dame noire.]"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp3ppp/3q1n2/3p2B1/8/2PB4/PP1N1PP1/R2Q1RK1 w - - 0 14\"]\r\n[PlyCount \"5\"]\r\n\r\n{Cette partie a été jouée à l'aveugle par le grand-maître Timour Gareyev, qui affrontait à cette occasion quinze joueurs en même temps ! Pour le moment, suivons le coup de l'expert et jouons 14.Cc4.} 14. Nc4 {[%wrong Jouons le coup du grand-maître, Cc4.][%hint Déplacez le cavalier blanc en c4.]} \r\ndxc4 {Le conducteur des noirs pensait sans doute que le grand-maître aux yeux bandés, jouant uniquement de mémoire, venait de gaffer son cavalier. Pas du tout ! Trouvez l'idée derrière ce sacrifice.} \r\n15. Bxh7+ {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Notez que la dame des noirs n'est pas protégée, et qu'elle est alignée avec notre dame...]} \r\n(15. Bxc4 $2 Qc5 {Bien essayé, mais les noirs attaquent les deux fous blancs et obtiennent une bonne position. Il existe un coup bien plus fort. Trouvez-le !}) \r\n15... Nxh7 {Formidable ! Dans la vraie partie, les noirs abandonnèrent. Profitons tout de même du plaisir de prendre la dame noire !} \r\n16. Qxd6 {Bravo, vous avez vu la tactique du grand-maître ! [%wrong Ce coup ne prend pas la dame noire !] [%hint Prenez la dame noire.]} *"
+    },
+    {
+      "fen": "r1bqr1k1/p1p2ppp/3b1n2/2P3B1/8/2NQ1N2/PP3PPP/R4RK1 b - - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de prendre le pion c5 en pensant que les noirs allaient reprendre avec le fou puis échanger les dames. Mais ils ont raté quelque chose... Quoi ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint La dame blanche n'est pas protégée, serait-il possible de l'attaquer à la découverte ?]",
+        "Les blancs échangent les dames et obtiennent une position confortable... Trouvez mieux !",
+        "Bien joué ! Les noirs déclenchent une attaque à la découverte sur la dame blanche. A vous d'en profitez !",
+        "[%wrong Non, nous voulons prendre la dame blanche !][%hint Prenez la dame blanche !] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqr1k1/p1p2ppp/3b1n2/2P3B1/8/2NQ1N2/PP3PPP/R4RK1 b - - 0 14\"]\r\n\r\n{Les blancs viennent de prendre le pion c5 en pensant que les noirs allaient reprendre avec le fou puis échanger les dames. Mais ils ont raté quelque chose... Quoi ?}\r\n14...Bxh2+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint La dame blanche n'est pas protégée, serait-il possible de l'attaquer à la découverte ?]}\r\n    (14...Bxc5 $2 15.Qxd8 {Les blancs échangent les dames et obtiennent une position confortable... Trouvez mieux !})\r\n15.Nxh2\r\n    {Bien joué ! Les noirs déclenchent une attaque à la découverte sur la dame blanche. A vous d'en profitez !}\r\n15...Qxd3\r\n    {[%wrong Non, nous voulons prendre la dame blanche !][%hint Prenez la dame blanche !] Bien joué !}\r\n*"
+    },
+    {
+      "fen": "rn1q1rk1/pbp1bpp1/1p2p2p/8/2PPN3/6P1/PPQ2PBP/R1BR2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Combinez les thèmes de la double attaque et de l'attaque à la découverte pour gagner du matériel !",
+        "[%wrong Ce coup ne combine pas la double attaque avec l'attaque à la découverte. Essayez encore !][%hint Le fou noir en b7 n'est pas protégé. Attaquez-le tout en menaçant mat !]",
+        "Bien joué, ce coup est également excellent. Trouvez maintenant l'autre attaque à la découverte de la position.",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez un autre coup de cavalier !",
+        "Beau travail ! Vous menacez à la fois de mater et de prendre le fou b7. Par conséquent, les noirs doivent prendre le cavalier. Il est maintenant temps de gagner du matériel !",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Pourquoi avoir enlever le cavalier de la diagonale h1-a8 ?] Bien joué. Vous allez pouvoir prendre la tour au prochain coup et profitez d'un large avantage."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/pbp1bpp1/1p2p2p/8/2PPN3/6P1/PPQ2PBP/R1BR2K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Combinez les thèmes de la double attaque et de l'attaque à la découverte pour gagner du matériel !}\r\n1.Ng5\r\n    {[%wrong Ce coup ne combine pas la double attaque avec l'attaque à la découverte. Essayez encore !][%hint Le fou noir en b7 n'est pas protégé. Attaquez-le tout en menaçant mat !]}\r\n    (1.Nf6+ $5 {Bien joué, ce coup est également excellent. Trouvez maintenant l'autre attaque à la découverte de la position.})\r\n    (1.Nc5 $2 Bxg2 {Bien essayé, mais ce coup perd du matériel. Trouvez un autre coup de cavalier !})\r\n1...hxg5\r\n    {Beau travail ! Vous menacez à la fois de mater et de prendre le fou b7. Par conséquent, les noirs doivent prendre le cavalier. Il est maintenant temps de gagner du matériel !}\r\n2.Bxb7\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Pourquoi avoir enlever le cavalier de la diagonale h1-a8 ?] Bien joué. Vous allez pouvoir prendre la tour au prochain coup et profitez d'un large avantage.}\r\n*"
+    },
+    {
+      "fen": "1r2rk2/1p1bqp2/p1p1pNpp/P7/2P5/6P1/1Q2PPKP/1RR5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame blanche rêve de mater en h8. Comment y parvenir grâce au thème de l'attaque à la découverte ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Ouvrez l'accès à la case h8 pour la dame tout en attaquant une importante pièce noire.]",
+        "Bien essayé, mais cette variante ne va pas vous permettre de faire mieux que de répéter les coups avec Cf6+. Trouvez un coup plus fort !",
+        "Ce coup a l'air fort, mais lorsque la dame noire capture notre cavalier, elle ouvre la case e7 pour son roi, qui va pouvoir s'échapper. Essayez encore !",
+        "Superbe ! Le cavalier blanc déclenche une menace de mat par la dame tout en attaquant la dame noire. Les noirs empêchent le mat, profitons-en pour empocher le matériel !",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Prenez la plus puissante des pièces adverses.] Excellent travail ! Les blancs gagnent la dame noire grâce à une double attaque à la découverte ! Boum !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2rk2/1p1bqp2/p1p1pNpp/P7/2P5/6P1/1Q2PPKP/1RR5 w - - 0 1\"]\r\n\r\n{La dame blanche rêve de mater en h8. Comment y parvenir grâce au thème de l'attaque à la découverte ?}\r\n1.Nd5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Ouvrez l'accès à la case h8 pour la dame tout en attaquant une importante pièce noire.]}\r\n    (1.Nh7+ $6 Kg8 {Bien essayé, mais cette variante ne va pas vous permettre de faire mieux que de répéter les coups avec Cf6+. Trouvez un coup plus fort !})\r\n    (1.Nxd7+ $6 Qxd7 {Ce coup a l'air fort, mais lorsque la dame noire capture notre cavalier, elle ouvre la case e7 pour son roi, qui va pouvoir s'échapper. Essayez encore !})\r\n1...e5\r\n    {Superbe ! Le cavalier blanc déclenche une menace de mat par la dame tout en attaquant la dame noire. Les noirs empêchent le mat, profitons-en pour empocher le matériel !}\r\n2.Nxe7\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Prenez la plus puissante des pièces adverses.] Excellent travail ! Les blancs gagnent la dame noire grâce à une double attaque à la découverte ! Boum !}\r\n*"
+    },
+    {
+      "fen": "1r1r2k1/1b3p2/ppqpnbp1/2p4p/2P1P2P/1PN3P1/PB2QPB1/3RR1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez une attaque à la découverte gagnant du matériel.",
+        "[%wrong Il ne s'agit pas d'une attaque à la découverte gagnant du matériel. Essayez encore !][%hint Le fou noir en f6 n'est pas protégé. Attaquez-le à la découverte tout en préparant une fourchette royale !]",
+        "Cette attaque à la découverte est sèchement réfutée par un mat en un. Trouvez mieux !",
+        "Bien essayé, mais le cavalier n'attaque aucune pièce adverse en a4. Trouvez un coup plus fort !",
+        "Bien trouvé ! Les blancs attaquent le fou f6 tout en plaçant le cavalier sur une très forte case. Comment enchaîner ?",
+        "[%wrong Dans cette position, il est possible de gagner la dame adverse. Trouvez comment !][%hint Le fou des noirs ne garde plus la case e7. Profitons-en !] L'attaque à la découverte du coup précédent nous a permis d'enchaîner par une fourchette royale. Bien joué !",
+        "Ce coup n'est pas intrinsèquement mauvais, mais il y a beaucoup plus fort dans cette position !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r2k1/1b3p2/ppqpnbp1/2p4p/2P1P2P/1PN3P1/PB2QPB1/3RR1K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez une attaque à la découverte gagnant du matériel.}\r\n1.Nd5\r\n    {[%wrong Il ne s'agit pas d'une attaque à la découverte gagnant du matériel. Essayez encore !][%hint Le fou noir en f6 n'est pas protégé. Attaquez-le à la découverte tout en préparant une fourchette royale !]}\r\n    (1.e5 $2 Qxg2# {Cette attaque à la découverte est sèchement réfutée par un mat en un. Trouvez mieux !})\r\n    (1.Na4 $2 Bxb2 {Bien essayé, mais le cavalier n'attaque aucune pièce adverse en a4. Trouvez un coup plus fort !})\r\n1...Bxb2\r\n    {Bien trouvé ! Les blancs attaquent le fou f6 tout en plaçant le cavalier sur une très forte case. Comment enchaîner ?}\r\n2.Ne7+\r\n    {[%wrong Dans cette position, il est possible de gagner la dame adverse. Trouvez comment !][%hint Le fou des noirs ne garde plus la case e7. Profitons-en !] L'attaque à la découverte du coup précédent nous a permis d'enchaîner par une fourchette royale. Bien joué !}\r\n    (2.Qxb2 $2 {Ce coup n'est pas intrinsèquement mauvais, mais il y a beaucoup plus fort dans cette position !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "5a92cbf8-9cea-11e8-beeb-178229d2e7f3",
+    "name": "L'attaque à la découverte",
+    "path": "attaque-a-la-decouverte",
+    "description": "Une attaque à la découverte consiste à déplacer une pièce pour révéler l’attaque d’une autre. Ce coup peut s’avérer très puissant car les deux pièces réalisent alors des menaces en même temps. L’adversaire ne pourra pas les parer toutes les deux !",
+    "glyphName": "local-door-right-exit",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-discovered-attack-e3w.mp4",
+    "fen": "r1bqr1k1/p1p2ppp/3b1n2/2P3B1/8/2NQ1N2/PP3PPP/R4RK1 b - - 0 14",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp3ppp/3q1n2/3p2B1/8/2PB4/PP1N1PP1/R2Q1RK1 w - - 0 14\"]\r\n[PlyCount \"5\"]\r\n\r\n{Cette partie a été jouée à l'aveugle par le grand-maître Timour Gareyev, qui affrontait à cette occasion quinze joueurs en même temps ! Pour le moment, suivons le coup de l'expert et jouons 14.Cc4.} 14. Nc4 {[%wrong Jouons le coup du grand-maître, Cc4.][%hint Déplacez le cavalier blanc en c4.]} \r\ndxc4 {Le conducteur des noirs pensait sans doute que le grand-maître aux yeux bandés, jouant uniquement de mémoire, venait de gaffer son cavalier. Pas du tout ! Trouvez l'idée derrière ce sacrifice.} \r\n15. Bxh7+ {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Notez que la dame des noirs n'est pas protégée, et qu'elle est alignée avec notre dame...]} \r\n(15. Bxc4 $2 Qc5 {Bien essayé, mais les noirs attaquent les deux fous blancs et obtiennent une bonne position. Il existe un coup bien plus fort. Trouvez-le !}) \r\n15... Nxh7 {Formidable ! Dans la vraie partie, les noirs abandonnèrent. Profitons tout de même du plaisir de prendre la dame noire !} \r\n16. Qxd6 {Bravo, vous avez vu la tactique du grand-maître ! [%wrong Ce coup ne prend pas la dame noire !] [%hint Prenez la dame noire.]} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqr1k1/p1p2ppp/3b1n2/2P3B1/8/2NQ1N2/PP3PPP/R4RK1 b - - 0 14\"]\r\n\r\n{Les blancs viennent de prendre le pion c5 en pensant que les noirs allaient reprendre avec le fou puis échanger les dames. Mais ils ont raté quelque chose... Quoi ?}\r\n14...Bxh2+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint La dame blanche n'est pas protégée, serait-il possible de l'attaquer à la découverte ?]}\r\n    (14...Bxc5 $2 15.Qxd8 {Les blancs échangent les dames et obtiennent une position confortable... Trouvez mieux !})\r\n15.Nxh2\r\n    {Bien joué ! Les noirs déclenchent une attaque à la découverte sur la dame blanche. A vous d'en profitez !}\r\n15...Qxd3\r\n    {[%wrong Non, nous voulons prendre la dame blanche !][%hint Prenez la dame blanche !] Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/pbp1bpp1/1p2p2p/8/2PPN3/6P1/PPQ2PBP/R1BR2K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Combinez les thèmes de la double attaque et de l'attaque à la découverte pour gagner du matériel !}\r\n1.Ng5\r\n    {[%wrong Ce coup ne combine pas la double attaque avec l'attaque à la découverte. Essayez encore !][%hint Le fou noir en b7 n'est pas protégé. Attaquez-le tout en menaçant mat !]}\r\n    (1.Nf6+ $5 {Bien joué, ce coup est également excellent. Trouvez maintenant l'autre attaque à la découverte de la position.})\r\n    (1.Nc5 $2 Bxg2 {Bien essayé, mais ce coup perd du matériel. Trouvez un autre coup de cavalier !})\r\n1...hxg5\r\n    {Beau travail ! Vous menacez à la fois de mater et de prendre le fou b7. Par conséquent, les noirs doivent prendre le cavalier. Il est maintenant temps de gagner du matériel !}\r\n2.Bxb7\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Pourquoi avoir enlever le cavalier de la diagonale h1-a8 ?] Bien joué. Vous allez pouvoir prendre la tour au prochain coup et profitez d'un large avantage.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2rk2/1p1bqp2/p1p1pNpp/P7/2P5/6P1/1Q2PPKP/1RR5 w - - 0 1\"]\r\n\r\n{La dame blanche rêve de mater en h8. Comment y parvenir grâce au thème de l'attaque à la découverte ?}\r\n1.Nd5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Ouvrez l'accès à la case h8 pour la dame tout en attaquant une importante pièce noire.]}\r\n    (1.Nh7+ $6 Kg8 {Bien essayé, mais cette variante ne va pas vous permettre de faire mieux que de répéter les coups avec Cf6+. Trouvez un coup plus fort !})\r\n    (1.Nxd7+ $6 Qxd7 {Ce coup a l'air fort, mais lorsque la dame noire capture notre cavalier, elle ouvre la case e7 pour son roi, qui va pouvoir s'échapper. Essayez encore !})\r\n1...e5\r\n    {Superbe ! Le cavalier blanc déclenche une menace de mat par la dame tout en attaquant la dame noire. Les noirs empêchent le mat, profitons-en pour empocher le matériel !}\r\n2.Nxe7\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Prenez la plus puissante des pièces adverses.] Excellent travail ! Les blancs gagnent la dame noire grâce à une double attaque à la découverte ! Boum !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r2k1/1b3p2/ppqpnbp1/2p4p/2P1P2P/1PN3P1/PB2QPB1/3RR1K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez une attaque à la découverte gagnant du matériel.}\r\n1.Nd5\r\n    {[%wrong Il ne s'agit pas d'une attaque à la découverte gagnant du matériel. Essayez encore !][%hint Le fou noir en f6 n'est pas protégé. Attaquez-le à la découverte tout en préparant une fourchette royale !]}\r\n    (1.e5 $2 Qxg2# {Cette attaque à la découverte est sèchement réfutée par un mat en un. Trouvez mieux !})\r\n    (1.Na4 $2 Bxb2 {Bien essayé, mais le cavalier n'attaque aucune pièce adverse en a4. Trouvez un coup plus fort !})\r\n1...Bxb2\r\n    {Bien trouvé ! Les blancs attaquent le fou f6 tout en plaçant le cavalier sur une très forte case. Comment enchaîner ?}\r\n2.Ne7+\r\n    {[%wrong Dans cette position, il est possible de gagner la dame adverse. Trouvez comment !][%hint Le fou des noirs ne garde plus la case e7. Profitons-en !] L'attaque à la découverte du coup précédent nous a permis d'enchaîner par une fourchette royale. Bien joué !}\r\n    (2.Qxb2 $2 {Ce coup n'est pas intrinsèquement mauvais, mais il y a beaucoup plus fort dans cette position !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Prêt à apprendre une nouvelle idée tactique des plus sournoises ?",
+    "outroText": "Beau travail. Les attaques à la découverte ne sont pas faciles à voir.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "2b395802-83ab-11e8-8e06-ddf3f0ddcdf3",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-attack5d12554b5e998.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-attack-5667efc0255b4b.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-attack-15ea2422962476.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-attack-26033b4ea012e2.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 66,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

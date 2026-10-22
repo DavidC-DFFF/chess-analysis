@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/playing-a-bad-position-2",
+  "capturedAt": "2026-10-22T12:23:46.844Z",
+  "title": "Jouer une mauvaise position",
+  "exercises": [
+    {
+      "fen": "r3k2r/pp3pp1/3p2np/2pP4/2P2P2/P1n1NPP1/7P/R3K2R w KQ - 2 17",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Avec une pièce de moins, la position blanche semble sans espoir. Notez cependant que le cavalier c3 n'a qu'une seule case de fuite : a4. Trouvez le coup puissant qui permet aux blancs de revenir dans la partie !",
+        "[%wrong Ce coup n'empêche pas le cavalier noir de s'enfuir via a4. Cherchez encore !][%hint Le cavalier veut s'enfuir via a4. Enfermez-le !]",
+        "Bien vu ! La pièce supplémentaire des noirs ne peut plus s'échapper de notre camp. Comment l'attaquer tout en connectant les tours ?",
+        "[%wrong Ce coup n'attaque pas le cavalier c3. Cherchez encore !][%hint Le roi est une pièce d'attaque !] Le roi part à l'assaut ! Les noirs vont jouer le desperado Ccxd5 et s'en sortir avec un pion de plus, mais nous avons récupéré la pièce. La position est toujours difficile, mais tenable !",
+        "Ce coup est également jouable, mais pourquoi ne pas commencer à centraliser le roi tout en connectant les tours ?",
+        "N'oubliez pas le pion a ! Le cavalier noir s'échappe de justesse. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/pp3pp1/3p2np/2pP4/2P2P2/P1n1NPP1/7P/R3K2R w KQ - 2 17\"]\r\n\r\n{Avec une pièce de moins, la position blanche semble sans espoir. Notez cependant que le cavalier c3 n'a qu'une seule case de fuite : a4. Trouvez le coup puissant qui permet aux blancs de revenir dans la partie !}\r\n17.a4\r\n    {[%wrong Ce coup n'empêche pas le cavalier noir de s'enfuir via a4. Cherchez encore !][%hint Le cavalier veut s'enfuir via a4. Enfermez-le !]}\r\n17...Ne7\r\n    {Bien vu ! La pièce supplémentaire des noirs ne peut plus s'échapper de notre camp. Comment l'attaquer tout en connectant les tours ?}\r\n18.Kd2\r\n    {[%wrong Ce coup n'attaque pas le cavalier c3. Cherchez encore !][%hint Le roi est une pièce d'attaque !] Le roi part à l'assaut ! Les noirs vont jouer le desperado Ccxd5 et s'en sortir avec un pion de plus, mais nous avons récupéré la pièce. La position est toujours difficile, mais tenable !}\r\n    (18.Ra3 $5 {Ce coup est également jouable, mais pourquoi ne pas commencer à centraliser le roi tout en connectant les tours ?})\r\n    (18.Rc1 $2 Nxa4 {N'oubliez pas le pion a ! Le cavalier noir s'échappe de justesse. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "6k1/p1r2pp1/1p3b1p/5q2/Q7/5BP1/5P1P/1R4K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont deux pions de moins, et la dame noire attaque à la fois le fou et la tour. La position semble désespérée, et pourtant, les blancs peuvent éviter de perdre plus de matériel. Trouvez comment !",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Même dans une mauvaise position, cherchez des coups actifs qui forcent la main de l'adversaire. Ici, les blancs ont une combinaison qui gagne du matériel.]",
+        "Bien essayé. Ce coup défensif est intéressant, mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.",
+        "Bien essayé. Ce coup défensif est intéressant, mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.",
+        "Combiner l'attaque et la défense est généralement une bonne idée, Mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.",
+        "Un bon vieux coup forcé ! Le roi noir est maintenant sur la même diagonale que sa dame... Profitons-en pour obtenir une position gagnante !",
+        "[%wrong Ce coup ne gagne pas la dame noire. Cherchez encore !][%hint Trouvez une puissante tactique basée sur le thème du clouage.] Bien joué ! En gardant un état d'esprit positif, vous avez trouvé une combinaison qui change totalement le cours de la partie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p1r2pp1/1p3b1p/5q2/Q7/5BP1/5P1P/1R4K1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Les blancs ont deux pions de moins, et la dame noire attaque à la fois le fou et la tour. La position semble désespérée, et pourtant, les blancs peuvent éviter de perdre plus de matériel. Trouvez comment !}\r\n1. Qe8+ {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Même dans une mauvaise position, cherchez des coups actifs qui forcent la main de l'adversaire. Ici, les blancs ont une combinaison qui gagne du matériel.]} \r\n(1. Qd1 $2 {Bien essayé. Ce coup défensif est intéressant, mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.}) \r\n(1. Qb3 $2 {Bien essayé. Ce coup défensif est intéressant, mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.})\r\n(1. Be4 $2 Qe6 {Combiner l'attaque et la défense est généralement une bonne idée, Mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.}) \r\n1... Kh7 {Un bon vieux coup forcé ! Le roi noir est maintenant sur la même diagonale que sa dame... Profitons-en pour obtenir une position gagnante !} 2. Be4 {[%wrong Ce coup ne gagne pas la dame noire. Cherchez encore !][%hint Trouvez une puissante tactique basée sur le thème du clouage.] Bien joué ! En gardant un état d'esprit positif, vous avez trouvé une combinaison qui change totalement le cours de la partie !} *"
+    },
+    {
+      "fen": "3n4/1k6/7P/5NK1/6N1/8/8/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une pièce de plus et un dangereux pion passé. Trouvez le fort plan défensif des noirs !",
+        "[%wrong Ce coup ne nous aide pas à résoudre le problème du pion passé adverse. Cherchez encore !][%hint Comment attaquer à la fois le roi et le pion passé adverse ?]",
+        "Bien essayé, mais notre cavalier ne va pas faire le poids contre les deux cavaliers adverses et leur pion passé. Cherchez encore !",
+        "Joli coup ! Les noirs mettent le roi blanc en échec et se préparent à matérialiser une idée défensive très importante. A vous de jouer !",
+        "[%wrong Bien essayé, mais ce coup ne sauve pas la partie. Cherchez encore !][%hint Deux cavaliers et un roi ne peuvent pas mater un roi seul, c'est théorique !] Bien vu ! Les noirs ont beau avoir deux pièces de moins, les deux cavaliers et le roi ne peuvent pas mater un roi seul ! La position est donc nulle. Les noirs doivent juste faire attention à bien garder le roi éloigné des coins de l'échiquier, et tout ira bien !",
+        "Le cavalier noir est enfermé, et les blancs vont l'emporter... Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3n4/1k6/7P/5NK1/6N1/8/8/8 b - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de plus et un dangereux pion passé. Trouvez le fort plan défensif des noirs !}\r\n1...Nf7+\r\n    {[%wrong Ce coup ne nous aide pas à résoudre le problème du pion passé adverse. Cherchez encore !][%hint Comment attaquer à la fois le roi et le pion passé adverse ?]}\r\n    (1...Ne6+ $2 2.Kf6 {Bien essayé, mais notre cavalier ne va pas faire le poids contre les deux cavaliers adverses et leur pion passé. Cherchez encore !})\r\n2.Kg6\r\n    {Joli coup ! Les noirs mettent le roi blanc en échec et se préparent à matérialiser une idée défensive très importante. A vous de jouer !}\r\n2...Nxh6\r\n    {[%wrong Bien essayé, mais ce coup ne sauve pas la partie. Cherchez encore !][%hint Deux cavaliers et un roi ne peuvent pas mater un roi seul, c'est théorique !] Bien vu ! Les noirs ont beau avoir deux pièces de moins, les deux cavaliers et le roi ne peuvent pas mater un roi seul ! La position est donc nulle. Les noirs doivent juste faire attention à bien garder le roi éloigné des coins de l'échiquier, et tout ira bien !}\r\n    (2...Nh8+ $2 3.Kg7 {Le cavalier noir est enfermé, et les blancs vont l'emporter... Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "8/2P3kp/1R4p1/4p3/5p1K/6rP/1P5r/2R5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette partie entre grand-maîtres a été jouée sur Chess.com lors du Speed Chess Championship. Dans cette position, les noirs ont joué ...Th2, se préparent à mater, et les blancs ont abandonné ! Pourtant, il était possible de sauver la partie. Trouvez comment !",
+        "[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Comment protéger le pion h3 ? Ne cherchez pas un coup de tour...] Bien joué, vous êtes plein de ressources ! La position semblait perdue, et pourtant, vous avez trouvé l'idée gagnante ! Pour sa défense, le conducteur des blancs n'avait plus que quelques secondes à la pendule.",
+        "Les blancs ont raté une formidable opportunité de promouvoir en dame et de gagner la partie. Pourquoi ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2P3kp/1R4p1/4p3/5p1K/6rP/1P5r/2R5 w - - 0 1\"]\r\n\r\n{Cette partie entre grand-maîtres a été jouée sur Chess.com lors du Speed Chess Championship. Dans cette position, les noirs ont joué ...Th2, se préparent à mater, et les blancs ont abandonné ! Pourtant, il était possible de sauver la partie. Trouvez comment !}\r\n1.c8=Q\r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Comment protéger le pion h3 ? Ne cherchez pas un coup de tour...] Bien joué, vous êtes plein de ressources ! La position semblait perdue, et pourtant, vous avez trouvé l'idée gagnante ! Pour sa défense, le conducteur des blancs n'avait plus que quelques secondes à la pendule.}\r\n    (1.c8=B $2 Rhg2 {Les blancs ont raté une formidable opportunité de promouvoir en dame et de gagner la partie. Pourquoi ?})\r\n*"
+    },
+    {
+      "fen": "6k1/3R3R/1p4p1/4P3/1p6/1Pq3Pb/P4P1P/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un avantage matériel et menacent de mater le faible roi blanc. Pourtant, ces derniers peuvent encore sauver la partie ! Trouvez comment.",
+        "[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint Les blancs ont deux tours sur la septième rangée... Cherchez l'échec perpétuel !]",
+        "Après Rg2, les noirs vont gagner une tour par ...Dc6+ double attaque. Trouvez un meilleur coup !",
+        "Ce coup perd une tour, et les noirs matent quand même avec la dame et le fou. Cherchez encore !",
+        "Il est trop tard pour donner une case de fuite au roi... Trouvez un meilleur coup !",
+        "Il est trop tard pour donner une case de fuite au roi... Trouvez un meilleur coup !",
+        "C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !",
+        "Bien joué ! Les noirs tentent d'échapper à l'échec perpétuel en se rapprochant du centre de l'échiquier. Comment forcer la nulle ?",
+        "[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint Continuez à donner des échecs !]",
+        "C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !",
+        "Continuez sur cette voie ! Les noirs pensent esquiver la nulle en fuyant en g8, mais c'est peine perdue ! A vous de jouer.",
+        "[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint  Continuez à donner des échecs !] Quel sauvetage ! Tant que les blancs continuent à donner des échecs avec cette tour, les noirs ne peuvent rien faire. La partie est nulle.",
+        "C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/3R3R/1p4p1/4P3/1p6/1Pq3Pb/P4P1P/6K1 w - - 0 1\"]\r\n\r\n{Les noirs ont un avantage matériel et menacent de mater le faible roi blanc. Pourtant, ces derniers peuvent encore sauver la partie ! Trouvez comment.}\r\n1.Rhg7+\r\n    {[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint Les blancs ont deux tours sur la septième rangée... Cherchez l'échec perpétuel !]}\r\n    (1.Rxh3 $2 Qc1+ {Après Rg2, les noirs vont gagner une tour par ...Dc6+ double attaque. Trouvez un meilleur coup !})\r\n    (1.Rd1 $2 Kxh7 {Ce coup perd une tour, et les noirs matent quand même avec la dame et le fou. Cherchez encore !})\r\n    (1.f4 $2 Qe1# {Il est trop tard pour donner une case de fuite au roi... Trouvez un meilleur coup !})\r\n    (1.f3 $2 Qe1# {Il est trop tard pour donner une case de fuite au roi... Trouvez un meilleur coup !})\r\n    (1.Rdg7+ Kf8 $2 {C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !})\r\n1...Kf8\r\n    {Bien joué ! Les noirs tentent d'échapper à l'échec perpétuel en se rapprochant du centre de l'échiquier. Comment forcer la nulle ?}\r\n2.Rgf7+\r\n    {[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint Continuez à donner des échecs !]}\r\n    (2.Rdf7+ $2 Ke8 {C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !})\r\n2...Ke8\r\n    {Continuez sur cette voie ! Les noirs pensent esquiver la nulle en fuyant en g8, mais c'est peine perdue ! A vous de jouer.}\r\n3.Rfe7+\r\n    {[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint  Continuez à donner des échecs !] Quel sauvetage ! Tant que les blancs continuent à donner des échecs avec cette tour, les noirs ne peuvent rien faire. La partie est nulle.}\r\n    (3.Rde7+ $2 Kd8 {C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "29b5b4f8-9cec-11e8-8d94-65119634ba4d",
+    "name": "Jouer une mauvaise position",
+    "path": "playing-a-bad-position-2",
+    "description": "Les positions compromises ne sont pas perdantes pour autant. Soyez tenaces et évitez de créer de nouvelles faiblesses. La plupart du temps, il est toujours possible de tenir malgré une faiblesse. Essayez également de trouver du contre jeu actif. En forçant votre adversaire à défendre contre vos idées, vous allégerez la pression qu’il met sur votre position.",
+    "glyphName": "board-badge-warning",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-playing-a-bad-position-x0w.mp4",
+    "fen": "3n4/1k6/7P/5NK1/6N1/8/8/8 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/pp3pp1/3p2np/2pP4/2P2P2/P1n1NPP1/7P/R3K2R w KQ - 2 17\"]\r\n\r\n{Avec une pièce de moins, la position blanche semble sans espoir. Notez cependant que le cavalier c3 n'a qu'une seule case de fuite : a4. Trouvez le coup puissant qui permet aux blancs de revenir dans la partie !}\r\n17.a4\r\n    {[%wrong Ce coup n'empêche pas le cavalier noir de s'enfuir via a4. Cherchez encore !][%hint Le cavalier veut s'enfuir via a4. Enfermez-le !]}\r\n17...Ne7\r\n    {Bien vu ! La pièce supplémentaire des noirs ne peut plus s'échapper de notre camp. Comment l'attaquer tout en connectant les tours ?}\r\n18.Kd2\r\n    {[%wrong Ce coup n'attaque pas le cavalier c3. Cherchez encore !][%hint Le roi est une pièce d'attaque !] Le roi part à l'assaut ! Les noirs vont jouer le desperado Ccxd5 et s'en sortir avec un pion de plus, mais nous avons récupéré la pièce. La position est toujours difficile, mais tenable !}\r\n    (18.Ra3 $5 {Ce coup est également jouable, mais pourquoi ne pas commencer à centraliser le roi tout en connectant les tours ?})\r\n    (18.Rc1 $2 Nxa4 {N'oubliez pas le pion a ! Le cavalier noir s'échappe de justesse. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p1r2pp1/1p3b1p/5q2/Q7/5BP1/5P1P/1R4K1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Les blancs ont deux pions de moins, et la dame noire attaque à la fois le fou et la tour. La position semble désespérée, et pourtant, les blancs peuvent éviter de perdre plus de matériel. Trouvez comment !}\r\n1. Qe8+ {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Même dans une mauvaise position, cherchez des coups actifs qui forcent la main de l'adversaire. Ici, les blancs ont une combinaison qui gagne du matériel.]} \r\n(1. Qd1 $2 {Bien essayé. Ce coup défensif est intéressant, mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.}) \r\n(1. Qb3 $2 {Bien essayé. Ce coup défensif est intéressant, mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.})\r\n(1. Be4 $2 Qe6 {Combiner l'attaque et la défense est généralement une bonne idée, Mais ne passez pas à côté d'une idée gagnante ! Même dans les mauvaises positions, cherchez toujours des coups positifs.}) \r\n1... Kh7 {Un bon vieux coup forcé ! Le roi noir est maintenant sur la même diagonale que sa dame... Profitons-en pour obtenir une position gagnante !} 2. Be4 {[%wrong Ce coup ne gagne pas la dame noire. Cherchez encore !][%hint Trouvez une puissante tactique basée sur le thème du clouage.] Bien joué ! En gardant un état d'esprit positif, vous avez trouvé une combinaison qui change totalement le cours de la partie !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3n4/1k6/7P/5NK1/6N1/8/8/8 b - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de plus et un dangereux pion passé. Trouvez le fort plan défensif des noirs !}\r\n1...Nf7+\r\n    {[%wrong Ce coup ne nous aide pas à résoudre le problème du pion passé adverse. Cherchez encore !][%hint Comment attaquer à la fois le roi et le pion passé adverse ?]}\r\n    (1...Ne6+ $2 2.Kf6 {Bien essayé, mais notre cavalier ne va pas faire le poids contre les deux cavaliers adverses et leur pion passé. Cherchez encore !})\r\n2.Kg6\r\n    {Joli coup ! Les noirs mettent le roi blanc en échec et se préparent à matérialiser une idée défensive très importante. A vous de jouer !}\r\n2...Nxh6\r\n    {[%wrong Bien essayé, mais ce coup ne sauve pas la partie. Cherchez encore !][%hint Deux cavaliers et un roi ne peuvent pas mater un roi seul, c'est théorique !] Bien vu ! Les noirs ont beau avoir deux pièces de moins, les deux cavaliers et le roi ne peuvent pas mater un roi seul ! La position est donc nulle. Les noirs doivent juste faire attention à bien garder le roi éloigné des coins de l'échiquier, et tout ira bien !}\r\n    (2...Nh8+ $2 3.Kg7 {Le cavalier noir est enfermé, et les blancs vont l'emporter... Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2P3kp/1R4p1/4p3/5p1K/6rP/1P5r/2R5 w - - 0 1\"]\r\n\r\n{Cette partie entre grand-maîtres a été jouée sur Chess.com lors du Speed Chess Championship. Dans cette position, les noirs ont joué ...Th2, se préparent à mater, et les blancs ont abandonné ! Pourtant, il était possible de sauver la partie. Trouvez comment !}\r\n1.c8=Q\r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Comment protéger le pion h3 ? Ne cherchez pas un coup de tour...] Bien joué, vous êtes plein de ressources ! La position semblait perdue, et pourtant, vous avez trouvé l'idée gagnante ! Pour sa défense, le conducteur des blancs n'avait plus que quelques secondes à la pendule.}\r\n    (1.c8=B $2 Rhg2 {Les blancs ont raté une formidable opportunité de promouvoir en dame et de gagner la partie. Pourquoi ?})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/3R3R/1p4p1/4P3/1p6/1Pq3Pb/P4P1P/6K1 w - - 0 1\"]\r\n\r\n{Les noirs ont un avantage matériel et menacent de mater le faible roi blanc. Pourtant, ces derniers peuvent encore sauver la partie ! Trouvez comment.}\r\n1.Rhg7+\r\n    {[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint Les blancs ont deux tours sur la septième rangée... Cherchez l'échec perpétuel !]}\r\n    (1.Rxh3 $2 Qc1+ {Après Rg2, les noirs vont gagner une tour par ...Dc6+ double attaque. Trouvez un meilleur coup !})\r\n    (1.Rd1 $2 Kxh7 {Ce coup perd une tour, et les noirs matent quand même avec la dame et le fou. Cherchez encore !})\r\n    (1.f4 $2 Qe1# {Il est trop tard pour donner une case de fuite au roi... Trouvez un meilleur coup !})\r\n    (1.f3 $2 Qe1# {Il est trop tard pour donner une case de fuite au roi... Trouvez un meilleur coup !})\r\n    (1.Rdg7+ Kf8 $2 {C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !})\r\n1...Kf8\r\n    {Bien joué ! Les noirs tentent d'échapper à l'échec perpétuel en se rapprochant du centre de l'échiquier. Comment forcer la nulle ?}\r\n2.Rgf7+\r\n    {[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint Continuez à donner des échecs !]}\r\n    (2.Rdf7+ $2 Ke8 {C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !})\r\n2...Ke8\r\n    {Continuez sur cette voie ! Les noirs pensent esquiver la nulle en fuyant en g8, mais c'est peine perdue ! A vous de jouer.}\r\n3.Rfe7+\r\n    {[%wrong Ce coup ne sauve pas les blancs. Cherchez encore !][%hint  Continuez à donner des échecs !] Quel sauvetage ! Tant que les blancs continuent à donner des échecs avec cette tour, les noirs ne peuvent rien faire. La partie est nulle.}\r\n    (3.Rde7+ $2 Kd8 {C'est la bonne idée, mais n'oubliez pas que le fou des noirs couvre la case d7. Vous allez donc finir par ne plus pouvoir donner d'échecs ! Cherchez encore, et trouvez le coup qui force l'échec perpétuel !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Renversez la donne en trouvant des ressources dans les positions inférieures.",
+    "outroText": "Vous battre dans les positions difficiles vous aidera à progresser.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "695bb332-83b5-11e8-b3fe-adc3cbeca1e9",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/playing-a-bad-position5d125857a1506.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/playing-a-bad-position-566886adf7bbf9.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/playing-a-bad-position-15ea2400d3c731.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/playing-a-bad-position-360e70fcdc16e3.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 98,
+    "order": 5,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

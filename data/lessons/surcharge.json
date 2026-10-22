@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-avancees/surcharge",
+  "capturedAt": "2026-10-22T12:23:53.015Z",
+  "title": "La surcharge",
+  "exercises": [
+    {
+      "fen": "3r2k1/8/6p1/R4p2/2P1Pq1p/2Q1n2P/1P2B1P1/6K1 b - - 0 36",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs ont un avantage matériel et deux pions passés connectés, mais ce n'est pas un problème pour le grand-maître Mark Taimanov, qui dans cette position va trouver une superbe tactique basée sur le thème de la surcharge. Suivez ses traces !",
+        "[%wrong Pas de surcharge à l'horizon... Cherchez encore !][%hint Le fou des blancs garde à la fois f1 et d1. Trouvez un coup permettant de profiter de cette pièce surchargée !]",
+        "Joli ! Le fou surchargé couvrait à la fois f1 et d1. Comment finir la partie en force ?",
+        "[%wrong Oups ! Ce coup perd la partie... Cherchez encore !][%hint Trouvez le mat en deux !]",
+        "Bien vu ! Eh bien, matez maintenant !",
+        "[%wrong Ce coup ne mate pas... Cherchez encore !][%hint Trouvez le mat en un !] Vous avez su profiter du thème de la surcharge comme un grand-maître. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/8/6p1/R4p2/2P1Pq1p/2Q1n2P/1P2B1P1/6K1 b - - 0 36\"]\r\n\r\n{Trait aux noirs. Les blancs ont un avantage matériel et deux pions passés connectés, mais ce n'est pas un problème pour le grand-maître Mark Taimanov, qui dans cette position va trouver une superbe tactique basée sur le thème de la surcharge. Suivez ses traces !}\r\n36...Rd1+\r\n    {[%wrong Pas de surcharge à l'horizon... Cherchez encore !][%hint Le fou des blancs garde à la fois f1 et d1. Trouvez un coup permettant de profiter de cette pièce surchargée !]}\r\n37.Bxd1\r\n    {Joli ! Le fou surchargé couvrait à la fois f1 et d1. Comment finir la partie en force ?}\r\n37...Qf1+\r\n    {[%wrong Oups ! Ce coup perd la partie... Cherchez encore !][%hint Trouvez le mat en deux !]}\r\n38.Kh2\r\n    {Bien vu ! Eh bien, matez maintenant !}\r\n38...Qxg2#\r\n    {[%wrong Ce coup ne mate pas... Cherchez encore !][%hint Trouvez le mat en un !] Vous avez su profiter du thème de la surcharge comme un grand-maître. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "7k/1p4pp/2p2n2/r5N1/7Q/1Pq5/P5PP/4R2K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. La dame blanche protège à la fois la tour et le cavalier. Faut-il en profiter dès maintenant, ou bien simplement prendre le pion a2 ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort, trouvez-le !][%hint La dame blanche tente de protéger deux pièces à la fois. Comment gagner du matériel ?] Excellent travail ! La dame blanche, surchargée, ne peut pas prendre notre tour à cause de la menace de mat du couloir. Nous avons gagné un cavalier !",
+        "La dame blanche n'est plus surchargée, et c'est maintenant notre cavalier f6 qui montre ses limites... Les blancs matent ! Trouvez mieux..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1p4pp/2p2n2/r5N1/7Q/1Pq5/P5PP/4R2K b - - 0 1\"]\r\n\r\n{Trait aux noirs. La dame blanche protège à la fois la tour et le cavalier. Faut-il en profiter dès maintenant, ou bien simplement prendre le pion a2 ?}\r\n1...Rxg5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort, trouvez-le !][%hint La dame blanche tente de protéger deux pièces à la fois. Comment gagner du matériel ?] Excellent travail ! La dame blanche, surchargée, ne peut pas prendre notre tour à cause de la menace de mat du couloir. Nous avons gagné un cavalier !}\r\n    (1...Rxa2 $2 2.Re8+ {La dame blanche n'est plus surchargée, et c'est maintenant notre cavalier f6 qui montre ses limites... Les blancs matent ! Trouvez mieux...})\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/p4ppp/1pNqnn2/3p4/1b1P4/2NBB2Q/PP3PPP/3R1RK1 w - - 7 17",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Dans cette partie entre grand-maîtres, notre cavalier c6 est attaqué. Trouvez un simple échange préparant une puissante attaque.",
+        "[%wrong Ce n'est pas un échange de pièces préparent une tactique gagnante. Cherchez encore !][%hint Comment sauver le cavalier c6 tout en réalisant un échange avantageux ?]",
+        "C'est la bonne idée, mais vous l'avez jouée trop tôt ! Cette option ne permet de gagner qu'un pion, alors qu'en réalisant un autre échange en premier, nous pourrions gagner beaucoup plus ! Cherchez encore.",
+        "Vous essayez d'attirer la dame noire en e7 pour initier une tactique de surcharge grâce au coup Cxd5 ? C'est astucieux, mais rappelez-vous que votre adversaire n'est pas obligé d'accepter vos sacrifices... Cherchez encore !",
+        "Beau travail ! Les noirs n'ont pas vu le piège se refermer. Trouvez maintenant la tactique gagnante !",
+        "[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Menacez à la fois mat et la dame noire...] Fantastique ! Les noirs ont raté ce coup ! Le cavalier noir est surchargé, il ne peut pas défendre à la fois d5 et h7. Les blancs vont maintenant gagner la dame adverse ou mater !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/p4ppp/1pNqnn2/3p4/1b1P4/2NBB2Q/PP3PPP/3R1RK1 w - - 7 17\"]\r\n\r\n{Trait aux blancs. Dans cette partie entre grand-maîtres, notre cavalier c6 est attaqué. Trouvez un simple échange préparant une puissante attaque.}\r\n17.Nxb4\r\n    {[%wrong Ce n'est pas un échange de pièces préparent une tactique gagnante. Cherchez encore !][%hint Comment sauver le cavalier c6 tout en réalisant un échange avantageux ?]}\r\n    (17.Nxd5 $2 Qxd5 {C'est la bonne idée, mais vous l'avez jouée trop tôt ! Cette option ne permet de gagner qu'un pion, alors qu'en réalisant un autre échange en premier, nous pourrions gagner beaucoup plus ! Cherchez encore.})\r\n    (17.Ne7+ $6 Kh8 {Vous essayez d'attirer la dame noire en e7 pour initier une tactique de surcharge grâce au coup Cxd5 ? C'est astucieux, mais rappelez-vous que votre adversaire n'est pas obligé d'accepter vos sacrifices... Cherchez encore !})\r\n17...Qxb4\r\n    {Beau travail ! Les noirs n'ont pas vu le piège se refermer. Trouvez maintenant la tactique gagnante !}\r\n18.Nxd5\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Menacez à la fois mat et la dame noire...] Fantastique ! Les noirs ont raté ce coup ! Le cavalier noir est surchargé, il ne peut pas défendre à la fois d5 et h7. Les blancs vont maintenant gagner la dame adverse ou mater !}\r\n*"
+    },
+    {
+      "fen": "5bk1/5p1p/1p4p1/1Nn1P3/1P3P1P/P3Q1P1/1q3B1r/2R2K2 b - - 16 42",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La GMI Judit Polgar attaque sans relâche les défenses de Karpov ! Trouvez la tactique qui va lui permettre de gagner du matériel.",
+        "[%wrong Ce coup ne profite pas de la surcharge d'une pièce adverse... Cherchez encore !][%hint La dame blanche protège à la fois le fou et la tour. Trouvez un fort coup de cavalier profitant de cette surcharge.]",
+        "Bravo ! La dame blanche est surchargée ! Trouvez maintenant un autre coup de cavalier similaire.",
+        "Bravo ! La dame blanche est surchargée ! Trouvez maintenant un autre coup similaire, mais cette fois-ci avec le cavalier.",
+        "Vous avez trouvé le coup de la grand-maître, bravo ! Karpov répond en tendant un piège. Faut-il prendre le fou des blancs avec la tour ou le cavalier ?",
+        "[%wrong Il faut prendre le fou blanc : Choisissez entre la tour et le cavalier !][%hint Si vous prenez du cavalier, votre tour sera-t-elle défendue tactiquement ?]",
+        "Vous êtes tombés dans le piège de Karpov ! La dame noire ne peut pas à la fois prendre la tour blanche et défendre la sienne : Surcharge ! Essayez encore.",
+        "Vous avez trouvé le coup gagnant de Polgar ! Dans cette position, Karpov a abandonné. Qu'avait prévu de jouer Judit après Rxh2 ?",
+        "[%wrong Ce n'est pas le coup le plus fort, cherchez encore !][%hint Le roi blanc est aligné avec notre cavalier et notre dame...] Bien joué ! Les noirs vont s'emparer de la dame blanche au prochain coup. La position est totalement gagnante.",
+        "Un coup très fort, bravo ! Trouvez maintenant l'autre coup de cavalier gagnant."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5bk1/5p1p/1p4p1/1Nn1P3/1P3P1P/P3Q1P1/1q3B1r/2R2K2 b - - 16 42\"]\r\n\r\n{La GMI Judit Polgar attaque sans relâche les défenses de Karpov ! Trouvez la tactique qui va lui permettre de gagner du matériel.}\r\n42...Ne4\r\n    {[%wrong Ce coup ne profite pas de la surcharge d'une pièce adverse... Cherchez encore !][%hint La dame blanche protège à la fois le fou et la tour. Trouvez un fort coup de cavalier profitant de cette surcharge.]}\r\n    (42...Nd3 $5 {Bravo ! La dame blanche est surchargée ! Trouvez maintenant un autre coup de cavalier similaire.})\r\n    (42...Rxf2+ $5 {Bravo ! La dame blanche est surchargée ! Trouvez maintenant un autre coup similaire, mais cette fois-ci avec le cavalier.})\r\n43.Kg1\r\n    {Vous avez trouvé le coup de la grand-maître, bravo ! Karpov répond en tendant un piège. Faut-il prendre le fou des blancs avec la tour ou le cavalier ?}\r\n43...Nxf2\r\n    {[%wrong Il faut prendre le fou blanc : Choisissez entre la tour et le cavalier !][%hint Si vous prenez du cavalier, votre tour sera-t-elle défendue tactiquement ?]}\r\n    (43...Rxf2 $2 44.Qxe4 {Vous êtes tombés dans le piège de Karpov ! La dame noire ne peut pas à la fois prendre la tour blanche et défendre la sienne : Surcharge ! Essayez encore.})\r\n44.Kxh2\r\n    {Vous avez trouvé le coup gagnant de Polgar ! Dans cette position, Karpov a abandonné. Qu'avait prévu de jouer Judit après Rxh2 ?}\r\n44...Ng4+\r\n    {[%wrong Ce n'est pas le coup le plus fort, cherchez encore !][%hint Le roi blanc est aligné avec notre cavalier et notre dame...] Bien joué ! Les noirs vont s'emparer de la dame blanche au prochain coup. La position est totalement gagnante.}\r\n    (44...Nd1+ $5 {Un coup très fort, bravo ! Trouvez maintenant l'autre coup de cavalier gagnant.})\r\n*"
+    },
+    {
+      "fen": "6k1/1P4p1/Pq3pp1/8/P2N3P/6P1/5PK1/8 w - - 0 53",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans ce clash entre grand-maîtres, les blancs ont raté une combinaison gagnante basée sur le thème de la surcharge et forçant la promotion d'un pion. Trouvez la tactique manquée par le grand-maître !",
+        "[%wrong Ce coup ne profite pas de la surcharge de la dame noire. Cherchez encore !][%hint La dame noire doit continuer à couvrir la case b8 pour empêcher la promotion du pion. Comment attaquer cette dame ?]",
+        "Bravo, vous avez su profiter de la surcharge de la dame adverse ! Les noirs répondent par un coup malin, gardant un œil sur la diagonale h1-a8, sur laquelle évolue notre roi. Comment empêcher toute tactique avant de continuer notre plan ?",
+        "[%wrong Ce coup ne met pas notre roi hors de danger. Cherchez encore !][%hint Notre roi est exposé sur la diagonale h1-a8. Trouvez-lui une case où il sera à l'abri de tout échec !]",
+        "Intéressant ! Les blancs peuvent enchaîner par Rh2, puis après ...Db2, ils gagnent par Rg2 ! Mais il y a un moyen plus simple de gagner en évitant toutes ces complications. Trouvez-le !",
+        "Bien essayé, mais ce coup expose notre roi à des échecs sur la seconde rangée, ce qui va permettre aux noirs d'annuler en force. Au lieu d'avancer un pion, mettons notre roi sur une case sûre !",
+        "Bien essayé, mais notre roi est toujours exposé à des échecs sur la diagonale h3-c8. Trouvez mieux !",
+        "C'est la bonne idée de gain, mais pour le moment, il faut mettre le roi en sûreté sous peine de perdre le cavalier avec échec !",
+        "Incroyable ! Vous avez trouvé le superbe \"coup silencieux\" qui assure le gain. Il est maintenant temps de surcharger la dame noire et de filer à la promotion. A vous de jouer !",
+        "[%wrong Bien essayé, mais il ne s'agit pas d'une tactique gagnante. Cherchez encore !][%hint La dame noire est forcée de rester à la protection de la case b8. Comment rajouter de la pression sur cette case ?] Impressionnant ! La dame noire est surchargée, car elle ne peut pas à la fois protéger la case de promotion b8 et prendre le cavalier c6. Les blancs sont par conséquent gagnants ! Dans la partie, le GMI Levon Aronian a loupé cette idée, et n'a pu faire mieux que nulle contre l'ex-champion du monde Vladimir Kramnik."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1P4p1/Pq3pp1/8/P2N3P/6P1/5PK1/8 w - - 0 53\"]\r\n\r\n{Dans ce clash entre grand-maîtres, les blancs ont raté une combinaison gagnante basée sur le thème de la surcharge et forçant la promotion d'un pion. Trouvez la tactique manquée par le grand-maître !}\r\n53.a5\r\n    {[%wrong Ce coup ne profite pas de la surcharge de la dame noire. Cherchez encore !][%hint La dame noire doit continuer à couvrir la case b8 pour empêcher la promotion du pion. Comment attaquer cette dame ?]}\r\n53...Qc7\r\n    {Bravo, vous avez su profiter de la surcharge de la dame adverse ! Les noirs répondent par un coup malin, gardant un œil sur la diagonale h1-a8, sur laquelle évolue notre roi. Comment empêcher toute tactique avant de continuer notre plan ?}\r\n54.Kh2\r\n    {[%wrong Ce coup ne met pas notre roi hors de danger. Cherchez encore !][%hint Notre roi est exposé sur la diagonale h1-a8. Trouvez-lui une case où il sera à l'abri de tout échec !]}\r\n    (54.Kg1 $5 Qc1+ {Intéressant ! Les blancs peuvent enchaîner par Rh2, puis après ...Db2, ils gagnent par Rg2 ! Mais il y a un moyen plus simple de gagner en évitant toutes ces complications. Trouvez-le !})\r\n    (54.f3 $2 Kf7 {Bien essayé, mais ce coup expose notre roi à des échecs sur la seconde rangée, ce qui va permettre aux noirs d'annuler en force. Au lieu d'avancer un pion, mettons notre roi sur une case sûre !})\r\n    (54.Kh3 $2 {Bien essayé, mais notre roi est toujours exposé à des échecs sur la diagonale h3-c8. Trouvez mieux !})\r\n    (54.Nc6 $2 Qxc6+ {C'est la bonne idée de gain, mais pour le moment, il faut mettre le roi en sûreté sous peine de perdre le cavalier avec échec !})\r\n54...Kh7\r\n    {Incroyable ! Vous avez trouvé le superbe \"coup silencieux\" qui assure le gain. Il est maintenant temps de surcharger la dame noire et de filer à la promotion. A vous de jouer !}\r\n55.Nc6\r\n    {[%wrong Bien essayé, mais il ne s'agit pas d'une tactique gagnante. Cherchez encore !][%hint La dame noire est forcée de rester à la protection de la case b8. Comment rajouter de la pression sur cette case ?] Impressionnant ! La dame noire est surchargée, car elle ne peut pas à la fois protéger la case de promotion b8 et prendre le cavalier c6. Les blancs sont par conséquent gagnants ! Dans la partie, le GMI Levon Aronian a loupé cette idée, et n'a pu faire mieux que nulle contre l'ex-champion du monde Vladimir Kramnik.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "cba5cc98-9ced-11e8-88fa-77b96ffd40a9",
+    "name": "La surcharge",
+    "path": "surcharge",
+    "description": "Vos pièces ne sont pas faites pour défendre plus d’un point à la fois. Lorsqu’une pièce en défend plusieurs autres, ont dit qu’elle est surchargée. Il est alors possible de capturer du matériel pour l’attirer ailleurs, puis de profiter de son absence pour accumuler les gains matériels ou pour mater.",
+    "glyphName": "circle-dashboard-fill-high",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-overloading-y7w.mp4",
+    "fen": "4r1k1/pRp2ppp/8/7q/Q1P3n1/5N2/P5PP/7K b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/8/6p1/R4p2/2P1Pq1p/2Q1n2P/1P2B1P1/6K1 b - - 0 36\"]\r\n\r\n{Trait aux noirs. Les blancs ont un avantage matériel et deux pions passés connectés, mais ce n'est pas un problème pour le grand-maître Mark Taimanov, qui dans cette position va trouver une superbe tactique basée sur le thème de la surcharge. Suivez ses traces !}\r\n36...Rd1+\r\n    {[%wrong Pas de surcharge à l'horizon... Cherchez encore !][%hint Le fou des blancs garde à la fois f1 et d1. Trouvez un coup permettant de profiter de cette pièce surchargée !]}\r\n37.Bxd1\r\n    {Joli ! Le fou surchargé couvrait à la fois f1 et d1. Comment finir la partie en force ?}\r\n37...Qf1+\r\n    {[%wrong Oups ! Ce coup perd la partie... Cherchez encore !][%hint Trouvez le mat en deux !]}\r\n38.Kh2\r\n    {Bien vu ! Eh bien, matez maintenant !}\r\n38...Qxg2#\r\n    {[%wrong Ce coup ne mate pas... Cherchez encore !][%hint Trouvez le mat en un !] Vous avez su profiter du thème de la surcharge comme un grand-maître. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1p4pp/2p2n2/r5N1/7Q/1Pq5/P5PP/4R2K b - - 0 1\"]\r\n\r\n{Trait aux noirs. La dame blanche protège à la fois la tour et le cavalier. Faut-il en profiter dès maintenant, ou bien simplement prendre le pion a2 ?}\r\n1...Rxg5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort, trouvez-le !][%hint La dame blanche tente de protéger deux pièces à la fois. Comment gagner du matériel ?] Excellent travail ! La dame blanche, surchargée, ne peut pas prendre notre tour à cause de la menace de mat du couloir. Nous avons gagné un cavalier !}\r\n    (1...Rxa2 $2 2.Re8+ {La dame blanche n'est plus surchargée, et c'est maintenant notre cavalier f6 qui montre ses limites... Les blancs matent ! Trouvez mieux...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/p4ppp/1pNqnn2/3p4/1b1P4/2NBB2Q/PP3PPP/3R1RK1 w - - 7 17\"]\r\n\r\n{Trait aux blancs. Dans cette partie entre grand-maîtres, notre cavalier c6 est attaqué. Trouvez un simple échange préparant une puissante attaque.}\r\n17.Nxb4\r\n    {[%wrong Ce n'est pas un échange de pièces préparent une tactique gagnante. Cherchez encore !][%hint Comment sauver le cavalier c6 tout en réalisant un échange avantageux ?]}\r\n    (17.Nxd5 $2 Qxd5 {C'est la bonne idée, mais vous l'avez jouée trop tôt ! Cette option ne permet de gagner qu'un pion, alors qu'en réalisant un autre échange en premier, nous pourrions gagner beaucoup plus ! Cherchez encore.})\r\n    (17.Ne7+ $6 Kh8 {Vous essayez d'attirer la dame noire en e7 pour initier une tactique de surcharge grâce au coup Cxd5 ? C'est astucieux, mais rappelez-vous que votre adversaire n'est pas obligé d'accepter vos sacrifices... Cherchez encore !})\r\n17...Qxb4\r\n    {Beau travail ! Les noirs n'ont pas vu le piège se refermer. Trouvez maintenant la tactique gagnante !}\r\n18.Nxd5\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Menacez à la fois mat et la dame noire...] Fantastique ! Les noirs ont raté ce coup ! Le cavalier noir est surchargé, il ne peut pas défendre à la fois d5 et h7. Les blancs vont maintenant gagner la dame adverse ou mater !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5bk1/5p1p/1p4p1/1Nn1P3/1P3P1P/P3Q1P1/1q3B1r/2R2K2 b - - 16 42\"]\r\n\r\n{La GMI Judit Polgar attaque sans relâche les défenses de Karpov ! Trouvez la tactique qui va lui permettre de gagner du matériel.}\r\n42...Ne4\r\n    {[%wrong Ce coup ne profite pas de la surcharge d'une pièce adverse... Cherchez encore !][%hint La dame blanche protège à la fois le fou et la tour. Trouvez un fort coup de cavalier profitant de cette surcharge.]}\r\n    (42...Nd3 $5 {Bravo ! La dame blanche est surchargée ! Trouvez maintenant un autre coup de cavalier similaire.})\r\n    (42...Rxf2+ $5 {Bravo ! La dame blanche est surchargée ! Trouvez maintenant un autre coup similaire, mais cette fois-ci avec le cavalier.})\r\n43.Kg1\r\n    {Vous avez trouvé le coup de la grand-maître, bravo ! Karpov répond en tendant un piège. Faut-il prendre le fou des blancs avec la tour ou le cavalier ?}\r\n43...Nxf2\r\n    {[%wrong Il faut prendre le fou blanc : Choisissez entre la tour et le cavalier !][%hint Si vous prenez du cavalier, votre tour sera-t-elle défendue tactiquement ?]}\r\n    (43...Rxf2 $2 44.Qxe4 {Vous êtes tombés dans le piège de Karpov ! La dame noire ne peut pas à la fois prendre la tour blanche et défendre la sienne : Surcharge ! Essayez encore.})\r\n44.Kxh2\r\n    {Vous avez trouvé le coup gagnant de Polgar ! Dans cette position, Karpov a abandonné. Qu'avait prévu de jouer Judit après Rxh2 ?}\r\n44...Ng4+\r\n    {[%wrong Ce n'est pas le coup le plus fort, cherchez encore !][%hint Le roi blanc est aligné avec notre cavalier et notre dame...] Bien joué ! Les noirs vont s'emparer de la dame blanche au prochain coup. La position est totalement gagnante.}\r\n    (44...Nd1+ $5 {Un coup très fort, bravo ! Trouvez maintenant l'autre coup de cavalier gagnant.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1P4p1/Pq3pp1/8/P2N3P/6P1/5PK1/8 w - - 0 53\"]\r\n\r\n{Dans ce clash entre grand-maîtres, les blancs ont raté une combinaison gagnante basée sur le thème de la surcharge et forçant la promotion d'un pion. Trouvez la tactique manquée par le grand-maître !}\r\n53.a5\r\n    {[%wrong Ce coup ne profite pas de la surcharge de la dame noire. Cherchez encore !][%hint La dame noire doit continuer à couvrir la case b8 pour empêcher la promotion du pion. Comment attaquer cette dame ?]}\r\n53...Qc7\r\n    {Bravo, vous avez su profiter de la surcharge de la dame adverse ! Les noirs répondent par un coup malin, gardant un œil sur la diagonale h1-a8, sur laquelle évolue notre roi. Comment empêcher toute tactique avant de continuer notre plan ?}\r\n54.Kh2\r\n    {[%wrong Ce coup ne met pas notre roi hors de danger. Cherchez encore !][%hint Notre roi est exposé sur la diagonale h1-a8. Trouvez-lui une case où il sera à l'abri de tout échec !]}\r\n    (54.Kg1 $5 Qc1+ {Intéressant ! Les blancs peuvent enchaîner par Rh2, puis après ...Db2, ils gagnent par Rg2 ! Mais il y a un moyen plus simple de gagner en évitant toutes ces complications. Trouvez-le !})\r\n    (54.f3 $2 Kf7 {Bien essayé, mais ce coup expose notre roi à des échecs sur la seconde rangée, ce qui va permettre aux noirs d'annuler en force. Au lieu d'avancer un pion, mettons notre roi sur une case sûre !})\r\n    (54.Kh3 $2 {Bien essayé, mais notre roi est toujours exposé à des échecs sur la diagonale h3-c8. Trouvez mieux !})\r\n    (54.Nc6 $2 Qxc6+ {C'est la bonne idée de gain, mais pour le moment, il faut mettre le roi en sûreté sous peine de perdre le cavalier avec échec !})\r\n54...Kh7\r\n    {Incroyable ! Vous avez trouvé le superbe \"coup silencieux\" qui assure le gain. Il est maintenant temps de surcharger la dame noire et de filer à la promotion. A vous de jouer !}\r\n55.Nc6\r\n    {[%wrong Bien essayé, mais il ne s'agit pas d'une tactique gagnante. Cherchez encore !][%hint La dame noire est forcée de rester à la protection de la case b8. Comment rajouter de la pression sur cette case ?] Impressionnant ! La dame noire est surchargée, car elle ne peut pas à la fois protéger la case de promotion b8 et prendre le cavalier c6. Les blancs sont par conséquent gagnants ! Dans la partie, le GMI Levon Aronian a loupé cette idée, et n'a pu faire mieux que nulle contre l'ex-champion du monde Vladimir Kramnik.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "562e8776-a55c-11e8-9553-4f7baecf710a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Que se passe-t-il quand une pièce défend trop de choses en même temps ?",
+    "outroText": "Fantastique ! Repérer une pièce en surcharge et l'exploiter peut vous offrir la victoire dans vos parties.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "path": "tactiques-avancees",
+      "title": "Tactiques avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/562e8776-a55c-11e8-9553-4f7baecf710a.5c197624.728x410o.1f86d1894a94.png"
+    },
+    "parentId": "2aff4970-83b8-11e8-a7d3-71788fe4da86",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/overloading5d125e562177b.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/overloading-15ea23db4d8668.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/overloading-26054e2256a14a.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 126,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "name": "Tactiques avancées",
+      "path": "tactiques-avancees",
+      "order": 6
+    }
+  }
+}

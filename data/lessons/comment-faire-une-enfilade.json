@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/comment-faire-une-enfilade",
+  "capturedAt": "2026-10-22T13:42:31.357Z",
+  "title": "Enfilades",
+  "exercises": [
+    {
+      "fen": "3q4/8/8/8/3k4/8/8/R7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow d1d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d1;to;d8;persistent;true]L'enfilade, c'est un clouage à l'envers : vous attaquez une pièce de plus grande valeur, et quand elle bouge, vous gagnez une pièce de moindre valeur.",
+        "[%hint Déplacez votre tour sous le roi.][%wrong Ce n'était pas une enfilade. Essaye encore.]",
+        "Exactement ! C'était votre première enfilade. Vous pouvez maintenant prendre la dame.",
+        "[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce n'est pas le bon coup, essaye encore.]Bravo pour votre première enfilade."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3q4/8/8/8/3k4/8/8/R7 w - - 0 1\"]\r\n\r\n{[%c_highlight d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow d1d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d1;to;d8;persistent;true]L'enfilade, c'est un clouage à l'envers : vous attaquez une pièce de plus grande valeur, et quand elle bouge, vous gagnez une pièce de moindre valeur.} 1. Rd1+ {[%hint Déplacez votre tour sous le roi.][%wrong Ce n'était pas une enfilade. Essaye encore.]} 1... Ke3 {Exactement ! C'était votre première enfilade. Vous pouvez maintenant prendre la dame.} 2. Rxd8 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce n'est pas le bon coup, essaye encore.]Bravo pour votre première enfilade.} *"
+    },
+    {
+      "fen": "8/6q1/8/8/3k4/8/8/2BK4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Réalise une enfilade entre le roi et la dame.",
+        "[%hint Pouvez-vous déplacer votre fou sur la même diagonale que le roi et la dame ?][%wrong Ce n'était pas une enfilade.]",
+        "Votre fou s'est fait prendre.",
+        "Oui, pouvez-vous maintenant conclure ?",
+        "[%hint Pouvez-vous prendre ?][%wrong Ce n'est pas le bon coup, mais vous pouvez réessayer.] Oui, c'était une belle enfilade."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6q1/8/8/3k4/8/8/2BK4 w - - 0 1\"]\r\n\r\n{Réalise une enfilade entre le roi et la dame.} 1. Bb2+ {[%hint Pouvez-vous déplacer votre fou sur la même diagonale que le roi et la dame ?][%wrong Ce n'était pas une enfilade.]} (1. Bh6? Qxh6 {Votre fou s'est fait prendre.}) 1... Ke4 {Oui, pouvez-vous maintenant conclure ?} 2. Bxg7 {[%hint Pouvez-vous prendre ?][%wrong Ce n'est pas le bon coup, mais vous pouvez réessayer.] Oui, c'était une belle enfilade.} 1/2-1/2"
+    },
+    {
+      "fen": "4k2r/2p2p1p/1p4p1/1P6/1bP5/4B3/5PPP/R5K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Leur tour est en danger.",
+        "[%hint Pouvez-vous attaquer le roi adverse avec votre tour ?][%wrong Ce n'était pas une enfilade.]",
+        "Oui ! Maintenant que le roi s'est échappé, quel est votre meilleur coup ?",
+        "[%hint Pouvez-vous prendre une pièce ?][%wrong Ce n'était pas le meilleur coup. Réessayez, s'il vous plaît.] Exactement !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k2r/2p2p1p/1p4p1/1P6/1bP5/4B3/5PPP/R5K1 w - - 0 1\"]\r\n\r\n{Leur tour est en danger.} 1. Ra8+ {[%hint Pouvez-vous attaquer le roi adverse avec votre tour ?][%wrong Ce n'était pas une enfilade.]} 1... Ke7 {Oui ! Maintenant que le roi s'est échappé, quel est votre meilleur coup ?} 2. Rxh8 {[%hint Pouvez-vous prendre une pièce ?][%wrong Ce n'était pas le meilleur coup. Réessayez, s'il vous plaît.] Exactement !} *"
+    },
+    {
+      "fen": "3b2k1/1p3pp1/p6p/1p1q2n1/8/1P4N1/PB3PPP/1RR3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faites collaborer vos tours pour réaliser une enfilade.",
+        "[%hint Votre tour peut-elle attaquer la dame ?][%wrong Ce n'était pas une enfilade.]",
+        "Une fois leur dame en sécurité, pouvez-vous encore prendre une pièce ?",
+        "[%hint Que pouvez-vous prendre avec votre tour ?][%wrong Ce n'était pas le bon coup, réessayez s'il vous plaît.] Parfait !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3b2k1/1p3pp1/p6p/1p1q2n1/8/1P4N1/PB3PPP/1RR3K1 w - - 0 1\"]\r\n\r\n{Faites collaborer vos tours pour réaliser une enfilade.} 1. Rd1 {[%hint Votre tour peut-elle attaquer la dame ?][%wrong Ce n'était pas une enfilade.]} 1... Qc6 {Une fois leur dame en sécurité, pouvez-vous encore prendre une pièce ?} 2. Rxd8+ {[%hint Que pouvez-vous prendre avec votre tour ?][%wrong Ce n'était pas le bon coup, réessayez s'il vous plaît.] Parfait !} *"
+    },
+    {
+      "fen": "5rk1/pp1nqppp/2b2n2/B3p3/4P3/P2B1N2/1PQ2PPP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pas d'indices cette fois.",
+        "[%hint Pouvez-vous attaquer la dame avec votre fou ?][%wrong Ce n'était pas une enfilade. Réessayez, s'il vous plaît.]",
+        "Oui, pouvez-vous maintenant conclure ?",
+        "[%hint Pouvez-vous prendre avec votre fou ?][%wrong Pouvez-vous terminer votre combinaison ? Vous pouvez demander un indice.] Bravo ! C'était une belle enfilade."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/pp1nqppp/2b2n2/B3p3/4P3/P2B1N2/1PQ2PPP/5RK1 w - - 0 1\"]\r\n\r\n{Pas d'indices cette fois.} 1. Bb4 {[%hint Pouvez-vous attaquer la dame avec votre fou ?][%wrong Ce n'était pas une enfilade. Réessayez, s'il vous plaît.]} 1... Qd8 {Oui, pouvez-vous maintenant conclure ?} 2. Bxf8 {[%hint Pouvez-vous prendre avec votre fou ?][%wrong Pouvez-vous terminer votre combinaison ? Vous pouvez demander un indice.] Bravo ! C'était une belle enfilade.} *"
+    },
+    {
+      "fen": "6k1/p4ppp/1pp1pn2/3q4/8/5N2/PPP2PPP/1RR3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow d8g8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d8;to;g8;persistent;true] Une enfilade sans pièce derrière ?!",
+        "[%hint Pouvez-vous attaquer la dame avec votre tour ?][%wrong Ce n'était pas la bonne attaque. Réessayez, s'il vous plaît.]",
+        "Maintenant que la dame s'est échappée, pouvez-vous conclure la partie ?",
+        "[%hint Pouvez-vous faire échec avec votre tour ?][%wrong Vous pouvez conclure la partie en un coup. Vous pouvez demander un indice.] Joli mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p4ppp/1pp1pn2/3q4/8/5N2/PPP2PPP/1RR3K1 w - - 0 1\"]\r\n\r\n{[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow d8g8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d8;to;g8;persistent;true] Une enfilade sans pièce derrière ?!} 1. Rd1 {[%hint Pouvez-vous attaquer la dame avec votre tour ?][%wrong Ce n'était pas la bonne attaque. Réessayez, s'il vous plaît.]} 1... Qc5 {Maintenant que la dame s'est échappée, pouvez-vous conclure la partie ?} 2. Rd8+ {[%hint Pouvez-vous faire échec avec votre tour ?][%wrong Vous pouvez conclure la partie en un coup. Vous pouvez demander un indice.] Joli mat !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0e2-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Enfilades",
+    "path": "comment-faire-une-enfilade",
+    "description": "Apprenez les enfilades aux échecs.",
+    "glyphName": "game-tactic-skewer",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3q4/8/8/8/3k4/8/8/R7 w - - 0 1\"]\r\n\r\n{[%c_highlight d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow d1d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d1;to;d8;persistent;true]L'enfilade, c'est un clouage à l'envers : vous attaquez une pièce de plus grande valeur, et quand elle bouge, vous gagnez une pièce de moindre valeur.} 1. Rd1+ {[%hint Déplacez votre tour sous le roi.][%wrong Ce n'était pas une enfilade. Essaye encore.]} 1... Ke3 {Exactement ! C'était votre première enfilade. Vous pouvez maintenant prendre la dame.} 2. Rxd8 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce n'est pas le bon coup, essaye encore.]Bravo pour votre première enfilade.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6q1/8/8/3k4/8/8/2BK4 w - - 0 1\"]\r\n\r\n{Réalise une enfilade entre le roi et la dame.} 1. Bb2+ {[%hint Pouvez-vous déplacer votre fou sur la même diagonale que le roi et la dame ?][%wrong Ce n'était pas une enfilade.]} (1. Bh6? Qxh6 {Votre fou s'est fait prendre.}) 1... Ke4 {Oui, pouvez-vous maintenant conclure ?} 2. Bxg7 {[%hint Pouvez-vous prendre ?][%wrong Ce n'est pas le bon coup, mais vous pouvez réessayer.] Oui, c'était une belle enfilade.} 1/2-1/2",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k2r/2p2p1p/1p4p1/1P6/1bP5/4B3/5PPP/R5K1 w - - 0 1\"]\r\n\r\n{Leur tour est en danger.} 1. Ra8+ {[%hint Pouvez-vous attaquer le roi adverse avec votre tour ?][%wrong Ce n'était pas une enfilade.]} 1... Ke7 {Oui ! Maintenant que le roi s'est échappé, quel est votre meilleur coup ?} 2. Rxh8 {[%hint Pouvez-vous prendre une pièce ?][%wrong Ce n'était pas le meilleur coup. Réessayez, s'il vous plaît.] Exactement !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3b2k1/1p3pp1/p6p/1p1q2n1/8/1P4N1/PB3PPP/1RR3K1 w - - 0 1\"]\r\n\r\n{Faites collaborer vos tours pour réaliser une enfilade.} 1. Rd1 {[%hint Votre tour peut-elle attaquer la dame ?][%wrong Ce n'était pas une enfilade.]} 1... Qc6 {Une fois leur dame en sécurité, pouvez-vous encore prendre une pièce ?} 2. Rxd8+ {[%hint Que pouvez-vous prendre avec votre tour ?][%wrong Ce n'était pas le bon coup, réessayez s'il vous plaît.] Parfait !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/pp1nqppp/2b2n2/B3p3/4P3/P2B1N2/1PQ2PPP/5RK1 w - - 0 1\"]\r\n\r\n{Pas d'indices cette fois.} 1. Bb4 {[%hint Pouvez-vous attaquer la dame avec votre fou ?][%wrong Ce n'était pas une enfilade. Réessayez, s'il vous plaît.]} 1... Qd8 {Oui, pouvez-vous maintenant conclure ?} 2. Bxf8 {[%hint Pouvez-vous prendre avec votre fou ?][%wrong Pouvez-vous terminer votre combinaison ? Vous pouvez demander un indice.] Bravo ! C'était une belle enfilade.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p4ppp/1pp1pn2/3q4/8/5N2/PPP2PPP/1RR3K1 w - - 0 1\"]\r\n\r\n{[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow d8g8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d8;to;g8;persistent;true] Une enfilade sans pièce derrière ?!} 1. Rd1 {[%hint Pouvez-vous attaquer la dame avec votre tour ?][%wrong Ce n'était pas la bonne attaque. Réessayez, s'il vous plaît.]} 1... Qc5 {Maintenant que la dame s'est échappée, pouvez-vous conclure la partie ?} 2. Rd8+ {[%hint Pouvez-vous faire échec avec votre tour ?][%wrong Vous pouvez conclure la partie en un coup. Vous pouvez demander un indice.] Joli mat !} *"
+    ],
+    "courseId": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez les enfilades aux échecs.",
+    "outroText": "Vous connaissez maintenant les enfilades aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs",
+      "title": "Tactique"
+    },
+    "parentId": "4125caa6-21eb-11f1-a787-b985ef3c9b16"
+  },
+  "curriculum": {
+    "number": 33,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactique",
+      "path": "tactiques-echecs",
+      "order": 2
+    }
+  }
+}

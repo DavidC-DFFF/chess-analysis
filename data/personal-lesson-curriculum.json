@@ -1,0 +1,538 @@
+{
+  "sourceUrl": "https://www.chess.com/learn",
+  "scope": "Leçons débloquées du parcours personnel, selon la page enregistrée. Instantané sans synchronisation du compte.",
+  "sections": [
+    {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "color": "lime",
+      "level": "SECTION_LEVEL_NEW",
+      "order": 1,
+      "courses": [
+        {
+          "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+          "name": "Apprendre à jouer",
+          "path": "apprendre-a-jouer-aux-echecs",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "9fa7d6b0-ebda-11f0-bef0-c3ab9d738795",
+              "title": "Le Roi",
+              "path": "le-roi",
+              "order": 1,
+              "number": 1,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-roi"
+            },
+            {
+              "id": "2be10164-ebdc-11f0-8f25-55fe7b65399f",
+              "title": "La Dame",
+              "path": "la-dame",
+              "order": 2,
+              "number": 2,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/la-dame"
+            },
+            {
+              "id": "4a972222-ebdd-11f0-9dce-6dd0b25a58de",
+              "title": "La Tour",
+              "path": "la-tour",
+              "order": 3,
+              "number": 3,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/la-tour"
+            },
+            {
+              "id": "a86633f0-ebdf-11f0-9a53-2b1570570bb8",
+              "title": "Le Fou",
+              "path": "le-fou",
+              "order": 4,
+              "number": 4,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-fou"
+            },
+            {
+              "id": "e1325140-ebe0-11f0-bb77-ed39e77d589f",
+              "title": "Le  Cavalier",
+              "path": "le-cavalier-1",
+              "order": 5,
+              "number": 5,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-cavalier-1"
+            },
+            {
+              "id": "23845374-ebe4-11f0-a421-d5b6b7b4653e",
+              "title": "Le Pion",
+              "path": "le-pion",
+              "order": 6,
+              "number": 6,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-pion"
+            },
+            {
+              "id": "346f79dc-ec81-11f0-ab36-a35fd610370b",
+              "title": "La prise-en-passant",
+              "path": "la-prise-en-passant",
+              "order": 7,
+              "number": 7,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/la-prise-en-passant"
+            },
+            {
+              "id": "798b77ae-ec87-11f0-92c0-0348759ccb31",
+              "title": "Capturer des pièces",
+              "path": "capturer-des-pieces",
+              "order": 8,
+              "number": 8,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/capturer-des-pieces"
+            },
+            {
+              "id": "4d32a170-ec8a-11f0-a605-8f5833c082f6",
+              "title": "L'échec au roi",
+              "path": "l-echec-au-roi",
+              "order": 9,
+              "number": 9,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/l-echec-au-roi"
+            },
+            {
+              "id": "2519a30e-ec8b-11f0-8ee8-5328b91d7ce1",
+              "title": "Réagir à l'échec",
+              "path": "reagir-a-l-echec",
+              "order": 10,
+              "number": 10,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/reagir-a-l-echec"
+            },
+            {
+              "id": "93f0678e-ec8d-11f0-a38e-59d5801a2cd0",
+              "title": "L'échec et mat",
+              "path": "l-echecs-et-mat",
+              "order": 11,
+              "number": 11,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/l-echecs-et-mat"
+            },
+            {
+              "id": "a9d29666-ec8e-11f0-8729-f1e7c3c8ef53",
+              "title": "Le roque",
+              "path": "le-roque",
+              "order": 12,
+              "number": 12,
+              "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-roque"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Débutant",
+      "color": "green",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "order": 2,
+      "courses": [
+        {
+          "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Jouer une partie",
+          "path": "jouer-aux-echecs",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "0bc5c222-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Prendre des pièces",
+              "path": "prendre-des-pieces",
+              "order": 1,
+              "number": 13,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/prendre-des-pieces"
+            },
+            {
+              "id": "0bc5c2b8-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Valeur des pièces",
+              "path": "valeur-des-pieces",
+              "order": 2,
+              "number": 14,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/valeur-des-pieces"
+            },
+            {
+              "id": "0bc5c24a-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Battre en retraite",
+              "path": "retraite-des-pieces",
+              "order": 3,
+              "number": 15,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/retraite-des-pieces"
+            },
+            {
+              "id": "0bc5c204-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Pièces gratuites",
+              "path": "pieces-gratuites",
+              "order": 4,
+              "number": 16,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/pieces-gratuites"
+            },
+            {
+              "id": "0bc5c132-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Défendre ses pièces",
+              "path": "defendre-ses-pieces",
+              "order": 5,
+              "number": 17,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/defendre-ses-pieces"
+            },
+            {
+              "id": "0bc5c11e-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Choix des prises",
+              "path": "decisions-de-prise",
+              "order": 6,
+              "number": 18,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/decisions-de-prise"
+            },
+            {
+              "id": "0bc5c0a6-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Compter les prises",
+              "path": "calculer-les-prises",
+              "order": 7,
+              "number": 19,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/calculer-les-prises"
+            },
+            {
+              "id": "0bc5c272-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Sauver la bonne pièce",
+              "path": "sauver-la-bonne-piece",
+              "order": 8,
+              "number": 20,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/sauver-la-bonne-piece"
+            },
+            {
+              "id": "0bc5c236-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Promotion",
+              "path": "promotion-fr",
+              "order": 9,
+              "number": 21,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/promotion-fr"
+            },
+            {
+              "id": "0bc5c0d8-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Prise en passant",
+              "path": "comment-faire-la-prise-en-passant",
+              "order": 10,
+              "number": 22,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/comment-faire-la-prise-en-passant"
+            },
+            {
+              "id": "0bc5c0f6-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Le roque",
+              "path": "comment-roquer",
+              "order": 11,
+              "number": 23,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/comment-roquer"
+            },
+            {
+              "id": "0bc5c1b4-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "L'échec",
+              "path": "l-echec",
+              "order": 12,
+              "number": 24,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/l-echec"
+            },
+            {
+              "id": "0bc5c286-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Parer un échec",
+              "path": "sortir-de-l-echec",
+              "order": 13,
+              "number": 25,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/sortir-de-l-echec"
+            },
+            {
+              "id": "0bc5c1be-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "L'échec et mat",
+              "path": "l-echec-et-mat",
+              "order": 14,
+              "number": 26,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/l-echec-et-mat"
+            },
+            {
+              "id": "0bc5c1f0-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Les nulles",
+              "path": "nulles",
+              "order": 15,
+              "number": 27,
+              "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/nulles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Intermédiaire",
+      "color": "orange",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "order": 3,
+      "courses": [
+        {
+          "id": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Ouvertures",
+          "path": "ouvertures-echecs",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "0bc5c0c4-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Contrôler le centre",
+              "path": "comment-controler-le-centre",
+              "order": 1,
+              "number": 28,
+              "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-echecs/comment-controler-le-centre"
+            },
+            {
+              "id": "0bc5c15a-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Développez vos pièces",
+              "path": "developper-ses-pieces",
+              "order": 2,
+              "number": 29,
+              "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-echecs/developper-ses-pieces"
+            },
+            {
+              "id": "0bc5c254-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Roquer pour la sécurité",
+              "path": "roquer-pour-la-securite",
+              "order": 3,
+              "number": 30,
+              "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-echecs/roquer-pour-la-securite"
+            }
+          ]
+        },
+        {
+          "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Tactique",
+          "path": "tactiques-echecs",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "0bc5c0ec-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Fourchettes",
+              "path": "comment-faire-une-fourchette",
+              "order": 1,
+              "number": 31,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/comment-faire-une-fourchette"
+            },
+            {
+              "id": "0bc5c0ba-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Clouages",
+              "path": "comment-clouer",
+              "order": 2,
+              "number": 32,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/comment-clouer"
+            },
+            {
+              "id": "0bc5c0e2-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Enfilades",
+              "path": "comment-faire-une-enfilade",
+              "order": 3,
+              "number": 33,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/comment-faire-une-enfilade"
+            },
+            {
+              "id": "0bc5c218-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Pièces enfermées",
+              "path": "pieces-piegees",
+              "order": 4,
+              "number": 34,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/pieces-piegees"
+            },
+            {
+              "id": "0bc5c088-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Découvertes",
+              "path": "attaques-a-la-decouverte",
+              "order": 5,
+              "number": 35,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/attaques-a-la-decouverte"
+            }
+          ]
+        },
+        {
+          "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Stratégie",
+          "path": "strategie-echecs",
+          "order": 3,
+          "lessons": [
+            {
+              "id": "0bc5c290-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Stratégie de pions",
+              "path": "strategie-de-pions",
+              "order": 1,
+              "number": 36,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/strategie-de-pions"
+            },
+            {
+              "id": "0bc5c1a0-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Les fous",
+              "path": "fous",
+              "order": 2,
+              "number": 37,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/fous"
+            },
+            {
+              "id": "0bc5c2a4-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Les tours",
+              "path": "tours",
+              "order": 3,
+              "number": 38,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/tours"
+            },
+            {
+              "id": "0bc5c0b0-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Cavaliers",
+              "path": "cavaliers",
+              "order": 4,
+              "number": 39,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/cavaliers"
+            },
+            {
+              "id": "0bc5c114-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Les dames",
+              "path": "dames",
+              "order": 5,
+              "number": 40,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/dames"
+            }
+          ]
+        },
+        {
+          "id": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Finales",
+          "path": "finales-echecs",
+          "order": 4,
+          "lessons": [
+            {
+              "id": "0bc5c1c8-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Pions passés",
+              "path": "les-pions-passes",
+              "order": 1,
+              "number": 41,
+              "sourceUrl": "https://www.chess.com/fr/lessons/finales-echecs/les-pions-passes"
+            },
+            {
+              "id": "0bc5c128-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Empêcher la promotion",
+              "path": "defendre-promotion",
+              "order": 2,
+              "number": 42,
+              "sourceUrl": "https://www.chess.com/fr/lessons/finales-echecs/defendre-promotion"
+            },
+            {
+              "id": "0bc5c1dc-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Mat avec une dame",
+              "path": "mat-avec-la-dame",
+              "order": 3,
+              "number": 43,
+              "sourceUrl": "https://www.chess.com/fr/lessons/finales-echecs/mat-avec-la-dame"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Avancé",
+      "color": "purple",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "order": 4,
+      "courses": [
+        {
+          "id": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Ouvertures avancées",
+          "path": "ouvertures-avancees",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "0bc5c25e-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Rupture au centre",
+              "path": "rupture-au-centre",
+              "order": 1,
+              "number": 44,
+              "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-avancees/rupture-au-centre"
+            },
+            {
+              "id": "0bc5c146-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Se développer avec tempo",
+              "path": "developper-avec-tempo",
+              "order": 2,
+              "number": 45,
+              "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-avancees/developper-avec-tempo"
+            },
+            {
+              "id": "0bc5c182-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Empêcher le roque",
+              "path": "empecher-le-roque",
+              "order": 3,
+              "number": 46,
+              "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-avancees/empecher-le-roque"
+            }
+          ]
+        },
+        {
+          "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Tactiques avancées",
+          "path": "tactiques-echecs-avancees",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "0bc5c178-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Éliminer le défenseur",
+              "path": "eliminer-le-defenseur",
+              "order": 1,
+              "number": 47,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/eliminer-le-defenseur"
+            },
+            {
+              "id": "0bc5c100-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Coups intermédiaires",
+              "path": "coups-intermediaires",
+              "order": 2,
+              "number": 48,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/coups-intermediaires"
+            },
+            {
+              "id": "0bc5c13c-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Défense",
+              "path": "defense-fr",
+              "order": 3,
+              "number": 49,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/defense-fr"
+            },
+            {
+              "id": "0bc5c268-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Sacrifices brillants",
+              "path": "sacrifices-brillants",
+              "order": 4,
+              "number": 50,
+              "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/sacrifices-brillants"
+            }
+          ]
+        },
+        {
+          "id": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+          "name": "Stratégie avancée",
+          "path": "strategie-avancee",
+          "order": 3,
+          "lessons": [
+            {
+              "id": "0bc5c16e-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Échanges intelligents",
+              "path": "echanges-intelligents",
+              "order": 1,
+              "number": 51,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-avancee/echanges-intelligents"
+            },
+            {
+              "id": "0bc5c29a-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Tempo",
+              "path": "tempo-aux-echecs",
+              "order": 2,
+              "number": 52,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-avancee/tempo-aux-echecs"
+            },
+            {
+              "id": "0bc5c09c-6691-11f1-b6ce-1a39a9e5840d",
+              "title": "Les batteries",
+              "path": "batteries-aux-echecs",
+              "order": 3,
+              "number": 53,
+              "sourceUrl": "https://www.chess.com/fr/lessons/strategie-avancee/batteries-aux-echecs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/les-pions-dans-le-milieu-de-jeu",
+  "capturedAt": "2026-10-22T12:23:47.757Z",
+  "title": "Les pions dans le milieu de jeu",
+  "exercises": [
+    {
+      "fen": "1rbq1rk1/2n2pbp/pp1p1np1/2pP4/P3P3/2NB3P/1P1N1PPB/R2QR1K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs envisagent de jouer Cc4, ce qui leur donnerait une très bonne position. Comment mettre notre majorité à l'aile dame en mouvement ?",
+        "[%wrong Ce coup n'active pas notre majorité de pions. Cherchez encore !][%hint Quel coup de pion empêche Cc4 tout en activant notre majorité de pions ?]",
+        "Ce coup affaiblit nos cases blanches. Les blancs jouent Cc4 et obtiennent une excellente position. Trouvez mieux !",
+        "Bien joué ! Les noirs mettent en marche leur majorité à l'aile dame et empêchent les blancs de jouer Cc4. Comment reprendre le pion b5 pour continuer à empêcher Cc4 ?",
+        "[%wrong Ce coup n'empêche pas Cc4. Cherchez encore !][%hint Comment connecter les pions pour qu'ils puissent se soutenir mutuellement ?] Excellent ! Une fois activée, cette majorité de pion à l'aile dame nous donne des chances de nous battre pour le gain."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rbq1rk1/2n2pbp/pp1p1np1/2pP4/P3P3/2NB3P/1P1N1PPB/R2QR1K1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs envisagent de jouer Cc4, ce qui leur donnerait une très bonne position. Comment mettre notre majorité à l'aile dame en mouvement ?}\r\n1...b5\r\n    {[%wrong Ce coup n'active pas notre majorité de pions. Cherchez encore !][%hint Quel coup de pion empêche Cc4 tout en activant notre majorité de pions ?]}\r\n    (1...a5 $2 2.Nc4 {Ce coup affaiblit nos cases blanches. Les blancs jouent Cc4 et obtiennent une excellente position. Trouvez mieux !})\r\n2.axb5\r\n    {Bien joué ! Les noirs mettent en marche leur majorité à l'aile dame et empêchent les blancs de jouer Cc4. Comment reprendre le pion b5 pour continuer à empêcher Cc4 ?}\r\n2...axb5\r\n    {[%wrong Ce coup n'empêche pas Cc4. Cherchez encore !][%hint Comment connecter les pions pour qu'ils puissent se soutenir mutuellement ?] Excellent ! Une fois activée, cette majorité de pion à l'aile dame nous donne des chances de nous battre pour le gain.}\r\n*"
+    },
+    {
+      "fen": "r1bqr1k1/1p2bppp/2p2nn1/p2p4/PP1P4/2NBPN1P/2Q2PPB/1R3RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent lancer une attaque de minorité ! Comment gagner de l'espace tout en attaquant le pion c6 ?",
+        "[%wrong Ce coup ne gagne pas d'espace tout en attaquant le pion c6. Cherchez encore !][%hint Les blancs viennent de jouer b4 pour partir à l'attaque du pion c6. Comment continuer ?]",
+        "Un coup intéressant ! Il ouvre la colonne b avec l'idée de doubler les tours pour mettre la pression sur b7. Cependant, notre pion a est maintenant isolé... Jouez plutôt un coup de pion attaquant c6 !",
+        "Les noirs refusent de laisser les blancs ouvrir la colonne b, ce qui créerait un pion arriéré en c6. Ils espèrent maintenant pouvoir jouer ...c4. Comment empêcher cette idée en isolant un pion noir ?",
+        "[%wrong Ce coup n'empêche pas les noirs de jouer ...c4. Cherchez encore !][%hint Comment isoler le pion d5 ?]",
+        "Bon travail ! Les noirs ont maintenant un pion isolé sur la colonne d. Activons notre tour f1 pour commencer à mettre la pression sur le pion d5 !",
+        "[%wrong Ce coup n'active pas la tour f1 sur une colonne où elle met la pression sur le pion isolé noir. Cherchez encore !][%hint Mettez la tour f1 sur le colonne d !] Bien joué ! Les blancs vont continuer à mettre la pression sur le pion isolé, que les noirs vont avoir beaucoup de mal à défendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqr1k1/1p2bppp/2p2nn1/p2p4/PP1P4/2NBPN1P/2Q2PPB/1R3RK1 w - - 0 1\"]\r\n\r\n{Les blancs veulent lancer une attaque de minorité ! Comment gagner de l'espace tout en attaquant le pion c6 ?}\r\n1.b5\r\n    {[%wrong Ce coup ne gagne pas d'espace tout en attaquant le pion c6. Cherchez encore !][%hint Les blancs viennent de jouer b4 pour partir à l'attaque du pion c6. Comment continuer ?]}\r\n    (1.bxa5 $5 {Un coup intéressant ! Il ouvre la colonne b avec l'idée de doubler les tours pour mettre la pression sur b7. Cependant, notre pion a est maintenant isolé... Jouez plutôt un coup de pion attaquant c6 !})\r\n1...c5\r\n    {Les noirs refusent de laisser les blancs ouvrir la colonne b, ce qui créerait un pion arriéré en c6. Ils espèrent maintenant pouvoir jouer ...c4. Comment empêcher cette idée en isolant un pion noir ?}\r\n2.dxc5\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...c4. Cherchez encore !][%hint Comment isoler le pion d5 ?]}\r\n2...Bxc5\r\n    {Bon travail ! Les noirs ont maintenant un pion isolé sur la colonne d. Activons notre tour f1 pour commencer à mettre la pression sur le pion d5 !}\r\n3.Rfd1\r\n    {[%wrong Ce coup n'active pas la tour f1 sur une colonne où elle met la pression sur le pion isolé noir. Cherchez encore !][%hint Mettez la tour f1 sur le colonne d !] Bien joué ! Les blancs vont continuer à mettre la pression sur le pion isolé, que les noirs vont avoir beaucoup de mal à défendre.}\r\n*"
+    },
+    {
+      "fen": "rn1qk2r/1p3pp1/2p1pn1p/p4b2/1bBP1B2/2N2N2/PPP1Q1PP/3R1R1K w kq - 2 11",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont sacrifié un pion pour obtenir un bel avantage de développement : Le roi noir est toujours au milieu de l'échiquier. Quel coup de pion force l'ouverture du centre ?",
+        "[%wrong Ce coup ne force pas l'ouverture du centre avec un pion. Cherchez encore !][%hint Le pion e6 des noirs est cloué. Comment l'attaquer en poussant un pion ?]",
+        "Bien vu ! Les blancs ouvrent des lignes en force. Comme le pion e6 des noirs est cloué, comment les blancs peuvent-ils prendre un pion tout en menaçant une fourchette sur le roi et la tour a8 ?",
+        "[%wrong Ce coup ne prend pas un pion en menaçant fourchette. Cherchez encore !][%hint Le fou de cases noires des blancs est rivé sur c7. Comment profiter de la pression sur ce pion ?]",
+        "avec Cd4 à suivre. Bonne idée ! Essayons maintenant la ligne Cxd5.",
+        "Joli ! Le cavalier blanc passe à l'action et menace de faire une fourchette sur le roi et la tour en profitant du clouage. Les noirs décident, à raison, de se débarrasser de cette pièce dangereuse. Reprenons avec le fou.",
+        "[%wrong Non, nous voulons récupérer le matériel en d5 avec le fou !][%hint Prenez le cavalier noir avec votre fou.]",
+        "Très bien ! Le fou attaque maintenant le pion faible b7. Comme nous n'avons plus de pion en d4, profitons-en pour attaquer le fou de cases blanches des noirs avec notre cavalier !",
+        "[%wrong Ce coup ne met pas le cavalier en d4, essayez encore !][%hint Mettez le cavalier en d4 !] Et voilà ! En ouvrant des lignes avec notre pion d4, nos pièces se sont activé avec force. Observez la position : elle parle d'elle-même !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qk2r/1p3pp1/2p1pn1p/p4b2/1bBP1B2/2N2N2/PPP1Q1PP/3R1R1K w kq - 2 11\"]\r\n\r\n{Les blancs ont sacrifié un pion pour obtenir un bel avantage de développement : Le roi noir est toujours au milieu de l'échiquier. Quel coup de pion force l'ouverture du centre ?}\r\n11.d5\r\n    {[%wrong Ce coup ne force pas l'ouverture du centre avec un pion. Cherchez encore !][%hint Le pion e6 des noirs est cloué. Comment l'attaquer en poussant un pion ?]}\r\n11...cxd5\r\n    {Bien vu ! Les blancs ouvrent des lignes en force. Comme le pion e6 des noirs est cloué, comment les blancs peuvent-ils prendre un pion tout en menaçant une fourchette sur le roi et la tour a8 ?}\r\n12.Nxd5\r\n    {[%wrong Ce coup ne prend pas un pion en menaçant fourchette. Cherchez encore !][%hint Le fou de cases noires des blancs est rivé sur c7. Comment profiter de la pression sur ce pion ?]}\r\n    (12.Bxd5 $5 Qc8 {avec Cd4 à suivre. Bonne idée ! Essayons maintenant la ligne Cxd5.})\r\n12...Nxd5\r\n    {Joli ! Le cavalier blanc passe à l'action et menace de faire une fourchette sur le roi et la tour en profitant du clouage. Les noirs décident, à raison, de se débarrasser de cette pièce dangereuse. Reprenons avec le fou.}\r\n13.Bxd5\r\n    {[%wrong Non, nous voulons récupérer le matériel en d5 avec le fou !][%hint Prenez le cavalier noir avec votre fou.]}\r\n13...Qc8\r\n    {Très bien ! Le fou attaque maintenant le pion faible b7. Comme nous n'avons plus de pion en d4, profitons-en pour attaquer le fou de cases blanches des noirs avec notre cavalier !}\r\n14.Nd4\r\n    {[%wrong Ce coup ne met pas le cavalier en d4, essayez encore !][%hint Mettez le cavalier en d4 !] Et voilà ! En ouvrant des lignes avec notre pion d4, nos pièces se sont activé avec force. Observez la position : elle parle d'elle-même !}\r\n*"
+    },
+    {
+      "fen": "r1bq2k1/pp1p1p1p/2pBnbp1/8/6Q1/1PNB4/P1PP1PPP/5R1K w - - 4 17",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un solide avantage positionnel, mais qu'en faire ? Trouvez un fort coup de pion préparant l'attaque de g6.",
+        "[%wrong Ce coup ne prépare pas l'attaque du pion g6. Cherchez encore !][%hint La tour blanche s'apprête à soutenir une puissante poussée de pion...]",
+        "Bien essayé, mais attention aux défenses adverses !",
+        "Très bien ! Attaquons maintenant le pion g6 !",
+        "[%wrong Ce coup n'attaque pas le pion g6. Cherchez encore !][%hint Continuez à pousser le pion f !] Joli ! Les blancs menacent d'ouvrir la colonne f et/ou de jouer Ce4. La défense passive des noirs risque d'être rapidement débordée !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq2k1/pp1p1p1p/2pBnbp1/8/6Q1/1PNB4/P1PP1PPP/5R1K w - - 4 17\"]\r\n\r\n{Les blancs ont un solide avantage positionnel, mais qu'en faire ? Trouvez un fort coup de pion préparant l'attaque de g6.}\r\n17.f4\r\n    {[%wrong Ce coup ne prépare pas l'attaque du pion g6. Cherchez encore !][%hint La tour blanche s'apprête à soutenir une puissante poussée de pion...]}\r\n    (17.h4 $2 Bxh4 {Bien essayé, mais attention aux défenses adverses !})\r\n17...Ng7\r\n    {Très bien ! Attaquons maintenant le pion g6 !}\r\n18.f5\r\n    {[%wrong Ce coup n'attaque pas le pion g6. Cherchez encore !][%hint Continuez à pousser le pion f !] Joli ! Les blancs menacent d'ouvrir la colonne f et/ou de jouer Ce4. La défense passive des noirs risque d'être rapidement débordée !}\r\n*"
+    },
+    {
+      "fen": "3qr1k1/3r1pbp/1p1p1np1/pNp1n3/2P1P3/PP4PP/1BQ2PBK/3RR3 w - - 2 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faisons le point sur votre jeu de pions ! Trait aux blancs. Dans cette position, quel coup gagne du matériel ?",
+        "[%wrong Ce n'est pas un coup de pion qui gagne du matériel. Cherchez encore !][%hint Comment gagner de l'espace au centre tout en attaquant une pièce noire ?]",
+        "Bien joué ! Le cavalier noir est bouté hors du centre et se retrouve non protégé. Jouons un autre coup de pion pour gagner du matériel !",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Trouvez un coup de pion attaquant une pièce tout en dévoilant une attaque du fou de cases blanches.] Votre jeu de pion s'améliore à vue d’œil ! Les blancs attaquent le cavalier f6 tout en ouvrant les yeux du fou g2 qui vise maintenant le cavalier c6 non protégé. Les blancs vont gagner une pièce au prochain coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3qr1k1/3r1pbp/1p1p1np1/pNp1n3/2P1P3/PP4PP/1BQ2PBK/3RR3 w - - 2 4\"]\r\n\r\n{Faisons le point sur votre jeu de pions ! Trait aux blancs. Dans cette position, quel coup gagne du matériel ?}\r\n4.f4\r\n    {[%wrong Ce n'est pas un coup de pion qui gagne du matériel. Cherchez encore !][%hint Comment gagner de l'espace au centre tout en attaquant une pièce noire ?]}\r\n4...Nc6\r\n    {Bien joué ! Le cavalier noir est bouté hors du centre et se retrouve non protégé. Jouons un autre coup de pion pour gagner du matériel !}\r\n5.e5\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Trouvez un coup de pion attaquant une pièce tout en dévoilant une attaque du fou de cases blanches.] Votre jeu de pion s'améliore à vue d’œil ! Les blancs attaquent le cavalier f6 tout en ouvrant les yeux du fou g2 qui vise maintenant le cavalier c6 non protégé. Les blancs vont gagner une pièce au prochain coup !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "743ccbf6-9cec-11e8-bb6a-e9da9014f568",
+    "name": "Les pions dans le milieu de jeu",
+    "path": "les-pions-dans-le-milieu-de-jeu",
+    "description": "Dans le milieu de jeu, votre chaîne de pions indique généralement l’aile de l’échiquier où vous devez attaquer. En finale, il est souvent intéressant de pousser ses pions du côté où vous êtes majoritaire pour créer un pion passé. Si vous êtes en minorité sur une aile, vous pouvez également échanger pour isoler le pion supplémentaire de votre adversaire. C’est ce qu’on appelle l’attaque de minorité.",
+    "glyphName": "board-game-middle-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-pawns-in-the-middlegame-h1g.mp4",
+    "fen": "1r3rk1/p1q2ppp/4b3/1pp5/8/2R1PQP1/PP3PBP/R5K1 w - - 0 19",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rbq1rk1/2n2pbp/pp1p1np1/2pP4/P3P3/2NB3P/1P1N1PPB/R2QR1K1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs envisagent de jouer Cc4, ce qui leur donnerait une très bonne position. Comment mettre notre majorité à l'aile dame en mouvement ?}\r\n1...b5\r\n    {[%wrong Ce coup n'active pas notre majorité de pions. Cherchez encore !][%hint Quel coup de pion empêche Cc4 tout en activant notre majorité de pions ?]}\r\n    (1...a5 $2 2.Nc4 {Ce coup affaiblit nos cases blanches. Les blancs jouent Cc4 et obtiennent une excellente position. Trouvez mieux !})\r\n2.axb5\r\n    {Bien joué ! Les noirs mettent en marche leur majorité à l'aile dame et empêchent les blancs de jouer Cc4. Comment reprendre le pion b5 pour continuer à empêcher Cc4 ?}\r\n2...axb5\r\n    {[%wrong Ce coup n'empêche pas Cc4. Cherchez encore !][%hint Comment connecter les pions pour qu'ils puissent se soutenir mutuellement ?] Excellent ! Une fois activée, cette majorité de pion à l'aile dame nous donne des chances de nous battre pour le gain.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqr1k1/1p2bppp/2p2nn1/p2p4/PP1P4/2NBPN1P/2Q2PPB/1R3RK1 w - - 0 1\"]\r\n\r\n{Les blancs veulent lancer une attaque de minorité ! Comment gagner de l'espace tout en attaquant le pion c6 ?}\r\n1.b5\r\n    {[%wrong Ce coup ne gagne pas d'espace tout en attaquant le pion c6. Cherchez encore !][%hint Les blancs viennent de jouer b4 pour partir à l'attaque du pion c6. Comment continuer ?]}\r\n    (1.bxa5 $5 {Un coup intéressant ! Il ouvre la colonne b avec l'idée de doubler les tours pour mettre la pression sur b7. Cependant, notre pion a est maintenant isolé... Jouez plutôt un coup de pion attaquant c6 !})\r\n1...c5\r\n    {Les noirs refusent de laisser les blancs ouvrir la colonne b, ce qui créerait un pion arriéré en c6. Ils espèrent maintenant pouvoir jouer ...c4. Comment empêcher cette idée en isolant un pion noir ?}\r\n2.dxc5\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...c4. Cherchez encore !][%hint Comment isoler le pion d5 ?]}\r\n2...Bxc5\r\n    {Bon travail ! Les noirs ont maintenant un pion isolé sur la colonne d. Activons notre tour f1 pour commencer à mettre la pression sur le pion d5 !}\r\n3.Rfd1\r\n    {[%wrong Ce coup n'active pas la tour f1 sur une colonne où elle met la pression sur le pion isolé noir. Cherchez encore !][%hint Mettez la tour f1 sur le colonne d !] Bien joué ! Les blancs vont continuer à mettre la pression sur le pion isolé, que les noirs vont avoir beaucoup de mal à défendre.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qk2r/1p3pp1/2p1pn1p/p4b2/1bBP1B2/2N2N2/PPP1Q1PP/3R1R1K w kq - 2 11\"]\r\n\r\n{Les blancs ont sacrifié un pion pour obtenir un bel avantage de développement : Le roi noir est toujours au milieu de l'échiquier. Quel coup de pion force l'ouverture du centre ?}\r\n11.d5\r\n    {[%wrong Ce coup ne force pas l'ouverture du centre avec un pion. Cherchez encore !][%hint Le pion e6 des noirs est cloué. Comment l'attaquer en poussant un pion ?]}\r\n11...cxd5\r\n    {Bien vu ! Les blancs ouvrent des lignes en force. Comme le pion e6 des noirs est cloué, comment les blancs peuvent-ils prendre un pion tout en menaçant une fourchette sur le roi et la tour a8 ?}\r\n12.Nxd5\r\n    {[%wrong Ce coup ne prend pas un pion en menaçant fourchette. Cherchez encore !][%hint Le fou de cases noires des blancs est rivé sur c7. Comment profiter de la pression sur ce pion ?]}\r\n    (12.Bxd5 $5 Qc8 {avec Cd4 à suivre. Bonne idée ! Essayons maintenant la ligne Cxd5.})\r\n12...Nxd5\r\n    {Joli ! Le cavalier blanc passe à l'action et menace de faire une fourchette sur le roi et la tour en profitant du clouage. Les noirs décident, à raison, de se débarrasser de cette pièce dangereuse. Reprenons avec le fou.}\r\n13.Bxd5\r\n    {[%wrong Non, nous voulons récupérer le matériel en d5 avec le fou !][%hint Prenez le cavalier noir avec votre fou.]}\r\n13...Qc8\r\n    {Très bien ! Le fou attaque maintenant le pion faible b7. Comme nous n'avons plus de pion en d4, profitons-en pour attaquer le fou de cases blanches des noirs avec notre cavalier !}\r\n14.Nd4\r\n    {[%wrong Ce coup ne met pas le cavalier en d4, essayez encore !][%hint Mettez le cavalier en d4 !] Et voilà ! En ouvrant des lignes avec notre pion d4, nos pièces se sont activé avec force. Observez la position : elle parle d'elle-même !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq2k1/pp1p1p1p/2pBnbp1/8/6Q1/1PNB4/P1PP1PPP/5R1K w - - 4 17\"]\r\n\r\n{Les blancs ont un solide avantage positionnel, mais qu'en faire ? Trouvez un fort coup de pion préparant l'attaque de g6.}\r\n17.f4\r\n    {[%wrong Ce coup ne prépare pas l'attaque du pion g6. Cherchez encore !][%hint La tour blanche s'apprête à soutenir une puissante poussée de pion...]}\r\n    (17.h4 $2 Bxh4 {Bien essayé, mais attention aux défenses adverses !})\r\n17...Ng7\r\n    {Très bien ! Attaquons maintenant le pion g6 !}\r\n18.f5\r\n    {[%wrong Ce coup n'attaque pas le pion g6. Cherchez encore !][%hint Continuez à pousser le pion f !] Joli ! Les blancs menacent d'ouvrir la colonne f et/ou de jouer Ce4. La défense passive des noirs risque d'être rapidement débordée !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3qr1k1/3r1pbp/1p1p1np1/pNp1n3/2P1P3/PP4PP/1BQ2PBK/3RR3 w - - 2 4\"]\r\n\r\n{Faisons le point sur votre jeu de pions ! Trait aux blancs. Dans cette position, quel coup gagne du matériel ?}\r\n4.f4\r\n    {[%wrong Ce n'est pas un coup de pion qui gagne du matériel. Cherchez encore !][%hint Comment gagner de l'espace au centre tout en attaquant une pièce noire ?]}\r\n4...Nc6\r\n    {Bien joué ! Le cavalier noir est bouté hors du centre et se retrouve non protégé. Jouons un autre coup de pion pour gagner du matériel !}\r\n5.e5\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Trouvez un coup de pion attaquant une pièce tout en dévoilant une attaque du fou de cases blanches.] Votre jeu de pion s'améliore à vue d’œil ! Les blancs attaquent le cavalier f6 tout en ouvrant les yeux du fou g2 qui vise maintenant le cavalier c6 non protégé. Les blancs vont gagner une pièce au prochain coup !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Que faire avec ses pions en milieu de jeu ?",
+    "outroText": "Bien joué. Vous avez désormais des ressources pour utiliser vos pions bien à bon escient.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "c5aa8b40-83b5-11e8-850f-15e590437422",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawns-in-the-middlegame5e70662850db4.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawns-in-the-middlegame-56688670656675.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawns-in-the-middlegame-15ea23f4576312.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawns-in-the-middlegame-260f18c2d1da74.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 103,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

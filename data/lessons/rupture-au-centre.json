@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-avancees/rupture-au-centre",
+  "capturedAt": "2026-10-22T13:42:36.538Z",
+  "title": "Rupture au centre",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d2d4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d2;to;d4;persistent;true]Votre adversaire n'a pas développé de pièce ni placé de pion au centre. Punissez-le en frappant au centre.",
+        "[%hint Poussez votre pion au centre.][%wrong Ce n'était pas le bon coup.]Exactement, vous avez frappé au centre !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{[%c_arrow d2d4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d2;to;d4;persistent;true]Votre adversaire n'a pas développé de pièce ni placé de pion au centre. Punissez-le en frappant au centre.} 1. d4 {[%hint Poussez votre pion au centre.][%wrong Ce n'était pas le bon coup.]Exactement, vous avez frappé au centre !} *"
+    },
+    {
+      "fen": "r1bqk1nr/ppp2ppp/2np4/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Prenez le centre en jouant agressivement.",
+        "[%hint Poussez votre pion pour attaquer au centre.][%wrong Il existe un meilleur coup pour frapper au centre.] Oui, un coup audacieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/ppp2ppp/2np4/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Prenez le centre en jouant agressivement.} 1. d4 {[%hint Poussez votre pion pour attaquer au centre.][%wrong Il existe un meilleur coup pour frapper au centre.] Oui, un coup audacieux !} *"
+    },
+    {
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous pouvez utiliser un pion latéral, devant le fou, pour lutter contre son pion central.",
+        "[%hint Trouvez le pion qui peut attaquer le centre.][%wrong Bien essayé, la prochaine fois trouve le coup de pion qui attaque le centre.]Bien trouvé ! Vous attaquez le centre avec votre pion.",
+        "Presque, il faut le pousser davantage.",
+        "Ce n'est pas le bon pion à pousser.",
+        "Trouvez un coup de pion pour attaquer le centre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{Vous pouvez utiliser un pion latéral, devant le fou, pour lutter contre son pion central.} 1. c4 {[%hint Trouvez le pion qui peut attaquer le centre.][%wrong Bien essayé, la prochaine fois trouve le coup de pion qui attaque le centre.]Bien trouvé ! Vous attaquez le centre avec votre pion.} (1. c3? {Presque, il faut le pousser davantage.}) (1. e4? dxe4 {Ce n'est pas le bon pion à pousser.}) (1. Qd3? {Trouvez un coup de pion pour attaquer le centre.}) *"
+    },
+    {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il a plus d'espace au centre, réagis !",
+        "[%hint Trouvez un pion pour frapper au centre.][%wrong Bien essayé, la prochaine fois trouve le pion à pousser au centre.] Oui, une attaque puissante au centre.",
+        "C'est le bon pion, mais vous pouvez le pousser davantage.",
+        "Essayez encore. Trouvez un moyen d'attaquer le centre.",
+        "Ce n'est pas le bon pion pour attaquer le centre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Il a plus d'espace au centre, réagis !} 1... c5 {[%hint Trouvez un pion pour frapper au centre.][%wrong Bien essayé, la prochaine fois trouve le pion à pousser au centre.] Oui, une attaque puissante au centre.} (1... c6? {C'est le bon pion, mais vous pouvez le pousser davantage.}) (1... f6? {Essayez encore. Trouvez un moyen d'attaquer le centre.}) (1... f5? {Ce n'est pas le bon pion pour attaquer le centre.}) *"
+    },
+    {
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/8/2BPP3/5N2/PP1N1PPP/R2QK2R b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Battez-vous agressivement pour le centre !",
+        "[%hint Trouvez le pion pour frapper au centre.][%wrong Ce n'est pas le bon coup.] Oui, une frappe agressive au centre !",
+        "Vous pouvez pousser ce pion plus loin."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n2n2/8/2BPP3/5N2/PP1N1PPP/R2QK2R b KQkq - 0 1\"]\r\n\r\n{Battez-vous agressivement pour le centre !} 1... d5 {[%hint Trouvez le pion pour frapper au centre.][%wrong Ce n'est pas le bon coup.] Oui, une frappe agressive au centre !} (1... d6? {Vous pouvez pousser ce pion plus loin.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c25e-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Rupture au centre",
+    "path": "rupture-au-centre",
+    "description": "Apprenez à frapper au centre.",
+    "glyphName": "circle-target-practice",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{[%c_arrow d2d4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d2;to;d4;persistent;true]Votre adversaire n'a pas développé de pièce ni placé de pion au centre. Punissez-le en frappant au centre.} 1. d4 {[%hint Poussez votre pion au centre.][%wrong Ce n'était pas le bon coup.]Exactement, vous avez frappé au centre !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/ppp2ppp/2np4/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Prenez le centre en jouant agressivement.} 1. d4 {[%hint Poussez votre pion pour attaquer au centre.][%wrong Il existe un meilleur coup pour frapper au centre.] Oui, un coup audacieux !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{Vous pouvez utiliser un pion latéral, devant le fou, pour lutter contre son pion central.} 1. c4 {[%hint Trouvez le pion qui peut attaquer le centre.][%wrong Bien essayé, la prochaine fois trouve le coup de pion qui attaque le centre.]Bien trouvé ! Vous attaquez le centre avec votre pion.} (1. c3? {Presque, il faut le pousser davantage.}) (1. e4? dxe4 {Ce n'est pas le bon pion à pousser.}) (1. Qd3? {Trouvez un coup de pion pour attaquer le centre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Il a plus d'espace au centre, réagis !} 1... c5 {[%hint Trouvez un pion pour frapper au centre.][%wrong Bien essayé, la prochaine fois trouve le pion à pousser au centre.] Oui, une attaque puissante au centre.} (1... c6? {C'est le bon pion, mais vous pouvez le pousser davantage.}) (1... f6? {Essayez encore. Trouvez un moyen d'attaquer le centre.}) (1... f5? {Ce n'est pas le bon pion pour attaquer le centre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n2n2/8/2BPP3/5N2/PP1N1PPP/R2QK2R b KQkq - 0 1\"]\r\n\r\n{Battez-vous agressivement pour le centre !} 1... d5 {[%hint Trouvez le pion pour frapper au centre.][%wrong Ce n'est pas le bon coup.] Oui, une frappe agressive au centre !} (1... d6? {Vous pouvez pousser ce pion plus loin.}) *"
+    ],
+    "courseId": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à frapper au centre.",
+    "outroText": "Vous savez maintenant frapper au centre.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "ouvertures-avancees",
+      "title": "Ouvertures avancées"
+    },
+    "parentId": "d18ebb26-2762-11f1-a2a2-9b7dc6d4583e"
+  },
+  "curriculum": {
+    "number": 44,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Ouvertures avancées",
+      "path": "ouvertures-avancees",
+      "order": 1
+    }
+  }
+}

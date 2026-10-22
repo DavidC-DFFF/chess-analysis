@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/fou-contre-cavalier",
+  "capturedAt": "2026-10-22T12:23:48.944Z",
+  "title": "Fou contre cavalier",
+  "exercises": [
+    {
+      "fen": "4k3/3n4/P7/8/8/8/6K1/2B5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Dans cette finale fou contre cavalier, les blancs tentent de promouvoir leur pion. Trouvez le coup gagnant !",
+        "[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Le cavalier noir a besoin d'aller en b6 pour couvrir la case de promotion...]",
+        "Le cavalier revient couvrir la case de promotion et la position est nulle. Trouvez mieux !",
+        "Le cavalier revient couvrir la case de promotion et la position est nulle. Trouvez mieux !",
+        "Beau travail ! Notre fou empêche le cavalier de se poster en b6 pour couvrir la case de promotion. Les noirs tentent une dernière défense, mais il est trop tard ! A vous de conclure.",
+        "[%wrong Ce coup perd le pion, et la position est maintenant nulle. Cherchez encore !][%hint Les pions passés sont fait pour être poussés !] Bien vu ! Les blancs vont maintenant promouvoir leur pion et l'emporter facilement."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/3n4/P7/8/8/8/6K1/2B5 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Dans cette finale fou contre cavalier, les blancs tentent de promouvoir leur pion. Trouvez le coup gagnant !}\r\n1.Be3\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Le cavalier noir a besoin d'aller en b6 pour couvrir la case de promotion...]}\r\n    (1.Bf4 $2 Nb6 {Le cavalier revient couvrir la case de promotion et la position est nulle. Trouvez mieux !})\r\n    (1.a7 $2 Nb6 {Le cavalier revient couvrir la case de promotion et la position est nulle. Trouvez mieux !})\r\n1...Nb8\r\n    {Beau travail ! Notre fou empêche le cavalier de se poster en b6 pour couvrir la case de promotion. Les noirs tentent une dernière défense, mais il est trop tard ! A vous de conclure.}\r\n2.a7\r\n    {[%wrong Ce coup perd le pion, et la position est maintenant nulle. Cherchez encore !][%hint Les pions passés sont fait pour être poussés !] Bien vu ! Les blancs vont maintenant promouvoir leur pion et l'emporter facilement.}\r\n*"
+    },
+    {
+      "fen": "1b6/8/1p1p1k1p/1P2p1pP/4P1P1/2P2K2/1N6/8 w - - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Dans cette position, le fou noir est très mauvais car coincé derrière ses pions. Activez votre cavalier et passez à l'attaque des faiblesses adverses !",
+        "[%wrong Nous sommes à la recherche d'un coup de cavalier agressif. Essayez encore !][%hint Trouvez une case permettant au cavalier d'attaquer trois pions noirs à la fois.]",
+        "Ce coup prépare l'arrivée du cavalier en e3, puis d5 ou f5. C'est un plan intéressant, mais il est encore plus fort d'attaquer immédiatement les pions noirs. Trouvez le coup le plus agressif !",
+        "Le cavalier n'est pas bien placé au bord de l'échiquier. Trouvez-lui une meilleure case !",
+        "Bien joué ! Le cavalier passe à l'attaque et s'en prend au pion faible b6. Trouvez une forte continuation menaçant une fourchette au prochain coup.",
+        "[%wrong Ce coup ne menace pas une fourchette au prochain. Cherchez encore !][%hint Comment attaquer deux pions non-protégés à la fois ?]",
+        "Exact ! Les blancs menacent de réaliser une fourchette sur le roi et le fou, ce qui force les noirs à reculer. Trouvez maintenant le coup qui gagne du matériel !",
+        "[%wrong Ce coup n'attaque pas deux pions non-protégés à la fois. Cherchez encore !][%hint Le cavalier adore réaliser des double attaques !] Superbe séquence ! Les blancs réalisent une double attaque sur les pions d6 et h6, et vont gagner du matériel au prochain coup. Le cavalier a dominé le fou passif !",
+        "Bien essayé, mais le pion b6 est protégé. Ce coup ne gagne pas de matériel, cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1b6/8/1p1p1k1p/1P2p1pP/4P1P1/2P2K2/1N6/8 w - - 1 1\"]\r\n\r\n{Trait aux blancs. Dans cette position, le fou noir est très mauvais car coincé derrière ses pions. Activez votre cavalier et passez à l'attaque des faiblesses adverses !}\r\n1.Nc4\r\n    {[%wrong Nous sommes à la recherche d'un coup de cavalier agressif. Essayez encore !][%hint Trouvez une case permettant au cavalier d'attaquer trois pions noirs à la fois.]}\r\n    (1.Nd1 $5 {Ce coup prépare l'arrivée du cavalier en e3, puis d5 ou f5. C'est un plan intéressant, mais il est encore plus fort d'attaquer immédiatement les pions noirs. Trouvez le coup le plus agressif !})\r\n    (1.Na4 $2 Bc7 {Le cavalier n'est pas bien placé au bord de l'échiquier. Trouvez-lui une meilleure case !})\r\n1...Bc7\r\n    {Bien joué ! Le cavalier passe à l'attaque et s'en prend au pion faible b6. Trouvez une forte continuation menaçant une fourchette au prochain coup.}\r\n2.Ne3\r\n    {[%wrong Ce coup ne menace pas une fourchette au prochain. Cherchez encore !][%hint Comment attaquer deux pions non-protégés à la fois ?]}\r\n2...Bd8\r\n    {Exact ! Les blancs menacent de réaliser une fourchette sur le roi et le fou, ce qui force les noirs à reculer. Trouvez maintenant le coup qui gagne du matériel !}\r\n3.Nf5\r\n    {[%wrong Ce coup n'attaque pas deux pions non-protégés à la fois. Cherchez encore !][%hint Le cavalier adore réaliser des double attaques !] Superbe séquence ! Les blancs réalisent une double attaque sur les pions d6 et h6, et vont gagner du matériel au prochain coup. Le cavalier a dominé le fou passif !}\r\n    (3.Nc4 $6 Ke6 {Bien essayé, mais le pion b6 est protégé. Ce coup ne gagne pas de matériel, cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "8/5pk1/3p1n1p/R1r4P/p5p1/6P1/1B3P1K/8 w - - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Malgré un déficit de deux pions, il est possible de rentrer dans une finale bon fou contre mauvais cavalier. Trouvez comment.",
+        "[%wrong Ce coup ne permet pas de rentrer dans une finale bon fou contre mauvais cavalier. Cherchez encore !][%hint Quel échange permet de rentrer dans une finale bon fou contre mauvais cavalier ?]",
+        "En prenant ce pion, vous laissez les noirs jouer ...Rg6 pour déclouer leur cavalier. Trouvez mieux !",
+        "Bien essayé, mais ce coup donne aux noirs une excellente position. Trouvez mieux !",
+        "Nous avons certes deux pions de moins, mais le cavalier noir est cloué et le roi ne peut pas bouger car il doit le défendre. Jouons Rg2 pour paralyser encore plus l'adversaire.",
+        "[%wrong Non, nous voulons jouer le coup d'attente Rg2 !][%hint Jouez Rg2.]",
+        "Bien vu ! Les blancs veulent forcer les noirs à déplacer leur roi pour gagner le cavalier. Choisissez votre prochain coup entre ces deux options : Fxa3, ou Fa1.)",
+        "[%wrong Choisissez votre coup entre ces deux options : Fxa3, ou Fa1.][%hint Le cavalier noir est mauvais car il est cloué. Il faut qu'il le reste !]",
+        "Le cavalier noir est libéré. Il s'empare du pion h5, et la position blanche n'est plus gagnante. Jouez Fa1 !",
+        "Excellente décision ! Les blancs conservent le clouage du cavalier f6. Les noirs n'auront bientôt plus aucun coup à jouer et seront en zugzwang. Comment empêcher le pion c4 d'avancer ?",
+        "[%wrong Il existe plusieurs coups d'attente viables, mais un seul bloquant le pion c4. Trouvez-le !][%hint Bloquez le pion c4 !] Bravo ! Les blancs vont continuer à déplacer leur fou entre a1 et c3 jusqu'à ce que les noirs n'aient plus le moindre coup de pion à jouer. Il sera alors temps de s'emparer du cavalier et de la victoire !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pk1/3p1n1p/R1r4P/p5p1/6P1/1B3P1K/8 w - - 0 4\"]\r\n\r\n{Trait aux blancs. Malgré un déficit de deux pions, il est possible de rentrer dans une finale bon fou contre mauvais cavalier. Trouvez comment.}\r\n4.Rxc5\r\n    {[%wrong Ce coup ne permet pas de rentrer dans une finale bon fou contre mauvais cavalier. Cherchez encore !][%hint Quel échange permet de rentrer dans une finale bon fou contre mauvais cavalier ?]}\r\n    (4.Rxa4 $2 Rxh5+ {En prenant ce pion, vous laissez les noirs jouer ...Rg6 pour déclouer leur cavalier. Trouvez mieux !})\r\n    (4.Ra6 $2 Rxh5+ {Bien essayé, mais ce coup donne aux noirs une excellente position. Trouvez mieux !})\r\n4...dxc5\r\n    {Nous avons certes deux pions de moins, mais le cavalier noir est cloué et le roi ne peut pas bouger car il doit le défendre. Jouons Rg2 pour paralyser encore plus l'adversaire.}\r\n5.Kg2\r\n    {[%wrong Non, nous voulons jouer le coup d'attente Rg2 !][%hint Jouez Rg2.]}\r\n5...a3\r\n    {Bien vu ! Les blancs veulent forcer les noirs à déplacer leur roi pour gagner le cavalier. Choisissez votre prochain coup entre ces deux options : Fxa3, ou Fa1.)}\r\n6.Ba1\r\n    {[%wrong Choisissez votre coup entre ces deux options : Fxa3, ou Fa1.][%hint Le cavalier noir est mauvais car il est cloué. Il faut qu'il le reste !]}\r\n    (6.Bxa3 $2 Nxh5 {Le cavalier noir est libéré. Il s'empare du pion h5, et la position blanche n'est plus gagnante. Jouez Fa1 !})\r\n6...c4\r\n    {Excellente décision ! Les blancs conservent le clouage du cavalier f6. Les noirs n'auront bientôt plus aucun coup à jouer et seront en zugzwang. Comment empêcher le pion c4 d'avancer ?}\r\n7.Bc3\r\n    {[%wrong Il existe plusieurs coups d'attente viables, mais un seul bloquant le pion c4. Trouvez-le !][%hint Bloquez le pion c4 !] Bravo ! Les blancs vont continuer à déplacer leur fou entre a1 et c3 jusqu'à ce que les noirs n'aient plus le moindre coup de pion à jouer. Il sera alors temps de s'emparer du cavalier et de la victoire !}\r\n*"
+    },
+    {
+      "fen": "2b5/p4pkp/1pn3p1/2p1p3/2P1P3/PB1P2P1/1P2N2P/3K4 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Trouvez l'idée gagnante !",
+        "[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Comment paralyser le bon cavalier des blancs ?]",
+        "Bien joué ! Notre fou vient clouer le bon cavalier, et le mauvais fou blanc ne peut venir à la rescousse. Le roi sort du clouage, mais nous avons maintenant une suite gagnante. Trouvez-la !",
+        "[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Trouvez un échange préparant une fourchette gagnante.]",
+        "Bien essayé, mais les blancs s'échappent et obtiennent une position défendable. Cherchez encore !",
+        "Joliment fait ! Finissez maintenant la combinaison gagnante !",
+        "[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Cherchez la fourchette...] Superbe ! Le fort cavalier noir va gagner le mauvais fou blanc au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b5/p4pkp/1pn3p1/2p1p3/2P1P3/PB1P2P1/1P2N2P/3K4 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez l'idée gagnante !}\r\n1...Bg4\r\n    {[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Comment paralyser le bon cavalier des blancs ?]}\r\n2.Kd2\r\n    {Bien joué ! Notre fou vient clouer le bon cavalier, et le mauvais fou blanc ne peut venir à la rescousse. Le roi sort du clouage, mais nous avons maintenant une suite gagnante. Trouvez-la !}\r\n2...Bxe2\r\n    {[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Trouvez un échange préparant une fourchette gagnante.]}\r\n    (2...Nd4 $2 3.Nxd4 {Bien essayé, mais les blancs s'échappent et obtiennent une position défendable. Cherchez encore !})\r\n3.Kxe2\r\n    {Joliment fait ! Finissez maintenant la combinaison gagnante !}\r\n3...Nd4+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Cherchez la fourchette...] Superbe ! Le fort cavalier noir va gagner le mauvais fou blanc au prochain coup.}\r\n*"
+    },
+    {
+      "fen": "8/1kb5/1p1p1p2/p1p5/P1P1P1p1/2NP2P1/8/4K3 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Enfermé derrière ses pions, le fou des noirs est en triste état... Libérez-le !",
+        "[%wrong Ce coup n'active pas le fou noir. Cherchez encore !][%hint Comment forcer l'ouverture d'une diagonale pour votre mauvais fou ?]",
+        "Bien essayé, mais le cavalier blanc est trop fort, et il réfute votre idée. Trouvez mieux !",
+        "Bien vu ! Les noirs ouvrent la diagonale en force et activent leur fou. Il est maintenant temps de récupérer le pion sacrifié !",
+        "[%wrong Ce coup né récupère pas un pion. Cherchez encore !][%hint Cherchez une prise importante...]",
+        "Bien joué ! Comment défendre le pion faible f6 ?",
+        "[%wrong Ce coup ne défend pas le pion f6. Cherchez encore !][%hint Votre fou peut-il protéger f6 ?] Exactement ! Les noirs protègent la faiblesse f6 et centralisent leur fou, enfin actif. Bel enchaînement !",
+        "Joli coup ! Trouvez maintenant un coup accomplissant la même tâche, mais en centralisant le fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1kb5/1p1p1p2/p1p5/P1P1P1p1/2NP2P1/8/4K3 b - - 0 1\"]\r\n\r\n{Enfermé derrière ses pions, le fou des noirs est en triste état... Libérez-le !}\r\n1...d5\r\n    {[%wrong Ce coup n'active pas le fou noir. Cherchez encore !][%hint Comment forcer l'ouverture d'une diagonale pour votre mauvais fou ?]}\r\n    (1...Bd8 $2 2.Nd5 {Bien essayé, mais le cavalier blanc est trop fort, et il réfute votre idée. Trouvez mieux !})\r\n2.Nxd5\r\n    {Bien vu ! Les noirs ouvrent la diagonale en force et activent leur fou. Il est maintenant temps de récupérer le pion sacrifié !}\r\n2...Bxg3+\r\n    {[%wrong Ce coup né récupère pas un pion. Cherchez encore !][%hint Cherchez une prise importante...]}\r\n3.Ke2\r\n    {Bien joué ! Comment défendre le pion faible f6 ?}\r\n3...Be5\r\n    {[%wrong Ce coup ne défend pas le pion f6. Cherchez encore !][%hint Votre fou peut-il protéger f6 ?] Exactement ! Les noirs protègent la faiblesse f6 et centralisent leur fou, enfin actif. Bel enchaînement !}\r\n    (3...Bh4 $5 {Joli coup ! Trouvez maintenant un coup accomplissant la même tâche, mais en centralisant le fou.})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "becda4f6-9cec-11e8-b8c0-7f05789cacf3",
+    "name": "Fou contre cavalier",
+    "path": "fou-contre-cavalier",
+    "description": "Fou contre cavalier ! C’est l’une des plus grandes batailles de l’histoire des échecs. Les fous sont rapides et découpent l’échiquier dans les positions ouvertes, tandis que les cavaliers peuvent accéder à toutes les cases et sont très efficaces dans les positions fermées.",
+    "glyphName": "piece-combo-bishop-knight",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-bishop-vs-knights-g7z.mp4",
+    "fen": "8/8/1k3N2/8/1Kp5/1pPb4/1P6/8 w - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/3n4/P7/8/8/8/6K1/2B5 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Dans cette finale fou contre cavalier, les blancs tentent de promouvoir leur pion. Trouvez le coup gagnant !}\r\n1.Be3\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Le cavalier noir a besoin d'aller en b6 pour couvrir la case de promotion...]}\r\n    (1.Bf4 $2 Nb6 {Le cavalier revient couvrir la case de promotion et la position est nulle. Trouvez mieux !})\r\n    (1.a7 $2 Nb6 {Le cavalier revient couvrir la case de promotion et la position est nulle. Trouvez mieux !})\r\n1...Nb8\r\n    {Beau travail ! Notre fou empêche le cavalier de se poster en b6 pour couvrir la case de promotion. Les noirs tentent une dernière défense, mais il est trop tard ! A vous de conclure.}\r\n2.a7\r\n    {[%wrong Ce coup perd le pion, et la position est maintenant nulle. Cherchez encore !][%hint Les pions passés sont fait pour être poussés !] Bien vu ! Les blancs vont maintenant promouvoir leur pion et l'emporter facilement.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1b6/8/1p1p1k1p/1P2p1pP/4P1P1/2P2K2/1N6/8 w - - 1 1\"]\r\n\r\n{Trait aux blancs. Dans cette position, le fou noir est très mauvais car coincé derrière ses pions. Activez votre cavalier et passez à l'attaque des faiblesses adverses !}\r\n1.Nc4\r\n    {[%wrong Nous sommes à la recherche d'un coup de cavalier agressif. Essayez encore !][%hint Trouvez une case permettant au cavalier d'attaquer trois pions noirs à la fois.]}\r\n    (1.Nd1 $5 {Ce coup prépare l'arrivée du cavalier en e3, puis d5 ou f5. C'est un plan intéressant, mais il est encore plus fort d'attaquer immédiatement les pions noirs. Trouvez le coup le plus agressif !})\r\n    (1.Na4 $2 Bc7 {Le cavalier n'est pas bien placé au bord de l'échiquier. Trouvez-lui une meilleure case !})\r\n1...Bc7\r\n    {Bien joué ! Le cavalier passe à l'attaque et s'en prend au pion faible b6. Trouvez une forte continuation menaçant une fourchette au prochain coup.}\r\n2.Ne3\r\n    {[%wrong Ce coup ne menace pas une fourchette au prochain. Cherchez encore !][%hint Comment attaquer deux pions non-protégés à la fois ?]}\r\n2...Bd8\r\n    {Exact ! Les blancs menacent de réaliser une fourchette sur le roi et le fou, ce qui force les noirs à reculer. Trouvez maintenant le coup qui gagne du matériel !}\r\n3.Nf5\r\n    {[%wrong Ce coup n'attaque pas deux pions non-protégés à la fois. Cherchez encore !][%hint Le cavalier adore réaliser des double attaques !] Superbe séquence ! Les blancs réalisent une double attaque sur les pions d6 et h6, et vont gagner du matériel au prochain coup. Le cavalier a dominé le fou passif !}\r\n    (3.Nc4 $6 Ke6 {Bien essayé, mais le pion b6 est protégé. Ce coup ne gagne pas de matériel, cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pk1/3p1n1p/R1r4P/p5p1/6P1/1B3P1K/8 w - - 0 4\"]\r\n\r\n{Trait aux blancs. Malgré un déficit de deux pions, il est possible de rentrer dans une finale bon fou contre mauvais cavalier. Trouvez comment.}\r\n4.Rxc5\r\n    {[%wrong Ce coup ne permet pas de rentrer dans une finale bon fou contre mauvais cavalier. Cherchez encore !][%hint Quel échange permet de rentrer dans une finale bon fou contre mauvais cavalier ?]}\r\n    (4.Rxa4 $2 Rxh5+ {En prenant ce pion, vous laissez les noirs jouer ...Rg6 pour déclouer leur cavalier. Trouvez mieux !})\r\n    (4.Ra6 $2 Rxh5+ {Bien essayé, mais ce coup donne aux noirs une excellente position. Trouvez mieux !})\r\n4...dxc5\r\n    {Nous avons certes deux pions de moins, mais le cavalier noir est cloué et le roi ne peut pas bouger car il doit le défendre. Jouons Rg2 pour paralyser encore plus l'adversaire.}\r\n5.Kg2\r\n    {[%wrong Non, nous voulons jouer le coup d'attente Rg2 !][%hint Jouez Rg2.]}\r\n5...a3\r\n    {Bien vu ! Les blancs veulent forcer les noirs à déplacer leur roi pour gagner le cavalier. Choisissez votre prochain coup entre ces deux options : Fxa3, ou Fa1.)}\r\n6.Ba1\r\n    {[%wrong Choisissez votre coup entre ces deux options : Fxa3, ou Fa1.][%hint Le cavalier noir est mauvais car il est cloué. Il faut qu'il le reste !]}\r\n    (6.Bxa3 $2 Nxh5 {Le cavalier noir est libéré. Il s'empare du pion h5, et la position blanche n'est plus gagnante. Jouez Fa1 !})\r\n6...c4\r\n    {Excellente décision ! Les blancs conservent le clouage du cavalier f6. Les noirs n'auront bientôt plus aucun coup à jouer et seront en zugzwang. Comment empêcher le pion c4 d'avancer ?}\r\n7.Bc3\r\n    {[%wrong Il existe plusieurs coups d'attente viables, mais un seul bloquant le pion c4. Trouvez-le !][%hint Bloquez le pion c4 !] Bravo ! Les blancs vont continuer à déplacer leur fou entre a1 et c3 jusqu'à ce que les noirs n'aient plus le moindre coup de pion à jouer. Il sera alors temps de s'emparer du cavalier et de la victoire !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b5/p4pkp/1pn3p1/2p1p3/2P1P3/PB1P2P1/1P2N2P/3K4 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez l'idée gagnante !}\r\n1...Bg4\r\n    {[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Comment paralyser le bon cavalier des blancs ?]}\r\n2.Kd2\r\n    {Bien joué ! Notre fou vient clouer le bon cavalier, et le mauvais fou blanc ne peut venir à la rescousse. Le roi sort du clouage, mais nous avons maintenant une suite gagnante. Trouvez-la !}\r\n2...Bxe2\r\n    {[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Trouvez un échange préparant une fourchette gagnante.]}\r\n    (2...Nd4 $2 3.Nxd4 {Bien essayé, mais les blancs s'échappent et obtiennent une position défendable. Cherchez encore !})\r\n3.Kxe2\r\n    {Joliment fait ! Finissez maintenant la combinaison gagnante !}\r\n3...Nd4+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas du coup gagnant. Cherchez encore !][%hint Cherchez la fourchette...] Superbe ! Le fort cavalier noir va gagner le mauvais fou blanc au prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1kb5/1p1p1p2/p1p5/P1P1P1p1/2NP2P1/8/4K3 b - - 0 1\"]\r\n\r\n{Enfermé derrière ses pions, le fou des noirs est en triste état... Libérez-le !}\r\n1...d5\r\n    {[%wrong Ce coup n'active pas le fou noir. Cherchez encore !][%hint Comment forcer l'ouverture d'une diagonale pour votre mauvais fou ?]}\r\n    (1...Bd8 $2 2.Nd5 {Bien essayé, mais le cavalier blanc est trop fort, et il réfute votre idée. Trouvez mieux !})\r\n2.Nxd5\r\n    {Bien vu ! Les noirs ouvrent la diagonale en force et activent leur fou. Il est maintenant temps de récupérer le pion sacrifié !}\r\n2...Bxg3+\r\n    {[%wrong Ce coup né récupère pas un pion. Cherchez encore !][%hint Cherchez une prise importante...]}\r\n3.Ke2\r\n    {Bien joué ! Comment défendre le pion faible f6 ?}\r\n3...Be5\r\n    {[%wrong Ce coup ne défend pas le pion f6. Cherchez encore !][%hint Votre fou peut-il protéger f6 ?] Exactement ! Les noirs protègent la faiblesse f6 et centralisent leur fou, enfin actif. Bel enchaînement !}\r\n    (3...Bh4 $5 {Joli coup ! Trouvez maintenant un coup accomplissant la même tâche, mais en centralisant le fou.})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Le cavalier peut se révéler également une pièce puissante dans les bonnes positions.",
+    "outroText": "En résumé, les cavaliers et les fous ont leur propores forces et faiblesses.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "944c399e-83b6-11e8-affc-5f0037bfb046",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/bishops-vs-knights5e7ab3278c164.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/bishops-vs-knights-566886586ee8f6.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/bishops-vs-knights-15ea23f6d354fa.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/bishops-vs-knights-26123ab7ccc022.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 108,
+    "order": 7,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/l-echecs-et-mat",
+  "capturedAt": "2026-10-22T12:23:27.009Z",
+  "title": "L'échec et mat",
+  "exercises": [
+    {
+      "fen": "7k/4R1pp/8/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Mettez votre adversaire échec et mat avec votre tour.",
+        "[%wrong Ce coup ne fait pas échec et mat, réessayez.][%hint Que se passe-t-il si vous avancez votre tour ?] Beau travail ! Le roi ne peut ni prendre, ni intercepter, ni fuir. C'est échec et mat !",
+        "Votre tour va se faire prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/4R1pp/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Mettez votre adversaire échec et mat avec votre tour.} 1. Re8# {[%wrong Ce coup ne fait pas échec et mat, réessayez.][%hint Que se passe-t-il si vous avancez votre tour ?] Beau travail ! Le roi ne peut ni prendre, ni intercepter, ni fuir. C'est échec et mat !} (1. Rxg7? {Votre tour va se faire prendre.} 1... Kxg7) 1-0"
+    },
+    {
+      "fen": "k7/8/8/8/8/8/2R5/1R6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pouvez-vous faire échec et mat avec l'une de vos tours ?",
+        "[%hint Que se passe-t-il si vous faites coulisser votre tour tout à gauche de l'échiquier ?][%wrong Il n'y a pas mat, retentez votre chance.] Bravo ! Le roi est sans solution, c'est bien échec et mat.",
+        "Le roi peut prendre votre tour.",
+        "Le roi peut s'enfuir.",
+        "Le roi peut s'enfuir.",
+        "Le roi peut prendre votre tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/8/8/8/8/2R5/1R6 w - - 0 1\"]\r\n\r\n{Pouvez-vous faire échec et mat avec l'une de vos tours ?} 1. Ra2# {[%hint Que se passe-t-il si vous faites coulisser votre tour tout à gauche de l'échiquier ?][%wrong Il n'y a pas mat, retentez votre chance.] Bravo ! Le roi est sans solution, c'est bien échec et mat.} (1. Rb7? {Le roi peut prendre votre tour.} 1... Kxb7) (1. Rc8+? {Le roi peut s'enfuir.} 1... Ka7) (1. Ra1+? {Le roi peut s'enfuir.} 1... Kb7) (1. Rb8+? {Le roi peut prendre votre tour.} 1... Kxb8) 1-0"
+    },
+    {
+      "fen": "6k1/2Q5/5K2/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pouvez-vous trouver l'échec et mat ? Souvenez-vous que si votre roi est à côté de votre dame, il la protège.",
+        "[%wrong Il n'y a pas échec et mat, essayez autre chose.][%hint Votre dame dispose d'une case sûre à côté du roi adverse pour le mater.] Exact. Le roi noir ne peut pas prendre votre dame car votre propre roi la défend, c'est échec et mat !",
+        "Le roi peut s'enfuir.",
+        "Le roi peut s'enfuir.",
+        "Le roi peut s'enfuir.",
+        "Le roi peut s'enfuir.",
+        "Le roi peut s'enfuir.",
+        "Votre dame se fait prendre si elle n'est pas protégée par votre roi.",
+        "Le roi peut s'enfuir."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/2Q5/5K2/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Pouvez-vous trouver l'échec et mat ? Souvenez-vous que si votre roi est à côté de votre dame, il la protège.} 1. Qg7# {[%wrong Il n'y a pas échec et mat, essayez autre chose.][%hint Votre dame dispose d'une case sûre à côté du roi adverse pour le mater.] Exact. Le roi noir ne peut pas prendre votre dame car votre propre roi la défend, c'est échec et mat !} (1. Qg3+? Kh8 {Le roi peut s'enfuir.}) (1. Qb8+? Kh7 {Le roi peut s'enfuir.}) (1. Qc8+? Kh7 {Le roi peut s'enfuir.}) (1. Qd8+? Kh7 {Le roi peut s'enfuir.}) (1. Qc4+? Kh8 {Le roi peut s'enfuir.}) (1. Qh7+? Kxh7 {Votre dame se fait prendre si elle n'est pas protégée par votre roi.}) (1. Qf7+? Kh8 {Le roi peut s'enfuir.}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "93f0678e-ec8d-11f0-a38e-59d5801a2cd0",
+    "name": "L'échec et mat",
+    "path": "l-echecs-et-mat",
+    "description": "Apprenez à faire échec et mat pour gagner la partie !",
+    "glyphName": "mark-hash",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/4R1pp/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Mettez votre adversaire échec et mat avec votre tour.} 1. Re8# {[%wrong Ce coup ne fait pas échec et mat, réessayez.][%hint Que se passe-t-il si vous avancez votre tour ?] Beau travail ! Le roi ne peut ni prendre, ni intercepter, ni fuir. C'est échec et mat !} (1. Rxg7? {Votre tour va se faire prendre.} 1... Kxg7) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/8/8/8/8/2R5/1R6 w - - 0 1\"]\r\n\r\n{Pouvez-vous faire échec et mat avec l'une de vos tours ?} 1. Ra2# {[%hint Que se passe-t-il si vous faites coulisser votre tour tout à gauche de l'échiquier ?][%wrong Il n'y a pas mat, retentez votre chance.] Bravo ! Le roi est sans solution, c'est bien échec et mat.} (1. Rb7? {Le roi peut prendre votre tour.} 1... Kxb7) (1. Rc8+? {Le roi peut s'enfuir.} 1... Ka7) (1. Ra1+? {Le roi peut s'enfuir.} 1... Kb7) (1. Rb8+? {Le roi peut prendre votre tour.} 1... Kxb8) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/2Q5/5K2/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Pouvez-vous trouver l'échec et mat ? Souvenez-vous que si votre roi est à côté de votre dame, il la protège.} 1. Qg7# {[%wrong Il n'y a pas échec et mat, essayez autre chose.][%hint Votre dame dispose d'une case sûre à côté du roi adverse pour le mater.] Exact. Le roi noir ne peut pas prendre votre dame car votre propre roi la défend, c'est échec et mat !} (1. Qg3+? Kh8 {Le roi peut s'enfuir.}) (1. Qb8+? Kh7 {Le roi peut s'enfuir.}) (1. Qc8+? Kh7 {Le roi peut s'enfuir.}) (1. Qd8+? Kh7 {Le roi peut s'enfuir.}) (1. Qc4+? Kh8 {Le roi peut s'enfuir.}) (1. Qh7+? Kxh7 {Votre dame se fait prendre si elle n'est pas protégée par votre roi.}) (1. Qf7+? Kh8 {Le roi peut s'enfuir.}) 1-0"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "introText": "Apprenez à faire échec et mat pour gagner la partie !",
+    "outroText": "Bien ! Prêt à apprendre le roque ?",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4R2k/6pp/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight h8;color;%23eb6150;opacity;0.8;square;h8;persistent;true] Quand le roi n'a aucun moyen de s'en sortir lorsqu'il est attaqué, on dit qu'il est \\\"échec et mat,\\\" et la partie est terminée !} *"
+        ]
+      }
+    ],
+    "animationName": "checkmate",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "21d06b30-b502-11f0-8820-af91432e36d6",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 11,
+    "order": 11,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

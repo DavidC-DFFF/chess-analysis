@@ -1,0 +1,392 @@
+{
+  "source": "https://www.chess.com/learn",
+  "scope": "Leçons débloquées du parcours personnel, selon la page enregistrée. Instantané sans synchronisation du compte.",
+  "capturedAt": "2026-10-22T13:42:26.014Z",
+  "imported": [
+    {
+      "path": "le-roi",
+      "title": "Le Roi",
+      "file": "data/lessons/le-roi.json",
+      "exercises": 3,
+      "number": 1,
+      "existing": true
+    },
+    {
+      "path": "la-dame",
+      "title": "La Dame",
+      "file": "data/lessons/la-dame.json",
+      "exercises": 3,
+      "number": 2,
+      "existing": true
+    },
+    {
+      "path": "la-tour",
+      "title": "La Tour",
+      "file": "data/lessons/la-tour.json",
+      "exercises": 3,
+      "number": 3,
+      "existing": true
+    },
+    {
+      "path": "le-fou",
+      "title": "Le Fou",
+      "file": "data/lessons/le-fou.json",
+      "exercises": 3,
+      "number": 4,
+      "existing": true
+    },
+    {
+      "path": "le-cavalier-1",
+      "title": "Le  Cavalier",
+      "file": "data/lessons/le-cavalier-1.json",
+      "exercises": 3,
+      "number": 5,
+      "existing": true
+    },
+    {
+      "path": "le-pion",
+      "title": "Le Pion",
+      "file": "data/lessons/le-pion.json",
+      "exercises": 4,
+      "number": 6,
+      "existing": true
+    },
+    {
+      "path": "la-prise-en-passant",
+      "title": "La prise-en-passant",
+      "file": "data/lessons/la-prise-en-passant.json",
+      "exercises": 1,
+      "number": 7,
+      "existing": true
+    },
+    {
+      "path": "capturer-des-pieces",
+      "title": "Capturer des pièces",
+      "file": "data/lessons/capturer-des-pieces.json",
+      "exercises": 4,
+      "number": 8,
+      "existing": true
+    },
+    {
+      "path": "l-echec-au-roi",
+      "title": "L'échec au roi",
+      "file": "data/lessons/l-echec-au-roi.json",
+      "exercises": 2,
+      "number": 9,
+      "existing": true
+    },
+    {
+      "path": "reagir-a-l-echec",
+      "title": "Réagir à l'échec",
+      "file": "data/lessons/reagir-a-l-echec.json",
+      "exercises": 3,
+      "number": 10,
+      "existing": true
+    },
+    {
+      "path": "l-echecs-et-mat",
+      "title": "L'échec et mat",
+      "file": "data/lessons/l-echecs-et-mat.json",
+      "exercises": 3,
+      "number": 11,
+      "existing": true
+    },
+    {
+      "path": "le-roque",
+      "title": "Le roque",
+      "file": "data/lessons/le-roque.json",
+      "exercises": 3,
+      "number": 12,
+      "existing": true
+    },
+    {
+      "path": "prendre-des-pieces",
+      "title": "Prendre des pièces",
+      "file": "data/lessons/prendre-des-pieces.json",
+      "exercises": 10,
+      "number": 13
+    },
+    {
+      "path": "valeur-des-pieces",
+      "title": "Valeur des pièces",
+      "file": "data/lessons/valeur-des-pieces.json",
+      "exercises": 10,
+      "number": 14
+    },
+    {
+      "path": "retraite-des-pieces",
+      "title": "Battre en retraite",
+      "file": "data/lessons/retraite-des-pieces.json",
+      "exercises": 8,
+      "number": 15
+    },
+    {
+      "path": "pieces-gratuites",
+      "title": "Pièces gratuites",
+      "file": "data/lessons/pieces-gratuites.json",
+      "exercises": 8,
+      "number": 16
+    },
+    {
+      "path": "defendre-ses-pieces",
+      "title": "Défendre ses pièces",
+      "file": "data/lessons/defendre-ses-pieces.json",
+      "exercises": 7,
+      "number": 17
+    },
+    {
+      "path": "decisions-de-prise",
+      "title": "Choix des prises",
+      "file": "data/lessons/decisions-de-prise.json",
+      "exercises": 6,
+      "number": 18
+    },
+    {
+      "path": "calculer-les-prises",
+      "title": "Compter les prises",
+      "file": "data/lessons/calculer-les-prises.json",
+      "exercises": 8,
+      "number": 19
+    },
+    {
+      "path": "sauver-la-bonne-piece",
+      "title": "Sauver la bonne pièce",
+      "file": "data/lessons/sauver-la-bonne-piece.json",
+      "exercises": 5,
+      "number": 20
+    },
+    {
+      "path": "promotion-fr",
+      "title": "Promotion",
+      "file": "data/lessons/promotion-fr.json",
+      "exercises": 7,
+      "number": 21
+    },
+    {
+      "path": "comment-faire-la-prise-en-passant",
+      "title": "Prise en passant",
+      "file": "data/lessons/comment-faire-la-prise-en-passant.json",
+      "exercises": 4,
+      "number": 22
+    },
+    {
+      "path": "comment-roquer",
+      "title": "Le roque",
+      "file": "data/lessons/comment-roquer.json",
+      "exercises": 6,
+      "number": 23
+    },
+    {
+      "path": "l-echec",
+      "title": "L'échec",
+      "file": "data/lessons/l-echec.json",
+      "exercises": 10,
+      "number": 24
+    },
+    {
+      "path": "sortir-de-l-echec",
+      "title": "Parer un échec",
+      "file": "data/lessons/sortir-de-l-echec.json",
+      "exercises": 8,
+      "number": 25
+    },
+    {
+      "path": "l-echec-et-mat",
+      "title": "L'échec et mat",
+      "file": "data/lessons/l-echec-et-mat.json",
+      "exercises": 9,
+      "number": 26
+    },
+    {
+      "path": "nulles",
+      "title": "Les nulles",
+      "file": "data/lessons/nulles.json",
+      "exercises": 5,
+      "number": 27
+    },
+    {
+      "path": "comment-controler-le-centre",
+      "title": "Contrôler le centre",
+      "file": "data/lessons/comment-controler-le-centre.json",
+      "exercises": 4,
+      "number": 28
+    },
+    {
+      "path": "developper-ses-pieces",
+      "title": "Développez vos pièces",
+      "file": "data/lessons/developper-ses-pieces.json",
+      "exercises": 5,
+      "number": 29
+    },
+    {
+      "path": "roquer-pour-la-securite",
+      "title": "Roquer pour la sécurité",
+      "file": "data/lessons/roquer-pour-la-securite.json",
+      "exercises": 5,
+      "number": 30
+    },
+    {
+      "path": "comment-faire-une-fourchette",
+      "title": "Fourchettes",
+      "file": "data/lessons/comment-faire-une-fourchette.json",
+      "exercises": 8,
+      "number": 31
+    },
+    {
+      "path": "comment-clouer",
+      "title": "Clouages",
+      "file": "data/lessons/comment-clouer.json",
+      "exercises": 9,
+      "number": 32
+    },
+    {
+      "path": "comment-faire-une-enfilade",
+      "title": "Enfilades",
+      "file": "data/lessons/comment-faire-une-enfilade.json",
+      "exercises": 6,
+      "number": 33
+    },
+    {
+      "path": "pieces-piegees",
+      "title": "Pièces enfermées",
+      "file": "data/lessons/pieces-piegees.json",
+      "exercises": 5,
+      "number": 34
+    },
+    {
+      "path": "attaques-a-la-decouverte",
+      "title": "Découvertes",
+      "file": "data/lessons/attaques-a-la-decouverte.json",
+      "exercises": 4,
+      "number": 35
+    },
+    {
+      "path": "strategie-de-pions",
+      "title": "Stratégie de pions",
+      "file": "data/lessons/strategie-de-pions.json",
+      "exercises": 5,
+      "number": 36
+    },
+    {
+      "path": "fous",
+      "title": "Les fous",
+      "file": "data/lessons/fous.json",
+      "exercises": 6,
+      "number": 37
+    },
+    {
+      "path": "tours",
+      "title": "Les tours",
+      "file": "data/lessons/tours.json",
+      "exercises": 6,
+      "number": 38
+    },
+    {
+      "path": "cavaliers",
+      "title": "Cavaliers",
+      "file": "data/lessons/cavaliers.json",
+      "exercises": 5,
+      "number": 39
+    },
+    {
+      "path": "dames",
+      "title": "Les dames",
+      "file": "data/lessons/dames.json",
+      "exercises": 5,
+      "number": 40
+    },
+    {
+      "path": "les-pions-passes",
+      "title": "Pions passés",
+      "file": "data/lessons/les-pions-passes.json",
+      "exercises": 3,
+      "number": 41
+    },
+    {
+      "path": "defendre-promotion",
+      "title": "Empêcher la promotion",
+      "file": "data/lessons/defendre-promotion.json",
+      "exercises": 6,
+      "number": 42
+    },
+    {
+      "path": "mat-avec-la-dame",
+      "title": "Mat avec une dame",
+      "file": "data/lessons/mat-avec-la-dame.json",
+      "exercises": 4,
+      "number": 43
+    },
+    {
+      "path": "rupture-au-centre",
+      "title": "Rupture au centre",
+      "file": "data/lessons/rupture-au-centre.json",
+      "exercises": 5,
+      "number": 44
+    },
+    {
+      "path": "developper-avec-tempo",
+      "title": "Se développer avec tempo",
+      "file": "data/lessons/developper-avec-tempo.json",
+      "exercises": 4,
+      "number": 45
+    },
+    {
+      "path": "empecher-le-roque",
+      "title": "Empêcher le roque",
+      "file": "data/lessons/empecher-le-roque.json",
+      "exercises": 4,
+      "number": 46
+    },
+    {
+      "path": "eliminer-le-defenseur",
+      "title": "Éliminer le défenseur",
+      "file": "data/lessons/eliminer-le-defenseur.json",
+      "exercises": 6,
+      "number": 47
+    },
+    {
+      "path": "coups-intermediaires",
+      "title": "Coups intermédiaires",
+      "file": "data/lessons/coups-intermediaires.json",
+      "exercises": 5,
+      "number": 48
+    },
+    {
+      "path": "defense-fr",
+      "title": "Défense",
+      "file": "data/lessons/defense-fr.json",
+      "exercises": 6,
+      "number": 49
+    },
+    {
+      "path": "sacrifices-brillants",
+      "title": "Sacrifices brillants",
+      "file": "data/lessons/sacrifices-brillants.json",
+      "exercises": 5,
+      "number": 50
+    },
+    {
+      "path": "echanges-intelligents",
+      "title": "Échanges intelligents",
+      "file": "data/lessons/echanges-intelligents.json",
+      "exercises": 4,
+      "number": 51
+    },
+    {
+      "path": "tempo-aux-echecs",
+      "title": "Tempo",
+      "file": "data/lessons/tempo-aux-echecs.json",
+      "exercises": 6,
+      "number": 52,
+      "existing": true
+    },
+    {
+      "path": "batteries-aux-echecs",
+      "title": "Les batteries",
+      "file": "data/lessons/batteries-aux-echecs.json",
+      "exercises": 5,
+      "number": 53
+    }
+  ],
+  "unavailable": []
+}

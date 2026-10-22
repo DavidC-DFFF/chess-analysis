@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-avancees/developper-avec-tempo",
+  "capturedAt": "2026-10-22T13:42:36.515Z",
+  "title": "Se développer avec tempo",
+  "exercises": [
+    {
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c3d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;d5;persistent;true]Développez-vous et gagnez du temps (un « tempo ») en forçant votre adversaire à déplacer sa pièce de valeur.",
+        "[%hint Attaquez la dame pour gagner un tempo.][%wrong Ce n'est pas une façon de gagner un tempo.]Exactement, vous gagnez un tempo car la dame doit reculer.",
+        "Votre pièce s'est fait prendre.",
+        "Votre pièce s'est fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{[%c_arrow c3d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;d5;persistent;true]Développez-vous et gagnez du temps (un « tempo ») en forçant votre adversaire à déplacer sa pièce de valeur.} 1. Nc3 {[%hint Attaquez la dame pour gagner un tempo.][%wrong Ce n'est pas une façon de gagner un tempo.]Exactement, vous gagnez un tempo car la dame doit reculer.} (1. c4? Qxc4 {Votre pièce s'est fait prendre.}) (1. Bc4? Qxc4 {Votre pièce s'est fait prendre.}) *"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f8;color;%23ffaa00;opacity;0.8;square;f8;persistent;true]Développez votre fou et menacez le cavalier sans défense.",
+        "[%hint Utilisez votre fou pour attaquer le cavalier.][%wrong Ce n'est pas le bon développement.]Oui, maintenant vous gagnez un tempo sur le cavalier.",
+        "Maintenant, votre fou perd un tempo.",
+        "Votre cavalier se fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 1\"]\r\n\r\n{[%c_highlight f8;color;%23ffaa00;opacity;0.8;square;f8;persistent;true]Développez votre fou et menacez le cavalier sans défense.} 1... Bc5 {[%hint Utilisez votre fou pour attaquer le cavalier.][%wrong Ce n'est pas le bon développement.]Oui, maintenant vous gagnez un tempo sur le cavalier.} (1... Bb4+? 2. c3 {Maintenant, votre fou perd un tempo.}) (1... Nxd4? 2. Qxd4 {Votre cavalier se fait prendre.}) *"
+    },
+    {
+      "fen": "r1bk3r/ppp1bppp/5n2/4p1B1/4P3/2N5/PPP2PPP/R3KB1R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Mettez votre roi à l'abri tout en gagnant un tempo !",
+        "[%hint Pouvez-vous roquer ?][%wrong Ce n'est pas le bon coup.]Bien joué ! Vous gagnez un tempo sur le roi adverse.",
+        "Vous gagnez un tempo, mais votre roi n'est pas en sécurité."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bk3r/ppp1bppp/5n2/4p1B1/4P3/2N5/PPP2PPP/R3KB1R w KQ - 0 1\"]\r\n\r\n{Mettez votre roi à l'abri tout en gagnant un tempo !} 1. O-O-O+ {[%hint Pouvez-vous roquer ?][%wrong Ce n'est pas le bon coup.]Bien joué ! Vous gagnez un tempo sur le roi adverse.} (1. Rd1+? {Vous gagnez un tempo, mais votre roi n'est pas en sécurité.}) *"
+    },
+    {
+      "fen": "rn1qkbnr/ppp2ppp/8/4p3/4P3/5Q2/PPP2PPP/RNB1KB1R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Développez une pièce et menacez mat en même temps.",
+        "[%hint Pouvez-vous développer votre fou de cases blanches ?][%wrong Ce n'est pas le bon coup.]Exactement, votre fou et votre dame coopèrent maintenant.",
+        "Échec, mais cela ne menace pas mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkbnr/ppp2ppp/8/4p3/4P3/5Q2/PPP2PPP/RNB1KB1R w KQ - 0 1\"]\r\n\r\n{Développez une pièce et menacez mat en même temps.} 1. Bc4 {[%hint Pouvez-vous développer votre fou de cases blanches ?][%wrong Ce n'est pas le bon coup.]Exactement, votre fou et votre dame coopèrent maintenant.} (1. Bb5+? {Échec, mais cela ne menace pas mat.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c146-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Se développer avec tempo",
+    "path": "developper-avec-tempo",
+    "description": "Apprenez à développer vos pièces avec tempo.",
+    "glyphName": "piece-pawn-gambit",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{[%c_arrow c3d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;d5;persistent;true]Développez-vous et gagnez du temps (un « tempo ») en forçant votre adversaire à déplacer sa pièce de valeur.} 1. Nc3 {[%hint Attaquez la dame pour gagner un tempo.][%wrong Ce n'est pas une façon de gagner un tempo.]Exactement, vous gagnez un tempo car la dame doit reculer.} (1. c4? Qxc4 {Votre pièce s'est fait prendre.}) (1. Bc4? Qxc4 {Votre pièce s'est fait prendre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 1\"]\r\n\r\n{[%c_highlight f8;color;%23ffaa00;opacity;0.8;square;f8;persistent;true]Développez votre fou et menacez le cavalier sans défense.} 1... Bc5 {[%hint Utilisez votre fou pour attaquer le cavalier.][%wrong Ce n'est pas le bon développement.]Oui, maintenant vous gagnez un tempo sur le cavalier.} (1... Bb4+? 2. c3 {Maintenant, votre fou perd un tempo.}) (1... Nxd4? 2. Qxd4 {Votre cavalier se fait prendre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bk3r/ppp1bppp/5n2/4p1B1/4P3/2N5/PPP2PPP/R3KB1R w KQ - 0 1\"]\r\n\r\n{Mettez votre roi à l'abri tout en gagnant un tempo !} 1. O-O-O+ {[%hint Pouvez-vous roquer ?][%wrong Ce n'est pas le bon coup.]Bien joué ! Vous gagnez un tempo sur le roi adverse.} (1. Rd1+? {Vous gagnez un tempo, mais votre roi n'est pas en sécurité.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkbnr/ppp2ppp/8/4p3/4P3/5Q2/PPP2PPP/RNB1KB1R w KQ - 0 1\"]\r\n\r\n{Développez une pièce et menacez mat en même temps.} 1. Bc4 {[%hint Pouvez-vous développer votre fou de cases blanches ?][%wrong Ce n'est pas le bon coup.]Exactement, votre fou et votre dame coopèrent maintenant.} (1. Bb5+? {Échec, mais cela ne menace pas mat.}) *"
+    ],
+    "courseId": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à développer vos pièces avec tempo.",
+    "outroText": "Maintenant, vous savez développer vos pièces avec tempo.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "ouvertures-avancees",
+      "title": "Ouvertures avancées"
+    },
+    "parentId": "c3738df6-2766-11f1-afb3-031a45b1e7e1"
+  },
+  "curriculum": {
+    "number": 45,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Ouvertures avancées",
+      "path": "ouvertures-avancees",
+      "order": 1
+    }
+  }
+}

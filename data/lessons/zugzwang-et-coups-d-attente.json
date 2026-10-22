@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-avancees/zugzwang-et-coups-d-attente",
+  "capturedAt": "2026-10-22T12:23:50.673Z",
+  "title": "Le zugzwang et les coups d'attente",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/3K1p2/5P1k/8/8 w - - 6 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les deux rois s'écharpent autour des derniers pions en jeu. Parviendrez-vous à mettre votre adversaire en zugzwang ?",
+        "[%wrong Oups ! Les noirs vont jouer ...Rg2 et nous mettre en zugzwang. Essayez encore !][%hint Il serait de bon ton d'attaquer dès maintenant le pion noir pour pouvoir jouer Re4 au prochain coup !]",
+        "Bien essayé, mais ce sont les blancs qui se retrouvent en zugzwang ! Essayez encore.",
+        "Excellente décision ! Le roi blanc attaque le pion adverse et se laisse la case e4... C'est le moment de passer en mode zugzwang !",
+        "[%wrong Ce coup perd le pion f3 et la partie... Cherchez encore !][%hint Comment continuer à attaquer le pion noir tout en protégeant f3 ?]",
+        "Le roi noir est forcé d'abandonner la défense de son pion, et la finale est maintenant gagnante. Prenez le pion !",
+        "[%wrong Ce coup ne gagne pas le pion noir !][%hint Prenez le pion !] Bravo ! Vous avez su utiliser le zugzwang à votre avantage !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3K1p2/5P1k/8/8 w - - 6 4\"]\r\n\r\n{Trait aux blancs. Les deux rois s'écharpent autour des derniers pions en jeu. Parviendrez-vous à mettre votre adversaire en zugzwang ?}\r\n4.Ke5\r\n    {[%wrong Oups ! Les noirs vont jouer ...Rg2 et nous mettre en zugzwang. Essayez encore !][%hint Il serait de bon ton d'attaquer dès maintenant le pion noir pour pouvoir jouer Re4 au prochain coup !]}\r\n    (4.Ke4 $2 Kg3 {Bien essayé, mais ce sont les blancs qui se retrouvent en zugzwang ! Essayez encore.})\r\n4...Kg3\r\n    {Excellente décision ! Le roi blanc attaque le pion adverse et se laisse la case e4... C'est le moment de passer en mode zugzwang !}\r\n5.Ke4\r\n    {[%wrong Ce coup perd le pion f3 et la partie... Cherchez encore !][%hint Comment continuer à attaquer le pion noir tout en protégeant f3 ?]}\r\n5...Kg2\r\n    {Le roi noir est forcé d'abandonner la défense de son pion, et la finale est maintenant gagnante. Prenez le pion !}\r\n6.Kxf4\r\n    {[%wrong Ce coup ne gagne pas le pion noir !][%hint Prenez le pion !] Bravo ! Vous avez su utiliser le zugzwang à votre avantage !}\r\n*"
+    },
+    {
+      "fen": "8/8/p7/8/4Kp2/5Pk1/P7/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. La bataille autour des pions f fait rage. Utilisez votre pion a pour mettre votre adversaire en zugzwang !",
+        "[%wrong Ce coup perd le pion f3, cherchez encore !][%hint Après avoir poussé le pion a, assurez-vous d'avoir un second coup de pion pour mettre votre adversaire en zugzwang.]",
+        "Bien essayé, mais ce sont maintenant les blancs qui sont en zugzwang ! Essayez encore.",
+        "Parfois, il faut savoir se contenter de peu... Bien vu ! En n’avançant que d'une case, les blancs se gardent un tempo très important. Passons maintenant en mode zugzwang !",
+        "[%wrong Ce coup donne le pion f. Cherchez encore !][%hint Poussez le pion a !]",
+        "Bien vu ! Les noirs sont en zugzwang et doivent abandonner la protection du pion f. Capturons-le !",
+        "[%wrong Prenez le pion en prise !][%hint Prenez le pion !] La partie est gagnée, bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/p7/8/4Kp2/5Pk1/P7/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. La bataille autour des pions f fait rage. Utilisez votre pion a pour mettre votre adversaire en zugzwang !}\r\n1.a3\r\n    {[%wrong Ce coup perd le pion f3, cherchez encore !][%hint Après avoir poussé le pion a, assurez-vous d'avoir un second coup de pion pour mettre votre adversaire en zugzwang.]}\r\n    (1.a4 $2 a5 {Bien essayé, mais ce sont maintenant les blancs qui sont en zugzwang ! Essayez encore.})\r\n1...a5\r\n    {Parfois, il faut savoir se contenter de peu... Bien vu ! En n’avançant que d'une case, les blancs se gardent un tempo très important. Passons maintenant en mode zugzwang !}\r\n2.a4\r\n    {[%wrong Ce coup donne le pion f. Cherchez encore !][%hint Poussez le pion a !]}\r\n2...Kf2\r\n    {Bien vu ! Les noirs sont en zugzwang et doivent abandonner la protection du pion f. Capturons-le !}\r\n3.Kxf4\r\n    {[%wrong Prenez le pion en prise !][%hint Prenez le pion !] La partie est gagnée, bien joué !}\r\n*"
+    },
+    {
+      "fen": "8/8/6pp/8/7K/6PP/6k1/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Trouvez une combinaison en trois coups forçant le mat grâce au thème du zugzwang !",
+        "[%wrong Ce coup de roi ne force pas le zugzwang, cherchez encore !][%hint Forcez les blancs à pousser leur pion g...]",
+        "Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !",
+        "Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !",
+        "Excellente décision ! Les blancs sont dans l'obligation de jouer leur pion g. Trouvez maintenant le mat en deux !",
+        "[%wrong Ce coup ne force pas le mat au prochain. Cherchez encore !][%hint Comment forcer les blancs à continuer de pousser le pion g tout en préparant le mat au prochain coup ?]",
+        "Oups ! Cette finale regorge de pièges. Nous sommes maintenant perdants ! Cherchez encore.",
+        "Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !",
+        "Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !",
+        "Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !",
+        "Bien joué ! Les noirs sont à nouveau forcés de pousser leur pion g... Profitons-en pour mettre un terme aux débats !",
+        "[%wrong Ce n'est pas mat, cherchez encore !][%hint Trouvez le mat en un.] Vous maîtrisez de mieux en mieux le zugzwang. Continuez sur cette voie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6pp/8/7K/6PP/6k1/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez une combinaison en trois coups forçant le mat grâce au thème du zugzwang !}\r\n1...Kf3\r\n    {[%wrong Ce coup de roi ne force pas le zugzwang, cherchez encore !][%hint Forcez les blancs à pousser leur pion g...]}\r\n    (1...h5 $2 2.g4 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n    (1...g5+ $2 2.Kg4 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n2.g4\r\n    {Excellente décision ! Les blancs sont dans l'obligation de jouer leur pion g. Trouvez maintenant le mat en deux !}\r\n2...Kf4\r\n    {[%wrong Ce coup ne force pas le mat au prochain. Cherchez encore !][%hint Comment forcer les blancs à continuer de pousser le pion g tout en préparant le mat au prochain coup ?]}\r\n    (2...g5+ $2 3.Kh5 {Oups ! Cette finale regorge de pièges. Nous sommes maintenant perdants ! Cherchez encore.})\r\n    (2...h5 $2 3.gxh5 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n    (2...Kg2 $2 3.g5 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n    (2...Kf2 $2 3.g5 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n3.g5\r\n    {Bien joué ! Les noirs sont à nouveau forcés de pousser leur pion g... Profitons-en pour mettre un terme aux débats !}\r\n3...hxg5#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Trouvez le mat en un.] Vous maîtrisez de mieux en mieux le zugzwang. Continuez sur cette voie !}\r\n*"
+    },
+    {
+      "fen": "kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette célèbre étude du maître américain Paul Morphy, trouvez le superbe coup forçant le mat en deux grâce au zugzwang.",
+        "[%wrong Bien essayé, mais les noirs peuvent lutter grâce au coup ...a6. Cherchez encore !][%hint Comment empêcher le pion a7 d'avancer pour forcer le fou ou le pion b à bouger ?]",
+        "Superbe ! Si les noirs jouent leur fou, Txa7, et c'est mat. Les noirs prennent donc la tour, mais c'est désormais mat en un. A vous de jouer !",
+        "[%wrong Ce coup ne mate pas, et les blancs perdent la partie ! Cherchez encore.][%hint Trouvez le mat en un.] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1\"]\r\n\r\n{Dans cette célèbre étude du maître américain Paul Morphy, trouvez le superbe coup forçant le mat en deux grâce au zugzwang.}\r\n1.Ra6\r\n    {[%wrong Bien essayé, mais les noirs peuvent lutter grâce au coup ...a6. Cherchez encore !][%hint Comment empêcher le pion a7 d'avancer pour forcer le fou ou le pion b à bouger ?]}\r\n1...bxa6\r\n    {Superbe ! Si les noirs jouent leur fou, Txa7, et c'est mat. Les noirs prennent donc la tour, mais c'est désormais mat en un. A vous de jouer !}\r\n2.b7#\r\n    {[%wrong Ce coup ne mate pas, et les blancs perdent la partie ! Cherchez encore.][%hint Trouvez le mat en un.] Bien joué !}\r\n*"
+    },
+    {
+      "fen": "k7/p1K5/7p/P5p1/6P1/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un pion de moins, mais il y a du zugzwang dans l'air ! Trouvez le seul coup gagnant.",
+        "[%wrong Bien essayé, mais ce coup ne met pas les noirs en zugzwang. Cherchez encore !][%hint Quel coup force les noirs à jouer le pion h ?]",
+        "Le roi noir parvient à s'activer et va aller gagner le pion a et la partie... Cherchez encore !",
+        "Ce coup laisse au roi noir une case de fuite, ce qui va lui permettre d'échapper au zugzwang. Cherchez encore !",
+        "Ce coup laisse au roi noir une case de fuite, ce qui va lui permettre d'échapper au zugzwang. Cherchez encore !",
+        "Bien vu ! Les noirs sont en zugzwang, ce qui force ...h5. Finissez le travail !",
+        "[%wrong Attention ! Si nous ne prenons pas le pion h, nous sommes perdants !][%hint Prenez le pion noir...]",
+        "Une course de pions s'engage... Gagnons-la !",
+        "[%wrong Non, ce coup ne pousse pas le pion vers la victoire !][%hint Poussez votre pion !] Superbe ! Les blancs vont promouvoir leur pion en faisant mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/p1K5/7p/P5p1/6P1/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion de moins, mais il y a du zugzwang dans l'air ! Trouvez le seul coup gagnant.}\r\n1.a6\r\n    {[%wrong Bien essayé, mais ce coup ne met pas les noirs en zugzwang. Cherchez encore !][%hint Quel coup force les noirs à jouer le pion h ?]}\r\n    (1.Kd7 $2 Kb7 {Le roi noir parvient à s'activer et va aller gagner le pion a et la partie... Cherchez encore !})\r\n    (1.Kc8 $2 a6 {Ce coup laisse au roi noir une case de fuite, ce qui va lui permettre d'échapper au zugzwang. Cherchez encore !})\r\n    (1.Kc6 $2 Kb8 {Ce coup laisse au roi noir une case de fuite, ce qui va lui permettre d'échapper au zugzwang. Cherchez encore !})\r\n1...h5\r\n    {Bien vu ! Les noirs sont en zugzwang, ce qui force ...h5. Finissez le travail !}\r\n2.gxh5\r\n    {[%wrong Attention ! Si nous ne prenons pas le pion h, nous sommes perdants !][%hint Prenez le pion noir...]}\r\n2...g4\r\n    {Une course de pions s'engage... Gagnons-la !}\r\n3.h6\r\n    {[%wrong Non, ce coup ne pousse pas le pion vers la victoire !][%hint Poussez votre pion !] Superbe ! Les blancs vont promouvoir leur pion en faisant mat !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "273adfd6-9ced-11e8-96f3-d743b906bc9b",
+    "name": "Le zugzwang et les coups d'attente",
+    "path": "zugzwang-et-coups-d-attente",
+    "description": "\"Zugzwang !\" Un mot qui fait frémir les passionnés d'échecs du monde entier. Aux échecs, il est interdit de passer son tour, ce qui signifie qu’il est parfois obligatoire de jouer un coup désavantageux. C’est ce qu’on appelle le zugzwang. Cette technique, importante pour gagner en finale, est parfois applicable dès le milieu de jeu.",
+    "glyphName": "arrow-fork-triple",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-zugzwang-waiting-moves-j1l.mp4",
+    "fen": "8/8/8/5Kp1/6Pk/8/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3K1p2/5P1k/8/8 w - - 6 4\"]\r\n\r\n{Trait aux blancs. Les deux rois s'écharpent autour des derniers pions en jeu. Parviendrez-vous à mettre votre adversaire en zugzwang ?}\r\n4.Ke5\r\n    {[%wrong Oups ! Les noirs vont jouer ...Rg2 et nous mettre en zugzwang. Essayez encore !][%hint Il serait de bon ton d'attaquer dès maintenant le pion noir pour pouvoir jouer Re4 au prochain coup !]}\r\n    (4.Ke4 $2 Kg3 {Bien essayé, mais ce sont les blancs qui se retrouvent en zugzwang ! Essayez encore.})\r\n4...Kg3\r\n    {Excellente décision ! Le roi blanc attaque le pion adverse et se laisse la case e4... C'est le moment de passer en mode zugzwang !}\r\n5.Ke4\r\n    {[%wrong Ce coup perd le pion f3 et la partie... Cherchez encore !][%hint Comment continuer à attaquer le pion noir tout en protégeant f3 ?]}\r\n5...Kg2\r\n    {Le roi noir est forcé d'abandonner la défense de son pion, et la finale est maintenant gagnante. Prenez le pion !}\r\n6.Kxf4\r\n    {[%wrong Ce coup ne gagne pas le pion noir !][%hint Prenez le pion !] Bravo ! Vous avez su utiliser le zugzwang à votre avantage !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/p7/8/4Kp2/5Pk1/P7/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. La bataille autour des pions f fait rage. Utilisez votre pion a pour mettre votre adversaire en zugzwang !}\r\n1.a3\r\n    {[%wrong Ce coup perd le pion f3, cherchez encore !][%hint Après avoir poussé le pion a, assurez-vous d'avoir un second coup de pion pour mettre votre adversaire en zugzwang.]}\r\n    (1.a4 $2 a5 {Bien essayé, mais ce sont maintenant les blancs qui sont en zugzwang ! Essayez encore.})\r\n1...a5\r\n    {Parfois, il faut savoir se contenter de peu... Bien vu ! En n’avançant que d'une case, les blancs se gardent un tempo très important. Passons maintenant en mode zugzwang !}\r\n2.a4\r\n    {[%wrong Ce coup donne le pion f. Cherchez encore !][%hint Poussez le pion a !]}\r\n2...Kf2\r\n    {Bien vu ! Les noirs sont en zugzwang et doivent abandonner la protection du pion f. Capturons-le !}\r\n3.Kxf4\r\n    {[%wrong Prenez le pion en prise !][%hint Prenez le pion !] La partie est gagnée, bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6pp/8/7K/6PP/6k1/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez une combinaison en trois coups forçant le mat grâce au thème du zugzwang !}\r\n1...Kf3\r\n    {[%wrong Ce coup de roi ne force pas le zugzwang, cherchez encore !][%hint Forcez les blancs à pousser leur pion g...]}\r\n    (1...h5 $2 2.g4 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n    (1...g5+ $2 2.Kg4 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n2.g4\r\n    {Excellente décision ! Les blancs sont dans l'obligation de jouer leur pion g. Trouvez maintenant le mat en deux !}\r\n2...Kf4\r\n    {[%wrong Ce coup ne force pas le mat au prochain. Cherchez encore !][%hint Comment forcer les blancs à continuer de pousser le pion g tout en préparant le mat au prochain coup ?]}\r\n    (2...g5+ $2 3.Kh5 {Oups ! Cette finale regorge de pièges. Nous sommes maintenant perdants ! Cherchez encore.})\r\n    (2...h5 $2 3.gxh5 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n    (2...Kg2 $2 3.g5 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n    (2...Kf2 $2 3.g5 {Bien essayé, mais cette variante ne donne pas mieux que la nulle. Cherchez encore !})\r\n3.g5\r\n    {Bien joué ! Les noirs sont à nouveau forcés de pousser leur pion g... Profitons-en pour mettre un terme aux débats !}\r\n3...hxg5#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Trouvez le mat en un.] Vous maîtrisez de mieux en mieux le zugzwang. Continuez sur cette voie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"kbK5/pp6/1P6/8/8/8/8/R7 w - - 0 1\"]\r\n\r\n{Dans cette célèbre étude du maître américain Paul Morphy, trouvez le superbe coup forçant le mat en deux grâce au zugzwang.}\r\n1.Ra6\r\n    {[%wrong Bien essayé, mais les noirs peuvent lutter grâce au coup ...a6. Cherchez encore !][%hint Comment empêcher le pion a7 d'avancer pour forcer le fou ou le pion b à bouger ?]}\r\n1...bxa6\r\n    {Superbe ! Si les noirs jouent leur fou, Txa7, et c'est mat. Les noirs prennent donc la tour, mais c'est désormais mat en un. A vous de jouer !}\r\n2.b7#\r\n    {[%wrong Ce coup ne mate pas, et les blancs perdent la partie ! Cherchez encore.][%hint Trouvez le mat en un.] Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/p1K5/7p/P5p1/6P1/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion de moins, mais il y a du zugzwang dans l'air ! Trouvez le seul coup gagnant.}\r\n1.a6\r\n    {[%wrong Bien essayé, mais ce coup ne met pas les noirs en zugzwang. Cherchez encore !][%hint Quel coup force les noirs à jouer le pion h ?]}\r\n    (1.Kd7 $2 Kb7 {Le roi noir parvient à s'activer et va aller gagner le pion a et la partie... Cherchez encore !})\r\n    (1.Kc8 $2 a6 {Ce coup laisse au roi noir une case de fuite, ce qui va lui permettre d'échapper au zugzwang. Cherchez encore !})\r\n    (1.Kc6 $2 Kb8 {Ce coup laisse au roi noir une case de fuite, ce qui va lui permettre d'échapper au zugzwang. Cherchez encore !})\r\n1...h5\r\n    {Bien vu ! Les noirs sont en zugzwang, ce qui force ...h5. Finissez le travail !}\r\n2.gxh5\r\n    {[%wrong Attention ! Si nous ne prenons pas le pion h, nous sommes perdants !][%hint Prenez le pion noir...]}\r\n2...g4\r\n    {Une course de pions s'engage... Gagnons-la !}\r\n3.h6\r\n    {[%wrong Non, ce coup ne pousse pas le pion vers la victoire !][%hint Poussez votre pion !] Superbe ! Les blancs vont promouvoir leur pion en faisant mat !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Votre prochaine leçon explique le concept qui survient quand un joueur se trouve à court de coups utiles.",
+    "outroText": "Parfois, la patience est la meilleure des alliée !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "path": "finales-avancees",
+      "title": "Finales avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a03f97ac-a55b-11e8-8184-9d27df009acd.92637022.728x410o.3d0706f65a2f.png"
+    },
+    "parentId": "2e4693aa-83b7-11e8-be7b-4fa054999abb",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/zugzwang-waiting-moves5e7048c4d7fd7.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/zugzwang-waiting-moves-566ac949700c63.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/zugzwang-waiting-moves-15ea23eb9d8388.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/zugzwang-waiting-moves-261372bbe782c8.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 115,
+    "order": 4,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "name": "Finales avancées",
+      "path": "finales-avancees",
+      "order": 4
+    }
+  }
+}

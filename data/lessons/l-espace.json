@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/lecture-de-l-echiquier/l-espace",
+  "capturedAt": "2026-10-22T12:23:43.044Z",
+  "title": "L'espace",
+  "exercises": [
+    {
+      "fen": "6rr/1pqbkn1p/2p1p1pP/1PPp1pP1/3P1P2/Q2BPN2/5K1R/7R w - - 1 39",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Gagnez de l'espace comme un champion du monde ! Dans cette position, le grand Capablanca a joué un coup de pion paralysant le jeu noir. A vous de le trouver !",
+        "[%wrong Ce n'est pas le coup de Capablanca, cherchez encore !][%hint Comment attaquer la dame noire tout en gagnant de l'espace ?] Beau travail ! Les blancs dominent tout l'échiquier."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6rr/1pqbkn1p/2p1p1pP/1PPp1pP1/3P1P2/Q2BPN2/5K1R/7R w - - 1 39\"]\r\n\r\n{Gagnez de l'espace comme un champion du monde ! Dans cette position, le grand Capablanca a joué un coup de pion paralysant le jeu noir. A vous de le trouver !}\r\n39.b6\r\n    {[%wrong Ce n'est pas le coup de Capablanca, cherchez encore !][%hint Comment attaquer la dame noire tout en gagnant de l'espace ?] Beau travail ! Les blancs dominent tout l'échiquier.}\r\n*"
+    },
+    {
+      "fen": "1qrnrk2/Rp1b3p/1Pp1p1pP/N1Pp1pP1/R2P1P2/3BP3/6K1/Q7 w - - 31 55",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Capablanca a utilisé son avantage d'espace pour ramener toutes ses pièces sur l'aile dame. Les blancs veulent ouvrir la septième rangée, mais le pion b7 tient la position noire. Trouvez l'idée du grand-maître pour ouvrir la septième rangée en force !",
+        "[%wrong Ce coup n'ouvre pas la septième rangée. Cherchez encore !][%hint Le fou d7 non protégé est dans la ligne de mire de la tour a7. Comment attaquer le pion b7 pour forcer l'ouverture de la septième rangée ?]",
+        "Cette idée intéressante fonctionne également en jouant Fa6 au coup suivant. Cependant, Capablanca a joué Fa6 en premier. Jouons ce coup !",
+        "Bien essayé, mais les noirs ne sont pas obligés de prendre du pion b7. Cherchez encore !",
+        "Si les blancs échangent les cavaliers et attaquent la dame noire par Ta7, ils parviendront effectivement à ouvrir la septième rangée. Cependant, Capablanca a trouvé un moyen d'ouvrir la rangée sans sacrifier une tour. Comment faire ?I",
+        "Bien joué ! Le pion b7 est débordé. Maintenant que la septième rangée est ouverte, continuez en prenant du matériel.",
+        "[%wrong Ce coup ne prend pas une pièce noir sur la septième rangée. Cherchez encore !][%hint Trouvez la pièce noire non protégée sur la rangée ouverte.]",
+        "Exact ! Les blancs récupèrent le matériel. Les noirs tentent maintenant de nous empêcher de prendre en h7, mais ils ont raté une combinaison qui va permettre aux blancs de gagner du matériel. Trouvez-la !",
+        "[%wrong Bien essayé, mais il ne s'agit pas de la combinaison gagnante trouvée par Capablanca. Cherchez encore !][%hint Trouvez un sacrifice temporaire préparant une fourchette gagnante.]",
+        "ce coup suivi de Cb3 pour gagner le pion a des noirs est également bon, bien joué ! Mais il existe une suite encore plus forte. Trouvez-la !",
+        "Formidable ! Vous avez trouvé le coup gagnant de Capablanca. Prenez maintenant le pion c6 pour réaliser une superbe fourchette sur trois pièces noires.",
+        "[%wrong Ce coup ne réalise pas une fourchette. Cherchez encore !][%hint Comment prendre un pion tout en réalisant une fourchette sur les tours et la dame noire ?] Vous avez exploité votre avantage d'espace comme un champion du monde. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1qrnrk2/Rp1b3p/1Pp1p1pP/N1Pp1pP1/R2P1P2/3BP3/6K1/Q7 w - - 31 55\"]\r\n\r\n{Capablanca a utilisé son avantage d'espace pour ramener toutes ses pièces sur l'aile dame. Les blancs veulent ouvrir la septième rangée, mais le pion b7 tient la position noire. Trouvez l'idée du grand-maître pour ouvrir la septième rangée en force !}\r\n55.Ba6\r\n    {[%wrong Ce coup n'ouvre pas la septième rangée. Cherchez encore !][%hint Le fou d7 non protégé est dans la ligne de mire de la tour a7. Comment attaquer le pion b7 pour forcer l'ouverture de la septième rangée ?]}\r\n    (55.Nxb7 $5 Nxb7 {Cette idée intéressante fonctionne également en jouant Fa6 au coup suivant. Cependant, Capablanca a joué Fa6 en premier. Jouons ce coup !})\r\n    (55.Nxc6 $2 Nxc6 {Bien essayé, mais les noirs ne sont pas obligés de prendre du pion b7. Cherchez encore !})\r\n    (55.Rxb7 $5 Nxb7 {Si les blancs échangent les cavaliers et attaquent la dame noire par Ta7, ils parviendront effectivement à ouvrir la septième rangée. Cependant, Capablanca a trouvé un moyen d'ouvrir la rangée sans sacrifier une tour. Comment faire ?I})\r\n55...bxa6\r\n    {Bien joué ! Le pion b7 est débordé. Maintenant que la septième rangée est ouverte, continuez en prenant du matériel.}\r\n56.Rxd7\r\n    {[%wrong Ce coup ne prend pas une pièce noir sur la septième rangée. Cherchez encore !][%hint Trouvez la pièce noire non protégée sur la rangée ouverte.]}\r\n56...Re7\r\n    {Exact ! Les blancs récupèrent le matériel. Les noirs tentent maintenant de nous empêcher de prendre en h7, mais ils ont raté une combinaison qui va permettre aux blancs de gagner du matériel. Trouvez-la !}\r\n57.Rxd8+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas de la combinaison gagnante trouvée par Capablanca. Cherchez encore !][%hint Trouvez un sacrifice temporaire préparant une fourchette gagnante.]}\r\n    (57.Rxe7 $5 Kxe7 {ce coup suivi de Cb3 pour gagner le pion a des noirs est également bon, bien joué ! Mais il existe une suite encore plus forte. Trouvez-la !})\r\n57...Rxd8\r\n    {Formidable ! Vous avez trouvé le coup gagnant de Capablanca. Prenez maintenant le pion c6 pour réaliser une superbe fourchette sur trois pièces noires.}\r\n58.Nxc6\r\n    {[%wrong Ce coup ne réalise pas une fourchette. Cherchez encore !][%hint Comment prendre un pion tout en réalisant une fourchette sur les tours et la dame noire ?] Vous avez exploité votre avantage d'espace comme un champion du monde. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r1bq1rk1/5pbp/p1p1pnp1/1pp2P2/4P3/2NP1N2/PPP3PP/R1B1QRK1 w - - 0 11",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de jouer leur pion en e6, affaiblissant les cases noires. Comment gagner de l'espace tout en attaquant une pièce ?",
+        "[%wrong Ce coup n'attaque pas une pièce noire en gagnant de l'espace. Cherchez encore !][%hint Ne sous-estimez jamais la puissance d'un pion !]",
+        "Bien vu ! Les blancs attaquent le cavalier noir et gagnent de l'espace. Trouvez maintenant un autre puissant coup de pion prenant encore plus d'espace et paralysant complètement les pièces noires.",
+        "[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Prenez le contrôle des cases noires avec vos pions pour enfermer une pièce noire.] La puissance des pions en action ! Les blancs continuent à prendre de l'espace et enterrent le fou noir. Belle utilisation de l'avantage d'espace !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/5pbp/p1p1pnp1/1pp2P2/4P3/2NP1N2/PPP3PP/R1B1QRK1 w - - 0 11\"]\r\n\r\n{Les noirs viennent de jouer leur pion en e6, affaiblissant les cases noires. Comment gagner de l'espace tout en attaquant une pièce ?}\r\n11.e5\r\n    {[%wrong Ce coup n'attaque pas une pièce noire en gagnant de l'espace. Cherchez encore !][%hint Ne sous-estimez jamais la puissance d'un pion !]}\r\n11...Nd5\r\n    {Bien vu ! Les blancs attaquent le cavalier noir et gagnent de l'espace. Trouvez maintenant un autre puissant coup de pion prenant encore plus d'espace et paralysant complètement les pièces noires.}\r\n12.f6\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Prenez le contrôle des cases noires avec vos pions pour enfermer une pièce noire.] La puissance des pions en action ! Les blancs continuent à prendre de l'espace et enterrent le fou noir. Belle utilisation de l'avantage d'espace !}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pppppppp/2n2n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs n'ont pas pris d'espace avec leurs pions centraux. Profitions-en pour prendre le contrôle en attaquant une pièce développée !",
+        "[%wrong Ce coup ne gagne pas d'espace en attaquant une pièce développée. Cherchez encore !][%hint Comment gagner de l'espace tout en attaquant un cavalier noir ?]",
+        "Si votre adversaire ne veut pas du centre, n'hésitez pas à le prendre ! Les blancs peuvent ici jouer le fort coup c4, mais pour les besoins de cet exercice, tendons un petit piège amusant en jouant le coup a3 !",
+        "[%wrong Non, tendons un piège en jouant le coup a3.][%hint Jouez a3 !]",
+        "Les noirs n'ont rien vu venir... Pour éviter de perdre une pièce, il était impératif de jouer ...Ca6. Attaquons maintenant le cavalier en jouant c4 !",
+        "[%wrong Pour les besoins de l'exercice, jouons le coup c4.][%hint Jouez c4 !]",
+        "Une bonne idée, mais c'est un peu prématuré. Les noirs ne sont pas obligés de prendre en e4, et ne vont donc pas perdre de pièce. Cherchez encore !",
+        "Le cavalier noir bat en retraite vers la seule case sûre. Continuons à l'attaquer !",
+        "[%wrong Ce coup n'attaque pas le cavalier b6. Cherchez encore !][%hint Poussez un pion pour continuer à attaquer le cavalier b6.]",
+        "Il paraît étrange d'avoir renvoyé le cavalier vers d5, mais maintenant que nous avons gagné de l'espace grâce au coup c5, il n'a plus de cases de retraite. Profitez-en pour le gagner !",
+        "[%wrong Ce coup ne gagne pas le cavalier d5. Cherchez encore !][%hint Les cavaliers f6 et d5 s’entre-protègent. Attaquez le cavalier d5 pour éliminer le défenseur !]",
+        "Ce coup échange simplement les cavaliers, et les blancs se retrouvent avec un déficit matériel. Cherchez encore !",
+        "Bien essayé, mais si nous prenons le cavalier f6, le cavalier d5 pourra reprendre. Trouvons un moyen de gagner le cavalier d5 !",
+        "Beau travail ! Les noirs sont forcés de s'emparer du pion, et le cavalier d5 est maintenant en prise. Prenez-le !",
+        "[%wrong Ce coup ne prend pas le cavalier d5.][%hint Prenez la pièce en prise !] Beau travail ! Les blancs ont pris de l'espace en chassant le cavalier noir, avant de lui porter l'estocade finale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppppppp/2n2n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 3\"]\r\n\r\n{Trait aux blancs. Les noirs n'ont pas pris d'espace avec leurs pions centraux. Profitions-en pour prendre le contrôle en attaquant une pièce développée !}\r\n3.d5\r\n    {[%wrong Ce coup ne gagne pas d'espace en attaquant une pièce développée. Cherchez encore !][%hint Comment gagner de l'espace tout en attaquant un cavalier noir ?]}\r\n3...Nb4\r\n    {Si votre adversaire ne veut pas du centre, n'hésitez pas à le prendre ! Les blancs peuvent ici jouer le fort coup c4, mais pour les besoins de cet exercice, tendons un petit piège amusant en jouant le coup a3 !}\r\n4.a3\r\n    {[%wrong Non, tendons un piège en jouant le coup a3.][%hint Jouez a3 !]}\r\n4...Nbxd5\r\n    {Les noirs n'ont rien vu venir... Pour éviter de perdre une pièce, il était impératif de jouer ...Ca6. Attaquons maintenant le cavalier en jouant c4 !}\r\n5.c4\r\n    {[%wrong Pour les besoins de l'exercice, jouons le coup c4.][%hint Jouez c4 !]}\r\n    (5.e4 $2 Nb6 {Une bonne idée, mais c'est un peu prématuré. Les noirs ne sont pas obligés de prendre en e4, et ne vont donc pas perdre de pièce. Cherchez encore !})\r\n5...Nb6\r\n    {Le cavalier noir bat en retraite vers la seule case sûre. Continuons à l'attaquer !}\r\n6.c5\r\n    {[%wrong Ce coup n'attaque pas le cavalier b6. Cherchez encore !][%hint Poussez un pion pour continuer à attaquer le cavalier b6.]}\r\n6...Nbd5\r\n    {Il paraît étrange d'avoir renvoyé le cavalier vers d5, mais maintenant que nous avons gagné de l'espace grâce au coup c5, il n'a plus de cases de retraite. Profitez-en pour le gagner !}\r\n7.e4\r\n    {[%wrong Ce coup ne gagne pas le cavalier d5. Cherchez encore !][%hint Les cavaliers f6 et d5 s’entre-protègent. Attaquez le cavalier d5 pour éliminer le défenseur !]}\r\n    (7.Nc3 $2 Nxc3 {Ce coup échange simplement les cavaliers, et les blancs se retrouvent avec un déficit matériel. Cherchez encore !})\r\n    (7.Bg5 $2 h6 {Bien essayé, mais si nous prenons le cavalier f6, le cavalier d5 pourra reprendre. Trouvons un moyen de gagner le cavalier d5 !})\r\n7...Nxe4\r\n    {Beau travail ! Les noirs sont forcés de s'emparer du pion, et le cavalier d5 est maintenant en prise. Prenez-le !}\r\n8.Qxd5\r\n    {[%wrong Ce coup ne prend pas le cavalier d5.][%hint Prenez la pièce en prise !] Beau travail ! Les blancs ont pris de l'espace en chassant le cavalier noir, avant de lui porter l'estocade finale.}\r\n*"
+    },
+    {
+      "fen": "r2q1rk1/pppb1pbp/3p1np1/2nPp3/2P1P3/2N5/PP1NBPPP/1RBQ1RK1 b - - 4 10",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier c5 des noirs met la pression sur le centre blanc. Les blancs comptent donc l'attaquer en jouant b4 pour le faire fuir. Comment empêcher cette idée tout en gagnant de l'espace ?",
+        "[%wrong Ce coup ne sécurise pas le poste de votre cavalier c5. Cherchez encore !][%hint Si les blancs jouent b4, nous devons être prêts à capturer ce pion avec un des nôtres !]",
+        "Battre en retraite n'est pas la solution : les blancs peuvent tout de même prendre de l'espace par b4. Trouvez mieux !",
+        "Excellent ! Les noirs gagnent de l'espace et renforcent leur contrôle de la case b4. Les blancs jouent maintenant a3 dans l'espoir de soutenir la poussée b4. Trouvez un fort coup empêchant cette idée !",
+        "[%wrong Ce coup n'empêche pas les blancs de jouer b4. Cherchez encore !][%hint Continuez à prendre de l'espace à l'aile dame et n'oubliez pas la prise en passant !]",
+        "Joli coup ! Les blancs suivent malgré tout leur plan obstinément. Trouvez le meilleur coup !",
+        "[%wrong Nous ne voulons pas que les blancs conservent un pion en b4. Cherchez encore !][%hint La prise en passant à la rescousse !] Bel enchaînement ! Les noirs ont empêché les blancs de prendre de l'espace tout en sécurisant la belle position de leur cavalier c5. Vos talents positionnels se développent !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pppb1pbp/3p1np1/2nPp3/2P1P3/2N5/PP1NBPPP/1RBQ1RK1 b - - 4 10\"]\r\n\r\n{Le cavalier c5 des noirs met la pression sur le centre blanc. Les blancs comptent donc l'attaquer en jouant b4 pour le faire fuir. Comment empêcher cette idée tout en gagnant de l'espace ?}\r\n10...a5\r\n    {[%wrong Ce coup ne sécurise pas le poste de votre cavalier c5. Cherchez encore !][%hint Si les blancs jouent b4, nous devons être prêts à capturer ce pion avec un des nôtres !]}\r\n    (10...Na6 $2 11.b4 {Battre en retraite n'est pas la solution : les blancs peuvent tout de même prendre de l'espace par b4. Trouvez mieux !})\r\n11.a3\r\n    {Excellent ! Les noirs gagnent de l'espace et renforcent leur contrôle de la case b4. Les blancs jouent maintenant a3 dans l'espoir de soutenir la poussée b4. Trouvez un fort coup empêchant cette idée !}\r\n11...a4\r\n    {[%wrong Ce coup n'empêche pas les blancs de jouer b4. Cherchez encore !][%hint Continuez à prendre de l'espace à l'aile dame et n'oubliez pas la prise en passant !]}\r\n12.b4\r\n    {Joli coup ! Les blancs suivent malgré tout leur plan obstinément. Trouvez le meilleur coup !}\r\n12...axb3\r\n    {[%wrong Nous ne voulons pas que les blancs conservent un pion en b4. Cherchez encore !][%hint La prise en passant à la rescousse !] Bel enchaînement ! Les noirs ont empêché les blancs de prendre de l'espace tout en sécurisant la belle position de leur cavalier c5. Vos talents positionnels se développent !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "3aca6ab4-9ceb-11e8-ac26-4d18ab14eb32",
+    "name": "L'espace",
+    "path": "l-espace",
+    "description": "Plus vous contrôlez d’espace sur l’échiquier, plus vos pièces auront d’espace pour manœuvrer, et moins votre adversaire pourra s’exprimer. Le meilleur moyen de prendre de l’espace et de placer des pions protégés au centre.",
+    "glyphName": "arrows-triangle-expand-concentric",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-space-f2a.mp4",
+    "fen": "1qrnrk2/Rp1b3p/1Pp1p1pP/N1Pp1pP1/R2P1P2/3BP3/6K1/Q7 w - - 31 55",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6rr/1pqbkn1p/2p1p1pP/1PPp1pP1/3P1P2/Q2BPN2/5K1R/7R w - - 1 39\"]\r\n\r\n{Gagnez de l'espace comme un champion du monde ! Dans cette position, le grand Capablanca a joué un coup de pion paralysant le jeu noir. A vous de le trouver !}\r\n39.b6\r\n    {[%wrong Ce n'est pas le coup de Capablanca, cherchez encore !][%hint Comment attaquer la dame noire tout en gagnant de l'espace ?] Beau travail ! Les blancs dominent tout l'échiquier.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1qrnrk2/Rp1b3p/1Pp1p1pP/N1Pp1pP1/R2P1P2/3BP3/6K1/Q7 w - - 31 55\"]\r\n\r\n{Capablanca a utilisé son avantage d'espace pour ramener toutes ses pièces sur l'aile dame. Les blancs veulent ouvrir la septième rangée, mais le pion b7 tient la position noire. Trouvez l'idée du grand-maître pour ouvrir la septième rangée en force !}\r\n55.Ba6\r\n    {[%wrong Ce coup n'ouvre pas la septième rangée. Cherchez encore !][%hint Le fou d7 non protégé est dans la ligne de mire de la tour a7. Comment attaquer le pion b7 pour forcer l'ouverture de la septième rangée ?]}\r\n    (55.Nxb7 $5 Nxb7 {Cette idée intéressante fonctionne également en jouant Fa6 au coup suivant. Cependant, Capablanca a joué Fa6 en premier. Jouons ce coup !})\r\n    (55.Nxc6 $2 Nxc6 {Bien essayé, mais les noirs ne sont pas obligés de prendre du pion b7. Cherchez encore !})\r\n    (55.Rxb7 $5 Nxb7 {Si les blancs échangent les cavaliers et attaquent la dame noire par Ta7, ils parviendront effectivement à ouvrir la septième rangée. Cependant, Capablanca a trouvé un moyen d'ouvrir la rangée sans sacrifier une tour. Comment faire ?I})\r\n55...bxa6\r\n    {Bien joué ! Le pion b7 est débordé. Maintenant que la septième rangée est ouverte, continuez en prenant du matériel.}\r\n56.Rxd7\r\n    {[%wrong Ce coup ne prend pas une pièce noir sur la septième rangée. Cherchez encore !][%hint Trouvez la pièce noire non protégée sur la rangée ouverte.]}\r\n56...Re7\r\n    {Exact ! Les blancs récupèrent le matériel. Les noirs tentent maintenant de nous empêcher de prendre en h7, mais ils ont raté une combinaison qui va permettre aux blancs de gagner du matériel. Trouvez-la !}\r\n57.Rxd8+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas de la combinaison gagnante trouvée par Capablanca. Cherchez encore !][%hint Trouvez un sacrifice temporaire préparant une fourchette gagnante.]}\r\n    (57.Rxe7 $5 Kxe7 {ce coup suivi de Cb3 pour gagner le pion a des noirs est également bon, bien joué ! Mais il existe une suite encore plus forte. Trouvez-la !})\r\n57...Rxd8\r\n    {Formidable ! Vous avez trouvé le coup gagnant de Capablanca. Prenez maintenant le pion c6 pour réaliser une superbe fourchette sur trois pièces noires.}\r\n58.Nxc6\r\n    {[%wrong Ce coup ne réalise pas une fourchette. Cherchez encore !][%hint Comment prendre un pion tout en réalisant une fourchette sur les tours et la dame noire ?] Vous avez exploité votre avantage d'espace comme un champion du monde. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/5pbp/p1p1pnp1/1pp2P2/4P3/2NP1N2/PPP3PP/R1B1QRK1 w - - 0 11\"]\r\n\r\n{Les noirs viennent de jouer leur pion en e6, affaiblissant les cases noires. Comment gagner de l'espace tout en attaquant une pièce ?}\r\n11.e5\r\n    {[%wrong Ce coup n'attaque pas une pièce noire en gagnant de l'espace. Cherchez encore !][%hint Ne sous-estimez jamais la puissance d'un pion !]}\r\n11...Nd5\r\n    {Bien vu ! Les blancs attaquent le cavalier noir et gagnent de l'espace. Trouvez maintenant un autre puissant coup de pion prenant encore plus d'espace et paralysant complètement les pièces noires.}\r\n12.f6\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Prenez le contrôle des cases noires avec vos pions pour enfermer une pièce noire.] La puissance des pions en action ! Les blancs continuent à prendre de l'espace et enterrent le fou noir. Belle utilisation de l'avantage d'espace !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppppppp/2n2n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 3\"]\r\n\r\n{Trait aux blancs. Les noirs n'ont pas pris d'espace avec leurs pions centraux. Profitions-en pour prendre le contrôle en attaquant une pièce développée !}\r\n3.d5\r\n    {[%wrong Ce coup ne gagne pas d'espace en attaquant une pièce développée. Cherchez encore !][%hint Comment gagner de l'espace tout en attaquant un cavalier noir ?]}\r\n3...Nb4\r\n    {Si votre adversaire ne veut pas du centre, n'hésitez pas à le prendre ! Les blancs peuvent ici jouer le fort coup c4, mais pour les besoins de cet exercice, tendons un petit piège amusant en jouant le coup a3 !}\r\n4.a3\r\n    {[%wrong Non, tendons un piège en jouant le coup a3.][%hint Jouez a3 !]}\r\n4...Nbxd5\r\n    {Les noirs n'ont rien vu venir... Pour éviter de perdre une pièce, il était impératif de jouer ...Ca6. Attaquons maintenant le cavalier en jouant c4 !}\r\n5.c4\r\n    {[%wrong Pour les besoins de l'exercice, jouons le coup c4.][%hint Jouez c4 !]}\r\n    (5.e4 $2 Nb6 {Une bonne idée, mais c'est un peu prématuré. Les noirs ne sont pas obligés de prendre en e4, et ne vont donc pas perdre de pièce. Cherchez encore !})\r\n5...Nb6\r\n    {Le cavalier noir bat en retraite vers la seule case sûre. Continuons à l'attaquer !}\r\n6.c5\r\n    {[%wrong Ce coup n'attaque pas le cavalier b6. Cherchez encore !][%hint Poussez un pion pour continuer à attaquer le cavalier b6.]}\r\n6...Nbd5\r\n    {Il paraît étrange d'avoir renvoyé le cavalier vers d5, mais maintenant que nous avons gagné de l'espace grâce au coup c5, il n'a plus de cases de retraite. Profitez-en pour le gagner !}\r\n7.e4\r\n    {[%wrong Ce coup ne gagne pas le cavalier d5. Cherchez encore !][%hint Les cavaliers f6 et d5 s’entre-protègent. Attaquez le cavalier d5 pour éliminer le défenseur !]}\r\n    (7.Nc3 $2 Nxc3 {Ce coup échange simplement les cavaliers, et les blancs se retrouvent avec un déficit matériel. Cherchez encore !})\r\n    (7.Bg5 $2 h6 {Bien essayé, mais si nous prenons le cavalier f6, le cavalier d5 pourra reprendre. Trouvons un moyen de gagner le cavalier d5 !})\r\n7...Nxe4\r\n    {Beau travail ! Les noirs sont forcés de s'emparer du pion, et le cavalier d5 est maintenant en prise. Prenez-le !}\r\n8.Qxd5\r\n    {[%wrong Ce coup ne prend pas le cavalier d5.][%hint Prenez la pièce en prise !] Beau travail ! Les blancs ont pris de l'espace en chassant le cavalier noir, avant de lui porter l'estocade finale.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pppb1pbp/3p1np1/2nPp3/2P1P3/2N5/PP1NBPPP/1RBQ1RK1 b - - 4 10\"]\r\n\r\n{Le cavalier c5 des noirs met la pression sur le centre blanc. Les blancs comptent donc l'attaquer en jouant b4 pour le faire fuir. Comment empêcher cette idée tout en gagnant de l'espace ?}\r\n10...a5\r\n    {[%wrong Ce coup ne sécurise pas le poste de votre cavalier c5. Cherchez encore !][%hint Si les blancs jouent b4, nous devons être prêts à capturer ce pion avec un des nôtres !]}\r\n    (10...Na6 $2 11.b4 {Battre en retraite n'est pas la solution : les blancs peuvent tout de même prendre de l'espace par b4. Trouvez mieux !})\r\n11.a3\r\n    {Excellent ! Les noirs gagnent de l'espace et renforcent leur contrôle de la case b4. Les blancs jouent maintenant a3 dans l'espoir de soutenir la poussée b4. Trouvez un fort coup empêchant cette idée !}\r\n11...a4\r\n    {[%wrong Ce coup n'empêche pas les blancs de jouer b4. Cherchez encore !][%hint Continuez à prendre de l'espace à l'aile dame et n'oubliez pas la prise en passant !]}\r\n12.b4\r\n    {Joli coup ! Les blancs suivent malgré tout leur plan obstinément. Trouvez le meilleur coup !}\r\n12...axb3\r\n    {[%wrong Nous ne voulons pas que les blancs conservent un pion en b4. Cherchez encore !][%hint La prise en passant à la rescousse !] Bel enchaînement ! Les noirs ont empêché les blancs de prendre de l'espace tout en sécurisant la belle position de leur cavalier c5. Vos talents positionnels se développent !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Approfondissons la notion d'espace aux échecs.",
+    "outroText": "Voilà un nouveau concept stratégique que vous maitrisez.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "path": "lecture-de-l-echiquier",
+      "title": "Lecture de l'échiquier",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/346efa28-a55a-11e8-87ab-eb3d1fefd4e2.07e448f1.728x410o.a0bbcabbc031.png"
+    },
+    "parentId": "2448af9c-83ac-11e8-9306-cbb3f39ef776",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/space5e6204b751536.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/space-5668856bbc72e2.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/space-15ea2411703144.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/space-2614b4847b90e2.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 81,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "name": "Lecture de l'échiquier",
+      "path": "lecture-de-l-echiquier",
+      "order": 5
+    }
+  }
+}

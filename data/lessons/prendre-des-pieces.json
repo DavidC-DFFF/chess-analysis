@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/prendre-des-pieces",
+  "capturedAt": "2026-10-22T13:42:26.570Z",
+  "title": "Prendre des pièces",
+  "exercises": [
+    {
+      "fen": "8/8/8/2R2n2/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c5f5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;f5;persistent;true]Allez-y, prenez-la.",
+        "[%hint Capturez le cavalier.][%wrong Essayez encore de capturer le cavalier.] Belle prise !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2R2n2/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow c5f5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;f5;persistent;true]Allez-y, prenez-la.} 1. Rxf5 {[%hint Capturez le cavalier.][%wrong Essayez encore de capturer le cavalier.] Belle prise !} *"
+    },
+    {
+      "fen": "8/5n2/8/3R4/8/3b4/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d5d3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;d3;persistent;true]Capturez la pièce.",
+        "[%hint Capturez le fou.][%wrong Essayez encore de capturer une pièce en un coup.] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5n2/8/3R4/8/3b4/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d5d3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;d3;persistent;true]Capturez la pièce.} 1. Rxd3 {[%hint Capturez le fou.][%wrong Essayez encore de capturer une pièce en un coup.] Bien joué !} *"
+    },
+    {
+      "fen": "6r1/8/8/3B4/8/8/3n4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle pièce pouvez-vous capturer ?",
+        "[%wrong Essayez encore de capturer une pièce.][%hint Capturez une pièce en un coup.] Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6r1/8/8/3B4/8/8/3n4/8 w - - 0 1\"]\r\n\r\n{Quelle pièce pouvez-vous capturer ?} 1. Bxg8 {[%wrong Essayez encore de capturer une pièce.][%hint Capturez une pièce en un coup.] Beau travail !} *"
+    },
+    {
+      "fen": "8/8/6r1/8/4N3/8/3b4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les cavaliers se déplacent en forme de L.",
+        "[%wrong Essayez de capturer avec votre cavalier.][%hint Capture en un coup.]Oui, c'est bien ça !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6r1/8/4N3/8/3b4/8 w - - 0 1\"]\r\n\r\n{Les cavaliers se déplacent en forme de L.} 1. Nxd2 {[%wrong Essayez de capturer avec votre cavalier.][%hint Capture en un coup.]Oui, c'est bien ça !} *"
+    },
+    {
+      "fen": "8/8/8/3Q3n/8/4r3/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame est la pièce la plus puissante.",
+        "[%wrong Essayez encore de capturer en un coup.][%hint Capturez une pièce en un coup.] Génial !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3Q3n/8/4r3/8/8 w - - 0 1\"]\r\n\r\n{La dame est la pièce la plus puissante.} 1. Qxh5 {[%wrong Essayez encore de capturer en un coup.][%hint Capturez une pièce en un coup.] Génial !} *"
+    },
+    {
+      "fen": "5rk1/1p1q1ppp/p7/8/8/P7/1P1R1PPP/5BK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d7;color;%23eb6150;opacity;0.8;square;d7;persistent;true,d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Votre tour peut faire une prise.",
+        "[%hint Essayez de capturer la pièce la plus précieuse.][%wrong Essayez encore de capturer une pièce.] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p1q1ppp/p7/8/8/P7/1P1R1PPP/5BK1 w - - 0 1\"]\r\n\r\n{[%c_highlight d7;color;%23eb6150;opacity;0.8;square;d7;persistent;true,d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Votre tour peut faire une prise.} 1. Rxd7 {[%hint Essayez de capturer la pièce la plus précieuse.][%wrong Essayez encore de capturer une pièce.] Bien joué !} *"
+    },
+    {
+      "fen": "r5k1/2pb1ppp/1p6/p7/2PP4/1P4P1/P4PBP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g2;color;%23ffaa00;opacity;0.8;square;g2;persistent;true] Les fous peuvent capturer d'un bout à l'autre de l'échiquier.",
+        "[%hint Pensez-vous pouvoir capturer la tour en un coup ?][%wrong Essayez de capturer en un coup avec votre fou.] Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/2pb1ppp/1p6/p7/2PP4/1P4P1/P4PBP/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight g2;color;%23ffaa00;opacity;0.8;square;g2;persistent;true] Les fous peuvent capturer d'un bout à l'autre de l'échiquier.} 1. Bxa8 {[%hint Pensez-vous pouvoir capturer la tour en un coup ?][%wrong Essayez de capturer en un coup avec votre fou.] Bravo !} *"
+    },
+    {
+      "fen": "2kr4/ppp4p/5np1/4pp2/4N3/2P4P/PPR2PP1/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les cavaliers peuvent sauter par-dessus les autres pièces.",
+        "[%hint Votre cavalier peut-il capturer l'autre cavalier ?][%wrong Essayez encore de capturer avec votre cavalier en un coup.]Vous devenez de plus en plus fort !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr4/ppp4p/5np1/4pp2/4N3/2P4P/PPR2PP1/5RK1 w - - 0 1\"]\r\n\r\n{Les cavaliers peuvent sauter par-dessus les autres pièces.} 1. Nxf6 {[%hint Votre cavalier peut-il capturer l'autre cavalier ?][%wrong Essayez encore de capturer avec votre cavalier en un coup.]Vous devenez de plus en plus fort !} *"
+    },
+    {
+      "fen": "r2qkbnr/ppp2ppp/2np4/4p3/4P1b1/2N5/PPPP1PPP/R1BQKBNR w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ne joue pas avant de l'avoir trouvé.",
+        "[%hint Pouvez-vous capturer le fou en un coup ?][%wrong Trouvez la prise en un coup.] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/ppp2ppp/2np4/4p3/4P1b1/2N5/PPPP1PPP/R1BQKBNR w - - 0 1\"]\r\n\r\n{Ne joue pas avant de l'avoir trouvé.} 1. Qxg4 {[%hint Pouvez-vous capturer le fou en un coup ?][%wrong Trouvez la prise en un coup.] Bien joué !} *"
+    },
+    {
+      "fen": "5rk1/1p3p1p/p1b1n1pr/8/2N5/1P6/P4PPP/2BR1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Celui-ci est difficile ! Regardez toutes vos pièces. Laquelle peut capturer ?",
+        "[%hint Pouvez-vous capturer la tour ?][%wrong Trouvez la prise en un coup.] Félicitations !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p3p1p/p1b1n1pr/8/2N5/1P6/P4PPP/2BR1RK1 w - - 0 1\"]\r\n\r\n{Celui-ci est difficile ! Regardez toutes vos pièces. Laquelle peut capturer ?} 1. Bxh6 {[%hint Pouvez-vous capturer la tour ?][%wrong Trouvez la prise en un coup.] Félicitations !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c222-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Prendre des pièces",
+    "path": "prendre-des-pieces",
+    "description": "Apprenez à capturer des pièces.",
+    "glyphName": "hand-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2R2n2/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow c5f5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;f5;persistent;true]Allez-y, prenez-la.} 1. Rxf5 {[%hint Capturez le cavalier.][%wrong Essayez encore de capturer le cavalier.] Belle prise !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5n2/8/3R4/8/3b4/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d5d3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;d3;persistent;true]Capturez la pièce.} 1. Rxd3 {[%hint Capturez le fou.][%wrong Essayez encore de capturer une pièce en un coup.] Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6r1/8/8/3B4/8/8/3n4/8 w - - 0 1\"]\r\n\r\n{Quelle pièce pouvez-vous capturer ?} 1. Bxg8 {[%wrong Essayez encore de capturer une pièce.][%hint Capturez une pièce en un coup.] Beau travail !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6r1/8/4N3/8/3b4/8 w - - 0 1\"]\r\n\r\n{Les cavaliers se déplacent en forme de L.} 1. Nxd2 {[%wrong Essayez de capturer avec votre cavalier.][%hint Capture en un coup.]Oui, c'est bien ça !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3Q3n/8/4r3/8/8 w - - 0 1\"]\r\n\r\n{La dame est la pièce la plus puissante.} 1. Qxh5 {[%wrong Essayez encore de capturer en un coup.][%hint Capturez une pièce en un coup.] Génial !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p1q1ppp/p7/8/8/P7/1P1R1PPP/5BK1 w - - 0 1\"]\r\n\r\n{[%c_highlight d7;color;%23eb6150;opacity;0.8;square;d7;persistent;true,d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Votre tour peut faire une prise.} 1. Rxd7 {[%hint Essayez de capturer la pièce la plus précieuse.][%wrong Essayez encore de capturer une pièce.] Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/2pb1ppp/1p6/p7/2PP4/1P4P1/P4PBP/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight g2;color;%23ffaa00;opacity;0.8;square;g2;persistent;true] Les fous peuvent capturer d'un bout à l'autre de l'échiquier.} 1. Bxa8 {[%hint Pensez-vous pouvoir capturer la tour en un coup ?][%wrong Essayez de capturer en un coup avec votre fou.] Bravo !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr4/ppp4p/5np1/4pp2/4N3/2P4P/PPR2PP1/5RK1 w - - 0 1\"]\r\n\r\n{Les cavaliers peuvent sauter par-dessus les autres pièces.} 1. Nxf6 {[%hint Votre cavalier peut-il capturer l'autre cavalier ?][%wrong Essayez encore de capturer avec votre cavalier en un coup.]Vous devenez de plus en plus fort !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/ppp2ppp/2np4/4p3/4P1b1/2N5/PPPP1PPP/R1BQKBNR w - - 0 1\"]\r\n\r\n{Ne joue pas avant de l'avoir trouvé.} 1. Qxg4 {[%hint Pouvez-vous capturer le fou en un coup ?][%wrong Trouvez la prise en un coup.] Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p3p1p/p1b1n1pr/8/2N5/1P6/P4PPP/2BR1RK1 w - - 0 1\"]\r\n\r\n{Celui-ci est difficile ! Regardez toutes vos pièces. Laquelle peut capturer ?} 1. Bxh6 {[%hint Pouvez-vous capturer la tour ?][%wrong Trouvez la prise en un coup.] Félicitations !} *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à capturer des pièces.",
+    "outroText": "Apprenez à capturer des pièces.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "0942ab3e-0c26-11f1-9646-e3f57e1cafe7"
+  },
+  "curriculum": {
+    "number": 13,
+    "order": 1,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

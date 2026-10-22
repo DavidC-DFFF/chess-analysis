@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/dames",
+  "capturedAt": "2026-10-22T13:42:35.405Z",
+  "title": "Les dames",
+  "exercises": [
+    {
+      "fen": "6k1/1pp1rp2/2n3p1/2p2p2/8/1P2P2P/P4PP1/3Q2K1 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les dames sont les plus actives au centre. Trouvez une bonne case pour la dame blanche.",
+        "[%hint Trouvez une case sûre au centre pour votre dame.] [%wrong Il existe un meilleur coup. Essayez de trouver une case centrale sûre pour votre dame.]  Bon choix ! La dame blanche domine l'échiquier."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1pp1rp2/2n3p1/2p2p2/8/1P2P2P/P4PP1/3Q2K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289138415691839\"]\r\n\r\n{Les dames sont les plus actives au centre. Trouvez une bonne case pour la dame blanche.} 1. Qd5 {[%hint Trouvez une case sûre au centre pour votre dame.] [%wrong Il existe un meilleur coup. Essayez de trouver une case centrale sûre pour votre dame.]  Bon choix ! La dame blanche domine l'échiquier.} *"
+    },
+    {
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true][%c_arrow d8d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d8;to;d5;persistent;true] Si une dame se développe trop tôt, l'adversaire peut gagner du temps en l'attaquant avec des pièces de moindre valeur. Comment les blancs peuvent-ils développer une pièce tout en attaquant la dame noire ?",
+        "[%hint Développez une pièce de la dernière rangée pour attaquer la dame noire.] [%wrong Il existe un meilleur coup. Essayez de trouver une bonne manière de développer une pièce de la dernière rangée pour attaquer la dame noire.]  Bien joué ! Les noirs doivent perdre du temps à mettre leur dame en sécurité."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289140905801795\"]\r\n\r\n{[%c_highlight b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true][%c_arrow d8d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d8;to;d5;persistent;true] Si une dame se développe trop tôt, l'adversaire peut gagner du temps en l'attaquant avec des pièces de moindre valeur. Comment les blancs peuvent-ils développer une pièce tout en attaquant la dame noire ?} 3. Nc3 {[%hint Développez une pièce de la dernière rangée pour attaquer la dame noire.] [%wrong Il existe un meilleur coup. Essayez de trouver une bonne manière de développer une pièce de la dernière rangée pour attaquer la dame noire.]  Bien joué ! Les noirs doivent perdre du temps à mettre leur dame en sécurité.} *"
+    },
+    {
+      "fen": "5rk1/4qppp/8/8/8/6Q1/7P/6RK w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow g1g3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g1;to;g3;persistent;true,g3g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;g7;persistent;true]Une dame soutenue par une autre pièce peut souvent mater.",
+        "[%hint Cherchez un échec. Est-ce mat ?] [%wrong Il y a un mat, mais ce n'est pas celui-ci. Cherchez un échec et voyez s'il s'agit d'un mat.]  Bon choix !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/4qppp/8/8/8/6Q1/7P/6RK w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289142902548551\"]\r\n\r\n {[%c_arrow g1g3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g1;to;g3;persistent;true,g3g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;g7;persistent;true]Une dame soutenue par une autre pièce peut souvent mater.} 1. Qxg7# {[%hint Cherchez un échec. Est-ce mat ?] [%wrong Il y a un mat, mais ce n'est pas celui-ci. Cherchez un échec et voyez s'il s'agit d'un mat.]  Bon choix !} *"
+    },
+    {
+      "fen": "rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Les dames sont excellentes pour créer des fourchettes. Comment pouvez-vous attaquer en même temps le roi noir et un pion non défendu ?",
+        "[%hint Trouvez un échec qui attaque aussi un pion non défendu.] [%wrong Il existe un meilleur coup. Réessayez et cherchez un fort échec.]  Joli coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289143242045513\"]\r\n\r\n {[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Les dames sont excellentes pour créer des fourchettes. Comment pouvez-vous attaquer en même temps le roi noir et un pion non défendu ?} 4. Qh5+ {[%hint Trouvez un échec qui attaque aussi un pion non défendu.] [%wrong Il existe un meilleur coup. Réessayez et cherchez un fort échec.]  Joli coup !} *"
+    },
+    {
+      "fen": "rnbqkbnr/pppp3p/6p1/4p2Q/4P3/8/PPPP1PPP/RNB1KB1R w KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Continuons la partie. Que pouvez-vous prendre pour créer une autre fourchette ?",
+        "[%hint Prenez un pion non défendu.] [%wrong Il existe un meilleur coup. Réessayez et cherchez une prise sûre.]",
+        "C'était aussi une fourchette ! Que pouvez-vous prendre ensuite ?",
+        "[%hint Prenez une pièce non défendue.] [%wrong Il existe un meilleur coup. Essayez de trouver une pièce noire que vous pouvez prendre gratuitement.]  C'est une tour gratuite. Excellent travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp3p/6p1/4p2Q/4P3/8/PPPP1PPP/RNB1KB1R w KQkq - 0 5\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2289143242045513\"]\r\n\r\n{Continuons la partie. Que pouvez-vous prendre pour créer une autre fourchette ?} 5. Qxe5+ {[%hint Prenez un pion non défendu.] [%wrong Il existe un meilleur coup. Réessayez et cherchez une prise sûre.]} Kf7 {C'était aussi une fourchette ! Que pouvez-vous prendre ensuite ?} 6. Qxh8 {[%hint Prenez une pièce non défendue.] [%wrong Il existe un meilleur coup. Essayez de trouver une pièce noire que vous pouvez prendre gratuitement.]  C'est une tour gratuite. Excellent travail !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c114-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Les dames",
+    "path": "dames",
+    "description": "Apprenez à utiliser votre dame au mieux.",
+    "glyphName": "piece-fill-queen",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1pp1rp2/2n3p1/2p2p2/8/1P2P2P/P4PP1/3Q2K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289138415691839\"]\r\n\r\n{Les dames sont les plus actives au centre. Trouvez une bonne case pour la dame blanche.} 1. Qd5 {[%hint Trouvez une case sûre au centre pour votre dame.] [%wrong Il existe un meilleur coup. Essayez de trouver une case centrale sûre pour votre dame.]  Bon choix ! La dame blanche domine l'échiquier.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289140905801795\"]\r\n\r\n{[%c_highlight b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true][%c_arrow d8d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d8;to;d5;persistent;true] Si une dame se développe trop tôt, l'adversaire peut gagner du temps en l'attaquant avec des pièces de moindre valeur. Comment les blancs peuvent-ils développer une pièce tout en attaquant la dame noire ?} 3. Nc3 {[%hint Développez une pièce de la dernière rangée pour attaquer la dame noire.] [%wrong Il existe un meilleur coup. Essayez de trouver une bonne manière de développer une pièce de la dernière rangée pour attaquer la dame noire.]  Bien joué ! Les noirs doivent perdre du temps à mettre leur dame en sécurité.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/4qppp/8/8/8/6Q1/7P/6RK w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289142902548551\"]\r\n\r\n {[%c_arrow g1g3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g1;to;g3;persistent;true,g3g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;g7;persistent;true]Une dame soutenue par une autre pièce peut souvent mater.} 1. Qxg7# {[%hint Cherchez un échec. Est-ce mat ?] [%wrong Il y a un mat, mais ce n'est pas celui-ci. Cherchez un échec et voyez s'il s'agit d'un mat.]  Bon choix !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp2pp/8/4p3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289143242045513\"]\r\n\r\n {[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Les dames sont excellentes pour créer des fourchettes. Comment pouvez-vous attaquer en même temps le roi noir et un pion non défendu ?} 4. Qh5+ {[%hint Trouvez un échec qui attaque aussi un pion non défendu.] [%wrong Il existe un meilleur coup. Réessayez et cherchez un fort échec.]  Joli coup !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp3p/6p1/4p2Q/4P3/8/PPPP1PPP/RNB1KB1R w KQkq - 0 5\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2289143242045513\"]\r\n\r\n{Continuons la partie. Que pouvez-vous prendre pour créer une autre fourchette ?} 5. Qxe5+ {[%hint Prenez un pion non défendu.] [%wrong Il existe un meilleur coup. Réessayez et cherchez une prise sûre.]} Kf7 {C'était aussi une fourchette ! Que pouvez-vous prendre ensuite ?} 6. Qxh8 {[%hint Prenez une pièce non défendue.] [%wrong Il existe un meilleur coup. Essayez de trouver une pièce noire que vous pouvez prendre gratuitement.]  C'est une tour gratuite. Excellent travail !} *"
+    ],
+    "courseId": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La dame est la pièce la plus puissante aux échecs. Apprenez à l'utiliser au mieux.",
+    "outroText": "Félicitations, vous savez désormais encore mieux utiliser votre meilleure pièce.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-echecs",
+      "title": "Stratégie"
+    },
+    "parentId": "ac7c1972-230d-11f1-82a8-69e2398550d1"
+  },
+  "curriculum": {
+    "number": 40,
+    "order": 5,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Stratégie",
+      "path": "strategie-echecs",
+      "order": 3
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer/le-pat",
+  "capturedAt": "2026-10-22T12:23:28.775Z",
+  "title": "Le pat",
+  "exercises": [
+    {
+      "fen": "1k6/1pp5/8/8/8/6q1/5r2/R6K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est enfermé, et les noirs semblent devoir mater au prochain coup. Trouvez une ressource de pat qui force la nulle !",
+        "[%wrong Ce coup ne force pas le pat, vous allez être maté au prochain coup. Essayez encore !][%hint Pour ne plus avoir aucun coup, il faudrait se débarrasser de la tour...]",
+        "Bien joué ! Après avoir sacrifié leur dernière pièce, les blancs n'ont plus aucun coup légal. C'est pat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/1pp5/8/8/8/6q1/5r2/R6K w - - 0 1\"]\r\n\r\n{Le roi blanc est enfermé, et les noirs semblent devoir mater au prochain coup. Trouvez une ressource de pat qui force la nulle !}\r\n1.Ra8+\r\n    {[%wrong Ce coup ne force pas le pat, vous allez être maté au prochain coup. Essayez encore !][%hint Pour ne plus avoir aucun coup, il faudrait se débarrasser de la tour...]}\r\n1...Kxa8\r\n    {Bien joué ! Après avoir sacrifié leur dernière pièce, les blancs n'ont plus aucun coup légal. C'est pat !}\r\n*"
+    },
+    {
+      "fen": "8/8/6pk/8/6P1/8/2q5/K7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs sont en mauvaise posture. Parviendrez-vous à trouver la ressource de pat ?",
+        "Bien joué ! Le pion fait échec. Comme le roi blanc n'a pas de coup légal, quel que soit la réponse des noirs, ce sera pat au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6pk/8/6P1/8/2q5/K7 w - - 0 1\"]\r\n\r\n{Les blancs sont en mauvaise posture. Parviendrez-vous à trouver la ressource de pat ?}\r\n1.g5+\r\n    {Bien joué ! Le pion fait échec. Comme le roi blanc n'a pas de coup légal, quel que soit la réponse des noirs, ce sera pat au prochain coup.}\r\n*"
+    },
+    {
+      "fen": "k7/2Q5/8/8/8/6p1/6PK/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir est acculé dans le coin de l'échiquier, mais le pion des noirs met le roi blanc en échec. Trouvez le seul coup qui évite le pat.",
+        "[%wrong En jouant ce coup, vous ne laissez les noirs avec aucun coup à jouer, et la partie se termine par un pat !][%hint Il faudrait prendre ce pion tout en libérant de l'espace pour le roi noir...] Bravo ! La dame blanche prend le pion tout en laissant des cases au roi adverse pour le prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/2Q5/8/8/8/6p1/6PK/8 w - - 0 1\"]\r\n\r\n{Le roi noir est acculé dans le coin de l'échiquier, mais le pion des noirs met le roi blanc en échec. Trouvez le seul coup qui évite le pat.}\r\n1.Qxg3\r\n    {[%wrong En jouant ce coup, vous ne laissez les noirs avec aucun coup à jouer, et la partie se termine par un pat !][%hint Il faudrait prendre ce pion tout en libérant de l'espace pour le roi noir...] Bravo ! La dame blanche prend le pion tout en laissant des cases au roi adverse pour le prochain coup.}\r\n*"
+    },
+    {
+      "fen": "5Q2/2p5/1p6/pP1p2pp/P6k/8/4q3/7K w - - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont quatre pions de moins, et leur position semble compromise. Trouvez la ressource de pat !",
+        "[%wrong Ce coup ne force pas le pat. Essayez encore.][%hint Peut-être faut-il sacrifier la dame ?] Superbe ! Les blancs sacrifient leur dame pour sauver la partie. Si les noirs prennent, c'est pat. S'ils ne prennent pas, les blancs vont s'emparer de la dame noire et obtenir une position gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5Q2/2p5/1p6/pP1p2pp/P6k/8/4q3/7K w - - 1 1\"]\r\n\r\n{Les blancs ont quatre pions de moins, et leur position semble compromise. Trouvez la ressource de pat !}\r\n1.Qf2+\r\n    {[%wrong Ce coup ne force pas le pat. Essayez encore.][%hint Peut-être faut-il sacrifier la dame ?] Superbe ! Les blancs sacrifient leur dame pour sauver la partie. Si les noirs prennent, c'est pat. S'ils ne prennent pas, les blancs vont s'emparer de la dame noire et obtenir une position gagnante.}\r\n*"
+    },
+    {
+      "fen": "6k1/7p/5q1P/8/8/8/P4Q2/KB5R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont tendu un piège en proposant leur dame. Mais si les blancs la prennent, ce sera pat ! Que faire ?",
+        "[%hint Il faudrait sans doute parer l'échec...] Bien joué ! Les blancs refusent le sacrifice et parent l'échec.",
+        "Ce coup évite le pat, mais maintenant, ce sont les blancs qui se font mater ! Essayez encore !",
+        "En acceptant le sacrifice, vous avez permis aux noirs de s'en tirer par le pat. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/7p/5q1P/8/8/8/P4Q2/KB5R w - - 0 1\"]\r\n\r\n{Les noirs ont tendu un piège en proposant leur dame. Mais si les blancs la prennent, ce sera pat ! Que faire ?}\r\n1.Qb2\r\n    {[%hint Il faudrait sans doute parer l'échec...] Bien joué ! Les blancs refusent le sacrifice et parent l'échec.}\r\n    (1.Qd4 $2 Qxd4# {Ce coup évite le pat, mais maintenant, ce sont les blancs qui se font mater ! Essayez encore !})\r\n    (1.Qxf6 $2 {En acceptant le sacrifice, vous avez permis aux noirs de s'en tirer par le pat. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "c3003e02-9ce3-11e8-99ce-91490b42f557",
+    "name": "Le pat",
+    "path": "le-pat",
+    "description": "Lorsque le roi d’un joueur n’est pas en échec, mais qu’il ne peut jouer aucun coup légal, on dit qu’il est « pat ». La partie est alors déclarée nulle, même si l’un des deux joueurs a plus de pièces que son adversaire. Le pat survient souvent lorsque l’un des deux joueurs n’a plus que son roi, mais que celui-ci ne peut se déplacer sur aucune case, car il y serait mis en échec.",
+    "glyphName": "piece-simple-king-off",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-NOU-stalemate-h3w.mp4",
+    "fen": "6K1/8/5q1k/8/8/8/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/1pp5/8/8/8/6q1/5r2/R6K w - - 0 1\"]\r\n\r\n{Le roi blanc est enfermé, et les noirs semblent devoir mater au prochain coup. Trouvez une ressource de pat qui force la nulle !}\r\n1.Ra8+\r\n    {[%wrong Ce coup ne force pas le pat, vous allez être maté au prochain coup. Essayez encore !][%hint Pour ne plus avoir aucun coup, il faudrait se débarrasser de la tour...]}\r\n1...Kxa8\r\n    {Bien joué ! Après avoir sacrifié leur dernière pièce, les blancs n'ont plus aucun coup légal. C'est pat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6pk/8/6P1/8/2q5/K7 w - - 0 1\"]\r\n\r\n{Les blancs sont en mauvaise posture. Parviendrez-vous à trouver la ressource de pat ?}\r\n1.g5+\r\n    {Bien joué ! Le pion fait échec. Comme le roi blanc n'a pas de coup légal, quel que soit la réponse des noirs, ce sera pat au prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/2Q5/8/8/8/6p1/6PK/8 w - - 0 1\"]\r\n\r\n{Le roi noir est acculé dans le coin de l'échiquier, mais le pion des noirs met le roi blanc en échec. Trouvez le seul coup qui évite le pat.}\r\n1.Qxg3\r\n    {[%wrong En jouant ce coup, vous ne laissez les noirs avec aucun coup à jouer, et la partie se termine par un pat !][%hint Il faudrait prendre ce pion tout en libérant de l'espace pour le roi noir...] Bravo ! La dame blanche prend le pion tout en laissant des cases au roi adverse pour le prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5Q2/2p5/1p6/pP1p2pp/P6k/8/4q3/7K w - - 1 1\"]\r\n\r\n{Les blancs ont quatre pions de moins, et leur position semble compromise. Trouvez la ressource de pat !}\r\n1.Qf2+\r\n    {[%wrong Ce coup ne force pas le pat. Essayez encore.][%hint Peut-être faut-il sacrifier la dame ?] Superbe ! Les blancs sacrifient leur dame pour sauver la partie. Si les noirs prennent, c'est pat. S'ils ne prennent pas, les blancs vont s'emparer de la dame noire et obtenir une position gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/7p/5q1P/8/8/8/P4Q2/KB5R w - - 0 1\"]\r\n\r\n{Les noirs ont tendu un piège en proposant leur dame. Mais si les blancs la prennent, ce sera pat ! Que faire ?}\r\n1.Qb2\r\n    {[%hint Il faudrait sans doute parer l'échec...] Bien joué ! Les blancs refusent le sacrifice et parent l'échec.}\r\n    (1.Qd4 $2 Qxd4# {Ce coup évite le pat, mais maintenant, ce sont les blancs qui se font mater ! Essayez encore !})\r\n    (1.Qxf6 $2 {En acceptant le sacrifice, vous avez permis aux noirs de s'en tirer par le pat. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "cae69640-a556-11e8-9fa2-e50425638fa0",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Que se passe-t-il s'il n'y a plus aucun coup légal sans être en échec ?",
+    "outroText": "Voilà, le pat n'a désormais plus de secret pour vous !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "path": "jouer",
+      "title": "Jouez !",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/cae69640-a556-11e8-9fa2-e50425638fa0.6f70b58e.728x410o.3924271f36b9.png"
+    },
+    "parentId": "75969210-8393-11e8-a57d-9bc075635425",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/stalemate5e5664a31de29.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/stalemate-464b0a9461c887.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/stalemate-560afbaeacf69a.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/stalemate-65ea246cc71278.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/stallo63fd1b8e23396.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 18,
+    "order": 6,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "name": "Jouez !",
+      "path": "jouer",
+      "order": 1
+    }
+  }
+}

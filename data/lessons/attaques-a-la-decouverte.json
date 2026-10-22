@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/attaques-a-la-decouverte",
+  "capturedAt": "2026-10-22T13:42:32.567Z",
+  "title": "Découvertes",
+  "exercises": [
+    {
+      "fen": "8/6q1/8/8/3k4/8/3B4/3R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight h6;color;%23ffaa00;opacity;0.8;square;h6;persistent;true][%c_arrow d1d4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d1;to;d4;persistent;true] Les découvertes peuvent créer deux attaques à la fois : attaquer la dame tout en révélant un échec au roi.",
+        "[%hint Utilisez votre fou pour attaquer la dame noire.][%wrong Il y a un meilleur coup. Trouvez un moyen pour que votre fou attaque la dame noire pendant que votre tour fait échec au roi.]",
+        "Les noirs ont dû bouger le roi, et maintenant vous pouvez prendre la dame !",
+        "[%hint Pouvez-vous prendre avec votre fou ?][%wrong Réessayez, vous pouvez demander un indice.] Exactement !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6q1/8/8/3k4/8/3B4/3R4 w - - 0 1\"]\r\n\r\n{[%c_highlight h6;color;%23ffaa00;opacity;0.8;square;h6;persistent;true][%c_arrow d1d4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d1;to;d4;persistent;true] Les découvertes peuvent créer deux attaques à la fois : attaquer la dame tout en révélant un échec au roi.} 1. Bh6+ {[%hint Utilisez votre fou pour attaquer la dame noire.][%wrong Il y a un meilleur coup. Trouvez un moyen pour que votre fou attaque la dame noire pendant que votre tour fait échec au roi.]} 1... Ke4 {Les noirs ont dû bouger le roi, et maintenant vous pouvez prendre la dame !} 2. Bxg7 {[%hint Pouvez-vous prendre avec votre fou ?][%wrong Réessayez, vous pouvez demander un indice.] Exactement !} *"
+    },
+    {
+      "fen": "6k1/8/8/3q4/8/3B4/8/3R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Maintenant l'inverse : fais échec au roi tout en révélant une attaque sur la dame.",
+        "[%hint Trouvez un échec qui révèle une menace sur la dame noire.][%wrong Il y a un meilleur coup. Essayez de trouver un moyen de faire échec avec votre fou.]",
+        "Bon choix ! Maintenant, pouvez-vous prendre la dame noire ?",
+        "[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce n'est pas le bon coup, vous pouvez réessayer.] Félicitations !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/8/3q4/8/3B4/8/3R4 w - - 0 1\"]\r\n\r\n{Maintenant l'inverse : fais échec au roi tout en révélant une attaque sur la dame.} 1. Bh7+ {[%hint Trouvez un échec qui révèle une menace sur la dame noire.][%wrong Il y a un meilleur coup. Essayez de trouver un moyen de faire échec avec votre fou.]} 1... Kxh7 {Bon choix ! Maintenant, pouvez-vous prendre la dame noire ?} 2. Rxd5 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce n'est pas le bon coup, vous pouvez réessayer.] Félicitations !} *"
+    },
+    {
+      "fen": "5rk1/5ppp/3qp3/3N4/8/8/5PPP/3R1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f6;color;%23ffaa00;opacity;0.8;square;f6;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true] Quel échec du cavalier gagne la dame noire ?",
+        "[%hint Trouvez un échec du cavalier pour créer une attaque à la découverte et gagner la dame noire.][%wrong Les noirs gardent leur dame. Réessaye et cherche un échec précis.]",
+        "Les noirs gagnent le cavalier et sauvent leur dame. Essaye de trouver un meilleur échec.",
+        "Bon début. Et ensuite ?",
+        "[%hint Prenez une pièce non défendue.][%wrong Il y a un meilleur coup. Essaye de trouver une bonne prise.] Bien joué ! Les blancs gagnent la dame."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5ppp/3qp3/3N4/8/8/5PPP/3R1RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight f6;color;%23ffaa00;opacity;0.8;square;f6;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true] Quel échec du cavalier gagne la dame noire ?} 1. Nf6+ {[%hint Trouvez un échec du cavalier pour créer une attaque à la découverte et gagner la dame noire.][%wrong Les noirs gardent leur dame. Réessaye et cherche un échec précis.]} (1. Ne7+? Qxe7 {Les noirs gagnent le cavalier et sauvent leur dame. Essaye de trouver un meilleur échec.}) 1... gxf6 {Bon début. Et ensuite ?} 2. Rxd6 {[%hint Prenez une pièce non défendue.][%wrong Il y a un meilleur coup. Essaye de trouver une bonne prise.] Bien joué ! Les blancs gagnent la dame.} *"
+    },
+    {
+      "fen": "2r2rk1/ppq2pBp/5b2/8/5P2/8/PPP5/1K4R1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Utilise une découverte pour mater.",
+        "[%hint Utilise une découverte pour mater le roi noir.] [%wrong Il y a un meilleur coup. Essaye de trouver une prise qui soit aussi échec et mat.]  Excellent travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/ppq2pBp/5b2/8/5P2/8/PPP5/1K4R1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288697476231212\"]\r\n\r\n{Utilise une découverte pour mater.} 1. Bxf6# {[%hint Utilise une découverte pour mater le roi noir.] [%wrong Il y a un meilleur coup. Essaye de trouver une prise qui soit aussi échec et mat.]  Excellent travail !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c088-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Découvertes",
+    "path": "attaques-a-la-decouverte",
+    "description": "Gagne du matériel en créant des tactiques à la découverte.",
+    "glyphName": "game-type-boardvision",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6q1/8/8/3k4/8/3B4/3R4 w - - 0 1\"]\r\n\r\n{[%c_highlight h6;color;%23ffaa00;opacity;0.8;square;h6;persistent;true][%c_arrow d1d4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d1;to;d4;persistent;true] Les découvertes peuvent créer deux attaques à la fois : attaquer la dame tout en révélant un échec au roi.} 1. Bh6+ {[%hint Utilisez votre fou pour attaquer la dame noire.][%wrong Il y a un meilleur coup. Trouvez un moyen pour que votre fou attaque la dame noire pendant que votre tour fait échec au roi.]} 1... Ke4 {Les noirs ont dû bouger le roi, et maintenant vous pouvez prendre la dame !} 2. Bxg7 {[%hint Pouvez-vous prendre avec votre fou ?][%wrong Réessayez, vous pouvez demander un indice.] Exactement !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/8/3q4/8/3B4/8/3R4 w - - 0 1\"]\r\n\r\n{Maintenant l'inverse : fais échec au roi tout en révélant une attaque sur la dame.} 1. Bh7+ {[%hint Trouvez un échec qui révèle une menace sur la dame noire.][%wrong Il y a un meilleur coup. Essayez de trouver un moyen de faire échec avec votre fou.]} 1... Kxh7 {Bon choix ! Maintenant, pouvez-vous prendre la dame noire ?} 2. Rxd5 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce n'est pas le bon coup, vous pouvez réessayer.] Félicitations !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5ppp/3qp3/3N4/8/8/5PPP/3R1RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight f6;color;%23ffaa00;opacity;0.8;square;f6;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true] Quel échec du cavalier gagne la dame noire ?} 1. Nf6+ {[%hint Trouvez un échec du cavalier pour créer une attaque à la découverte et gagner la dame noire.][%wrong Les noirs gardent leur dame. Réessaye et cherche un échec précis.]} (1. Ne7+? Qxe7 {Les noirs gagnent le cavalier et sauvent leur dame. Essaye de trouver un meilleur échec.}) 1... gxf6 {Bon début. Et ensuite ?} 2. Rxd6 {[%hint Prenez une pièce non défendue.][%wrong Il y a un meilleur coup. Essaye de trouver une bonne prise.] Bien joué ! Les blancs gagnent la dame.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/ppq2pBp/5b2/8/5P2/8/PPP5/1K4R1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288697476231212\"]\r\n\r\n{Utilise une découverte pour mater.} 1. Bxf6# {[%hint Utilise une découverte pour mater le roi noir.] [%wrong Il y a un meilleur coup. Essaye de trouver une prise qui soit aussi échec et mat.]  Excellent travail !} *"
+    ],
+    "courseId": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les tactiques à la découverte sont très puissantes pour gagner du matériel.",
+    "outroText": "Vous avez appris une tactique essentielle aux échecs : les découvertes.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs",
+      "title": "Tactique"
+    },
+    "parentId": "f0a06660-2215-11f1-943e-2f34da6ff571"
+  },
+  "curriculum": {
+    "number": 35,
+    "order": 5,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactique",
+      "path": "tactiques-echecs",
+      "order": 2
+    }
+  }
+}

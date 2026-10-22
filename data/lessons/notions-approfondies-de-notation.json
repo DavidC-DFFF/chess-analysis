@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/lecture-de-l-echiquier/notions-approfondies-de-notation",
+  "capturedAt": "2026-10-22T12:23:43.769Z",
+  "title": "Notions approfondies de notation",
+  "exercises": [
+    {
+      "fen": "5r2/1n6/2p3k1/b1Pb3p/P2Pp1pP/Q3P1P1/1B3PKR/3q4 b - - 0 37",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est en sérieux danger. Jouons le coup ...De1! avec les noirs.",
+        "[%wrong Nous souhaitons que vous déplaciez la dame noir en e1, l'exercice suit dans la foulée.] [%hint Déplacez votre dame sur la case e1.]",
+        "\r\nVoilà ! Les blancs tentent de s'en sortir en bloquant la colonne f. Essayez de trouver un moyen de remporter la partie sur le champ !",
+        "Bravo ! Vous utilisez la prise-en-passant pour délivrer le mat ! [%wrong Bien essayé mais cela ne gagne pas la partie en 1 seul coup !] [%hint Pensez à la ressource spéciale nommée prise-en-passant]",
+        "C'est aussi un excellent coup qui va entraîner le mat sans tarder mais il y a mieux ! Un mat en 1 coup est possible ici !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.02.05\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/1n6/2p3k1/b1Pb3p/P2Pp1pP/Q3P1P1/1B3PKR/3q4 b - - 0 37\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Le roi blanc est en sérieux danger. Jouons le coup ...De1! avec les noirs.} 37... Qe1\r\n{[%wrong Nous souhaitons que vous déplaciez la dame noir en e1, l'exercice suit dans la foulée.] [%hint Déplacez votre dame sur la case e1.]} 38. f4 {\r\nVoilà ! Les blancs tentent de s'en sortir en bloquant la colonne f. Essayez de trouver un moyen de remporter la partie sur le champ !} exf3# {Bravo ! Vous utilisez la prise-en-passant pour délivrer le mat ! [%wrong Bien essayé mais cela ne gagne pas la partie en 1 seul coup !] [%hint Pensez à la ressource spéciale nommée prise-en-passant]} (38... gxf3+ $2 39. Kh3 {C'est aussi un excellent coup qui va entraîner le mat sans tarder mais il y a mieux ! Un mat en 1 coup est possible ici !}) *"
+    },
+    {
+      "fen": "2bk3r/p4pbp/2p1p3/2p5/5P2/2P1BN2/Pr4PP/R3K2R w KQ - 0 16",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de jouer ...Txb2 menaçant ainsi de capturer le pion g2. Choisissez entre les 2 possibilités de roque qui s'offrent à vous 0-0 ou 0-0-0.",
+        "Fantastique ! En procédant au grand roque les blancs attaquent la tour noire avec leur roi et vont par conséquent la gagner de manière forcée au prochain coup ! [%wrong Concentrez-vous sur le roque !] [%hint L'un des deux roques conduit à une double attaque meurtrière !]",
+        "\r\nCe coup met le roi blanc à l'abri et protège le pion g2 mais l'autre option est beaucoup plus forte ! Essayez encore !!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.02.05\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"2bk3r/p4pbp/2p1p3/2p5/5P2/2P1BN2/Pr4PP/R3K2R w KQ - 0 16\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Les noirs viennent de jouer ...Txb2 menaçant ainsi de capturer le pion g2. Choisissez entre les 2 possibilités de roque qui s'offrent à vous 0-0 ou 0-0-0.} 16. O-O-O+ {Fantastique ! En procédant au grand roque les blancs attaquent la tour noire avec leur roi et vont par conséquent la gagner de manière forcée au prochain coup ! [%wrong Concentrez-vous sur le roque !] [%hint L'un des deux roques conduit à une double attaque meurtrière !]} (16. O-O $2 {\r\nCe coup met le roi blanc à l'abri et protège le pion g2 mais l'autre option est beaucoup plus forte ! Essayez encore !!}) *"
+    },
+    {
+      "fen": "4rr1k/1b4pp/pp4p1/4p1Q1/Pn1qP3/1BN5/1P3PPP/R4RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent s'emparer de la colonne d en attaquant la dame noire, laquelle des deux tours est-il le plus judicieux de choisir pour se faire ? Ta-d1 ou Tf-d1 ?",
+        "Excellente décision ! Les blancs développent une pièce et prennent le contrôle de la colonne d. Remarquez que la tour f1 a un rôle primordial de défense du pion f2, vous avez choisi la bonne tour ![%wrong\r\nEssayez de vous concentrer sur l'exercice demandé, à savoir amener une des deux tours en d1 !] [%hint L'une des deux tours protège un pion très important, attention !]",
+        "Bien essayé mais vérifiez toujours quand vous déplacez une pièce qu'elle ne jouait pas un rôle primordiale sur la case qu'elle occupait !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.02.05\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rr1k/1b4pp/pp4p1/4p1Q1/Pn1qP3/1BN5/1P3PPP/R4RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Les blancs veulent s'emparer de la colonne d en attaquant la dame noire, laquelle des deux tours est-il le plus judicieux de choisir pour se faire ? Ta-d1 ou Tf-d1 ?} 1. Rad1 {Excellente décision ! Les blancs développent une pièce et prennent le contrôle de la colonne d. Remarquez que la tour f1 a un rôle primordial de défense du pion f2, vous avez choisi la bonne tour ![%wrong\r\nEssayez de vous concentrer sur l'exercice demandé, à savoir amener une des deux tours en d1 !] [%hint L'une des deux tours protège un pion très important, attention !]} (1. Rfd1 $2 Qxf2+ {Bien essayé mais vérifiez toujours quand vous déplacez une pièce qu'elle ne jouait pas un rôle primordiale sur la case qu'elle occupait !}) *"
+    },
+    {
+      "fen": "3r2k1/1p4p1/8/1P6/2p1p1P1/2Ppr3/1P4RP/3R3K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Don Diesen un joueur de club âgé de 91 ans conduit les pièces noires. Il opte alors pour un coup qui, à première vue, a tout l'air d'être une grossière erreur (?) mais en réalité c'est très bien joué. Allez-y, faites lui confiance : ...Te2!",
+        "[%wrong Déplacez la tour noire jusqu'en e2.] [%hint Même si ce coup a l'air suspect, jouez le quand même que nous vérifions ensemble ce qu'il en est.]",
+        "Les blancs se réjouissent, croyant profiter du clouage sur la tour en d8, ils acceptent l'offrande. Choquons-les en reprenant la tour malgré tout par ...dxe2!",
+        "[%wrong Allez, il faut reprendre cette tour en e2 pour gagner.] [%hint Malgré le clouage, jouons quand même dxe2!]",
+        "Bien joué, maintenant, abritons notre roi afin d'éviter un nouvel échec sur la septième rangée.",
+        "[%wrong ce coup est illégal] [%hint Cachez votre roi derrière un pion !]",
+        "D'accord ! Les noirs sont gagnants aussi mais en h7 le roi évitera toute perte de temps.",
+        "Les blancs ont joué Rf2 mais c'est trop tard, ils ne peuvent pas empêcher la promotion ...e1=D! Allez-y !",
+        "\r\n[%wrong Nous pouvons amener un pion à dame, il ne faut pas s'en priver.] [%hint Transformons notre pion en la pièce la plus puissante !] Une magnifique combinaison de la part d'un jour de 91 ans ! Les blancs ont abandonné, beau travail !"
+      ],
+      "pgn": "[Event \"TPCC Game\"]\r\n[Site \"?\"]\r\n[Date \"2018.07.09\"]\r\n[Round \"?\"]\r\n[White \"Paulsen, Mark\"]\r\n[Black \"Diesen, Don\"]\r\n[Result \"0-1\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p4p1/8/1P6/2p1p1P1/2Ppr3/1P4RP/3R3K b - - 0 1\"]\r\n[PlyCount \"7\"]\r\n[EventDate \"2018.??.??\"]\r\n\r\n{Don Diesen un joueur de club âgé de 91 ans conduit les pièces noires. Il opte alors pour un coup qui, à première vue, a tout l'air d'être une grossière erreur (?) mais en réalité c'est très bien joué. Allez-y, faites lui confiance : ...Te2!} 1... Re2 {[%wrong Déplacez la tour noire jusqu'en e2.] [%hint Même si ce coup a l'air suspect, jouez le quand même que nous vérifions ensemble ce qu'il en est.]} 2. Rxe2 {Les blancs se réjouissent, croyant profiter du clouage sur la tour en d8, ils acceptent l'offrande. Choquons-les en reprenant la tour malgré tout par ...dxe2!} dxe2 {[%wrong Allez, il faut reprendre cette tour en e2 pour gagner.] [%hint Malgré le clouage, jouons quand même dxe2!]} 3. Rxd8+ {Bien joué, maintenant, abritons notre roi afin d'éviter un nouvel échec sur la septième rangée.} Kh7 {[%wrong ce coup est illégal] [%hint Cachez votre roi derrière un pion !]} (3... Kf7 $5 4. Rd7+ {D'accord ! Les noirs sont gagnants aussi mais en h7 le roi évitera toute perte de temps.}) 4. Kg2 {Les blancs ont joué Rf2 mais c'est trop tard, ils ne peuvent pas empêcher la promotion ...e1=D! Allez-y !} e1=Q {\r\n[%wrong Nous pouvons amener un pion à dame, il ne faut pas s'en priver.] [%hint Transformons notre pion en la pièce la plus puissante !] Une magnifique combinaison de la part d'un jour de 91 ans ! Les blancs ont abandonné, beau travail !} 0-1"
+    },
+    {
+      "fen": "1r6/4q1pb/4Np1k/7P/6RK/2B5/8/8 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les échecs sont un jeu où des opportunités inattendues se profilent parfois. Les blancs ont l'air perdants mais une possibilité bien enfouie de mater leur adversaire existe cependant ! La voyez-vous ?",
+        "[%wrong Bien essayé mais les noirs ont trop de matériel en plus, notre seule chance est d'aboutir à un mat forcé.] [%hint Les blancs ont beaucoup de matériel en moins mais le roi noir est coincé, comment les forcer à parer un échec en avançant un pion ?]",
+        "Cet échec ne fonctionne pas, y en a-t-il un autre plus efficace dans la position ?",
+        "\r\nBonne idée mais les noirs peuvent répondre par un échec à la découverte qui s'avérerait fatal. Essayez autre chose !",
+        "Ceci perd simplement une pièce, il y a mieux à faire avec ce fou ! ",
+        "\r\nCette tentative perd du matériel, trouvez mieux !",
+        "Bien joué ! Les noirs parent l'échec en mettant eux-mêmes en échec le roi blanc ! Cela est-il si grave ? N'avons-nous pas une ressource pour remporter la partie sur le champ ?",
+        "[%wrong Ceci ne nous sauve pas, il existe une possibilité bien plus satisfaisante !]\r\n[%hint Souvenez-vous de la prise-en-passant ! Cette capture spéciale quand l'adversaire avance de 2 cases un pion en partant de sa case initiale. C'est possible ici et... fatal !] Bravo ! Vous avez arraché la victoire, cette prise-en-passant crée par la même occasion un échec à la découverte avec notre fou qui s'avère être mat !",
+        "Ici le roi noir parvient à s'échapper, il faut trouver plus efficace !",
+        "Le roi noir s'en sort, pensez à la prise-en-passant",
+        "Ceci ne fonctionne pas, il faut trouver un coup délivrant le mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.01.18\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r6/4q1pb/4Np1k/7P/6RK/2B5/8/8 w - - 0 2\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Les échecs sont un jeu où des opportunités inattendues se profilent parfois. Les blancs ont l'air perdants mais une possibilité bien enfouie de mater leur adversaire existe cependant ! La voyez-vous ?} 2.\r\nBd2+ {[%wrong Bien essayé mais les noirs ont trop de matériel en plus, notre seule chance est d'aboutir à un mat forcé.] [%hint Les blancs ont beaucoup de matériel en moins mais le roi noir est coincé, comment les forcer à parer un échec en avançant un pion ?]} (2. Rg6+ $2\r\nBxg6 {Cet échec ne fonctionne pas, y en a-t-il un autre plus efficace dans la position ?}) (2. Nxg7 $2 f5+ {\r\nBonne idée mais les noirs peuvent répondre par un échec à la découverte qui s'avérerait fatal. Essayez autre chose !}) (2. Bxf6 $2 Qxf6+ {Ceci perd simplement une pièce, il y a mieux à faire avec ce fou ! }) (2. Rxg7 $2 Qxe6 {\r\nCette tentative perd du matériel, trouvez mieux !}) 2... g5+ {Bien joué ! Les noirs parent l'échec en mettant eux-mêmes en échec le roi blanc ! Cela est-il si grave ? N'avons-nous pas une ressource pour remporter la partie sur le champ ?} 3. hxg6# {[%wrong Ceci ne nous sauve pas, il existe une possibilité bien plus satisfaisante !]\r\n[%hint Souvenez-vous de la prise-en-passant ! Cette capture spéciale quand l'adversaire avance de 2 cases un pion en partant de sa case initiale. C'est possible ici et... fatal !] Bravo ! Vous avez arraché la victoire, cette prise-en-passant crée par la même occasion un échec à la découverte avec notre fou qui s'avère être mat !} (3. Nxg5 $2 Kg7 {Ici le roi noir parvient à s'échapper, il faut trouver plus efficace !}) (3. Bxg5+ $2 fxg5+ {Le roi noir s'en sort, pensez à la prise-en-passant}) (3. Rxg5 $2 fxg5+ {Ceci ne fonctionne pas, il faut trouver un coup délivrant le mat !}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "f84ae3ae-412a-11ea-bc8d-05234564bb05",
+    "name": "Notions approfondies de notation",
+    "path": "notions-approfondies-de-notation",
+    "description": "Après avoir appris le langage propre aux échecs, il est temps d'approfondir vos connaissances afin que plus aucun secret ne vous échappe ! Voici les symboles clés de la notation à connaître: \r\nÉchec = +\r\nÉchec et mat = #\r\nPrise = x\r\nPetit-roque = 0-0\r\nGrand-roque = 0-0-0\r\nBon coup = !\r\nMauvais coup = ?\r\nCoup intéressant = !?\r\nCoup douteux = ?!\r\nTrès mauvais coup = ??\r\nTrès bon coup = !!\r\nLes blancs gagnent = 1-0\r\nLes noirs gagnent = 0-1\r\nNulle = 1/2-1/2",
+    "glyphName": "document-blog",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-NOU-the-language-of-chess-w2q.mp4",
+    "fen": "3R4/1p4pk/8/1P6/2p1p1P1/2P5/1P2p2P/7K w - - 0 4",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.02.05\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/1n6/2p3k1/b1Pb3p/P2Pp1pP/Q3P1P1/1B3PKR/3q4 b - - 0 37\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Le roi blanc est en sérieux danger. Jouons le coup ...De1! avec les noirs.} 37... Qe1\r\n{[%wrong Nous souhaitons que vous déplaciez la dame noir en e1, l'exercice suit dans la foulée.] [%hint Déplacez votre dame sur la case e1.]} 38. f4 {\r\nVoilà ! Les blancs tentent de s'en sortir en bloquant la colonne f. Essayez de trouver un moyen de remporter la partie sur le champ !} exf3# {Bravo ! Vous utilisez la prise-en-passant pour délivrer le mat ! [%wrong Bien essayé mais cela ne gagne pas la partie en 1 seul coup !] [%hint Pensez à la ressource spéciale nommée prise-en-passant]} (38... gxf3+ $2 39. Kh3 {C'est aussi un excellent coup qui va entraîner le mat sans tarder mais il y a mieux ! Un mat en 1 coup est possible ici !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.02.05\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"2bk3r/p4pbp/2p1p3/2p5/5P2/2P1BN2/Pr4PP/R3K2R w KQ - 0 16\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Les noirs viennent de jouer ...Txb2 menaçant ainsi de capturer le pion g2. Choisissez entre les 2 possibilités de roque qui s'offrent à vous 0-0 ou 0-0-0.} 16. O-O-O+ {Fantastique ! En procédant au grand roque les blancs attaquent la tour noire avec leur roi et vont par conséquent la gagner de manière forcée au prochain coup ! [%wrong Concentrez-vous sur le roque !] [%hint L'un des deux roques conduit à une double attaque meurtrière !]} (16. O-O $2 {\r\nCe coup met le roi blanc à l'abri et protège le pion g2 mais l'autre option est beaucoup plus forte ! Essayez encore !!}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.02.05\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rr1k/1b4pp/pp4p1/4p1Q1/Pn1qP3/1BN5/1P3PPP/R4RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Les blancs veulent s'emparer de la colonne d en attaquant la dame noire, laquelle des deux tours est-il le plus judicieux de choisir pour se faire ? Ta-d1 ou Tf-d1 ?} 1. Rad1 {Excellente décision ! Les blancs développent une pièce et prennent le contrôle de la colonne d. Remarquez que la tour f1 a un rôle primordial de défense du pion f2, vous avez choisi la bonne tour ![%wrong\r\nEssayez de vous concentrer sur l'exercice demandé, à savoir amener une des deux tours en d1 !] [%hint L'une des deux tours protège un pion très important, attention !]} (1. Rfd1 $2 Qxf2+ {Bien essayé mais vérifiez toujours quand vous déplacez une pièce qu'elle ne jouait pas un rôle primordiale sur la case qu'elle occupait !}) *",
+      "[Event \"TPCC Game\"]\r\n[Site \"?\"]\r\n[Date \"2018.07.09\"]\r\n[Round \"?\"]\r\n[White \"Paulsen, Mark\"]\r\n[Black \"Diesen, Don\"]\r\n[Result \"0-1\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p4p1/8/1P6/2p1p1P1/2Ppr3/1P4RP/3R3K b - - 0 1\"]\r\n[PlyCount \"7\"]\r\n[EventDate \"2018.??.??\"]\r\n\r\n{Don Diesen un joueur de club âgé de 91 ans conduit les pièces noires. Il opte alors pour un coup qui, à première vue, a tout l'air d'être une grossière erreur (?) mais en réalité c'est très bien joué. Allez-y, faites lui confiance : ...Te2!} 1... Re2 {[%wrong Déplacez la tour noire jusqu'en e2.] [%hint Même si ce coup a l'air suspect, jouez le quand même que nous vérifions ensemble ce qu'il en est.]} 2. Rxe2 {Les blancs se réjouissent, croyant profiter du clouage sur la tour en d8, ils acceptent l'offrande. Choquons-les en reprenant la tour malgré tout par ...dxe2!} dxe2 {[%wrong Allez, il faut reprendre cette tour en e2 pour gagner.] [%hint Malgré le clouage, jouons quand même dxe2!]} 3. Rxd8+ {Bien joué, maintenant, abritons notre roi afin d'éviter un nouvel échec sur la septième rangée.} Kh7 {[%wrong ce coup est illégal] [%hint Cachez votre roi derrière un pion !]} (3... Kf7 $5 4. Rd7+ {D'accord ! Les noirs sont gagnants aussi mais en h7 le roi évitera toute perte de temps.}) 4. Kg2 {Les blancs ont joué Rf2 mais c'est trop tard, ils ne peuvent pas empêcher la promotion ...e1=D! Allez-y !} e1=Q {\r\n[%wrong Nous pouvons amener un pion à dame, il ne faut pas s'en priver.] [%hint Transformons notre pion en la pièce la plus puissante !] Une magnifique combinaison de la part d'un jour de 91 ans ! Les blancs ont abandonné, beau travail !} 0-1",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.01.18\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r6/4q1pb/4Np1k/7P/6RK/2B5/8/8 w - - 0 2\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n\r\n{Les échecs sont un jeu où des opportunités inattendues se profilent parfois. Les blancs ont l'air perdants mais une possibilité bien enfouie de mater leur adversaire existe cependant ! La voyez-vous ?} 2.\r\nBd2+ {[%wrong Bien essayé mais les noirs ont trop de matériel en plus, notre seule chance est d'aboutir à un mat forcé.] [%hint Les blancs ont beaucoup de matériel en moins mais le roi noir est coincé, comment les forcer à parer un échec en avançant un pion ?]} (2. Rg6+ $2\r\nBxg6 {Cet échec ne fonctionne pas, y en a-t-il un autre plus efficace dans la position ?}) (2. Nxg7 $2 f5+ {\r\nBonne idée mais les noirs peuvent répondre par un échec à la découverte qui s'avérerait fatal. Essayez autre chose !}) (2. Bxf6 $2 Qxf6+ {Ceci perd simplement une pièce, il y a mieux à faire avec ce fou ! }) (2. Rxg7 $2 Qxe6 {\r\nCette tentative perd du matériel, trouvez mieux !}) 2... g5+ {Bien joué ! Les noirs parent l'échec en mettant eux-mêmes en échec le roi blanc ! Cela est-il si grave ? N'avons-nous pas une ressource pour remporter la partie sur le champ ?} 3. hxg6# {[%wrong Ceci ne nous sauve pas, il existe une possibilité bien plus satisfaisante !]\r\n[%hint Souvenez-vous de la prise-en-passant ! Cette capture spéciale quand l'adversaire avance de 2 cases un pion en partant de sa case initiale. C'est possible ici et... fatal !] Bravo ! Vous avez arraché la victoire, cette prise-en-passant crée par la même occasion un échec à la découverte avec notre fou qui s'avère être mat !} (3. Nxg5 $2 Kg7 {Ici le roi noir parvient à s'échapper, il faut trouver plus efficace !}) (3. Bxg5+ $2 fxg5+ {Le roi noir s'en sort, pensez à la prise-en-passant}) (3. Rxg5 $2 fxg5+ {Ceci ne fonctionne pas, il faut trouver un coup délivrant le mat !}) *"
+    ],
+    "isPathLesson": true,
+    "courseId": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Approfondissons le langage des échecs.",
+    "outroText": "Bien comprendre la notation aux échecs est indispensable pour s'entrainer.",
+    "locale": "fr_FR",
+    "videoDuration": 12,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "path": "lecture-de-l-echiquier",
+      "title": "Lecture de l'échiquier",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/346efa28-a55a-11e8-87ab-eb3d1fefd4e2.07e448f1.728x410o.a0bbcabbc031.png"
+    },
+    "parentId": "f7d62bd6-f1ca-11e9-b631-8751daf38fb1",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/advanced-chess-notation5dcaa74ba8533.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/zaawansowana-notacja-szachowa641e232fa3ecf.pl_PL.vtt",
+        "languageCode": "pl",
+        "languageName": "Polski"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/advanced-chess-notation-15ea2413253231.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/advanced-chess-notation-26040ef68b7df3.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 85,
+    "order": 7,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "name": "Lecture de l'échiquier",
+      "path": "lecture-de-l-echiquier",
+      "order": 5
+    }
+  }
+}

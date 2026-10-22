@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/motifs-de-finales/dame-contre-pion",
+  "capturedAt": "2026-10-22T12:23:55.024Z",
+  "title": "La dame contre le pion",
+  "exercises": [
+    {
+      "fen": "8/8/8/6KQ/8/1k6/p7/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs sont sur le point de promouvoir leur pion ou de rentrer en force dans une finale dans laquelle leur pion sur la bande leur assure la nulle. Pourtant, il existe un moyen de gagner cette position ! Lequel ?",
+        "[%wrong Oups, les noirs parviennent à rentrer dans une position nulle ! Cherchez encore.][%hint Le seul moyen de l'emporter consiste à contrôler la diagonale de la case de promotion et bloquer cette case avec notre dame. C'est un plan en deux coups !]",
+        "Les noirs vont annuler car le pion est sur la bande. Cherchez encore !",
+        "Bien vu ! La dame blanche prend le contrôle de la diagonale de la case de promotion. Encore une fois, les blancs n'ont qu'un seul coup gagnant. Lequel ?",
+        "[%wrong Nous ne pouvons pas laisser le roi noir entrer en contact avec son pion passé sur les deux premières rangées ! Essayez encore.][%hint Faites barrage au pion passé !] Joli ! La dame blanche occupe la case de promotion, empêchant le roi noir de rentrer dans la zone du pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/6KQ/8/1k6/p7/8 w - - 0 1\"]\r\n\r\n{Les noirs sont sur le point de promouvoir leur pion ou de rentrer en force dans une finale dans laquelle leur pion sur la bande leur assure la nulle. Pourtant, il existe un moyen de gagner cette position ! Lequel ?}\r\n1.Qh8\r\n    {[%wrong Oups, les noirs parviennent à rentrer dans une position nulle ! Cherchez encore.][%hint Le seul moyen de l'emporter consiste à contrôler la diagonale de la case de promotion et bloquer cette case avec notre dame. C'est un plan en deux coups !]}\r\n    (1.Qh1 $2 Kb2 {Les noirs vont annuler car le pion est sur la bande. Cherchez encore !})\r\n1...Kc2\r\n    {Bien vu ! La dame blanche prend le contrôle de la diagonale de la case de promotion. Encore une fois, les blancs n'ont qu'un seul coup gagnant. Lequel ?}\r\n2.Qa1\r\n    {[%wrong Nous ne pouvons pas laisser le roi noir entrer en contact avec son pion passé sur les deux premières rangées ! Essayez encore.][%hint Faites barrage au pion passé !] Joli ! La dame blanche occupe la case de promotion, empêchant le roi noir de rentrer dans la zone du pion.}\r\n*"
+    },
+    {
+      "fen": "8/8/8/6K1/8/1Q6/p7/1k6 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette finale est censée être nulle à cause du pion sur la bande... Vraiment ? Prouvons-le !",
+        "[%hint Un coup annule, l'autre perd immédiatement. Choisissez judicieusement !]",
+        "Pour survivre à cette position, il nous faut à tout prix protéger notre pion. Cherchez encore !",
+        "Bien joué ! Le roi noir menace d'être pat, les blancs sont donc dans l'obligation de le mettre en échec. Jouez le seul coup.",
+        "[%hint Jouez le seul coup autorisé !]",
+        "Nous avons maintenant plusieurs options, mais une seule nous permet d'annuler ! Réfléchissez bien !",
+        "[%wrong Oups ! Ce coup laisse les blancs jouer Da1, bloquant notre pion et gagnant la partie. Cherchez encore !][%hint Quel est le seul coup couvrant à la fois le pion et la case de promotion ?]",
+        "Bien vu ! Les noirs ont maintenant plusieurs options, mais le plus simple reste de menacer pat !",
+        "[%wrong Ce coup ne menace pas de faire pat au prochain. Cherchez encore !][%hint Mettez votre roi sur une case d'où, si le trait lui revenait, il ne pourrait plus bouger.] Bien joué ! Les blancs ne peuvent plus progresser."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/6K1/8/1Q6/p7/1k6 b - - 0 1\"]\r\n\r\n{Cette finale est censée être nulle à cause du pion sur la bande... Vraiment ? Prouvons-le !}\r\n1...Ka1\r\n    {[%hint Un coup annule, l'autre perd immédiatement. Choisissez judicieusement !]}\r\n    (1...Kc1 $2 2.Qxa2 {Pour survivre à cette position, il nous faut à tout prix protéger notre pion. Cherchez encore !})\r\n2.Qd1+\r\n    {Bien joué ! Le roi noir menace d'être pat, les blancs sont donc dans l'obligation de le mettre en échec. Jouez le seul coup.}\r\n2...Kb2\r\n    {[%hint Jouez le seul coup autorisé !]}\r\n3.Qd4+\r\n    {Nous avons maintenant plusieurs options, mais une seule nous permet d'annuler ! Réfléchissez bien !}\r\n3...Kb1\r\n    {[%wrong Oups ! Ce coup laisse les blancs jouer Da1, bloquant notre pion et gagnant la partie. Cherchez encore !][%hint Quel est le seul coup couvrant à la fois le pion et la case de promotion ?]}\r\n4.Qb4+\r\n    {Bien vu ! Les noirs ont maintenant plusieurs options, mais le plus simple reste de menacer pat !}\r\n4...Ka1\r\n    {[%wrong Ce coup ne menace pas de faire pat au prochain. Cherchez encore !][%hint Mettez votre roi sur une case d'où, si le trait lui revenait, il ne pourrait plus bouger.] Bien joué ! Les blancs ne peuvent plus progresser.}\r\n*"
+    },
+    {
+      "fen": "8/8/6K1/Q7/8/8/3p4/2k5 w - - 4 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Prêt à montrer toute votre technique en finale ? Commençons par forcer le roi noir à aller devant son pion !",
+        "[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]",
+        "Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?",
+        "[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]",
+        "C'est la bonne idée, mais il est possible de rapprocher encore plus notre roi de l'action. Comment ?",
+        "Beau travail ! Les noirs menacent à nouveau de promouvoir leur pion. Comment le clouer tout en couvrant la case de promotion ?",
+        "[%wrong Ce coup ne cloue pas le pion à son roi tout en couvrant la case de promotion. Cherchez encore !][%hint Empêchez le pion d'avancer en le clouant à son roi.]",
+        "Bien vu ! Encore une fois, les noirs menacent de promouvoir. Donnez un échec au roi noir pour le forcer à aller devant son pion où à relâcher sa défense.",
+        "[%wrong Ce n'est pas l'échec que nous cherchons ! Essayez encore.][%hint Trouvez l'échec qui contraint le roi noir à bloquer son pion.]",
+        "La dame entame sa danse mortelle ! Enchaînons avec une double attaque sur le roi noir et son pion passé.",
+        "[%wrong Ce n'est pas une double attaque. Essayez encore !][%hint Trouvez la case sur laquelle votre dame attaque à la fois le pion et le roi noir pour forcer ce dernier à se rendre en e1.]",
+        "C'est la bonne idée, mais cette double attaque met la dame noire sur une mauvaise case. Essayez de forcer le roi noir à aller sur e1 !",
+        "Parfait ! Encore une fois, forçons le roi noir à aller devant son pion.",
+        "[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]",
+        "Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?",
+        "[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]",
+        "Joli ! Le roi blanc vient faire la différence. Utilisez-le comme soutien pour donner le prochain échec !",
+        "[%wrong Il ne s'agit pas d'un échec de dame donné grâce à la couverture du roi blanc. Cherchez encore !][%hint Nous sommes à la recherche d'une case bien précise...]",
+        "Trouvé ! Le roi noir refuse à tout prix d'aller devant son pion, mais nous avons les moyens de l'y forcer !",
+        "[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]",
+        "Superbe ! Terminons maintenant le travail en ramenant notre roi au cœur de l'action.",
+        "[%wrong Ce coup ne ramène pas le roi au cœur de l'action. Cherchez encore !][%hint Le roi finit son voyage...] Quelle technique ! Les blancs vont gagner le pion au prochain coup et mater juste après. Bravo !",
+        "Un coup très fort, bien joué ! Essayons maintenant de mettre notre roi en e3."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6K1/Q7/8/8/3p4/2k5 w - - 4 3\"]\r\n\r\n{Prêt à montrer toute votre technique en finale ? Commençons par forcer le roi noir à aller devant son pion !}\r\n3.Qc3+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n3...Kd1\r\n    {Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?}\r\n4.Kf5\r\n    {[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]}\r\n    (4.Kg5 $5 {C'est la bonne idée, mais il est possible de rapprocher encore plus notre roi de l'action. Comment ?})\r\n4...Ke2\r\n    {Beau travail ! Les noirs menacent à nouveau de promouvoir leur pion. Comment le clouer tout en couvrant la case de promotion ?}\r\n5.Qc2\r\n    {[%wrong Ce coup ne cloue pas le pion à son roi tout en couvrant la case de promotion. Cherchez encore !][%hint Empêchez le pion d'avancer en le clouant à son roi.]}\r\n5...Ke1\r\n    {Bien vu ! Encore une fois, les noirs menacent de promouvoir. Donnez un échec au roi noir pour le forcer à aller devant son pion où à relâcher sa défense.}\r\n6.Qe4+\r\n    {[%wrong Ce n'est pas l'échec que nous cherchons ! Essayez encore.][%hint Trouvez l'échec qui contraint le roi noir à bloquer son pion.]}\r\n6...Kf1\r\n    {La dame entame sa danse mortelle ! Enchaînons avec une double attaque sur le roi noir et son pion passé.}\r\n7.Qd3+\r\n    {[%wrong Ce n'est pas une double attaque. Essayez encore !][%hint Trouvez la case sur laquelle votre dame attaque à la fois le pion et le roi noir pour forcer ce dernier à se rendre en e1.]}\r\n    (7.Qf4+ $2 Ke2 {C'est la bonne idée, mais cette double attaque met la dame noire sur une mauvaise case. Essayez de forcer le roi noir à aller sur e1 !})\r\n7...Ke1\r\n    {Parfait ! Encore une fois, forçons le roi noir à aller devant son pion.}\r\n8.Qe3+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n8...Kd1\r\n    {Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?}\r\n9.Ke4\r\n    {[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]}\r\n9...Kc2\r\n    {Joli ! Le roi blanc vient faire la différence. Utilisez-le comme soutien pour donner le prochain échec !}\r\n10.Qd3+\r\n    {[%wrong Il ne s'agit pas d'un échec de dame donné grâce à la couverture du roi blanc. Cherchez encore !][%hint Nous sommes à la recherche d'une case bien précise...]}\r\n10...Kc1\r\n    {Trouvé ! Le roi noir refuse à tout prix d'aller devant son pion, mais nous avons les moyens de l'y forcer !}\r\n11.Qc3+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n11...Kd1\r\n    {Superbe ! Terminons maintenant le travail en ramenant notre roi au cœur de l'action.}\r\n12.Ke3\r\n     {[%wrong Ce coup ne ramène pas le roi au cœur de l'action. Cherchez encore !][%hint Le roi finit son voyage...] Quelle technique ! Les blancs vont gagner le pion au prochain coup et mater juste après. Bravo !}\r\n    (12.Kd3 $5 {Un coup très fort, bien joué ! Essayons maintenant de mettre notre roi en e3.})\r\n*"
+    },
+    {
+      "fen": "8/8/1K1Q4/8/8/5p2/8/6k1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Parviendrez-vous à annuler cette position ?",
+        "[%wrong Oups ! Les blancs sont désormais gagnants. Il faut pousser notre pion au plus vite !][%hint Notre seule chance est de menacer de promouvoir notre pion !]",
+        "Bien joué ! Les noirs menacent de promouvoir leur pion, et les blancs répondent pas une double attaque. Trouvez le meilleur coup !",
+        "[%hint N'oubliez pas le thème du pat !]",
+        "Ce coup va sans doute nous permettre d'annuler quand même, car le roi blanc est très éloigné de l'action, mais dans l'absolu, il est inutile de bloquer notre pion passé à moins d'y être obligé. Cherchez encore !",
+        "Une idée de pat très maligne. C'est le seul moyen d'annuler dans cette position ! Comment continuer ?",
+        "[%hint N'oubliez pas de protéger votre pion...]",
+        "Il faut à tout prix continuer à protéger le pion ! Essayez encore...",
+        "Beau boulot ! Les blancs clouent notre pion. Quel est le moyen le plus simple de tenir la nulle ?",
+        "[%hint N'oubliez pas le thème du pat !] Et voilà ! Les blancs ne peuvent plus progresser. Bien joué !",
+        "Ce coup est bon. Mais n'oubliez pas notre puissance ressource de pat !",
+        "Ce coup va sans doute nous permettre d'annuler quand même, car le roi blanc est très éloigné de l'action, mais dans l'absolu, il est inutile de bloquer notre pion passé à moins d'y être obligé. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/1K1Q4/8/8/5p2/8/6k1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Parviendrez-vous à annuler cette position ?}\r\n1...f2\r\n    {[%wrong Oups ! Les blancs sont désormais gagnants. Il faut pousser notre pion au plus vite !][%hint Notre seule chance est de menacer de promouvoir notre pion !]}\r\n2.Qg3+\r\n    {Bien joué ! Les noirs menacent de promouvoir leur pion, et les blancs répondent pas une double attaque. Trouvez le meilleur coup !}\r\n2...Kh1\r\n    {[%hint N'oubliez pas le thème du pat !]}\r\n    (2...Kf1 $6 {Ce coup va sans doute nous permettre d'annuler quand même, car le roi blanc est très éloigné de l'action, mais dans l'absolu, il est inutile de bloquer notre pion passé à moins d'y être obligé. Cherchez encore !})\r\n3.Qf3+\r\n    {Une idée de pat très maligne. C'est le seul moyen d'annuler dans cette position ! Comment continuer ?}\r\n3...Kg1\r\n    {[%hint N'oubliez pas de protéger votre pion...]}\r\n    (3...Kh2 $2 4.Qxf2+ {Il faut à tout prix continuer à protéger le pion ! Essayez encore...})\r\n4.Qe3\r\n    {Beau boulot ! Les blancs clouent notre pion. Quel est le moyen le plus simple de tenir la nulle ?}\r\n4...Kh1\r\n    {[%hint N'oubliez pas le thème du pat !] Et voilà ! Les blancs ne peuvent plus progresser. Bien joué !}\r\n    (4...Kg2 $5 {Ce coup est bon. Mais n'oubliez pas notre puissance ressource de pat !})\r\n    (4...Kf1 $6 {Ce coup va sans doute nous permettre d'annuler quand même, car le roi blanc est très éloigné de l'action, mais dans l'absolu, il est inutile de bloquer notre pion passé à moins d'y être obligé. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "8/8/2Q5/6K1/8/8/4kp2/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les finales pion c ou f contre dame sont généralement nulles, mais il existe aussi des moyens de les gagner ! Commençons par l'échec De4+.",
+        "[%wrong Commençons si vous le voulez bien par le coup De4+.][%hint Jouez votre dame en e4.]",
+        "Continuons par une double attaque sur le roi noir et son pion !",
+        "[%wrong Ce coup n'est pas une double attaque. Cherchez encore !][%hint Mettez le roi noir en échec tout en attaque son pion passé.]",
+        "C'est la bonne idée, mais cette double attaque met la dame noire sur une mauvaise case. Essayez de forcer le roi noir à aller sur e1 !",
+        "Parfait ! Encore une fois, forçons le roi noir à aller devant son pion.",
+        "[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]",
+        "Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?",
+        "[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]",
+        "ce coup est également tout à fait jouable, bien vu ! Essayons maintenant de mettre notre roi en g4.",
+        "ce coup est également tout à fait jouable, bien vu ! Essayons maintenant de nous rapprocher encore plus de l'action en jouant notre roi en g4.",
+        "Superbe ! Nous avons maintenant plusieurs options. Choisissons la plus simple en clouant le pion tout en couvrant la case de promotion.",
+        "[%wrong Ce coup ne cloue pas le pion à son roi tout en couvrant la case de promotion. Cherchez encore !][%hint Empêchez le pion d'avancer en le clouant à son roi.]",
+        "Cette échec ne nous simplifie pas la tâche, au contraire. Clouons plutôt le pion noir.",
+        "Ce coup cloue en effet le pion, mais sans couvrir la case de promotion. Essayez encore !",
+        "Bien joué ! Les noirs menacent de promouvoir leur pion, mais ce n'est pas un problème ! Trouvez la menace de mat fatale.",
+        "[%wrong Ce coup ne prépare pas le mat au prochain. Cherchez encore !][%hint Placez le roi de manière à ce qu'il soutienne un mat au prochain coup !]",
+        "Oups ! Les noirs promeuvent leur pion avec échec et annulent la partie ! Cherchez encore.",
+        "Oups ! Les noirs promeuvent leur pion avec échec et annulent la partie ! Cherchez encore.",
+        "Excellent travail ! Trouvez maintenant le coup de roi fatal.",
+        "[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Placez le roi de manière à ce qu'il soutienne un mat au prochain coup sans pouvoir être mis en échec par le cavalier.] Votre technique sans failles vous a permis de remporter cette position complexe. Bien joué !",
+        "suivi de Rh3 et mat au prochain est également très fort. Bien joué ! Trouvez maintenant le mat encore plus rapide !",
+        "suivi de Rh3 et mat au prochain est également très fort. Bien joué ! Trouvez maintenant le mat encore plus rapide !",
+        "Ce coup assure également la victoire, bien vu. Trouvez maintenant le mat encore plus rapide !",
+        "Ce coup assure également la victoire, bien vu. Trouvez maintenant le mat encore plus rapide !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2Q5/6K1/8/8/4kp2/8 w - - 0 1\"]\r\n\r\n{Les finales pion c ou f contre dame sont généralement nulles, mais il existe aussi des moyens de les gagner ! Commençons par l'échec De4+.}\r\n1.Qe4+\r\n    {[%wrong Commençons si vous le voulez bien par le coup De4+.][%hint Jouez votre dame en e4.]}\r\n1...Kd1\r\n    {Continuons par une double attaque sur le roi noir et son pion !}\r\n2.Qf3+\r\n    {[%wrong Ce coup n'est pas une double attaque. Cherchez encore !][%hint Mettez le roi noir en échec tout en attaque son pion passé.]}\r\n    (2.Qd4+ $6 Ke2 {C'est la bonne idée, mais cette double attaque met la dame noire sur une mauvaise case. Essayez de forcer le roi noir à aller sur e1 !})\r\n2...Ke1\r\n    {Parfait ! Encore une fois, forçons le roi noir à aller devant son pion.}\r\n3.Qe3+\r\n     {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n3...Kf1\r\n    {Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?}\r\n4.Kg4\r\n    {[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]}\r\n    (4.Kf4 $5 {ce coup est également tout à fait jouable, bien vu ! Essayons maintenant de mettre notre roi en g4.})\r\n    (4.Kh4 $5 {ce coup est également tout à fait jouable, bien vu ! Essayons maintenant de nous rapprocher encore plus de l'action en jouant notre roi en g4.})\r\n4...Kg2\r\n    {Superbe ! Nous avons maintenant plusieurs options. Choisissons la plus simple en clouant le pion tout en couvrant la case de promotion.}\r\n5.Qe2\r\n    {[%wrong Ce coup ne cloue pas le pion à son roi tout en couvrant la case de promotion. Cherchez encore !][%hint Empêchez le pion d'avancer en le clouant à son roi.]}\r\n    (5.Qg3+ $6 Kh1 {Cette échec ne nous simplifie pas la tâche, au contraire. Clouons plutôt le pion noir.})\r\n    (5.Qd2 $6 Kh1 {Ce coup cloue en effet le pion, mais sans couvrir la case de promotion. Essayez encore !})\r\n5...Kg1\r\n    {Bien joué ! Les noirs menacent de promouvoir leur pion, mais ce n'est pas un problème ! Trouvez la menace de mat fatale.}\r\n6.Kg3\r\n    {[%wrong Ce coup ne prépare pas le mat au prochain. Cherchez encore !][%hint Placez le roi de manière à ce qu'il soutienne un mat au prochain coup !]}\r\n    (6.Kf3 $2 f1=Q+ {Oups ! Les noirs promeuvent leur pion avec échec et annulent la partie ! Cherchez encore.})\r\n    (6.Kh3 $2 f1=Q+ {Oups ! Les noirs promeuvent leur pion avec échec et annulent la partie ! Cherchez encore.})\r\n6...f1=N+\r\n    {Excellent travail ! Trouvez maintenant le coup de roi fatal.}\r\n7.Kh3\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Placez le roi de manière à ce qu'il soutienne un mat au prochain coup sans pouvoir être mis en échec par le cavalier.] Votre technique sans failles vous a permis de remporter cette position complexe. Bien joué !}\r\n    (7.Kg4 $5 {suivi de Rh3 et mat au prochain est également très fort. Bien joué ! Trouvez maintenant le mat encore plus rapide !})\r\n    (7.Kh4 $5 Nh2 {suivi de Rh3 et mat au prochain est également très fort. Bien joué ! Trouvez maintenant le mat encore plus rapide !})\r\n    (7.Kf4 $6 Nh2 {Ce coup assure également la victoire, bien vu. Trouvez maintenant le mat encore plus rapide !})\r\n    (7.Kf3 $6 Nh2+ {Ce coup assure également la victoire, bien vu. Trouvez maintenant le mat encore plus rapide !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0b7210a6-9cef-11e8-b58e-050e49cce667",
+    "name": "La dame contre le pion",
+    "path": "dame-contre-pion",
+    "description": "Vous venez de promouvoir votre pion, mais votre adversaire est sur le point de faire de même. Comment l’arrêter ? Un pion sur la septième rangée est un adversaire très coriace pour la dame. Si le pion est sur les colonnes a, b, g ou h, la dame est gagnante. Il lui suffit de donner des échecs jusqu’à ce que le roi adverse doive se mettre sur la route de son propre pion, puis de rapprocher son propre roi de l'action. Attention, cependant, car le camp qui possède un pion en a, c, f ou h sur la septième rangée peut forcer la nulle grâce à un piège utilisant le thème du pat.",
+    "glyphName": "piece-combo-queen-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-queen-vs-pawn-t8r.mp4",
+    "fen": "8/8/8/Q7/8/8/1p4K1/2k5 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/6KQ/8/1k6/p7/8 w - - 0 1\"]\r\n\r\n{Les noirs sont sur le point de promouvoir leur pion ou de rentrer en force dans une finale dans laquelle leur pion sur la bande leur assure la nulle. Pourtant, il existe un moyen de gagner cette position ! Lequel ?}\r\n1.Qh8\r\n    {[%wrong Oups, les noirs parviennent à rentrer dans une position nulle ! Cherchez encore.][%hint Le seul moyen de l'emporter consiste à contrôler la diagonale de la case de promotion et bloquer cette case avec notre dame. C'est un plan en deux coups !]}\r\n    (1.Qh1 $2 Kb2 {Les noirs vont annuler car le pion est sur la bande. Cherchez encore !})\r\n1...Kc2\r\n    {Bien vu ! La dame blanche prend le contrôle de la diagonale de la case de promotion. Encore une fois, les blancs n'ont qu'un seul coup gagnant. Lequel ?}\r\n2.Qa1\r\n    {[%wrong Nous ne pouvons pas laisser le roi noir entrer en contact avec son pion passé sur les deux premières rangées ! Essayez encore.][%hint Faites barrage au pion passé !] Joli ! La dame blanche occupe la case de promotion, empêchant le roi noir de rentrer dans la zone du pion.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/6K1/8/1Q6/p7/1k6 b - - 0 1\"]\r\n\r\n{Cette finale est censée être nulle à cause du pion sur la bande... Vraiment ? Prouvons-le !}\r\n1...Ka1\r\n    {[%hint Un coup annule, l'autre perd immédiatement. Choisissez judicieusement !]}\r\n    (1...Kc1 $2 2.Qxa2 {Pour survivre à cette position, il nous faut à tout prix protéger notre pion. Cherchez encore !})\r\n2.Qd1+\r\n    {Bien joué ! Le roi noir menace d'être pat, les blancs sont donc dans l'obligation de le mettre en échec. Jouez le seul coup.}\r\n2...Kb2\r\n    {[%hint Jouez le seul coup autorisé !]}\r\n3.Qd4+\r\n    {Nous avons maintenant plusieurs options, mais une seule nous permet d'annuler ! Réfléchissez bien !}\r\n3...Kb1\r\n    {[%wrong Oups ! Ce coup laisse les blancs jouer Da1, bloquant notre pion et gagnant la partie. Cherchez encore !][%hint Quel est le seul coup couvrant à la fois le pion et la case de promotion ?]}\r\n4.Qb4+\r\n    {Bien vu ! Les noirs ont maintenant plusieurs options, mais le plus simple reste de menacer pat !}\r\n4...Ka1\r\n    {[%wrong Ce coup ne menace pas de faire pat au prochain. Cherchez encore !][%hint Mettez votre roi sur une case d'où, si le trait lui revenait, il ne pourrait plus bouger.] Bien joué ! Les blancs ne peuvent plus progresser.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6K1/Q7/8/8/3p4/2k5 w - - 4 3\"]\r\n\r\n{Prêt à montrer toute votre technique en finale ? Commençons par forcer le roi noir à aller devant son pion !}\r\n3.Qc3+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n3...Kd1\r\n    {Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?}\r\n4.Kf5\r\n    {[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]}\r\n    (4.Kg5 $5 {C'est la bonne idée, mais il est possible de rapprocher encore plus notre roi de l'action. Comment ?})\r\n4...Ke2\r\n    {Beau travail ! Les noirs menacent à nouveau de promouvoir leur pion. Comment le clouer tout en couvrant la case de promotion ?}\r\n5.Qc2\r\n    {[%wrong Ce coup ne cloue pas le pion à son roi tout en couvrant la case de promotion. Cherchez encore !][%hint Empêchez le pion d'avancer en le clouant à son roi.]}\r\n5...Ke1\r\n    {Bien vu ! Encore une fois, les noirs menacent de promouvoir. Donnez un échec au roi noir pour le forcer à aller devant son pion où à relâcher sa défense.}\r\n6.Qe4+\r\n    {[%wrong Ce n'est pas l'échec que nous cherchons ! Essayez encore.][%hint Trouvez l'échec qui contraint le roi noir à bloquer son pion.]}\r\n6...Kf1\r\n    {La dame entame sa danse mortelle ! Enchaînons avec une double attaque sur le roi noir et son pion passé.}\r\n7.Qd3+\r\n    {[%wrong Ce n'est pas une double attaque. Essayez encore !][%hint Trouvez la case sur laquelle votre dame attaque à la fois le pion et le roi noir pour forcer ce dernier à se rendre en e1.]}\r\n    (7.Qf4+ $2 Ke2 {C'est la bonne idée, mais cette double attaque met la dame noire sur une mauvaise case. Essayez de forcer le roi noir à aller sur e1 !})\r\n7...Ke1\r\n    {Parfait ! Encore une fois, forçons le roi noir à aller devant son pion.}\r\n8.Qe3+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n8...Kd1\r\n    {Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?}\r\n9.Ke4\r\n    {[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]}\r\n9...Kc2\r\n    {Joli ! Le roi blanc vient faire la différence. Utilisez-le comme soutien pour donner le prochain échec !}\r\n10.Qd3+\r\n    {[%wrong Il ne s'agit pas d'un échec de dame donné grâce à la couverture du roi blanc. Cherchez encore !][%hint Nous sommes à la recherche d'une case bien précise...]}\r\n10...Kc1\r\n    {Trouvé ! Le roi noir refuse à tout prix d'aller devant son pion, mais nous avons les moyens de l'y forcer !}\r\n11.Qc3+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n11...Kd1\r\n    {Superbe ! Terminons maintenant le travail en ramenant notre roi au cœur de l'action.}\r\n12.Ke3\r\n     {[%wrong Ce coup ne ramène pas le roi au cœur de l'action. Cherchez encore !][%hint Le roi finit son voyage...] Quelle technique ! Les blancs vont gagner le pion au prochain coup et mater juste après. Bravo !}\r\n    (12.Kd3 $5 {Un coup très fort, bien joué ! Essayons maintenant de mettre notre roi en e3.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/1K1Q4/8/8/5p2/8/6k1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Parviendrez-vous à annuler cette position ?}\r\n1...f2\r\n    {[%wrong Oups ! Les blancs sont désormais gagnants. Il faut pousser notre pion au plus vite !][%hint Notre seule chance est de menacer de promouvoir notre pion !]}\r\n2.Qg3+\r\n    {Bien joué ! Les noirs menacent de promouvoir leur pion, et les blancs répondent pas une double attaque. Trouvez le meilleur coup !}\r\n2...Kh1\r\n    {[%hint N'oubliez pas le thème du pat !]}\r\n    (2...Kf1 $6 {Ce coup va sans doute nous permettre d'annuler quand même, car le roi blanc est très éloigné de l'action, mais dans l'absolu, il est inutile de bloquer notre pion passé à moins d'y être obligé. Cherchez encore !})\r\n3.Qf3+\r\n    {Une idée de pat très maligne. C'est le seul moyen d'annuler dans cette position ! Comment continuer ?}\r\n3...Kg1\r\n    {[%hint N'oubliez pas de protéger votre pion...]}\r\n    (3...Kh2 $2 4.Qxf2+ {Il faut à tout prix continuer à protéger le pion ! Essayez encore...})\r\n4.Qe3\r\n    {Beau boulot ! Les blancs clouent notre pion. Quel est le moyen le plus simple de tenir la nulle ?}\r\n4...Kh1\r\n    {[%hint N'oubliez pas le thème du pat !] Et voilà ! Les blancs ne peuvent plus progresser. Bien joué !}\r\n    (4...Kg2 $5 {Ce coup est bon. Mais n'oubliez pas notre puissance ressource de pat !})\r\n    (4...Kf1 $6 {Ce coup va sans doute nous permettre d'annuler quand même, car le roi blanc est très éloigné de l'action, mais dans l'absolu, il est inutile de bloquer notre pion passé à moins d'y être obligé. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2Q5/6K1/8/8/4kp2/8 w - - 0 1\"]\r\n\r\n{Les finales pion c ou f contre dame sont généralement nulles, mais il existe aussi des moyens de les gagner ! Commençons par l'échec De4+.}\r\n1.Qe4+\r\n    {[%wrong Commençons si vous le voulez bien par le coup De4+.][%hint Jouez votre dame en e4.]}\r\n1...Kd1\r\n    {Continuons par une double attaque sur le roi noir et son pion !}\r\n2.Qf3+\r\n    {[%wrong Ce coup n'est pas une double attaque. Cherchez encore !][%hint Mettez le roi noir en échec tout en attaque son pion passé.]}\r\n    (2.Qd4+ $6 Ke2 {C'est la bonne idée, mais cette double attaque met la dame noire sur une mauvaise case. Essayez de forcer le roi noir à aller sur e1 !})\r\n2...Ke1\r\n    {Parfait ! Encore une fois, forçons le roi noir à aller devant son pion.}\r\n3.Qe3+\r\n     {[%wrong Ce coup ne force pas le roi noir à aller devant son pion. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à aller devant son pion sous peine de le perdre.]}\r\n3...Kf1\r\n    {Très bien ! Maintenant que le roi bloque l'avancée de son propre pion, comment continuer ?}\r\n4.Kg4\r\n    {[%wrong Ce coup ne rapproche pas notre roi de l'action. Cherchez encore !][%hint Maintenant que les noirs ne menacent plus de promouvoir leur pion, nous avons le temps de rapprocher notre roi de l'action !]}\r\n    (4.Kf4 $5 {ce coup est également tout à fait jouable, bien vu ! Essayons maintenant de mettre notre roi en g4.})\r\n    (4.Kh4 $5 {ce coup est également tout à fait jouable, bien vu ! Essayons maintenant de nous rapprocher encore plus de l'action en jouant notre roi en g4.})\r\n4...Kg2\r\n    {Superbe ! Nous avons maintenant plusieurs options. Choisissons la plus simple en clouant le pion tout en couvrant la case de promotion.}\r\n5.Qe2\r\n    {[%wrong Ce coup ne cloue pas le pion à son roi tout en couvrant la case de promotion. Cherchez encore !][%hint Empêchez le pion d'avancer en le clouant à son roi.]}\r\n    (5.Qg3+ $6 Kh1 {Cette échec ne nous simplifie pas la tâche, au contraire. Clouons plutôt le pion noir.})\r\n    (5.Qd2 $6 Kh1 {Ce coup cloue en effet le pion, mais sans couvrir la case de promotion. Essayez encore !})\r\n5...Kg1\r\n    {Bien joué ! Les noirs menacent de promouvoir leur pion, mais ce n'est pas un problème ! Trouvez la menace de mat fatale.}\r\n6.Kg3\r\n    {[%wrong Ce coup ne prépare pas le mat au prochain. Cherchez encore !][%hint Placez le roi de manière à ce qu'il soutienne un mat au prochain coup !]}\r\n    (6.Kf3 $2 f1=Q+ {Oups ! Les noirs promeuvent leur pion avec échec et annulent la partie ! Cherchez encore.})\r\n    (6.Kh3 $2 f1=Q+ {Oups ! Les noirs promeuvent leur pion avec échec et annulent la partie ! Cherchez encore.})\r\n6...f1=N+\r\n    {Excellent travail ! Trouvez maintenant le coup de roi fatal.}\r\n7.Kh3\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Placez le roi de manière à ce qu'il soutienne un mat au prochain coup sans pouvoir être mis en échec par le cavalier.] Votre technique sans failles vous a permis de remporter cette position complexe. Bien joué !}\r\n    (7.Kg4 $5 {suivi de Rh3 et mat au prochain est également très fort. Bien joué ! Trouvez maintenant le mat encore plus rapide !})\r\n    (7.Kh4 $5 Nh2 {suivi de Rh3 et mat au prochain est également très fort. Bien joué ! Trouvez maintenant le mat encore plus rapide !})\r\n    (7.Kf4 $6 Nh2 {Ce coup assure également la victoire, bien vu. Trouvez maintenant le mat encore plus rapide !})\r\n    (7.Kf3 $6 Nh2+ {Ce coup assure également la victoire, bien vu. Trouvez maintenant le mat encore plus rapide !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrez quand une dame peut gérer un pion sur la septième rangée en finale.",
+    "outroText": "Bien joué. Les pions sont plus ou moins forts selon leur colonne en finale.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "path": "motifs-de-finales",
+      "title": "Motifs de finale",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/88fecd30-a55e-11e8-b04a-53817ee2115a.dd294b02.728x410o.de2eb5921014.png"
+    },
+    "parentId": "d36e44ee-83b8-11e8-99d0-ebc8bd2f6fc9",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/queen-vs-pawn5d125eb21c257.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/queen-vs-pawn-15ea23d2742c24.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/queen-vs-pawn-36061d552049b6.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 134,
+    "order": 6,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "name": "Motifs de finale",
+      "path": "motifs-de-finales",
+      "order": 7
+    }
+  }
+}

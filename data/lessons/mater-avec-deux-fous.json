@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/motifs-de-finales/mater-avec-deux-fous",
+  "capturedAt": "2026-10-22T12:23:55.638Z",
+  "title": "Mater avec deux fous",
+  "exercises": [
+    {
+      "fen": "7k/8/7K/2B5/8/1B6/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Voici la position de rêve. Les blancs jouent et gagnent.",
+        "[%wrong Ce coup ne mate pas en un, cherchez encore !][%hint Quel est le seul échec de la position ?] Bien joué ! Nous avons commencé par découvrir la position de rêve. Mais comment en faire une réalité ? Suivez le guide !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"one\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/7K/2B5/8/1B6/8/8 w - - 0 1\"]\r\n\r\n{Voici la position de rêve. Les blancs jouent et gagnent.}\r\n1.Bd4#\r\n    {[%wrong Ce coup ne mate pas en un, cherchez encore !][%hint Quel est le seul échec de la position ?] Bien joué ! Nous avons commencé par découvrir la position de rêve. Mais comment en faire une réalité ? Suivez le guide !}\r\n*"
+    },
+    {
+      "fen": "5k2/8/5BK1/8/4B3/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs veulent aller en e8 au prochain coup. Comment empêcher cette idée ? Forcez le roi à se rendre sur la funeste case h8 !",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la case g8. Cherchez encore !][%hint Quelle pièce peut contrôler la case e8 ?]",
+        "Joliment fait ! Le roi se retrouve peu à peu poussé vers h8. Comment l'empêcher de revenir en f8 ?",
+        "[%wrong Ce coup n'empêche pas le roi noir d'aller en f8. Cherchez encore !][%hint Comment forcer le roi à continuer sa route vers le coin ?]",
+        "Attention aux pats ! Cherchez encore.",
+        "Beau travail Le roi noir doit se rendre dans le coin. Choisissons maintenant entre les coups Fd5, Rf6, ou Rh6.",
+        "[%wrong Nous devons choisir entre les coups Fd5, Rf6, ou Rh6. Prenez votre temps !][%hint Une seule de ces options force le roi noir à aller en g8, ce qui nous permettrait d’enchaîner par un mat en deux.]",
+        "Le roi noir échappe à la huitième rangée ! Cherchez encore.",
+        "Attention aux pats ! Cherchez encore.",
+        "Excellent choix ! Le roi noir est forcé de se rendre sur la case g8. Trouvez maintenant le mat en deux !",
+        "[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...]",
+        "Bravo ! Eh bien, matez maintenant !",
+        "[%wrong Ce n'est pas mat ! Essayez encore.][%hint Trouvez l'échec, c'est trouver le mat...] Bravo, vous avez su tisser une toile mortelle autour du roi adverse !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/8/5BK1/8/4B3/8/8/8 w - - 0 1\"]\r\n\r\n{Les noirs veulent aller en e8 au prochain coup. Comment empêcher cette idée ? Forcez le roi à se rendre sur la funeste case h8 !}\r\n1.Bc6\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la case g8. Cherchez encore !][%hint Quelle pièce peut contrôler la case e8 ?]}\r\n1...Kg8\r\n    {Joliment fait ! Le roi se retrouve peu à peu poussé vers h8. Comment l'empêcher de revenir en f8 ?}\r\n2.Be7\r\n    {[%wrong Ce coup n'empêche pas le roi noir d'aller en f8. Cherchez encore !][%hint Comment forcer le roi à continuer sa route vers le coin ?]}\r\n    (2.Bg7 $2 {Attention aux pats ! Cherchez encore.})\r\n2...Kh8\r\n    {Beau travail Le roi noir doit se rendre dans le coin. Choisissons maintenant entre les coups Fd5, Rf6, ou Rh6.}\r\n3.Kh6\r\n    {[%wrong Nous devons choisir entre les coups Fd5, Rf6, ou Rh6. Prenez votre temps !][%hint Une seule de ces options force le roi noir à aller en g8, ce qui nous permettrait d’enchaîner par un mat en deux.]}\r\n    (3.Kf6 $2 Kh7 {Le roi noir échappe à la huitième rangée ! Cherchez encore.})\r\n    (3.Bd5 $2 {Attention aux pats ! Cherchez encore.})\r\n3...Kg8\r\n    {Excellent choix ! Le roi noir est forcé de se rendre sur la case g8. Trouvez maintenant le mat en deux !}\r\n4.Bd5+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...]}\r\n4...Kh8\r\n    {Bravo ! Eh bien, matez maintenant !}\r\n5.Bf6#\r\n    {[%wrong Ce n'est pas mat ! Essayez encore.][%hint Trouvez l'échec, c'est trouver le mat...] Bravo, vous avez su tisser une toile mortelle autour du roi adverse !}\r\n*"
+    },
+    {
+      "fen": "8/8/8/8/3k4/8/8/2B1KB2 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Intéressons-nous maintenant à un exemple important. Nos fous peuvent être mobilisés rapidement. Il est donc nécessaire d'activer le roi en priorité. Commençons par jouer Re2 !",
+        "[%wrong Commençons, si vous le voulez bien, par jouer le coup Re2.][%hint Jouez votre roi en e2.]",
+        "Très bien. Trouvez maintenant un coup de roi permettant de prendre l'opposition horizontale.",
+        "[%wrong Ce coup ne nous permet pas de prendre l'opposition horizontale. Cherchez encore !][%hint Pour prendre l'opposition horizontale, vous devez vous placez un cran en face du roi adverse sur la même ligne.]",
+        "Bien vu ! Le roi noir attaque notre fou de cases noires. Placez ce dernier de manière à ce qu'il empêche le roi noir de franchir les diagonales e1-a5 et f1-a6 à tout jamais.",
+        "[%wrong Ce coup ne permet pas à notre fou de contrôler la diagonale e1-a5. Cherchez encore !][%hint Trouvez une case hospitalière pour votre fou sur la diagonale e1-a5.] Superbe ! Vous avez enfermé le roi noir dans une prison en diagonale ! Nous allons maintenant réduire l'espace accordé au roi noir jusqu'à l'étouffer complètement, comme dans les exemples précédents. Attention aux pats, et tout devrait bien se passer !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3k4/8/8/2B1KB2 w - - 0 1\"]\r\n\r\n{Intéressons-nous maintenant à un exemple important. Nos fous peuvent être mobilisés rapidement. Il est donc nécessaire d'activer le roi en priorité. Commençons par jouer Re2 !}\r\n1.Ke2\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer le coup Re2.][%hint Jouez votre roi en e2.]}\r\n1...Kc3\r\n    {Très bien. Trouvez maintenant un coup de roi permettant de prendre l'opposition horizontale.}\r\n2.Ke3\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition horizontale. Cherchez encore !][%hint Pour prendre l'opposition horizontale, vous devez vous placez un cran en face du roi adverse sur la même ligne.]}\r\n2...Kc2\r\n    {Bien vu ! Le roi noir attaque notre fou de cases noires. Placez ce dernier de manière à ce qu'il empêche le roi noir de franchir les diagonales e1-a5 et f1-a6 à tout jamais.}\r\n3.Bd2\r\n    {[%wrong Ce coup ne permet pas à notre fou de contrôler la diagonale e1-a5. Cherchez encore !][%hint Trouvez une case hospitalière pour votre fou sur la diagonale e1-a5.] Superbe ! Vous avez enfermé le roi noir dans une prison en diagonale ! Nous allons maintenant réduire l'espace accordé au roi noir jusqu'à l'étouffer complètement, comme dans les exemples précédents. Attention aux pats, et tout devrait bien se passer !}\r\n*"
+    },
+    {
+      "fen": "8/8/8/8/8/2k5/4K3/2B2B2 w - - 2 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Encore une fois, prenons l'opposition horizontale et observons la réaction du roi noir !",
+        "[%wrong Ce coup ne nous permet pas de prendre l'opposition horizontale. Cherchez encore !][%hint Pour prendre l'opposition horizontale, vous devez vous placez un cran en face du roi adverse sur la même ligne.]",
+        "Très bien. Le roi noir souhaite maintenant se rendre en c5. Prenons à nouveau l'opposition et empêchons l'idée adverse !",
+        "[%wrong Ce coup ne nous permet pas de prendre l'opposition. Cherchez encore !][%hint Où placer notre roi pour qu'il empêche le roi adverse d'aller en c5 ?]",
+        "Voilà ! Le roi noir fuit vers le coin en visant la case b6. Empêchons-le !",
+        "[%wrong Ce coup ne nous permet pas de prendre l'opposition. Cherchez encore !][%hint Où placer notre roi pour qu'il empêche le roi adverse d'aller en b6 ?]",
+        "Votre joli jeu d'opposition a repoussé le roi noir sur le bord de l'échiquier. Trouvez maintenant le coup de fou qui l'empêche de revenir en a5 !",
+        "[%wrong Ce n'est pas un coup de fou empêchant le roi noir d'aller en a5. Cherchez encore !][%hint Où placez le fou de cases noires ?] Superbe ! Le roi noir est acculé et ne peut plus nous échapper."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/2k5/4K3/2B2B2 w - - 2 2\"]\r\n\r\n{Encore une fois, prenons l'opposition horizontale et observons la réaction du roi noir !}\r\n2.Ke3\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition horizontale. Cherchez encore !][%hint Pour prendre l'opposition horizontale, vous devez vous placez un cran en face du roi adverse sur la même ligne.]}\r\n2...Kb4\r\n    {Très bien. Le roi noir souhaite maintenant se rendre en c5. Prenons à nouveau l'opposition et empêchons l'idée adverse !}\r\n3.Kd4\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition. Cherchez encore !][%hint Où placer notre roi pour qu'il empêche le roi adverse d'aller en c5 ?]}\r\n3...Ka5\r\n    {Voilà ! Le roi noir fuit vers le coin en visant la case b6. Empêchons-le !}\r\n4.Kc5\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition. Cherchez encore !][%hint Où placer notre roi pour qu'il empêche le roi adverse d'aller en b6 ?]}\r\n4...Ka4\r\n    {Votre joli jeu d'opposition a repoussé le roi noir sur le bord de l'échiquier. Trouvez maintenant le coup de fou qui l'empêche de revenir en a5 !}\r\n5.Bd2\r\n    {[%wrong Ce n'est pas un coup de fou empêchant le roi noir d'aller en a5. Cherchez encore !][%hint Où placez le fou de cases noires ?] Superbe ! Le roi noir est acculé et ne peut plus nous échapper.}\r\n*"
+    },
+    {
+      "fen": "8/8/8/8/4k3/8/4K3/2B2B2 w - - 2 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette fois, les noirs nous opposent la meilleure stratégie en tentant de garder le roi au centre aussi longtemps que possible. Partons à la chasse ! Commençons par trouver le coup qui force le roi noir à se rendre sur la cinquième rangée.",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la cinquième rangée. Cherchez encore !][%hint Contrôlez les cases d4 et f4 pour forcer le roi noir à aller sur la cinquième.]",
+        "Bien joué ! Le roi noir doit se rendre sur la cinquième rangée. Coup après coup, nous allons ainsi le repousser sur la bande ! Activons maintenant notre roi de manière à l'empêcher de revenir sur la quatrième. Jouez Rd3 !",
+        "[%wrong Jouez Rd3 !][%hint Jouez Rd3.]",
+        "Et maintenant, comment forcer le roi adverse à aller sur la sixième rangée ?",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la sixième rangée. Cherchez encore !][%hint Contrôlez les cases c5 et e5 pour forcer le roi noir à aller sur la cinquième.]",
+        "Beau boulot ! Trouvez maintenant le fort coup de roi empêchant le roi adverse de revenir sur la cinquième rangée et ouvrant la diagonale f1-a6 pour le fou.",
+        "[%wrong Ce coup n'empêche pas le roi adverse de revenir sur la cinquième rangée et ouvrant la diagonale f1-a6 pour le fou. Cherchez encore !][%hint Trouvez pour votre roi une case d'où il couvrira d5.]",
+        "Ce coup empêche effectivement le roi noir de revenir sur la cinquième rangée, mais il n'ouvre pas la diagonale f1-a6 pour notre fou. Cherchez encore !",
+        "Notre fou va maintenant rejoindre les autres pièces sur la quatrième rangée en donnant un puissant échec... A vous de jouer !",
+        "[%wrong Non, ce n'est pas l'échec du fou de cases blanches que nous cherchons !][%hint Où est l'échec possible sur la quatrième rangée ?]",
+        "Ce coup est également jouable, mais le fou sera plus efficace sur la quatrième rangée. Essayez encore !",
+        "Le roi noir tente de rester sur la sixième rangée à tout prix. Repoussons-le sur la septième !",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la septième rangée. Cherchez encore !][%hint Contrôlez les cases e6 et c6 pour forcer le roi noir à aller sur la septième.]",
+        "Coup après coup, vous repoussez le roi noir vers son destin. Beau travail ! Avançons maintenant le roi pour l'empêcher de revenir sur la sixième rangée !",
+        "[%wrong Ce coup n'empêche pas le roi adverse de revenir sur la sixième rangée. Cherchez encore !][%hint Où placer notre roi pour empêcher l'adversaire d'aller en d6 ?]",
+        "Beau travail ! Notre fou de cases noires souhaite maintenant rejoindre ses compères sur la cinquième rangée. Comment faire ?",
+        "[%wrong Ce coup ne place pas le fou de cases noires sur la cinquième rangée. Cherchez encore !][%hint Quelle case va accueillir avec plaisir notre fou de cases noires sur la cinquième ?]",
+        "L'harmonie de vos pièces est remarquable ! Nous allons maintenant pouvoir forcer le roi noir à aller sur la huitième rangée ! Comment faire ?",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la huitième rangée. Cherchez encore !][%hint Contrôlez les cases c7 et e7 pour forcer le roi noir à aller sur la huitième.]",
+        "Cette progression prudente et inéluctable nous rapproche de plus en plus du mat. Visons la case h8 ! Comment forcer le roi à aller en e8 ?",
+        "[%wrong Ce coup ne force pas le roi à aller en e8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler à la fois d7 et c8.]",
+        "Bien vu ! Il est maintenant temps pour votre roi de s'inviter sur la sixième rangée !",
+        "[%wrong Ce coup ne place pas le roi sur la sixième. Cherchez encore !][%hint Où placer le roi sur la sixième ?]",
+        "Le roi noir fait tout pour nous compliquer la vie ! Comme nous ne pouvons améliorer aucune pièce, jouons un coup d'attente. Il y a plusieurs options, mais pour cette fois, choisissons Fe5...",
+        "[%wrong Jouez Fe5 !][%hint Jouez Fe5.]",
+        "Oups ! Attention aux pats ! Jouez Fe5.",
+        "Nous y sommes presque ! Comment forcer le roi noir à revenir sur la case f8 ?",
+        "[%wrong Ce coup ne force pas le roi à aller en f8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler d8.]",
+        "Joli ! Comment empêcher le roi de revenir en e8?",
+        "[%wrong Ce coup ne force pas le roi à aller en g8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler e8.]",
+        "Attention, le seul piège des noirs est le pat ! Soyez vigilants.",
+        "Les fous ont acculé le roi noir dans le coin. Celui-ci tente maintenant de s'échapper via la case h7. Comment l'en empêcher avec le roi ?",
+        "[%wrong Ce n'est pas un coup de roi empêchant ...Rh7. Cherchez encore !][%hint Trouvez la case idéale pour le roi.]",
+        "Les noirs évitent la case f8 car Fd6+ materait rapidement. Mais, même dans cette position, nous avons un mat en trois ! Couvrons la case f8 et préparons-nous à finir en beauté !",
+        "[%wrong Ce coup ne couvre pas la case f8. Cherchez encore !][%hint Comment couvrir f8 sans laisser le roi noir échapper à la dernière rangée ?]",
+        "Oups ! Le roi noir échappe à la dernière rangée. Trouvons un autre coup couvrant la case f8 sans laisser le roi noir nous échapper !",
+        "Attention aux pats !",
+        "Parfait. Il est maintenant temps de trouver le mat en deux !",
+        "[%wrong Ce coup ne mène pas à un mat en deux. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...]",
+        "Et voilà ! Vous pouvez mater !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...] Félicitations ! Vous avez montré une très belle technique en forçant le roi noir à se réfugier dans le coin avant de le mater en force. Continuez à travailler votre jeu et vous devriez faire des progrès rapides !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4k3/8/4K3/2B2B2 w - - 2 2\"]\r\n\r\n{Cette fois, les noirs nous opposent la meilleure stratégie en tentant de garder le roi au centre aussi longtemps que possible. Partons à la chasse ! Commençons par trouver le coup qui force le roi noir à se rendre sur la cinquième rangée.} \r\n2.Be3 \r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la cinquième rangée. Cherchez encore !][%hint Contrôlez les cases d4 et f4 pour forcer le roi noir à aller sur la cinquième.]}\r\n2...Ke5 \r\n    {Bien joué ! Le roi noir doit se rendre sur la cinquième rangée. Coup après coup, nous allons ainsi le repousser sur la bande ! Activons maintenant notre roi de manière à l'empêcher de revenir sur la quatrième. Jouez Rd3 !}\r\n3.Kd3 \r\n    {[%wrong Jouez Rd3 !][%hint Jouez Rd3.]}\r\n3...Kd5 \r\n    {Et maintenant, comment forcer le roi adverse à aller sur la sixième rangée ?}\r\n4.Bd4 \r\n   {[%wrong Ce coup ne force pas le roi noir à aller sur la sixième rangée. Cherchez encore !][%hint Contrôlez les cases c5 et e5 pour forcer le roi noir à aller sur la cinquième.]}\r\n4...Kd6 \r\n    {Beau boulot ! Trouvez maintenant le fort coup de roi empêchant le roi adverse de revenir sur la cinquième rangée et ouvrant la diagonale f1-a6 pour le fou.}\r\n5.Ke4 \r\n    {[%wrong Ce coup n'empêche pas le roi adverse de revenir sur la cinquième rangée et ouvrant la diagonale f1-a6 pour le fou. Cherchez encore !][%hint Trouvez pour votre roi une case d'où il couvrira d5.]}\r\n    ( 5.Kc4 $5 {Ce coup empêche effectivement le roi noir de revenir sur la cinquième rangée, mais il n'ouvre pas la diagonale f1-a6 pour notre fou. Cherchez encore !})\r\n5...Ke6 \r\n    {Notre fou va maintenant rejoindre les autres pièces sur la quatrième rangée en donnant un puissant échec... A vous de jouer !}\r\n6.Bc4+ \r\n    {[%wrong Non, ce n'est pas l'échec du fou de cases blanches que nous cherchons !][%hint Où est l'échec possible sur la quatrième rangée ?]}\r\n    ( 6.Bh3+ $5 {Ce coup est également jouable, mais le fou sera plus efficace sur la quatrième rangée. Essayez encore !})\r\n6...Kd6 \r\n    {Le roi noir tente de rester sur la sixième rangée à tout prix. Repoussons-le sur la septième !}\r\n7.Bd5 \r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la septième rangée. Cherchez encore !][%hint Contrôlez les cases e6 et c6 pour forcer le roi noir à aller sur la septième.]}\r\n7...Kd7 \r\n    {Coup après coup, vous repoussez le roi noir vers son destin. Beau travail ! Avançons maintenant le roi pour l'empêcher de revenir sur la sixième rangée !}\r\n8.Ke5 \r\n    {[%wrong Ce coup n'empêche pas le roi adverse de revenir sur la sixième rangée. Cherchez encore !][%hint Où placer notre roi pour empêcher l'adversaire d'aller en d6 ?]}\r\n8...Kc7 \r\n    {Beau travail ! Notre fou de cases noires souhaite maintenant rejoindre ses compères sur la cinquième rangée. Comment faire ?}\r\n9.Bc5 \r\n    {[%wrong Ce coup ne place pas le fou de cases noires sur la cinquième rangée. Cherchez encore !][%hint Quelle case va accueillir avec plaisir notre fou de cases noires sur la cinquième ?]}\r\n9...Kd7 \r\n    {L'harmonie de vos pièces est remarquable ! Nous allons maintenant pouvoir forcer le roi noir à aller sur la huitième rangée ! Comment faire ?}\r\n10.Bd6 \r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la huitième rangée. Cherchez encore !][%hint Contrôlez les cases c7 et e7 pour forcer le roi noir à aller sur la huitième.]}\r\n10...Kd8 \r\n    {Cette progression prudente et inéluctable nous rapproche de plus en plus du mat. Visons la case h8 ! Comment forcer le roi à aller en e8 ?}\r\n11.Be6 \r\n    {[%wrong Ce coup ne force pas le roi à aller en e8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler à la fois d7 et c8.]}\r\n11...Ke8 \r\n    {Bien vu ! Il est maintenant temps pour votre roi de s'inviter sur la sixième rangée !}\r\n12.Kf6 \r\n    {[%wrong Ce coup ne place pas le roi sur la sixième. Cherchez encore !][%hint Où placer le roi sur la sixième ?]}\r\n12...Kd8 \r\n    {Le roi noir fait tout pour nous compliquer la vie ! Comme nous ne pouvons améliorer aucune pièce, jouons un coup d'attente. Il y a plusieurs options, mais pour cette fois, choisissons Fe5...}\r\n13.Be5 \r\n    {[%wrong Jouez Fe5 !][%hint Jouez Fe5.]}\r\n    ( 13.Kf7 $2 {Oups ! Attention aux pats ! Jouez Fe5.})\r\n13...Ke8 \r\n    {Nous y sommes presque ! Comment forcer le roi noir à revenir sur la case f8 ?}\r\n14.Bc7 \r\n    {[%wrong Ce coup ne force pas le roi à aller en f8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler d8.]}\r\n14...Kf8 \r\n    {Joli ! Comment empêcher le roi de revenir en e8?}\r\n15.Bd7 \r\n    {[%wrong Ce coup ne force pas le roi à aller en g8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler e8.]}\r\n    ( 15.Bf7 $2 {Attention, le seul piège des noirs est le pat ! Soyez vigilants.})\r\n15...Kg8 \r\n    {Les fous ont acculé le roi noir dans le coin. Celui-ci tente maintenant de s'échapper via la case h7. Comment l'en empêcher avec le roi ?}\r\n16.Kg6 \r\n    {[%wrong Ce n'est pas un coup de roi empêchant ...Rh7. Cherchez encore !][%hint Trouvez la case idéale pour le roi.]}\r\n16...Kh8 \r\n    {Les noirs évitent la case f8 car Fd6+ materait rapidement. Mais, même dans cette position, nous avons un mat en trois ! Couvrons la case f8 et préparons-nous à finir en beauté !}\r\n17.Bd6 \r\n    {[%wrong Ce coup ne couvre pas la case f8. Cherchez encore !][%hint Comment couvrir f8 sans laisser le roi noir échapper à la dernière rangée ?]}\r\n    ( 17.Kf7 $6 Kh7 {Oups ! Le roi noir échappe à la dernière rangée. Trouvons un autre coup couvrant la case f8 sans laisser le roi noir nous échapper !})\r\n    ( 17.Be6 $2 {Attention aux pats !})\r\n17...Kg8 \r\n    {Parfait. Il est maintenant temps de trouver le mat en deux !}\r\n18.Be6+ \r\n    {[%wrong Ce coup ne mène pas à un mat en deux. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...]}\r\n18...Kh8 \r\n    {Et voilà ! Vous pouvez mater !}\r\n19.Be5# \r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...] Félicitations ! Vous avez montré une très belle technique en forçant le roi noir à se réfugier dans le coin avant de le mater en force. Continuez à travailler votre jeu et vous devriez faire des progrès rapides !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "1a57c200-9cef-11e8-80ca-5f5dd159a430",
+    "name": "Mater avec deux fous",
+    "path": "mater-avec-deux-fous",
+    "description": "Un thème très rare, mais qu’il vous faudra connaître pour gagner les finales roi et deux fous contre roi. La paire de fous peut en effet former un mur infranchissable par le roi adverse. Il est ensuite possible de le forcer à aller dans un coin de l’échiquier, où il sera maté.",
+    "glyphName": "piece-pair-bishop",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-two-bishop-checkmate-z6a.mp4",
+    "fen": "7k/8/4BB1K/8/8/8/8/8 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"one\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/7K/2B5/8/1B6/8/8 w - - 0 1\"]\r\n\r\n{Voici la position de rêve. Les blancs jouent et gagnent.}\r\n1.Bd4#\r\n    {[%wrong Ce coup ne mate pas en un, cherchez encore !][%hint Quel est le seul échec de la position ?] Bien joué ! Nous avons commencé par découvrir la position de rêve. Mais comment en faire une réalité ? Suivez le guide !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/8/5BK1/8/4B3/8/8/8 w - - 0 1\"]\r\n\r\n{Les noirs veulent aller en e8 au prochain coup. Comment empêcher cette idée ? Forcez le roi à se rendre sur la funeste case h8 !}\r\n1.Bc6\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la case g8. Cherchez encore !][%hint Quelle pièce peut contrôler la case e8 ?]}\r\n1...Kg8\r\n    {Joliment fait ! Le roi se retrouve peu à peu poussé vers h8. Comment l'empêcher de revenir en f8 ?}\r\n2.Be7\r\n    {[%wrong Ce coup n'empêche pas le roi noir d'aller en f8. Cherchez encore !][%hint Comment forcer le roi à continuer sa route vers le coin ?]}\r\n    (2.Bg7 $2 {Attention aux pats ! Cherchez encore.})\r\n2...Kh8\r\n    {Beau travail Le roi noir doit se rendre dans le coin. Choisissons maintenant entre les coups Fd5, Rf6, ou Rh6.}\r\n3.Kh6\r\n    {[%wrong Nous devons choisir entre les coups Fd5, Rf6, ou Rh6. Prenez votre temps !][%hint Une seule de ces options force le roi noir à aller en g8, ce qui nous permettrait d’enchaîner par un mat en deux.]}\r\n    (3.Kf6 $2 Kh7 {Le roi noir échappe à la huitième rangée ! Cherchez encore.})\r\n    (3.Bd5 $2 {Attention aux pats ! Cherchez encore.})\r\n3...Kg8\r\n    {Excellent choix ! Le roi noir est forcé de se rendre sur la case g8. Trouvez maintenant le mat en deux !}\r\n4.Bd5+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...]}\r\n4...Kh8\r\n    {Bravo ! Eh bien, matez maintenant !}\r\n5.Bf6#\r\n    {[%wrong Ce n'est pas mat ! Essayez encore.][%hint Trouvez l'échec, c'est trouver le mat...] Bravo, vous avez su tisser une toile mortelle autour du roi adverse !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3k4/8/8/2B1KB2 w - - 0 1\"]\r\n\r\n{Intéressons-nous maintenant à un exemple important. Nos fous peuvent être mobilisés rapidement. Il est donc nécessaire d'activer le roi en priorité. Commençons par jouer Re2 !}\r\n1.Ke2\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer le coup Re2.][%hint Jouez votre roi en e2.]}\r\n1...Kc3\r\n    {Très bien. Trouvez maintenant un coup de roi permettant de prendre l'opposition horizontale.}\r\n2.Ke3\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition horizontale. Cherchez encore !][%hint Pour prendre l'opposition horizontale, vous devez vous placez un cran en face du roi adverse sur la même ligne.]}\r\n2...Kc2\r\n    {Bien vu ! Le roi noir attaque notre fou de cases noires. Placez ce dernier de manière à ce qu'il empêche le roi noir de franchir les diagonales e1-a5 et f1-a6 à tout jamais.}\r\n3.Bd2\r\n    {[%wrong Ce coup ne permet pas à notre fou de contrôler la diagonale e1-a5. Cherchez encore !][%hint Trouvez une case hospitalière pour votre fou sur la diagonale e1-a5.] Superbe ! Vous avez enfermé le roi noir dans une prison en diagonale ! Nous allons maintenant réduire l'espace accordé au roi noir jusqu'à l'étouffer complètement, comme dans les exemples précédents. Attention aux pats, et tout devrait bien se passer !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/2k5/4K3/2B2B2 w - - 2 2\"]\r\n\r\n{Encore une fois, prenons l'opposition horizontale et observons la réaction du roi noir !}\r\n2.Ke3\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition horizontale. Cherchez encore !][%hint Pour prendre l'opposition horizontale, vous devez vous placez un cran en face du roi adverse sur la même ligne.]}\r\n2...Kb4\r\n    {Très bien. Le roi noir souhaite maintenant se rendre en c5. Prenons à nouveau l'opposition et empêchons l'idée adverse !}\r\n3.Kd4\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition. Cherchez encore !][%hint Où placer notre roi pour qu'il empêche le roi adverse d'aller en c5 ?]}\r\n3...Ka5\r\n    {Voilà ! Le roi noir fuit vers le coin en visant la case b6. Empêchons-le !}\r\n4.Kc5\r\n    {[%wrong Ce coup ne nous permet pas de prendre l'opposition. Cherchez encore !][%hint Où placer notre roi pour qu'il empêche le roi adverse d'aller en b6 ?]}\r\n4...Ka4\r\n    {Votre joli jeu d'opposition a repoussé le roi noir sur le bord de l'échiquier. Trouvez maintenant le coup de fou qui l'empêche de revenir en a5 !}\r\n5.Bd2\r\n    {[%wrong Ce n'est pas un coup de fou empêchant le roi noir d'aller en a5. Cherchez encore !][%hint Où placez le fou de cases noires ?] Superbe ! Le roi noir est acculé et ne peut plus nous échapper.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4k3/8/4K3/2B2B2 w - - 2 2\"]\r\n\r\n{Cette fois, les noirs nous opposent la meilleure stratégie en tentant de garder le roi au centre aussi longtemps que possible. Partons à la chasse ! Commençons par trouver le coup qui force le roi noir à se rendre sur la cinquième rangée.} \r\n2.Be3 \r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la cinquième rangée. Cherchez encore !][%hint Contrôlez les cases d4 et f4 pour forcer le roi noir à aller sur la cinquième.]}\r\n2...Ke5 \r\n    {Bien joué ! Le roi noir doit se rendre sur la cinquième rangée. Coup après coup, nous allons ainsi le repousser sur la bande ! Activons maintenant notre roi de manière à l'empêcher de revenir sur la quatrième. Jouez Rd3 !}\r\n3.Kd3 \r\n    {[%wrong Jouez Rd3 !][%hint Jouez Rd3.]}\r\n3...Kd5 \r\n    {Et maintenant, comment forcer le roi adverse à aller sur la sixième rangée ?}\r\n4.Bd4 \r\n   {[%wrong Ce coup ne force pas le roi noir à aller sur la sixième rangée. Cherchez encore !][%hint Contrôlez les cases c5 et e5 pour forcer le roi noir à aller sur la cinquième.]}\r\n4...Kd6 \r\n    {Beau boulot ! Trouvez maintenant le fort coup de roi empêchant le roi adverse de revenir sur la cinquième rangée et ouvrant la diagonale f1-a6 pour le fou.}\r\n5.Ke4 \r\n    {[%wrong Ce coup n'empêche pas le roi adverse de revenir sur la cinquième rangée et ouvrant la diagonale f1-a6 pour le fou. Cherchez encore !][%hint Trouvez pour votre roi une case d'où il couvrira d5.]}\r\n    ( 5.Kc4 $5 {Ce coup empêche effectivement le roi noir de revenir sur la cinquième rangée, mais il n'ouvre pas la diagonale f1-a6 pour notre fou. Cherchez encore !})\r\n5...Ke6 \r\n    {Notre fou va maintenant rejoindre les autres pièces sur la quatrième rangée en donnant un puissant échec... A vous de jouer !}\r\n6.Bc4+ \r\n    {[%wrong Non, ce n'est pas l'échec du fou de cases blanches que nous cherchons !][%hint Où est l'échec possible sur la quatrième rangée ?]}\r\n    ( 6.Bh3+ $5 {Ce coup est également jouable, mais le fou sera plus efficace sur la quatrième rangée. Essayez encore !})\r\n6...Kd6 \r\n    {Le roi noir tente de rester sur la sixième rangée à tout prix. Repoussons-le sur la septième !}\r\n7.Bd5 \r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la septième rangée. Cherchez encore !][%hint Contrôlez les cases e6 et c6 pour forcer le roi noir à aller sur la septième.]}\r\n7...Kd7 \r\n    {Coup après coup, vous repoussez le roi noir vers son destin. Beau travail ! Avançons maintenant le roi pour l'empêcher de revenir sur la sixième rangée !}\r\n8.Ke5 \r\n    {[%wrong Ce coup n'empêche pas le roi adverse de revenir sur la sixième rangée. Cherchez encore !][%hint Où placer notre roi pour empêcher l'adversaire d'aller en d6 ?]}\r\n8...Kc7 \r\n    {Beau travail ! Notre fou de cases noires souhaite maintenant rejoindre ses compères sur la cinquième rangée. Comment faire ?}\r\n9.Bc5 \r\n    {[%wrong Ce coup ne place pas le fou de cases noires sur la cinquième rangée. Cherchez encore !][%hint Quelle case va accueillir avec plaisir notre fou de cases noires sur la cinquième ?]}\r\n9...Kd7 \r\n    {L'harmonie de vos pièces est remarquable ! Nous allons maintenant pouvoir forcer le roi noir à aller sur la huitième rangée ! Comment faire ?}\r\n10.Bd6 \r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la huitième rangée. Cherchez encore !][%hint Contrôlez les cases c7 et e7 pour forcer le roi noir à aller sur la huitième.]}\r\n10...Kd8 \r\n    {Cette progression prudente et inéluctable nous rapproche de plus en plus du mat. Visons la case h8 ! Comment forcer le roi à aller en e8 ?}\r\n11.Be6 \r\n    {[%wrong Ce coup ne force pas le roi à aller en e8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler à la fois d7 et c8.]}\r\n11...Ke8 \r\n    {Bien vu ! Il est maintenant temps pour votre roi de s'inviter sur la sixième rangée !}\r\n12.Kf6 \r\n    {[%wrong Ce coup ne place pas le roi sur la sixième. Cherchez encore !][%hint Où placer le roi sur la sixième ?]}\r\n12...Kd8 \r\n    {Le roi noir fait tout pour nous compliquer la vie ! Comme nous ne pouvons améliorer aucune pièce, jouons un coup d'attente. Il y a plusieurs options, mais pour cette fois, choisissons Fe5...}\r\n13.Be5 \r\n    {[%wrong Jouez Fe5 !][%hint Jouez Fe5.]}\r\n    ( 13.Kf7 $2 {Oups ! Attention aux pats ! Jouez Fe5.})\r\n13...Ke8 \r\n    {Nous y sommes presque ! Comment forcer le roi noir à revenir sur la case f8 ?}\r\n14.Bc7 \r\n    {[%wrong Ce coup ne force pas le roi à aller en f8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler d8.]}\r\n14...Kf8 \r\n    {Joli ! Comment empêcher le roi de revenir en e8?}\r\n15.Bd7 \r\n    {[%wrong Ce coup ne force pas le roi à aller en g8. Cherchez encore !][%hint Trouvez le coup de fou permettant de contrôler e8.]}\r\n    ( 15.Bf7 $2 {Attention, le seul piège des noirs est le pat ! Soyez vigilants.})\r\n15...Kg8 \r\n    {Les fous ont acculé le roi noir dans le coin. Celui-ci tente maintenant de s'échapper via la case h7. Comment l'en empêcher avec le roi ?}\r\n16.Kg6 \r\n    {[%wrong Ce n'est pas un coup de roi empêchant ...Rh7. Cherchez encore !][%hint Trouvez la case idéale pour le roi.]}\r\n16...Kh8 \r\n    {Les noirs évitent la case f8 car Fd6+ materait rapidement. Mais, même dans cette position, nous avons un mat en trois ! Couvrons la case f8 et préparons-nous à finir en beauté !}\r\n17.Bd6 \r\n    {[%wrong Ce coup ne couvre pas la case f8. Cherchez encore !][%hint Comment couvrir f8 sans laisser le roi noir échapper à la dernière rangée ?]}\r\n    ( 17.Kf7 $6 Kh7 {Oups ! Le roi noir échappe à la dernière rangée. Trouvons un autre coup couvrant la case f8 sans laisser le roi noir nous échapper !})\r\n    ( 17.Be6 $2 {Attention aux pats !})\r\n17...Kg8 \r\n    {Parfait. Il est maintenant temps de trouver le mat en deux !}\r\n18.Be6+ \r\n    {[%wrong Ce coup ne mène pas à un mat en deux. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...]}\r\n18...Kh8 \r\n    {Et voilà ! Vous pouvez mater !}\r\n19.Be5# \r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez l'échec, c'est trouver le mat...] Félicitations ! Vous avez montré une très belle technique en forçant le roi noir à se réfugier dans le coin avant de le mater en force. Continuez à travailler votre jeu et vous devriez faire des progrès rapides !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il est temps d'apprendre la technique difficile du mat avec deux fous.",
+    "outroText": "Wouah ! C'était compliqué, bravo !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "path": "motifs-de-finales",
+      "title": "Motifs de finale",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/88fecd30-a55e-11e8-b04a-53817ee2115a.dd294b02.728x410o.de2eb5921014.png"
+    },
+    "parentId": "e45e1a04-83b8-11e8-83fe-dba209b4909c",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/two-bishop-checkmate5d125ebd3bdc8.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/two-bishop-checkmate-15ea23d3aed400.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/two-bishop-checkmate-260631973e2ea1.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 135,
+    "order": 7,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "name": "Motifs de finale",
+      "path": "motifs-de-finales",
+      "order": 7
+    }
+  }
+}

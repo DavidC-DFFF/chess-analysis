@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/strategie-de-pions",
+  "capturedAt": "2026-10-22T13:42:33.233Z",
+  "title": "Stratégie de pions",
+  "exercises": [
+    {
+      "fen": "8/8/8/3n4/2P1P3/1P6/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true][%c_arrow f4e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e4;to;d5;persistent;true]Les pions n'aiment pas être isolés. Prenez le cavalier adverse et connectez tous vos pions.",
+        "[%hint Prenez le cavalier et rapprochez vos pions les uns des autres.] [%wrong Ce n'est pas une prise. Essayez encore.] Bon choix ! Maintenant, tous les pions blancs sont sur des colonnes adjacentes.",
+        "Ce coup laisse un pion isolé. Essayez de tous les connecter avec une autre prise."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawns Challenge 1\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3n4/2P1P3/1P6/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288723811143734\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true][%c_arrow f4e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e4;to;d5;persistent;true]Les pions n'aiment pas être isolés. Prenez le cavalier adverse et connectez tous vos pions.} 1. exd5 {[%hint Prenez le cavalier et rapprochez vos pions les uns des autres.] [%wrong Ce n'est pas une prise. Essayez encore.] Bon choix ! Maintenant, tous les pions blancs sont sur des colonnes adjacentes.} (1. cxd5 $2 {Ce coup laisse un pion isolé. Essayez de tous les connecter avec une autre prise.}) *"
+    },
+    {
+      "fen": "8/8/8/8/4n3/3P1B2/3P4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true]Avoir des pions les uns sur les autres n'est pas bon. Prenez le cavalier adverse et dédoublez vos pions.",
+        "[%hint Prenez le cavalier avec un pion pour que vos pions ne se bloquent pas entre eux.][%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.] Bien joué !",
+        "Nous essayons de dédoubler nos pions. Pouvez-vous trouver une meilleure prise ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawn challenge 2\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4n3/3P1B2/3P4/8 w - - 0 1\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288750502379578\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true]Avoir des pions les uns sur les autres n'est pas bon. Prenez le cavalier adverse et dédoublez vos pions.} 1. dxe4 {[%hint Prenez le cavalier avec un pion pour que vos pions ne se bloquent pas entre eux.][%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.] Bien joué !} (1. Bxe4? {Nous essayons de dédoubler nos pions. Pouvez-vous trouver une meilleure prise ?}) *"
+    },
+    {
+      "fen": "k7/8/1b6/PK6/P7/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi adverse va vous empêcher de promouvoir à moins que vous ne dédoubliez vos pions.",
+        "[%hint Prenez et dédoublez vos pions.] [%wrong Il y a un meilleur coup. Essayez de trouver la meilleure prise.] Beau travail !",
+        "Le roi noir peut bloquer les pions blancs. Essayez de trouver une meilleure prise."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawns 3\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/1b6/PK6/P7/8/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288757632495705\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{Le roi adverse va vous empêcher de promouvoir à moins que vous ne dédoubliez vos pions.} 1. axb6 {[%hint Prenez et dédoublez vos pions.] [%wrong Il y a un meilleur coup. Essayez de trouver la meilleure prise.] Beau travail !} (1. Kxb6 $2 {Le roi noir peut bloquer les pions blancs. Essayez de trouver une meilleure prise.}) *"
+    },
+    {
+      "fen": "5rk1/1p3ppp/p4n2/8/1P1N4/P4b2/5PPP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Reprenez et gardez votre structure de pions saine.",
+        "[%hint Prenez le fou sans doubler vos pions.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.] Bon choix !",
+        "Il n'y a pas besoin de doubler vos pions. Essayez de trouver une meilleure prise."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawn 4\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p3ppp/p4n2/8/1P1N4/P4b2/5PPP/5RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288774173048933\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{Reprenez et gardez votre structure de pions saine.} 1. Nxf3 {[%hint Prenez le fou sans doubler vos pions.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.] Bon choix !} (1. gxf3 $2 {Il n'y a pas besoin de doubler vos pions. Essayez de trouver une meilleure prise.}) *"
+    },
+    {
+      "fen": "5rk1/1p1q1ppp/p1n2n2/3p1NB1/3P4/1P1Q4/P4PPP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Échangez des pièces pour forcer votre adversaire à doubler ses pions près de son roi.",
+        "[%hint Échangez des pièces pour que les noirs doivent reprendre avec un pion.] [%wrong Il y a un meilleur coup. Essayez encore et cherchez un échange utile.]",
+        "Bon début ! Comment pouvez-vous utiliser votre dame pour faire échec au roi noir maintenant exposé ?",
+        "[%hint Trouvez un échec puissant avec votre dame.] [%wrong Il y a un meilleur coup. Essayez de trouver un échec gagnant avec votre dame.]",
+        "Presque. Où est le mat ?",
+        "[%hint Regardez vos échecs. Lequel est mat ?] [%wrong Il y a un meilleur coup. Regardez vos échecs et trouvez celui qui est mat.] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawns 5\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p1q1ppp/p1n2n2/3p1NB1/3P4/1P1Q4/P4PPP/5RK1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n[GameId \"2288774914723952\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{Échangez des pièces pour forcer votre adversaire à doubler ses pions près de son roi.} 1. Bxf6 {[%hint Échangez des pièces pour que les noirs doivent reprendre avec un pion.] [%wrong Il y a un meilleur coup. Essayez encore et cherchez un échange utile.]} gxf6 {Bon début ! Comment pouvez-vous utiliser votre dame pour faire échec au roi noir maintenant exposé ?} 2. Qg3+ {[%hint Trouvez un échec puissant avec votre dame.] [%wrong Il y a un meilleur coup. Essayez de trouver un échec gagnant avec votre dame.]} Kh8 {Presque. Où est le mat ?} 3. Qg7# {[%hint Regardez vos échecs. Lequel est mat ?] [%wrong Il y a un meilleur coup. Regardez vos échecs et trouvez celui qui est mat.] Bien joué !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c290-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Stratégie de pions",
+    "path": "strategie-de-pions",
+    "description": "Les pions sont mieux sur des colonnes adjacentes, plutôt qu'isolés ou doublés.",
+    "glyphName": "piece-pawn-structure-2",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawns Challenge 1\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3n4/2P1P3/1P6/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288723811143734\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true][%c_arrow f4e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e4;to;d5;persistent;true]Les pions n'aiment pas être isolés. Prenez le cavalier adverse et connectez tous vos pions.} 1. exd5 {[%hint Prenez le cavalier et rapprochez vos pions les uns des autres.] [%wrong Ce n'est pas une prise. Essayez encore.] Bon choix ! Maintenant, tous les pions blancs sont sur des colonnes adjacentes.} (1. cxd5 $2 {Ce coup laisse un pion isolé. Essayez de tous les connecter avec une autre prise.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawn challenge 2\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4n3/3P1B2/3P4/8 w - - 0 1\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288750502379578\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true]Avoir des pions les uns sur les autres n'est pas bon. Prenez le cavalier adverse et dédoublez vos pions.} 1. dxe4 {[%hint Prenez le cavalier avec un pion pour que vos pions ne se bloquent pas entre eux.][%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.] Bien joué !} (1. Bxe4? {Nous essayons de dédoubler nos pions. Pouvez-vous trouver une meilleure prise ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawns 3\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/1b6/PK6/P7/8/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288757632495705\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{Le roi adverse va vous empêcher de promouvoir à moins que vous ne dédoubliez vos pions.} 1. axb6 {[%hint Prenez et dédoublez vos pions.] [%wrong Il y a un meilleur coup. Essayez de trouver la meilleure prise.] Beau travail !} (1. Kxb6 $2 {Le roi noir peut bloquer les pions blancs. Essayez de trouver une meilleure prise.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawn 4\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p3ppp/p4n2/8/1P1N4/P4b2/5PPP/5RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2288774173048933\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{Reprenez et gardez votre structure de pions saine.} 1. Nxf3 {[%hint Prenez le fou sans doubler vos pions.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.] Bon choix !} (1. gxf3 $2 {Il n'y a pas besoin de doubler vos pions. Essayez de trouver une meilleure prise.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2026.03.17\"]\r\n[Round \"?\"]\r\n[White \"Pawns 5\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"jsmka\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p1q1ppp/p1n2n2/3p1NB1/3P4/1P1Q4/P4PPP/5RK1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n[GameId \"2288774914723952\"]\r\n[EventDate \"2026.03.17\"]\r\n[SourceVersionDate \"2026.03.17\"]\r\n\r\n{Échangez des pièces pour forcer votre adversaire à doubler ses pions près de son roi.} 1. Bxf6 {[%hint Échangez des pièces pour que les noirs doivent reprendre avec un pion.] [%wrong Il y a un meilleur coup. Essayez encore et cherchez un échange utile.]} gxf6 {Bon début ! Comment pouvez-vous utiliser votre dame pour faire échec au roi noir maintenant exposé ?} 2. Qg3+ {[%hint Trouvez un échec puissant avec votre dame.] [%wrong Il y a un meilleur coup. Essayez de trouver un échec gagnant avec votre dame.]} Kh8 {Presque. Où est le mat ?} 3. Qg7# {[%hint Regardez vos échecs. Lequel est mat ?] [%wrong Il y a un meilleur coup. Regardez vos échecs et trouvez celui qui est mat.] Bien joué !} *"
+    ],
+    "courseId": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez-en plus sur les stratégies de pions. Là où vos pions sont forts ou faibles.",
+    "outroText": "Vous pouvez maintenant appliquer la stratégie de pions dans vos parties.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-echecs",
+      "title": "Stratégie"
+    },
+    "parentId": "a7ca5adc-2241-11f1-98b0-cddf0534644c"
+  },
+  "curriculum": {
+    "number": 36,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Stratégie",
+      "path": "strategie-echecs",
+      "order": 3
+    }
+  }
+}

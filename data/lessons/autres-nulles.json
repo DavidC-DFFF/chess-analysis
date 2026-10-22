@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer/autres-nulles",
+  "capturedAt": "2026-10-22T12:23:28.928Z",
+  "title": "Autres thèmes de nulles",
+  "exercises": [
+    {
+      "fen": "6k1/6q1/8/8/8/8/1Q5K/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette finale est totalement égale Quel est le coup qui force la nulle ?",
+        "[%wrong Ce coup ne force pas la nulle immédiate. Essayez encore !][%hint Sans dames sur l'échiquier, la partie sera nulle.]",
+        "Bien joué ! L'échange des dames met un terme immédiat à la partie, car aucun des camps n'a assez de matériel pour mater. Nulle."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6q1/8/8/8/8/1Q5K/8 w - - 0 1\"]\r\n\r\n{Cette finale est totalement égale Quel est le coup qui force la nulle ?}\r\n1.Qxg7+\r\n    {[%wrong Ce coup ne force pas la nulle immédiate. Essayez encore !][%hint Sans dames sur l'échiquier, la partie sera nulle.]}\r\n1...Kxg7\r\n    {Bien joué ! L'échange des dames met un terme immédiat à la partie, car aucun des camps n'a assez de matériel pour mater. Nulle.}\r\n*"
+    },
+    {
+      "fen": "8/8/6kp/1p1p1p1p/1P1P1Pp1/6PP/K7/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un pion de moins et leur roi est de l'autre côté de l'échiquier, loin de l'action. La partie semble perdue, mais il reste une ressource consistant à bloquer la position. A vous de la trouver !",
+        "[%wrong Ce coup ne ferme pas la position. Les noirs vont maintenant prendre le pion h3 et l'emporter.][%hint Il faut jouer un coup de pion pour tout fermer.] Bien joué ! La position est maintenant complètement fermée. Aucun pion ne peut avancer, et le roi ne peut pas attaquer les pions blancs. La partie va donc se conclure par la nulle.",
+        "Cette capture ne bloque pas la position. Le roi blanc étant trop loin de l'action, les noirs vont pouvoir jouer ...h4 et pousser leur pion jusqu'à la promotion. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6kp/1p1p1p1p/1P1P1Pp1/6PP/K7/8 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion de moins et leur roi est de l'autre côté de l'échiquier, loin de l'action. La partie semble perdue, mais il reste une ressource consistant à bloquer la position. A vous de la trouver !}\r\n1.h4\r\n    {[%wrong Ce coup ne ferme pas la position. Les noirs vont maintenant prendre le pion h3 et l'emporter.][%hint Il faut jouer un coup de pion pour tout fermer.] Bien joué ! La position est maintenant complètement fermée. Aucun pion ne peut avancer, et le roi ne peut pas attaquer les pions blancs. La partie va donc se conclure par la nulle.}\r\n    (1.hxg4 $2 fxg4 {Cette capture ne bloque pas la position. Le roi blanc étant trop loin de l'action, les noirs vont pouvoir jouer ...h4 et pousser leur pion jusqu'à la promotion. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "5rk1/8/Q7/3p2p1/2p3Pp/2P1q2P/5r2/7K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs sont en mauvaise posture. Comment sauver la partie en forçant la nulle ?",
+        "[%wrong Ce coup ne met pas le roi noir en échec, ce qui est la seule chance des blancs. Essayez encore !][%hint Trouvez un échec qui force le roi noir à se rendre dans le coin.]",
+        "La dame va simplement pouvoir s'emparer de la notre. Trouver une case sure pour donner l'échec.",
+        "Excellent ! Les blancs forcent le roi à se rendre dans le coin. Comment continuer ?",
+        "[%wrong Ce coup ne force pas la nulle, essayez encore !!][%hint Il faut forcer le roi noir à retourner en g8.]",
+        "Oups ! Le roi échappe aux échecs. Le pion g5 étant protégé par la dame noire, les blancs n'ont plus d'échecs et vont maintenant surement perdre la partie. Essayez encore !",
+        "Bien joué ! La dame va continuer à faire échec en g6 et h6, forçant la nulle par échec perpétuel.."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/8/Q7/3p2p1/2p3Pp/2P1q2P/5r2/7K w - - 0 1\"]\r\n\r\n{Les blancs sont en mauvaise posture. Comment sauver la partie en forçant la nulle ?}\r\n1.Qg6+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec, ce qui est la seule chance des blancs. Essayez encore !][%hint Trouvez un échec qui force le roi noir à se rendre dans le coin.]}\r\n    (1.Qe6+ $2 {La dame va simplement pouvoir s'emparer de la notre. Trouver une case sure pour donner l'échec.})\r\n1...Kh8\r\n    {Excellent ! Les blancs forcent le roi à se rendre dans le coin. Comment continuer ?}\r\n2.Qh6+\r\n    {[%wrong Ce coup ne force pas la nulle, essayez encore !!][%hint Il faut forcer le roi noir à retourner en g8.]}\r\n    (2.Qh5+ $2 Kg7 {Oups ! Le roi échappe aux échecs. Le pion g5 étant protégé par la dame noire, les blancs n'ont plus d'échecs et vont maintenant surement perdre la partie. Essayez encore !})\r\n2...Kg8\r\n    {Bien joué ! La dame va continuer à faire échec en g6 et h6, forçant la nulle par échec perpétuel..}\r\n*"
+    },
+    {
+      "fen": "8/Pk6/2r5/3K4/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une tour de moins pour un seul pion, mais celui-ci est tout proche de la promotion. Comment forcer la nulle ?",
+        "[%wrong Ce coup ne force pas la nulle. Essayez encore !][%hint Il faut forcer le roi adverse à prendre votre pion. N'oubliez pas la promotion !]",
+        "Ce coup force effectivement la nulle, mais pourquoi ne pas faire une pièce encore plus forte ?",
+        "La position est maintenant effectivement égale, mais si les tours ne sont pas échangées, la partie pourrait s'éterniser. Essayez de faire une pièce encore plus forte pour forcer la nulle plus rapidement.",
+        "Bravo ! En faisant une dame, les blancs forcent le roi adverse à la capturer. Il n'y a plus qu'à prendre la tour noire pour mettre un terme à la partie !",
+        "[%wrong Ce coup ne prend pas la tour. Essayez encore.][%hint Il faut prendre la tour.] Bravo ! Vous avez sauvé la partie en forçant la nulle."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/Pk6/2r5/3K4/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs ont une tour de moins pour un seul pion, mais celui-ci est tout proche de la promotion. Comment forcer la nulle ?}\r\n1.a8=Q+\r\n    {[%wrong Ce coup ne force pas la nulle. Essayez encore !][%hint Il faut forcer le roi adverse à prendre votre pion. N'oubliez pas la promotion !]}\r\n    (1.a8=B+ $1 {Ce coup force effectivement la nulle, mais pourquoi ne pas faire une pièce encore plus forte ?})\r\n    (1.a8=R $5 {La position est maintenant effectivement égale, mais si les tours ne sont pas échangées, la partie pourrait s'éterniser. Essayez de faire une pièce encore plus forte pour forcer la nulle plus rapidement.})\r\n1...Kxa8\r\n    {Bravo ! En faisant une dame, les blancs forcent le roi adverse à la capturer. Il n'y a plus qu'à prendre la tour noire pour mettre un terme à la partie !}\r\n2.Kxc6\r\n    {[%wrong Ce coup ne prend pas la tour. Essayez encore.][%hint Il faut prendre la tour.] Bravo ! Vous avez sauvé la partie en forçant la nulle.}\r\n*"
+    },
+    {
+      "fen": "8/8/8/K7/R7/1b6/pk6/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La tour blanche est attaquée, et les noirs s'apprêtent à promouvoir leur pion en dame. Trouvez le sacrifice qui force la nulle !",
+        "[%wrong Il est impossible de sauver la tour tout en empêchant la promotion du pion noir. Essayez encore !][%hint Les noirs ne peuvent gagner qu'en promouvant leur pion. Éliminez-le !]",
+        "Superbe ! La tour se sacrifie contre le pion passé. Le roi ne peut pas mater avec l'aide d'un unique fou, la partie est donc nulle par manque de matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/K7/R7/1b6/pk6/8 w - - 0 1\"]\r\n\r\n{La tour blanche est attaquée, et les noirs s'apprêtent à promouvoir leur pion en dame. Trouvez le sacrifice qui force la nulle !}\r\n1.Rxa2+\r\n    {[%wrong Il est impossible de sauver la tour tout en empêchant la promotion du pion noir. Essayez encore !][%hint Les noirs ne peuvent gagner qu'en promouvant leur pion. Éliminez-le !]}\r\n1...Bxa2\r\n    {Superbe ! La tour se sacrifie contre le pion passé. Le roi ne peut pas mater avec l'aide d'un unique fou, la partie est donc nulle par manque de matériel.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "d1f2206a-9ce3-11e8-81d2-857257791fde",
+    "name": "Autres thèmes de nulles",
+    "path": "autres-nulles",
+    "description": "Toutes les parties d’échecs ne se terminent pas par une victoire ou une défaite. La nulle est également un résultat possible. Elle peut survenir de quatre manières : 1. Le pat 2. L’accord mutuel entre les deux joueurs. 3. Lorsque la même position apparaît trois fois sur l’échiquier et qu’un joueur réclame la partie nulle. 4. Si aucun pion n’a été poussé et aucune pièce capturée depuis 50 coups ou plus.",
+    "glyphName": "hand-shake",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-NOU-other-draws-l1q.mp4",
+    "fen": "8/8/5p2/k1p1pPp1/1pPpP1P1/1P1P4/K7/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6q1/8/8/8/8/1Q5K/8 w - - 0 1\"]\r\n\r\n{Cette finale est totalement égale Quel est le coup qui force la nulle ?}\r\n1.Qxg7+\r\n    {[%wrong Ce coup ne force pas la nulle immédiate. Essayez encore !][%hint Sans dames sur l'échiquier, la partie sera nulle.]}\r\n1...Kxg7\r\n    {Bien joué ! L'échange des dames met un terme immédiat à la partie, car aucun des camps n'a assez de matériel pour mater. Nulle.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6kp/1p1p1p1p/1P1P1Pp1/6PP/K7/8 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion de moins et leur roi est de l'autre côté de l'échiquier, loin de l'action. La partie semble perdue, mais il reste une ressource consistant à bloquer la position. A vous de la trouver !}\r\n1.h4\r\n    {[%wrong Ce coup ne ferme pas la position. Les noirs vont maintenant prendre le pion h3 et l'emporter.][%hint Il faut jouer un coup de pion pour tout fermer.] Bien joué ! La position est maintenant complètement fermée. Aucun pion ne peut avancer, et le roi ne peut pas attaquer les pions blancs. La partie va donc se conclure par la nulle.}\r\n    (1.hxg4 $2 fxg4 {Cette capture ne bloque pas la position. Le roi blanc étant trop loin de l'action, les noirs vont pouvoir jouer ...h4 et pousser leur pion jusqu'à la promotion. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/8/Q7/3p2p1/2p3Pp/2P1q2P/5r2/7K w - - 0 1\"]\r\n\r\n{Les blancs sont en mauvaise posture. Comment sauver la partie en forçant la nulle ?}\r\n1.Qg6+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec, ce qui est la seule chance des blancs. Essayez encore !][%hint Trouvez un échec qui force le roi noir à se rendre dans le coin.]}\r\n    (1.Qe6+ $2 {La dame va simplement pouvoir s'emparer de la notre. Trouver une case sure pour donner l'échec.})\r\n1...Kh8\r\n    {Excellent ! Les blancs forcent le roi à se rendre dans le coin. Comment continuer ?}\r\n2.Qh6+\r\n    {[%wrong Ce coup ne force pas la nulle, essayez encore !!][%hint Il faut forcer le roi noir à retourner en g8.]}\r\n    (2.Qh5+ $2 Kg7 {Oups ! Le roi échappe aux échecs. Le pion g5 étant protégé par la dame noire, les blancs n'ont plus d'échecs et vont maintenant surement perdre la partie. Essayez encore !})\r\n2...Kg8\r\n    {Bien joué ! La dame va continuer à faire échec en g6 et h6, forçant la nulle par échec perpétuel..}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/Pk6/2r5/3K4/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs ont une tour de moins pour un seul pion, mais celui-ci est tout proche de la promotion. Comment forcer la nulle ?}\r\n1.a8=Q+\r\n    {[%wrong Ce coup ne force pas la nulle. Essayez encore !][%hint Il faut forcer le roi adverse à prendre votre pion. N'oubliez pas la promotion !]}\r\n    (1.a8=B+ $1 {Ce coup force effectivement la nulle, mais pourquoi ne pas faire une pièce encore plus forte ?})\r\n    (1.a8=R $5 {La position est maintenant effectivement égale, mais si les tours ne sont pas échangées, la partie pourrait s'éterniser. Essayez de faire une pièce encore plus forte pour forcer la nulle plus rapidement.})\r\n1...Kxa8\r\n    {Bravo ! En faisant une dame, les blancs forcent le roi adverse à la capturer. Il n'y a plus qu'à prendre la tour noire pour mettre un terme à la partie !}\r\n2.Kxc6\r\n    {[%wrong Ce coup ne prend pas la tour. Essayez encore.][%hint Il faut prendre la tour.] Bravo ! Vous avez sauvé la partie en forçant la nulle.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/K7/R7/1b6/pk6/8 w - - 0 1\"]\r\n\r\n{La tour blanche est attaquée, et les noirs s'apprêtent à promouvoir leur pion en dame. Trouvez le sacrifice qui force la nulle !}\r\n1.Rxa2+\r\n    {[%wrong Il est impossible de sauver la tour tout en empêchant la promotion du pion noir. Essayez encore !][%hint Les noirs ne peuvent gagner qu'en promouvant leur pion. Éliminez-le !]}\r\n1...Bxa2\r\n    {Superbe ! La tour se sacrifie contre le pion passé. Le roi ne peut pas mater avec l'aide d'un unique fou, la partie est donc nulle par manque de matériel.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "cae69640-a556-11e8-9fa2-e50425638fa0",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Quelles sont les autres façons pour une partie d'échecs de se terminer par la nulle ?",
+    "outroText": "Parfait. Ces connaissances vont vous faciliter la vie dans vos parties.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "path": "jouer",
+      "title": "Jouez !",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/cae69640-a556-11e8-9fa2-e50425638fa0.6f70b58e.728x410o.3924271f36b9.png"
+    },
+    "parentId": "97257e64-8393-11e8-94f1-2ff936bb04d1",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/other-draws6551ee8adae17.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/other-draws-564b0a96554c96.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/other-draws-160b116f101139.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/other-draws-65ea246d38b528.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/altri-pareggi6404743d42736.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 19,
+    "order": 7,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "name": "Jouez !",
+      "path": "jouer",
+      "order": 1
+    }
+  }
+}

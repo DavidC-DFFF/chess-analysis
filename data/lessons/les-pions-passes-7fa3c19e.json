@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/comprendre-les-finales/les-pions-passes-7fa3c19e",
+  "capturedAt": "2026-10-22T12:23:37.671Z",
+  "title": "Les pions passés",
+  "exercises": [
+    {
+      "fen": "8/KP6/6P1/3kb3/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou noir contrôle les deux diagonales, empêchant nos pions de progresser. Quel pion pousser pour entrer dans une finale dame contre fou gagnante ?",
+        "[%wrong Ce n'est pas un coup de pion !][%hint Un coup gagne, et l'autre ne peut faire mieux que nulle. Calculez prudemment.]",
+        "Le roi noir va aller en e6 au prochain coup, rattrapant ainsi le pion blanc juste à temps. Essayez encore !",
+        "Bien joué ! Le fou noir est bien obligé de prendre un des deux pions, ce qui va permettre à l'autre de filer à dame ! A vous de terminer le travail.",
+        "[%wrong Ce coup ne permet pas de promouvoir le pion blanc en dame. Essayez encore !][%hint Il est temps de promouvoir ce pion en dame !] Bien joué ! Cette finale dame contre fou est théoriquement gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/KP6/6P1/3kb3/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le fou noir contrôle les deux diagonales, empêchant nos pions de progresser. Quel pion pousser pour entrer dans une finale dame contre fou gagnante ?}\r\n1.g7\r\n    {[%wrong Ce n'est pas un coup de pion !][%hint Un coup gagne, et l'autre ne peut faire mieux que nulle. Calculez prudemment.]}\r\n    (1.b8=Q $2 Bxb8+ {Le roi noir va aller en e6 au prochain coup, rattrapant ainsi le pion blanc juste à temps. Essayez encore !})\r\n1...Bxg7\r\n    {Bien joué ! Le fou noir est bien obligé de prendre un des deux pions, ce qui va permettre à l'autre de filer à dame ! A vous de terminer le travail.}\r\n2.b8=Q\r\n    {[%wrong Ce coup ne permet pas de promouvoir le pion blanc en dame. Essayez encore !][%hint Il est temps de promouvoir ce pion en dame !] Bien joué ! Cette finale dame contre fou est théoriquement gagnante.}\r\n*"
+    },
+    {
+      "fen": "3N3k/8/p4pp1/5p2/Pp3P2/6PP/6K1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette finale est complexe. Parviendrez-vous à trouver le seul chemin permettant au cavalier d'arriver à temps pour empêcher le pion b des noirs d'accéder à la promotion ?",
+        "[%wrong Bien essayé, mais ce coup ne va pas nous permettre de rattraper le pion noir à temps. Trouvez mieux !] [%hint Un seul coup fonctionne... C'est un coup qui force le roi noir à bouger !]",
+        "Le roi blanc ne pourra pas rattraper le pion passé à temps !",
+        "Le roi blanc ne pourra pas rattraper le pion passé à temps !",
+        "Le roi blanc ne pourra pas rattraper le pion passé à temps !",
+        "En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !",
+        "En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !",
+        "En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !",
+        "Très bien ! Quel est le prochain coup du cavalier ?",
+        "[%wrong Ce n'est pas un coup de cavalier. Essayez encore !] [%hint Quel coup de cavalier vous permettra d'accéder à la case c4 au prochain coup ?]",
+        "Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case !",
+        "Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case !",
+        "Mettre son cavalier dans le coin est rarement une bonne idée, surtout quand il peut être capturé. Essayez encore !",
+        "Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case ! Essayons de nous rapprocher du pion b4.",
+        "Bien essayé, mais même en donnant un échec en e6, le cavalier ne sera jamais à temps pour rattraper le pion passé !",
+        "Oui ! Comment le cavalier blanc peut-il maintenant empêcher le pion d'avancer en b2 ?",
+        "[%wrong Bien essayé, mais ce coup n'empêche pas le pion d'avancer en b2. Essayez encore !] [%hint Où doit se poster votre cavalier pour être prêt à capturer le pion si celui-ci avance en b2 ?] Belle série de coups ! Le cavalier empêche le pion passé adverse de progresser, et les blancs devraient remporter cette finale grâce à leur avantage matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[FEN \"3N3k/8/p4pp1/5p2/Pp3P2/6PP/6K1/8 w - - 0 1\"]\r\n\r\n{Cette finale est complexe. Parviendrez-vous à trouver le seul chemin permettant au cavalier d'arriver à temps pour empêcher le pion b des noirs d'accéder à la promotion ?} \r\n1.Nf7+ \r\n    {[%wrong Bien essayé, mais ce coup ne va pas nous permettre de rattraper le pion noir à temps. Trouvez mieux !] [%hint Un seul coup fonctionne... C'est un coup qui force le roi noir à bouger !]}\r\n   ( 1.Kf3 $2 b3 {Le roi blanc ne pourra pas rattraper le pion passé à temps !} )\r\n    ( 1.Kf2 $2 b3 {Le roi blanc ne pourra pas rattraper le pion passé à temps !} )\r\n    ( 1.Kf1 $2 b3 {Le roi blanc ne pourra pas rattraper le pion passé à temps !} )\r\n    ( 1.Nc6 $2 b3 {En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !} )\r\n    ( 1.Ne6 $2 b3 {En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !} )\r\n    ( 1.Nb7 $2 b3 {En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !} )\r\n1...Kg7 \r\n    {Très bien ! Quel est le prochain coup du cavalier ?}\r\n2.Nd6 \r\n    {[%wrong Ce n'est pas un coup de cavalier. Essayez encore !] [%hint Quel coup de cavalier vous permettra d'accéder à la case c4 au prochain coup ?]}\r\n    (2.Ne5 $2 fxe5 {Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case !} )\r\n    (2.Ng5 $2 fxg5 {Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case !} )\r\n    (2.Nh8 $2 Kxh8 {Mettre son cavalier dans le coin est rarement une bonne idée, surtout quand il peut être capturé. Essayez encore !} )\r\n    (2.Nh6 $2 Kxh6 {Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case ! Essayons de nous rapprocher du pion b4.} )\r\n    (2.Nd8 $2 b3 {Bien essayé, mais même en donnant un échec en e6, le cavalier ne sera jamais à temps pour rattraper le pion passé !} )\r\n2...b3 \r\n    {Oui ! Comment le cavalier blanc peut-il maintenant empêcher le pion d'avancer en b2 ?}\r\n3.Nc4 \r\n    {[%wrong Bien essayé, mais ce coup n'empêche pas le pion d'avancer en b2. Essayez encore !] [%hint Où doit se poster votre cavalier pour être prêt à capturer le pion si celui-ci avance en b2 ?] Belle série de coups ! Le cavalier empêche le pion passé adverse de progresser, et les blancs devraient remporter cette finale grâce à leur avantage matériel.}\r\n*"
+    },
+    {
+      "fen": "8/6n1/4k3/7P/8/8/8/6K1 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment le pion blanc peut-il à lui tout seul dominer le cavalier et le roi noirs ?",
+        "[%wrong\r\nLes noirs prennent le pion blanc. Trouvez un moyen de préserver votre dernier porteur d'espoir.] [%hint\r\nPoussez votre pion.]",
+        "Bon début ! Comment continuer ?",
+        "\r\n[%wrong Le roi noir peut désormais rattraper votre pion. Ne faiblissez pas !] \r\n[%hint Continuez de pousser le pion.]",
+        "La partie se termine par la nulle.",
+        "Vous y êtes presque ! Que faire ensuite ?",
+        "[%wrong Les noirs vont sauver la nulle. Essayez d'emmener votre pion à dame.\r\n] [%hint Faites promotion.]  Beau travail ! Les blancs devraient ensuite l'emporter sans problème."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6n1/4k3/7P/8/8/8/6K1 w - - 0 0\"]\r\n[PlyCount \"5\"]\r\n\r\n{Comment le pion blanc peut-il à lui tout seul dominer le cavalier et le roi noirs ?} 1. h6 {[%wrong\r\nLes noirs prennent le pion blanc. Trouvez un moyen de préserver votre dernier porteur d'espoir.] [%hint\r\nPoussez votre pion.]} Kf7 {Bon début ! Comment continuer ?} 2. h7 {\r\n[%wrong Le roi noir peut désormais rattraper votre pion. Ne faiblissez pas !] \r\n[%hint Continuez de pousser le pion.]} (2. hxg7 $2 Kxg7 {La partie se termine par la nulle.}) 2... Nf5 {Vous y êtes presque ! Que faire ensuite ?}\r\n3. h8=Q {[%wrong Les noirs vont sauver la nulle. Essayez d'emmener votre pion à dame.\r\n] [%hint Faites promotion.]  Beau travail ! Les blancs devraient ensuite l'emporter sans problème.} *"
+    },
+    {
+      "fen": "6k1/5ppp/4p3/1P6/8/7P/r4PP1/1R4K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion passé des blancs n'est qu'à trois cases de la promotion. Poussons-le !",
+        "[%wrong Ce coup n'avance pas le pion passé des blancs. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]",
+        "Très bien ! La tour noire revient en défense pour couvrir la dernière rangée. Continuez tout de même à avancer !",
+        "[%wrong Ce coup n'avance pas le pion passé des blancs. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]",
+        "La tour noire bloque maintenant la case de promotion. Trouvez un moyen de forcer la promotion en jouant sur la faiblesse de la dernière rangée noire.",
+        "[%wrong Ce coup ne force pas la promotion du pion. Essayez encore !][%hint La tour noire ne peut pas prendre le pion tant que les blancs menacent de réaliser un mat du couloir sur la dernière rangée...]",
+        "Très bon coup ! Les blancs s'apprêtent à jouer Ta8 pour obtenir une finale gagnante. Trouvez un autre coup fonctionnant sur le même principe.",
+        "Les blancs devraient gagner cette finale, mais il va falloir s'employer. Il y a un moyen plus direct de gagner. Trouvez-le !",
+        "Bien joué ! La tour noire ne peut pas prendre le pion à cause de la menace de mat du couloir. Finissez le travail en forçant l'échange des tours !",
+        "[%wrong Comment attaquer la tour et le roi noir en même temps ?] Bien joué ! Les blancs gagnent du matériel et pourront bientôt promouvoir leur pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5ppp/4p3/1P6/8/7P/r4PP1/1R4K1 w - - 0 1\"]\r\n\r\n{Le pion passé des blancs n'est qu'à trois cases de la promotion. Poussons-le !}\r\n1.b6\r\n    {[%wrong Ce coup n'avance pas le pion passé des blancs. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]}\r\n1...Ra8\r\n    {Très bien ! La tour noire revient en défense pour couvrir la dernière rangée. Continuez tout de même à avancer !}\r\n2.b7\r\n{[%wrong Ce coup n'avance pas le pion passé des blancs. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]}\r\nRb8\r\n    {La tour noire bloque maintenant la case de promotion. Trouvez un moyen de forcer la promotion en jouant sur la faiblesse de la dernière rangée noire.}\r\n3.Rc1\r\n    {[%wrong Ce coup ne force pas la promotion du pion. Essayez encore !][%hint La tour noire ne peut pas prendre le pion tant que les blancs menacent de réaliser un mat du couloir sur la dernière rangée...]}\r\n    (3.Ra1 $5 {Très bon coup ! Les blancs s'apprêtent à jouer Ta8 pour obtenir une finale gagnante. Trouvez un autre coup fonctionnant sur le même principe.})\r\n    (3.Rd1 $6 g6 {Les blancs devraient gagner cette finale, mais il va falloir s'employer. Il y a un moyen plus direct de gagner. Trouvez-le !})\r\n3...Kf8\r\n    {Bien joué ! La tour noire ne peut pas prendre le pion à cause de la menace de mat du couloir. Finissez le travail en forçant l'échange des tours !}\r\n4.Rc8+\r\n    {[%wrong Comment attaquer la tour et le roi noir en même temps ?] Bien joué ! Les blancs gagnent du matériel et pourront bientôt promouvoir leur pion.}\r\n*"
+    },
+    {
+      "fen": "8/p7/P3K3/1P6/4k3/7p/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion passé des noirs fonce vers la promotion. Comment les blancs peuvent-ils eux aussi se créer un pion passé pour rester dans la course ?",
+        "[%wrong Ce coup ne force pas la création d'un pion passé. Essayez encore !][%hint Il vous faudra peut-être sacrifier du matériel pour obtenir votre précieux passeur...]",
+        "Bien trouvé ! Mais les noirs menacent toujours de damer en premier. Trouvez le coup gagnant !",
+        "[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint Il est impossible d'empêcher les noirs de promouvoir leur pion en premier, mais nous pouvons promouvoir le notre tout en faisant échec !]",
+        "Les noirs vont promouvoir leur pion en premier, ce qui va leur permettre d'attaquer le roi blanc. Nous ne pouvons pas espérer mieux que la nulle dans cette variante. Cherchez encore !",
+        "Joliment fait ! En prenant le pion a7, les blancs préparent une enfilade. A vous de jouer !",
+        "[%wrong Non, il est temps de promouvoir notre pion !][%hint Transformons notre pion en dame !]",
+        "Bien joué ! La dame noire est à nous.",
+        "[%wrong Non, il faut maintenant prendre la dame noire !][%hint Prenez la dame noire.] Beau travail, vous avez parfaitement négocié cette finale de pions piégeuse."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/p7/P3K3/1P6/4k3/7p/8/8 w - - 0 1\"]\r\n\r\n{Le pion passé des noirs fonce vers la promotion. Comment les blancs peuvent-ils eux aussi se créer un pion passé pour rester dans la course ?}\r\n1.b6\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Essayez encore !][%hint Il vous faudra peut-être sacrifier du matériel pour obtenir votre précieux passeur...]}\r\n1...h2\r\n    {Bien trouvé ! Mais les noirs menacent toujours de damer en premier. Trouvez le coup gagnant !}\r\n2.bxa7\r\n    {[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint Il est impossible d'empêcher les noirs de promouvoir leur pion en premier, mais nous pouvons promouvoir le notre tout en faisant échec !]}\r\n    (2.b7 $2 h1=Q {Les noirs vont promouvoir leur pion en premier, ce qui va leur permettre d'attaquer le roi blanc. Nous ne pouvons pas espérer mieux que la nulle dans cette variante. Cherchez encore !})\r\n2...h1=Q\r\n    {Joliment fait ! En prenant le pion a7, les blancs préparent une enfilade. A vous de jouer !}\r\n3.a8=Q+\r\n    {[%wrong Non, il est temps de promouvoir notre pion !][%hint Transformons notre pion en dame !]}\r\n3...Kd4\r\n    {Bien joué ! La dame noire est à nous.}\r\n4.Qxh1\r\n    {[%wrong Non, il faut maintenant prendre la dame noire !][%hint Prenez la dame noire.] Beau travail, vous avez parfaitement négocié cette finale de pions piégeuse.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "d4479c54-9ce9-11e8-abaa-5d83a2e70fcb",
+    "name": "Les pions passés",
+    "path": "les-pions-passes-7fa3c19e",
+    "description": "Lorsque la majorité des pièces a disparu de l’échiquier, l’objectif est de réaliser une nouvelle dame. Pour cela, il vous faudra un pion passé, c’est-à-dire un pion que ne peut être bloqué ou capturé par un pion adverse. Lorsqu’un pion est passé, il est plus facile de l’emmener à la promotion. Et si vous avez deux pions passés connectés, c’est encore mieux ! Ils pourront s’entre protéger et un roi seul ne sera pas capable de les stopper.",
+    "glyphName": "piece-pawn-passing",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-passed-pawns-t5c.mp4",
+    "fen": "8/p7/P3K3/1P6/4k3/7p/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/KP6/6P1/3kb3/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le fou noir contrôle les deux diagonales, empêchant nos pions de progresser. Quel pion pousser pour entrer dans une finale dame contre fou gagnante ?}\r\n1.g7\r\n    {[%wrong Ce n'est pas un coup de pion !][%hint Un coup gagne, et l'autre ne peut faire mieux que nulle. Calculez prudemment.]}\r\n    (1.b8=Q $2 Bxb8+ {Le roi noir va aller en e6 au prochain coup, rattrapant ainsi le pion blanc juste à temps. Essayez encore !})\r\n1...Bxg7\r\n    {Bien joué ! Le fou noir est bien obligé de prendre un des deux pions, ce qui va permettre à l'autre de filer à dame ! A vous de terminer le travail.}\r\n2.b8=Q\r\n    {[%wrong Ce coup ne permet pas de promouvoir le pion blanc en dame. Essayez encore !][%hint Il est temps de promouvoir ce pion en dame !] Bien joué ! Cette finale dame contre fou est théoriquement gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[FEN \"3N3k/8/p4pp1/5p2/Pp3P2/6PP/6K1/8 w - - 0 1\"]\r\n\r\n{Cette finale est complexe. Parviendrez-vous à trouver le seul chemin permettant au cavalier d'arriver à temps pour empêcher le pion b des noirs d'accéder à la promotion ?} \r\n1.Nf7+ \r\n    {[%wrong Bien essayé, mais ce coup ne va pas nous permettre de rattraper le pion noir à temps. Trouvez mieux !] [%hint Un seul coup fonctionne... C'est un coup qui force le roi noir à bouger !]}\r\n   ( 1.Kf3 $2 b3 {Le roi blanc ne pourra pas rattraper le pion passé à temps !} )\r\n    ( 1.Kf2 $2 b3 {Le roi blanc ne pourra pas rattraper le pion passé à temps !} )\r\n    ( 1.Kf1 $2 b3 {Le roi blanc ne pourra pas rattraper le pion passé à temps !} )\r\n    ( 1.Nc6 $2 b3 {En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !} )\r\n    ( 1.Ne6 $2 b3 {En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !} )\r\n    ( 1.Nb7 $2 b3 {En passant par ici, le cavalier ne sera pas à temps pour rattraper le pion !} )\r\n1...Kg7 \r\n    {Très bien ! Quel est le prochain coup du cavalier ?}\r\n2.Nd6 \r\n    {[%wrong Ce n'est pas un coup de cavalier. Essayez encore !] [%hint Quel coup de cavalier vous permettra d'accéder à la case c4 au prochain coup ?]}\r\n    (2.Ne5 $2 fxe5 {Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case !} )\r\n    (2.Ng5 $2 fxg5 {Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case !} )\r\n    (2.Nh8 $2 Kxh8 {Mettre son cavalier dans le coin est rarement une bonne idée, surtout quand il peut être capturé. Essayez encore !} )\r\n    (2.Nh6 $2 Kxh6 {Bien essayé, mais votre cavalier n'est pas en sécurité sur cette case ! Essayons de nous rapprocher du pion b4.} )\r\n    (2.Nd8 $2 b3 {Bien essayé, mais même en donnant un échec en e6, le cavalier ne sera jamais à temps pour rattraper le pion passé !} )\r\n2...b3 \r\n    {Oui ! Comment le cavalier blanc peut-il maintenant empêcher le pion d'avancer en b2 ?}\r\n3.Nc4 \r\n    {[%wrong Bien essayé, mais ce coup n'empêche pas le pion d'avancer en b2. Essayez encore !] [%hint Où doit se poster votre cavalier pour être prêt à capturer le pion si celui-ci avance en b2 ?] Belle série de coups ! Le cavalier empêche le pion passé adverse de progresser, et les blancs devraient remporter cette finale grâce à leur avantage matériel.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6n1/4k3/7P/8/8/8/6K1 w - - 0 0\"]\r\n[PlyCount \"5\"]\r\n\r\n{Comment le pion blanc peut-il à lui tout seul dominer le cavalier et le roi noirs ?} 1. h6 {[%wrong\r\nLes noirs prennent le pion blanc. Trouvez un moyen de préserver votre dernier porteur d'espoir.] [%hint\r\nPoussez votre pion.]} Kf7 {Bon début ! Comment continuer ?} 2. h7 {\r\n[%wrong Le roi noir peut désormais rattraper votre pion. Ne faiblissez pas !] \r\n[%hint Continuez de pousser le pion.]} (2. hxg7 $2 Kxg7 {La partie se termine par la nulle.}) 2... Nf5 {Vous y êtes presque ! Que faire ensuite ?}\r\n3. h8=Q {[%wrong Les noirs vont sauver la nulle. Essayez d'emmener votre pion à dame.\r\n] [%hint Faites promotion.]  Beau travail ! Les blancs devraient ensuite l'emporter sans problème.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5ppp/4p3/1P6/8/7P/r4PP1/1R4K1 w - - 0 1\"]\r\n\r\n{Le pion passé des blancs n'est qu'à trois cases de la promotion. Poussons-le !}\r\n1.b6\r\n    {[%wrong Ce coup n'avance pas le pion passé des blancs. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]}\r\n1...Ra8\r\n    {Très bien ! La tour noire revient en défense pour couvrir la dernière rangée. Continuez tout de même à avancer !}\r\n2.b7\r\n{[%wrong Ce coup n'avance pas le pion passé des blancs. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]}\r\nRb8\r\n    {La tour noire bloque maintenant la case de promotion. Trouvez un moyen de forcer la promotion en jouant sur la faiblesse de la dernière rangée noire.}\r\n3.Rc1\r\n    {[%wrong Ce coup ne force pas la promotion du pion. Essayez encore !][%hint La tour noire ne peut pas prendre le pion tant que les blancs menacent de réaliser un mat du couloir sur la dernière rangée...]}\r\n    (3.Ra1 $5 {Très bon coup ! Les blancs s'apprêtent à jouer Ta8 pour obtenir une finale gagnante. Trouvez un autre coup fonctionnant sur le même principe.})\r\n    (3.Rd1 $6 g6 {Les blancs devraient gagner cette finale, mais il va falloir s'employer. Il y a un moyen plus direct de gagner. Trouvez-le !})\r\n3...Kf8\r\n    {Bien joué ! La tour noire ne peut pas prendre le pion à cause de la menace de mat du couloir. Finissez le travail en forçant l'échange des tours !}\r\n4.Rc8+\r\n    {[%wrong Comment attaquer la tour et le roi noir en même temps ?] Bien joué ! Les blancs gagnent du matériel et pourront bientôt promouvoir leur pion.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/p7/P3K3/1P6/4k3/7p/8/8 w - - 0 1\"]\r\n\r\n{Le pion passé des noirs fonce vers la promotion. Comment les blancs peuvent-ils eux aussi se créer un pion passé pour rester dans la course ?}\r\n1.b6\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Essayez encore !][%hint Il vous faudra peut-être sacrifier du matériel pour obtenir votre précieux passeur...]}\r\n1...h2\r\n    {Bien trouvé ! Mais les noirs menacent toujours de damer en premier. Trouvez le coup gagnant !}\r\n2.bxa7\r\n    {[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint Il est impossible d'empêcher les noirs de promouvoir leur pion en premier, mais nous pouvons promouvoir le notre tout en faisant échec !]}\r\n    (2.b7 $2 h1=Q {Les noirs vont promouvoir leur pion en premier, ce qui va leur permettre d'attaquer le roi blanc. Nous ne pouvons pas espérer mieux que la nulle dans cette variante. Cherchez encore !})\r\n2...h1=Q\r\n    {Joliment fait ! En prenant le pion a7, les blancs préparent une enfilade. A vous de jouer !}\r\n3.a8=Q+\r\n    {[%wrong Non, il est temps de promouvoir notre pion !][%hint Transformons notre pion en dame !]}\r\n3...Kd4\r\n    {Bien joué ! La dame noire est à nous.}\r\n4.Qxh1\r\n    {[%wrong Non, il faut maintenant prendre la dame noire !][%hint Prenez la dame noire.] Beau travail, vous avez parfaitement négocié cette finale de pions piégeuse.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "23cce244-a559-11e8-9aa6-effd2afc771b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Comment rendre des pions plus puissants ?",
+    "outroText": "Très bien. Les pions passés sont extrêmement dangereux en finale.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "path": "comprendre-les-finales",
+      "title": "Comprendre les finales",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/23cce244-a559-11e8-9aa6-effd2afc771b.c6ee284d.728x410o.fc91752ed604.png"
+    },
+    "parentId": "993e100a-83aa-11e8-afb0-4366e33c4a32",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/passed-pawns5d12540b09dc2.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/passed-pawns-566885c2bd3b51.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/passed-pawns-25ea242ae072b6.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/passed-pawns-3602bf04ff3bb6.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 57,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "name": "Comprendre les finales",
+      "path": "comprendre-les-finales",
+      "order": 2
+    }
+  }
+}

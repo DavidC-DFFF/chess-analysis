@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-avancees/empecher-le-roque",
+  "capturedAt": "2026-10-22T13:42:36.818Z",
+  "title": "Empêcher le roque",
+  "exercises": [
+    {
+      "fen": "r1bqkbnr/pppp2pp/2n2p2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c4g8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;g8;persistent;true]Votre adversaire a affaibli son roi. Où votre fou peut-il aller pour rendre difficile la mise à l'abri du roi par le roque ?",
+        "[%hint Utilisez votre fou.][%wrong Ce n'est pas le bon coup.] Exact !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp2pp/2n2p2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 1\"]\r\n\r\n{[%c_arrow c4g8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;g8;persistent;true]Votre adversaire a affaibli son roi. Où votre fou peut-il aller pour rendre difficile la mise à l'abri du roi par le roque ?} 1. Bc4 {[%hint Utilisez votre fou.][%wrong Ce n'est pas le bon coup.] Exact !} *"
+    },
+    {
+      "fen": "r3k1nr/pppq1p1p/2npb1p1/2b1pN2/4P3/2NP2P1/PPPBQPBP/R4RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Forcez son roi à bouger pour qu'il ne puisse jamais se mettre à l'abri par le roque.",
+        "[%hint Utilisez votre cavalier pour attaquer.][%wrong Ce n'est pas le bon coup.] Le roi doit bouger pour parer l'échec et ne pourra plus roquer.",
+        "Votre cavalier se fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/pppq1p1p/2npb1p1/2b1pN2/4P3/2NP2P1/PPPBQPBP/R4RK1 w kq - 0 1\"]\r\n\r\n{Forcez son roi à bouger pour qu'il ne puisse jamais se mettre à l'abri par le roque.} 1. Ng7+ {[%hint Utilisez votre cavalier pour attaquer.][%wrong Ce n'est pas le bon coup.] Le roi doit bouger pour parer l'échec et ne pourra plus roquer.} (1. Nxd6+? Bxd6 {Votre cavalier se fait prendre.}) *"
+    },
+    {
+      "fen": "r2qk2r/2pp1ppp/1pb4n/8/p2P4/B1P5/P1P2PPP/R2QNRK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Votre adversaire n'a jamais roqué. Comment pouvez-vous gagner la partie ?",
+        "[%hint Pouvez-vous faire échec avec votre dame ?][%wrong Ce n'est pas encore le bon coup. Réessaye.]",
+        "Pouvez-vous trouver l'échec et mat ?",
+        "[%hint Pouvez-vous prendre avec votre dame ?][%wrong Réessayez. Vous pouvez y arriver.] Échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/2pp1ppp/1pb4n/8/p2P4/B1P5/P1P2PPP/R2QNRK1 w kq - 0 1\"]\r\n\r\n{Votre adversaire n'a jamais roqué. Comment pouvez-vous gagner la partie ?} 1. Qe2+ {[%hint Pouvez-vous faire échec avec votre dame ?][%wrong Ce n'est pas encore le bon coup. Réessaye.]} 1... Qe7 {Pouvez-vous trouver l'échec et mat ?} 2. Qxe7# {[%hint Pouvez-vous prendre avec votre dame ?][%wrong Réessayez. Vous pouvez y arriver.] Échec et mat !} 1-0"
+    },
+    {
+      "fen": "r1b1kbnr/pppp1ppp/2n5/8/2Bpq3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment pouvez-vous punir son roi mal protégé ?",
+        "[%wrong Ce n'est pas encore le bon coup. Demande un indice si besoin.][%hint Pouvez-vous utiliser votre tour ?]",
+        "Votre fou s'est fait prendre. Trouvez un meilleur coup.",
+        "Il y a un meilleur coup. Réessaye.",
+        "Oui, votre adversaire a été contraint de sacrifier sa dame. Pouvez-vous reprendre ?",
+        "[%hint Pouvez-vous prendre sa dame ?][%wrong Réessayez. Vous pouvez y arriver.] Bien joué !",
+        "Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kbnr/pppp1ppp/2n5/8/2Bpq3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{Comment pouvez-vous punir son roi mal protégé ?} 1. Re1 {[%wrong Ce n'est pas encore le bon coup. Demande un indice si besoin.][%hint Pouvez-vous utiliser votre tour ?]} (1. Bxf7+? Kxf7 {Votre fou s'est fait prendre. Trouvez un meilleur coup.}) (1. Qe1? Qxe1 {Il y a un meilleur coup. Réessaye.}) 1... Qxe1+ {Oui, votre adversaire a été contraint de sacrifier sa dame. Pouvez-vous reprendre ?} 2. Qxe1+ {[%hint Pouvez-vous prendre sa dame ?][%wrong Réessayez. Vous pouvez y arriver.] Bien joué !} (2. Nxe1!! {Bien joué !}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c182-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Empêcher le roque",
+    "path": "empecher-le-roque",
+    "description": "Apprenez à empêcher votre adversaire de roquer.",
+    "glyphName": "game-type-nocastle",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp2pp/2n2p2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 1\"]\r\n\r\n{[%c_arrow c4g8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;g8;persistent;true]Votre adversaire a affaibli son roi. Où votre fou peut-il aller pour rendre difficile la mise à l'abri du roi par le roque ?} 1. Bc4 {[%hint Utilisez votre fou.][%wrong Ce n'est pas le bon coup.] Exact !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/pppq1p1p/2npb1p1/2b1pN2/4P3/2NP2P1/PPPBQPBP/R4RK1 w kq - 0 1\"]\r\n\r\n{Forcez son roi à bouger pour qu'il ne puisse jamais se mettre à l'abri par le roque.} 1. Ng7+ {[%hint Utilisez votre cavalier pour attaquer.][%wrong Ce n'est pas le bon coup.] Le roi doit bouger pour parer l'échec et ne pourra plus roquer.} (1. Nxd6+? Bxd6 {Votre cavalier se fait prendre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/2pp1ppp/1pb4n/8/p2P4/B1P5/P1P2PPP/R2QNRK1 w kq - 0 1\"]\r\n\r\n{Votre adversaire n'a jamais roqué. Comment pouvez-vous gagner la partie ?} 1. Qe2+ {[%hint Pouvez-vous faire échec avec votre dame ?][%wrong Ce n'est pas encore le bon coup. Réessaye.]} 1... Qe7 {Pouvez-vous trouver l'échec et mat ?} 2. Qxe7# {[%hint Pouvez-vous prendre avec votre dame ?][%wrong Réessayez. Vous pouvez y arriver.] Échec et mat !} 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kbnr/pppp1ppp/2n5/8/2Bpq3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{Comment pouvez-vous punir son roi mal protégé ?} 1. Re1 {[%wrong Ce n'est pas encore le bon coup. Demande un indice si besoin.][%hint Pouvez-vous utiliser votre tour ?]} (1. Bxf7+? Kxf7 {Votre fou s'est fait prendre. Trouvez un meilleur coup.}) (1. Qe1? Qxe1 {Il y a un meilleur coup. Réessaye.}) 1... Qxe1+ {Oui, votre adversaire a été contraint de sacrifier sa dame. Pouvez-vous reprendre ?} 2. Qxe1+ {[%hint Pouvez-vous prendre sa dame ?][%wrong Réessayez. Vous pouvez y arriver.] Bien joué !} (2. Nxe1!! {Bien joué !}) *"
+    ],
+    "courseId": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à empêcher votre adversaire de roquer.",
+    "outroText": "Vous savez maintenant comment empêcher le roque.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "ouvertures-avancees",
+      "title": "Ouvertures avancées"
+    },
+    "parentId": "81674ab8-276d-11f1-8d74-59cfe092acf7"
+  },
+  "curriculum": {
+    "number": 46,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0fc416-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Ouvertures avancées",
+      "path": "ouvertures-avancees",
+      "order": 1
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/la-tour",
+  "capturedAt": "2026-10-22T12:23:25.323Z",
+  "title": "La Tour",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/8/8/R7 w - - 0 1",
+      "challengeType": "captureTheStar",
+      "targets": "a5",
+      "comments": [
+        "Essayez de capturer l'étoile avec votre tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/8/R7 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"a5\"]\r\n\r\n{Essayez de capturer l'étoile avec votre tour.} *"
+    },
+    {
+      "fen": "8/8/8/R7/8/8/8/8 w - - 0 1",
+      "challengeType": "captureTheStar",
+      "targets": "d7",
+      "comments": [
+        "C'est ça ! Tentez de capturer l'étoile suivante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/R7/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"d7\"]\r\n\r\n{C'est ça ! Tentez de capturer l'étoile suivante.} *"
+    },
+    {
+      "fen": "8/3R4/8/8/8/8/8/8 w - - 0 1",
+      "challengeType": "captureTheStar",
+      "targets": "b3",
+      "comments": [
+        "Plus qu'une étoile à capturer et vous aurez terminé avec la tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3R4/8/8/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"b3\"]\r\n[LESSON_CHALLENGE_COMPLETE_TEXT \"Excellent ! Vous apprenez vite.\"]\r\n\r\n{Plus qu'une étoile à capturer et vous aurez terminé avec la tour.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "4a972222-ebdd-11f0-9dce-6dd0b25a58de",
+    "name": "La Tour",
+    "path": "la-tour",
+    "description": "Apprenez à déplacer la Tour.",
+    "glyphName": "piece-fill-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/8/R7 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"a5\"]\r\n\r\n{Essayez de capturer l'étoile avec votre tour.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/R7/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"d7\"]\r\n\r\n{C'est ça ! Tentez de capturer l'étoile suivante.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3R4/8/8/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"b3\"]\r\n[LESSON_CHALLENGE_COMPLETE_TEXT \"Excellent ! Vous apprenez vite.\"]\r\n\r\n{Plus qu'une étoile à capturer et vous aurez terminé avec la tour.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "introText": "Apprenez à déplacer la Tour.",
+    "outroText": "Bien ! Prêt à découvrir comment déplacer le fou ?",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/8/R7 w - - 0 1\"]\r\n\r\n{[%c_arrow a1a8;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;a1;to;a8;persistent;true,a1h1;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;a1;to;h1;persistent;true] Il est temps de découvrir la tour. Elle peut se déplacer d'un nombre illimité de cases verticalement ou horizontalement.} *"
+        ]
+      }
+    ],
+    "animationName": "rook-complete",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "e8caf7ac-a9ed-11f0-9182-71b1f18ea722",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 3,
+    "order": 3,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

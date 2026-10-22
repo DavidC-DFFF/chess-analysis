@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi/provoquer-des-faiblesses",
+  "capturedAt": "2026-10-22T12:23:52.252Z",
+  "title": "Provoquer des faiblesses",
+  "exercises": [
+    {
+      "fen": "r1b2rk1/1pppqppp/8/2bPP3/p4B2/2PQ1N2/P4PPP/R3R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs bénéficient d'un superbe développement. Trouvez comment menacer mat pour affaiblir les cases noires du roque adverse.",
+        "[%wrong Ce coup ne menace pas mat en un, cherchez encore !][%hint La dame blanche vise la case faible h7. Ramenez un cavalier à l'attaque !]",
+        "C'est un fort coup, mais il en existe un autre beaucoup plus puissant. Trouvez-le !",
+        "Bien vu ! Les noirs doivent affaiblir les cases noires autour de leur roi. Trouvez maintenant un autre fort coup de cavalier qui va nous préparer à attaquer ces faiblesses.",
+        "[%wrong Bien essayé, mais il existe un coup de cavalier beaucoup plus fort. Cherchez encore !][%hint Attaquez le fou de cases noires adverse et préparez votre cavalier à sauter sur la faiblesse f6.] Bien joué ! Le cavalier blanc met la pression sur le fou de cases noires adverse, et les menaces Cf6+ et Fg5 se font de plus en plus pressantes. La position noire va bientôt s'effondrer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/1pppqppp/8/2bPP3/p4B2/2PQ1N2/P4PPP/R3R1K1 w - - 0 1\"]\r\n\r\n{Les blancs bénéficient d'un superbe développement. Trouvez comment menacer mat pour affaiblir les cases noires du roque adverse.}\r\n1.Ng5\r\n    {[%wrong Ce coup ne menace pas mat en un, cherchez encore !][%hint La dame blanche vise la case faible h7. Ramenez un cavalier à l'attaque !]}\r\n    (1.Bg5 $6 {C'est un fort coup, mais il en existe un autre beaucoup plus puissant. Trouvez-le !})\r\n1...g6\r\n    {Bien vu ! Les noirs doivent affaiblir les cases noires autour de leur roi. Trouvez maintenant un autre fort coup de cavalier qui va nous préparer à attaquer ces faiblesses.}\r\n2.Ne4\r\n    {[%wrong Bien essayé, mais il existe un coup de cavalier beaucoup plus fort. Cherchez encore !][%hint Attaquez le fou de cases noires adverse et préparez votre cavalier à sauter sur la faiblesse f6.] Bien joué ! Le cavalier blanc met la pression sur le fou de cases noires adverse, et les menaces Cf6+ et Fg5 se font de plus en plus pressantes. La position noire va bientôt s'effondrer.}\r\n*"
+    },
+    {
+      "fen": "r1b1kb1r/pp4pp/2p2n2/3pq3/4p3/PBN1B3/1PP2PPP/R2Q1RK1 b kq - 4 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un avantage d'espace et se préparent à attaquer l'aile roi adverse. Comment affaiblir la position du roi blanc ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort créant des faiblesses autour du roi blanc. Trouvez-le !][%hint Comment développer une pièce en menaçant mat en un ?]",
+        "C'est également une idée très forte, bien vu ! Trouvez maintenant un coup développant une pièce en menaçant mat en un.",
+        "Excellent coup ! Les noirs développent une pièce, et leur dangereuse batterie dame-fou force les blancs à affaiblir leur roque. C'est maintenant au tour du fou de cases blanches de passer à l'attaque !",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus actif avec le fou de cases blanches, trouvez-le !][%hint Développez le fou de cases blanches en attaquant la dame adverse.]",
+        "Joli coup. Vous attaquez la tour blanche et contrôlez les cases blanches autour du roi adverse. Trouvez maintenant un autre coup de fou attaquant la dame blanche !",
+        "Quelle vista ! Les noirs gagnent un tempo sur la dame blanche et se préparent à verrouiller les cases blanches autour du roi adverse. Trouvez le coup de fou le plus fort !",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort avec le fou de cases blanches, trouvez-le !][%hint Comment empêcher l'avancée du pion f adverse ?] Joli ! Le fou des noirs contrôle les cases blanches entourant le roi adverse et empêche le pion f d'avancer. Les noirs vont pouvoir lancer une puissante attaque !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/pp4pp/2p2n2/3pq3/4p3/PBN1B3/1PP2PPP/R2Q1RK1 b kq - 4 14\"]\r\n\r\n{Les noirs ont un avantage d'espace et se préparent à attaquer l'aile roi adverse. Comment affaiblir la position du roi blanc ?}\r\n14...Bd6\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort créant des faiblesses autour du roi blanc. Trouvez-le !][%hint Comment développer une pièce en menaçant mat en un ?]}\r\n    (14...Ng4 $5 15.g3 {C'est également une idée très forte, bien vu ! Trouvez maintenant un coup développant une pièce en menaçant mat en un.})\r\n15.g3\r\n    {Excellent coup ! Les noirs développent une pièce, et leur dangereuse batterie dame-fou force les blancs à affaiblir leur roque. C'est maintenant au tour du fou de cases blanches de passer à l'attaque !}\r\n15...Bg4\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus actif avec le fou de cases blanches, trouvez-le !][%hint Développez le fou de cases blanches en attaquant la dame adverse.]}\r\n    (15...Bh3 $5 {Joli coup. Vous attaquez la tour blanche et contrôlez les cases blanches autour du roi adverse. Trouvez maintenant un autre coup de fou attaquant la dame blanche !})\r\n16.Qd2\r\n    {Quelle vista ! Les noirs gagnent un tempo sur la dame blanche et se préparent à verrouiller les cases blanches autour du roi adverse. Trouvez le coup de fou le plus fort !}\r\n16...Bf3\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort avec le fou de cases blanches, trouvez-le !][%hint Comment empêcher l'avancée du pion f adverse ?] Joli ! Le fou des noirs contrôle les cases blanches entourant le roi adverse et empêche le pion f d'avancer. Les noirs vont pouvoir lancer une puissante attaque !}\r\n*"
+    },
+    {
+      "fen": "2rr1bk1/1q1n1pp1/2b1p2p/ppp5/4P1P1/1P1P1NP1/PB3PB1/Q1RR2K1 w - - 0 21",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs doivent attaquer sur l'aile roi. Comment ouvrir la colonne h pour affaiblir la position du roi noir ?",
+        "[%wrong Ce coup ne crée pas de faiblesses autour du roi noir. Cherchez encore !][%hint Le pion h6 peut être utilisé comme \"crochet\" pour ouvrir des lignes. Comment l'attaquer ?]",
+        "Bien essayé, mais ce sacrifice est un peu prématuré. L'attaque blanche n'est pas claire. Cherchez encore !",
+        "Excellent coup ! Les noirs tentent de maintenir le verrouillage de l'aile roi et se préparent à jouer ...g6 au prochain coup. Comment affaiblir l'aile roi en force ?",
+        "[%wrong Les noirs s'apprêtent à fermer l'aile roi en jouant ...g6. Empêchons ce coup !][%hint Quel est le seul moyen d'empêcher les noirs de jouer ...g6 ?]",
+        "Un coup puissant ! Les blancs sacrifient un pion pour créer des faiblesses en e6 et g6. Comment attaquer le pion faible e6 en avançant une pièce de l'aile roi ?",
+        "[%wrong Ce coup n'attaque pas efficacement le pion e6. Cherchez encore !][%hint Trouvez une case forte pour votre cavalier !] Beau boulot ! Les blancs attaquent la faiblesse e6 en postant leur cavalier sur un fort avant-poste surplombant le roi noir. Ça sent bon !",
+        "Ce coup est également très fort, bien joué ! Trouvez maintenant une autre manière d'attaquer e6, cette fois avec un cavalier. "
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr1bk1/1q1n1pp1/2b1p2p/ppp5/4P1P1/1P1P1NP1/PB3PB1/Q1RR2K1 w - - 0 21\"]\r\n\r\n{Les blancs doivent attaquer sur l'aile roi. Comment ouvrir la colonne h pour affaiblir la position du roi noir ?}\r\n21.g5\r\n    {[%wrong Ce coup ne crée pas de faiblesses autour du roi noir. Cherchez encore !][%hint Le pion h6 peut être utilisé comme \"crochet\" pour ouvrir des lignes. Comment l'attaquer ?]}\r\n    (21.Bxg7 $2 Bxg7 {Bien essayé, mais ce sacrifice est un peu prématuré. L'attaque blanche n'est pas claire. Cherchez encore !})\r\n21...h5\r\n    {Excellent coup ! Les noirs tentent de maintenir le verrouillage de l'aile roi et se préparent à jouer ...g6 au prochain coup. Comment affaiblir l'aile roi en force ?}\r\n22.g6\r\n    {[%wrong Les noirs s'apprêtent à fermer l'aile roi en jouant ...g6. Empêchons ce coup !][%hint Quel est le seul moyen d'empêcher les noirs de jouer ...g6 ?]}\r\n22...fxg6\r\n    {Un coup puissant ! Les blancs sacrifient un pion pour créer des faiblesses en e6 et g6. Comment attaquer le pion faible e6 en avançant une pièce de l'aile roi ?}\r\n23.Ng5\r\n    {[%wrong Ce coup n'attaque pas efficacement le pion e6. Cherchez encore !][%hint Trouvez une case forte pour votre cavalier !] Beau boulot ! Les blancs attaquent la faiblesse e6 en postant leur cavalier sur un fort avant-poste surplombant le roi noir. Ça sent bon !}\r\n    (23.Bh3 $5 {Ce coup est également très fort, bien joué ! Trouvez maintenant une autre manière d'attaquer e6, cette fois avec un cavalier. })\r\n*"
+    },
+    {
+      "fen": "2rr1bk1/1q1n1pp1/2b1p2p/ppp5/4P1P1/1P1P1NP1/PB3PB1/Q1RR2K1 w - - 0 21",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Jouons à nouveau le puissant coup de pion affaiblissant l'aile roi des noirs !",
+        "[%wrong Ce n'est pas le coup que nous avons joué dans l'exercice précédent. Cherchez encore !][%hint Comment menacer de prendre en h6 ?]",
+        "Bien essayé, mais ce sacrifice est un peu prématuré. L'attaque blanche n'est pas claire. Cherchez encore !",
+        "Très bien ! Cette fois-ci, les noirs décident de prendre le pion g, ouvrant la colonne h pour notre attaque. Comment continuer ?",
+        "[%wrong Non, il faudrait reprendre le pion g5 !][%hint Prenez le pion g5 !] Excellent travail ! Cette idée offensive a été jouée par un grand-maître. Voyons maintenant comment la partie a continué..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr1bk1/1q1n1pp1/2b1p2p/ppp5/4P1P1/1P1P1NP1/PB3PB1/Q1RR2K1 w - - 0 21\"]\r\n\r\n{Jouons à nouveau le puissant coup de pion affaiblissant l'aile roi des noirs !}\r\n21.g5\r\n    {[%wrong Ce n'est pas le coup que nous avons joué dans l'exercice précédent. Cherchez encore !][%hint Comment menacer de prendre en h6 ?]}\r\n    (21.Bxg7 $2 Bxg7 {Bien essayé, mais ce sacrifice est un peu prématuré. L'attaque blanche n'est pas claire. Cherchez encore !})\r\n21...hxg5\r\n    {Très bien ! Cette fois-ci, les noirs décident de prendre le pion g, ouvrant la colonne h pour notre attaque. Comment continuer ?}\r\n22.Nxg5\r\n    {[%wrong Non, il faudrait reprendre le pion g5 !][%hint Prenez le pion g5 !] Excellent travail ! Cette idée offensive a été jouée par un grand-maître. Voyons maintenant comment la partie a continué...}\r\n*"
+    },
+    {
+      "fen": "2r1rbk1/1q1n1pp1/2b1p3/1p4N1/2p1P3/1p1P2PB/PB3PK1/Q1R4R w - - 0 26",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont focalisé leurs efforts sur l'aile dame. Dans le même temps, les blancs ont préparé une attaque le long de la colonne h. Trouvez le superbe sacrifice du grand-maître préparant une attaque gagnante !",
+        "[%wrong Bien essayé, mais nous sommes à la recherche d'un sacrifice de fou. Cherchez encore !][%hint Sacrifiez un fou pour ouvrir la colonne h pour vos pièces lourdes.]",
+        "Joli coup ! Les noirs ne vont pas réussir à stopper notre attaque sur la colonne h. Trouvez maintenant le coup du grand-maître, qui préféra sacrifier directement son fou.",
+        "Ce coup pourrait suffire à l'emporter grâce à l'énorme pression blanche exercée sur l'aile roi, mais il y a plus fort ! Cherchez encore.",
+        "Les blancs n'ont aucun plan pour enchaîner, et ce sacrifice va être réfuté. Cherchez encore !",
+        "Bien essayé, mais ce coup perd simplement un fou et aide les noirs à tenir la position. Cherchez mieux !",
+        "Après avoir créé une faiblesse sur la colonne h, les blancs réalisent un puissant sacrifice. Toujours sur la colonne h, trouvez l'idée qui gagne en force !",
+        "[%wrong Ce coup n'initie pas une attaque de mat sur la colonne h. Cherchez encore !][%hint Trouvez le superbe sacrifice permettent de ramener la dame sur la colonne h pour mater en h7.]",
+        "Incroyable ! Les blancs s'apprêtent à sacrifier leurs deux tours sur la colonne h pour ramener leur dame à l'attaque ! Régalez-vous !",
+        "[%wrong Non, continuons l'attaque sur la colonne h !][%hint Tout se passe sur la colonne h !]",
+        "Ce coup aide les noirs qui, outre leur avantage matériel, ont maintenant la case de fuite h7 pour leur roi. Cherchez mieux !",
+        "Formidable ! La série de sacrifice continue... A vous de jouer !",
+        "[%wrong Non, il faut continuer l'attaque sur la colonne h !][%hint La série de sacrifices continue...]",
+        "Absolument ! La dame blanche va maintenant gagner cette partie. A l'attaque !",
+        "[%wrong Non, il faut continuer l'attaque sur la colonne h !][%hint Nous avons sacrifié deux tours pour donner la colonne h à notre dame...]",
+        "Superbe ! Les noirs parent l'échec, mais il est trop tard. Comment percer ?",
+        "[%wrong Oups ! Ce coup ne gagne pas. Cherchez encore.][%hint N'oubliez pas que grâce au fou de cases blanches, le pion g7 est cloué !]",
+        "Bien essayé, mais ce coup ne mate pas et nous allons tout simplement manquer de matériel. Trouvez mieux !",
+        "Bien essayé, mais ce coup ne mate pas et nous allons tout simplement manquer de matériel. Trouvez mieux !",
+        "Quel enchaînement puissant ! Il est maintenant temps de mater !",
+        "[%wrong Ce coup ne mate pas. Essayez encore !][%hint Trouvez le mat en un.] Bravo, vous avez su profiter des faiblesses adverses pour déclencher une puissante attaque de mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1rbk1/1q1n1pp1/2b1p3/1p4N1/2p1P3/1p1P2PB/PB3PK1/Q1R4R w - - 0 26\"]\r\n\r\n{Les noirs ont focalisé leurs efforts sur l'aile dame. Dans le même temps, les blancs ont préparé une attaque le long de la colonne h. Trouvez le superbe sacrifice du grand-maître préparant une attaque gagnante !}\r\n26.Bxe6\r\n    {[%wrong Bien essayé, mais nous sommes à la recherche d'un sacrifice de fou. Cherchez encore !][%hint Sacrifiez un fou pour ouvrir la colonne h pour vos pièces lourdes.]}\r\n    (26.Bf5 $5 {Joli coup ! Les noirs ne vont pas réussir à stopper notre attaque sur la colonne h. Trouvez maintenant le coup du grand-maître, qui préféra sacrifier directement son fou.})\r\n    (26.Bg4 $6 {Ce coup pourrait suffire à l'emporter grâce à l'énorme pression blanche exercée sur l'aile roi, mais il y a plus fort ! Cherchez encore.})\r\n    (26.Nxf7 $2 Kxf7 {Les blancs n'ont aucun plan pour enchaîner, et ce sacrifice va être réfuté. Cherchez encore !})\r\n    (26.Bxg7 $2 Bxg7 {Bien essayé, mais ce coup perd simplement un fou et aide les noirs à tenir la position. Cherchez mieux !})\r\n26...Rxe6\r\n    {Après avoir créé une faiblesse sur la colonne h, les blancs réalisent un puissant sacrifice. Toujours sur la colonne h, trouvez l'idée qui gagne en force !}\r\n27.Rh8+\r\n    {[%wrong Ce coup n'initie pas une attaque de mat sur la colonne h. Cherchez encore !][%hint Trouvez le superbe sacrifice permettent de ramener la dame sur la colonne h pour mater en h7.]}\r\n27...Kxh8\r\n    {Incroyable ! Les blancs s'apprêtent à sacrifier leurs deux tours sur la colonne h pour ramener leur dame à l'attaque ! Régalez-vous !}\r\n28.Rh1+\r\n    {[%wrong Non, continuons l'attaque sur la colonne h !][%hint Tout se passe sur la colonne h !]}\r\n    (28.Nxe6 $2 fxe6 {Ce coup aide les noirs qui, outre leur avantage matériel, ont maintenant la case de fuite h7 pour leur roi. Cherchez mieux !})\r\n28...Kg8\r\n    {Formidable ! La série de sacrifice continue... A vous de jouer !}\r\n29.Rh8+\r\n    {[%wrong Non, il faut continuer l'attaque sur la colonne h !][%hint La série de sacrifices continue...]}\r\n29...Kxh8\r\n    {Absolument ! La dame blanche va maintenant gagner cette partie. A l'attaque !}\r\n30.Qh1+\r\n    {[%wrong Non, il faut continuer l'attaque sur la colonne h !][%hint Nous avons sacrifié deux tours pour donner la colonne h à notre dame...]}\r\n30...Rh6\r\n    {Superbe ! Les noirs parent l'échec, mais il est trop tard. Comment percer ?}\r\n31.Qxh6+\r\n    {[%wrong Oups ! Ce coup ne gagne pas. Cherchez encore.][%hint N'oubliez pas que grâce au fou de cases blanches, le pion g7 est cloué !]}\r\n    (31.Nxf7+ $2 Kg8 {Bien essayé, mais ce coup ne mate pas et nous allons tout simplement manquer de matériel. Trouvez mieux !})\r\n    (31.Bxg7+ $2 Bxg7 {Bien essayé, mais ce coup ne mate pas et nous allons tout simplement manquer de matériel. Trouvez mieux !})\r\n31...Kg8\r\n    {Quel enchaînement puissant ! Il est maintenant temps de mater !}\r\n32.Qh7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Trouvez le mat en un.] Bravo, vous avez su profiter des faiblesses adverses pour déclencher une puissante attaque de mat !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "80cb254c-9ced-11e8-b78a-e1f2e2f90fc8",
+    "name": "Provoquer des faiblesses",
+    "path": "provoquer-des-faiblesses",
+    "description": "Il est difficile d’attaquer un roi bien protégé. Créez des faiblesses dans la position adverse en forçant certains pions à bouger et en échangeant les meilleures pièces défensives de votre adversaire.",
+    "glyphName": "game-weakness",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-provoking-weaknesses-d9c.mp4",
+    "fen": "1k1r2r1/1bp5/1p5p/p1q5/P4p2/1P4P1/1B3P1P/1QR2RK1 b - - 0 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/1pppqppp/8/2bPP3/p4B2/2PQ1N2/P4PPP/R3R1K1 w - - 0 1\"]\r\n\r\n{Les blancs bénéficient d'un superbe développement. Trouvez comment menacer mat pour affaiblir les cases noires du roque adverse.}\r\n1.Ng5\r\n    {[%wrong Ce coup ne menace pas mat en un, cherchez encore !][%hint La dame blanche vise la case faible h7. Ramenez un cavalier à l'attaque !]}\r\n    (1.Bg5 $6 {C'est un fort coup, mais il en existe un autre beaucoup plus puissant. Trouvez-le !})\r\n1...g6\r\n    {Bien vu ! Les noirs doivent affaiblir les cases noires autour de leur roi. Trouvez maintenant un autre fort coup de cavalier qui va nous préparer à attaquer ces faiblesses.}\r\n2.Ne4\r\n    {[%wrong Bien essayé, mais il existe un coup de cavalier beaucoup plus fort. Cherchez encore !][%hint Attaquez le fou de cases noires adverse et préparez votre cavalier à sauter sur la faiblesse f6.] Bien joué ! Le cavalier blanc met la pression sur le fou de cases noires adverse, et les menaces Cf6+ et Fg5 se font de plus en plus pressantes. La position noire va bientôt s'effondrer.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/pp4pp/2p2n2/3pq3/4p3/PBN1B3/1PP2PPP/R2Q1RK1 b kq - 4 14\"]\r\n\r\n{Les noirs ont un avantage d'espace et se préparent à attaquer l'aile roi adverse. Comment affaiblir la position du roi blanc ?}\r\n14...Bd6\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort créant des faiblesses autour du roi blanc. Trouvez-le !][%hint Comment développer une pièce en menaçant mat en un ?]}\r\n    (14...Ng4 $5 15.g3 {C'est également une idée très forte, bien vu ! Trouvez maintenant un coup développant une pièce en menaçant mat en un.})\r\n15.g3\r\n    {Excellent coup ! Les noirs développent une pièce, et leur dangereuse batterie dame-fou force les blancs à affaiblir leur roque. C'est maintenant au tour du fou de cases blanches de passer à l'attaque !}\r\n15...Bg4\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus actif avec le fou de cases blanches, trouvez-le !][%hint Développez le fou de cases blanches en attaquant la dame adverse.]}\r\n    (15...Bh3 $5 {Joli coup. Vous attaquez la tour blanche et contrôlez les cases blanches autour du roi adverse. Trouvez maintenant un autre coup de fou attaquant la dame blanche !})\r\n16.Qd2\r\n    {Quelle vista ! Les noirs gagnent un tempo sur la dame blanche et se préparent à verrouiller les cases blanches autour du roi adverse. Trouvez le coup de fou le plus fort !}\r\n16...Bf3\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort avec le fou de cases blanches, trouvez-le !][%hint Comment empêcher l'avancée du pion f adverse ?] Joli ! Le fou des noirs contrôle les cases blanches entourant le roi adverse et empêche le pion f d'avancer. Les noirs vont pouvoir lancer une puissante attaque !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr1bk1/1q1n1pp1/2b1p2p/ppp5/4P1P1/1P1P1NP1/PB3PB1/Q1RR2K1 w - - 0 21\"]\r\n\r\n{Les blancs doivent attaquer sur l'aile roi. Comment ouvrir la colonne h pour affaiblir la position du roi noir ?}\r\n21.g5\r\n    {[%wrong Ce coup ne crée pas de faiblesses autour du roi noir. Cherchez encore !][%hint Le pion h6 peut être utilisé comme \"crochet\" pour ouvrir des lignes. Comment l'attaquer ?]}\r\n    (21.Bxg7 $2 Bxg7 {Bien essayé, mais ce sacrifice est un peu prématuré. L'attaque blanche n'est pas claire. Cherchez encore !})\r\n21...h5\r\n    {Excellent coup ! Les noirs tentent de maintenir le verrouillage de l'aile roi et se préparent à jouer ...g6 au prochain coup. Comment affaiblir l'aile roi en force ?}\r\n22.g6\r\n    {[%wrong Les noirs s'apprêtent à fermer l'aile roi en jouant ...g6. Empêchons ce coup !][%hint Quel est le seul moyen d'empêcher les noirs de jouer ...g6 ?]}\r\n22...fxg6\r\n    {Un coup puissant ! Les blancs sacrifient un pion pour créer des faiblesses en e6 et g6. Comment attaquer le pion faible e6 en avançant une pièce de l'aile roi ?}\r\n23.Ng5\r\n    {[%wrong Ce coup n'attaque pas efficacement le pion e6. Cherchez encore !][%hint Trouvez une case forte pour votre cavalier !] Beau boulot ! Les blancs attaquent la faiblesse e6 en postant leur cavalier sur un fort avant-poste surplombant le roi noir. Ça sent bon !}\r\n    (23.Bh3 $5 {Ce coup est également très fort, bien joué ! Trouvez maintenant une autre manière d'attaquer e6, cette fois avec un cavalier. })\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr1bk1/1q1n1pp1/2b1p2p/ppp5/4P1P1/1P1P1NP1/PB3PB1/Q1RR2K1 w - - 0 21\"]\r\n\r\n{Jouons à nouveau le puissant coup de pion affaiblissant l'aile roi des noirs !}\r\n21.g5\r\n    {[%wrong Ce n'est pas le coup que nous avons joué dans l'exercice précédent. Cherchez encore !][%hint Comment menacer de prendre en h6 ?]}\r\n    (21.Bxg7 $2 Bxg7 {Bien essayé, mais ce sacrifice est un peu prématuré. L'attaque blanche n'est pas claire. Cherchez encore !})\r\n21...hxg5\r\n    {Très bien ! Cette fois-ci, les noirs décident de prendre le pion g, ouvrant la colonne h pour notre attaque. Comment continuer ?}\r\n22.Nxg5\r\n    {[%wrong Non, il faudrait reprendre le pion g5 !][%hint Prenez le pion g5 !] Excellent travail ! Cette idée offensive a été jouée par un grand-maître. Voyons maintenant comment la partie a continué...}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1rbk1/1q1n1pp1/2b1p3/1p4N1/2p1P3/1p1P2PB/PB3PK1/Q1R4R w - - 0 26\"]\r\n\r\n{Les noirs ont focalisé leurs efforts sur l'aile dame. Dans le même temps, les blancs ont préparé une attaque le long de la colonne h. Trouvez le superbe sacrifice du grand-maître préparant une attaque gagnante !}\r\n26.Bxe6\r\n    {[%wrong Bien essayé, mais nous sommes à la recherche d'un sacrifice de fou. Cherchez encore !][%hint Sacrifiez un fou pour ouvrir la colonne h pour vos pièces lourdes.]}\r\n    (26.Bf5 $5 {Joli coup ! Les noirs ne vont pas réussir à stopper notre attaque sur la colonne h. Trouvez maintenant le coup du grand-maître, qui préféra sacrifier directement son fou.})\r\n    (26.Bg4 $6 {Ce coup pourrait suffire à l'emporter grâce à l'énorme pression blanche exercée sur l'aile roi, mais il y a plus fort ! Cherchez encore.})\r\n    (26.Nxf7 $2 Kxf7 {Les blancs n'ont aucun plan pour enchaîner, et ce sacrifice va être réfuté. Cherchez encore !})\r\n    (26.Bxg7 $2 Bxg7 {Bien essayé, mais ce coup perd simplement un fou et aide les noirs à tenir la position. Cherchez mieux !})\r\n26...Rxe6\r\n    {Après avoir créé une faiblesse sur la colonne h, les blancs réalisent un puissant sacrifice. Toujours sur la colonne h, trouvez l'idée qui gagne en force !}\r\n27.Rh8+\r\n    {[%wrong Ce coup n'initie pas une attaque de mat sur la colonne h. Cherchez encore !][%hint Trouvez le superbe sacrifice permettent de ramener la dame sur la colonne h pour mater en h7.]}\r\n27...Kxh8\r\n    {Incroyable ! Les blancs s'apprêtent à sacrifier leurs deux tours sur la colonne h pour ramener leur dame à l'attaque ! Régalez-vous !}\r\n28.Rh1+\r\n    {[%wrong Non, continuons l'attaque sur la colonne h !][%hint Tout se passe sur la colonne h !]}\r\n    (28.Nxe6 $2 fxe6 {Ce coup aide les noirs qui, outre leur avantage matériel, ont maintenant la case de fuite h7 pour leur roi. Cherchez mieux !})\r\n28...Kg8\r\n    {Formidable ! La série de sacrifice continue... A vous de jouer !}\r\n29.Rh8+\r\n    {[%wrong Non, il faut continuer l'attaque sur la colonne h !][%hint La série de sacrifices continue...]}\r\n29...Kxh8\r\n    {Absolument ! La dame blanche va maintenant gagner cette partie. A l'attaque !}\r\n30.Qh1+\r\n    {[%wrong Non, il faut continuer l'attaque sur la colonne h !][%hint Nous avons sacrifié deux tours pour donner la colonne h à notre dame...]}\r\n30...Rh6\r\n    {Superbe ! Les noirs parent l'échec, mais il est trop tard. Comment percer ?}\r\n31.Qxh6+\r\n    {[%wrong Oups ! Ce coup ne gagne pas. Cherchez encore.][%hint N'oubliez pas que grâce au fou de cases blanches, le pion g7 est cloué !]}\r\n    (31.Nxf7+ $2 Kg8 {Bien essayé, mais ce coup ne mate pas et nous allons tout simplement manquer de matériel. Trouvez mieux !})\r\n    (31.Bxg7+ $2 Bxg7 {Bien essayé, mais ce coup ne mate pas et nous allons tout simplement manquer de matériel. Trouvez mieux !})\r\n31...Kg8\r\n    {Quel enchaînement puissant ! Il est maintenant temps de mater !}\r\n32.Qh7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Trouvez le mat en un.] Bravo, vous avez su profiter des faiblesses adverses pour déclencher une puissante attaque de mat !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Pour cibler le roi adverse, vous devez apprendre à provoquer des faiblesses.",
+    "outroText": "Beau travail ! vous avez trouvé toutes les bonnes idées.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "path": "attaquer-le-roi",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/fb3a54c6-a55b-11e8-a822-312ba136ba58.45c9b3b7.728x410o.0b4182d70109.png"
+    },
+    "parentId": "a688e9d0-83b7-11e8-a4c5-d7415c5c4524",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/provoking-weaknesses5e7ab5c11b550.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/provoking-weaknesses-15ea23e50af6fa.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/provoking-weaknesses-2604f787c53959.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 121,
+    "order": 5,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi",
+      "order": 5
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-coups-forces/mat-en-trois-coups",
+  "capturedAt": "2026-10-22T12:23:41.825Z",
+  "title": "Mat en trois",
+  "exercises": [
+    {
+      "fen": "k6r/p2RR3/2P2p2/7q/6p1/8/6PP/7K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs menacent de mater en h1, mais en enchaînant une série de coups forcés, vous pouvez mater en premier. A vous de jouer !",
+        "[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Le premier coup à trouver est à la fois un échec et une capture...]",
+        "Bien vu ! Et maintenant, trouvez le mat en deux !",
+        "[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Comment éloigner le roi noir de la case a8 ?]",
+        "Ce coup suffit à annuler, mais nous cherchons à gagner ! Essayez encore.",
+        "Cette idée créative va également permettre de mater une fois le pion promu. Mais il existe dans cette positon un mat en deux beaucoup plus simple. Trouvez-le !",
+        "Bien joué ! Le roi noir ne contrôle plus la case a8. Il est temps de mater !",
+        "[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] La puissance combinée des tours et du pion a fait des merveilles ! Bien joué !",
+        "Bien essayé, mais ce n'est pas la bonne tour !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos\"]\r\n[Black \"2\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k6r/p2RR3/2P2p2/7q/6p1/8/6PP/7K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs menacent de mater en h1, mais en enchaînant une série de coups forcés, vous pouvez mater en premier. A vous de jouer !}\r\n1.Rxa7+\r\n    {[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Le premier coup à trouver est à la fois un échec et une capture...]}\r\n1...Kb8\r\n    {Bien vu ! Et maintenant, trouvez le mat en deux !}\r\n2.Reb7+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Comment éloigner le roi noir de la case a8 ?]}\r\n    (2.Rab7+ $2 Kc8 {Ce coup suffit à annuler, mais nous cherchons à gagner ! Essayez encore.})\r\n    (2.c7+ $5 Kxa7 {Cette idée créative va également permettre de mater une fois le pion promu. Mais il existe dans cette positon un mat en deux beaucoup plus simple. Trouvez-le !})\r\n2...Kc8\r\n    {Bien joué ! Le roi noir ne contrôle plus la case a8. Il est temps de mater !}\r\n3.Ra8#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] La puissance combinée des tours et du pion a fait des merveilles ! Bien joué !}\r\n    (3.Rb8+ $2 Kxb8 {Bien essayé, mais ce n'est pas la bonne tour !})\r\n*"
+    },
+    {
+      "fen": "1k1r4/ppnr2pp/4p3/4Q3/1q6/6P1/PP3PBP/2RR2K1 w - - 8 23",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. En ne jouant que des échecs, matez les noirs en trois coups !",
+        "[%wrong Ce coup ne force pas la décision. Cherchez un échec !][%hint Dans cette position, le seul échec jouable mène à un mat en trois.]",
+        "Un coup plein de puissance ! Si le roi noir s'était réfugié en a8 au lieu de prendre la dame, alors Dc8 force le mat. Comment enchaîner ?",
+        "[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Cherchez un échec éliminant une pièce adverse.]",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez un autre coup de tour plus fort !",
+        "Bien joué ! Et maintenant, terminons en beauté !",
+        "[%wrong Ce coup ne mate pas, cherchez encore !][%hint Prenez une pièce et matez en force !] Et voilà ! Échec et mat.",
+        "Bien joué, c'est mat ! Trouvez maintenant un autre mat dans la position !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r4/ppnr2pp/4p3/4Q3/1q6/6P1/PP3PBP/2RR2K1 w - - 8 23\"]\r\n\r\n{Trait aux blancs. En ne jouant que des échecs, matez les noirs en trois coups !}\r\n23.Qxc7+\r\n    {[%wrong Ce coup ne force pas la décision. Cherchez un échec !][%hint Dans cette position, le seul échec jouable mène à un mat en trois.]}\r\n23...Rxc7\r\n    {Un coup plein de puissance ! Si le roi noir s'était réfugié en a8 au lieu de prendre la dame, alors Dc8 force le mat. Comment enchaîner ?}\r\n24.Rxd8+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Cherchez un échec éliminant une pièce adverse.]}\r\n    (24.Rxc7 $2 Rxd1+ {Bien essayé, mais ce coup perd du matériel. Trouvez un autre coup de tour plus fort !})\r\n24...Rc8\r\n    {Bien joué ! Et maintenant, terminons en beauté !}\r\n25.Rdxc8#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Prenez une pièce et matez en force !] Et voilà ! Échec et mat.}\r\n    (25.Rcxc8# $5 {Bien joué, c'est mat ! Trouvez maintenant un autre mat dans la position !})\r\n*"
+    },
+    {
+      "fen": "r2q1b1r/pppb1Bpp/2np1k2/5pN1/4P3/2N5/PPP2PPP/R1B1K2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont sacrifié leur dame pour une forte attaque. Trouvez deux échecs de cavalier attirant le roi noir vers le centre, puis matez-le !",
+        "[%wrong Ce coup n'est pas un échec de cavalier. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à se rendre en e5.]",
+        "Attirer le roi adverse vers le centre est en général une bonne idée mais, en donnant ce pion, vous ne pouvez plus mater en force. Cherchez encore !",
+        "Le roi noir prend du matériel tout en trouvant refuge derrière ses pièces... Trouvez mieux !",
+        "Bien joué ! Le roi noir est attiré vers le centre. Et maintenant, mat en deux !",
+        "[%wrong Ce coup n'est pas un échec de cavalier. Cherchez encore !][%hint Quel est le seul échec de cavalier jouable dans cette position ?]",
+        "Attirer le roi adverse vers le centre est en général une bonne idée, mais dans cette variante, point de mat... Cherchez encore !",
+        "Attirer le roi adverse vers le centre est en général une bonne idée, mais dans cette variante, point de mat... Cherchez encore !",
+        "Bien joué ! Le roi noir doit maintenant fuir en e4, où il va être maté sans pitié par un cavalier !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez l'échec de cavalier fatal...] Les cavaliers ont collaboré à merveille pour mater le roi noir en plein milieu de l'échiquier. Bravo !",
+        "Oups ! Les noirs peuvent sacrifier du matériel et la partie continue... Trouvez le mat !",
+        "Le roi noir peut encore survivre un peu... Achevez-le en un coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1b1r/pppb1Bpp/2np1k2/5pN1/4P3/2N5/PPP2PPP/R1B1K2R w KQ - 0 1\"]\r\n\r\n{Les blancs ont sacrifié leur dame pour une forte attaque. Trouvez deux échecs de cavalier attirant le roi noir vers le centre, puis matez-le !}\r\n1.Nd5+\r\n    {[%wrong Ce coup n'est pas un échec de cavalier. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à se rendre en e5.]}\r\n    (1.e5+ $2 Kxe5 {Attirer le roi adverse vers le centre est en général une bonne idée mais, en donnant ce pion, vous ne pouvez plus mater en force. Cherchez encore !})\r\n    (1.Nxh7+ $2 Kxf7 {Le roi noir prend du matériel tout en trouvant refuge derrière ses pièces... Trouvez mieux !})\r\n1...Ke5\r\n    {Bien joué ! Le roi noir est attiré vers le centre. Et maintenant, mat en deux !}\r\n2.Nf3+\r\n    {[%wrong Ce coup n'est pas un échec de cavalier. Cherchez encore !][%hint Quel est le seul échec de cavalier jouable dans cette position ?]}\r\n    (2.Bf4+ $6 Kd4 {Attirer le roi adverse vers le centre est en général une bonne idée, mais dans cette variante, point de mat... Cherchez encore !})\r\n    (2.f4+ $6 Kd4 {Attirer le roi adverse vers le centre est en général une bonne idée, mais dans cette variante, point de mat... Cherchez encore !})\r\n2...Kxe4\r\n    {Bien joué ! Le roi noir doit maintenant fuir en e4, où il va être maté sans pitié par un cavalier !}\r\n3.Nc3#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez l'échec de cavalier fatal...] Les cavaliers ont collaboré à merveille pour mater le roi noir en plein milieu de l'échiquier. Bravo !}\r\n    (3.Ng5+ $2 Qxg5 {Oups ! Les noirs peuvent sacrifier du matériel et la partie continue... Trouvez le mat !})\r\n    (3.Nd2+ $2 Kd4 {Le roi noir peut encore survivre un peu... Achevez-le en un coup !})\r\n*"
+    },
+    {
+      "fen": "1r4k1/5Npp/8/8/2Q5/8/1q5P/7K w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils utiliser un double échec pour mater en 3 coups ?",
+        "\r\n[%wrong Il existe une meilleure option. Retentez votre chance.] \r\n[%hint Trouvez un puissant double échec.]",
+        "Bon début ! Quel sacrifice pouvez-vous faire pour forcer le roi noir à se retrouver coincé dans le coin de l'échiquier ?",
+        "[%wrong Il y a mieux ! Utilisez l'indice si vous avez besoin d'aide.] [%hint Sacrifiez la dame pour forcer un mat à l'étouffée.]",
+        "Parfait ! Il ne vous reste plus qu'à délivrer le coup de grâce.",
+        "[%wrong Ce n'est pas le moment de flancher, vous devez conclure.] [%hint Votre cavalier est prêt à surgir hors de la nuit !]  Un magnifique tableau final !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/5Npp/8/8/2Q5/8/1q5P/7K w - - 0 0\"]\r\n[PlyCount \"5\"]\r\n\r\n{Comment les blancs peuvent-ils utiliser un double échec pour mater en 3 coups ?} 1. Nh6+ {\r\n[%wrong Il existe une meilleure option. Retentez votre chance.] \r\n[%hint Trouvez un puissant double échec.]} Kh8 {Bon début ! Quel sacrifice pouvez-vous faire pour forcer le roi noir à se retrouver coincé dans le coin de l'échiquier ?} 2. Qg8+ {[%wrong Il y a mieux ! Utilisez l'indice si vous avez besoin d'aide.] [%hint Sacrifiez la dame pour forcer un mat à l'étouffée.]} Rxg8 {Parfait ! Il ne vous reste plus qu'à délivrer le coup de grâce.} 3. Nf7# {[%wrong Ce n'est pas le moment de flancher, vous devez conclure.] [%hint Votre cavalier est prêt à surgir hors de la nuit !]  Un magnifique tableau final !} *"
+    },
+    {
+      "fen": "1k4r1/ppqR3p/2p1p3/P4n2/1Q6/5p1P/1PP4P/3R3K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position, le conducteur des blancs s'attend à nous voir abandonner. Prouvez-lui qu'il a tort ! Les noirs jouent et matent en trois coups grâce à un sacrifice de dame.",
+        "[%wrong Ce coup ne force pas la réaction du roi blanc. Cherchez encore !][%hint Comment forcer le roi blanc à monter sur la deuxième rangée ?]",
+        "Ce coup sacrifie effectivement la dame, mais les blancs vont maintenant nous mater en b7... Cherchez mieux !",
+        "Nous devons forcer le roi blanc à quitter son coin. Cherchez encore !",
+        "Magnifique ! Les noirs sacrifient la dame pour forcer le roi blanc à se rendre sur la seconde rangée. Continuez l'attaque !",
+        "[%wrong Ce coup n'est pas assez incisif. Jouez un échec !][%hint Quel est le seul échec jouable dans cette position ?]",
+        "Bien vu ! Le roi blanc est maintenant enfermé. Portez-lui l'estocade finale !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Notre tour coince le roi blanc contre la bande. Ramenez une autre pièce en attaque pour le mater !] Quel vista ! Grâce à cette superbe combinaison, les noirs matent. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4r1/ppqR3p/2p1p3/P4n2/1Q6/5p1P/1PP4P/3R3K b - - 0 1\"]\r\n\r\n{Dans cette position, le conducteur des blancs s'attend à nous voir abandonner. Prouvez-lui qu'il a tort ! Les noirs jouent et matent en trois coups grâce à un sacrifice de dame.}\r\n1...Qxh2+\r\n    {[%wrong Ce coup ne force pas la réaction du roi blanc. Cherchez encore !][%hint Comment forcer le roi blanc à monter sur la deuxième rangée ?]}\r\n    (1...Qxd7 $2 2.Rxd7 {Ce coup sacrifie effectivement la dame, mais les blancs vont maintenant nous mater en b7... Cherchez mieux !})\r\n    (1...Qxa5 $2 2.Qxb7# {Nous devons forcer le roi blanc à quitter son coin. Cherchez encore !})\r\n2.Kxh2\r\n    {Magnifique ! Les noirs sacrifient la dame pour forcer le roi blanc à se rendre sur la seconde rangée. Continuez l'attaque !}\r\n2...Rg2+\r\n    {[%wrong Ce coup n'est pas assez incisif. Jouez un échec !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n3.Kh1\r\n    {Bien vu ! Le roi blanc est maintenant enfermé. Portez-lui l'estocade finale !}\r\n3...Ng3#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Notre tour coince le roi blanc contre la bande. Ramenez une autre pièce en attaque pour le mater !] Quel vista ! Grâce à cette superbe combinaison, les noirs matent. Bien joué !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "f00b263a-9cea-11e8-9061-15f8e967fe96",
+    "name": "Mat en trois",
+    "path": "mat-en-trois-coups",
+    "description": "Observez la position plus en profondeur pour trouver des mats en trois coups. En cherchant les coups qui forcent la réponse adverse, vous trouverez plus souvent les combinaisons gagnantes.",
+    "glyphName": "move-mate-3",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-checkmate-in-3-moves-g2a.mp4",
+    "fen": "r2q1b1r/pppb1Bpp/2np1k2/5pN1/4P3/2N5/PPP2PPP/R1B1K2R w KQ - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos\"]\r\n[Black \"2\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k6r/p2RR3/2P2p2/7q/6p1/8/6PP/7K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs menacent de mater en h1, mais en enchaînant une série de coups forcés, vous pouvez mater en premier. A vous de jouer !}\r\n1.Rxa7+\r\n    {[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Le premier coup à trouver est à la fois un échec et une capture...]}\r\n1...Kb8\r\n    {Bien vu ! Et maintenant, trouvez le mat en deux !}\r\n2.Reb7+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Comment éloigner le roi noir de la case a8 ?]}\r\n    (2.Rab7+ $2 Kc8 {Ce coup suffit à annuler, mais nous cherchons à gagner ! Essayez encore.})\r\n    (2.c7+ $5 Kxa7 {Cette idée créative va également permettre de mater une fois le pion promu. Mais il existe dans cette positon un mat en deux beaucoup plus simple. Trouvez-le !})\r\n2...Kc8\r\n    {Bien joué ! Le roi noir ne contrôle plus la case a8. Il est temps de mater !}\r\n3.Ra8#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] La puissance combinée des tours et du pion a fait des merveilles ! Bien joué !}\r\n    (3.Rb8+ $2 Kxb8 {Bien essayé, mais ce n'est pas la bonne tour !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r4/ppnr2pp/4p3/4Q3/1q6/6P1/PP3PBP/2RR2K1 w - - 8 23\"]\r\n\r\n{Trait aux blancs. En ne jouant que des échecs, matez les noirs en trois coups !}\r\n23.Qxc7+\r\n    {[%wrong Ce coup ne force pas la décision. Cherchez un échec !][%hint Dans cette position, le seul échec jouable mène à un mat en trois.]}\r\n23...Rxc7\r\n    {Un coup plein de puissance ! Si le roi noir s'était réfugié en a8 au lieu de prendre la dame, alors Dc8 force le mat. Comment enchaîner ?}\r\n24.Rxd8+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Cherchez un échec éliminant une pièce adverse.]}\r\n    (24.Rxc7 $2 Rxd1+ {Bien essayé, mais ce coup perd du matériel. Trouvez un autre coup de tour plus fort !})\r\n24...Rc8\r\n    {Bien joué ! Et maintenant, terminons en beauté !}\r\n25.Rdxc8#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Prenez une pièce et matez en force !] Et voilà ! Échec et mat.}\r\n    (25.Rcxc8# $5 {Bien joué, c'est mat ! Trouvez maintenant un autre mat dans la position !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1b1r/pppb1Bpp/2np1k2/5pN1/4P3/2N5/PPP2PPP/R1B1K2R w KQ - 0 1\"]\r\n\r\n{Les blancs ont sacrifié leur dame pour une forte attaque. Trouvez deux échecs de cavalier attirant le roi noir vers le centre, puis matez-le !}\r\n1.Nd5+\r\n    {[%wrong Ce coup n'est pas un échec de cavalier. Cherchez encore !][%hint Trouvez un échec forçant le roi noir à se rendre en e5.]}\r\n    (1.e5+ $2 Kxe5 {Attirer le roi adverse vers le centre est en général une bonne idée mais, en donnant ce pion, vous ne pouvez plus mater en force. Cherchez encore !})\r\n    (1.Nxh7+ $2 Kxf7 {Le roi noir prend du matériel tout en trouvant refuge derrière ses pièces... Trouvez mieux !})\r\n1...Ke5\r\n    {Bien joué ! Le roi noir est attiré vers le centre. Et maintenant, mat en deux !}\r\n2.Nf3+\r\n    {[%wrong Ce coup n'est pas un échec de cavalier. Cherchez encore !][%hint Quel est le seul échec de cavalier jouable dans cette position ?]}\r\n    (2.Bf4+ $6 Kd4 {Attirer le roi adverse vers le centre est en général une bonne idée, mais dans cette variante, point de mat... Cherchez encore !})\r\n    (2.f4+ $6 Kd4 {Attirer le roi adverse vers le centre est en général une bonne idée, mais dans cette variante, point de mat... Cherchez encore !})\r\n2...Kxe4\r\n    {Bien joué ! Le roi noir doit maintenant fuir en e4, où il va être maté sans pitié par un cavalier !}\r\n3.Nc3#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez l'échec de cavalier fatal...] Les cavaliers ont collaboré à merveille pour mater le roi noir en plein milieu de l'échiquier. Bravo !}\r\n    (3.Ng5+ $2 Qxg5 {Oups ! Les noirs peuvent sacrifier du matériel et la partie continue... Trouvez le mat !})\r\n    (3.Nd2+ $2 Kd4 {Le roi noir peut encore survivre un peu... Achevez-le en un coup !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/5Npp/8/8/2Q5/8/1q5P/7K w - - 0 0\"]\r\n[PlyCount \"5\"]\r\n\r\n{Comment les blancs peuvent-ils utiliser un double échec pour mater en 3 coups ?} 1. Nh6+ {\r\n[%wrong Il existe une meilleure option. Retentez votre chance.] \r\n[%hint Trouvez un puissant double échec.]} Kh8 {Bon début ! Quel sacrifice pouvez-vous faire pour forcer le roi noir à se retrouver coincé dans le coin de l'échiquier ?} 2. Qg8+ {[%wrong Il y a mieux ! Utilisez l'indice si vous avez besoin d'aide.] [%hint Sacrifiez la dame pour forcer un mat à l'étouffée.]} Rxg8 {Parfait ! Il ne vous reste plus qu'à délivrer le coup de grâce.} 3. Nf7# {[%wrong Ce n'est pas le moment de flancher, vous devez conclure.] [%hint Votre cavalier est prêt à surgir hors de la nuit !]  Un magnifique tableau final !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4r1/ppqR3p/2p1p3/P4n2/1Q6/5p1P/1PP4P/3R3K b - - 0 1\"]\r\n\r\n{Dans cette position, le conducteur des blancs s'attend à nous voir abandonner. Prouvez-lui qu'il a tort ! Les noirs jouent et matent en trois coups grâce à un sacrifice de dame.}\r\n1...Qxh2+\r\n    {[%wrong Ce coup ne force pas la réaction du roi blanc. Cherchez encore !][%hint Comment forcer le roi blanc à monter sur la deuxième rangée ?]}\r\n    (1...Qxd7 $2 2.Rxd7 {Ce coup sacrifie effectivement la dame, mais les blancs vont maintenant nous mater en b7... Cherchez mieux !})\r\n    (1...Qxa5 $2 2.Qxb7# {Nous devons forcer le roi blanc à quitter son coin. Cherchez encore !})\r\n2.Kxh2\r\n    {Magnifique ! Les noirs sacrifient la dame pour forcer le roi blanc à se rendre sur la seconde rangée. Continuez l'attaque !}\r\n2...Rg2+\r\n    {[%wrong Ce coup n'est pas assez incisif. Jouez un échec !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n3.Kh1\r\n    {Bien vu ! Le roi blanc est maintenant enfermé. Portez-lui l'estocade finale !}\r\n3...Ng3#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Notre tour coince le roi blanc contre la bande. Ramenez une autre pièce en attaque pour le mater !] Quel vista ! Grâce à cette superbe combinaison, les noirs matent. Bien joué !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "d99efe36-a559-11e8-8f87-67f547523c41",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Prêt à chercher des combinaisons de mat ?",
+    "outroText": "Anticipez au maximum dans vos parties pour calculer les combinaisons de mat jusqu'au bout.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "path": "les-coups-forces",
+      "title": "Les coups forcés",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/d99efe36-a559-11e8-8f87-67f547523c41.45eb0b22.728x410o.b971cb5ae816.png"
+    },
+    "parentId": "d878f928-83ab-11e8-9347-fbc0966261e6",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-3-moves5d12564871842.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-3-moves-5667eeb498989d.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-3-moves-15ea2417778bc7.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-3-moves-2603775fb34c8d.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 76,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "name": "Les coups forcés",
+      "path": "les-coups-forces",
+      "order": 4
+    }
+  }
+}

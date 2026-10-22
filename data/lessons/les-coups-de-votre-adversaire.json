@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/les-coups-de-votre-adversaire",
+  "capturedAt": "2026-10-22T12:23:33.431Z",
+  "title": "Les coups de votre adversaire",
+  "exercises": [
+    {
+      "fen": "6K1/7P/6q1/8/8/8/6k1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs doivent réagir face à cet échec ?",
+        "[%wrong Il existe un meilleur coup.\r\nEssayez encore et cherchez une meilleure case pour votre roi.] [%hint Déplacez votre roi en défendant votre pion.]  Bonne idée ! Les noirs n'ont aucun moyen de gagner le pion blanc avant sa promotion sans sacrifier leur dame. La partie devrait vite se terminer par la nulle.",
+        "\r\nLes noirs gagnent le pion et vont ensuite pouvoir mater."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6K1/7P/6q1/8/8/8/6k1/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Comment les blancs doivent réagir face à cet échec ?} 1. Kh8 {[%wrong Il existe un meilleur coup.\r\nEssayez encore et cherchez une meilleure case pour votre roi.] [%hint Déplacez votre roi en défendant votre pion.]  Bonne idée ! Les noirs n'ont aucun moyen de gagner le pion blanc avant sa promotion sans sacrifier leur dame. La partie devrait vite se terminer par la nulle.} (1. Kf8 $2 Qxh7 {\r\nLes noirs gagnent le pion et vont ensuite pouvoir mater.}) *"
+    },
+    {
+      "fen": "8/6pk/8/5p2/PN3P2/6P1/3q1P1P/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent à la fois votre tour et votre cavalier. Comment sauver les deux pièces ?",
+        "[%wrong Les noirs gagnent du matériel. Réessayez et tentez de trouver un moyen de préserver votre tour et votre cavalier.] [%hint Défendez votre cavalier en déplaçant votre tour.]  Bien joué ! Les blancs gardent une position confortable et des chances de gagner la finale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6pk/8/5p2/PN3P2/6P1/3q1P1P/4R1K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Les noirs attaquent à la fois votre tour et votre cavalier. Comment sauver les deux pièces ?} \r\n1. Rb1 {[%wrong Les noirs gagnent du matériel. Réessayez et tentez de trouver un moyen de préserver votre tour et votre cavalier.] [%hint Défendez votre cavalier en déplaçant votre tour.]  Bien joué ! Les blancs gardent une position confortable et des chances de gagner la finale.} *"
+    },
+    {
+      "fen": "8/2Q2pkp/p2p2pq/4p3/4P3/1n1P4/P1P2PPP/6K1 w - - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs doivent reprendre en b3 sans se tromper. Que feriez-vous ?",
+        "[%wrong Bien essayé mais les noirs se retrouvent gagnants avec du matériel en plus. Cherchez une alternative ou utilisez l'indice si vous n'êtes pas sûr.] [%hint Il y a deux façons de prendre le cavalier noir. Une permet à votre adversaire de vous mater et l'autre de l'en empêcher. Faites le bon choix !]",
+        "\r\nOh, non ! Il fallait vérifier que votre adversaire ne pouvait pas vous mater. Voyez-vous une autre façon de prendre la pièce en évitant cette sinistre fin ?",
+        "Excellente décision ! Les noirs ont négligé votre idée et clament fièrement, \"Échec et mat !\". Prouvez-leur quand ils ont tort.",
+        "[%wrong\r\nIllegal.] [%hint Vous n'avez qu'un seul coup légal mais la bonne nouvelle c'est qu'il gagne. Cherchez comment prendre la pièce qui vous met en échec.] Bien joué ! Vous avez parfaitement déjoué le plan de votre adversaire."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.08.22\"]\r\n[Round \"?\"]\r\n[White \"ch5oppmoves\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2Q2pkp/p2p2pq/4p3/4P3/1n1P4/P1P2PPP/6K1 w - - 0 3\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.08.22\"]\r\n\r\n{Les blancs doivent reprendre en b3 sans se tromper. Que feriez-vous ?} 3.\r\ncxb3 {[%wrong Bien essayé mais les noirs se retrouvent gagnants avec du matériel en plus. Cherchez une alternative ou utilisez l'indice si vous n'êtes pas sûr.] [%hint Il y a deux façons de prendre le cavalier noir. Une permet à votre adversaire de vous mater et l'autre de l'en empêcher. Faites le bon choix !]} (3. axb3 $2 Qc1# {\r\nOh, non ! Il fallait vérifier que votre adversaire ne pouvait pas vous mater. Voyez-vous une autre façon de prendre la pièce en évitant cette sinistre fin ?}) 3... Qc1+ {Excellente décision ! Les noirs ont négligé votre idée et clament fièrement, \"Échec et mat !\". Prouvez-leur quand ils ont tort.} 4. Qxc1 {[%wrong\r\nIllegal.] [%hint Vous n'avez qu'un seul coup légal mais la bonne nouvelle c'est qu'il gagne. Cherchez comment prendre la pièce qui vous met en échec.] Bien joué ! Vous avez parfaitement déjoué le plan de votre adversaire.} *"
+    },
+    {
+      "fen": "3r2k1/4Rppp/p7/1p6/8/P7/1P3PPP/R2r2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent notre tour en a1 et font échec au roi, quelle est notre meilleure défense ?",
+        "[%wrong Illegal.] [%hint Les blancs ont seulement 2 coups à leur disposition, l'un sauve la partie, l'autre les conduit à se faire mater.]",
+        "Malheureusement une fois que l'on bloque l'échec avec notre tour, les noirs n'ont qu'à la capturer pour nous mater. Essayez autre chose ou bien aidez-vous de l'indice.",
+        "Bien joué ! Comment continuer à présent ?",
+        "[%wrong Illegal.] [%hint Les blancs n'ont en réalité qu'un seul coup légal et par chance il sauve la partie !]",
+        "Les noirs continuent d'attaquer sans être attentif. Quelle est la meilleure réponse pour les blancs ?",
+        "[%wrong Il y a beaucoup mieux ! Vous avez défendu, c'est maintenant à votre tour d'attaquer.] [%hint Les noirs n'ont en tête que leurs propres idées et en oublient leur roi. Les blancs aussi peuvent s'activer et même mieux remporter la partie sur le champ.] Bien vu ! Vous avez parfaitement contré votre adversaire !",
+        "Sauver notre pion b2 a du sens mais une idée bien plus forte est possible !",
+        "Sauver notre pion b2 a du sens mais une idée bien plus forte est possible !",
+        "Défendre notre pion b2 a du sens mais une idée bien plus forte est possible !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.08.22\"]\r\n[Round \"?\"]\r\n[White \"ch1oppmove\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/4Rppp/p7/1p6/8/P7/1P3PPP/R2r2K1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.08.22\"]\r\n\r\n{Les noirs attaquent notre tour en a1 et font échec au roi, quelle est notre meilleure défense ?} 1.\r\nRe1 {[%wrong Illegal.] [%hint Les blancs ont seulement 2 coups à leur disposition, l'un sauve la partie, l'autre les conduit à se faire mater.]} (1. Rxd1 $2 Rxd1+ {Malheureusement une fois que l'on bloque l'échec avec notre tour, les noirs n'ont qu'à la capturer pour nous mater. Essayez autre chose ou bien aidez-vous de l'indice.}) 1... Rxe1+ {Bien joué ! Comment continuer à présent ?} 2. Rxe1 {[%wrong Illegal.] [%hint Les blancs n'ont en réalité qu'un seul coup légal et par chance il sauve la partie !]} Rd2 {Les noirs continuent d'attaquer sans être attentif. Quelle est la meilleure réponse pour les blancs ?} 3. Re8# {[%wrong Il y a beaucoup mieux ! Vous avez défendu, c'est maintenant à votre tour d'attaquer.] [%hint Les noirs n'ont en tête que leurs propres idées et en oublient leur roi. Les blancs aussi peuvent s'activer et même mieux remporter la partie sur le champ.] Bien vu ! Vous avez parfaitement contré votre adversaire !} (3. b4\r\n$2 {Sauver notre pion b2 a du sens mais une idée bien plus forte est possible !}) (3. b3 $2 {Sauver notre pion b2 a du sens mais une idée bien plus forte est possible !}) (3. Rb1 $2 {Défendre notre pion b2 a du sens mais une idée bien plus forte est possible !}) *"
+    },
+    {
+      "fen": "rn1qkb1r/ppp1pppp/5n2/1N1p1b2/3P1B2/8/PPP1PPPP/R2QKBNR b KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer leur cavalier en b5. Quelle est la menace et comment y faire face ?",
+        "[%wrong Attention, les blancs menacent de faire une fourchette en c7 en capturant le pion avec le cavalier, il faut à tout prix les en empêcher ! Utilisez l'indice si besoin.] [%hint Cherchez un coup de cavalier qui ajoute une seconde défense au pion c7.]",
+        "Bien tenté mais les blancs peuvent tout de même sauter en c7 avec leur cavalier et réaliser une fourchette, essayez plutôt de défendre votre pion ou utilisez aidez-vous de l'indice.",
+        "Les blancs capturent un pion gratuitement et le même problème se pose de nouveau, il faut trouver une meilleure solution.",
+        "Ce coup distrait seulement les blancs l'espace d'un temps et perd une pièce, ce n'est définitivement pas une bonne idée.",
+        "Attention ce coup perdrait la dame ! Il faut trouver mieux.",
+        "Belle défense ! Les blancs auraient dû accepter l'échec de leur plan et essayer autre chose. Comment pouvons-nous maintenant gagner du matériel ?",
+        "[%wrong Illegal.] [%hint Capturez le cavalier blanc avec la pièce qui a le moins de valeur.]",
+        "C'est dans l'esprit mais nous ne voulons pas commencer par prendre de la dame car les blancs pourraient alors la capturer.",
+        "Nous ne pouvons pas nous permettre de bouger notre roi, cela nous coûterait notre tour a8.",
+        "Bien joué ! Comment poursuivre ?",
+        "\r\n[%wrong Nous pouvons gagner du matériel.] [%hint Quelle pièce adverse est en prise ?] Beau travail ! Vous avez parfaitement défendu !!",
+        "Ce coup perd du matériel sans raison. Trouvez comment en gagner à la place."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.08.22\"]\r\n[Round \"?\"]\r\n[White \"ch2oppmove\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"D00\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkb1r/ppp1pppp/5n2/1N1p1b2/3P1B2/8/PPP1PPPP/R2QKBNR b KQkq - 0 4\"]\r\n[PlyCount \"5\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.08.22\"]\r\n\r\n{Les blancs viennent de jouer leur cavalier en b5. Quelle est la menace et comment y faire face ?} 4... Na6 {[%wrong Attention, les blancs menacent de faire une fourchette en c7 en capturant le pion avec le cavalier, il faut à tout prix les en empêcher ! Utilisez l'indice si besoin.] [%hint Cherchez un coup de cavalier qui ajoute une seconde défense au pion c7.]} (4... c6 $2 5. Nc7+ {Bien tenté mais les blancs peuvent tout de même sauter en c7 avec leur cavalier et réaliser une fourchette, essayez plutôt de défendre votre pion ou utilisez aidez-vous de l'indice.}) (4... e5 $2 5. Bxe5 {Les blancs capturent un pion gratuitement et le même problème se pose de nouveau, il faut trouver une meilleure solution.}) (4... Bxc2 $2 5. Qxc2 {Ce coup distrait seulement les blancs l'espace d'un temps et perd une pièce, ce n'est définitivement pas une bonne idée.}) (4... Qd6 $2 5. Bxd6 {Attention ce coup perdrait la dame ! Il faut trouver mieux.}) 5. Nxc7+ {Belle défense ! Les blancs auraient dû accepter l'échec de leur plan et essayer autre chose. Comment pouvons-nous maintenant gagner du matériel ?}\r\nNxc7 {[%wrong Illegal.] [%hint Capturez le cavalier blanc avec la pièce qui a le moins de valeur.]} (5... Qxc7 $2 6. Bxc7 {C'est dans l'esprit mais nous ne voulons pas commencer par prendre de la dame car les blancs pourraient alors la capturer.}) (5... Kd7 $2 6. Nxa8 {Nous ne pouvons pas nous permettre de bouger notre roi, cela nous coûterait notre tour a8.}) 6. Bxc7 {Bien joué ! Comment poursuivre ?} Qxc7 {\r\n[%wrong Nous pouvons gagner du matériel.] [%hint Quelle pièce adverse est en prise ?] Beau travail ! Vous avez parfaitement défendu !!} (6... Bxc2 $2 7. Qxc2 {Ce coup perd du matériel sans raison. Trouvez comment en gagner à la place.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "ed90e2e2-232f-11ea-9cea-c1dff824e383",
+    "name": "Les coups de votre adversaire",
+    "path": "les-coups-de-votre-adversaire",
+    "description": "Il est primordial de faire attention à ce que votre adversaire planifie à chaque coup. Vous devez vérifier systématiquement tous les échecs à sa disposition, les prises possibles et les autres menaces éventuelles. Ce sont les coups qui vous mettront en position délicate si vous ne les anticipez pas. Parfois votre adversaire parviendra à créer plusieurs menaces à la fois, vous devrez alors chercher un coup qui les parera toutes simultanément, prenez votre temps et réfléchissez aux différentes idées qui s'offrent à vous. Le meilleur moyen d'éviter les problèmes est de vous demander à chaque coup : \"si mon adversaire pouvait rejouer, que ferait-il ?\".",
+    "glyphName": "hand-gesture-left-pointing-top",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-OP-opponents-moves-g2a.mp4",
+    "fen": "6k1/5ppp/1r2p3/4Q3/8/q7/P4PPP/1R4K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6K1/7P/6q1/8/8/8/6k1/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Comment les blancs doivent réagir face à cet échec ?} 1. Kh8 {[%wrong Il existe un meilleur coup.\r\nEssayez encore et cherchez une meilleure case pour votre roi.] [%hint Déplacez votre roi en défendant votre pion.]  Bonne idée ! Les noirs n'ont aucun moyen de gagner le pion blanc avant sa promotion sans sacrifier leur dame. La partie devrait vite se terminer par la nulle.} (1. Kf8 $2 Qxh7 {\r\nLes noirs gagnent le pion et vont ensuite pouvoir mater.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6pk/8/5p2/PN3P2/6P1/3q1P1P/4R1K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Les noirs attaquent à la fois votre tour et votre cavalier. Comment sauver les deux pièces ?} \r\n1. Rb1 {[%wrong Les noirs gagnent du matériel. Réessayez et tentez de trouver un moyen de préserver votre tour et votre cavalier.] [%hint Défendez votre cavalier en déplaçant votre tour.]  Bien joué ! Les blancs gardent une position confortable et des chances de gagner la finale.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.08.22\"]\r\n[Round \"?\"]\r\n[White \"ch5oppmoves\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2Q2pkp/p2p2pq/4p3/4P3/1n1P4/P1P2PPP/6K1 w - - 0 3\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.08.22\"]\r\n\r\n{Les blancs doivent reprendre en b3 sans se tromper. Que feriez-vous ?} 3.\r\ncxb3 {[%wrong Bien essayé mais les noirs se retrouvent gagnants avec du matériel en plus. Cherchez une alternative ou utilisez l'indice si vous n'êtes pas sûr.] [%hint Il y a deux façons de prendre le cavalier noir. Une permet à votre adversaire de vous mater et l'autre de l'en empêcher. Faites le bon choix !]} (3. axb3 $2 Qc1# {\r\nOh, non ! Il fallait vérifier que votre adversaire ne pouvait pas vous mater. Voyez-vous une autre façon de prendre la pièce en évitant cette sinistre fin ?}) 3... Qc1+ {Excellente décision ! Les noirs ont négligé votre idée et clament fièrement, \"Échec et mat !\". Prouvez-leur quand ils ont tort.} 4. Qxc1 {[%wrong\r\nIllegal.] [%hint Vous n'avez qu'un seul coup légal mais la bonne nouvelle c'est qu'il gagne. Cherchez comment prendre la pièce qui vous met en échec.] Bien joué ! Vous avez parfaitement déjoué le plan de votre adversaire.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.08.22\"]\r\n[Round \"?\"]\r\n[White \"ch1oppmove\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/4Rppp/p7/1p6/8/P7/1P3PPP/R2r2K1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.08.22\"]\r\n\r\n{Les noirs attaquent notre tour en a1 et font échec au roi, quelle est notre meilleure défense ?} 1.\r\nRe1 {[%wrong Illegal.] [%hint Les blancs ont seulement 2 coups à leur disposition, l'un sauve la partie, l'autre les conduit à se faire mater.]} (1. Rxd1 $2 Rxd1+ {Malheureusement une fois que l'on bloque l'échec avec notre tour, les noirs n'ont qu'à la capturer pour nous mater. Essayez autre chose ou bien aidez-vous de l'indice.}) 1... Rxe1+ {Bien joué ! Comment continuer à présent ?} 2. Rxe1 {[%wrong Illegal.] [%hint Les blancs n'ont en réalité qu'un seul coup légal et par chance il sauve la partie !]} Rd2 {Les noirs continuent d'attaquer sans être attentif. Quelle est la meilleure réponse pour les blancs ?} 3. Re8# {[%wrong Il y a beaucoup mieux ! Vous avez défendu, c'est maintenant à votre tour d'attaquer.] [%hint Les noirs n'ont en tête que leurs propres idées et en oublient leur roi. Les blancs aussi peuvent s'activer et même mieux remporter la partie sur le champ.] Bien vu ! Vous avez parfaitement contré votre adversaire !} (3. b4\r\n$2 {Sauver notre pion b2 a du sens mais une idée bien plus forte est possible !}) (3. b3 $2 {Sauver notre pion b2 a du sens mais une idée bien plus forte est possible !}) (3. Rb1 $2 {Défendre notre pion b2 a du sens mais une idée bien plus forte est possible !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.08.22\"]\r\n[Round \"?\"]\r\n[White \"ch2oppmove\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"D00\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkb1r/ppp1pppp/5n2/1N1p1b2/3P1B2/8/PPP1PPPP/R2QKBNR b KQkq - 0 4\"]\r\n[PlyCount \"5\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.08.22\"]\r\n\r\n{Les blancs viennent de jouer leur cavalier en b5. Quelle est la menace et comment y faire face ?} 4... Na6 {[%wrong Attention, les blancs menacent de faire une fourchette en c7 en capturant le pion avec le cavalier, il faut à tout prix les en empêcher ! Utilisez l'indice si besoin.] [%hint Cherchez un coup de cavalier qui ajoute une seconde défense au pion c7.]} (4... c6 $2 5. Nc7+ {Bien tenté mais les blancs peuvent tout de même sauter en c7 avec leur cavalier et réaliser une fourchette, essayez plutôt de défendre votre pion ou utilisez aidez-vous de l'indice.}) (4... e5 $2 5. Bxe5 {Les blancs capturent un pion gratuitement et le même problème se pose de nouveau, il faut trouver une meilleure solution.}) (4... Bxc2 $2 5. Qxc2 {Ce coup distrait seulement les blancs l'espace d'un temps et perd une pièce, ce n'est définitivement pas une bonne idée.}) (4... Qd6 $2 5. Bxd6 {Attention ce coup perdrait la dame ! Il faut trouver mieux.}) 5. Nxc7+ {Belle défense ! Les blancs auraient dû accepter l'échec de leur plan et essayer autre chose. Comment pouvons-nous maintenant gagner du matériel ?}\r\nNxc7 {[%wrong Illegal.] [%hint Capturez le cavalier blanc avec la pièce qui a le moins de valeur.]} (5... Qxc7 $2 6. Bxc7 {C'est dans l'esprit mais nous ne voulons pas commencer par prendre de la dame car les blancs pourraient alors la capturer.}) (5... Kd7 $2 6. Nxa8 {Nous ne pouvons pas nous permettre de bouger notre roi, cela nous coûterait notre tour a8.}) 6. Bxc7 {Bien joué ! Comment poursuivre ?} Qxc7 {\r\n[%wrong Nous pouvons gagner du matériel.] [%hint Quelle pièce adverse est en prise ?] Beau travail ! Vous avez parfaitement défendu !!} (6... Bxc2 $2 7. Qxc2 {Ce coup perd du matériel sans raison. Trouvez comment en gagner à la place.}) *"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Faisons également attention aux pièces adverses.",
+    "outroText": "Très bien. Vous avez pris d'excellentes décisions avec ces échanges.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "9a3469c6-cdac-11e9-a41f-6debd412e724",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/your-opponents-move5e54dc9d57abb.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/your-opponents-move-16042439634bef.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/your-opponents-move-25ea2461e40a2c.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/la-mossa-dell-avversario638e7aa00f024.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 38,
+    "order": 9,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

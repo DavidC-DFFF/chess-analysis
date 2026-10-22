@@ -1,0 +1,23 @@
+/* Reference appearance: Neo pieces and Walnut board. */
+#board,#lesson-board{
+  background:#a88961 url('../boards/walnut.webp') center / 100% 100% no-repeat;
+  border-radius:0;
+  grid-template-rows:repeat(8,minmax(0,1fr));
+}
+#board .sq.light,#board .sq.dark,#board .square.light,#board .square.dark,
+#lesson-board .sq.light,#lesson-board .sq.dark{
+  background:transparent;
+}
+#board .piece,#lesson-board .piece{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  pointer-events:none;
+  filter:none;
+  text-shadow:none;
+}
+#board .light,#lesson-board .light{color:#382b1d}
+#board .dark,#lesson-board .dark{color:#fff4df}

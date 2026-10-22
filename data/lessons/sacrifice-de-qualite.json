@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-avancees/sacrifice-de-qualite",
+  "capturedAt": "2026-10-22T12:23:52.855Z",
+  "title": "Le sacrifice de qualité",
+  "exercises": [
+    {
+      "fen": "5rk1/1p1b1rqp/p1nbp3/3p2p1/3P2P1/2QN1N2/PP2RPP1/1B2R1K1 b - - 5 22",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Le combat pour le centre fait rage. Trouvez le fort coup initiant une belle attaque !",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Trouvez le sacrifice de qualité affaiblissant l'aile roi blanche.]",
+        "Bien essayé, mais les blancs ont un bon contrôle de cette case. Cherchez encore !",
+        "Excellente décision ! Les noirs sacrifient la qualité pour lancer une puissante offensive. Comment continuer ?",
+        "[%wrong Bien essayé, mais il existe une prise beaucoup plus forte pour continuer l'attaque. Cherchez encore !][%hint Les noirs ont sacrifié la qualité pour supprimer le cavalier f3. Par conséquent, un pion blanc n'est désormais plus défendu. Lequel ?] Ce sacrifice de qualité a offert aux noirs un avantage écrasant. Le pion f3 va bientôt tomber et les puissants pions centraux noirs vont pouvoir avancer. Bien joué !",
+        "Joli ! Ce coup donne effectivement une forte position aux noirs, mais les blancs peuvent compliquer la partie en rendant la qualité. Trouvez une capture encore plus forte ne leur laissant aucun contre-jeu !",
+        "Nous attaquons sur l'aile roi. Concentrons nos efforts sur cette partie de l'échiquier.",
+        "Un coup créatif et intéressant, mais qui permet aux blancs de protéger le pion f3 et éventuellement d'échanger les dames. Prenez d4 avec une autre pièce pour continuer l'attaque !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p1b1rqp/p1nbp3/3p2p1/3P2P1/2QN1N2/PP2RPP1/1B2R1K1 b - - 5 22\"]\r\n\r\n{Trait aux noirs. Le combat pour le centre fait rage. Trouvez le fort coup initiant une belle attaque !} \r\n22...Rxf3 \r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Trouvez le sacrifice de qualité affaiblissant l'aile roi blanche.]}\r\n    ( 22...e5 $2 23.dxe5 {Bien essayé, mais les blancs ont un bon contrôle de cette case. Cherchez encore !})\r\n23.gxf3 \r\n    {Excellente décision ! Les noirs sacrifient la qualité pour lancer une puissante offensive. Comment continuer ?}\r\n23...Nxd4 \r\n    {[%wrong Bien essayé, mais il existe une prise beaucoup plus forte pour continuer l'attaque. Cherchez encore !][%hint Les noirs ont sacrifié la qualité pour supprimer le cavalier f3. Par conséquent, un pion blanc n'est désormais plus défendu. Lequel ?] Ce sacrifice de qualité a offert aux noirs un avantage écrasant. Le pion f3 va bientôt tomber et les puissants pions centraux noirs vont pouvoir avancer. Bien joué !}\r\n    ( 23...Rxf3 $5 24.Rxe6 {Joli ! Ce coup donne effectivement une forte position aux noirs, mais les blancs peuvent compliquer la partie en rendant la qualité. Trouvez une capture encore plus forte ne leur laissant aucun contre-jeu !})\r\n    ( 23...Rc8 $6 {Nous attaquons sur l'aile roi. Concentrons nos efforts sur cette partie de l'échiquier.})\r\n    ( 23...Qxd4 $6 24.Kg2 {Un coup créatif et intéressant, mais qui permet aux blancs de protéger le pion f3 et éventuellement d'échanger les dames. Prenez d4 avec une autre pièce pour continuer l'attaque !})\r\n*"
+    },
+    {
+      "fen": "r5k1/pp5p/3qb1n1/3P1r2/1P4Q1/3p4/1B3PPP/4RRK1 w - - 4 28",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le champion du monde Mikhail Botvinnik doit choisir comment prendre le fou adverse. Calculez aussi loin que possible pour évaluer l’intérêt d'un éventuel sacrifice de qualité.",
+        "[%wrong Ce coup ne gagne pas le fou e6. Cherchez encore !][%hint Après avoir pris e6 avec la tour, cherchez un éventuel sacrifice de qualité.]",
+        "Bien essayé. Les blancs ont toujours de bonnes chances de gain, mais il existe un moyen beaucoup plus fort de prendre en e6. Essayez encore !",
+        "Excellent calcul ! Les noirs ont effectivement un fort pion passé en d3, mais il ne fait pas le poids face à notre puissante attaque de mat... A vous de jouer !",
+        "[%wrong Ce n'est pas le coup gagnant. Cherchez un sacrifice de qualité !][%hint Le roi noir est faible. Sacrifiez la qualité et chassez-le !]",
+        "Beau travail ! Et maintenant, partons à la chasse au roi noir !",
+        "[%wrong Ce coup n'attaque pas l'abri du roi noir. Cherchez encore !][%hint Le roi noir se cache derrière un pion. Supprimez-le !]",
+        "Parfait ! Et maintenant, comment forcer le roi noir à se rendre sur la colonne e ?",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Comment forcer le roi noir à se rendre sur la colonne e tout en prenant le contrôle de la septième rangée ?]",
+        "Le fou est désormais hors-jeu et les blancs n'ont plus d'attaque gagnante. Trouvez un meilleur moyen d'envoyer le roi noir sur la colonne e !",
+        "Excellente décision ! Il faut maintenant ramener une autre pièce dans l'attaque. Laquelle ?",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint La tour aimerait se joindre à l'attaque !]",
+        "Les noirs peuvent rendre la qualité pour freiner l'offensive et rétablir l'équilibre de la position. Trouvez-mieux !",
+        "L'attaque continue, bien joué ! Comment enchaîner ?",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le couple dame-tour est prêt à collaborer sur la colonne e pour forcer le roi adverse à aller en c8...]",
+        "Cette idée intéressante fonctionne également grâce à la faiblesse du roi noir. Trouvez maintenant une autre idée offensive forçant le roi à aller en c8.",
+        "Le roi noir est si faible que la dame et la tour peuvent nous suffire à remporter cette partie. Attaquez simplement le roi !",
+        "Vos pièces font preuve d'une excellente harmonie ! Attaquons maintenant le roi avec la tour.",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Comment attaquer le roi avec la tour sur la colonne c ?] Bravo ! Vous avez joué cette position comme Botvinnik. Les noirs doivent parer l'échec avec la dame et leur position s'effondre rapidement. Un sacrifice de qualité puissant !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/pp5p/3qb1n1/3P1r2/1P4Q1/3p4/1B3PPP/4RRK1 w - - 4 28\"]\r\n\r\n{Le champion du monde Mikhail Botvinnik doit choisir comment prendre le fou adverse. Calculez aussi loin que possible pour évaluer l’intérêt d'un éventuel sacrifice de qualité.}\r\n28.Rxe6\r\n    {[%wrong Ce coup ne gagne pas le fou e6. Cherchez encore !][%hint Après avoir pris e6 avec la tour, cherchez un éventuel sacrifice de qualité.]}\r\n    (28.dxe6 $6 Qd5 {Bien essayé. Les blancs ont toujours de bonnes chances de gain, mais il existe un moyen beaucoup plus fort de prendre en e6. Essayez encore !})\r\n28...Qxd5\r\n    {Excellent calcul ! Les noirs ont effectivement un fort pion passé en d3, mais il ne fait pas le poids face à notre puissante attaque de mat... A vous de jouer !}\r\n29.Rxg6+\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez un sacrifice de qualité !][%hint Le roi noir est faible. Sacrifiez la qualité et chassez-le !]}\r\n29...hxg6\r\n    {Beau travail ! Et maintenant, partons à la chasse au roi noir !}\r\n30.Qxg6+\r\n    {[%wrong Ce coup n'attaque pas l'abri du roi noir. Cherchez encore !][%hint Le roi noir se cache derrière un pion. Supprimez-le !]}\r\n30...Kf8\r\n    {Parfait ! Et maintenant, comment forcer le roi noir à se rendre sur la colonne e ?}\r\n31.Qg7+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Comment forcer le roi noir à se rendre sur la colonne e tout en prenant le contrôle de la septième rangée ?]}\r\n    (31.Bg7+ $2 Ke7 {Le fou est désormais hors-jeu et les blancs n'ont plus d'attaque gagnante. Trouvez un meilleur moyen d'envoyer le roi noir sur la colonne e !})\r\n31...Ke8\r\n    {Excellente décision ! Il faut maintenant ramener une autre pièce dans l'attaque. Laquelle ?}\r\n32.Re1+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint La tour aimerait se joindre à l'attaque !]}\r\n    (32.Bf6 $2 Rxf6 {Les noirs peuvent rendre la qualité pour freiner l'offensive et rétablir l'équilibre de la position. Trouvez-mieux !})\r\n32...Kd8\r\n    {L'attaque continue, bien joué ! Comment enchaîner ?}\r\n33.Qe7+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le couple dame-tour est prêt à collaborer sur la colonne e pour forcer le roi adverse à aller en c8...]}\r\n    (33.Qh8+ $5 {Cette idée intéressante fonctionne également grâce à la faiblesse du roi noir. Trouvez maintenant une autre idée offensive forçant le roi à aller en c8.})\r\n    (33.Bf6+ $5 Rxf6 {Le roi noir est si faible que la dame et la tour peuvent nous suffire à remporter cette partie. Attaquez simplement le roi !})\r\n33...Kc8\r\n    {Vos pièces font preuve d'une excellente harmonie ! Attaquons maintenant le roi avec la tour.}\r\n34.Rc1+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Comment attaquer le roi avec la tour sur la colonne c ?] Bravo ! Vous avez joué cette position comme Botvinnik. Les noirs doivent parer l'échec avec la dame et leur position s'effondre rapidement. Un sacrifice de qualité puissant !}\r\n*"
+    },
+    {
+      "fen": "2r1kb1r/1p1n1ppp/pq1p1n2/4pPB1/4P3/P1N5/1PPNQ1PP/2KR3R b k - 2 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette défense sicilienne des plus aiguës, le champion du monde Tigran Petrossian conduit les pièces noires et veut ouvrir le centre par ...d5 ! Trouvez comment préparer ce coup tout en créant des faiblesses autour du roi blanc...",
+        "[%wrong Ce coup ne crée pas de faiblesses autour du roi blanc tout en préparant ...d5. Cherchez encore !][%hint Le cavalier c3 est un excellent défenseur...]",
+        "Petrossian était célèbre pour ses sacrifices de qualité positionnel. Bravo d'avoir trouvé son idée ! Nous pouvons désormais ouvrir le centre par ...d5 !",
+        "[%wrong Ce coup n'ouvre pas le centre ! Essayez encore...][%hint Si nous avons sacrifié la qualité, c'est justement pour pouvoir jouer le coup ...d5.] Un enchaînement puissant ! Les noirs ouvrent le centre en force, forçant les blancs à jouer le passif Cb1. Le puissant centre de pions et la faiblesse du roi adverse nous donnent d'excellentes compensations pour la qualité sacrifiée !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1kb1r/1p1n1ppp/pq1p1n2/4pPB1/4P3/P1N5/1PPNQ1PP/2KR3R b k - 2 14\"]\r\n\r\n{Dans cette défense sicilienne des plus aiguës, le champion du monde Tigran Petrossian conduit les pièces noires et veut ouvrir le centre par ...d5 ! Trouvez comment préparer ce coup tout en créant des faiblesses autour du roi blanc...}\r\n14...Rxc3\r\n    {[%wrong Ce coup ne crée pas de faiblesses autour du roi blanc tout en préparant ...d5. Cherchez encore !][%hint Le cavalier c3 est un excellent défenseur...]}\r\n15.bxc3\r\n    {Petrossian était célèbre pour ses sacrifices de qualité positionnel. Bravo d'avoir trouvé son idée ! Nous pouvons désormais ouvrir le centre par ...d5 !}\r\n15...d5\r\n    {[%wrong Ce coup n'ouvre pas le centre ! Essayez encore...][%hint Si nous avons sacrifié la qualité, c'est justement pour pouvoir jouer le coup ...d5.] Un enchaînement puissant ! Les noirs ouvrent le centre en force, forçant les blancs à jouer le passif Cb1. Le puissant centre de pions et la faiblesse du roi adverse nous donnent d'excellentes compensations pour la qualité sacrifiée !}\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/pp2qpp1/7p/7n/3Np3/1B2P1Q1/PP3PPP/2R2RK1 w - - 2 19",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame blanche est attaquée. Trouvez-lui une bonne case en profitant du clouage du pion f7.",
+        "[%wrong Ce n'est pas le coup le plus fort ! Cherchez encore...][%hint Le pion f7 étant cloué, il est possible d'attaquer le cavalier noir. Comment faire ?]",
+        "Oups ! Attention aux ressources défensives adverses !",
+        "Excellent travail ! Les blancs aimeraient enchaîner par le puissant Cf5, mais le fou noir tient cette case. Que faire ?",
+        "[%wrong Il existe un moyen beaucoup plus efficace de préparer Cf5... Trouvez-le !][%hint Éliminez le défenseur !]",
+        "Vous commencez à maîtriser le sacrifice de qualité ! Passons maintenant à l'attaque !",
+        "[%wrong Ce coup ne profite pas de la case f5 non protégée... Essayez encore !][%hint Si nous avons sacrifié la qualité, c'est pour offrir la case f5 à notre cavalier...]",
+        "Parfait ! Et maintenant, comment continuer l'attaque ?",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le pion f7 n'est pas le seul à être cloué. Cherchez des coups forcés...]",
+        "Cette idée maligne ne fonctionne pas si les noirs ne prennent pas notre fou. Rappelez vous que l'adversaire n'est pas forcément obligé d'accepter vos sacrifices !",
+        "Bonne exploitation du clouage ! Gagnons maintenant un autre pion pour en finir avec le roque noir !",
+        "[%wrong Il existe un coup beaucoup plus fort gagnant un pion tout en faisant échec. Trouvez-le !][%hint Comment gagner un nouveau pion avec échec ?] Vos talents offensifs se développent à vue d’œil ! Le roque noir est en lambeaux et le gain est proche.",
+        "Attention, les noirs ont une ressource puissante et nous perdons du matériel ! Trouvez mieux.",
+        "Oups ! Nous avons donné trop de matériel pour continuer l'attaque. Trouvez une manière plus forte de gagner le pion f7."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp2qpp1/7p/7n/3Np3/1B2P1Q1/PP3PPP/2R2RK1 w - - 2 19\"]\r\n\r\n{La dame blanche est attaquée. Trouvez-lui une bonne case en profitant du clouage du pion f7.}\r\n19.Qg6\r\n    {[%wrong Ce n'est pas le coup le plus fort ! Cherchez encore...][%hint Le pion f7 étant cloué, il est possible d'attaquer le cavalier noir. Comment faire ?]}\r\n    (19.Qg4 $2 Bxg4 {Oups ! Attention aux ressources défensives adverses !})\r\n19...Nf6\r\n    {Excellent travail ! Les blancs aimeraient enchaîner par le puissant Cf5, mais le fou noir tient cette case. Que faire ?}\r\n20.Rxc8\r\n    {[%wrong Il existe un moyen beaucoup plus efficace de préparer Cf5... Trouvez-le !][%hint Éliminez le défenseur !]}\r\n20...Rfxc8\r\n    {Vous commencez à maîtriser le sacrifice de qualité ! Passons maintenant à l'attaque !}\r\n21.Nf5\r\n    {[%wrong Ce coup ne profite pas de la case f5 non protégée... Essayez encore !][%hint Si nous avons sacrifié la qualité, c'est pour offrir la case f5 à notre cavalier...]}\r\n21...Qf8\r\n    {Parfait ! Et maintenant, comment continuer l'attaque ?}\r\n22.Nxh6+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le pion f7 n'est pas le seul à être cloué. Cherchez des coups forcés...]}\r\n    (22.Bxf7+ $2 Kh8 {Cette idée maligne ne fonctionne pas si les noirs ne prennent pas notre fou. Rappelez vous que l'adversaire n'est pas forcément obligé d'accepter vos sacrifices !})\r\n22...Kh8\r\n    {Bonne exploitation du clouage ! Gagnons maintenant un autre pion pour en finir avec le roque noir !}\r\n23.Nxf7+\r\n    {[%wrong Il existe un coup beaucoup plus fort gagnant un pion tout en faisant échec. Trouvez-le !][%hint Comment gagner un nouveau pion avec échec ?] Vos talents offensifs se développent à vue d’œil ! Le roque noir est en lambeaux et le gain est proche.}\r\n    (23.Bxf7 $2 Rc7 {Attention, les noirs ont une ressource puissante et nous perdons du matériel ! Trouvez mieux.})\r\n    (23.Qxf7 $2 gxh6 {Oups ! Nous avons donné trop de matériel pour continuer l'attaque. Trouvez une manière plus forte de gagner le pion f7.})\r\n*"
+    },
+    {
+      "fen": "r1bq1r1k/2p1p1bp/pnn3p1/1p6/3P3Q/2NB1N2/PP3PPP/R1B1K2R b KQ - 6 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer 13.Fd3 et préparent une puissante attaque sur l'aile roi. Trouvez le sacrifice de qualité permettant aux noirs de maintenir l'équilibre.",
+        "[%wrong Ce coup n'est pas un sacrifice de qualité. Cherchez encore !][%hint Trouvez un fort sacrifice de qualité supprimant le défenseur du pion d4.]",
+        "Bravo ! Le coup 15.Fxg6 se heurterait à la défense ...Dg8! Le GMI Karpov choisit donc de prendre la tour. Le cavalier ne protège plus le centre. Profitez-en pour vous emparer d'un pion important !",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le cavalier ne protège plus le pion d4...]",
+        "Bien joué ! Les blancs parent notre menace de fourchette. Trouvez maintenant le superbe coup de fou du grand-maître Gata Kamsky. Il attaque le fou de cases blanches adverse et offre un deuxième sacrifice de qualité !",
+        "[%wrong Ce n'est pas le coup de fou de Gata Kamsky, cherchez encore !][%hint Comment attaquer le fou de cases blanches adverse tout en permettant à la dame de défendre la tour a8 ?]",
+        "Bien essayé, mais cette tentative perd du matériel. Trouvez un coup plus sûr !",
+        "Vous avez trouvé le superbe coup du grand-maître Kamsky ! Dans cette position, Kaprov répondit par 17.Fe3 et la partie se solda bientôt par la nulle. Mais que se serait-il passé si les blancs avaient décidé de prendre la tour a8 ?",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Ramenez votre dame dans la bagarre pour prendre possession des cases blanches.] Superbe ! La dame noire rejoint l'action et menace d'attaquer la position blanche sous-développée. Malgré ses deux qualités d'avance, Karpov aurait sans douté été débordé par la superbe coordination des pièces noires.",
+        "Cette fourchette roi-tour donne aux noirs une forte attaque, mais il existe un coup encore plus fort car il prend le contrôle de la grande diagonale blanche. Trouvez-le !",
+        "On évite généralement de jouer son cavalier dans les coins, mais ici, le cavalier d4 menace à la fois ...Cc2 et ...Cxf3, ce qui suffit à assurer l'avantage noir. Cependant, il existe un coup encore plus fort, car il prend le contrôle de la grande diagonale blanche. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1r1k/2p1p1bp/pnn3p1/1p6/3P3Q/2NB1N2/PP3PPP/R1B1K2R b KQ - 6 14\"]\r\n\r\n{Les blancs viennent de jouer 13.Fd3 et préparent une puissante attaque sur l'aile roi. Trouvez le sacrifice de qualité permettant aux noirs de maintenir l'équilibre.}\r\n14...Rxf3\r\n    {[%wrong Ce coup n'est pas un sacrifice de qualité. Cherchez encore !][%hint Trouvez un fort sacrifice de qualité supprimant le défenseur du pion d4.]}\r\n15.gxf3\r\n    {Bravo ! Le coup 15.Fxg6 se heurterait à la défense ...Dg8! Le GMI Karpov choisit donc de prendre la tour. Le cavalier ne protège plus le centre. Profitez-en pour vous emparer d'un pion important !}\r\n15...Nxd4\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le cavalier ne protège plus le pion d4...]}\r\n16.Be4\r\n    {Bien joué ! Les blancs parent notre menace de fourchette. Trouvez maintenant le superbe coup de fou du grand-maître Gata Kamsky. Il attaque le fou de cases blanches adverse et offre un deuxième sacrifice de qualité !}\r\n16...Bf5\r\n    {[%wrong Ce n'est pas le coup de fou de Gata Kamsky, cherchez encore !][%hint Comment attaquer le fou de cases blanches adverse tout en permettant à la dame de défendre la tour a8 ?]}\r\n    (16...Bb7 $2 17.Bxb7 {Bien essayé, mais cette tentative perd du matériel. Trouvez un coup plus sûr !})\r\n17.Bxa8\r\n    {Vous avez trouvé le superbe coup du grand-maître Kamsky ! Dans cette position, Kaprov répondit par 17.Fe3 et la partie se solda bientôt par la nulle. Mais que se serait-il passé si les blancs avaient décidé de prendre la tour a8 ?}\r\n17...Qxa8\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Ramenez votre dame dans la bagarre pour prendre possession des cases blanches.] Superbe ! La dame noire rejoint l'action et menace d'attaquer la position blanche sous-développée. Malgré ses deux qualités d'avance, Karpov aurait sans douté été débordé par la superbe coordination des pièces noires.}\r\n    (17...Nc2+ $5 {Cette fourchette roi-tour donne aux noirs une forte attaque, mais il existe un coup encore plus fort car il prend le contrôle de la grande diagonale blanche. Trouvez-le !})\r\n    (17...Nxa8 $5 {On évite généralement de jouer son cavalier dans les coins, mais ici, le cavalier d4 menace à la fois ...Cc2 et ...Cxf3, ce qui suffit à assurer l'avantage noir. Cependant, il existe un coup encore plus fort, car il prend le contrôle de la grande diagonale blanche. Trouvez-le !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "adb9487c-9ced-11e8-bef7-1718ad03cc19",
+    "name": "Le sacrifice de qualité",
+    "path": "sacrifice-de-qualite",
+    "description": "Parfois, la position est plus importante que le compte matériel. Il faut savoir donner pour reprendre plus tard. Un des bons sacrifices les plus communs est le sacrifice de qualité, qui consiste à échanger une tour contre une pièce mineure. Il permet d’attaquer le roi adverse ou de défendre en éliminant une pièce offensive trop menaçante. Les compensations peuvent être variables : Deux pions ou un avantage positionnel sont souvent suffisant pour le justifier.",
+    "glyphName": "piece-rook-knight",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-exchange-sacrifices-b4d.mp4",
+    "fen": "r5k1/pp2ppbp/3pb1p1/q6n/4P1P1/2r1BP2/PPPQN3/1K1R3R w - - 0 18",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1p1b1rqp/p1nbp3/3p2p1/3P2P1/2QN1N2/PP2RPP1/1B2R1K1 b - - 5 22\"]\r\n\r\n{Trait aux noirs. Le combat pour le centre fait rage. Trouvez le fort coup initiant une belle attaque !} \r\n22...Rxf3 \r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Trouvez le sacrifice de qualité affaiblissant l'aile roi blanche.]}\r\n    ( 22...e5 $2 23.dxe5 {Bien essayé, mais les blancs ont un bon contrôle de cette case. Cherchez encore !})\r\n23.gxf3 \r\n    {Excellente décision ! Les noirs sacrifient la qualité pour lancer une puissante offensive. Comment continuer ?}\r\n23...Nxd4 \r\n    {[%wrong Bien essayé, mais il existe une prise beaucoup plus forte pour continuer l'attaque. Cherchez encore !][%hint Les noirs ont sacrifié la qualité pour supprimer le cavalier f3. Par conséquent, un pion blanc n'est désormais plus défendu. Lequel ?] Ce sacrifice de qualité a offert aux noirs un avantage écrasant. Le pion f3 va bientôt tomber et les puissants pions centraux noirs vont pouvoir avancer. Bien joué !}\r\n    ( 23...Rxf3 $5 24.Rxe6 {Joli ! Ce coup donne effectivement une forte position aux noirs, mais les blancs peuvent compliquer la partie en rendant la qualité. Trouvez une capture encore plus forte ne leur laissant aucun contre-jeu !})\r\n    ( 23...Rc8 $6 {Nous attaquons sur l'aile roi. Concentrons nos efforts sur cette partie de l'échiquier.})\r\n    ( 23...Qxd4 $6 24.Kg2 {Un coup créatif et intéressant, mais qui permet aux blancs de protéger le pion f3 et éventuellement d'échanger les dames. Prenez d4 avec une autre pièce pour continuer l'attaque !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/pp5p/3qb1n1/3P1r2/1P4Q1/3p4/1B3PPP/4RRK1 w - - 4 28\"]\r\n\r\n{Le champion du monde Mikhail Botvinnik doit choisir comment prendre le fou adverse. Calculez aussi loin que possible pour évaluer l’intérêt d'un éventuel sacrifice de qualité.}\r\n28.Rxe6\r\n    {[%wrong Ce coup ne gagne pas le fou e6. Cherchez encore !][%hint Après avoir pris e6 avec la tour, cherchez un éventuel sacrifice de qualité.]}\r\n    (28.dxe6 $6 Qd5 {Bien essayé. Les blancs ont toujours de bonnes chances de gain, mais il existe un moyen beaucoup plus fort de prendre en e6. Essayez encore !})\r\n28...Qxd5\r\n    {Excellent calcul ! Les noirs ont effectivement un fort pion passé en d3, mais il ne fait pas le poids face à notre puissante attaque de mat... A vous de jouer !}\r\n29.Rxg6+\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez un sacrifice de qualité !][%hint Le roi noir est faible. Sacrifiez la qualité et chassez-le !]}\r\n29...hxg6\r\n    {Beau travail ! Et maintenant, partons à la chasse au roi noir !}\r\n30.Qxg6+\r\n    {[%wrong Ce coup n'attaque pas l'abri du roi noir. Cherchez encore !][%hint Le roi noir se cache derrière un pion. Supprimez-le !]}\r\n30...Kf8\r\n    {Parfait ! Et maintenant, comment forcer le roi noir à se rendre sur la colonne e ?}\r\n31.Qg7+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Comment forcer le roi noir à se rendre sur la colonne e tout en prenant le contrôle de la septième rangée ?]}\r\n    (31.Bg7+ $2 Ke7 {Le fou est désormais hors-jeu et les blancs n'ont plus d'attaque gagnante. Trouvez un meilleur moyen d'envoyer le roi noir sur la colonne e !})\r\n31...Ke8\r\n    {Excellente décision ! Il faut maintenant ramener une autre pièce dans l'attaque. Laquelle ?}\r\n32.Re1+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint La tour aimerait se joindre à l'attaque !]}\r\n    (32.Bf6 $2 Rxf6 {Les noirs peuvent rendre la qualité pour freiner l'offensive et rétablir l'équilibre de la position. Trouvez-mieux !})\r\n32...Kd8\r\n    {L'attaque continue, bien joué ! Comment enchaîner ?}\r\n33.Qe7+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le couple dame-tour est prêt à collaborer sur la colonne e pour forcer le roi adverse à aller en c8...]}\r\n    (33.Qh8+ $5 {Cette idée intéressante fonctionne également grâce à la faiblesse du roi noir. Trouvez maintenant une autre idée offensive forçant le roi à aller en c8.})\r\n    (33.Bf6+ $5 Rxf6 {Le roi noir est si faible que la dame et la tour peuvent nous suffire à remporter cette partie. Attaquez simplement le roi !})\r\n33...Kc8\r\n    {Vos pièces font preuve d'une excellente harmonie ! Attaquons maintenant le roi avec la tour.}\r\n34.Rc1+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Comment attaquer le roi avec la tour sur la colonne c ?] Bravo ! Vous avez joué cette position comme Botvinnik. Les noirs doivent parer l'échec avec la dame et leur position s'effondre rapidement. Un sacrifice de qualité puissant !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1kb1r/1p1n1ppp/pq1p1n2/4pPB1/4P3/P1N5/1PPNQ1PP/2KR3R b k - 2 14\"]\r\n\r\n{Dans cette défense sicilienne des plus aiguës, le champion du monde Tigran Petrossian conduit les pièces noires et veut ouvrir le centre par ...d5 ! Trouvez comment préparer ce coup tout en créant des faiblesses autour du roi blanc...}\r\n14...Rxc3\r\n    {[%wrong Ce coup ne crée pas de faiblesses autour du roi blanc tout en préparant ...d5. Cherchez encore !][%hint Le cavalier c3 est un excellent défenseur...]}\r\n15.bxc3\r\n    {Petrossian était célèbre pour ses sacrifices de qualité positionnel. Bravo d'avoir trouvé son idée ! Nous pouvons désormais ouvrir le centre par ...d5 !}\r\n15...d5\r\n    {[%wrong Ce coup n'ouvre pas le centre ! Essayez encore...][%hint Si nous avons sacrifié la qualité, c'est justement pour pouvoir jouer le coup ...d5.] Un enchaînement puissant ! Les noirs ouvrent le centre en force, forçant les blancs à jouer le passif Cb1. Le puissant centre de pions et la faiblesse du roi adverse nous donnent d'excellentes compensations pour la qualité sacrifiée !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp2qpp1/7p/7n/3Np3/1B2P1Q1/PP3PPP/2R2RK1 w - - 2 19\"]\r\n\r\n{La dame blanche est attaquée. Trouvez-lui une bonne case en profitant du clouage du pion f7.}\r\n19.Qg6\r\n    {[%wrong Ce n'est pas le coup le plus fort ! Cherchez encore...][%hint Le pion f7 étant cloué, il est possible d'attaquer le cavalier noir. Comment faire ?]}\r\n    (19.Qg4 $2 Bxg4 {Oups ! Attention aux ressources défensives adverses !})\r\n19...Nf6\r\n    {Excellent travail ! Les blancs aimeraient enchaîner par le puissant Cf5, mais le fou noir tient cette case. Que faire ?}\r\n20.Rxc8\r\n    {[%wrong Il existe un moyen beaucoup plus efficace de préparer Cf5... Trouvez-le !][%hint Éliminez le défenseur !]}\r\n20...Rfxc8\r\n    {Vous commencez à maîtriser le sacrifice de qualité ! Passons maintenant à l'attaque !}\r\n21.Nf5\r\n    {[%wrong Ce coup ne profite pas de la case f5 non protégée... Essayez encore !][%hint Si nous avons sacrifié la qualité, c'est pour offrir la case f5 à notre cavalier...]}\r\n21...Qf8\r\n    {Parfait ! Et maintenant, comment continuer l'attaque ?}\r\n22.Nxh6+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le pion f7 n'est pas le seul à être cloué. Cherchez des coups forcés...]}\r\n    (22.Bxf7+ $2 Kh8 {Cette idée maligne ne fonctionne pas si les noirs ne prennent pas notre fou. Rappelez vous que l'adversaire n'est pas forcément obligé d'accepter vos sacrifices !})\r\n22...Kh8\r\n    {Bonne exploitation du clouage ! Gagnons maintenant un autre pion pour en finir avec le roque noir !}\r\n23.Nxf7+\r\n    {[%wrong Il existe un coup beaucoup plus fort gagnant un pion tout en faisant échec. Trouvez-le !][%hint Comment gagner un nouveau pion avec échec ?] Vos talents offensifs se développent à vue d’œil ! Le roque noir est en lambeaux et le gain est proche.}\r\n    (23.Bxf7 $2 Rc7 {Attention, les noirs ont une ressource puissante et nous perdons du matériel ! Trouvez mieux.})\r\n    (23.Qxf7 $2 gxh6 {Oups ! Nous avons donné trop de matériel pour continuer l'attaque. Trouvez une manière plus forte de gagner le pion f7.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1r1k/2p1p1bp/pnn3p1/1p6/3P3Q/2NB1N2/PP3PPP/R1B1K2R b KQ - 6 14\"]\r\n\r\n{Les blancs viennent de jouer 13.Fd3 et préparent une puissante attaque sur l'aile roi. Trouvez le sacrifice de qualité permettant aux noirs de maintenir l'équilibre.}\r\n14...Rxf3\r\n    {[%wrong Ce coup n'est pas un sacrifice de qualité. Cherchez encore !][%hint Trouvez un fort sacrifice de qualité supprimant le défenseur du pion d4.]}\r\n15.gxf3\r\n    {Bravo ! Le coup 15.Fxg6 se heurterait à la défense ...Dg8! Le GMI Karpov choisit donc de prendre la tour. Le cavalier ne protège plus le centre. Profitez-en pour vous emparer d'un pion important !}\r\n15...Nxd4\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le cavalier ne protège plus le pion d4...]}\r\n16.Be4\r\n    {Bien joué ! Les blancs parent notre menace de fourchette. Trouvez maintenant le superbe coup de fou du grand-maître Gata Kamsky. Il attaque le fou de cases blanches adverse et offre un deuxième sacrifice de qualité !}\r\n16...Bf5\r\n    {[%wrong Ce n'est pas le coup de fou de Gata Kamsky, cherchez encore !][%hint Comment attaquer le fou de cases blanches adverse tout en permettant à la dame de défendre la tour a8 ?]}\r\n    (16...Bb7 $2 17.Bxb7 {Bien essayé, mais cette tentative perd du matériel. Trouvez un coup plus sûr !})\r\n17.Bxa8\r\n    {Vous avez trouvé le superbe coup du grand-maître Kamsky ! Dans cette position, Kaprov répondit par 17.Fe3 et la partie se solda bientôt par la nulle. Mais que se serait-il passé si les blancs avaient décidé de prendre la tour a8 ?}\r\n17...Qxa8\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Ramenez votre dame dans la bagarre pour prendre possession des cases blanches.] Superbe ! La dame noire rejoint l'action et menace d'attaquer la position blanche sous-développée. Malgré ses deux qualités d'avance, Karpov aurait sans douté été débordé par la superbe coordination des pièces noires.}\r\n    (17...Nc2+ $5 {Cette fourchette roi-tour donne aux noirs une forte attaque, mais il existe un coup encore plus fort car il prend le contrôle de la grande diagonale blanche. Trouvez-le !})\r\n    (17...Nxa8 $5 {On évite généralement de jouer son cavalier dans les coins, mais ici, le cavalier d4 menace à la fois ...Cc2 et ...Cxf3, ce qui suffit à assurer l'avantage noir. Cependant, il existe un coup encore plus fort, car il prend le contrôle de la grande diagonale blanche. Trouvez-le !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "562e8776-a55c-11e8-9553-4f7baecf710a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrons ensemble les sacrifices thématiques de qualité.",
+    "outroText": "Savoir quand sacrifier une qualité peut vous ouvrir un joli chemin vers la victoire.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "path": "tactiques-avancees",
+      "title": "Tactiques avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/562e8776-a55c-11e8-9553-4f7baecf710a.5c197624.728x410o.1f86d1894a94.png"
+    },
+    "parentId": "f34e0304-83b7-11e8-bc5e-bfc1b8d86b49",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/exchange-sacrifices5d125e3f538fd.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/exchange-sacrifices-15ea23d93781d6.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/exchange-sacrifices-26053493d6732b.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 124,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "name": "Tactiques avancées",
+      "path": "tactiques-avancees",
+      "order": 6
+    }
+  }
+}

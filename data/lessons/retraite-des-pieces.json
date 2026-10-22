@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/retraite-des-pieces",
+  "capturedAt": "2026-10-22T13:42:27.680Z",
+  "title": "Battre en retraite",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/3r2B1/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight a4;color;%23eb6150;opacity;0.8;square;a4;persistent;true,b4;color;%23eb6150;opacity;0.8;square;b4;persistent;true,c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,f4;color;%23eb6150;opacity;0.8;square;f4;persistent;true,g4;color;%23eb6150;opacity;0.8;square;g4;persistent;true,h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true,d3;color;%23eb6150;opacity;0.8;square;d3;persistent;true,d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true,d1;color;%23eb6150;opacity;0.8;square;d1;persistent;true,d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true,d6;color;%23eb6150;opacity;0.8;square;d6;persistent;true,d7;color;%23eb6150;opacity;0.8;square;d7;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Déplacez votre fou sur une case sûre.",
+        "[%hint Déplacez votre fou sur une case qui n'est pas contrôlée par la tour.][%wrong Votre fou est en danger ici. Réessayez.]Oui ! Votre fou est en sécurité ici.",
+        "Bien. Votre fou est en sécurité ici.",
+        "Bien. Votre fou est en sécurité ici.",
+        "Bien. Votre fou est en sécurité ici.",
+        "Bien. Votre fou est en sécurité ici.",
+        "Bien. Votre fou est en sécurité ici.",
+        "Bien. Votre fou est en sécurité ici.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre fou s'est fait prendre. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3r2B1/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight a4;color;%23eb6150;opacity;0.8;square;a4;persistent;true,b4;color;%23eb6150;opacity;0.8;square;b4;persistent;true,c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,f4;color;%23eb6150;opacity;0.8;square;f4;persistent;true,g4;color;%23eb6150;opacity;0.8;square;g4;persistent;true,h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true,d3;color;%23eb6150;opacity;0.8;square;d3;persistent;true,d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true,d1;color;%23eb6150;opacity;0.8;square;d1;persistent;true,d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true,d6;color;%23eb6150;opacity;0.8;square;d6;persistent;true,d7;color;%23eb6150;opacity;0.8;square;d7;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Déplacez votre fou sur une case sûre.} 1. Bh5 {[%hint Déplacez votre fou sur une case qui n'est pas contrôlée par la tour.][%wrong Votre fou est en danger ici. Réessayez.]Oui ! Votre fou est en sécurité ici.} (1. Bf5!! {Bien. Votre fou est en sécurité ici.}) (1. Be6!! {Bien. Votre fou est en sécurité ici.}) (1. Bc8!! {Bien. Votre fou est en sécurité ici.}) (1. Bh3!! {Bien. Votre fou est en sécurité ici.}) (1. Bf3!! {Bien. Votre fou est en sécurité ici.}) (1. Be2!! {Bien. Votre fou est en sécurité ici.}) (1. Bd1? Rxd1 {Votre fou s'est fait prendre. Réessayez.}) (1. Bd7? Rxd7 {Votre fou s'est fait prendre. Réessayez.}) *"
+    },
+    {
+      "fen": "8/8/8/8/3b4/8/5R2/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d4f2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d4;to;f2;persistent;true]Mettez votre tour à l'abri.",
+        "[%wrong Votre tour est en danger ici.][%hint Déplacez votre tour sur une case qui n'est pas menacée par le fou.]Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Votre tour s'est fait prendre. Réessayez.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Votre tour s'est fait prendre. Essayez encore.",
+        "Bien. Votre tour est en sécurité ici.",
+        "Bien. Votre tour est en sécurité ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3b4/8/5R2/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d4f2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d4;to;f2;persistent;true]Mettez votre tour à l'abri.} 1. Rg2 {[%wrong Votre tour est en danger ici.][%hint Déplacez votre tour sur une case qui n'est pas menacée par le fou.]Bien. Votre tour est en sécurité ici.} (1. Rh2!! {Bien. Votre tour est en sécurité ici.}) (1. Rf1!! {Bien. Votre tour est en sécurité ici.}) (1. Re2!! {Bien. Votre tour est en sécurité ici.}) (1. Rd2!! {Bien. Votre tour est en sécurité ici.}) (1. Rc2!! {Bien. Votre tour est en sécurité ici.}) (1. Rb2? Bxb2 {Votre tour s'est fait prendre. Réessayez.}) (1. Ra2!! {Bien. Votre tour est en sécurité ici.}) (1. Rf3!! {Bien. Votre tour est en sécurité ici.}) (1. Rf4!! {Bien. Votre tour est en sécurité ici.}) (1. Rf5!! {Bien. Votre tour est en sécurité ici.}) (1. Rf6? Bxf6 {Votre tour s'est fait prendre. Essayez encore.}) (1. Rf7!! {Bien. Votre tour est en sécurité ici.}) (1. Rf8!! {Bien. Votre tour est en sécurité ici.}) *"
+    },
+    {
+      "fen": "8/8/8/8/3n4/8/4Q3/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ne laissez pas votre dame se faire prendre.",
+        "[%hint Les cavaliers se déplacent en forme de L.][%wrong Votre dame est en danger ici.]Bien. Votre dame est en sécurité ici.",
+        "Votre dame se fait prendre.",
+        "Votre dame se fait prendre.",
+        "Votre dame se fait prendre.",
+        "Votre dame se fait prendre.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici.",
+        "Bien. Votre dame est en sécurité ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3n4/8/4Q3/8 w - - 0 1\"]\r\n\r\n{Ne laissez pas votre dame se faire prendre.} 1. Qf2 {[%hint Les cavaliers se déplacent en forme de L.][%wrong Votre dame est en danger ici.]Bien. Votre dame est en sécurité ici.} (1. Qc2? Nxc2 {Votre dame se fait prendre.}) (1. Qb5? Nxb5 {Votre dame se fait prendre.}) (1. Qe6? Nxe6 {Votre dame se fait prendre.}) (1. Qf3? Nxf3 {Votre dame se fait prendre.}) (1. Qg2!! {Bien. Votre dame est en sécurité ici.}) (1. Qh2!! {Bien. Votre dame est en sécurité ici.}) (1. Qf1!! {Bien. Votre dame est en sécurité ici.}) (1. Qe1!! {Bien. Votre dame est en sécurité ici.}) (1. Qd1!! {Bien. Votre dame est en sécurité ici.}) (1. Qd2!! {Bien. Votre dame est en sécurité ici.}) (1. Qb2!! {Bien. Votre dame est en sécurité ici.}) (1. Qa2!! {Bien. Votre dame est en sécurité ici.}) (1. Qe3!! {Bien. Votre dame est en sécurité ici.}) (1. Qd3!! {Bien. Votre dame est en sécurité ici.}) (1. Qg4!! {Bien. Votre dame est en sécurité ici.}) (1. Qh5!! {Bien. Votre dame est en sécurité ici.}) (1. Qe4!! {Bien. Votre dame est en sécurité ici.}) (1. Qe5!! {Bien. Votre dame est en sécurité ici.}) (1. Qe7!! {Bien. Votre dame est en sécurité ici.}) (1. Qe8!! {Bien. Votre dame est en sécurité ici.}) (1. Qc4!! {Bien. Votre dame est en sécurité ici.}) (1. Qa6!! {Bien. Votre dame est en sécurité ici.}) *"
+    },
+    {
+      "fen": "5rk1/1b3ppp/8/8/8/8/PPP3R1/1KR5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou adverse vous a dans le viseur.",
+        "[%hint Déplace la tour menacée par le fou.][%wrong Votre tour est en danger ici.]Bien. Votre tour est en sécurité à présent.",
+        "Votre tour se fait prendre.",
+        "Bien. Votre tour est en sécurité à présent.",
+        "Bien. Votre tour est en sécurité à présent.",
+        "Bien. Votre tour est en sécurité à présent.",
+        "Bien. Votre tour est en sécurité à présent.",
+        "Votre tour se fait prendre.",
+        "Bien. Votre tour est en sécurité à présent.",
+        "Bien. Votre tour est en sécurité à présent.",
+        "Bien. Votre tour est en sécurité à présent."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1b3ppp/8/8/8/8/PPP3R1/1KR5 w - - 0 1\"]\r\n\r\n{Le fou adverse vous a dans le viseur.} 1. Rh2 {[%hint Déplace la tour menacée par le fou.][%wrong Votre tour est en danger ici.]Bien. Votre tour est en sécurité à présent.} (1. Rxg7+? Kxg7 {Votre tour se fait prendre.}) (1. Rgg1!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg3!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg4!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg5!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg6? hxg6 {Votre tour se fait prendre.}) (1. Rf2!! {Bien. Votre tour est en sécurité à présent.}) (1. Re2!! {Bien. Votre tour est en sécurité à présent.}) (1. Rd2!! {Bien. Votre tour est en sécurité à présent.}) *"
+    },
+    {
+      "fen": "r1bqkbnr/2pp1ppp/p1n5/1p2p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ne vous laissez pas attraper par le pion adverse !",
+        "[%hint Déplacez votre fou, il est en danger.][%wrong Votre fou peut se faire prendre ici.]Bien, votre fou est en sécurité ici.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Bien, votre fou est en sécurité ici.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou est toujours menacé par un pion.",
+        "Votre cavalier s'est fait prendre et votre fou est toujours en danger. Réessayez.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre cavalier s'est fait prendre, et votre fou est toujours menacé. Réessayez.",
+        "Les noirs gagnent une pièce. Réessaye.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre fou s'est fait prendre. Réessayez.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre. Essayez encore.",
+        "Votre fou s'est fait prendre, et l'autre fou est toujours en danger. Réessayez.",
+        "Belle attaque sur la dame. Mais maintenant vos deux fous sont en danger.",
+        "Votre fou s'est fait prendre. Et l'autre est toujours en danger. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/2pp1ppp/p1n5/1p2p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2301762666182452\"]\r\n\r\n{Ne vous laissez pas attraper par le pion adverse !} 1. Bb3 {[%hint Déplacez votre fou, il est en danger.][%wrong Votre fou peut se faire prendre ici.]Bien, votre fou est en sécurité ici.} (1. Bxb5 $2 axb5 {Votre fou s'est fait prendre. Réessayez.}) (1. Bd5 $3 {Bien, votre fou est en sécurité ici.}) (1. Be6 $2 dxe6 {Votre fou s'est fait prendre. Essayez encore.}) (1. Bxf7+ $2 Kxf7 {Votre fou s'est fait prendre. Essayez encore.}) (1. Nxe5 $2 Nxe5 {Votre fou est toujours menacé par un pion.}) (1. Nd4 $2 exd4 {Votre cavalier s'est fait prendre et votre fou est toujours en danger. Réessayez.}) (1. Nfd2 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Ng1 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Nh4 $2 Qxh4 {Votre cavalier s'est fait prendre, et votre fou est toujours menacé. Réessayez.}) (1. Ng5 $2 bxc4 {Les noirs gagnent une pièce. Réessaye.}) (1. d4 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. c3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. b3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. b4 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. a3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. a4 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Nc3 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Na3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Nbd2 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. O-O $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Qe2 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Qd2 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Bd2 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Be3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Bf4 $2 exf4 {Votre fou s'est fait prendre, et l'autre fou est toujours en danger. Réessayez.}) (1. Bg5 $2 f6 {Belle attaque sur la dame. Mais maintenant vos deux fous sont en danger.}) (1. Bh6 $2 gxh6 {Votre fou s'est fait prendre. Et l'autre est toujours en danger. Réessayez.}) *"
+    },
+    {
+      "fen": "r2qkb1r/pppbn1pp/5pn1/3p4/Q7/2PNPN2/PP2BPPP/R1B1K2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Votre pièce la plus forte est en danger.",
+        "[%hint Déplacez votre dame hors d'atteinte du fou.][%wrong Bien essayé, mais votre dame est toujours en danger.]Correct, votre dame est en sécurité ici.",
+        "Correct, votre dame est en sécurité ici.",
+        "Correct, votre dame est en sécurité ici.",
+        "Correct, votre dame est en sécurité ici.",
+        "Correct, votre dame est en sécurité ici.",
+        "Correct, votre dame est en sécurité ici.",
+        "Correct, votre dame est en sécurité ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkb1r/pppbn1pp/5pn1/3p4/Q7/2PNPN2/PP2BPPP/R1B1K2R w KQkq - 0 1\"]\r\n\r\n{Votre pièce la plus forte est en danger.} 1. Qb4 {[%hint Déplacez votre dame hors d'atteinte du fou.][%wrong Bien essayé, mais votre dame est toujours en danger.]Correct, votre dame est en sécurité ici.} (1. Qa5!! {Correct, votre dame est en sécurité ici.}) (1. Qa3!! {Correct, votre dame est en sécurité ici.}) (1. Qd4!! {Correct, votre dame est en sécurité ici.}) (1. Qb3!! {Correct, votre dame est en sécurité ici.}) (1. Qc2!! {Correct, votre dame est en sécurité ici.}) (1. Qd1!! {Correct, votre dame est en sécurité ici.}) (1. Qa6? bxa6 {Votre dame se fait prendre ici.}) (1. Qa7? Rxa7 {Votre dame se fait prendre ici.}) (1. Qb5? Bxb5 {Votre dame se fait prendre ici.}) (1. Qc6? Bxc6 {Votre dame se fait prendre ici.}) (1. Qxd7+? Kxd7 {Votre dame se fait prendre ici.}) (1. Qc4? dxc4 {Votre dame se fait prendre ici.}) (1. Qe4? dxe4 {Votre dame se fait prendre ici.}) (1. Qf4? Nxf4 {Votre dame se fait prendre ici.}) (1. Qg4? Bxg4 {Votre dame se fait prendre ici.}) (1. Qh4? Nxh4 {Votre dame se fait prendre ici.}) *"
+    },
+    {
+      "fen": "5rk1/5pp1/5b1p/4n3/8/5QP1/5P1P/1R4K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Plus d'indices !",
+        "[%hint Pouvez-vous mettre votre dame à l'abri ?][%wrong Votre dame est toujours en danger.]Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Oui ! Votre dame est en sécurité ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici.",
+        "Votre dame se fait prendre ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5pp1/5b1p/4n3/8/5QP1/5P1P/1R4K1 w - - 0 1\"]\r\n\r\n{Plus d'indices !} 1. Qh5 {[%hint Pouvez-vous mettre votre dame à l'abri ?][%wrong Votre dame est toujours en danger.]Oui ! Votre dame est en sécurité ici.} (1. Qh1!! {Oui ! Votre dame est en sécurité ici.}) (1. Qg2!! {Oui ! Votre dame est en sécurité ici.}) (1. Qe4!! {Oui ! Votre dame est en sécurité ici.}) (1. Qd5!! {Oui ! Votre dame est en sécurité ici.}) (1. Qb7!! {Oui ! Votre dame est en sécurité ici.}) (1. Qe2!! {Oui ! Votre dame est en sécurité ici.}) (1. Qd1!! {Oui ! Votre dame est en sécurité ici.}) (1. Qf4!! {Oui ! Votre dame est en sécurité ici.}) (1. Qf5!! {Oui ! Votre dame est en sécurité ici.}) (1. Qe3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qc3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qb3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qa3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qd3? Nxd3 {Votre dame se fait prendre ici.}) (1. Qg4? Nxg4 {Votre dame se fait prendre ici.}) (1. Qxf6? gxf6 {Votre dame se fait prendre ici.}) (1. Qc6? Nxc6 {Votre dame se fait prendre ici.}) (1. Qa8? Rxa8 {Votre dame se fait prendre ici.}) *"
+    },
+    {
+      "fen": "r4rk1/1ppn1ppp/p2p1qn1/2b5/3NP3/2N3Q1/PPP1BPPP/R4RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il se passe beaucoup de choses sur l'échiquier. Prenez votre temps et trouvez la pièce à mettre en retraite !",
+        "[%hint Votre cavalier est en danger.][%wrong Les noirs gagnent du matériel. Essaye de trouver un coup plus sûr.]Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.",
+        "Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.",
+        "Votre cavalier se fait prendre.",
+        "Votre cavalier se fait prendre.",
+        "Votre cavalier se fait prendre.",
+        "Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1ppn1ppp/p2p1qn1/2b5/3NP3/2N3Q1/PPP1BPPP/R4RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2301763479000898\"]\r\n\r\n{Il se passe beaucoup de choses sur l'échiquier. Prenez votre temps et trouvez la pièce à mettre en retraite !} 1. Nf3 {[%hint Votre cavalier est en danger.][%wrong Les noirs gagnent du matériel. Essaye de trouver un coup plus sûr.]Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.} (1. Nf5 $3 {Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.}) (1. Ndb5 $2 axb5 {Votre cavalier se fait prendre.}) (1. Ne6 $2 fxe6 {Votre cavalier se fait prendre.}) (1. Nc6 $2 bxc6 {Votre cavalier se fait prendre.}) (1. Nb3 $3 {Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c24a-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Battre en retraite",
+    "path": "retraite-des-pieces",
+    "description": "Apprenez comment et quand battre en retraite.",
+    "glyphName": "local-door-right-exit",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3r2B1/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight a4;color;%23eb6150;opacity;0.8;square;a4;persistent;true,b4;color;%23eb6150;opacity;0.8;square;b4;persistent;true,c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,f4;color;%23eb6150;opacity;0.8;square;f4;persistent;true,g4;color;%23eb6150;opacity;0.8;square;g4;persistent;true,h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true,d3;color;%23eb6150;opacity;0.8;square;d3;persistent;true,d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true,d1;color;%23eb6150;opacity;0.8;square;d1;persistent;true,d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true,d6;color;%23eb6150;opacity;0.8;square;d6;persistent;true,d7;color;%23eb6150;opacity;0.8;square;d7;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Déplacez votre fou sur une case sûre.} 1. Bh5 {[%hint Déplacez votre fou sur une case qui n'est pas contrôlée par la tour.][%wrong Votre fou est en danger ici. Réessayez.]Oui ! Votre fou est en sécurité ici.} (1. Bf5!! {Bien. Votre fou est en sécurité ici.}) (1. Be6!! {Bien. Votre fou est en sécurité ici.}) (1. Bc8!! {Bien. Votre fou est en sécurité ici.}) (1. Bh3!! {Bien. Votre fou est en sécurité ici.}) (1. Bf3!! {Bien. Votre fou est en sécurité ici.}) (1. Be2!! {Bien. Votre fou est en sécurité ici.}) (1. Bd1? Rxd1 {Votre fou s'est fait prendre. Réessayez.}) (1. Bd7? Rxd7 {Votre fou s'est fait prendre. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3b4/8/5R2/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d4f2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d4;to;f2;persistent;true]Mettez votre tour à l'abri.} 1. Rg2 {[%wrong Votre tour est en danger ici.][%hint Déplacez votre tour sur une case qui n'est pas menacée par le fou.]Bien. Votre tour est en sécurité ici.} (1. Rh2!! {Bien. Votre tour est en sécurité ici.}) (1. Rf1!! {Bien. Votre tour est en sécurité ici.}) (1. Re2!! {Bien. Votre tour est en sécurité ici.}) (1. Rd2!! {Bien. Votre tour est en sécurité ici.}) (1. Rc2!! {Bien. Votre tour est en sécurité ici.}) (1. Rb2? Bxb2 {Votre tour s'est fait prendre. Réessayez.}) (1. Ra2!! {Bien. Votre tour est en sécurité ici.}) (1. Rf3!! {Bien. Votre tour est en sécurité ici.}) (1. Rf4!! {Bien. Votre tour est en sécurité ici.}) (1. Rf5!! {Bien. Votre tour est en sécurité ici.}) (1. Rf6? Bxf6 {Votre tour s'est fait prendre. Essayez encore.}) (1. Rf7!! {Bien. Votre tour est en sécurité ici.}) (1. Rf8!! {Bien. Votre tour est en sécurité ici.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3n4/8/4Q3/8 w - - 0 1\"]\r\n\r\n{Ne laissez pas votre dame se faire prendre.} 1. Qf2 {[%hint Les cavaliers se déplacent en forme de L.][%wrong Votre dame est en danger ici.]Bien. Votre dame est en sécurité ici.} (1. Qc2? Nxc2 {Votre dame se fait prendre.}) (1. Qb5? Nxb5 {Votre dame se fait prendre.}) (1. Qe6? Nxe6 {Votre dame se fait prendre.}) (1. Qf3? Nxf3 {Votre dame se fait prendre.}) (1. Qg2!! {Bien. Votre dame est en sécurité ici.}) (1. Qh2!! {Bien. Votre dame est en sécurité ici.}) (1. Qf1!! {Bien. Votre dame est en sécurité ici.}) (1. Qe1!! {Bien. Votre dame est en sécurité ici.}) (1. Qd1!! {Bien. Votre dame est en sécurité ici.}) (1. Qd2!! {Bien. Votre dame est en sécurité ici.}) (1. Qb2!! {Bien. Votre dame est en sécurité ici.}) (1. Qa2!! {Bien. Votre dame est en sécurité ici.}) (1. Qe3!! {Bien. Votre dame est en sécurité ici.}) (1. Qd3!! {Bien. Votre dame est en sécurité ici.}) (1. Qg4!! {Bien. Votre dame est en sécurité ici.}) (1. Qh5!! {Bien. Votre dame est en sécurité ici.}) (1. Qe4!! {Bien. Votre dame est en sécurité ici.}) (1. Qe5!! {Bien. Votre dame est en sécurité ici.}) (1. Qe7!! {Bien. Votre dame est en sécurité ici.}) (1. Qe8!! {Bien. Votre dame est en sécurité ici.}) (1. Qc4!! {Bien. Votre dame est en sécurité ici.}) (1. Qa6!! {Bien. Votre dame est en sécurité ici.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1b3ppp/8/8/8/8/PPP3R1/1KR5 w - - 0 1\"]\r\n\r\n{Le fou adverse vous a dans le viseur.} 1. Rh2 {[%hint Déplace la tour menacée par le fou.][%wrong Votre tour est en danger ici.]Bien. Votre tour est en sécurité à présent.} (1. Rxg7+? Kxg7 {Votre tour se fait prendre.}) (1. Rgg1!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg3!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg4!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg5!! {Bien. Votre tour est en sécurité à présent.}) (1. Rg6? hxg6 {Votre tour se fait prendre.}) (1. Rf2!! {Bien. Votre tour est en sécurité à présent.}) (1. Re2!! {Bien. Votre tour est en sécurité à présent.}) (1. Rd2!! {Bien. Votre tour est en sécurité à présent.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/2pp1ppp/p1n5/1p2p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2301762666182452\"]\r\n\r\n{Ne vous laissez pas attraper par le pion adverse !} 1. Bb3 {[%hint Déplacez votre fou, il est en danger.][%wrong Votre fou peut se faire prendre ici.]Bien, votre fou est en sécurité ici.} (1. Bxb5 $2 axb5 {Votre fou s'est fait prendre. Réessayez.}) (1. Bd5 $3 {Bien, votre fou est en sécurité ici.}) (1. Be6 $2 dxe6 {Votre fou s'est fait prendre. Essayez encore.}) (1. Bxf7+ $2 Kxf7 {Votre fou s'est fait prendre. Essayez encore.}) (1. Nxe5 $2 Nxe5 {Votre fou est toujours menacé par un pion.}) (1. Nd4 $2 exd4 {Votre cavalier s'est fait prendre et votre fou est toujours en danger. Réessayez.}) (1. Nfd2 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Ng1 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Nh4 $2 Qxh4 {Votre cavalier s'est fait prendre, et votre fou est toujours menacé. Réessayez.}) (1. Ng5 $2 bxc4 {Les noirs gagnent une pièce. Réessaye.}) (1. d4 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. c3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. b3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. b4 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. a3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. a4 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Nc3 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Na3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Nbd2 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. O-O $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Qe2 $2 bxc4 {Votre fou s'est fait prendre. Réessayez.}) (1. Qd2 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Bd2 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Be3 $2 bxc4 {Votre fou s'est fait prendre. Essayez encore.}) (1. Bf4 $2 exf4 {Votre fou s'est fait prendre, et l'autre fou est toujours en danger. Réessayez.}) (1. Bg5 $2 f6 {Belle attaque sur la dame. Mais maintenant vos deux fous sont en danger.}) (1. Bh6 $2 gxh6 {Votre fou s'est fait prendre. Et l'autre est toujours en danger. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkb1r/pppbn1pp/5pn1/3p4/Q7/2PNPN2/PP2BPPP/R1B1K2R w KQkq - 0 1\"]\r\n\r\n{Votre pièce la plus forte est en danger.} 1. Qb4 {[%hint Déplacez votre dame hors d'atteinte du fou.][%wrong Bien essayé, mais votre dame est toujours en danger.]Correct, votre dame est en sécurité ici.} (1. Qa5!! {Correct, votre dame est en sécurité ici.}) (1. Qa3!! {Correct, votre dame est en sécurité ici.}) (1. Qd4!! {Correct, votre dame est en sécurité ici.}) (1. Qb3!! {Correct, votre dame est en sécurité ici.}) (1. Qc2!! {Correct, votre dame est en sécurité ici.}) (1. Qd1!! {Correct, votre dame est en sécurité ici.}) (1. Qa6? bxa6 {Votre dame se fait prendre ici.}) (1. Qa7? Rxa7 {Votre dame se fait prendre ici.}) (1. Qb5? Bxb5 {Votre dame se fait prendre ici.}) (1. Qc6? Bxc6 {Votre dame se fait prendre ici.}) (1. Qxd7+? Kxd7 {Votre dame se fait prendre ici.}) (1. Qc4? dxc4 {Votre dame se fait prendre ici.}) (1. Qe4? dxe4 {Votre dame se fait prendre ici.}) (1. Qf4? Nxf4 {Votre dame se fait prendre ici.}) (1. Qg4? Bxg4 {Votre dame se fait prendre ici.}) (1. Qh4? Nxh4 {Votre dame se fait prendre ici.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5pp1/5b1p/4n3/8/5QP1/5P1P/1R4K1 w - - 0 1\"]\r\n\r\n{Plus d'indices !} 1. Qh5 {[%hint Pouvez-vous mettre votre dame à l'abri ?][%wrong Votre dame est toujours en danger.]Oui ! Votre dame est en sécurité ici.} (1. Qh1!! {Oui ! Votre dame est en sécurité ici.}) (1. Qg2!! {Oui ! Votre dame est en sécurité ici.}) (1. Qe4!! {Oui ! Votre dame est en sécurité ici.}) (1. Qd5!! {Oui ! Votre dame est en sécurité ici.}) (1. Qb7!! {Oui ! Votre dame est en sécurité ici.}) (1. Qe2!! {Oui ! Votre dame est en sécurité ici.}) (1. Qd1!! {Oui ! Votre dame est en sécurité ici.}) (1. Qf4!! {Oui ! Votre dame est en sécurité ici.}) (1. Qf5!! {Oui ! Votre dame est en sécurité ici.}) (1. Qe3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qc3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qb3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qa3!! {Oui ! Votre dame est en sécurité ici.}) (1. Qd3? Nxd3 {Votre dame se fait prendre ici.}) (1. Qg4? Nxg4 {Votre dame se fait prendre ici.}) (1. Qxf6? gxf6 {Votre dame se fait prendre ici.}) (1. Qc6? Nxc6 {Votre dame se fait prendre ici.}) (1. Qa8? Rxa8 {Votre dame se fait prendre ici.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1ppn1ppp/p2p1qn1/2b5/3NP3/2N3Q1/PPP1BPPP/R4RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2301763479000898\"]\r\n\r\n{Il se passe beaucoup de choses sur l'échiquier. Prenez votre temps et trouvez la pièce à mettre en retraite !} 1. Nf3 {[%hint Votre cavalier est en danger.][%wrong Les noirs gagnent du matériel. Essaye de trouver un coup plus sûr.]Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.} (1. Nf5 $3 {Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.}) (1. Ndb5 $2 axb5 {Votre cavalier se fait prendre.}) (1. Ne6 $2 fxe6 {Votre cavalier se fait prendre.}) (1. Nc6 $2 bxc6 {Votre cavalier se fait prendre.}) (1. Nb3 $3 {Oui, c'est une retraite sûre ! Votre cavalier est maintenant défendu.}) *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez comment et quand battre en retraite.",
+    "outroText": "Vous savez désormais comment et quand battre en retraite.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "cb19a436-0cb9-11f1-8ac9-d5814e881a42"
+  },
+  "curriculum": {
+    "number": 15,
+    "order": 3,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

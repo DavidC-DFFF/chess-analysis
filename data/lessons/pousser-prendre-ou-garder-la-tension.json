@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/lecture-de-l-echiquier/pousser-prendre-ou-garder-la-tension",
+  "capturedAt": "2026-10-22T12:23:43.600Z",
+  "title": "Pousser, prendre, ou garder la tension",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer d4, attaquant le pion e5. Faut-il pousser, prendre, ou garder la tension ?",
+        "[%wrong Bien essayé, mais il existe un coup plus fort. Trouvez-le !][%hint Ne laissez pas votre adversaire installer deux pions au centre.]",
+        "Bien essayé, mais il y a un problème : quand nous aurons repris ce pion, les blancs échangeront les dames et notre roi ne pourra plus jamais roquer. Cherchez encore !",
+        "Nous devons nous occuper dès maintenant du pion d4 avant qu'il ne pose problème ! Cherchez encore.",
+        "Bien essayé, mais nous devons maintenant composer avec deux attaques simultanées : une contre notre fou et une contre notre pion e5. Il faut trouver mieux !",
+        "Les blancs prennent le contrôle du centre et obtiennent une excellente position. Cherchez encore !",
+        "Votre roi va vous en vouloir ! Et votre cavalier g8, lui, se retrouve privé de sa case de développement naturelle. Trouvez mieux !",
+        "Bien joué ! Les noirs empêchent les blancs de prendre le contrôle du centre. Trouvez le coup le plus fort : il développe une pièce tout en attaquant la dame adverse.",
+        "[%wrong Ce coup n'attaque pas la dame noire. Cherchez encore !][%hint Développez le cavalier sur sa case la plus naturelle !] Bien vu ! Les noirs développent leur cavalier sur une très bonne case et gagnent un tempo sur la dame blanche développée prématurément.",
+        "Bien essayé, mais ce coup bloque le développement de votre fou de cases noires. Cherchez encore !",
+        "Nous essayons de punir le développement prématuré de la dame adverse, ne faisons pas la même erreur ! Sur cette case, la dame bloque le développement naturel du cavalier g8. Cherchez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Les blancs viennent de jouer d4, attaquant le pion e5. Faut-il pousser, prendre, ou garder la tension ?}\r\n2...exd4\r\n    {[%wrong Bien essayé, mais il existe un coup plus fort. Trouvez-le !][%hint Ne laissez pas votre adversaire installer deux pions au centre.]}\r\n    (2...d6 $2 3.dxe5 {Bien essayé, mais il y a un problème : quand nous aurons repris ce pion, les blancs échangeront les dames et notre roi ne pourra plus jamais roquer. Cherchez encore !})\r\n    (2...Nc6 $2 3.d5 {Nous devons nous occuper dès maintenant du pion d4 avant qu'il ne pose problème ! Cherchez encore.})\r\n    (2...Bb4+ $2 3.c3 {Bien essayé, mais nous devons maintenant composer avec deux attaques simultanées : une contre notre fou et une contre notre pion e5. Il faut trouver mieux !})\r\n    (2...Nf6 $2 3.dxe5 {Les blancs prennent le contrôle du centre et obtiennent une excellente position. Cherchez encore !})\r\n    (2...f6 $2 {Votre roi va vous en vouloir ! Et votre cavalier g8, lui, se retrouve privé de sa case de développement naturelle. Trouvez mieux !})\r\n3.Qxd4\r\n    {Bien joué ! Les noirs empêchent les blancs de prendre le contrôle du centre. Trouvez le coup le plus fort : il développe une pièce tout en attaquant la dame adverse.}\r\n3...Nc6\r\n    {[%wrong Ce coup n'attaque pas la dame noire. Cherchez encore !][%hint Développez le cavalier sur sa case la plus naturelle !] Bien vu ! Les noirs développent leur cavalier sur une très bonne case et gagnent un tempo sur la dame blanche développée prématurément.}\r\n    (3...c5 $2 {Bien essayé, mais ce coup bloque le développement de votre fou de cases noires. Cherchez encore !})\r\n    (3...Qf6 $2 4.Qc4 {Nous essayons de punir le développement prématuré de la dame adverse, ne faisons pas la même erreur ! Sur cette case, la dame bloque le développement naturel du cavalier g8. Cherchez encore.})\r\n*"
+    },
+    {
+      "fen": "2rq1rk1/p3ppbp/bn1p2p1/8/2P1P3/1N2BP2/P4QPP/2RR1BK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs visent le pion faible c4. Trouvez un fort coup d'attaque qui résout ce problème !",
+        "[%wrong Ce coup ne résout pas le problème de la faiblesse c4. Cherchez encore !][%hint Débarrassez-vous de votre faiblesse en l'utilisant pour attaquer !]",
+        "Ce coup protège notre pion faible, mais il existe une option plus forte. Trouvez-la !",
+        "Ce coup protège notre pion faible, mais il existe une option plus forte. Trouvez-la !",
+        "Bien essayé, mais notre pion c4 reste faible et nous pourrions bientôt regretter d'avoir abandonner notre fou de cases noires... Cherchez encore !",
+        "Joli ! Le pion faible s'est transformé en atout. Il attaque le cavalier noir tout en dévoilant une attaque à la découverte sur le fou de cases blanches. Faut-il maintenant reprendre le fou, ou y-a-t-il un autre coup plus fort ?",
+        "[%wrong Bien essayé, mais il y a plus fort dans la position. Cherchez encore !][%hint Le fou f1 des noirs est en danger. En prenant une autre pièce mineure avant de s'occuper de lui, vous allez gagner du matériel.] Excellent ! Le pion faible est devenu monstrueux ! Les blancs récupèrent du matériel, et le fou f1 est toujours en prise. Nous allons gagner le pion a7 au prochain coup et obtenir une excellente position.",
+        "Les blancs ont effectivement une position confortable, mais il y avait une autre prise beaucoup plus forte ! Trouvez-la.",
+        "Cette prise place la tour sur une mauvaise case et décloue le pion d6. N'oubliez pas de garder vos pièces actives !",
+        "Votre roi était plus en sécurité sur la case g1. Cherchez un coup plus fort !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rq1rk1/p3ppbp/bn1p2p1/8/2P1P3/1N2BP2/P4QPP/2RR1BK1 w - - 0 1\"]\r\n\r\n{Les noirs visent le pion faible c4. Trouvez un fort coup d'attaque qui résout ce problème !}\r\n1.c5\r\n    {[%wrong Ce coup ne résout pas le problème de la faiblesse c4. Cherchez encore !][%hint Débarrassez-vous de votre faiblesse en l'utilisant pour attaquer !]}\r\n    (1.Nd2 $6 {Ce coup protège notre pion faible, mais il existe une option plus forte. Trouvez-la !})\r\n    (1.Na5 $6 {Ce coup protège notre pion faible, mais il existe une option plus forte. Trouvez-la !})\r\n    (1.Bxb6 $2 axb6 {Bien essayé, mais notre pion c4 reste faible et nous pourrions bientôt regretter d'avoir abandonner notre fou de cases noires... Cherchez encore !})\r\n1...Bxf1\r\n    {Joli ! Le pion faible s'est transformé en atout. Il attaque le cavalier noir tout en dévoilant une attaque à la découverte sur le fou de cases blanches. Faut-il maintenant reprendre le fou, ou y-a-t-il un autre coup plus fort ?}\r\n2.cxb6\r\n    {[%wrong Bien essayé, mais il y a plus fort dans la position. Cherchez encore !][%hint Le fou f1 des noirs est en danger. En prenant une autre pièce mineure avant de s'occuper de lui, vous allez gagner du matériel.] Excellent ! Le pion faible est devenu monstrueux ! Les blancs récupèrent du matériel, et le fou f1 est toujours en prise. Nous allons gagner le pion a7 au prochain coup et obtenir une excellente position.}\r\n    (2.Qxf1 $6 Nd7 {Les blancs ont effectivement une position confortable, mais il y avait une autre prise beaucoup plus forte ! Trouvez-la.})\r\n    (2.Rxf1 $2 dxc5 {Cette prise place la tour sur une mauvaise case et décloue le pion d6. N'oubliez pas de garder vos pièces actives !})\r\n    (2.Kxf1 $2 {Votre roi était plus en sécurité sur la case g1. Cherchez un coup plus fort !})\r\n*"
+    },
+    {
+      "fen": "r1b1kb1r/1p1n1ppp/pq1ppn2/6B1/3NP3/P1N5/1PP1BPPP/R2QK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs avaient prévu de roquer, mais les noirs viennent de jouer ...Db6, attaquant le pion b2. Faut-il tout de même roquer ou parer l'attaque noire avant tout ?",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Si les noirs prennent le pion b2 avec la dame, celle-ci va-t-elle pouvoir retourner dans son camp sans problème ?]",
+        "Bien essayé, mais ce coup affaiblit nos cases blanches et le cavalier c3 est désormais en l'air. Fallait-il vraiment réagir à la \"menace\" noire ?",
+        "Ce coup protège le pion b mais crée des faiblesses sur la colonne c. Fallait-il vraiment réagir à la \"menace\" noire ?",
+        "Les noirs font échec tout en attaquant deux pièces blanches non protégées... Trouvez mieux !",
+        "Excellente décision ! En ignorant la menace noire, vous avez tendu un piège. Ces derniers, imprudents, ont enfermé leur dame ! Comment la gagner ?",
+        "[%wrong Ce coup ne gagne pas la dame adverse. Cherchez encore !][%hint La dame noire menace de prendre le cavalier blanc. Où placer ce cavalier pour enfermer la dame noire ?] Bien joué ! La dame noire est enfermée.",
+        "Bien essayé, mais la dame noire s'échappe en prenant le cavalier. Cherchez encore !",
+        "Bien essayé, mais la dame noire s'échappe en prenant le cavalier. Cherchez encore !",
+        "Dans cette variante, la dame noire a tout juste le temps de s'échapper ! Trouvez le coup qui permet de l'éliminer une bonne fois pour toutes."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/1p1n1ppp/pq1ppn2/6B1/3NP3/P1N5/1PP1BPPP/R2QK2R w KQkq - 0 1\"]\r\n\r\n{Les blancs avaient prévu de roquer, mais les noirs viennent de jouer ...Db6, attaquant le pion b2. Faut-il tout de même roquer ou parer l'attaque noire avant tout ?}\r\n1.O-O\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Si les noirs prennent le pion b2 avec la dame, celle-ci va-t-elle pouvoir retourner dans son camp sans problème ?]}\r\n    (1.b3 $2 Qc7 {Bien essayé, mais ce coup affaiblit nos cases blanches et le cavalier c3 est désormais en l'air. Fallait-il vraiment réagir à la \"menace\" noire ?})\r\n    (1.b4 $2 {Ce coup protège le pion b mais crée des faiblesses sur la colonne c. Fallait-il vraiment réagir à la \"menace\" noire ?})\r\n    (1.Na4 $2 Qa5+ {Les noirs font échec tout en attaquant deux pièces blanches non protégées... Trouvez mieux !})\r\n1...Qxb2 $2\r\n    {Excellente décision ! En ignorant la menace noire, vous avez tendu un piège. Ces derniers, imprudents, ont enfermé leur dame ! Comment la gagner ?}\r\n2.Na4\r\n    {[%wrong Ce coup ne gagne pas la dame adverse. Cherchez encore !][%hint La dame noire menace de prendre le cavalier blanc. Où placer ce cavalier pour enfermer la dame noire ?] Bien joué ! La dame noire est enfermée.}\r\n    (2.Rb1 $2 Qxc3 {Bien essayé, mais la dame noire s'échappe en prenant le cavalier. Cherchez encore !})\r\n    (2.Ra2 $2 Qxc3 {Bien essayé, mais la dame noire s'échappe en prenant le cavalier. Cherchez encore !})\r\n    (2.Qd2 $2 Qb6 {Dans cette variante, la dame noire a tout juste le temps de s'échapper ! Trouvez le coup qui permet de l'éliminer une bonne fois pour toutes.})\r\n*"
+    },
+    {
+      "fen": "3rkr2/pp2q3/5p1p/3pP1pP/2Q1Rn2/P7/1PP2P2/1K1R4 w - d6 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une pièce de moins, et pour ne rien arranger, les noirs viennent de jouer d7-d5, réalisant une fourchette sur la dame et la tour. Comment échapper à ce piège diabolique ?",
+        "[%wrong Bien essayé, mais ce coup ne résout pas les problèmes des blancs.][%hint Les noirs viennent de jouer le pion d pour la première fois de la partie, et ce dernier est passé à côté de notre pion e5... Cela ne vous rappelle rien ?] La prise en passant à la rescousse ! La dame noire est cloué, et nous allons gagner du matériel.",
+        "Ce coup perd du matériel. Cherchez encore !",
+        "Idée intéressante, mais nous souffrons toujours d'un déficit matériel. Trouvez mieux !",
+        "Idée intéressante, mais nous souffrons toujours d'un déficit matériel. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rkr2/pp2q3/5p1p/3pP1pP/2Q1Rn2/P7/1PP2P2/1K1R4 w - d6 0 2\"]\r\n\r\n{Les blancs ont une pièce de moins, et pour ne rien arranger, les noirs viennent de jouer d7-d5, réalisant une fourchette sur la dame et la tour. Comment échapper à ce piège diabolique ?}\r\n2.exd6\r\n    {[%wrong Bien essayé, mais ce coup ne résout pas les problèmes des blancs.][%hint Les noirs viennent de jouer le pion d pour la première fois de la partie, et ce dernier est passé à côté de notre pion e5... Cela ne vous rappelle rien ?] La prise en passant à la rescousse ! La dame noire est cloué, et nous allons gagner du matériel.}\r\n    (2.exf6 $2 Qxe4 {Ce coup perd du matériel. Cherchez encore !})\r\n    (2.Qa4+ $2 Kf7 {Idée intéressante, mais nous souffrons toujours d'un déficit matériel. Trouvez mieux !})\r\n    (2.Qb5+ $2 Kf7 {Idée intéressante, mais nous souffrons toujours d'un déficit matériel. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "rn3rk1/1b1p1ppp/p1pP4/1pP5/P7/8/3B1PPP/1R1K1B1R w - - 0 18",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. L'aile dame est engorgée de pièces noires. Notre pion a a trois option : prendre, pousser, ou garder la tension. Que choisir ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Vu l'affluence de pièces noires dans cette zone, il convient sans doute de choisir l'option qui ferme l'aile dame...] Excellente décision. La tour, le fou et le cavalier noirs sont coincés sur l'aile dame. C'est comme si les blancs jouaient avec trois pièces de plus !",
+        "Ce coup ouvre la position à l'aile dame, ce qui va permettre aux noirs d'activer leurs nombreuses pièces. Trouvez mieux !",
+        "Cette idée créative paralyse l'aile dame des noirs. Serait-il possible d'obtenir le même résultat avec le pion a ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn3rk1/1b1p1ppp/p1pP4/1pP5/P7/8/3B1PPP/1R1K1B1R w - - 0 18\"]\r\n\r\n{Trait aux blancs. L'aile dame est engorgée de pièces noires. Notre pion a a trois option : prendre, pousser, ou garder la tension. Que choisir ?}\r\n18.a5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Vu l'affluence de pièces noires dans cette zone, il convient sans doute de choisir l'option qui ferme l'aile dame...] Excellente décision. La tour, le fou et le cavalier noirs sont coincés sur l'aile dame. C'est comme si les blancs jouaient avec trois pièces de plus !}\r\n    (18.axb5 $2 axb5 {Ce coup ouvre la position à l'aile dame, ce qui va permettre aux noirs d'activer leurs nombreuses pièces. Trouvez mieux !})\r\n    (18.Ba5 $5 {Cette idée créative paralyse l'aile dame des noirs. Serait-il possible d'obtenir le même résultat avec le pion a ?})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "58ae75d4-9ceb-11e8-aeef-c9e0b5333e16",
+    "name": "Pousser, prendre, ou garder la tension",
+    "path": "pousser-prendre-ou-garder-la-tension",
+    "description": "Apprenez à gérer les tensions de pions ! Il faudra savoir quand pousser, quand prendre, et quand laisser la structure comme tel. La meilleure option consiste souvent à défendre tout en attaquant. Cependant, il faudra parfois défendre directement contre les menaces, ou bien les ignorer totalement !",
+    "glyphName": "board-badge-question",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-push-capture-or-ignore-m9x.mp4",
+    "fen": "r1b1kb1r/1p1n1ppp/pq1ppn2/6B1/3NP3/P1N5/1PP1BPPP/R2QK2R w KQkq - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Les blancs viennent de jouer d4, attaquant le pion e5. Faut-il pousser, prendre, ou garder la tension ?}\r\n2...exd4\r\n    {[%wrong Bien essayé, mais il existe un coup plus fort. Trouvez-le !][%hint Ne laissez pas votre adversaire installer deux pions au centre.]}\r\n    (2...d6 $2 3.dxe5 {Bien essayé, mais il y a un problème : quand nous aurons repris ce pion, les blancs échangeront les dames et notre roi ne pourra plus jamais roquer. Cherchez encore !})\r\n    (2...Nc6 $2 3.d5 {Nous devons nous occuper dès maintenant du pion d4 avant qu'il ne pose problème ! Cherchez encore.})\r\n    (2...Bb4+ $2 3.c3 {Bien essayé, mais nous devons maintenant composer avec deux attaques simultanées : une contre notre fou et une contre notre pion e5. Il faut trouver mieux !})\r\n    (2...Nf6 $2 3.dxe5 {Les blancs prennent le contrôle du centre et obtiennent une excellente position. Cherchez encore !})\r\n    (2...f6 $2 {Votre roi va vous en vouloir ! Et votre cavalier g8, lui, se retrouve privé de sa case de développement naturelle. Trouvez mieux !})\r\n3.Qxd4\r\n    {Bien joué ! Les noirs empêchent les blancs de prendre le contrôle du centre. Trouvez le coup le plus fort : il développe une pièce tout en attaquant la dame adverse.}\r\n3...Nc6\r\n    {[%wrong Ce coup n'attaque pas la dame noire. Cherchez encore !][%hint Développez le cavalier sur sa case la plus naturelle !] Bien vu ! Les noirs développent leur cavalier sur une très bonne case et gagnent un tempo sur la dame blanche développée prématurément.}\r\n    (3...c5 $2 {Bien essayé, mais ce coup bloque le développement de votre fou de cases noires. Cherchez encore !})\r\n    (3...Qf6 $2 4.Qc4 {Nous essayons de punir le développement prématuré de la dame adverse, ne faisons pas la même erreur ! Sur cette case, la dame bloque le développement naturel du cavalier g8. Cherchez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rq1rk1/p3ppbp/bn1p2p1/8/2P1P3/1N2BP2/P4QPP/2RR1BK1 w - - 0 1\"]\r\n\r\n{Les noirs visent le pion faible c4. Trouvez un fort coup d'attaque qui résout ce problème !}\r\n1.c5\r\n    {[%wrong Ce coup ne résout pas le problème de la faiblesse c4. Cherchez encore !][%hint Débarrassez-vous de votre faiblesse en l'utilisant pour attaquer !]}\r\n    (1.Nd2 $6 {Ce coup protège notre pion faible, mais il existe une option plus forte. Trouvez-la !})\r\n    (1.Na5 $6 {Ce coup protège notre pion faible, mais il existe une option plus forte. Trouvez-la !})\r\n    (1.Bxb6 $2 axb6 {Bien essayé, mais notre pion c4 reste faible et nous pourrions bientôt regretter d'avoir abandonner notre fou de cases noires... Cherchez encore !})\r\n1...Bxf1\r\n    {Joli ! Le pion faible s'est transformé en atout. Il attaque le cavalier noir tout en dévoilant une attaque à la découverte sur le fou de cases blanches. Faut-il maintenant reprendre le fou, ou y-a-t-il un autre coup plus fort ?}\r\n2.cxb6\r\n    {[%wrong Bien essayé, mais il y a plus fort dans la position. Cherchez encore !][%hint Le fou f1 des noirs est en danger. En prenant une autre pièce mineure avant de s'occuper de lui, vous allez gagner du matériel.] Excellent ! Le pion faible est devenu monstrueux ! Les blancs récupèrent du matériel, et le fou f1 est toujours en prise. Nous allons gagner le pion a7 au prochain coup et obtenir une excellente position.}\r\n    (2.Qxf1 $6 Nd7 {Les blancs ont effectivement une position confortable, mais il y avait une autre prise beaucoup plus forte ! Trouvez-la.})\r\n    (2.Rxf1 $2 dxc5 {Cette prise place la tour sur une mauvaise case et décloue le pion d6. N'oubliez pas de garder vos pièces actives !})\r\n    (2.Kxf1 $2 {Votre roi était plus en sécurité sur la case g1. Cherchez un coup plus fort !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/1p1n1ppp/pq1ppn2/6B1/3NP3/P1N5/1PP1BPPP/R2QK2R w KQkq - 0 1\"]\r\n\r\n{Les blancs avaient prévu de roquer, mais les noirs viennent de jouer ...Db6, attaquant le pion b2. Faut-il tout de même roquer ou parer l'attaque noire avant tout ?}\r\n1.O-O\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Si les noirs prennent le pion b2 avec la dame, celle-ci va-t-elle pouvoir retourner dans son camp sans problème ?]}\r\n    (1.b3 $2 Qc7 {Bien essayé, mais ce coup affaiblit nos cases blanches et le cavalier c3 est désormais en l'air. Fallait-il vraiment réagir à la \"menace\" noire ?})\r\n    (1.b4 $2 {Ce coup protège le pion b mais crée des faiblesses sur la colonne c. Fallait-il vraiment réagir à la \"menace\" noire ?})\r\n    (1.Na4 $2 Qa5+ {Les noirs font échec tout en attaquant deux pièces blanches non protégées... Trouvez mieux !})\r\n1...Qxb2 $2\r\n    {Excellente décision ! En ignorant la menace noire, vous avez tendu un piège. Ces derniers, imprudents, ont enfermé leur dame ! Comment la gagner ?}\r\n2.Na4\r\n    {[%wrong Ce coup ne gagne pas la dame adverse. Cherchez encore !][%hint La dame noire menace de prendre le cavalier blanc. Où placer ce cavalier pour enfermer la dame noire ?] Bien joué ! La dame noire est enfermée.}\r\n    (2.Rb1 $2 Qxc3 {Bien essayé, mais la dame noire s'échappe en prenant le cavalier. Cherchez encore !})\r\n    (2.Ra2 $2 Qxc3 {Bien essayé, mais la dame noire s'échappe en prenant le cavalier. Cherchez encore !})\r\n    (2.Qd2 $2 Qb6 {Dans cette variante, la dame noire a tout juste le temps de s'échapper ! Trouvez le coup qui permet de l'éliminer une bonne fois pour toutes.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rkr2/pp2q3/5p1p/3pP1pP/2Q1Rn2/P7/1PP2P2/1K1R4 w - d6 0 2\"]\r\n\r\n{Les blancs ont une pièce de moins, et pour ne rien arranger, les noirs viennent de jouer d7-d5, réalisant une fourchette sur la dame et la tour. Comment échapper à ce piège diabolique ?}\r\n2.exd6\r\n    {[%wrong Bien essayé, mais ce coup ne résout pas les problèmes des blancs.][%hint Les noirs viennent de jouer le pion d pour la première fois de la partie, et ce dernier est passé à côté de notre pion e5... Cela ne vous rappelle rien ?] La prise en passant à la rescousse ! La dame noire est cloué, et nous allons gagner du matériel.}\r\n    (2.exf6 $2 Qxe4 {Ce coup perd du matériel. Cherchez encore !})\r\n    (2.Qa4+ $2 Kf7 {Idée intéressante, mais nous souffrons toujours d'un déficit matériel. Trouvez mieux !})\r\n    (2.Qb5+ $2 Kf7 {Idée intéressante, mais nous souffrons toujours d'un déficit matériel. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn3rk1/1b1p1ppp/p1pP4/1pP5/P7/8/3B1PPP/1R1K1B1R w - - 0 18\"]\r\n\r\n{Trait aux blancs. L'aile dame est engorgée de pièces noires. Notre pion a a trois option : prendre, pousser, ou garder la tension. Que choisir ?}\r\n18.a5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Vu l'affluence de pièces noires dans cette zone, il convient sans doute de choisir l'option qui ferme l'aile dame...] Excellente décision. La tour, le fou et le cavalier noirs sont coincés sur l'aile dame. C'est comme si les blancs jouaient avec trois pièces de plus !}\r\n    (18.axb5 $2 axb5 {Ce coup ouvre la position à l'aile dame, ce qui va permettre aux noirs d'activer leurs nombreuses pièces. Trouvez mieux !})\r\n    (18.Ba5 $5 {Cette idée créative paralyse l'aile dame des noirs. Serait-il possible d'obtenir le même résultat avec le pion a ?})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Vous avez de nombreux choix, examinons les ensemble.",
+    "outroText": "Pousser, prendre, ignorer, choisir la bonne option n'est pas  toujours facile.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "path": "lecture-de-l-echiquier",
+      "title": "Lecture de l'échiquier",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/346efa28-a55a-11e8-87ab-eb3d1fefd4e2.07e448f1.728x410o.a0bbcabbc031.png"
+    },
+    "parentId": "a687e04c-83b4-11e8-b847-3b21343bc045",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/push-capture-or-ignore5d125762df93c.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/push-capture-or-ignore-46688568471eb0.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/push-capture-or-ignore-15ea2412580e5a.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/push-capture-or-ignore-2614dd67dbdbdd.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 83,
+    "order": 5,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "name": "Lecture de l'échiquier",
+      "path": "lecture-de-l-echiquier",
+      "order": 5
+    }
+  }
+}

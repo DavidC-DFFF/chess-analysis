@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/utiliser-le-potentiel-de-ses-pieces/utiliser-ses-tours",
+  "capturedAt": "2026-10-22T12:23:36.444Z",
+  "title": "Utiliser ses tours",
+  "exercises": [
+    {
+      "fen": "r5k1/5pp1/p1p3p1/PpP3P1/1P3P2/5K2/7P/R7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Activons la tour blanche de manière à ce qu'elle se prépare à attaquer le seul pion non protégé des noirs.",
+        "[%wrong Ce coup n'active pas la tour blanche sur une colonne ouverte. Essayez encore !][%hint Sur quelle colonne placer la tour pour se préparer à attaquer le pion c6 non-protégé ?]",
+        "Ce coup active effectivement la tour blanche, mais elle ne va pas pouvoir attaquer la faiblesse c6 au prochain coup. Essayez encore !",
+        "Très bien ! La tour blanche se place sur une colonne ouverte et se prépare à attaquer le pion faible c6. Les noirs défendent donc ce pion, mais au mépris de la protection du pion a6. A vous de l'attaquer !",
+        "[%wrong Ce coup ne prépare pas l'attaque du pion faible a6 des noirs. Essayez encore !][%hint Comment envahir le camp ennemi avec votre tour ?]",
+        "Bien joué ! La tour des blancs pénètre en territoire adverse. Les noirs défendent donc leur pion a6, mais c'est à nouveau c6 qui se retrouve sans protection ! Comment continuer ?",
+        "[%wrong Ce coup n'attaque pas le pion c6. Essayez encore !][%hint Comment attaquer le pion c6 tout en empêchant les noirs de le défendre ?]",
+        "Bien essayé, mais il existe un coup beaucoup plus fort qui empêche toute défense noire. Trouvez-le !",
+        "Bravo ! Les noirs ne peuvent plus nous empêcher de gagner du matériel. Prenons maintenant le pion c6 !",
+        "Bien joué, vous avez activé votre tour à la perfection en visant sans relâche les faiblesses adverses. [%wrong Nous cherchons à capturer le pion c6 !] [%hint Le pion c6 est la récompense des bons coups joués jusqu'ici !]"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/5pp1/p1p3p1/PpP3P1/1P3P2/5K2/7P/R7 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n\r\n{Activons la tour blanche de manière à ce qu'elle se prépare à attaquer le seul pion non protégé des noirs.} \r\n1. Rd1 {[%wrong Ce coup n'active pas la tour blanche sur une colonne ouverte. Essayez encore !][%hint Sur quelle colonne placer la tour pour se préparer à attaquer le pion c6 non-protégé ?]} \r\n(1. Re1 $6 Kf8 {Ce coup active effectivement la tour blanche, mais elle ne va pas pouvoir attaquer la faiblesse c6 au prochain coup. Essayez encore !})\r\n1... Rc8 {Très bien ! La tour blanche se place sur une colonne ouverte et se prépare à attaquer le pion faible c6. Les noirs défendent donc ce pion, mais au mépris de la protection du pion a6. A vous de l'attaquer !} \r\n2.Rd7 {[%wrong Ce coup ne prépare pas l'attaque du pion faible a6 des noirs. Essayez encore !][%hint Comment envahir le camp ennemi avec votre tour ?]} \r\nRa8 {Bien joué ! La tour des blancs pénètre en territoire adverse. Les noirs défendent donc leur pion a6, mais c'est à nouveau c6 qui se retrouve sans protection ! Comment continuer ?} \r\n3. Rc7 {[%wrong Ce coup n'attaque pas le pion c6. Essayez encore !][%hint Comment attaquer le pion c6 tout en empêchant les noirs de le défendre ?]} (3. Rd6 $6 Rc8 {Bien essayé, mais il existe un coup beaucoup plus fort qui empêche toute défense noire. Trouvez-le !}) \r\n3... Kf8 {Bravo ! Les noirs ne peuvent plus nous empêcher de gagner du matériel. Prenons maintenant le pion c6 !} 4. Rxc6 {Bien joué, vous avez activé votre tour à la perfection en visant sans relâche les faiblesses adverses. [%wrong Nous cherchons à capturer le pion c6 !] [%hint Le pion c6 est la récompense des bons coups joués jusqu'ici !]} *"
+    },
+    {
+      "fen": "1r4k1/r5pp/2P2p2/8/8/7P/6P1/2RR2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les tours s'écharpent autour du pion c des blancs. Comment attaquer une tour noire tout en avançant le pion passé ?",
+        "[%wrong Ce coup n'avance pas le pion passé blanc en attaquant une tour noire. Essayez encore !][%hint Quel pion peut attaquer une tour noire ?]",
+        "Bien joué ! La tour noire tente de bloquer la case de promotion, mais les blancs peuvent maintenant éliminer la tour c8. A vous de jouer !",
+        "[%wrong Ce coup ne permet pas de gagner la tour c8. Essayez encore !][%hint Trouvez l'échec mortel !]",
+        "Joliment fait ! Les blancs attaquent simultanément le roi noir et la tour c8, éliminant la défense noire.",
+        "Défendre le pion passé n'est pas une mauvaise idée, mais il y a un coup beaucoup plus fort. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/r5pp/2P2p2/8/8/7P/6P1/2RR2K1 w - - 0 1\"]\r\n\r\n{Les tours s'écharpent autour du pion c des blancs. Comment attaquer une tour noire tout en avançant le pion passé ?}\r\n1.c7\r\n    {[%wrong Ce coup n'avance pas le pion passé blanc en attaquant une tour noire. Essayez encore !][%hint Quel pion peut attaquer une tour noire ?]}\r\n1...Rc8\r\n    {Bien joué ! La tour noire tente de bloquer la case de promotion, mais les blancs peuvent maintenant éliminer la tour c8. A vous de jouer !}\r\n2.Rd8+\r\n{[%wrong Ce coup ne permet pas de gagner la tour c8. Essayez encore !][%hint Trouvez l'échec mortel !]}\r\n    {Joliment fait ! Les blancs attaquent simultanément le roi noir et la tour c8, éliminant la défense noire.}\r\n    (2.Rd7 $6 {Défendre le pion passé n'est pas une mauvaise idée, mais il y a un coup beaucoup plus fort. Trouvez-le !})\r\n*"
+    },
+    {
+      "fen": "r1b1kb1r/ppppqppp/2n2n2/6B1/2BpP3/5N2/PPP2PPP/RN1QK2R w KQkq - 4 6",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de jouer ...De7, attaquant le pion blanc en e4. Tendons-leur un piège leur un piège en roquant !",
+        "[%wrong Nous voulons roquer dans cette position.][%hint Faites petit roque.]",
+        "Les noirs, pensant gagner un pion, tombent dans le piège. Maintenant que la colonne e est ouverte, comment gagner la dame noire ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort qui gagne la dame. Trouvez-le !][%hint Les tours adorent les colonnes ouvertes...] Bien joué ! La tour blanche cloue la dame adverse à son roi.",
+        "C'est la bonne idée, mais il faut attaquer la dame noire avec une pièce de moindre valeur."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/ppppqppp/2n2n2/6B1/2BpP3/5N2/PPP2PPP/RN1QK2R w KQkq - 4 6\"]\r\n\r\n{Les noirs viennent de jouer ...De7, attaquant le pion blanc en e4. Tendons-leur un piège leur un piège en roquant !}\r\n6.O-O\r\n    {[%wrong Nous voulons roquer dans cette position.][%hint Faites petit roque.]}\r\n6...Qxe4 $2\r\n    {Les noirs, pensant gagner un pion, tombent dans le piège. Maintenant que la colonne e est ouverte, comment gagner la dame noire ?}\r\n7.Re1\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort qui gagne la dame. Trouvez-le !][%hint Les tours adorent les colonnes ouvertes...] Bien joué ! La tour blanche cloue la dame adverse à son roi.}\r\n    (7.Qe2 $2 Qxe2 {C'est la bonne idée, mais il faut attaquer la dame noire avec une pièce de moindre valeur.})\r\n*"
+    },
+    {
+      "fen": "5k2/6pp/4q3/8/4p3/7P/1R4P1/1R4K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion passé des noirs, soutenu par sa dame, semble très dangereux. Cependant, les tours blanches peuvent s'allier pour gagner la dame adverse avant qu'il ne soit trop tard. Comment faire ?",
+        "[%wrong Ce coup ne force pas le gain de la dame. Essayez encore !][%hint Quelle tour peut forcer le roi noir à se rendre sur la septième rangée ?]",
+        "Excellent début ! Les blancs forcent le roi adverse à remonter l'échiquier. Comment l'obliger à aller sur la sixième rangée, où se situe également la dame ?",
+        "[%wrong Ce coup ne force pas le roi blanc à aller sur la sixième rangée. Essayez encore !][%hint La solution réside dans un nouvel échec de tour !]",
+        "Ce coup ne force pas le roi blanc à aller sur la sixième rangée. Les blancs vont simplement devoir répéter les coups. Essayez encore !",
+        "Bien joué ! Maintenant que le roi adverse est sur la sixième rangée, comment gagner la dame adverse ?",
+        "[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint N'oubliez pas la puissance du clouage...] Vous maîtrisez de mieux en mieux les tours ! La dame noire est désormais clouée à son roi, et la tour de plus des blancs devrait suffire à remporter la partie sans coup férir."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/6pp/4q3/8/4p3/7P/1R4P1/1R4K1 w - - 0 1\"]\r\n\r\n{Le pion passé des noirs, soutenu par sa dame, semble très dangereux. Cependant, les tours blanches peuvent s'allier pour gagner la dame adverse avant qu'il ne soit trop tard. Comment faire ?}\r\n1.Rb8+\r\n    {[%wrong Ce coup ne force pas le gain de la dame. Essayez encore !][%hint Quelle tour peut forcer le roi noir à se rendre sur la septième rangée ?]}\r\n1...Kf7\r\n    {Excellent début ! Les blancs forcent le roi adverse à remonter l'échiquier. Comment l'obliger à aller sur la sixième rangée, où se situe également la dame ?}\r\n2.R1b7+\r\n    {[%wrong Ce coup ne force pas le roi blanc à aller sur la sixième rangée. Essayez encore !][%hint La solution réside dans un nouvel échec de tour !]}\r\n    (2.R8b7+ $6 Ke8 {Ce coup ne force pas le roi blanc à aller sur la sixième rangée. Les blancs vont simplement devoir répéter les coups. Essayez encore !})\r\n2...Kf6\r\n    {Bien joué ! Maintenant que le roi adverse est sur la sixième rangée, comment gagner la dame adverse ?}\r\n3.Rb6\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint N'oubliez pas la puissance du clouage...] Vous maîtrisez de mieux en mieux les tours ! La dame noire est désormais clouée à son roi, et la tour de plus des blancs devrait suffire à remporter la partie sans coup férir.}\r\n*"
+    },
+    {
+      "fen": "8/8/8/3k4/4pK2/2R5/3p4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un dangereux pion passé en d2 que les blancs ne peuvent plus empêcher d'accéder à la promotion. La situation semble désespérée, mais il existe pourtant un moyen très malin de gagner ce pion une fois qu'il aura accédé à la promotion. A vous de le trouver !",
+        "[%wrong Ce coup ne permet pas aux blancs de gagner la future dame en d1. Essayez encore !][%hint Le roi noir et le pion passé sont alignés sur la colonne d. Comment donner un échec avec la tour sur cette colonne ?]",
+        "C'est la bonne idée, mais le roi noir peut s'échapper sur la colonne e et ainsi empêcher la tour d'attaquer la colonne d. Essayez encore !",
+        "Un coup de grande classe ! Les noirs ne peuvent plus empêcher l'échec en d8 qui va suivre, et qui va gagner le pion d. A vous de jouer le coup gagnant !",
+        "[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint Gagnez la dame adverse grâce au thème de l'enfilade.] Les blancs donnent échec avec la tour, créant une enfilade sur la colonne d et gagnant la dame noire dans la foulée. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3k4/4pK2/2R5/3p4/8 w - - 0 1\"]\r\n\r\n{Les noirs ont un dangereux pion passé en d2 que les blancs ne peuvent plus empêcher d'accéder à la promotion. La situation semble désespérée, mais il existe pourtant un moyen très malin de gagner ce pion une fois qu'il aura accédé à la promotion. A vous de le trouver !}\r\n1.Rc8\r\n    {[%wrong Ce coup ne permet pas aux blancs de gagner la future dame en d1. Essayez encore !][%hint Le roi noir et le pion passé sont alignés sur la colonne d. Comment donner un échec avec la tour sur cette colonne ?]}\r\n    (1.Rc7 $2 Ke6 {C'est la bonne idée, mais le roi noir peut s'échapper sur la colonne e et ainsi empêcher la tour d'attaquer la colonne d. Essayez encore !})\r\n1...d1=Q\r\n    {Un coup de grande classe ! Les noirs ne peuvent plus empêcher l'échec en d8 qui va suivre, et qui va gagner le pion d. A vous de jouer le coup gagnant !}\r\n2.Rd8+\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint Gagnez la dame adverse grâce au thème de l'enfilade.] Les blancs donnent échec avec la tour, créant une enfilade sur la colonne d et gagnant la dame noire dans la foulée. Bien joué !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "89ad9838-9ce9-11e8-b9a1-b3e4d669c83a",
+    "name": "Utiliser ses tours",
+    "path": "utiliser-ses-tours",
+    "description": "Ne bloquez pas vos tours avec des pions : Placez-les dès que possible sur des colonnes ouvertes ! Les tours sont aussi fortes sur les colonnes semi-ouvertes, où elles attaquent les pions adverses ou défendent les leurs. Il est également très intéressant de doubler les tours sur une colonne ouverte ou sur la septième rangée.",
+    "glyphName": "piece-pair-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-using-your-rooks-g2d.mp4",
+    "fen": "r5k1/2R2pp1/p1p3p1/PpP3P1/1P3P2/5K2/7P/8 b - - 5 3",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/5pp1/p1p3p1/PpP3P1/1P3P2/5K2/7P/R7 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n\r\n{Activons la tour blanche de manière à ce qu'elle se prépare à attaquer le seul pion non protégé des noirs.} \r\n1. Rd1 {[%wrong Ce coup n'active pas la tour blanche sur une colonne ouverte. Essayez encore !][%hint Sur quelle colonne placer la tour pour se préparer à attaquer le pion c6 non-protégé ?]} \r\n(1. Re1 $6 Kf8 {Ce coup active effectivement la tour blanche, mais elle ne va pas pouvoir attaquer la faiblesse c6 au prochain coup. Essayez encore !})\r\n1... Rc8 {Très bien ! La tour blanche se place sur une colonne ouverte et se prépare à attaquer le pion faible c6. Les noirs défendent donc ce pion, mais au mépris de la protection du pion a6. A vous de l'attaquer !} \r\n2.Rd7 {[%wrong Ce coup ne prépare pas l'attaque du pion faible a6 des noirs. Essayez encore !][%hint Comment envahir le camp ennemi avec votre tour ?]} \r\nRa8 {Bien joué ! La tour des blancs pénètre en territoire adverse. Les noirs défendent donc leur pion a6, mais c'est à nouveau c6 qui se retrouve sans protection ! Comment continuer ?} \r\n3. Rc7 {[%wrong Ce coup n'attaque pas le pion c6. Essayez encore !][%hint Comment attaquer le pion c6 tout en empêchant les noirs de le défendre ?]} (3. Rd6 $6 Rc8 {Bien essayé, mais il existe un coup beaucoup plus fort qui empêche toute défense noire. Trouvez-le !}) \r\n3... Kf8 {Bravo ! Les noirs ne peuvent plus nous empêcher de gagner du matériel. Prenons maintenant le pion c6 !} 4. Rxc6 {Bien joué, vous avez activé votre tour à la perfection en visant sans relâche les faiblesses adverses. [%wrong Nous cherchons à capturer le pion c6 !] [%hint Le pion c6 est la récompense des bons coups joués jusqu'ici !]} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/r5pp/2P2p2/8/8/7P/6P1/2RR2K1 w - - 0 1\"]\r\n\r\n{Les tours s'écharpent autour du pion c des blancs. Comment attaquer une tour noire tout en avançant le pion passé ?}\r\n1.c7\r\n    {[%wrong Ce coup n'avance pas le pion passé blanc en attaquant une tour noire. Essayez encore !][%hint Quel pion peut attaquer une tour noire ?]}\r\n1...Rc8\r\n    {Bien joué ! La tour noire tente de bloquer la case de promotion, mais les blancs peuvent maintenant éliminer la tour c8. A vous de jouer !}\r\n2.Rd8+\r\n{[%wrong Ce coup ne permet pas de gagner la tour c8. Essayez encore !][%hint Trouvez l'échec mortel !]}\r\n    {Joliment fait ! Les blancs attaquent simultanément le roi noir et la tour c8, éliminant la défense noire.}\r\n    (2.Rd7 $6 {Défendre le pion passé n'est pas une mauvaise idée, mais il y a un coup beaucoup plus fort. Trouvez-le !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/ppppqppp/2n2n2/6B1/2BpP3/5N2/PPP2PPP/RN1QK2R w KQkq - 4 6\"]\r\n\r\n{Les noirs viennent de jouer ...De7, attaquant le pion blanc en e4. Tendons-leur un piège leur un piège en roquant !}\r\n6.O-O\r\n    {[%wrong Nous voulons roquer dans cette position.][%hint Faites petit roque.]}\r\n6...Qxe4 $2\r\n    {Les noirs, pensant gagner un pion, tombent dans le piège. Maintenant que la colonne e est ouverte, comment gagner la dame noire ?}\r\n7.Re1\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort qui gagne la dame. Trouvez-le !][%hint Les tours adorent les colonnes ouvertes...] Bien joué ! La tour blanche cloue la dame adverse à son roi.}\r\n    (7.Qe2 $2 Qxe2 {C'est la bonne idée, mais il faut attaquer la dame noire avec une pièce de moindre valeur.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/6pp/4q3/8/4p3/7P/1R4P1/1R4K1 w - - 0 1\"]\r\n\r\n{Le pion passé des noirs, soutenu par sa dame, semble très dangereux. Cependant, les tours blanches peuvent s'allier pour gagner la dame adverse avant qu'il ne soit trop tard. Comment faire ?}\r\n1.Rb8+\r\n    {[%wrong Ce coup ne force pas le gain de la dame. Essayez encore !][%hint Quelle tour peut forcer le roi noir à se rendre sur la septième rangée ?]}\r\n1...Kf7\r\n    {Excellent début ! Les blancs forcent le roi adverse à remonter l'échiquier. Comment l'obliger à aller sur la sixième rangée, où se situe également la dame ?}\r\n2.R1b7+\r\n    {[%wrong Ce coup ne force pas le roi blanc à aller sur la sixième rangée. Essayez encore !][%hint La solution réside dans un nouvel échec de tour !]}\r\n    (2.R8b7+ $6 Ke8 {Ce coup ne force pas le roi blanc à aller sur la sixième rangée. Les blancs vont simplement devoir répéter les coups. Essayez encore !})\r\n2...Kf6\r\n    {Bien joué ! Maintenant que le roi adverse est sur la sixième rangée, comment gagner la dame adverse ?}\r\n3.Rb6\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint N'oubliez pas la puissance du clouage...] Vous maîtrisez de mieux en mieux les tours ! La dame noire est désormais clouée à son roi, et la tour de plus des blancs devrait suffire à remporter la partie sans coup férir.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3k4/4pK2/2R5/3p4/8 w - - 0 1\"]\r\n\r\n{Les noirs ont un dangereux pion passé en d2 que les blancs ne peuvent plus empêcher d'accéder à la promotion. La situation semble désespérée, mais il existe pourtant un moyen très malin de gagner ce pion une fois qu'il aura accédé à la promotion. A vous de le trouver !}\r\n1.Rc8\r\n    {[%wrong Ce coup ne permet pas aux blancs de gagner la future dame en d1. Essayez encore !][%hint Le roi noir et le pion passé sont alignés sur la colonne d. Comment donner un échec avec la tour sur cette colonne ?]}\r\n    (1.Rc7 $2 Ke6 {C'est la bonne idée, mais le roi noir peut s'échapper sur la colonne e et ainsi empêcher la tour d'attaquer la colonne d. Essayez encore !})\r\n1...d1=Q\r\n    {Un coup de grande classe ! Les noirs ne peuvent plus empêcher l'échec en d8 qui va suivre, et qui va gagner le pion d. A vous de jouer le coup gagnant !}\r\n2.Rd8+\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint Gagnez la dame adverse grâce au thème de l'enfilade.] Les blancs donnent échec avec la tour, créant une enfilade sur la colonne d et gagnant la dame noire dans la foulée. Bien joué !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les tours sont les pièces les plus puissantes en finale.",
+    "outroText": "Plus on s'approche de la fin de la partie, plus les tours montent en puissance.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "title": "Utiliser tout le potentiel de ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/c8c21eaa-a558-11e8-8a0b-b114e31635bb.a8d7fd41.728x410o.77ff125711c0.png"
+    },
+    "parentId": "45aee7e8-83aa-11e8-b701-73e46f0597aa",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-rooks5d1253cbab4d6.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-rooks-566885a58a122b.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-rooks-15ea2434ab0cb6.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-rooks-260269b00859ba.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 52,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "name": "Utiliser tout le potentiel de ses pièces",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "order": 1
+    }
+  }
+}

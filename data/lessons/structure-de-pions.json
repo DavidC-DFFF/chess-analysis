@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/lecture-de-l-echiquier/structure-de-pions",
+  "capturedAt": "2026-10-22T12:23:42.470Z",
+  "title": "Les structures de pions",
+  "exercises": [
+    {
+      "fen": "1k6/6p1/5p1p/8/7K/6P1/5P1P/8 b - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Le roi blanc menace d'attaquer nos pions. Quel est le seul coup qui ne perd pas ?",
+        "[%wrong Ce coup laisse les blancs jouer Rh5, et les pions noirs vont tomber. Cherchez encore !][%hint Bloquer la route du roi blanc !] Bien joué ! Vous avez construit un mur de pions. Le roi blanc ne peut plus attaquer notre masse. Nous allons pouvoir tranquillement ramener le roi en défense et assurer la nulle.",
+        "Nos pions vont tomber les uns après les autres. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/6p1/5p1p/8/7K/6P1/5P1P/8 b - - 0 2\"]\r\n\r\n{Trait aux noirs. Le roi blanc menace d'attaquer nos pions. Quel est le seul coup qui ne perd pas ?}\r\n2...g6\r\n    {[%wrong Ce coup laisse les blancs jouer Rh5, et les pions noirs vont tomber. Cherchez encore !][%hint Bloquer la route du roi blanc !] Bien joué ! Vous avez construit un mur de pions. Le roi blanc ne peut plus attaquer notre masse. Nous allons pouvoir tranquillement ramener le roi en défense et assurer la nulle.}\r\n    (2...g5+ $2 3.Kh5 {Nos pions vont tomber les uns après les autres. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "8/6k1/1pp3p1/p1p1p2p/K1P1P3/1P4P1/7P/5B2 w - - 3 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Observons un instant la structure de pions des noirs, trouvons le point faible, et attaquons-le avec notre fou de cases blanches !",
+        "[%wrong Ce coup ne prépare pas l'attaque d'un pion faible de la position noire. Cherchez encore !][%hint Les pions doublés sont souvent générateurs de faiblesses. Trouvez la faille !]",
+        "Bien vu ! Le pion c6 n'est pas protégé. Le roi noir se replie vers e7 pour empêcher votre fou de l'attaquer. Prenez-le de vitesse !",
+        "[%wrong Ce coup n'attaque pas le pion c6. Cherchez encore !][%hint Comment attaquer c6 avec le fou de cases blanches ?]",
+        "Joli ! Le roi noir change de plan et vise désormais la case g4, d'où il pourra attaquer nos pions de l'aile roi. Faut-il prendre le pion c6 ou empêcher l'idée noire avant tout ?",
+        "[%wrong Non, les noirs gardent du contre jeu. Cherchez encore !][%hint Comment empêcher le roi noir de rentrer sur notre territoire ?]",
+        "Cette ligne ne suffit pas à nous assurer le gain, car les noirs obtiennent un précieux contre-jeu sur l'aile roi. Pourquoi ne pas commencer par bloquer le roi noir avant de prendre le pion c6 sans risque dans un second temps ?",
+        "Ce coup d'attente très intéressant permet également de l'emporter, mais pourquoi se compliquer la vie en laissant du contre jeu au roi noir ? Commençons par empêcher tout contre jeu !",
+        "Les noirs ouvrent des lignes d'attaque contre nos pions. Le gain est toujours possible, mais pourquoi laisser du contre jeu ? Trouvez le gain le plus simple !",
+        "Bon travail ! Le roi noir ne peut entrer dans le camp blanc, et nous allons maintenant nous emparer de tous les pions de l'aile dame sans risque."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6k1/1pp3p1/p1p1p2p/K1P1P3/1P4P1/7P/5B2 w - - 3 2\"]\r\n\r\n{Observons un instant la structure de pions des noirs, trouvons le point faible, et attaquons-le avec notre fou de cases blanches !}\r\n2.Bh3\r\n    {[%wrong Ce coup ne prépare pas l'attaque d'un pion faible de la position noire. Cherchez encore !][%hint Les pions doublés sont souvent générateurs de faiblesses. Trouvez la faille !]}\r\n2...Kf6\r\n    {Bien vu ! Le pion c6 n'est pas protégé. Le roi noir se replie vers e7 pour empêcher votre fou de l'attaquer. Prenez-le de vitesse !}\r\n3.Bd7\r\n    {[%wrong Ce coup n'attaque pas le pion c6. Cherchez encore !][%hint Comment attaquer c6 avec le fou de cases blanches ?]}\r\n3...Kg5\r\n    {Joli ! Le roi noir change de plan et vise désormais la case g4, d'où il pourra attaquer nos pions de l'aile roi. Faut-il prendre le pion c6 ou empêcher l'idée noire avant tout ?}\r\n4.h4+\r\n    {[%wrong Non, les noirs gardent du contre jeu. Cherchez encore !][%hint Comment empêcher le roi noir de rentrer sur notre territoire ?]}\r\n    (4.Bxc6 $6 Kg4 {Cette ligne ne suffit pas à nous assurer le gain, car les noirs obtiennent un précieux contre-jeu sur l'aile roi. Pourquoi ne pas commencer par bloquer le roi noir avant de prendre le pion c6 sans risque dans un second temps ?})\r\n    (4.Be8 $6 Kg4 {Ce coup d'attente très intéressant permet également de l'emporter, mais pourquoi se compliquer la vie en laissant du contre jeu au roi noir ? Commençons par empêcher tout contre jeu !})\r\n    (4.h3 $6 h4 {Les noirs ouvrent des lignes d'attaque contre nos pions. Le gain est toujours possible, mais pourquoi laisser du contre jeu ? Trouvez le gain le plus simple !})\r\n4...Kf6\r\n    {Bon travail ! Le roi noir ne peut entrer dans le camp blanc, et nous allons maintenant nous emparer de tous les pions de l'aile dame sans risque.}\r\n*"
+    },
+    {
+      "fen": "8/8/2b5/p6k/Pp5p/1P3N1P/1K4P1/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le seul plan gagnant des noirs consiste à créer deux pions isolés chez les blancs. A vous de jouer !",
+        "[%wrong Ce coup ne force pas la création de deux pions isolés. Cherchez encore !][%hint Réfléchissez à toutes les captures possibles. De quelle manière affecteraient-elles la structure ?]",
+        "Bien joué ! Les blancs ont un pion du plus, mais ces pions isolés n'ont plus de protection. Attaquez-les vite !",
+        "[%wrong Ce coup ne prépare pas l'attaque du pion faible f3. Cherchez encore !][%hint Comment attaquer le pion faible f3 avec notre roi ?]",
+        "Exact ! Continuez dans cette voie !",
+        "[%wrong Ce coup n'attaque pas le pion f3. Cherchez encore !][%hint Comment attaquer le pion faible f3 avec notre roi ?] Bien joué ! Nous allons bientôt gagner les pion f3 et h3 et ainsi obtenir un pion passé en h4. Le roi blanc ne peut revenir en défense à temps, et nous allons donc gagner cette finale !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2b5/p6k/Pp5p/1P3N1P/1K4P1/8 b - - 0 1\"]\r\n\r\n{Le seul plan gagnant des noirs consiste à créer deux pions isolés chez les blancs. A vous de jouer !}\r\n1...Bxf3\r\n    {[%wrong Ce coup ne force pas la création de deux pions isolés. Cherchez encore !][%hint Réfléchissez à toutes les captures possibles. De quelle manière affecteraient-elles la structure ?]}\r\n2.gxf3\r\n    {Bien joué ! Les blancs ont un pion du plus, mais ces pions isolés n'ont plus de protection. Attaquez-les vite !}\r\n2...Kg5\r\n    {[%wrong Ce coup ne prépare pas l'attaque du pion faible f3. Cherchez encore !][%hint Comment attaquer le pion faible f3 avec notre roi ?]}\r\n3.Kc2\r\n    {Exact ! Continuez dans cette voie !}\r\n3...Kf4\r\n    {[%wrong Ce coup n'attaque pas le pion f3. Cherchez encore !][%hint Comment attaquer le pion faible f3 avec notre roi ?] Bien joué ! Nous allons bientôt gagner les pion f3 et h3 et ainsi obtenir un pion passé en h4. Le roi blanc ne peut revenir en défense à temps, et nous allons donc gagner cette finale !}\r\n*"
+    },
+    {
+      "fen": "8/2k3p1/3p1p1n/3p4/3P2P1/5PK1/3BP3/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le seul coup gagnant dans cette position.",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas. Cherchez encore !][%hint Comment détruire la structure de pions noire ?]",
+        "Le cavalier noir se dirige vers e7, d'où il empêchera le roi blanc d'atteindre l'importante case g6. Cherchez encore !",
+        "Les noirs fixent notre pion sur la case f4, une case de la même couleur que notre fou ! Le cavalier noir va maintenant s'activer pour équilibrer les débats. Trouvez mieux !",
+        "Le cavalier passif des noirs s'active et équilibre la position. Cherchez encore !",
+        "Cet échange met à mal la structure de pions noire en créant trois îlots. Tous les pions noirs sont désormais isolés et ne peuvent par conséquent plus être défendus par un autre pion. Il existe de nombreuses idées gagnantes dans cette position, mais la plus simple consiste à jouer Rh4 pour aller prendre le pion h6."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2k3p1/3p1p1n/3p4/3P2P1/5PK1/3BP3/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant dans cette position.}\r\n1.Bxh6\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Cherchez encore !][%hint Comment détruire la structure de pions noire ?]}\r\n    (1.Kh4 $2 Ng8 {Le cavalier noir se dirige vers e7, d'où il empêchera le roi blanc d'atteindre l'importante case g6. Cherchez encore !})\r\n    (1.f4 $2 f5 {Les noirs fixent notre pion sur la case f4, une case de la même couleur que notre fou ! Le cavalier noir va maintenant s'activer pour équilibrer les débats. Trouvez mieux !})\r\n    (1.g5 $2 Nf5+ {Le cavalier passif des noirs s'active et équilibre la position. Cherchez encore !})\r\n1...gxh6\r\n    {Cet échange met à mal la structure de pions noire en créant trois îlots. Tous les pions noirs sont désormais isolés et ne peuvent par conséquent plus être défendus par un autre pion. Il existe de nombreuses idées gagnantes dans cette position, mais la plus simple consiste à jouer Rh4 pour aller prendre le pion h6.}\r\n*"
+    },
+    {
+      "fen": "2b5/6k1/p2pprp1/2p4p/2P1P3/1P3P2/P4NP1/2R3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez un sacrifice temporaire détruisant la structure de pions noire.",
+        "[%wrong Bien essayé, mais ce coup ne casse pas la structure noire. Cherchez encore !][%hint Comment attaquer un pion et une tour en même temps ?]",
+        "La tour des noirs couvre d6, et leur fou passif va s'activer. Trouvez une idée plus coercitive !",
+        "Joli coup ! Les noirs ont maintenant quatre îlots de pions et de nombreuses faiblesses. Quel est la meilleure manière d'attaquer le pion c5 ?",
+        "[%wrong Ce coup n'attaque pas le pion c5. Cherchez encore !][%hint Comment bloquer un pion faible adverse avec le cavalier tout en attaquant c5 ?] Bien joué ! Les blancs attaquent le pion isolé c5 et vont récupérer le matériel sacrifié avec un avantage, car il reste de nombreuses autres faiblesses à attaquer !",
+        "Attaquer le pion c5 de cette manière permet aux noirs de se débarasser d'une faiblesse et d'isoler notre pion e4. La position est toujours gagnante, mais il existe une manière plus simple de continuer. Trouvez-la !",
+        "Les blancs auront toujours une position prometteuse après Ce4, mais pourquoi ne pas attaquer le pion c5 tant qu'il n'est pas défendable ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b5/6k1/p2pprp1/2p4p/2P1P3/1P3P2/P4NP1/2R3K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez un sacrifice temporaire détruisant la structure de pions noire.}\r\n1.e5\r\n    {[%wrong Bien essayé, mais ce coup ne casse pas la structure noire. Cherchez encore !][%hint Comment attaquer un pion et une tour en même temps ?]}\r\n    (1.Rd1 $2 e5 {La tour des noirs couvre d6, et leur fou passif va s'activer. Trouvez une idée plus coercitive !})\r\n1...dxe5\r\n    {Joli coup ! Les noirs ont maintenant quatre îlots de pions et de nombreuses faiblesses. Quel est la meilleure manière d'attaquer le pion c5 ?}\r\n2.Ne4\r\n    {[%wrong Ce coup n'attaque pas le pion c5. Cherchez encore !][%hint Comment bloquer un pion faible adverse avec le cavalier tout en attaquant c5 ?] Bien joué ! Les blancs attaquent le pion isolé c5 et vont récupérer le matériel sacrifié avec un avantage, car il reste de nombreuses autres faiblesses à attaquer !}\r\n    (2.Nd3 $5 e4 {Attaquer le pion c5 de cette manière permet aux noirs de se débarasser d'une faiblesse et d'isoler notre pion e4. La position est toujours gagnante, mais il existe une manière plus simple de continuer. Trouvez-la !})\r\n    (2.Re1 $6 Rf5 {Les blancs auront toujours une position prometteuse après Ce4, mais pourquoi ne pas attaquer le pion c5 tant qu'il n'est pas défendable ?})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "1cf264a6-9ceb-11e8-ac5b-7f67d4f8dd60",
+    "name": "Les structures de pions",
+    "path": "structure-de-pions",
+    "description": "Les pions connectés peuvent se défendre entre eux, tandis que les pions doublés se bloquent. Les pions n’ayant aucun compagnon sur les colonnes adjacentes sont dit « isolés », et sont plus faciles à attaquer.",
+    "glyphName": "piece-pawn-structure-2",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-pawn-structures-o2j.mp4",
+    "fen": "1k6/8/5ppp/8/7K/6P1/5P1P/8 w - - 0 3",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/6p1/5p1p/8/7K/6P1/5P1P/8 b - - 0 2\"]\r\n\r\n{Trait aux noirs. Le roi blanc menace d'attaquer nos pions. Quel est le seul coup qui ne perd pas ?}\r\n2...g6\r\n    {[%wrong Ce coup laisse les blancs jouer Rh5, et les pions noirs vont tomber. Cherchez encore !][%hint Bloquer la route du roi blanc !] Bien joué ! Vous avez construit un mur de pions. Le roi blanc ne peut plus attaquer notre masse. Nous allons pouvoir tranquillement ramener le roi en défense et assurer la nulle.}\r\n    (2...g5+ $2 3.Kh5 {Nos pions vont tomber les uns après les autres. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6k1/1pp3p1/p1p1p2p/K1P1P3/1P4P1/7P/5B2 w - - 3 2\"]\r\n\r\n{Observons un instant la structure de pions des noirs, trouvons le point faible, et attaquons-le avec notre fou de cases blanches !}\r\n2.Bh3\r\n    {[%wrong Ce coup ne prépare pas l'attaque d'un pion faible de la position noire. Cherchez encore !][%hint Les pions doublés sont souvent générateurs de faiblesses. Trouvez la faille !]}\r\n2...Kf6\r\n    {Bien vu ! Le pion c6 n'est pas protégé. Le roi noir se replie vers e7 pour empêcher votre fou de l'attaquer. Prenez-le de vitesse !}\r\n3.Bd7\r\n    {[%wrong Ce coup n'attaque pas le pion c6. Cherchez encore !][%hint Comment attaquer c6 avec le fou de cases blanches ?]}\r\n3...Kg5\r\n    {Joli ! Le roi noir change de plan et vise désormais la case g4, d'où il pourra attaquer nos pions de l'aile roi. Faut-il prendre le pion c6 ou empêcher l'idée noire avant tout ?}\r\n4.h4+\r\n    {[%wrong Non, les noirs gardent du contre jeu. Cherchez encore !][%hint Comment empêcher le roi noir de rentrer sur notre territoire ?]}\r\n    (4.Bxc6 $6 Kg4 {Cette ligne ne suffit pas à nous assurer le gain, car les noirs obtiennent un précieux contre-jeu sur l'aile roi. Pourquoi ne pas commencer par bloquer le roi noir avant de prendre le pion c6 sans risque dans un second temps ?})\r\n    (4.Be8 $6 Kg4 {Ce coup d'attente très intéressant permet également de l'emporter, mais pourquoi se compliquer la vie en laissant du contre jeu au roi noir ? Commençons par empêcher tout contre jeu !})\r\n    (4.h3 $6 h4 {Les noirs ouvrent des lignes d'attaque contre nos pions. Le gain est toujours possible, mais pourquoi laisser du contre jeu ? Trouvez le gain le plus simple !})\r\n4...Kf6\r\n    {Bon travail ! Le roi noir ne peut entrer dans le camp blanc, et nous allons maintenant nous emparer de tous les pions de l'aile dame sans risque.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2b5/p6k/Pp5p/1P3N1P/1K4P1/8 b - - 0 1\"]\r\n\r\n{Le seul plan gagnant des noirs consiste à créer deux pions isolés chez les blancs. A vous de jouer !}\r\n1...Bxf3\r\n    {[%wrong Ce coup ne force pas la création de deux pions isolés. Cherchez encore !][%hint Réfléchissez à toutes les captures possibles. De quelle manière affecteraient-elles la structure ?]}\r\n2.gxf3\r\n    {Bien joué ! Les blancs ont un pion du plus, mais ces pions isolés n'ont plus de protection. Attaquez-les vite !}\r\n2...Kg5\r\n    {[%wrong Ce coup ne prépare pas l'attaque du pion faible f3. Cherchez encore !][%hint Comment attaquer le pion faible f3 avec notre roi ?]}\r\n3.Kc2\r\n    {Exact ! Continuez dans cette voie !}\r\n3...Kf4\r\n    {[%wrong Ce coup n'attaque pas le pion f3. Cherchez encore !][%hint Comment attaquer le pion faible f3 avec notre roi ?] Bien joué ! Nous allons bientôt gagner les pion f3 et h3 et ainsi obtenir un pion passé en h4. Le roi blanc ne peut revenir en défense à temps, et nous allons donc gagner cette finale !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2k3p1/3p1p1n/3p4/3P2P1/5PK1/3BP3/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant dans cette position.}\r\n1.Bxh6\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Cherchez encore !][%hint Comment détruire la structure de pions noire ?]}\r\n    (1.Kh4 $2 Ng8 {Le cavalier noir se dirige vers e7, d'où il empêchera le roi blanc d'atteindre l'importante case g6. Cherchez encore !})\r\n    (1.f4 $2 f5 {Les noirs fixent notre pion sur la case f4, une case de la même couleur que notre fou ! Le cavalier noir va maintenant s'activer pour équilibrer les débats. Trouvez mieux !})\r\n    (1.g5 $2 Nf5+ {Le cavalier passif des noirs s'active et équilibre la position. Cherchez encore !})\r\n1...gxh6\r\n    {Cet échange met à mal la structure de pions noire en créant trois îlots. Tous les pions noirs sont désormais isolés et ne peuvent par conséquent plus être défendus par un autre pion. Il existe de nombreuses idées gagnantes dans cette position, mais la plus simple consiste à jouer Rh4 pour aller prendre le pion h6.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b5/6k1/p2pprp1/2p4p/2P1P3/1P3P2/P4NP1/2R3K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez un sacrifice temporaire détruisant la structure de pions noire.}\r\n1.e5\r\n    {[%wrong Bien essayé, mais ce coup ne casse pas la structure noire. Cherchez encore !][%hint Comment attaquer un pion et une tour en même temps ?]}\r\n    (1.Rd1 $2 e5 {La tour des noirs couvre d6, et leur fou passif va s'activer. Trouvez une idée plus coercitive !})\r\n1...dxe5\r\n    {Joli coup ! Les noirs ont maintenant quatre îlots de pions et de nombreuses faiblesses. Quel est la meilleure manière d'attaquer le pion c5 ?}\r\n2.Ne4\r\n    {[%wrong Ce coup n'attaque pas le pion c5. Cherchez encore !][%hint Comment bloquer un pion faible adverse avec le cavalier tout en attaquant c5 ?] Bien joué ! Les blancs attaquent le pion isolé c5 et vont récupérer le matériel sacrifié avec un avantage, car il reste de nombreuses autres faiblesses à attaquer !}\r\n    (2.Nd3 $5 e4 {Attaquer le pion c5 de cette manière permet aux noirs de se débarasser d'une faiblesse et d'isoler notre pion e4. La position est toujours gagnante, mais il existe une manière plus simple de continuer. Trouvez-la !})\r\n    (2.Re1 $6 Rf5 {Les blancs auront toujours une position prometteuse après Ce4, mais pourquoi ne pas attaquer le pion c5 tant qu'il n'est pas défendable ?})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Une bonne structure de pions est la clé d'une position saine.",
+    "outroText": "Bientôt, vous serez très affûté pour déceler les failles d'une structure de pions.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "path": "lecture-de-l-echiquier",
+      "title": "Lecture de l'échiquier",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/346efa28-a55a-11e8-87ab-eb3d1fefd4e2.07e448f1.728x410o.a0bbcabbc031.png"
+    },
+    "parentId": "0025a84a-83ac-11e8-8249-87c1fe8b7305",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-structures6148a96855919.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-structures-56688565d7c0f2.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-structures-15ea24104b7c79.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-structures-26148ae7334f00.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 79,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "name": "Lecture de l'échiquier",
+      "path": "lecture-de-l-echiquier",
+      "order": 5
+    }
+  }
+}

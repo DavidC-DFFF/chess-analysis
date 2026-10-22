@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer/langage-des-echecs",
+  "capturedAt": "2026-10-22T12:23:28.239Z",
+  "title": "Le langage des échecs",
+  "exercises": [
+    {
+      "fen": "7k/8/8/4p3/P7/8/4P3/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent faire avancer leur pion. Jouez a5.",
+        "[%wrong Vous n'avez mis de pion sur la case a5. Essayez encore !][%hint Trouvez le pion en a4 et avancez le d'une case.] Bien joué ! Le pion est maintenant en a5."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/8/4p3/P7/8/4P3/6K1 w - - 0 1\"]\r\n\r\n{Les blancs veulent faire avancer leur pion. Jouez a5.}\r\n1.a5\r\n    {[%wrong Vous n'avez mis de pion sur la case a5. Essayez encore !][%hint Trouvez le pion en a4 et avancez le d'une case.] Bien joué ! Le pion est maintenant en a5.}\r\n*"
+    },
+    {
+      "fen": "4r2k/1p4p1/p7/P4p2/5P2/6P1/1P6/3R2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs aimeraient attaquer le pion b7 en infiltrant leur tour via le coup Td7. Comment y parvenir ?",
+        "[%wrong Ce coup n'amène pas une tour en d7. Veuillez réessayer !]\r\n[%hint Déplacez votre tour sur la septième rangée de l'échiquier d'où elle attaquera le pion noir en b7.] C'est ça ! Les blancs menacent le pion b7 qui n'est pas défendu."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r2k/1p4p1/p7/P4p2/5P2/6P1/1P6/3R2K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Les blancs aimeraient attaquer le pion b7 en infiltrant leur tour via le coup Td7. Comment y parvenir ?} \r\n1. Rd7 {[%wrong Ce coup n'amène pas une tour en d7. Veuillez réessayer !]\r\n[%hint Déplacez votre tour sur la septième rangée de l'échiquier d'où elle attaquera le pion noir en b7.] C'est ça ! Les blancs menacent le pion b7 qui n'est pas défendu.} *"
+    },
+    {
+      "fen": "8/4k3/8/8/8/8/R6P/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent empêcher le roi noir de franchir la colonne f. Jouez Tf2.",
+        "[%wrong Vous n'avez pas mis une tour sur la case f2. Essayez encore !][%hint Trouvez la case f2 et placez-y la tour.] Bien joué ! La tour blanche est maintenant en f2."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4k3/8/8/8/8/R6P/6K1 w - - 0 1\"]\r\n\r\n{Les blancs veulent empêcher le roi noir de franchir la colonne f. Jouez Tf2.}\r\n1.Rf2\r\n    {[%wrong Vous n'avez pas mis une tour sur la case f2. Essayez encore !][%hint Trouvez la case f2 et placez-y la tour.] Bien joué ! La tour blanche est maintenant en f2.}\r\n*"
+    },
+    {
+      "fen": "6k1/8/8/8/7B/8/8/3Q2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs peuvent mettre deux pièces différentes en d8. Jouez Dd8 !",
+        "[%wrong Vous n'avez pas mis une dame sur la case d8. Essayez encore !][%hint Trouvez la case d8 et placez-y la dame.] Bien joué ! la dame est maintenant en d8.",
+        "Bien essayé, mais vous avez joué le fou, c'est à dire Fd8. Nous voulons jouer Dd8. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/8/8/7B/8/8/3Q2K1 w - - 0 1\"]\r\n\r\n{Les blancs peuvent mettre deux pièces différentes en d8. Jouez Dd8 !}\r\n1.Qd8+\r\n    {[%wrong Vous n'avez pas mis une dame sur la case d8. Essayez encore !][%hint Trouvez la case d8 et placez-y la dame.] Bien joué ! la dame est maintenant en d8.}\r\n    (1.Bd8 $2 {Bien essayé, mais vous avez joué le fou, c'est à dire Fd8. Nous voulons jouer Dd8. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "6k1/8/8/8/8/2N3N1/8/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs peuvent poster leurs deux cavaliers en e4. Jouez Cge4.",
+        "[%wrong Vous n'avez pas mis le cavalier g3 sur la case e4. Essayez encore !!][%hint Jouez le cavalier g3.] Très bien ! Il fallait effectivement jouer le cavalier en g3, c'est pourquoi le coup est noté Cge4 !",
+        "C'est la bonne case, mais pas le bon cavalier ! En déplaçant le cavalier c3 vers e4, vous avez joué Cce4, et nous voulons jouer Cge4. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/8/8/8/2N3N1/8/6K1 w - - 0 1\"]\r\n\r\n{Les blancs peuvent poster leurs deux cavaliers en e4. Jouez Cge4.}\r\n1.Nge4\r\n    {[%wrong Vous n'avez pas mis le cavalier g3 sur la case e4. Essayez encore !!][%hint Jouez le cavalier g3.] Très bien ! Il fallait effectivement jouer le cavalier en g3, c'est pourquoi le coup est noté Cge4 !}\r\n    (1.Nce4 $2 {C'est la bonne case, mais pas le bon cavalier ! En déplaçant le cavalier c3 vers e4, vous avez joué Cce4, et nous voulons jouer Cge4. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "695ef582-9ce3-11e8-ac72-f7ee1e35d76b",
+    "name": "Le langage des échecs",
+    "path": "langage-des-echecs",
+    "description": "Chaque case de l’échiquier est identifiée par ses coordonnées en abscisse et ordonnée. Les colonnes sont identifiées par des lettres de A à H (en minuscule), tandis que les rangées portent un chiffre allant du 1 au 8. Pour la notation, chaque pièce est représentée par son initiale en majuscule : Roi = R, Dame = D, Tour = T, Fou = F, Cavalier = C, Pion : pas d’annotation. Pour noter un coup, on écrit l’initiale de la pièce jouée suivi de sa case d’arrivée. Par exemple, Rf3 signifie que le roi a été déplacé sur la case f3. Comme les pions ne sont pas représentés dans la notation, lorsqu’un pion se déplace sur la case f3, on note tout simplement : f3.",
+    "glyphName": "message-bubble-fill-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-NOU-the-language-of-chess-w2q.mp4",
+    "fen": "8/8/8/8/8/8/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/8/4p3/P7/8/4P3/6K1 w - - 0 1\"]\r\n\r\n{Les blancs veulent faire avancer leur pion. Jouez a5.}\r\n1.a5\r\n    {[%wrong Vous n'avez mis de pion sur la case a5. Essayez encore !][%hint Trouvez le pion en a4 et avancez le d'une case.] Bien joué ! Le pion est maintenant en a5.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r2k/1p4p1/p7/P4p2/5P2/6P1/1P6/3R2K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Les blancs aimeraient attaquer le pion b7 en infiltrant leur tour via le coup Td7. Comment y parvenir ?} \r\n1. Rd7 {[%wrong Ce coup n'amène pas une tour en d7. Veuillez réessayer !]\r\n[%hint Déplacez votre tour sur la septième rangée de l'échiquier d'où elle attaquera le pion noir en b7.] C'est ça ! Les blancs menacent le pion b7 qui n'est pas défendu.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4k3/8/8/8/8/R6P/6K1 w - - 0 1\"]\r\n\r\n{Les blancs veulent empêcher le roi noir de franchir la colonne f. Jouez Tf2.}\r\n1.Rf2\r\n    {[%wrong Vous n'avez pas mis une tour sur la case f2. Essayez encore !][%hint Trouvez la case f2 et placez-y la tour.] Bien joué ! La tour blanche est maintenant en f2.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/8/8/7B/8/8/3Q2K1 w - - 0 1\"]\r\n\r\n{Les blancs peuvent mettre deux pièces différentes en d8. Jouez Dd8 !}\r\n1.Qd8+\r\n    {[%wrong Vous n'avez pas mis une dame sur la case d8. Essayez encore !][%hint Trouvez la case d8 et placez-y la dame.] Bien joué ! la dame est maintenant en d8.}\r\n    (1.Bd8 $2 {Bien essayé, mais vous avez joué le fou, c'est à dire Fd8. Nous voulons jouer Dd8. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/8/8/8/2N3N1/8/6K1 w - - 0 1\"]\r\n\r\n{Les blancs peuvent poster leurs deux cavaliers en e4. Jouez Cge4.}\r\n1.Nge4\r\n    {[%wrong Vous n'avez pas mis le cavalier g3 sur la case e4. Essayez encore !!][%hint Jouez le cavalier g3.] Très bien ! Il fallait effectivement jouer le cavalier en g3, c'est pourquoi le coup est noté Cge4 !}\r\n    (1.Nce4 $2 {C'est la bonne case, mais pas le bon cavalier ! En déplaçant le cavalier c3 vers e4, vous avez joué Cce4, et nous voulons jouer Cge4. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "cae69640-a556-11e8-9fa2-e50425638fa0",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Fxf7 ? Dg3# ? Que signifient ces lettres, nombres et symboles ?",
+    "outroText": "Beau travail. Il est temps de faire une partie d'entrainement.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "path": "jouer",
+      "title": "Jouez !",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/cae69640-a556-11e8-9fa2-e50425638fa0.6f70b58e.728x410o.3924271f36b9.png"
+    },
+    "parentId": "f6158a60-8391-11e8-a4c8-0b9a1db4cd4d",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-language-of-chess5d11103720590.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-language-of-chess-5668c001416772.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-language-of-chess-160a66c2fb2464.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-language-of-chess-65ea2469e9f310.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/il-linguaggio-degli-scacchi63c453c9ce9e6.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 16,
+    "order": 4,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "name": "Jouez !",
+      "path": "jouer",
+      "order": 1
+    }
+  }
+}

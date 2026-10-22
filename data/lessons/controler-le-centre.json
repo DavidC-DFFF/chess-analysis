@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/principes-ouverture/controler-le-centre",
+  "capturedAt": "2026-10-22T12:23:28.976Z",
+  "title": "Contrôler le centre",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont commencé la partie par 1.e4 et sont prêts à asseoir leur domination au centre en continuant par 2.d4. Répondons par 1...e5 afin d'équilibrer les débats au cœur de l'échiquier !",
+        "[%wrong Les noirs ont de nombreuses options envisageables\r\n, mais nous souhaitons avancer le pion devant notre roi jusqu'à la case e5. Alors jouons ce coup.] [%hint Avancez le pion devant votre roi de deux cases.]",
+        "Parfait ! Nous ne voulons pas autoriser les blancs à garder deux pions au centre. Pouvez-vous trouver le coup qui permettra aux noirs d'enlever de l'échiquier un des deux pions centraux des blancs ?",
+        "[%wrong Bien essayé, mais\r\nce coup ne capture pas l'un des pions centraux des blancs. Essayez encore ou utiliser\r\nl'indice.] [%hint Votre pion e5 est attaqué par le pion blanc d4. Capturons ce trouble-fête !] Bien joué ! Les blancs n'ont pu maintenir leur duo au centre grâce à la réaction immédiate des noirs. Continuez comme ça !",
+        "Bien pensé mais si nous récupérons le matériel après l'échange des pions, remarquez que les blancs ont ensuite l'occasion de capturer notre dame avec la leur, nous forçant à reprendre du roi et ainsi nous déroquant.\r\nNe défendons pas le pion e mais utilisons le pour capturer le pion blanc en d4 !",
+        "Nous associons au pion f l'adage \"faut pas bouger\". C'est un principe de base de laisser ce pion sur sa case initiale dans l'ouverture pour ne pas ouvrir une dangereuse diagonale sur notre roi. Imaginez que les blancs prennent votre pion en e5, si vous utilisez votre pion f pour le recapturer alors votre roi sera dans de sérieux courants d'air après l'échec de la dame adverse en h5. Ne défendons pas notre pion e mais utilisons le pour capturer le pion blanc en d4 !",
+        "En général, déplacer notre cavalier vers le centre est recommandé mais dans ce cas précis nous ne voulons pas permettre aux blancs d'avancer leur pion en d5, attaquant notre cavalier et nous faisant perdre un temps à le bouger de nouveau. Plutôt que de défendre le pion e5, utilisons le pour capturer le pion blanc en d4 !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.07.29\"]\r\n[Round \"?\"]\r\n[White \"ch1ctrlcontrol\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.07.29\"]\r\n\r\n{Les blancs ont commencé la partie par 1.e4 et sont prêts à asseoir leur domination au centre en continuant par 2.d4. Répondons par 1...e5 afin d'équilibrer les débats au cœur de l'échiquier !} 1... e5 {[%wrong Les noirs ont de nombreuses options envisageables\r\n, mais nous souhaitons avancer le pion devant notre roi jusqu'à la case e5. Alors jouons ce coup.] [%hint Avancez le pion devant votre roi de deux cases.]} 2. d4 {Parfait ! Nous ne voulons pas autoriser les blancs à garder deux pions au centre. Pouvez-vous trouver le coup qui permettra aux noirs d'enlever de l'échiquier un des deux pions centraux des blancs ?} exd4 {[%wrong Bien essayé, mais\r\nce coup ne capture pas l'un des pions centraux des blancs. Essayez encore ou utiliser\r\nl'indice.] [%hint Votre pion e5 est attaqué par le pion blanc d4. Capturons ce trouble-fête !] Bien joué ! Les blancs n'ont pu maintenir leur duo au centre grâce à la réaction immédiate des noirs. Continuez comme ça !} (2... d6 $2 3. dxe5 {Bien pensé mais si nous récupérons le matériel après l'échange des pions, remarquez que les blancs ont ensuite l'occasion de capturer notre dame avec la leur, nous forçant à reprendre du roi et ainsi nous déroquant.\r\nNe défendons pas le pion e mais utilisons le pour capturer le pion blanc en d4 !}) (\r\n2... f6 $2 3. dxe5 {Nous associons au pion f l'adage \"faut pas bouger\". C'est un principe de base de laisser ce pion sur sa case initiale dans l'ouverture pour ne pas ouvrir une dangereuse diagonale sur notre roi. Imaginez que les blancs prennent votre pion en e5, si vous utilisez votre pion f pour le recapturer alors votre roi sera dans de sérieux courants d'air après l'échec de la dame adverse en h5. Ne défendons pas notre pion e mais utilisons le pour capturer le pion blanc en d4 !}) (2... Nc6 $2 3. d5 {En général, déplacer notre cavalier vers le centre est recommandé mais dans ce cas précis nous ne voulons pas permettre aux blancs d'avancer leur pion en d5, attaquant notre cavalier et nous faisant perdre un temps à le bouger de nouveau. Plutôt que de défendre le pion e5, utilisons le pour capturer le pion blanc en d4 !}) *"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent s'emparer du centre en avançant un pion directement au milieu de l'échiquier ?",
+        "[%wrong Les blancs ont de nombreuses options valables mais nous souhaitons installer un pion directement au centre. Essayez d'avancer le pion devant votre roi ou celui devant votre dame de deux cases pour vous emparer du centre.] [%hint Avancez votre pion devant votre roi de deux cases.]",
+        "Parfait ! Il s'agit de l'un des deux bons coups pour vous emparer du centrer. Maintenant, essayez l'autre.",
+        "Vous y êtes presque ! Ce coup protège une case centrale mais ne s'installe pas dessus, encore un petit effort !",
+        "Vous y êtes presque ! Ce coup protège une case centrale mais ne s'installe pas dessus, encore un petit effort !",
+        "Très bien ! Vous avez pris possession du centre et votre adversaire a échoué à rivaliser. Comment pouvez-vous accroître votre domination centrale en joignant un nouveau pion à l'action ?",
+        "[%wrong Bien tenté, mais nous souhaitons qu'un nouveau pion s'installe au centre de l'échiquier. Essayez de nouveau.] [%hint Avancez le pion devant votre dame de deux cases.]",
+        "Prendre de l'espace au centre n'est pas une mauvaise idée, mais le meilleur ami d'un pion est un autre pion. Envoyez lui donc un soutien avant de vouloir envahir le camp des noirs.",
+        "Presque ! Avancez ce pion d'une case supplémentaire afin de ne pas bloquer votre fou de cases blanches.",
+        "Bien joué ! Les noirs se réveillent et prennent conscience de l'importance de lutter pour le centre. Comment les blancs peuvent-ils gagner du matériel ?",
+        "[%wrong Bien essayé mais ce coup ne gagne pas de matériel. Tentez autre chose ou utilisez l'indice.] [%hint Les noirs ont perdu un temps avant de réagir au centre. Vous pouvez les punir pour cette erreur en capturant un pion !] Beau travail ! Les blancs ont désormais un pion d'avance et la main mise sur le centre.",
+        "Prendre de l'espace n'est pas une mauvaise idée même si cela permet aux noirs de s'emparer d'une belle diagonale pour leur fou. La raison principale pour laquelle ce coup n'est pas le meilleur est toutefois qu'un pion peut être capturé gratuitement. Essayez de trouver ce coup et de gagner du matériel !",
+        "Attention, ce coup prend bien un pion mais vous coûterait un fou ! Pour rappel, un fou vaut 3 points tandis qu'un pion, un seul. Essayez de trouver un moyen de gagner un pion sans rien perdre en échange."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.07.29\"]\r\n[Round \"?\"]\r\n[White \"ch2ctrlcontrol\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"B00\"]\r\n[Annotator \"Fischwitsch\"]\r\n[PlyCount \"5\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.07.29\"]\r\n\r\n{Comment les blancs peuvent s'emparer du centre en avançant un pion directement au milieu de l'échiquier ?} 1. e4 {[%wrong Les blancs ont de nombreuses options valables mais nous souhaitons installer un pion directement au centre. Essayez d'avancer le pion devant votre roi ou celui devant votre dame de deux cases pour vous emparer du centre.] [%hint Avancez votre pion devant votre roi de deux cases.]}\r\n(1. d4 $5 {Parfait ! Il s'agit de l'un des deux bons coups pour vous emparer du centrer. Maintenant, essayez l'autre.}) (1. e3 $2 {Vous y êtes presque ! Ce coup protège une case centrale mais ne s'installe pas dessus, encore un petit effort !}) (1. d3 $2 {Vous y êtes presque ! Ce coup protège une case centrale mais ne s'installe pas dessus, encore un petit effort !}) 1... a6 {Très bien ! Vous avez pris possession du centre et votre adversaire a échoué à rivaliser. Comment pouvez-vous accroître votre domination centrale en joignant un nouveau pion à l'action ?} 2. d4 {[%wrong Bien tenté, mais nous souhaitons qu'un nouveau pion s'installe au centre de l'échiquier. Essayez de nouveau.] [%hint Avancez le pion devant votre dame de deux cases.]} (2.\r\ne5 $5 d6 {Prendre de l'espace au centre n'est pas une mauvaise idée, mais le meilleur ami d'un pion est un autre pion. Envoyez lui donc un soutien avant de vouloir envahir le camp des noirs.}) (2. d3 $2 {Presque ! Avancez ce pion d'une case supplémentaire afin de ne pas bloquer votre fou de cases blanches.}) 2... e5 {Bien joué ! Les noirs se réveillent et prennent conscience de l'importance de lutter pour le centre. Comment les blancs peuvent-ils gagner du matériel ?} 3. dxe5 {[%wrong Bien essayé mais ce coup ne gagne pas de matériel. Tentez autre chose ou utilisez l'indice.] [%hint Les noirs ont perdu un temps avant de réagir au centre. Vous pouvez les punir pour cette erreur en capturant un pion !] Beau travail ! Les blancs ont désormais un pion d'avance et la main mise sur le centre.} (3. d5 $2 Bc5 {Prendre de l'espace n'est pas une mauvaise idée même si cela permet aux noirs de s'emparer d'une belle diagonale pour leur fou. La raison principale pour laquelle ce coup n'est pas le meilleur est toutefois qu'un pion peut être capturé gratuitement. Essayez de trouver ce coup et de gagner du matériel !}) (3. Bxa6 $2 Rxa6 {Attention, ce coup prend bien un pion mais vous coûterait un fou ! Pour rappel, un fou vaut 3 points tandis qu'un pion, un seul. Essayez de trouver un moyen de gagner un pion sans rien perdre en échange.}) *"
+    },
+    {
+      "fen": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils attaquer le cavalier noir ?",
+        "[%wrong Il existe un meilleur coup.\r\nRecommencez et essayez d'attaquer le cavalier avec un pion.] \r\n[%hint Visez le cavalier f6 avec votre pion e4.]",
+        "Les noirs gagnent un pion. Essayez de trouver comment attaquer le cavalier noir en f6.",
+        "Bon début ! Les blancs peuvent continuer de chasser le cavalier avec leurs pions. Comment continuer ?",
+        "[%wrong Il existe un meilleur coup. Essayez de vous en prendre au cavalier avec un pion central.] [%hint Attaquez le cavalier avec votre pion d.]",
+        "C'est un bon coup mais essayez d'utiliser ce pion pour attaquer le cavalier noir.",
+        "Il vaut mieux utiliser un pion centrale pour s'en prendre au cavalier noir. Comment procéder ?",
+        "Le cavalier reste vulnérable. Comment pouvez-vous le réattaquer avec le pion d ?",
+        "[%wrong Il existe une meilleure option. Essayez d'attaquer le cavalier noir tout en prenant le centre avec l'un de vos pions.] [%hint Attaquez le cavalier avec votre pion d.]  Beau travail ! Les blancs dominent le centre tandis que les noirs n'ont pas encore bougé le moindre pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n[PlyCount \"5\"]\r\n\r\n{Comment les blancs peuvent-ils attaquer le cavalier noir ?} 2. e5 {[%wrong Il existe un meilleur coup.\r\nRecommencez et essayez d'attaquer le cavalier avec un pion.] \r\n[%hint Visez le cavalier f6 avec votre pion e4.]} (2. d4 $2 Nxe4 {Les noirs gagnent un pion. Essayez de trouver comment attaquer le cavalier noir en f6.}) 2... Ne4 {Bon début ! Les blancs peuvent continuer de chasser le cavalier avec leurs pions. Comment continuer ?} 3. d3 {[%wrong Il existe un meilleur coup. Essayez de vous en prendre au cavalier avec un pion central.] [%hint Attaquez le cavalier avec votre pion d.]} (\r\n3. d4 $5 {C'est un bon coup mais essayez d'utiliser ce pion pour attaquer le cavalier noir.}) (3. f3 $2 {Il vaut mieux utiliser un pion centrale pour s'en prendre au cavalier noir. Comment procéder ?}) 3... Nc5 {Le cavalier reste vulnérable. Comment pouvez-vous le réattaquer avec le pion d ?} 4. d4 {[%wrong Il existe une meilleure option. Essayez d'attaquer le cavalier noir tout en prenant le centre avec l'un de vos pions.] [%hint Attaquez le cavalier avec votre pion d.]  Beau travail ! Les blancs dominent le centre tandis que les noirs n'ont pas encore bougé le moindre pion.} *"
+    },
+    {
+      "fen": "r1bqkb1r/ppp1pppp/2n5/3n4/3P4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils occuper le centre avec deux pions ?",
+        "[%wrong Il existe un meilleur coup. Essayez de trouver un moyen d'installer un deuxième pion au centre de l'échiquier.\r\n] [%hint Poussez un pion pour attaquer le cavalier d5.]  Excellent choix ! Le cavalier noir doit fuir le centre et les blancs jouissent d'une très bonne position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/ppp1pppp/2n5/3n4/3P4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5\"]\r\n[PlyCount \"1\"]\r\n\r\n{Comment les blancs peuvent-ils occuper le centre avec deux pions ?} 5. e4 {[%wrong Il existe un meilleur coup. Essayez de trouver un moyen d'installer un deuxième pion au centre de l'échiquier.\r\n] [%hint Poussez un pion pour attaquer le cavalier d5.]  Excellent choix ! Le cavalier noir doit fuir le centre et les blancs jouissent d'une très bonne position.} *"
+    },
+    {
+      "fen": "r1bqkb1r/pp1ppp1p/2p2np1/4n3/4P3/2NP3P/PPP2PP1/R1BQKBNR w KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils pousser un pion pour tenter de piéger le cavalier noir ?",
+        "[%wrong Il existe un meilleur coup. Essayez encore et cherchez un moyen d'enfermer le cavalier noir en e5.] [%hint Attaquez le cavalier noir avec votre pion d.]",
+        "\r\nC'est une bonne option mais il vaut mieux utiliser un pion central pour attaquer le cavalier noir. Comment faire ?",
+        "Bonne idée ! Quelle pièce peut prendre le cavalier ?",
+        "[%wrong Il y a mieux ! Essayez de prendre le cavalier pour gagner du matériel.] [%hint Capturez le cavalier avec votre fou.]  Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1ppp1p/2p2np1/4n3/4P3/2NP3P/PPP2PP1/R1BQKBNR w KQkq - 0 5\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils pousser un pion pour tenter de piéger le cavalier noir ?} 5. d4 {[%wrong Il existe un meilleur coup. Essayez encore et cherchez un moyen d'enfermer le cavalier noir en e5.] [%hint Attaquez le cavalier noir avec votre pion d.]} (5. f4 $5 {\r\nC'est une bonne option mais il vaut mieux utiliser un pion central pour attaquer le cavalier noir. Comment faire ?}) 5... Nc4 {Bonne idée ! Quelle pièce peut prendre le cavalier ?} 6.\r\nBxc4 {[%wrong Il y a mieux ! Essayez de prendre le cavalier pour gagner du matériel.] [%hint Capturez le cavalier avec votre fou.]  Beau travail !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "83daf1ec-2327-11ea-b6c1-fb93370f8f27",
+    "name": "Contrôler le centre",
+    "path": "controler-le-centre",
+    "description": "Trouvez la meilleure position pour vos pièces afin de prendre le contrôle de la partie la plus importante de l'échiquier : le centre.\r\nEssayez de vous emparer au plus tôt des cases e4, d4, e5 et d5. Si vous y parvenez, votre adversaire aura des difficultés à développer ses pièces de façon appropriée.",
+    "glyphName": "circle-target-practice",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-OP-control-the-center-h8y.mp4",
+    "fen": "r1bqkb1r/1pppppp1/p6p/3PP3/1PB5/5N1P/P1P2KP1/RNBQ3R w kq - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.07.29\"]\r\n[Round \"?\"]\r\n[White \"ch1ctrlcontrol\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.07.29\"]\r\n\r\n{Les blancs ont commencé la partie par 1.e4 et sont prêts à asseoir leur domination au centre en continuant par 2.d4. Répondons par 1...e5 afin d'équilibrer les débats au cœur de l'échiquier !} 1... e5 {[%wrong Les noirs ont de nombreuses options envisageables\r\n, mais nous souhaitons avancer le pion devant notre roi jusqu'à la case e5. Alors jouons ce coup.] [%hint Avancez le pion devant votre roi de deux cases.]} 2. d4 {Parfait ! Nous ne voulons pas autoriser les blancs à garder deux pions au centre. Pouvez-vous trouver le coup qui permettra aux noirs d'enlever de l'échiquier un des deux pions centraux des blancs ?} exd4 {[%wrong Bien essayé, mais\r\nce coup ne capture pas l'un des pions centraux des blancs. Essayez encore ou utiliser\r\nl'indice.] [%hint Votre pion e5 est attaqué par le pion blanc d4. Capturons ce trouble-fête !] Bien joué ! Les blancs n'ont pu maintenir leur duo au centre grâce à la réaction immédiate des noirs. Continuez comme ça !} (2... d6 $2 3. dxe5 {Bien pensé mais si nous récupérons le matériel après l'échange des pions, remarquez que les blancs ont ensuite l'occasion de capturer notre dame avec la leur, nous forçant à reprendre du roi et ainsi nous déroquant.\r\nNe défendons pas le pion e mais utilisons le pour capturer le pion blanc en d4 !}) (\r\n2... f6 $2 3. dxe5 {Nous associons au pion f l'adage \"faut pas bouger\". C'est un principe de base de laisser ce pion sur sa case initiale dans l'ouverture pour ne pas ouvrir une dangereuse diagonale sur notre roi. Imaginez que les blancs prennent votre pion en e5, si vous utilisez votre pion f pour le recapturer alors votre roi sera dans de sérieux courants d'air après l'échec de la dame adverse en h5. Ne défendons pas notre pion e mais utilisons le pour capturer le pion blanc en d4 !}) (2... Nc6 $2 3. d5 {En général, déplacer notre cavalier vers le centre est recommandé mais dans ce cas précis nous ne voulons pas permettre aux blancs d'avancer leur pion en d5, attaquant notre cavalier et nous faisant perdre un temps à le bouger de nouveau. Plutôt que de défendre le pion e5, utilisons le pour capturer le pion blanc en d4 !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.07.29\"]\r\n[Round \"?\"]\r\n[White \"ch2ctrlcontrol\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"B00\"]\r\n[Annotator \"Fischwitsch\"]\r\n[PlyCount \"5\"]\r\n[EventDate \"2019.??.??\"]\r\n[SourceVersionDate \"2019.07.29\"]\r\n\r\n{Comment les blancs peuvent s'emparer du centre en avançant un pion directement au milieu de l'échiquier ?} 1. e4 {[%wrong Les blancs ont de nombreuses options valables mais nous souhaitons installer un pion directement au centre. Essayez d'avancer le pion devant votre roi ou celui devant votre dame de deux cases pour vous emparer du centre.] [%hint Avancez votre pion devant votre roi de deux cases.]}\r\n(1. d4 $5 {Parfait ! Il s'agit de l'un des deux bons coups pour vous emparer du centrer. Maintenant, essayez l'autre.}) (1. e3 $2 {Vous y êtes presque ! Ce coup protège une case centrale mais ne s'installe pas dessus, encore un petit effort !}) (1. d3 $2 {Vous y êtes presque ! Ce coup protège une case centrale mais ne s'installe pas dessus, encore un petit effort !}) 1... a6 {Très bien ! Vous avez pris possession du centre et votre adversaire a échoué à rivaliser. Comment pouvez-vous accroître votre domination centrale en joignant un nouveau pion à l'action ?} 2. d4 {[%wrong Bien tenté, mais nous souhaitons qu'un nouveau pion s'installe au centre de l'échiquier. Essayez de nouveau.] [%hint Avancez le pion devant votre dame de deux cases.]} (2.\r\ne5 $5 d6 {Prendre de l'espace au centre n'est pas une mauvaise idée, mais le meilleur ami d'un pion est un autre pion. Envoyez lui donc un soutien avant de vouloir envahir le camp des noirs.}) (2. d3 $2 {Presque ! Avancez ce pion d'une case supplémentaire afin de ne pas bloquer votre fou de cases blanches.}) 2... e5 {Bien joué ! Les noirs se réveillent et prennent conscience de l'importance de lutter pour le centre. Comment les blancs peuvent-ils gagner du matériel ?} 3. dxe5 {[%wrong Bien essayé mais ce coup ne gagne pas de matériel. Tentez autre chose ou utilisez l'indice.] [%hint Les noirs ont perdu un temps avant de réagir au centre. Vous pouvez les punir pour cette erreur en capturant un pion !] Beau travail ! Les blancs ont désormais un pion d'avance et la main mise sur le centre.} (3. d5 $2 Bc5 {Prendre de l'espace n'est pas une mauvaise idée même si cela permet aux noirs de s'emparer d'une belle diagonale pour leur fou. La raison principale pour laquelle ce coup n'est pas le meilleur est toutefois qu'un pion peut être capturé gratuitement. Essayez de trouver ce coup et de gagner du matériel !}) (3. Bxa6 $2 Rxa6 {Attention, ce coup prend bien un pion mais vous coûterait un fou ! Pour rappel, un fou vaut 3 points tandis qu'un pion, un seul. Essayez de trouver un moyen de gagner un pion sans rien perdre en échange.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n[PlyCount \"5\"]\r\n\r\n{Comment les blancs peuvent-ils attaquer le cavalier noir ?} 2. e5 {[%wrong Il existe un meilleur coup.\r\nRecommencez et essayez d'attaquer le cavalier avec un pion.] \r\n[%hint Visez le cavalier f6 avec votre pion e4.]} (2. d4 $2 Nxe4 {Les noirs gagnent un pion. Essayez de trouver comment attaquer le cavalier noir en f6.}) 2... Ne4 {Bon début ! Les blancs peuvent continuer de chasser le cavalier avec leurs pions. Comment continuer ?} 3. d3 {[%wrong Il existe un meilleur coup. Essayez de vous en prendre au cavalier avec un pion central.] [%hint Attaquez le cavalier avec votre pion d.]} (\r\n3. d4 $5 {C'est un bon coup mais essayez d'utiliser ce pion pour attaquer le cavalier noir.}) (3. f3 $2 {Il vaut mieux utiliser un pion centrale pour s'en prendre au cavalier noir. Comment procéder ?}) 3... Nc5 {Le cavalier reste vulnérable. Comment pouvez-vous le réattaquer avec le pion d ?} 4. d4 {[%wrong Il existe une meilleure option. Essayez d'attaquer le cavalier noir tout en prenant le centre avec l'un de vos pions.] [%hint Attaquez le cavalier avec votre pion d.]  Beau travail ! Les blancs dominent le centre tandis que les noirs n'ont pas encore bougé le moindre pion.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/ppp1pppp/2n5/3n4/3P4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5\"]\r\n[PlyCount \"1\"]\r\n\r\n{Comment les blancs peuvent-ils occuper le centre avec deux pions ?} 5. e4 {[%wrong Il existe un meilleur coup. Essayez de trouver un moyen d'installer un deuxième pion au centre de l'échiquier.\r\n] [%hint Poussez un pion pour attaquer le cavalier d5.]  Excellent choix ! Le cavalier noir doit fuir le centre et les blancs jouissent d'une très bonne position.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1ppp1p/2p2np1/4n3/4P3/2NP3P/PPP2PP1/R1BQKBNR w KQkq - 0 5\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils pousser un pion pour tenter de piéger le cavalier noir ?} 5. d4 {[%wrong Il existe un meilleur coup. Essayez encore et cherchez un moyen d'enfermer le cavalier noir en e5.] [%hint Attaquez le cavalier noir avec votre pion d.]} (5. f4 $5 {\r\nC'est une bonne option mais il vaut mieux utiliser un pion central pour attaquer le cavalier noir. Comment faire ?}) 5... Nc4 {Bonne idée ! Quelle pièce peut prendre le cavalier ?} 6.\r\nBxc4 {[%wrong Il y a mieux ! Essayez de prendre le cavalier pour gagner du matériel.] [%hint Capturez le cavalier avec votre fou.]  Beau travail !} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "a6677c04-2326-11ea-a680-816421b79861",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La zone la plus importante de l'échiquier dans l'ouverture est le centre.",
+    "outroText": "Bien joué. Contrôler le centre est un concept important aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a6677c04-2326-11ea-a680-816421b79861",
+      "path": "principes-ouverture",
+      "title": "Principes d'ouverture",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a6677c04-2326-11ea-a680-816421b79861.945b3a35.728x410o.e7a9dfd032aa.png"
+    },
+    "parentId": "3c35a804-cccf-11e9-a9e8-13cb4dfc3730",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/control-the-center5dcbb1d4ad9af.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/control-the-center-16037cc3a651d7.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/control-the-center-25ea245edd072d.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/controlla-il-centro638b7004de0e9.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 20,
+    "order": 1,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "a6677c04-2326-11ea-a680-816421b79861",
+      "name": "Principes d'ouverture",
+      "path": "principes-ouverture",
+      "order": 2
+    }
+  }
+}

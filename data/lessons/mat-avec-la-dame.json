@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-echecs/mat-avec-la-dame",
+  "capturedAt": "2026-10-22T13:42:36.001Z",
+  "title": "Mat avec une dame",
+  "exercises": [
+    {
+      "fen": "7k/2Q5/5K2/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true]Quand le roi adverse est sur la bande, vous pouvez délivrer le mat avec votre dame si elle a le soutien de votre roi !",
+        "[%hint Regardez vos échecs. Lequel est un mat ?] [%wrong Il y a un mat, mais ce n'est pas ça. Regardez vos échecs et réessayez.] Beau travail ! Voilà à quoi ressemble un mat typique avec roi et dame.",
+        "C'est un pat, une partie nulle, car le roi n'est pas en échec et n'a aucun coup légal."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/2Q5/5K2/8/8/8/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289462957895972\"]\r\n\r\n{[%c_highlight g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true]Quand le roi adverse est sur la bande, vous pouvez délivrer le mat avec votre dame si elle a le soutien de votre roi !} 1. Qg7# {[%hint Regardez vos échecs. Lequel est un mat ?] [%wrong Il y a un mat, mais ce n'est pas ça. Regardez vos échecs et réessayez.] Beau travail ! Voilà à quoi ressemble un mat typique avec roi et dame.} (1. Qf7 $2 {C'est un pat, une partie nulle, car le roi n'est pas en échec et n'a aucun coup légal.}) *"
+    },
+    {
+      "fen": "8/6k1/8/4K3/2Q5/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow g7e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g7;to;e6;persistent;true][%c_highlight c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true]Une astuce sympa pour forcer le roi à reculer est de placer votre dame à distance de cavalier. Cela chasse le roi !",
+        "[%hint Approchez votre dame le plus possible du roi noir sans vous faire prendre.] [%wrong Il y a un meilleur coup. Essayez de placer la dame sur la case sûre la plus proche du roi noir.]  Bon choix !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6k1/8/4K3/2Q5/8/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289463999701290\"]\r\n\r\n{[%c_arrow g7e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g7;to;e6;persistent;true][%c_highlight c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true]Une astuce sympa pour forcer le roi à reculer est de placer votre dame à distance de cavalier. Cela chasse le roi !} 1. Qe6 {[%hint Approchez votre dame le plus possible du roi noir sans vous faire prendre.] [%wrong Il y a un meilleur coup. Essayez de placer la dame sur la case sûre la plus proche du roi noir.]  Bon choix !} *"
+    },
+    {
+      "fen": "7k/8/4Q3/4K3/8/8/8/8 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true]Une fois le roi dans le coin, aller à distance de cavalier donne pat ! Donc laisse au roi une case supplémentaire d'espace",
+        "[%hint Piège le roi noir sur la dernière rangée, mais évite le pat.][%wrong Il y a un meilleur coup. Piège le roi noir sur la dernière rangée.] Bonne idée. Le roi noir est coincé sur la dernière rangée.",
+        "C'est un pat. Essayez encore",
+        "Bonne idée. Le roi noir est coincé sur la dernière rangée.",
+        "C'est un pat. Essayez encore",
+        "Bonne idée ! Le roi noir est coincé sur la bande."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/4Q3/4K3/8/8/8/8 w - - 0 2\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2296652946235403\"]\r\n\r\n{[%c_highlight e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true]Une fois le roi dans le coin, aller à distance de cavalier donne pat ! Donc laisse au roi une case supplémentaire d'espace} 2. Qe7 {[%hint Piège le roi noir sur la dernière rangée, mais évite le pat.][%wrong Il y a un meilleur coup. Piège le roi noir sur la dernière rangée.] Bonne idée. Le roi noir est coincé sur la dernière rangée.} (2. Qf7 $2 {C'est un pat. Essayez encore}) (2. Qd7 $3 {Bonne idée. Le roi noir est coincé sur la dernière rangée.}) (2. Qg6 $2 {C'est un pat. Essayez encore}) (2. Qg4 $3 {Bonne idée ! Le roi noir est coincé sur la bande.}) *"
+    },
+    {
+      "fen": "7k/4Q3/8/4K3/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true]Vous savez où le roi adverse va aller. Où votre roi doit-il se déplacer pour que le mat suive ?",
+        "[%hint Rapprochez votre roi du roi noir.][%wrong Il y a une meilleure option pour un mat rapide. Essayez encore et cherchez un moyen de rapprocher votre roi le plus possible du roi noir.]",
+        "C'est un pat. Essayez encore.",
+        "Bon coup ! Comment pouvez-vous mater ?",
+        "[%hint Regardez vos échecs. Lequel est un mat ?][%wrong Il y a un échec et mat, mais ce n'est pas celui-là. Regardez vos échecs et réessayez.] Échec et mat ! Beau travail."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/4Q3/8/4K3/8/8/8/8 w - - 0 1\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2289466060992827\"]\r\n\r\n{[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true]Vous savez où le roi adverse va aller. Où votre roi doit-il se déplacer pour que le mat suive ?} 1. Kf6 {[%hint Rapprochez votre roi du roi noir.][%wrong Il y a une meilleure option pour un mat rapide. Essayez encore et cherchez un moyen de rapprocher votre roi le plus possible du roi noir.]} (1. Qf7? {C'est un pat. Essayez encore.}) 1... Kg8 {Bon coup ! Comment pouvez-vous mater ?} 2. Qg7# {[%hint Regardez vos échecs. Lequel est un mat ?][%wrong Il y a un échec et mat, mais ce n'est pas celui-là. Regardez vos échecs et réessayez.] Échec et mat ! Beau travail.} 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c1dc-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Mat avec une dame",
+    "path": "mat-avec-la-dame",
+    "description": "Une dame et un roi peuvent collaborer pour mater un roi seul.",
+    "glyphName": "piece-badge-queen-mate",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/2Q5/5K2/8/8/8/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289462957895972\"]\r\n\r\n{[%c_highlight g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true]Quand le roi adverse est sur la bande, vous pouvez délivrer le mat avec votre dame si elle a le soutien de votre roi !} 1. Qg7# {[%hint Regardez vos échecs. Lequel est un mat ?] [%wrong Il y a un mat, mais ce n'est pas ça. Regardez vos échecs et réessayez.] Beau travail ! Voilà à quoi ressemble un mat typique avec roi et dame.} (1. Qf7 $2 {C'est un pat, une partie nulle, car le roi n'est pas en échec et n'a aucun coup légal.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6k1/8/4K3/2Q5/8/8/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2289463999701290\"]\r\n\r\n{[%c_arrow g7e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g7;to;e6;persistent;true][%c_highlight c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true]Une astuce sympa pour forcer le roi à reculer est de placer votre dame à distance de cavalier. Cela chasse le roi !} 1. Qe6 {[%hint Approchez votre dame le plus possible du roi noir sans vous faire prendre.] [%wrong Il y a un meilleur coup. Essayez de placer la dame sur la case sûre la plus proche du roi noir.]  Bon choix !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/4Q3/4K3/8/8/8/8 w - - 0 2\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2296652946235403\"]\r\n\r\n{[%c_highlight e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true]Une fois le roi dans le coin, aller à distance de cavalier donne pat ! Donc laisse au roi une case supplémentaire d'espace} 2. Qe7 {[%hint Piège le roi noir sur la dernière rangée, mais évite le pat.][%wrong Il y a un meilleur coup. Piège le roi noir sur la dernière rangée.] Bonne idée. Le roi noir est coincé sur la dernière rangée.} (2. Qf7 $2 {C'est un pat. Essayez encore}) (2. Qd7 $3 {Bonne idée. Le roi noir est coincé sur la dernière rangée.}) (2. Qg6 $2 {C'est un pat. Essayez encore}) (2. Qg4 $3 {Bonne idée ! Le roi noir est coincé sur la bande.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/4Q3/8/4K3/8/8/8/8 w - - 0 1\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2289466060992827\"]\r\n\r\n{[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true]Vous savez où le roi adverse va aller. Où votre roi doit-il se déplacer pour que le mat suive ?} 1. Kf6 {[%hint Rapprochez votre roi du roi noir.][%wrong Il y a une meilleure option pour un mat rapide. Essayez encore et cherchez un moyen de rapprocher votre roi le plus possible du roi noir.]} (1. Qf7? {C'est un pat. Essayez encore.}) 1... Kg8 {Bon coup ! Comment pouvez-vous mater ?} 2. Qg7# {[%hint Regardez vos échecs. Lequel est un mat ?][%wrong Il y a un échec et mat, mais ce n'est pas celui-là. Regardez vos échecs et réessayez.] Échec et mat ! Beau travail.} 1-0"
+    ],
+    "courseId": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Une dame et un roi peuvent collaborer pour mater un roi seul.",
+    "outroText": "Prêt à mater vos adversaires avec votre roi et votre dame ?",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "finales-echecs",
+      "title": "Finales"
+    },
+    "parentId": "2b755064-23c1-11f1-bbed-e9fd20f2d3dc"
+  },
+  "curriculum": {
+    "number": 43,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Finales",
+      "path": "finales-echecs",
+      "order": 4
+    }
+  }
+}

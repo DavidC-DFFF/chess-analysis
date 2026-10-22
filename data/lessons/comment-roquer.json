@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/comment-roquer",
+  "capturedAt": "2026-10-22T13:42:29.041Z",
+  "title": "Le roque",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/8/5PPP/4K2R w K - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e1g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;g1;persistent;true]Déplacez votre roi de deux cases vers la droite. Le roque met votre roi en sécurité !",
+        "[%hint Déplacez votre roi à côté de la tour.][%wrong Ce coup n'est pas un roque.]Bien joué ! Votre roi est maintenant en sécurité."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/5PPP/4K2R w K - 0 1\"]\r\n\r\n{[%c_arrow e1g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;g1;persistent;true]Déplacez votre roi de deux cases vers la droite. Le roque met votre roi en sécurité !} 1. O-O {[%hint Déplacez votre roi à côté de la tour.][%wrong Ce coup n'est pas un roque.]Bien joué ! Votre roi est maintenant en sécurité.} *"
+    },
+    {
+      "fen": "8/8/8/8/8/8/PPP5/R3K3 w Q - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Maintenant vers la gauche !",
+        "[%wrong Ce coup n'est pas un roque.][%hint Déplacez votre roi de deux cases vers la gauche.]Super ! Vous savez maintenant roquer des deux côtés."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/PPP5/R3K3 w Q - 1 1\"]\r\n\r\n{Maintenant vers la gauche !} 1. O-O-O {[%wrong Ce coup n'est pas un roque.][%hint Déplacez votre roi de deux cases vers la gauche.]Super ! Vous savez maintenant roquer des deux côtés.} *"
+    },
+    {
+      "fen": "8/3r3r/8/8/8/8/8/R3K2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d7d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d7;to;d1;persistent;true,h7h1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h7;to;h1;persistent;true]Votre roi ne peut pas traverser une case attaquée pendant un roque. De quel côté pouvez-vous roquer ?",
+        "[%wrong Ce coup ne roque pas votre roi.][%hint Regardez vers la droite : le roi peut s'y déplacer en sécurité.] Exactement ! C'était la seule option de roque."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3r3r/8/8/8/8/8/R3K2R w KQ - 0 1\"]\r\n\r\n{[%c_arrow d7d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d7;to;d1;persistent;true,h7h1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h7;to;h1;persistent;true]Votre roi ne peut pas traverser une case attaquée pendant un roque. De quel côté pouvez-vous roquer ?} 1. O-O {[%wrong Ce coup ne roque pas votre roi.][%hint Regardez vers la droite : le roi peut s'y déplacer en sécurité.] Exactement ! C'était la seule option de roque.} *"
+    },
+    {
+      "fen": "4k3/4r3/8/8/8/2N5/PPP5/R3K3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e7e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e1;persistent;true]Vous ne pouvez pas roquer quand votre roi est en échec. Bloquez-le pour conserver le droit de roquer.",
+        "[%hint Pouvez-vous protéger votre roi avec votre cavalier ?][%wrong En déplaçant votre roi, vous avez perdu le droit de roquer.]Bien ! Vous avez protégé votre roi avec votre cavalier et conservé le droit de roquer.",
+        "Votre cavalier se fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/4r3/8/8/8/2N5/PPP5/R3K3 w - - 0 1\"]\r\n\r\n{[%c_arrow e7e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e1;persistent;true]Vous ne pouvez pas roquer quand votre roi est en échec. Bloquez-le pour conserver le droit de roquer.} 1. Ne2 {[%hint Pouvez-vous protéger votre roi avec votre cavalier ?][%wrong En déplaçant votre roi, vous avez perdu le droit de roquer.]Bien ! Vous avez protégé votre roi avec votre cavalier et conservé le droit de roquer.} (1. Ne4? Rxe4+ {Votre cavalier se fait prendre.}) *"
+    },
+    {
+      "fen": "r4rk1/ppp2ppp/2b2n2/8/8/2N2N2/PPP2PPP/R3K1R1 w Q - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous ne pouvez pas roquer si la tour concernée a déjà bougé. De quel côté pouvez-vous roquer ici ?",
+        "[%wrong Ce coup n'est pas un roque.][%hint Vous pouvez roquer vers la droite car cette tour n'a pas bougé.] Oui ! C'était la seule façon de roquer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/ppp2ppp/2b2n2/8/8/2N2N2/PPP2PPP/R3K1R1 w Q - 0 1\"]\r\n\r\n{Vous ne pouvez pas roquer si la tour concernée a déjà bougé. De quel côté pouvez-vous roquer ici ?} 1. O-O-O {[%wrong Ce coup n'est pas un roque.][%hint Vous pouvez roquer vers la droite car cette tour n'a pas bougé.] Oui ! C'était la seule façon de roquer.} *"
+    },
+    {
+      "fen": "r3k2r/ppp2ppp/1n4b1/8/8/2PB2N1/PP3PPP/R1N2RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Si vous déplacez votre roi, vous ne pouvez plus roquer. Forcez votre adversaire à déplacer son roi pour qu'il ne puisse jamais le mettre à l'abri par le roque.",
+        "[%hint Utilisez votre tour.][%wrong Cela n'empêche pas le roque.] Correct ! Le roi est maintenant forcé de bouger et ne peut plus roquer.",
+        "Votre adversaire peut simplement parer l'échec."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/ppp2ppp/1n4b1/8/8/2PB2N1/PP3PPP/R1N2RK1 w - - 0 1\"]\r\n\r\n{Si vous déplacez votre roi, vous ne pouvez plus roquer. Forcez votre adversaire à déplacer son roi pour qu'il ne puisse jamais le mettre à l'abri par le roque.} 1. Re1+ {[%hint Utilisez votre tour.][%wrong Cela n'empêche pas le roque.] Correct ! Le roi est maintenant forcé de bouger et ne peut plus roquer.} (1. Bb5+? c6 {Votre adversaire peut simplement parer l'échec.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0f6-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Le roque",
+    "path": "comment-roquer",
+    "description": "Apprenez à roquer pour protéger votre roi.",
+    "glyphName": "piece-combo-king-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/5PPP/4K2R w K - 0 1\"]\r\n\r\n{[%c_arrow e1g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;g1;persistent;true]Déplacez votre roi de deux cases vers la droite. Le roque met votre roi en sécurité !} 1. O-O {[%hint Déplacez votre roi à côté de la tour.][%wrong Ce coup n'est pas un roque.]Bien joué ! Votre roi est maintenant en sécurité.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/PPP5/R3K3 w Q - 1 1\"]\r\n\r\n{Maintenant vers la gauche !} 1. O-O-O {[%wrong Ce coup n'est pas un roque.][%hint Déplacez votre roi de deux cases vers la gauche.]Super ! Vous savez maintenant roquer des deux côtés.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3r3r/8/8/8/8/8/R3K2R w KQ - 0 1\"]\r\n\r\n{[%c_arrow d7d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d7;to;d1;persistent;true,h7h1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h7;to;h1;persistent;true]Votre roi ne peut pas traverser une case attaquée pendant un roque. De quel côté pouvez-vous roquer ?} 1. O-O {[%wrong Ce coup ne roque pas votre roi.][%hint Regardez vers la droite : le roi peut s'y déplacer en sécurité.] Exactement ! C'était la seule option de roque.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/4r3/8/8/8/2N5/PPP5/R3K3 w - - 0 1\"]\r\n\r\n{[%c_arrow e7e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e1;persistent;true]Vous ne pouvez pas roquer quand votre roi est en échec. Bloquez-le pour conserver le droit de roquer.} 1. Ne2 {[%hint Pouvez-vous protéger votre roi avec votre cavalier ?][%wrong En déplaçant votre roi, vous avez perdu le droit de roquer.]Bien ! Vous avez protégé votre roi avec votre cavalier et conservé le droit de roquer.} (1. Ne4? Rxe4+ {Votre cavalier se fait prendre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/ppp2ppp/2b2n2/8/8/2N2N2/PPP2PPP/R3K1R1 w Q - 0 1\"]\r\n\r\n{Vous ne pouvez pas roquer si la tour concernée a déjà bougé. De quel côté pouvez-vous roquer ici ?} 1. O-O-O {[%wrong Ce coup n'est pas un roque.][%hint Vous pouvez roquer vers la droite car cette tour n'a pas bougé.] Oui ! C'était la seule façon de roquer.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/ppp2ppp/1n4b1/8/8/2PB2N1/PP3PPP/R1N2RK1 w - - 0 1\"]\r\n\r\n{Si vous déplacez votre roi, vous ne pouvez plus roquer. Forcez votre adversaire à déplacer son roi pour qu'il ne puisse jamais le mettre à l'abri par le roque.} 1. Re1+ {[%hint Utilisez votre tour.][%wrong Cela n'empêche pas le roque.] Correct ! Le roi est maintenant forcé de bouger et ne peut plus roquer.} (1. Bb5+? c6 {Votre adversaire peut simplement parer l'échec.}) *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à roquer pour protéger votre roi.",
+    "outroText": "Maintenant, vous savez roquer pour protéger votre roi.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "9a14ed50-1c95-11f1-bfac-33d348b74b4d"
+  },
+  "curriculum": {
+    "number": 23,
+    "order": 11,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

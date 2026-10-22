@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-roque",
+  "capturedAt": "2026-10-22T12:23:27.379Z",
+  "title": "Le roque",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/8/5PPP/4K2R w K - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e1g1;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e1;to;g1;persistent;true] Déplacez votre roi de 2 cases vers la droite et voyez ce qui se produit !",
+        "[%hint Roquez en bougeant votre roi de 2 cases vers la droite d'un seul coup.][%wrong Ce coup n'est pas le roque, réessayez.] Roquer permet à votre roi d'être à l'abri tout en amenant votre tour en jeu !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/5PPP/4K2R w K - 1 1\"]\r\n\r\n{[%c_arrow e1g1;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e1;to;g1;persistent;true] Déplacez votre roi de 2 cases vers la droite et voyez ce qui se produit !} 1. O-O {[%hint Roquez en bougeant votre roi de 2 cases vers la droite d'un seul coup.][%wrong Ce coup n'est pas le roque, réessayez.] Roquer permet à votre roi d'être à l'abri tout en amenant votre tour en jeu !} *"
+    },
+    {
+      "fen": "8/8/8/8/8/8/PPP5/R3K3 w Q - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e1c1;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e1;to;c1;persistent;true] Vous pouvez roquer des 2 côtés. Essayez de bouger votre roi de 2 cases vers la gauche.",
+        "[%hint Roquez en déplaçant votre roi de 2 cases vers la gauche d'un seul coup.][%wrong Ce coup n'est pas le roque, réessayez.] Vous l'avez ! Roquer est important mais vous devez garder certaines règles en tête."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/PPP5/R3K3 w Q - 0 1\"]\r\n\r\n{[%c_arrow e1c1;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e1;to;c1;persistent;true] Vous pouvez roquer des 2 côtés. Essayez de bouger votre roi de 2 cases vers la gauche.} 1. O-O-O {[%hint Roquez en déplaçant votre roi de 2 cases vers la gauche d'un seul coup.][%wrong Ce coup n'est pas le roque, réessayez.] Vous l'avez ! Roquer est important mais vous devez garder certaines règles en tête.} *"
+    },
+    {
+      "fen": "3r4/8/8/8/8/8/PPP2PPP/R3K2R w KQ - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Même si votre roi serait en sécurité dans l'autre direction, entrainez-vous à roquer vers la droite.",
+        "[%hint Roquez en déplaçant votre roi de 2 cases vers la droite d'un seul coup.][%wrong Ce coup ne suit pas les règles du roque, réessayez.] Bravo ! Il est souvent recommandé de roquer tôt dans la partie pour mettre son roi à l'abri."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/8/8/8/8/8/PPP2PPP/R3K2R w KQ - 1 1\"]\r\n\r\n{Même si votre roi serait en sécurité dans l'autre direction, entrainez-vous à roquer vers la droite.} 1. O-O {[%hint Roquez en déplaçant votre roi de 2 cases vers la droite d'un seul coup.][%wrong Ce coup ne suit pas les règles du roque, réessayez.] Bravo ! Il est souvent recommandé de roquer tôt dans la partie pour mettre son roi à l'abri.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "a9d29666-ec8e-11f0-8729-f1e7c3c8ef53",
+    "name": "Le roque",
+    "path": "le-roque",
+    "description": "Apprenez un coup très important pour mettre votre roi à l'abri : le roque.",
+    "glyphName": "piece-combo-king-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/5PPP/4K2R w K - 1 1\"]\r\n\r\n{[%c_arrow e1g1;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e1;to;g1;persistent;true] Déplacez votre roi de 2 cases vers la droite et voyez ce qui se produit !} 1. O-O {[%hint Roquez en bougeant votre roi de 2 cases vers la droite d'un seul coup.][%wrong Ce coup n'est pas le roque, réessayez.] Roquer permet à votre roi d'être à l'abri tout en amenant votre tour en jeu !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/PPP5/R3K3 w Q - 0 1\"]\r\n\r\n{[%c_arrow e1c1;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e1;to;c1;persistent;true] Vous pouvez roquer des 2 côtés. Essayez de bouger votre roi de 2 cases vers la gauche.} 1. O-O-O {[%hint Roquez en déplaçant votre roi de 2 cases vers la gauche d'un seul coup.][%wrong Ce coup n'est pas le roque, réessayez.] Vous l'avez ! Roquer est important mais vous devez garder certaines règles en tête.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/8/8/8/8/8/PPP2PPP/R3K2R w KQ - 1 1\"]\r\n\r\n{Même si votre roi serait en sécurité dans l'autre direction, entrainez-vous à roquer vers la droite.} 1. O-O {[%hint Roquez en déplaçant votre roi de 2 cases vers la droite d'un seul coup.][%wrong Ce coup ne suit pas les règles du roque, réessayez.] Bravo ! Il est souvent recommandé de roquer tôt dans la partie pour mettre son roi à l'abri.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez un coup très important pour mettre votre roi à l'abri : le roque.",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/5PPP/4K2R w K - 1 1\"]\r\n\r\n{Le roque est un coup spécial qui permet de déplacer le roi et la tour simultanément. C'est un excellent moyen de mettre votre roi en sécurité.} *"
+        ]
+      },
+      {
+        "questionIndex": 2,
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/PPP2PPP/R3K2R w KQ - 1 1\"]\r\n\r\n{Les conditions requises pour avoir le droit de roquer sont les suivantes : votre roi et votre tour n'ont jamais bougé, vous n'êtes pas en échec, vous ne passerez par aucune case où votre roi serait en échec en effectuant le roque, et les cases entre le roi et la tour ne sont pas occupées.} *",
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/8/8/8/8/8/PPP2PPP/R3K2R w KQ - 0 1\"]\r\n\r\n{[%c_arrow d8d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d8;to;d1;persistent;true] Dans cette position, le roque est illégal car votre roi passerait par une case où la tour adverse le met en échec.} *"
+        ]
+      }
+    ],
+    "animationName": "castling",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "3558d348-b51d-11f0-8caf-97c2e14b55e0",
+    "pathConfigurationKey": "lesson_path_l2p",
+    "isLastLearnToPlayLesson": true
+  },
+  "curriculum": {
+    "number": 12,
+    "order": 12,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

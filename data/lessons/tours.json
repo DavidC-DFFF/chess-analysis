@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/tours",
+  "capturedAt": "2026-10-22T13:42:33.865Z",
+  "title": "Les tours",
+  "exercises": [
+    {
+      "fen": "8/pp3ppp/2p5/3p4/P7/8/1PP2PPP/1R6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e1;color;%23ffaa00;opacity;0.8;square;e1;persistent;true,e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,e3;color;%23ffaa00;opacity;0.8;square;e3;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,e6;color;%23ffaa00;opacity;0.8;square;e6;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Les tours sont les plus efficaces sur les colonnes ouvertes. Activons votre tour.",
+        "[%hint Déplacez votre tour sur la seule colonne où aucun pion ne lui bloque le chemin.][%wrong Bien essayé, mais cela n'amène pas votre tour sur la seule colonne ouverte. Essayez de la déplacer sur une colonne sans pions.][%c_arrow e1e7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;e7;persistent;true]Excellent ! Votre tour contrôle la colonne ouverte et peut se préparer à attaquer les pions adverses."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pp3ppp/2p5/3p4/P7/8/1PP2PPP/1R6 w - - 0 1\"]\r\n\r\n{[%c_highlight e1;color;%23ffaa00;opacity;0.8;square;e1;persistent;true,e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,e3;color;%23ffaa00;opacity;0.8;square;e3;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,e6;color;%23ffaa00;opacity;0.8;square;e6;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Les tours sont les plus efficaces sur les colonnes ouvertes. Activons votre tour.} 1. Re1 {[%hint Déplacez votre tour sur la seule colonne où aucun pion ne lui bloque le chemin.][%wrong Bien essayé, mais cela n'amène pas votre tour sur la seule colonne ouverte. Essayez de la déplacer sur une colonne sans pions.][%c_arrow e1e7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;e7;persistent;true]Excellent ! Votre tour contrôle la colonne ouverte et peut se préparer à attaquer les pions adverses.} *"
+    },
+    {
+      "fen": "4r3/8/4p3/8/8/8/4R3/R7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e1;color;%23ffaa00;opacity;0.8;square;e1;persistent;true]« Doubler » vos tours leur permet de s'associer pour faire des prises.",
+        "[%hint Déplacez votre tour derrière l'autre tour pour doubler la pression sur le pion.][%wrong Bien essayé, mais ce coup n'ajoute pas un deuxième attaquant sur le pion adverse. Réessayez.]",
+        "Vous y êtes presque ! Le pion peut s'échapper. Placez votre tour directement derrière l'autre tour.",
+        "Double danger ! Vos tours sont prêtes à prendre le pion.",
+        "[%hint Prenez le pion.][%wrong Bien essayé, mais ce coup ne prend pas le pion.][%c_arrow e1e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;e5;persistent;true]Bien joué ! Vous avez gagné un pion avec une tour, soutenue par l'autre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r3/8/4p3/8/8/8/4R3/R7 w - - 0 1\"]\r\n\r\n{[%c_highlight e1;color;%23ffaa00;opacity;0.8;square;e1;persistent;true]« Doubler » vos tours leur permet de s'associer pour faire des prises.} 1. Rae1 {[%hint Déplacez votre tour derrière l'autre tour pour doubler la pression sur le pion.][%wrong Bien essayé, mais ce coup n'ajoute pas un deuxième attaquant sur le pion adverse. Réessayez.]} (1. Ra6? e5 {Vous y êtes presque ! Le pion peut s'échapper. Placez votre tour directement derrière l'autre tour.}) 1... e5 {Double danger ! Vos tours sont prêtes à prendre le pion.} 2. Rxe5 {[%hint Prenez le pion.][%wrong Bien essayé, mais ce coup ne prend pas le pion.][%c_arrow e1e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;e5;persistent;true]Bien joué ! Vous avez gagné un pion avec une tour, soutenue par l'autre.} *"
+    },
+    {
+      "fen": "2r3k1/2p1rppp/1p6/p7/P7/1P5P/2PR1PP1/R5K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Doublez vos tours sur la colonne ouverte",
+        "[%hint Votre tour dans le coin est passive — placez-la derrière l'autre tour pour doubler votre contrôle d'une colonne ouverte.][%wrong Bien essayé, mais cela ne double pas vos tours sur la colonne ouverte. Réessayez.][%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true][%c_arrow d2d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d2;to;d8;persistent;true]Excellent ! Vous doublez vos tours sur la colonne ouverte, pointées vers la dernière rangée adverse.",
+        "Ce coup perd votre tour. Essayez plutôt de la placer derrière votre autre tour.",
+        "Les tours sont connectées, mais votre tour dans le coin est passive. Essayez de déplacer votre autre tour sur cette case.",
+        "Cela perd votre tour. Réessayez.",
+        "Cela perd votre tour. Réessayez.",
+        "Cela perd votre tour. Réessayez.",
+        "Cela perd votre tour. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/2p1rppp/1p6/p7/P7/1P5P/2PR1PP1/R5K1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4y63AubRXt/lesson-editor\"]\r\n\r\n{Doublez vos tours sur la colonne ouverte} 1. Rad1 {[%hint Votre tour dans le coin est passive — placez-la derrière l'autre tour pour doubler votre contrôle d'une colonne ouverte.][%wrong Bien essayé, mais cela ne double pas vos tours sur la colonne ouverte. Réessayez.][%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true][%c_arrow d2d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d2;to;d8;persistent;true]Excellent ! Vous doublez vos tours sur la colonne ouverte, pointées vers la dernière rangée adverse.} (1. Re1? Rxe1+ {Ce coup perd votre tour. Essayez plutôt de la placer derrière votre autre tour.}) (1. Rdd1? Re2 {Les tours sont connectées, mais votre tour dans le coin est passive. Essayez de déplacer votre autre tour sur cette case.}) (1. Rd7? Rxd7 {Cela perd votre tour. Réessayez.}) (1. Rd8+? Rxd8 {Cela perd votre tour. Réessayez.}) (1. Re2? Rxe2 {Cela perd votre tour. Réessayez.}) (1. Rd6? cxd6 {Cela perd votre tour. Réessayez.}) *"
+    },
+    {
+      "fen": "3r2k1/6pp/rp6/p2p4/P7/1P5P/3R1PP1/R5K1 w - - 2 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true]Allez gagner le pion faible des noirs.",
+        "[%hint Déplacez votre tour du coin derrière votre autre tour pour ajouter un deuxième attaquant sur le pion.][%wrong Bien essayé, mais ce coup ne vous permet pas de gagner un pion au coup suivant. Réessayez.]",
+        "Bien essayé, mais cette prise arrive un coup trop tôt. Essayez de doubler les tours sur cette colonne avant de prendre le pion.",
+        "Doublement bien ! Gagnons un pion.",
+        "[%hint Prenez le pion.][%wrong Bien essayé, mais cela ne gagne pas de pion. Réessayez.]Bien joué ! Vos tours s'associent pour gagner un pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/6pp/rp6/p2p4/P7/1P5P/3R1PP1/R5K1 w - - 2 2\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4phdnZNjUa/analysis\"]\r\n\r\n{[%c_highlight d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true]Allez gagner le pion faible des noirs.} 2. Rad1 {[%hint Déplacez votre tour du coin derrière votre autre tour pour ajouter un deuxième attaquant sur le pion.][%wrong Bien essayé, mais ce coup ne vous permet pas de gagner un pion au coup suivant. Réessayez.]} (2. Rxd5? Rxd5 {Bien essayé, mais cette prise arrive un coup trop tôt. Essayez de doubler les tours sur cette colonne avant de prendre le pion.}) 2... Ra7 {Doublement bien ! Gagnons un pion.} 3. Rxd5 {[%hint Prenez le pion.][%wrong Bien essayé, mais cela ne gagne pas de pion. Réessayez.]Bien joué ! Vos tours s'associent pour gagner un pion.} *"
+    },
+    {
+      "fen": "1r5k/1pp2pp1/8/6P1/5P2/2P4P/1P4K1/4R3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b7;color;%23ffaa00;opacity;0.8;square;b7;persistent;true,c7;color;%23ffaa00;opacity;0.8;square;c7;persistent;true,d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true] Les tours sont également heureuses lorsqu'elles envahissent la septième rangée",
+        "[%hint Placez votre tour sur la septième rangée où elle attaque deux pions en même temps.][%wrong Bien essayé, mais cela n'amène pas votre tour sur la septième rangée. Essayez d'attaquer deux pions à la fois.]",
+        "Beau coup ! Le roi défend un pion, mais vous pouvez maintenant en gagner un autre.",
+        "[%hint Prenez le pion qui n'est pas défendu par le roi.][%wrong Bien essayé, mais ce coup ne prend pas un pion en toute sécurité. Réessayez.]Exactement ! Votre tour engloutit un pion.",
+        "Bien essayé, mais cela perd la tour. Essayez de prendre un autre pion en toute sécurité."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r5k/1pp2pp1/8/6P1/5P2/2P4P/1P4K1/4R3 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2VifWoRMux/analysis\"]\r\n\r\n{[%c_highlight b7;color;%23ffaa00;opacity;0.8;square;b7;persistent;true,c7;color;%23ffaa00;opacity;0.8;square;c7;persistent;true,d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true] Les tours sont également heureuses lorsqu'elles envahissent la septième rangée} 1. Re7 {[%hint Placez votre tour sur la septième rangée où elle attaque deux pions en même temps.][%wrong Bien essayé, mais cela n'amène pas votre tour sur la septième rangée. Essayez d'attaquer deux pions à la fois.]} 1... Kg8 {Beau coup ! Le roi défend un pion, mais vous pouvez maintenant en gagner un autre.} 2. Rxc7 {[%hint Prenez le pion qui n'est pas défendu par le roi.][%wrong Bien essayé, mais ce coup ne prend pas un pion en toute sécurité. Réessayez.]Exactement ! Votre tour engloutit un pion.} (2. Rxf7? Kxf7 {Bien essayé, mais cela perd la tour. Essayez de prendre un autre pion en toute sécurité.}) *"
+    },
+    {
+      "fen": "1r1r2k1/1pR3pp/p7/P7/4P3/7P/6PK/5R2 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faites s'associer vos tours pour dominer.",
+        "[%hint Doublez vos tours sur la septième rangée.][%wrong Bien essayé, mais ce coup ne double pas vos tours sur la septième rangée. Réessayez.][%c_highlight c7;color;%23ffaa00;opacity;0.8;square;c7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g7;color;%23eb6150;opacity;0.8;square;g7;persistent;true][%c_arrow f7g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;g7;persistent;true]Bravo ! Vos tours dominent la septième rangée, prêtes à prendre un pion et à attaquer le roi.",
+        "Vous y êtes presque ! Ce coup ne menace rien — essayez de déplacer votre autre tour sur cette case."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r2k1/1pR3pp/p7/P7/4P3/7P/6PK/5R2 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2czvM6hFSW/analysis\"]\r\n\r\n{Faites s'associer vos tours pour dominer.} 1. Rff7 {[%hint Doublez vos tours sur la septième rangée.][%wrong Bien essayé, mais ce coup ne double pas vos tours sur la septième rangée. Réessayez.][%c_highlight c7;color;%23ffaa00;opacity;0.8;square;c7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g7;color;%23eb6150;opacity;0.8;square;g7;persistent;true][%c_arrow f7g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;g7;persistent;true]Bravo ! Vos tours dominent la septième rangée, prêtes à prendre un pion et à attaquer le roi.} (1. Rcf7? {Vous y êtes presque ! Ce coup ne menace rien — essayez de déplacer votre autre tour sur cette case.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c2a4-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Les tours",
+    "path": "tours",
+    "description": "Apprenez à tirer parti de la puissance de la tour.",
+    "glyphName": "piece-pair-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pp3ppp/2p5/3p4/P7/8/1PP2PPP/1R6 w - - 0 1\"]\r\n\r\n{[%c_highlight e1;color;%23ffaa00;opacity;0.8;square;e1;persistent;true,e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,e3;color;%23ffaa00;opacity;0.8;square;e3;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,e6;color;%23ffaa00;opacity;0.8;square;e6;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Les tours sont les plus efficaces sur les colonnes ouvertes. Activons votre tour.} 1. Re1 {[%hint Déplacez votre tour sur la seule colonne où aucun pion ne lui bloque le chemin.][%wrong Bien essayé, mais cela n'amène pas votre tour sur la seule colonne ouverte. Essayez de la déplacer sur une colonne sans pions.][%c_arrow e1e7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;e7;persistent;true]Excellent ! Votre tour contrôle la colonne ouverte et peut se préparer à attaquer les pions adverses.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r3/8/4p3/8/8/8/4R3/R7 w - - 0 1\"]\r\n\r\n{[%c_highlight e1;color;%23ffaa00;opacity;0.8;square;e1;persistent;true]« Doubler » vos tours leur permet de s'associer pour faire des prises.} 1. Rae1 {[%hint Déplacez votre tour derrière l'autre tour pour doubler la pression sur le pion.][%wrong Bien essayé, mais ce coup n'ajoute pas un deuxième attaquant sur le pion adverse. Réessayez.]} (1. Ra6? e5 {Vous y êtes presque ! Le pion peut s'échapper. Placez votre tour directement derrière l'autre tour.}) 1... e5 {Double danger ! Vos tours sont prêtes à prendre le pion.} 2. Rxe5 {[%hint Prenez le pion.][%wrong Bien essayé, mais ce coup ne prend pas le pion.][%c_arrow e1e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;e5;persistent;true]Bien joué ! Vous avez gagné un pion avec une tour, soutenue par l'autre.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/2p1rppp/1p6/p7/P7/1P5P/2PR1PP1/R5K1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4y63AubRXt/lesson-editor\"]\r\n\r\n{Doublez vos tours sur la colonne ouverte} 1. Rad1 {[%hint Votre tour dans le coin est passive — placez-la derrière l'autre tour pour doubler votre contrôle d'une colonne ouverte.][%wrong Bien essayé, mais cela ne double pas vos tours sur la colonne ouverte. Réessayez.][%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true][%c_arrow d2d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d2;to;d8;persistent;true]Excellent ! Vous doublez vos tours sur la colonne ouverte, pointées vers la dernière rangée adverse.} (1. Re1? Rxe1+ {Ce coup perd votre tour. Essayez plutôt de la placer derrière votre autre tour.}) (1. Rdd1? Re2 {Les tours sont connectées, mais votre tour dans le coin est passive. Essayez de déplacer votre autre tour sur cette case.}) (1. Rd7? Rxd7 {Cela perd votre tour. Réessayez.}) (1. Rd8+? Rxd8 {Cela perd votre tour. Réessayez.}) (1. Re2? Rxe2 {Cela perd votre tour. Réessayez.}) (1. Rd6? cxd6 {Cela perd votre tour. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/6pp/rp6/p2p4/P7/1P5P/3R1PP1/R5K1 w - - 2 2\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4phdnZNjUa/analysis\"]\r\n\r\n{[%c_highlight d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true]Allez gagner le pion faible des noirs.} 2. Rad1 {[%hint Déplacez votre tour du coin derrière votre autre tour pour ajouter un deuxième attaquant sur le pion.][%wrong Bien essayé, mais ce coup ne vous permet pas de gagner un pion au coup suivant. Réessayez.]} (2. Rxd5? Rxd5 {Bien essayé, mais cette prise arrive un coup trop tôt. Essayez de doubler les tours sur cette colonne avant de prendre le pion.}) 2... Ra7 {Doublement bien ! Gagnons un pion.} 3. Rxd5 {[%hint Prenez le pion.][%wrong Bien essayé, mais cela ne gagne pas de pion. Réessayez.]Bien joué ! Vos tours s'associent pour gagner un pion.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r5k/1pp2pp1/8/6P1/5P2/2P4P/1P4K1/4R3 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2VifWoRMux/analysis\"]\r\n\r\n{[%c_highlight b7;color;%23ffaa00;opacity;0.8;square;b7;persistent;true,c7;color;%23ffaa00;opacity;0.8;square;c7;persistent;true,d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true] Les tours sont également heureuses lorsqu'elles envahissent la septième rangée} 1. Re7 {[%hint Placez votre tour sur la septième rangée où elle attaque deux pions en même temps.][%wrong Bien essayé, mais cela n'amène pas votre tour sur la septième rangée. Essayez d'attaquer deux pions à la fois.]} 1... Kg8 {Beau coup ! Le roi défend un pion, mais vous pouvez maintenant en gagner un autre.} 2. Rxc7 {[%hint Prenez le pion qui n'est pas défendu par le roi.][%wrong Bien essayé, mais ce coup ne prend pas un pion en toute sécurité. Réessayez.]Exactement ! Votre tour engloutit un pion.} (2. Rxf7? Kxf7 {Bien essayé, mais cela perd la tour. Essayez de prendre un autre pion en toute sécurité.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r2k1/1pR3pp/p7/P7/4P3/7P/6PK/5R2 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2czvM6hFSW/analysis\"]\r\n\r\n{Faites s'associer vos tours pour dominer.} 1. Rff7 {[%hint Doublez vos tours sur la septième rangée.][%wrong Bien essayé, mais ce coup ne double pas vos tours sur la septième rangée. Réessayez.][%c_highlight c7;color;%23ffaa00;opacity;0.8;square;c7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g7;color;%23eb6150;opacity;0.8;square;g7;persistent;true][%c_arrow f7g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;g7;persistent;true]Bravo ! Vos tours dominent la septième rangée, prêtes à prendre un pion et à attaquer le roi.} (1. Rcf7? {Vous y êtes presque ! Ce coup ne menace rien — essayez de déplacer votre autre tour sur cette case.}) *"
+    ],
+    "courseId": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les tours adorent les colonnes et les lignes ouvertes — c'est parti !",
+    "outroText": "Bravo ! Vous savez maintenant tirer le meilleur parti de la puissante tour !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-echecs",
+      "title": "Stratégie"
+    },
+    "parentId": "57313c2a-23d7-11f1-9e76-e7ac7af76698"
+  },
+  "curriculum": {
+    "number": 38,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Stratégie",
+      "path": "strategie-echecs",
+      "order": 3
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi-adverse/faire-echec-nest-pas-jouer",
+  "capturedAt": "2026-10-22T12:23:34.440Z",
+  "title": "Faire échec n'est pas jouer",
+  "exercises": [
+    {
+      "fen": "rnb1kb1r/pp1ppppp/2p2n2/q3P3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de pousser leur pion e, attaquant le cavalier noir en f6. Au lieu de bouger leur cavalier, les noirs décident de donner un échec. Trait au blanc. Comment parer l'échec et gagner du matériel ?",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Essayez encore !][%hint Comment parer l'échec tout en menaçant la dame noire ?]",
+        "Le cavalier blanc étant cloué, les noirs peuvent placer leur cavalier en e4 et ne perdent pas de matériel. Essayez encore !",
+        "Le cavalier blanc étant cloué, les noirs peuvent placer leur cavalier en e4 et ne perdent pas de matériel. Essayez encore !",
+        "C'est la bonne idée, mais dans cette variante, les noirs échangent les dames et ne perdent pas de matériel. Il faudrait parer l'échec avec une pièce de moindre valeur !",
+        "Si vous jouez maintenant votre pion en c3, les blancs vont en effet gagner du matériel, mais il existe une manière encore plus simple de prendre l'avantage sans sacrifier de pion. Essayez de la trouver !",
+        "Bien joué ! La dame noire doit battre en retraite et attaque maintenant le pion b2. Profitons-en pour nous emparer du cavalier f6 !",
+        "[%wrong Il faut capturer le cavalier f6. C'est le seul moyen de gagner du matériel !][%hint Prenez en f6 avec le pion.]",
+        "Excellent ! Nous avons gagné du matériel, mais les noirs tentent de contre-attaquer en s'emparant de notre tour a1. Heureusement, il existe un fort coup permettant de protéger la tour tout en attaquant la dame adverse. A vous de le trouver !",
+        "[%wrong Bien essayé, mais ce coup n'attaque pas le dame tout en défendant la tour. Essayez encore !][%hint La dame noire et votre tour sont sur la même diagonale. Le fou semble être la pièce idéale...] Très bien ! Vous avez trouvé le bon coup. La dame noire est attaquée, et le fou blanc protège la tour a1 à distance. Continuez dans cette voie !",
+        "Ce coup intelligent est également très fort, mais il faudra tout de même jouer le coup important que nous cherchons ! Alors, comment défendre la tour a1 tout en attaquant la dame adverse ?",
+        "Bien joué ! En jouant ce coup, vous permettez à la dame de défendre la tour latéralement. Mais ce coup n'attaque pas la dame adverse. Il y a un coup encore plus fort, trouvez le !",
+        "C'est la bonne pièce, mais pas la bonne case. Trouvez une case qui vous permettra de défendre efficacement votre tour a1."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kb1r/pp1ppppp/2p2n2/q3P3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4\"]\r\n\r\n{Les blancs viennent de pousser leur pion e, attaquant le cavalier noir en f6. Au lieu de bouger leur cavalier, les noirs décident de donner un échec. Trait au blanc. Comment parer l'échec et gagner du matériel ?}\r\n4.Bd2\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Essayez encore !][%hint Comment parer l'échec tout en menaçant la dame noire ?]}\r\n    (4.Nc3 $2 Ne4 {Le cavalier blanc étant cloué, les noirs peuvent placer leur cavalier en e4 et ne perdent pas de matériel. Essayez encore !})\r\n    (4.Nd2 $2 Ne4 {Le cavalier blanc étant cloué, les noirs peuvent placer leur cavalier en e4 et ne perdent pas de matériel. Essayez encore !})\r\n    (4.Qd2 $2 Qxd2+ {C'est la bonne idée, mais dans cette variante, les noirs échangent les dames et ne perdent pas de matériel. Il faudrait parer l'échec avec une pièce de moindre valeur !})\r\n    (4.b4 $6 Qxb4+ {Si vous jouez maintenant votre pion en c3, les blancs vont en effet gagner du matériel, mais il existe une manière encore plus simple de prendre l'avantage sans sacrifier de pion. Essayez de la trouver !})\r\n4...Qb6\r\n    {Bien joué ! La dame noire doit battre en retraite et attaque maintenant le pion b2. Profitons-en pour nous emparer du cavalier f6 !}\r\n5.exf6\r\n    {[%wrong Il faut capturer le cavalier f6. C'est le seul moyen de gagner du matériel !][%hint Prenez en f6 avec le pion.]}\r\n5...Qxb2\r\n    {Excellent ! Nous avons gagné du matériel, mais les noirs tentent de contre-attaquer en s'emparant de notre tour a1. Heureusement, il existe un fort coup permettant de protéger la tour tout en attaquant la dame adverse. A vous de le trouver !}\r\n6.Bc3\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas le dame tout en défendant la tour. Essayez encore !][%hint La dame noire et votre tour sont sur la même diagonale. Le fou semble être la pièce idéale...] Très bien ! Vous avez trouvé le bon coup. La dame noire est attaquée, et le fou blanc protège la tour a1 à distance. Continuez dans cette voie !}\r\n    (6.fxg7 $5 {Ce coup intelligent est également très fort, mais il faudra tout de même jouer le coup important que nous cherchons ! Alors, comment défendre la tour a1 tout en attaquant la dame adverse ?})\r\n    (6.Nc3 $5 {Bien joué ! En jouant ce coup, vous permettez à la dame de défendre la tour latéralement. Mais ce coup n'attaque pas la dame adverse. Il y a un coup encore plus fort, trouvez le !})\r\n    (6.Bc1 $2 Qxa1 {C'est la bonne pièce, mais pas la bonne case. Trouvez une case qui vous permettra de défendre efficacement votre tour a1.})\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/ppp2ppp/5n2/3p4/3P4/5N2/PPP1QPPP/RNB1KB1R b KQkq - 3 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer le mauvais coup De2+. Comment y répondre en continuant notre développement ?",
+        "[%hint Trouvez un moyen de parer l'échec qui vous permettra de roquer au prochain coup.]",
+        "Non, c'est la même erreur que celle des blancs. En développant notre dame trop tôt, nous ralentissons le développement des pièces de notre aile roi. Essayez encore !",
+        "Bien essayé, mais les blancs vont maintenant gagner un pion en mettant notre roi en échec avant de prendre le pion b7 désormais non protégé. Essayez encore !",
+        "Bien essayé, mais il est préférable de ne pas mettre dans un clouage une pièce déjà développée. Il faudrait trouver un moyen de parer l'échec tout en préparant le roque !",
+        "Bien essayé, mais le roi n'est pas en sécurité ici. Il faudrait trouver un moyen de parer l'échec tout en préparant le roque !",
+        "Excellente décision ! Au prochain coup, le roi noir sera en sécurité. Pour l'instant, les blancs menacent de profiter du clouage en jouant Fxf6. Comment déclouer le fou tout en mettant notre roi en sécurité ?",
+        "[%wrong Non ! Ce n'est pas le bon coup. Essayez encore !][%hint Il n'y aucune pièce entre la tour h8 et le roi. Cela signifie que nous pouvons roquer !] Parfait ! Nous allons pouvoir enchaîner par ...Te8 pour profiter du mauvais positionnement de la dame blanche sur la colonne e. Cet échec prématuré n'a rien apporté et pourrait même poser des problèmes aux blancs !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp2ppp/5n2/3p4/3P4/5N2/PPP1QPPP/RNB1KB1R b KQkq - 3 5\"]\r\n\r\n{Les blancs viennent de jouer le mauvais coup De2+. Comment y répondre en continuant notre développement ?}\r\n5...Be7\r\n    {[%hint Trouvez un moyen de parer l'échec qui vous permettra de roquer au prochain coup.]}\r\n    (5...Qe7 $2 {Non, c'est la même erreur que celle des blancs. En développant notre dame trop tôt, nous ralentissons le développement des pièces de notre aile roi. Essayez encore !})\r\n    (5...Be6 $2 6.Qb5+ {Bien essayé, mais les blancs vont maintenant gagner un pion en mettant notre roi en échec avant de prendre le pion b7 désormais non protégé. Essayez encore !})\r\n    (5...Ne4 $2 6.Nbd2 {Bien essayé, mais il est préférable de ne pas mettre dans un clouage une pièce déjà développée. Il faudrait trouver un moyen de parer l'échec tout en préparant le roque !})\r\n    (5...Kd7 $2 6.Ne5+ {Bien essayé, mais le roi n'est pas en sécurité ici. Il faudrait trouver un moyen de parer l'échec tout en préparant le roque !})\r\n6.Bg5\r\n    {Excellente décision ! Au prochain coup, le roi noir sera en sécurité. Pour l'instant, les blancs menacent de profiter du clouage en jouant Fxf6. Comment déclouer le fou tout en mettant notre roi en sécurité ?}\r\n6...O-O\r\n    {[%wrong Non ! Ce n'est pas le bon coup. Essayez encore !][%hint Il n'y aucune pièce entre la tour h8 et le roi. Cela signifie que nous pouvons roquer !] Parfait ! Nous allons pouvoir enchaîner par ...Te8 pour profiter du mauvais positionnement de la dame blanche sur la colonne e. Cet échec prématuré n'a rien apporté et pourrait même poser des problèmes aux blancs !}\r\n*"
+    },
+    {
+      "fen": "rnb1kb1r/1p2np1p/p2p2p1/2p5/Q3q3/2P2N1P/PP1PBPP1/RNB1K2R b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs, intrépides, décident de faire échec. Trouvez la meilleure réponse pour les noirs !",
+        "[%hint Lorsque vous êtes en échec, ne pensez pas qu'à la défense. Parfois, il est encore plus fort de se tourner vers l'attaque pour gagner du matériel !] Bien vu ! Au lieu de se concentrer sur leur développement, les blancs ont fait un échec sans intérêt, et ont été puni sans délai.",
+        "Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !",
+        "Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !",
+        "Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !",
+        "Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !",
+        "Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !",
+        "Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !",
+        "Ce coup est compréhensible, mais n'y aurait-il pas tout simplement plus fort ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kb1r/1p2np1p/p2p2p1/2p5/Q3q3/2P2N1P/PP1PBPP1/RNB1K2R b KQkq - 0 1\"]\r\n\r\n{Les blancs, intrépides, décident de faire échec. Trouvez la meilleure réponse pour les noirs !}\r\n1...Qxa4\r\n    {[%hint Lorsque vous êtes en échec, ne pensez pas qu'à la défense. Parfois, il est encore plus fort de se tourner vers l'attaque pour gagner du matériel !] Bien vu ! Au lieu de se concentrer sur leur développement, les blancs ont fait un échec sans intérêt, et ont été puni sans délai.}\r\n    (1...b5 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Nbc6 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Nec6 $2 2.Qxe4+ {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Nd7 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Bd7 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Kd8 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Qc6 $6 {Ce coup est compréhensible, mais n'y aurait-il pas tout simplement plus fort ?})\r\n*"
+    },
+    {
+      "fen": "r2qk2r/p4ppp/bp3n2/3p2B1/1b1P4/N4N2/PP3PPP/R2Q1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs peuvent donner quatre échecs différents dans cette position, mais seul un d'entre eux est bon. Lequel ?",
+        "[%wrong Non, il faut donner échec au roi adverse !][%hint Un échec sur les quatre gagne du matériel, tandis que les trois autres perdent du matériel. Choisissez judicieusement !]",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !",
+        "Excellente décision ! Ce puissant échec attaque le roi adverse, mais aussi les deux fous non protégés ! Trouvez maintenant le plus fort coup !",
+        "[%wrong Bien essayé, mais il y a un coup plus fort. Trouvez-le !][%hint Nous cherchons à gagner du matériel.] Et voilà ! Les blancs ont tout simplement une pièce de plus. Bien joué !",
+        "C'est vrai, après cette prise, les blancs vont avoir une bonne position, mais serait-il également possible d'empêcher les noirs de gagner notre tour au prochain coup ?",
+        "Bien essayé, mais y'aurait-il un coup encore plus fort qui empêche les noirs de prendre notre tour au coup suivant ?",
+        "Bien essayé, mais y'aurait-il un coup encore plus fort qui empêche les noirs de prendre notre tour au coup suivant ?",
+        "Hélas, ce coup annule tout notre avantage. Essayez de gagner du matériel !",
+        "Bien essayé, mais lorsque votre adversaire pare un échec, il peut le faire en contre-attaquant. Prudence !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/p4ppp/bp3n2/3p2B1/1b1P4/N4N2/PP3PPP/R2Q1RK1 w kq - 0 1\"]\r\n\r\n{Les blancs peuvent donner quatre échecs différents dans cette position, mais seul un d'entre eux est bon. Lequel ?}\r\n1.Qa4+\r\n    {[%wrong Non, il faut donner échec au roi adverse !][%hint Un échec sur les quatre gagne du matériel, tandis que les trois autres perdent du matériel. Choisissez judicieusement !]}\r\n    (1.Re1+ $2 Bxe1 {Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !})\r\n    (1.Qe2+ $2 Bxe2 {Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !})\r\n    (1.Qe1+ $2 Bxe1 {Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !})\r\n1...Qd7\r\n    {Excellente décision ! Ce puissant échec attaque le roi adverse, mais aussi les deux fous non protégés ! Trouvez maintenant le plus fort coup !}\r\n2.Qxa6\r\n    {[%wrong Bien essayé, mais il y a un coup plus fort. Trouvez-le !][%hint Nous cherchons à gagner du matériel.] Et voilà ! Les blancs ont tout simplement une pièce de plus. Bien joué !}\r\n    (2.Qxb4 $6 Bxf1 {C'est vrai, après cette prise, les blancs vont avoir une bonne position, mais serait-il également possible d'empêcher les noirs de gagner notre tour au prochain coup ?})\r\n    (2.Rfe1+ $2 Bxe1 {Bien essayé, mais y'aurait-il un coup encore plus fort qui empêche les noirs de prendre notre tour au coup suivant ?})\r\n    (2.Rae1+ $2 Bxe1 {Bien essayé, mais y'aurait-il un coup encore plus fort qui empêche les noirs de prendre notre tour au coup suivant ?})\r\n    (2.Qxd7+ $2 {Hélas, ce coup annule tout notre avantage. Essayez de gagner du matériel !})\r\n    (2.Bxf6 $2 Qxa4 {Bien essayé, mais lorsque votre adversaire pare un échec, il peut le faire en contre-attaquant. Prudence !})\r\n*"
+    },
+    {
+      "fen": "r2qr1k1/1p1b1ppp/p2bpn2/3pP3/P2P4/4QN1P/1P2BPP1/RN2K2R b KQ - 5 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Un échec peut être un coup puissant si vous avez de bonnes raisons de le jouer. Ici, le fou d6 et le cavalier sont pris en fourchette par le pion blanc. Comment éviter de perdre du matériel ?",
+        "[%wrong Bien essayé, mais ce coup n'échappe pas à la fourchette blanche. Essayez encore !][%hint Il faudrait mettre une des deux pièces en sûreté en donnant un échec...]",
+        "Bien essayé, mais ce coup perd du matériel. Cherchez encore !",
+        "Bien essayé, mais nos deux pièces sont toujours attaquées.",
+        "Attaquer la dame adverse est une bonne idée, mais il faudrait le faire depuis une case sûre ! Essayez encore.",
+        "Bien joué ! Les noirs donnent échec au roi avec l'une des pièces attaquées. Maintenant, quelle est la meilleure case pour notre cavalier ?",
+        "[%wrong Bien essayé, mais nous voulons mettre notre cavalier f6 en sécurité. Essayez encore !][%hint Le cavalier c3 des blancs est cloué. Comment mettre notre cavalier sur une case sûre tout en mettant la pression sur la pièce ennemie ?] Excellent coup ! Les noirs ont échappé à la fourchette du pion et leurs pièces mettent maintenant sous pression le cavalier adverse, en position de clouage.",
+        "En général, on évite de mettre les cavaliers sur le bord de l'échiquier, où ils contrôlent moins de cases et sont plus vulnérables. Ici, en l’occurrence, le cavalier est tout simplement perdu !",
+        "Au lieu de capturer ce cavalier, pourquoi ne pas le mettre sous pression avec notre cavalier ?",
+        "Attaquer la dame adverse est une bonne idée, mais il faudrait le faire depuis une case sûre ! Essayez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qr1k1/1p1b1ppp/p2bpn2/3pP3/P2P4/4QN1P/1P2BPP1/RN2K2R b KQ - 5 4\"]\r\n\r\n{Un échec peut être un coup puissant si vous avez de bonnes raisons de le jouer. Ici, le fou d6 et le cavalier sont pris en fourchette par le pion blanc. Comment éviter de perdre du matériel ?}\r\n4...Bb4+\r\n    {[%wrong Bien essayé, mais ce coup n'échappe pas à la fourchette blanche. Essayez encore !][%hint Il faudrait mettre une des deux pièces en sûreté en donnant un échec...]}\r\n    (4...Bxe5 $2 5.Nxe5 {Bien essayé, mais ce coup perd du matériel. Cherchez encore !})\r\n    (4...Qa5+ $2 5.Nc3 {Bien essayé, mais nos deux pièces sont toujours attaquées.})\r\n    (4...Ng4 $2 5.hxg4 {Attaquer la dame adverse est une bonne idée, mais il faudrait le faire depuis une case sûre ! Essayez encore.})\r\n5.Nc3\r\n    {Bien joué ! Les noirs donnent échec au roi avec l'une des pièces attaquées. Maintenant, quelle est la meilleure case pour notre cavalier ?}\r\n5...Ne4\r\n    {[%wrong Bien essayé, mais nous voulons mettre notre cavalier f6 en sécurité. Essayez encore !][%hint Le cavalier c3 des blancs est cloué. Comment mettre notre cavalier sur une case sûre tout en mettant la pression sur la pièce ennemie ?] Excellent coup ! Les noirs ont échappé à la fourchette du pion et leurs pièces mettent maintenant sous pression le cavalier adverse, en position de clouage.}\r\n    (5...Nh5 $2 6.g4 {En général, on évite de mettre les cavaliers sur le bord de l'échiquier, où ils contrôlent moins de cases et sont plus vulnérables. Ici, en l’occurrence, le cavalier est tout simplement perdu !})\r\n    (5...Bxc3+ $6 {Au lieu de capturer ce cavalier, pourquoi ne pas le mettre sous pression avec notre cavalier ?})\r\n    (5...Ng4 $2 6.hxg4 {Attaquer la dame adverse est une bonne idée, mais il faudrait le faire depuis une case sûre ! Essayez encore.})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "e55329a6-9ce8-11e8-8f17-b5cc3a77643c",
+    "name": "Faire échec n'est pas jouer",
+    "path": "faire-echec-nest-pas-jouer",
+    "description": "Attaquer le roi, c’est très bien, mais ce n’est pas toujours le bon coup ! Soyez patient. Assurez-vous que chaque échec accomplisse un but, comme participer au mat ou empêcher votre adversaire de roquer. Si votre adversaire peut jouer un fort coup pour parer l’échec, autant ne pas le donner.",
+    "glyphName": "mark-plus-off",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-dont-just-check-l1w.mp4",
+    "fen": "rnb1kb1r/pp1ppppp/2p2n2/q3P3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kb1r/pp1ppppp/2p2n2/q3P3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4\"]\r\n\r\n{Les blancs viennent de pousser leur pion e, attaquant le cavalier noir en f6. Au lieu de bouger leur cavalier, les noirs décident de donner un échec. Trait au blanc. Comment parer l'échec et gagner du matériel ?}\r\n4.Bd2\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Essayez encore !][%hint Comment parer l'échec tout en menaçant la dame noire ?]}\r\n    (4.Nc3 $2 Ne4 {Le cavalier blanc étant cloué, les noirs peuvent placer leur cavalier en e4 et ne perdent pas de matériel. Essayez encore !})\r\n    (4.Nd2 $2 Ne4 {Le cavalier blanc étant cloué, les noirs peuvent placer leur cavalier en e4 et ne perdent pas de matériel. Essayez encore !})\r\n    (4.Qd2 $2 Qxd2+ {C'est la bonne idée, mais dans cette variante, les noirs échangent les dames et ne perdent pas de matériel. Il faudrait parer l'échec avec une pièce de moindre valeur !})\r\n    (4.b4 $6 Qxb4+ {Si vous jouez maintenant votre pion en c3, les blancs vont en effet gagner du matériel, mais il existe une manière encore plus simple de prendre l'avantage sans sacrifier de pion. Essayez de la trouver !})\r\n4...Qb6\r\n    {Bien joué ! La dame noire doit battre en retraite et attaque maintenant le pion b2. Profitons-en pour nous emparer du cavalier f6 !}\r\n5.exf6\r\n    {[%wrong Il faut capturer le cavalier f6. C'est le seul moyen de gagner du matériel !][%hint Prenez en f6 avec le pion.]}\r\n5...Qxb2\r\n    {Excellent ! Nous avons gagné du matériel, mais les noirs tentent de contre-attaquer en s'emparant de notre tour a1. Heureusement, il existe un fort coup permettant de protéger la tour tout en attaquant la dame adverse. A vous de le trouver !}\r\n6.Bc3\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas le dame tout en défendant la tour. Essayez encore !][%hint La dame noire et votre tour sont sur la même diagonale. Le fou semble être la pièce idéale...] Très bien ! Vous avez trouvé le bon coup. La dame noire est attaquée, et le fou blanc protège la tour a1 à distance. Continuez dans cette voie !}\r\n    (6.fxg7 $5 {Ce coup intelligent est également très fort, mais il faudra tout de même jouer le coup important que nous cherchons ! Alors, comment défendre la tour a1 tout en attaquant la dame adverse ?})\r\n    (6.Nc3 $5 {Bien joué ! En jouant ce coup, vous permettez à la dame de défendre la tour latéralement. Mais ce coup n'attaque pas la dame adverse. Il y a un coup encore plus fort, trouvez le !})\r\n    (6.Bc1 $2 Qxa1 {C'est la bonne pièce, mais pas la bonne case. Trouvez une case qui vous permettra de défendre efficacement votre tour a1.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp2ppp/5n2/3p4/3P4/5N2/PPP1QPPP/RNB1KB1R b KQkq - 3 5\"]\r\n\r\n{Les blancs viennent de jouer le mauvais coup De2+. Comment y répondre en continuant notre développement ?}\r\n5...Be7\r\n    {[%hint Trouvez un moyen de parer l'échec qui vous permettra de roquer au prochain coup.]}\r\n    (5...Qe7 $2 {Non, c'est la même erreur que celle des blancs. En développant notre dame trop tôt, nous ralentissons le développement des pièces de notre aile roi. Essayez encore !})\r\n    (5...Be6 $2 6.Qb5+ {Bien essayé, mais les blancs vont maintenant gagner un pion en mettant notre roi en échec avant de prendre le pion b7 désormais non protégé. Essayez encore !})\r\n    (5...Ne4 $2 6.Nbd2 {Bien essayé, mais il est préférable de ne pas mettre dans un clouage une pièce déjà développée. Il faudrait trouver un moyen de parer l'échec tout en préparant le roque !})\r\n    (5...Kd7 $2 6.Ne5+ {Bien essayé, mais le roi n'est pas en sécurité ici. Il faudrait trouver un moyen de parer l'échec tout en préparant le roque !})\r\n6.Bg5\r\n    {Excellente décision ! Au prochain coup, le roi noir sera en sécurité. Pour l'instant, les blancs menacent de profiter du clouage en jouant Fxf6. Comment déclouer le fou tout en mettant notre roi en sécurité ?}\r\n6...O-O\r\n    {[%wrong Non ! Ce n'est pas le bon coup. Essayez encore !][%hint Il n'y aucune pièce entre la tour h8 et le roi. Cela signifie que nous pouvons roquer !] Parfait ! Nous allons pouvoir enchaîner par ...Te8 pour profiter du mauvais positionnement de la dame blanche sur la colonne e. Cet échec prématuré n'a rien apporté et pourrait même poser des problèmes aux blancs !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kb1r/1p2np1p/p2p2p1/2p5/Q3q3/2P2N1P/PP1PBPP1/RNB1K2R b KQkq - 0 1\"]\r\n\r\n{Les blancs, intrépides, décident de faire échec. Trouvez la meilleure réponse pour les noirs !}\r\n1...Qxa4\r\n    {[%hint Lorsque vous êtes en échec, ne pensez pas qu'à la défense. Parfois, il est encore plus fort de se tourner vers l'attaque pour gagner du matériel !] Bien vu ! Au lieu de se concentrer sur leur développement, les blancs ont fait un échec sans intérêt, et ont été puni sans délai.}\r\n    (1...b5 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Nbc6 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Nec6 $2 2.Qxe4+ {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Nd7 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Bd7 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Kd8 $2 2.Qxe4 {Bien essayé, mais avant de chercher un coup défensif, il faut vérifier si la pièce offensive est prenable !})\r\n    (1...Qc6 $6 {Ce coup est compréhensible, mais n'y aurait-il pas tout simplement plus fort ?})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/p4ppp/bp3n2/3p2B1/1b1P4/N4N2/PP3PPP/R2Q1RK1 w kq - 0 1\"]\r\n\r\n{Les blancs peuvent donner quatre échecs différents dans cette position, mais seul un d'entre eux est bon. Lequel ?}\r\n1.Qa4+\r\n    {[%wrong Non, il faut donner échec au roi adverse !][%hint Un échec sur les quatre gagne du matériel, tandis que les trois autres perdent du matériel. Choisissez judicieusement !]}\r\n    (1.Re1+ $2 Bxe1 {Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !})\r\n    (1.Qe2+ $2 Bxe2 {Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !})\r\n    (1.Qe1+ $2 Bxe1 {Bien essayé, mais ce coup perd du matériel. Trouvez un échec plus fort !})\r\n1...Qd7\r\n    {Excellente décision ! Ce puissant échec attaque le roi adverse, mais aussi les deux fous non protégés ! Trouvez maintenant le plus fort coup !}\r\n2.Qxa6\r\n    {[%wrong Bien essayé, mais il y a un coup plus fort. Trouvez-le !][%hint Nous cherchons à gagner du matériel.] Et voilà ! Les blancs ont tout simplement une pièce de plus. Bien joué !}\r\n    (2.Qxb4 $6 Bxf1 {C'est vrai, après cette prise, les blancs vont avoir une bonne position, mais serait-il également possible d'empêcher les noirs de gagner notre tour au prochain coup ?})\r\n    (2.Rfe1+ $2 Bxe1 {Bien essayé, mais y'aurait-il un coup encore plus fort qui empêche les noirs de prendre notre tour au coup suivant ?})\r\n    (2.Rae1+ $2 Bxe1 {Bien essayé, mais y'aurait-il un coup encore plus fort qui empêche les noirs de prendre notre tour au coup suivant ?})\r\n    (2.Qxd7+ $2 {Hélas, ce coup annule tout notre avantage. Essayez de gagner du matériel !})\r\n    (2.Bxf6 $2 Qxa4 {Bien essayé, mais lorsque votre adversaire pare un échec, il peut le faire en contre-attaquant. Prudence !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qr1k1/1p1b1ppp/p2bpn2/3pP3/P2P4/4QN1P/1P2BPP1/RN2K2R b KQ - 5 4\"]\r\n\r\n{Un échec peut être un coup puissant si vous avez de bonnes raisons de le jouer. Ici, le fou d6 et le cavalier sont pris en fourchette par le pion blanc. Comment éviter de perdre du matériel ?}\r\n4...Bb4+\r\n    {[%wrong Bien essayé, mais ce coup n'échappe pas à la fourchette blanche. Essayez encore !][%hint Il faudrait mettre une des deux pièces en sûreté en donnant un échec...]}\r\n    (4...Bxe5 $2 5.Nxe5 {Bien essayé, mais ce coup perd du matériel. Cherchez encore !})\r\n    (4...Qa5+ $2 5.Nc3 {Bien essayé, mais nos deux pièces sont toujours attaquées.})\r\n    (4...Ng4 $2 5.hxg4 {Attaquer la dame adverse est une bonne idée, mais il faudrait le faire depuis une case sûre ! Essayez encore.})\r\n5.Nc3\r\n    {Bien joué ! Les noirs donnent échec au roi avec l'une des pièces attaquées. Maintenant, quelle est la meilleure case pour notre cavalier ?}\r\n5...Ne4\r\n    {[%wrong Bien essayé, mais nous voulons mettre notre cavalier f6 en sécurité. Essayez encore !][%hint Le cavalier c3 des blancs est cloué. Comment mettre notre cavalier sur une case sûre tout en mettant la pression sur la pièce ennemie ?] Excellent coup ! Les noirs ont échappé à la fourchette du pion et leurs pièces mettent maintenant sous pression le cavalier adverse, en position de clouage.}\r\n    (5...Nh5 $2 6.g4 {En général, on évite de mettre les cavaliers sur le bord de l'échiquier, où ils contrôlent moins de cases et sont plus vulnérables. Ici, en l’occurrence, le cavalier est tout simplement perdu !})\r\n    (5...Bxc3+ $6 {Au lieu de capturer ce cavalier, pourquoi ne pas le mettre sous pression avec notre cavalier ?})\r\n    (5...Ng4 $2 6.hxg4 {Attaquer la dame adverse est une bonne idée, mais il faudrait le faire depuis une case sûre ! Essayez encore.})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Ne faites pas échec juste pour le plaisir mais ayez une bonne raison !",
+    "outroText": "Allez ! On continue comme ça.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "path": "attaquer-le-roi-adverse",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/12f47b0e-a558-11e8-9e63-7d798a2698c4.facbaf03.728x410o.856e9b44f8c8.png"
+    },
+    "parentId": "283b2636-83b4-11e8-a6b0-2d9a19963394",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/dont-just-check5e5cd2ae0f224.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/dont-just-check-56688b8e2eb030.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/dont-just-check-15ea244bd18143.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/dont-just-check-26037b8771f08e.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/non-sempre-scacco6499b0aa2b6be.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 43,
+    "order": 5,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi-adverse",
+      "order": 5
+    }
+  }
+}

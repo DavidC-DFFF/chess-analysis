@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer/the-goals-of-chess-4",
+  "capturedAt": "2026-10-22T12:23:27.618Z",
+  "title": "Les objectifs aux échecs",
+  "exercises": [
+    {
+      "fen": "6k1/5pp1/3b1n1p/1p6/1P1R4/6PP/5P2/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle pièce les blancs peuvent-ils capturer ?",
+        "[%wrong Il y a un meilleur coup. Réessayez.] [%hint Le fou noir est dans la même colonne que \r\n votre tour.]  Bien vu ! Les blancs gagnent un fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/3b1n1p/1p6/1P1R4/6PP/5P2/6K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147019754931364\"]\r\n\r\n{Quelle pièce les blancs peuvent-ils capturer ?} 1. Rxd6 {[%wrong Il y a un meilleur coup. Réessayez.] [%hint Le fou noir est dans la même colonne que \r\n votre tour.]  Bien vu ! Les blancs gagnent un fou.} *"
+    },
+    {
+      "fen": "6k1/6p1/7p/2Q5/8/6P1/5P1P/4r1K1 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est en échec. Comment le mettre à l'abri ?",
+        "[%wrong Illegal] [%hint Avancez le roi de façon à ce que la tour noire ne puisse plus l'attaquer.]  Bien joué ! Le roi est en sécurité ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6p1/7p/2Q5/8/6P1/5P1P/4r1K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147020178816047\"]\r\n\r\n{Le roi blanc est en échec. Comment le mettre à l'abri ?} 1. Kg2 {[%wrong Illegal] [%hint Avancez le roi de façon à ce que la tour noire ne puisse plus l'attaquer.]  Bien joué ! Le roi est en sécurité ici.} *"
+    },
+    {
+      "fen": "6k1/5pp1/3Q3p/3b4/8/6P1/5PKP/2r5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou noir met en échec le roi blanc. Quelle est la meilleure façon pour les blancs de réagir à cet échec ?",
+        "[%wrong Illegal] [%hint Prenez la pièce qui met votre roi en échec.]",
+        "Ce coup pare l'échec mais il vaut mieux prendre le fou adverse. Comment faire ?",
+        "Ce coup permet au roi de s'échapper mais il vaut mieux capturer la pièce qui le met en échec. Comment faire ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/3Q3p/3b4/8/6P1/5PKP/2r5 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147020804942031\"]\r\n\r\n{Le fou noir met en échec le roi blanc. Quelle est la meilleure façon pour les blancs de réagir à cet échec ?} 1. Qxd5 {[%wrong Illegal] [%hint Prenez la pièce qui met votre roi en échec.]} (1. f3 $2 {Ce coup pare l'échec mais il vaut mieux prendre le fou adverse. Comment faire ?}) (1. Kh3 $2 {Ce coup permet au roi de s'échapper mais il vaut mieux capturer la pièce qui le met en échec. Comment faire ?}) *"
+    },
+    {
+      "fen": "6k1/1p3pp1/p5q1/8/7R/7P/3Q1PP1/6K1 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs peuvent faire échec avec la dame ou la tour. Quelle pièce conduit au mat ?",
+        "[%wrong Il est possible de faire échec et mat. Réessayez.] [%hint Trouvez un moyen de faire échec sans que le roi noir ne puisse capturer la pièce attaquante.]  Beau travail ! C'est mat !",
+        "Le roi noir peut prendre la tour, ce n'est donc pas mat. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1p3pp1/p5q1/8/7R/7P/3Q1PP1/6K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147021394481154\"]\r\n\r\n{Les blancs peuvent faire échec avec la dame ou la tour. Quelle pièce conduit au mat ?} 1. Qd8# {[%wrong Il est possible de faire échec et mat. Réessayez.] [%hint Trouvez un moyen de faire échec sans que le roi noir ne puisse capturer la pièce attaquante.]  Beau travail ! C'est mat !} (1. Rh8+ $2 Kxh8 {Le roi noir peut prendre la tour, ce n'est donc pas mat. Réessayez.}) *"
+    },
+    {
+      "fen": "5qk1/1rPN1pp1/7p/4Q2b/8/6P1/5P2/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayez de trouver plusieurs bons coups d'affilée. Pour commencer, quelle est la meilleure prise ?",
+        "[%wrong Il y a un meilleur coup, cherchez une prise optimale.] [%hint Trouvez comment capturer la dame noire.]",
+        "C'est un bon coup mais vous pouvez prendre une pièce encore plus importante. Réessayez.",
+        "Les noirs gagnent la dame blanche. Réessayez en cherchant une meilleure prise.",
+        "Super départ ! Continuons. Comment les blancs devraient réagir à l'échec de la tour noire ?",
+        "[%wrong Ce n'est pas l'idéal. Cherchez une meilleure case pour votre roi.] [%hint Avancez votre roi pour échapper aux échecs de la tour noire.]",
+        "Ouch ! Les noirs gagnent la dame blanche. Cherchez une option moins coûteuse.",
+        "C'est un excellent coup ! Voyons si vous pouvez trouver l'autre bonne case poue votre roi.",
+        "Un autre échec ! Quelle est la meilleure façon de réagir ?",
+        "[%wrong Illegal] [%hint Quand c'est possible la meilleure réaction est souvent de prendre la pièce qui fait échec.]",
+        "Oh non ! Le roi blanc se fait mater. Trouvez comment vous échapper.",
+        "Oh non ! Le roi blanc se fait mater. Trouvez comment vous échapper.",
+        "Bien joué ! Maintenant, vous pouvez mater en amenant un pion à dame. Quel est le meilleur moyen d'arriver ?",
+        "[%wrong Il y a mat mais pas comme cela. Cherchez à promouvoir un pion.] [%hint Faites une nouvelle dame.]  Beau travail ! Les noirs n'ont pas d'issue et les blancs remportent la partie !",
+        "C'est un joli mat. Pouvez-vous mater d'une autre façon ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5qk1/1rPN1pp1/7p/4Q2b/8/6P1/5P2/6K1 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n[GameId \"2147463599538186\"]\r\n\r\n{Essayez de trouver plusieurs bons coups d'affilée. Pour commencer, quelle est la meilleure prise ?} 1. Nxf8 {[%wrong Il y a un meilleur coup, cherchez une prise optimale.] [%hint Trouvez comment capturer la dame noire.]} (1. Qxh5 $2 Qc8 {C'est un bon coup mais vous pouvez prendre une pièce encore plus importante. Réessayez.}) (1. Qxg7+ $2 Kxg7 {Les noirs gagnent la dame blanche. Réessayez en cherchant une meilleure prise.}) 1... Rb1+ {Super départ ! Continuons. Comment les blancs devraient réagir à l'échec de la tour noire ?} 2. Kg2 {[%wrong Ce n'est pas l'idéal. Cherchez une meilleure case pour votre roi.] [%hint Avancez votre roi pour échapper aux échecs de la tour noire.]} (2. Qe1 $2 Rxe1+ {Ouch ! Les noirs gagnent la dame blanche. Cherchez une option moins coûteuse.}) (2. Kh2 $5 {C'est un excellent coup ! Voyons si vous pouvez trouver l'autre bonne case poue votre roi.}) 2... Bf3+ {Un autre échec ! Quelle est la meilleure façon de réagir ?} 3. Kxf3 {[%wrong Illegal] [%hint Quand c'est possible la meilleure réaction est souvent de prendre la pièce qui fait échec.]} (3. Kh3 $2 Rh1# {Oh non ! Le roi blanc se fait mater. Trouvez comment vous échapper.}) (3. Kh2 $2 Rh1# {Oh non ! Le roi blanc se fait mater. Trouvez comment vous échapper.}) 3... Kxf8 {Bien joué ! Maintenant, vous pouvez mater en amenant un pion à dame. Quel est le meilleur moyen d'arriver ?} 4. c8=Q# {[%wrong Il y a mat mais pas comme cela. Cherchez à promouvoir un pion.] [%hint Faites une nouvelle dame.]  Beau travail ! Les noirs n'ont pas d'issue et les blancs remportent la partie !} (4. c8=R# $5 {C'est un joli mat. Pouvez-vous mater d'une autre façon ?}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "b5959168-f9e8-11ef-abd4-c5db72bb22d3",
+    "name": "Les objectifs aux échecs",
+    "path": "the-goals-of-chess-4",
+    "description": "Passons en revue les coups clés aux échecs : la prise, l'échec et l'échec et mat. C'est ainsi que l'on prend l'avantage et que l'on gagne la partie !",
+    "glyphName": "circle-target-practice",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/3b1n1p/1p6/1P1R4/6PP/5P2/6K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147019754931364\"]\r\n\r\n{Quelle pièce les blancs peuvent-ils capturer ?} 1. Rxd6 {[%wrong Il y a un meilleur coup. Réessayez.] [%hint Le fou noir est dans la même colonne que \r\n votre tour.]  Bien vu ! Les blancs gagnent un fou.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6p1/7p/2Q5/8/6P1/5P1P/4r1K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147020178816047\"]\r\n\r\n{Le roi blanc est en échec. Comment le mettre à l'abri ?} 1. Kg2 {[%wrong Illegal] [%hint Avancez le roi de façon à ce que la tour noire ne puisse plus l'attaquer.]  Bien joué ! Le roi est en sécurité ici.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/3Q3p/3b4/8/6P1/5PKP/2r5 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147020804942031\"]\r\n\r\n{Le fou noir met en échec le roi blanc. Quelle est la meilleure façon pour les blancs de réagir à cet échec ?} 1. Qxd5 {[%wrong Illegal] [%hint Prenez la pièce qui met votre roi en échec.]} (1. f3 $2 {Ce coup pare l'échec mais il vaut mieux prendre le fou adverse. Comment faire ?}) (1. Kh3 $2 {Ce coup permet au roi de s'échapper mais il vaut mieux capturer la pièce qui le met en échec. Comment faire ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1p3pp1/p5q1/8/7R/7P/3Q1PP1/6K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2147021394481154\"]\r\n\r\n{Les blancs peuvent faire échec avec la dame ou la tour. Quelle pièce conduit au mat ?} 1. Qd8# {[%wrong Il est possible de faire échec et mat. Réessayez.] [%hint Trouvez un moyen de faire échec sans que le roi noir ne puisse capturer la pièce attaquante.]  Beau travail ! C'est mat !} (1. Rh8+ $2 Kxh8 {Le roi noir peut prendre la tour, ce n'est donc pas mat. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5qk1/1rPN1pp1/7p/4Q2b/8/6P1/5P2/6K1 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n[GameId \"2147463599538186\"]\r\n\r\n{Essayez de trouver plusieurs bons coups d'affilée. Pour commencer, quelle est la meilleure prise ?} 1. Nxf8 {[%wrong Il y a un meilleur coup, cherchez une prise optimale.] [%hint Trouvez comment capturer la dame noire.]} (1. Qxh5 $2 Qc8 {C'est un bon coup mais vous pouvez prendre une pièce encore plus importante. Réessayez.}) (1. Qxg7+ $2 Kxg7 {Les noirs gagnent la dame blanche. Réessayez en cherchant une meilleure prise.}) 1... Rb1+ {Super départ ! Continuons. Comment les blancs devraient réagir à l'échec de la tour noire ?} 2. Kg2 {[%wrong Ce n'est pas l'idéal. Cherchez une meilleure case pour votre roi.] [%hint Avancez votre roi pour échapper aux échecs de la tour noire.]} (2. Qe1 $2 Rxe1+ {Ouch ! Les noirs gagnent la dame blanche. Cherchez une option moins coûteuse.}) (2. Kh2 $5 {C'est un excellent coup ! Voyons si vous pouvez trouver l'autre bonne case poue votre roi.}) 2... Bf3+ {Un autre échec ! Quelle est la meilleure façon de réagir ?} 3. Kxf3 {[%wrong Illegal] [%hint Quand c'est possible la meilleure réaction est souvent de prendre la pièce qui fait échec.]} (3. Kh3 $2 Rh1# {Oh non ! Le roi blanc se fait mater. Trouvez comment vous échapper.}) (3. Kh2 $2 Rh1# {Oh non ! Le roi blanc se fait mater. Trouvez comment vous échapper.}) 3... Kxf8 {Bien joué ! Maintenant, vous pouvez mater en amenant un pion à dame. Quel est le meilleur moyen d'arriver ?} 4. c8=Q# {[%wrong Il y a mat mais pas comme cela. Cherchez à promouvoir un pion.] [%hint Faites une nouvelle dame.]  Beau travail ! Les noirs n'ont pas d'issue et les blancs remportent la partie !} (4. c8=R# $5 {C'est un joli mat. Pouvez-vous mater d'une autre façon ?}) 1-0"
+    ],
+    "isPathLesson": true,
+    "courseId": "cae69640-a556-11e8-9fa2-e50425638fa0",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons ensemble les principaux objectifs aux échecs afin de faciliter vos progrès.",
+    "outroText": "Beau travail. Votre progression est en marche !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "path": "jouer",
+      "title": "Jouez !",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/cae69640-a556-11e8-9fa2-e50425638fa0.6f70b58e.728x410o.3924271f36b9.png"
+    },
+    "parentId": "373c89c2-eed8-11ef-ad75-efe97d9631c4",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 13,
+    "order": 1,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "name": "Jouez !",
+      "path": "jouer",
+      "order": 1
+    }
+  }
+}

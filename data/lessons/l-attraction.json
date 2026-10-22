@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/l-attraction",
+  "capturedAt": "2026-10-22T12:23:41.068Z",
+  "title": "L'attraction",
+  "exercises": [
+    {
+      "fen": "2r3k1/1b3pp1/p3p3/1p2N1q1/2n1P1P1/P2Q1PB1/1PP5/1K5R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment attirer le roi noir sur une case où il sera victime d'une fourchette ?",
+        "[%wrong Ce n'est pas le bon coup. Cherchez encore !][%hint Les blancs adoreraient prendre en f7 avec le cavalier. Il faudrait éloigner le roi de cette case !]",
+        "Ce coup attire le roi noir en h8, ce qui va nous permettre de réaliser une puissante fourchette royale. A vous de jouer !",
+        "[%wrong Ce coup n'est pas une fourchette royale. Essayez encore !][%hint Le cavalier blanc a un très puissant échec à jouer...] Ce sacrifice d'attraction nous a permis d'échanger une tour contre une dame et un pion... Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/1b3pp1/p3p3/1p2N1q1/2n1P1P1/P2Q1PB1/1PP5/1K5R w - - 0 1\"]\r\n\r\n{Comment attirer le roi noir sur une case où il sera victime d'une fourchette ?}\r\n1.Rh8+\r\n    {[%wrong Ce n'est pas le bon coup. Cherchez encore !][%hint Les blancs adoreraient prendre en f7 avec le cavalier. Il faudrait éloigner le roi de cette case !]}\r\n1...Kxh8\r\n    {Ce coup attire le roi noir en h8, ce qui va nous permettre de réaliser une puissante fourchette royale. A vous de jouer !}\r\n2.Nxf7+\r\n    {[%wrong Ce coup n'est pas une fourchette royale. Essayez encore !][%hint Le cavalier blanc a un très puissant échec à jouer...] Ce sacrifice d'attraction nous a permis d'échanger une tour contre une dame et un pion... Beau travail !}\r\n*"
+    },
+    {
+      "fen": "r1b2r1k/1pb3pp/2p5/p1n5/2B2q2/1P4NP/PB3PP1/R2QR1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux camps s'écharpent à l'aile roi. Les noirs sont sur le point de prendre en f2 avec la dame, mais le trait est aux blancs, et ils ont un sacrifice d'attraction qui va gagner la partie... A vous de jouer !",
+        "[%wrong Ce n'est pas le bon coup. Cherchez encore !][%hint Comment attirer le roi noir sur une case où il subira ensuite une fourchette ?]",
+        "Bien essayé, mais cette attaque n'est pas assez tranchante. Trouvez mieux !",
+        "Bien vu ! Le roi noir est attiré sur une case où il va subir une fourchette. Régalez-vous !",
+        "[%wrong Ce coup ne gagne pas la dame. Cherchez encore !][%hint Nous sommes à la recherche d'une fourchette royale...] Beau boulot ! Ce sacrifice d'attraction nous a permis de gagner la dame noire."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2r1k/1pb3pp/2p5/p1n5/2B2q2/1P4NP/PB3PP1/R2QR1K1 w - - 0 1\"]\r\n\r\n{Les deux camps s'écharpent à l'aile roi. Les noirs sont sur le point de prendre en f2 avec la dame, mais le trait est aux blancs, et ils ont un sacrifice d'attraction qui va gagner la partie... A vous de jouer !}\r\n1.Bxg7+\r\n    {[%wrong Ce n'est pas le bon coup. Cherchez encore !][%hint Comment attirer le roi noir sur une case où il subira ensuite une fourchette ?]}\r\n    (1.Nh5 $2 Qxf2+ {Bien essayé, mais cette attaque n'est pas assez tranchante. Trouvez mieux !})\r\n1...Kxg7\r\n    {Bien vu ! Le roi noir est attiré sur une case où il va subir une fourchette. Régalez-vous !}\r\n2.Nh5+\r\n    {[%wrong Ce coup ne gagne pas la dame. Cherchez encore !][%hint Nous sommes à la recherche d'une fourchette royale...] Beau boulot ! Ce sacrifice d'attraction nous a permis de gagner la dame noire.}\r\n*"
+    },
+    {
+      "fen": "6k1/5p2/p1q5/3pbQ2/1P2r1P1/P2RB2K/8/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Trouvez le sacrifice d'attraction menant à une fourchette gagnant du matériel !",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le fou des blancs contrôle la case critique h6. Supprimez le !]",
+        "Joli ! Les noirs sacrifient temporairement la qualité, attirant la tour blanche sur une case où elle va subir une fourchette. Comment continuer ?",
+        "[%wrong Bien essayé, mais ce coup n'est pas une fourchette. Cherchez encore !][%hint Comment attaquer la tour et le roi adverse en même temps ?]",
+        "Bien vu ! Il est temps de cueillir la tour blanche !",
+        "[%wrong Ce coup ne gagne pas la tour blanche. Essayez encore !][%hint Prenez la tour blanche.] Les noirs récupèrent la tour sacrifiée en début de variante et protègent leur fou e5. Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5p2/p1q5/3pbQ2/1P2r1P1/P2RB2K/8/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez le sacrifice d'attraction menant à une fourchette gagnant du matériel !}\r\n1...Rxe3+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le fou des blancs contrôle la case critique h6. Supprimez le !]}\r\n2.Rxe3\r\n    {Joli ! Les noirs sacrifient temporairement la qualité, attirant la tour blanche sur une case où elle va subir une fourchette. Comment continuer ?}\r\n2...Qh6+\r\n    {[%wrong Bien essayé, mais ce coup n'est pas une fourchette. Cherchez encore !][%hint Comment attaquer la tour et le roi adverse en même temps ?]}\r\n3.Kg2\r\n    {Bien vu ! Il est temps de cueillir la tour blanche !}\r\n3...Qxe3\r\n    {[%wrong Ce coup ne gagne pas la tour blanche. Essayez encore !][%hint Prenez la tour blanche.] Les noirs récupèrent la tour sacrifiée en début de variante et protègent leur fou e5. Beau travail !}\r\n*"
+    },
+    {
+      "fen": "8/5pkp/7p/3B4/p4P2/Pb4P1/3R2KP/r7 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs sont dans une situation désespérée. Pour tenter de sauver la nulle, ils souhaitent échanger les fous. Comment attirer leur tour sur une case où une mauvaise surprise l'attend ?",
+        "[%wrong Ce coup n'attire pas la tour blanche sur une case dangereuse. Cherchez encore !][%hint Comment forcer la tour blanche à se rendre sur la même diagonale que le fou blanc ?]",
+        "C'est jouable, mais il nous reste beaucoup de travail avant d'espérer remporter cette finale. Trouvez un coup plus fort !",
+        "Joli coup ! La tour blanche est attiré sur une case où elle va subir une fourchette. A vous de jouez !",
+        "[%wrong Ce coup ne gagne pas la tour blanche. Cherchez encore !][%hint Cherchez une fourchette roi-tour.] Excellent travail ! Les noirs prennent le fou et vont gagner la tour au prochain coup.",
+        "Oups ! N'oubliez pas le fou !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pkp/7p/3B4/p4P2/Pb4P1/3R2KP/r7 b - - 0 1\"]\r\n\r\n{Les blancs sont dans une situation désespérée. Pour tenter de sauver la nulle, ils souhaitent échanger les fous. Comment attirer leur tour sur une case où une mauvaise surprise l'attend ?}\r\n1...Ra2\r\n    {[%wrong Ce coup n'attire pas la tour blanche sur une case dangereuse. Cherchez encore !][%hint Comment forcer la tour blanche à se rendre sur la même diagonale que le fou blanc ?]}\r\n    (1...Rxa3 $6 2.Bxb3 {C'est jouable, mais il nous reste beaucoup de travail avant d'espérer remporter cette finale. Trouvez un coup plus fort !})\r\n2.Rxa2\r\n    {Joli coup ! La tour blanche est attiré sur une case où elle va subir une fourchette. A vous de jouez !}\r\n2...Bxd5+\r\n    {[%wrong Ce coup ne gagne pas la tour blanche. Cherchez encore !][%hint Cherchez une fourchette roi-tour.] Excellent travail ! Les noirs prennent le fou et vont gagner la tour au prochain coup.}\r\n    (2...Bxa2 $2 3.Bxa2 {Oups ! N'oubliez pas le fou !})\r\n*"
+    },
+    {
+      "fen": "3q1rk1/p4r1p/1p1p2p1/2pB2N1/2PQ3P/P5P1/1P3P2/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de jouer ...c5, attaquant la dame blanche. Ces derniers doivent-ils réagir, ou bien y a-t-il dans la position une jolie combinaison tactique ? A vous de voir...",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez encore !][%hint La combinaison à trouver commence par un coup prenant une pièce adverse avec échec...]",
+        "Cette idée est jouble, mais les noirs vont pouvoir défendre. Trouvez un coup forçant la décision... Le cavalier aura bientôt son mot à dire !",
+        "Bien vu ! La tour noire se retrouve en f7. C'est le moment de trouver un sacrifice d'attraction qui gagne la partie !",
+        "[%wrong Ce n'est pas l'idée que nous cherchons. Essayez encore !][%hint Comment attirer le roi noir sur une case où bien des malheurs l'attendent ?]",
+        "Ce n'est pas une mauvaise idée, mais il existe un coup encore plus fort qui permet aux blancs de gagner une pièce.",
+        "Joli ! Le roi noir est maintenant à la merci d'une fourchette. Finissez en beauté !",
+        "[%wrong Non, nous sommes à la recherche d'une fourchette royale !][%hint Cherchez la fourchette royale...] Parfait ! Nous avons maintenant une finale totalement gagnante à jouer avec une pièce de plus."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3q1rk1/p4r1p/1p1p2p1/2pB2N1/2PQ3P/P5P1/1P3P2/6K1 w - - 0 1\"]\r\n\r\n{Les noirs viennent de jouer ...c5, attaquant la dame blanche. Ces derniers doivent-ils réagir, ou bien y a-t-il dans la position une jolie combinaison tactique ? A vous de voir...}\r\n1.Bxf7+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez encore !][%hint La combinaison à trouver commence par un coup prenant une pièce adverse avec échec...]}\r\n    (1.Nxf7 $2 Rxf7 {Cette idée est jouble, mais les noirs vont pouvoir défendre. Trouvez un coup forçant la décision... Le cavalier aura bientôt son mot à dire !})\r\n1...Rxf7\r\n    {Bien vu ! La tour noire se retrouve en f7. C'est le moment de trouver un sacrifice d'attraction qui gagne la partie !}\r\n2.Qh8+\r\n    {[%wrong Ce n'est pas l'idée que nous cherchons. Essayez encore !][%hint Comment attirer le roi noir sur une case où bien des malheurs l'attendent ?]}\r\n    (2.Qd5 $2 Qe7 {Ce n'est pas une mauvaise idée, mais il existe un coup encore plus fort qui permet aux blancs de gagner une pièce.})\r\n2...Kxh8\r\n    {Joli ! Le roi noir est maintenant à la merci d'une fourchette. Finissez en beauté !}\r\n3.Nxf7+\r\n    {[%wrong Non, nous sommes à la recherche d'une fourchette royale !][%hint Cherchez la fourchette royale...] Parfait ! Nous avons maintenant une finale totalement gagnante à jouer avec une pièce de plus.}\r\n*"
+    },
+    {
+      "fen": "k7/2pR4/8/4qPK1/1N6/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez les coups menant à une fourchette royale. Première étape : forcer le roi noir à se rendre sur une case où il ne veut pas aller...",
+        "[%wrong Non, il faudrait attaquer le roi noir. Cherchez encore !][%hint Cherchez un coup qui force la main des noirs.]",
+        "Le roi ne peut aller en a7, car il serait victime de la fourchette Cc6+. Il se rend donc sur la case b7, mais là aussi, une petite surprise l'attend !",
+        "[%wrong Ce coup n'attire pas le roi noir sur une case dangereuse. Cherchez encore !][%hint Cherchez un coup qui force la main des noirs.]",
+        "Excellent sacrifice d'attraction ! Cette fois, le roi noir ne va pouvoir se soustraire à la fourchette qui l'attend. A vous de jouer !",
+        "[%wrong Ce coup ne gagne pas la dame noire. Cherchez encore !][%hint Cherchez la fourchette royale...] Bien joué ! Les blancs gagnent la dame adverse et la partie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/2pR4/8/4qPK1/1N6/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez les coups menant à une fourchette royale. Première étape : forcer le roi noir à se rendre sur une case où il ne veut pas aller...}\r\n1.Rd8+\r\n    {[%wrong Non, il faudrait attaquer le roi noir. Cherchez encore !][%hint Cherchez un coup qui force la main des noirs.]}\r\n1...Kb7\r\n    {Le roi ne peut aller en a7, car il serait victime de la fourchette Cc6+. Il se rend donc sur la case b7, mais là aussi, une petite surprise l'attend !}\r\n2.Rb8+\r\n    {[%wrong Ce coup n'attire pas le roi noir sur une case dangereuse. Cherchez encore !][%hint Cherchez un coup qui force la main des noirs.]}\r\n2...Kxb8\r\n    {Excellent sacrifice d'attraction ! Cette fois, le roi noir ne va pouvoir se soustraire à la fourchette qui l'attend. A vous de jouer !}\r\n3.Nc6+\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Cherchez encore !][%hint Cherchez la fourchette royale...] Bien joué ! Les blancs gagnent la dame adverse et la partie.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "b4383436-9cea-11e8-9a6a-ef2ff8726a02",
+    "name": "L'attraction",
+    "path": "l-attraction",
+    "description": "L’attraction est une tactique consistant à forcer une pièce à se rendre sur une case où elle ne souhaite pas aller. Elle permet de retirer un défenseur, de préparer une fourchette, ou même de mater le roi adverse.",
+    "glyphName": "game-type-duck",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-decoy-q0s.mp4",
+    "fen": "2r3kR/1b3pp1/p3p3/1p2N1q1/2n1P1P1/P2Q1PB1/1PP5/1K6 b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/1b3pp1/p3p3/1p2N1q1/2n1P1P1/P2Q1PB1/1PP5/1K5R w - - 0 1\"]\r\n\r\n{Comment attirer le roi noir sur une case où il sera victime d'une fourchette ?}\r\n1.Rh8+\r\n    {[%wrong Ce n'est pas le bon coup. Cherchez encore !][%hint Les blancs adoreraient prendre en f7 avec le cavalier. Il faudrait éloigner le roi de cette case !]}\r\n1...Kxh8\r\n    {Ce coup attire le roi noir en h8, ce qui va nous permettre de réaliser une puissante fourchette royale. A vous de jouer !}\r\n2.Nxf7+\r\n    {[%wrong Ce coup n'est pas une fourchette royale. Essayez encore !][%hint Le cavalier blanc a un très puissant échec à jouer...] Ce sacrifice d'attraction nous a permis d'échanger une tour contre une dame et un pion... Beau travail !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2r1k/1pb3pp/2p5/p1n5/2B2q2/1P4NP/PB3PP1/R2QR1K1 w - - 0 1\"]\r\n\r\n{Les deux camps s'écharpent à l'aile roi. Les noirs sont sur le point de prendre en f2 avec la dame, mais le trait est aux blancs, et ils ont un sacrifice d'attraction qui va gagner la partie... A vous de jouer !}\r\n1.Bxg7+\r\n    {[%wrong Ce n'est pas le bon coup. Cherchez encore !][%hint Comment attirer le roi noir sur une case où il subira ensuite une fourchette ?]}\r\n    (1.Nh5 $2 Qxf2+ {Bien essayé, mais cette attaque n'est pas assez tranchante. Trouvez mieux !})\r\n1...Kxg7\r\n    {Bien vu ! Le roi noir est attiré sur une case où il va subir une fourchette. Régalez-vous !}\r\n2.Nh5+\r\n    {[%wrong Ce coup ne gagne pas la dame. Cherchez encore !][%hint Nous sommes à la recherche d'une fourchette royale...] Beau boulot ! Ce sacrifice d'attraction nous a permis de gagner la dame noire.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5p2/p1q5/3pbQ2/1P2r1P1/P2RB2K/8/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez le sacrifice d'attraction menant à une fourchette gagnant du matériel !}\r\n1...Rxe3+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le fou des blancs contrôle la case critique h6. Supprimez le !]}\r\n2.Rxe3\r\n    {Joli ! Les noirs sacrifient temporairement la qualité, attirant la tour blanche sur une case où elle va subir une fourchette. Comment continuer ?}\r\n2...Qh6+\r\n    {[%wrong Bien essayé, mais ce coup n'est pas une fourchette. Cherchez encore !][%hint Comment attaquer la tour et le roi adverse en même temps ?]}\r\n3.Kg2\r\n    {Bien vu ! Il est temps de cueillir la tour blanche !}\r\n3...Qxe3\r\n    {[%wrong Ce coup ne gagne pas la tour blanche. Essayez encore !][%hint Prenez la tour blanche.] Les noirs récupèrent la tour sacrifiée en début de variante et protègent leur fou e5. Beau travail !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pkp/7p/3B4/p4P2/Pb4P1/3R2KP/r7 b - - 0 1\"]\r\n\r\n{Les blancs sont dans une situation désespérée. Pour tenter de sauver la nulle, ils souhaitent échanger les fous. Comment attirer leur tour sur une case où une mauvaise surprise l'attend ?}\r\n1...Ra2\r\n    {[%wrong Ce coup n'attire pas la tour blanche sur une case dangereuse. Cherchez encore !][%hint Comment forcer la tour blanche à se rendre sur la même diagonale que le fou blanc ?]}\r\n    (1...Rxa3 $6 2.Bxb3 {C'est jouable, mais il nous reste beaucoup de travail avant d'espérer remporter cette finale. Trouvez un coup plus fort !})\r\n2.Rxa2\r\n    {Joli coup ! La tour blanche est attiré sur une case où elle va subir une fourchette. A vous de jouez !}\r\n2...Bxd5+\r\n    {[%wrong Ce coup ne gagne pas la tour blanche. Cherchez encore !][%hint Cherchez une fourchette roi-tour.] Excellent travail ! Les noirs prennent le fou et vont gagner la tour au prochain coup.}\r\n    (2...Bxa2 $2 3.Bxa2 {Oups ! N'oubliez pas le fou !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3q1rk1/p4r1p/1p1p2p1/2pB2N1/2PQ3P/P5P1/1P3P2/6K1 w - - 0 1\"]\r\n\r\n{Les noirs viennent de jouer ...c5, attaquant la dame blanche. Ces derniers doivent-ils réagir, ou bien y a-t-il dans la position une jolie combinaison tactique ? A vous de voir...}\r\n1.Bxf7+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez encore !][%hint La combinaison à trouver commence par un coup prenant une pièce adverse avec échec...]}\r\n    (1.Nxf7 $2 Rxf7 {Cette idée est jouble, mais les noirs vont pouvoir défendre. Trouvez un coup forçant la décision... Le cavalier aura bientôt son mot à dire !})\r\n1...Rxf7\r\n    {Bien vu ! La tour noire se retrouve en f7. C'est le moment de trouver un sacrifice d'attraction qui gagne la partie !}\r\n2.Qh8+\r\n    {[%wrong Ce n'est pas l'idée que nous cherchons. Essayez encore !][%hint Comment attirer le roi noir sur une case où bien des malheurs l'attendent ?]}\r\n    (2.Qd5 $2 Qe7 {Ce n'est pas une mauvaise idée, mais il existe un coup encore plus fort qui permet aux blancs de gagner une pièce.})\r\n2...Kxh8\r\n    {Joli ! Le roi noir est maintenant à la merci d'une fourchette. Finissez en beauté !}\r\n3.Nxf7+\r\n    {[%wrong Non, nous sommes à la recherche d'une fourchette royale !][%hint Cherchez la fourchette royale...] Parfait ! Nous avons maintenant une finale totalement gagnante à jouer avec une pièce de plus.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/2pR4/8/4qPK1/1N6/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez les coups menant à une fourchette royale. Première étape : forcer le roi noir à se rendre sur une case où il ne veut pas aller...}\r\n1.Rd8+\r\n    {[%wrong Non, il faudrait attaquer le roi noir. Cherchez encore !][%hint Cherchez un coup qui force la main des noirs.]}\r\n1...Kb7\r\n    {Le roi ne peut aller en a7, car il serait victime de la fourchette Cc6+. Il se rend donc sur la case b7, mais là aussi, une petite surprise l'attend !}\r\n2.Rb8+\r\n    {[%wrong Ce coup n'attire pas le roi noir sur une case dangereuse. Cherchez encore !][%hint Cherchez un coup qui force la main des noirs.]}\r\n2...Kxb8\r\n    {Excellent sacrifice d'attraction ! Cette fois, le roi noir ne va pouvoir se soustraire à la fourchette qui l'attend. A vous de jouer !}\r\n3.Nc6+\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Cherchez encore !][%hint Cherchez la fourchette royale...] Bien joué ! Les blancs gagnent la dame adverse et la partie.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il est temps d'apprendre l'attraction afin d'attirer les pièces adverses sur des cases empoisonnées.",
+    "outroText": "Beau boulot ! Plus qu'une leçon pour compléter ce module.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "95c995ba-83ab-11e8-b77e-9b1ea5e63c3a",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/decoy5fce9d5ecca8f.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/decoy-5668853b2de034.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/decoy-25ea2425bf2c9e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/decoy-361421769143ab.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 72,
+    "order": 9,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

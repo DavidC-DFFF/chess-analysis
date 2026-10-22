@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/principes-ouverture/mettre-son-roi-a-l-abri",
+  "capturedAt": "2026-10-22T12:23:29.571Z",
+  "title": "Mettre son roi à l'abri",
+  "exercises": [
+    {
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il existe plusieurs bons coups dans cette position mais quel est le meilleur pour mettre son roi à l'abri ?",
+        "[%wrong Ne perdez pas de vue l'objectif : mettre son roi à l'abri ! Utilisez l'indice si besoin.]\r\n[%hint Roquer permet d'abriter son roi et en plus de faire participer une tour à l'action au centre. Jouons ce fort coup !] Super ! Le roi blanc est protégé par son bouclier de 3 pions et la tour en f1 est prête à entrer en action. Continuez comme ça !",
+        "Ce n'est pas la meilleure des idées ! Nous ne voulons pas garder notre roi au centre !",
+        "Votre roi va dans la bonne direction mais nous souhaitons aussi activer notre tour, quel est le seul coup qui permet de déplacer 2 pièces simultanément ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch1 kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4\"]\r\n[PlyCount \"1\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Il existe plusieurs bons coups dans cette position mais quel est le meilleur pour mettre son roi à l'abri ?} 4. O-O {[%wrong Ne perdez pas de vue l'objectif : mettre son roi à l'abri ! Utilisez l'indice si besoin.]\r\n[%hint Roquer permet d'abriter son roi et en plus de faire participer une tour à l'action au centre. Jouons ce fort coup !] Super ! Le roi blanc est protégé par son bouclier de 3 pions et la tour en f1 est prête à entrer en action. Continuez comme ça !} (4. Ke2 $2 {Ce n'est pas la meilleure des idées ! Nous ne voulons pas garder notre roi au centre !}) (4. Kf1 $2 {Votre roi va dans la bonne direction mais nous souhaitons aussi activer notre tour, quel est le seul coup qui permet de déplacer 2 pièces simultanément ?}) *"
+    },
+    {
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs veulent roquer pour mettre leur roi à l'abri mais leur cavalier en g8 les en empêche. Comment le développer tout en attaquant le pion central adverse en e4 et libérer la voie ?",
+        "[%wrong Nous voulons à tout prix sortir notre cavalier en g8 pour pouvoir roquer, essayez de trouver sa meilleure case.] [%hint Déplacer votre cavalier g8 et attaquer le pion e4 comme ça le roque sera assuré au prochain coup.]",
+        "\r\nCela libère bien la voie pour le roque mais notre cavalier se retrouve isolé sur la bande. Trouvez une case plus naturelle.",
+        "Cela permet bien de roquer et notre cavalier est correctement placé seulement il existe une case plus active sur laquelle il attaquera le pion blanc e4.",
+        "Bien joué ! Maintenant mettons notre roi en sécurité.",
+        "[%wrong Mettre le roi à l'abri est la priorité du moment.] [%hint Effectuons le petit roque afin de cacher notre roi.]Excellent ! La tour peut maintenant joindre l'action au centre.",
+        "Votre roi se dirige dans la bonne direction mais nous voulons aussi faire participer notre tour en h8. Quel est le seul coup qui permet de déplacer 2 pièces simultanément ?",
+        "Notre roi ne se sentirait pas à très à l'aise au milieu de l'échiquier, l'avancer n'est pas la solution !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch2kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 0 4\"]\r\n[PlyCount \"3\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Les noirs veulent roquer pour mettre leur roi à l'abri mais leur cavalier en g8 les en empêche. Comment le développer tout en attaquant le pion central adverse en e4 et libérer la voie ?} 4... Nf6 {[%wrong Nous voulons à tout prix sortir notre cavalier en g8 pour pouvoir roquer, essayez de trouver sa meilleure case.] [%hint Déplacer votre cavalier g8 et attaquer le pion e4 comme ça le roque sera assuré au prochain coup.]} (4... Nh6 $2 {\r\nCela libère bien la voie pour le roque mais notre cavalier se retrouve isolé sur la bande. Trouvez une case plus naturelle.}) (4... Nge7 $5 {Cela permet bien de roquer et notre cavalier est correctement placé seulement il existe une case plus active sur laquelle il attaquera le pion blanc e4.}) 5. d3 {Bien joué ! Maintenant mettons notre roi en sécurité.} O-O {[%wrong Mettre le roi à l'abri est la priorité du moment.] [%hint Effectuons le petit roque afin de cacher notre roi.]Excellent ! La tour peut maintenant joindre l'action au centre.} (5... Kf8 $2 {Votre roi se dirige dans la bonne direction mais nous voulons aussi faire participer notre tour en h8. Quel est le seul coup qui permet de déplacer 2 pièces simultanément ?}) (5... Ke7 $2 {Notre roi ne se sentirait pas à très à l'aise au milieu de l'échiquier, l'avancer n'est pas la solution !})\r\n*"
+    },
+    {
+      "fen": "r2qk1nr/2pp1ppp/1pb5/8/p2P4/B1P2N2/P1P2PPP/R2QK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont plusieurs options à leur disposition mais n'oublions pas le facteur le plus important aux échecs : la sécurité du roi ! Alors roquons.",
+        "[%wrong Il est préférable de commencer par mettre son roi à l'abri.] [%hint Roquez pour mettre votre roi en sécurité.]",
+        "Le cavalier noir est mal placé sur la bande de l'échiquier et les noirs aimeraient parvenir à roquer. Comment pouvons-nous leur délivrer un échec mortel pour profiter de la position exposée de leur roi ?\r\n",
+        "[%wrong Bien essayé mais il existe un coup plus puissant, utilisez l'indice si besoin.] [%hint Délivrer un échec sur la colonne e permet de forcer un mat.]",
+        "Cet échec avec la tour permet de gagner la dame adverse et déroquera les noirs. C'est donc un excellent coup mais regardez l'échec avec la dame, n'est-il pas encore plus fort ?",
+        "Bien joué ! Ce coup mène bien au mat mais par principe nous n'aimons pas bloquer notre tour en f1 alors essayez avec la même idée de donner un échec mortel avec votre dame sur une case adjacente.",
+        "Bien vu ! Il est maintenant temps de mater ",
+        "[%wrong Un mat en 1 coup est possible ici, essayez de le trouver.] Beau travail ! Vous avez parfaitement exploité le roi noir resté au centre.",
+        "C'est presque ça ! Capturer la dame est effectivement la bonne idée mais autant le faire de la manière la plus puissante, alors à vous de jouer !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch3kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk1nr/2pp1ppp/1pb5/8/p2P4/B1P2N2/P1P2PPP/R2QK2R w KQkq - 0 1\"]\r\n[PlyCount \"5\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Les blancs ont plusieurs options à leur disposition mais n'oublions pas le facteur le plus important aux échecs : la sécurité du roi ! Alors roquons.} 1. O-O {[%wrong Il est préférable de commencer par mettre son roi à l'abri.] [%hint Roquez pour mettre votre roi en sécurité.]} Nh6 {Le cavalier noir est mal placé sur la bande de l'échiquier et les noirs aimeraient parvenir à roquer. Comment pouvons-nous leur délivrer un échec mortel pour profiter de la position exposée de leur roi ?\r\n} 2. Qe2+ {[%wrong Bien essayé mais il existe un coup plus puissant, utilisez l'indice si besoin.] [%hint Délivrer un échec sur la colonne e permet de forcer un mat.]} (2. Re1+ $5 {Cet échec avec la tour permet de gagner la dame adverse et déroquera les noirs. C'est donc un excellent coup mais regardez l'échec avec la dame, n'est-il pas encore plus fort ?}) (2. Qe1+ $5 {Bien joué ! Ce coup mène bien au mat mais par principe nous n'aimons pas bloquer notre tour en f1 alors essayez avec la même idée de donner un échec mortel avec votre dame sur une case adjacente.}) 2...\r\nQe7 {Bien vu ! Il est maintenant temps de mater } 3. Qxe7# {[%wrong Un mat en 1 coup est possible ici, essayez de le trouver.] Beau travail ! Vous avez parfaitement exploité le roi noir resté au centre.} (3. Bxe7 $2 {C'est presque ça ! Capturer la dame est effectivement la bonne idée mais autant le faire de la manière la plus puissante, alors à vous de jouer !}) *"
+    },
+    {
+      "fen": "r1b1kbnr/ppppqppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent de capturer notre pion e4. Mettons notre roi à l'abri pour leur tendre un piège !",
+        "[%wrong Ce n'est pas l'idée ici, il faut cacher le roi et libérer une tour qui pourra s'activer et s'engouffrer dans la brèche si la dame noire prend notre pion e4.] [%hint Mettez votre roi à l'abri pour préparer l'arrivée de la tour en e1.]",
+        "Ici les noirs pourraient prendre le pion e4 sur échec, ce n'est pas la solution pour notre roi !",
+        "Cela tendrait bien un piège mais notre roi est mal placé en d2 si les noirs ne tombent pas dedans.",
+        "Votre roi se dirige vers la bonne direction mais il faut à tout prix libérer la tour au passage. Quel est le seul coup permettant de déplacer 2 pièces simultanément ?",
+        "Excellente décision ! Les noirs prennent le pion en e4 sans se soucier des conséquences. L'ouverture de la colonne e peut pourtant être exploitée grâce au thème du clouage. Avec quelle pièce pouvons-nous gagner la dame adverse de manière forcée ?",
+        "\r\n[%wrong Nous souhaitons exploiter l'alignement de la dame et du roi noirs, comment faire ? Utilisez l'indice si besoin.] [%hint Notre tour peut s'activer et attaquer la dame adverse qui n'aura pas le droit de s'enfuir de la colonne.]",
+        "C'est une très belle idée qui peut aussi fonctionner mais il existe un moyen forcé de gagner la dame adverse, essayez de le trouver !",
+        "Ce coup ne conduit qu'à l'échange des dames, il y a mieux !",
+        "Ce coup ne conduit qu'à l'échange des dames, il a mieux !",
+        "Bravo ! La dame noire n'a pas le droit de s'échapper car son roi se trouve derrière elle et il est interdit de se mettre en échec. Maintenant capturons la !",
+        "\r\n[%wrong La dame est en prise, il faut en profiter.] [%hint Votre tour est prête à capturer la dame alors allez-y !] Parfaitement joué ! Vous avez utilisé le roque à merveille afin d'activer votre tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch4kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kbnr/ppppqppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 1\"]\r\n[PlyCount \"5\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Les noirs menacent de capturer notre pion e4. Mettons notre roi à l'abri pour leur tendre un piège !} 1. O-O {[%wrong Ce n'est pas l'idée ici, il faut cacher le roi et libérer une tour qui pourra s'activer et s'engouffrer dans la brèche si la dame noire prend notre pion e4.] [%hint Mettez votre roi à l'abri pour préparer l'arrivée de la tour en e1.]} (1. Ke2 $2 Qxe4+ {Ici les noirs pourraient prendre le pion e4 sur échec, ce n'est pas la solution pour notre roi !}) (1. Kd2 $2 Qb4+ {Cela tendrait bien un piège mais notre roi est mal placé en d2 si les noirs ne tombent pas dedans.}) (1. Kf1 $2 {Votre roi se dirige vers la bonne direction mais il faut à tout prix libérer la tour au passage. Quel est le seul coup permettant de déplacer 2 pièces simultanément ?}) 1...\r\nQxe4 {Excellente décision ! Les noirs prennent le pion en e4 sans se soucier des conséquences. L'ouverture de la colonne e peut pourtant être exploitée grâce au thème du clouage. Avec quelle pièce pouvons-nous gagner la dame adverse de manière forcée ?} 2. Re1 {\r\n[%wrong Nous souhaitons exploiter l'alignement de la dame et du roi noirs, comment faire ? Utilisez l'indice si besoin.] [%hint Notre tour peut s'activer et attaquer la dame adverse qui n'aura pas le droit de s'enfuir de la colonne.]} (2. Bxf7+\r\n$5 {C'est une très belle idée qui peut aussi fonctionner mais il existe un moyen forcé de gagner la dame adverse, essayez de le trouver !}) (2. Qe2 $2\r\nQxe2 {Ce coup ne conduit qu'à l'échange des dames, il y a mieux !}) (2. Qe1 $2 Qxe1 {Ce coup ne conduit qu'à l'échange des dames, il a mieux !}) 2... Qe7 {Bravo ! La dame noire n'a pas le droit de s'échapper car son roi se trouve derrière elle et il est interdit de se mettre en échec. Maintenant capturons la !} 3. Rxe7+ {\r\n[%wrong La dame est en prise, il faut en profiter.] [%hint Votre tour est prête à capturer la dame alors allez-y !] Parfaitement joué ! Vous avez utilisé le roque à merveille afin d'activer votre tour.} *"
+    },
+    {
+      "fen": "r3r1k1/pp3ppp/2pb1n2/3p4/3P4/1B2B2P/PPPQ1Pq1/R3K2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Notre roi blanc est dans les courants d'air au centre de l'échiquier, de plus notre tour h1 est attaquée par la dame adverse. Comment résoudre ces deux problèmes d'un seul coup ?",
+        "[%wrong N'oubliez pas qu'aux échecs, on peut roquer des deux côtés !] \r\n[%hint Ce n'est pas parce que le petit roque est interdit ici qu'il faut oublier l'idée de roquer. Regardez à l'aile dame, la voie est libre !] Bien joué ! La position blanche n'est pas parfaite mais elle s'est nettement améliorée maintenant que votre roi est à l'abri et que vos tours sont liées.",
+        "Ce coup permet bien aux deux tours de se défendre entre elles mais votre roi demeure au milieu de l'échiquier.",
+        "Ce coup sauve effectivement votre tour du danger mais votre roi resterait alors au milieu de l'échiquier. Pensez à regarder du côté de l'aile dame!"
+      ],
+      "pgn": "[Event \"Leipzig -\"]\r\n[Site \"Leipzig GER\"]\r\n[Date \"1877.??.??\"]\r\n[Round \"?\"]\r\n[White \"ch5kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3r1k1/pp3ppp/2pb1n2/3p4/3P4/1B2B2P/PPPQ1Pq1/R3K2R w KQ - 0 1\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"1877.??.??\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Notre roi blanc est dans les courants d'air au centre de l'échiquier, de plus notre tour h1 est attaquée par la dame adverse. Comment résoudre ces deux problèmes d'un seul coup ?} 1.\r\nO-O-O {[%wrong N'oubliez pas qu'aux échecs, on peut roquer des deux côtés !] \r\n[%hint Ce n'est pas parce que le petit roque est interdit ici qu'il faut oublier l'idée de roquer. Regardez à l'aile dame, la voie est libre !] Bien joué ! La position blanche n'est pas parfaite mais elle s'est nettement améliorée maintenant que votre roi est à l'abri et que vos tours sont liées.} (1. Ke2 $2 {Ce coup permet bien aux deux tours de se défendre entre elles mais votre roi demeure au milieu de l'échiquier.}) (1. Rf1 $2 {Ce coup sauve effectivement votre tour du danger mais votre roi resterait alors au milieu de l'échiquier. Pensez à regarder du côté de l'aile dame!})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "883d18bc-2329-11ea-a33c-eddc93f61f81",
+    "name": "Mettre son roi à l'abri",
+    "path": "mettre-son-roi-a-l-abri",
+    "description": "La sécurité du roi est le principe prépondérant aux échecs. Le moyen généralement le plus efficace de le mettre à l'abri est de roquer ! Ainsi, vous pourrez utiliser vos pions centraux dans la lutte pour la domination du cœur de l'échiquier et maintenir en rang serré ceux qui forment un bouclier juste devant votre roque. Un autre aspect profitable du roque est qu'il permet à vos tours de rentrer en jeu et de participer activement au combat pour le centre.",
+    "glyphName": "piece-shield-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-OP-protect-your-king-f4c.mp4",
+    "fen": "2r1kr2/pp3ppp/8/8/8/P7/1P3PPP/3RR1K1 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch1 kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4\"]\r\n[PlyCount \"1\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Il existe plusieurs bons coups dans cette position mais quel est le meilleur pour mettre son roi à l'abri ?} 4. O-O {[%wrong Ne perdez pas de vue l'objectif : mettre son roi à l'abri ! Utilisez l'indice si besoin.]\r\n[%hint Roquer permet d'abriter son roi et en plus de faire participer une tour à l'action au centre. Jouons ce fort coup !] Super ! Le roi blanc est protégé par son bouclier de 3 pions et la tour en f1 est prête à entrer en action. Continuez comme ça !} (4. Ke2 $2 {Ce n'est pas la meilleure des idées ! Nous ne voulons pas garder notre roi au centre !}) (4. Kf1 $2 {Votre roi va dans la bonne direction mais nous souhaitons aussi activer notre tour, quel est le seul coup qui permet de déplacer 2 pièces simultanément ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch2kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 0 4\"]\r\n[PlyCount \"3\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Les noirs veulent roquer pour mettre leur roi à l'abri mais leur cavalier en g8 les en empêche. Comment le développer tout en attaquant le pion central adverse en e4 et libérer la voie ?} 4... Nf6 {[%wrong Nous voulons à tout prix sortir notre cavalier en g8 pour pouvoir roquer, essayez de trouver sa meilleure case.] [%hint Déplacer votre cavalier g8 et attaquer le pion e4 comme ça le roque sera assuré au prochain coup.]} (4... Nh6 $2 {\r\nCela libère bien la voie pour le roque mais notre cavalier se retrouve isolé sur la bande. Trouvez une case plus naturelle.}) (4... Nge7 $5 {Cela permet bien de roquer et notre cavalier est correctement placé seulement il existe une case plus active sur laquelle il attaquera le pion blanc e4.}) 5. d3 {Bien joué ! Maintenant mettons notre roi en sécurité.} O-O {[%wrong Mettre le roi à l'abri est la priorité du moment.] [%hint Effectuons le petit roque afin de cacher notre roi.]Excellent ! La tour peut maintenant joindre l'action au centre.} (5... Kf8 $2 {Votre roi se dirige dans la bonne direction mais nous voulons aussi faire participer notre tour en h8. Quel est le seul coup qui permet de déplacer 2 pièces simultanément ?}) (5... Ke7 $2 {Notre roi ne se sentirait pas à très à l'aise au milieu de l'échiquier, l'avancer n'est pas la solution !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch3kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk1nr/2pp1ppp/1pb5/8/p2P4/B1P2N2/P1P2PPP/R2QK2R w KQkq - 0 1\"]\r\n[PlyCount \"5\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Les blancs ont plusieurs options à leur disposition mais n'oublions pas le facteur le plus important aux échecs : la sécurité du roi ! Alors roquons.} 1. O-O {[%wrong Il est préférable de commencer par mettre son roi à l'abri.] [%hint Roquez pour mettre votre roi en sécurité.]} Nh6 {Le cavalier noir est mal placé sur la bande de l'échiquier et les noirs aimeraient parvenir à roquer. Comment pouvons-nous leur délivrer un échec mortel pour profiter de la position exposée de leur roi ?\r\n} 2. Qe2+ {[%wrong Bien essayé mais il existe un coup plus puissant, utilisez l'indice si besoin.] [%hint Délivrer un échec sur la colonne e permet de forcer un mat.]} (2. Re1+ $5 {Cet échec avec la tour permet de gagner la dame adverse et déroquera les noirs. C'est donc un excellent coup mais regardez l'échec avec la dame, n'est-il pas encore plus fort ?}) (2. Qe1+ $5 {Bien joué ! Ce coup mène bien au mat mais par principe nous n'aimons pas bloquer notre tour en f1 alors essayez avec la même idée de donner un échec mortel avec votre dame sur une case adjacente.}) 2...\r\nQe7 {Bien vu ! Il est maintenant temps de mater } 3. Qxe7# {[%wrong Un mat en 1 coup est possible ici, essayez de le trouver.] Beau travail ! Vous avez parfaitement exploité le roi noir resté au centre.} (3. Bxe7 $2 {C'est presque ça ! Capturer la dame est effectivement la bonne idée mais autant le faire de la manière la plus puissante, alors à vous de jouer !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2019.09.04\"]\r\n[Round \"?\"]\r\n[White \"ch4kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kbnr/ppppqppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 1\"]\r\n[PlyCount \"5\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Les noirs menacent de capturer notre pion e4. Mettons notre roi à l'abri pour leur tendre un piège !} 1. O-O {[%wrong Ce n'est pas l'idée ici, il faut cacher le roi et libérer une tour qui pourra s'activer et s'engouffrer dans la brèche si la dame noire prend notre pion e4.] [%hint Mettez votre roi à l'abri pour préparer l'arrivée de la tour en e1.]} (1. Ke2 $2 Qxe4+ {Ici les noirs pourraient prendre le pion e4 sur échec, ce n'est pas la solution pour notre roi !}) (1. Kd2 $2 Qb4+ {Cela tendrait bien un piège mais notre roi est mal placé en d2 si les noirs ne tombent pas dedans.}) (1. Kf1 $2 {Votre roi se dirige vers la bonne direction mais il faut à tout prix libérer la tour au passage. Quel est le seul coup permettant de déplacer 2 pièces simultanément ?}) 1...\r\nQxe4 {Excellente décision ! Les noirs prennent le pion en e4 sans se soucier des conséquences. L'ouverture de la colonne e peut pourtant être exploitée grâce au thème du clouage. Avec quelle pièce pouvons-nous gagner la dame adverse de manière forcée ?} 2. Re1 {\r\n[%wrong Nous souhaitons exploiter l'alignement de la dame et du roi noirs, comment faire ? Utilisez l'indice si besoin.] [%hint Notre tour peut s'activer et attaquer la dame adverse qui n'aura pas le droit de s'enfuir de la colonne.]} (2. Bxf7+\r\n$5 {C'est une très belle idée qui peut aussi fonctionner mais il existe un moyen forcé de gagner la dame adverse, essayez de le trouver !}) (2. Qe2 $2\r\nQxe2 {Ce coup ne conduit qu'à l'échange des dames, il y a mieux !}) (2. Qe1 $2 Qxe1 {Ce coup ne conduit qu'à l'échange des dames, il a mieux !}) 2... Qe7 {Bravo ! La dame noire n'a pas le droit de s'échapper car son roi se trouve derrière elle et il est interdit de se mettre en échec. Maintenant capturons la !} 3. Rxe7+ {\r\n[%wrong La dame est en prise, il faut en profiter.] [%hint Votre tour est prête à capturer la dame alors allez-y !] Parfaitement joué ! Vous avez utilisé le roque à merveille afin d'activer votre tour.} *",
+      "[Event \"Leipzig -\"]\r\n[Site \"Leipzig GER\"]\r\n[Date \"1877.??.??\"]\r\n[Round \"?\"]\r\n[White \"ch5kprotect\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[Annotator \"Fischwitsch\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3r1k1/pp3ppp/2pb1n2/3p4/3P4/1B2B2P/PPPQ1Pq1/R3K2R w KQ - 0 1\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"1877.??.??\"]\r\n[SourceVersionDate \"2019.09.04\"]\r\n\r\n{Notre roi blanc est dans les courants d'air au centre de l'échiquier, de plus notre tour h1 est attaquée par la dame adverse. Comment résoudre ces deux problèmes d'un seul coup ?} 1.\r\nO-O-O {[%wrong N'oubliez pas qu'aux échecs, on peut roquer des deux côtés !] \r\n[%hint Ce n'est pas parce que le petit roque est interdit ici qu'il faut oublier l'idée de roquer. Regardez à l'aile dame, la voie est libre !] Bien joué ! La position blanche n'est pas parfaite mais elle s'est nettement améliorée maintenant que votre roi est à l'abri et que vos tours sont liées.} (1. Ke2 $2 {Ce coup permet bien aux deux tours de se défendre entre elles mais votre roi demeure au milieu de l'échiquier.}) (1. Rf1 $2 {Ce coup sauve effectivement votre tour du danger mais votre roi resterait alors au milieu de l'échiquier. Pensez à regarder du côté de l'aile dame!})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "a6677c04-2326-11ea-a680-816421b79861",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrez comment protéger votre pièce la plus importante.",
+    "outroText": "Je suis impressionné. La sécurité du roi est cruciale aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a6677c04-2326-11ea-a680-816421b79861",
+      "path": "principes-ouverture",
+      "title": "Principes d'ouverture",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a6677c04-2326-11ea-a680-816421b79861.945b3a35.728x410o.e7a9dfd032aa.png"
+    },
+    "parentId": "9286fea6-cd97-11e9-96fd-d9b20857a7e3",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/protect-your-king5e54dc16e2674.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/protect-your-king-1604756b3e5db4.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/protect-your-king-25ea246052400a.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/proteggi-il-tuo-re638be7880fc59.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/protect-your-king-367fbe0bf02e4f.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 22,
+    "order": 3,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "a6677c04-2326-11ea-a680-816421b79861",
+      "name": "Principes d'ouverture",
+      "path": "principes-ouverture",
+      "order": 2
+    }
+  }
+}

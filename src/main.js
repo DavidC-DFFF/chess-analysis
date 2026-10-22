@@ -1,6 +1,8 @@
 import { Chess } from 'chess.js';
 import review from './review.json';
 import './style.css';
+import './chess-theme.css';
+import './sound-bank.js';
 
 const pieces = {
   wk: '♔', wq: '♕', wr: '♖', wb: '♗', wn: '♘', wp: '♙',
@@ -10,7 +12,7 @@ const demo = review.pgn;
 const state = { game: new Chess(), moves: [], headers: {}, comments: new Map(), notes: new Map(), step: 0, flipped: false, alternative: false };
 
 document.querySelector('#app').innerHTML = `
-  <header class="topbar"><div class="brand"><span class="brand-mark">♞</span><span>ATELIER <strong>D’ANALYSE</strong></span></div><span class="top-note">Échecs · revue de partie</span></header>
+  <header class="topbar"><div class="brand"><span class="brand-mark">♞</span><span>ATELIER <strong>D’ANALYSE</strong></span></div><nav class="site-nav" aria-label="Navigation principale"><a href="./ouvertures.html">Ouvertures</a><a href="./lecons.html">Leçons</a><button type="button" id="sound-toggle" aria-pressed="true">Son : activé</button></nav></header>
   <main class="workspace">
     <section class="board-column" aria-label="Échiquier">
       <div class="game-heading"><div><p class="eyebrow">POSITION ANALYSÉE</p><h1 id="game-title">Partie exemple</h1><p id="game-meta" class="muted"></p></div><button id="flip" class="icon-button" title="Retourner l’échiquier" aria-label="Retourner l’échiquier">⇅</button></div>
@@ -28,6 +30,8 @@ document.querySelector('#app').innerHTML = `
   </main>`;
 
 const $ = (selector) => document.querySelector(selector);
+const analysisSounds = new globalThis.DefaultSoundBank();
+analysisSounds.attach($('#sound-toggle'));
 const files = 'abcdefgh';
 const squareAt = (row, col) => `${files[state.flipped ? 7 - col : col]}${state.flipped ? row + 1 : 8 - row}`;
 const squareCenter = (square) => {
@@ -57,10 +61,12 @@ function render() {
     if (col === 0) cell.innerHTML = `<span class="rank">${square[1]}</span>`;
     if (row === 7) cell.innerHTML += `<span class="file">${square[0]}</span>`;
     if (piece) {
-      const span = document.createElement('span');
-      span.className = `piece ${piece.color === 'w' ? 'white-piece' : 'black-piece'}`;
-      span.textContent = pieces[piece.color + piece.type];
-      cell.append(span);
+      const image = document.createElement('img');
+      image.className = 'piece';
+      image.src = `./pieces/neo/${piece.color}${piece.type}.webp`;
+      image.alt = '';
+      image.draggable = false;
+      cell.append(image);
     }
     board.append(cell);
   }
@@ -114,7 +120,7 @@ function loadPgn(raw) {
     for (let j = i; j < Math.min(i + 2, history.length); j++) {
       const button = document.createElement('button');
       button.className = 'move'; button.dataset.step = j + 1; button.textContent = history[j].san;
-      button.addEventListener('click', () => { state.step = j + 1; render(); });
+      button.addEventListener('click', () => go(j + 1));
       row.append(button);
     }
     list.append(row);
@@ -132,7 +138,7 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowRight') { event.preventDefault(); go(state.step + 1); }
   if (event.key === 'ArrowLeft') { event.preventDefault(); go(state.step - 1); }
 });
-function go(step) { state.step = Math.max(0, Math.min(state.moves.length, step)); state.alternative = false; render(); }
+function go(step) { const previous=state.step;state.step = Math.max(0, Math.min(state.moves.length, step)); state.alternative = false; render();if(state.step===previous+1)analysisSounds.playMove(state.moves[previous],{finished:state.step===state.moves.length});else analysisSounds.stop(); }
 function goCritical(direction) {
   const stops = [...state.notes.entries()].filter(([, note]) => ['Imprécision', 'Erreur', 'Gaffe', 'Manqué'].includes(note.category)).map(([step]) => step).sort((a, b) => a - b);
   const target = direction > 0 ? stops.find((step) => step > state.step) : stops.reverse().find((step) => step < state.step);

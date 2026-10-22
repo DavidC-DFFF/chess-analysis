@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/construire-un-plan",
+  "capturedAt": "2026-10-22T12:23:46.203Z",
+  "title": "Construire un plan",
+  "exercises": [
+    {
+      "fen": "r2qk2r/1p3ppp/p1nbpn2/3p3b/3P4/2N1PN1P/PP2BPP1/R1BQR1K1 b kq - 3 11",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Nous jouons avec les pièces noires. Le plan de rêve serait de créer une attaque à l'aile roi en jouant ...Fb8 et ...Dd6. Faut-il mettre immédiatement le fou en b8, ou bien développer une autre pièce avant ?",
+        "[%wrong Ce coup ne prépare pas la création d'une batterie dame-fou. Cherchez encore !][%hint En mettant immédiatement notre fou en b8, nous empêcherions une pièce très forte de se développer !]",
+        "Bien essayé, mais notre tour a8 aimerait bien entrer en jeu pour participer à l'attaque ! Comment l'activer avant de mettre en place notre batterie ?",
+        "Une idée intéressante, mais il serait préférable de contrôler la colonne c avec une tour. Activez votre tour a8 avant de créer une batterie dame-fou.",
+        "Il est souvent intéressant de mettre son roi en sécurité avant de lancer une attaque. Trouvez maintenant un autre coup activant votre tour a8 et préparant la création d'une batterie dame-fou.",
+        "Bien joué ! Nous devons bien activer toutes nos pièces avant de nous lancer dans ce plan. Il est maintenant de créer notre puissante batterie dame-fou !",
+        "[%wrong Maintenant que notre tour est active en c8, mettons le fou en b8 comme nous l'avons planifié.][%hint Maintenant que notre tour est active en c8, mettons le fou en b8 comme nous l'avons planifié.]",
+        "Parfait ! Nous souhaitons toujours créer notre puissante batterie offensive, mais le dernier coup des blancs contrecarre-t-il nos plans ?",
+        "[%wrong Non, continuons à suivre notre plan !][%hint Suivons le plan prévu !] Notre plan se matérialise enfin. Les noirs ont une belle attaque potentielle et une forte position.",
+        "Échanger les fous ? Ce n'est pas une mauvaise idée, mais pour le moment, tenons-nous en au plan initial !",
+        "Ce coup est également jouable, bien vu ! Cependant, dans cet exercice, nous allons mettre le dame sur d6. Jouez ce coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/1p3ppp/p1nbpn2/3p3b/3P4/2N1PN1P/PP2BPP1/R1BQR1K1 b kq - 3 11\"]\r\n\r\n{Nous jouons avec les pièces noires. Le plan de rêve serait de créer une attaque à l'aile roi en jouant ...Fb8 et ...Dd6. Faut-il mettre immédiatement le fou en b8, ou bien développer une autre pièce avant ?}\r\n11...Rc8\r\n    {[%wrong Ce coup ne prépare pas la création d'une batterie dame-fou. Cherchez encore !][%hint En mettant immédiatement notre fou en b8, nous empêcherions une pièce très forte de se développer !]}\r\n    (11...Bb8 $6 {Bien essayé, mais notre tour a8 aimerait bien entrer en jeu pour participer à l'attaque ! Comment l'activer avant de mettre en place notre batterie ?})\r\n    (11...Bc7 $5 {Une idée intéressante, mais il serait préférable de contrôler la colonne c avec une tour. Activez votre tour a8 avant de créer une batterie dame-fou.})\r\n    (11...O-O $5 {Il est souvent intéressant de mettre son roi en sécurité avant de lancer une attaque. Trouvez maintenant un autre coup activant votre tour a8 et préparant la création d'une batterie dame-fou.})\r\n12.a3\r\n    {Bien joué ! Nous devons bien activer toutes nos pièces avant de nous lancer dans ce plan. Il est maintenant de créer notre puissante batterie dame-fou !}\r\n12...Bb8\r\n    {[%wrong Maintenant que notre tour est active en c8, mettons le fou en b8 comme nous l'avons planifié.][%hint Maintenant que notre tour est active en c8, mettons le fou en b8 comme nous l'avons planifié.]}\r\n13.Nh2\r\n    {Parfait ! Nous souhaitons toujours créer notre puissante batterie offensive, mais le dernier coup des blancs contrecarre-t-il nos plans ?}\r\n13...Qd6\r\n    {[%wrong Non, continuons à suivre notre plan !][%hint Suivons le plan prévu !] Notre plan se matérialise enfin. Les noirs ont une belle attaque potentielle et une forte position.}\r\n    (13...Bxe2 $5 {Échanger les fous ? Ce n'est pas une mauvaise idée, mais pour le moment, tenons-nous en au plan initial !})\r\n    (13...Qc7 $5 {Ce coup est également jouable, bien vu ! Cependant, dans cet exercice, nous allons mettre le dame sur d6. Jouez ce coup.})\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pp2pp1p/2pp1np1/3Pn3/2P1P3/2N2P2/PP4PP/R1BQKBNR w KQkq - 0 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette partie entre GMI, le chinois Ding Liren conduit les pièces blanches. Il souhaite étendre son contrôle central. Trouvez le coup qui gagne un tempo contre le cavalier e5 tout en prenant de l'espace.",
+        "[%wrong Ce coup n'attaque pas le cavalier e5 en gagnant de l'espace. Cherchez encore !][%hint Cherchez un coup de pion...]",
+        "Bien vu ! Le GMI Peter Svidler se prépare à jouer ...Cc5 pour attaquer notre pion faible e4. Nous voulons déplacer notre cavalier g1 pour qu'il protège à la fois e4 et g4. Mais hâtez-vous, nous n'avons que deux coups !",
+        "[%wrong Nous sommes à la recherche d'un plan amenant le cavalier g1 sur une case depuis laquelle il couvrirait à la fois e4 et g4. Cherchez encore !][%hint La case f2 semble parfaitement indiquée... Comment l'atteindre en deux coups ?]",
+        "Sur 9. Cg3, les noirs ont la très forte réponse 9...h5!, qui prépare l'attaque du cavalier. Trouvez une autre case pour le cavalier g1 !",
+        "Vous avez trouvé l'idée du grand-maître, bien joué ! Suivons notre plan.",
+        "[%wrong Postez maintenant le cavalier sur une case depuis laquelle il couvre à la fois e4 et g4.][%hint Quelle est la case magique du cavalier ?] Beau travail ! En protégeant le pion e4, ce cavalier aide à tenir le fort centre blanc. Ce plan empêche également les noirs de jouer ...Fg4 et se prémunit contre l'idée ...Cg4 sur Fe3. Ding Liren finira par remporter cette partie.",
+        "Bien essayé, mais cette case n'est pas pérenne pour le cavalier. Trouvez-lui une autre case d'où il pourra défendre à la fois e4 et g4."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp2pp1p/2pp1np1/3Pn3/2P1P3/2N2P2/PP4PP/R1BQKBNR w KQkq - 0 7\"]\r\n\r\n{Dans cette partie entre GMI, le chinois Ding Liren conduit les pièces blanches. Il souhaite étendre son contrôle central. Trouvez le coup qui gagne un tempo contre le cavalier e5 tout en prenant de l'espace.}\r\n7.f4\r\n    {[%wrong Ce coup n'attaque pas le cavalier e5 en gagnant de l'espace. Cherchez encore !][%hint Cherchez un coup de pion...]}\r\n7...Ned7\r\n    {Bien vu ! Le GMI Peter Svidler se prépare à jouer ...Cc5 pour attaquer notre pion faible e4. Nous voulons déplacer notre cavalier g1 pour qu'il protège à la fois e4 et g4. Mais hâtez-vous, nous n'avons que deux coups !}\r\n8.Nh3\r\n    {[%wrong Nous sommes à la recherche d'un plan amenant le cavalier g1 sur une case depuis laquelle il couvrirait à la fois e4 et g4. Cherchez encore !][%hint La case f2 semble parfaitement indiquée... Comment l'atteindre en deux coups ?]}\r\n    (8.Nge2 $6 Nc5 {Sur 9. Cg3, les noirs ont la très forte réponse 9...h5!, qui prépare l'attaque du cavalier. Trouvez une autre case pour le cavalier g1 !})\r\n8...Nc5\r\n    {Vous avez trouvé l'idée du grand-maître, bien joué ! Suivons notre plan.}\r\n9.Nf2\r\n    {[%wrong Postez maintenant le cavalier sur une case depuis laquelle il couvre à la fois e4 et g4.][%hint Quelle est la case magique du cavalier ?] Beau travail ! En protégeant le pion e4, ce cavalier aide à tenir le fort centre blanc. Ce plan empêche également les noirs de jouer ...Fg4 et se prémunit contre l'idée ...Cg4 sur Fe3. Ding Liren finira par remporter cette partie.}\r\n    (9.Ng5 $2 h6 {Bien essayé, mais cette case n'est pas pérenne pour le cavalier. Trouvez-lui une autre case d'où il pourra défendre à la fois e4 et g4.})\r\n*"
+    },
+    {
+      "fen": "1r3q2/1pp2pbk/p1n2npp/4p3/P3P3/N1P1BB1P/1P3PP1/2QR2K1 b - - 0 17",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs manquent d'espace, et leur fou g7 est beaucoup moins actif que son homologue blanc en e3. Comment échanger ces fous ?",
+        "[%wrong Ce coup ne prépare pas l'échange des fous de cases noires. Cherchez encore !][%hint Comment préparer l'arrivée de notre fou sur la diagonale c1-h6 ?]",
+        "Très bonne idée ! Les noirs ouvrent la diagonale c1-h6. Forçons maintenant l'échange des fous !",
+        "[%wrong Ce coup ne prépare pas l'échange des fous de cases noires. Cherchez encore !][%hint La case h6 est désormais vacante...] Bien joué ! Les noirs vont échanger leur fou passif contre le fou actif des blancs. La position est très solide."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3q2/1pp2pbk/p1n2npp/4p3/P3P3/N1P1BB1P/1P3PP1/2QR2K1 b - - 0 17\"]\r\n\r\n{Les noirs manquent d'espace, et leur fou g7 est beaucoup moins actif que son homologue blanc en e3. Comment échanger ces fous ?}\r\n17...h5\r\n    {[%wrong Ce coup ne prépare pas l'échange des fous de cases noires. Cherchez encore !][%hint Comment préparer l'arrivée de notre fou sur la diagonale c1-h6 ?]}\r\n18.Nc2\r\n    {Très bonne idée ! Les noirs ouvrent la diagonale c1-h6. Forçons maintenant l'échange des fous !}\r\n18...Bh6\r\n    {[%wrong Ce coup ne prépare pas l'échange des fous de cases noires. Cherchez encore !][%hint La case h6 est désormais vacante...] Bien joué ! Les noirs vont échanger leur fou passif contre le fou actif des blancs. La position est très solide.}\r\n*"
+    },
+    {
+      "fen": "rnbqk1r1/4ppb1/1n1p2p1/p1pP2P1/PpP1P3/5N2/1P2BP2/RNBQK2R b KQq c3 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le conducteur des pièces noires est le grand-maître américain Yasser Seirawan. Dans cette position fermée, la seule ligne ouverte est la colonne h. Trouvez le superbe plan choisi par Yasser pour prendre le contrôle de cette colonne avec une pièce majeure au prochain coup !",
+        "[%wrong Ce coup ne nous aide pas à prendre le contrôle de la colonne h. Cherchez encore !][%hint Le roi noir gêne la connexion entre la dame noire et sa tour...]",
+        "Les noirs sont toujours mieux dans cette position, mais il serait préférable de garder une pièce majeure sur la colonne h. Comment connecter la tour et la dame pour matérialiser cette idée ?",
+        "Bravo ! Vous avez trouvé l'idée créative du grand-maître ! Le roi noir est parfaitement en sécurité dans cette position très fermée. Maintenant que la dame et la tour sont connectées, prenons le contrôle de la colonne h !",
+        "[%wrong Ce coup ne prend pas le contrôle de la colonne h. Cherchez encore !][%hint Nous avons connecté nos pièces majeures pour prendre le contrôle de la colonne h. Mettez-y votre tour !]",
+        "Bien joué ! Dans cette position, le GMI Kovacevic a joué Tg1, abandonnant à Yasser le contrôle de la colonne h. L'américain l'avait emporté. Mais comment aurait-il pu prendre pour de bon le contrôle de la colonne si les blancs avaient tenté de contrer son plan par 16.Ch4 ?",
+        "[%wrong Ce coup n'augmente pas la pression sur la colonne h. N'oubliez pas de placer votre tour sur une case sure !][%hint Comment créer une batterie tour-dame sur la colonne h ?]",
+        "Malin ! Les noirs se préparent à doubler sur la colonne h. Les blancs ne peuvent pas stopper notre plan. Allons jusqu'au bout !",
+        "[%wrong Ce coup ne double pas les pièces lourdes sur la colonne h. Essayez encore !][%hint Trouvez un coup de dame créant une batterie tour-dame et une batterie fou-dame en même temps !] Quel jeu positionnel ! La dame noire se positionne sur deux batteries en même temps ! Celle sur la colonne h menace de prendre le cavalier, tandis que celle sur la grande diagonale se prépare à encaisser le pion b2. Il est trop tard pour contrecarrer ce plan puissant, bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk1r1/4ppb1/1n1p2p1/p1pP2P1/PpP1P3/5N2/1P2BP2/RNBQK2R b KQq c3 0 14\"]\r\n\r\n{Le conducteur des pièces noires est le grand-maître américain Yasser Seirawan. Dans cette position fermée, la seule ligne ouverte est la colonne h. Trouvez le superbe plan choisi par Yasser pour prendre le contrôle de cette colonne avec une pièce majeure au prochain coup !}\r\n14...Kd7\r\n    {[%wrong Ce coup ne nous aide pas à prendre le contrôle de la colonne h. Cherchez encore !][%hint Le roi noir gêne la connexion entre la dame noire et sa tour...]}\r\n    (14...Rh8 $6 15.Rxh8+ {Les noirs sont toujours mieux dans cette position, mais il serait préférable de garder une pièce majeure sur la colonne h. Comment connecter la tour et la dame pour matérialiser cette idée ?})\r\n15.Nbd2\r\n    {Bravo ! Vous avez trouvé l'idée créative du grand-maître ! Le roi noir est parfaitement en sécurité dans cette position très fermée. Maintenant que la dame et la tour sont connectées, prenons le contrôle de la colonne h !}\r\n15...Rh8\r\n    {[%wrong Ce coup ne prend pas le contrôle de la colonne h. Cherchez encore !][%hint Nous avons connecté nos pièces majeures pour prendre le contrôle de la colonne h. Mettez-y votre tour !]}\r\n16.Nh4\r\n    {Bien joué ! Dans cette position, le GMI Kovacevic a joué Tg1, abandonnant à Yasser le contrôle de la colonne h. L'américain l'avait emporté. Mais comment aurait-il pu prendre pour de bon le contrôle de la colonne si les blancs avaient tenté de contrer son plan par 16.Ch4 ?}\r\n16...Rh7\r\n    {[%wrong Ce coup n'augmente pas la pression sur la colonne h. N'oubliez pas de placer votre tour sur une case sure !][%hint Comment créer une batterie tour-dame sur la colonne h ?]}\r\n17.f4\r\n    {Malin ! Les noirs se préparent à doubler sur la colonne h. Les blancs ne peuvent pas stopper notre plan. Allons jusqu'au bout !}\r\n17...Qh8\r\n    {[%wrong Ce coup ne double pas les pièces lourdes sur la colonne h. Essayez encore !][%hint Trouvez un coup de dame créant une batterie tour-dame et une batterie fou-dame en même temps !] Quel jeu positionnel ! La dame noire se positionne sur deux batteries en même temps ! Celle sur la colonne h menace de prendre le cavalier, tandis que celle sur la grande diagonale se prépare à encaisser le pion b2. Il est trop tard pour contrecarrer ce plan puissant, bien joué !}\r\n    \r\n    \r\n*"
+    },
+    {
+      "fen": "k1KN4/8/8/8/1p6/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion passé des noirs est sur le point de filer à dame ! Il va nous falloir activer notre cavalier avec précision pour empêcher la promotion. Quel plan adopter ?",
+        "[%wrong Ce coup ne nous permet pas de rattraper le pion noir à temps. Cherchez encore !][%hint Mettez votre cavalier sur une case où il pourra mettre le roi noir en échec au prochain coup, ce qui lui permettra d'arriver à temps sur une case où il contrôlera la case de promotion.]",
+        "Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !",
+        "Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !",
+        "Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !",
+        "Bien vu ! Le cavalier ne peut pas directement rattraper le pion, mais en suivant notre plan, nous allons réussir à le placer sur une case où il contrôlera la case de promotion. A vous de jouer !",
+        "[%wrong Ce coup ne nous permet pas de rattraper le pion noir à temps. Cherchez encore !][%hint Comment gagner un tempo sur le roi noir pour se préparer à nous rapprocher du pion passé ?]",
+        "Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !",
+        "Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !",
+        "Excellent ! Les blancs gagnent un tempo sur le roi noir, comment gagner un autre tempo et se préparer à contrôler la case de promotion ?",
+        "[%wrong Ce coup ne gagne pas de tempo sur le roi noir. Cherchez encore !][%hint Quel est le seul échec des blancs dans cette position ?]",
+        "Superbe coup ! Mettre le cavalier en c3 met un point final à notre plan. Trouvez maintenant un autre coup qui accompli la même tâche, mais en mettant en échec le roi noir.",
+        "C'est parfait ! Terminons ce plan en beauté en contrôlant la case de promotion.",
+        "[%wrong Ce coup ne permet pas au cavalier de contrôler la case de promotion. Cherchez encore !][%hint Où placer votre cavalier pour qu'il couvre la case b1 ?] Mission accomplie ! Le cavalier va garder un oeil sur la case b1. Les noirs ne vont jamais pouvoir promouvoir leur pion, car nous pourrons sacrificer notre cavalier contre la nouvelle pièce. Ce plan nous a permis de tenir la partie nulle. Bien joué !",
+        "Très bien ! Ce coup fonctionne également. Jouez maintenant l'autre coup de cavalier protégeant la case b1."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1KN4/8/8/8/1p6/8/8/8 w - - 0 1\"]\r\n\r\n{Le pion passé des noirs est sur le point de filer à dame ! Il va nous falloir activer notre cavalier avec précision pour empêcher la promotion. Quel plan adopter ?}\r\n1.Ne6\r\n    {[%wrong Ce coup ne nous permet pas de rattraper le pion noir à temps. Cherchez encore !][%hint Mettez votre cavalier sur une case où il pourra mettre le roi noir en échec au prochain coup, ce qui lui permettra d'arriver à temps sur une case où il contrôlera la case de promotion.]}\r\n    (1.Nc6 $2 b3 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n    (1.Nb7 $2 b3 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n    (1.Nf7 $2 b3 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n1...b3\r\n    {Bien vu ! Le cavalier ne peut pas directement rattraper le pion, mais en suivant notre plan, nous allons réussir à le placer sur une case où il contrôlera la case de promotion. A vous de jouer !}\r\n2.Nc7+\r\n    {[%wrong Ce coup ne nous permet pas de rattraper le pion noir à temps. Cherchez encore !][%hint Comment gagner un tempo sur le roi noir pour se préparer à nous rapprocher du pion passé ?]}\r\n    (2.Nd4 $2 b2 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n    (2.Nc5 $2 b2 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n2...Ka7\r\n    {Excellent ! Les blancs gagnent un tempo sur le roi noir, comment gagner un autre tempo et se préparer à contrôler la case de promotion ?}\r\n3.Nb5+\r\n    {[%wrong Ce coup ne gagne pas de tempo sur le roi noir. Cherchez encore !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n    (3.Nd5 $5 {Superbe coup ! Mettre le cavalier en c3 met un point final à notre plan. Trouvez maintenant un autre coup qui accompli la même tâche, mais en mettant en échec le roi noir.})\r\n3...Kb6\r\n    {C'est parfait ! Terminons ce plan en beauté en contrôlant la case de promotion.}\r\n4.Nc3\r\n    {[%wrong Ce coup ne permet pas au cavalier de contrôler la case de promotion. Cherchez encore !][%hint Où placer votre cavalier pour qu'il couvre la case b1 ?] Mission accomplie ! Le cavalier va garder un oeil sur la case b1. Les noirs ne vont jamais pouvoir promouvoir leur pion, car nous pourrons sacrificer notre cavalier contre la nouvelle pièce. Ce plan nous a permis de tenir la partie nulle. Bien joué !}\r\n    (4.Na3 $5 {Très bien ! Ce coup fonctionne également. Jouez maintenant l'autre coup de cavalier protégeant la case b1.})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "fce374c4-9ceb-11e8-b26c-4b56f184a08b",
+    "name": "Construire un plan",
+    "path": "construire-un-plan",
+    "description": "Lorsque vous ne savez pas quoi faire, trouvez votre pièce la plus mal placée et améliorez-la. Une fois toutes vos pièces placées sont sur de bonnes cases, les moyens tactiques de gagner du matériel seront légions.",
+    "glyphName": "layout-list-check-complete",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-making-a-plan-j1d.mp4",
+    "fen": "2kr3r/1pp2p2/p1nqpn1p/5bp1/P2P4/2PB1N1P/1P2NPP1/R2Q1RK1 b - - 0 14",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/1p3ppp/p1nbpn2/3p3b/3P4/2N1PN1P/PP2BPP1/R1BQR1K1 b kq - 3 11\"]\r\n\r\n{Nous jouons avec les pièces noires. Le plan de rêve serait de créer une attaque à l'aile roi en jouant ...Fb8 et ...Dd6. Faut-il mettre immédiatement le fou en b8, ou bien développer une autre pièce avant ?}\r\n11...Rc8\r\n    {[%wrong Ce coup ne prépare pas la création d'une batterie dame-fou. Cherchez encore !][%hint En mettant immédiatement notre fou en b8, nous empêcherions une pièce très forte de se développer !]}\r\n    (11...Bb8 $6 {Bien essayé, mais notre tour a8 aimerait bien entrer en jeu pour participer à l'attaque ! Comment l'activer avant de mettre en place notre batterie ?})\r\n    (11...Bc7 $5 {Une idée intéressante, mais il serait préférable de contrôler la colonne c avec une tour. Activez votre tour a8 avant de créer une batterie dame-fou.})\r\n    (11...O-O $5 {Il est souvent intéressant de mettre son roi en sécurité avant de lancer une attaque. Trouvez maintenant un autre coup activant votre tour a8 et préparant la création d'une batterie dame-fou.})\r\n12.a3\r\n    {Bien joué ! Nous devons bien activer toutes nos pièces avant de nous lancer dans ce plan. Il est maintenant de créer notre puissante batterie dame-fou !}\r\n12...Bb8\r\n    {[%wrong Maintenant que notre tour est active en c8, mettons le fou en b8 comme nous l'avons planifié.][%hint Maintenant que notre tour est active en c8, mettons le fou en b8 comme nous l'avons planifié.]}\r\n13.Nh2\r\n    {Parfait ! Nous souhaitons toujours créer notre puissante batterie offensive, mais le dernier coup des blancs contrecarre-t-il nos plans ?}\r\n13...Qd6\r\n    {[%wrong Non, continuons à suivre notre plan !][%hint Suivons le plan prévu !] Notre plan se matérialise enfin. Les noirs ont une belle attaque potentielle et une forte position.}\r\n    (13...Bxe2 $5 {Échanger les fous ? Ce n'est pas une mauvaise idée, mais pour le moment, tenons-nous en au plan initial !})\r\n    (13...Qc7 $5 {Ce coup est également jouable, bien vu ! Cependant, dans cet exercice, nous allons mettre le dame sur d6. Jouez ce coup.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp2pp1p/2pp1np1/3Pn3/2P1P3/2N2P2/PP4PP/R1BQKBNR w KQkq - 0 7\"]\r\n\r\n{Dans cette partie entre GMI, le chinois Ding Liren conduit les pièces blanches. Il souhaite étendre son contrôle central. Trouvez le coup qui gagne un tempo contre le cavalier e5 tout en prenant de l'espace.}\r\n7.f4\r\n    {[%wrong Ce coup n'attaque pas le cavalier e5 en gagnant de l'espace. Cherchez encore !][%hint Cherchez un coup de pion...]}\r\n7...Ned7\r\n    {Bien vu ! Le GMI Peter Svidler se prépare à jouer ...Cc5 pour attaquer notre pion faible e4. Nous voulons déplacer notre cavalier g1 pour qu'il protège à la fois e4 et g4. Mais hâtez-vous, nous n'avons que deux coups !}\r\n8.Nh3\r\n    {[%wrong Nous sommes à la recherche d'un plan amenant le cavalier g1 sur une case depuis laquelle il couvrirait à la fois e4 et g4. Cherchez encore !][%hint La case f2 semble parfaitement indiquée... Comment l'atteindre en deux coups ?]}\r\n    (8.Nge2 $6 Nc5 {Sur 9. Cg3, les noirs ont la très forte réponse 9...h5!, qui prépare l'attaque du cavalier. Trouvez une autre case pour le cavalier g1 !})\r\n8...Nc5\r\n    {Vous avez trouvé l'idée du grand-maître, bien joué ! Suivons notre plan.}\r\n9.Nf2\r\n    {[%wrong Postez maintenant le cavalier sur une case depuis laquelle il couvre à la fois e4 et g4.][%hint Quelle est la case magique du cavalier ?] Beau travail ! En protégeant le pion e4, ce cavalier aide à tenir le fort centre blanc. Ce plan empêche également les noirs de jouer ...Fg4 et se prémunit contre l'idée ...Cg4 sur Fe3. Ding Liren finira par remporter cette partie.}\r\n    (9.Ng5 $2 h6 {Bien essayé, mais cette case n'est pas pérenne pour le cavalier. Trouvez-lui une autre case d'où il pourra défendre à la fois e4 et g4.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3q2/1pp2pbk/p1n2npp/4p3/P3P3/N1P1BB1P/1P3PP1/2QR2K1 b - - 0 17\"]\r\n\r\n{Les noirs manquent d'espace, et leur fou g7 est beaucoup moins actif que son homologue blanc en e3. Comment échanger ces fous ?}\r\n17...h5\r\n    {[%wrong Ce coup ne prépare pas l'échange des fous de cases noires. Cherchez encore !][%hint Comment préparer l'arrivée de notre fou sur la diagonale c1-h6 ?]}\r\n18.Nc2\r\n    {Très bonne idée ! Les noirs ouvrent la diagonale c1-h6. Forçons maintenant l'échange des fous !}\r\n18...Bh6\r\n    {[%wrong Ce coup ne prépare pas l'échange des fous de cases noires. Cherchez encore !][%hint La case h6 est désormais vacante...] Bien joué ! Les noirs vont échanger leur fou passif contre le fou actif des blancs. La position est très solide.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk1r1/4ppb1/1n1p2p1/p1pP2P1/PpP1P3/5N2/1P2BP2/RNBQK2R b KQq c3 0 14\"]\r\n\r\n{Le conducteur des pièces noires est le grand-maître américain Yasser Seirawan. Dans cette position fermée, la seule ligne ouverte est la colonne h. Trouvez le superbe plan choisi par Yasser pour prendre le contrôle de cette colonne avec une pièce majeure au prochain coup !}\r\n14...Kd7\r\n    {[%wrong Ce coup ne nous aide pas à prendre le contrôle de la colonne h. Cherchez encore !][%hint Le roi noir gêne la connexion entre la dame noire et sa tour...]}\r\n    (14...Rh8 $6 15.Rxh8+ {Les noirs sont toujours mieux dans cette position, mais il serait préférable de garder une pièce majeure sur la colonne h. Comment connecter la tour et la dame pour matérialiser cette idée ?})\r\n15.Nbd2\r\n    {Bravo ! Vous avez trouvé l'idée créative du grand-maître ! Le roi noir est parfaitement en sécurité dans cette position très fermée. Maintenant que la dame et la tour sont connectées, prenons le contrôle de la colonne h !}\r\n15...Rh8\r\n    {[%wrong Ce coup ne prend pas le contrôle de la colonne h. Cherchez encore !][%hint Nous avons connecté nos pièces majeures pour prendre le contrôle de la colonne h. Mettez-y votre tour !]}\r\n16.Nh4\r\n    {Bien joué ! Dans cette position, le GMI Kovacevic a joué Tg1, abandonnant à Yasser le contrôle de la colonne h. L'américain l'avait emporté. Mais comment aurait-il pu prendre pour de bon le contrôle de la colonne si les blancs avaient tenté de contrer son plan par 16.Ch4 ?}\r\n16...Rh7\r\n    {[%wrong Ce coup n'augmente pas la pression sur la colonne h. N'oubliez pas de placer votre tour sur une case sure !][%hint Comment créer une batterie tour-dame sur la colonne h ?]}\r\n17.f4\r\n    {Malin ! Les noirs se préparent à doubler sur la colonne h. Les blancs ne peuvent pas stopper notre plan. Allons jusqu'au bout !}\r\n17...Qh8\r\n    {[%wrong Ce coup ne double pas les pièces lourdes sur la colonne h. Essayez encore !][%hint Trouvez un coup de dame créant une batterie tour-dame et une batterie fou-dame en même temps !] Quel jeu positionnel ! La dame noire se positionne sur deux batteries en même temps ! Celle sur la colonne h menace de prendre le cavalier, tandis que celle sur la grande diagonale se prépare à encaisser le pion b2. Il est trop tard pour contrecarrer ce plan puissant, bien joué !}\r\n    \r\n    \r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1KN4/8/8/8/1p6/8/8/8 w - - 0 1\"]\r\n\r\n{Le pion passé des noirs est sur le point de filer à dame ! Il va nous falloir activer notre cavalier avec précision pour empêcher la promotion. Quel plan adopter ?}\r\n1.Ne6\r\n    {[%wrong Ce coup ne nous permet pas de rattraper le pion noir à temps. Cherchez encore !][%hint Mettez votre cavalier sur une case où il pourra mettre le roi noir en échec au prochain coup, ce qui lui permettra d'arriver à temps sur une case où il contrôlera la case de promotion.]}\r\n    (1.Nc6 $2 b3 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n    (1.Nb7 $2 b3 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n    (1.Nf7 $2 b3 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n1...b3\r\n    {Bien vu ! Le cavalier ne peut pas directement rattraper le pion, mais en suivant notre plan, nous allons réussir à le placer sur une case où il contrôlera la case de promotion. A vous de jouer !}\r\n2.Nc7+\r\n    {[%wrong Ce coup ne nous permet pas de rattraper le pion noir à temps. Cherchez encore !][%hint Comment gagner un tempo sur le roi noir pour se préparer à nous rapprocher du pion passé ?]}\r\n    (2.Nd4 $2 b2 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n    (2.Nc5 $2 b2 {Bien essayé, mais notre cavalier ne va pas pouvoir rattraper le pion à temps. Cherchez encore !})\r\n2...Ka7\r\n    {Excellent ! Les blancs gagnent un tempo sur le roi noir, comment gagner un autre tempo et se préparer à contrôler la case de promotion ?}\r\n3.Nb5+\r\n    {[%wrong Ce coup ne gagne pas de tempo sur le roi noir. Cherchez encore !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n    (3.Nd5 $5 {Superbe coup ! Mettre le cavalier en c3 met un point final à notre plan. Trouvez maintenant un autre coup qui accompli la même tâche, mais en mettant en échec le roi noir.})\r\n3...Kb6\r\n    {C'est parfait ! Terminons ce plan en beauté en contrôlant la case de promotion.}\r\n4.Nc3\r\n    {[%wrong Ce coup ne permet pas au cavalier de contrôler la case de promotion. Cherchez encore !][%hint Où placer votre cavalier pour qu'il couvre la case b1 ?] Mission accomplie ! Le cavalier va garder un oeil sur la case b1. Les noirs ne vont jamais pouvoir promouvoir leur pion, car nous pourrons sacrificer notre cavalier contre la nouvelle pièce. Ce plan nous a permis de tenir la partie nulle. Bien joué !}\r\n    (4.Na3 $5 {Très bien ! Ce coup fonctionne également. Jouez maintenant l'autre coup de cavalier protégeant la case b1.})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Avoir un plan aux échecs est indispensable. ",
+    "outroText": "Une bonne idée est de chercher sa moins bonne pièce et de trouver comment l'échanger.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "38f26bc8-83b5-11e8-90a6-a710cf22b982",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/making-a-plan5e7ab0a300102.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/making-a-plan-566886a76b3679.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/making-a-plan-15ea23fee0b1d9.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/making-a-plan-2603e6ea6e48fa.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 95,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

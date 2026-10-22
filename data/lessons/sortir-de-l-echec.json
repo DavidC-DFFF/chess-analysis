@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/sortir-de-l-echec",
+  "capturedAt": "2026-10-22T13:42:29.434Z",
+  "title": "Parer un échec",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/4q3/8/4K3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e3c1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;c1;persistent;true,e3e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;e1;persistent;true,e3g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g1;persistent;true]Si votre roi est en échec, vous devez vous enfuir.",
+        "[%wrong Impossible.][%hint Déplacez votre roi sur une case qui n'est pas protégée par la dame.] Beau travail pour échapper à l'échec de la dame !",
+        "Beau travail pour esquiver l'échec de la dame !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/4q3/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_arrow e3c1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;c1;persistent;true,e3e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;e1;persistent;true,e3g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g1;persistent;true]Si votre roi est en échec, vous devez vous enfuir.} 1. Kf1 {[%wrong Impossible.][%hint Déplacez votre roi sur une case qui n'est pas protégée par la dame.] Beau travail pour échapper à l'échec de la dame !} (1. Kd1!! {Beau travail pour esquiver l'échec de la dame !}) *"
+    },
+    {
+      "fen": "8/8/8/4q3/7n/4K3/1r6/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Veille à éviter toutes les pièces.",
+        "[%wrong Impossible.][%hint Trouvez la seule case qui n'est pas protégée par la dame, la tour ou le cavalier.]C'est la seule case sûre et vous l'avez trouvée — excellent travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/4q3/7n/4K3/1r6/8 w - - 0 1\"]\r\n\r\n{Veille à éviter toutes les pièces.} 1. Kd3 {[%wrong Impossible.][%hint Trouvez la seule case qui n'est pas protégée par la dame, la tour ou le cavalier.]C'est la seule case sûre et vous l'avez trouvée — excellent travail !} *"
+    },
+    {
+      "fen": "8/8/8/4q3/8/2N5/8/4K3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c3e2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;e2;persistent;true]Une autre option est de parer un échec avec l'une de vos pièces.",
+        "[%wrong Bien essayé, mais nous nous concentrons sur la parade de l'échec en toute sécurité avec le cavalier.][%hint Déplacez votre cavalier sur une case protégée par le roi.]Excellent coup ! Votre cavalier protège le roi de l'échec de la dame en toute sécurité.",
+        "Vous avez la bonne idée, mais ce coup perd le cavalier. Cherchez une case plus sûre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/4q3/8/2N5/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_arrow c3e2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;e2;persistent;true]Une autre option est de parer un échec avec l'une de vos pièces.} 1. Ne2 {[%wrong Bien essayé, mais nous nous concentrons sur la parade de l'échec en toute sécurité avec le cavalier.][%hint Déplacez votre cavalier sur une case protégée par le roi.]Excellent coup ! Votre cavalier protège le roi de l'échec de la dame en toute sécurité.} (1. Ne4? Qxe4+ {Vous avez la bonne idée, mais ce coup perd le cavalier. Cherchez une case plus sûre.}) *"
+    },
+    {
+      "fen": "7k/8/7B/8/8/3q4/8/2RKR3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pare l'échec.",
+        "[%wrong Impossible.][%hint Trouvez le seul coup qui pare l'attaque de la dame contre votre roi.]Bien vu ! Le fou protège votre roi."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/7B/8/8/3q4/8/2RKR3 w - - 0 1\"]\r\n\r\n{Pare l'échec.} 1. Bd2 {[%wrong Impossible.][%hint Trouvez le seul coup qui pare l'attaque de la dame contre votre roi.]Bien vu ! Le fou protège votre roi.} *"
+    },
+    {
+      "fen": "r1n1k2r/p1pp1ppp/2p2q2/8/1b2P3/6N1/PPP1BPPP/R2QK2R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pare l'échec, mais ne donne pas une pièce importante !",
+        "[%c_highlight b4;color;%23eb6150;opacity;0.8;square;b4;persistent;true][%hint Le fou ne sera pas content de voir un pion bloquer son chemin. ][%wrong Impossible.]Très bien ! Votre pion pare l'échec tout en attaquant le fou.",
+        "Bien essayé, mais ce coup perd votre puissante dame. Essayez de parer l'échec avec quelque chose de moins précieux.",
+        "Bon effort, mais maintenant votre roi ne peut plus roquer. Essayez de trouver un moyen de bloquer l'échec du fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1n1k2r/p1pp1ppp/2p2q2/8/1b2P3/6N1/PPP1BPPP/R2QK2R w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/33SoPRpF9p/analysis\"]\r\n\r\n{Pare l'échec, mais ne donne pas une pièce importante !} 1. c3 {[%c_highlight b4;color;%23eb6150;opacity;0.8;square;b4;persistent;true][%hint Le fou ne sera pas content de voir un pion bloquer son chemin. ][%wrong Impossible.]Très bien ! Votre pion pare l'échec tout en attaquant le fou.} (1. Qd2? Bxd2+ {Bien essayé, mais ce coup perd votre puissante dame. Essayez de parer l'échec avec quelque chose de moins précieux.}) (1. Kf1? {Bon effort, mais maintenant votre roi ne peut plus roquer. Essayez de trouver un moyen de bloquer l'échec du fou.}) *"
+    },
+    {
+      "fen": "8/8/8/8/4q3/2N5/8/4K3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c3e4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;e4;persistent;true]Parfois, vous pouvez même prendre la pièce qui fait échec.",
+        "[%wrong Bien essayé, mais ce coup ne prend pas la dame. Réessaye.][%hint Quelle pièce peut prendre la dame ?] Le cavalier élimine la dangereuse dame — bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4q3/2N5/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_arrow c3e4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;e4;persistent;true]Parfois, vous pouvez même prendre la pièce qui fait échec.} 1. Nxe4 {[%wrong Bien essayé, mais ce coup ne prend pas la dame. Réessaye.][%hint Quelle pièce peut prendre la dame ?] Le cavalier élimine la dangereuse dame — bien joué !} *"
+    },
+    {
+      "fen": "8/7B/8/8/4q3/8/8/6RK w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle est la meilleure façon de parer cet échec ?",
+        "[%wrong C'est un coup raisonnable, mais pouvez-vous trouver un moyen d'éliminer la pièce qui attaque ?][%hint La dame attaque votre roi — pouvez-vous éliminer la pièce qui fait échec ?] Excellent ! Le fou prend la pièce qui fait échec."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/7B/8/8/4q3/8/8/6RK w - - 0 1\"]\r\n\r\n{Quelle est la meilleure façon de parer cet échec ?} 1. Bxe4 {[%wrong C'est un coup raisonnable, mais pouvez-vous trouver un moyen d'éliminer la pièce qui attaque ?][%hint La dame attaque votre roi — pouvez-vous éliminer la pièce qui fait échec ?] Excellent ! Le fou prend la pièce qui fait échec.} *"
+    },
+    {
+      "fen": "rnb1k1nr/pppp1ppp/8/2b5/4PB1q/3P1N2/PPP3PP/RN1QKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle est la meilleure façon de parer cet échec ?",
+        "[%hint La dame attaque votre roi, mais est-elle sur une case sûre ?][%wrong Bien essayé, mais il existe une meilleure façon de parer l'échec. Essayez d'éliminer la pièce qui fait échec.] Fantastique ! Le cavalier gagne la dame.",
+        "Parer l'échec tout en attaquant la dame est une bonne idée. Trouvons un moyen de gagner la dame immédiatement.",
+        "Parer l'échec avec le pion est une idée correcte, mais trouvons un moyen de gagner la dame immédiatement.",
+        "Cela permet un mat sournois. Trouvons un autre coup qui gagne la dame."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1k1nr/pppp1ppp/8/2b5/4PB1q/3P1N2/PPP3PP/RN1QKB1R w KQkq - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2QaV9HK1hp/analysis\"]\r\n\r\n{Quelle est la meilleure façon de parer cet échec ?} 1. Nxh4 {[%hint La dame attaque votre roi, mais est-elle sur une case sûre ?][%wrong Bien essayé, mais il existe une meilleure façon de parer l'échec. Essayez d'éliminer la pièce qui fait échec.] Fantastique ! Le cavalier gagne la dame.} (1. Bg3? {Parer l'échec tout en attaquant la dame est une bonne idée. Trouvons un moyen de gagner la dame immédiatement.}) (1. g3? {Parer l'échec avec le pion est une idée correcte, mais trouvons un moyen de gagner la dame immédiatement.}) (1. Ke2? Qf2# {Cela permet un mat sournois. Trouvons un autre coup qui gagne la dame.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c286-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Parer un échec",
+    "path": "sortir-de-l-echec",
+    "description": "L'échec signifie que votre roi est en danger — apprenez les meilleures façons de parer un échec.",
+    "glyphName": "piece-rush-right-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/4q3/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_arrow e3c1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;c1;persistent;true,e3e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;e1;persistent;true,e3g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g1;persistent;true]Si votre roi est en échec, vous devez vous enfuir.} 1. Kf1 {[%wrong Impossible.][%hint Déplacez votre roi sur une case qui n'est pas protégée par la dame.] Beau travail pour échapper à l'échec de la dame !} (1. Kd1!! {Beau travail pour esquiver l'échec de la dame !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/4q3/7n/4K3/1r6/8 w - - 0 1\"]\r\n\r\n{Veille à éviter toutes les pièces.} 1. Kd3 {[%wrong Impossible.][%hint Trouvez la seule case qui n'est pas protégée par la dame, la tour ou le cavalier.]C'est la seule case sûre et vous l'avez trouvée — excellent travail !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/4q3/8/2N5/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_arrow c3e2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;e2;persistent;true]Une autre option est de parer un échec avec l'une de vos pièces.} 1. Ne2 {[%wrong Bien essayé, mais nous nous concentrons sur la parade de l'échec en toute sécurité avec le cavalier.][%hint Déplacez votre cavalier sur une case protégée par le roi.]Excellent coup ! Votre cavalier protège le roi de l'échec de la dame en toute sécurité.} (1. Ne4? Qxe4+ {Vous avez la bonne idée, mais ce coup perd le cavalier. Cherchez une case plus sûre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/7B/8/8/3q4/8/2RKR3 w - - 0 1\"]\r\n\r\n{Pare l'échec.} 1. Bd2 {[%wrong Impossible.][%hint Trouvez le seul coup qui pare l'attaque de la dame contre votre roi.]Bien vu ! Le fou protège votre roi.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1n1k2r/p1pp1ppp/2p2q2/8/1b2P3/6N1/PPP1BPPP/R2QK2R w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/33SoPRpF9p/analysis\"]\r\n\r\n{Pare l'échec, mais ne donne pas une pièce importante !} 1. c3 {[%c_highlight b4;color;%23eb6150;opacity;0.8;square;b4;persistent;true][%hint Le fou ne sera pas content de voir un pion bloquer son chemin. ][%wrong Impossible.]Très bien ! Votre pion pare l'échec tout en attaquant le fou.} (1. Qd2? Bxd2+ {Bien essayé, mais ce coup perd votre puissante dame. Essayez de parer l'échec avec quelque chose de moins précieux.}) (1. Kf1? {Bon effort, mais maintenant votre roi ne peut plus roquer. Essayez de trouver un moyen de bloquer l'échec du fou.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4q3/2N5/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_arrow c3e4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;e4;persistent;true]Parfois, vous pouvez même prendre la pièce qui fait échec.} 1. Nxe4 {[%wrong Bien essayé, mais ce coup ne prend pas la dame. Réessaye.][%hint Quelle pièce peut prendre la dame ?] Le cavalier élimine la dangereuse dame — bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/7B/8/8/4q3/8/8/6RK w - - 0 1\"]\r\n\r\n{Quelle est la meilleure façon de parer cet échec ?} 1. Bxe4 {[%wrong C'est un coup raisonnable, mais pouvez-vous trouver un moyen d'éliminer la pièce qui attaque ?][%hint La dame attaque votre roi — pouvez-vous éliminer la pièce qui fait échec ?] Excellent ! Le fou prend la pièce qui fait échec.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1k1nr/pppp1ppp/8/2b5/4PB1q/3P1N2/PPP3PP/RN1QKB1R w KQkq - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2QaV9HK1hp/analysis\"]\r\n\r\n{Quelle est la meilleure façon de parer cet échec ?} 1. Nxh4 {[%hint La dame attaque votre roi, mais est-elle sur une case sûre ?][%wrong Bien essayé, mais il existe une meilleure façon de parer l'échec. Essayez d'éliminer la pièce qui fait échec.] Fantastique ! Le cavalier gagne la dame.} (1. Bg3? {Parer l'échec tout en attaquant la dame est une bonne idée. Trouvons un moyen de gagner la dame immédiatement.}) (1. g3? {Parer l'échec avec le pion est une idée correcte, mais trouvons un moyen de gagner la dame immédiatement.}) (1. Ke2? Qf2# {Cela permet un mat sournois. Trouvons un autre coup qui gagne la dame.}) *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenons les meilleures façons de parer un échec !",
+    "outroText": "Beau travail pour avoir habilement évité les échecs mortels dans cette leçon. Votre roi vous remercie !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "19758bba-1c9e-11f1-bf13-8b447db3e706"
+  },
+  "curriculum": {
+    "number": 25,
+    "order": 13,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

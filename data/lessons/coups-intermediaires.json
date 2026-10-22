@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/coups-intermediaires",
+  "capturedAt": "2026-10-22T13:42:37.142Z",
+  "title": "Coups intermédiaires",
+  "exercises": [
+    {
+      "fen": "5k2/1p6/2p4n/8/2P5/1P6/3B1r2/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow h6f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;h6;to;f8;persistent;true][%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,h6;color;%23ffaa00;opacity;0.8;square;h6;persistent;true]Vous pourriez prendre la tour tout de suite. Ou vous pourriez prendre le cavalier sur échec puis ramasser la tour de toute façon.",
+        "[%wrong Il y a un meilleur coup. Réessaye et cherche un échec puissant.][%hint Prenez une pièce sur échec.]",
+        "Bon début ! Que pouvez-vous prendre ensuite ?",
+        "[%wrong Il y a un meilleur coup. Essaye de trouver une bonne prise.][%hint Que pouvez-vous prendre ?] Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/1p6/2p4n/8/2P5/1P6/3B1r2/6K1 w - - 0 1\"]\r\n\r\n{[%c_arrow h6f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;h6;to;f8;persistent;true][%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,h6;color;%23ffaa00;opacity;0.8;square;h6;persistent;true]Vous pourriez prendre la tour tout de suite. Ou vous pourriez prendre le cavalier sur échec puis ramasser la tour de toute façon.} 1. Bxh6+ {[%wrong Il y a un meilleur coup. Réessaye et cherche un échec puissant.][%hint Prenez une pièce sur échec.]} 1... Kf7 {Bon début ! Que pouvez-vous prendre ensuite ?} 2. Kxf2 {[%wrong Il y a un meilleur coup. Essaye de trouver une bonne prise.][%hint Que pouvez-vous prendre ?] Beau travail !} *"
+    },
+    {
+      "fen": "5k2/5p2/5rp1/7p/8/7P/2n2PP1/R3R1K1 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vos tours semblent prises en fourchette ! Comment utiliser un échec pour les mettre toutes les deux à l'abri ?",
+        "[%hint Trouvez un échec sûr.] [%wrong Il y a un meilleur coup. Réessaye et cherche un échec puissant.]Bon choix. Au prochain coup vous pourrez sauver l'autre tour et garder l'avantage matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/5p2/5rp1/7p/8/7P/2n2PP1/R3R1K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2291672491044930\"]\r\n\r\n{Vos tours semblent prises en fourchette ! Comment utiliser un échec pour les mettre toutes les deux à l'abri ?} 1. Ra8+ {[%hint Trouvez un échec sûr.] [%wrong Il y a un meilleur coup. Réessaye et cherche un échec puissant.]Bon choix. Au prochain coup vous pourrez sauver l'autre tour et garder l'avantage matériel.} *"
+    },
+    {
+      "fen": "2k5/p5pp/1p3q2/8/6N1/3n3P/5Q2/7K w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment mettre votre dame à l'abri tout en prenant celle de l'adversaire ?",
+        "[%hint Cherchez un échec sûr pour sauver votre dame.] [%wrong Il y a un meilleur coup. Essaye de trouver un échec sûr.]",
+        "Bon début ! Comment pouvez-vous gagner du matériel ?",
+        "[%hint Trouvez la prise la plus forte.] [%wrong Il y a un meilleur coup. Réessaye et cherche une prise précise.]  Bien joué !",
+        "Il y a une bien meilleure prise. Essaye de la trouver."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/p5pp/1p3q2/8/6N1/3n3P/5Q2/7K w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2291677836771397\"]\r\n\r\n{Comment mettre votre dame à l'abri tout en prenant celle de l'adversaire ?} 1. Qc2+ {[%hint Cherchez un échec sûr pour sauver votre dame.] [%wrong Il y a un meilleur coup. Essaye de trouver un échec sûr.]} Kb8 {Bon début ! Comment pouvez-vous gagner du matériel ?} 2. Nxf6 {[%hint Trouvez la prise la plus forte.] [%wrong Il y a un meilleur coup. Réessaye et cherche une prise précise.]  Bien joué !} (2. Qxd3 $2 {Il y a une bien meilleure prise. Essaye de la trouver.}) *"
+    },
+    {
+      "fen": "2r1r1k1/5ppp/4Q3/8/8/5N1P/6P1/q4R1K w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux dames sont en danger. Pouvez-vous trouver un moyen de vous en sortir avec l'avantage ?",
+        "[%hint Obtenez quelque chose pour votre dame avant de prendre la dame noire.] [%wrong Les noirs s'en sortent avec l'avantage. Réessayez et consultez l'indice si vous êtes bloqué.]",
+        "Les noirs ont l'avantage matériel. Essaye de trouver un coup intermédiaire à jouer avant de prendre la dame.",
+        "Les noirs prennent votre dame au coup suivant et gagnent la partie. Essayez de trouver une meilleure prise.",
+        "Il y a une pièce plus précieuse à prendre. Essaye de la trouver.",
+        "Bon début ! Et ensuite ?",
+        "[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessaye et cherche à prendre quelque chose.]  Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1r1k1/5ppp/4Q3/8/8/5N1P/6P1/q4R1K w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2291678420107336\"]\r\n\r\n{Les deux dames sont en danger. Pouvez-vous trouver un moyen de vous en sortir avec l'avantage ?} 1. Qxe8+ {[%hint Obtenez quelque chose pour votre dame avant de prendre la dame noire.] [%wrong Les noirs s'en sortent avec l'avantage. Réessayez et consultez l'indice si vous êtes bloqué.]} (1. Rxa1 $2 Rxe6 {Les noirs ont l'avantage matériel. Essaye de trouver un coup intermédiaire à jouer avant de prendre la dame.}) (1. Qxc8 $2 Qxf1+ {Les noirs prennent votre dame au coup suivant et gagnent la partie. Essayez de trouver une meilleure prise.}) (1. Qxf7+ $2 Kxf7 {Il y a une pièce plus précieuse à prendre. Essaye de la trouver.}) 1... Rxe8 {Bon début ! Et ensuite ?} 2. Rxa1 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessaye et cherche à prendre quelque chose.]  Bravo !} *"
+    },
+    {
+      "fen": "r5k1/pp2qpNp/2p5/3p4/3P4/3B2P1/PPP2PbP/R4RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pas d'indice cette fois !",
+        "[%hint Sauvez votre cavalier et attaquez la dame.] [%wrong Il y a un meilleur coup. Réessayez et consultez l'indice si vous êtes bloqué.]",
+        "Essayez de sauver votre cavalier avant de prendre le fou.",
+        "Les blancs sauvent le cavalier. Comment gagner du matériel ?",
+        "[%hint Cherchez une bonne prise.] [%wrong Il y a un meilleur coup. Réessaye et cherche une prise puissante.]  Les blancs s'en sortent avec l'avantage."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/pp2qpNp/2p5/3p4/3P4/3B2P1/PPP2PbP/R4RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2291679585665186\"]\r\n\r\n{Pas d'indice cette fois !} 1. Nf5 {[%hint Sauvez votre cavalier et attaquez la dame.] [%wrong Il y a un meilleur coup. Réessayez et consultez l'indice si vous êtes bloqué.]} (1. Kxg2 $2 Kxg7 {Essayez de sauver votre cavalier avant de prendre le fou.}) 1... Qf6 {Les blancs sauvent le cavalier. Comment gagner du matériel ?} 2. Kxg2 {[%hint Cherchez une bonne prise.] [%wrong Il y a un meilleur coup. Réessaye et cherche une prise puissante.]  Les blancs s'en sortent avec l'avantage.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c100-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Coups intermédiaires",
+    "path": "coups-intermediaires",
+    "description": "Vous n'avez pas toujours besoin de jouer le coup évident immédiatement. Parfois, vous pouvez faire échec ou prendre une pièce d'abord.",
+    "glyphName": "board-magnify-inspect",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/1p6/2p4n/8/2P5/1P6/3B1r2/6K1 w - - 0 1\"]\r\n\r\n{[%c_arrow h6f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;h6;to;f8;persistent;true][%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,h6;color;%23ffaa00;opacity;0.8;square;h6;persistent;true]Vous pourriez prendre la tour tout de suite. Ou vous pourriez prendre le cavalier sur échec puis ramasser la tour de toute façon.} 1. Bxh6+ {[%wrong Il y a un meilleur coup. Réessaye et cherche un échec puissant.][%hint Prenez une pièce sur échec.]} 1... Kf7 {Bon début ! Que pouvez-vous prendre ensuite ?} 2. Kxf2 {[%wrong Il y a un meilleur coup. Essaye de trouver une bonne prise.][%hint Que pouvez-vous prendre ?] Beau travail !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/5p2/5rp1/7p/8/7P/2n2PP1/R3R1K1 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2291672491044930\"]\r\n\r\n{Vos tours semblent prises en fourchette ! Comment utiliser un échec pour les mettre toutes les deux à l'abri ?} 1. Ra8+ {[%hint Trouvez un échec sûr.] [%wrong Il y a un meilleur coup. Réessaye et cherche un échec puissant.]Bon choix. Au prochain coup vous pourrez sauver l'autre tour et garder l'avantage matériel.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/p5pp/1p3q2/8/6N1/3n3P/5Q2/7K w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2291677836771397\"]\r\n\r\n{Comment mettre votre dame à l'abri tout en prenant celle de l'adversaire ?} 1. Qc2+ {[%hint Cherchez un échec sûr pour sauver votre dame.] [%wrong Il y a un meilleur coup. Essaye de trouver un échec sûr.]} Kb8 {Bon début ! Comment pouvez-vous gagner du matériel ?} 2. Nxf6 {[%hint Trouvez la prise la plus forte.] [%wrong Il y a un meilleur coup. Réessaye et cherche une prise précise.]  Bien joué !} (2. Qxd3 $2 {Il y a une bien meilleure prise. Essaye de la trouver.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1r1k1/5ppp/4Q3/8/8/5N1P/6P1/q4R1K w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2291678420107336\"]\r\n\r\n{Les deux dames sont en danger. Pouvez-vous trouver un moyen de vous en sortir avec l'avantage ?} 1. Qxe8+ {[%hint Obtenez quelque chose pour votre dame avant de prendre la dame noire.] [%wrong Les noirs s'en sortent avec l'avantage. Réessayez et consultez l'indice si vous êtes bloqué.]} (1. Rxa1 $2 Rxe6 {Les noirs ont l'avantage matériel. Essaye de trouver un coup intermédiaire à jouer avant de prendre la dame.}) (1. Qxc8 $2 Qxf1+ {Les noirs prennent votre dame au coup suivant et gagnent la partie. Essayez de trouver une meilleure prise.}) (1. Qxf7+ $2 Kxf7 {Il y a une pièce plus précieuse à prendre. Essaye de la trouver.}) 1... Rxe8 {Bon début ! Et ensuite ?} 2. Rxa1 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessaye et cherche à prendre quelque chose.]  Bravo !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/pp2qpNp/2p5/3p4/3P4/3B2P1/PPP2PbP/R4RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2291679585665186\"]\r\n\r\n{Pas d'indice cette fois !} 1. Nf5 {[%hint Sauvez votre cavalier et attaquez la dame.] [%wrong Il y a un meilleur coup. Réessayez et consultez l'indice si vous êtes bloqué.]} (1. Kxg2 $2 Kxg7 {Essayez de sauver votre cavalier avant de prendre le fou.}) 1... Qf6 {Les blancs sauvent le cavalier. Comment gagner du matériel ?} 2. Kxg2 {[%hint Cherchez une bonne prise.] [%wrong Il y a un meilleur coup. Réessaye et cherche une prise puissante.]  Les blancs s'en sortent avec l'avantage.} *"
+    ],
+    "courseId": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les coups intermédiaires sont un excellent moyen de gagner du matériel. Voyons à quoi ils ressemblent.",
+    "outroText": "Excellent ! Vous savez maintenant utiliser les coups intermédiaires.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs-avancees",
+      "title": "Tactiques avancées"
+    },
+    "parentId": "6f979592-288d-11f1-bc88-8517b7efdc3e"
+  },
+  "curriculum": {
+    "number": 48,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactiques avancées",
+      "path": "tactiques-echecs-avancees",
+      "order": 2
+    }
+  }
+}

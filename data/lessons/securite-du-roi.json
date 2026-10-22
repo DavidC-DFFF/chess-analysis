@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi-adverse/securite-du-roi",
+  "capturedAt": "2026-10-22T12:23:34.397Z",
+  "title": "La sécurité du roi",
+  "exercises": [
+    {
+      "fen": "r3kbnr/pp1b1ppp/2n1p3/3p4/Q7/4BN2/P3qPPP/1R3RK1 w kq - 0 15",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs sont dans une situation très précaire : Ils ont plusieurs pions et deux pièces de moins. Essayons néanmoins de garder la tête haute en nous emparant d'un pion noir non protégé.",
+        "[%wrong Ce coup ne capture pas un pion noir non protégé. Essayez encore !][%hint Le pion b7 ne semble pas protégé...]",
+        "Bien joué ! Les blancs prennent un pion, et les noirs répondent rapidement ...Cd8, attaquant la tour et la dame simultanément. Mais ils ont raté une très forte réponse qu'il vous appartient dorénavant de jouer.",
+        "[%wrong Bien essayé, mais il existe un coup plus fort, car il gagne la partie sur le champ.][%hint Les noirs sont passés à côté d'un échec très important...] Bien joué ! Les noirs avaient un large avantage matériel, mais ils ont négligé la sécurité de leur roi.",
+        "Bien essayé. Ce coup récupère en effet du matériel, mais il y a beaucoup plus fort dans la position. A vous de jouer !!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3kbnr/pp1b1ppp/2n1p3/3p4/Q7/4BN2/P3qPPP/1R3RK1 w kq - 0 15\"]\r\n\r\n{Les blancs sont dans une situation très précaire : Ils ont plusieurs pions et deux pièces de moins. Essayons néanmoins de garder la tête haute en nous emparant d'un pion noir non protégé.}\r\n15.Rxb7\r\n    {[%wrong Ce coup ne capture pas un pion noir non protégé. Essayez encore !][%hint Le pion b7 ne semble pas protégé...]}\r\n15...Nd8 $2\r\n    {Bien joué ! Les blancs prennent un pion, et les noirs répondent rapidement ...Cd8, attaquant la tour et la dame simultanément. Mais ils ont raté une très forte réponse qu'il vous appartient dorénavant de jouer.}\r\n16.Qxd7#\r\n    {[%wrong Bien essayé, mais il existe un coup plus fort, car il gagne la partie sur le champ.][%hint Les noirs sont passés à côté d'un échec très important...] Bien joué ! Les noirs avaient un large avantage matériel, mais ils ont négligé la sécurité de leur roi.}\r\n    (16.Rxd7 $2 {Bien essayé. Ce coup récupère en effet du matériel, mais il y a beaucoup plus fort dans la position. A vous de jouer !!})\r\n*"
+    },
+    {
+      "fen": "r1q1k2r/p4pbp/1pnQ2p1/4p3/4P3/2N1B3/1PP2PPP/R3K2R w KQkq - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une très bonne position. Plaçons maintenant notre cavalier au centre.",
+        "[%wrong Ce coup ne place pas le cavalier au centre. Essayez encore !][%hint Sur la case que nous cherchons, le cavalier sera protégé par le pion e4.]",
+        "Bien joué. Le cavalier blanc est au centre, contrôlant des cases très importantes dans le camp adverse. Les noirs attaquent maintenant la dame blanche, mais leur roi est en mauvaise posture au centre de l'échiquier. Comment en profiter ?",
+        "[%wrong Bien essayé, mais il existe un coup qui gagne la partie en un. A vous de le trouver !][%hint Cherchons tous les coups de cavalier...] Eh oui ! C'est tout simplement échec et mat.",
+        "Ce coup a du chien, mais il en existe un beaucoup plus fort. Trouvez-le !",
+        "La dame blanche se soustrait à l'attaque noire et s'en prend à la tour h8. C'est certes un bon coup, mais il y a plus fort grâce à la position instable du roi noir !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1q1k2r/p4pbp/1pnQ2p1/4p3/4P3/2N1B3/1PP2PPP/R3K2R w KQkq - 0 14\"]\r\n\r\n{Les blancs ont une très bonne position. Plaçons maintenant notre cavalier au centre.}\r\n14.Nd5\r\n    {[%wrong Ce coup ne place pas le cavalier au centre. Essayez encore !][%hint Sur la case que nous cherchons, le cavalier sera protégé par le pion e4.]}\r\n14...Bf8 $2\r\n    {Bien joué. Le cavalier blanc est au centre, contrôlant des cases très importantes dans le camp adverse. Les noirs attaquent maintenant la dame blanche, mais leur roi est en mauvaise posture au centre de l'échiquier. Comment en profiter ?}\r\n15.Nf6#\r\n    {[%wrong Bien essayé, mais il existe un coup qui gagne la partie en un. A vous de le trouver !][%hint Cherchons tous les coups de cavalier...] Eh oui ! C'est tout simplement échec et mat.}\r\n    (15.Nc7+ $6 {Ce coup a du chien, mais il en existe un beaucoup plus fort. Trouvez-le !})\r\n    (15.Qf6 $6 {La dame blanche se soustrait à l'attaque noire et s'en prend à la tour h8. C'est certes un bon coup, mais il y a plus fort grâce à la position instable du roi noir !})\r\n*"
+    },
+    {
+      "fen": "2r2r1k/p4pb1/b3pN1p/R3P2P/3nBpN1/8/1P3PP1/4K2R b K - 0 26",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Auparavant en a1, la tour blanche vient de s'emparer du pion a5, laissant sa dernière rangée sans défense. Le trait est au noir. Saisissez votre chance !",
+        "[%wrong Ce coup ne profite pas de la faiblesse de la dernière rangée des blancs. Essayez d'attaquer le roi !][%hint Comment donner échec au roi sur la première rangée ?]",
+        "Super ! Le roi blanc est forcé de prendre la fuite. Quel est maintenant le MEILLEUR coup possible ?",
+        "[%wrong Bien essayé, mais les noirs ont un coup qui gagne instantanément. Trouvez-le !][%hint Gagner une tour, c'est bien, mais mater, c'est encore mieux...] Bravo ! Il fallait résister à la tentation de prendre la tour pour réaliser ce joli mat !",
+        "Ce coup est effectivement très fort, mais les noirs ont un coup qui gagne instantanément. Trouvez-le!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2r1k/p4pb1/b3pN1p/R3P2P/3nBpN1/8/1P3PP1/4K2R b K - 0 26\"]\r\n\r\n{Auparavant en a1, la tour blanche vient de s'emparer du pion a5, laissant sa dernière rangée sans défense. Le trait est au noir. Saisissez votre chance !}\r\n26...Rc1+\r\n    {[%wrong Ce coup ne profite pas de la faiblesse de la dernière rangée des blancs. Essayez d'attaquer le roi !][%hint Comment donner échec au roi sur la première rangée ?]}\r\n27.Kd2 $2\r\n    {Super ! Le roi blanc est forcé de prendre la fuite. Quel est maintenant le MEILLEUR coup possible ?}\r\n27...Nb3#\r\n    {[%wrong Bien essayé, mais les noirs ont un coup qui gagne instantanément. Trouvez-le !][%hint Gagner une tour, c'est bien, mais mater, c'est encore mieux...] Bravo ! Il fallait résister à la tentation de prendre la tour pour réaliser ce joli mat !}\r\n    (27...Rxh1 $6 {Ce coup est effectivement très fort, mais les noirs ont un coup qui gagne instantanément. Trouvez-le!})\r\n*"
+    },
+    {
+      "fen": "5rk1/p5pp/1p6/2p5/Q7/2P2pPq/PP3P1P/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est très faible, et la dame noire s'apprête à le mater en g2 au prochain coup. Comment sauver le camp blanc ?",
+        "[%wrong Ce coup n'empêche pas le mat au prochain. Essayez encore !][%hint Profitez de la position du roi noir. L'objectif est de placer votre dame en f1 au prochain coup !]",
+        "Les blancs ont retardé l'échec et mat, mais la dame blanche ne va pas pouvoir revenir garder la case g2 au prochain coup. Cependant, c'est la bonne idée. Essayez encore !",
+        "Excellent travail ! En mettant le roi noir en échec, la dame blanche va pouvoir se placer idéalement pour empêcher le mat au coup suivant. A vous de trouver comment !",
+        "[%wrong Ce coup n'empêche pas le mat au prochain. Essayez encore !][%hint Depuis quelle case la dame blanche pourra-t-elle protéger la case g2 ?] Belle défense ! La dame blanche est revenue juste à temps pour sauver la partie en empêchant le mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p5pp/1p6/2p5/Q7/2P2pPq/PP3P1P/4R1K1 w - - 0 1\"]\r\n\r\n{Le roi blanc est très faible, et la dame noire s'apprête à le mater en g2 au prochain coup. Comment sauver le camp blanc ?}\r\n1.Qc4+\r\n    {[%wrong Ce coup n'empêche pas le mat au prochain. Essayez encore !][%hint Profitez de la position du roi noir. L'objectif est de placer votre dame en f1 au prochain coup !]}\r\n    (1.Qb3+ $2 Kh8 {Les blancs ont retardé l'échec et mat, mais la dame blanche ne va pas pouvoir revenir garder la case g2 au prochain coup. Cependant, c'est la bonne idée. Essayez encore !})\r\n1...Kh8\r\n    {Excellent travail ! En mettant le roi noir en échec, la dame blanche va pouvoir se placer idéalement pour empêcher le mat au coup suivant. A vous de trouver comment !}\r\n2.Qf1\r\n    {[%wrong Ce coup n'empêche pas le mat au prochain. Essayez encore !][%hint Depuis quelle case la dame blanche pourra-t-elle protéger la case g2 ?] Belle défense ! La dame blanche est revenue juste à temps pour sauver la partie en empêchant le mat !}\r\n*"
+    },
+    {
+      "fen": "6k1/2b3pp/p1bq4/1p6/2p5/P1P5/1P3QPP/5R1K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire menace de mater les blancs en h2. Les blancs doivent-ils défendre ce pion ou bien profiter de la faiblesse du roi adverse ?",
+        "[%wrong Bien essayé, mais il y a plus fort. Attaquez le roi noir !][%hint La dame blanche et la tour forment une batterie sur la colonne f. Comment en profiter pour attaquer le roi noir ?]",
+        "Cette idée perd du matériel. Essayez encore !",
+        "Ce coup empêche effectivement le mat, mais il y avait plus fort. En effet, les blancs peuvent mater en premier !",
+        "Ce coup empêche effectivement le mat, mais il y avait plus fort. En effet, les blancs peuvent mater en premier !",
+        "Bien joué ! Les blancs attaquent le roi noir et le forcent à se terrer dans le coin. Comment finir le travail en deux coups ?",
+        "[%wrong Ce coup ne force pas le mat. Essayez encore !][%hint Pensez au thème du mat du couloir !]",
+        "Bien essayé, mais ce coup perd tout simplement la dame. Essayez un autre échec.",
+        "Bien joué ! Il est maintenant temps de terminer en beauté !",
+        "[%wrong Non, pas comme ça !][%hint Emparez-vous de la dame noire !] La position des blancs semblait difficile, mais en profitant des faiblesses du roi adverse, ils ont remporté la partie. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/2b3pp/p1bq4/1p6/2p5/P1P5/1P3QPP/5R1K w - - 0 1\"]\r\n\r\n{La dame noire menace de mater les blancs en h2. Les blancs doivent-ils défendre ce pion ou bien profiter de la faiblesse du roi adverse ?}\r\n1.Qf7+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Attaquez le roi noir !][%hint La dame blanche et la tour forment une batterie sur la colonne f. Comment en profiter pour attaquer le roi noir ?]}\r\n    (1.Qf8+ $2 Qxf8 {Cette idée perd du matériel. Essayez encore !})\r\n    (1.Qh4 $2 {Ce coup empêche effectivement le mat, mais il y avait plus fort. En effet, les blancs peuvent mater en premier !})\r\n    (1.Qg1 $2 {Ce coup empêche effectivement le mat, mais il y avait plus fort. En effet, les blancs peuvent mater en premier !})\r\n1...Kh8\r\n    {Bien joué ! Les blancs attaquent le roi noir et le forcent à se terrer dans le coin. Comment finir le travail en deux coups ?}\r\n2.Qf8+\r\n    {[%wrong Ce coup ne force pas le mat. Essayez encore !][%hint Pensez au thème du mat du couloir !]}\r\n    (2.Qe8+ $2 Bxe8 {Bien essayé, mais ce coup perd tout simplement la dame. Essayez un autre échec.})\r\n2...Qxf8\r\n    {Bien joué ! Il est maintenant temps de terminer en beauté !}\r\n3.Rxf8#\r\n    {[%wrong Non, pas comme ça !][%hint Emparez-vous de la dame noire !] La position des blancs semblait difficile, mais en profitant des faiblesses du roi adverse, ils ont remporté la partie. Bien joué !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "d65c0c74-9ce8-11e8-9313-15e1bbe669fd",
+    "name": "La sécurité du roi",
+    "path": "securite-du-roi",
+    "description": "N’oubliez jamais de protéger votre pièce principale, le roi. Avoir l’avantage matériel ne sert à rien si votre roi est échec et mat. Soyez toujours à l’affût des menaces adverses sur les cases entourant votre roi et donnez-lui des cases de fuite si nécessaire.",
+    "glyphName": "piece-shield-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-king-safety-s2a.mp4",
+    "fen": "r3kbnr/pp1b1ppp/2n1p3/3p4/Q7/4BN2/P3qPPP/1R3RK1 w kq - 0 15",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3kbnr/pp1b1ppp/2n1p3/3p4/Q7/4BN2/P3qPPP/1R3RK1 w kq - 0 15\"]\r\n\r\n{Les blancs sont dans une situation très précaire : Ils ont plusieurs pions et deux pièces de moins. Essayons néanmoins de garder la tête haute en nous emparant d'un pion noir non protégé.}\r\n15.Rxb7\r\n    {[%wrong Ce coup ne capture pas un pion noir non protégé. Essayez encore !][%hint Le pion b7 ne semble pas protégé...]}\r\n15...Nd8 $2\r\n    {Bien joué ! Les blancs prennent un pion, et les noirs répondent rapidement ...Cd8, attaquant la tour et la dame simultanément. Mais ils ont raté une très forte réponse qu'il vous appartient dorénavant de jouer.}\r\n16.Qxd7#\r\n    {[%wrong Bien essayé, mais il existe un coup plus fort, car il gagne la partie sur le champ.][%hint Les noirs sont passés à côté d'un échec très important...] Bien joué ! Les noirs avaient un large avantage matériel, mais ils ont négligé la sécurité de leur roi.}\r\n    (16.Rxd7 $2 {Bien essayé. Ce coup récupère en effet du matériel, mais il y a beaucoup plus fort dans la position. A vous de jouer !!})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1q1k2r/p4pbp/1pnQ2p1/4p3/4P3/2N1B3/1PP2PPP/R3K2R w KQkq - 0 14\"]\r\n\r\n{Les blancs ont une très bonne position. Plaçons maintenant notre cavalier au centre.}\r\n14.Nd5\r\n    {[%wrong Ce coup ne place pas le cavalier au centre. Essayez encore !][%hint Sur la case que nous cherchons, le cavalier sera protégé par le pion e4.]}\r\n14...Bf8 $2\r\n    {Bien joué. Le cavalier blanc est au centre, contrôlant des cases très importantes dans le camp adverse. Les noirs attaquent maintenant la dame blanche, mais leur roi est en mauvaise posture au centre de l'échiquier. Comment en profiter ?}\r\n15.Nf6#\r\n    {[%wrong Bien essayé, mais il existe un coup qui gagne la partie en un. A vous de le trouver !][%hint Cherchons tous les coups de cavalier...] Eh oui ! C'est tout simplement échec et mat.}\r\n    (15.Nc7+ $6 {Ce coup a du chien, mais il en existe un beaucoup plus fort. Trouvez-le !})\r\n    (15.Qf6 $6 {La dame blanche se soustrait à l'attaque noire et s'en prend à la tour h8. C'est certes un bon coup, mais il y a plus fort grâce à la position instable du roi noir !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2r1k/p4pb1/b3pN1p/R3P2P/3nBpN1/8/1P3PP1/4K2R b K - 0 26\"]\r\n\r\n{Auparavant en a1, la tour blanche vient de s'emparer du pion a5, laissant sa dernière rangée sans défense. Le trait est au noir. Saisissez votre chance !}\r\n26...Rc1+\r\n    {[%wrong Ce coup ne profite pas de la faiblesse de la dernière rangée des blancs. Essayez d'attaquer le roi !][%hint Comment donner échec au roi sur la première rangée ?]}\r\n27.Kd2 $2\r\n    {Super ! Le roi blanc est forcé de prendre la fuite. Quel est maintenant le MEILLEUR coup possible ?}\r\n27...Nb3#\r\n    {[%wrong Bien essayé, mais les noirs ont un coup qui gagne instantanément. Trouvez-le !][%hint Gagner une tour, c'est bien, mais mater, c'est encore mieux...] Bravo ! Il fallait résister à la tentation de prendre la tour pour réaliser ce joli mat !}\r\n    (27...Rxh1 $6 {Ce coup est effectivement très fort, mais les noirs ont un coup qui gagne instantanément. Trouvez-le!})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p5pp/1p6/2p5/Q7/2P2pPq/PP3P1P/4R1K1 w - - 0 1\"]\r\n\r\n{Le roi blanc est très faible, et la dame noire s'apprête à le mater en g2 au prochain coup. Comment sauver le camp blanc ?}\r\n1.Qc4+\r\n    {[%wrong Ce coup n'empêche pas le mat au prochain. Essayez encore !][%hint Profitez de la position du roi noir. L'objectif est de placer votre dame en f1 au prochain coup !]}\r\n    (1.Qb3+ $2 Kh8 {Les blancs ont retardé l'échec et mat, mais la dame blanche ne va pas pouvoir revenir garder la case g2 au prochain coup. Cependant, c'est la bonne idée. Essayez encore !})\r\n1...Kh8\r\n    {Excellent travail ! En mettant le roi noir en échec, la dame blanche va pouvoir se placer idéalement pour empêcher le mat au coup suivant. A vous de trouver comment !}\r\n2.Qf1\r\n    {[%wrong Ce coup n'empêche pas le mat au prochain. Essayez encore !][%hint Depuis quelle case la dame blanche pourra-t-elle protéger la case g2 ?] Belle défense ! La dame blanche est revenue juste à temps pour sauver la partie en empêchant le mat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/2b3pp/p1bq4/1p6/2p5/P1P5/1P3QPP/5R1K w - - 0 1\"]\r\n\r\n{La dame noire menace de mater les blancs en h2. Les blancs doivent-ils défendre ce pion ou bien profiter de la faiblesse du roi adverse ?}\r\n1.Qf7+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Attaquez le roi noir !][%hint La dame blanche et la tour forment une batterie sur la colonne f. Comment en profiter pour attaquer le roi noir ?]}\r\n    (1.Qf8+ $2 Qxf8 {Cette idée perd du matériel. Essayez encore !})\r\n    (1.Qh4 $2 {Ce coup empêche effectivement le mat, mais il y avait plus fort. En effet, les blancs peuvent mater en premier !})\r\n    (1.Qg1 $2 {Ce coup empêche effectivement le mat, mais il y avait plus fort. En effet, les blancs peuvent mater en premier !})\r\n1...Kh8\r\n    {Bien joué ! Les blancs attaquent le roi noir et le forcent à se terrer dans le coin. Comment finir le travail en deux coups ?}\r\n2.Qf8+\r\n    {[%wrong Ce coup ne force pas le mat. Essayez encore !][%hint Pensez au thème du mat du couloir !]}\r\n    (2.Qe8+ $2 Bxe8 {Bien essayé, mais ce coup perd tout simplement la dame. Essayez un autre échec.})\r\n2...Qxf8\r\n    {Bien joué ! Il est maintenant temps de terminer en beauté !}\r\n3.Rxf8#\r\n    {[%wrong Non, pas comme ça !][%hint Emparez-vous de la dame noire !] La position des blancs semblait difficile, mais en profitant des faiblesses du roi adverse, ils ont remporté la partie. Bien joué !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "N'oubliez pas de protéger votre pièce la plus importante : le roi !",
+    "outroText": "Très bien. Vous voilà mieux armé pour protéger votre royaume.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "path": "attaquer-le-roi-adverse",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/12f47b0e-a558-11e8-9e63-7d798a2698c4.facbaf03.728x410o.856e9b44f8c8.png"
+    },
+    "parentId": "8f1a955e-83a9-11e8-ab32-fd6e7a988c43",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-safety5d9de9ed056c2.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-safety-15ea244b2b3ace.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-safety-36093fea42ed34.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sicurezza-del-re647cdfcc6cff6.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 42,
+    "order": 4,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi-adverse",
+      "order": 5
+    }
+  }
+}

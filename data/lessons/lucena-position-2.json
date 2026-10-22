@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/motifs-de-finales/lucena-position-2",
+  "capturedAt": "2026-10-22T12:23:54.302Z",
+  "title": "La position de Lucéna",
+  "exercises": [
+    {
+      "fen": "3K4/3P4/4k3/8/8/8/2r5/3R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir, auparavant en f6, se rend en e6 pour aller au contact du pion blanc. Comment profiter de la présence de ce roi sur la colonne e ?\r\n",
+        "[%wrong Ce coup ne profite pas de la présence du roi noir sur la colonne e. Cherchez encore !][%hint La position de Lucena consiste à créer un pont permettant à votre roi d'échapper aux échecs de la tour adverse. Ici, c'est le roi noir qui sert de pont pour notre roi !]",
+        "Bien joué ! Le roi blanc se sert de son homologue noir comme bouclier pour ouvrir la case de promotion à son pion. Comment continuer ?",
+        "[%wrong Bien essayé, mais il y a plus fort ! Cherchez encore.][%hint Pourquoi les noirs ont-ils joué ...Th2? Attention aux éventuelles menaces !]",
+        "Oups ! Le moment le plus dangereux, dans une partie d'échecs, c'est lorsqu'il n'y a plus qu'à aller cueillir la victoire... Essayez encore !",
+        "Une idée créative, mais cette sous-promotion ne nous offre pas mieux qu'une nulle théorique. Comment mettre le roi noir en échec tout en préparant la promotion au coup suivant ?",
+        "Cette idée intelligente fonctionne, en particulier si vous avez trouvé comment gagner en force la tour adverse. Cela dit, il y a plus simple ! Trouvez la victoire la plus rapide.",
+        "La tour noire va arriver en d8 au prochain coup, et tenir la nulle ! Cherchez encore...",
+        "Cette idée ne mène qu'à une répétition des coups. Trouvez un moyen actif de contrer la menace de mat blanche !",
+        "Excellente décision ! Le roi noir ne peut plus rester en e6, sa tour ne menace par conséquent plus de nous mater. Nous allons promouvoir notre pion en dame et obtenir une position gagnante !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/3P4/4k3/8/8/8/2r5/3R4 w - - 0 1\"]\r\n\r\n{Le roi noir, auparavant en f6, se rend en e6 pour aller au contact du pion blanc. Comment profiter de la présence de ce roi sur la colonne e ?\r\n}\r\n1.Ke8\r\n    {[%wrong Ce coup ne profite pas de la présence du roi noir sur la colonne e. Cherchez encore !][%hint La position de Lucena consiste à créer un pont permettant à votre roi d'échapper aux échecs de la tour adverse. Ici, c'est le roi noir qui sert de pont pour notre roi !]}\r\n1...Rh2\r\n    {Bien joué ! Le roi blanc se sert de son homologue noir comme bouclier pour ouvrir la case de promotion à son pion. Comment continuer ?}\r\n2.Re1+\r\n    {[%wrong Bien essayé, mais il y a plus fort ! Cherchez encore.][%hint Pourquoi les noirs ont-ils joué ...Th2? Attention aux éventuelles menaces !]}\r\n    (2.d8=Q $2 Rh8# {Oups ! Le moment le plus dangereux, dans une partie d'échecs, c'est lorsqu'il n'y a plus qu'à aller cueillir la victoire... Essayez encore !})\r\n    (2.d8=N+ $2 {Une idée créative, mais cette sous-promotion ne nous offre pas mieux qu'une nulle théorique. Comment mettre le roi noir en échec tout en préparant la promotion au coup suivant ?})\r\n    (2.Rd6+ $5 Kxd6 {Cette idée intelligente fonctionne, en particulier si vous avez trouvé comment gagner en force la tour adverse. Cela dit, il y a plus simple ! Trouvez la victoire la plus rapide.})\r\n    (2.Kf8 $2 Rh8+ {La tour noire va arriver en d8 au prochain coup, et tenir la nulle ! Cherchez encore...})\r\n    (2.Kd8 $2 Rc2 {Cette idée ne mène qu'à une répétition des coups. Trouvez un moyen actif de contrer la menace de mat blanche !})\r\n2...Kf5\r\n    {Excellente décision ! Le roi noir ne peut plus rester en e6, sa tour ne menace par conséquent plus de nous mater. Nous allons promouvoir notre pion en dame et obtenir une position gagnante !}\r\n*"
+    },
+    {
+      "fen": "3K4/3P1k2/8/8/8/8/2r5/3R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs jouent le coup défensif le plus résistant : ...Rf7. Notre roi reste coincé à la défense du pion passé. Comment forcer le roi adverse à quitter la colonne f ?",
+        "[%wrong Ce coup ne force pas le roi noir à quitter la colonne f. Cherchez encore !][%hint Quelle pièce peut accomplir cette tâche ?]",
+        "Parfait ! Le roi noir ne peut rester sur la colonne f. Comment procéder dans cette position de Lucena ?",
+        "[%wrong Ce coup ne nous aide pas à progresser. Il faut construire un pont sur la quatrième rangée !][%hint Dans la position de Lucena, la clef est de construire un pont sur la quatrième rangée pour protéger notre roi des échecs. Mettons la tour sur la quatrième !]",
+        "Bien essayé, mais il faudrait construire un pont sur la quatrième rangée pour empêcher cette défense embêtante !",
+        "Bien essayé, mais il faudrait tout d'abord empêcher ces échecs de tour ! Cherchez encore.",
+        "Bien essayé, mais il faudrait tout d'abord empêcher ces échecs de tour ! Cherchez encore.",
+        "Ce coup répète la position. Trouvez mieux !",
+        "Superbe ! Vous êtes en train de mettre en place le fameux \"pont de Lucena\" sur la quatrième rangée. Les noirs jouent un coup d'attente pour préparer la venue de votre roi sur la colonne e. Que cela ne vous arrête pas !",
+        "[%wrong Non, il est temps de quitter la colonne d !][%hint Notre roi souhaite quitter la colonne d pour préparer l'arrivée sur la cinquième rangée.]",
+        "Notre roi va être obligé de se positionner devant le pion passé. Essayez une autre case de la colonne e !",
+        "Les noirs lancent une salve d'échecs ! Amenons notre roi vers la cinquième rangée avec précautions.",
+        "[%wrong Ce coup ne mène pas notre roi vers la cinquième rangée. Cherchez encore !][%hint Pour gagner, il faut que notre roi soit sur la cinquième rangée tandis que notre tour le couvre depuis la quatrième.]",
+        "Les échecs se succèdent. Est-ce le moment de poster le roi sur la cinquième rangée ?",
+        "[%wrong Ce coup ne nous donne pas une position gagnante. Cherchez encore !][%hint N'oubliez pas de protéger notre précieux pion passé !]",
+        "Nous ne sommes pas encore prêts à mettre notre roi sur la cinquième rangée. Essayez encore !",
+        "Nous ne sommes pas encore prêts à mettre notre roi sur la cinquième rangée. Essayez encore !",
+        "Bien vu ! Jouons maintenant l'autre option gagnante en mettant le roi en e6.",
+        "La tour noire continue son projet de harcèlement. Il est temps d'y mettre un terme !",
+        "[%wrong Ce coup ne nous aide pas à progresser. Cherchez encore !][%hint Si notre tour est venue sur la quatrième rangée, c'est pour bloquer les échecs sur la colonne d...]",
+        "Beau travail ! Vous avez terminé votre pont de Lucena ! Bloquons maintenant l'échec de manière à s'assurer le gain.",
+        "[%wrong Ce coup ne nous donne pas une position gagnante. Cherchez encore !][%hint Si notre tour est venue sur la quatrième rangée, c'est pour bloquer les échecs sur la colonne d...] Bravo ! Vous avez compris le principe du pont de Lucena. La tour blanche vient parer les échecs adverses et les blancs peuvent maintenant promouvoir leur pion sans opposition !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/3P1k2/8/8/8/8/2r5/3R4 w - - 0 1\"]\r\n\r\n{Les noirs jouent le coup défensif le plus résistant : ...Rf7. Notre roi reste coincé à la défense du pion passé. Comment forcer le roi adverse à quitter la colonne f ?}\r\n1.Rf1+\r\n    {[%wrong Ce coup ne force pas le roi noir à quitter la colonne f. Cherchez encore !][%hint Quelle pièce peut accomplir cette tâche ?]}\r\n1...Kg7\r\n    {Parfait ! Le roi noir ne peut rester sur la colonne f. Comment procéder dans cette position de Lucena ?}\r\n2.Rf4\r\n    {[%wrong Ce coup ne nous aide pas à progresser. Il faut construire un pont sur la quatrième rangée !][%hint Dans la position de Lucena, la clef est de construire un pont sur la quatrième rangée pour protéger notre roi des échecs. Mettons la tour sur la quatrième !]}\r\n    (2.Rf5 $6 Kg6 {Bien essayé, mais il faudrait construire un pont sur la quatrième rangée pour empêcher cette défense embêtante !})\r\n    (2.Ke8 $2 Re2+ {Bien essayé, mais il faudrait tout d'abord empêcher ces échecs de tour ! Cherchez encore.})\r\n    (2.Ke7 $2 Re2+ {Bien essayé, mais il faudrait tout d'abord empêcher ces échecs de tour ! Cherchez encore.})\r\n    (2.Rg1+ $2 Kf7 {Ce coup répète la position. Trouvez mieux !})\r\n2...Rc3\r\n    {Superbe ! Vous êtes en train de mettre en place le fameux \"pont de Lucena\" sur la quatrième rangée. Les noirs jouent un coup d'attente pour préparer la venue de votre roi sur la colonne e. Que cela ne vous arrête pas !}\r\n3.Ke7\r\n    {[%wrong Non, il est temps de quitter la colonne d !][%hint Notre roi souhaite quitter la colonne d pour préparer l'arrivée sur la cinquième rangée.]}\r\n    (3.Ke8 $2 Re3+ {Notre roi va être obligé de se positionner devant le pion passé. Essayez une autre case de la colonne e !})\r\n3...Re3+\r\n    {Les noirs lancent une salve d'échecs ! Amenons notre roi vers la cinquième rangée avec précautions.}\r\n4.Kd6\r\n    {[%wrong Ce coup ne mène pas notre roi vers la cinquième rangée. Cherchez encore !][%hint Pour gagner, il faut que notre roi soit sur la cinquième rangée tandis que notre tour le couvre depuis la quatrième.]}\r\n4...Rd3+\r\n    {Les échecs se succèdent. Est-ce le moment de poster le roi sur la cinquième rangée ?}\r\n5.Ke6\r\n    {[%wrong Ce coup ne nous donne pas une position gagnante. Cherchez encore !][%hint N'oubliez pas de protéger notre précieux pion passé !]}\r\n    (5.Ke5 $2 Rxd7 {Nous ne sommes pas encore prêts à mettre notre roi sur la cinquième rangée. Essayez encore !})\r\n    (5.Kc5 $2 Rxd7 {Nous ne sommes pas encore prêts à mettre notre roi sur la cinquième rangée. Essayez encore !})\r\n    (5.Kc6 $5 {Bien vu ! Jouons maintenant l'autre option gagnante en mettant le roi en e6.})\r\n5...Re3+\r\n    {La tour noire continue son projet de harcèlement. Il est temps d'y mettre un terme !}\r\n6.Kd5\r\n    {[%wrong Ce coup ne nous aide pas à progresser. Cherchez encore !][%hint Si notre tour est venue sur la quatrième rangée, c'est pour bloquer les échecs sur la colonne d...]}\r\n6...Rd3+\r\n    {Beau travail ! Vous avez terminé votre pont de Lucena ! Bloquons maintenant l'échec de manière à s'assurer le gain.}\r\n7.Rd4\r\n    {[%wrong Ce coup ne nous donne pas une position gagnante. Cherchez encore !][%hint Si notre tour est venue sur la quatrième rangée, c'est pour bloquer les échecs sur la colonne d...] Bravo ! Vous avez compris le principe du pont de Lucena. La tour blanche vient parer les échecs adverses et les blancs peuvent maintenant promouvoir leur pion sans opposition !}\r\n*"
+    },
+    {
+      "fen": "3K4/3P1k2/8/8/8/8/2r5/3R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Reprenons l'idée de base de la position de Lucena en forçant le roi adverse à quitter la colonne f pour faire passer le notre !",
+        "[%wrong Ce coup ne force pas le roi noir à quitter la colonne f. Cherchez encore !][%hint La tour est votre alliée...]",
+        "Parfait. Cette fois, le roi noir se prépare à attaquer notre pont de Lucena sur la quatrième rangée. Comment profiter du fait qu'il ne couvre plus la huitième ?",
+        "[%wrong Bien essayé, mais comme le roi noir ne couvre plus la case f8, pourquoi ne pas en profiter pour menacer de gagner immédiatement ?][%hint La tour s'infiltre !]",
+        "suivi de Tf8 est également une idée gagnante. Mais pourquoi ne pas aller tout de suite en f8 ?",
+        "Il est effectivement possible de l'emporter en suivant cette voie, mais elle est très complexe. Pourquoi ne pas plutôt laisser notre tour s'infiltrer dans la position noire ?",
+        "Joli coup ! Face à la menace blanche, le roi noir a du retourner en g7. Il est maintenant temps de construire ce pont sur la quatrième rangée !",
+        "[%wrong Ce coup ne revient pas dans la position de Lucena. Essayez encore !][%hint Votre tour a fait son travail en mobilisant le roi noir. Elle peut maintenant venir construire un pont !] Parfait ! Nous sommes revenus dans une position de Lucena gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/3P1k2/8/8/8/8/2r5/3R4 w - - 0 1\"]\r\n\r\n{Reprenons l'idée de base de la position de Lucena en forçant le roi adverse à quitter la colonne f pour faire passer le notre !}\r\n1.Rf1+\r\n    {[%wrong Ce coup ne force pas le roi noir à quitter la colonne f. Cherchez encore !][%hint La tour est votre alliée...]}\r\n1...Kg6\r\n    {Parfait. Cette fois, le roi noir se prépare à attaquer notre pont de Lucena sur la quatrième rangée. Comment profiter du fait qu'il ne couvre plus la huitième ?}\r\n2.Rf8\r\n    {[%wrong Bien essayé, mais comme le roi noir ne couvre plus la case f8, pourquoi ne pas en profiter pour menacer de gagner immédiatement ?][%hint La tour s'infiltre !]}\r\n    (2.Rf4 $5 Kg5 {suivi de Tf8 est également une idée gagnante. Mais pourquoi ne pas aller tout de suite en f8 ?})\r\n    (2.Ke7 $5 Re2+ {Il est effectivement possible de l'emporter en suivant cette voie, mais elle est très complexe. Pourquoi ne pas plutôt laisser notre tour s'infiltrer dans la position noire ?})\r\n2...Kg7\r\n    {Joli coup ! Face à la menace blanche, le roi noir a du retourner en g7. Il est maintenant temps de construire ce pont sur la quatrième rangée !}\r\n3.Rf4\r\n    {[%wrong Ce coup ne revient pas dans la position de Lucena. Essayez encore !][%hint Votre tour a fait son travail en mobilisant le roi noir. Elle peut maintenant venir construire un pont !] Parfait ! Nous sommes revenus dans une position de Lucena gagnante.}\r\n*"
+    },
+    {
+      "fen": "8/3P2k1/3K4/8/5R2/8/8/3r4 w - - 11 10",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Revenons maintenant au coup roi e6.",
+        "[%wrong Jouons, si vous le voulez bien, le coup Re6.][%hint Placez votre roi sur la case e6.]",
+        "Cette fois, les noirs ne nous donnent pas d'échecs et tentent de nous compliquer la vie. Nous ne pouvons pas rapprocher notre roi de notre tour, faisons donc le contraire pour préparer la création d'un pont sur la colonne d.",
+        "[%wrong Ce coup ne nous prépare pas à bloquer la colonne d depuis la cinquième rangée. Cherchez encore !][%hint Où mettre notre tour pour qu'elle se prépare à faire le pont sur la colonne d au prochain coup ?]",
+        "Bien joué ! Les noirs jouent un coup d'attente. Allez-vous rentrer dans la position de Lucena ?",
+        "[%wrong Ce n'est pas l'idée gagnante. Cherchez encore !][%hint Comment bloquer la colonne d pour préparer la promotion de notre pion ?]",
+        "Bien essayé, mais il faut tout d'abord empêcher toute complication en bloquant la colonne d !",
+        "Parfait ! La défense noire s'écroule. Échappons une bonne fois pour toutes à leurs échecs.",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Cachons notre roi derrière sa tour !] Excellent travail ! Les noirs ne peuvent plus nous empêcher de promouvoir notre pion. Une nouvelle victoire pour Lucena !",
+        "suivi de Re7 fonctionne également, mais ce n'est pas pour cela que nous avons mis notre tour sur la colonne d ! Trouvez le gain le plus simple."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3P2k1/3K4/8/5R2/8/8/3r4 w - - 11 10\"]\r\n\r\n{Revenons maintenant au coup roi e6.}\r\n10.Ke6\r\n    {[%wrong Jouons, si vous le voulez bien, le coup Re6.][%hint Placez votre roi sur la case e6.]}\r\n10...Rd2\r\n    {Cette fois, les noirs ne nous donnent pas d'échecs et tentent de nous compliquer la vie. Nous ne pouvons pas rapprocher notre roi de notre tour, faisons donc le contraire pour préparer la création d'un pont sur la colonne d.}\r\n11.Rf5\r\n    {[%wrong Ce coup ne nous prépare pas à bloquer la colonne d depuis la cinquième rangée. Cherchez encore !][%hint Où mettre notre tour pour qu'elle se prépare à faire le pont sur la colonne d au prochain coup ?]}\r\n11...Rd1\r\n    {Bien joué ! Les noirs jouent un coup d'attente. Allez-vous rentrer dans la position de Lucena ?}\r\n12.Rd5\r\n    {[%wrong Ce n'est pas l'idée gagnante. Cherchez encore !][%hint Comment bloquer la colonne d pour préparer la promotion de notre pion ?]}\r\n    (12.Re5 $6 Kf8 {Bien essayé, mais il faut tout d'abord empêcher toute complication en bloquant la colonne d !})\r\n12...Re1+\r\n    {Parfait ! La défense noire s'écroule. Échappons une bonne fois pour toutes à leurs échecs.}\r\n13.Kd6\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Cachons notre roi derrière sa tour !] Excellent travail ! Les noirs ne peuvent plus nous empêcher de promouvoir notre pion. Une nouvelle victoire pour Lucena !}\r\n    (13.Re5 $5 Rd1 {suivi de Re7 fonctionne également, mais ce n'est pas pour cela que nous avons mis notre tour sur la colonne d ! Trouvez le gain le plus simple.})\r\n*"
+    },
+    {
+      "fen": "3R4/3K1k2/3P4/8/8/8/3r4/8 w - - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Comment gagner cette position ? En connaissant la position de Lucena, bien sûr ! Commençons pas jouer le coup Ta8.",
+        "[%wrong Commençons, si vous le voulez bien, par jouer le coup Ta8.][%hint Jouez Ta8.]",
+        "Nous devons maintenant retirer notre roi de la colonne d. Quel est le meilleur coup ?",
+        "[%wrong Non, nous sommes à la recherche d'un coup de roi !][%hint Le roi doit laisser la place à son pion tout en étant prêt à revenir en d8 à tout instant.]",
+        "Attention à votre pion ! Essayez encore.",
+        "Bien essayé, mais il va tout d'abord falloir rentrer dans la position de Lucena pour empêcher ces échecs. Comment amener notre roi vers d8 sans perdre le pion ?",
+        "Attention à votre pion ! Essayez encore.",
+        "Excellente décision ! Face à l'évidente menace de promotion, les noirs donnent un échec. Où placer notre roi pour se préparer à rentrer dans la position de Lucena ?",
+        "[%wrong Bien essayé, mais les noirs parviennent à annuler en plaçant leur roi en e6. Cherchez encore !][%hint Comment mettre le roi à l'abri tout en préparant la poussée d7 ?]",
+        "Ce coup bloque l'avancée de notre pion. Cherchez encore !",
+        "Bien vu ! Les noirs attaquent à nouveau le pion... Vous savez quoi faire !",
+        "[%wrong Non, il y a plus fort !][%hint Les pions passés sont faits pour être poussés...] Superbe ! Vous êtes rentrés dans la position de Lucena. La suite n'est plus qu'une question de technique."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3R4/3K1k2/3P4/8/8/8/3r4/8 w - - 0 5\"]\r\n\r\n{Trait aux blancs. Comment gagner cette position ? En connaissant la position de Lucena, bien sûr ! Commençons pas jouer le coup Ta8.}\r\n5.Ra8\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer le coup Ta8.][%hint Jouez Ta8.]}\r\n5...Rd1\r\n    {Nous devons maintenant retirer notre roi de la colonne d. Quel est le meilleur coup ?}\r\n6.Kc7\r\n    {[%wrong Non, nous sommes à la recherche d'un coup de roi !][%hint Le roi doit laisser la place à son pion tout en étant prêt à revenir en d8 à tout instant.]}\r\n    (6.Kc8 $2 Rxd6 {Attention à votre pion ! Essayez encore.})\r\n    (6.Kc6 $2 Rc1+ {Bien essayé, mais il va tout d'abord falloir rentrer dans la position de Lucena pour empêcher ces échecs. Comment amener notre roi vers d8 sans perdre le pion ?})\r\n    (6.Kd8 $2 Rxd6+ {Attention à votre pion ! Essayez encore.})\r\n6...Rc1+\r\n    {Excellente décision ! Face à l'évidente menace de promotion, les noirs donnent un échec. Où placer notre roi pour se préparer à rentrer dans la position de Lucena ?}\r\n7.Kd8\r\n    {[%wrong Bien essayé, mais les noirs parviennent à annuler en plaçant leur roi en e6. Cherchez encore !][%hint Comment mettre le roi à l'abri tout en préparant la poussée d7 ?]}\r\n    (7.Kd7 $2 {Ce coup bloque l'avancée de notre pion. Cherchez encore !})\r\n7...Rd1\r\n    {Bien vu ! Les noirs attaquent à nouveau le pion... Vous savez quoi faire !}\r\n8.d7\r\n    {[%wrong Non, il y a plus fort !][%hint Les pions passés sont faits pour être poussés...] Superbe ! Vous êtes rentrés dans la position de Lucena. La suite n'est plus qu'une question de technique.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "dea5856c-9cee-11e8-8d97-65b1f7be0bbe",
+    "name": "La position de Lucéna",
+    "path": "lucena-position-2",
+    "description": "La position de Lucéna survient lorsqu’un camp a un roi, une tour et un pion contre un roi et une tour, et que le pion n’est qu’à une case de la promotion. La technique gagnante consiste alors à éloigner le roi de l’attaquant de trois cases puis à placer la tour sur la quatrième rangée pour construire un pont qui va protéger le roi des échecs donnés par la tour adverse.",
+    "glyphName": "piece-combo-king-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-lucena-position-x9z.mp4",
+    "fen": "3K4/3P2k1/8/8/8/8/2r5/5R2 w - - 2 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/3P4/4k3/8/8/8/2r5/3R4 w - - 0 1\"]\r\n\r\n{Le roi noir, auparavant en f6, se rend en e6 pour aller au contact du pion blanc. Comment profiter de la présence de ce roi sur la colonne e ?\r\n}\r\n1.Ke8\r\n    {[%wrong Ce coup ne profite pas de la présence du roi noir sur la colonne e. Cherchez encore !][%hint La position de Lucena consiste à créer un pont permettant à votre roi d'échapper aux échecs de la tour adverse. Ici, c'est le roi noir qui sert de pont pour notre roi !]}\r\n1...Rh2\r\n    {Bien joué ! Le roi blanc se sert de son homologue noir comme bouclier pour ouvrir la case de promotion à son pion. Comment continuer ?}\r\n2.Re1+\r\n    {[%wrong Bien essayé, mais il y a plus fort ! Cherchez encore.][%hint Pourquoi les noirs ont-ils joué ...Th2? Attention aux éventuelles menaces !]}\r\n    (2.d8=Q $2 Rh8# {Oups ! Le moment le plus dangereux, dans une partie d'échecs, c'est lorsqu'il n'y a plus qu'à aller cueillir la victoire... Essayez encore !})\r\n    (2.d8=N+ $2 {Une idée créative, mais cette sous-promotion ne nous offre pas mieux qu'une nulle théorique. Comment mettre le roi noir en échec tout en préparant la promotion au coup suivant ?})\r\n    (2.Rd6+ $5 Kxd6 {Cette idée intelligente fonctionne, en particulier si vous avez trouvé comment gagner en force la tour adverse. Cela dit, il y a plus simple ! Trouvez la victoire la plus rapide.})\r\n    (2.Kf8 $2 Rh8+ {La tour noire va arriver en d8 au prochain coup, et tenir la nulle ! Cherchez encore...})\r\n    (2.Kd8 $2 Rc2 {Cette idée ne mène qu'à une répétition des coups. Trouvez un moyen actif de contrer la menace de mat blanche !})\r\n2...Kf5\r\n    {Excellente décision ! Le roi noir ne peut plus rester en e6, sa tour ne menace par conséquent plus de nous mater. Nous allons promouvoir notre pion en dame et obtenir une position gagnante !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/3P1k2/8/8/8/8/2r5/3R4 w - - 0 1\"]\r\n\r\n{Les noirs jouent le coup défensif le plus résistant : ...Rf7. Notre roi reste coincé à la défense du pion passé. Comment forcer le roi adverse à quitter la colonne f ?}\r\n1.Rf1+\r\n    {[%wrong Ce coup ne force pas le roi noir à quitter la colonne f. Cherchez encore !][%hint Quelle pièce peut accomplir cette tâche ?]}\r\n1...Kg7\r\n    {Parfait ! Le roi noir ne peut rester sur la colonne f. Comment procéder dans cette position de Lucena ?}\r\n2.Rf4\r\n    {[%wrong Ce coup ne nous aide pas à progresser. Il faut construire un pont sur la quatrième rangée !][%hint Dans la position de Lucena, la clef est de construire un pont sur la quatrième rangée pour protéger notre roi des échecs. Mettons la tour sur la quatrième !]}\r\n    (2.Rf5 $6 Kg6 {Bien essayé, mais il faudrait construire un pont sur la quatrième rangée pour empêcher cette défense embêtante !})\r\n    (2.Ke8 $2 Re2+ {Bien essayé, mais il faudrait tout d'abord empêcher ces échecs de tour ! Cherchez encore.})\r\n    (2.Ke7 $2 Re2+ {Bien essayé, mais il faudrait tout d'abord empêcher ces échecs de tour ! Cherchez encore.})\r\n    (2.Rg1+ $2 Kf7 {Ce coup répète la position. Trouvez mieux !})\r\n2...Rc3\r\n    {Superbe ! Vous êtes en train de mettre en place le fameux \"pont de Lucena\" sur la quatrième rangée. Les noirs jouent un coup d'attente pour préparer la venue de votre roi sur la colonne e. Que cela ne vous arrête pas !}\r\n3.Ke7\r\n    {[%wrong Non, il est temps de quitter la colonne d !][%hint Notre roi souhaite quitter la colonne d pour préparer l'arrivée sur la cinquième rangée.]}\r\n    (3.Ke8 $2 Re3+ {Notre roi va être obligé de se positionner devant le pion passé. Essayez une autre case de la colonne e !})\r\n3...Re3+\r\n    {Les noirs lancent une salve d'échecs ! Amenons notre roi vers la cinquième rangée avec précautions.}\r\n4.Kd6\r\n    {[%wrong Ce coup ne mène pas notre roi vers la cinquième rangée. Cherchez encore !][%hint Pour gagner, il faut que notre roi soit sur la cinquième rangée tandis que notre tour le couvre depuis la quatrième.]}\r\n4...Rd3+\r\n    {Les échecs se succèdent. Est-ce le moment de poster le roi sur la cinquième rangée ?}\r\n5.Ke6\r\n    {[%wrong Ce coup ne nous donne pas une position gagnante. Cherchez encore !][%hint N'oubliez pas de protéger notre précieux pion passé !]}\r\n    (5.Ke5 $2 Rxd7 {Nous ne sommes pas encore prêts à mettre notre roi sur la cinquième rangée. Essayez encore !})\r\n    (5.Kc5 $2 Rxd7 {Nous ne sommes pas encore prêts à mettre notre roi sur la cinquième rangée. Essayez encore !})\r\n    (5.Kc6 $5 {Bien vu ! Jouons maintenant l'autre option gagnante en mettant le roi en e6.})\r\n5...Re3+\r\n    {La tour noire continue son projet de harcèlement. Il est temps d'y mettre un terme !}\r\n6.Kd5\r\n    {[%wrong Ce coup ne nous aide pas à progresser. Cherchez encore !][%hint Si notre tour est venue sur la quatrième rangée, c'est pour bloquer les échecs sur la colonne d...]}\r\n6...Rd3+\r\n    {Beau travail ! Vous avez terminé votre pont de Lucena ! Bloquons maintenant l'échec de manière à s'assurer le gain.}\r\n7.Rd4\r\n    {[%wrong Ce coup ne nous donne pas une position gagnante. Cherchez encore !][%hint Si notre tour est venue sur la quatrième rangée, c'est pour bloquer les échecs sur la colonne d...] Bravo ! Vous avez compris le principe du pont de Lucena. La tour blanche vient parer les échecs adverses et les blancs peuvent maintenant promouvoir leur pion sans opposition !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/3P1k2/8/8/8/8/2r5/3R4 w - - 0 1\"]\r\n\r\n{Reprenons l'idée de base de la position de Lucena en forçant le roi adverse à quitter la colonne f pour faire passer le notre !}\r\n1.Rf1+\r\n    {[%wrong Ce coup ne force pas le roi noir à quitter la colonne f. Cherchez encore !][%hint La tour est votre alliée...]}\r\n1...Kg6\r\n    {Parfait. Cette fois, le roi noir se prépare à attaquer notre pont de Lucena sur la quatrième rangée. Comment profiter du fait qu'il ne couvre plus la huitième ?}\r\n2.Rf8\r\n    {[%wrong Bien essayé, mais comme le roi noir ne couvre plus la case f8, pourquoi ne pas en profiter pour menacer de gagner immédiatement ?][%hint La tour s'infiltre !]}\r\n    (2.Rf4 $5 Kg5 {suivi de Tf8 est également une idée gagnante. Mais pourquoi ne pas aller tout de suite en f8 ?})\r\n    (2.Ke7 $5 Re2+ {Il est effectivement possible de l'emporter en suivant cette voie, mais elle est très complexe. Pourquoi ne pas plutôt laisser notre tour s'infiltrer dans la position noire ?})\r\n2...Kg7\r\n    {Joli coup ! Face à la menace blanche, le roi noir a du retourner en g7. Il est maintenant temps de construire ce pont sur la quatrième rangée !}\r\n3.Rf4\r\n    {[%wrong Ce coup ne revient pas dans la position de Lucena. Essayez encore !][%hint Votre tour a fait son travail en mobilisant le roi noir. Elle peut maintenant venir construire un pont !] Parfait ! Nous sommes revenus dans une position de Lucena gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3P2k1/3K4/8/5R2/8/8/3r4 w - - 11 10\"]\r\n\r\n{Revenons maintenant au coup roi e6.}\r\n10.Ke6\r\n    {[%wrong Jouons, si vous le voulez bien, le coup Re6.][%hint Placez votre roi sur la case e6.]}\r\n10...Rd2\r\n    {Cette fois, les noirs ne nous donnent pas d'échecs et tentent de nous compliquer la vie. Nous ne pouvons pas rapprocher notre roi de notre tour, faisons donc le contraire pour préparer la création d'un pont sur la colonne d.}\r\n11.Rf5\r\n    {[%wrong Ce coup ne nous prépare pas à bloquer la colonne d depuis la cinquième rangée. Cherchez encore !][%hint Où mettre notre tour pour qu'elle se prépare à faire le pont sur la colonne d au prochain coup ?]}\r\n11...Rd1\r\n    {Bien joué ! Les noirs jouent un coup d'attente. Allez-vous rentrer dans la position de Lucena ?}\r\n12.Rd5\r\n    {[%wrong Ce n'est pas l'idée gagnante. Cherchez encore !][%hint Comment bloquer la colonne d pour préparer la promotion de notre pion ?]}\r\n    (12.Re5 $6 Kf8 {Bien essayé, mais il faut tout d'abord empêcher toute complication en bloquant la colonne d !})\r\n12...Re1+\r\n    {Parfait ! La défense noire s'écroule. Échappons une bonne fois pour toutes à leurs échecs.}\r\n13.Kd6\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Cachons notre roi derrière sa tour !] Excellent travail ! Les noirs ne peuvent plus nous empêcher de promouvoir notre pion. Une nouvelle victoire pour Lucena !}\r\n    (13.Re5 $5 Rd1 {suivi de Re7 fonctionne également, mais ce n'est pas pour cela que nous avons mis notre tour sur la colonne d ! Trouvez le gain le plus simple.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3R4/3K1k2/3P4/8/8/8/3r4/8 w - - 0 5\"]\r\n\r\n{Trait aux blancs. Comment gagner cette position ? En connaissant la position de Lucena, bien sûr ! Commençons pas jouer le coup Ta8.}\r\n5.Ra8\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer le coup Ta8.][%hint Jouez Ta8.]}\r\n5...Rd1\r\n    {Nous devons maintenant retirer notre roi de la colonne d. Quel est le meilleur coup ?}\r\n6.Kc7\r\n    {[%wrong Non, nous sommes à la recherche d'un coup de roi !][%hint Le roi doit laisser la place à son pion tout en étant prêt à revenir en d8 à tout instant.]}\r\n    (6.Kc8 $2 Rxd6 {Attention à votre pion ! Essayez encore.})\r\n    (6.Kc6 $2 Rc1+ {Bien essayé, mais il va tout d'abord falloir rentrer dans la position de Lucena pour empêcher ces échecs. Comment amener notre roi vers d8 sans perdre le pion ?})\r\n    (6.Kd8 $2 Rxd6+ {Attention à votre pion ! Essayez encore.})\r\n6...Rc1+\r\n    {Excellente décision ! Face à l'évidente menace de promotion, les noirs donnent un échec. Où placer notre roi pour se préparer à rentrer dans la position de Lucena ?}\r\n7.Kd8\r\n    {[%wrong Bien essayé, mais les noirs parviennent à annuler en plaçant leur roi en e6. Cherchez encore !][%hint Comment mettre le roi à l'abri tout en préparant la poussée d7 ?]}\r\n    (7.Kd7 $2 {Ce coup bloque l'avancée de notre pion. Cherchez encore !})\r\n7...Rd1\r\n    {Bien vu ! Les noirs attaquent à nouveau le pion... Vous savez quoi faire !}\r\n8.d7\r\n    {[%wrong Non, il y a plus fort !][%hint Les pions passés sont faits pour être poussés...] Superbe ! Vous êtes rentrés dans la position de Lucena. La suite n'est plus qu'une question de technique.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Roi, tour et pion contre roi et tour : une finale très courante.",
+    "outroText": "Je suis impressionné. Vous commencez à bien maîtriser les finales.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "path": "motifs-de-finales",
+      "title": "Motifs de finale",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/88fecd30-a55e-11e8-b04a-53817ee2115a.dd294b02.728x410o.de2eb5921014.png"
+    },
+    "parentId": "8efb2912-83b8-11e8-b223-8b146236f925",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/lucena-position5d125e8ed6c09.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/lucena-position-15ea23ce56bf98.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/lucena-position-6605db4d7efcfe.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 131,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "name": "Motifs de finale",
+      "path": "motifs-de-finales",
+      "order": 7
+    }
+  }
+}

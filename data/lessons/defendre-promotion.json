@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-echecs/defendre-promotion",
+  "capturedAt": "2026-10-22T13:42:35.891Z",
+  "title": "Empêcher la promotion",
+  "exercises": [
+    {
+      "fen": "8/8/8/3B4/8/8/3p4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d2d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d2;to;d1;persistent;true]Couvrez sa case de promotion avec votre fou.",
+        "[%hint Déplacez votre fou pour qu'il défende la case que son pion essaie d'atteindre.][%wrong Aïe ! Les noirs peuvent promouvoir le pion. Essayez de couvrir la case qu'il cherche à atteindre.]  Bien joué !",
+        "Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3B4/8/8/3p4/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2296653570641958\"]\r\n\r\n{[%c_arrow d2d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d2;to;d1;persistent;true]Couvrez sa case de promotion avec votre fou.} 1. Bf3 {[%hint Déplacez votre fou pour qu'il défende la case que son pion essaie d'atteindre.][%wrong Aïe ! Les noirs peuvent promouvoir le pion. Essayez de couvrir la case qu'il cherche à atteindre.]  Bien joué !} (1. Bb3 $3 {Bien joué !}) *"
+    },
+    {
+      "fen": "8/8/7B/8/8/7N/7p/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment pouvez-vous couvrir la case de promotion ?",
+        "[%hint Défendez le coin avec votre cavalier.][%wrong Cela n'empêche pas le pion noir de promouvoir tranquillement. Réessaye.]",
+        "Bon choix, pouvez-vous prendre maintenant ?",
+        "[%hint Pouvez-vous prendre avec le cavalier ?][%wrong Réessayez, vous pouvez demander un indice.] Belle défense !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/7B/8/8/7N/7p/8 w - - 0 1\"]\r\n\r\n{Comment pouvez-vous couvrir la case de promotion ?} 1. Nf2 {[%hint Défendez le coin avec votre cavalier.][%wrong Cela n'empêche pas le pion noir de promouvoir tranquillement. Réessaye.]} 1... h1=Q {Bon choix, pouvez-vous prendre maintenant ?} 2. Nxh1 {[%hint Pouvez-vous prendre avec le cavalier ?][%wrong Réessayez, vous pouvez demander un indice.] Belle défense !} *"
+    },
+    {
+      "fen": "3B4/8/8/1K2k3/8/8/7p/8 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment pouvez-vous gagner son pion avant qu'il ne soit promu ?",
+        "[%hint Trouvez un bon échec et préparez-vous à prendre le pion quand le roi noir bougera.] [%wrong Le pion noir va être promu au prochain coup. Essayez de trouver un moyen de le cibler.]",
+        "Excellent début ! Et ensuite ?",
+        "[%hint Prenez le pion.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.]  Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"3B4/8/8/1K2k3/8/8/7p/8 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2289452030836854\"]\r\n\r\n{Comment pouvez-vous gagner son pion avant qu'il ne soit promu ?} 1. Bc7 {[%hint Trouvez un bon échec et préparez-vous à prendre le pion quand le roi noir bougera.] [%wrong Le pion noir va être promu au prochain coup. Essayez de trouver un moyen de le cibler.]} Ke4 {Excellent début ! Et ensuite ?} 2. Bh2 {[%hint Prenez le pion.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.]  Bien joué !} *"
+    },
+    {
+      "fen": "3R4/8/7n/8/8/3K3k/7p/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion va être promu, mais si vous faites attention, vous pouvez encore le rattraper.",
+        "[%hint Attaquez le cavalier noir et alignez votre tour avec toutes les autres pièces noires.] [%wrong Il y a un meilleur coup. Essayez de le trouver et consultez l'indice si vous êtes bloqué.]",
+        "Les noirs peuvent promouvoir, mais n'abandonne pas !",
+        "[%hint Prenez une pièce et faites échec.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.]",
+        "Bien joué ! Et ensuite ?",
+        "[%hint Prenez la dame.] [%wrong La dame noire va bientôt gagner la partie. Réessaye et cherche une bonne prise.]  Bien joué ! Les noirs vont reprendre, et la partie se termine par une nulle."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"3R4/8/7n/8/8/3K3k/7p/8 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n[GameId \"2289453254799482\"]\r\n\r\n{Le pion va être promu, mais si vous faites attention, vous pouvez encore le rattraper.} 1. Rh8 {[%hint Attaquez le cavalier noir et alignez votre tour avec toutes les autres pièces noires.] [%wrong Il y a un meilleur coup. Essayez de le trouver et consultez l'indice si vous êtes bloqué.]} h1=Q {Les noirs peuvent promouvoir, mais n'abandonne pas !} 2. Rxh6+ {[%hint Prenez une pièce et faites échec.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.]} Kg2 {Bien joué ! Et ensuite ?} 3. Rxh1 {[%hint Prenez la dame.] [%wrong La dame noire va bientôt gagner la partie. Réessaye et cherche une bonne prise.]  Bien joué ! Les noirs vont reprendre, et la partie se termine par une nulle.} *"
+    },
+    {
+      "fen": "8/8/8/4K3/p7/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true,d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true,d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,a2;color;%23ffaa00;opacity;0.8;square;a2;persistent;true,a3;color;%23ffaa00;opacity;0.8;square;a3;persistent;true,b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,b4;color;%23ffaa00;opacity;0.8;square;b4;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Les rois sont étonnamment rapides dans les finales. Si vous pouvez atteindre \"le carré\" que le pion forme avec son objectif, alors vous pouvez le rattraper !",
+        "[%hint Courez aussi vite que possible vers le coin où le pion noir essaie d'être promu.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]",
+        "[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,a2;color;%23ffaa00;opacity;0.8;square;a2;persistent;true,a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true]Vous êtes dans le carré ! Continuez la poursuite.",
+        "[%hint Continuez de courir vers le coin.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]",
+        "[%c_highlight b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true] Presque ! Encore un pas.",
+        "[%hint Continuez de courir vers le coin.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]",
+        "Le pion s'est promu, mais vous êtes au contact !",
+        "[%hint Prenez la dame.][%wrong Réessayez. Pouvez-vous prendre la dame ?]Bien joué ! Vous avez rattrapé le pion en restant dans le carré. La partie est nulle."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/4K3/p7/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true,d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true,d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,a2;color;%23ffaa00;opacity;0.8;square;a2;persistent;true,a3;color;%23ffaa00;opacity;0.8;square;a3;persistent;true,b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,b4;color;%23ffaa00;opacity;0.8;square;b4;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Les rois sont étonnamment rapides dans les finales. Si vous pouvez atteindre \"le carré\" que le pion forme avec son objectif, alors vous pouvez le rattraper !} 1. Kd4 {[%hint Courez aussi vite que possible vers le coin où le pion noir essaie d'être promu.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]} 1... a3 {[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,a2;color;%23ffaa00;opacity;0.8;square;a2;persistent;true,a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true]Vous êtes dans le carré ! Continuez la poursuite.} 2. Kc3 {[%hint Continuez de courir vers le coin.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]} 2... a2 {[%c_highlight b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true] Presque ! Encore un pas.} 3. Kb2 {[%hint Continuez de courir vers le coin.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]} 3... a1=Q+ {Le pion s'est promu, mais vous êtes au contact !} 4. Kxa1 {[%hint Prenez la dame.][%wrong Réessayez. Pouvez-vous prendre la dame ?]Bien joué ! Vous avez rattrapé le pion en restant dans le carré. La partie est nulle.} *"
+    },
+    {
+      "fen": "8/8/6p1/3k3P/8/8/6K1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Promouvez votre pion et ne laissez pas le roi noir le rattraper.",
+        "[%hint Faites courir votre pion jusqu'à la promotion.][%wrong Les noirs prennent votre pion. Réessayez et cherchez un bon coup de pion.]",
+        "Le roi noir va bientôt rattraper votre pion. Réessayez.",
+        "Excellent début ! Pouvez-vous continuer ?",
+        "[%hint Pouvez-vous pousser votre pion jusqu'à la promotion ?][%wrong Ce n'était pas le meilleur coup, réessaye.]",
+        "Oui, encore une case à parcourir ?",
+        "[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Réessayez, vous êtes proche.] Belle promotion !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6p1/3k3P/8/8/6K1/8 w - - 0 1\"]\r\n\r\n{Promouvez votre pion et ne laissez pas le roi noir le rattraper.} 1. h6 {[%hint Faites courir votre pion jusqu'à la promotion.][%wrong Les noirs prennent votre pion. Réessayez et cherchez un bon coup de pion.]} (1. hxg6? Ke6 {Le roi noir va bientôt rattraper votre pion. Réessayez.}) 1... Ke6 {Excellent début ! Pouvez-vous continuer ?} 2. h7 {[%hint Pouvez-vous pousser votre pion jusqu'à la promotion ?][%wrong Ce n'était pas le meilleur coup, réessaye.]} 2... Kf7 {Oui, encore une case à parcourir ?} 3. h8=Q {[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Réessayez, vous êtes proche.] Belle promotion !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c128-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Empêcher la promotion",
+    "path": "defendre-promotion",
+    "description": "En finale, il est souvent essentiel d'empêcher votre adversaire de promouvoir un pion.",
+    "glyphName": "piece-combo-queen-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3B4/8/8/3p4/8 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2296653570641958\"]\r\n\r\n{[%c_arrow d2d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d2;to;d1;persistent;true]Couvrez sa case de promotion avec votre fou.} 1. Bf3 {[%hint Déplacez votre fou pour qu'il défende la case que son pion essaie d'atteindre.][%wrong Aïe ! Les noirs peuvent promouvoir le pion. Essayez de couvrir la case qu'il cherche à atteindre.]  Bien joué !} (1. Bb3 $3 {Bien joué !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/7B/8/8/7N/7p/8 w - - 0 1\"]\r\n\r\n{Comment pouvez-vous couvrir la case de promotion ?} 1. Nf2 {[%hint Défendez le coin avec votre cavalier.][%wrong Cela n'empêche pas le pion noir de promouvoir tranquillement. Réessaye.]} 1... h1=Q {Bon choix, pouvez-vous prendre maintenant ?} 2. Nxh1 {[%hint Pouvez-vous prendre avec le cavalier ?][%wrong Réessayez, vous pouvez demander un indice.] Belle défense !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"3B4/8/8/1K2k3/8/8/7p/8 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2289452030836854\"]\r\n\r\n{Comment pouvez-vous gagner son pion avant qu'il ne soit promu ?} 1. Bc7 {[%hint Trouvez un bon échec et préparez-vous à prendre le pion quand le roi noir bougera.] [%wrong Le pion noir va être promu au prochain coup. Essayez de trouver un moyen de le cibler.]} Ke4 {Excellent début ! Et ensuite ?} 2. Bh2 {[%hint Prenez le pion.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.]  Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"3R4/8/7n/8/8/3K3k/7p/8 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n[GameId \"2289453254799482\"]\r\n\r\n{Le pion va être promu, mais si vous faites attention, vous pouvez encore le rattraper.} 1. Rh8 {[%hint Attaquez le cavalier noir et alignez votre tour avec toutes les autres pièces noires.] [%wrong Il y a un meilleur coup. Essayez de le trouver et consultez l'indice si vous êtes bloqué.]} h1=Q {Les noirs peuvent promouvoir, mais n'abandonne pas !} 2. Rxh6+ {[%hint Prenez une pièce et faites échec.] [%wrong Il y a un meilleur coup. Essayez de trouver une bonne prise.]} Kg2 {Bien joué ! Et ensuite ?} 3. Rxh1 {[%hint Prenez la dame.] [%wrong La dame noire va bientôt gagner la partie. Réessaye et cherche une bonne prise.]  Bien joué ! Les noirs vont reprendre, et la partie se termine par une nulle.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/4K3/p7/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true,d1;color;%23ffaa00;opacity;0.8;square;d1;persistent;true,d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,a2;color;%23ffaa00;opacity;0.8;square;a2;persistent;true,a3;color;%23ffaa00;opacity;0.8;square;a3;persistent;true,b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,b4;color;%23ffaa00;opacity;0.8;square;b4;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Les rois sont étonnamment rapides dans les finales. Si vous pouvez atteindre \"le carré\" que le pion forme avec son objectif, alors vous pouvez le rattraper !} 1. Kd4 {[%hint Courez aussi vite que possible vers le coin où le pion noir essaie d'être promu.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]} 1... a3 {[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,a2;color;%23ffaa00;opacity;0.8;square;a2;persistent;true,a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true]Vous êtes dans le carré ! Continuez la poursuite.} 2. Kc3 {[%hint Continuez de courir vers le coin.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]} 2... a2 {[%c_highlight b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,a1;color;%23ffaa00;opacity;0.8;square;a1;persistent;true] Presque ! Encore un pas.} 3. Kb2 {[%hint Continuez de courir vers le coin.][%wrong Ce coup ne rattrapera pas le pion noir avant sa promotion. Réessaye.]} 3... a1=Q+ {Le pion s'est promu, mais vous êtes au contact !} 4. Kxa1 {[%hint Prenez la dame.][%wrong Réessayez. Pouvez-vous prendre la dame ?]Bien joué ! Vous avez rattrapé le pion en restant dans le carré. La partie est nulle.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6p1/3k3P/8/8/6K1/8 w - - 0 1\"]\r\n\r\n{Promouvez votre pion et ne laissez pas le roi noir le rattraper.} 1. h6 {[%hint Faites courir votre pion jusqu'à la promotion.][%wrong Les noirs prennent votre pion. Réessayez et cherchez un bon coup de pion.]} (1. hxg6? Ke6 {Le roi noir va bientôt rattraper votre pion. Réessayez.}) 1... Ke6 {Excellent début ! Pouvez-vous continuer ?} 2. h7 {[%hint Pouvez-vous pousser votre pion jusqu'à la promotion ?][%wrong Ce n'était pas le meilleur coup, réessaye.]} 2... Kf7 {Oui, encore une case à parcourir ?} 3. h8=Q {[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Réessayez, vous êtes proche.] Belle promotion !} *"
+    ],
+    "courseId": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Empêcher la promotion est essentiel pour gagner des parties d'échecs.",
+    "outroText": "Vous avez appris les techniques clés pour empêcher la promotion. Bravo !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "finales-echecs",
+      "title": "Finales"
+    },
+    "parentId": "794c3ff2-23ba-11f1-a24c-33ed4a4a1b6a"
+  },
+  "curriculum": {
+    "number": 42,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Finales",
+      "path": "finales-echecs",
+      "order": 4
+    }
+  }
+}

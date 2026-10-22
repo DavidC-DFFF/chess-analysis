@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/introduction-au-ouvertures-classiques/defenses-contre-1-e4-cote-noirs-1-e5-et-1-c5",
+  "capturedAt": "2026-10-22T12:23:35.350Z",
+  "title": "Les défenses contre 1.e4 pour les noirs : 1...e5 et 1...c5",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont ouvert par 1.e4. Déplaçons également notre pion e vers le centre pour prendre autant d'espace qu'eux.",
+        "[%wrong Ce coup ne place pas le pion e au centre. Essayez encore !][%hint Avancez le pion du roi de deux cases.]",
+        "Bien essayé, mais pour l'instant, nous voulons mettre le pion e au centre, pas le d !",
+        "Parfait ! Les noirs contestent efficacement l'espace. Les blancs tentent de prendre le contrôle total du centre par 2.d4, mais nous pouvons capturer ce pion !",
+        "[%wrong Ce coup ne prend pas le pion d4. Essayez encore !][%hint Prenez le pion d4.]",
+        "Très bien ! les noirs prennent le pion d4, attirant la dame blanche vers le centre. Développons maintenant un cavalier pour l'attaquer !",
+        "[%wrong Ce coup ne développe pas un cavalier pour attaquer la dame blanche. Essayez encore.][%hint Le cavalier b8 est la pièce qu'il vous faut !] Et voilà ! Les noirs développent une pièce vers le centre, forçant la dame à perdre un temps pour battre en retraite."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs ont ouvert par 1.e4. Déplaçons également notre pion e vers le centre pour prendre autant d'espace qu'eux.}\r\n1...e5\r\n    {[%wrong Ce coup ne place pas le pion e au centre. Essayez encore !][%hint Avancez le pion du roi de deux cases.]}\r\n    (1...d5 $2 2.exd5 {Bien essayé, mais pour l'instant, nous voulons mettre le pion e au centre, pas le d !})\r\n2.d4\r\n    {Parfait ! Les noirs contestent efficacement l'espace. Les blancs tentent de prendre le contrôle total du centre par 2.d4, mais nous pouvons capturer ce pion !}\r\n2...exd4\r\n    {[%wrong Ce coup ne prend pas le pion d4. Essayez encore !][%hint Prenez le pion d4.]}\r\n3.Qxd4\r\n    {Très bien ! les noirs prennent le pion d4, attirant la dame blanche vers le centre. Développons maintenant un cavalier pour l'attaquer !}\r\n3...Nc6\r\n    {[%wrong Ce coup ne développe pas un cavalier pour attaquer la dame blanche. Essayez encore.][%hint Le cavalier b8 est la pièce qu'il vous faut !] Et voilà ! Les noirs développent une pièce vers le centre, forçant la dame à perdre un temps pour battre en retraite.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs attaquent le pion noir en e5. Comment développer un cavalier en contre-attaquant tout de suite sur le pion e4 ?",
+        "[%wrong Ce coup ne développe pas un cavalier attaquant le pion e4. Essayez encore !][%hint Le cavalier b8 est la pièce qu'il vous faut !]",
+        "Ce coup est effectivement le plus souvent joué par les noirs dans cette position, et nous étudierons cette idée dans le prochain chapitre. Pour le moment, essayons de contre-attaquer immédiatement sur le pion e4 !",
+        "Très bien ! Le coup 2...Cf6 est appelé la défense russe. Les blancs s'emparent maintenant du pion e5. Les noirs doivent-ils jouer 3...d6 pour attaquer le cavalier blanc, ou bien capturer le pion e4 immédiatement ?",
+        "[%wrong Pour cette question, vous avez deux options : 3...d6 ou 3...Cxe4. Choisissez le meilleur coup.][%hint Il est préférable de faire reculer le cavalier e5 avant de prendre le pion e4.]",
+        "Ce coup va permettre aux blancs de gagner du matériel. Commencez par chasser le cavalier e5.",
+        "Très bien ! Les noirs forcent le cavalier à retourner chez lui. Il est maintenant temps de prendre le pion e4.",
+        "[%wrong Non, ce coup ne prend pas le pion e4 !][%hint Votre cavalier est idéalement placé pour s'emparer du pion e4.]",
+        "Bien joué. Les blancs clouent maintenant notre cavalier au roi. Comment casser le clouage tout en protégeant le cavalier ?",
+        "[%wrong Ce coup ne casse pas le clouage en protégeant le cavalier. Essayez encore !][%hint Quelle pièce peut tout à la fois se mettre devant le roi, casser le clouage, et protéger le cavalier ?] Super ! Le cavalier, désormais protégé, va pouvoir bouger dès le prochain coup car il n'est plus cloué au roi.",
+        "Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !",
+        "Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !",
+        "Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2\"]\r\n\r\n{Les blancs attaquent le pion noir en e5. Comment développer un cavalier en contre-attaquant tout de suite sur le pion e4 ?}\r\n2...Nf6\r\n    {[%wrong Ce coup ne développe pas un cavalier attaquant le pion e4. Essayez encore !][%hint Le cavalier b8 est la pièce qu'il vous faut !]}\r\n    (2...Nc6 $5 {Ce coup est effectivement le plus souvent joué par les noirs dans cette position, et nous étudierons cette idée dans le prochain chapitre. Pour le moment, essayons de contre-attaquer immédiatement sur le pion e4 !})\r\n3.Nxe5\r\n    {Très bien ! Le coup 2...Cf6 est appelé la défense russe. Les blancs s'emparent maintenant du pion e5. Les noirs doivent-ils jouer 3...d6 pour attaquer le cavalier blanc, ou bien capturer le pion e4 immédiatement ?}\r\n3...d6\r\n    {[%wrong Pour cette question, vous avez deux options : 3...d6 ou 3...Cxe4. Choisissez le meilleur coup.][%hint Il est préférable de faire reculer le cavalier e5 avant de prendre le pion e4.]}\r\n    (3...Nxe4 $2 4.Qe2 {Ce coup va permettre aux blancs de gagner du matériel. Commencez par chasser le cavalier e5.})\r\n4.Nf3\r\n    {Très bien ! Les noirs forcent le cavalier à retourner chez lui. Il est maintenant temps de prendre le pion e4.}\r\n4...Nxe4\r\n    {[%wrong Non, ce coup ne prend pas le pion e4 !][%hint Votre cavalier est idéalement placé pour s'emparer du pion e4.]}\r\n5.Qe2\r\n    {Bien joué. Les blancs clouent maintenant notre cavalier au roi. Comment casser le clouage tout en protégeant le cavalier ?}\r\n5...Qe7\r\n    {[%wrong Ce coup ne casse pas le clouage en protégeant le cavalier. Essayez encore !][%hint Quelle pièce peut tout à la fois se mettre devant le roi, casser le clouage, et protéger le cavalier ?] Super ! Le cavalier, désormais protégé, va pouvoir bouger dès le prochain coup car il n'est plus cloué au roi.}\r\n    (5...d5 $2 6.d3 {Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !})\r\n    (5...Bf5 $2 {Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !})\r\n    (5...f5 $2 {Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer 3. Fc4, constitutif de la partie italienne. Développons notre fou de cases noires vers le centre pour mettre sous pression le pion f2 des blancs.",
+        "[%wrong Ce coup ne développe notre fou sur la case la plus agressive. Essayez encore !][%hint La case c5 semble tout à fait indiquée !]",
+        "Excellent ! Les noirs développent leur fou en c5 et visent le pion f2. Les blancs répondent par un coup faible, mais qui va s'avérer dangereux : 4. Cg5. Quel est ici le meilleur coup pour les noirs ?",
+        "[%wrong Ce coup n'est pas le plus efficace, cherchez encore !][%hint le cavalier g5 des blancs est-il protégé ?] Mais oui, c'est clair ! Le cavalier des blancs est en prise, et les noirs gagnent une pièce gratuite..",
+        "Oups ! Les blancs gagnent un pion et prennent en fourchette la dame et la tour noires. Essayez encore !",
+        "La dame noire a trop de valeur pour l'échanger contre un cavalier. Essayez encore !",
+        "Bien essayé, mais il existe un moyen beaucoup plus simple de gagner du matériel. Regardez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3\"]\r\n\r\n{Les blancs viennent de jouer 3. Fc4, constitutif de la partie italienne. Développons notre fou de cases noires vers le centre pour mettre sous pression le pion f2 des blancs.}\r\n3...Bc5\r\n {[%wrong Ce coup ne développe notre fou sur la case la plus agressive. Essayez encore !][%hint La case c5 semble tout à fait indiquée !]}\r\n4.Ng5 $2\r\n    {Excellent ! Les noirs développent leur fou en c5 et visent le pion f2. Les blancs répondent par un coup faible, mais qui va s'avérer dangereux : 4. Cg5. Quel est ici le meilleur coup pour les noirs ?}\r\n4...Qxg5\r\n    {[%wrong Ce coup n'est pas le plus efficace, cherchez encore !][%hint le cavalier g5 des blancs est-il protégé ?] Mais oui, c'est clair ! Le cavalier des blancs est en prise, et les noirs gagnent une pièce gratuite..}\r\n    (4...Nf6 $2 5.Nxf7 {Oups ! Les blancs gagnent un pion et prennent en fourchette la dame et la tour noires. Essayez encore !})\r\n    (4...Qe7 $2 5.Nxf7 {La dame noire a trop de valeur pour l'échanger contre un cavalier. Essayez encore !})\r\n    (4...d5 $6 {Bien essayé, mais il existe un moyen beaucoup plus simple de gagner du matériel. Regardez encore.})\r\n*"
+    },
+    {
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 5 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont déjà roqué, et les noirs doivent à leur tour se préoccuper de la sécurité de leur roi. Développer votre cavalier vers le centre tout en préparant le roque !",
+        "[%wrong Ce coup ne développe pas de cavalier vers le centre en préparant le roque au prochain coup. Essayez encore !][%hint Le cavalier g8 doit rentrer en jeu.]",
+        "Très bien ! Les noirs développent le cavalier et attaquent e4. Il est maintenant temps de mettre votre roi en sûreté.",
+        "[%wrong Ce coup ne met pas le roi noir à l'abri. Essayez encore !][%hint Souvenez-vous du roque...] Beau travail ! Le roi est maintenant en sécurité et votre position est très solide.",
+        "Bien essayé, mais pour roquer, il faut déplacer le roi de deux cases vers l'extérieur !",
+        "Après ce coup, le roi noir sera coincé au centre de l'échiquier. Faites plutôt petit roque."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 5 4\"]\r\n\r\n{Les blancs ont déjà roqué, et les noirs doivent à leur tour se préoccuper de la sécurité de leur roi. Développer votre cavalier vers le centre tout en préparant le roque !}\r\n4...Nf6\r\n    {[%wrong Ce coup ne développe pas de cavalier vers le centre en préparant le roque au prochain coup. Essayez encore !][%hint Le cavalier g8 doit rentrer en jeu.]}\r\n5.d3\r\n    {Très bien ! Les noirs développent le cavalier et attaquent e4. Il est maintenant temps de mettre votre roi en sûreté.}\r\n5...O-O\r\n    {[%wrong Ce coup ne met pas le roi noir à l'abri. Essayez encore !][%hint Souvenez-vous du roque...] Beau travail ! Le roi est maintenant en sécurité et votre position est très solide.}\r\n    (5...Kf8 $2 {Bien essayé, mais pour roquer, il faut déplacer le roi de deux cases vers l'extérieur !})\r\n    (5...Ke7 $2 {Après ce coup, le roi noir sera coincé au centre de l'échiquier. Faites plutôt petit roque.})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Jouons cette fois la défense sicilienne en mettant notre pion en c5 !",
+        "[%wrong Ce n'est pas la défense sicilienne. Essayez encore.][%hint Jouez c5 !]",
+        "Très bien ! Dans la défense sicilienne, les noirs combattent dès l'ouverture pour le contrôle de la case d4. Développons maintenant un cavalier qui participera à cette tâche.",
+        "[%wrong Ce n'est pas la bonne suite. Essayez encore.][%hint La case c6 semble excellente pour le cavalier.]",
+        "Très bien ! Mais les blancs tentent de prendre le contrôle total du centre. Échangeons le pion c5 contre le pion d4.",
+        "[%wrong Ce coup ne prend pas le pion d4. Essayez encore.][%hint Comment capturer le pion d4 avec un de nos pions ?] Très bien ! Les noirs échangent le pion non-central c5 contre le pion central d4. Un combat palpitant s'annonce !",
+        "Ce coup offre aux blancs trop de contrôle central. Il est préférable de prendre ce pion d4 avec un pion et de garder les cavaliers sur l'échiquier pour le moment. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Jouons cette fois la défense sicilienne en mettant notre pion en c5 !}\r\n1...c5\r\n {[%wrong Ce n'est pas la défense sicilienne. Essayez encore.][%hint Jouez c5 !]}\r\n2.Nf3\r\n    {Très bien ! Dans la défense sicilienne, les noirs combattent dès l'ouverture pour le contrôle de la case d4. Développons maintenant un cavalier qui participera à cette tâche.}\r\n2...Nc6\r\n {[%wrong Ce n'est pas la bonne suite. Essayez encore.][%hint La case c6 semble excellente pour le cavalier.]}\r\n3.d4\r\n    {Très bien ! Mais les blancs tentent de prendre le contrôle total du centre. Échangeons le pion c5 contre le pion d4.}\r\n3...cxd4\r\n    {[%wrong Ce coup ne prend pas le pion d4. Essayez encore.][%hint Comment capturer le pion d4 avec un de nos pions ?] Très bien ! Les noirs échangent le pion non-central c5 contre le pion central d4. Un combat palpitant s'annonce !}\r\n    (3...Nxd4 $2 4.Nxd4 {Ce coup offre aux blancs trop de contrôle central. Il est préférable de prendre ce pion d4 avec un pion et de garder les cavaliers sur l'échiquier pour le moment. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "30003a2a-9ce9-11e8-b70a-47ecda7319b6",
+    "name": "Les défenses contre 1.e4 pour les noirs : 1...e5 et 1...c5",
+    "path": "defenses-contre-1-e4-cote-noirs-1-e5-et-1-c5",
+    "description": "Les réponses les plus communes à 1.e4 sont celles qui contrôlent la case d4. Les noirs jouent généralement 1…e5 ou 1…c5 pour empêcher les blancs d’obtenir un fort centre de pions.",
+    "glyphName": "document-book-e-badge-left",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-1-e4-openings-for-beginners-black-a0d.mp4",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/8/3QP3/8/PPP2PPP/RNB1KBNR w KQkq - 1 4",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs ont ouvert par 1.e4. Déplaçons également notre pion e vers le centre pour prendre autant d'espace qu'eux.}\r\n1...e5\r\n    {[%wrong Ce coup ne place pas le pion e au centre. Essayez encore !][%hint Avancez le pion du roi de deux cases.]}\r\n    (1...d5 $2 2.exd5 {Bien essayé, mais pour l'instant, nous voulons mettre le pion e au centre, pas le d !})\r\n2.d4\r\n    {Parfait ! Les noirs contestent efficacement l'espace. Les blancs tentent de prendre le contrôle total du centre par 2.d4, mais nous pouvons capturer ce pion !}\r\n2...exd4\r\n    {[%wrong Ce coup ne prend pas le pion d4. Essayez encore !][%hint Prenez le pion d4.]}\r\n3.Qxd4\r\n    {Très bien ! les noirs prennent le pion d4, attirant la dame blanche vers le centre. Développons maintenant un cavalier pour l'attaquer !}\r\n3...Nc6\r\n    {[%wrong Ce coup ne développe pas un cavalier pour attaquer la dame blanche. Essayez encore.][%hint Le cavalier b8 est la pièce qu'il vous faut !] Et voilà ! Les noirs développent une pièce vers le centre, forçant la dame à perdre un temps pour battre en retraite.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2\"]\r\n\r\n{Les blancs attaquent le pion noir en e5. Comment développer un cavalier en contre-attaquant tout de suite sur le pion e4 ?}\r\n2...Nf6\r\n    {[%wrong Ce coup ne développe pas un cavalier attaquant le pion e4. Essayez encore !][%hint Le cavalier b8 est la pièce qu'il vous faut !]}\r\n    (2...Nc6 $5 {Ce coup est effectivement le plus souvent joué par les noirs dans cette position, et nous étudierons cette idée dans le prochain chapitre. Pour le moment, essayons de contre-attaquer immédiatement sur le pion e4 !})\r\n3.Nxe5\r\n    {Très bien ! Le coup 2...Cf6 est appelé la défense russe. Les blancs s'emparent maintenant du pion e5. Les noirs doivent-ils jouer 3...d6 pour attaquer le cavalier blanc, ou bien capturer le pion e4 immédiatement ?}\r\n3...d6\r\n    {[%wrong Pour cette question, vous avez deux options : 3...d6 ou 3...Cxe4. Choisissez le meilleur coup.][%hint Il est préférable de faire reculer le cavalier e5 avant de prendre le pion e4.]}\r\n    (3...Nxe4 $2 4.Qe2 {Ce coup va permettre aux blancs de gagner du matériel. Commencez par chasser le cavalier e5.})\r\n4.Nf3\r\n    {Très bien ! Les noirs forcent le cavalier à retourner chez lui. Il est maintenant temps de prendre le pion e4.}\r\n4...Nxe4\r\n    {[%wrong Non, ce coup ne prend pas le pion e4 !][%hint Votre cavalier est idéalement placé pour s'emparer du pion e4.]}\r\n5.Qe2\r\n    {Bien joué. Les blancs clouent maintenant notre cavalier au roi. Comment casser le clouage tout en protégeant le cavalier ?}\r\n5...Qe7\r\n    {[%wrong Ce coup ne casse pas le clouage en protégeant le cavalier. Essayez encore !][%hint Quelle pièce peut tout à la fois se mettre devant le roi, casser le clouage, et protéger le cavalier ?] Super ! Le cavalier, désormais protégé, va pouvoir bouger dès le prochain coup car il n'est plus cloué au roi.}\r\n    (5...d5 $2 6.d3 {Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !})\r\n    (5...Bf5 $2 {Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !})\r\n    (5...f5 $2 {Ce coup protège le cavalier, mais les blancs vont maintenant gagner du matériel en l'attaquant, car il est encore cloué. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3\"]\r\n\r\n{Les blancs viennent de jouer 3. Fc4, constitutif de la partie italienne. Développons notre fou de cases noires vers le centre pour mettre sous pression le pion f2 des blancs.}\r\n3...Bc5\r\n {[%wrong Ce coup ne développe notre fou sur la case la plus agressive. Essayez encore !][%hint La case c5 semble tout à fait indiquée !]}\r\n4.Ng5 $2\r\n    {Excellent ! Les noirs développent leur fou en c5 et visent le pion f2. Les blancs répondent par un coup faible, mais qui va s'avérer dangereux : 4. Cg5. Quel est ici le meilleur coup pour les noirs ?}\r\n4...Qxg5\r\n    {[%wrong Ce coup n'est pas le plus efficace, cherchez encore !][%hint le cavalier g5 des blancs est-il protégé ?] Mais oui, c'est clair ! Le cavalier des blancs est en prise, et les noirs gagnent une pièce gratuite..}\r\n    (4...Nf6 $2 5.Nxf7 {Oups ! Les blancs gagnent un pion et prennent en fourchette la dame et la tour noires. Essayez encore !})\r\n    (4...Qe7 $2 5.Nxf7 {La dame noire a trop de valeur pour l'échanger contre un cavalier. Essayez encore !})\r\n    (4...d5 $6 {Bien essayé, mais il existe un moyen beaucoup plus simple de gagner du matériel. Regardez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 5 4\"]\r\n\r\n{Les blancs ont déjà roqué, et les noirs doivent à leur tour se préoccuper de la sécurité de leur roi. Développer votre cavalier vers le centre tout en préparant le roque !}\r\n4...Nf6\r\n    {[%wrong Ce coup ne développe pas de cavalier vers le centre en préparant le roque au prochain coup. Essayez encore !][%hint Le cavalier g8 doit rentrer en jeu.]}\r\n5.d3\r\n    {Très bien ! Les noirs développent le cavalier et attaquent e4. Il est maintenant temps de mettre votre roi en sûreté.}\r\n5...O-O\r\n    {[%wrong Ce coup ne met pas le roi noir à l'abri. Essayez encore !][%hint Souvenez-vous du roque...] Beau travail ! Le roi est maintenant en sécurité et votre position est très solide.}\r\n    (5...Kf8 $2 {Bien essayé, mais pour roquer, il faut déplacer le roi de deux cases vers l'extérieur !})\r\n    (5...Ke7 $2 {Après ce coup, le roi noir sera coincé au centre de l'échiquier. Faites plutôt petit roque.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Jouons cette fois la défense sicilienne en mettant notre pion en c5 !}\r\n1...c5\r\n {[%wrong Ce n'est pas la défense sicilienne. Essayez encore.][%hint Jouez c5 !]}\r\n2.Nf3\r\n    {Très bien ! Dans la défense sicilienne, les noirs combattent dès l'ouverture pour le contrôle de la case d4. Développons maintenant un cavalier qui participera à cette tâche.}\r\n2...Nc6\r\n {[%wrong Ce n'est pas la bonne suite. Essayez encore.][%hint La case c6 semble excellente pour le cavalier.]}\r\n3.d4\r\n    {Très bien ! Mais les blancs tentent de prendre le contrôle total du centre. Échangeons le pion c5 contre le pion d4.}\r\n3...cxd4\r\n    {[%wrong Ce coup ne prend pas le pion d4. Essayez encore.][%hint Comment capturer le pion d4 avec un de nos pions ?] Très bien ! Les noirs échangent le pion non-central c5 contre le pion central d4. Un combat palpitant s'annonce !}\r\n    (3...Nxd4 $2 4.Nxd4 {Ce coup offre aux blancs trop de contrôle central. Il est préférable de prendre ce pion d4 avec un pion et de garder les cavaliers sur l'échiquier pour le moment. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "6dd84776-a558-11e8-9f8a-21067497efe2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Basculons désormais du côté des pièces noires.",
+    "outroText": "Vous voilà armé avec les pièces noires.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "path": "introduction-au-ouvertures-classiques",
+      "title": "Introduction aux ouvertures classiques",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/6dd84776-a558-11e8-9f8a-21067497efe2.708d46c2.728x410o.0c89eb80dd7c.png"
+    },
+    "parentId": "5a668b5a-83b4-11e8-bffa-05f7bfd5bd43",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-openings-for-beginners-black5e5cd3f47591f.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/e4-savunmalari-e5-ve-sicilya67f25f14269fc.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-openings-for-beginners-black-15ea243dba90b4.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-openings-for-beginners-black-2609bea1456326.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 47,
+    "order": 3,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "name": "Introduction aux ouvertures classiques",
+      "path": "introduction-au-ouvertures-classiques",
+      "order": 6
+    }
+  }
+}

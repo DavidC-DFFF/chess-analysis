@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/l-echec-au-roi",
+  "capturedAt": "2026-10-22T12:23:26.767Z",
+  "title": "L'échec au roi",
+  "exercises": [
+    {
+      "fen": "k7/8/8/1B6/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Déplacez votre fou pour mettre le roi en échec.",
+        "[%wrong Ce coup ne met pas le roi en échec, veuillez réessayer.][%hint Mettez votre fou dans la même diagonale que le roi.] Bien joué ! Le roi est en échec et se retrouvera contraint de bouger."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/8/1B6/8/8/8/8 w - - 0 1\"]\r\n\r\n{Déplacez votre fou pour mettre le roi en échec.} 1. Bc6+ {[%wrong Ce coup ne met pas le roi en échec, veuillez réessayer.][%hint Mettez votre fou dans la même diagonale que le roi.] Bien joué ! Le roi est en échec et se retrouvera contraint de bouger.} *"
+    },
+    {
+      "fen": "4k3/8/3PP3/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Seulement un de vos pions peut mettre le roi en échec. Lequel est-ce ?",
+        "[%hint Déplacez un pion afin d'attaque le roi en diagonale. Souvenez-vous que les pions capturent différemment de la façon dont ils avancent.][%wrong Ce coup ne met pas le roi en échec, retentez votre chance.][%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] C'est ça ! Puisque les pions capturent en diagonale, ce coup met bien le roi en échec."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/3PP3/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Seulement un de vos pions peut mettre le roi en échec. Lequel est-ce ?} 1. d7+ {[%hint Déplacez un pion afin d'attaque le roi en diagonale. Souvenez-vous que les pions capturent différemment de la façon dont ils avancent.][%wrong Ce coup ne met pas le roi en échec, retentez votre chance.][%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] C'est ça ! Puisque les pions capturent en diagonale, ce coup met bien le roi en échec.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "4d32a170-ec8a-11f0-a605-8f5833c082f6",
+    "name": "L'échec au roi",
+    "path": "l-echec-au-roi",
+    "description": "Découvrez comment mettre le roi adverse en échec.",
+    "glyphName": "mark-plus",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/8/1B6/8/8/8/8 w - - 0 1\"]\r\n\r\n{Déplacez votre fou pour mettre le roi en échec.} 1. Bc6+ {[%wrong Ce coup ne met pas le roi en échec, veuillez réessayer.][%hint Mettez votre fou dans la même diagonale que le roi.] Bien joué ! Le roi est en échec et se retrouvera contraint de bouger.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/3PP3/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Seulement un de vos pions peut mettre le roi en échec. Lequel est-ce ?} 1. d7+ {[%hint Déplacez un pion afin d'attaque le roi en diagonale. Souvenez-vous que les pions capturent différemment de la façon dont ils avancent.][%wrong Ce coup ne met pas le roi en échec, retentez votre chance.][%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] C'est ça ! Puisque les pions capturent en diagonale, ce coup met bien le roi en échec.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "introText": "Découvrez comment mettre le roi adverse en échec.",
+    "outroText": "Bien ! Prêt à découvrir comment réagir en cas d'échec ?",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/2B5/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow c6a8;color;rgba(159%2C%20207%2C%2063%2C%200.8);opacity;0.8;from;c6;to;a8;persistent;true][%c_highlight a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true] Quand le roi est attaqué par une autre pièce, on dit qu'il est en \\\"échec.\\\" Théoriquement, le roi pourrait donc se faire capturer au prochain coup si aucune mesure n'est prise pour le sauver.} *"
+        ]
+      }
+    ],
+    "animationName": "check",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "b4488f3e-b4f7-11f0-9aaf-e73c1dc2700e",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 9,
+    "order": 9,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

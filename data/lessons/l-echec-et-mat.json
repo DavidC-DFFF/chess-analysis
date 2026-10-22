@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/l-echec-et-mat",
+  "capturedAt": "2026-10-22T13:42:29.847Z",
+  "title": "L'échec et mat",
+  "exercises": [
+    {
+      "fen": "6k1/5ppp/6b1/3B4/8/8/5PPP/2R3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g8;color;%23ffaa00;opacity;0.8;square;g8;persistent;true][%c_arrow c1c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c1;to;c8;persistent;true]Si le roi est en échec et qu'il n'a aucun moyen de se mettre en sécurité, c'est échec et mat et vous gagnez !",
+        "[%hint Trouvez un coup qui attaque le roi et couvre toutes les cases de fuite.][%wrong Bien essayé, mais ce n'est pas échec et mat. Trouvez une pièce qui peut attaquer le roi en toute sécurité.]Échec et mat ! Le roi ne peut pas échapper à l'attaque de la tour, donc vous gagnez la partie.",
+        "Bien essayé, mais le roi peut prendre votre pièce. Cherchez un autre échec qui gagne la partie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5ppp/6b1/3B4/8/8/5PPP/2R3K1 w - - 0 1\"]\r\n\r\n{[%c_highlight g8;color;%23ffaa00;opacity;0.8;square;g8;persistent;true][%c_arrow c1c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c1;to;c8;persistent;true]Si le roi est en échec et qu'il n'a aucun moyen de se mettre en sécurité, c'est échec et mat et vous gagnez !} 1. Rc8# {[%hint Trouvez un coup qui attaque le roi et couvre toutes les cases de fuite.][%wrong Bien essayé, mais ce n'est pas échec et mat. Trouvez une pièce qui peut attaquer le roi en toute sécurité.]Échec et mat ! Le roi ne peut pas échapper à l'attaque de la tour, donc vous gagnez la partie.} (1. Bxf7+? Kxf7 {Bien essayé, mais le roi peut prendre votre pièce. Cherchez un autre échec qui gagne la partie.}) 1-0"
+    },
+    {
+      "fen": "3rkr2/8/8/8/2Q5/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il y a plusieurs échecs, mais un seul est échec et mat.",
+        "[%hint Cherchez un échec près du roi pour que la dame couvre en toute sécurité toutes les cases de fuite.][%wrong Bien essayé, mais ce n'est pas échec et mat. Cherchons un moyen de faire échec au roi en toute sécurité pour qu'il ne puisse pas s'échapper.] Impressionnant ! La dame mate le roi — aucune issue."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rkr2/8/8/8/2Q5/8/8/8 w - - 0 1\"]\r\n\r\n{Il y a plusieurs échecs, mais un seul est échec et mat.} 1. Qe6# {[%hint Cherchez un échec près du roi pour que la dame couvre en toute sécurité toutes les cases de fuite.][%wrong Bien essayé, mais ce n'est pas échec et mat. Cherchons un moyen de faire échec au roi en toute sécurité pour qu'il ne puisse pas s'échapper.] Impressionnant ! La dame mate le roi — aucune issue.} 1-0"
+    },
+    {
+      "fen": "5rk1/1q3ppp/8/8/3Q4/8/1B3PPP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,f6;color;%23ffaa00;opacity;0.8;square;f6;persistent;true,g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true]Votre fou soutient l'attaque de mat de votre dame.",
+        "[%hint Si votre dame prend un pion, le fou la protégera et vous gagnerez la partie.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Essayez de trouver un échec puissant qui soit aussi échec et mat.][%c_arrow b2g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;g7;persistent;true][%c_highlight g8;color;%23eb6150;opacity;0.8;square;g8;persistent;true] Impressionnant travail d'équipe entre la dame et le fou pour porter l'échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1q3ppp/8/8/3Q4/8/1B3PPP/6K1 w - - 0 1\"]\r\n\r\n{[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,f6;color;%23ffaa00;opacity;0.8;square;f6;persistent;true,g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true]Votre fou soutient l'attaque de mat de votre dame.} 1. Qxg7# {[%hint Si votre dame prend un pion, le fou la protégera et vous gagnerez la partie.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Essayez de trouver un échec puissant qui soit aussi échec et mat.][%c_arrow b2g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;g7;persistent;true][%c_highlight g8;color;%23eb6150;opacity;0.8;square;g8;persistent;true] Impressionnant travail d'équipe entre la dame et le fou pour porter l'échec et mat !} 1-0"
+    },
+    {
+      "fen": "4k3/4bppp/2N5/8/8/4Q3/q4PPP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Échec et mat en vue.",
+        "[%hint Votre dame et votre cavalier peuvent tous deux prendre la même pièce — trouvez un échec puissant.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Trouvez le seul échec et vous trouverez l'échec et mat !]Beau travail en utilisant votre dame, soutenue par le cavalier, pour porter l'échec et mat !",
+        "[%c_highlight g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true]Vous y êtes presque ! Vous avez pris la bonne pièce, mais ce coup ne fonctionne pas. Essayez de prendre avec votre autre pièce attaquante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/4bppp/2N5/8/8/4Q3/q4PPP/6K1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4EGt7H2Kbk/lesson-editor\"]\r\n\r\n{Échec et mat en vue.} 1. Qxe7# {[%hint Votre dame et votre cavalier peuvent tous deux prendre la même pièce — trouvez un échec puissant.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Trouvez le seul échec et vous trouverez l'échec et mat !]Beau travail en utilisant votre dame, soutenue par le cavalier, pour porter l'échec et mat !} (1. Nxe7? Qb1+ {[%c_highlight g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true]Vous y êtes presque ! Vous avez pris la bonne pièce, mais ce coup ne fonctionne pas. Essayez de prendre avec votre autre pièce attaquante.}) 1-0"
+    },
+    {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "C'est un piège classique d'échec et mat.",
+        "[%c_arrow c4f7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;f7;persistent;true][%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true][%hint Votre fou et votre dame se rejoignent sur la case du mat.][%wrong Bien essayé, mais ce n'est pas échec et mat. ] Bravo ! Cet échec et mat classique est un excellent schéma à garder en tête.",
+        "Vous avez la bonne idée, mais le roi évite l'échec et mat. Essayez de prendre avec la pièce la plus puissante.",
+        "Bien essayé, mais ce coup perd la dame. Cherchez un autre échec avec la dame et vous trouverez l'échec et mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4\"]\r\n\r\n{C'est un piège classique d'échec et mat.} 4. Qxf7# {[%c_arrow c4f7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;f7;persistent;true][%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true][%hint Votre fou et votre dame se rejoignent sur la case du mat.][%wrong Bien essayé, mais ce n'est pas échec et mat. ] Bravo ! Cet échec et mat classique est un excellent schéma à garder en tête.} (4. Bxf7+? Ke7 {Vous avez la bonne idée, mais le roi évite l'échec et mat. Essayez de prendre avec la pièce la plus puissante.}) (4. Qxe5+? Nxe5 {Bien essayé, mais ce coup perd la dame. Cherchez un autre échec avec la dame et vous trouverez l'échec et mat.}) 1-0"
+    },
+    {
+      "fen": "rn1q1b1r/p1p1kBpp/1p3n2/4p3/4P3/1Q6/PPP2PPP/RNB1K2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi adverse est exposé au centre. Allez chercher la victoire !",
+        "[%hint Votre dame et votre fou collaborent sur la même diagonale — trouvez un échec près du roi.][%wrong Bien essayé, mais ce coup ne mate pas le roi. Cherchez un échec avec la dame soutenu par votre fou.] Excellent — un échec et mat impressionnant !",
+        "Bien essayé, mais cet échec perd votre fou. Essayez de trouver un échec sur la même diagonale que votre fou.",
+        "Bien essayé, mais cet échec perd votre fou. Essayez de trouver un échec sur la même diagonale que votre fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1b1r/p1p1kBpp/1p3n2/4p3/4P3/1Q6/PPP2PPP/RNB1K2R w KQ - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4cPQ3bpnyL/analysis\"]\r\n\r\n{Le roi adverse est exposé au centre. Allez chercher la victoire !} 1. Qe6# {[%hint Votre dame et votre fou collaborent sur la même diagonale — trouvez un échec près du roi.][%wrong Bien essayé, mais ce coup ne mate pas le roi. Cherchez un échec avec la dame soutenu par votre fou.] Excellent — un échec et mat impressionnant !} (1. Qb4+? Kxf7 {Bien essayé, mais cet échec perd votre fou. Essayez de trouver un échec sur la même diagonale que votre fou.}) (1. Qa3+? Kxf7 {Bien essayé, mais cet échec perd votre fou. Essayez de trouver un échec sur la même diagonale que votre fou.}) 1-0"
+    },
+    {
+      "fen": "5k2/2R5/8/8/8/8/1R6/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true][%c_arrow c7h7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c7;to;h7;persistent;true,c7a7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c7;to;a7;persistent;true] Une excellente façon de mater est d'utiliser une tour ou la dame pour défendre l'avant-dernière rangée, puis d'amener l'autre tour sur la dernière rangée.",
+        "[%wrong Bien essayé, mais cela ne mate pas le roi. Réessayez.][%hint Une tour coupe le roi du reste de l'échiquier. Donne échec et mat avec l'autre tour.] Beau travail pour trouver cet échec et mat harmonieux !",
+        "Vous y êtes presque ! Cet échec avec la tour permet au roi de s'échapper. Essayez de faire échec avec l'autre tour.",
+        "Vous attaquez avec la bonne tour, mais le roi s'échappe. Essayez de faire échec au roi avec cette tour sur une autre case."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/2R5/8/8/8/8/1R6/8 w - - 0 1\"]\r\n\r\n{[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true][%c_arrow c7h7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c7;to;h7;persistent;true,c7a7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c7;to;a7;persistent;true] Une excellente façon de mater est d'utiliser une tour ou la dame pour défendre l'avant-dernière rangée, puis d'amener l'autre tour sur la dernière rangée.} 1. Rb8# {[%wrong Bien essayé, mais cela ne mate pas le roi. Réessayez.][%hint Une tour coupe le roi du reste de l'échiquier. Donne échec et mat avec l'autre tour.] Beau travail pour trouver cet échec et mat harmonieux !} (1. Rc8+? Kf7 {Vous y êtes presque ! Cet échec avec la tour permet au roi de s'échapper. Essayez de faire échec avec l'autre tour.}) (1. Rf2+? Ke8 {Vous attaquez avec la bonne tour, mais le roi s'échappe. Essayez de faire échec au roi avec cette tour sur une autre case.}) 1-0"
+    },
+    {
+      "fen": "8/6k1/1R6/R7/8/8/8/4K3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight a7;color;%23ffaa00;opacity;0.8;square;a7;persistent;true] Avançons les tours une à une, comme les barreaux d'une échelle, pour mater le roi.",
+        "[%hint Faites échec avec la tour qui force le roi à aller sur la dernière rangée.][%wrong Bel effort, mais ce coup ne force pas le roi à aller sur la dernière rangée. Essayez un échec avec la tour qui repousse le roi.]",
+        "Vous utilisez la bonne tour, mais le roi n'est pas forcé d'aller sur la dernière rangée. Essayez de trouver un autre échec avec cette tour.",
+        "Vous avez mis le roi en échec sur la bonne ligne, mais ce coup lui permet de s'échapper. Essayez de faire échec au roi avec votre autre tour.",
+        "Excellent coup ! La tour force le roi à aller sur la dernière rangée. C'est l'heure du mat !",
+        "[%hint Vous avez fait échec au roi avec une tour au coup précédent ; maintenant, matez le roi avec l'autre tour.][%wrong Bien essayé, mais cela ne mate pas le roi. Réessayez.]Beau travail avec vos tours pour mater le roi.",
+        "Bien essayé, mais ce coup permet au roi de s'échapper. Essayez de faire échec avec l'autre tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6k1/1R6/R7/8/8/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_highlight a7;color;%23ffaa00;opacity;0.8;square;a7;persistent;true] Avançons les tours une à une, comme les barreaux d'une échelle, pour mater le roi.} 1. Ra7+ {[%hint Faites échec avec la tour qui force le roi à aller sur la dernière rangée.][%wrong Bel effort, mais ce coup ne force pas le roi à aller sur la dernière rangée. Essayez un échec avec la tour qui repousse le roi.]} (1. Rg5+? Kf7 {Vous utilisez la bonne tour, mais le roi n'est pas forcé d'aller sur la dernière rangée. Essayez de trouver un autre échec avec cette tour.}) (1. Rb7+? Kf6 {Vous avez mis le roi en échec sur la bonne ligne, mais ce coup lui permet de s'échapper. Essayez de faire échec au roi avec votre autre tour.}) 1... Kf8 {Excellent coup ! La tour force le roi à aller sur la dernière rangée. C'est l'heure du mat !} 2. Rb8# {[%hint Vous avez fait échec au roi avec une tour au coup précédent ; maintenant, matez le roi avec l'autre tour.][%wrong Bien essayé, mais cela ne mate pas le roi. Réessayez.]Beau travail avec vos tours pour mater le roi.} (2. Ra8+? Kf7 {Bien essayé, mais ce coup permet au roi de s'échapper. Essayez de faire échec avec l'autre tour.}) 1-0"
+    },
+    {
+      "fen": "8/8/7k/1R6/2R5/8/8/4K3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cela fonctionne aussi de plus loin. Pouvez-vous mater avec les tours en trois coups ?",
+        "[%hint Faites l'échec avec la tour qui force le roi à reculer.][%wrong Bien essayé, mais cela ne matera pas le roi en trois coups. Un échec de la tour force le roi à reculer.]",
+        "Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.",
+        "Vous avez la bonne tour, mais ce coup ne force pas le roi à reculer. Essayez un autre échec avec cette tour.",
+        "Excellent début ! Vous repoussez le roi. Maintenant, faites échec avec l'autre tour.",
+        "[%hint Vous avez utilisé une tour pour faire reculer le roi. Maintenant, utilisez l'autre tour pour forcer le roi à aller sur la dernière rangée.][%wrong Bien essayé, mais ce coup ne force pas le roi à aller sur la dernière rangée.]",
+        "Vous avez la bonne tour, mais ce coup ne force pas le roi à reculer. Essayez un autre échec avec cette tour.",
+        "Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.",
+        "Vous avez poussé le roi sur la dernière rangée. Allons délivrer le mat !",
+        "[%hint Vous avez utilisé une tour pour repousser le roi. Utilisez maintenant l'autre tour pour porter l'échec et mat.][%wrong Bien essayé, mais ce n'est pas échec et mat. Essayez de trouver un échec qui gagne la partie.]Magnifique danse des tours ! Beau travail pour mettre en valeur vos talents de mat !",
+        "Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/7k/1R6/2R5/8/8/4K3 w - - 0 1\"]\r\n\r\n{Cela fonctionne aussi de plus loin. Pouvez-vous mater avec les tours en trois coups ?} 1. Rc6+ {[%hint Faites l'échec avec la tour qui force le roi à reculer.][%wrong Bien essayé, mais cela ne matera pas le roi en trois coups. Un échec de la tour force le roi à reculer.]} (1. Rb6+? Kg5 {Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.}) (1. Rh4+? Kg6 {Vous avez la bonne tour, mais ce coup ne force pas le roi à reculer. Essayez un autre échec avec cette tour.}) 1... Kg7 {Excellent début ! Vous repoussez le roi. Maintenant, faites échec avec l'autre tour.} 2. Rb7+ {[%hint Vous avez utilisé une tour pour faire reculer le roi. Maintenant, utilisez l'autre tour pour forcer le roi à aller sur la dernière rangée.][%wrong Bien essayé, mais ce coup ne force pas le roi à aller sur la dernière rangée.]} (2. Rg5+? Kf7 {Vous avez la bonne tour, mais ce coup ne force pas le roi à reculer. Essayez un autre échec avec cette tour.}) (2. Rc7+? Kf6 {Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.}) 2... Kf8 {Vous avez poussé le roi sur la dernière rangée. Allons délivrer le mat !} 3. Rc8# {[%hint Vous avez utilisé une tour pour repousser le roi. Utilisez maintenant l'autre tour pour porter l'échec et mat.][%wrong Bien essayé, mais ce n'est pas échec et mat. Essayez de trouver un échec qui gagne la partie.]Magnifique danse des tours ! Beau travail pour mettre en valeur vos talents de mat !} (3. Rb8+? Ke7 {Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c1be-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "L'échec et mat",
+    "path": "l-echec-et-mat",
+    "description": "L'échec et mat gagne la partie. Apprenez à porter le coup le plus important aux échecs.",
+    "glyphName": "mark-hash",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5ppp/6b1/3B4/8/8/5PPP/2R3K1 w - - 0 1\"]\r\n\r\n{[%c_highlight g8;color;%23ffaa00;opacity;0.8;square;g8;persistent;true][%c_arrow c1c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c1;to;c8;persistent;true]Si le roi est en échec et qu'il n'a aucun moyen de se mettre en sécurité, c'est échec et mat et vous gagnez !} 1. Rc8# {[%hint Trouvez un coup qui attaque le roi et couvre toutes les cases de fuite.][%wrong Bien essayé, mais ce n'est pas échec et mat. Trouvez une pièce qui peut attaquer le roi en toute sécurité.]Échec et mat ! Le roi ne peut pas échapper à l'attaque de la tour, donc vous gagnez la partie.} (1. Bxf7+? Kxf7 {Bien essayé, mais le roi peut prendre votre pièce. Cherchez un autre échec qui gagne la partie.}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rkr2/8/8/8/2Q5/8/8/8 w - - 0 1\"]\r\n\r\n{Il y a plusieurs échecs, mais un seul est échec et mat.} 1. Qe6# {[%hint Cherchez un échec près du roi pour que la dame couvre en toute sécurité toutes les cases de fuite.][%wrong Bien essayé, mais ce n'est pas échec et mat. Cherchons un moyen de faire échec au roi en toute sécurité pour qu'il ne puisse pas s'échapper.] Impressionnant ! La dame mate le roi — aucune issue.} 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1q3ppp/8/8/3Q4/8/1B3PPP/6K1 w - - 0 1\"]\r\n\r\n{[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,f6;color;%23ffaa00;opacity;0.8;square;f6;persistent;true,g7;color;%23ffaa00;opacity;0.8;square;g7;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true]Votre fou soutient l'attaque de mat de votre dame.} 1. Qxg7# {[%hint Si votre dame prend un pion, le fou la protégera et vous gagnerez la partie.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Essayez de trouver un échec puissant qui soit aussi échec et mat.][%c_arrow b2g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;g7;persistent;true][%c_highlight g8;color;%23eb6150;opacity;0.8;square;g8;persistent;true] Impressionnant travail d'équipe entre la dame et le fou pour porter l'échec et mat !} 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/4bppp/2N5/8/8/4Q3/q4PPP/6K1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4EGt7H2Kbk/lesson-editor\"]\r\n\r\n{Échec et mat en vue.} 1. Qxe7# {[%hint Votre dame et votre cavalier peuvent tous deux prendre la même pièce — trouvez un échec puissant.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Trouvez le seul échec et vous trouverez l'échec et mat !]Beau travail en utilisant votre dame, soutenue par le cavalier, pour porter l'échec et mat !} (1. Nxe7? Qb1+ {[%c_highlight g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true]Vous y êtes presque ! Vous avez pris la bonne pièce, mais ce coup ne fonctionne pas. Essayez de prendre avec votre autre pièce attaquante.}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4\"]\r\n\r\n{C'est un piège classique d'échec et mat.} 4. Qxf7# {[%c_arrow c4f7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;f7;persistent;true][%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true][%hint Votre fou et votre dame se rejoignent sur la case du mat.][%wrong Bien essayé, mais ce n'est pas échec et mat. ] Bravo ! Cet échec et mat classique est un excellent schéma à garder en tête.} (4. Bxf7+? Ke7 {Vous avez la bonne idée, mais le roi évite l'échec et mat. Essayez de prendre avec la pièce la plus puissante.}) (4. Qxe5+? Nxe5 {Bien essayé, mais ce coup perd la dame. Cherchez un autre échec avec la dame et vous trouverez l'échec et mat.}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1b1r/p1p1kBpp/1p3n2/4p3/4P3/1Q6/PPP2PPP/RNB1K2R w KQ - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4cPQ3bpnyL/analysis\"]\r\n\r\n{Le roi adverse est exposé au centre. Allez chercher la victoire !} 1. Qe6# {[%hint Votre dame et votre fou collaborent sur la même diagonale — trouvez un échec près du roi.][%wrong Bien essayé, mais ce coup ne mate pas le roi. Cherchez un échec avec la dame soutenu par votre fou.] Excellent — un échec et mat impressionnant !} (1. Qb4+? Kxf7 {Bien essayé, mais cet échec perd votre fou. Essayez de trouver un échec sur la même diagonale que votre fou.}) (1. Qa3+? Kxf7 {Bien essayé, mais cet échec perd votre fou. Essayez de trouver un échec sur la même diagonale que votre fou.}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/2R5/8/8/8/8/1R6/8 w - - 0 1\"]\r\n\r\n{[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true][%c_arrow c7h7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c7;to;h7;persistent;true,c7a7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c7;to;a7;persistent;true] Une excellente façon de mater est d'utiliser une tour ou la dame pour défendre l'avant-dernière rangée, puis d'amener l'autre tour sur la dernière rangée.} 1. Rb8# {[%wrong Bien essayé, mais cela ne mate pas le roi. Réessayez.][%hint Une tour coupe le roi du reste de l'échiquier. Donne échec et mat avec l'autre tour.] Beau travail pour trouver cet échec et mat harmonieux !} (1. Rc8+? Kf7 {Vous y êtes presque ! Cet échec avec la tour permet au roi de s'échapper. Essayez de faire échec avec l'autre tour.}) (1. Rf2+? Ke8 {Vous attaquez avec la bonne tour, mais le roi s'échappe. Essayez de faire échec au roi avec cette tour sur une autre case.}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6k1/1R6/R7/8/8/8/4K3 w - - 0 1\"]\r\n\r\n{[%c_highlight a7;color;%23ffaa00;opacity;0.8;square;a7;persistent;true] Avançons les tours une à une, comme les barreaux d'une échelle, pour mater le roi.} 1. Ra7+ {[%hint Faites échec avec la tour qui force le roi à aller sur la dernière rangée.][%wrong Bel effort, mais ce coup ne force pas le roi à aller sur la dernière rangée. Essayez un échec avec la tour qui repousse le roi.]} (1. Rg5+? Kf7 {Vous utilisez la bonne tour, mais le roi n'est pas forcé d'aller sur la dernière rangée. Essayez de trouver un autre échec avec cette tour.}) (1. Rb7+? Kf6 {Vous avez mis le roi en échec sur la bonne ligne, mais ce coup lui permet de s'échapper. Essayez de faire échec au roi avec votre autre tour.}) 1... Kf8 {Excellent coup ! La tour force le roi à aller sur la dernière rangée. C'est l'heure du mat !} 2. Rb8# {[%hint Vous avez fait échec au roi avec une tour au coup précédent ; maintenant, matez le roi avec l'autre tour.][%wrong Bien essayé, mais cela ne mate pas le roi. Réessayez.]Beau travail avec vos tours pour mater le roi.} (2. Ra8+? Kf7 {Bien essayé, mais ce coup permet au roi de s'échapper. Essayez de faire échec avec l'autre tour.}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/7k/1R6/2R5/8/8/4K3 w - - 0 1\"]\r\n\r\n{Cela fonctionne aussi de plus loin. Pouvez-vous mater avec les tours en trois coups ?} 1. Rc6+ {[%hint Faites l'échec avec la tour qui force le roi à reculer.][%wrong Bien essayé, mais cela ne matera pas le roi en trois coups. Un échec de la tour force le roi à reculer.]} (1. Rb6+? Kg5 {Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.}) (1. Rh4+? Kg6 {Vous avez la bonne tour, mais ce coup ne force pas le roi à reculer. Essayez un autre échec avec cette tour.}) 1... Kg7 {Excellent début ! Vous repoussez le roi. Maintenant, faites échec avec l'autre tour.} 2. Rb7+ {[%hint Vous avez utilisé une tour pour faire reculer le roi. Maintenant, utilisez l'autre tour pour forcer le roi à aller sur la dernière rangée.][%wrong Bien essayé, mais ce coup ne force pas le roi à aller sur la dernière rangée.]} (2. Rg5+? Kf7 {Vous avez la bonne tour, mais ce coup ne force pas le roi à reculer. Essayez un autre échec avec cette tour.}) (2. Rc7+? Kf6 {Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.}) 2... Kf8 {Vous avez poussé le roi sur la dernière rangée. Allons délivrer le mat !} 3. Rc8# {[%hint Vous avez utilisé une tour pour repousser le roi. Utilisez maintenant l'autre tour pour porter l'échec et mat.][%wrong Bien essayé, mais ce n'est pas échec et mat. Essayez de trouver un échec qui gagne la partie.]Magnifique danse des tours ! Beau travail pour mettre en valeur vos talents de mat !} (3. Rb8+? Ke7 {Bien essayé, mais cet échec de la tour permet au roi d'avancer sur l'échiquier. Essayez de faire échec avec l'autre tour.}) 1-0"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "L'échec et mat gagne la partie. Apprenez à porter le coup le plus important aux échecs.",
+    "outroText": "Excellent travail ! Vous voilà prêt à gagner davantage de parties par échec et mat !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "40cb2766-1cb6-11f1-b294-ff5b1c302af7"
+  },
+  "curriculum": {
+    "number": 26,
+    "order": 14,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

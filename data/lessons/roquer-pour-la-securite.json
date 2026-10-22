@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-echecs/roquer-pour-la-securite",
+  "capturedAt": "2026-10-22T13:42:30.686Z",
+  "title": "Roquer pour la sécurité",
+  "exercises": [
+    {
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Roquez pour mettre votre roi à l'abri loin du centre.",
+        "[%hint Roquez en déplaçant votre roi de deux cases vers votre tour.][%wrong Ce coup n'est pas un roque.] Oui, c'était bien un roque."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 1\"]\r\n\r\n{Roquez pour mettre votre roi à l'abri loin du centre.} 1. O-O {[%hint Roquez en déplaçant votre roi de deux cases vers votre tour.][%wrong Ce coup n'est pas un roque.] Oui, c'était bien un roque.} *"
+    },
+    {
+      "fen": "r1bqk2r/ppp1bppp/2np1n2/4p1B1/4P3/2NP1N2/PPPQ1PPP/R3KB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "On peut roquer des deux côtés de l'échiquier !",
+        "[%hint Roquez en déplaçant votre roi de deux cases vers votre tour.][%wrong Ce coup n'est pas un roque.]Oui, beau roque."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/ppp1bppp/2np1n2/4p1B1/4P3/2NP1N2/PPPQ1PPP/R3KB1R w KQkq - 0 1\"]\r\n\r\n{On peut roquer des deux côtés de l'échiquier !} 1. O-O-O {[%hint Roquez en déplaçant votre roi de deux cases vers votre tour.][%wrong Ce coup n'est pas un roque.]Oui, beau roque.} *"
+    },
+    {
+      "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g1;color;%23ffaa00;opacity;0.8;square;g1;persistent;true]Dégagez le chemin pour que votre roi puisse roquer.",
+        "[%hint Vous devez déplacer votre cavalier pour que votre roi puisse roquer.][%wrong Ce coup n'a pas dégagé le chemin de votre roi.]Exact. Maintenant, votre roi peut roquer.",
+        "Exact. Maintenant, votre roi peut roquer.",
+        "Exact. Maintenant, votre roi peut roquer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 0 1\"]\r\n\r\n{[%c_highlight g1;color;%23ffaa00;opacity;0.8;square;g1;persistent;true]Dégagez le chemin pour que votre roi puisse roquer.} 1. Nf3 {[%hint Vous devez déplacer votre cavalier pour que votre roi puisse roquer.][%wrong Ce coup n'a pas dégagé le chemin de votre roi.]Exact. Maintenant, votre roi peut roquer.} (1. Nh3!! {Exact. Maintenant, votre roi peut roquer.}) (1. Nge2!! {Exact. Maintenant, votre roi peut roquer.}) *"
+    },
+    {
+      "fen": "r3k2r/ppp2ppp/2n1bn2/2b1p3/4P3/1BN2PB1/PPP1N1PP/R3K2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight c5;color;%23eb6150;opacity;0.8;square;c5;persistent;true][%c_arrow c5g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c5;to;g1;persistent;true]Le roque doit éviter l'échec ! De quel côté pouvez-vous roquer ?",
+        "[%hint Trouvez le côté où le roque est sûr.][%wrong Ce coup n'était pas un roque.] Oui, c'était la seule façon de roquer.",
+        "Ce côté est en danger. Roque de l'autre côté."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/ppp2ppp/2n1bn2/2b1p3/4P3/1BN2PB1/PPP1N1PP/R3K2R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight c5;color;%23eb6150;opacity;0.8;square;c5;persistent;true][%c_arrow c5g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c5;to;g1;persistent;true]Le roque doit éviter l'échec ! De quel côté pouvez-vous roquer ?} 1. O-O-O {[%hint Trouvez le côté où le roque est sûr.][%wrong Ce coup n'était pas un roque.] Oui, c'était la seule façon de roquer.} (1. Kf1? {Ce côté est en danger. Roque de l'autre côté.}) *"
+    },
+    {
+      "fen": "r3r1k1/pp3ppp/2pb1n2/3p4/3P4/1B2B2P/PPPQ1Pq1/R3K2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight h1;color;%23eb6150;opacity;0.8;square;h1;persistent;true]Mettez votre roi en sécurité tout en protégeant votre tour.",
+        "[%hint Si vous roquez, vos tours se protégeront mutuellement.][%wrong Votre tour est toujours en danger. Vous voulez un indice ?] Oui, maintenant les tours se protègent mutuellement.",
+        "Votre tour est protégée, mais votre roi est trop exposé. Vous devez roquer pour le mettre en sécurité.",
+        "Votre fou s'est fait prendre et votre tour est toujours en danger.",
+        "En déplaçant votre roi, vous avez perdu le droit de roquer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3r1k1/pp3ppp/2pb1n2/3p4/3P4/1B2B2P/PPPQ1Pq1/R3K2R w KQ - 0 1\"]\r\n\r\n{[%c_highlight h1;color;%23eb6150;opacity;0.8;square;h1;persistent;true]Mettez votre roi en sécurité tout en protégeant votre tour.} 1. O-O-O {[%hint Si vous roquez, vos tours se protégeront mutuellement.][%wrong Votre tour est toujours en danger. Vous voulez un indice ?] Oui, maintenant les tours se protègent mutuellement.} (1. Rf1? {Votre tour est protégée, mais votre roi est trop exposé. Vous devez roquer pour le mettre en sécurité.}) (1. Bxd5? Nxd5 {Votre fou s'est fait prendre et votre tour est toujours en danger.}) (1. Ke2? {En déplaçant votre roi, vous avez perdu le droit de roquer.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c254-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Roquer pour la sécurité",
+    "path": "roquer-pour-la-securite",
+    "description": "Apprenez à roquer pour mettre votre roi en sécurité.",
+    "glyphName": "piece-combo-king-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 1\"]\r\n\r\n{Roquez pour mettre votre roi à l'abri loin du centre.} 1. O-O {[%hint Roquez en déplaçant votre roi de deux cases vers votre tour.][%wrong Ce coup n'est pas un roque.] Oui, c'était bien un roque.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/ppp1bppp/2np1n2/4p1B1/4P3/2NP1N2/PPPQ1PPP/R3KB1R w KQkq - 0 1\"]\r\n\r\n{On peut roquer des deux côtés de l'échiquier !} 1. O-O-O {[%hint Roquez en déplaçant votre roi de deux cases vers votre tour.][%wrong Ce coup n'est pas un roque.]Oui, beau roque.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 0 1\"]\r\n\r\n{[%c_highlight g1;color;%23ffaa00;opacity;0.8;square;g1;persistent;true]Dégagez le chemin pour que votre roi puisse roquer.} 1. Nf3 {[%hint Vous devez déplacer votre cavalier pour que votre roi puisse roquer.][%wrong Ce coup n'a pas dégagé le chemin de votre roi.]Exact. Maintenant, votre roi peut roquer.} (1. Nh3!! {Exact. Maintenant, votre roi peut roquer.}) (1. Nge2!! {Exact. Maintenant, votre roi peut roquer.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/ppp2ppp/2n1bn2/2b1p3/4P3/1BN2PB1/PPP1N1PP/R3K2R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight c5;color;%23eb6150;opacity;0.8;square;c5;persistent;true][%c_arrow c5g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c5;to;g1;persistent;true]Le roque doit éviter l'échec ! De quel côté pouvez-vous roquer ?} 1. O-O-O {[%hint Trouvez le côté où le roque est sûr.][%wrong Ce coup n'était pas un roque.] Oui, c'était la seule façon de roquer.} (1. Kf1? {Ce côté est en danger. Roque de l'autre côté.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3r1k1/pp3ppp/2pb1n2/3p4/3P4/1B2B2P/PPPQ1Pq1/R3K2R w KQ - 0 1\"]\r\n\r\n{[%c_highlight h1;color;%23eb6150;opacity;0.8;square;h1;persistent;true]Mettez votre roi en sécurité tout en protégeant votre tour.} 1. O-O-O {[%hint Si vous roquez, vos tours se protégeront mutuellement.][%wrong Votre tour est toujours en danger. Vous voulez un indice ?] Oui, maintenant les tours se protègent mutuellement.} (1. Rf1? {Votre tour est protégée, mais votre roi est trop exposé. Vous devez roquer pour le mettre en sécurité.}) (1. Bxd5? Nxd5 {Votre fou s'est fait prendre et votre tour est toujours en danger.}) (1. Ke2? {En déplaçant votre roi, vous avez perdu le droit de roquer.}) *"
+    ],
+    "courseId": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à roquer pour mettre votre roi en sécurité.",
+    "outroText": "Maintenant, vous savez roquer pour mettre votre roi en sécurité.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "ouvertures-echecs",
+      "title": "Ouvertures"
+    },
+    "parentId": "87beaff8-2116-11f1-b8df-552e131ccf44"
+  },
+  "curriculum": {
+    "number": 30,
+    "order": 3,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Ouvertures",
+      "path": "ouvertures-echecs",
+      "order": 1
+    }
+  }
+}

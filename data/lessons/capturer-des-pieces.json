@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/capturer-des-pieces",
+  "capturedAt": "2026-10-22T12:23:26.421Z",
+  "title": "Capturer des pièces",
+  "exercises": [
+    {
+      "fen": "7r/8/8/p2Q3p/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d5a5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;a5;persistent;true,d5h5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;h5;persistent;true,h8h5;color;rgba(248%2C%2085%2C%2063%2C%200.8);animated;true;opacity;0.8;from;h8;to;h5;persistent;true] Allez-y, prenez le pion gratuit !",
+        "[%hint Prenez le pion qui n'est pas protégé par la tour adverse.][%wrong Bien essayé mais ce coup ne capture pas un pion gratuit.] Joli, c'est toujours bien de prendre un pion sans contre-partie.",
+        "Attention, ce pion est protégé par la tour adverse."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/8/8/p2Q3p/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d5a5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;a5;persistent;true,d5h5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;h5;persistent;true,h8h5;color;rgba(248%2C%2085%2C%2063%2C%200.8);animated;true;opacity;0.8;from;h8;to;h5;persistent;true] Allez-y, prenez le pion gratuit !} 1. Qxa5 {[%hint Prenez le pion qui n'est pas protégé par la tour adverse.][%wrong Bien essayé mais ce coup ne capture pas un pion gratuit.] Joli, c'est toujours bien de prendre un pion sans contre-partie.} (1. Qxh5? {Attention, ce pion est protégé par la tour adverse.} 1... Rxh5) *"
+    },
+    {
+      "fen": "8/8/6q1/8/p5p1/8/8/3Q4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Choisissez quel pion capturer. Veillez à ce qu'il ne soit pas protégé !",
+        "[%wrong Bien essayé mais cela ne capture pas un pion non protégé.][%hint Prenez le pion qui n'est pas protégé par la dame noire.] C'est ça ! Ce pion peut être pris gratuitement.",
+        "Attention, vous allez perdre votre dame."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6q1/8/p5p1/8/8/3Q4 w - - 0 1\"]\r\n\r\n{Choisissez quel pion capturer. Veillez à ce qu'il ne soit pas protégé !} 1. Qxa4 {[%wrong Bien essayé mais cela ne capture pas un pion non protégé.][%hint Prenez le pion qui n'est pas protégé par la dame noire.] C'est ça ! Ce pion peut être pris gratuitement.} (1. Qxg4? {Attention, vous allez perdre votre dame.} 1... Qxg4) *"
+    },
+    {
+      "fen": "8/4p3/3b4/8/3R2q1/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle pièce est-il possible de prendre sans risque ?",
+        "[%hint Capturez la pièce noire qui n'est pas protégée.][%wrong Bien essayé mais ce coup ne capture pas une pièce gratuite.] Bien vu. La dame n'est pas protégée et croque sous la dent.",
+        "Votre tour va se faire prendre par le pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4p3/3b4/8/3R2q1/8/8/8 w - - 0 1\"]\r\n\r\n{Quelle pièce est-il possible de prendre sans risque ?} 1. Rxg4 {[%hint Capturez la pièce noire qui n'est pas protégée.][%wrong Bien essayé mais ce coup ne capture pas une pièce gratuite.] Bien vu. La dame n'est pas protégée et croque sous la dent.} (1. Rxd6? {Votre tour va se faire prendre par le pion.} 1... exd6) *"
+    },
+    {
+      "fen": "8/8/2b1r3/2ppp3/3N4/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle pièce le cavalier blanc devrait-il capturer ? Souvenez-vous que les cavaliers peuvent sauter par dessus les autres pièces.",
+        "[%hint Prenez la pièce des noirs qui n'est pas protégée.][%wrong Bien tenté mais ce coup ne capture pas de pièce gratuite.] Exact ! Le fou est protégé donc prendre la tour est le bon choix.",
+        "Votre cavalier va se faire prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2b1r3/2ppp3/3N4/8/8/8 w - - 0 1\"]\r\n\r\n{Quelle pièce le cavalier blanc devrait-il capturer ? Souvenez-vous que les cavaliers peuvent sauter par dessus les autres pièces.} 1. Nxe6 {[%hint Prenez la pièce des noirs qui n'est pas protégée.][%wrong Bien tenté mais ce coup ne capture pas de pièce gratuite.] Exact ! Le fou est protégé donc prendre la tour est le bon choix.} (1. Nxc6? {Votre cavalier va se faire prendre.} 1... Rxc6) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "798b77ae-ec87-11f0-92c0-0348759ccb31",
+    "name": "Capturer des pièces",
+    "path": "capturer-des-pieces",
+    "description": "Apprenez à prendre des pièces à votre adversaire en faisant les bons choix.",
+    "glyphName": "hand-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/8/8/p2Q3p/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d5a5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;a5;persistent;true,d5h5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;h5;persistent;true,h8h5;color;rgba(248%2C%2085%2C%2063%2C%200.8);animated;true;opacity;0.8;from;h8;to;h5;persistent;true] Allez-y, prenez le pion gratuit !} 1. Qxa5 {[%hint Prenez le pion qui n'est pas protégé par la tour adverse.][%wrong Bien essayé mais ce coup ne capture pas un pion gratuit.] Joli, c'est toujours bien de prendre un pion sans contre-partie.} (1. Qxh5? {Attention, ce pion est protégé par la tour adverse.} 1... Rxh5) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6q1/8/p5p1/8/8/3Q4 w - - 0 1\"]\r\n\r\n{Choisissez quel pion capturer. Veillez à ce qu'il ne soit pas protégé !} 1. Qxa4 {[%wrong Bien essayé mais cela ne capture pas un pion non protégé.][%hint Prenez le pion qui n'est pas protégé par la dame noire.] C'est ça ! Ce pion peut être pris gratuitement.} (1. Qxg4? {Attention, vous allez perdre votre dame.} 1... Qxg4) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4p3/3b4/8/3R2q1/8/8/8 w - - 0 1\"]\r\n\r\n{Quelle pièce est-il possible de prendre sans risque ?} 1. Rxg4 {[%hint Capturez la pièce noire qui n'est pas protégée.][%wrong Bien essayé mais ce coup ne capture pas une pièce gratuite.] Bien vu. La dame n'est pas protégée et croque sous la dent.} (1. Rxd6? {Votre tour va se faire prendre par le pion.} 1... exd6) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2b1r3/2ppp3/3N4/8/8/8 w - - 0 1\"]\r\n\r\n{Quelle pièce le cavalier blanc devrait-il capturer ? Souvenez-vous que les cavaliers peuvent sauter par dessus les autres pièces.} 1. Nxe6 {[%hint Prenez la pièce des noirs qui n'est pas protégée.][%wrong Bien tenté mais ce coup ne capture pas de pièce gratuite.] Exact ! Le fou est protégé donc prendre la tour est le bon choix.} (1. Nxc6? {Votre cavalier va se faire prendre.} 1... Rxc6) *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "introText": "Apprenez à prendre des pièces à votre adversaire en faisant les bons choix.",
+    "outroText": "Bien ! Prêt à découvrir comment faire échec au roi ?",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{Maintenant que vous savez comment déplacer vos pièces, passons en revue quelques notions de base des échecs qui vous aideront à jouer en toute confiance.} *",
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3Q3p/8/8/8/8 w - - 0 1\"]\r\n\r\n{Capturer les pièces de votre adversaire est essentiel pour prendre l'avantage.} *",
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3Q3p/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d5h5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;h5;persistent;true] Ici votre dame peut prendre ce pion. Mais…} *",
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/8/8/3Q3p/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight h8;color;%23eb6150;opacity;0.8;square;h8;persistent;true] ...Que se passe-t-il si une tour protège le pion ?} *",
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/8/8/3Q3p/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight h8;color;%23eb6150;opacity;0.8;square;h8;persistent;true][%c_arrow h8h5;color;rgba(248%2C%2085%2C%2063%2C%200.8);animated;true;opacity;0.8;from;h8;to;h5;persistent;true,d5h5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;h5;persistent;true] Vous pouvez capturer ce pion mais ensuite la tour adverse croquera votre dame.} *",
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/8/8/p2Q3p/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d5a5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d5;to;a5;persistent;true] Capturez plutôt l'autre pion qui n'est pas protégé.} *"
+        ]
+      }
+    ],
+    "animationName": "capture",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "119a7cec-b430-11f0-b7dd-af698bf13d46",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 8,
+    "order": 8,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

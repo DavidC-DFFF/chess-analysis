@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-avancees/sacrifice-d-evacuation",
+  "capturedAt": "2026-10-22T12:23:53.224Z",
+  "title": "Le sacrifice d'évacuation",
+  "exercises": [
+    {
+      "fen": "1r3r1k/5pRp/5n1p/1q2pP2/p2pP3/P4P2/1PP3Q1/K5R1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les deux camps attaquent le roi adverse, mais les noirs sont les seuls à menacer de mater au prochain coup... Trouvez le sacrifice d'évacuation gagnant !",
+        "[%wrong Il ne s'agit pas d'un sacrifice d'évacuation gagnant. Cherchez encore !][%hint La tour g7 empêche la dame blanche de venir mater sur cette case... Libérez la case g7 !]",
+        "Bien essayé, mais la tour noire protège désormais la case g7. Trouvez mieux !",
+        "Bien essayé, mais il faut trouver un moyen d'imposer notre idée en force, sinon, les noirs matent en premier !",
+        "Bien essayé, mais les noirs parviennent à compliquer la position en forçant l'échange des dames. Le sacrifice d'évacuation est désormais impossible ! Cherchez encore.",
+        "Bien joué ! Les blancs libèrent la case g7 en gagnant un tempo primordial. Il est désormais temps de mater !",
+        "[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Ce joli sacrifice d'évacuation vous a permis de l'emporter."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3r1k/5pRp/5n1p/1q2pP2/p2pP3/P4P2/1PP3Q1/K5R1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les deux camps attaquent le roi adverse, mais les noirs sont les seuls à menacer de mater au prochain coup... Trouvez le sacrifice d'évacuation gagnant !}\r\n1.Rxh7+\r\n    {[%wrong Il ne s'agit pas d'un sacrifice d'évacuation gagnant. Cherchez encore !][%hint La tour g7 empêche la dame blanche de venir mater sur cette case... Libérez la case g7 !]}\r\n    (1.Rg8+ $2 Rxg8 {Bien essayé, mais la tour noire protège désormais la case g7. Trouvez mieux !})\r\n    (1.Rxf7 $2 Qxb2# {Bien essayé, mais il faut trouver un moyen d'imposer notre idée en force, sinon, les noirs matent en premier !})\r\n    (1.c4 $2 Qxb2+ {Bien essayé, mais les noirs parviennent à compliquer la position en forçant l'échange des dames. Le sacrifice d'évacuation est désormais impossible ! Cherchez encore.})\r\n1...Kxh7\r\n    {Bien joué ! Les blancs libèrent la case g7 en gagnant un tempo primordial. Il est désormais temps de mater !}\r\n2.Qg7#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Ce joli sacrifice d'évacuation vous a permis de l'emporter.}\r\n*"
+    },
+    {
+      "fen": "k2q4/pp4bp/6p1/4pP2/PQ1n4/3P2P1/2rB1PBP/4K2R b K - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer exf5, ouvrant les yeux du fou de cases blanches et menaçant mat en b7. Quelle est la meilleure défense des noirs ? N'oubliez pas le thème du chapitre...",
+        "[%wrong Ce coup n'est pas un sacrifice d'évacuation. Cherchez encore !][%hint Si votre cavalier pouvait aller en c2, il réaliserait une fourchette royale... ]",
+        "Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?",
+        "Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?",
+        "Bien essayé, mais notre dame est désormais très passive. Était-il vraiment utile de défendre face à la menace blanche ?",
+        "Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?",
+        "Magnifique ! Les noirs répondent à l'évacuation adverse par une autre évacuation ! Il est désormais temps de gagner du matériel !",
+        "[%wrong Ce n'est pas le coup le plus fort dans cette position. Cherchez encore !][%hint La case c2 est désormais libre... Gagnez la dame adverse !] Bien joué ! Ce sacrifice d'évacuation nous a permis de gagner la dame adverse en investissant seulement une tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k2q4/pp4bp/6p1/4pP2/PQ1n4/3P2P1/2rB1PBP/4K2R b K - 0 1\"]\r\n\r\n{Les blancs viennent de jouer exf5, ouvrant les yeux du fou de cases blanches et menaçant mat en b7. Quelle est la meilleure défense des noirs ? N'oubliez pas le thème du chapitre...}\r\n1...Rc1+\r\n    {[%wrong Ce coup n'est pas un sacrifice d'évacuation. Cherchez encore !][%hint Si votre cavalier pouvait aller en c2, il réaliserait une fourchette royale... ]}\r\n    (1...Qc8 $2 2.O-O {Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n    (1...e4 $2 2.O-O {Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n    (1...Qb8 $2 {Bien essayé, mais notre dame est désormais très passive. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n    (1...Qc7 $2 2.O-O {Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n2.Bxc1\r\n    {Magnifique ! Les noirs répondent à l'évacuation adverse par une autre évacuation ! Il est désormais temps de gagner du matériel !}\r\n2...Nc2+\r\n    {[%wrong Ce n'est pas le coup le plus fort dans cette position. Cherchez encore !][%hint La case c2 est désormais libre... Gagnez la dame adverse !] Bien joué ! Ce sacrifice d'évacuation nous a permis de gagner la dame adverse en investissant seulement une tour.}\r\n*"
+    },
+    {
+      "fen": "4rrk1/5ppp/1pnq2n1/p1p5/2Pp3B/P2P2PQ/1P1N1P2/R2K3R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs mettent la pression sur la colonne h, mais le fou de cases noires gêne leur progression. Trouvez un fort sacrifice d'évacuation !",
+        "[%wrong Ce coup ne libère pas la colonne h pour les pièces lourdes. Cherchez encore !][%hint Ouvrez la colonne pour vos pièces lourdes tout en attaquant la dame adverse !]",
+        "Bien essayé, mais les noirs ont une jolie ressource défensive permettant à leur roi de s'enfuir à temps. Cherchez encore !",
+        "Bien essayé, mais après Fxg7 et Rxg7, le roi noir va pouvoir échapper à notre attaque. Trouvez mieux !",
+        "C'est la bonne idée, mais le fou ne fait rien de particulier en d8. Trouvez-lui une case plus utile !",
+        "Superbe coup ! Les noirs ont quatre pièces protégeant la case e7, mais le fou ne peut pas être pris à cause de la menace de mat en h7 ! Trouvez maintenant la suite la plus forte !",
+        "[%wrong Ce n'est pas le coup le plus fort, cherchez encore !][%hint Prenez la meilleure pièce adverse.] Ce superbe sacrifice d'évacuation nous a permis de gagner une dame ! Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rrk1/5ppp/1pnq2n1/p1p5/2Pp3B/P2P2PQ/1P1N1P2/R2K3R w - - 0 1\"]\r\n\r\n{Les blancs mettent la pression sur la colonne h, mais le fou de cases noires gêne leur progression. Trouvez un fort sacrifice d'évacuation !}\r\n1.Be7\r\n    {[%wrong Ce coup ne libère pas la colonne h pour les pièces lourdes. Cherchez encore !][%hint Ouvrez la colonne pour vos pièces lourdes tout en attaquant la dame adverse !]}\r\n    (1.Bg5 $2 f6 {Bien essayé, mais les noirs ont une jolie ressource défensive permettant à leur roi de s'enfuir à temps. Cherchez encore !})\r\n    (1.Bf6 $2 h6 {Bien essayé, mais après Fxg7 et Rxg7, le roi noir va pouvoir échapper à notre attaque. Trouvez mieux !})\r\n    (1.Bd8 $2 h6 {C'est la bonne idée, mais le fou ne fait rien de particulier en d8. Trouvez-lui une case plus utile !})\r\n1...h6\r\n    {Superbe coup ! Les noirs ont quatre pièces protégeant la case e7, mais le fou ne peut pas être pris à cause de la menace de mat en h7 ! Trouvez maintenant la suite la plus forte !}\r\n2.Bxd6\r\n    {[%wrong Ce n'est pas le coup le plus fort, cherchez encore !][%hint Prenez la meilleure pièce adverse.] Ce superbe sacrifice d'évacuation nous a permis de gagner une dame ! Bravo !}\r\n*"
+    },
+    {
+      "fen": "4rq1k/1p3p1p/pb2p2p/2p1P3/3r1PQ1/PB1P4/1P4PP/2R2RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Notre aile roi est affaiblie, mais le roi blanc est lui-même exposé sur la dangereuse diagonale g1-a7. Trouvez le sacrifice d'évacuation préparant un terrible échec à la découverte !",
+        "[%wrong Ce coup ne prépare pas une puissante tactique le long de la diagonale g1-a7. Cherchez encore !][%hint Si seulement le pion c5 ne gênait pas la vue du puissant fou de cases noires...]",
+        "Excellent travail ! Les blancs aurait du mettre leur roi en h1, mais ils tombent dans notre piège tactique : Jouez maintenant le meilleur coup !",
+        "[%wrong Ce coup n'est pas un fort échec à la découverte. Cherchez encore !][%hint N'importe quel coup de la tour d4 déclenche un échec à la découverte. Mais quel est le meilleur ?] Superbe ! Vous avez su combiner le sacrifice d'évacuation et l'échec à la découverte pour gagner la dame adverse !",
+        "Bien essayé. Ce coup gagne une pièce, mais il y avait un coup encore plus fort ! Trouvez-le.",
+        "Ce coup ne gagne qu'un pion, alors qu'il était possible de gagner une pièce bien plus forte. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rq1k/1p3p1p/pb2p2p/2p1P3/3r1PQ1/PB1P4/1P4PP/2R2RK1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Notre aile roi est affaiblie, mais le roi blanc est lui-même exposé sur la dangereuse diagonale g1-a7. Trouvez le sacrifice d'évacuation préparant un terrible échec à la découverte !}\r\n1...c4\r\n    {[%wrong Ce coup ne prépare pas une puissante tactique le long de la diagonale g1-a7. Cherchez encore !][%hint Si seulement le pion c5 ne gênait pas la vue du puissant fou de cases noires...]}\r\n2.Bxc4\r\n    {Excellent travail ! Les blancs aurait du mettre leur roi en h1, mais ils tombent dans notre piège tactique : Jouez maintenant le meilleur coup !}\r\n2...Rxf4+\r\n    {[%wrong Ce coup n'est pas un fort échec à la découverte. Cherchez encore !][%hint N'importe quel coup de la tour d4 déclenche un échec à la découverte. Mais quel est le meilleur ?] Superbe ! Vous avez su combiner le sacrifice d'évacuation et l'échec à la découverte pour gagner la dame adverse !}\r\n    (2...Rxc4+ $6 {Bien essayé. Ce coup gagne une pièce, mais il y avait un coup encore plus fort ! Trouvez-le.})\r\n    (2...Rxd3+ $2 {Ce coup ne gagne qu'un pion, alors qu'il était possible de gagner une pièce bien plus forte. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "1r1q1nkb/2pb3p/2pp3Q/5NpN/p2PP3/P1P5/1P3RPP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont sacrifié une pièce pour ouvrir l'aile roi des noirs. Trouvez le superbe sacrifice d'évacuation permettant de mater en force !",
+        "[%wrong Ce coup ne force pas le gain. Cherchez encore !][%hint Si le cavalier f5 pouvait aller en h6, il materait !]",
+        "Bien essayé, mais cette idée ne fonctionne pas. Cherchez encore !",
+        "Bien essayé, mais cette idée ne fonctionne pas. Cherchez encore !",
+        "Un coup intelligent, mais cette prise offre une case de fuite au roi noir. Cherchez encore, vous êtes sur la bonne voie !",
+        "Superbe ! Quelque soit la manière dont les noirs prennent notre dame, les blancs vont mater en force au prochain coup. Trouvez comment !",
+        "[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Vous maîtrisez les sacrifices d'évacuation !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1q1nkb/2pb3p/2pp3Q/5NpN/p2PP3/P1P5/1P3RPP/6K1 w - - 0 1\"]\r\n\r\n{Les blancs ont sacrifié une pièce pour ouvrir l'aile roi des noirs. Trouvez le superbe sacrifice d'évacuation permettant de mater en force !}\r\n1.Qe6+\r\n    {[%wrong Ce coup ne force pas le gain. Cherchez encore !][%hint Si le cavalier f5 pouvait aller en h6, il materait !]}\r\n    (1.Qg7+ $2 Bxg7 {Bien essayé, mais cette idée ne fonctionne pas. Cherchez encore !})\r\n    (1.Qxf8+ $2 Qxf8 {Bien essayé, mais cette idée ne fonctionne pas. Cherchez encore !})\r\n    (1.Qg6+ $2 hxg6 {Un coup intelligent, mais cette prise offre une case de fuite au roi noir. Cherchez encore, vous êtes sur la bonne voie !})\r\n1...Nxe6\r\n    {Superbe ! Quelque soit la manière dont les noirs prennent notre dame, les blancs vont mater en force au prochain coup. Trouvez comment !}\r\n2.Nh6#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Vous maîtrisez les sacrifices d'évacuation !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "bc83acf8-9ced-11e8-bb4b-f7a609f700d5",
+    "name": "Le sacrifice d'évacuation",
+    "path": "sacrifice-d-evacuation",
+    "description": "Le sacrifice d’évacuation consiste à sacrifier une pièce simplement parce qu’elle gêne la coordination de vos pièces d’attaque. Il vous permettra de gagner un temps précieux et d’obtenir une attaque irrésistible.",
+    "glyphName": "utility-tag-blank",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-clearance-sacrifices-w2l.mp4",
+    "fen": "3r1b1k/ppq2Bpp/2p5/2P2Q2/8/1P4P1/P6P/5RK1 w - - 4 25",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3r1k/5pRp/5n1p/1q2pP2/p2pP3/P4P2/1PP3Q1/K5R1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les deux camps attaquent le roi adverse, mais les noirs sont les seuls à menacer de mater au prochain coup... Trouvez le sacrifice d'évacuation gagnant !}\r\n1.Rxh7+\r\n    {[%wrong Il ne s'agit pas d'un sacrifice d'évacuation gagnant. Cherchez encore !][%hint La tour g7 empêche la dame blanche de venir mater sur cette case... Libérez la case g7 !]}\r\n    (1.Rg8+ $2 Rxg8 {Bien essayé, mais la tour noire protège désormais la case g7. Trouvez mieux !})\r\n    (1.Rxf7 $2 Qxb2# {Bien essayé, mais il faut trouver un moyen d'imposer notre idée en force, sinon, les noirs matent en premier !})\r\n    (1.c4 $2 Qxb2+ {Bien essayé, mais les noirs parviennent à compliquer la position en forçant l'échange des dames. Le sacrifice d'évacuation est désormais impossible ! Cherchez encore.})\r\n1...Kxh7\r\n    {Bien joué ! Les blancs libèrent la case g7 en gagnant un tempo primordial. Il est désormais temps de mater !}\r\n2.Qg7#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Ce joli sacrifice d'évacuation vous a permis de l'emporter.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k2q4/pp4bp/6p1/4pP2/PQ1n4/3P2P1/2rB1PBP/4K2R b K - 0 1\"]\r\n\r\n{Les blancs viennent de jouer exf5, ouvrant les yeux du fou de cases blanches et menaçant mat en b7. Quelle est la meilleure défense des noirs ? N'oubliez pas le thème du chapitre...}\r\n1...Rc1+\r\n    {[%wrong Ce coup n'est pas un sacrifice d'évacuation. Cherchez encore !][%hint Si votre cavalier pouvait aller en c2, il réaliserait une fourchette royale... ]}\r\n    (1...Qc8 $2 2.O-O {Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n    (1...e4 $2 2.O-O {Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n    (1...Qb8 $2 {Bien essayé, mais notre dame est désormais très passive. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n    (1...Qc7 $2 2.O-O {Bien essayé, mais les blancs ont le temps de roquer. Était-il vraiment utile de défendre face à la menace blanche ?})\r\n2.Bxc1\r\n    {Magnifique ! Les noirs répondent à l'évacuation adverse par une autre évacuation ! Il est désormais temps de gagner du matériel !}\r\n2...Nc2+\r\n    {[%wrong Ce n'est pas le coup le plus fort dans cette position. Cherchez encore !][%hint La case c2 est désormais libre... Gagnez la dame adverse !] Bien joué ! Ce sacrifice d'évacuation nous a permis de gagner la dame adverse en investissant seulement une tour.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rrk1/5ppp/1pnq2n1/p1p5/2Pp3B/P2P2PQ/1P1N1P2/R2K3R w - - 0 1\"]\r\n\r\n{Les blancs mettent la pression sur la colonne h, mais le fou de cases noires gêne leur progression. Trouvez un fort sacrifice d'évacuation !}\r\n1.Be7\r\n    {[%wrong Ce coup ne libère pas la colonne h pour les pièces lourdes. Cherchez encore !][%hint Ouvrez la colonne pour vos pièces lourdes tout en attaquant la dame adverse !]}\r\n    (1.Bg5 $2 f6 {Bien essayé, mais les noirs ont une jolie ressource défensive permettant à leur roi de s'enfuir à temps. Cherchez encore !})\r\n    (1.Bf6 $2 h6 {Bien essayé, mais après Fxg7 et Rxg7, le roi noir va pouvoir échapper à notre attaque. Trouvez mieux !})\r\n    (1.Bd8 $2 h6 {C'est la bonne idée, mais le fou ne fait rien de particulier en d8. Trouvez-lui une case plus utile !})\r\n1...h6\r\n    {Superbe coup ! Les noirs ont quatre pièces protégeant la case e7, mais le fou ne peut pas être pris à cause de la menace de mat en h7 ! Trouvez maintenant la suite la plus forte !}\r\n2.Bxd6\r\n    {[%wrong Ce n'est pas le coup le plus fort, cherchez encore !][%hint Prenez la meilleure pièce adverse.] Ce superbe sacrifice d'évacuation nous a permis de gagner une dame ! Bravo !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rq1k/1p3p1p/pb2p2p/2p1P3/3r1PQ1/PB1P4/1P4PP/2R2RK1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Notre aile roi est affaiblie, mais le roi blanc est lui-même exposé sur la dangereuse diagonale g1-a7. Trouvez le sacrifice d'évacuation préparant un terrible échec à la découverte !}\r\n1...c4\r\n    {[%wrong Ce coup ne prépare pas une puissante tactique le long de la diagonale g1-a7. Cherchez encore !][%hint Si seulement le pion c5 ne gênait pas la vue du puissant fou de cases noires...]}\r\n2.Bxc4\r\n    {Excellent travail ! Les blancs aurait du mettre leur roi en h1, mais ils tombent dans notre piège tactique : Jouez maintenant le meilleur coup !}\r\n2...Rxf4+\r\n    {[%wrong Ce coup n'est pas un fort échec à la découverte. Cherchez encore !][%hint N'importe quel coup de la tour d4 déclenche un échec à la découverte. Mais quel est le meilleur ?] Superbe ! Vous avez su combiner le sacrifice d'évacuation et l'échec à la découverte pour gagner la dame adverse !}\r\n    (2...Rxc4+ $6 {Bien essayé. Ce coup gagne une pièce, mais il y avait un coup encore plus fort ! Trouvez-le.})\r\n    (2...Rxd3+ $2 {Ce coup ne gagne qu'un pion, alors qu'il était possible de gagner une pièce bien plus forte. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1q1nkb/2pb3p/2pp3Q/5NpN/p2PP3/P1P5/1P3RPP/6K1 w - - 0 1\"]\r\n\r\n{Les blancs ont sacrifié une pièce pour ouvrir l'aile roi des noirs. Trouvez le superbe sacrifice d'évacuation permettant de mater en force !}\r\n1.Qe6+\r\n    {[%wrong Ce coup ne force pas le gain. Cherchez encore !][%hint Si le cavalier f5 pouvait aller en h6, il materait !]}\r\n    (1.Qg7+ $2 Bxg7 {Bien essayé, mais cette idée ne fonctionne pas. Cherchez encore !})\r\n    (1.Qxf8+ $2 Qxf8 {Bien essayé, mais cette idée ne fonctionne pas. Cherchez encore !})\r\n    (1.Qg6+ $2 hxg6 {Un coup intelligent, mais cette prise offre une case de fuite au roi noir. Cherchez encore, vous êtes sur la bonne voie !})\r\n1...Nxe6\r\n    {Superbe ! Quelque soit la manière dont les noirs prennent notre dame, les blancs vont mater en force au prochain coup. Trouvez comment !}\r\n2.Nh6#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Vous maîtrisez les sacrifices d'évacuation !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "562e8776-a55c-11e8-9553-4f7baecf710a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Facilitez votre attaque avec le sacrifice de dégagement.",
+    "outroText": "Excellent. Il faut parfois savoir sacrifier du matériel pour mener à bien son attaque.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "path": "tactiques-avancees",
+      "title": "Tactiques avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/562e8776-a55c-11e8-9553-4f7baecf710a.5c197624.728x410o.1f86d1894a94.png"
+    },
+    "parentId": "18622788-83b8-11e8-98ea-490aab2fbdc6",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/clearance-sacrifices5e7ab6043636e.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/clearance-sacrifices-15ea23da3959e1.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/clearance-sacrifices-260535b56359ea.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 125,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "name": "Tactiques avancées",
+      "path": "tactiques-avancees",
+      "order": 6
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/lecture-de-l-echiquier/positions-ouvertures-semi-ouvertes-ou-fermees",
+  "capturedAt": "2026-10-22T12:23:43.143Z",
+  "title": "Positions ouvertes, semi-ouvertes, ou fermées",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de jouer ...d5, attaquant le pion e4. Les blancs veulent garder le centre fermé, comment faire ?",
+        "[%wrong Ce coup ne ferme pas le centre. Cherchez encore !][%hint Comment fermer le centre en évitant d'échanger des pions ?] Bien vu ! Les blancs ferment le centre et prennent un avantage d'espace.",
+        "Cette ligne est une ouverture théorique bien connue, mais elle ne permet pas de fermer le centre. Or, dans cet exercice, c'est ce que nous cherchons à faire. Essayez encore !",
+        "Cette ligne est une ouverture théorique bien connue, mais elle ne permet pas de fermer le centre. Or, dans cet exercice, c'est ce que nous cherchons à faire. Essayez encore !",
+        "Ce coup est également un choix tout à fait valable, mais il ouvre le centre. Or, dans cet exercice, nous cherchons à le fermer. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{Les noirs viennent de jouer ...d5, attaquant le pion e4. Les blancs veulent garder le centre fermé, comment faire ?}\r\n1.e5\r\n    {[%wrong Ce coup ne ferme pas le centre. Cherchez encore !][%hint Comment fermer le centre en évitant d'échanger des pions ?] Bien vu ! Les blancs ferment le centre et prennent un avantage d'espace.}\r\n    (1.Nc3 $5 dxe4 {Cette ligne est une ouverture théorique bien connue, mais elle ne permet pas de fermer le centre. Or, dans cet exercice, c'est ce que nous cherchons à faire. Essayez encore !})\r\n    (1.Nd2 $5 dxe4 {Cette ligne est une ouverture théorique bien connue, mais elle ne permet pas de fermer le centre. Or, dans cet exercice, c'est ce que nous cherchons à faire. Essayez encore !})\r\n    (1.exd5 $5 exd5 {Ce coup est également un choix tout à fait valable, mais il ouvre le centre. Or, dans cet exercice, nous cherchons à le fermer. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Si les blancs veulent ouvrir le centre, que doivent-ils jouer ?",
+        "[%wrong Ce coup n'ouvre pas le centre. Cherchez encore !][%hint Pour ouvrir des lignes, il faut souvent échanger des pions...]",
+        "Ce fort coup garde la position ouverte, mais il existe un moyen plus rapide de forcer l'ouverture du centre. Trouvez-le !",
+        "Ce fort coup garde la position ouverte, mais il existe un moyen plus rapide de forcer l'ouverture du centre. Trouvez-le !",
+        "Bien joué ! Les blancs ouvrent la colonne e en échangeant les pions centraux. Ce n'est certes pas l'ouverture la plus excitante, mais elle peut tout de même amener à un beau combat pour les lignes ouvertes."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Si les blancs veulent ouvrir le centre, que doivent-ils jouer ?}\r\n3.exd5\r\n    {[%wrong Ce coup n'ouvre pas le centre. Cherchez encore !][%hint Pour ouvrir des lignes, il faut souvent échanger des pions...]}\r\n    (3.Nc3 $5 Nf6 {Ce fort coup garde la position ouverte, mais il existe un moyen plus rapide de forcer l'ouverture du centre. Trouvez-le !})\r\n    (3.Nd2 $5 Nf6 {Ce fort coup garde la position ouverte, mais il existe un moyen plus rapide de forcer l'ouverture du centre. Trouvez-le !})\r\n3...exd5\r\n    {Bien joué ! Les blancs ouvrent la colonne e en échangeant les pions centraux. Ce n'est certes pas l'ouverture la plus excitante, mais elle peut tout de même amener à un beau combat pour les lignes ouvertes.}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/1p3ppp/p1nppn2/8/2B1P3/2N2N2/PP2QPPP/R1B2RK1 w kq - 2 9",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont sacrifié un pion pour ouvrir des lignes d'attaque et prendre un avantage de développement. Comment développer une tour sur une colonne semi-ouverte pour créer une puissante menace ?",
+        "[%wrong Nous voulons activer une tour sur une colonne semi-ouverte. Cherchez encore !][%hint Il n'y a que deux coups de tours disponibles. Jouez celui qui place votre tour sur une colonne où il n'y a qu'un pion.]",
+        "Activer la tour est une bonne idée, mais cette colonne est fermée. Placez plutôt la tour sur une colonne semi-ouverte !",
+        "Préparer b4 n'est pas une mauvaise idée, mais nous pouvons jouer un coup plus actif au centre. Trouvez-le !",
+        "Beau travail ! Les noirs, inconscients du danger, jouent un coup de développement peu judicieux. Il est temps d'ouvrir le centre et de regagner le pion sacrifié !",
+        "[%wrong Ce coup ne force pas l'ouverture du centre. Cherchez encore !]",
+        "Belle vision offensive ! Les noirs tentent de mettre la pression sur le pion e5, mais nous avons une réponse forte. Laquelle ?",
+        "[%wrong Il existe un coup beaucoup plus fort. Récupérez votre matériel !][%hint Comment ouvrir une colonne tout en récupérant le matériel sacrifié ?] Bien vu ! Les blancs ouvrent la colonne e pour leur dame et récupèrent le pion sacrifié. Les noirs ne peuvent pas reprendre en d6 car Ce4 gagnerait le fou. Les blancs ont par conséquent une excellente position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/1p3ppp/p1nppn2/8/2B1P3/2N2N2/PP2QPPP/R1B2RK1 w kq - 2 9\"]\r\n\r\n{Les blancs ont sacrifié un pion pour ouvrir des lignes d'attaque et prendre un avantage de développement. Comment développer une tour sur une colonne semi-ouverte pour créer une puissante menace ?}\r\n9.Rd1\r\n    {[%wrong Nous voulons activer une tour sur une colonne semi-ouverte. Cherchez encore !][%hint Il n'y a que deux coups de tours disponibles. Jouez celui qui place votre tour sur une colonne où il n'y a qu'un pion.]}\r\n    (9.Re1 $6 {Activer la tour est une bonne idée, mais cette colonne est fermée. Placez plutôt la tour sur une colonne semi-ouverte !})\r\n    (9.Rb1 $6 {Préparer b4 n'est pas une mauvaise idée, mais nous pouvons jouer un coup plus actif au centre. Trouvez-le !})\r\n9...Be7\r\n    {Beau travail ! Les noirs, inconscients du danger, jouent un coup de développement peu judicieux. Il est temps d'ouvrir le centre et de regagner le pion sacrifié !}\r\n10.e5\r\n    {[%wrong Ce coup ne force pas l'ouverture du centre. Cherchez encore !]}\r\n10...Ng4\r\n    {Belle vision offensive ! Les noirs tentent de mettre la pression sur le pion e5, mais nous avons une réponse forte. Laquelle ?}\r\n11.exd6\r\n    {[%wrong Il existe un coup beaucoup plus fort. Récupérez votre matériel !][%hint Comment ouvrir une colonne tout en récupérant le matériel sacrifié ?] Bien vu ! Les blancs ouvrent la colonne e pour leur dame et récupèrent le pion sacrifié. Les noirs ne peuvent pas reprendre en d6 car Ce4 gagnerait le fou. Les blancs ont par conséquent une excellente position.}\r\n*"
+    },
+    {
+      "fen": "r5k1/r7/3p4/2pPp3/ppPnPp1p/1P1B1PpP/P5P1/1R2R1K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position fermée, les noirs peuvent choisir de tout fermer par ...a3, ou d'ouvrir la colonne a par ...axb3. Quelle est la meilleure option ?",
+        "[%wrong Nous devons choisir entre pousser le pion, ou prendre en b3 ! Cherchez encore.][%hint Vous avez deux puissantes tours sur la colonne a. Comment augmenter leur force le long de la colonne ?]",
+        "Nous avons certes un avantage d'espace, mais aucune ligne ouverte pour en profiter ! Il est par conséquent impossible de gagner cette position. Cherchez encore !",
+        "Bien joué ! Les noirs ouvrent la colonne a, il est temps de trouver une cible à attaquer !",
+        "[%wrong Ce coup ne trouve pas de cible à attaquer. Cherchez encore !][%hint Les blancs ont un pion faible à l'aile dame. Attaquez-le !] Beau boulot ! Les pièces des blancs, trop passives, ne peuvent rien faire. Nous allons gagner le pion b3 sans coup férir.",
+        "Prendre le contrôle de la seconde rangée en enchaînant par ...Tab8 est également une très bonne idée. Bien vu ! Trouvez maintenant un coup permettant d'attaquer immédiatement le pion b3.",
+        "N'oubliez pas de bien compter le nombre d'attaquants et de défenseurs avant de jouer votre coup... Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/r7/3p4/2pPp3/ppPnPp1p/1P1B1PpP/P5P1/1R2R1K1 b - - 0 1\"]\r\n\r\n{Dans cette position fermée, les noirs peuvent choisir de tout fermer par ...a3, ou d'ouvrir la colonne a par ...axb3. Quelle est la meilleure option ?}\r\n1...axb3\r\n    {[%wrong Nous devons choisir entre pousser le pion, ou prendre en b3 ! Cherchez encore.][%hint Vous avez deux puissantes tours sur la colonne a. Comment augmenter leur force le long de la colonne ?]}\r\n    (1...a3 $2 {Nous avons certes un avantage d'espace, mais aucune ligne ouverte pour en profiter ! Il est par conséquent impossible de gagner cette position. Cherchez encore !})\r\n2.axb3\r\n    {Bien joué ! Les noirs ouvrent la colonne a, il est temps de trouver une cible à attaquer !}\r\n2...Ra3\r\n    {[%wrong Ce coup ne trouve pas de cible à attaquer. Cherchez encore !][%hint Les blancs ont un pion faible à l'aile dame. Attaquez-le !] Beau boulot ! Les pièces des blancs, trop passives, ne peuvent rien faire. Nous allons gagner le pion b3 sans coup férir.}\r\n    (2...Ra2 $5 {Prendre le contrôle de la seconde rangée en enchaînant par ...Tab8 est également une très bonne idée. Bien vu ! Trouvez maintenant un coup permettant d'attaquer immédiatement le pion b3.})\r\n    (2...Ra3)\r\n    (2...Ra1 $2 3.Rxa1 {N'oubliez pas de bien compter le nombre d'attaquants et de défenseurs avant de jouer votre coup... Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "2r2rk1/5pp1/pp2nq1p/2pp4/3P4/1PP2N2/P2Q1PPP/1R2R1K1 b - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs veulent ouvrir des lignes pour activer leurs tours. Quel coup de pion s'inscrit dans ce plan ?",
+        "[%wrong Ce n'est pas un coup de pion permettant d'ouvrir des lignes pour les tours. Cherchez encore !][%hint La tour c8 est prête à bondir. Comment lui ouvrir une colonne d'attaque ?]",
+        "Les blancs vont échanger les pions et activer leur tour sur la colonne b. Trouvez un coup ouvrant immédiatement la colonne c sans ouvrir la colonne b.",
+        "Bien vu. La colonne c est désormais semi-ouverte. Continuons à échanger du matériel pour ouvrir des lignes.",
+        "[%wrong Ce coup n'ouvre pas la colonne c. Cherchez encore !][%hint Jouez la seule capture intéressante dans cette position pour ouvrir la colonne c.]",
+        "Beau travail ! Les blancs auraient du reprendre du pion c pour obtenir une position égale, mais ils souhaitent garder la colonne c fermée. Pourtant, nous allons tout de même l'ouvrir en force ! Continuez les échanges.",
+        "[%wrong Ce coup ne permet pas d'ouvrir la colonne c. Cherchez encore !][%hint Échangez les dames pour forcer les blancs à ouvrir la colonne c.]",
+        "Super ! La colonne c est désormais ouverte. Comment l'utiliser ?",
+        "[%wrong Bien essayé, mais il existe un coup de tour beaucoup plus fort pour profiter de la colonne. Trouvez-le !][%hint Comment envahir la position blanche sur la colonne c tout en attaquant une faiblesse ?] Excellent ! Les noirs attaquent le pion faible a2 et vont s'assurer un contrôle total de la colonne c en enchaînant par ...Tfc8.",
+        "Ce coup solide conteste le contrôle de la colonne e par les blancs, mais il existe un coup beaucoup plus fort sur la colonne c. Trouvez-le !",
+        "Ce n'est pas un mauvais coup, mais il existe un coup encore plus fort car il attaque une faiblesse tout en envahissant le camp blanc."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/5pp1/pp2nq1p/2pp4/3P4/1PP2N2/P2Q1PPP/1R2R1K1 b - - 0 2\"]\r\n\r\n{Les noirs veulent ouvrir des lignes pour activer leurs tours. Quel coup de pion s'inscrit dans ce plan ?}\r\n2...cxd4\r\n    {[%wrong Ce n'est pas un coup de pion permettant d'ouvrir des lignes pour les tours. Cherchez encore !][%hint La tour c8 est prête à bondir. Comment lui ouvrir une colonne d'attaque ?]}\r\n    (2...c4 $2 3.bxc4 {Les blancs vont échanger les pions et activer leur tour sur la colonne b. Trouvez un coup ouvrant immédiatement la colonne c sans ouvrir la colonne b.})\r\n3.Nxd4\r\n    {Bien vu. La colonne c est désormais semi-ouverte. Continuons à échanger du matériel pour ouvrir des lignes.}\r\n3...Nxd4\r\n    {[%wrong Ce coup n'ouvre pas la colonne c. Cherchez encore !][%hint Jouez la seule capture intéressante dans cette position pour ouvrir la colonne c.]}\r\n4.Qxd4\r\n    {Beau travail ! Les blancs auraient du reprendre du pion c pour obtenir une position égale, mais ils souhaitent garder la colonne c fermée. Pourtant, nous allons tout de même l'ouvrir en force ! Continuez les échanges.}\r\n4...Qxd4\r\n    {[%wrong Ce coup ne permet pas d'ouvrir la colonne c. Cherchez encore !][%hint Échangez les dames pour forcer les blancs à ouvrir la colonne c.]}\r\n5.cxd4\r\n    {Super ! La colonne c est désormais ouverte. Comment l'utiliser ?}\r\n5...Rc2\r\n    {[%wrong Bien essayé, mais il existe un coup de tour beaucoup plus fort pour profiter de la colonne. Trouvez-le !][%hint Comment envahir la position blanche sur la colonne c tout en attaquant une faiblesse ?] Excellent ! Les noirs attaquent le pion faible a2 et vont s'assurer un contrôle total de la colonne c en enchaînant par ...Tfc8.}\r\n    (5...Rfe8 $6 {Ce coup solide conteste le contrôle de la colonne e par les blancs, mais il existe un coup beaucoup plus fort sur la colonne c. Trouvez-le !})\r\n    (5...Rc3 $6 6.g3 {Ce n'est pas un mauvais coup, mais il existe un coup encore plus fort car il attaque une faiblesse tout en envahissant le camp blanc.})\r\n*"
+    },
+    {
+      "fen": "2kr3r/pbqn1p2/1p2p1pp/2ppP3/PP3P2/2PBPN1P/4Q1P1/R1R3K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs attaquent à l'aile dame pour tenter d'ouvrir des lignes contre nôtre roi. Quel coup de pion permet de garder la position fermée ?",
+        "[%wrong Il ne s'agit pas d'un coup de pion fermant l'aile dame. Cherchez encore !][%hint Les blancs veulent jouer bxc4 pour ouvrir la position. Comment la fermer à temps ?]",
+        "Il serait préférable de fermer la colonne c... Dans cette variante, les noirs perdent du matériel. Cherchez encore !",
+        "Ce coup aide les blancs à ouvrir la position. Cherchez encore !",
+        "Joliment fait ! Les noirs gagnent un tempo sur le fou blanc et verrouillent la colonne c. Les blancs veulent maintenant tenter d'ouvrir des lignes par a5. Trouvez un coup de pion permettant de préparer la fermeture de la position en cas de poussée blanche !",
+        "[%wrong Ce coup ne va pas aider à fermer la position. Cherchez encore !][%hint Quel pion jouer maintenant pour pouvoir répondre plus tard ...b5 à l'éventuelle poussée a5 des blancs ?]",
+        "Bien essayé, mais les blancs vont maintenant pouvoir ouvrir la colonne b quand ils le souhaitent et obtenir une puissante attaque. Cherchez encore !",
+        "Ce coup aide les blancs à ouvrir la colonne a. Cherchez encore !",
+        "Très bien ! Ce coup d'attente est très fort. Les blancs tentent effectivement d'ouvrir l'aile dame. A nous de tout fermer !",
+        "[%wrong Ce coup ne ferme pas l'aile dame. Cherchez encore !][%hint Les blancs veulent ouvrir la colonne a. Comment l'empêcher ?] Superbe défense ! La position noire est toujours loin d'être parfaite, mais en fermant l'aile dame, nous avons augmenté nos chances de tenir.",
+        "Ce coup ouvre l'aile dame en faveur des blancs... Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr3r/pbqn1p2/1p2p1pp/2ppP3/PP3P2/2PBPN1P/4Q1P1/R1R3K1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs attaquent à l'aile dame pour tenter d'ouvrir des lignes contre nôtre roi. Quel coup de pion permet de garder la position fermée ?}\r\n1...c4\r\n    {[%wrong Il ne s'agit pas d'un coup de pion fermant l'aile dame. Cherchez encore !][%hint Les blancs veulent jouer bxc4 pour ouvrir la position. Comment la fermer à temps ?]}\r\n    (1...cxb4 $2 2.cxb4 {Il serait préférable de fermer la colonne c... Dans cette variante, les noirs perdent du matériel. Cherchez encore !})\r\n    (1...d4 $2 2.cxd4 {Ce coup aide les blancs à ouvrir la position. Cherchez encore !})\r\n2.Bc2\r\n    {Joliment fait ! Les noirs gagnent un tempo sur le fou blanc et verrouillent la colonne c. Les blancs veulent maintenant tenter d'ouvrir des lignes par a5. Trouvez un coup de pion permettant de préparer la fermeture de la position en cas de poussée blanche !}\r\n2...a6\r\n    {[%wrong Ce coup ne va pas aider à fermer la position. Cherchez encore !][%hint Quel pion jouer maintenant pour pouvoir répondre plus tard ...b5 à l'éventuelle poussée a5 des blancs ?]}\r\n    (2...a5 $6 3.Rcb1 {Bien essayé, mais les blancs vont maintenant pouvoir ouvrir la colonne b quand ils le souhaitent et obtenir une puissante attaque. Cherchez encore !})\r\n    (2...b5 $2 3.axb5 {Ce coup aide les blancs à ouvrir la colonne a. Cherchez encore !})\r\n3.a5\r\n    {Très bien ! Ce coup d'attente est très fort. Les blancs tentent effectivement d'ouvrir l'aile dame. A nous de tout fermer !}\r\n3...b5\r\n    {[%wrong Ce coup ne ferme pas l'aile dame. Cherchez encore !][%hint Les blancs veulent ouvrir la colonne a. Comment l'empêcher ?] Superbe défense ! La position noire est toujours loin d'être parfaite, mais en fermant l'aile dame, nous avons augmenté nos chances de tenir.}\r\n    (3...bxa5 $2 4.Rxa5 {Ce coup ouvre l'aile dame en faveur des blancs... Cherchez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "49ba6812-9ceb-11e8-aa05-3d4806d704d2",
+    "name": "Positions ouvertes, semi-ouvertes, ou fermées",
+    "path": "positions-ouvertures-semi-ouvertes-ou-fermees",
+    "description": "Il existe trois catégories de positions. Lorsqu’il y a peu de pions sur l’échiquier, on dit que la position est ouverte. Les fous sont alors très forts car ils ne sont plus bloqués sur leurs diagonales. Si de nombreux pions ferment les lignes, on dit que la position est fermée. Le mouvement des fous est alors très restreint, et ce sont les cavaliers qui deviennent les pièces mineures les plus fortes. Les positions qui présentent des éléments des deux catégories susmentionnées sont appelées ‘semi-ouvertes’.",
+    "glyphName": "tool-lock-open-close",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-open-closed-semi-closed-games-g0e.mp4",
+    "fen": "r1bqk2r/1p2bppp/p1nPp3/8/2B3n1/2N2N2/PP2QPPP/R1BR2K1 b kq - 0 11",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{Les noirs viennent de jouer ...d5, attaquant le pion e4. Les blancs veulent garder le centre fermé, comment faire ?}\r\n1.e5\r\n    {[%wrong Ce coup ne ferme pas le centre. Cherchez encore !][%hint Comment fermer le centre en évitant d'échanger des pions ?] Bien vu ! Les blancs ferment le centre et prennent un avantage d'espace.}\r\n    (1.Nc3 $5 dxe4 {Cette ligne est une ouverture théorique bien connue, mais elle ne permet pas de fermer le centre. Or, dans cet exercice, c'est ce que nous cherchons à faire. Essayez encore !})\r\n    (1.Nd2 $5 dxe4 {Cette ligne est une ouverture théorique bien connue, mais elle ne permet pas de fermer le centre. Or, dans cet exercice, c'est ce que nous cherchons à faire. Essayez encore !})\r\n    (1.exd5 $5 exd5 {Ce coup est également un choix tout à fait valable, mais il ouvre le centre. Or, dans cet exercice, nous cherchons à le fermer. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Si les blancs veulent ouvrir le centre, que doivent-ils jouer ?}\r\n3.exd5\r\n    {[%wrong Ce coup n'ouvre pas le centre. Cherchez encore !][%hint Pour ouvrir des lignes, il faut souvent échanger des pions...]}\r\n    (3.Nc3 $5 Nf6 {Ce fort coup garde la position ouverte, mais il existe un moyen plus rapide de forcer l'ouverture du centre. Trouvez-le !})\r\n    (3.Nd2 $5 Nf6 {Ce fort coup garde la position ouverte, mais il existe un moyen plus rapide de forcer l'ouverture du centre. Trouvez-le !})\r\n3...exd5\r\n    {Bien joué ! Les blancs ouvrent la colonne e en échangeant les pions centraux. Ce n'est certes pas l'ouverture la plus excitante, mais elle peut tout de même amener à un beau combat pour les lignes ouvertes.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/1p3ppp/p1nppn2/8/2B1P3/2N2N2/PP2QPPP/R1B2RK1 w kq - 2 9\"]\r\n\r\n{Les blancs ont sacrifié un pion pour ouvrir des lignes d'attaque et prendre un avantage de développement. Comment développer une tour sur une colonne semi-ouverte pour créer une puissante menace ?}\r\n9.Rd1\r\n    {[%wrong Nous voulons activer une tour sur une colonne semi-ouverte. Cherchez encore !][%hint Il n'y a que deux coups de tours disponibles. Jouez celui qui place votre tour sur une colonne où il n'y a qu'un pion.]}\r\n    (9.Re1 $6 {Activer la tour est une bonne idée, mais cette colonne est fermée. Placez plutôt la tour sur une colonne semi-ouverte !})\r\n    (9.Rb1 $6 {Préparer b4 n'est pas une mauvaise idée, mais nous pouvons jouer un coup plus actif au centre. Trouvez-le !})\r\n9...Be7\r\n    {Beau travail ! Les noirs, inconscients du danger, jouent un coup de développement peu judicieux. Il est temps d'ouvrir le centre et de regagner le pion sacrifié !}\r\n10.e5\r\n    {[%wrong Ce coup ne force pas l'ouverture du centre. Cherchez encore !]}\r\n10...Ng4\r\n    {Belle vision offensive ! Les noirs tentent de mettre la pression sur le pion e5, mais nous avons une réponse forte. Laquelle ?}\r\n11.exd6\r\n    {[%wrong Il existe un coup beaucoup plus fort. Récupérez votre matériel !][%hint Comment ouvrir une colonne tout en récupérant le matériel sacrifié ?] Bien vu ! Les blancs ouvrent la colonne e pour leur dame et récupèrent le pion sacrifié. Les noirs ne peuvent pas reprendre en d6 car Ce4 gagnerait le fou. Les blancs ont par conséquent une excellente position.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/r7/3p4/2pPp3/ppPnPp1p/1P1B1PpP/P5P1/1R2R1K1 b - - 0 1\"]\r\n\r\n{Dans cette position fermée, les noirs peuvent choisir de tout fermer par ...a3, ou d'ouvrir la colonne a par ...axb3. Quelle est la meilleure option ?}\r\n1...axb3\r\n    {[%wrong Nous devons choisir entre pousser le pion, ou prendre en b3 ! Cherchez encore.][%hint Vous avez deux puissantes tours sur la colonne a. Comment augmenter leur force le long de la colonne ?]}\r\n    (1...a3 $2 {Nous avons certes un avantage d'espace, mais aucune ligne ouverte pour en profiter ! Il est par conséquent impossible de gagner cette position. Cherchez encore !})\r\n2.axb3\r\n    {Bien joué ! Les noirs ouvrent la colonne a, il est temps de trouver une cible à attaquer !}\r\n2...Ra3\r\n    {[%wrong Ce coup ne trouve pas de cible à attaquer. Cherchez encore !][%hint Les blancs ont un pion faible à l'aile dame. Attaquez-le !] Beau boulot ! Les pièces des blancs, trop passives, ne peuvent rien faire. Nous allons gagner le pion b3 sans coup férir.}\r\n    (2...Ra2 $5 {Prendre le contrôle de la seconde rangée en enchaînant par ...Tab8 est également une très bonne idée. Bien vu ! Trouvez maintenant un coup permettant d'attaquer immédiatement le pion b3.})\r\n    (2...Ra3)\r\n    (2...Ra1 $2 3.Rxa1 {N'oubliez pas de bien compter le nombre d'attaquants et de défenseurs avant de jouer votre coup... Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/5pp1/pp2nq1p/2pp4/3P4/1PP2N2/P2Q1PPP/1R2R1K1 b - - 0 2\"]\r\n\r\n{Les noirs veulent ouvrir des lignes pour activer leurs tours. Quel coup de pion s'inscrit dans ce plan ?}\r\n2...cxd4\r\n    {[%wrong Ce n'est pas un coup de pion permettant d'ouvrir des lignes pour les tours. Cherchez encore !][%hint La tour c8 est prête à bondir. Comment lui ouvrir une colonne d'attaque ?]}\r\n    (2...c4 $2 3.bxc4 {Les blancs vont échanger les pions et activer leur tour sur la colonne b. Trouvez un coup ouvrant immédiatement la colonne c sans ouvrir la colonne b.})\r\n3.Nxd4\r\n    {Bien vu. La colonne c est désormais semi-ouverte. Continuons à échanger du matériel pour ouvrir des lignes.}\r\n3...Nxd4\r\n    {[%wrong Ce coup n'ouvre pas la colonne c. Cherchez encore !][%hint Jouez la seule capture intéressante dans cette position pour ouvrir la colonne c.]}\r\n4.Qxd4\r\n    {Beau travail ! Les blancs auraient du reprendre du pion c pour obtenir une position égale, mais ils souhaitent garder la colonne c fermée. Pourtant, nous allons tout de même l'ouvrir en force ! Continuez les échanges.}\r\n4...Qxd4\r\n    {[%wrong Ce coup ne permet pas d'ouvrir la colonne c. Cherchez encore !][%hint Échangez les dames pour forcer les blancs à ouvrir la colonne c.]}\r\n5.cxd4\r\n    {Super ! La colonne c est désormais ouverte. Comment l'utiliser ?}\r\n5...Rc2\r\n    {[%wrong Bien essayé, mais il existe un coup de tour beaucoup plus fort pour profiter de la colonne. Trouvez-le !][%hint Comment envahir la position blanche sur la colonne c tout en attaquant une faiblesse ?] Excellent ! Les noirs attaquent le pion faible a2 et vont s'assurer un contrôle total de la colonne c en enchaînant par ...Tfc8.}\r\n    (5...Rfe8 $6 {Ce coup solide conteste le contrôle de la colonne e par les blancs, mais il existe un coup beaucoup plus fort sur la colonne c. Trouvez-le !})\r\n    (5...Rc3 $6 6.g3 {Ce n'est pas un mauvais coup, mais il existe un coup encore plus fort car il attaque une faiblesse tout en envahissant le camp blanc.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr3r/pbqn1p2/1p2p1pp/2ppP3/PP3P2/2PBPN1P/4Q1P1/R1R3K1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs attaquent à l'aile dame pour tenter d'ouvrir des lignes contre nôtre roi. Quel coup de pion permet de garder la position fermée ?}\r\n1...c4\r\n    {[%wrong Il ne s'agit pas d'un coup de pion fermant l'aile dame. Cherchez encore !][%hint Les blancs veulent jouer bxc4 pour ouvrir la position. Comment la fermer à temps ?]}\r\n    (1...cxb4 $2 2.cxb4 {Il serait préférable de fermer la colonne c... Dans cette variante, les noirs perdent du matériel. Cherchez encore !})\r\n    (1...d4 $2 2.cxd4 {Ce coup aide les blancs à ouvrir la position. Cherchez encore !})\r\n2.Bc2\r\n    {Joliment fait ! Les noirs gagnent un tempo sur le fou blanc et verrouillent la colonne c. Les blancs veulent maintenant tenter d'ouvrir des lignes par a5. Trouvez un coup de pion permettant de préparer la fermeture de la position en cas de poussée blanche !}\r\n2...a6\r\n    {[%wrong Ce coup ne va pas aider à fermer la position. Cherchez encore !][%hint Quel pion jouer maintenant pour pouvoir répondre plus tard ...b5 à l'éventuelle poussée a5 des blancs ?]}\r\n    (2...a5 $6 3.Rcb1 {Bien essayé, mais les blancs vont maintenant pouvoir ouvrir la colonne b quand ils le souhaitent et obtenir une puissante attaque. Cherchez encore !})\r\n    (2...b5 $2 3.axb5 {Ce coup aide les blancs à ouvrir la colonne a. Cherchez encore !})\r\n3.a5\r\n    {Très bien ! Ce coup d'attente est très fort. Les blancs tentent effectivement d'ouvrir l'aile dame. A nous de tout fermer !}\r\n3...b5\r\n    {[%wrong Ce coup ne ferme pas l'aile dame. Cherchez encore !][%hint Les blancs veulent ouvrir la colonne a. Comment l'empêcher ?] Superbe défense ! La position noire est toujours loin d'être parfaite, mais en fermant l'aile dame, nous avons augmenté nos chances de tenir.}\r\n    (3...bxa5 $2 4.Rxa5 {Ce coup ouvre l'aile dame en faveur des blancs... Cherchez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Quelle est la différence entre une position fermée et ouverte ?",
+    "outroText": "Comprendre la nuance entre position fermée et ouverte est un facteur stratégique fondamental aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "path": "lecture-de-l-echiquier",
+      "title": "Lecture de l'échiquier",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/346efa28-a55a-11e8-87ab-eb3d1fefd4e2.07e448f1.728x410o.a0bbcabbc031.png"
+    },
+    "parentId": "92873fac-83b4-11e8-9847-eb059cd161d9",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/open-closed-semi-closed-games5e618a8ea1909.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/open-closed-semi-closed-games-5668855e4c2675.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/open-closed-semi-closed-games-15ea2411f6cfb1.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/open-closed-semi-closed-games-2614c89a68e10a.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 82,
+    "order": 4,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "name": "Lecture de l'échiquier",
+      "path": "lecture-de-l-echiquier",
+      "order": 5
+    }
+  }
+}

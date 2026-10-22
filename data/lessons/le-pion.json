@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-pion",
+  "capturedAt": "2026-10-22T12:23:26.045Z",
+  "title": "Le Pion",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/8/4P3/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayez d'avancer votre pion d'une case.",
+        "[%hint Déplacez votre pion d'une seule case vers l'avant.][%wrong Ce n'est pas la consigne. Réessayez.] Bien ! Les pions sont bien plus nombreux que les autres pièces donc comprendre leur déplacement vous sera très utile.",
+        "C'est un coup possible mais dans un premier temps, nous aimerions que vous n'avanciez que d'une seule case."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/4P3/8 w - - 0 1\"]\r\n\r\n{Essayez d'avancer votre pion d'une case.} 1. e3 {[%hint Déplacez votre pion d'une seule case vers l'avant.][%wrong Ce n'est pas la consigne. Réessayez.] Bien ! Les pions sont bien plus nombreux que les autres pièces donc comprendre leur déplacement vous sera très utile.} (1. e4! {C'est un coup possible mais dans un premier temps, nous aimerions que vous n'avanciez que d'une seule case.}) *"
+    },
+    {
+      "fen": "8/8/8/8/8/8/4P3/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayez d'avancer votre pion de 2 cases.",
+        "[%hint Déplacez votre pion de 2 cases vers l'avant.] C'est ça, vous savez désormais comment déplacer vos pions.",
+        "C'est un coup jouable mais nous aimerions avancer de 2 cases ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/4P3/8 w - - 0 1\"]\r\n\r\n{Essayez d'avancer votre pion de 2 cases.} 1. e4 {[%hint Déplacez votre pion de 2 cases vers l'avant.] C'est ça, vous savez désormais comment déplacer vos pions.} (1. e3! {C'est un coup jouable mais nous aimerions avancer de 2 cases ici.}) *"
+    },
+    {
+      "fen": "8/8/8/8/4P3/8/8/8 w - - 0 1",
+      "challengeType": "captureTheStar",
+      "targets": "d7",
+      "comments": [
+        "Avancez, puis capturez l'étoile."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4P3/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"d7\"]\r\n[LESSON_DISALLOWED_MOVE_TEXT \"Vous êtes passé à côté de l'étoile car les pions ne peuvent capturer qu'en diagonale. Retentez votre chance.\"]\r\n[LESSON_DISALLOWED_MOVE_SAN \"e7\"]\r\n\r\n{Avancez, puis capturez l'étoile.} *"
+    },
+    {
+      "fen": "8/3P4/8/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Avancez votre pion jusqu'à la dernière rangée de l'échiquier, puis sélectionnez une dame pour le promouvoir en la pièce la plus puissante du jeu.",
+        "[%hint Traversez tout l'échiquier avec votre pion.][%wrong Choisissez une dame, la pièce la plus forte aux échecs.] Très bien ! C'est généralement la meilleure option de promouvoir le pion en dame puisque c'est la pièce la plus forte."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3P4/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Avancez votre pion jusqu'à la dernière rangée de l'échiquier, puis sélectionnez une dame pour le promouvoir en la pièce la plus puissante du jeu.} 1. d8=Q {[%hint Traversez tout l'échiquier avec votre pion.][%wrong Choisissez une dame, la pièce la plus forte aux échecs.] Très bien ! C'est généralement la meilleure option de promouvoir le pion en dame puisque c'est la pièce la plus forte.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "23845374-ebe4-11f0-a421-d5b6b7b4653e",
+    "name": "Le Pion",
+    "path": "le-pion",
+    "description": "Apprenez à déplacer le Pion.",
+    "glyphName": "piece-fill-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/4P3/8 w - - 0 1\"]\r\n\r\n{Essayez d'avancer votre pion d'une case.} 1. e3 {[%hint Déplacez votre pion d'une seule case vers l'avant.][%wrong Ce n'est pas la consigne. Réessayez.] Bien ! Les pions sont bien plus nombreux que les autres pièces donc comprendre leur déplacement vous sera très utile.} (1. e4! {C'est un coup possible mais dans un premier temps, nous aimerions que vous n'avanciez que d'une seule case.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/4P3/8 w - - 0 1\"]\r\n\r\n{Essayez d'avancer votre pion de 2 cases.} 1. e4 {[%hint Déplacez votre pion de 2 cases vers l'avant.] C'est ça, vous savez désormais comment déplacer vos pions.} (1. e3! {C'est un coup jouable mais nous aimerions avancer de 2 cases ici.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4P3/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"d7\"]\r\n[LESSON_DISALLOWED_MOVE_TEXT \"Vous êtes passé à côté de l'étoile car les pions ne peuvent capturer qu'en diagonale. Retentez votre chance.\"]\r\n[LESSON_DISALLOWED_MOVE_SAN \"e7\"]\r\n\r\n{Avancez, puis capturez l'étoile.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3P4/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Avancez votre pion jusqu'à la dernière rangée de l'échiquier, puis sélectionnez une dame pour le promouvoir en la pièce la plus puissante du jeu.} 1. d8=Q {[%hint Traversez tout l'échiquier avec votre pion.][%wrong Choisissez une dame, la pièce la plus forte aux échecs.] Très bien ! C'est généralement la meilleure option de promouvoir le pion en dame puisque c'est la pièce la plus forte.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/4P3/8 w - - 0 1\"]\r\n\r\n{[%c_arrow e2e3;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e2;to;e3;persistent;true] On termine par le pion. Il se déplace uniquement d'une case en avant sauf quand il est sur sa case de départ où il a le choix entre avancer de deux cases ou d'une seule case.} *"
+        ]
+      },
+      {
+        "questionIndex": 2,
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4P3/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow e4f5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e4;to;f5;persistent;true,e4d5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e4;to;d5;persistent;true] Les pions ont une autre spécificité : c'est la seule pièce qui ne capture pas comme elle se déplace. Les pions mangent uniquement d'une case en diagonale (vers l'avant) !} *"
+        ]
+      },
+      {
+        "questionIndex": 3,
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3P4/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d7d8;color;rgba(159%2C%20207%2C%2063%2C%200.8);opacity;0.8;from;d7;to;d8;persistent;true] Bien ! Les pions sont également les seules pièces qui peuvent être « promues » en n'importe quelle autre pièce (sauf le roi) lorsqu'ils atteignent la dernière rangée de l'échiquier.} *"
+        ]
+      }
+    ],
+    "animationName": "pawn-complete",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "4339781a-b4f4-11f0-a70a-d5c8d63a82b9",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 6,
+    "order": 6,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

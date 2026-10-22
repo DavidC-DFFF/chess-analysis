@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi/motifs-de-mats-avances",
+  "capturedAt": "2026-10-22T12:23:51.556Z",
+  "title": "Motifs de mats avancés",
+  "exercises": [
+    {
+      "fen": "5r2/5pkp/p4Np1/1p3bP1/n1q2P2/Q5B1/PPP5/2K1R3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent de mater en c2, et la position blanche semble manquer de potentiel. Pourtant, il existe une combinaison permettant de gagner en force grâce au mat des arabes ! A vous de la trouver.",
+        "[%wrong Bien essayé, mais il va falloir trouver une suite plus tranchante pour espérer sortir de ce mauvais pas. Cherchez encore !][%hint Comment forcer le roi noir à se réfugier sur sa dernière rangée ?]",
+        "Les blancs ne peuvent pas reprendre ce cavalier car les noirs menacent mat en c2. Trouvez mieux !",
+        "Ce sacrifice ne va pas nous permettre de sauver la partie. Trouvez mieux !",
+        "Formidable ! Les blancs sacrifient la dame pour réaliser le mat des arabes avec le cavalier et la tour. Continuez sur cette voie !",
+        "[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Nous avons réussi à repousser le roi noir sur la bande. Trouvez maintenant un puissant échec de tour !]",
+        "Bien vu ! Il est maintenant temps de réaliser le mat des arabes.",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Combinez la puissance de la tour et du cavalier pour réaliser un mat des arabes.] Les blancs se sont sortis d'une position qui semblait compromise grâce au mat des arabes. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/5pkp/p4Np1/1p3bP1/n1q2P2/Q5B1/PPP5/2K1R3 w - - 0 1\"]\r\n\r\n{Les noirs menacent de mater en c2, et la position blanche semble manquer de potentiel. Pourtant, il existe une combinaison permettant de gagner en force grâce au mat des arabes ! A vous de la trouver.}\r\n1.Qxf8+\r\n    {[%wrong Bien essayé, mais il va falloir trouver une suite plus tranchante pour espérer sortir de ce mauvais pas. Cherchez encore !][%hint Comment forcer le roi noir à se réfugier sur sa dernière rangée ?]}\r\n    (1.Ne8+ $2 Rxe8 {Les blancs ne peuvent pas reprendre ce cavalier car les noirs menacent mat en c2. Trouvez mieux !})\r\n    (1.Nh5+ $2 gxh5 {Ce sacrifice ne va pas nous permettre de sauver la partie. Trouvez mieux !})\r\n1...Kxf8\r\n    {Formidable ! Les blancs sacrifient la dame pour réaliser le mat des arabes avec le cavalier et la tour. Continuez sur cette voie !}\r\n2.Re8+\r\n    {[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Nous avons réussi à repousser le roi noir sur la bande. Trouvez maintenant un puissant échec de tour !]}\r\n2...Kg7\r\n    {Bien vu ! Il est maintenant temps de réaliser le mat des arabes.}\r\n3.Rg8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Combinez la puissance de la tour et du cavalier pour réaliser un mat des arabes.] Les blancs se sont sortis d'une position qui semblait compromise grâce au mat des arabes. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r1bqk2r/pppn1pp1/4pn1p/8/3PB3/B1P5/P1P1QPPP/R3K1NR w KQkq - 1 9",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le conducteur des blancs est le champion du monde Alexandre Alekhine. Dans cette position, les noirs menacent de prendre notre fort fou de cases blanches. Commençons par jouer le coup du grand-maître, 9.Fd3.",
+        "[%wrong Si vous le voulez bien, commençons par jouer le coup d'Alekhine : 9.Fd3.] [%hint Jouez votre fou de cases blanches en d3.]",
+        "Coincé au centre, le roi noir n'a aucun coup légal. Trouvez le fort coup qui va permettre d'ouvrir des lignes pour le mater en deux coups !",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas en force. Trouvez mieux !][%hint Trouvez le puissant sacrifice permettent de mater en deux. Cherchez un échec...]",
+        "Coup de tonnerre ! Sur ...De7, les blancs ont Dxe7#, les noirs sont donc obligés de prendre la dame. C'est l'heure de montrer que vous connaissez le mat de Boden !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Ne sous-estimez pas la puissance de la paire de fous...] Beau travail ! La maîtrise de ces mats célèbres vous aidera beaucoup dans vos parties."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppn1pp1/4pn1p/8/3PB3/B1P5/P1P1QPPP/R3K1NR w KQkq - 1 9\"]\r\n\r\n{Le conducteur des blancs est le champion du monde Alexandre Alekhine. Dans cette position, les noirs menacent de prendre notre fort fou de cases blanches. Commençons par jouer le coup du grand-maître, 9.Fd3.} \r\n9.Bd3 \r\n    {[%wrong Si vous le voulez bien, commençons par jouer le coup d'Alekhine : 9.Fd3.] [%hint Jouez votre fou de cases blanches en d3.]}\r\n9...b6 \r\n    {Coincé au centre, le roi noir n'a aucun coup légal. Trouvez le fort coup qui va permettre d'ouvrir des lignes pour le mater en deux coups !}\r\n10.Qxe6+ \r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas en force. Trouvez mieux !][%hint Trouvez le puissant sacrifice permettent de mater en deux. Cherchez un échec...]}\r\n10...fxe6 \r\n    {Coup de tonnerre ! Sur ...De7, les blancs ont Dxe7#, les noirs sont donc obligés de prendre la dame. C'est l'heure de montrer que vous connaissez le mat de Boden !}\r\n11.Bg6# \r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Ne sous-estimez pas la puissance de la paire de fous...] Beau travail ! La maîtrise de ces mats célèbres vous aidera beaucoup dans vos parties.}\r\n1-0"
+    },
+    {
+      "fen": "6k1/5p2/1p5p/p4Np1/5q2/Q6P/PPr5/3R3K w - - 0 37",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le futur champion du monde Max Euwe a les pièces blanches. Quel incroyable sacrifice a-t-il trouvé pour forcer le mat ? À vous de jouer !",
+        "[%wrong Bien essayé, mais il va falloir trouver une suite plus tranchante ! Cherchez encore.][%hint Comment attirer le roi noir vers f8 ?]",
+        "Incroyable ! Les noirs sont obligés de prendre la dame sous peine de Dg7# au prochain coup. Tout est maintenant en place pour réaliser le mat d'Anastasie !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouver le seul échec, c'est trouver le mat !] Une superbe combinaison. Vous maîtrisez le mat d'Anastasie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5p2/1p5p/p4Np1/5q2/Q6P/PPr5/3R3K w - - 0 37\"]\r\n[PlyCount \"3\"]\r\n\r\n\r\n    {Le futur champion du monde Max Euwe a les pièces blanches. Quel incroyable sacrifice a-t-il trouvé pour forcer le mat ? À vous de jouer !}\r\n37.Qf8+\r\n    {[%wrong Bien essayé, mais il va falloir trouver une suite plus tranchante ! Cherchez encore.][%hint Comment attirer le roi noir vers f8 ?]}\r\n37...Kxf8\r\n    {Incroyable ! Les noirs sont obligés de prendre la dame sous peine de Dg7# au prochain coup. Tout est maintenant en place pour réaliser le mat d'Anastasie !}\r\n38.Rd8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouver le seul échec, c'est trouver le mat !] Une superbe combinaison. Vous maîtrisez le mat d'Anastasie !}\r\n*"
+    },
+    {
+      "fen": "2rq1r1k/1b4pp/pp1b4/5p2/3R2nP/1PN1B1P1/P2QBP2/5RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs mettent la pression sur le fou noir et la dame sur la colonne d, mais les noirs ont la paire de fous, un cavalier, et une dame rivés sur le roi adverse. Trouvez un coup puissant qui force le mat de Blackburne !",
+        "[%wrong Ce coup ne permet pas de mater en force. Cherchez encore !][%hint Notez que le pion g3 est cloué. En effet, s'il venait à bouger, les noirs pourraient jouer ...Fh2 mat. Comment en profiter ?]",
+        "Bien joué, vous avez trouvé un puissant sacrifice de dame ! Les blancs sont obligés de l'accepter, sinon Dh2# ou Dh1# suivront. Finissez le travail !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Superbe ! Vous avez réalisé un mat de Blackburne. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rq1r1k/1b4pp/pp1b4/5p2/3R2nP/1PN1B1P1/P2QBP2/5RK1 b - - 0 1\"]\r\n\r\n{Les blancs mettent la pression sur le fou noir et la dame sur la colonne d, mais les noirs ont la paire de fous, un cavalier, et une dame rivés sur le roi adverse. Trouvez un coup puissant qui force le mat de Blackburne !}\r\n1...Qxh4\r\n    {[%wrong Ce coup ne permet pas de mater en force. Cherchez encore !][%hint Notez que le pion g3 est cloué. En effet, s'il venait à bouger, les noirs pourraient jouer ...Fh2 mat. Comment en profiter ?]}\r\n2.gxh4\r\n    {Bien joué, vous avez trouvé un puissant sacrifice de dame ! Les blancs sont obligés de l'accepter, sinon Dh2# ou Dh1# suivront. Finissez le travail !}\r\n2...Bh2#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Superbe ! Vous avez réalisé un mat de Blackburne. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r1b2r1k/pp4pp/3p1q2/3B4/8/1QN3Pn/PP3PKP/R3R3 b - - 5 19",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Intéressons-nous maintenant à un mat réalisé par Joseph Henry Blackburne en personne ! Trait aux noirs. Pour commencer, attirons le roi adverse dans le coin. Comment faire ?",
+        "[%wrong Ce coup ne force pas le roi blanc à se rendre dans le coin de l'échiquier. Cherchez encore !][%hint Trouvez un échec gagnant du matériel et forçant le roi blanc à se rendre en h1.]",
+        "Bien vu ! Le roi blanc se retrouve acculé dans le coin. Prenez votre temps, et cherchez un superbe mat en trois. N'oubliez pas d'utiliser l'indice si nécessaire !",
+        "[%wrong Ce coup ne permet pas de mater pas en trois. Cherchez encore !][%hint Trouvez le formidable sacrifice qui va forcer le roi blanc à aller en g2.]",
+        "Formidable ! Vous avez trouvé l'incroyable idée de Blackburne. Maintenant que la tour blanche bloque la case g1, envoyons le roi blanc en g2 !",
+        "[%wrong Ce coup ne force pas le roi blanc à aller en g2. Cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?]",
+        "Bien vu ! Et maintenant, matez comme Blackburne !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Superbe ! Vous maîtrisez désormais de très jolis mats."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2r1k/pp4pp/3p1q2/3B4/8/1QN3Pn/PP3PKP/R3R3 b - - 5 19\"]\r\n\r\n{Intéressons-nous maintenant à un mat réalisé par Joseph Henry Blackburne en personne ! Trait aux noirs. Pour commencer, attirons le roi adverse dans le coin. Comment faire ?}\r\n19...Qxf2+\r\n    {[%wrong Ce coup ne force pas le roi blanc à se rendre dans le coin de l'échiquier. Cherchez encore !][%hint Trouvez un échec gagnant du matériel et forçant le roi blanc à se rendre en h1.]}\r\n20.Kh1\r\n    {Bien vu ! Le roi blanc se retrouve acculé dans le coin. Prenez votre temps, et cherchez un superbe mat en trois. N'oubliez pas d'utiliser l'indice si nécessaire !}\r\n20...Qg1+\r\n    {[%wrong Ce coup ne permet pas de mater pas en trois. Cherchez encore !][%hint Trouvez le formidable sacrifice qui va forcer le roi blanc à aller en g2.]}\r\n21.Rxg1\r\n    {Formidable ! Vous avez trouvé l'incroyable idée de Blackburne. Maintenant que la tour blanche bloque la case g1, envoyons le roi blanc en g2 !}\r\n21...Nf2+\r\n    {[%wrong Ce coup ne force pas le roi blanc à aller en g2. Cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?]}\r\n22.Kg2\r\n    {Bien vu ! Et maintenant, matez comme Blackburne !}\r\n22...Bh3#\r\n   {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Superbe ! Vous maîtrisez désormais de très jolis mats.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "62f30ff8-9ced-11e8-a729-69ea8eac892f",
+    "name": "Motifs de mats avancés",
+    "path": "motifs-de-mats-avances",
+    "description": "Maîtrisez les motifs de mats avancés pour surprendre votre adversaire. Il existe de nombreux thèmes tous plus jolis les uns que les autres : Le mat des arabes, le mat de Boden, le mat des épaulettes, le mat de Cozio, le mat d’Anastasie, et bien d'autres encore...",
+    "glyphName": "square-fill-mate",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-advanced-checkmate-patterns-i0r.mp4",
+    "fen": "r4rk1/pbq1bp2/1pn3p1/2p3NQ/2P5/1P1B4/PB3PPP/R4RK1 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/5pkp/p4Np1/1p3bP1/n1q2P2/Q5B1/PPP5/2K1R3 w - - 0 1\"]\r\n\r\n{Les noirs menacent de mater en c2, et la position blanche semble manquer de potentiel. Pourtant, il existe une combinaison permettant de gagner en force grâce au mat des arabes ! A vous de la trouver.}\r\n1.Qxf8+\r\n    {[%wrong Bien essayé, mais il va falloir trouver une suite plus tranchante pour espérer sortir de ce mauvais pas. Cherchez encore !][%hint Comment forcer le roi noir à se réfugier sur sa dernière rangée ?]}\r\n    (1.Ne8+ $2 Rxe8 {Les blancs ne peuvent pas reprendre ce cavalier car les noirs menacent mat en c2. Trouvez mieux !})\r\n    (1.Nh5+ $2 gxh5 {Ce sacrifice ne va pas nous permettre de sauver la partie. Trouvez mieux !})\r\n1...Kxf8\r\n    {Formidable ! Les blancs sacrifient la dame pour réaliser le mat des arabes avec le cavalier et la tour. Continuez sur cette voie !}\r\n2.Re8+\r\n    {[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Nous avons réussi à repousser le roi noir sur la bande. Trouvez maintenant un puissant échec de tour !]}\r\n2...Kg7\r\n    {Bien vu ! Il est maintenant temps de réaliser le mat des arabes.}\r\n3.Rg8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Combinez la puissance de la tour et du cavalier pour réaliser un mat des arabes.] Les blancs se sont sortis d'une position qui semblait compromise grâce au mat des arabes. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppn1pp1/4pn1p/8/3PB3/B1P5/P1P1QPPP/R3K1NR w KQkq - 1 9\"]\r\n\r\n{Le conducteur des blancs est le champion du monde Alexandre Alekhine. Dans cette position, les noirs menacent de prendre notre fort fou de cases blanches. Commençons par jouer le coup du grand-maître, 9.Fd3.} \r\n9.Bd3 \r\n    {[%wrong Si vous le voulez bien, commençons par jouer le coup d'Alekhine : 9.Fd3.] [%hint Jouez votre fou de cases blanches en d3.]}\r\n9...b6 \r\n    {Coincé au centre, le roi noir n'a aucun coup légal. Trouvez le fort coup qui va permettre d'ouvrir des lignes pour le mater en deux coups !}\r\n10.Qxe6+ \r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas en force. Trouvez mieux !][%hint Trouvez le puissant sacrifice permettent de mater en deux. Cherchez un échec...]}\r\n10...fxe6 \r\n    {Coup de tonnerre ! Sur ...De7, les blancs ont Dxe7#, les noirs sont donc obligés de prendre la dame. C'est l'heure de montrer que vous connaissez le mat de Boden !}\r\n11.Bg6# \r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Ne sous-estimez pas la puissance de la paire de fous...] Beau travail ! La maîtrise de ces mats célèbres vous aidera beaucoup dans vos parties.}\r\n1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5p2/1p5p/p4Np1/5q2/Q6P/PPr5/3R3K w - - 0 37\"]\r\n[PlyCount \"3\"]\r\n\r\n\r\n    {Le futur champion du monde Max Euwe a les pièces blanches. Quel incroyable sacrifice a-t-il trouvé pour forcer le mat ? À vous de jouer !}\r\n37.Qf8+\r\n    {[%wrong Bien essayé, mais il va falloir trouver une suite plus tranchante ! Cherchez encore.][%hint Comment attirer le roi noir vers f8 ?]}\r\n37...Kxf8\r\n    {Incroyable ! Les noirs sont obligés de prendre la dame sous peine de Dg7# au prochain coup. Tout est maintenant en place pour réaliser le mat d'Anastasie !}\r\n38.Rd8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouver le seul échec, c'est trouver le mat !] Une superbe combinaison. Vous maîtrisez le mat d'Anastasie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rq1r1k/1b4pp/pp1b4/5p2/3R2nP/1PN1B1P1/P2QBP2/5RK1 b - - 0 1\"]\r\n\r\n{Les blancs mettent la pression sur le fou noir et la dame sur la colonne d, mais les noirs ont la paire de fous, un cavalier, et une dame rivés sur le roi adverse. Trouvez un coup puissant qui force le mat de Blackburne !}\r\n1...Qxh4\r\n    {[%wrong Ce coup ne permet pas de mater en force. Cherchez encore !][%hint Notez que le pion g3 est cloué. En effet, s'il venait à bouger, les noirs pourraient jouer ...Fh2 mat. Comment en profiter ?]}\r\n2.gxh4\r\n    {Bien joué, vous avez trouvé un puissant sacrifice de dame ! Les blancs sont obligés de l'accepter, sinon Dh2# ou Dh1# suivront. Finissez le travail !}\r\n2...Bh2#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Superbe ! Vous avez réalisé un mat de Blackburne. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2r1k/pp4pp/3p1q2/3B4/8/1QN3Pn/PP3PKP/R3R3 b - - 5 19\"]\r\n\r\n{Intéressons-nous maintenant à un mat réalisé par Joseph Henry Blackburne en personne ! Trait aux noirs. Pour commencer, attirons le roi adverse dans le coin. Comment faire ?}\r\n19...Qxf2+\r\n    {[%wrong Ce coup ne force pas le roi blanc à se rendre dans le coin de l'échiquier. Cherchez encore !][%hint Trouvez un échec gagnant du matériel et forçant le roi blanc à se rendre en h1.]}\r\n20.Kh1\r\n    {Bien vu ! Le roi blanc se retrouve acculé dans le coin. Prenez votre temps, et cherchez un superbe mat en trois. N'oubliez pas d'utiliser l'indice si nécessaire !}\r\n20...Qg1+\r\n    {[%wrong Ce coup ne permet pas de mater pas en trois. Cherchez encore !][%hint Trouvez le formidable sacrifice qui va forcer le roi blanc à aller en g2.]}\r\n21.Rxg1\r\n    {Formidable ! Vous avez trouvé l'incroyable idée de Blackburne. Maintenant que la tour blanche bloque la case g1, envoyons le roi blanc en g2 !}\r\n21...Nf2+\r\n    {[%wrong Ce coup ne force pas le roi blanc à aller en g2. Cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?]}\r\n22.Kg2\r\n    {Bien vu ! Et maintenant, matez comme Blackburne !}\r\n22...Bh3#\r\n   {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Superbe ! Vous maîtrisez désormais de très jolis mats.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il est temps pour vous d'apprendre des schémas de mat avancés.",
+    "outroText": "Incroyable ! Ces mats étaient très esthétiques.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "path": "attaquer-le-roi",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/fb3a54c6-a55b-11e8-a822-312ba136ba58.45c9b3b7.728x410o.0b4182d70109.png"
+    },
+    "parentId": "7dc583fa-83b7-11e8-bd84-7f0cebcd291a",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/advanced-checkmate-patterns5d125e0011ec8.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/advanced-checkmate-patterns-15ea23e31556b7.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/advanced-checkmate-patterns-2604a0ef5dd566.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 119,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi",
+      "order": 5
+    }
+  }
+}

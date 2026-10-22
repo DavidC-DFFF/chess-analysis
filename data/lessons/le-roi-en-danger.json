@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi/le-roi-en-danger",
+  "capturedAt": "2026-10-22T12:23:51.759Z",
+  "title": "Le roi en danger",
+  "exercises": [
+    {
+      "fen": "4r2k/1p1q3p/2b2pp1/8/2P4P/2QBb1B1/P5P1/5R1K b - - 0 30",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les noirs peuvent forcer un mat surprenant ?",
+        "[%wrong Bien essayé mais il existe un gain forcé dans la position. Tentez de le trouver !][%hint Le pion g2 des blancs est cloué par le fou noir, à vous d'en profiter.]",
+        "\r\nBien vu, il ne reste plus qu'à conclure ",
+        "[%wrong C'est dommage d'échouer si près du but. Réessayez !][%hint Un baiser de la mort permet de délivrer le mat.]\r\nBeau travail !",
+        "Parfait ! Pouvez-vous trouver l'autre mat en 1 coup existant dans la position ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r2k/1p1q3p/2b2pp1/8/2P4P/2QBb1B1/P5P1/5R1K b - - 0 30\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les noirs peuvent forcer un mat surprenant ?} 30... Qh3+ {[%wrong Bien essayé mais il existe un gain forcé dans la position. Tentez de le trouver !][%hint Le pion g2 des blancs est cloué par le fou noir, à vous d'en profiter.]} 31. Bh2 {\r\nBien vu, il ne reste plus qu'à conclure } Qxg2# {[%wrong C'est dommage d'échouer si près du but. Réessayez !][%hint Un baiser de la mort permet de délivrer le mat.]\r\nBeau travail !} (31... Bxg2# $5 {Parfait ! Pouvez-vous trouver l'autre mat en 1 coup existant dans la position ?}) *"
+    },
+    {
+      "fen": "r1b1kb1r/p1qn1pp1/2N1pn1p/2p5/1P6/3B4/P1P1QPPP/R1B1K1NR w KQkq - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quel incroyable sacrifice permet aux blancs de faire échec et mat en seulement 2 coups ?",
+        "[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Trouvez un puissant sacrifice permettant de mater en deux !]",
+        "Excellente vision tactique ! Comme ...Fe7 se heurterait à Dxe7#, les noirs décident de prendre la dame. Mais là encore, c'est mat en un ! A vous de jouer.",
+        "[%wrong Ce coup ne mate pas en un. Cherchez encore !][%hint Quel est le seul échec possible ?] Une combinaison puissante ! Continuez sur cette voie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/p1qn1pp1/2N1pn1p/2p5/1P6/3B4/P1P1QPPP/R1B1K1NR w KQkq - 0 14\"]\r\n[PlyCount \"3\"]\r\n\r\n\r\n    {Quel incroyable sacrifice permet aux blancs de faire échec et mat en seulement 2 coups ?}\r\n14.Qxe6+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Trouvez un puissant sacrifice permettant de mater en deux !]}\r\n14...fxe6\r\n    {Excellente vision tactique ! Comme ...Fe7 se heurterait à Dxe7#, les noirs décident de prendre la dame. Mais là encore, c'est mat en un ! A vous de jouer.}\r\n15.Bg6#\r\n    {[%wrong Ce coup ne mate pas en un. Cherchez encore !][%hint Quel est le seul échec possible ?] Une combinaison puissante ! Continuez sur cette voie.}\r\n*"
+    },
+    {
+      "fen": "3r4/kb5p/4R3/1p6/8/6B1/3q2PP/2R4K w - - 3 35",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs menacent de mater en g2 et de prendre la tour c1. La situation semble désespérée, mais il est possible de sauver la partie en attaquant le roi noir !",
+        "[%wrong Bien essayé, mais ce coup ne va pas nous permettre de sauver la partie. Cherchez encore !][%hint Trouvez un échec forçant les noirs à couvrir avec un fou.]",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Un coup combatif ! Les noirs doivent absolument bloquer avec le fou. Comment le prendre ?",
+        "[%wrong Non ! Les blancs doivent absolument prendre le fou et jouer pour le gain. Trouvez le bon coup !][%hint Les tours blanches seraient très efficaces si elles fonctionnaient de concert sur la sixième rangée...]",
+        "Bien essayé. Les blancs ne sont plus perdants, mais il existe un autre coup beaucoup plus fort. Trouvez-le !",
+        "Superbe ! Les tours blanches commencent à faire du vilain sur la sixième rangée. Comment forcer le roi adverse à se réfugier sur la huitième ?",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la huitième rangée. Cherchez encore !][%hint Utilisez une tour pour donner l'échec salvateur...]",
+        "Nous n'avons pas mieux qu'une répétition de coup. Cherchez encore !",
+        "Bien vu ! Le roi noir doit se rendre sur la huitième rangée. Trouvez maintenant un coup qui bloque la connexion entre la dame noire et sa tour sur la colonne d.",
+        "[%wrong Ce coup ne coupe pas la connexion entre la dame et la tour noire. Cherchez encore !][%hint Trouvez un échec forçant le roi adverse à se rendre sur la colonne d.]",
+        "Nous n'avons pas mieux qu'une répétition de coup. Cherchez encore !",
+        "Joli coup ! Cette option permet également de gagner. Trouvez maintenant l'autre échec gagnant !",
+        "Le roi noir est chassé sans pitié ! Trouvez maintenant une combinaison échangeant nos tours contre une dame et une tour.",
+        "[%wrong Ce coup ne permet pas d'échanger nos tours contre une dame et une tour. Cherchez encore !][%hint Trouvez une prise forçant un gain matériel.]",
+        "Bien vu ! Cette option permet également de gagner. Trouvez maintenant l'autre échec gagnant !",
+        "Excellente décision ! Continuons par une fourchette roi-dame !",
+        "[%wrong Ce coup n'est pas une fourchette royale. Cherchez encore !][%hint Trouvez le point de convergence entre la tour et le fou sur la colonne d.] Remarquable ! Les blancs ont survécu à une position qui semblait désespérée pour entrer dans une finale gagnante. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/kb5p/4R3/1p6/8/6B1/3q2PP/2R4K w - - 3 35\"]\r\n\r\n{Trait aux blancs. Les noirs menacent de mater en g2 et de prendre la tour c1. La situation semble désespérée, mais il est possible de sauver la partie en attaquant le roi noir !}\r\n35.Ra1+\r\n    {[%wrong Bien essayé, mais ce coup ne va pas nous permettre de sauver la partie. Cherchez encore !][%hint Trouvez un échec forçant les noirs à couvrir avec un fou.]}\r\n    (35.Bf2+ $2 Qxf2 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n35...Ba6\r\n    {Un coup combatif ! Les noirs doivent absolument bloquer avec le fou. Comment le prendre ?}\r\n36.Raxa6+\r\n    {[%wrong Non ! Les blancs doivent absolument prendre le fou et jouer pour le gain. Trouvez le bon coup !][%hint Les tours blanches seraient très efficaces si elles fonctionnaient de concert sur la sixième rangée...]}\r\n    (36.Rexa6+ $2 Kb7 {Bien essayé. Les blancs ne sont plus perdants, mais il existe un autre coup beaucoup plus fort. Trouvez-le !})\r\n36...Kb7\r\n    {Superbe ! Les tours blanches commencent à faire du vilain sur la sixième rangée. Comment forcer le roi adverse à se réfugier sur la huitième ?}\r\n37.Reb6+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la huitième rangée. Cherchez encore !][%hint Utilisez une tour pour donner l'échec salvateur...]}\r\n    (37.Rab6+ $6 Ka7 {Nous n'avons pas mieux qu'une répétition de coup. Cherchez encore !})\r\n37...Kc8\r\n    {Bien vu ! Le roi noir doit se rendre sur la huitième rangée. Trouvez maintenant un coup qui bloque la connexion entre la dame noire et sa tour sur la colonne d.}\r\n38.Ra8+\r\n    {[%wrong Ce coup ne coupe pas la connexion entre la dame et la tour noire. Cherchez encore !][%hint Trouvez un échec forçant le roi adverse à se rendre sur la colonne d.]}\r\n    (38.Rc6+ $6 Kb7 {Nous n'avons pas mieux qu'une répétition de coup. Cherchez encore !})\r\n    (38.Rb8+ $5 {Joli coup ! Cette option permet également de gagner. Trouvez maintenant l'autre échec gagnant !})\r\n38...Kd7\r\n    {Le roi noir est chassé sans pitié ! Trouvez maintenant une combinaison échangeant nos tours contre une dame et une tour.}\r\n39.Rxd8+\r\n    {[%wrong Ce coup ne permet pas d'échanger nos tours contre une dame et une tour. Cherchez encore !][%hint Trouvez une prise forçant un gain matériel.]}\r\n    (39.Rd6+ $5 {Bien vu ! Cette option permet également de gagner. Trouvez maintenant l'autre échec gagnant !})\r\n39...Kxd8\r\n    {Excellente décision ! Continuons par une fourchette roi-dame !}\r\n40.Rd6+\r\n    {[%wrong Ce coup n'est pas une fourchette royale. Cherchez encore !][%hint Trouvez le point de convergence entre la tour et le fou sur la colonne d.] Remarquable ! Les blancs ont survécu à une position qui semblait désespérée pour entrer dans une finale gagnante. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r2qkb1r/p2pppnp/n5p1/1NpNP3/6P1/4B3/P1P2P1P/3QKB1R w Kkq - 0 16",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pouvez-vous trouver le puissant sacrifice que le GM Levon Aronian a joué afin d'exposer le roi noir ?",
+        "[%wrong Bien essayé, mais ce n'est pas l'idée gagnante du grand-maître. Cherchez encore !][%hint Le roi noir est enfermé par ses propres pièces. Comment empêcher le pion e7 de défendre f6 ?]",
+        "Vous jouez comme un grand-maître ! Comment terminer l'attaque sur le roi ?",
+        "[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Profitons de la faiblesse de la case f6.] Superbe ! Les noirs ont le choix entre la peste et le choléra : Perdre la dame ou se faire mater au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkb1r/p2pppnp/n5p1/1NpNP3/6P1/4B3/P1P2P1P/3QKB1R w Kkq - 0 16\"]\r\n[PlyCount \"3\"]\r\n\r\n    {Pouvez-vous trouver le puissant sacrifice que le GM Levon Aronian a joué afin d'exposer le roi noir ?}\r\n16.Nd6+\r\n    {[%wrong Bien essayé, mais ce n'est pas l'idée gagnante du grand-maître. Cherchez encore !][%hint Le roi noir est enfermé par ses propres pièces. Comment empêcher le pion e7 de défendre f6 ?]}\r\n16...exd6\r\n    {Vous jouez comme un grand-maître ! Comment terminer l'attaque sur le roi ?}\r\n17.Nf6+\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Profitons de la faiblesse de la case f6.] Superbe ! Les noirs ont le choix entre la peste et le choléra : Perdre la dame ou se faire mater au prochain coup.}\r\n*"
+    },
+    {
+      "fen": "r3k2r/1p1n1qp1/p6p/4p2P/4K1P1/2PpQPbR/PP6/R1B2B2 w kq - 0 22",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le champion du monde Anatoly Karpov, qui conduit les pièces blanches, a de sérieux problèmes ! Trouvez comment le champion russe a mis son roi en sécurité.",
+        "[%wrong Ce coup ne met pas le roi blanc en sécurité. Cherchez encore !][%hint Quelle est la route menant le roi blanc vers la sécurité ?]",
+        "Bien essayé, mais nous perdons la dame... Trouvez mieux !",
+        "Beau début ! Les blancs prennent un pion adverse et rapprochent leur roi de la sécurité. Il existe maintenant plusieurs bons coups de dame, mais jouons, comme Karpov, le coup Dg1.",
+        "[%wrong Jouons si vous le voulez bien le coup de Karpov, Dg1.][%hint Mettez votre dame en g1.]",
+        "Parfait ! Les noirs continuent par grand roque, se préparant à attaquer notre roi faible. Mettez le en sécurité !",
+        "[%wrong Ce coup ne met pas le roi blanc en sécurité. Cherchez encore !][%hint Le roi blanc est-il plus en sécurité derrière un pion ou au milieu de l'échiquier ?] Incroyable ! Karpov ramène son roi de e4 vers c2, où ce dernier est à nouveau en sécurité. Le champion russe finira d'ailleurs par remporter cette partie !",
+        "Le roi blanc va être aspiré vers le haut de l'échiquier et maté en deux coups seulement. Trouvez mieux !",
+        "Bien essayé, mais le roi ne sera pas totalement en sécurité sur cette case. En outre, il empêche son fou de cases blanches de se développer. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/1p1n1qp1/p6p/4p2P/4K1P1/2PpQPbR/PP6/R1B2B2 w kq - 0 22\"]\r\n\r\n{Le champion du monde Anatoly Karpov, qui conduit les pièces blanches, a de sérieux problèmes ! Trouvez comment le champion russe a mis son roi en sécurité.}\r\n22.Kxd3\r\n    {[%wrong Ce coup ne met pas le roi blanc en sécurité. Cherchez encore !][%hint Quelle est la route menant le roi blanc vers la sécurité ?]}\r\n    (22.Qxd3 $2 Nc5+ {Bien essayé, mais nous perdons la dame... Trouvez mieux !})\r\n22...Bf4\r\n    {Beau début ! Les blancs prennent un pion adverse et rapprochent leur roi de la sécurité. Il existe maintenant plusieurs bons coups de dame, mais jouons, comme Karpov, le coup Dg1.}\r\n23.Qg1\r\n    {[%wrong Jouons si vous le voulez bien le coup de Karpov, Dg1.][%hint Mettez votre dame en g1.]}\r\n23...O-O-O\r\n    {Parfait ! Les noirs continuent par grand roque, se préparant à attaquer notre roi faible. Mettez le en sécurité !}\r\n24.Kc2\r\n    {[%wrong Ce coup ne met pas le roi blanc en sécurité. Cherchez encore !][%hint Le roi blanc est-il plus en sécurité derrière un pion ou au milieu de l'échiquier ?] Incroyable ! Karpov ramène son roi de e4 vers c2, où ce dernier est à nouveau en sécurité. Le champion russe finira d'ailleurs par remporter cette partie !}\r\n    (24.Ke4 $2 Nf6+ {Le roi blanc va être aspiré vers le haut de l'échiquier et maté en deux coups seulement. Trouvez mieux !})\r\n    (24.Ke2 $2 {Bien essayé, mais le roi ne sera pas totalement en sécurité sur cette case. En outre, il empêche son fou de cases blanches de se développer. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "1r3rk1/1Bp2p1p/2P1pN2/p2b2p1/3PnQ2/4P3/1q3PPP/2RR2K1 b - - 1 28",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Notre roi est attaqué, mais la dame blanche est en prise. Faut-il mettre notre roi à l'abri ou bien l’utiliser comme une pièce offensive ?",
+        "[%hint La dame blanche est attaquée. Si vous attaquez également un cavalier, les blancs auront deux pièces en prise !]",
+        "Mettre le roi derrière ses pions est généralement une bonne stratégie, mais ici, notre aile roi est très faible et l'attaque blanche arrive très vite. Trouvez un coup plus tranchant !",
+        "Les blancs peuvent jouer ce pénible coup intermédiaire... Il leur permet de gagner un pion et de détruire nos défenses avant de prendre le cavalier... Trouvez mieux !",
+        "Bien joué ! Le roi noir attaque le cavalier adverse, et les blancs se retrouvent avec deux pièces en prise ! Faut-il maintenant continuer l'attaque avec le roi ou se replier en défense ?",
+        "[%hint Trouvez le coup de roi agressif qui empêche tout échec de cavalier au prochain coup.]",
+        "C'est la bonne idée, mais il est important de ne pas laisser le cavalier blanc nous donner des échecs. Trouvez une case attaquant le cavalier tout en mettant le roi à l'abri de ces futurs échecs !",
+        "Les blancs menacent mat, et sur ...f6, Dxc7 pose de sérieux problèmes... Trouvez mieux !",
+        "Bien essayé, mais ce plan n'est pas clairement gagnant. Surmontez vos craintes et gagnez une pièce en jouant actif !",
+        "Un choix courageux ! Le roi noir continue à harceler le cavalier adverse. La dame blanche garde maintenant l'importante case f2 et le cavalier h5. Trouvez le coup puissant qui la force à abandonner l'une de ces deux cibles !",
+        "[%wrong Ce coup ne force pas la dame blanche à abandonner le contrôle de f2 ou h5. Cherchez encore !][%hint Trouvez un coup de pion déstabilisant la position de la dame.]",
+        "Un coup malin ! Simplifier la position en gagnant un pion est souvent une bonne idée. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.",
+        "Un coup malin ! Simplifier la position en gagnant un pion est souvent une bonne idée. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.",
+        "Une idée intéressante ! Les noirs vont gagner du matériel et obtenir une position très complexe. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.",
+        "Un coup puissant ! Dxg4 se heurte à Dxf2+ suivi de ...Tg8. Par conséquent, les blancs donnent un échec, laissant leur cavalier en prise. Celui-ci est-il prenable ? Est-ce un bluff ? A vous de voir !",
+        "[%hint Si vous prenez ce cavalier, les blancs pourront-ils vous mater ? Vérifiez bien toutes les options.] Formidable ! Vous avez utilisé le roi comme une pièce d'attaque. Les noirs s'apprêtent maintenant à jouer ...f5 pour sécuriser la position avec une pièce de plus !",
+        "Notre roi a de gros problèmes. Ne laissez pas les blancs conserver ce cavalier, allez jusqu'au bout !",
+        "Notre roi a de gros problèmes. Ne laissez pas les blancs conserver ce cavalier, allez jusqu'au bout !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3rk1/1Bp2p1p/2P1pN2/p2b2p1/3PnQ2/4P3/1q3PPP/2RR2K1 b - - 1 28\"]\r\n\r\n{Trait aux noirs. Notre roi est attaqué, mais la dame blanche est en prise. Faut-il mettre notre roi à l'abri ou bien l’utiliser comme une pièce offensive ?}\r\n28...Kg7\r\n    {[%hint La dame blanche est attaquée. Si vous attaquez également un cavalier, les blancs auront deux pièces en prise !]}\r\n    (28...Kh8 $2 29.Qf3 {Mettre le roi derrière ses pions est généralement une bonne stratégie, mais ici, notre aile roi est très faible et l'attaque blanche arrive très vite. Trouvez un coup plus tranchant !})\r\n    (28...Nxf6 $2 29.Qxg5+ {Les blancs peuvent jouer ce pénible coup intermédiaire... Il leur permet de gagner un pion et de détruire nos défenses avant de prendre le cavalier... Trouvez mieux !})\r\n29.Nh5+\r\n    {Bien joué ! Le roi noir attaque le cavalier adverse, et les blancs se retrouvent avec deux pièces en prise ! Faut-il maintenant continuer l'attaque avec le roi ou se replier en défense ?}\r\n29...Kh6\r\n    {[%hint Trouvez le coup de roi agressif qui empêche tout échec de cavalier au prochain coup.]}\r\n    (29...Kg6 $6 30.Qf3 {C'est la bonne idée, mais il est important de ne pas laisser le cavalier blanc nous donner des échecs. Trouvez une case attaquant le cavalier tout en mettant le roi à l'abri de ces futurs échecs !})\r\n    (29...Kg8 $2 30.Qe5 {Les blancs menacent mat, et sur ...f6, Dxc7 pose de sérieux problèmes... Trouvez mieux !})\r\n    (29...Kh8 $6 30.Qe5+ {Bien essayé, mais ce plan n'est pas clairement gagnant. Surmontez vos craintes et gagnez une pièce en jouant actif !})\r\n30.Qf3\r\n    {Un choix courageux ! Le roi noir continue à harceler le cavalier adverse. La dame blanche garde maintenant l'importante case f2 et le cavalier h5. Trouvez le coup puissant qui la force à abandonner l'une de ces deux cibles !}\r\n30...g4\r\n    {[%wrong Ce coup ne force pas la dame blanche à abandonner le contrôle de f2 ou h5. Cherchez encore !][%hint Trouvez un coup de pion déstabilisant la position de la dame.]}\r\n    (30...Qxf2+ $5 {Un coup malin ! Simplifier la position en gagnant un pion est souvent une bonne idée. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.})\r\n    (30...Nxf2 $5 31.Qxf2 {Un coup malin ! Simplifier la position en gagnant un pion est souvent une bonne idée. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.})\r\n    (30...Nc3 $5 31.e4 {Une idée intéressante ! Les noirs vont gagner du matériel et obtenir une position très complexe. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.})\r\n31.Qf4+\r\n    {Un coup puissant ! Dxg4 se heurte à Dxf2+ suivi de ...Tg8. Par conséquent, les blancs donnent un échec, laissant leur cavalier en prise. Celui-ci est-il prenable ? Est-ce un bluff ? A vous de voir !}\r\n31...Kxh5\r\n    {[%hint Si vous prenez ce cavalier, les blancs pourront-ils vous mater ? Vérifiez bien toutes les options.] Formidable ! Vous avez utilisé le roi comme une pièce d'attaque. Les noirs s'apprêtent maintenant à jouer ...f5 pour sécuriser la position avec une pièce de plus !}\r\n    (31...Kg6 $2 32.Qxg4+ {Notre roi a de gros problèmes. Ne laissez pas les blancs conserver ce cavalier, allez jusqu'au bout !})\r\n    (31...Ng5 $2 32.Nf6 {Notre roi a de gros problèmes. Ne laissez pas les blancs conserver ce cavalier, allez jusqu'au bout !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "451a8830-9ced-11e8-bc11-bf127196a48c",
+    "name": "Le roi en danger",
+    "path": "le-roi-en-danger",
+    "description": "Lorsque vous attaquez, il est important de bien repérer tous les coups forcés ainsi que les coups empêchant le roi attaqué de s’enfuir de la zone dangereuse. Lorsque vous défendez, identifiez toutes les menaces adverses et tâchez de les parer sans créer de faiblesses inutiles dans votre position. N’oubliez pas que les meilleures armes défensives sont l’échange de pièces et la contre-attaque !",
+    "glyphName": "piece-badge-king-danger",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-king-in-danger-i7g.mp4",
+    "fen": "2kr3r/1p1n1qp1/p6p/4p2P/5bP1/2P2P1R/PPK5/R1B2BQ1 b - - 4 24",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r2k/1p1q3p/2b2pp1/8/2P4P/2QBb1B1/P5P1/5R1K b - - 0 30\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les noirs peuvent forcer un mat surprenant ?} 30... Qh3+ {[%wrong Bien essayé mais il existe un gain forcé dans la position. Tentez de le trouver !][%hint Le pion g2 des blancs est cloué par le fou noir, à vous d'en profiter.]} 31. Bh2 {\r\nBien vu, il ne reste plus qu'à conclure } Qxg2# {[%wrong C'est dommage d'échouer si près du but. Réessayez !][%hint Un baiser de la mort permet de délivrer le mat.]\r\nBeau travail !} (31... Bxg2# $5 {Parfait ! Pouvez-vous trouver l'autre mat en 1 coup existant dans la position ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/p1qn1pp1/2N1pn1p/2p5/1P6/3B4/P1P1QPPP/R1B1K1NR w KQkq - 0 14\"]\r\n[PlyCount \"3\"]\r\n\r\n\r\n    {Quel incroyable sacrifice permet aux blancs de faire échec et mat en seulement 2 coups ?}\r\n14.Qxe6+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Trouvez un puissant sacrifice permettant de mater en deux !]}\r\n14...fxe6\r\n    {Excellente vision tactique ! Comme ...Fe7 se heurterait à Dxe7#, les noirs décident de prendre la dame. Mais là encore, c'est mat en un ! A vous de jouer.}\r\n15.Bg6#\r\n    {[%wrong Ce coup ne mate pas en un. Cherchez encore !][%hint Quel est le seul échec possible ?] Une combinaison puissante ! Continuez sur cette voie.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/kb5p/4R3/1p6/8/6B1/3q2PP/2R4K w - - 3 35\"]\r\n\r\n{Trait aux blancs. Les noirs menacent de mater en g2 et de prendre la tour c1. La situation semble désespérée, mais il est possible de sauver la partie en attaquant le roi noir !}\r\n35.Ra1+\r\n    {[%wrong Bien essayé, mais ce coup ne va pas nous permettre de sauver la partie. Cherchez encore !][%hint Trouvez un échec forçant les noirs à couvrir avec un fou.]}\r\n    (35.Bf2+ $2 Qxf2 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n35...Ba6\r\n    {Un coup combatif ! Les noirs doivent absolument bloquer avec le fou. Comment le prendre ?}\r\n36.Raxa6+\r\n    {[%wrong Non ! Les blancs doivent absolument prendre le fou et jouer pour le gain. Trouvez le bon coup !][%hint Les tours blanches seraient très efficaces si elles fonctionnaient de concert sur la sixième rangée...]}\r\n    (36.Rexa6+ $2 Kb7 {Bien essayé. Les blancs ne sont plus perdants, mais il existe un autre coup beaucoup plus fort. Trouvez-le !})\r\n36...Kb7\r\n    {Superbe ! Les tours blanches commencent à faire du vilain sur la sixième rangée. Comment forcer le roi adverse à se réfugier sur la huitième ?}\r\n37.Reb6+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la huitième rangée. Cherchez encore !][%hint Utilisez une tour pour donner l'échec salvateur...]}\r\n    (37.Rab6+ $6 Ka7 {Nous n'avons pas mieux qu'une répétition de coup. Cherchez encore !})\r\n37...Kc8\r\n    {Bien vu ! Le roi noir doit se rendre sur la huitième rangée. Trouvez maintenant un coup qui bloque la connexion entre la dame noire et sa tour sur la colonne d.}\r\n38.Ra8+\r\n    {[%wrong Ce coup ne coupe pas la connexion entre la dame et la tour noire. Cherchez encore !][%hint Trouvez un échec forçant le roi adverse à se rendre sur la colonne d.]}\r\n    (38.Rc6+ $6 Kb7 {Nous n'avons pas mieux qu'une répétition de coup. Cherchez encore !})\r\n    (38.Rb8+ $5 {Joli coup ! Cette option permet également de gagner. Trouvez maintenant l'autre échec gagnant !})\r\n38...Kd7\r\n    {Le roi noir est chassé sans pitié ! Trouvez maintenant une combinaison échangeant nos tours contre une dame et une tour.}\r\n39.Rxd8+\r\n    {[%wrong Ce coup ne permet pas d'échanger nos tours contre une dame et une tour. Cherchez encore !][%hint Trouvez une prise forçant un gain matériel.]}\r\n    (39.Rd6+ $5 {Bien vu ! Cette option permet également de gagner. Trouvez maintenant l'autre échec gagnant !})\r\n39...Kxd8\r\n    {Excellente décision ! Continuons par une fourchette roi-dame !}\r\n40.Rd6+\r\n    {[%wrong Ce coup n'est pas une fourchette royale. Cherchez encore !][%hint Trouvez le point de convergence entre la tour et le fou sur la colonne d.] Remarquable ! Les blancs ont survécu à une position qui semblait désespérée pour entrer dans une finale gagnante. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkb1r/p2pppnp/n5p1/1NpNP3/6P1/4B3/P1P2P1P/3QKB1R w Kkq - 0 16\"]\r\n[PlyCount \"3\"]\r\n\r\n    {Pouvez-vous trouver le puissant sacrifice que le GM Levon Aronian a joué afin d'exposer le roi noir ?}\r\n16.Nd6+\r\n    {[%wrong Bien essayé, mais ce n'est pas l'idée gagnante du grand-maître. Cherchez encore !][%hint Le roi noir est enfermé par ses propres pièces. Comment empêcher le pion e7 de défendre f6 ?]}\r\n16...exd6\r\n    {Vous jouez comme un grand-maître ! Comment terminer l'attaque sur le roi ?}\r\n17.Nf6+\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Profitons de la faiblesse de la case f6.] Superbe ! Les noirs ont le choix entre la peste et le choléra : Perdre la dame ou se faire mater au prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/1p1n1qp1/p6p/4p2P/4K1P1/2PpQPbR/PP6/R1B2B2 w kq - 0 22\"]\r\n\r\n{Le champion du monde Anatoly Karpov, qui conduit les pièces blanches, a de sérieux problèmes ! Trouvez comment le champion russe a mis son roi en sécurité.}\r\n22.Kxd3\r\n    {[%wrong Ce coup ne met pas le roi blanc en sécurité. Cherchez encore !][%hint Quelle est la route menant le roi blanc vers la sécurité ?]}\r\n    (22.Qxd3 $2 Nc5+ {Bien essayé, mais nous perdons la dame... Trouvez mieux !})\r\n22...Bf4\r\n    {Beau début ! Les blancs prennent un pion adverse et rapprochent leur roi de la sécurité. Il existe maintenant plusieurs bons coups de dame, mais jouons, comme Karpov, le coup Dg1.}\r\n23.Qg1\r\n    {[%wrong Jouons si vous le voulez bien le coup de Karpov, Dg1.][%hint Mettez votre dame en g1.]}\r\n23...O-O-O\r\n    {Parfait ! Les noirs continuent par grand roque, se préparant à attaquer notre roi faible. Mettez le en sécurité !}\r\n24.Kc2\r\n    {[%wrong Ce coup ne met pas le roi blanc en sécurité. Cherchez encore !][%hint Le roi blanc est-il plus en sécurité derrière un pion ou au milieu de l'échiquier ?] Incroyable ! Karpov ramène son roi de e4 vers c2, où ce dernier est à nouveau en sécurité. Le champion russe finira d'ailleurs par remporter cette partie !}\r\n    (24.Ke4 $2 Nf6+ {Le roi blanc va être aspiré vers le haut de l'échiquier et maté en deux coups seulement. Trouvez mieux !})\r\n    (24.Ke2 $2 {Bien essayé, mais le roi ne sera pas totalement en sécurité sur cette case. En outre, il empêche son fou de cases blanches de se développer. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3rk1/1Bp2p1p/2P1pN2/p2b2p1/3PnQ2/4P3/1q3PPP/2RR2K1 b - - 1 28\"]\r\n\r\n{Trait aux noirs. Notre roi est attaqué, mais la dame blanche est en prise. Faut-il mettre notre roi à l'abri ou bien l’utiliser comme une pièce offensive ?}\r\n28...Kg7\r\n    {[%hint La dame blanche est attaquée. Si vous attaquez également un cavalier, les blancs auront deux pièces en prise !]}\r\n    (28...Kh8 $2 29.Qf3 {Mettre le roi derrière ses pions est généralement une bonne stratégie, mais ici, notre aile roi est très faible et l'attaque blanche arrive très vite. Trouvez un coup plus tranchant !})\r\n    (28...Nxf6 $2 29.Qxg5+ {Les blancs peuvent jouer ce pénible coup intermédiaire... Il leur permet de gagner un pion et de détruire nos défenses avant de prendre le cavalier... Trouvez mieux !})\r\n29.Nh5+\r\n    {Bien joué ! Le roi noir attaque le cavalier adverse, et les blancs se retrouvent avec deux pièces en prise ! Faut-il maintenant continuer l'attaque avec le roi ou se replier en défense ?}\r\n29...Kh6\r\n    {[%hint Trouvez le coup de roi agressif qui empêche tout échec de cavalier au prochain coup.]}\r\n    (29...Kg6 $6 30.Qf3 {C'est la bonne idée, mais il est important de ne pas laisser le cavalier blanc nous donner des échecs. Trouvez une case attaquant le cavalier tout en mettant le roi à l'abri de ces futurs échecs !})\r\n    (29...Kg8 $2 30.Qe5 {Les blancs menacent mat, et sur ...f6, Dxc7 pose de sérieux problèmes... Trouvez mieux !})\r\n    (29...Kh8 $6 30.Qe5+ {Bien essayé, mais ce plan n'est pas clairement gagnant. Surmontez vos craintes et gagnez une pièce en jouant actif !})\r\n30.Qf3\r\n    {Un choix courageux ! Le roi noir continue à harceler le cavalier adverse. La dame blanche garde maintenant l'importante case f2 et le cavalier h5. Trouvez le coup puissant qui la force à abandonner l'une de ces deux cibles !}\r\n30...g4\r\n    {[%wrong Ce coup ne force pas la dame blanche à abandonner le contrôle de f2 ou h5. Cherchez encore !][%hint Trouvez un coup de pion déstabilisant la position de la dame.]}\r\n    (30...Qxf2+ $5 {Un coup malin ! Simplifier la position en gagnant un pion est souvent une bonne idée. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.})\r\n    (30...Nxf2 $5 31.Qxf2 {Un coup malin ! Simplifier la position en gagnant un pion est souvent une bonne idée. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.})\r\n    (30...Nc3 $5 31.e4 {Une idée intéressante ! Les noirs vont gagner du matériel et obtenir une position très complexe. Trouvez maintenant un autre coup forçant la dame à abandonner le contrôle de f2 ou h5.})\r\n31.Qf4+\r\n    {Un coup puissant ! Dxg4 se heurte à Dxf2+ suivi de ...Tg8. Par conséquent, les blancs donnent un échec, laissant leur cavalier en prise. Celui-ci est-il prenable ? Est-ce un bluff ? A vous de voir !}\r\n31...Kxh5\r\n    {[%hint Si vous prenez ce cavalier, les blancs pourront-ils vous mater ? Vérifiez bien toutes les options.] Formidable ! Vous avez utilisé le roi comme une pièce d'attaque. Les noirs s'apprêtent maintenant à jouer ...f5 pour sécuriser la position avec une pièce de plus !}\r\n    (31...Kg6 $2 32.Qxg4+ {Notre roi a de gros problèmes. Ne laissez pas les blancs conserver ce cavalier, allez jusqu'au bout !})\r\n    (31...Ng5 $2 32.Nf6 {Notre roi a de gros problèmes. Ne laissez pas les blancs conserver ce cavalier, allez jusqu'au bout !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Améliorons votre sens du danger dans la prochaine leçon.",
+    "outroText": "Bien joué d'avoir trouvé toutes ces idées ggnantes !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "path": "attaquer-le-roi",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/fb3a54c6-a55b-11e8-a822-312ba136ba58.45c9b3b7.728x410o.0b4182d70109.png"
+    },
+    "parentId": "5b2d343c-83b7-11e8-8b3f-15fe0a23909a",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-in-danger5e7ab542dc04e.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-in-danger-15ea23e1623d31.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-in-danger-260479b9e85e45.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 117,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi",
+      "order": 5
+    }
+  }
+}

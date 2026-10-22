@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/fous",
+  "capturedAt": "2026-10-22T13:42:33.434Z",
+  "title": "Les fous",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/2P5/6P1/PP1PPP1P/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f1;color;%23ffaa00;opacity;0.8;square;f1;persistent;true]Les fous sont les plus puissants quand ils contrôlent beaucoup de cases. Activez votre fou de cases blanches.",
+        "[%c_highlight f3;color;%23ffaa00;opacity;0.8;square;f3;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true,c6;color;%23ffaa00;opacity;0.8;square;c6;persistent;true,b7;color;%23ffaa00;opacity;0.8;square;b7;persistent;true,g2;color;%23ffaa00;opacity;0.8;square;g2;persistent;true][%hint Déplacez votre fou sur une case d'où il vise le centre.][%wrong Bien essayé, mais ce coup ne développe pas votre fou de cases blanches. Essayez encore.]Bien joué ! Votre fou traverse le centre et bénéficie d'une excellente portée sur la grande diagonale.",
+        "Bien essayé, mais on ne veut pas échanger les fous. Essaye de déplacer ce fou d'une seule case en diagonale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/3p4/2p5/2P5/6P1/PP1PPP1P/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{[%c_highlight f1;color;%23ffaa00;opacity;0.8;square;f1;persistent;true]Les fous sont les plus puissants quand ils contrôlent beaucoup de cases. Activez votre fou de cases blanches.} 1. Bg2 {[%c_highlight f3;color;%23ffaa00;opacity;0.8;square;f3;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true,c6;color;%23ffaa00;opacity;0.8;square;c6;persistent;true,b7;color;%23ffaa00;opacity;0.8;square;b7;persistent;true,g2;color;%23ffaa00;opacity;0.8;square;g2;persistent;true][%hint Déplacez votre fou sur une case d'où il vise le centre.][%wrong Bien essayé, mais ce coup ne développe pas votre fou de cases blanches. Essayez encore.]Bien joué ! Votre fou traverse le centre et bénéficie d'une excellente portée sur la grande diagonale.} (1. Bh3? Bxh3 {Bien essayé, mais on ne veut pas échanger les fous. Essaye de déplacer ce fou d'une seule case en diagonale.}) *"
+    },
+    {
+      "fen": "r1bq1rk1/ppp2pp1/2np1n2/2b1p2p/P1B1P3/2NP1N2/1PP2PPP/R1BQ1RK1 w - h6 0 8",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Développez votre fou et clouez une pièce adverse en un seul coup.",
+        "[%hint Activez votre fou tout en clouant le cavalier.][%wrong Bien essayé, mais ce coup ne développe pas votre fou tout en clouant une pièce. Essayez encore.][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow c3d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;d5;persistent;true] Bravo ! Le fou cloue le cavalier sur la dame, une excellente cible à attaquer.",
+        "Cela provoque un échange de fous intéressant, mais il est plus fort de clouer le cavalier avec votre fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/ppp2pp1/2np1n2/2b1p2p/P1B1P3/2NP1N2/1PP2PPP/R1BQ1RK1 w - h6 0 8\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/1mftBwMwL/lesson-editor\"]\r\n\r\n{Développez votre fou et clouez une pièce adverse en un seul coup.} 8. Bg5 {[%hint Activez votre fou tout en clouant le cavalier.][%wrong Bien essayé, mais ce coup ne développe pas votre fou tout en clouant une pièce. Essayez encore.][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow c3d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;d5;persistent;true] Bravo ! Le fou cloue le cavalier sur la dame, une excellente cible à attaquer.} (8. Be3? Bxe3 {Cela provoque un échange de fous intéressant, mais il est plus fort de clouer le cavalier avec votre fou.}) *"
+    },
+    {
+      "fen": "2k2B2/8/8/8/3Kp3/P2p4/2p5/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c2c1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c2;to;c1;persistent;true,d3d2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d3;to;d2;persistent;true,e4e3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e4;to;e3;persistent;true]Ces pions sont sur le point d'être promus mais votre fou peut tous les arrêter !",
+        "[%hint Trouvez une case pour votre fou qui contrôle toutes les cases devant leurs pions.][%wrong Bien essayé, mais ce coup n'empêche pas les pions d'être promus sans danger.][%c_arrow h6c1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;h6;to;c1;persistent;true]Oui ! Votre fou arrive juste à temps, prêt à prendre tout pion qui bouge.",
+        "Bien essayé, mais il ne faut pas les laisser obtenir une nouvelle dame. Déplacez votre fou pour qu'il protège la case de promotion.",
+        "Bien essayé, mais il ne faut pas les laisser obtenir une nouvelle dame. Déplacez votre fou pour qu'il protège la case de promotion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k2B2/8/8/8/3Kp3/P2p4/2p5/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2BSCA9caPQ/analysis\"]\r\n\r\n{[%c_arrow c2c1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c2;to;c1;persistent;true,d3d2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d3;to;d2;persistent;true,e4e3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e4;to;e3;persistent;true]Ces pions sont sur le point d'être promus mais votre fou peut tous les arrêter !} 1. Bh6 {[%hint Trouvez une case pour votre fou qui contrôle toutes les cases devant leurs pions.][%wrong Bien essayé, mais ce coup n'empêche pas les pions d'être promus sans danger.][%c_arrow h6c1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;h6;to;c1;persistent;true]Oui ! Votre fou arrive juste à temps, prêt à prendre tout pion qui bouge.} (1. Kxe4? c1=Q {Bien essayé, mais il ne faut pas les laisser obtenir une nouvelle dame. Déplacez votre fou pour qu'il protège la case de promotion.}) (1. a4? c1=Q {Bien essayé, mais il ne faut pas les laisser obtenir une nouvelle dame. Déplacez votre fou pour qu'il protège la case de promotion.}) *"
+    },
+    {
+      "fen": "1k1r3r/ppp2ppp/2np1b2/8/2BP2q1/PQ2PN1b/1P3PPP/R1B1R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ils menacent mat. Comment défendre ?",
+        "[%hint Ramener le fou sur sa case de départ est étonnamment fort.][%wrong Bien essayé, mais ce coup ne répond pas à leur menace de mat. Essaye encore.][%c_arrow f1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f1;to;g2;persistent;true] Très bien vu ! Le fou défend le pion et sauve la situation !",
+        "Bonne idée de menacer mat, mais vous avez un coup de retard. Essayez d'utiliser ce fou pour défendre le pion devant votre roi.",
+        "Bien essayé, mais cela perd un cavalier et le mat reste une menace. Utilisez votre fou pour défendre le pion devant votre roi.",
+        "Bien essayé, mais cela perd votre cavalier. Votre fou peut-il défendre le pion devant votre roi ?",
+        "Le roi peut s'échapper, mais vous perdez un pion et un cavalier. Votre fou peut-il défendre le pion devant votre roi ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r3r/ppp2ppp/2np1b2/8/2BP2q1/PQ2PN1b/1P3PPP/R1B1R1K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Ils menacent mat. Comment défendre ?} 1. Bf1 {[%hint Ramener le fou sur sa case de départ est étonnamment fort.][%wrong Bien essayé, mais ce coup ne répond pas à leur menace de mat. Essaye encore.][%c_arrow f1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f1;to;g2;persistent;true] Très bien vu ! Le fou défend le pion et sauve la situation !} (1. Ba6? Qxg2# {Bonne idée de menacer mat, mais vous avez un coup de retard. Essayez d'utiliser ce fou pour défendre le pion devant votre roi.}) (1. g3? Qxf3 {Bien essayé, mais cela perd un cavalier et le mat reste une menace. Utilisez votre fou pour défendre le pion devant votre roi.}) (1. Nh4? Bxh4 {Bien essayé, mais cela perd votre cavalier. Votre fou peut-il défendre le pion devant votre roi ?}) (1. Kf1? Bxg2+ {Le roi peut s'échapper, mais vous perdez un pion et un cavalier. Votre fou peut-il défendre le pion devant votre roi ?}) *"
+    },
+    {
+      "fen": "2r3k1/pq1r1p1p/1p2pBp1/2p1P3/8/7P/PP1Q1PP1/5NK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Votre fou domine les cases noires. Comment menacer mat ?",
+        "[%hint Votre fou vise la case devant le roi adverse. Déplacez votre dame sur une case qui menace mat.][%wrong Ce coup ne menace pas mat au coup suivant. Essaye encore.]",
+        "Excellent ! C'est l'heure du mat.",
+        "[%hint Votre fou contrôle la case de mat — trouvez un échec avec la dame qui gagne la partie !][%wrong Bien essayé, mais ce n'est pas mat. Essaye encore.] Bravo ! La dame et le fou s'associent pour donner mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/pq1r1p1p/1p2pBp1/2p1P3/8/7P/PP1Q1PP1/5NK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Votre fou domine les cases noires. Comment menacer mat ?} 1. Qh6 {[%hint Votre fou vise la case devant le roi adverse. Déplacez votre dame sur une case qui menace mat.][%wrong Ce coup ne menace pas mat au coup suivant. Essaye encore.]} 1... Rd1 {Excellent ! C'est l'heure du mat.} 2. Qg7# {[%hint Votre fou contrôle la case de mat — trouvez un échec avec la dame qui gagne la partie !][%wrong Bien essayé, mais ce n'est pas mat. Essaye encore.] Bravo ! La dame et le fou s'associent pour donner mat.} 1-0"
+    },
+    {
+      "fen": "2kr3r/B1p1n1pp/1p3pb1/4p3/1b2P3/2N2P2/PPP1B1PP/1K1R3R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Votre fou est piégé ! Est-ce vraiment important ?",
+        "[%hint Utilisez la puissance de vos deux fous pour gagner la partie immédiatement.][%wrong Bien essayé, mais vous pouvez gagner la partie en un seul coup. Cherchez un échec puissant.] Magnifique ! La puissance des deux fous rayonne avec ce mat.",
+        "Bien essayé, mais cela perd votre fou. Cherchez un échec puissant qui gagne la partie.",
+        "Échanger les tours est une idée raisonnable, mais cherchons un coup qui gagne la partie immédiatement."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr3r/B1p1n1pp/1p3pb1/4p3/1b2P3/2N2P2/PPP1B1PP/1K1R3R w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/p9JYsK9uQ/analysis\"]\r\n\r\n{Votre fou est piégé ! Est-ce vraiment important ?} 1. Ba6# {[%hint Utilisez la puissance de vos deux fous pour gagner la partie immédiatement.][%wrong Bien essayé, mais vous pouvez gagner la partie en un seul coup. Cherchez un échec puissant.] Magnifique ! La puissance des deux fous rayonne avec ce mat.} (1. Bxb6? cxb6 {Bien essayé, mais cela perd votre fou. Cherchez un échec puissant qui gagne la partie.}) (1. Rxd8+? Rxd8 {Échanger les tours est une idée raisonnable, mais cherchons un coup qui gagne la partie immédiatement.}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c1a0-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Les fous",
+    "path": "fous",
+    "description": "Apprenez à dominer les diagonales avec vos fous.",
+    "glyphName": "piece-pair-bishop",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/3p4/2p5/2P5/6P1/PP1PPP1P/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{[%c_highlight f1;color;%23ffaa00;opacity;0.8;square;f1;persistent;true]Les fous sont les plus puissants quand ils contrôlent beaucoup de cases. Activez votre fou de cases blanches.} 1. Bg2 {[%c_highlight f3;color;%23ffaa00;opacity;0.8;square;f3;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true,c6;color;%23ffaa00;opacity;0.8;square;c6;persistent;true,b7;color;%23ffaa00;opacity;0.8;square;b7;persistent;true,g2;color;%23ffaa00;opacity;0.8;square;g2;persistent;true][%hint Déplacez votre fou sur une case d'où il vise le centre.][%wrong Bien essayé, mais ce coup ne développe pas votre fou de cases blanches. Essayez encore.]Bien joué ! Votre fou traverse le centre et bénéficie d'une excellente portée sur la grande diagonale.} (1. Bh3? Bxh3 {Bien essayé, mais on ne veut pas échanger les fous. Essaye de déplacer ce fou d'une seule case en diagonale.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/ppp2pp1/2np1n2/2b1p2p/P1B1P3/2NP1N2/1PP2PPP/R1BQ1RK1 w - h6 0 8\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/1mftBwMwL/lesson-editor\"]\r\n\r\n{Développez votre fou et clouez une pièce adverse en un seul coup.} 8. Bg5 {[%hint Activez votre fou tout en clouant le cavalier.][%wrong Bien essayé, mais ce coup ne développe pas votre fou tout en clouant une pièce. Essayez encore.][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%c_arrow c3d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;d5;persistent;true] Bravo ! Le fou cloue le cavalier sur la dame, une excellente cible à attaquer.} (8. Be3? Bxe3 {Cela provoque un échange de fous intéressant, mais il est plus fort de clouer le cavalier avec votre fou.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k2B2/8/8/8/3Kp3/P2p4/2p5/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2BSCA9caPQ/analysis\"]\r\n\r\n{[%c_arrow c2c1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c2;to;c1;persistent;true,d3d2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d3;to;d2;persistent;true,e4e3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e4;to;e3;persistent;true]Ces pions sont sur le point d'être promus mais votre fou peut tous les arrêter !} 1. Bh6 {[%hint Trouvez une case pour votre fou qui contrôle toutes les cases devant leurs pions.][%wrong Bien essayé, mais ce coup n'empêche pas les pions d'être promus sans danger.][%c_arrow h6c1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;h6;to;c1;persistent;true]Oui ! Votre fou arrive juste à temps, prêt à prendre tout pion qui bouge.} (1. Kxe4? c1=Q {Bien essayé, mais il ne faut pas les laisser obtenir une nouvelle dame. Déplacez votre fou pour qu'il protège la case de promotion.}) (1. a4? c1=Q {Bien essayé, mais il ne faut pas les laisser obtenir une nouvelle dame. Déplacez votre fou pour qu'il protège la case de promotion.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r3r/ppp2ppp/2np1b2/8/2BP2q1/PQ2PN1b/1P3PPP/R1B1R1K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Ils menacent mat. Comment défendre ?} 1. Bf1 {[%hint Ramener le fou sur sa case de départ est étonnamment fort.][%wrong Bien essayé, mais ce coup ne répond pas à leur menace de mat. Essaye encore.][%c_arrow f1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f1;to;g2;persistent;true] Très bien vu ! Le fou défend le pion et sauve la situation !} (1. Ba6? Qxg2# {Bonne idée de menacer mat, mais vous avez un coup de retard. Essayez d'utiliser ce fou pour défendre le pion devant votre roi.}) (1. g3? Qxf3 {Bien essayé, mais cela perd un cavalier et le mat reste une menace. Utilisez votre fou pour défendre le pion devant votre roi.}) (1. Nh4? Bxh4 {Bien essayé, mais cela perd votre cavalier. Votre fou peut-il défendre le pion devant votre roi ?}) (1. Kf1? Bxg2+ {Le roi peut s'échapper, mais vous perdez un pion et un cavalier. Votre fou peut-il défendre le pion devant votre roi ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/pq1r1p1p/1p2pBp1/2p1P3/8/7P/PP1Q1PP1/5NK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Votre fou domine les cases noires. Comment menacer mat ?} 1. Qh6 {[%hint Votre fou vise la case devant le roi adverse. Déplacez votre dame sur une case qui menace mat.][%wrong Ce coup ne menace pas mat au coup suivant. Essaye encore.]} 1... Rd1 {Excellent ! C'est l'heure du mat.} 2. Qg7# {[%hint Votre fou contrôle la case de mat — trouvez un échec avec la dame qui gagne la partie !][%wrong Bien essayé, mais ce n'est pas mat. Essaye encore.] Bravo ! La dame et le fou s'associent pour donner mat.} 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr3r/B1p1n1pp/1p3pb1/4p3/1b2P3/2N2P2/PPP1B1PP/1K1R3R w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/p9JYsK9uQ/analysis\"]\r\n\r\n{Votre fou est piégé ! Est-ce vraiment important ?} 1. Ba6# {[%hint Utilisez la puissance de vos deux fous pour gagner la partie immédiatement.][%wrong Bien essayé, mais vous pouvez gagner la partie en un seul coup. Cherchez un échec puissant.] Magnifique ! La puissance des deux fous rayonne avec ce mat.} (1. Bxb6? cxb6 {Bien essayé, mais cela perd votre fou. Cherchez un échec puissant qui gagne la partie.}) (1. Rxd8+? Rxd8 {Échanger les tours est une idée raisonnable, mais cherchons un coup qui gagne la partie immédiatement.}) 1-0"
+    ],
+    "courseId": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Bienvenue dans le monde en diagonale des fous.",
+    "outroText": "Excellent travail ! Vous avez appris à augmenter la portée de vos puissants fous.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-echecs",
+      "title": "Stratégie"
+    },
+    "parentId": "cbf7dd7a-22fb-11f1-bc15-dd1b99780128"
+  },
+  "curriculum": {
+    "number": 37,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Stratégie",
+      "path": "strategie-echecs",
+      "order": 3
+    }
+  }
+}

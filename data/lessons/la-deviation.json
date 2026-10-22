@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/la-deviation",
+  "capturedAt": "2026-10-22T12:23:40.324Z",
+  "title": "La déviation",
+  "exercises": [
+    {
+      "fen": "5bk1/p4qpp/1p6/2pQ4/8/P6P/2B2PP1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les dames se regardent en chiens de faïence ! Comment gagner la dame noire en déviant le roi noir ?",
+        "[%wrong Ce coup ne force pas le roi à s'éloigner de sa dame. Essayez encore !][%hint Trouvez un coup forçant le roi noir à se séparer de sa dame.]",
+        "Bien essayé, vous tentez de gagner le pion h7 ! Cependant, cette tactique ne marche pas car les noirs peuvent jouer g6 et enfermer votre fou. Mais vous avez compris l'idée. Chercher encore !",
+        "Beau travail ! Le roi noir ne peut plus rester au contact de sa dame. Celle-ci n'est donc plus défendue, profitez-en !",
+        "[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint Prenez la dame noire.] Bien joué ! Cette déviation vous a donné une position gagnante !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5bk1/p4qpp/1p6/2pQ4/8/P6P/2B2PP1/6K1 w - - 0 1\"]\r\n\r\n{Les dames se regardent en chiens de faïence ! Comment gagner la dame noire en déviant le roi noir ?}\r\n1.Bxh7+\r\n    {[%wrong Ce coup ne force pas le roi à s'éloigner de sa dame. Essayez encore !][%hint Trouvez un coup forçant le roi noir à se séparer de sa dame.]}\r\n    (1.Qxf7+ $2 Kxf7 {Bien essayé, vous tentez de gagner le pion h7 ! Cependant, cette tactique ne marche pas car les noirs peuvent jouer g6 et enfermer votre fou. Mais vous avez compris l'idée. Chercher encore !})\r\n1...Kxh7\r\n    {Beau travail ! Le roi noir ne peut plus rester au contact de sa dame. Celle-ci n'est donc plus défendue, profitez-en !}\r\n2.Qxf7\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint Prenez la dame noire.] Bien joué ! Cette déviation vous a donné une position gagnante !}\r\n*"
+    },
+    {
+      "fen": "1b4rk/1Q3R1p/8/2pN4/2P5/r6B/P3n1P1/7K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "L'attaque blanche a l'air très forte, mais les noirs rêvent de jouer ...Tg1 mat. Comment dévier le pion g2 pour l'emporter ?",
+        "[%wrong Ce coup ne dévie pas le pion g2. Essayez encore !][%hint Trouvez une capture forçant la déviation du pion g2.]",
+        "Les blancs vont échapper aux échecs noirs et obtenir une position gagnante. Essayez de dévier le pion g2 qui défend la colonne g.",
+        "Joli ! Le pion g2 n'est plus à son poste, il est temps de mater !",
+        "[%wrong Ce coup ne mate pas. Essayez encore !][%hint Trouvez le mat en un.] Bien joué, superbe mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1b4rk/1Q3R1p/8/2pN4/2P5/r6B/P3n1P1/7K b - - 0 1\"]\r\n\r\n{L'attaque blanche a l'air très forte, mais les noirs rêvent de jouer ...Tg1 mat. Comment dévier le pion g2 pour l'emporter ?}\r\n1...Rxh3+\r\n    {[%wrong Ce coup ne dévie pas le pion g2. Essayez encore !][%hint Trouvez une capture forçant la déviation du pion g2.]}\r\n    (1...Ng3+ $2 2.Kg1 {Les blancs vont échapper aux échecs noirs et obtenir une position gagnante. Essayez de dévier le pion g2 qui défend la colonne g.})\r\n2.gxh3\r\n    {Joli ! Le pion g2 n'est plus à son poste, il est temps de mater !}\r\n2...Rg1#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Trouvez le mat en un.] Bien joué, superbe mat !}\r\n*"
+    },
+    {
+      "fen": "7k/bp3rpp/p2q4/7N/2P5/1PQ2B2/PB4PP/7K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs mettent la pression sur l'aile roi des noirs, mais ils ont de graves faiblesses sur la dernière rangée. Grâce au thème de la déviation, trouvez une tactique forçant le mat en deux coups !",
+        "[%wrong Ce coup n'est pas assez tranchant. Cherchez une déviation.][%hint Le fou de cases blanches des blancs empêche notre tour de mater en f1. Déviez-le !]",
+        "Ce sacrifice ne mène nul part. Les blancs vont maintenant s'imposer dans un fauteuil. Cherchez encore !",
+        "Bien essayé, mais cette idée de force pas la décision - L'attaque blanche est trop forte. Cherchez encore.",
+        "Ce sacrifice de dame était le bon ! Il est temps de finir en beauté...",
+        "[%wrong Ce coup ne mate pas. Essayez encore.][%hint Trouvez le mat en un !] Bien joué ! La déviation est une arme redoutable."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/bp3rpp/p2q4/7N/2P5/1PQ2B2/PB4PP/7K b - - 0 1\"]\r\n\r\n{Les blancs mettent la pression sur l'aile roi des noirs, mais ils ont de graves faiblesses sur la dernière rangée. Grâce au thème de la déviation, trouvez une tactique forçant le mat en deux coups !}\r\n1...Qd1+\r\n    {[%wrong Ce coup n'est pas assez tranchant. Cherchez une déviation.][%hint Le fou de cases blanches des blancs empêche notre tour de mater en f1. Déviez-le !]}\r\n    (1...Qxh2+ $2 2.Kxh2 {Ce sacrifice ne mène nul part. Les blancs vont maintenant s'imposer dans un fauteuil. Cherchez encore !})\r\n    (1...Qc6 $2 2.Nxg7 {Bien essayé, mais cette idée de force pas la décision - L'attaque blanche est trop forte. Cherchez encore.})\r\n2.Bxd1\r\n    {Ce sacrifice de dame était le bon ! Il est temps de finir en beauté...}\r\n2...Rf1#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Trouvez le mat en un !] Bien joué ! La déviation est une arme redoutable.}\r\n*"
+    },
+    {
+      "fen": "1k4r1/p1p2p2/1p5p/8/3p4/3P1QqP/P5P1/4R1K1 w - - 1 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs essaient de forcer l'échange des dames pour entrer dans une finale de tours gagnante. Il est temps de trouver une déviation qui gagne du matériel !",
+        "[%wrong Bien essayé, mais il nous faut dévier la tour qui défend la dame noire. Essayez encore !][%hint Trouvez un coup qui force la tour noire à abandonner la protection de sa dame.]",
+        "Bien joué ! La tour noire est déviée de sa défense de la dame. Profitons-en !",
+        "[%wrong Non, ce coup ne gagne pas la dame noire !][%hint Prenez la dame noire.] Vous maîtrisez de mieux en mieux la déviation. Continuez sur cette voie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4r1/p1p2p2/1p5p/8/3p4/3P1QqP/P5P1/4R1K1 w - - 1 2\"]\r\n\r\n{Les noirs essaient de forcer l'échange des dames pour entrer dans une finale de tours gagnante. Il est temps de trouver une déviation qui gagne du matériel !}\r\n2.Re8+\r\n    {[%wrong Bien essayé, mais il nous faut dévier la tour qui défend la dame noire. Essayez encore !][%hint Trouvez un coup qui force la tour noire à abandonner la protection de sa dame.]}\r\n2...Rxe8\r\n    {Bien joué ! La tour noire est déviée de sa défense de la dame. Profitons-en !}\r\n3.Qxg3\r\n    {[%wrong Non, ce coup ne gagne pas la dame noire !][%hint Prenez la dame noire.] Vous maîtrisez de mieux en mieux la déviation. Continuez sur cette voie !}\r\n*"
+    },
+    {
+      "fen": "2r3k1/6pp/4rp2/8/6B1/8/1P4PP/R6K b - - 1 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les tours noires ont un petit problème... Mais il est encore possible de les sauver grâce à une tactique de déviation ! A vous de jouer.",
+        "[%wrong Ce coup ne sauve pas les deux tours. Essayez encore !][%hint La dernière rangée blanche est faible. Comment dévier la tour blanche qui la défend ?] Beau travail ! La tour blanche ne peut s'emparer de notre seconde tour sous peine de mat. Les noirs vont donc également pouvoir sauver la tour c8 et obtienir une bonne position.",
+        "C'est la bonne idée, mais ce coup permet aux blancs de gagner les deux tours. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/6pp/4rp2/8/6B1/8/1P4PP/R6K b - - 1 3\"]\r\n\r\n{Les tours noires ont un petit problème... Mais il est encore possible de les sauver grâce à une tactique de déviation ! A vous de jouer.}\r\n3...Ra6\r\n    {[%wrong Ce coup ne sauve pas les deux tours. Essayez encore !][%hint La dernière rangée blanche est faible. Comment dévier la tour blanche qui la défend ?] Beau travail ! La tour blanche ne peut s'emparer de notre seconde tour sous peine de mat. Les noirs vont donc également pouvoir sauver la tour c8 et obtienir une bonne position.}\r\n    (3...Ra8 $2 4.Bxe6+ {C'est la bonne idée, mais ce coup permet aux blancs de gagner les deux tours. Cherchez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "a5484506-9cea-11e8-918d-438e8016af61",
+    "name": "La déviation",
+    "path": "la-deviation",
+    "description": "Parfois, il est impossible de capturer le défenseur d’une pièce, mais il est possible de le dévier. La déviation est une tactique consistant à forcer le défenseur à quitter la protection d’une pièce. Pour la réaliser, il faudra fréquemment faire un sacrifice largement compensé par un mat ou un gain matériel conséquent.",
+    "glyphName": "arrow-triangle-deflection-horizontal-bottom-right",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-deflection-t4s.mp4",
+    "fen": "7k/bp3rpp/p7/7N/2P5/1PQ2B2/PB4PP/3q3K w - - 1 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5bk1/p4qpp/1p6/2pQ4/8/P6P/2B2PP1/6K1 w - - 0 1\"]\r\n\r\n{Les dames se regardent en chiens de faïence ! Comment gagner la dame noire en déviant le roi noir ?}\r\n1.Bxh7+\r\n    {[%wrong Ce coup ne force pas le roi à s'éloigner de sa dame. Essayez encore !][%hint Trouvez un coup forçant le roi noir à se séparer de sa dame.]}\r\n    (1.Qxf7+ $2 Kxf7 {Bien essayé, vous tentez de gagner le pion h7 ! Cependant, cette tactique ne marche pas car les noirs peuvent jouer g6 et enfermer votre fou. Mais vous avez compris l'idée. Chercher encore !})\r\n1...Kxh7\r\n    {Beau travail ! Le roi noir ne peut plus rester au contact de sa dame. Celle-ci n'est donc plus défendue, profitez-en !}\r\n2.Qxf7\r\n    {[%wrong Ce coup ne gagne pas la dame noire. Essayez encore !][%hint Prenez la dame noire.] Bien joué ! Cette déviation vous a donné une position gagnante !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1b4rk/1Q3R1p/8/2pN4/2P5/r6B/P3n1P1/7K b - - 0 1\"]\r\n\r\n{L'attaque blanche a l'air très forte, mais les noirs rêvent de jouer ...Tg1 mat. Comment dévier le pion g2 pour l'emporter ?}\r\n1...Rxh3+\r\n    {[%wrong Ce coup ne dévie pas le pion g2. Essayez encore !][%hint Trouvez une capture forçant la déviation du pion g2.]}\r\n    (1...Ng3+ $2 2.Kg1 {Les blancs vont échapper aux échecs noirs et obtenir une position gagnante. Essayez de dévier le pion g2 qui défend la colonne g.})\r\n2.gxh3\r\n    {Joli ! Le pion g2 n'est plus à son poste, il est temps de mater !}\r\n2...Rg1#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Trouvez le mat en un.] Bien joué, superbe mat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/bp3rpp/p2q4/7N/2P5/1PQ2B2/PB4PP/7K b - - 0 1\"]\r\n\r\n{Les blancs mettent la pression sur l'aile roi des noirs, mais ils ont de graves faiblesses sur la dernière rangée. Grâce au thème de la déviation, trouvez une tactique forçant le mat en deux coups !}\r\n1...Qd1+\r\n    {[%wrong Ce coup n'est pas assez tranchant. Cherchez une déviation.][%hint Le fou de cases blanches des blancs empêche notre tour de mater en f1. Déviez-le !]}\r\n    (1...Qxh2+ $2 2.Kxh2 {Ce sacrifice ne mène nul part. Les blancs vont maintenant s'imposer dans un fauteuil. Cherchez encore !})\r\n    (1...Qc6 $2 2.Nxg7 {Bien essayé, mais cette idée de force pas la décision - L'attaque blanche est trop forte. Cherchez encore.})\r\n2.Bxd1\r\n    {Ce sacrifice de dame était le bon ! Il est temps de finir en beauté...}\r\n2...Rf1#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Trouvez le mat en un !] Bien joué ! La déviation est une arme redoutable.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4r1/p1p2p2/1p5p/8/3p4/3P1QqP/P5P1/4R1K1 w - - 1 2\"]\r\n\r\n{Les noirs essaient de forcer l'échange des dames pour entrer dans une finale de tours gagnante. Il est temps de trouver une déviation qui gagne du matériel !}\r\n2.Re8+\r\n    {[%wrong Bien essayé, mais il nous faut dévier la tour qui défend la dame noire. Essayez encore !][%hint Trouvez un coup qui force la tour noire à abandonner la protection de sa dame.]}\r\n2...Rxe8\r\n    {Bien joué ! La tour noire est déviée de sa défense de la dame. Profitons-en !}\r\n3.Qxg3\r\n    {[%wrong Non, ce coup ne gagne pas la dame noire !][%hint Prenez la dame noire.] Vous maîtrisez de mieux en mieux la déviation. Continuez sur cette voie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/6pp/4rp2/8/6B1/8/1P4PP/R6K b - - 1 3\"]\r\n\r\n{Les tours noires ont un petit problème... Mais il est encore possible de les sauver grâce à une tactique de déviation ! A vous de jouer.}\r\n3...Ra6\r\n    {[%wrong Ce coup ne sauve pas les deux tours. Essayez encore !][%hint La dernière rangée blanche est faible. Comment dévier la tour blanche qui la défend ?] Beau travail ! La tour blanche ne peut s'emparer de notre seconde tour sous peine de mat. Les noirs vont donc également pouvoir sauver la tour c8 et obtienir une bonne position.}\r\n    (3...Ra8 $2 4.Bxe6+ {C'est la bonne idée, mais ce coup permet aux blancs de gagner les deux tours. Cherchez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à dévier les pièces adverses pour arriver à vos fins dans cette leçon.",
+    "outroText": "C'est du beau travail. Cela devrait vous être très utile en partie.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "844b8320-83ab-11e8-b4c5-15b3c1f863e8",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/deflection5e62032596176.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/deflection-5668852cbc95d4.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/deflection-25ea242512d717.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/deflection-361420df39cdb0.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 71,
+    "order": 8,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

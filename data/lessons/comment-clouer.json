@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/comment-clouer",
+  "capturedAt": "2026-10-22T13:42:34.353Z",
+  "title": "Clouages",
+  "exercises": [
+    {
+      "fen": "5k2/5p2/3q4/8/8/4B3/5P2/2R2K2 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d6;color;%23eb6150;opacity;0.8;square;d6;persistent;true,f8;color;%23eb6150;opacity;0.8;square;f8;persistent;true,c5;color;%23ffaa00;opacity;0.8;square;c5;persistent;true][%c_arrow c5f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;f8;persistent;true] Le clouage se produit lorsqu'une pièce ne peut pas bouger sans abandonner une pièce plus précieuse située derrière elle.",
+        "[%hint La dame et le roi se trouvent sur la même diagonale de cases noires. Rendez-leur visite avec votre fou.][%wrong Bien essayé, mais ce coup ne cloue pas la dame. Réessaye.]",
+        "Vous avez la bonne case, mais pas la bonne pièce. Essayez de placer votre fou sur la même case.",
+        "Bonne initiative en attaquant le roi, mais cela ne gagne pas de matériel. Essayez de clouer la dame avec votre fou.",
+        "Excellent clouage de la dame ! Le roi s'éloigne, mais vous pouvez maintenant gagner la dame.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas la dame.]Beau travail : vous avez cloué et gagné la dame !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/5p2/3q4/8/8/4B3/5P2/2R2K2 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/3Lu9WKTyFt/analysis\"]\r\n\r\n{[%c_highlight d6;color;%23eb6150;opacity;0.8;square;d6;persistent;true,f8;color;%23eb6150;opacity;0.8;square;f8;persistent;true,c5;color;%23ffaa00;opacity;0.8;square;c5;persistent;true][%c_arrow c5f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;f8;persistent;true] Le clouage se produit lorsqu'une pièce ne peut pas bouger sans abandonner une pièce plus précieuse située derrière elle.} 1. Bc5 {[%hint La dame et le roi se trouvent sur la même diagonale de cases noires. Rendez-leur visite avec votre fou.][%wrong Bien essayé, mais ce coup ne cloue pas la dame. Réessaye.]} (1. Rc5? {Vous avez la bonne case, mais pas la bonne pièce. Essayez de placer votre fou sur la même case.}) (1. Rc8+? Kg7 {Bonne initiative en attaquant le roi, mais cela ne gagne pas de matériel. Essayez de clouer la dame avec votre fou.}) 1... Kg7 {Excellent clouage de la dame ! Le roi s'éloigne, mais vous pouvez maintenant gagner la dame.} 2. Bxd6 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas la dame.]Beau travail : vous avez cloué et gagné la dame !} *"
+    },
+    {
+      "fen": "4k3/8/8/8/4n3/8/8/2R2K2 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] Cloue le cavalier.",
+        "[%hint Déplacez votre tour sur la même colonne que le cavalier et le roi, en clouant le cavalier.][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]",
+        "[%c_highlight c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,f1;color;%23eb6150;opacity;0.8;square;f1;persistent;true]Bien essayé, mais attaquer le cavalier de cette façon permet une fourchette surprise qui gagne votre tour.",
+        "Bien joué ! Le cavalier était cloué et ne pouvait pas bouger. Vous pouvez maintenant gagner une pièce.",
+        "[%hint Prenez le cavalier.][%wrong Bien essayé, mais ce coup ne prend pas le cavalier.]Vous avez gagné un cavalier gratuit — bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/8/8/4n3/8/8/2R2K2 w - - 0 1\"]\r\n\r\n{[%c_highlight e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] Cloue le cavalier.} 1. Re1 {[%hint Déplacez votre tour sur la même colonne que le cavalier et le roi, en clouant le cavalier.][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]} (1. Rc4? Nd2+ {[%c_highlight c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,f1;color;%23eb6150;opacity;0.8;square;f1;persistent;true]Bien essayé, mais attaquer le cavalier de cette façon permet une fourchette surprise qui gagne votre tour.}) 1... Kf7 {Bien joué ! Le cavalier était cloué et ne pouvait pas bouger. Vous pouvez maintenant gagner une pièce.} 2. Rxe4 {[%hint Prenez le cavalier.][%wrong Bien essayé, mais ce coup ne prend pas le cavalier.]Vous avez gagné un cavalier gratuit — bravo !} *"
+    },
+    {
+      "fen": "3b2k1/5ppp/8/8/8/6P1/7P/2R3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cherchez le clouage.",
+        "[%hint Déplacez votre tour sur la même rangée que le fou et le roi, en clouant le fou.][%wrong Bien essayé, mais ce coup ne cloue pas le fou. Réessaye.]",
+        "[%c_highlight g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true] Attaquer une cible mobile peut être délicat. Essaye de clouer le fou.",
+        "Bien vu ! Le roi essaie de défendre le fou cloué, mais c'est trop tard.",
+        "[%hint Prenez le fou.][%wrong Bien essayé, mais ce coup ne prend pas le fou. Réessaye.]Beau travail pour montrer vos talents de clouage !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3b2k1/5ppp/8/8/8/6P1/7P/2R3K1 w - - 0 1\"]\r\n\r\n{Cherchez le clouage.} 1. Rc8 {[%hint Déplacez votre tour sur la même rangée que le fou et le roi, en clouant le fou.][%wrong Bien essayé, mais ce coup ne cloue pas le fou. Réessaye.]} (1. Rd1? Bb6+ {[%c_highlight g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true] Attaquer une cible mobile peut être délicat. Essaye de clouer le fou.}) 1... Kf8 {Bien vu ! Le roi essaie de défendre le fou cloué, mais c'est trop tard.} 2. Rxd8+ {[%hint Prenez le fou.][%wrong Bien essayé, mais ce coup ne prend pas le fou. Réessaye.]Beau travail pour montrer vos talents de clouage !} *"
+    },
+    {
+      "fen": "3r4/1pp2b1p/p4kp1/5p2/8/B1nB2PP/4PP1K/R7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cloue-le et gagne-le !",
+        "[%hint Le cavalier et le roi sont sur la même diagonale. Votre fou est prêt à clouer et à gagner !][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]",
+        "[%c_arrow d5c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;c7;persistent;true]Bien essayé, mais le cavalier parvient à se défendre contre votre attaque. Essayez de clouer le cavalier.",
+        "Œil de lynx ! Le roi décloue le cavalier, mais vous pouvez maintenant gagner une pièce.",
+        "[%hint Prenez le cavalier.][%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Réessaye.] Exactement ! Cavalier gratuit."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/1pp2b1p/p4kp1/5p2/8/B1nB2PP/4PP1K/R7 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/5SznfzUMx2/analysis\"]\r\n\r\n{Cloue-le et gagne-le !} 1. Bb2 {[%hint Le cavalier et le roi sont sur la même diagonale. Votre fou est prêt à clouer et à gagner !][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]} (1. Rc1? Nd5 {[%c_arrow d5c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;c7;persistent;true]Bien essayé, mais le cavalier parvient à se défendre contre votre attaque. Essayez de clouer le cavalier.}) 1... Ke7 {Œil de lynx ! Le roi décloue le cavalier, mais vous pouvez maintenant gagner une pièce.} 2. Bxc3 {[%hint Prenez le cavalier.][%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Réessaye.] Exactement ! Cavalier gratuit.} *"
+    },
+    {
+      "fen": "3r2k1/pq3p2/1pp2np1/7p/5B2/2P1PQ1P/P4PP1/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true,f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true]Parfois, vos pièces peuvent unir leurs forces pour clouer et gagner.",
+        "[%hint Le cavalier et la tour sont sur la même diagonale. Clouez le cavalier avec votre fou.][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]",
+        "Ce n'est pas un clouage, et votre dame se fait prendre.",
+        "Ce n'est pas un clouage, et votre dame se fait prendre.",
+        "Ce n'est pas un clouage, et votre dame se fait prendre.",
+        "Ce n'est pas un clouage, et votre dame se fait prendre.",
+        "[%c_highlight g5;color;%23ffaa00;opacity;0.8;square;g5;persistent;true,f3;color;%23ffaa00;opacity;0.8;square;f3;persistent;true,f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true]Beau clouage ! Votre fou et votre dame s'unissent contre le cavalier. Jouez la meilleure prise.",
+        "[%hint Votre dame et votre fou attaquent tous deux le cavalier. Prenez-le avec la pièce la moins précieuse.][%wrong Bien essayé, mais cela ne gagne pas de matériel. Essayez de prendre le cavalier.][%c_arrow f3f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f3;to;f6;persistent;true]Excellent travail d'équipe — votre dame et votre fou gagnent le cavalier !",
+        "Bien essayé, mais cette prise perd votre dame.",
+        "Désolé, cette prise perd votre dame. Réessayez.",
+        "Vous avez pris la bonne pièce, mais votre dame est trop précieuse. Prenez le cavalier avec une pièce moins précieuse."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/pq3p2/1pp2np1/7p/5B2/2P1PQ1P/P4PP1/5RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true,f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true]Parfois, vos pièces peuvent unir leurs forces pour clouer et gagner.} 1. Bg5 {[%hint Le cavalier et la tour sont sur la même diagonale. Clouez le cavalier avec votre fou.][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]} (1. Qxc6? Qxc6 {Ce n'est pas un clouage, et votre dame se fait prendre.}) (1. Qd5? Nxd5 {Ce n'est pas un clouage, et votre dame se fait prendre.}) (1. Qg4? hxg4 {Ce n'est pas un clouage, et votre dame se fait prendre.}) (1. Qxh5? gxh5 {Ce n'est pas un clouage, et votre dame se fait prendre.}) 1... Rd6 {[%c_highlight g5;color;%23ffaa00;opacity;0.8;square;g5;persistent;true,f3;color;%23ffaa00;opacity;0.8;square;f3;persistent;true,f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true]Beau clouage ! Votre fou et votre dame s'unissent contre le cavalier. Jouez la meilleure prise.} 2. Bxf6 {[%hint Votre dame et votre fou attaquent tous deux le cavalier. Prenez-le avec la pièce la moins précieuse.][%wrong Bien essayé, mais cela ne gagne pas de matériel. Essayez de prendre le cavalier.][%c_arrow f3f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f3;to;f6;persistent;true]Excellent travail d'équipe — votre dame et votre fou gagnent le cavalier !} (2. Qxc6? Qxc6 {Bien essayé, mais cette prise perd votre dame.}) (2. Qxh5? gxh5 {Désolé, cette prise perd votre dame. Réessayez.}) (2. Qxf6? Rxf6 {Vous avez pris la bonne pièce, mais votre dame est trop précieuse. Prenez le cavalier avec une pièce moins précieuse.}) *"
+    },
+    {
+      "fen": "3r2k1/p4p1p/1p4pn/3b4/8/1P6/P2R1PPP/2R3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Charge sur le clouage !",
+        "[%wrong Bien essayé, mais ce coup n'attaque pas le fou cloué. Réessaye.][%hint Une tour cloue le fou — comment pouvez-vous l'attaquer en toute sécurité avec l'autre tour ?]",
+        "Attaquer le fou est la bonne idée — trouve une case plus sûre pour cette tour.",
+        "Bien essayé, mais cette prise perd votre tour contre le fou adverse — ce n'est pas un échange favorable.",
+        "[%c_arrow f5e7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f5;to;e7;persistent;true][%c_highlight d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true] Bravo ! Le cavalier essaye de défendre le fou — il est temps de prendre !",
+        "[%wrong Bien essayé, mais cela ne prend pas le fou. Réessaye.][%hint Vos deux tours attaquent le fou cloué — gagnons du matériel !]",
+        "Bon timing ! Maintenant, prenons la tour.",
+        "[%hint Prenez la tour.][%wrong Ce coup ne prend pas la tour. Réessaye.]Bravo pour le gain de matériel ! Le cavalier adverse ne fait pas le poids face à votre puissante tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/p4p1p/1p4pn/3b4/8/1P6/P2R1PPP/2R3K1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Charge sur le clouage !} 1. Rcd1 {[%wrong Bien essayé, mais ce coup n'attaque pas le fou cloué. Réessaye.][%hint Une tour cloue le fou — comment pouvez-vous l'attaquer en toute sécurité avec l'autre tour ?]} (1. Rc5? bxc5 {Attaquer le fou est la bonne idée — trouve une case plus sûre pour cette tour.}) (1. Rxd5? Rxd5 {Bien essayé, mais cette prise perd votre tour contre le fou adverse — ce n'est pas un échange favorable.}) 1... Nf5 {[%c_arrow f5e7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f5;to;e7;persistent;true][%c_highlight d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true] Bravo ! Le cavalier essaye de défendre le fou — il est temps de prendre !} 2. Rxd5 {[%wrong Bien essayé, mais cela ne prend pas le fou. Réessaye.][%hint Vos deux tours attaquent le fou cloué — gagnons du matériel !]} 2... Rxd5 {Bon timing ! Maintenant, prenons la tour.} 3. Rxd5 {[%hint Prenez la tour.][%wrong Ce coup ne prend pas la tour. Réessaye.]Bravo pour le gain de matériel ! Le cavalier adverse ne fait pas le poids face à votre puissante tour.} *"
+    },
+    {
+      "fen": "r1b1k2r/p1pp1ppp/2p5/8/4n3/1BP5/P1P2PPP/R1B2RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez d'abord le clouage, puis ajoutez un attaquant.",
+        "[%wrong Bien essayé, mais ce n'est pas un clouage. Essaye de clouer le cavalier.][%hint Le cavalier et le roi sont sur la même colonne ouverte. Cloue le cavalier.]",
+        "Vous avez la bonne idée, mais clouez d'abord le cavalier pour qu'il ne puisse pas bouger.",
+        "[%c_highlight e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] Beau travail ! Maintenant que le cavalier est cloué, ajoute un deuxième attaquant.",
+        "[%hint Les pions adorent attaquer les pièces.][%wrong Bien essayé, mais ce coup n'attaque pas le cavalier cloué. Réessaye.]",
+        "Bien essayé, mais cela perd votre fou. Essayez de trouver une façon plus sûre d'attaquer le cavalier.",
+        "Bien joué ! Le roi roque pour déclouer le cavalier. Gagnons du matériel.",
+        "[%hint Prenez le cavalier avec l'unité la moins précieuse.][%wrong Bien essayé, mais ce coup ne prend pas le cavalier.] « Cloue-le et gagne-le » joué à la perfection — bravo !",
+        "Bien essayé, mais vous ne voulez pas prendre le cavalier avec votre tour, plus précieuse. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/p1pp1ppp/2p5/8/4n3/1BP5/P1P2PPP/R1B2RK1 w kq - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Trouvez d'abord le clouage, puis ajoutez un attaquant.} 1. Re1 {[%wrong Bien essayé, mais ce n'est pas un clouage. Essaye de clouer le cavalier.][%hint Le cavalier et le roi sont sur la même colonne ouverte. Cloue le cavalier.]} (1. f3? Nd6 {Vous avez la bonne idée, mais clouez d'abord le cavalier pour qu'il ne puisse pas bouger.}) 1... d5 {[%c_highlight e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] Beau travail ! Maintenant que le cavalier est cloué, ajoute un deuxième attaquant.} 2. f3 {[%hint Les pions adorent attaquer les pièces.][%wrong Bien essayé, mais ce coup n'attaque pas le cavalier cloué. Réessaye.]} (2. Bxd5? cxd5 {Bien essayé, mais cela perd votre fou. Essayez de trouver une façon plus sûre d'attaquer le cavalier.}) 2... O-O {Bien joué ! Le roi roque pour déclouer le cavalier. Gagnons du matériel.} 3. fxe4 {[%hint Prenez le cavalier avec l'unité la moins précieuse.][%wrong Bien essayé, mais ce coup ne prend pas le cavalier.] « Cloue-le et gagne-le » joué à la perfection — bravo !} (3. Rxe4? dxe4 {Bien essayé, mais vous ne voulez pas prendre le cavalier avec votre tour, plus précieuse. Réessayez.}) *"
+    },
+    {
+      "fen": "3k4/ppp2ppp/3p1b2/6B1/P2q3P/8/1PP2PP1/3Q2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true][%c_arrow g5d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g5;to;d8;persistent;true]Leur fou est cloué. Allez gagner leur dame !",
+        "[%hint Le fou est cloué, il ne peut donc pas défendre la dame. Il est temps de prendre !][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%wrong Cela ne prend pas la dame. Réessaye.]Excellent ! Le fou est cloué, il ne peut donc pas prendre votre dame.",
+        "Bien essayé, mais cette prise ne gagne pas de matériel. Réessaye.",
+        "Ajouter de la pression sur le fou cloué est une bonne idée, mais il peut encore prendre votre pièce cloueuse. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3k4/ppp2ppp/3p1b2/6B1/P2q3P/8/1PP2PP1/3Q2K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true][%c_arrow g5d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g5;to;d8;persistent;true]Leur fou est cloué. Allez gagner leur dame !} 1. Qxd4 {[%hint Le fou est cloué, il ne peut donc pas défendre la dame. Il est temps de prendre !][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%wrong Cela ne prend pas la dame. Réessaye.]Excellent ! Le fou est cloué, il ne peut donc pas prendre votre dame.} (1. Bxf6+? Qxf6 {Bien essayé, mais cette prise ne gagne pas de matériel. Réessaye.}) (1. Qf3? Bxg5 {Ajouter de la pression sur le fou cloué est une bonne idée, mais il peut encore prendre votre pièce cloueuse. Réessayez.}) *"
+    },
+    {
+      "fen": "6k1/5rpp/1p6/p1p5/PqB5/1P5P/5PP1/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous avez cloué la tour. Quelle est la meilleure façon d'en profiter ?",
+        "[%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true,g8;color;%23eb6150;opacity;0.8;square;g8;persistent;true][%c_arrow c4f7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;f7;persistent;true][%hint La tour est clouée, elle ne peut donc pas se défendre contre un échec puissant.][%wrong Bien essayé, mais cela ne gagne pas la partie. Cherchez un échec puissant.] Un mat éblouissant — bravo ! La tour est clouée, elle ne peut donc pas parer l'échec.",
+        "[%c_highlight b4;color;%2352b0dc;opacity;0.8;square;b4;persistent;true,e1;color;%23eb6150;opacity;0.8;square;e1;persistent;true]Bien essayé, mais votre tour ne fait pas le poids face à leur puissante dame. Essayez de trouver un autre moyen d'attaquer le roi.",
+        "[%c_arrow g8h7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g8;to;h7;persistent;true]C'est un coup vraiment tentant — belle tentative ! Le roi parvient à s'échapper alors que vous n'êtes pas gagnant. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5rpp/1p6/p1p5/PqB5/1P5P/5PP1/4R1K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Vous avez cloué la tour. Quelle est la meilleure façon d'en profiter ?} 1. Re8# {[%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true,g8;color;%23eb6150;opacity;0.8;square;g8;persistent;true][%c_arrow c4f7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;f7;persistent;true][%hint La tour est clouée, elle ne peut donc pas se défendre contre un échec puissant.][%wrong Bien essayé, mais cela ne gagne pas la partie. Cherchez un échec puissant.] Un mat éblouissant — bravo ! La tour est clouée, elle ne peut donc pas parer l'échec.} (1. Bxf7+? Kxf7 {[%c_highlight b4;color;%2352b0dc;opacity;0.8;square;b4;persistent;true,e1;color;%23eb6150;opacity;0.8;square;e1;persistent;true]Bien essayé, mais votre tour ne fait pas le poids face à leur puissante dame. Essayez de trouver un autre moyen d'attaquer le roi.}) (1. Re7? h6 {[%c_arrow g8h7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g8;to;h7;persistent;true]C'est un coup vraiment tentant — belle tentative ! Le roi parvient à s'échapper alors que vous n'êtes pas gagnant. Réessayez.}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0ba-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Clouages",
+    "path": "comment-clouer",
+    "description": "Apprenez à clouer.",
+    "glyphName": "game-tactic-pin",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/5p2/3q4/8/8/4B3/5P2/2R2K2 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/3Lu9WKTyFt/analysis\"]\r\n\r\n{[%c_highlight d6;color;%23eb6150;opacity;0.8;square;d6;persistent;true,f8;color;%23eb6150;opacity;0.8;square;f8;persistent;true,c5;color;%23ffaa00;opacity;0.8;square;c5;persistent;true][%c_arrow c5f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;f8;persistent;true] Le clouage se produit lorsqu'une pièce ne peut pas bouger sans abandonner une pièce plus précieuse située derrière elle.} 1. Bc5 {[%hint La dame et le roi se trouvent sur la même diagonale de cases noires. Rendez-leur visite avec votre fou.][%wrong Bien essayé, mais ce coup ne cloue pas la dame. Réessaye.]} (1. Rc5? {Vous avez la bonne case, mais pas la bonne pièce. Essayez de placer votre fou sur la même case.}) (1. Rc8+? Kg7 {Bonne initiative en attaquant le roi, mais cela ne gagne pas de matériel. Essayez de clouer la dame avec votre fou.}) 1... Kg7 {Excellent clouage de la dame ! Le roi s'éloigne, mais vous pouvez maintenant gagner la dame.} 2. Bxd6 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas la dame.]Beau travail : vous avez cloué et gagné la dame !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/8/8/4n3/8/8/2R2K2 w - - 0 1\"]\r\n\r\n{[%c_highlight e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] Cloue le cavalier.} 1. Re1 {[%hint Déplacez votre tour sur la même colonne que le cavalier et le roi, en clouant le cavalier.][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]} (1. Rc4? Nd2+ {[%c_highlight c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,f1;color;%23eb6150;opacity;0.8;square;f1;persistent;true]Bien essayé, mais attaquer le cavalier de cette façon permet une fourchette surprise qui gagne votre tour.}) 1... Kf7 {Bien joué ! Le cavalier était cloué et ne pouvait pas bouger. Vous pouvez maintenant gagner une pièce.} 2. Rxe4 {[%hint Prenez le cavalier.][%wrong Bien essayé, mais ce coup ne prend pas le cavalier.]Vous avez gagné un cavalier gratuit — bravo !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3b2k1/5ppp/8/8/8/6P1/7P/2R3K1 w - - 0 1\"]\r\n\r\n{Cherchez le clouage.} 1. Rc8 {[%hint Déplacez votre tour sur la même rangée que le fou et le roi, en clouant le fou.][%wrong Bien essayé, mais ce coup ne cloue pas le fou. Réessaye.]} (1. Rd1? Bb6+ {[%c_highlight g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true] Attaquer une cible mobile peut être délicat. Essaye de clouer le fou.}) 1... Kf8 {Bien vu ! Le roi essaie de défendre le fou cloué, mais c'est trop tard.} 2. Rxd8+ {[%hint Prenez le fou.][%wrong Bien essayé, mais ce coup ne prend pas le fou. Réessaye.]Beau travail pour montrer vos talents de clouage !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/1pp2b1p/p4kp1/5p2/8/B1nB2PP/4PP1K/R7 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/5SznfzUMx2/analysis\"]\r\n\r\n{Cloue-le et gagne-le !} 1. Bb2 {[%hint Le cavalier et le roi sont sur la même diagonale. Votre fou est prêt à clouer et à gagner !][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]} (1. Rc1? Nd5 {[%c_arrow d5c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;c7;persistent;true]Bien essayé, mais le cavalier parvient à se défendre contre votre attaque. Essayez de clouer le cavalier.}) 1... Ke7 {Œil de lynx ! Le roi décloue le cavalier, mais vous pouvez maintenant gagner une pièce.} 2. Bxc3 {[%hint Prenez le cavalier.][%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Réessaye.] Exactement ! Cavalier gratuit.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/pq3p2/1pp2np1/7p/5B2/2P1PQ1P/P4PP1/5RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true,f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true]Parfois, vos pièces peuvent unir leurs forces pour clouer et gagner.} 1. Bg5 {[%hint Le cavalier et la tour sont sur la même diagonale. Clouez le cavalier avec votre fou.][%wrong Bien essayé, mais ce coup ne cloue pas le cavalier. Réessaye.]} (1. Qxc6? Qxc6 {Ce n'est pas un clouage, et votre dame se fait prendre.}) (1. Qd5? Nxd5 {Ce n'est pas un clouage, et votre dame se fait prendre.}) (1. Qg4? hxg4 {Ce n'est pas un clouage, et votre dame se fait prendre.}) (1. Qxh5? gxh5 {Ce n'est pas un clouage, et votre dame se fait prendre.}) 1... Rd6 {[%c_highlight g5;color;%23ffaa00;opacity;0.8;square;g5;persistent;true,f3;color;%23ffaa00;opacity;0.8;square;f3;persistent;true,f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true]Beau clouage ! Votre fou et votre dame s'unissent contre le cavalier. Jouez la meilleure prise.} 2. Bxf6 {[%hint Votre dame et votre fou attaquent tous deux le cavalier. Prenez-le avec la pièce la moins précieuse.][%wrong Bien essayé, mais cela ne gagne pas de matériel. Essayez de prendre le cavalier.][%c_arrow f3f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f3;to;f6;persistent;true]Excellent travail d'équipe — votre dame et votre fou gagnent le cavalier !} (2. Qxc6? Qxc6 {Bien essayé, mais cette prise perd votre dame.}) (2. Qxh5? gxh5 {Désolé, cette prise perd votre dame. Réessayez.}) (2. Qxf6? Rxf6 {Vous avez pris la bonne pièce, mais votre dame est trop précieuse. Prenez le cavalier avec une pièce moins précieuse.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/p4p1p/1p4pn/3b4/8/1P6/P2R1PPP/2R3K1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Charge sur le clouage !} 1. Rcd1 {[%wrong Bien essayé, mais ce coup n'attaque pas le fou cloué. Réessaye.][%hint Une tour cloue le fou — comment pouvez-vous l'attaquer en toute sécurité avec l'autre tour ?]} (1. Rc5? bxc5 {Attaquer le fou est la bonne idée — trouve une case plus sûre pour cette tour.}) (1. Rxd5? Rxd5 {Bien essayé, mais cette prise perd votre tour contre le fou adverse — ce n'est pas un échange favorable.}) 1... Nf5 {[%c_arrow f5e7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f5;to;e7;persistent;true][%c_highlight d5;color;%23eb6150;opacity;0.8;square;d5;persistent;true] Bravo ! Le cavalier essaye de défendre le fou — il est temps de prendre !} 2. Rxd5 {[%wrong Bien essayé, mais cela ne prend pas le fou. Réessaye.][%hint Vos deux tours attaquent le fou cloué — gagnons du matériel !]} 2... Rxd5 {Bon timing ! Maintenant, prenons la tour.} 3. Rxd5 {[%hint Prenez la tour.][%wrong Ce coup ne prend pas la tour. Réessaye.]Bravo pour le gain de matériel ! Le cavalier adverse ne fait pas le poids face à votre puissante tour.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/p1pp1ppp/2p5/8/4n3/1BP5/P1P2PPP/R1B2RK1 w kq - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Trouvez d'abord le clouage, puis ajoutez un attaquant.} 1. Re1 {[%wrong Bien essayé, mais ce n'est pas un clouage. Essaye de clouer le cavalier.][%hint Le cavalier et le roi sont sur la même colonne ouverte. Cloue le cavalier.]} (1. f3? Nd6 {Vous avez la bonne idée, mais clouez d'abord le cavalier pour qu'il ne puisse pas bouger.}) 1... d5 {[%c_highlight e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true,e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true] Beau travail ! Maintenant que le cavalier est cloué, ajoute un deuxième attaquant.} 2. f3 {[%hint Les pions adorent attaquer les pièces.][%wrong Bien essayé, mais ce coup n'attaque pas le cavalier cloué. Réessaye.]} (2. Bxd5? cxd5 {Bien essayé, mais cela perd votre fou. Essayez de trouver une façon plus sûre d'attaquer le cavalier.}) 2... O-O {Bien joué ! Le roi roque pour déclouer le cavalier. Gagnons du matériel.} 3. fxe4 {[%hint Prenez le cavalier avec l'unité la moins précieuse.][%wrong Bien essayé, mais ce coup ne prend pas le cavalier.] « Cloue-le et gagne-le » joué à la perfection — bravo !} (3. Rxe4? dxe4 {Bien essayé, mais vous ne voulez pas prendre le cavalier avec votre tour, plus précieuse. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3k4/ppp2ppp/3p1b2/6B1/P2q3P/8/1PP2PP1/3Q2K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true][%c_arrow g5d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g5;to;d8;persistent;true]Leur fou est cloué. Allez gagner leur dame !} 1. Qxd4 {[%hint Le fou est cloué, il ne peut donc pas défendre la dame. Il est temps de prendre !][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true][%wrong Cela ne prend pas la dame. Réessaye.]Excellent ! Le fou est cloué, il ne peut donc pas prendre votre dame.} (1. Bxf6+? Qxf6 {Bien essayé, mais cette prise ne gagne pas de matériel. Réessaye.}) (1. Qf3? Bxg5 {Ajouter de la pression sur le fou cloué est une bonne idée, mais il peut encore prendre votre pièce cloueuse. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5rpp/1p6/p1p5/PqB5/1P5P/5PP1/4R1K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{Vous avez cloué la tour. Quelle est la meilleure façon d'en profiter ?} 1. Re8# {[%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true,g8;color;%23eb6150;opacity;0.8;square;g8;persistent;true][%c_arrow c4f7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c4;to;f7;persistent;true][%hint La tour est clouée, elle ne peut donc pas se défendre contre un échec puissant.][%wrong Bien essayé, mais cela ne gagne pas la partie. Cherchez un échec puissant.] Un mat éblouissant — bravo ! La tour est clouée, elle ne peut donc pas parer l'échec.} (1. Bxf7+? Kxf7 {[%c_highlight b4;color;%2352b0dc;opacity;0.8;square;b4;persistent;true,e1;color;%23eb6150;opacity;0.8;square;e1;persistent;true]Bien essayé, mais votre tour ne fait pas le poids face à leur puissante dame. Essayez de trouver un autre moyen d'attaquer le roi.}) (1. Re7? h6 {[%c_arrow g8h7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g8;to;h7;persistent;true]C'est un coup vraiment tentant — belle tentative ! Le roi parvient à s'échapper alors que vous n'êtes pas gagnant. Réessayez.}) 1-0"
+    ],
+    "courseId": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Le clouage est une tactique puissante qui permet souvent de gagner du matériel, voire la partie.",
+    "outroText": "Excellent travail pour apprendre la puissance du clouage !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs",
+      "title": "Tactique"
+    },
+    "parentId": "fa8b263c-2225-11f1-8342-5fd57880b165"
+  },
+  "curriculum": {
+    "number": 32,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactique",
+      "path": "tactiques-echecs",
+      "order": 2
+    }
+  }
+}

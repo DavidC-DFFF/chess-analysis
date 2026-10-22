@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/bonnes-et-mauvaises-idees",
+  "capturedAt": "2026-10-22T12:23:46.490Z",
+  "title": "Bonnes et mauvaises pièces",
+  "exercises": [
+    {
+      "fen": "r1bqk2r/1p1n1pb1/p1p1p1pp/2Pp3n/PP1P1B2/3BPN2/3N1PPP/R2QK2R w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier noir est mal placé en h5, où il est venu pour tenter de prendre le fort fou de cases noires adverse. Trait aux blancs. Ou jouer ce fou pour éviter l'échange ?",
+        "[%wrong Ce coup n'évite pas ...Cxf4, et les noirs échangent un mauvais cavalier contre un bon fou. Cherchez encore !][%hint Où mettre le fou pour empêcher les noirs de roquer ?] Bien vu ! Les blancs évitent l'échange d'un bon fou contre un mauvais cavalier. Les noirs ne peuvent pas roquer et sont dans une position très passive.",
+        "Ne laissons pas notre adversaire échanger une de ses mauvaises pièces contre une de nos bonnes !",
+        "Ce coup n'est pas fondamentalement mauvais, mais il est regrettable de laisser les noirs échanger ce fou s'il le souhaitent. Trouvez lui une meilleure case !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/1p1n1pb1/p1p1p1pp/2Pp3n/PP1P1B2/3BPN2/3N1PPP/R2QK2R w kq - 0 1\"]\r\n\r\n{Le cavalier noir est mal placé en h5, où il est venu pour tenter de prendre le fort fou de cases noires adverse. Trait aux blancs. Ou jouer ce fou pour éviter l'échange ?}\r\n1.Bd6\r\n    {[%wrong Ce coup n'évite pas ...Cxf4, et les noirs échangent un mauvais cavalier contre un bon fou. Cherchez encore !][%hint Où mettre le fou pour empêcher les noirs de roquer ?] Bien vu ! Les blancs évitent l'échange d'un bon fou contre un mauvais cavalier. Les noirs ne peuvent pas roquer et sont dans une position très passive.}\r\n    (1.Bg3 $2 Nxg3 {Ne laissons pas notre adversaire échanger une de ses mauvaises pièces contre une de nos bonnes !})\r\n    (1.Be5 $6 {Ce coup n'est pas fondamentalement mauvais, mais il est regrettable de laisser les noirs échanger ce fou s'il le souhaitent. Trouvez lui une meilleure case !})\r\n*"
+    },
+    {
+      "fen": "r1r5/2p1bk1p/p1Pp2pP/P4pP1/1R1PpP2/4P3/4NK2/1R6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position fermée, le cavalier blanc va dominer le fou noir. Trouvez le coup qui enferme ce dernier une bonne fois pour toutes !",
+        "[%wrong Ce coup n'empêche pas les noirs de jouer ...d5 pour libérer leur fou. Cherchez encore !][%hint Les noirs n'ont qu'un coup de pion pouvant libérer le fou... Empêchez-le !] Bien joué ! Le fou des noirs est désormais totalement passif. Les blancs vont pouvoir continuer en jouant Cd4-e6 et en mettant une tour en b7 pour mettre la pression sur c7. La position est écrasante.",
+        "Ce coup de pion libère le fou des noirs. Ils vont ensuite pouvoir jouer Re6 pour garder le pion et obtenir une position défendable. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1r5/2p1bk1p/p1Pp2pP/P4pP1/1R1PpP2/4P3/4NK2/1R6 w - - 0 1\"]\r\n\r\n{Dans cette position fermée, le cavalier blanc va dominer le fou noir. Trouvez le coup qui enferme ce dernier une bonne fois pour toutes !}\r\n1.d5\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...d5 pour libérer leur fou. Cherchez encore !][%hint Les noirs n'ont qu'un coup de pion pouvant libérer le fou... Empêchez-le !] Bien joué ! Le fou des noirs est désormais totalement passif. Les blancs vont pouvoir continuer en jouant Cd4-e6 et en mettant une tour en b7 pour mettre la pression sur c7. La position est écrasante.}\r\n    (1.Nc3 $2 d5 {Ce coup de pion libère le fou des noirs. Ils vont ensuite pouvoir jouer Re6 pour garder le pion et obtenir une position défendable. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "8/8/4k1b1/1p1p1pPp/1P1P1K1P/7B/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Tous vos pions sont sur des cases de la couleur de votre fou ? C'est mauvais signe. Dans cette position, le mauvais fou des noirs n'a qu'un rôle de défenseur de ses pions. Profitez de cette passivité pour trouvez comment attaquer b5 et f5 en deux coups seulement !",
+        "[%wrong Ce coup ne prépare pas l'attaque de b5 et f5 au prochain. Cherchez encore !][%hint Comment attaquer immédiatement b5 avec le fou ?]",
+        "Bien vu ! Le fou des noirs atteint ses limites. Débordez les défenses noires en attaquant à la fois b5 et f5 !",
+        "[%wrong Ce coup n'attaque pas à la fois b5 et f5. Cherchez encore !][%hint Nous cherchons encore une fois un coup de fou.] Joliment fait ! Le bon fou des blancs a rejoint le roi en attaque, tandis que le mauvais fou des noirs ne peut protéger à la fois f5 et b5. Les blancs vont gagner un pion, et sans doute la partie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4k1b1/1p1p1pPp/1P1P1K1P/7B/8/8 w - - 0 1\"]\r\n\r\n{Tous vos pions sont sur des cases de la couleur de votre fou ? C'est mauvais signe. Dans cette position, le mauvais fou des noirs n'a qu'un rôle de défenseur de ses pions. Profitez de cette passivité pour trouvez comment attaquer b5 et f5 en deux coups seulement !}\r\n1.Bf1\r\n    {[%wrong Ce coup ne prépare pas l'attaque de b5 et f5 au prochain. Cherchez encore !][%hint Comment attaquer immédiatement b5 avec le fou ?]}\r\n1...Be8\r\n    {Bien vu ! Le fou des noirs atteint ses limites. Débordez les défenses noires en attaquant à la fois b5 et f5 !}\r\n2.Bd3\r\n    {[%wrong Ce coup n'attaque pas à la fois b5 et f5. Cherchez encore !][%hint Nous cherchons encore une fois un coup de fou.] Joliment fait ! Le bon fou des blancs a rejoint le roi en attaque, tandis que le mauvais fou des noirs ne peut protéger à la fois f5 et b5. Les blancs vont gagner un pion, et sans doute la partie.}\r\n*"
+    },
+    {
+      "fen": "r2qrnk1/2p3p1/1bp2p1p/p3p3/2P1P3/1PNN3P/P3QPP1/2R1R1K1 w - - 3 19",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou des noirs profite de la belle diagonale a7-g1 visant directement le roi blanc. Comment faire de cette puissante pièce une mauvaise pièce ?",
+        "[%wrong Ce coup ne rend pas le fou adverse mauvais. Cherchez encore !][%hint Tant que la diagonale a7-g1 sera ouverte, ce fou sera fort et actif...] Bien vu ! Le fou noir est complètement enfermé par le pion c5 et ses propres pions !",
+        "Une idée intéressante, mais qui finalement force le fou à se rendre sur une case encore meilleure. Fermez la diagonale !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qrnk1/2p3p1/1bp2p1p/p3p3/2P1P3/1PNN3P/P3QPP1/2R1R1K1 w - - 3 19\"]\r\n\r\n{Le fou des noirs profite de la belle diagonale a7-g1 visant directement le roi blanc. Comment faire de cette puissante pièce une mauvaise pièce ?}\r\n19.c5\r\n    {[%wrong Ce coup ne rend pas le fou adverse mauvais. Cherchez encore !][%hint Tant que la diagonale a7-g1 sera ouverte, ce fou sera fort et actif...] Bien vu ! Le fou noir est complètement enfermé par le pion c5 et ses propres pions !}\r\n    (19.Na4 $2 Bd4 {Une idée intéressante, mais qui finalement force le fou à se rendre sur une case encore meilleure. Fermez la diagonale !})\r\n*"
+    },
+    {
+      "fen": "r1q2rk1/3nbp1p/2p3p1/p3p3/Pn2P3/2N1BB1P/1PP2RP1/R4QK1 w - - 1 19",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette bataille de grand-maîtres, les noirs viennent de jouer ...Cd7 et menacent de supprimer le bon fou des blancs par ...Fc5. Trouvez la formidable réponse du GMI Karpov. Indice : il échange le mauvais fou de cases blanches avant que les noirs n'aient eu le temps de jouer ...Fc5 !",
+        "[%wrong Ce coup ne permet pas l'échange du mauvais fou de cases blanches. Cherchez encore !][%hint Le cavalier d7 et la dame c8 sont sur la même diagonale. Profitez-en pour vous débarrasser de votre mauvais fou !]",
+        "Exactement ! Karpov cloue le cavalier. Par conséquent, ...Fc5 perdrait une pièce après Fxd7. Spassky répond en attaquant le fou blanc. Échangeons-le contre le cavalier noir !",
+        "[%wrong Non, il faut prendre le cavalier adverse pour se débarrasser de notre mauvais fou !][%hint Prenez le cavalier d7 !] Beau travail. Vous talents positionnels sont en pleine éclosion !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1q2rk1/3nbp1p/2p3p1/p3p3/Pn2P3/2N1BB1P/1PP2RP1/R4QK1 w - - 1 19\"]\r\n\r\n{Dans cette bataille de grand-maîtres, les noirs viennent de jouer ...Cd7 et menacent de supprimer le bon fou des blancs par ...Fc5. Trouvez la formidable réponse du GMI Karpov. Indice : il échange le mauvais fou de cases blanches avant que les noirs n'aient eu le temps de jouer ...Fc5 !}\r\n19.Bg4\r\n    {[%wrong Ce coup ne permet pas l'échange du mauvais fou de cases blanches. Cherchez encore !][%hint Le cavalier d7 et la dame c8 sont sur la même diagonale. Profitez-en pour vous débarrasser de votre mauvais fou !]}\r\n19...h5\r\n    {Exactement ! Karpov cloue le cavalier. Par conséquent, ...Fc5 perdrait une pièce après Fxd7. Spassky répond en attaquant le fou blanc. Échangeons-le contre le cavalier noir !}\r\n20.Bxd7\r\n    {[%wrong Non, il faut prendre le cavalier adverse pour se débarrasser de notre mauvais fou !][%hint Prenez le cavalier d7 !] Beau travail. Vous talents positionnels sont en pleine éclosion !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "1ac675cc-9cec-11e8-a721-77370f675eb6",
+    "name": "Bonnes et mauvaises pièces",
+    "path": "bonnes-et-mauvaises-idees",
+    "description": "Une bonne pièce est une pièce active qui remplit une mission. Une mauvaise pièce, au contraire, à une mobilité réduite et n’attaque aucun point important de l’échiquier. Il est primordial d'activer au maximum ses pièces, et d'essayer de les échanger lorsqu’elles ne peuvent plus être améliorées. Pensez également à restreindre le mouvement des pièces adverses.",
+    "glyphName": "circles-plus-minus",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-good-bad-pieces-o3e.mp4",
+    "fen": "2b4k/1p4p1/pPp1p3/2P2p1p/2N2P1P/4P1P1/3K4/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/1p1n1pb1/p1p1p1pp/2Pp3n/PP1P1B2/3BPN2/3N1PPP/R2QK2R w kq - 0 1\"]\r\n\r\n{Le cavalier noir est mal placé en h5, où il est venu pour tenter de prendre le fort fou de cases noires adverse. Trait aux blancs. Ou jouer ce fou pour éviter l'échange ?}\r\n1.Bd6\r\n    {[%wrong Ce coup n'évite pas ...Cxf4, et les noirs échangent un mauvais cavalier contre un bon fou. Cherchez encore !][%hint Où mettre le fou pour empêcher les noirs de roquer ?] Bien vu ! Les blancs évitent l'échange d'un bon fou contre un mauvais cavalier. Les noirs ne peuvent pas roquer et sont dans une position très passive.}\r\n    (1.Bg3 $2 Nxg3 {Ne laissons pas notre adversaire échanger une de ses mauvaises pièces contre une de nos bonnes !})\r\n    (1.Be5 $6 {Ce coup n'est pas fondamentalement mauvais, mais il est regrettable de laisser les noirs échanger ce fou s'il le souhaitent. Trouvez lui une meilleure case !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1r5/2p1bk1p/p1Pp2pP/P4pP1/1R1PpP2/4P3/4NK2/1R6 w - - 0 1\"]\r\n\r\n{Dans cette position fermée, le cavalier blanc va dominer le fou noir. Trouvez le coup qui enferme ce dernier une bonne fois pour toutes !}\r\n1.d5\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...d5 pour libérer leur fou. Cherchez encore !][%hint Les noirs n'ont qu'un coup de pion pouvant libérer le fou... Empêchez-le !] Bien joué ! Le fou des noirs est désormais totalement passif. Les blancs vont pouvoir continuer en jouant Cd4-e6 et en mettant une tour en b7 pour mettre la pression sur c7. La position est écrasante.}\r\n    (1.Nc3 $2 d5 {Ce coup de pion libère le fou des noirs. Ils vont ensuite pouvoir jouer Re6 pour garder le pion et obtenir une position défendable. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4k1b1/1p1p1pPp/1P1P1K1P/7B/8/8 w - - 0 1\"]\r\n\r\n{Tous vos pions sont sur des cases de la couleur de votre fou ? C'est mauvais signe. Dans cette position, le mauvais fou des noirs n'a qu'un rôle de défenseur de ses pions. Profitez de cette passivité pour trouvez comment attaquer b5 et f5 en deux coups seulement !}\r\n1.Bf1\r\n    {[%wrong Ce coup ne prépare pas l'attaque de b5 et f5 au prochain. Cherchez encore !][%hint Comment attaquer immédiatement b5 avec le fou ?]}\r\n1...Be8\r\n    {Bien vu ! Le fou des noirs atteint ses limites. Débordez les défenses noires en attaquant à la fois b5 et f5 !}\r\n2.Bd3\r\n    {[%wrong Ce coup n'attaque pas à la fois b5 et f5. Cherchez encore !][%hint Nous cherchons encore une fois un coup de fou.] Joliment fait ! Le bon fou des blancs a rejoint le roi en attaque, tandis que le mauvais fou des noirs ne peut protéger à la fois f5 et b5. Les blancs vont gagner un pion, et sans doute la partie.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qrnk1/2p3p1/1bp2p1p/p3p3/2P1P3/1PNN3P/P3QPP1/2R1R1K1 w - - 3 19\"]\r\n\r\n{Le fou des noirs profite de la belle diagonale a7-g1 visant directement le roi blanc. Comment faire de cette puissante pièce une mauvaise pièce ?}\r\n19.c5\r\n    {[%wrong Ce coup ne rend pas le fou adverse mauvais. Cherchez encore !][%hint Tant que la diagonale a7-g1 sera ouverte, ce fou sera fort et actif...] Bien vu ! Le fou noir est complètement enfermé par le pion c5 et ses propres pions !}\r\n    (19.Na4 $2 Bd4 {Une idée intéressante, mais qui finalement force le fou à se rendre sur une case encore meilleure. Fermez la diagonale !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1q2rk1/3nbp1p/2p3p1/p3p3/Pn2P3/2N1BB1P/1PP2RP1/R4QK1 w - - 1 19\"]\r\n\r\n{Dans cette bataille de grand-maîtres, les noirs viennent de jouer ...Cd7 et menacent de supprimer le bon fou des blancs par ...Fc5. Trouvez la formidable réponse du GMI Karpov. Indice : il échange le mauvais fou de cases blanches avant que les noirs n'aient eu le temps de jouer ...Fc5 !}\r\n19.Bg4\r\n    {[%wrong Ce coup ne permet pas l'échange du mauvais fou de cases blanches. Cherchez encore !][%hint Le cavalier d7 et la dame c8 sont sur la même diagonale. Profitez-en pour vous débarrasser de votre mauvais fou !]}\r\n19...h5\r\n    {Exactement ! Karpov cloue le cavalier. Par conséquent, ...Fc5 perdrait une pièce après Fxd7. Spassky répond en attaquant le fou blanc. Échangeons-le contre le cavalier noir !}\r\n20.Bxd7\r\n    {[%wrong Non, il faut prendre le cavalier adverse pour se débarrasser de notre mauvais fou !][%hint Prenez le cavalier d7 !] Beau travail. Vous talents positionnels sont en pleine éclosion !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il est primordial d'identifier les bonnes et mauvaises pièces dans la position.",
+    "outroText": "Savoir quelles sont les bonnes et mauvaises pièces facilitera vos décisions.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "57c3b0d4-83b5-11e8-925f-e3719c9ef2c4",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/good-bad-pieces5d12584cb788b.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/good-bad-pieces-566886a13f1ce8.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/good-bad-pieces-15ea2400423f11.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/good-bad-pieces-260d06569a9213.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 97,
+    "order": 4,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

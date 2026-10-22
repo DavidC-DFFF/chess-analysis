@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/defense-populaire-contre-1-e4-sicilienne",
+  "capturedAt": "2026-10-22T12:23:44.520Z",
+  "title": "Une défense très populaire contre 1.e4 : La sicilienne",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs s'apprêtent à prendre le contrôle du centre par 2.d4. Empêchons-les de s'installer en jouant la défense sicilienne !",
+        "[%wrong Ce coup n'est pas constitutif de la défense sicilienne. Essayez encore !][%hint Si 1...e5 contrôle d4, la défense sicilienne consiste à contrôler cette case par un autre coup de pion. Trouvez lequel !] Très bien ! Nous allons pouvoir explorer quelques bases de la très aiguë défense sicilienne."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs s'apprêtent à prendre le contrôle du centre par 2.d4. Empêchons-les de s'installer en jouant la défense sicilienne !}\r\n1...c5\r\n    {[%wrong Ce coup n'est pas constitutif de la défense sicilienne. Essayez encore !][%hint Si 1...e5 contrôle d4, la défense sicilienne consiste à contrôler cette case par un autre coup de pion. Trouvez lequel !] Très bien ! Nous allons pouvoir explorer quelques bases de la très aiguë défense sicilienne.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs voudraient jouer d4 au plus vite, mais ils ne souhaitent pas reprendre de la dame. Quel coup de développement prépare la poussée d4 ?",
+        "[%wrong Ce coup ne prépare pas les blancs à jouer d4 au prochain. Cherchez encore !][%hint Trouvez un fort coup de cavalier préparant d4.]",
+        "Intéressant ! Cette variante solide est appelée l'Alapine. C'est une bonne manière de lutter contre la défense sicilienne. Mais nous cherchons pour le moment à jouer la sicilienne ouverte. Soutenez la poussée d4 avec un cavalier !",
+        "Les blancs ne veulent pas mettre leur dame au centre dès le début de la partie. Il est plus sage de préparer cette prise avec un cavalier. Trouvez le bon coup !",
+        "Bien vu ! Nous sommes désormais prêts à ouvrir le jeu avec le coup d4. A vous !",
+        "[%wrong Non, ce coup n'ouvre pas la position.][%hint Jouez 3. d4.] Très bien ! Les blancs agressent immédiatement le centre et se préparent à ouvrir les lignes. Étudions maintenant la situation du côté noir."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Les blancs voudraient jouer d4 au plus vite, mais ils ne souhaitent pas reprendre de la dame. Quel coup de développement prépare la poussée d4 ?}\r\n2.Nf3\r\n    {[%wrong Ce coup ne prépare pas les blancs à jouer d4 au prochain. Cherchez encore !][%hint Trouvez un fort coup de cavalier préparant d4.]}\r\n    (2.c3 $5 {Intéressant ! Cette variante solide est appelée l'Alapine. C'est une bonne manière de lutter contre la défense sicilienne. Mais nous cherchons pour le moment à jouer la sicilienne ouverte. Soutenez la poussée d4 avec un cavalier !})\r\n    (2.d4 $6 cxd4 {Les blancs ne veulent pas mettre leur dame au centre dès le début de la partie. Il est plus sage de préparer cette prise avec un cavalier. Trouvez le bon coup !})\r\n2...Nc6\r\n    {Bien vu ! Nous sommes désormais prêts à ouvrir le jeu avec le coup d4. A vous !}\r\n3.d4\r\n    {[%wrong Non, ce coup n'ouvre pas la position.][%hint Jouez 3. d4.] Très bien ! Les blancs agressent immédiatement le centre et se préparent à ouvrir les lignes. Étudions maintenant la situation du côté noir.}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Choisissez parmi ces trois options : 3...cxd4, 3...Cxd4, and 3...e6",
+        "[%wrong Pour le moment, limitons-nous à trois options : 3...cxd4, 3...Cxd4, and 3...e6.][%hint L'objectif du coup ...c5 était de s'emparer du pion d si les blancs décidaient de le placer au centre...]",
+        "Il est important de ne pas laisser le pion d des blancs sur l'échiquier, car il menace de prendre de l'espace dans votre camp. Essayez encore !",
+        "C'est la bonne idée, mais pas la bonne prise ! La dame blanche va maintenant contrôler le centre depuis la puissante case d4, et il devient difficile de l'en déloger sans affaiblir notre position. Prenez en d4 sans donner votre cavalier.",
+        "Très bien ! Il est temps d'explorer plus en profondeur les rouages de la défense sicilienne. C'est parti !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3\"]\r\n\r\n{Choisissez parmi ces trois options : 3...cxd4, 3...Cxd4, and 3...e6}\r\n3...cxd4\r\n    {[%wrong Pour le moment, limitons-nous à trois options : 3...cxd4, 3...Cxd4, and 3...e6.][%hint L'objectif du coup ...c5 était de s'emparer du pion d si les blancs décidaient de le placer au centre...]}\r\n    (3...e6 $2 4.d5 {Il est important de ne pas laisser le pion d des blancs sur l'échiquier, car il menace de prendre de l'espace dans votre camp. Essayez encore !})\r\n    (3...Nxd4 $6 4.Nxd4 {C'est la bonne idée, mais pas la bonne prise ! La dame blanche va maintenant contrôler le centre depuis la puissante case d4, et il devient difficile de l'en déloger sans affaiblir notre position. Prenez en d4 sans donner votre cavalier.})\r\n4.Nxd4\r\n    {Très bien ! Il est temps d'explorer plus en profondeur les rouages de la défense sicilienne. C'est parti !}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Jouons le coup le plus agressif : la sicilienne ouverte avec 3.d4 !",
+        "[%wrong Pour le moment, nous allons découvrir la sicilienne ouverte avec 3.d4. Jouez ce coup !][%hint Ouvrez la position en jouant 3.d4 !]",
+        "Parfait ! Comment continuer ?",
+        "[%wrong Nous souhaitons récupérer ce pion sans perdre de matériel. Cherchez encore !][%hint Comment récupérer ce pion tout en centralisant un cavalier ?]",
+        "Très bien ! Les blancs récupèrent le pion en centralisant leur cavalier. Les noirs préparent la redoutable variante du dragon accéléré avec ...Fg7. Sur quelle case développer notre cavalier b1 ?",
+        "[%wrong Concentrons nous pour le moment sur le développement du cavalier b1...][%hint Sur quelle case le cavalier b1 pourrait-il à la fois protéger e4 et contrôler d5 ?]",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Il n'y a aucune raison de placer notre cavalier au bord de l'échiquier, où il contrôle moins de cases. Jouons pour le contrôle des cases centrales !",
+        "La tension monte ! Les noirs attaquent une deuxième fois le cavalier d4. Quel est le meilleur coup de fou dans cette position ?",
+        "[%wrong Bien essayé, mais il existe un meilleur coup de fou dans cette position. Trouvez-le !][%hint Quel est le seul coup de fou protégeant le cavalier d4 ?]",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Oups ! Vous perdez une pièce. Cherchez encore !",
+        "Exactement ! Les blancs développent leur fou de cases noires sur une excellente case sur laquelle il protège le cavalier d4. Les blancs ont maintenant deux manières intéressantes de développer leur fou de cases blanches. Trouvez-en au moins une !",
+        "[%wrong Nous cherchons à jouer le fou de cases blanches. Essayez encore !][%hint La case la plus active pour votre fou de cases blanches est celle qui met la pression sur f7.] Très bien ! Le fou met la pression sur le point faible f7 et profite d'une excellente diagonale. La partie s'annonce aiguë !",
+        "Très bon coup ! Cette approche solide et positionnelle permet de préparer le roque en contrôlant de nombreuses cases des deux côtés de l'échiquier. Trouvez maintenant un coup plus agressif qui pourrait inquiéter un peu le roi noir !",
+        "Ce coup n'est pas mauvais en soi, mais le fou préférerait profiter d'une diagonale plus ouverte. Trouvez lui une meilleure case !",
+        "Augmenter la pression sur le cavalier n'est pas une mauvaise idée, mais dans ce cas, il est solidement protégé par deux pions noirs. Trouvez une diagonale plus ouverte pour ce fou !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3\"]\r\n\r\n{Trait aux blancs. Jouons le coup le plus agressif : la sicilienne ouverte avec 3.d4 !}\r\n3.d4\r\n    {[%wrong Pour le moment, nous allons découvrir la sicilienne ouverte avec 3.d4. Jouez ce coup !][%hint Ouvrez la position en jouant 3.d4 !]}\r\n3...cxd4\r\n    {Parfait ! Comment continuer ?}\r\n4.Nxd4\r\n    {[%wrong Nous souhaitons récupérer ce pion sans perdre de matériel. Cherchez encore !][%hint Comment récupérer ce pion tout en centralisant un cavalier ?]}\r\n4...g6\r\n    {Très bien ! Les blancs récupèrent le pion en centralisant leur cavalier. Les noirs préparent la redoutable variante du dragon accéléré avec ...Fg7. Sur quelle case développer notre cavalier b1 ?}\r\n5.Nc3\r\n    {[%wrong Concentrons nous pour le moment sur le développement du cavalier b1...][%hint Sur quelle case le cavalier b1 pourrait-il à la fois protéger e4 et contrôler d5 ?]}\r\n    (5.Nd2 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (5.Na3 $6 {Il n'y a aucune raison de placer notre cavalier au bord de l'échiquier, où il contrôle moins de cases. Jouons pour le contrôle des cases centrales !})\r\n5...Bg7\r\n    {La tension monte ! Les noirs attaquent une deuxième fois le cavalier d4. Quel est le meilleur coup de fou dans cette position ?}\r\n6.Be3\r\n    {[%wrong Bien essayé, mais il existe un meilleur coup de fou dans cette position. Trouvez-le !][%hint Quel est le seul coup de fou protégeant le cavalier d4 ?]}\r\n    (6.Bc4 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bb5 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Be2 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bf4 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bg5 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bd2 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n6...Nf6\r\n    {Exactement ! Les blancs développent leur fou de cases noires sur une excellente case sur laquelle il protège le cavalier d4. Les blancs ont maintenant deux manières intéressantes de développer leur fou de cases blanches. Trouvez-en au moins une !}\r\n7.Bc4\r\n    {[%wrong Nous cherchons à jouer le fou de cases blanches. Essayez encore !][%hint La case la plus active pour votre fou de cases blanches est celle qui met la pression sur f7.] Très bien ! Le fou met la pression sur le point faible f7 et profite d'une excellente diagonale. La partie s'annonce aiguë !}\r\n    (7.Be2 $5 {Très bon coup ! Cette approche solide et positionnelle permet de préparer le roque en contrôlant de nombreuses cases des deux côtés de l'échiquier. Trouvez maintenant un coup plus agressif qui pourrait inquiéter un peu le roi noir !})\r\n    (7.Bd3 $6 {Ce coup n'est pas mauvais en soi, mais le fou préférerait profiter d'une diagonale plus ouverte. Trouvez lui une meilleure case !})\r\n    (7.Bb5 $6 {Augmenter la pression sur le cavalier n'est pas une mauvaise idée, mais dans ce cas, il est solidement protégé par deux pions noirs. Trouvez une diagonale plus ouverte pour ce fou !})\r\n*"
+    },
+    {
+      "fen": "r1bq1rk1/pp2bppp/2nppn2/8/2BNP3/2N1B3/PPP1QPPP/R3K2R w KQ - 4 9",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette sicilienne typique, jouons la variante la plus tendue en faisant grand roque !",
+        "[%wrong Non, nous souhaitons jouer grand roque.][%hint Faites grand roque.]",
+        "La tension monte ! Les noirs s'apprêtent à prendre le cavalier d4 avant de lancer une attaque sur l'aile dame par ...b5. Trouvez un coup de pion protégeant e4 et préparant la poussée g4.",
+        "[%wrong Ce n'est pas un coup de pion protégeant e4 et préparant la poussée g4.][%hint Quel est le seul coup de pion protégeant e4 ?]",
+        "Bien vu ! Les noirs décident d'échanger au centre. Reprenons le cavalier avec notre fou.",
+        "[%wrong Non, nous souhaitons reprendre le cavalier avec notre fou. Essayez encore !][%hint Prenez le cavalier d4 avec votre fou de cases noires.]",
+        "Les noirs lancent un contre-attaque sicilienne typique ! Laissons notre fou de cases blanches sur cette diagonale. Il y observe le roi noir tout en protégeant le notre.",
+        "[%wrong Ce coup ne met pas notre fou en sécurité. Cherchez encore !][%hint Quelle est la seule case sure de la diagonale a2-g8 ?] Parfait ! Le fou garde la pression sur la diagonale du roi noir et contrôle des cases importantes autour de son propre roi. Une bataille acharnée va s'ensuivre, avec des chances pour les deux camps, qui vont attaquer le roi adverse chacun de leur côté.",
+        "Ce coup est intéressant, mais il perd le contrôle de la diagonale a2-g8. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp2bppp/2nppn2/8/2BNP3/2N1B3/PPP1QPPP/R3K2R w KQ - 4 9\"]\r\n\r\n{Dans cette sicilienne typique, jouons la variante la plus tendue en faisant grand roque !}\r\n9.O-O-O\r\n    {[%wrong Non, nous souhaitons jouer grand roque.][%hint Faites grand roque.]}\r\n9...a6\r\n    {La tension monte ! Les noirs s'apprêtent à prendre le cavalier d4 avant de lancer une attaque sur l'aile dame par ...b5. Trouvez un coup de pion protégeant e4 et préparant la poussée g4.}\r\n10.f3\r\n    {[%wrong Ce n'est pas un coup de pion protégeant e4 et préparant la poussée g4.][%hint Quel est le seul coup de pion protégeant e4 ?]}\r\n10...Nxd4\r\n    {Bien vu ! Les noirs décident d'échanger au centre. Reprenons le cavalier avec notre fou.}\r\n11.Bxd4\r\n    {[%wrong Non, nous souhaitons reprendre le cavalier avec notre fou. Essayez encore !][%hint Prenez le cavalier d4 avec votre fou de cases noires.]}\r\n11...b5\r\n    {Les noirs lancent un contre-attaque sicilienne typique ! Laissons notre fou de cases blanches sur cette diagonale. Il y observe le roi noir tout en protégeant le notre.}\r\n12.Bb3\r\n    {[%wrong Ce coup ne met pas notre fou en sécurité. Cherchez encore !][%hint Quelle est la seule case sure de la diagonale a2-g8 ?] Parfait ! Le fou garde la pression sur la diagonale du roi noir et contrôle des cases importantes autour de son propre roi. Une bataille acharnée va s'ensuivre, avec des chances pour les deux camps, qui vont attaquer le roi adverse chacun de leur côté.}\r\n    (12.Bd3 $6 {Ce coup est intéressant, mais il perd le contrôle de la diagonale a2-g8. Cherchez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "857af3c6-9ceb-11e8-b30e-69d2dfdc60ad",
+    "name": "Une défense très populaire contre 1.e4 : La sicilienne",
+    "path": "defense-populaire-contre-1-e4-sicilienne",
+    "description": "La défense sicilienne (1…c5) est une réponse populaire à 1.e4. Lorsque les blancs continuent par 2.Cf3 puis 3.d4, on entre dans le terrain bien connu des siciliennes ouvertes. Les noirs prennent généralement en d4 et les deux camps entrent dans une position complexe. Souvent, les blancs font grand roque et les noirs petit roque, avec une partie tendue.",
+    "glyphName": "game-opening-sicilian",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-popular-1-e4-openings-the-sicilian-defense-w4n.mp4",
+    "fen": "r1bq1rk1/4bppp/p2ppn2/1p6/3BP3/1BN2P2/PPP1Q1PP/2KR3R b - - 1 12",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs s'apprêtent à prendre le contrôle du centre par 2.d4. Empêchons-les de s'installer en jouant la défense sicilienne !}\r\n1...c5\r\n    {[%wrong Ce coup n'est pas constitutif de la défense sicilienne. Essayez encore !][%hint Si 1...e5 contrôle d4, la défense sicilienne consiste à contrôler cette case par un autre coup de pion. Trouvez lequel !] Très bien ! Nous allons pouvoir explorer quelques bases de la très aiguë défense sicilienne.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Les blancs voudraient jouer d4 au plus vite, mais ils ne souhaitent pas reprendre de la dame. Quel coup de développement prépare la poussée d4 ?}\r\n2.Nf3\r\n    {[%wrong Ce coup ne prépare pas les blancs à jouer d4 au prochain. Cherchez encore !][%hint Trouvez un fort coup de cavalier préparant d4.]}\r\n    (2.c3 $5 {Intéressant ! Cette variante solide est appelée l'Alapine. C'est une bonne manière de lutter contre la défense sicilienne. Mais nous cherchons pour le moment à jouer la sicilienne ouverte. Soutenez la poussée d4 avec un cavalier !})\r\n    (2.d4 $6 cxd4 {Les blancs ne veulent pas mettre leur dame au centre dès le début de la partie. Il est plus sage de préparer cette prise avec un cavalier. Trouvez le bon coup !})\r\n2...Nc6\r\n    {Bien vu ! Nous sommes désormais prêts à ouvrir le jeu avec le coup d4. A vous !}\r\n3.d4\r\n    {[%wrong Non, ce coup n'ouvre pas la position.][%hint Jouez 3. d4.] Très bien ! Les blancs agressent immédiatement le centre et se préparent à ouvrir les lignes. Étudions maintenant la situation du côté noir.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3\"]\r\n\r\n{Choisissez parmi ces trois options : 3...cxd4, 3...Cxd4, and 3...e6}\r\n3...cxd4\r\n    {[%wrong Pour le moment, limitons-nous à trois options : 3...cxd4, 3...Cxd4, and 3...e6.][%hint L'objectif du coup ...c5 était de s'emparer du pion d si les blancs décidaient de le placer au centre...]}\r\n    (3...e6 $2 4.d5 {Il est important de ne pas laisser le pion d des blancs sur l'échiquier, car il menace de prendre de l'espace dans votre camp. Essayez encore !})\r\n    (3...Nxd4 $6 4.Nxd4 {C'est la bonne idée, mais pas la bonne prise ! La dame blanche va maintenant contrôler le centre depuis la puissante case d4, et il devient difficile de l'en déloger sans affaiblir notre position. Prenez en d4 sans donner votre cavalier.})\r\n4.Nxd4\r\n    {Très bien ! Il est temps d'explorer plus en profondeur les rouages de la défense sicilienne. C'est parti !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3\"]\r\n\r\n{Trait aux blancs. Jouons le coup le plus agressif : la sicilienne ouverte avec 3.d4 !}\r\n3.d4\r\n    {[%wrong Pour le moment, nous allons découvrir la sicilienne ouverte avec 3.d4. Jouez ce coup !][%hint Ouvrez la position en jouant 3.d4 !]}\r\n3...cxd4\r\n    {Parfait ! Comment continuer ?}\r\n4.Nxd4\r\n    {[%wrong Nous souhaitons récupérer ce pion sans perdre de matériel. Cherchez encore !][%hint Comment récupérer ce pion tout en centralisant un cavalier ?]}\r\n4...g6\r\n    {Très bien ! Les blancs récupèrent le pion en centralisant leur cavalier. Les noirs préparent la redoutable variante du dragon accéléré avec ...Fg7. Sur quelle case développer notre cavalier b1 ?}\r\n5.Nc3\r\n    {[%wrong Concentrons nous pour le moment sur le développement du cavalier b1...][%hint Sur quelle case le cavalier b1 pourrait-il à la fois protéger e4 et contrôler d5 ?]}\r\n    (5.Nd2 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (5.Na3 $6 {Il n'y a aucune raison de placer notre cavalier au bord de l'échiquier, où il contrôle moins de cases. Jouons pour le contrôle des cases centrales !})\r\n5...Bg7\r\n    {La tension monte ! Les noirs attaquent une deuxième fois le cavalier d4. Quel est le meilleur coup de fou dans cette position ?}\r\n6.Be3\r\n    {[%wrong Bien essayé, mais il existe un meilleur coup de fou dans cette position. Trouvez-le !][%hint Quel est le seul coup de fou protégeant le cavalier d4 ?]}\r\n    (6.Bc4 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bb5 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Be2 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bf4 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bg5 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n    (6.Bd2 $2 Nxd4 {Oups ! Vous perdez une pièce. Cherchez encore !})\r\n6...Nf6\r\n    {Exactement ! Les blancs développent leur fou de cases noires sur une excellente case sur laquelle il protège le cavalier d4. Les blancs ont maintenant deux manières intéressantes de développer leur fou de cases blanches. Trouvez-en au moins une !}\r\n7.Bc4\r\n    {[%wrong Nous cherchons à jouer le fou de cases blanches. Essayez encore !][%hint La case la plus active pour votre fou de cases blanches est celle qui met la pression sur f7.] Très bien ! Le fou met la pression sur le point faible f7 et profite d'une excellente diagonale. La partie s'annonce aiguë !}\r\n    (7.Be2 $5 {Très bon coup ! Cette approche solide et positionnelle permet de préparer le roque en contrôlant de nombreuses cases des deux côtés de l'échiquier. Trouvez maintenant un coup plus agressif qui pourrait inquiéter un peu le roi noir !})\r\n    (7.Bd3 $6 {Ce coup n'est pas mauvais en soi, mais le fou préférerait profiter d'une diagonale plus ouverte. Trouvez lui une meilleure case !})\r\n    (7.Bb5 $6 {Augmenter la pression sur le cavalier n'est pas une mauvaise idée, mais dans ce cas, il est solidement protégé par deux pions noirs. Trouvez une diagonale plus ouverte pour ce fou !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp2bppp/2nppn2/8/2BNP3/2N1B3/PPP1QPPP/R3K2R w KQ - 4 9\"]\r\n\r\n{Dans cette sicilienne typique, jouons la variante la plus tendue en faisant grand roque !}\r\n9.O-O-O\r\n    {[%wrong Non, nous souhaitons jouer grand roque.][%hint Faites grand roque.]}\r\n9...a6\r\n    {La tension monte ! Les noirs s'apprêtent à prendre le cavalier d4 avant de lancer une attaque sur l'aile dame par ...b5. Trouvez un coup de pion protégeant e4 et préparant la poussée g4.}\r\n10.f3\r\n    {[%wrong Ce n'est pas un coup de pion protégeant e4 et préparant la poussée g4.][%hint Quel est le seul coup de pion protégeant e4 ?]}\r\n10...Nxd4\r\n    {Bien vu ! Les noirs décident d'échanger au centre. Reprenons le cavalier avec notre fou.}\r\n11.Bxd4\r\n    {[%wrong Non, nous souhaitons reprendre le cavalier avec notre fou. Essayez encore !][%hint Prenez le cavalier d4 avec votre fou de cases noires.]}\r\n11...b5\r\n    {Les noirs lancent un contre-attaque sicilienne typique ! Laissons notre fou de cases blanches sur cette diagonale. Il y observe le roi noir tout en protégeant le notre.}\r\n12.Bb3\r\n    {[%wrong Ce coup ne met pas notre fou en sécurité. Cherchez encore !][%hint Quelle est la seule case sure de la diagonale a2-g8 ?] Parfait ! Le fou garde la pression sur la diagonale du roi noir et contrôle des cases importantes autour de son propre roi. Une bataille acharnée va s'ensuivre, avec des chances pour les deux camps, qui vont attaquer le roi adverse chacun de leur côté.}\r\n    (12.Bd3 $6 {Ce coup est intéressant, mais il perd le contrôle de la diagonale a2-g8. Cherchez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez la réponse la plus populaire à 1.e4 : la Sicilienne.",
+    "outroText": "La Sicilienne est l'une des ouvertures les plus combattives pour jouer pour le gain avec les noirs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "f0b37654-8eb3-11e8-b6d5-49a0ee37c870",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-the-sicilian-defense5d1257a25754f.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-the-sicilian-defense-566886cea3e167.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-the-sicilian-defense-15ea240862ef03.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-the-sicilian-defense-2615eb6ab165ca.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 88,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

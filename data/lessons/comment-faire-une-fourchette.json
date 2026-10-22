@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/comment-faire-une-fourchette",
+  "capturedAt": "2026-10-22T13:42:30.901Z",
+  "title": "Fourchettes",
+  "exercises": [
+    {
+      "fen": "8/2k3q1/8/8/3N4/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e6c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;c7;persistent;true,e6g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;g7;persistent;true][%c_highlight d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Une fourchette, c'est quand vous attaquez deux pièces à la fois.",
+        "[%wrong Vous ne pouvez pas attaquer les deux pièces ici. Vous voulez un indice ?][%hint Déplacez votre cavalier là où il peut attaquer les deux pièces.]",
+        "Oui, excellente fourchette ! Maintenant, pouvez-vous prendre ?",
+        "[%hint Pouvez-vous prendre une pièce ?][%wrong Réessayez, vous voulez un indice ?]Bravo ! Grâce à votre fourchette, vous avez pris une dame."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2k3q1/8/8/3N4/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow e6c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;c7;persistent;true,e6g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;g7;persistent;true][%c_highlight d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Une fourchette, c'est quand vous attaquez deux pièces à la fois.} 1. Ne6+ {[%wrong Vous ne pouvez pas attaquer les deux pièces ici. Vous voulez un indice ?][%hint Déplacez votre cavalier là où il peut attaquer les deux pièces.]} 1... Kd7 {Oui, excellente fourchette ! Maintenant, pouvez-vous prendre ?} 2. Nxg7 {[%hint Pouvez-vous prendre une pièce ?][%wrong Réessayez, vous voulez un indice ?]Bravo ! Grâce à votre fourchette, vous avez pris une dame.} *"
+    },
+    {
+      "fen": "8/2b3k1/8/8/8/4Q3/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g3;color;%23ffaa00;opacity;0.8;square;g3;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true]Depuis quelle case pouvez-vous faire une fourchette en sécurité ?",
+        "[%hint Une seule case permet une fourchette sûre.][%wrong Vous pouvez trouver une meilleure case. Vous voulez un indice ?]",
+        "Votre dame se fait prendre.",
+        "Votre dame se fait prendre.",
+        "Votre dame se fait prendre.",
+        "Votre dame se fait prendre.",
+        "Votre dame se fait prendre.",
+        "Oui, vous avez fait une fourchette en sécurité entre le roi et le fou. Pouvez-vous prendre ?",
+        "[%hint Quelle pièce pouvez-vous prendre maintenant ?][%wrong Ce n'est pas encore le bon coup. Vous voulez un indice ?]Votre fourchette vous a permis de prendre un fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2b3k1/8/8/8/4Q3/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight g3;color;%23ffaa00;opacity;0.8;square;g3;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true]Depuis quelle case pouvez-vous faire une fourchette en sécurité ?} 1. Qe7+ {[%hint Une seule case permet une fourchette sûre.][%wrong Vous pouvez trouver une meilleure case. Vous voulez un indice ?]} (1. Qg3+? Bxg3 {Votre dame se fait prendre.}) (1. Qb6? Bxb6 {Votre dame se fait prendre.}) (1. Qe5+? Bxe5 {Votre dame se fait prendre.}) (1. Qf4? Bxf4 {Votre dame se fait prendre.}) (1. Qh6+? Kxh6 {Votre dame se fait prendre.}) 1... Kg6 {Oui, vous avez fait une fourchette en sécurité entre le roi et le fou. Pouvez-vous prendre ?} 2. Qxc7 {[%hint Quelle pièce pouvez-vous prendre maintenant ?][%wrong Ce n'est pas encore le bon coup. Vous voulez un indice ?]Votre fourchette vous a permis de prendre un fou.} *"
+    },
+    {
+      "fen": "6k1/p5p1/Pp4Np/1Pn5/8/6P1/r4PBP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cherchez la fourchette !",
+        "[%hint Vous pouvez utiliser votre fou pour viser deux pièces.][%wrong Ce n'est pas une fourchette. Réessaye.]",
+        "Oui, vous avez fait une fourchette entre le roi et la tour. Pouvez-vous prendre maintenant ?",
+        "[%hint Pouvez-vous prendre avec votre fou ?][%wrong Ce n'est pas une prise. Réessaye.]Bien joué ! Votre fourchette vous a permis de prendre une tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p5p1/Pp4Np/1Pn5/8/6P1/r4PBP/6K1 w - - 0 1\"]\r\n\r\n{Cherchez la fourchette !} 1. Bd5+ {[%hint Vous pouvez utiliser votre fou pour viser deux pièces.][%wrong Ce n'est pas une fourchette. Réessaye.]} 1... Kh7 {Oui, vous avez fait une fourchette entre le roi et la tour. Pouvez-vous prendre maintenant ?} 2. Bxa2 {[%hint Pouvez-vous prendre avec votre fou ?][%wrong Ce n'est pas une prise. Réessaye.]Bien joué ! Votre fourchette vous a permis de prendre une tour.} *"
+    },
+    {
+      "fen": "5rk1/1r1n1ppp/p7/1pP5/8/1P3N2/PB3PPP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight c5;color;%23ffaa00;opacity;0.8;square;c5;persistent;true] Il y a une fourchette bien cachée ici.",
+        "[%hint Vous pouvez utiliser votre pion pour faire une fourchette.][%wrong Ce n'est pas la fourchette. Regardez encore.]",
+        "Oui, vous avez fait une fourchette entre la tour et le cavalier. Pouvez-vous prendre maintenant ?",
+        "[%hint Pouvez-vous prendre avec votre pion ?][%wrong Ce n'est pas ça, réessayez s'il vous plaît.]Incroyable ! Votre fourchette vous a permis de prendre un cavalier."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1r1n1ppp/p7/1pP5/8/1P3N2/PB3PPP/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight c5;color;%23ffaa00;opacity;0.8;square;c5;persistent;true] Il y a une fourchette bien cachée ici.} 1. c6 {[%hint Vous pouvez utiliser votre pion pour faire une fourchette.][%wrong Ce n'est pas la fourchette. Regardez encore.]} 1... Rc7 {Oui, vous avez fait une fourchette entre la tour et le cavalier. Pouvez-vous prendre maintenant ?} 2. cxd7 {[%hint Pouvez-vous prendre avec votre pion ?][%wrong Ce n'est pas ça, réessayez s'il vous plaît.]Incroyable ! Votre fourchette vous a permis de prendre un cavalier.} *"
+    },
+    {
+      "fen": "r2q1r1k/p5pp/1p6/1Qp1N3/8/1B6/P4PPP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true][%c_arrow f7d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;d8;persistent;true,f7h8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;h8;persistent;true]Parfois, les fourchettes se font quand vos pièces coopèrent !",
+        "[%wrong Ce n'était pas ça. Réessayez, vous pouvez utiliser un indice.][%hint Pouvez-vous utiliser votre cavalier pour faire une fourchette ?]",
+        "Votre cavalier peut faire la fourchette parce qu'il est protégé par le fou. Pouvez-vous prendre maintenant ?",
+        "[%hint Que pouvez-vous prendre avec votre cavalier ?][%wrong Ce n'est pas le bon coup, vous pouvez réessayer.]Excellent. Vous avez pris la pièce la plus précieuse."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1r1k/p5pp/1p6/1Qp1N3/8/1B6/P4PPP/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true][%c_arrow f7d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;d8;persistent;true,f7h8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;h8;persistent;true]Parfois, les fourchettes se font quand vos pièces coopèrent !} 1. Nf7+ {[%wrong Ce n'était pas ça. Réessayez, vous pouvez utiliser un indice.][%hint Pouvez-vous utiliser votre cavalier pour faire une fourchette ?]} 1... Kg8 {Votre cavalier peut faire la fourchette parce qu'il est protégé par le fou. Pouvez-vous prendre maintenant ?} 2. Nxd8+ {[%hint Que pouvez-vous prendre avec votre cavalier ?][%wrong Ce n'est pas le bon coup, vous pouvez réessayer.]Excellent. Vous avez pris la pièce la plus précieuse.} *"
+    },
+    {
+      "fen": "q5k1/r2P1pp1/6b1/7p/8/1BP3NP/PP3PP1/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faites une fourchette pour promouvoir votre pion !",
+        "[%hint Pouvez-vous utiliser votre tour pour faire une fourchette ?][%wrong Ce n'est pas encore le bon coup. Vous pouvez utiliser un indice.]",
+        "C'était une fourchette, mais vous vous êtes fait prendre.",
+        "C'était une fourchette, mais vous vous êtes fait prendre.",
+        "Pouvez-vous promouvoir maintenant ?",
+        "[%wrong Ce n'est pas encore le bon coup. Vous voulez un indice ?][%hint Que se passe-t-il si vous prenez la dame ?] Excellent !",
+        "Pouvez-vous promouvoir en la pièce la plus puissante ?",
+        "Pouvez-vous promouvoir en la pièce la plus puissante ?",
+        "Pouvez-vous promouvoir en la pièce la plus puissante ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"q5k1/r2P1pp1/6b1/7p/8/1BP3NP/PP3PP1/4R1K1 w - - 0 1\"]\r\n\r\n{Faites une fourchette pour promouvoir votre pion !} 1. Re8+ {[%hint Pouvez-vous utiliser votre tour pour faire une fourchette ?][%wrong Ce n'est pas encore le bon coup. Vous pouvez utiliser un indice.]} (1. d8=Q+? Qxd8 {C'était une fourchette, mais vous vous êtes fait prendre.}) (1. d8=R+? Qxd8 {C'était une fourchette, mais vous vous êtes fait prendre.}) 1... Qxe8 {Pouvez-vous promouvoir maintenant ?} 2. dxe8=Q+ {[%wrong Ce n'est pas encore le bon coup. Vous voulez un indice ?][%hint Que se passe-t-il si vous prenez la dame ?] Excellent !} (2. dxe8=R+? {Pouvez-vous promouvoir en la pièce la plus puissante ?}) (2. dxe8=N? {Pouvez-vous promouvoir en la pièce la plus puissante ?}) (2. dxe8=B? {Pouvez-vous promouvoir en la pièce la plus puissante ?}) *"
+    },
+    {
+      "fen": "r2qk2r/ppp2ppp/1bnpbn2/4p3/3PP3/2P2N2/PP2BPPP/RNBQ1R2 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez une fourchette avec un pion.",
+        "[%hint Vous pouvez faire une fourchette entre un cavalier et un fou.][%wrong Ce n'est pas la fourchette. Trouvez le bon pion pour faire la fourchette.]",
+        "Oui, bien vu ! Pouvez-vous prendre maintenant ?",
+        "[%hint Pouvez-vous prendre avec votre pion ?][%wrong Ce n'est pas la bonne prise, pouvez-vous réessayer ?]Exactement ! Votre fourchette vous a permis de prendre un fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/1bnpbn2/4p3/3PP3/2P2N2/PP2BPPP/RNBQ1R2 w - - 0 1\"]\r\n\r\n{Trouvez une fourchette avec un pion.} 1. d5 {[%hint Vous pouvez faire une fourchette entre un cavalier et un fou.][%wrong Ce n'est pas la fourchette. Trouvez le bon pion pour faire la fourchette.]} 1... Bxd5 {Oui, bien vu ! Pouvez-vous prendre maintenant ?} 2. exd5 {[%hint Pouvez-vous prendre avec votre pion ?][%wrong Ce n'est pas la bonne prise, pouvez-vous réessayer ?]Exactement ! Votre fourchette vous a permis de prendre un fou.} *"
+    },
+    {
+      "fen": "4k2r/ppp2ppp/1q2n3/8/6b1/2P2N2/PP3PPP/2BQ1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Celui-ci est difficile ! Cherchez un échec bien caché.",
+        "[%hint Pouvez-vous utiliser votre dame pour faire échec ?][%wrong Ce n'est pas encore ça. Voulez-vous un indice ?]Oui ! Après que le roi bouge, vous pouvez prendre une pièce.",
+        "Quelle pièce pouvez-vous prendre maintenant ?",
+        "[%hint Quelle pièce pouvez-vous prendre avec votre dame ?][%wrong Cherchez une pièce gratuite.] Excellent !",
+        "Votre dame se fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k2r/ppp2ppp/1q2n3/8/6b1/2P2N2/PP3PPP/2BQ1RK1 w - - 0 1\"]\r\n\r\n{Celui-ci est difficile ! Cherchez un échec bien caché.} 1. Qa4+ {[%hint Pouvez-vous utiliser votre dame pour faire échec ?][%wrong Ce n'est pas encore ça. Voulez-vous un indice ?]Oui ! Après que le roi bouge, vous pouvez prendre une pièce.} 1... Ke7 {Quelle pièce pouvez-vous prendre maintenant ?} 2. Qxg4 {[%hint Quelle pièce pouvez-vous prendre avec votre dame ?][%wrong Cherchez une pièce gratuite.] Excellent !} (2. Qxa7? Qxa7 {Votre dame se fait prendre.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0ec-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Fourchettes",
+    "path": "comment-faire-une-fourchette",
+    "description": "Apprenez à faire une fourchette.",
+    "glyphName": "game-tactic-fork",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2k3q1/8/8/3N4/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow e6c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;c7;persistent;true,e6g7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;g7;persistent;true][%c_highlight d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true]Une fourchette, c'est quand vous attaquez deux pièces à la fois.} 1. Ne6+ {[%wrong Vous ne pouvez pas attaquer les deux pièces ici. Vous voulez un indice ?][%hint Déplacez votre cavalier là où il peut attaquer les deux pièces.]} 1... Kd7 {Oui, excellente fourchette ! Maintenant, pouvez-vous prendre ?} 2. Nxg7 {[%hint Pouvez-vous prendre une pièce ?][%wrong Réessayez, vous voulez un indice ?]Bravo ! Grâce à votre fourchette, vous avez pris une dame.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2b3k1/8/8/8/4Q3/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight g3;color;%23ffaa00;opacity;0.8;square;g3;persistent;true,e7;color;%23ffaa00;opacity;0.8;square;e7;persistent;true]Depuis quelle case pouvez-vous faire une fourchette en sécurité ?} 1. Qe7+ {[%hint Une seule case permet une fourchette sûre.][%wrong Vous pouvez trouver une meilleure case. Vous voulez un indice ?]} (1. Qg3+? Bxg3 {Votre dame se fait prendre.}) (1. Qb6? Bxb6 {Votre dame se fait prendre.}) (1. Qe5+? Bxe5 {Votre dame se fait prendre.}) (1. Qf4? Bxf4 {Votre dame se fait prendre.}) (1. Qh6+? Kxh6 {Votre dame se fait prendre.}) 1... Kg6 {Oui, vous avez fait une fourchette en sécurité entre le roi et le fou. Pouvez-vous prendre ?} 2. Qxc7 {[%hint Quelle pièce pouvez-vous prendre maintenant ?][%wrong Ce n'est pas encore le bon coup. Vous voulez un indice ?]Votre fourchette vous a permis de prendre un fou.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p5p1/Pp4Np/1Pn5/8/6P1/r4PBP/6K1 w - - 0 1\"]\r\n\r\n{Cherchez la fourchette !} 1. Bd5+ {[%hint Vous pouvez utiliser votre fou pour viser deux pièces.][%wrong Ce n'est pas une fourchette. Réessaye.]} 1... Kh7 {Oui, vous avez fait une fourchette entre le roi et la tour. Pouvez-vous prendre maintenant ?} 2. Bxa2 {[%hint Pouvez-vous prendre avec votre fou ?][%wrong Ce n'est pas une prise. Réessaye.]Bien joué ! Votre fourchette vous a permis de prendre une tour.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1r1n1ppp/p7/1pP5/8/1P3N2/PB3PPP/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight c5;color;%23ffaa00;opacity;0.8;square;c5;persistent;true] Il y a une fourchette bien cachée ici.} 1. c6 {[%hint Vous pouvez utiliser votre pion pour faire une fourchette.][%wrong Ce n'est pas la fourchette. Regardez encore.]} 1... Rc7 {Oui, vous avez fait une fourchette entre la tour et le cavalier. Pouvez-vous prendre maintenant ?} 2. cxd7 {[%hint Pouvez-vous prendre avec votre pion ?][%wrong Ce n'est pas ça, réessayez s'il vous plaît.]Incroyable ! Votre fourchette vous a permis de prendre un cavalier.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1r1k/p5pp/1p6/1Qp1N3/8/1B6/P4PPP/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight b3;color;%23ffaa00;opacity;0.8;square;b3;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true][%c_arrow f7d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;d8;persistent;true,f7h8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f7;to;h8;persistent;true]Parfois, les fourchettes se font quand vos pièces coopèrent !} 1. Nf7+ {[%wrong Ce n'était pas ça. Réessayez, vous pouvez utiliser un indice.][%hint Pouvez-vous utiliser votre cavalier pour faire une fourchette ?]} 1... Kg8 {Votre cavalier peut faire la fourchette parce qu'il est protégé par le fou. Pouvez-vous prendre maintenant ?} 2. Nxd8+ {[%hint Que pouvez-vous prendre avec votre cavalier ?][%wrong Ce n'est pas le bon coup, vous pouvez réessayer.]Excellent. Vous avez pris la pièce la plus précieuse.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"q5k1/r2P1pp1/6b1/7p/8/1BP3NP/PP3PP1/4R1K1 w - - 0 1\"]\r\n\r\n{Faites une fourchette pour promouvoir votre pion !} 1. Re8+ {[%hint Pouvez-vous utiliser votre tour pour faire une fourchette ?][%wrong Ce n'est pas encore le bon coup. Vous pouvez utiliser un indice.]} (1. d8=Q+? Qxd8 {C'était une fourchette, mais vous vous êtes fait prendre.}) (1. d8=R+? Qxd8 {C'était une fourchette, mais vous vous êtes fait prendre.}) 1... Qxe8 {Pouvez-vous promouvoir maintenant ?} 2. dxe8=Q+ {[%wrong Ce n'est pas encore le bon coup. Vous voulez un indice ?][%hint Que se passe-t-il si vous prenez la dame ?] Excellent !} (2. dxe8=R+? {Pouvez-vous promouvoir en la pièce la plus puissante ?}) (2. dxe8=N? {Pouvez-vous promouvoir en la pièce la plus puissante ?}) (2. dxe8=B? {Pouvez-vous promouvoir en la pièce la plus puissante ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/1bnpbn2/4p3/3PP3/2P2N2/PP2BPPP/RNBQ1R2 w - - 0 1\"]\r\n\r\n{Trouvez une fourchette avec un pion.} 1. d5 {[%hint Vous pouvez faire une fourchette entre un cavalier et un fou.][%wrong Ce n'est pas la fourchette. Trouvez le bon pion pour faire la fourchette.]} 1... Bxd5 {Oui, bien vu ! Pouvez-vous prendre maintenant ?} 2. exd5 {[%hint Pouvez-vous prendre avec votre pion ?][%wrong Ce n'est pas la bonne prise, pouvez-vous réessayer ?]Exactement ! Votre fourchette vous a permis de prendre un fou.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k2r/ppp2ppp/1q2n3/8/6b1/2P2N2/PP3PPP/2BQ1RK1 w - - 0 1\"]\r\n\r\n{Celui-ci est difficile ! Cherchez un échec bien caché.} 1. Qa4+ {[%hint Pouvez-vous utiliser votre dame pour faire échec ?][%wrong Ce n'est pas encore ça. Voulez-vous un indice ?]Oui ! Après que le roi bouge, vous pouvez prendre une pièce.} 1... Ke7 {Quelle pièce pouvez-vous prendre maintenant ?} 2. Qxg4 {[%hint Quelle pièce pouvez-vous prendre avec votre dame ?][%wrong Cherchez une pièce gratuite.] Excellent !} (2. Qxa7? Qxa7 {Votre dame se fait prendre.}) *"
+    ],
+    "courseId": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à faire une fourchette.",
+    "outroText": "Maintenant vous savez faire une fourchette.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs",
+      "title": "Tactique"
+    },
+    "parentId": "431dda96-2124-11f1-9851-bf2aa6f24686"
+  },
+  "curriculum": {
+    "number": 31,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactique",
+      "path": "tactiques-echecs",
+      "order": 2
+    }
+  }
+}

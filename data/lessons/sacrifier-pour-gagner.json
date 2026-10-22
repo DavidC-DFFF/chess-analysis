@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/sacrifier-pour-gagner",
+  "capturedAt": "2026-10-22T12:23:38.968Z",
+  "title": "Sacrifier pour gagner",
+  "exercises": [
+    {
+      "fen": "r1b2rk1/p1q2ppp/1p6/8/8/QP3N2/P3RPPP/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs n'ont pas encore connecté leurs tours. Trouvez un fort sacrifice forçant le mat sur la dernière rangée !",
+        "[%wrong Ce coup ne force pas le mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?]",
+        "Une idée intéressante, mais les noirs évitent le mat. Trouvez un coup qui force la décision !",
+        "Superbe ! Le roi noir est désormais exposé sur la dernière rangée. Matez-le !",
+        "[%wrong Ce n'est pas mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Bien joué, c'est échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/p1q2ppp/1p6/8/8/QP3N2/P3RPPP/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs n'ont pas encore connecté leurs tours. Trouvez un fort sacrifice forçant le mat sur la dernière rangée !}\r\n1.Qxf8+\r\n    {[%wrong Ce coup ne force pas le mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n    (1.Re8 $2 Qc5 {Une idée intéressante, mais les noirs évitent le mat. Trouvez un coup qui force la décision !})\r\n1...Kxf8\r\n    {Superbe ! Le roi noir est désormais exposé sur la dernière rangée. Matez-le !}\r\n2.Re8#\r\n    {[%wrong Ce n'est pas mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Bien joué, c'est échec et mat !}\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/pp2n1pp/2p2p2/4p3/2B1P3/2N2N2/PPP2PPP/R1BQK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les dames se regardent en chien de faïence ! Trouvez un sacrifice permettant de gagner la dame noire.",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le roi noir est le seul défenseur de la dame. Comment le forcer à bouger ?]",
+        "Bien essayé, mais dans cette variante, les noirs échangent les dames et obtiennent un grand avantage. Trouvez mieux !",
+        "Joli ! Les blancs sacrifient le fou pour forcer le roi noir à quitter la protection de la dame. A vous de finir le travail !",
+        "[%wrong Ce coup ne gagne pas la dame noire !][%hint La dame noire n'est plus protégée...] Vous avez sacrifié un fou pour gagner une dame... Bel échange !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2n1pp/2p2p2/4p3/2B1P3/2N2N2/PPP2PPP/R1BQK2R w KQkq - 0 1\"]\r\n\r\n{Les dames se regardent en chien de faïence ! Trouvez un sacrifice permettant de gagner la dame noire.}\r\n1.Bf7+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le roi noir est le seul défenseur de la dame. Comment le forcer à bouger ?]}\r\n    (1.Nxe5 $2 Qxd1+ {Bien essayé, mais dans cette variante, les noirs échangent les dames et obtiennent un grand avantage. Trouvez mieux !})\r\n1...Kxf7\r\n    {Joli ! Les blancs sacrifient le fou pour forcer le roi noir à quitter la protection de la dame. A vous de finir le travail !}\r\n2.Qxd8\r\n    {[%wrong Ce coup ne gagne pas la dame noire !][%hint La dame noire n'est plus protégée...] Vous avez sacrifié un fou pour gagner une dame... Bel échange !}\r\n*"
+    },
+    {
+      "fen": "1rr5/7k/1p3p2/pP4pp/P7/6P1/2b2PBP/2R1R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Le fou noir attaque le pion a4, mais sa position est précaire. Trouvez un sacrifice gagnant du matériel !",
+        "[%wrong Il y a beaucoup plus fort dans la position. Essayez encore !][%hint Serait-il possible d'attirer une tour noire sur la même diagonale que le roi adverse ?]",
+        "Bien essayé, mais les noirs parent la menace et mettent les blancs sur le reculoir... Trouvez mieux !",
+        "C'est la bonne idée, mais cette attaque ne marche pas tant que le fou noir est sur la diagonale...",
+        "Bien joué ! Les blancs sacrifient une tour contre un fou, mais ils peuvent enchaîner par une fourchette !",
+        "[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint La tour et le roi noir sont désormais sur la même diagonale. Profitez-en !] Joli ! Le fou réalise une fourchette sur le roi et la tour. Au prochain coup, les blancs vont récupérer le matériel sacrifié et disposerons d'une pièce de plus !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rr5/7k/1p3p2/pP4pp/P7/6P1/2b2PBP/2R1R1K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Le fou noir attaque le pion a4, mais sa position est précaire. Trouvez un sacrifice gagnant du matériel !}\r\n1.Rxc2\r\n    {[%wrong Il y a beaucoup plus fort dans la position. Essayez encore !][%hint Serait-il possible d'attirer une tour noire sur la même diagonale que le roi adverse ?]}\r\n    (1.Bh3 $2 g4 {Bien essayé, mais les noirs parent la menace et mettent les blancs sur le reculoir... Trouvez mieux !})\r\n    (1.Be4+ $2 Bxe4 {C'est la bonne idée, mais cette attaque ne marche pas tant que le fou noir est sur la diagonale...})\r\n1...Rxc2\r\n    {Bien joué ! Les blancs sacrifient une tour contre un fou, mais ils peuvent enchaîner par une fourchette !}\r\n2.Be4+\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint La tour et le roi noir sont désormais sur la même diagonale. Profitez-en !] Joli ! Le fou réalise une fourchette sur le roi et la tour. Au prochain coup, les blancs vont récupérer le matériel sacrifié et disposerons d'une pièce de plus !}\r\n*"
+    },
+    {
+      "fen": "1r1q3k/5Kpr/6Qp/5P1P/4B3/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir a l'air en sécurité dans son coin, mais les blancs ont un puissant sacrifice qui va pulvériser les défenses adverses !",
+        "[%wrong Ce coup n'attaque pas le roi noir. Essayez encore !][%hint Quelle est la seule capture possible dans cette position ? Sortez le roi noir de sa cachette !]",
+        "Une idée intéressante, mais nous n'avons pas le temps de jouer ce coup car les noirs matent en premier. Trouvez mieux !",
+        "Les noirs gagnent simplement notre dame et notre attaque fait long feu. Trouvez mieux !",
+        "Superbe coup ! Le roi noir est désormais sur la diagonale de notre fou. Mettons-le à nouveau en échec !",
+        "[%wrong Ce coup ne met pas le roi noir en échec. Essayez encore !][%hint L'échec à la découverte est une arme puissante...]",
+        "Les noirs bloquent avec le pion car le coup Rg8 nous permettrait de jouer fxg7 mat. Mais même dans cette position, les blancs peuvent forcer le mat en deux. A vous de trouver comment !",
+        "[%wrong Ce coup ne met pas le roi noir en échec. Essayez encore !][%hint Ramenez un pion en attaque tout en mettent le roi noir en échec.]",
+        "L'attaque des blancs n'est pas assez tranchante, et les noirs vont avoir le temps de mater avec leur dame et leur tour. Trouvez mieux !",
+        "Joli ! Il est maintenant temps de mater !",
+        "[%wrong Ce n'est pas mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Ce sacrifice de dame nous a mené à un superbe mat en trois. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1q3k/5Kpr/6Qp/5P1P/4B3/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi noir a l'air en sécurité dans son coin, mais les blancs ont un puissant sacrifice qui va pulvériser les défenses adverses !}\r\n1.Qxh7+\r\n    {[%wrong Ce coup n'attaque pas le roi noir. Essayez encore !][%hint Quelle est la seule capture possible dans cette position ? Sortez le roi noir de sa cachette !]}\r\n    (1.f6 $2 Qd7# {Une idée intéressante, mais nous n'avons pas le temps de jouer ce coup car les noirs matent en premier. Trouvez mieux !})\r\n    (1.Qxg7+ $2 Rxg7+ {Les noirs gagnent simplement notre dame et notre attaque fait long feu. Trouvez mieux !})\r\n1...Kxh7\r\n    {Superbe coup ! Le roi noir est désormais sur la diagonale de notre fou. Mettons-le à nouveau en échec !}\r\n2.f6+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Essayez encore !][%hint L'échec à la découverte est une arme puissante...]}\r\n2...g6\r\n    {Les noirs bloquent avec le pion car le coup Rg8 nous permettrait de jouer fxg7 mat. Mais même dans cette position, les blancs peuvent forcer le mat en deux. A vous de trouver comment !}\r\n3.hxg6+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Essayez encore !][%hint Ramenez un pion en attaque tout en mettent le roi noir en échec.]}\r\n    (3.Bxg6+ $2 Kh8 {L'attaque des blancs n'est pas assez tranchante, et les noirs vont avoir le temps de mater avec leur dame et leur tour. Trouvez mieux !})\r\n3...Kh8\r\n    {Joli ! Il est maintenant temps de mater !}\r\n4.g7#\r\n    {[%wrong Ce n'est pas mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Ce sacrifice de dame nous a mené à un superbe mat en trois. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "1r5k/1pq3pp/2p5/6r1/PP1QpN2/4PbP1/5P2/1RR3K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs rêvent de jouer Th5 puis Th1 mat, mais le cavalier blanc bloque le passage. Trouvez un sacrifice ouvrant le chemin de notre tour !",
+        "[%wrong Ce coup ne participe pas à l'attaque de la tour sur la colonne h. Essayez encore !][%hint Si un cavalier vous bloque le passage, supprimez-le !]",
+        "Ce sacrifice ne nous permet pas de progresser. Trouvez mieux !",
+        "Ce cavalier est décidément bien placé ! Essayez de le supprimer !",
+        "Bien joué ! Les noirs prennent le cavalier avec la dame, et les blancs font l'erreur d'accepter le sacrifice. A vous de mater !",
+        "[%wrong Ce coup ne mate pas. Trouvez mieux !]\r\n[%hint Le cavalier ne protège plus h5. Il est temps d’exécuter notre plan de rêve !]",
+        "Joli coup ! Les blancs tentent de nous distraire de notre objectif en menaçant à leur tour de mater en un. Mais il est trop tard !",
+        "[%wrong Ce coup ne mate pas, essayez encore !] [%hint Trouvez le mat en un.] Vos talents tactiques s'améliorent à vue d’œil, continuez sur cette voie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r5k/1pq3pp/2p5/6r1/PP1QpN2/4PbP1/5P2/1RR3K1 b - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Les noirs rêvent de jouer Th5 puis Th1 mat, mais le cavalier blanc bloque le passage. Trouvez un sacrifice ouvrant le chemin de notre tour !} \r\n1... Qxf4 {[%wrong Ce coup ne participe pas à l'attaque de la tour sur la colonne h. Essayez encore !][%hint Si un cavalier vous bloque le passage, supprimez-le !]} \r\n(1... Rxg3+ $2 2. fxg3 {Ce sacrifice ne nous permet pas de progresser. Trouvez mieux !}) (1... Rg6 $2 2. Nxg6+ {Ce cavalier est décidément bien placé ! Essayez de le supprimer !}) \r\n2. exf4 $2 {Bien joué ! Les noirs prennent le cavalier avec la dame, et les blancs font l'erreur d'accepter le sacrifice. A vous de mater !} \r\nRh5 {[%wrong Ce coup ne mate pas. Trouvez mieux !]\r\n[%hint Le cavalier ne protège plus h5. Il est temps d’exécuter notre plan de rêve !]} 3. Qd6 {Joli coup ! Les blancs tentent de nous distraire de notre objectif en menaçant à leur tour de mater en un. Mais il est trop tard !} Rh1# {[%wrong Ce coup ne mate pas, essayez encore !] [%hint Trouvez le mat en un.] Vos talents tactiques s'améliorent à vue d’œil, continuez sur cette voie !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "3cb8b336-9cea-11e8-97fe-81132940e0ec",
+    "name": "Sacrifier pour gagner",
+    "path": "sacrifier-pour-gagner",
+    "description": "Ne craignez pas de donner vos pièces si cela vous permet de gagner la partie. Soyez particulièrement vigilant aux échecs, aux prises et aux menaces de sacrifices.",
+    "glyphName": "game-type-teammatch",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-sacrificing-to-win-f1n.mp4",
+    "fen": "r1b2rk1/p1q2ppp/1p6/8/8/QP3N2/P3RPPP/4R1K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/p1q2ppp/1p6/8/8/QP3N2/P3RPPP/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs n'ont pas encore connecté leurs tours. Trouvez un fort sacrifice forçant le mat sur la dernière rangée !}\r\n1.Qxf8+\r\n    {[%wrong Ce coup ne force pas le mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n    (1.Re8 $2 Qc5 {Une idée intéressante, mais les noirs évitent le mat. Trouvez un coup qui force la décision !})\r\n1...Kxf8\r\n    {Superbe ! Le roi noir est désormais exposé sur la dernière rangée. Matez-le !}\r\n2.Re8#\r\n    {[%wrong Ce n'est pas mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Bien joué, c'est échec et mat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2n1pp/2p2p2/4p3/2B1P3/2N2N2/PPP2PPP/R1BQK2R w KQkq - 0 1\"]\r\n\r\n{Les dames se regardent en chien de faïence ! Trouvez un sacrifice permettant de gagner la dame noire.}\r\n1.Bf7+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le roi noir est le seul défenseur de la dame. Comment le forcer à bouger ?]}\r\n    (1.Nxe5 $2 Qxd1+ {Bien essayé, mais dans cette variante, les noirs échangent les dames et obtiennent un grand avantage. Trouvez mieux !})\r\n1...Kxf7\r\n    {Joli ! Les blancs sacrifient le fou pour forcer le roi noir à quitter la protection de la dame. A vous de finir le travail !}\r\n2.Qxd8\r\n    {[%wrong Ce coup ne gagne pas la dame noire !][%hint La dame noire n'est plus protégée...] Vous avez sacrifié un fou pour gagner une dame... Bel échange !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rr5/7k/1p3p2/pP4pp/P7/6P1/2b2PBP/2R1R1K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Le fou noir attaque le pion a4, mais sa position est précaire. Trouvez un sacrifice gagnant du matériel !}\r\n1.Rxc2\r\n    {[%wrong Il y a beaucoup plus fort dans la position. Essayez encore !][%hint Serait-il possible d'attirer une tour noire sur la même diagonale que le roi adverse ?]}\r\n    (1.Bh3 $2 g4 {Bien essayé, mais les noirs parent la menace et mettent les blancs sur le reculoir... Trouvez mieux !})\r\n    (1.Be4+ $2 Bxe4 {C'est la bonne idée, mais cette attaque ne marche pas tant que le fou noir est sur la diagonale...})\r\n1...Rxc2\r\n    {Bien joué ! Les blancs sacrifient une tour contre un fou, mais ils peuvent enchaîner par une fourchette !}\r\n2.Be4+\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint La tour et le roi noir sont désormais sur la même diagonale. Profitez-en !] Joli ! Le fou réalise une fourchette sur le roi et la tour. Au prochain coup, les blancs vont récupérer le matériel sacrifié et disposerons d'une pièce de plus !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1q3k/5Kpr/6Qp/5P1P/4B3/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi noir a l'air en sécurité dans son coin, mais les blancs ont un puissant sacrifice qui va pulvériser les défenses adverses !}\r\n1.Qxh7+\r\n    {[%wrong Ce coup n'attaque pas le roi noir. Essayez encore !][%hint Quelle est la seule capture possible dans cette position ? Sortez le roi noir de sa cachette !]}\r\n    (1.f6 $2 Qd7# {Une idée intéressante, mais nous n'avons pas le temps de jouer ce coup car les noirs matent en premier. Trouvez mieux !})\r\n    (1.Qxg7+ $2 Rxg7+ {Les noirs gagnent simplement notre dame et notre attaque fait long feu. Trouvez mieux !})\r\n1...Kxh7\r\n    {Superbe coup ! Le roi noir est désormais sur la diagonale de notre fou. Mettons-le à nouveau en échec !}\r\n2.f6+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Essayez encore !][%hint L'échec à la découverte est une arme puissante...]}\r\n2...g6\r\n    {Les noirs bloquent avec le pion car le coup Rg8 nous permettrait de jouer fxg7 mat. Mais même dans cette position, les blancs peuvent forcer le mat en deux. A vous de trouver comment !}\r\n3.hxg6+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Essayez encore !][%hint Ramenez un pion en attaque tout en mettent le roi noir en échec.]}\r\n    (3.Bxg6+ $2 Kh8 {L'attaque des blancs n'est pas assez tranchante, et les noirs vont avoir le temps de mater avec leur dame et leur tour. Trouvez mieux !})\r\n3...Kh8\r\n    {Joli ! Il est maintenant temps de mater !}\r\n4.g7#\r\n    {[%wrong Ce n'est pas mat. Essayez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Ce sacrifice de dame nous a mené à un superbe mat en trois. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r5k/1pq3pp/2p5/6r1/PP1QpN2/4PbP1/5P2/1RR3K1 b - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Les noirs rêvent de jouer Th5 puis Th1 mat, mais le cavalier blanc bloque le passage. Trouvez un sacrifice ouvrant le chemin de notre tour !} \r\n1... Qxf4 {[%wrong Ce coup ne participe pas à l'attaque de la tour sur la colonne h. Essayez encore !][%hint Si un cavalier vous bloque le passage, supprimez-le !]} \r\n(1... Rxg3+ $2 2. fxg3 {Ce sacrifice ne nous permet pas de progresser. Trouvez mieux !}) (1... Rg6 $2 2. Nxg6+ {Ce cavalier est décidément bien placé ! Essayez de le supprimer !}) \r\n2. exf4 $2 {Bien joué ! Les noirs prennent le cavalier avec la dame, et les blancs font l'erreur d'accepter le sacrifice. A vous de mater !} \r\nRh5 {[%wrong Ce coup ne mate pas. Trouvez mieux !]\r\n[%hint Le cavalier ne protège plus h5. Il est temps d’exécuter notre plan de rêve !]} 3. Qd6 {Joli coup ! Les blancs tentent de nous distraire de notre objectif en menaçant à leur tour de mater en un. Mais il est trop tard !} Rh1# {[%wrong Ce coup ne mate pas, essayez encore !] [%hint Trouvez le mat en un.] Vos talents tactiques s'améliorent à vue d’œil, continuez sur cette voie !} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La valeur des pièces perd de son importance quand le roi est en jeu !",
+    "outroText": "Vous développez de belles aptitudes d'attaque.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "0bbe5b4e-83ab-11e8-b881-834b5f6adcca",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sacrificing-to-win5e62029770087.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sacrificing-to-win-15ea24210c6dfb.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sacrificing-to-win-2602e8a9d8b56f.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 64,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/desperado-et-coup-intermediaire",
+  "capturedAt": "2026-10-22T12:23:41.234Z",
+  "title": "Desperado et coup intermédiaire",
+  "exercises": [
+    {
+      "fen": "2r1r1k1/q4ppp/4b3/8/8/1Q3N1P/1P4P1/R4R1K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les deux dames sont attaquées. Utilisez le thème du desparado pour gagner du matériel !",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort.][%hint Trouvez un coup de dame.]",
+        "Les deux camps échangent leurs dames et rentrent dans une position égale. Trouvez une attaque de desparado pour prendre l'avantage !",
+        "Les noirs répondent par un autre desperado ! Continuons dans cette voie pour assurer le gain matériel.",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Votre dame est déjà un desperado !][%hint Trouvez un coup de dame gagnant du matériel en force.]",
+        "C'est la bonne idée, mais pas la bonne tour. Essayez encore !",
+        "Dans cette variante, ce sont les noirs qui gagnent du matériel. Continuez dans le style desperado !",
+        "Bien essayé, mais il faudrait donner la dame contre une pièce plus forte qu'un simple pion... Cherchez encore !",
+        "Fantastique ! La dame prend une autre tour avant de tirer sa révérence. Il est maintenant temps de gagner du matériel !",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Prenez la plus forte pièce des noirs.] La dame a réalisé un superbe baroud d'honneur, et vous avez désormais une pièce de plus !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1r1k1/q4ppp/4b3/8/8/1Q3N1P/1P4P1/R4R1K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les deux dames sont attaquées. Utilisez le thème du desparado pour gagner du matériel !}\r\n1.Qxe6\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort.][%hint Trouvez un coup de dame.]}\r\n    (1.Rxa7 $2 Bxb3 {Les deux camps échangent leurs dames et rentrent dans une position égale. Trouvez une attaque de desparado pour prendre l'avantage !})\r\n1...Qxa1\r\n    {Les noirs répondent par un autre desperado ! Continuons dans cette voie pour assurer le gain matériel.}\r\n2.Qxe8+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Votre dame est déjà un desperado !][%hint Trouvez un coup de dame gagnant du matériel en force.]}\r\n    (2.Qxc8 $2 Qxf1+ {C'est la bonne idée, mais pas la bonne tour. Essayez encore !})\r\n    (2.Rxa1 $2 Rxe6 {Dans cette variante, ce sont les noirs qui gagnent du matériel. Continuez dans le style desperado !})\r\n    (2.Qxf7+ $2 Kxf7 {Bien essayé, mais il faudrait donner la dame contre une pièce plus forte qu'un simple pion... Cherchez encore !})\r\n2...Rxe8\r\n    {Fantastique ! La dame prend une autre tour avant de tirer sa révérence. Il est maintenant temps de gagner du matériel !}\r\n3.Rxa1\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Prenez la plus forte pièce des noirs.] La dame a réalisé un superbe baroud d'honneur, et vous avez désormais une pièce de plus !}\r\n*"
+    },
+    {
+      "fen": "2rr3k/1b3ppp/3p2n1/p2N4/1p2PB2/1P6/P4QPP/q4RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de prendre une tour en a1, mais leur dame est enfermée. Trouvez-leur un puissant coup de desperado !",
+        "[%wrong Il existe un coup plus fort. Cherchez-le !][%hint Quelle pièce blanche la dame pourrait-elle capturer avant de quitter l'échiquier ?] Joli ! La dame s'est emparée de deux tours avant de rendre l'âme. C'est un échange qui finalement avantage les noirs.",
+        "Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !",
+        "Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !",
+        "Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !",
+        "Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr3k/1b3ppp/3p2n1/p2N4/1p2PB2/1P6/P4QPP/q4RK1 b - - 0 1\"]\r\n\r\n{Les noirs viennent de prendre une tour en a1, mais leur dame est enfermée. Trouvez-leur un puissant coup de desperado !}\r\n1...Qxf1+\r\n    {[%wrong Il existe un coup plus fort. Cherchez-le !][%hint Quelle pièce blanche la dame pourrait-elle capturer avant de quitter l'échiquier ?] Joli ! La dame s'est emparée de deux tours avant de rendre l'âme. C'est un échange qui finalement avantage les noirs.}\r\n    (1...Qc3 $2 2.Nxc3 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n    (1...Qxa2 $2 2.Qxa2 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n    (1...Qe5 $2 2.Bxe5 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n    (1...Qf6 $2 2.Nxf6 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n*"
+    },
+    {
+      "fen": "4q3/p3r1kp/2Q3p1/8/8/P7/1P3PPP/3r1RK1 w - - 0 26",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs viennent de prendre la tour d1 avec leur tour d7. Avant de reprendre la tour, n'y aurait-il pas un puissant zwischenzug, (coup intermédiaire) à jouer ?",
+        "[%wrong Non, ce n'est pas un coup intermédiaire.][%hint Comment mettre la dame en sécurité tout en attaquant le roi noir ?]",
+        "Dans cette variante, ce sont les noirs qui gagnent du matériel grâce à un coup intermédiaire. Cherchez encore !",
+        "Oups ! Ce coup perd la partie. Essayez encore !",
+        "Bien joué ! Avec cet échec, les blancs mettent leur dame à l'abri et couvrent la case e1. Et maintenant, il est temps de récupérer la tour !",
+        "[%wrong Ce coup ne gagne pas la tour d1. Essayez encore !][%hint Prenez la tour d1.] Grâce à ce joli zwischenzug, les blancs obtiennent une très bonne finale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4q3/p3r1kp/2Q3p1/8/8/P7/1P3PPP/3r1RK1 w - - 0 26\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de prendre la tour d1 avec leur tour d7. Avant de reprendre la tour, n'y aurait-il pas un puissant zwischenzug, (coup intermédiaire) à jouer ?}\r\n26.Qc3+\r\n    {[%wrong Non, ce n'est pas un coup intermédiaire.][%hint Comment mettre la dame en sécurité tout en attaquant le roi noir ?]}\r\n    (26.Qxe8 $2 Rxf1+ {Dans cette variante, ce sont les noirs qui gagnent du matériel grâce à un coup intermédiaire. Cherchez encore !})\r\n    (26.Rxd1 $2 Re1+ {Oups ! Ce coup perd la partie. Essayez encore !})\r\n26...Kg8\r\n    {Bien joué ! Avec cet échec, les blancs mettent leur dame à l'abri et couvrent la case e1. Et maintenant, il est temps de récupérer la tour !}\r\n27.Rxd1\r\n    {[%wrong Ce coup ne gagne pas la tour d1. Essayez encore !][%hint Prenez la tour d1.] Grâce à ce joli zwischenzug, les blancs obtiennent une très bonne finale.}\r\n*"
+    },
+    {
+      "fen": "5r2/2R2pp1/3qpn1p/pB1k1p2/P2P4/5PB1/1P4PP/6K1 w - - 0 29",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire vient de prendre une pièce en d6. Faut-il reprendre immédiatement, ou jouer un puissant zwischenzug ?",
+        "[%wrong Il existe un coup intermédiaire plus fort. Trouvez-le !][%hint Comment dévier le roi noir, qui jusqu'à présent défend sa dame ?]",
+        "Prendre la dame ? Ce n'est pas un mauvais coup, mais il y avait un zwischenzug permettant de gagner du matériel. Trouvez-le !",
+        "Excellent zwischenzug ! Le roi noir ne défend plus sa dame. C'est le moment d'en profiter !",
+        "[%wrong Ce coup ne gagne pas la dame noire !][%hint Prenez la dame noire.] Superbe ! Les blancs ont gagné une pièce."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/2R2pp1/3qpn1p/pB1k1p2/P2P4/5PB1/1P4PP/6K1 w - - 0 29\"]\r\n\r\n{La dame noire vient de prendre une pièce en d6. Faut-il reprendre immédiatement, ou jouer un puissant zwischenzug ?}\r\n29.Bc4+\r\n    {[%wrong Il existe un coup intermédiaire plus fort. Trouvez-le !][%hint Comment dévier le roi noir, qui jusqu'à présent défend sa dame ?]}\r\n    (29.Bxd6 $2 Kxd6 {Prendre la dame ? Ce n'est pas un mauvais coup, mais il y avait un zwischenzug permettant de gagner du matériel. Trouvez-le !})\r\n29...Kxd4\r\n    {Excellent zwischenzug ! Le roi noir ne défend plus sa dame. C'est le moment d'en profiter !}\r\n30.Bxd6\r\n    {[%wrong Ce coup ne gagne pas la dame noire !][%hint Prenez la dame noire.] Superbe ! Les blancs ont gagné une pièce.}\r\n*"
+    },
+    {
+      "fen": "r5rk/ppN2p1p/5PpQ/5q2/1p3Rn1/1P6/P5PP/3R1K2 w - - 5 34",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette position complexe est issue d'une partie jouée entre deux grand-maîtres. Les deux dames sont en prise. Trouvez un desperado avec la dame blanche !",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le pion f6 peut soutenir un échec de la dame.]",
+        "Ce coup ne permet pas aux blancs de gagner suffisamment de matériel. Cherchez encore !",
+        "Oups ! Les noirs vont prendre la dame blanche au prochain coup avec un avantage décisif. Il faut trouver mieux !",
+        "Superbe desperado ! Et maintenant, prenons la tour noire avec échec.",
+        "[%wrong Ce coup ne prend pas la tour noire avec échec. Essayez encore !][%hint Prenez la tour noire.]",
+        "Bien joué ! Et maintenant, débarrassons-nous de la dame noire avant qu'elle n'ait eu le temps de dire ouf !",
+        "[%wrong Ce coup ne prend pas la dame noire. Essayez encore !][%hint Prenez la dame noire.]",
+        "Joliment fait. Le superbe desperado Dg7+ va permettre aux blancs de gagner une pièce. Il est temps de prendre la tour noire !",
+        "[%wrong Ce coup ne prend pas la tour noire. Essayez encore !][%hint Prenez la tour noire.] Les noirs vont ensuite réaliser une fourchette roi - tour en jouant ...Ce3+, ce qui signifie qu'à la fin de cette variante compliquée, les blancs auront un cavalier de plus. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5rk/ppN2p1p/5PpQ/5q2/1p3Rn1/1P6/P5PP/3R1K2 w - - 5 34\"]\r\n\r\n{Cette position complexe est issue d'une partie jouée entre deux grand-maîtres. Les deux dames sont en prise. Trouvez un desperado avec la dame blanche !}\r\n34.Qg7+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le pion f6 peut soutenir un échec de la dame.]}\r\n    (34.Qxh7+ $2 Kxh7 {Ce coup ne permet pas aux blancs de gagner suffisamment de matériel. Cherchez encore !})\r\n    (34.Nxa8 $2 Qb5+ {Oups ! Les noirs vont prendre la dame blanche au prochain coup avec un avantage décisif. Il faut trouver mieux !})\r\n34...Rxg7\r\n    {Superbe desperado ! Et maintenant, prenons la tour noire avec échec.}\r\n35.fxg7+\r\n    {[%wrong Ce coup ne prend pas la tour noire avec échec. Essayez encore !][%hint Prenez la tour noire.]}\r\n35...Kxg7\r\n    {Bien joué ! Et maintenant, débarrassons-nous de la dame noire avant qu'elle n'ait eu le temps de dire ouf !}\r\n36.Rxf5\r\n    {[%wrong Ce coup ne prend pas la dame noire. Essayez encore !][%hint Prenez la dame noire.]}\r\n36...gxf5\r\n    {Joliment fait. Le superbe desperado Dg7+ va permettre aux blancs de gagner une pièce. Il est temps de prendre la tour noire !}\r\n37.Nxa8\r\n    {[%wrong Ce coup ne prend pas la tour noire. Essayez encore !][%hint Prenez la tour noire.] Les noirs vont ensuite réaliser une fourchette roi - tour en jouant ...Ce3+, ce qui signifie qu'à la fin de cette variante compliquée, les blancs auront un cavalier de plus. Bien joué !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "c32bfd6a-9cea-11e8-8fc2-e3fad3de8257",
+    "name": "Desperado et coup intermédiaire",
+    "path": "desperado-et-coup-intermediaire",
+    "description": "Une pièce sur le point d’être capturée peut toujours aider son camp avant de disparaître. C’est ce qu’on appelle un « desperado ». Zwischenzug est un mot allemand signifiant « coup intermédiaire ». Au milieu d’une séquence d’échanges, il est parfois possible d’intercaler un coup utile (un échec, par exemple) pour remporter du matériel.",
+    "glyphName": "game-type-capture-anything",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-desperado-and-zwischenzug-j4r.mp4",
+    "fen": "5r2/2R2pp1/3qpn1p/p2k1p2/P1BP4/5PB1/1P4PP/6K1 b - - 1 29",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1r1k1/q4ppp/4b3/8/8/1Q3N1P/1P4P1/R4R1K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les deux dames sont attaquées. Utilisez le thème du desparado pour gagner du matériel !}\r\n1.Qxe6\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort.][%hint Trouvez un coup de dame.]}\r\n    (1.Rxa7 $2 Bxb3 {Les deux camps échangent leurs dames et rentrent dans une position égale. Trouvez une attaque de desparado pour prendre l'avantage !})\r\n1...Qxa1\r\n    {Les noirs répondent par un autre desperado ! Continuons dans cette voie pour assurer le gain matériel.}\r\n2.Qxe8+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Votre dame est déjà un desperado !][%hint Trouvez un coup de dame gagnant du matériel en force.]}\r\n    (2.Qxc8 $2 Qxf1+ {C'est la bonne idée, mais pas la bonne tour. Essayez encore !})\r\n    (2.Rxa1 $2 Rxe6 {Dans cette variante, ce sont les noirs qui gagnent du matériel. Continuez dans le style desperado !})\r\n    (2.Qxf7+ $2 Kxf7 {Bien essayé, mais il faudrait donner la dame contre une pièce plus forte qu'un simple pion... Cherchez encore !})\r\n2...Rxe8\r\n    {Fantastique ! La dame prend une autre tour avant de tirer sa révérence. Il est maintenant temps de gagner du matériel !}\r\n3.Rxa1\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Prenez la plus forte pièce des noirs.] La dame a réalisé un superbe baroud d'honneur, et vous avez désormais une pièce de plus !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr3k/1b3ppp/3p2n1/p2N4/1p2PB2/1P6/P4QPP/q4RK1 b - - 0 1\"]\r\n\r\n{Les noirs viennent de prendre une tour en a1, mais leur dame est enfermée. Trouvez-leur un puissant coup de desperado !}\r\n1...Qxf1+\r\n    {[%wrong Il existe un coup plus fort. Cherchez-le !][%hint Quelle pièce blanche la dame pourrait-elle capturer avant de quitter l'échiquier ?] Joli ! La dame s'est emparée de deux tours avant de rendre l'âme. C'est un échange qui finalement avantage les noirs.}\r\n    (1...Qc3 $2 2.Nxc3 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n    (1...Qxa2 $2 2.Qxa2 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n    (1...Qe5 $2 2.Bxe5 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n    (1...Qf6 $2 2.Nxf6 {Bien essayé, mais il y a beaucoup plus fort. Faites de votre dame un desperado !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4q3/p3r1kp/2Q3p1/8/8/P7/1P3PPP/3r1RK1 w - - 0 26\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de prendre la tour d1 avec leur tour d7. Avant de reprendre la tour, n'y aurait-il pas un puissant zwischenzug, (coup intermédiaire) à jouer ?}\r\n26.Qc3+\r\n    {[%wrong Non, ce n'est pas un coup intermédiaire.][%hint Comment mettre la dame en sécurité tout en attaquant le roi noir ?]}\r\n    (26.Qxe8 $2 Rxf1+ {Dans cette variante, ce sont les noirs qui gagnent du matériel grâce à un coup intermédiaire. Cherchez encore !})\r\n    (26.Rxd1 $2 Re1+ {Oups ! Ce coup perd la partie. Essayez encore !})\r\n26...Kg8\r\n    {Bien joué ! Avec cet échec, les blancs mettent leur dame à l'abri et couvrent la case e1. Et maintenant, il est temps de récupérer la tour !}\r\n27.Rxd1\r\n    {[%wrong Ce coup ne gagne pas la tour d1. Essayez encore !][%hint Prenez la tour d1.] Grâce à ce joli zwischenzug, les blancs obtiennent une très bonne finale.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/2R2pp1/3qpn1p/pB1k1p2/P2P4/5PB1/1P4PP/6K1 w - - 0 29\"]\r\n\r\n{La dame noire vient de prendre une pièce en d6. Faut-il reprendre immédiatement, ou jouer un puissant zwischenzug ?}\r\n29.Bc4+\r\n    {[%wrong Il existe un coup intermédiaire plus fort. Trouvez-le !][%hint Comment dévier le roi noir, qui jusqu'à présent défend sa dame ?]}\r\n    (29.Bxd6 $2 Kxd6 {Prendre la dame ? Ce n'est pas un mauvais coup, mais il y avait un zwischenzug permettant de gagner du matériel. Trouvez-le !})\r\n29...Kxd4\r\n    {Excellent zwischenzug ! Le roi noir ne défend plus sa dame. C'est le moment d'en profiter !}\r\n30.Bxd6\r\n    {[%wrong Ce coup ne gagne pas la dame noire !][%hint Prenez la dame noire.] Superbe ! Les blancs ont gagné une pièce.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5rk/ppN2p1p/5PpQ/5q2/1p3Rn1/1P6/P5PP/3R1K2 w - - 5 34\"]\r\n\r\n{Cette position complexe est issue d'une partie jouée entre deux grand-maîtres. Les deux dames sont en prise. Trouvez un desperado avec la dame blanche !}\r\n34.Qg7+\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Le pion f6 peut soutenir un échec de la dame.]}\r\n    (34.Qxh7+ $2 Kxh7 {Ce coup ne permet pas aux blancs de gagner suffisamment de matériel. Cherchez encore !})\r\n    (34.Nxa8 $2 Qb5+ {Oups ! Les noirs vont prendre la dame blanche au prochain coup avec un avantage décisif. Il faut trouver mieux !})\r\n34...Rxg7\r\n    {Superbe desperado ! Et maintenant, prenons la tour noire avec échec.}\r\n35.fxg7+\r\n    {[%wrong Ce coup ne prend pas la tour noire avec échec. Essayez encore !][%hint Prenez la tour noire.]}\r\n35...Kxg7\r\n    {Bien joué ! Et maintenant, débarrassons-nous de la dame noire avant qu'elle n'ait eu le temps de dire ouf !}\r\n36.Rxf5\r\n    {[%wrong Ce coup ne prend pas la dame noire. Essayez encore !][%hint Prenez la dame noire.]}\r\n36...gxf5\r\n    {Joliment fait. Le superbe desperado Dg7+ va permettre aux blancs de gagner une pièce. Il est temps de prendre la tour noire !}\r\n37.Nxa8\r\n    {[%wrong Ce coup ne prend pas la tour noire. Essayez encore !][%hint Prenez la tour noire.] Les noirs vont ensuite réaliser une fourchette roi - tour en jouant ...Ce3+, ce qui signifie qu'à la fin de cette variante compliquée, les blancs auront un cavalier de plus. Bien joué !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Terminons par des tactiques aux noms aussi improbables qu'amusants !",
+    "outroText": "Votre vision tactique est à son apogée. Continuez-comme ca !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "a6e53796-83ab-11e8-b05b-39c31629b800",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/desperado-and-zwischenzug5d1255ae43fcd.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/desperado-and-zwischenzug-5668853d316247.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/desperado-and-zwischenzug-15ea24263f1016.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/desperado-and-zwischenzug-261436232ae21a.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 73,
+    "order": 10,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

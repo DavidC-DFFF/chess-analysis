@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/les-gambits",
+  "capturedAt": "2026-10-22T12:23:45.564Z",
+  "title": "Les gambits",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont décidé de jouer \"risqué\" et choisissent le gambit du roi. Trouvez le coup agressif attaquant tout de suite e5 !",
+        "[%wrong Ce coup n'est pas le gambit du roi. Cherchez encore !][%hint Attaquez e5 avec un pion en ouvrant la diagonale e1-h4 !]",
+        "Les blancs offrent un pion, et les noirs acceptent le sacrifice. Il s'apprêtent à jouer le pénible Dh4+, qui déroquerait notre roi. Comment empêcher cette idée tout en développant un cavalier ?",
+        "[%wrong Ce coup n'empêche pas Dh4 tout en développant un cavalier. Cherchez encore !][%hint Où placer notre cavalier g1 pour qu'il contrôle la case h4 ?] Très bien ! Les noirs ont maintenant de nombreuses options, dont le très dangereux coup 3...g5. Ils peuvent également se concentrer sur le développement en jouant 3...d5. Une partie tranchante se profile !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Les blancs ont décidé de jouer \"risqué\" et choisissent le gambit du roi. Trouvez le coup agressif attaquant tout de suite e5 !}\r\n2.f4\r\n    {[%wrong Ce coup n'est pas le gambit du roi. Cherchez encore !][%hint Attaquez e5 avec un pion en ouvrant la diagonale e1-h4 !]}\r\n2...exf4\r\n    {Les blancs offrent un pion, et les noirs acceptent le sacrifice. Il s'apprêtent à jouer le pénible Dh4+, qui déroquerait notre roi. Comment empêcher cette idée tout en développant un cavalier ?}\r\n3.Nf3\r\n    {[%wrong Ce coup n'empêche pas Dh4 tout en développant un cavalier. Cherchez encore !][%hint Où placer notre cavalier g1 pour qu'il contrôle la case h4 ?] Très bien ! Les noirs ont maintenant de nombreuses options, dont le très dangereux coup 3...g5. Ils peuvent également se concentrer sur le développement en jouant 3...d5. Une partie tranchante se profile !}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/8/2B1P3/8/PB3PPP/RN1QK1NR b KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont sacrifié deux pions contre une énorme avance de développement. Leurs deux fous visant agressivement notre aile roi. Trouvons une manière de rendre un pion pour ouvrir des lignes de développement et ralentir l'attaque blanche tout en incommodant le fou de cases blanches adverse.",
+        "[%wrong Nous sommes à la recherche d'un sacrifice de pion attaquant le fou de cases blanches adverse. Trouvez-le !][%hint Quel coup de pion attaque le fou de cases blanches tout en l'empêchant temporairement d'attaquer f7 ?]",
+        "Bien essayé, mais les blancs vont jouer Dd5 au prochain et obtenir une attaque puissante. Cherchez encore !",
+        "Bien joué ! Les noirs ralentissent l'attaque blanche et ouvrent une diagonale pour leur fou de cases blanches. Développons maintenant un cavalier pour continuer à attaquer ce fou !",
+        "[%wrong Ce coup ne développe pas un cavalier tout en attaquant le fou de cases blanches adverse. Cherchez encore !][%hint Quel coup de cavalier attaque immédiatement le fou d5 ?]",
+        "Oups ! Nous perdons la dame, et il est impossible de la récupérer par ...Fb4+, car le cavalier bloque le passage. Cherchez encore !",
+        "Les noirs auraient-ils gaffé ? Non ! Ne nous échappons pas face aux complications et emparons-nous du fou.",
+        "[%wrong Il n'y a rien à craindre, prenons le fou !][%hint Prenez le fou f7.]",
+        "Les noirs ont l'air d'avoir de gros problèmes, mais il existe un échec à la découverte qui va faire très mal à la dame adverse !",
+        "[%wrong Ce n'est pas l'échec à la découverte que nous cherchons. Essayez encore !][%hint Quel est le seul échec jouable dans cette position ?]",
+        "Excellent coup ! Les blancs doivent interposer leur dame, mais elle est de toute manière perdue. Prenez-la !",
+        "[%wrong Non, il est temps de gagner la dame blanche !][%hint Prenez la dame blanche !]",
+        "Les noirs ont survécu aux complications et obtiennent une position équilibrée. Développons maintenant notre tour pour mettre un peu plus de pression sur le centre blanc.",
+        "[%wrong Bien essayé, mais il existe un moyen beaucoup plus fort d'attaquer le centre blanc. Trouvez-le !][%hint Le pion e4 est aligné avec le roi blanc... Attaquons-le !] Bien joué ! La position va se stabiliser et les noirs vont avoir de solides chances."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/8/2B1P3/8/PB3PPP/RN1QK1NR b KQkq - 0 5\"]\r\n\r\n{Les blancs ont sacrifié deux pions contre une énorme avance de développement. Leurs deux fous visant agressivement notre aile roi. Trouvons une manière de rendre un pion pour ouvrir des lignes de développement et ralentir l'attaque blanche tout en incommodant le fou de cases blanches adverse.}\r\n5...d5\r\n    {[%wrong Nous sommes à la recherche d'un sacrifice de pion attaquant le fou de cases blanches adverse. Trouvez-le !][%hint Quel coup de pion attaque le fou de cases blanches tout en l'empêchant temporairement d'attaquer f7 ?]}\r\n    (5...b5 $2 6.Bxf7+ {Bien essayé, mais les blancs vont jouer Dd5 au prochain et obtenir une attaque puissante. Cherchez encore !})\r\n6.Bxd5\r\n    {Bien joué ! Les noirs ralentissent l'attaque blanche et ouvrent une diagonale pour leur fou de cases blanches. Développons maintenant un cavalier pour continuer à attaquer ce fou !}\r\n6...Nf6\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en attaquant le fou de cases blanches adverse. Cherchez encore !][%hint Quel coup de cavalier attaque immédiatement le fou d5 ?]}\r\n    (6...Ne7 $2 7.Bxf7+ {Oups ! Nous perdons la dame, et il est impossible de la récupérer par ...Fb4+, car le cavalier bloque le passage. Cherchez encore !})\r\n7.Bxf7+\r\n    {Les noirs auraient-ils gaffé ? Non ! Ne nous échappons pas face aux complications et emparons-nous du fou.}\r\n7...Kxf7\r\n    {[%wrong Il n'y a rien à craindre, prenons le fou !][%hint Prenez le fou f7.]}\r\n8.Qxd8\r\n    {Les noirs ont l'air d'avoir de gros problèmes, mais il existe un échec à la découverte qui va faire très mal à la dame adverse !}\r\n8...Bb4+\r\n    {[%wrong Ce n'est pas l'échec à la découverte que nous cherchons. Essayez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n9.Qd2\r\n    {Excellent coup ! Les blancs doivent interposer leur dame, mais elle est de toute manière perdue. Prenez-la !}\r\n9...Bxd2+\r\n    {[%wrong Non, il est temps de gagner la dame blanche !][%hint Prenez la dame blanche !]}\r\n10.Nxd2\r\n    {Les noirs ont survécu aux complications et obtiennent une position équilibrée. Développons maintenant notre tour pour mettre un peu plus de pression sur le centre blanc.}\r\n10...Re8\r\n    {[%wrong Bien essayé, mais il existe un moyen beaucoup plus fort d'attaquer le centre blanc. Trouvez-le !][%hint Le pion e4 est aligné avec le roi blanc... Attaquons-le !] Bien joué ! La position va se stabiliser et les noirs vont avoir de solides chances.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il existe une autre manière de répondre aux gambits : les refuser, et se concentrer sur un développement rapide. Trouvez un coup de pion répondant au centre en attaquant le pion e4.",
+        "[%wrong Nous voulons attaquer tout de suite le pion e4 avec un de nos pions. Cherchez encore !][%hint Quel pion peut jaillir au centre et attaquer en un coup le pion e4 ?]",
+        "Excellent ! Les noirs refusent le gambit et attaquent le centre blanc. Reprenons en d5 !",
+        "[%wrong Nous souhaitons reprendre en d5.][%hint Reprenez en d5 avec la dame !]",
+        "Très bien ! La dame noire vient mettre la pression sur le centre blanc. Développons-nous rapidement pour attaquer le pion d4 !",
+        "[%wrong Ce coup ne développe pas une pièce pour attaquer d4, ou bien il perd du matériel... Cherchez encore !][%hint Développez un cavalier sur sa case naturelle.]",
+        "Beau travail ! Les blancs ajoutent un nouveau défenseur au pion d4. Comment attaquer ce défenseur et le clouer à sa dame ?",
+        "[%wrong Ce coup ne développe pas une pièce tout en clouant le cavalier f3. Cherchez encore !][%hint Développez un fou sur sa case naturelle.]",
+        "Bien vu ! Les noirs développent une nouvelle pièce et mettent la pression sur le cavalier f3. Continuons à nous développer avec vigueur, et clouons maintenant le cavalier c3 !",
+        "[%wrong Ce coup ne développe pas une pièce tout en clouant le cavalier c3. Cherchez encore !][%hint Clouez le cavalier c3 à son roi avec un fou.] Joli ! Les noirs se développent de façon très active et mettent une pression maximale sur le pion d4. Refuser un gambit peut-être une excellente arme !",
+        "Ce coup est également jouable, mais il est très souvent préférable de réaliser un clouage avec une pièce mineure !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3\"]\r\n\r\n{Il existe une autre manière de répondre aux gambits : les refuser, et se concentrer sur un développement rapide. Trouvez un coup de pion répondant au centre en attaquant le pion e4.}\r\n3...d5\r\n    {[%wrong Nous voulons attaquer tout de suite le pion e4 avec un de nos pions. Cherchez encore !][%hint Quel pion peut jaillir au centre et attaquer en un coup le pion e4 ?]}\r\n4.exd5\r\n    {Excellent ! Les noirs refusent le gambit et attaquent le centre blanc. Reprenons en d5 !}\r\n4...Qxd5\r\n    {[%wrong Nous souhaitons reprendre en d5.][%hint Reprenez en d5 avec la dame !]}\r\n5.cxd4\r\n    {Très bien ! La dame noire vient mettre la pression sur le centre blanc. Développons-nous rapidement pour attaquer le pion d4 !}\r\n5...Nc6\r\n    {[%wrong Ce coup ne développe pas une pièce pour attaquer d4, ou bien il perd du matériel... Cherchez encore !][%hint Développez un cavalier sur sa case naturelle.]}\r\n6.Nf3\r\n    {Beau travail ! Les blancs ajoutent un nouveau défenseur au pion d4. Comment attaquer ce défenseur et le clouer à sa dame ?}\r\n6...Bg4\r\n    {[%wrong Ce coup ne développe pas une pièce tout en clouant le cavalier f3. Cherchez encore !][%hint Développez un fou sur sa case naturelle.]}\r\n7.Nc3\r\n    {Bien vu ! Les noirs développent une nouvelle pièce et mettent la pression sur le cavalier f3. Continuons à nous développer avec vigueur, et clouons maintenant le cavalier c3 !}\r\n7...Bb4\r\n    {[%wrong Ce coup ne développe pas une pièce tout en clouant le cavalier c3. Cherchez encore !][%hint Clouez le cavalier c3 à son roi avec un fou.] Joli ! Les noirs se développent de façon très active et mettent une pression maximale sur le pion d4. Refuser un gambit peut-être une excellente arme !}\r\n    (7...Qa5 $5 {Ce coup est également jouable, mais il est très souvent préférable de réaliser un clouage avec une pièce mineure !})\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Jouons 2. c4 et observons la réaction des noirs !",
+        "[%wrong Jouons le coup le plus populaire : 2. c4.][%hint Avancez votre pion c de deux cases.]",
+        "Les noirs nous proposent le gambit de Budapest ! Si nous refusons le pion, ils obtiendront une position solide... Acceptons le sacrifice !",
+        "[%wrong Non, il faut prendre ce pion e5 !][%hint Prenez le pion e5.]",
+        "Les noirs mettent le cavalier en lieu sûr et attaquent tout de suite notre pion e5. Il existe dans cette position de nombreux bons coups. Cette fois-ci, développons un fou pour protéger le pion.",
+        "[%wrong Pour les besoins de l'exercice, jouons la variante la plus classique en protégeant e5 avec un fou !][%hint Utilisez le fou de cases noires pour protéger le pion e5.]",
+        "Les noirs continuent à mettre la pression sur e5. Comment développer un cavalier pour le défendre une fois de plus ?",
+        "[%wrong Ce coup ne développe pas un cavalier en protégeant e5. Cherchez encore !][%hint Développez le cavalier g1 sur une case naturelle.] Beau travail ! Les blancs obtiennent une position solide contre le risqué gambit des noirs. Continuons maintenant à étudier cette position après quelques coups..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2\"]\r\n\r\n{Jouons 2. c4 et observons la réaction des noirs !}\r\n2.c4\r\n    {[%wrong Jouons le coup le plus populaire : 2. c4.][%hint Avancez votre pion c de deux cases.]}\r\n2...e5\r\n    {Les noirs nous proposent le gambit de Budapest ! Si nous refusons le pion, ils obtiendront une position solide... Acceptons le sacrifice !}\r\n3.dxe5\r\n    {[%wrong Non, il faut prendre ce pion e5 !][%hint Prenez le pion e5.]}\r\n3...Ng4\r\n    {Les noirs mettent le cavalier en lieu sûr et attaquent tout de suite notre pion e5. Il existe dans cette position de nombreux bons coups. Cette fois-ci, développons un fou pour protéger le pion.}\r\n4.Bf4\r\n    {[%wrong Pour les besoins de l'exercice, jouons la variante la plus classique en protégeant e5 avec un fou !][%hint Utilisez le fou de cases noires pour protéger le pion e5.]}\r\n4...Nc6\r\n    {Les noirs continuent à mettre la pression sur e5. Comment développer un cavalier pour le défendre une fois de plus ?}\r\n5.Nf3\r\n    {[%wrong Ce coup ne développe pas un cavalier en protégeant e5. Cherchez encore !][%hint Développez le cavalier g1 sur une case naturelle.] Beau travail ! Les blancs obtiennent une position solide contre le risqué gambit des noirs. Continuons maintenant à étudier cette position après quelques coups...}\r\n*"
+    },
+    {
+      "fen": "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/5N2/PP1NPPPP/R2QKB1R w KQkq - 7 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs continuent à mettre la pression sur le pion e5. Choisissons notre prochain coup entre deux options : 7.e3 ou 7.a3. Quel est le meilleur coup ?",
+        "[%wrong Pour cet exercice, nous allons nous limiter à deux options : 7. e3 ou 7. a3. Quel coup de pion jouer ?][%hint Finissons le développement au plus vite et préparons le roque !]",
+        "Ce coup est jouable, mais attention à ne pas tomber dans le piège ...Cd3 mat ! Pourquoi ne pas plutôt participer au contrôle du centre tout en préparant le développement du fou de cases blanches ?",
+        "Très bien ! Les blancs rendent le pion en jouant le solide 7.e3 et en préparant la suite de leur développement. Sortez le fou de cases blanches !",
+        "[%wrong Bien essayé, mais ce coup ne développe pas notre fou de cases blanches sur une case sure. Cherchez encore !][%hint Quelle est la seule case disponible pour le fou de cases blanches ?] Excellent travail ! Les blancs ont rendu le pion, mais les noirs ont du dépenser de nombreux tempi pour le récupérer. Par conséquent, les blancs ont obtenu un meilleur contrôle du centre et une position confortable."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/5N2/PP1NPPPP/R2QKB1R w KQkq - 7 7\"]\r\n\r\n{Les noirs continuent à mettre la pression sur le pion e5. Choisissons notre prochain coup entre deux options : 7.e3 ou 7.a3. Quel est le meilleur coup ?}\r\n7.e3\r\n    {[%wrong Pour cet exercice, nous allons nous limiter à deux options : 7. e3 ou 7. a3. Quel coup de pion jouer ?][%hint Finissons le développement au plus vite et préparons le roque !]}\r\n    (7.a3 $5 Ngxe5 {Ce coup est jouable, mais attention à ne pas tomber dans le piège ...Cd3 mat ! Pourquoi ne pas plutôt participer au contrôle du centre tout en préparant le développement du fou de cases blanches ?})\r\n7...Ngxe5\r\n    {Très bien ! Les blancs rendent le pion en jouant le solide 7.e3 et en préparant la suite de leur développement. Sortez le fou de cases blanches !}\r\n8.Be2\r\n    {[%wrong Bien essayé, mais ce coup ne développe pas notre fou de cases blanches sur une case sure. Cherchez encore !][%hint Quelle est la seule case disponible pour le fou de cases blanches ?] Excellent travail ! Les blancs ont rendu le pion, mais les noirs ont du dépenser de nombreux tempi pour le récupérer. Par conséquent, les blancs ont obtenu un meilleur contrôle du centre et une position confortable.}\r\n*"
+    },
+    {
+      "fen": "r1bqk2r/pppp1ppp/2n5/8/2BP4/B4N2/P4PPP/b2Q1RK1 w kq - 0 11",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette partie italienne, les blancs ont sacrifié deux pions et une tour pour obtenir un énorme avantage de développement et une colonne ouverte vers le roi adverse. Comment profiter au mieux de la colonne ouverte et punir le retard de développement des noirs ?",
+        "[%wrong Bien essayé, mais il existe un coup plus fort. Cherchez encore !!]\r\n[%hint Les tours adorent les colonnes ouvertes. Surtout si elles donnent sur le roi ennemi !]",
+        "Les noirs vont réussir à défendre leur roi, et leur avance matérielle pourrait devenir un vrai problème à moyen terme. Trouvez un moyen direct d'attaquer le roi noir !",
+        "C'est la bonne idée, mais votre position serait encore plus forte si vous donniez cet échec avec la tour... A vous !",
+        "Bien joué ! Les noirs ne peuvent pas roquer pour le moment. Récupérons maintenant le matériel pour obtenir une position gagnante !",
+        "[%wrong Ce coup ne récupère pas le matériel sacrifié. Cherchez encore !]\r\n[%hint Trouvez une prise qui va gagner la dame noire !]",
+        "Cette variante est également totalement gagnante. Bien joué ! Essayons maintenant Fxe7.",
+        "Oups ! Les noirs vont parvenir à fermer des lignes et à développer leur matériel. Cherchez encore !",
+        "Beau travail ! La dame noire est obligée de s'interposer ! Nous pourrions la capturer, mais il existe un autre coup encore plus fort. Trouvez-le !",
+        "[%wrong Nous voulons trouver un coup encore plus fort que de prendre la dame. Cherchez encore !][%hint La dame noire est clouée. Gagnez une autre pièce avant de vous en emparer !] La patience, c'est important ! Les blancs commencent par prendre le fou, car la dame est clouée et pourra être prise au prochain coup. La position est totalement gagnante !",
+        "Oups, cet échange perd du matériel ! Cherchez encore !",
+        "Bien vu, ce coup est également très fort. Mais il existe un autre coup encore plus fort à jouer avant de prendre la dame. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n5/8/2BP4/B4N2/P4PPP/b2Q1RK1 w kq - 0 11\"]\r\n[PlyCount \"5\"]\r\n\r\n{Dans cette partie italienne, les blancs ont sacrifié deux pions et une tour pour obtenir un énorme avantage de développement et une colonne ouverte vers le roi adverse. Comment profiter au mieux de la colonne ouverte et punir le retard de développement des noirs ?} \r\n11. Re1+ {[%wrong Bien essayé, mais il existe un coup plus fort. Cherchez encore !!]\r\n[%hint Les tours adorent les colonnes ouvertes. Surtout si elles donnent sur le roi ennemi !]} \r\n(11. Qxa1 $2 Ne7 {Les noirs vont réussir à défendre leur roi, et leur avance matérielle pourrait devenir un vrai problème à moyen terme. Trouvez un moyen direct d'attaquer le roi noir !}) \r\n(11. Qe2+ $6 Ne7 {C'est la bonne idée, mais votre position serait encore plus forte si vous donniez cet échec avec la tour... A vous !}) \r\n11... Ne7 {Bien joué ! Les noirs ne peuvent pas roquer pour le moment. Récupérons maintenant le matériel pour obtenir une position gagnante !} 12. Bxe7 {[%wrong Ce coup ne récupère pas le matériel sacrifié. Cherchez encore !]\r\n[%hint Trouvez une prise qui va gagner la dame noire !]} \r\n(12. Rxe7+ $5 {Cette variante est également totalement gagnante. Bien joué ! Essayons maintenant Fxe7.}) \r\n(12. Qxa1 $2 d6 {Oups ! Les noirs vont parvenir à fermer des lignes et à développer leur matériel. Cherchez encore !}) \r\n12... Qxe7 {Beau travail ! La dame noire est obligée de s'interposer ! Nous pourrions la capturer, mais il existe un autre coup encore plus fort. Trouvez-le !} 13. Qxa1 {[%wrong Nous voulons trouver un coup encore plus fort que de prendre la dame. Cherchez encore !][%hint La dame noire est clouée. Gagnez une autre pièce avant de vous en emparer !] La patience, c'est important ! Les blancs commencent par prendre le fou, car la dame est clouée et pourra être prise au prochain coup. La position est totalement gagnante !} \r\n(13.Bxf7+ $2 Kxf7 {Oups, cet échange perd du matériel ! Cherchez encore !}) \r\n(13. Rxe7+ $5 {Bien vu, ce coup est également très fort. Mais il existe un autre coup encore plus fort à jouer avant de prendre la dame. Trouvez-le !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "d02b2080-9ceb-11e8-9d27-cb08651f8dbc",
+    "name": "Les gambits",
+    "path": "les-gambits",
+    "description": "Parfois, sacrifier un pion ou deux permet d’accélérer le développement pour entrer dans une position plus tendue. C’est une approche risquée, mais qui peut mener à de superbes attaques. Sur 1.e4, les gambits les plus célèbres sont le gambit roi (1.e4 e5 2.f4) et le gambit danois (1.e4 e5 2.d4).",
+    "glyphName": "piece-pawn-gambit",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-gambits-v0g.mp4",
+    "fen": "r1b1k2r/ppppqppp/8/8/2BP4/5N2/P4PPP/Q3R1K1 b kq - 0 13",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Les blancs ont décidé de jouer \"risqué\" et choisissent le gambit du roi. Trouvez le coup agressif attaquant tout de suite e5 !}\r\n2.f4\r\n    {[%wrong Ce coup n'est pas le gambit du roi. Cherchez encore !][%hint Attaquez e5 avec un pion en ouvrant la diagonale e1-h4 !]}\r\n2...exf4\r\n    {Les blancs offrent un pion, et les noirs acceptent le sacrifice. Il s'apprêtent à jouer le pénible Dh4+, qui déroquerait notre roi. Comment empêcher cette idée tout en développant un cavalier ?}\r\n3.Nf3\r\n    {[%wrong Ce coup n'empêche pas Dh4 tout en développant un cavalier. Cherchez encore !][%hint Où placer notre cavalier g1 pour qu'il contrôle la case h4 ?] Très bien ! Les noirs ont maintenant de nombreuses options, dont le très dangereux coup 3...g5. Ils peuvent également se concentrer sur le développement en jouant 3...d5. Une partie tranchante se profile !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/8/2B1P3/8/PB3PPP/RN1QK1NR b KQkq - 0 5\"]\r\n\r\n{Les blancs ont sacrifié deux pions contre une énorme avance de développement. Leurs deux fous visant agressivement notre aile roi. Trouvons une manière de rendre un pion pour ouvrir des lignes de développement et ralentir l'attaque blanche tout en incommodant le fou de cases blanches adverse.}\r\n5...d5\r\n    {[%wrong Nous sommes à la recherche d'un sacrifice de pion attaquant le fou de cases blanches adverse. Trouvez-le !][%hint Quel coup de pion attaque le fou de cases blanches tout en l'empêchant temporairement d'attaquer f7 ?]}\r\n    (5...b5 $2 6.Bxf7+ {Bien essayé, mais les blancs vont jouer Dd5 au prochain et obtenir une attaque puissante. Cherchez encore !})\r\n6.Bxd5\r\n    {Bien joué ! Les noirs ralentissent l'attaque blanche et ouvrent une diagonale pour leur fou de cases blanches. Développons maintenant un cavalier pour continuer à attaquer ce fou !}\r\n6...Nf6\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en attaquant le fou de cases blanches adverse. Cherchez encore !][%hint Quel coup de cavalier attaque immédiatement le fou d5 ?]}\r\n    (6...Ne7 $2 7.Bxf7+ {Oups ! Nous perdons la dame, et il est impossible de la récupérer par ...Fb4+, car le cavalier bloque le passage. Cherchez encore !})\r\n7.Bxf7+\r\n    {Les noirs auraient-ils gaffé ? Non ! Ne nous échappons pas face aux complications et emparons-nous du fou.}\r\n7...Kxf7\r\n    {[%wrong Il n'y a rien à craindre, prenons le fou !][%hint Prenez le fou f7.]}\r\n8.Qxd8\r\n    {Les noirs ont l'air d'avoir de gros problèmes, mais il existe un échec à la découverte qui va faire très mal à la dame adverse !}\r\n8...Bb4+\r\n    {[%wrong Ce n'est pas l'échec à la découverte que nous cherchons. Essayez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n9.Qd2\r\n    {Excellent coup ! Les blancs doivent interposer leur dame, mais elle est de toute manière perdue. Prenez-la !}\r\n9...Bxd2+\r\n    {[%wrong Non, il est temps de gagner la dame blanche !][%hint Prenez la dame blanche !]}\r\n10.Nxd2\r\n    {Les noirs ont survécu aux complications et obtiennent une position équilibrée. Développons maintenant notre tour pour mettre un peu plus de pression sur le centre blanc.}\r\n10...Re8\r\n    {[%wrong Bien essayé, mais il existe un moyen beaucoup plus fort d'attaquer le centre blanc. Trouvez-le !][%hint Le pion e4 est aligné avec le roi blanc... Attaquons-le !] Bien joué ! La position va se stabiliser et les noirs vont avoir de solides chances.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3\"]\r\n\r\n{Il existe une autre manière de répondre aux gambits : les refuser, et se concentrer sur un développement rapide. Trouvez un coup de pion répondant au centre en attaquant le pion e4.}\r\n3...d5\r\n    {[%wrong Nous voulons attaquer tout de suite le pion e4 avec un de nos pions. Cherchez encore !][%hint Quel pion peut jaillir au centre et attaquer en un coup le pion e4 ?]}\r\n4.exd5\r\n    {Excellent ! Les noirs refusent le gambit et attaquent le centre blanc. Reprenons en d5 !}\r\n4...Qxd5\r\n    {[%wrong Nous souhaitons reprendre en d5.][%hint Reprenez en d5 avec la dame !]}\r\n5.cxd4\r\n    {Très bien ! La dame noire vient mettre la pression sur le centre blanc. Développons-nous rapidement pour attaquer le pion d4 !}\r\n5...Nc6\r\n    {[%wrong Ce coup ne développe pas une pièce pour attaquer d4, ou bien il perd du matériel... Cherchez encore !][%hint Développez un cavalier sur sa case naturelle.]}\r\n6.Nf3\r\n    {Beau travail ! Les blancs ajoutent un nouveau défenseur au pion d4. Comment attaquer ce défenseur et le clouer à sa dame ?}\r\n6...Bg4\r\n    {[%wrong Ce coup ne développe pas une pièce tout en clouant le cavalier f3. Cherchez encore !][%hint Développez un fou sur sa case naturelle.]}\r\n7.Nc3\r\n    {Bien vu ! Les noirs développent une nouvelle pièce et mettent la pression sur le cavalier f3. Continuons à nous développer avec vigueur, et clouons maintenant le cavalier c3 !}\r\n7...Bb4\r\n    {[%wrong Ce coup ne développe pas une pièce tout en clouant le cavalier c3. Cherchez encore !][%hint Clouez le cavalier c3 à son roi avec un fou.] Joli ! Les noirs se développent de façon très active et mettent une pression maximale sur le pion d4. Refuser un gambit peut-être une excellente arme !}\r\n    (7...Qa5 $5 {Ce coup est également jouable, mais il est très souvent préférable de réaliser un clouage avec une pièce mineure !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2\"]\r\n\r\n{Jouons 2. c4 et observons la réaction des noirs !}\r\n2.c4\r\n    {[%wrong Jouons le coup le plus populaire : 2. c4.][%hint Avancez votre pion c de deux cases.]}\r\n2...e5\r\n    {Les noirs nous proposent le gambit de Budapest ! Si nous refusons le pion, ils obtiendront une position solide... Acceptons le sacrifice !}\r\n3.dxe5\r\n    {[%wrong Non, il faut prendre ce pion e5 !][%hint Prenez le pion e5.]}\r\n3...Ng4\r\n    {Les noirs mettent le cavalier en lieu sûr et attaquent tout de suite notre pion e5. Il existe dans cette position de nombreux bons coups. Cette fois-ci, développons un fou pour protéger le pion.}\r\n4.Bf4\r\n    {[%wrong Pour les besoins de l'exercice, jouons la variante la plus classique en protégeant e5 avec un fou !][%hint Utilisez le fou de cases noires pour protéger le pion e5.]}\r\n4...Nc6\r\n    {Les noirs continuent à mettre la pression sur e5. Comment développer un cavalier pour le défendre une fois de plus ?}\r\n5.Nf3\r\n    {[%wrong Ce coup ne développe pas un cavalier en protégeant e5. Cherchez encore !][%hint Développez le cavalier g1 sur une case naturelle.] Beau travail ! Les blancs obtiennent une position solide contre le risqué gambit des noirs. Continuons maintenant à étudier cette position après quelques coups...}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/5N2/PP1NPPPP/R2QKB1R w KQkq - 7 7\"]\r\n\r\n{Les noirs continuent à mettre la pression sur le pion e5. Choisissons notre prochain coup entre deux options : 7.e3 ou 7.a3. Quel est le meilleur coup ?}\r\n7.e3\r\n    {[%wrong Pour cet exercice, nous allons nous limiter à deux options : 7. e3 ou 7. a3. Quel coup de pion jouer ?][%hint Finissons le développement au plus vite et préparons le roque !]}\r\n    (7.a3 $5 Ngxe5 {Ce coup est jouable, mais attention à ne pas tomber dans le piège ...Cd3 mat ! Pourquoi ne pas plutôt participer au contrôle du centre tout en préparant le développement du fou de cases blanches ?})\r\n7...Ngxe5\r\n    {Très bien ! Les blancs rendent le pion en jouant le solide 7.e3 et en préparant la suite de leur développement. Sortez le fou de cases blanches !}\r\n8.Be2\r\n    {[%wrong Bien essayé, mais ce coup ne développe pas notre fou de cases blanches sur une case sure. Cherchez encore !][%hint Quelle est la seule case disponible pour le fou de cases blanches ?] Excellent travail ! Les blancs ont rendu le pion, mais les noirs ont du dépenser de nombreux tempi pour le récupérer. Par conséquent, les blancs ont obtenu un meilleur contrôle du centre et une position confortable.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n5/8/2BP4/B4N2/P4PPP/b2Q1RK1 w kq - 0 11\"]\r\n[PlyCount \"5\"]\r\n\r\n{Dans cette partie italienne, les blancs ont sacrifié deux pions et une tour pour obtenir un énorme avantage de développement et une colonne ouverte vers le roi adverse. Comment profiter au mieux de la colonne ouverte et punir le retard de développement des noirs ?} \r\n11. Re1+ {[%wrong Bien essayé, mais il existe un coup plus fort. Cherchez encore !!]\r\n[%hint Les tours adorent les colonnes ouvertes. Surtout si elles donnent sur le roi ennemi !]} \r\n(11. Qxa1 $2 Ne7 {Les noirs vont réussir à défendre leur roi, et leur avance matérielle pourrait devenir un vrai problème à moyen terme. Trouvez un moyen direct d'attaquer le roi noir !}) \r\n(11. Qe2+ $6 Ne7 {C'est la bonne idée, mais votre position serait encore plus forte si vous donniez cet échec avec la tour... A vous !}) \r\n11... Ne7 {Bien joué ! Les noirs ne peuvent pas roquer pour le moment. Récupérons maintenant le matériel pour obtenir une position gagnante !} 12. Bxe7 {[%wrong Ce coup ne récupère pas le matériel sacrifié. Cherchez encore !]\r\n[%hint Trouvez une prise qui va gagner la dame noire !]} \r\n(12. Rxe7+ $5 {Cette variante est également totalement gagnante. Bien joué ! Essayons maintenant Fxe7.}) \r\n(12. Qxa1 $2 d6 {Oups ! Les noirs vont parvenir à fermer des lignes et à développer leur matériel. Cherchez encore !}) \r\n12... Qxe7 {Beau travail ! La dame noire est obligée de s'interposer ! Nous pourrions la capturer, mais il existe un autre coup encore plus fort. Trouvez-le !} 13. Qxa1 {[%wrong Nous voulons trouver un coup encore plus fort que de prendre la dame. Cherchez encore !][%hint La dame noire est clouée. Gagnez une autre pièce avant de vous en emparer !] La patience, c'est important ! Les blancs commencent par prendre le fou, car la dame est clouée et pourra être prise au prochain coup. La position est totalement gagnante !} \r\n(13.Bxf7+ $2 Kxf7 {Oups, cet échange perd du matériel ! Cherchez encore !}) \r\n(13. Rxe7+ $5 {Bien vu, ce coup est également très fort. Mais il existe un autre coup encore plus fort à jouer avant de prendre la dame. Trouvez-le !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Prêt à sacrifier du matériel dans les ouvertures ?",
+    "outroText": "Quand vous jouez un Gambit, il faut être actif et agressif pour le justifier.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "0af094c0-83b5-11e8-a0b5-27d9f3a70b09",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/gambits5e7aaff634634.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/gambits-15ea240a70f293.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/gambits-26166b04acddf1.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 92,
+    "order": 7,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

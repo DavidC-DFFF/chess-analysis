@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-avancees/finales-de-fous-de-couleurs-opposees",
+  "capturedAt": "2026-10-22T12:23:50.878Z",
+  "title": "Les finales de fous de couleurs opposées",
+  "exercises": [
+    {
+      "fen": "8/1kB4p/1P3K1P/6P1/4p3/4P3/8/3b4 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs ont deux pions de plus. Montrez vos talents de défenseur en tenant cette position !",
+        "[%wrong Ce coup n'empêche pas g6. Les blancs sont gagnants. Cherchez encore !][%hint Gardez un œil sur le dangereux pion blanc...]",
+        "Bien essayé, mais il faut absolument empêcher g6 pour avoir une chance de tenir cette finale. Cherchez encore !",
+        "Bien essayé, mais il faut absolument empêcher g6 pour avoir une chance de tenir cette finale. Cherchez encore !",
+        "Joli ! Les blancs se concentrent maintenant sur une autre faiblesse noire. Continuez à défendre !",
+        "[%wrong Ce coup n'empêche pas Rxe4, cherchez encore !][%hint Comment empêcher les blancs de jouer g6 tout en protégeant le pion e4 ?] Parfait ! Vous empêchez les blancs de progresser, et la nulle vous tend les bras !",
+        "Bien essayé, mais il ne faut pas oublier d'empêcher g6 ! Cherchez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1kB4p/1P3K1P/6P1/4p3/4P3/8/3b4 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont deux pions de plus. Montrez vos talents de défenseur en tenant cette position !}\r\n1...Bh5\r\n    {[%wrong Ce coup n'empêche pas g6. Les blancs sont gagnants. Cherchez encore !][%hint Gardez un œil sur le dangereux pion blanc...]}\r\n    (1...Bg4 $2 2.g6 {Bien essayé, mais il faut absolument empêcher g6 pour avoir une chance de tenir cette finale. Cherchez encore !})\r\n    (1...Bb3 $2 2.g6 {Bien essayé, mais il faut absolument empêcher g6 pour avoir une chance de tenir cette finale. Cherchez encore !})\r\n2.Ke5\r\n    {Joli ! Les blancs se concentrent maintenant sur une autre faiblesse noire. Continuez à défendre !}\r\n2...Bg6\r\n    {[%wrong Ce coup n'empêche pas Rxe4, cherchez encore !][%hint Comment empêcher les blancs de jouer g6 tout en protégeant le pion e4 ?] Parfait ! Vous empêchez les blancs de progresser, et la nulle vous tend les bras !}\r\n    (2...Bf3 $2 3.g6 {Bien essayé, mais il ne faut pas oublier d'empêcher g6 ! Cherchez encore.})\r\n*"
+    },
+    {
+      "fen": "8/8/8/2b1k3/6pp/3B4/7K/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Nous accusons un déficit de deux pions, mais pas de défaitisme ! Attaquez un pion avec votre fou pour forcer la nulle.",
+        "[%wrong Il ne s'agit pas d'un coup de fou attaquant un pion depuis une case sûre. Cherchez encore !][%hint Où mettre le fou pour qu'il puisse attaquer un pion noir sur cases blanches ?]",
+        "C'est la bonne idée, mais va falloir trouver une case plus sure pour attaquer ce pion... Essayez encore !",
+        "Bien vu ! En poussant le pion, les noirs nous auraient permis de bloquer avec notre fou de couleur opposée au leur. Par conséquent, ils choisissent de le protéger avec le roi. Forçons la nulle par un sacrifice !",
+        "[%wrong Ce coup ne sacrifie pas le fou. Essayez encore !][%hint En sacrifiant votre fou contre le pion, vous entrerez dans une finale nulle, car le fou adverse ne contrôle pas la case de promotion !]",
+        "Bien vu ! Ce sacrifice est correct car le fou adverse ne contrôle pas la case de promotion du pion. Tant que le roi blanc restera dans le coin de l’échiquier, les noirs ne pourront jamais progresser. Partie nulle !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2b1k3/6pp/3B4/7K/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Nous accusons un déficit de deux pions, mais pas de défaitisme ! Attaquez un pion avec votre fou pour forcer la nulle.}\r\n1.Be2\r\n    {[%wrong Il ne s'agit pas d'un coup de fou attaquant un pion depuis une case sûre. Cherchez encore !][%hint Où mettre le fou pour qu'il puisse attaquer un pion noir sur cases blanches ?]}\r\n    (1.Bf5 $2 Kxf5 {C'est la bonne idée, mais va falloir trouver une case plus sure pour attaquer ce pion... Essayez encore !})\r\n1...Kf4\r\n    {Bien vu ! En poussant le pion, les noirs nous auraient permis de bloquer avec notre fou de couleur opposée au leur. Par conséquent, ils choisissent de le protéger avec le roi. Forçons la nulle par un sacrifice !}\r\n2.Bxg4\r\n    {[%wrong Ce coup ne sacrifie pas le fou. Essayez encore !][%hint En sacrifiant votre fou contre le pion, vous entrerez dans une finale nulle, car le fou adverse ne contrôle pas la case de promotion !]}\r\n2...Kxg4\r\n    {Bien vu ! Ce sacrifice est correct car le fou adverse ne contrôle pas la case de promotion du pion. Tant que le roi blanc restera dans le coin de l’échiquier, les noirs ne pourront jamais progresser. Partie nulle !}\r\n*"
+    },
+    {
+      "fen": "8/8/4p3/Rp1b4/1B1P2k1/2P1K3/6r1/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs dominent les cases blanches. Profitez-en pour trouver un coup de fou menaçant mat.",
+        "[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Mettez votre fou sur une case où il appuiera la tour pour mater au prochain coup.]",
+        "Excellent coup ! Face à la menace de mat, les blancs sont obligés de se créer une case de fuite. Empêchez le roi blanc de s'enfuir !",
+        "[%wrong Ce coup n'empêche pas les blancs de jouer Rd4. Cherchez encore !][%hint Les blancs veulent jouer Rd4. Coupez-leur la retraite !] Joli ! Le roi blanc est totalement enfermé dans un réseau de mat.",
+        "Bien essayé, mais ce coup permet aux blancs d'échapper au réseau de mat et d'obtenir d'excellentes chances de nulle dans cette finale de fou de couleurs opposées. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4p3/Rp1b4/1B1P2k1/2P1K3/6r1/8 b - - 0 1\"]\r\n\r\n{Les noirs dominent les cases blanches. Profitez-en pour trouver un coup de fou menaçant mat.}\r\n1...Bc4\r\n    {[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Mettez votre fou sur une case où il appuiera la tour pour mater au prochain coup.]}\r\n2.d5\r\n    {Excellent coup ! Face à la menace de mat, les blancs sont obligés de se créer une case de fuite. Empêchez le roi blanc de s'enfuir !}\r\n2...e5\r\n    {[%wrong Ce coup n'empêche pas les blancs de jouer Rd4. Cherchez encore !][%hint Les blancs veulent jouer Rd4. Coupez-leur la retraite !] Joli ! Le roi blanc est totalement enfermé dans un réseau de mat.}\r\n    (2...Re2+ $2 3.Kd4 {Bien essayé, mais ce coup permet aux blancs d'échapper au réseau de mat et d'obtenir d'excellentes chances de nulle dans cette finale de fou de couleurs opposées. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "2B5/6k1/8/b4P2/8/4p3/3p4/1K6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs ont deux pions passés connectés et s'apprêtent à en promouvoir un au prochain coup. Est-il temps d'abandonner, ou bien y a-t-il un dernier espoir ?",
+        "[%wrong Ce coup n'empêche pas les noirs de promouvoir leur pion. Cherchez encore !][%hint Comment activer le fou de manière à ce qu'il contrôle les cases visées par les pions noirs ?]",
+        "Bien essayé, mais ce coup ne va pas nous permettre de stopper les pions noirs. Cherchez encore !",
+        "Superbe ressource! Sauvez maintenant la nulle en activant votre fou !",
+        "[%wrong Ce coup n'active pas le fou et n'empêche pas les pions noirs d'aller à dame. Cherchez encore !][%hint Où placer le fou pour qu'il enraye la poussée des pions adverses ?] Merci, les fous de couleurs opposées ! Le roi blanc va maintenant travailler main dans la main avec son fou pour empêcher les pions adverse d'avancer. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2B5/6k1/8/b4P2/8/4p3/3p4/1K6 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont deux pions passés connectés et s'apprêtent à en promouvoir un au prochain coup. Est-il temps d'abandonner, ou bien y a-t-il un dernier espoir ?}\r\n1.f6+\r\n    {[%wrong Ce coup n'empêche pas les noirs de promouvoir leur pion. Cherchez encore !][%hint Comment activer le fou de manière à ce qu'il contrôle les cases visées par les pions noirs ?]}\r\n    (1.Kc2 $2 e2 {Bien essayé, mais ce coup ne va pas nous permettre de stopper les pions noirs. Cherchez encore !})\r\n1...Kxf6\r\n    {Superbe ressource! Sauvez maintenant la nulle en activant votre fou !}\r\n2.Bg4\r\n    {[%wrong Ce coup n'active pas le fou et n'empêche pas les pions noirs d'aller à dame. Cherchez encore !][%hint Où placer le fou pour qu'il enraye la poussée des pions adverses ?] Merci, les fous de couleurs opposées ! Le roi blanc va maintenant travailler main dans la main avec son fou pour empêcher les pions adverse d'avancer. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "k2K4/8/3B3P/2P5/4b3/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Un coup de pion gagne, l'autre annule. Choisissez bien !",
+        "[%wrong Ce n'est pas un coup de pion, cherchez encore !][%hint Poussez le pion ayant le plus de chance d'accéder à la promotion !]",
+        "Bien essayé, mais les noirs vont maintenant jouer ...Ff5 pour contrôler la case de promotion, et la victoire devient impossible. Essayez encore !",
+        "Bien vu ! Continuons à pousser le pion c.",
+        "[%wrong N'abandonnez pas votre idée, poussez le pion c !][%hint Les pions passés sont fait pour être poussés !]",
+        "Le fou des noirs tentent de couvrir deux diagonales à la fois. Comment le déborder ?",
+        "[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint Le fou ne peut pas arrêter les deux pions à la fois. Trouvez un sacrifice gagnant !]",
+        "Bravo, c'est gagné ! Essayons maintenant en poussant l'autre pion.",
+        "Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?",
+        "Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?",
+        "Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?",
+        "Bien joué ! Le fou noir est débordé. Il est temps de promouvoir notre pion en dame !",
+        "[%wrong Ce coup ne fait pas une dame. Essayez encore.][%hint Transformez le pion en dame !] Bien joué ! Les blancs vont mater au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k2K4/8/3B3P/2P5/4b3/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Un coup de pion gagne, l'autre annule. Choisissez bien !}\r\n1.c6\r\n    {[%wrong Ce n'est pas un coup de pion, cherchez encore !][%hint Poussez le pion ayant le plus de chance d'accéder à la promotion !]}\r\n    (1.h7 $2 Bxh7 {Bien essayé, mais les noirs vont maintenant jouer ...Ff5 pour contrôler la case de promotion, et la victoire devient impossible. Essayez encore !})\r\n1...Bc2\r\n    {Bien vu ! Continuons à pousser le pion c.}\r\n2.c7\r\n    {[%wrong N'abandonnez pas votre idée, poussez le pion c !][%hint Les pions passés sont fait pour être poussés !]}\r\n2...Bf5\r\n    {Le fou des noirs tentent de couvrir deux diagonales à la fois. Comment le déborder ?}\r\n3.h7\r\n    {[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint Le fou ne peut pas arrêter les deux pions à la fois. Trouvez un sacrifice gagnant !]}\r\n    (3.c8=Q+ $5 {Bravo, c'est gagné ! Essayons maintenant en poussant l'autre pion.})\r\n    (3.c8=R+ $5 {Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?})\r\n    (3.c8=N $5 {Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?})\r\n    (3.c8=B $5 {Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?})\r\n3...Bxh7\r\n    {Bien joué ! Le fou noir est débordé. Il est temps de promouvoir notre pion en dame !}\r\n4.c8=Q+\r\n    {[%wrong Ce coup ne fait pas une dame. Essayez encore.][%hint Transformez le pion en dame !] Bien joué ! Les blancs vont mater au prochain coup.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "36256476-9ced-11e8-affc-554fe2a4014b",
+    "name": "Les finales de fous de couleurs opposées",
+    "path": "finales-de-fous-de-couleurs-opposees",
+    "description": "Dans le milieu de jeu, les fous de couleurs opposées donnent un attaquant de plus à chaque camp. En finale, ce cas de figure augmente très largement les possibilités de nulles. En effet, un fou peut bloquer toutes les cases d’une diagonale sans que son homologue ne puisse l’en empêcher.",
+    "glyphName": "piece-opposites-bishop",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-opposite-colored-bishop-endgames-p2d.mp4",
+    "fen": "8/2kB4/2P4p/b4K1P/6P1/8/8/8 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1kB4p/1P3K1P/6P1/4p3/4P3/8/3b4 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont deux pions de plus. Montrez vos talents de défenseur en tenant cette position !}\r\n1...Bh5\r\n    {[%wrong Ce coup n'empêche pas g6. Les blancs sont gagnants. Cherchez encore !][%hint Gardez un œil sur le dangereux pion blanc...]}\r\n    (1...Bg4 $2 2.g6 {Bien essayé, mais il faut absolument empêcher g6 pour avoir une chance de tenir cette finale. Cherchez encore !})\r\n    (1...Bb3 $2 2.g6 {Bien essayé, mais il faut absolument empêcher g6 pour avoir une chance de tenir cette finale. Cherchez encore !})\r\n2.Ke5\r\n    {Joli ! Les blancs se concentrent maintenant sur une autre faiblesse noire. Continuez à défendre !}\r\n2...Bg6\r\n    {[%wrong Ce coup n'empêche pas Rxe4, cherchez encore !][%hint Comment empêcher les blancs de jouer g6 tout en protégeant le pion e4 ?] Parfait ! Vous empêchez les blancs de progresser, et la nulle vous tend les bras !}\r\n    (2...Bf3 $2 3.g6 {Bien essayé, mais il ne faut pas oublier d'empêcher g6 ! Cherchez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2b1k3/6pp/3B4/7K/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Nous accusons un déficit de deux pions, mais pas de défaitisme ! Attaquez un pion avec votre fou pour forcer la nulle.}\r\n1.Be2\r\n    {[%wrong Il ne s'agit pas d'un coup de fou attaquant un pion depuis une case sûre. Cherchez encore !][%hint Où mettre le fou pour qu'il puisse attaquer un pion noir sur cases blanches ?]}\r\n    (1.Bf5 $2 Kxf5 {C'est la bonne idée, mais va falloir trouver une case plus sure pour attaquer ce pion... Essayez encore !})\r\n1...Kf4\r\n    {Bien vu ! En poussant le pion, les noirs nous auraient permis de bloquer avec notre fou de couleur opposée au leur. Par conséquent, ils choisissent de le protéger avec le roi. Forçons la nulle par un sacrifice !}\r\n2.Bxg4\r\n    {[%wrong Ce coup ne sacrifie pas le fou. Essayez encore !][%hint En sacrifiant votre fou contre le pion, vous entrerez dans une finale nulle, car le fou adverse ne contrôle pas la case de promotion !]}\r\n2...Kxg4\r\n    {Bien vu ! Ce sacrifice est correct car le fou adverse ne contrôle pas la case de promotion du pion. Tant que le roi blanc restera dans le coin de l’échiquier, les noirs ne pourront jamais progresser. Partie nulle !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4p3/Rp1b4/1B1P2k1/2P1K3/6r1/8 b - - 0 1\"]\r\n\r\n{Les noirs dominent les cases blanches. Profitez-en pour trouver un coup de fou menaçant mat.}\r\n1...Bc4\r\n    {[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Mettez votre fou sur une case où il appuiera la tour pour mater au prochain coup.]}\r\n2.d5\r\n    {Excellent coup ! Face à la menace de mat, les blancs sont obligés de se créer une case de fuite. Empêchez le roi blanc de s'enfuir !}\r\n2...e5\r\n    {[%wrong Ce coup n'empêche pas les blancs de jouer Rd4. Cherchez encore !][%hint Les blancs veulent jouer Rd4. Coupez-leur la retraite !] Joli ! Le roi blanc est totalement enfermé dans un réseau de mat.}\r\n    (2...Re2+ $2 3.Kd4 {Bien essayé, mais ce coup permet aux blancs d'échapper au réseau de mat et d'obtenir d'excellentes chances de nulle dans cette finale de fou de couleurs opposées. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2B5/6k1/8/b4P2/8/4p3/3p4/1K6 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont deux pions passés connectés et s'apprêtent à en promouvoir un au prochain coup. Est-il temps d'abandonner, ou bien y a-t-il un dernier espoir ?}\r\n1.f6+\r\n    {[%wrong Ce coup n'empêche pas les noirs de promouvoir leur pion. Cherchez encore !][%hint Comment activer le fou de manière à ce qu'il contrôle les cases visées par les pions noirs ?]}\r\n    (1.Kc2 $2 e2 {Bien essayé, mais ce coup ne va pas nous permettre de stopper les pions noirs. Cherchez encore !})\r\n1...Kxf6\r\n    {Superbe ressource! Sauvez maintenant la nulle en activant votre fou !}\r\n2.Bg4\r\n    {[%wrong Ce coup n'active pas le fou et n'empêche pas les pions noirs d'aller à dame. Cherchez encore !][%hint Où placer le fou pour qu'il enraye la poussée des pions adverses ?] Merci, les fous de couleurs opposées ! Le roi blanc va maintenant travailler main dans la main avec son fou pour empêcher les pions adverse d'avancer. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k2K4/8/3B3P/2P5/4b3/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Un coup de pion gagne, l'autre annule. Choisissez bien !}\r\n1.c6\r\n    {[%wrong Ce n'est pas un coup de pion, cherchez encore !][%hint Poussez le pion ayant le plus de chance d'accéder à la promotion !]}\r\n    (1.h7 $2 Bxh7 {Bien essayé, mais les noirs vont maintenant jouer ...Ff5 pour contrôler la case de promotion, et la victoire devient impossible. Essayez encore !})\r\n1...Bc2\r\n    {Bien vu ! Continuons à pousser le pion c.}\r\n2.c7\r\n    {[%wrong N'abandonnez pas votre idée, poussez le pion c !][%hint Les pions passés sont fait pour être poussés !]}\r\n2...Bf5\r\n    {Le fou des noirs tentent de couvrir deux diagonales à la fois. Comment le déborder ?}\r\n3.h7\r\n    {[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint Le fou ne peut pas arrêter les deux pions à la fois. Trouvez un sacrifice gagnant !]}\r\n    (3.c8=Q+ $5 {Bravo, c'est gagné ! Essayons maintenant en poussant l'autre pion.})\r\n    (3.c8=R+ $5 {Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?})\r\n    (3.c8=N $5 {Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?})\r\n    (3.c8=B $5 {Ce coup est également techniquement gagnant, mais pourquoi ne pas promouvoir notre pion en dame ?})\r\n3...Bxh7\r\n    {Bien joué ! Le fou noir est débordé. Il est temps de promouvoir notre pion en dame !}\r\n4.c8=Q+\r\n    {[%wrong Ce coup ne fait pas une dame. Essayez encore.][%hint Transformez le pion en dame !] Bien joué ! Les blancs vont mater au prochain coup.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "En finale, les fous de couleurs opposées favorisent la nulle.",
+    "outroText": "Une subtilité de plus ajoutée à votre arsenal !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "path": "finales-avancees",
+      "title": "Finales avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a03f97ac-a55b-11e8-8184-9d27df009acd.92637022.728x410o.3d0706f65a2f.png"
+    },
+    "parentId": "3f013880-83b7-11e8-bd1c-312025a96458",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opposite-colored-bishops-endgames5e54d3aa289b0.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opposite-colored-bishops-endgames-566ac74d564002.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opposite-colored-bishops-endgames-15ea23ec5183f9.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opposite-colored-bishops-endgames-2613a0186317f8.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 116,
+    "order": 5,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "name": "Finales avancées",
+      "path": "finales-avancees",
+      "order": 4
+    }
+  }
+}

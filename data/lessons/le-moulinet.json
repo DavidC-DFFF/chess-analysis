@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/le-moulinet",
+  "capturedAt": "2026-10-22T12:23:49.632Z",
+  "title": "Le moulinet",
+  "exercises": [
+    {
+      "fen": "7k/1b4pp/p3B3/1pp5/6P1/6NP/PBP3r1/Q4N1K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Grâce au moulinet, il est possible de donner des échecs à la découverte à l'infini... Commençons par nous emparer de l'intégralité du matériel blanc sur la colonne g !",
+        "[%wrong Ce coup ne capture pas de matériel sur la colonne g en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre un cavalier tout en faisant échec !]",
+        "Bien vu ! Les noirs prennent le cavalier. Continuons à gagner du matériel grâce au moulinet !",
+        "[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]",
+        "Bien joué ! Il est temps donner un nouvel échec à la découverte gagnant un pion !",
+        "[%wrong Ce coup ne capture pas de matériel sur la colonne g en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre un pion tout en faisant échec !]",
+        "Excellent ! Les noirs continuent leur razzia sur la colonne g. Continuez sur le même principe !",
+        "[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]",
+        "Formidable ! Vous êtes prêt pour la suite du moulinet..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1b4pp/p3B3/1pp5/6P1/6NP/PBP3r1/Q4N1K b - - 0 1\"]\r\n\r\n{Grâce au moulinet, il est possible de donner des échecs à la découverte à l'infini... Commençons par nous emparer de l'intégralité du matériel blanc sur la colonne g !}\r\n1...Rxg3+\r\n    {[%wrong Ce coup ne capture pas de matériel sur la colonne g en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre un cavalier tout en faisant échec !]}\r\n2.Kh2\r\n    {Bien vu ! Les noirs prennent le cavalier. Continuons à gagner du matériel grâce au moulinet !}\r\n2...Rg2+\r\n    {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n3.Kh1\r\n    {Bien joué ! Il est temps donner un nouvel échec à la découverte gagnant un pion !}\r\n3...Rxg4+\r\n    {[%wrong Ce coup ne capture pas de matériel sur la colonne g en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre un pion tout en faisant échec !]}\r\n4.Kh2\r\n    {Excellent ! Les noirs continuent leur razzia sur la colonne g. Continuez sur le même principe !}\r\n4...Rg2+\r\n   {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n5.Kh1\r\n    {Formidable ! Vous êtes prêt pour la suite du moulinet...}\r\n*"
+    },
+    {
+      "fen": "7k/1b4pp/p3B3/1pp5/8/7P/PBP3r1/Q4N1K b - - 3 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Nous avons pris tout ce qu'il y avait à prendre sur la colonne g. Occupons nous maintenant de la deuxième rangée !",
+        "[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]",
+        "Ce coup ne va pas nous permettre de gagner plus de matériel. Cherchez autre chose !",
+        "Très bien ! Forcez le roi blanc à revenir en h1.",
+        "[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]",
+        "Bien joué ! Il est temps donner un nouvel échec à la découverte gagnant une pièce !",
+        "[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]",
+        "Le moulinet infernal traumatise les blancs ! Renvoyez le pauvre roi en h1.",
+        "[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]",
+        "Et voilà ! Continuez la razzia sur la seconde rangée !!",
+        "[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]",
+        "Grâce au moulinet, la tour a réalisé un véritable carnage ! Faut-il continuer à utiliser cette tactique ou bien prendre la dame blanche ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Trouvez mieux !][%hint Le moulinet ne nous apportera plus rien. Quel est le meilleur coup ?] Le moulinet prend fin, et la position noire est totalement gagnante. Beau travail !",
+        "Ce coup ne va pas nous permettre de gagner plus de matériel. Cherchez autre chose !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1b4pp/p3B3/1pp5/8/7P/PBP3r1/Q4N1K b - - 3 5\"]\r\n\r\n{Nous avons pris tout ce qu'il y avait à prendre sur la colonne g. Occupons nous maintenant de la deuxième rangée !}\r\n5...Rxc2+\r\n    {[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n    (5...Rg6+ $6 6.Kh2 {Ce coup ne va pas nous permettre de gagner plus de matériel. Cherchez autre chose !})\r\n6.Kg1\r\n    {Très bien ! Forcez le roi blanc à revenir en h1.}\r\n6...Rg2+\r\n  {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n7.Kh1\r\n    {Bien joué ! Il est temps donner un nouvel échec à la découverte gagnant une pièce !}\r\n7...Rxb2+\r\n    {[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n8.Kg1\r\n    {Le moulinet infernal traumatise les blancs ! Renvoyez le pauvre roi en h1.}\r\n8...Rg2+\r\n     {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n9.Kh1\r\n    {Et voilà ! Continuez la razzia sur la seconde rangée !!}\r\n9...Rxa2+\r\n    {[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n10.Kg1\r\n    {Grâce au moulinet, la tour a réalisé un véritable carnage ! Faut-il continuer à utiliser cette tactique ou bien prendre la dame blanche ?}\r\n10...Rxa1\r\n    {[%wrong Ce coup ne gagne pas de matériel. Trouvez mieux !][%hint Le moulinet ne nous apportera plus rien. Quel est le meilleur coup ?] Le moulinet prend fin, et la position noire est totalement gagnante. Beau travail !}\r\n    (10...Rg2+ $6 {Ce coup ne va pas nous permettre de gagner plus de matériel. Cherchez autre chose !})\r\n*"
+    },
+    {
+      "fen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Voici la célèbre partie Torre-Lasker. Comment attaquer en même temps g7 et la dame noire tout en mettant en place un moulinet ?",
+        "[%wrong Ce coup ne prépare pas la tactique du moulinet. Cherchez encore !][%hint Trouvez une case permettant au fou d'attaquer g7 tout en dévoilant une attaque sur la dame noire !]",
+        "Vous vous rapprochez du but, mais ce coup ne permet pas de mettre en place un moulinet. Les noirs vont donc l'emporter grâce à leur important avantage matériel. Cherchez encore !",
+        "Joli coup ! Les blancs sacrifient la dame, mais c'est l'heure du moulinet !",
+        "[%wrong Ce n'est pas la tactique du moulinet. Cherchez encore !][%hint La tour blanche est prête à faire du dégât !]",
+        "C'est la bonne case, mais pas la bonne pièce ! Il faut trouver un coup qui fait échec. A vous de jouer !",
+        "Beau boulot ! Le moulinet va maintenant faire très mal !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25\"]\r\n\r\n{Voici la célèbre partie Torre-Lasker. Comment attaquer en même temps g7 et la dame noire tout en mettant en place un moulinet ?}\r\n25.Bf6\r\n    {[%wrong Ce coup ne prépare pas la tactique du moulinet. Cherchez encore !][%hint Trouvez une case permettant au fou d'attaquer g7 tout en dévoilant une attaque sur la dame noire !]}\r\n    (25.Bxh6 $2 Qxh5 {Vous vous rapprochez du but, mais ce coup ne permet pas de mettre en place un moulinet. Les noirs vont donc l'emporter grâce à leur important avantage matériel. Cherchez encore !})\r\n25...Qxh5\r\n    {Joli coup ! Les blancs sacrifient la dame, mais c'est l'heure du moulinet !}\r\n26.Rxg7+\r\n    {[%wrong Ce n'est pas la tactique du moulinet. Cherchez encore !][%hint La tour blanche est prête à faire du dégât !]}\r\n    (26.Bxg7 $2 Ng6 {C'est la bonne case, mais pas la bonne pièce ! Il faut trouver un coup qui fait échec. A vous de jouer !})\r\n26...Kh8\r\n    {Beau boulot ! Le moulinet va maintenant faire très mal !}\r\n*"
+    },
+    {
+      "fen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faut-il maintenant récupérer la dame sacrifiée, ou bien y a-t-il un autre coup plus fort ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Pas de précipitation, la dame tombera en temps voulu ! Commençons par raser la septième rangée.]",
+        "Les blancs peuvent toujours corriger leur erreur en jouant Tg7+ à nouveau, mais il n'y a pas d'urgence, la dame tombera en temps voulu. Emparons-nous d'abord du reste !",
+        "Excellent choix ! Les blancs commencent leur razzia grâce à la tactique du moulinet. Renvoyez maintenant le roi noir en h8 !",
+        "[%wrong Ce coup ne force pas le roi blanc à revenir en h8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h8.]",
+        "Parfait ! Continuons à gagner du matériel sur la septième rangée !",
+        "[%wrong Ce coup ne capture pas de matériel sur la septième rangée en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]",
+        "Et voilà ! Renvoyons le pauvre roi en h8.",
+        "[%wrong Ce coup ne force pas le roi blanc à revenir en h8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h8.]",
+        "Excellent travail ! Faut-il continuer à prendre des pions sur la septième avec le moulinet ou attaquer la dame noire ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint N'ouvrez surtout pas la colonne a pour la tour noire !] Formidable ! Les noirs gagnent la dame, et obtiennent un avantage matériel. Torre n'a eu aucun mal à convertir cette position totalement gagnante.",
+        "Ce coup gagne un pion mais ouvre aussi la colonne de la tour a8. Il est préférable de prendre tout de suite la dame et de laisser cette tour dans son coin, passive..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27\"]\r\n\r\n{Faut-il maintenant récupérer la dame sacrifiée, ou bien y a-t-il un autre coup plus fort ?}\r\n27.Rxf7+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Pas de précipitation, la dame tombera en temps voulu ! Commençons par raser la septième rangée.]}\r\n    (27.Rg5+ $2 Kh7 {Les blancs peuvent toujours corriger leur erreur en jouant Tg7+ à nouveau, mais il n'y a pas d'urgence, la dame tombera en temps voulu. Emparons-nous d'abord du reste !})\r\n27...Kg8\r\n    {Excellent choix ! Les blancs commencent leur razzia grâce à la tactique du moulinet. Renvoyez maintenant le roi noir en h8 !}\r\n28.Rg7+\r\n     {[%wrong Ce coup ne force pas le roi blanc à revenir en h8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h8.]}\r\n28...Kh8\r\n    {Parfait ! Continuons à gagner du matériel sur la septième rangée !}\r\n29.Rxb7+\r\n    {[%wrong Ce coup ne capture pas de matériel sur la septième rangée en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n29...Kg8\r\n    {Et voilà ! Renvoyons le pauvre roi en h8.}\r\n30.Rg7+\r\n   {[%wrong Ce coup ne force pas le roi blanc à revenir en h8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h8.]}\r\n30...Kh8\r\n    {Excellent travail ! Faut-il continuer à prendre des pions sur la septième avec le moulinet ou attaquer la dame noire ?}\r\n31.Rg5+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint N'ouvrez surtout pas la colonne a pour la tour noire !] Formidable ! Les noirs gagnent la dame, et obtiennent un avantage matériel. Torre n'a eu aucun mal à convertir cette position totalement gagnante.}\r\n    (31.Rxa7+ $5 {Ce coup gagne un pion mais ouvre aussi la colonne de la tour a8. Il est préférable de prendre tout de suite la dame et de laisser cette tour dans son coin, passive...})\r\n*"
+    },
+    {
+      "fen": "k1n5/p2R2b1/2p2qpp/4rp2/2P5/1P2Q1P1/P4PBP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs adoreraient jouer Fxc6+ pour réaliser un moulinet, mais la dame noire protège cette case. Trouvez un superbe sacrifice gagnant du matériel en déviant la dame de la protection de la case c6 !",
+        "[%wrong Ce coup ne dévie pas la dame de sa protection de la case c6. Cherchez encore !][%hint La dame noire protège à la fois la tour e5 et l'importante case c6. Comment la dévier ?]",
+        "Ce sacrifice ne fonctionne pas. Cherchez encore !",
+        "Belle vision tactique ! Les blancs sacrifient la dame pour réaliser un moulinet. Prenons maintenant en c6 !",
+        "[%wrong Ce coup ne prend pas le pion c6, essayez encore !][%hint Prenez le pion c6 !]",
+        "La puissante attaque commence ! Commencez par forcer le roi noir à revenir sur la funeste case a8.",
+        "[%wrong Ce coup ne force pas le roi blanc à revenir en a8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en a8.]",
+        "Bien joué ! Faut-il maintenant prendre du matériel, ou chercher un meilleur coup ?",
+        "[%wrong Oups ! Bien essayé, mais il était possible de gagner immédiatement. Trouvez le coup fatal !][%hint Le moulinet ne sert pas qu'à gagner du matériel. Il permet aussi parfois de mater !] Bravo ! Échec et mat !",
+        "Bravo, c'est mat ! Il était également possible de mater avec Tb5#. Jouez ce coup !",
+        "Bravo, c'est mat ! Il était également possible de mater avec Tb5#. Jouez ce coup !",
+        "Vous avez gagné un fou, et la tactique n'est pas terminée, mais pourquoi ne pas gagner la partie immédiatement ? Trouvez le mat !",
+        "C'est la bonne idée, mais ne laissons pas les noirs prendre notre tour. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1n5/p2R2b1/2p2qpp/4rp2/2P5/1P2Q1P1/P4PBP/6K1 w - - 0 1\"]\r\n\r\n{Les blancs adoreraient jouer Fxc6+ pour réaliser un moulinet, mais la dame noire protège cette case. Trouvez un superbe sacrifice gagnant du matériel en déviant la dame de la protection de la case c6 !} \r\n1.Qxe5 \r\n    {[%wrong Ce coup ne dévie pas la dame de sa protection de la case c6. Cherchez encore !][%hint La dame noire protège à la fois la tour e5 et l'importante case c6. Comment la dévier ?]}\r\n    ( 1.Rxg7 $2 Rxe3 {Ce sacrifice ne fonctionne pas. Cherchez encore !})\r\n1...Qxe5 \r\n    {Belle vision tactique ! Les blancs sacrifient la dame pour réaliser un moulinet. Prenons maintenant en c6 !}\r\n2.Bxc6+ \r\n    {[%wrong Ce coup ne prend pas le pion c6, essayez encore !][%hint Prenez le pion c6 !]}\r\n2...Kb8 \r\n    {La puissante attaque commence ! Commencez par forcer le roi noir à revenir sur la funeste case a8.}\r\n3.Rb7+ \r\n   {[%wrong Ce coup ne force pas le roi blanc à revenir en a8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en a8.]}\r\n3...Ka8 \r\n    {Bien joué ! Faut-il maintenant prendre du matériel, ou chercher un meilleur coup ?}\r\n4.Rb5# \r\n    {[%wrong Oups ! Bien essayé, mais il était possible de gagner immédiatement. Trouvez le coup fatal !][%hint Le moulinet ne sert pas qu'à gagner du matériel. Il permet aussi parfois de mater !] Bravo ! Échec et mat !}\r\n    ( 4.Rb4# $5 {Bravo, c'est mat ! Il était également possible de mater avec Tb5#. Jouez ce coup !})\r\n    ( 4.Rb6# $5 {Bravo, c'est mat ! Il était également possible de mater avec Tb5#. Jouez ce coup !} )\r\n    ( 4.Rxg7+ $5 {Vous avez gagné un fou, et la tactique n'est pas terminée, mais pourquoi ne pas gagner la partie immédiatement ? Trouvez le mat !})\r\n    ( 4.Rb8+ $2 Kxb8 {C'est la bonne idée, mais ne laissons pas les noirs prendre notre tour. Cherchez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "ebdbfe48-9cec-11e8-829d-25f78e259a4e",
+    "name": "Le moulinet",
+    "path": "le-moulinet",
+    "description": "Le moulinet est un thème tactique rare mais pourtant mythique. Elle consiste à répéter le même échec à la découverte plusieurs fois de suite, en déplaçant sa pièce comme les pales d’un moulin. Vous pouvez utiliser cette tactique pour réaliser des gains matériels conséquents et ainsi remporter la partie.",
+    "glyphName": "game-tactic-windmill",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-windmill-r6g.mp4",
+    "fen": "r3rn1k/pb4R1/3ppB1p/7q/1P6/4N3/P4PPP/4R1K1 w - - 3 29",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1b4pp/p3B3/1pp5/6P1/6NP/PBP3r1/Q4N1K b - - 0 1\"]\r\n\r\n{Grâce au moulinet, il est possible de donner des échecs à la découverte à l'infini... Commençons par nous emparer de l'intégralité du matériel blanc sur la colonne g !}\r\n1...Rxg3+\r\n    {[%wrong Ce coup ne capture pas de matériel sur la colonne g en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre un cavalier tout en faisant échec !]}\r\n2.Kh2\r\n    {Bien vu ! Les noirs prennent le cavalier. Continuons à gagner du matériel grâce au moulinet !}\r\n2...Rg2+\r\n    {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n3.Kh1\r\n    {Bien joué ! Il est temps donner un nouvel échec à la découverte gagnant un pion !}\r\n3...Rxg4+\r\n    {[%wrong Ce coup ne capture pas de matériel sur la colonne g en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre un pion tout en faisant échec !]}\r\n4.Kh2\r\n    {Excellent ! Les noirs continuent leur razzia sur la colonne g. Continuez sur le même principe !}\r\n4...Rg2+\r\n   {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n5.Kh1\r\n    {Formidable ! Vous êtes prêt pour la suite du moulinet...}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1b4pp/p3B3/1pp5/8/7P/PBP3r1/Q4N1K b - - 3 5\"]\r\n\r\n{Nous avons pris tout ce qu'il y avait à prendre sur la colonne g. Occupons nous maintenant de la deuxième rangée !}\r\n5...Rxc2+\r\n    {[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n    (5...Rg6+ $6 6.Kh2 {Ce coup ne va pas nous permettre de gagner plus de matériel. Cherchez autre chose !})\r\n6.Kg1\r\n    {Très bien ! Forcez le roi blanc à revenir en h1.}\r\n6...Rg2+\r\n  {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n7.Kh1\r\n    {Bien joué ! Il est temps donner un nouvel échec à la découverte gagnant une pièce !}\r\n7...Rxb2+\r\n    {[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n8.Kg1\r\n    {Le moulinet infernal traumatise les blancs ! Renvoyez le pauvre roi en h1.}\r\n8...Rg2+\r\n     {[%wrong Ce coup ne force pas le roi blanc à revenir en h1. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h1.]}\r\n9.Kh1\r\n    {Et voilà ! Continuez la razzia sur la seconde rangée !!}\r\n9...Rxa2+\r\n    {[%wrong Ce coup ne capture pas de matériel en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n10.Kg1\r\n    {Grâce au moulinet, la tour a réalisé un véritable carnage ! Faut-il continuer à utiliser cette tactique ou bien prendre la dame blanche ?}\r\n10...Rxa1\r\n    {[%wrong Ce coup ne gagne pas de matériel. Trouvez mieux !][%hint Le moulinet ne nous apportera plus rien. Quel est le meilleur coup ?] Le moulinet prend fin, et la position noire est totalement gagnante. Beau travail !}\r\n    (10...Rg2+ $6 {Ce coup ne va pas nous permettre de gagner plus de matériel. Cherchez autre chose !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 25\"]\r\n\r\n{Voici la célèbre partie Torre-Lasker. Comment attaquer en même temps g7 et la dame noire tout en mettant en place un moulinet ?}\r\n25.Bf6\r\n    {[%wrong Ce coup ne prépare pas la tactique du moulinet. Cherchez encore !][%hint Trouvez une case permettant au fou d'attaquer g7 tout en dévoilant une attaque sur la dame noire !]}\r\n    (25.Bxh6 $2 Qxh5 {Vous vous rapprochez du but, mais ce coup ne permet pas de mettre en place un moulinet. Les noirs vont donc l'emporter grâce à leur important avantage matériel. Cherchez encore !})\r\n25...Qxh5\r\n    {Joli coup ! Les blancs sacrifient la dame, mais c'est l'heure du moulinet !}\r\n26.Rxg7+\r\n    {[%wrong Ce n'est pas la tactique du moulinet. Cherchez encore !][%hint La tour blanche est prête à faire du dégât !]}\r\n    (26.Bxg7 $2 Ng6 {C'est la bonne case, mais pas la bonne pièce ! Il faut trouver un coup qui fait échec. A vous de jouer !})\r\n26...Kh8\r\n    {Beau boulot ! Le moulinet va maintenant faire très mal !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 27\"]\r\n\r\n{Faut-il maintenant récupérer la dame sacrifiée, ou bien y a-t-il un autre coup plus fort ?}\r\n27.Rxf7+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Pas de précipitation, la dame tombera en temps voulu ! Commençons par raser la septième rangée.]}\r\n    (27.Rg5+ $2 Kh7 {Les blancs peuvent toujours corriger leur erreur en jouant Tg7+ à nouveau, mais il n'y a pas d'urgence, la dame tombera en temps voulu. Emparons-nous d'abord du reste !})\r\n27...Kg8\r\n    {Excellent choix ! Les blancs commencent leur razzia grâce à la tactique du moulinet. Renvoyez maintenant le roi noir en h8 !}\r\n28.Rg7+\r\n     {[%wrong Ce coup ne force pas le roi blanc à revenir en h8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h8.]}\r\n28...Kh8\r\n    {Parfait ! Continuons à gagner du matériel sur la septième rangée !}\r\n29.Rxb7+\r\n    {[%wrong Ce coup ne capture pas de matériel sur la septième rangée en donnant un échec à la découverte. Cherchez encore !][%hint Dans cette position, vous pouvez prendre du matériel tout en faisant échec !]}\r\n29...Kg8\r\n    {Et voilà ! Renvoyons le pauvre roi en h8.}\r\n30.Rg7+\r\n   {[%wrong Ce coup ne force pas le roi blanc à revenir en h8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en h8.]}\r\n30...Kh8\r\n    {Excellent travail ! Faut-il continuer à prendre des pions sur la septième avec le moulinet ou attaquer la dame noire ?}\r\n31.Rg5+\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint N'ouvrez surtout pas la colonne a pour la tour noire !] Formidable ! Les noirs gagnent la dame, et obtiennent un avantage matériel. Torre n'a eu aucun mal à convertir cette position totalement gagnante.}\r\n    (31.Rxa7+ $5 {Ce coup gagne un pion mais ouvre aussi la colonne de la tour a8. Il est préférable de prendre tout de suite la dame et de laisser cette tour dans son coin, passive...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1n5/p2R2b1/2p2qpp/4rp2/2P5/1P2Q1P1/P4PBP/6K1 w - - 0 1\"]\r\n\r\n{Les blancs adoreraient jouer Fxc6+ pour réaliser un moulinet, mais la dame noire protège cette case. Trouvez un superbe sacrifice gagnant du matériel en déviant la dame de la protection de la case c6 !} \r\n1.Qxe5 \r\n    {[%wrong Ce coup ne dévie pas la dame de sa protection de la case c6. Cherchez encore !][%hint La dame noire protège à la fois la tour e5 et l'importante case c6. Comment la dévier ?]}\r\n    ( 1.Rxg7 $2 Rxe3 {Ce sacrifice ne fonctionne pas. Cherchez encore !})\r\n1...Qxe5 \r\n    {Belle vision tactique ! Les blancs sacrifient la dame pour réaliser un moulinet. Prenons maintenant en c6 !}\r\n2.Bxc6+ \r\n    {[%wrong Ce coup ne prend pas le pion c6, essayez encore !][%hint Prenez le pion c6 !]}\r\n2...Kb8 \r\n    {La puissante attaque commence ! Commencez par forcer le roi noir à revenir sur la funeste case a8.}\r\n3.Rb7+ \r\n   {[%wrong Ce coup ne force pas le roi blanc à revenir en a8. Cherchez encore !][%hint Préparez un nouveau moulinet en forçant le roi blanc à revenir en a8.]}\r\n3...Ka8 \r\n    {Bien joué ! Faut-il maintenant prendre du matériel, ou chercher un meilleur coup ?}\r\n4.Rb5# \r\n    {[%wrong Oups ! Bien essayé, mais il était possible de gagner immédiatement. Trouvez le coup fatal !][%hint Le moulinet ne sert pas qu'à gagner du matériel. Il permet aussi parfois de mater !] Bravo ! Échec et mat !}\r\n    ( 4.Rb4# $5 {Bravo, c'est mat ! Il était également possible de mater avec Tb5#. Jouez ce coup !})\r\n    ( 4.Rb6# $5 {Bravo, c'est mat ! Il était également possible de mater avec Tb5#. Jouez ce coup !} )\r\n    ( 4.Rxg7+ $5 {Vous avez gagné un fou, et la tactique n'est pas terminée, mais pourquoi ne pas gagner la partie immédiatement ? Trouvez le mat !})\r\n    ( 4.Rb8+ $2 Kxb8 {C'est la bonne idée, mais ne laissons pas les noirs prendre notre tour. Cherchez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La prochaine tactique est une combinaison puissante grâce au duo tour/fou.",
+    "outroText": "Très joli ! Le moulinet peut faire des ravages dans vos parties.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "d0c99240-83b6-11e8-a783-393af2041787",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/windmill5e6c3918db2ae.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/windmill-56688677342085.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/windmill-15ea23f86a3045.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/windmill-2612cdd9c32c70.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 111,
+    "order": 10,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

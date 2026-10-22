@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/calculer-les-prises",
+  "capturedAt": "2026-10-22T13:42:28.191Z",
+  "title": "Compter les prises",
+  "exercises": [
+    {
+      "fen": "8/2r3r1/8/8/8/2R5/2R5/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,g7;color;%23eb6150;opacity;0.8;square;g7;persistent;true][%c_arrow c3c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;c7;persistent;true,g7c7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;c7;persistent;true]Vous pouvez y aller si vous avez plus d'attaquants qu'il n'a de défenseurs.",
+        "[%hint Que pouvez-vous prendre ?][%wrong Nous cherchons une prise. Comment faire ?]",
+        "Excellente prise. Et ensuite ?",
+        "[%hint Prenez la dernière tour.][%wrong Il y a un moyen de prendre la tour noire. Essayez de le trouver.] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2r3r1/8/8/8/2R5/2R5/8 w - - 0 1\"]\r\n\r\n{[%c_highlight c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,g7;color;%23eb6150;opacity;0.8;square;g7;persistent;true][%c_arrow c3c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;c7;persistent;true,g7c7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;c7;persistent;true]Vous pouvez y aller si vous avez plus d'attaquants qu'il n'a de défenseurs.} 1. Rxc7 {[%hint Que pouvez-vous prendre ?][%wrong Nous cherchons une prise. Comment faire ?]} 1... Rxc7 {Excellente prise. Et ensuite ?} 2. Rxc7 {[%hint Prenez la dernière tour.][%wrong Il y a un moyen de prendre la tour noire. Essayez de le trouver.] Bien joué !} *"
+    },
+    {
+      "fen": "8/1p6/2b5/8/8/5B2/6Q1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Allez-y !",
+        "[%hint Trouvez une bonne prise] [%wrong Il y a une bonne prise. Essayez de la trouver.]",
+        "Les noirs reprennent, mais vous pouvez quand même gagner du matériel. Comment faire ?",
+        "[%hint Il y a une bonne prise.] [%wrong Il y a une bonne prise. Essayez de la trouver.]  Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/2b5/8/8/5B2/6Q1/8 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284038178602513\"]\r\n\r\n{Allez-y !} 1. Bc6 {[%hint Trouvez une bonne prise] [%wrong Il y a une bonne prise. Essayez de la trouver.]} bxc6 {Les noirs reprennent, mais vous pouvez quand même gagner du matériel. Comment faire ?} 2. Qc6 {[%hint Il y a une bonne prise.] [%wrong Il y a une bonne prise. Essayez de la trouver.]  Beau travail !} *"
+    },
+    {
+      "fen": "8/8/2p5/3n4/8/8/3R2B1/8 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Par quelle prise devez-vous commencer ?",
+        "[%hint Trouvez la meilleure façon de prendre le cavalier.] [%wrong Il y a une bonne prise. Essayez de la trouver.]",
+        "Les noirs gagnent du matériel. Essayez de trouver une meilleure prise.",
+        "Les noirs reprennent, mais vous gagnez quand même du matériel. Comment faire ?",
+        "[%hint Il y a un meilleur coup. Essayez de trouver une bonne prise.] [%wrong Il y a une prise, mais ce n'est pas celle-ci. Réessayez.]  Bon choix !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2p5/3n4/8/8/3R2B1/8 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284042584366611\"]\r\n\r\n{Par quelle prise devez-vous commencer ?} 1. Bd5 {[%hint Trouvez la meilleure façon de prendre le cavalier.] [%wrong Il y a une bonne prise. Essayez de la trouver.]} (1. Rd5 $2 cxd5 {Les noirs gagnent du matériel. Essayez de trouver une meilleure prise.}) 1... cxd5 {Les noirs reprennent, mais vous gagnez quand même du matériel. Comment faire ?} 2. Rd5 {[%hint Il y a un meilleur coup. Essayez de trouver une bonne prise.] [%wrong Il y a une prise, mais ce n'est pas celle-ci. Réessayez.]  Bon choix !} *"
+    },
+    {
+      "fen": "1r3rk1/5pp1/2p1pn1p/3p4/2PP4/4P1P1/1R3PBP/1R4K1 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,f8;color;%23eb6150;opacity;0.8;square;f8;persistent;true]Une fois vos forces réunies, vous pouvez passer à la prise.",
+        "[%hint Il y a une prise qui gagne du matériel. Essayez de la trouver.] [%wrong Il y a un meilleur coup. Regardez vos prises possibles.]",
+        "Bon début ! Et ensuite ?",
+        "[%hint Essayez de trouver la meilleure prise.] [%wrong Il y a une meilleure option. Réessayez et cherchez une prise forte.]Vous avez une tour de plus. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3rk1/5pp1/2p1pn1p/3p4/2PP4/4P1P1/1R3PBP/1R4K1 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284046480387605\"]\r\n\r\n{[%c_highlight b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,f8;color;%23eb6150;opacity;0.8;square;f8;persistent;true]Une fois vos forces réunies, vous pouvez passer à la prise.} 1. Rxb8 {[%hint Il y a une prise qui gagne du matériel. Essayez de la trouver.] [%wrong Il y a un meilleur coup. Regardez vos prises possibles.]} 1... Rxb8 {Bon début ! Et ensuite ?} 2. Rxb8 {[%hint Essayez de trouver la meilleure prise.] [%wrong Il y a une meilleure option. Réessayez et cherchez une prise forte.]Vous avez une tour de plus. Bien joué !} *"
+    },
+    {
+      "fen": "r4rk1/ppp2pbp/2n1b1p1/3n4/8/2N2NP1/PP3PBP/R1BR2K1 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pensez à bien examiner vos deux options de prise.",
+        "[%hint Essayez de trouver la meilleure prise.] [%wrong Il y a un meilleur coup. Essayez de trouver la prise la plus forte.]",
+        "Il n'y a pas besoin de perdre votre tour. Essayez de trouver une meilleure prise.",
+        "Bon début. Les noirs peuvent reprendre, mais vous avez un autre coup fort en réserve.",
+        "[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise.]Vous gagnez une pièce. Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/ppp2pbp/2n1b1p1/3n4/8/2N2NP1/PP3PBP/R1BR2K1 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284050095996439\"]\r\n\r\n{Pensez à bien examiner vos deux options de prise.} 1. Nd5 {[%hint Essayez de trouver la meilleure prise.] [%wrong Il y a un meilleur coup. Essayez de trouver la prise la plus forte.]} (1. Rd5 $2 {Il n'y a pas besoin de perdre votre tour. Essayez de trouver une meilleure prise.} Bd5) 1... Bd5 {Bon début. Les noirs peuvent reprendre, mais vous avez un autre coup fort en réserve.} 2. Rd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise.]Vous gagnez une pièce. Beau travail !} *"
+    },
+    {
+      "fen": "rnb1kbnr/ppp2ppp/4pq2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils gagner un pion ?",
+        "[%hint Trouvez une bonne prise.] [%wrong Il y a une meilleure option. Réessayez et cherchez un moyen de gagner un pion.]",
+        "Il n'y a pas besoin de perdre un cavalier. Essayez de trouver une meilleure prise.",
+        "Bon début ! Que pouvez-vous prendre ensuite ?",
+        "[%hint Cherchez une prise forte.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une bonne prise.]Vous gagnez un pion, avec une excellente position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp2ppp/4pq2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284052176571932\"]\r\n\r\n{Comment les blancs peuvent-ils gagner un pion ?} 4. exd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a une meilleure option. Réessayez et cherchez un moyen de gagner un pion.]} (4. Nxd5 $2 exd5 {Il n'y a pas besoin de perdre un cavalier. Essayez de trouver une meilleure prise.}) 4... exd5 {Bon début ! Que pouvez-vous prendre ensuite ?} 5. Nxd5 {[%hint Cherchez une prise forte.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une bonne prise.]Vous gagnez un pion, avec une excellente position.} *"
+    },
+    {
+      "fen": "r2qk2r/ppp2ppp/4b1n1/2b1p3/6Q1/1BPP1N2/P1P2PPP/R1B1K2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Que devez-vous prendre ?",
+        "[%hint Il y a une prise utile. Voyez si vous pouvez la trouver.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une bonne prise.]",
+        "Les noirs gagnent la dame. Réessayez et cherchez une prise plus forte.",
+        "Les noirs gagnent du matériel. Réessayez et cherchez une meilleure prise.",
+        "Les noirs gagnent la dame. Essayez de trouver une meilleure prise.",
+        "Bonne prise ! Trouvez maintenant la reprise.",
+        "[%hint Pouvez-vous reprendre et menacer le roi ?] [%wrong Il y a une excellente prise, pouvez-vous la trouver ?]Bien joué ! Vous gagnez du matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/4b1n1/2b1p3/6Q1/1BPP1N2/P1P2PPP/R1B1K2R w KQkq - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284054884929075\"]\r\n\r\n{Que devez-vous prendre ?} 1. Bxe6 {[%hint Il y a une prise utile. Voyez si vous pouvez la trouver.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une bonne prise.]} (1. Nxe5 $2 Bxg4 {Les noirs gagnent la dame. Réessayez et cherchez une prise plus forte.}) (1. Qxg6 $2 hxg6 {Les noirs gagnent du matériel. Réessayez et cherchez une meilleure prise.}) (1. Qxe6+ $2 fxe6 {Les noirs gagnent la dame. Essayez de trouver une meilleure prise.}) 1... fxe6 {Bonne prise ! Trouvez maintenant la reprise.} 2. Qxe6+ {[%hint Pouvez-vous reprendre et menacer le roi ?] [%wrong Il y a une excellente prise, pouvez-vous la trouver ?]Bien joué ! Vous gagnez du matériel.} *"
+    },
+    {
+      "fen": "8/pb2rpkp/1p4p1/3n4/8/8/3R1PPP/3R1BK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La prise en vaut-elle la peine ?",
+        "[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise forte.]",
+        "Joli coup ! Et ensuite ?",
+        "[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise forte.]  Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pb2rpkp/1p4p1/3n4/8/8/3R1PPP/3R1BK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284057822715887\"]\r\n\r\n{La prise en vaut-elle la peine ?} 1. Rxd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise forte.]} Bxd5 {Joli coup ! Et ensuite ?} 2. Rxd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise forte.]  Bien joué !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0a6-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Compter les prises",
+    "path": "calculer-les-prises",
+    "description": "Apprenez ces tactiques pour prendre plus de pièces à votre adversaire !",
+    "glyphName": "tool-scale",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2r3r1/8/8/8/2R5/2R5/8 w - - 0 1\"]\r\n\r\n{[%c_highlight c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,c2;color;%23ffaa00;opacity;0.8;square;c2;persistent;true,g7;color;%23eb6150;opacity;0.8;square;g7;persistent;true][%c_arrow c3c7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c3;to;c7;persistent;true,g7c7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;c7;persistent;true]Vous pouvez y aller si vous avez plus d'attaquants qu'il n'a de défenseurs.} 1. Rxc7 {[%hint Que pouvez-vous prendre ?][%wrong Nous cherchons une prise. Comment faire ?]} 1... Rxc7 {Excellente prise. Et ensuite ?} 2. Rxc7 {[%hint Prenez la dernière tour.][%wrong Il y a un moyen de prendre la tour noire. Essayez de le trouver.] Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/2b5/8/8/5B2/6Q1/8 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284038178602513\"]\r\n\r\n{Allez-y !} 1. Bc6 {[%hint Trouvez une bonne prise] [%wrong Il y a une bonne prise. Essayez de la trouver.]} bxc6 {Les noirs reprennent, mais vous pouvez quand même gagner du matériel. Comment faire ?} 2. Qc6 {[%hint Il y a une bonne prise.] [%wrong Il y a une bonne prise. Essayez de la trouver.]  Beau travail !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2p5/3n4/8/8/3R2B1/8 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284042584366611\"]\r\n\r\n{Par quelle prise devez-vous commencer ?} 1. Bd5 {[%hint Trouvez la meilleure façon de prendre le cavalier.] [%wrong Il y a une bonne prise. Essayez de la trouver.]} (1. Rd5 $2 cxd5 {Les noirs gagnent du matériel. Essayez de trouver une meilleure prise.}) 1... cxd5 {Les noirs reprennent, mais vous gagnez quand même du matériel. Comment faire ?} 2. Rd5 {[%hint Il y a un meilleur coup. Essayez de trouver une bonne prise.] [%wrong Il y a une prise, mais ce n'est pas celle-ci. Réessayez.]  Bon choix !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r3rk1/5pp1/2p1pn1p/3p4/2PP4/4P1P1/1R3PBP/1R4K1 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284046480387605\"]\r\n\r\n{[%c_highlight b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true,b1;color;%23ffaa00;opacity;0.8;square;b1;persistent;true,f8;color;%23eb6150;opacity;0.8;square;f8;persistent;true]Une fois vos forces réunies, vous pouvez passer à la prise.} 1. Rxb8 {[%hint Il y a une prise qui gagne du matériel. Essayez de la trouver.] [%wrong Il y a un meilleur coup. Regardez vos prises possibles.]} 1... Rxb8 {Bon début ! Et ensuite ?} 2. Rxb8 {[%hint Essayez de trouver la meilleure prise.] [%wrong Il y a une meilleure option. Réessayez et cherchez une prise forte.]Vous avez une tour de plus. Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[Variant \"illegal\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/ppp2pbp/2n1b1p1/3n4/8/2N2NP1/PP3PBP/R1BR2K1 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284050095996439\"]\r\n\r\n{Pensez à bien examiner vos deux options de prise.} 1. Nd5 {[%hint Essayez de trouver la meilleure prise.] [%wrong Il y a un meilleur coup. Essayez de trouver la prise la plus forte.]} (1. Rd5 $2 {Il n'y a pas besoin de perdre votre tour. Essayez de trouver une meilleure prise.} Bd5) 1... Bd5 {Bon début. Les noirs peuvent reprendre, mais vous avez un autre coup fort en réserve.} 2. Rd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise.]Vous gagnez une pièce. Beau travail !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp2ppp/4pq2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284052176571932\"]\r\n\r\n{Comment les blancs peuvent-ils gagner un pion ?} 4. exd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a une meilleure option. Réessayez et cherchez un moyen de gagner un pion.]} (4. Nxd5 $2 exd5 {Il n'y a pas besoin de perdre un cavalier. Essayez de trouver une meilleure prise.}) 4... exd5 {Bon début ! Que pouvez-vous prendre ensuite ?} 5. Nxd5 {[%hint Cherchez une prise forte.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une bonne prise.]Vous gagnez un pion, avec une excellente position.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/4b1n1/2b1p3/6Q1/1BPP1N2/P1P2PPP/R1B1K2R w KQkq - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284054884929075\"]\r\n\r\n{Que devez-vous prendre ?} 1. Bxe6 {[%hint Il y a une prise utile. Voyez si vous pouvez la trouver.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une bonne prise.]} (1. Nxe5 $2 Bxg4 {Les noirs gagnent la dame. Réessayez et cherchez une prise plus forte.}) (1. Qxg6 $2 hxg6 {Les noirs gagnent du matériel. Réessayez et cherchez une meilleure prise.}) (1. Qxe6+ $2 fxe6 {Les noirs gagnent la dame. Essayez de trouver une meilleure prise.}) 1... fxe6 {Bonne prise ! Trouvez maintenant la reprise.} 2. Qxe6+ {[%hint Pouvez-vous reprendre et menacer le roi ?] [%wrong Il y a une excellente prise, pouvez-vous la trouver ?]Bien joué ! Vous gagnez du matériel.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pb2rpkp/1p4p1/3n4/8/8/3R1PPP/3R1BK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n[GameId \"2284057822715887\"]\r\n\r\n{La prise en vaut-elle la peine ?} 1. Rxd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise forte.]} Bxd5 {Joli coup ! Et ensuite ?} 2. Rxd5 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Réessayez et cherchez une prise forte.]  Bien joué !} *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Compter les prises peut vous aider à faire de meilleurs échanges.",
+    "outroText": "Maintenant, vous savez comment compter les prises.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "6a4498e2-17ee-11f1-8c2d-993ceff6b4ea"
+  },
+  "curriculum": {
+    "number": 19,
+    "order": 7,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

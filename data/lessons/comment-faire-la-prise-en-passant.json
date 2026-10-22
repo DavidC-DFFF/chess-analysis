@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/comment-faire-la-prise-en-passant",
+  "capturedAt": "2026-10-22T13:42:28.824Z",
+  "title": "Prise en passant",
+  "exercises": [
+    {
+      "fen": "8/8/8/3Pp3/8/8/8/8 w - e6 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d5e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;e6;persistent;true]La prise en passant est un coup spécial ! Si un pion avance de deux cases et se retrouve à côté de votre pion, vous pouvez le capturer comme s'il n'avait avancé que d'une seule case.",
+        "[%hint Capturez le pion sur la case derrière lui : c'est la fameuse prise en passant !][%wrong Bien essayé, mais ce coup ne capture pas le pion. ] Bien joué ! La prise en passant est un excellent moyen de gagner un pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3Pp3/8/8/8/8 w - e6 0 2\"]\r\n\r\n{[%c_arrow d5e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;e6;persistent;true]La prise en passant est un coup spécial ! Si un pion avance de deux cases et se retrouve à côté de votre pion, vous pouvez le capturer comme s'il n'avait avancé que d'une seule case.} 2. dxe6 {[%hint Capturez le pion sur la case derrière lui : c'est la fameuse prise en passant !][%wrong Bien essayé, mais ce coup ne capture pas le pion. ] Bien joué ! La prise en passant est un excellent moyen de gagner un pion.} *"
+    },
+    {
+      "fen": "8/1p6/p7/8/P4K1k/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow a4a5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a4;to;a5;persistent;true]Poussons le pion dans le territoire de votre adversaire, là où la prise en passant peut se produire.",
+        "[%hint Poussez votre pion.][%wrong Bien essayé, mais ce coup ne pousse pas votre pion.]",
+        "Le pion essaie de passer à côté du vôtre. Capturez-le avec la prise en passant.",
+        "[%hint La prise en passant vous permet de capturer le pion qui vient d'avancer de deux cases comme s'il n'avait avancé que d'une seule case.][%wrong Bien essayé, mais ce coup ne capture pas le pion. Essayez de capturer en diagonale devant votre pion.]",
+        "Excellent ! Maintenant, promouvons notre pion en dame.",
+        "[%hint Poussez votre pion vers la case de promotion.][%wrong Bien essayé, mais nous voulons pousser notre pion en avant.]",
+        "Bien joué - encore une case à parcourir ! Allons faire une dame.",
+        "[%hint Poussez votre pion sur la dernière rangée et promouvez-le en dame.][%wrong Bien essayé, mais ce coup ne promeut pas le pion en dame. ] Bien joué ! La prise en passant a mené à une nouvelle dame !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/p7/8/P4K1k/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4jfzSqvSq4/analysis\"]\r\n\r\n{[%c_arrow a4a5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a4;to;a5;persistent;true]Poussons le pion dans le territoire de votre adversaire, là où la prise en passant peut se produire.} 1. a5 {[%hint Poussez votre pion.][%wrong Bien essayé, mais ce coup ne pousse pas votre pion.]} 1... b5 {Le pion essaie de passer à côté du vôtre. Capturez-le avec la prise en passant.} 2. axb6 {[%hint La prise en passant vous permet de capturer le pion qui vient d'avancer de deux cases comme s'il n'avait avancé que d'une seule case.][%wrong Bien essayé, mais ce coup ne capture pas le pion. Essayez de capturer en diagonale devant votre pion.]} 2... a5 {Excellent ! Maintenant, promouvons notre pion en dame.} 3. b7 {[%hint Poussez votre pion vers la case de promotion.][%wrong Bien essayé, mais nous voulons pousser notre pion en avant.]} 3... a4 {Bien joué - encore une case à parcourir ! Allons faire une dame.} 4. b8=Q {[%hint Poussez votre pion sur la dernière rangée et promouvez-le en dame.][%wrong Bien essayé, mais ce coup ne promeut pas le pion en dame. ] Bien joué ! La prise en passant a mené à une nouvelle dame !} *"
+    },
+    {
+      "fen": "k7/4Kp2/6p1/6q1/7P/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Capturons leur dame pour atteindre une finale gagnante.",
+        "[%hint Capturez la dame avec votre pion.][%wrong Bien essayé, mais ce coup ne capture pas la dame. Essayez encore.]",
+        "Le pion essaie de passer à côté du vôtre. Capturez-le.",
+        "[%hint La règle de la prise en passant vous permet de capturer le pion comme s'il n'avait avancé que d'une seule case au coup précédent.][%wrong Bien essayé, mais ce coup ne capture pas le pion qui vient de bouger. C'est le moment de jouer en passant !]",
+        "Bien joué ! Gagnons la course et promouvons notre pion en dame.",
+        "[%hint Poussez votre pion.][%wrong Bien essayé, mais nous voulons pousser notre pion en avant. ]",
+        "Il est temps de transformer votre pion en dame. C'est parti !",
+        "[%hint Poussez votre pion et promouvez-le en dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame. Essayez encore.]Beau travail : vous avez utilisé la prise en passant pour gagner cette finale !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/4Kp2/6p1/6q1/7P/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/28VH3UpzZ4/analysis\"]\r\n\r\n{Capturons leur dame pour atteindre une finale gagnante.} 1. hxg5 {[%hint Capturez la dame avec votre pion.][%wrong Bien essayé, mais ce coup ne capture pas la dame. Essayez encore.]} 1... f5 {Le pion essaie de passer à côté du vôtre. Capturez-le.} 2. gxf6 {[%hint La règle de la prise en passant vous permet de capturer le pion comme s'il n'avait avancé que d'une seule case au coup précédent.][%wrong Bien essayé, mais ce coup ne capture pas le pion qui vient de bouger. C'est le moment de jouer en passant !]} 2... g5 {Bien joué ! Gagnons la course et promouvons notre pion en dame.} 3. f7 {[%hint Poussez votre pion.][%wrong Bien essayé, mais nous voulons pousser notre pion en avant. ]} 3... g4 {Il est temps de transformer votre pion en dame. C'est parti !} 4. f8=Q+ {[%hint Poussez votre pion et promouvez-le en dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame. Essayez encore.]Beau travail : vous avez utilisé la prise en passant pour gagner cette finale !} *"
+    },
+    {
+      "fen": "6k1/b2p2pp/4p3/4P3/2B1n3/6N1/5PPP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true] Leur cavalier est en prise : prenons-le !",
+        "[%hint Quelle pièce peut capturer leur cavalier ?][%wrong Bien essayé, mais ce coup ne capture pas leur cavalier. ]",
+        "[%c_highlight c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true]Beau travail ! Maintenant, le pion adverse fait une fourchette entre votre fou et votre cavalier. La prise en passant à la rescousse !",
+        "[%hint Leur pion vient d'avancer de deux cases, essayant de dépasser votre pion. Utilisez la prise en passant pour capturer ce pion dangereux.][%wrong Bien essayé, mais ce n'est pas la prise en passant. Utilisez votre pion avancé pour capturer le pion voisin.]La prise en passant sauve votre fou et votre cavalier. Excellent travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/b2p2pp/4p3/4P3/2B1n3/6N1/5PPP/6K1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4sQC5ezk3Q/analysis\"]\r\n\r\n{[%c_highlight e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true] Leur cavalier est en prise : prenons-le !} 1. Nxe4 {[%hint Quelle pièce peut capturer leur cavalier ?][%wrong Bien essayé, mais ce coup ne capture pas leur cavalier. ]} 1... d5 {[%c_highlight c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true]Beau travail ! Maintenant, le pion adverse fait une fourchette entre votre fou et votre cavalier. La prise en passant à la rescousse !} 2. exd6 {[%hint Leur pion vient d'avancer de deux cases, essayant de dépasser votre pion. Utilisez la prise en passant pour capturer ce pion dangereux.][%wrong Bien essayé, mais ce n'est pas la prise en passant. Utilisez votre pion avancé pour capturer le pion voisin.]La prise en passant sauve votre fou et votre cavalier. Excellent travail !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0d8-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Prise en passant",
+    "path": "comment-faire-la-prise-en-passant",
+    "description": "Il existe un coup de pion étrange que vous devez connaître : capturer un autre pion d'une manière très particulière.",
+    "glyphName": "piece-pawn-enpassant-1",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3Pp3/8/8/8/8 w - e6 0 2\"]\r\n\r\n{[%c_arrow d5e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;e6;persistent;true]La prise en passant est un coup spécial ! Si un pion avance de deux cases et se retrouve à côté de votre pion, vous pouvez le capturer comme s'il n'avait avancé que d'une seule case.} 2. dxe6 {[%hint Capturez le pion sur la case derrière lui : c'est la fameuse prise en passant !][%wrong Bien essayé, mais ce coup ne capture pas le pion. ] Bien joué ! La prise en passant est un excellent moyen de gagner un pion.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/p7/8/P4K1k/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4jfzSqvSq4/analysis\"]\r\n\r\n{[%c_arrow a4a5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a4;to;a5;persistent;true]Poussons le pion dans le territoire de votre adversaire, là où la prise en passant peut se produire.} 1. a5 {[%hint Poussez votre pion.][%wrong Bien essayé, mais ce coup ne pousse pas votre pion.]} 1... b5 {Le pion essaie de passer à côté du vôtre. Capturez-le avec la prise en passant.} 2. axb6 {[%hint La prise en passant vous permet de capturer le pion qui vient d'avancer de deux cases comme s'il n'avait avancé que d'une seule case.][%wrong Bien essayé, mais ce coup ne capture pas le pion. Essayez de capturer en diagonale devant votre pion.]} 2... a5 {Excellent ! Maintenant, promouvons notre pion en dame.} 3. b7 {[%hint Poussez votre pion vers la case de promotion.][%wrong Bien essayé, mais nous voulons pousser notre pion en avant.]} 3... a4 {Bien joué - encore une case à parcourir ! Allons faire une dame.} 4. b8=Q {[%hint Poussez votre pion sur la dernière rangée et promouvez-le en dame.][%wrong Bien essayé, mais ce coup ne promeut pas le pion en dame. ] Bien joué ! La prise en passant a mené à une nouvelle dame !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/4Kp2/6p1/6q1/7P/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/28VH3UpzZ4/analysis\"]\r\n\r\n{Capturons leur dame pour atteindre une finale gagnante.} 1. hxg5 {[%hint Capturez la dame avec votre pion.][%wrong Bien essayé, mais ce coup ne capture pas la dame. Essayez encore.]} 1... f5 {Le pion essaie de passer à côté du vôtre. Capturez-le.} 2. gxf6 {[%hint La règle de la prise en passant vous permet de capturer le pion comme s'il n'avait avancé que d'une seule case au coup précédent.][%wrong Bien essayé, mais ce coup ne capture pas le pion qui vient de bouger. C'est le moment de jouer en passant !]} 2... g5 {Bien joué ! Gagnons la course et promouvons notre pion en dame.} 3. f7 {[%hint Poussez votre pion.][%wrong Bien essayé, mais nous voulons pousser notre pion en avant. ]} 3... g4 {Il est temps de transformer votre pion en dame. C'est parti !} 4. f8=Q+ {[%hint Poussez votre pion et promouvez-le en dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame. Essayez encore.]Beau travail : vous avez utilisé la prise en passant pour gagner cette finale !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/b2p2pp/4p3/4P3/2B1n3/6N1/5PPP/6K1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4sQC5ezk3Q/analysis\"]\r\n\r\n{[%c_highlight e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true] Leur cavalier est en prise : prenons-le !} 1. Nxe4 {[%hint Quelle pièce peut capturer leur cavalier ?][%wrong Bien essayé, mais ce coup ne capture pas leur cavalier. ]} 1... d5 {[%c_highlight c4;color;%23eb6150;opacity;0.8;square;c4;persistent;true,e4;color;%23eb6150;opacity;0.8;square;e4;persistent;true]Beau travail ! Maintenant, le pion adverse fait une fourchette entre votre fou et votre cavalier. La prise en passant à la rescousse !} 2. exd6 {[%hint Leur pion vient d'avancer de deux cases, essayant de dépasser votre pion. Utilisez la prise en passant pour capturer ce pion dangereux.][%wrong Bien essayé, mais ce n'est pas la prise en passant. Utilisez votre pion avancé pour capturer le pion voisin.]La prise en passant sauve votre fou et votre cavalier. Excellent travail !} *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Prêt pour une leçon sur un coup de pion spécial et secret ?",
+    "outroText": "Vous connaissez maintenant le coup de pion spécial et secret pour surprendre vos adversaires !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "84929976-19a4-11f1-afe9-f575a31d162e"
+  },
+  "curriculum": {
+    "number": 22,
+    "order": 10,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

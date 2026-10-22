@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi-adverse/le-mat-du-couloir",
+  "capturedAt": "2026-10-22T12:23:33.853Z",
+  "title": "Le mat du couloir",
+  "exercises": [
+    {
+      "fen": "6k1/5ppp/8/7q/8/6QP/5PP1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La position semble égale, mais le roi noir est coincé sur la dernière rangée sans protection. Trouvez le coup qui gagne immédiatement pour les blancs !",
+        "[%wrong Ce coup ne gagne pas immédiatement pour les blancs. Essayez encore !][%hint La dernière rangée est particulièrement faible. Pouvez-vous y donner un échec ?] Fantastique ! Vous avez fait un mat du couloir !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5ppp/8/7q/8/6QP/5PP1/6K1 w - - 0 1\"]\r\n\r\n{La position semble égale, mais le roi noir est coincé sur la dernière rangée sans protection. Trouvez le coup qui gagne immédiatement pour les blancs !}\r\n1.Qb8#\r\n    {[%wrong Ce coup ne gagne pas immédiatement pour les blancs. Essayez encore !][%hint La dernière rangée est particulièrement faible. Pouvez-vous y donner un échec ?] Fantastique ! Vous avez fait un mat du couloir !}\r\n*"
+    },
+    {
+      "fen": "2r3k1/5ppp/8/8/1p6/1P1R4/1r3PPP/3R2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un pion faible en b3, mais leurs deux tours visent la dernière rangée des noirs. Trouvez la combinaison qui gagne la partie !",
+        "[%wrong Ce coup n'attaque pas la dernière rangée noire.][%hint Essayez de faire échec sur la dernière rangée.]",
+        "Et voilà ! Les noirs sont dans l'obligation de reprendre la tour, et il est maintenant temps de donner le mat.",
+        "[%wrong Ce coup ne fait pas échec et mat. Essayez encore !][%hint Le seul échec disponible vous donnera la partie !] Bien joué ! C'est échec et mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/5ppp/8/8/1p6/1P1R4/1r3PPP/3R2K1 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion faible en b3, mais leurs deux tours visent la dernière rangée des noirs. Trouvez la combinaison qui gagne la partie !}\r\n1.Rd8+\r\n    {[%wrong Ce coup n'attaque pas la dernière rangée noire.][%hint Essayez de faire échec sur la dernière rangée.]}\r\n1...Rxd8\r\n    {Et voilà ! Les noirs sont dans l'obligation de reprendre la tour, et il est maintenant temps de donner le mat.}\r\n2.Rxd8#\r\n    {[%wrong Ce coup ne fait pas échec et mat. Essayez encore !][%hint Le seul échec disponible vous donnera la partie !] Bien joué ! C'est échec et mat.}\r\n*"
+    },
+    {
+      "fen": "3r2k1/1p2Rpp1/7p/2P5/1P6/8/5PPP/2Rr2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est en grand danger. Quelle est la meilleure défense ?",
+        "[%hint Trouvez un moyen de parer l'échec.] Bien joué ! Les blancs protègent leur dernier rang et obtiennent une bonne position.",
+        "Ce n'est pas la bonne idée, car les noirs reprennent immédiatement et font mat du couloir. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p2Rpp1/7p/2P5/1P6/8/5PPP/2Rr2K1 w - - 0 1\"]\r\n\r\n{Le roi blanc est en grand danger. Quelle est la meilleure défense ?}\r\n1.Re1\r\n    {[%hint Trouvez un moyen de parer l'échec.] Bien joué ! Les blancs protègent leur dernier rang et obtiennent une bonne position.}\r\n    (1.Rxd1 $2 Rxd1+ {Ce n'est pas la bonne idée, car les noirs reprennent immédiatement et font mat du couloir. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "6k1/pp1q1ppp/8/Q7/8/7P/PPr3P1/K2R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire est en prise. Mais faut-il la prendre ? La faiblesse de la dernière rangée noire pourrait peut-être nous permettre de forcer le gain...",
+        "[%wrong Ce coup ne profite pas de la faiblesse de la dernière rangée noire. Essayez encore !][%hint Essayez de donner un échec sur la dernière rangée...]",
+        "Les blancs gagnent la dame, mais perdent la partie à cause du mat du couloir... Essayez encore !",
+        "Bravo ! Il est maintenant temps de donner le mat.",
+        "[%wrong Ce coup ne fait pas échec et mat. Essayez encore !][%hint Il est maintenant temps de prendre la dame noire !] Beau travail, c'est échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/pp1q1ppp/8/Q7/8/7P/PPr3P1/K2R4 w - - 0 1\"]\r\n\r\n{La dame noire est en prise. Mais faut-il la prendre ? La faiblesse de la dernière rangée noire pourrait peut-être nous permettre de forcer le gain...}\r\n1.Qd8+\r\n    {[%wrong Ce coup ne profite pas de la faiblesse de la dernière rangée noire. Essayez encore !][%hint Essayez de donner un échec sur la dernière rangée...]}\r\n    (1.Rxd7 $2 Rc1# {Les blancs gagnent la dame, mais perdent la partie à cause du mat du couloir... Essayez encore !})\r\n1...Qxd8\r\n    {Bravo ! Il est maintenant temps de donner le mat.}\r\n2.Rxd8#\r\n    {[%wrong Ce coup ne fait pas échec et mat. Essayez encore !][%hint Il est maintenant temps de prendre la dame noire !] Beau travail, c'est échec et mat !}\r\n*"
+    },
+    {
+      "fen": "2r3k1/5ppp/1q6/2r5/8/6P1/4QP1P/4RRK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils sacrifier du matériel pour aboutir à un mat rapide ?",
+        "\r\n[%wrong Il existe un meilleur coup. Essayez de nouveau et cherchez un échec gagnant.] [%hint\r\nFaites échec sur la dernière rangée.]",
+        "Excellent coup ! Comment continuez ?",
+        "[%wrong Essayez autre chose afin de mettre fin à la partie sur le champ.] [%hint Un mat du couloir est possible dans cette position.]  Bien joué, les noirs ont l'avantage matériel mais seul le mat compte !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/5ppp/1q6/2r5/8/6P1/4QP1P/4RRK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils sacrifier du matériel pour aboutir à un mat rapide ?} 1. Qe8+ {\r\n[%wrong Il existe un meilleur coup. Essayez de nouveau et cherchez un échec gagnant.] [%hint\r\nFaites échec sur la dernière rangée.]} Rxe8 {Excellent coup ! Comment continuez ?} 2.\r\nRxe8# {[%wrong Essayez autre chose afin de mettre fin à la partie sur le champ.] [%hint Un mat du couloir est possible dans cette position.]  Bien joué, les noirs ont l'avantage matériel mais seul le mat compte !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "b876de78-9ce8-11e8-bc8e-1db0b8177510",
+    "name": "Le mat du couloir",
+    "path": "le-mat-du-couloir",
+    "description": "Le roque est un excellent coup, mais lorsque le roi est seul sur la première rangée sans protection, il peut se retrouver victime d’un mat du couloir donné par la dame ou la tour. Il est souvent préférable d’avancer un pion du roque pour donner au roi une case de fuite en cas d’échec.",
+    "glyphName": "board-magnify-enhance",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-back-rank-checkmates-f7y.mp4",
+    "fen": "6k1/5ppp/8/7q/8/6QP/5PP1/6K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5ppp/8/7q/8/6QP/5PP1/6K1 w - - 0 1\"]\r\n\r\n{La position semble égale, mais le roi noir est coincé sur la dernière rangée sans protection. Trouvez le coup qui gagne immédiatement pour les blancs !}\r\n1.Qb8#\r\n    {[%wrong Ce coup ne gagne pas immédiatement pour les blancs. Essayez encore !][%hint La dernière rangée est particulièrement faible. Pouvez-vous y donner un échec ?] Fantastique ! Vous avez fait un mat du couloir !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/5ppp/8/8/1p6/1P1R4/1r3PPP/3R2K1 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion faible en b3, mais leurs deux tours visent la dernière rangée des noirs. Trouvez la combinaison qui gagne la partie !}\r\n1.Rd8+\r\n    {[%wrong Ce coup n'attaque pas la dernière rangée noire.][%hint Essayez de faire échec sur la dernière rangée.]}\r\n1...Rxd8\r\n    {Et voilà ! Les noirs sont dans l'obligation de reprendre la tour, et il est maintenant temps de donner le mat.}\r\n2.Rxd8#\r\n    {[%wrong Ce coup ne fait pas échec et mat. Essayez encore !][%hint Le seul échec disponible vous donnera la partie !] Bien joué ! C'est échec et mat.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p2Rpp1/7p/2P5/1P6/8/5PPP/2Rr2K1 w - - 0 1\"]\r\n\r\n{Le roi blanc est en grand danger. Quelle est la meilleure défense ?}\r\n1.Re1\r\n    {[%hint Trouvez un moyen de parer l'échec.] Bien joué ! Les blancs protègent leur dernier rang et obtiennent une bonne position.}\r\n    (1.Rxd1 $2 Rxd1+ {Ce n'est pas la bonne idée, car les noirs reprennent immédiatement et font mat du couloir. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/pp1q1ppp/8/Q7/8/7P/PPr3P1/K2R4 w - - 0 1\"]\r\n\r\n{La dame noire est en prise. Mais faut-il la prendre ? La faiblesse de la dernière rangée noire pourrait peut-être nous permettre de forcer le gain...}\r\n1.Qd8+\r\n    {[%wrong Ce coup ne profite pas de la faiblesse de la dernière rangée noire. Essayez encore !][%hint Essayez de donner un échec sur la dernière rangée...]}\r\n    (1.Rxd7 $2 Rc1# {Les blancs gagnent la dame, mais perdent la partie à cause du mat du couloir... Essayez encore !})\r\n1...Qxd8\r\n    {Bravo ! Il est maintenant temps de donner le mat.}\r\n2.Rxd8#\r\n    {[%wrong Ce coup ne fait pas échec et mat. Essayez encore !][%hint Il est maintenant temps de prendre la dame noire !] Beau travail, c'est échec et mat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/5ppp/1q6/2r5/8/6P1/4QP1P/4RRK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils sacrifier du matériel pour aboutir à un mat rapide ?} 1. Qe8+ {\r\n[%wrong Il existe un meilleur coup. Essayez de nouveau et cherchez un échec gagnant.] [%hint\r\nFaites échec sur la dernière rangée.]} Rxe8 {Excellent coup ! Comment continuez ?} 2.\r\nRxe8# {[%wrong Essayez autre chose afin de mettre fin à la partie sur le champ.] [%hint Un mat du couloir est possible dans cette position.]  Bien joué, les noirs ont l'avantage matériel mais seul le mat compte !} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons comment exploiter la faiblesse de la dernière rangée avec le mat du couloir.",
+    "outroText": "Vous ne vous ferez désormais plus avoir de la sorte !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "path": "attaquer-le-roi-adverse",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/12f47b0e-a558-11e8-9e63-7d798a2698c4.facbaf03.728x410o.856e9b44f8c8.png"
+    },
+    "parentId": "6d4955b4-83a9-11e8-9f86-4721f4322df8",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/back-rank-checkmates5e5cd242e148b.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/back-rank-checkmates-56688b8459c658.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/back-rank-checkmates-15ea244601c816.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/back-rank-checkmates-46070797ce35ad.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/matto-del-corridoio6476601d54f37.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 40,
+    "order": 2,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi-adverse",
+      "order": 5
+    }
+  }
+}

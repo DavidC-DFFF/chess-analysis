@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/lecture-de-l-echiquier/quand-echanger-les-pieces",
+  "capturedAt": "2026-10-22T12:23:43.725Z",
+  "title": "Quand échanger les pièces",
+  "exercises": [
+    {
+      "fen": "1r1r3k/p4pp1/1p2p2p/2p5/2P5/1P2P1P1/P2R1PKP/2R5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les deux camps se disputent le contrôle de la colonne ouverte. Faut-il échanger les tours ?",
+        "[%wrong Il existe un coup plus fort. Cherchez encore !][%hint Il ne faut surtout pas renoncer à la colonne d. Comment se renforcer ?] Bien joué ! Les blancs augmentent la pression et forcent les noirs à abandonner le contrôle de la colonne ouverte.",
+        "Cet échange améliore nettement la position adverse, car les noirs contrôlent maintenant la seule colonne ouverte. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r3k/p4pp1/1p2p2p/2p5/2P5/1P2P1P1/P2R1PKP/2R5 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les deux camps se disputent le contrôle de la colonne ouverte. Faut-il échanger les tours ?}\r\n1.Rcd1\r\n    {[%wrong Il existe un coup plus fort. Cherchez encore !][%hint Il ne faut surtout pas renoncer à la colonne d. Comment se renforcer ?] Bien joué ! Les blancs augmentent la pression et forcent les noirs à abandonner le contrôle de la colonne ouverte.}\r\n    (1.Rxd8+ $2 Rxd8 {Cet échange améliore nettement la position adverse, car les noirs contrôlent maintenant la seule colonne ouverte. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "1rbq1rk1/1pb2pp1/7p/p1nN4/P3p3/6P1/1PP1QPBP/R1B2RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Le cavalier d5 est attaqué. Trouvez un échange qui gagne du matériel.",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez encore !][%hint Trouvez une prise qui alignera la dame et la tour noire.]",
+        "bien essayé, mais après avoir cloué leur propre fou devant leur dame, les blancs vont devoir faire très attention. Trouvez un échange plus simple qui gagne du matériel.",
+        "Les noirs auraient également pu prendre le fou. Dans les deux cas, nous avons simplement une pièce de moins sans réelles compensations. Trouvez une capture qui gagne du matériel.",
+        "Beau travail ! Les blancs échangent les pièces mineures et forcent la dame noire à se poster sur une diagonale dangereuse. Trouvez maintenant l'enfilade qui gagne du matériel !",
+        "[%wrong Ce coup n'est pas une enfilade. Cherchez encore !][%hint La dame noire et la tour b8 sont sur la même diagonale !] Joliment fait ! Cette enfilade va nous permettre de gagner une tour sèche au prochain coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rbq1rk1/1pb2pp1/7p/p1nN4/P3p3/6P1/1PP1QPBP/R1B2RK1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Le cavalier d5 est attaqué. Trouvez un échange qui gagne du matériel.}\r\n1.Nxc7\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez encore !][%hint Trouvez une prise qui alignera la dame et la tour noire.]}\r\n    (1.Bxe4 $2 Re8 {bien essayé, mais après avoir cloué leur propre fou devant leur dame, les blancs vont devoir faire très attention. Trouvez un échange plus simple qui gagne du matériel.})\r\n    (1.Bxh6 $2 Qxd5 {Les noirs auraient également pu prendre le fou. Dans les deux cas, nous avons simplement une pièce de moins sans réelles compensations. Trouvez une capture qui gagne du matériel.})\r\n1...Qxc7\r\n    {Beau travail ! Les blancs échangent les pièces mineures et forcent la dame noire à se poster sur une diagonale dangereuse. Trouvez maintenant l'enfilade qui gagne du matériel !}\r\n2.Bf4\r\n    {[%wrong Ce coup n'est pas une enfilade. Cherchez encore !][%hint La dame noire et la tour b8 sont sur la même diagonale !] Joliment fait ! Cette enfilade va nous permettre de gagner une tour sèche au prochain coup !}\r\n*"
+    },
+    {
+      "fen": "r2r2k1/1bp2ppp/p3p3/1p1n4/3P4/2N3P1/PP3PBP/2BR2K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un pion et une qualité de plus. Facilitons nous la tâche en échangeant les pièces blanches les plus actives.",
+        "[%wrong Ce coup n'échange pas de pièces. Cherchez encore !][%hint Comment échanger une pièce active des blancs ? Il n'y a pas beaucoup de captures possibles...]",
+        "Ce coup permet aux blancs de garder plus de pièces actives. Nous voulons échanger un maximum de pièces tant que cela est possible. Cherchez encore !",
+        "Joli ! Le cavalier blanc n'est plus de la partie ! Simplifions encore la position avec un autre échange...",
+        "[%wrong Ce coup n'échange pas de pièces. Cherchez encore !][%hint Le fou des blancs est très actif...]",
+        "Parfait ! Vous avez éliminé les deux pièces blanches les plus actives. Notez que le pion d4 est cloué devant la tour d1. Trouvons une autre cible à attaquer !",
+        "[%wrong Bien essayé, mais il existe une cible plus intéressante à attaquer. Cherchez encore !][%hint Le pion d4 est cloué. Attaquez-le !] Bien joué ! Vous avez simplifié la position pour rentrer dans une finale gagnante.",
+        "Bravo d'avoir trouvé ce coup créatif ! Notez cependant que le pion c7 est arriéré et non protégé. Pourquoi ne pas l'utiliser pour s'en prendre à la faiblesse d4 ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r2k1/1bp2ppp/p3p3/1p1n4/3P4/2N3P1/PP3PBP/2BR2K1 b - - 0 1\"]\r\n\r\n{Les noirs ont un pion et une qualité de plus. Facilitons nous la tâche en échangeant les pièces blanches les plus actives.}\r\n1...Nxc3\r\n    {[%wrong Ce coup n'échange pas de pièces. Cherchez encore !][%hint Comment échanger une pièce active des blancs ? Il n'y a pas beaucoup de captures possibles...]}\r\n    (1...b4 $6 2.Ne4 {Ce coup permet aux blancs de garder plus de pièces actives. Nous voulons échanger un maximum de pièces tant que cela est possible. Cherchez encore !})\r\n2.bxc3\r\n    {Joli ! Le cavalier blanc n'est plus de la partie ! Simplifions encore la position avec un autre échange...}\r\n2...Bxg2\r\n    {[%wrong Ce coup n'échange pas de pièces. Cherchez encore !][%hint Le fou des blancs est très actif...]}\r\n3.Kxg2\r\n    {Parfait ! Vous avez éliminé les deux pièces blanches les plus actives. Notez que le pion d4 est cloué devant la tour d1. Trouvons une autre cible à attaquer !}\r\n3...c5\r\n    {[%wrong Bien essayé, mais il existe une cible plus intéressante à attaquer. Cherchez encore !][%hint Le pion d4 est cloué. Attaquez-le !] Bien joué ! Vous avez simplifié la position pour rentrer dans une finale gagnante.}\r\n    (3...e5 $5 {Bravo d'avoir trouvé ce coup créatif ! Notez cependant que le pion c7 est arriéré et non protégé. Pourquoi ne pas l'utiliser pour s'en prendre à la faiblesse d4 ?})\r\n*"
+    },
+    {
+      "fen": "r2qk2r/ppp2ppp/2np1n2/2b1p3/2B1P1b1/P1NP1N2/1PP2PPP/R1BQ1RK1 b kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Faut-il prendre le cavalier cloué, ou continuer à augmenter la pression ?",
+        "[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Le cavalier blanc est cloué, il pourra donc toujours être pris au prochain coup !]",
+        "Cette capture relâche la pression exercée sur la position blanche et aide les pièces blanches à se développer. Cherchez encore !",
+        "Bien vu ! Pas la peine de se précipiter, le cavalier va tomber. Les noirs rajoutent donc de la pression. Le cavalier d4 est attaqué. Est-il maintenant temps d'échanger ?",
+        "[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint L'échange de cavalier améliore-t-il votre position ? Si c'est le cas, foncez !]",
+        "Bon choix. Cette prise est tout à fait jouable. Jouez maintenant l'autre bonne capture disponible dans cette position.",
+        "Excellente décision ! Le roque blanc est en lambeaux. Mettons maintenant notre fou de cases blanches à l'abri tout en attaquant une tour !",
+        "[%wrong Ce coup ne met pas notre fou en sécurité tout en attaquant une tour. Cherchez encore !][%hint Cherchez la case magique...] Les noirs obtiennent une position très confortable. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/2np1n2/2b1p3/2B1P1b1/P1NP1N2/1PP2PPP/R1BQ1RK1 b kq - 0 1\"]\r\n\r\n{Trait aux noirs. Faut-il prendre le cavalier cloué, ou continuer à augmenter la pression ?}\r\n1...Nd4\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Le cavalier blanc est cloué, il pourra donc toujours être pris au prochain coup !]}\r\n    (1...Bxf3 $2 2.Qxf3 {Cette capture relâche la pression exercée sur la position blanche et aide les pièces blanches à se développer. Cherchez encore !} 2...Nd4)\r\n2.Be3\r\n    {Bien vu ! Pas la peine de se précipiter, le cavalier va tomber. Les noirs rajoutent donc de la pression. Le cavalier d4 est attaqué. Est-il maintenant temps d'échanger ?}\r\n2...Nxf3+\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint L'échange de cavalier améliore-t-il votre position ? Si c'est le cas, foncez !]}\r\n    (2...Bxf3 $5 {Bon choix. Cette prise est tout à fait jouable. Jouez maintenant l'autre bonne capture disponible dans cette position.})\r\n3.gxf3\r\n    {Excellente décision ! Le roque blanc est en lambeaux. Mettons maintenant notre fou de cases blanches à l'abri tout en attaquant une tour !}\r\n3...Bh3\r\n    {[%wrong Ce coup ne met pas notre fou en sécurité tout en attaquant une tour. Cherchez encore !][%hint Cherchez la case magique...] Les noirs obtiennent une position très confortable. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r5k1/1p1q1pbp/1p1rp1p1/8/4P2P/2NB4/PPP2QP1/K1R4R b - - 3 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont une pièce sèche de moins, et pourtant, il existe une bonne raison d'échanger des pièces. Laquelle ?",
+        "[%wrong Ce n'est pas le plus fort coup dans cette position. Cherchez encore !][%hint Le cavalier blanc protège son roi en contrôlant l'importante case a2... Cela vous donne-t-il des idées ?]",
+        "Dans cette variante, les noirs perdent du matériel sans compensations offensives évidentes... Trouvez mieux !",
+        "Excellent travail ! Les noirs sont très contents d'échanger, car ils se débarrassent d'un important défenseur et menacent de mater avec ...Da4. Les blancs sont forcés de jouer le coup Fc4, et nous avons récupéré notre pièce de retard avec une bonne position !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/1p1q1pbp/1p1rp1p1/8/4P2P/2NB4/PPP2QP1/K1R4R b - - 3 4\"]\r\n\r\n{Les noirs ont une pièce sèche de moins, et pourtant, il existe une bonne raison d'échanger des pièces. Laquelle ?}\r\n4...Bxc3\r\n    {[%wrong Ce n'est pas le plus fort coup dans cette position. Cherchez encore !][%hint Le cavalier blanc protège son roi en contrôlant l'importante case a2... Cela vous donne-t-il des idées ?]}\r\n    (4...Rxd3 $2 5.cxd3 {Dans cette variante, les noirs perdent du matériel sans compensations offensives évidentes... Trouvez mieux !})\r\n5.Bc4\r\n    {Excellent travail ! Les noirs sont très contents d'échanger, car ils se débarrassent d'un important défenseur et menacent de mater avec ...Da4. Les blancs sont forcés de jouer le coup Fc4, et nous avons récupéré notre pièce de retard avec une bonne position !}\r\n*"
+    },
+    {
+      "fen": "4k2r/ppq1b1pp/5p2/2pQ4/8/1B1P3P/PPP3P1/4RK2 b k - 3 20",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Le roi est coincé au milieu de l'échiquier et l'attaque blanche se fait de plus en plus menaçante. Comment forcer l'échange des dames pour calmer l'offensive adverse ?",
+        "[%wrong Ce coup ne force pas l'échange des dames. Cherchez encore !][%hint Trouvez un échec forçant le roi blanc à se rendre sur une case où nous pourrons attaquer à la fois le roi et la dame.]",
+        "Bien essayé, mais l'attaque blanche est trop forte. Essayez de forcer l'échange des dames...",
+        "Oh, non ! Le fou est cloué... Cherchez encore !",
+        "Beau travail ! Comme Re2 permet aux noirs d'échanger les dames par ...De5+, le roi blanc part en g1. Mais, là aussi, nous pouvons forcer l'échanger des dames ! A vous de jouer.",
+        "[%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Cherchez encore !][%hint Comment attaquer à la fois le roi et la dame pour forcer l'échange des dames ?]",
+        "Bien joué ! Échangeons maintenant les dames !",
+        "[%wrong Prenez la dame blanche !][%hint Prenez la dame blanche.] Félicitations, vous avez défendu une position très compliquée. Les noirs ont survécu à l'attaque blanche et peuvent tenir cette finale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k2r/ppq1b1pp/5p2/2pQ4/8/1B1P3P/PPP3P1/4RK2 b k - 3 20\"]\r\n\r\n{Trait aux noirs. Le roi est coincé au milieu de l'échiquier et l'attaque blanche se fait de plus en plus menaçante. Comment forcer l'échange des dames pour calmer l'offensive adverse ?}\r\n20...Qf4+\r\n    {[%wrong Ce coup ne force pas l'échange des dames. Cherchez encore !][%hint Trouvez un échec forçant le roi blanc à se rendre sur une case où nous pourrons attaquer à la fois le roi et la dame.]}\r\n    (20...Qc6 $2 21.Qf7+ {Bien essayé, mais l'attaque blanche est trop forte. Essayez de forcer l'échange des dames...})\r\n    (20...Qd6 $2 21.Qxd6 {Oh, non ! Le fou est cloué... Cherchez encore !})\r\n21.Kg1\r\n    {Beau travail ! Comme Re2 permet aux noirs d'échanger les dames par ...De5+, le roi blanc part en g1. Mais, là aussi, nous pouvons forcer l'échanger des dames ! A vous de jouer.}\r\n21...Qd4+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Cherchez encore !][%hint Comment attaquer à la fois le roi et la dame pour forcer l'échange des dames ?]}\r\n22.Qxd4\r\n    {Bien joué ! Échangeons maintenant les dames !}\r\n22...cxd4\r\n    {[%wrong Prenez la dame blanche !][%hint Prenez la dame blanche.] Félicitations, vous avez défendu une position très compliquée. Les noirs ont survécu à l'attaque blanche et peuvent tenir cette finale.}\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/ppqn1pbp/2pp1np1/8/3PNB2/1B1Q1N1P/PPP2PP1/2KR3R b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Notre position est très serrée, et les blancs menacent de gagner d6. Quelle est la meilleure défense ?",
+        "[%wrong Ce coup ne défend pas le pion d6. Cherchez encore !][%hint Échanger une pièce offensive de votre adversaire est souvent une bonne idée...]",
+        "Vérifiez toujours les diagonales que vous ouvrez en poussant un pion...",
+        "Ce coup protège effectivement le pion d6, mais le cavalier est très passif en e8. Trouvez une idée plus active.",
+        "Beau travail ! Le cavalier actif des blancs n'est plus de la partie. Il est maintenant temps d'améliorer notre cavalier d7 !",
+        "[%wrong Il existe un coup de cavalier beaucoup plus actif. Trouvez-le !][%hint Votre cavalier pourrait-il avancer tout en attaquant la dame blanche ?] Bien vu ! Le cavalier noir passe à l'action, gagnant un tempo sur la dame et ouvrant les yeux de son fou de cases blanches.",
+        "Ce coup ouvre effectivement la diagonale du fou de cases blanches, mais ce cavalier a une case beaucoup plus forte à disposition. Trouvez-la !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppqn1pbp/2pp1np1/8/3PNB2/1B1Q1N1P/PPP2PP1/2KR3R b - - 0 1\"]\r\n\r\n{Trait aux noirs. Notre position est très serrée, et les blancs menacent de gagner d6. Quelle est la meilleure défense ?}\r\n1...Nxe4\r\n    {[%wrong Ce coup ne défend pas le pion d6. Cherchez encore !][%hint Échanger une pièce offensive de votre adversaire est souvent une bonne idée...]}\r\n    (1...d5 $2 2.Bxc7 {Vérifiez toujours les diagonales que vous ouvrez en poussant un pion...})\r\n    (1...Ne8 $2 {Ce coup protège effectivement le pion d6, mais le cavalier est très passif en e8. Trouvez une idée plus active.})\r\n2.Qxe4\r\n    {Beau travail ! Le cavalier actif des blancs n'est plus de la partie. Il est maintenant temps d'améliorer notre cavalier d7 !}\r\n2...Nf6\r\n    {[%wrong Il existe un coup de cavalier beaucoup plus actif. Trouvez-le !][%hint Votre cavalier pourrait-il avancer tout en attaquant la dame blanche ?] Bien vu ! Le cavalier noir passe à l'action, gagnant un tempo sur la dame et ouvrant les yeux de son fou de cases blanches.}\r\n    (2...Nb6 $6 {Ce coup ouvre effectivement la diagonale du fou de cases blanches, mais ce cavalier a une case beaucoup plus forte à disposition. Trouvez-la !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "6796a486-9ceb-11e8-b227-579bc4bbc0d9",
+    "name": "Quand échanger les pièces",
+    "path": "quand-echanger-les-pieces",
+    "description": "Il est généralement préférable d’échanger du matériel pour prendre l’avantage, mais que faire si un échange ne permet pas de prendre un avantage évident ? En général, échanger sans bénéfice clair est une erreur. Voici quelques bonnes raisons d’échanger du matériel : simplifier la position lorsque vous avez l’avantage, se débarrasser d’une pièce adverse bien placée, ou prendre le contrôle d’une colonne ouverte.",
+    "glyphName": "utility-balance",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-when-to-trade-pieces-h1q.mp4",
+    "fen": "r5k1/1p1q1pbp/1p1rp1p1/8/4P2P/2NB4/PPP2QP1/K1R4R b - - 3 4",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r3k/p4pp1/1p2p2p/2p5/2P5/1P2P1P1/P2R1PKP/2R5 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les deux camps se disputent le contrôle de la colonne ouverte. Faut-il échanger les tours ?}\r\n1.Rcd1\r\n    {[%wrong Il existe un coup plus fort. Cherchez encore !][%hint Il ne faut surtout pas renoncer à la colonne d. Comment se renforcer ?] Bien joué ! Les blancs augmentent la pression et forcent les noirs à abandonner le contrôle de la colonne ouverte.}\r\n    (1.Rxd8+ $2 Rxd8 {Cet échange améliore nettement la position adverse, car les noirs contrôlent maintenant la seule colonne ouverte. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rbq1rk1/1pb2pp1/7p/p1nN4/P3p3/6P1/1PP1QPBP/R1B2RK1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Le cavalier d5 est attaqué. Trouvez un échange qui gagne du matériel.}\r\n1.Nxc7\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez encore !][%hint Trouvez une prise qui alignera la dame et la tour noire.]}\r\n    (1.Bxe4 $2 Re8 {bien essayé, mais après avoir cloué leur propre fou devant leur dame, les blancs vont devoir faire très attention. Trouvez un échange plus simple qui gagne du matériel.})\r\n    (1.Bxh6 $2 Qxd5 {Les noirs auraient également pu prendre le fou. Dans les deux cas, nous avons simplement une pièce de moins sans réelles compensations. Trouvez une capture qui gagne du matériel.})\r\n1...Qxc7\r\n    {Beau travail ! Les blancs échangent les pièces mineures et forcent la dame noire à se poster sur une diagonale dangereuse. Trouvez maintenant l'enfilade qui gagne du matériel !}\r\n2.Bf4\r\n    {[%wrong Ce coup n'est pas une enfilade. Cherchez encore !][%hint La dame noire et la tour b8 sont sur la même diagonale !] Joliment fait ! Cette enfilade va nous permettre de gagner une tour sèche au prochain coup !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r2k1/1bp2ppp/p3p3/1p1n4/3P4/2N3P1/PP3PBP/2BR2K1 b - - 0 1\"]\r\n\r\n{Les noirs ont un pion et une qualité de plus. Facilitons nous la tâche en échangeant les pièces blanches les plus actives.}\r\n1...Nxc3\r\n    {[%wrong Ce coup n'échange pas de pièces. Cherchez encore !][%hint Comment échanger une pièce active des blancs ? Il n'y a pas beaucoup de captures possibles...]}\r\n    (1...b4 $6 2.Ne4 {Ce coup permet aux blancs de garder plus de pièces actives. Nous voulons échanger un maximum de pièces tant que cela est possible. Cherchez encore !})\r\n2.bxc3\r\n    {Joli ! Le cavalier blanc n'est plus de la partie ! Simplifions encore la position avec un autre échange...}\r\n2...Bxg2\r\n    {[%wrong Ce coup n'échange pas de pièces. Cherchez encore !][%hint Le fou des blancs est très actif...]}\r\n3.Kxg2\r\n    {Parfait ! Vous avez éliminé les deux pièces blanches les plus actives. Notez que le pion d4 est cloué devant la tour d1. Trouvons une autre cible à attaquer !}\r\n3...c5\r\n    {[%wrong Bien essayé, mais il existe une cible plus intéressante à attaquer. Cherchez encore !][%hint Le pion d4 est cloué. Attaquez-le !] Bien joué ! Vous avez simplifié la position pour rentrer dans une finale gagnante.}\r\n    (3...e5 $5 {Bravo d'avoir trouvé ce coup créatif ! Notez cependant que le pion c7 est arriéré et non protégé. Pourquoi ne pas l'utiliser pour s'en prendre à la faiblesse d4 ?})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/2np1n2/2b1p3/2B1P1b1/P1NP1N2/1PP2PPP/R1BQ1RK1 b kq - 0 1\"]\r\n\r\n{Trait aux noirs. Faut-il prendre le cavalier cloué, ou continuer à augmenter la pression ?}\r\n1...Nd4\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Le cavalier blanc est cloué, il pourra donc toujours être pris au prochain coup !]}\r\n    (1...Bxf3 $2 2.Qxf3 {Cette capture relâche la pression exercée sur la position blanche et aide les pièces blanches à se développer. Cherchez encore !} 2...Nd4)\r\n2.Be3\r\n    {Bien vu ! Pas la peine de se précipiter, le cavalier va tomber. Les noirs rajoutent donc de la pression. Le cavalier d4 est attaqué. Est-il maintenant temps d'échanger ?}\r\n2...Nxf3+\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint L'échange de cavalier améliore-t-il votre position ? Si c'est le cas, foncez !]}\r\n    (2...Bxf3 $5 {Bon choix. Cette prise est tout à fait jouable. Jouez maintenant l'autre bonne capture disponible dans cette position.})\r\n3.gxf3\r\n    {Excellente décision ! Le roque blanc est en lambeaux. Mettons maintenant notre fou de cases blanches à l'abri tout en attaquant une tour !}\r\n3...Bh3\r\n    {[%wrong Ce coup ne met pas notre fou en sécurité tout en attaquant une tour. Cherchez encore !][%hint Cherchez la case magique...] Les noirs obtiennent une position très confortable. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/1p1q1pbp/1p1rp1p1/8/4P2P/2NB4/PPP2QP1/K1R4R b - - 3 4\"]\r\n\r\n{Les noirs ont une pièce sèche de moins, et pourtant, il existe une bonne raison d'échanger des pièces. Laquelle ?}\r\n4...Bxc3\r\n    {[%wrong Ce n'est pas le plus fort coup dans cette position. Cherchez encore !][%hint Le cavalier blanc protège son roi en contrôlant l'importante case a2... Cela vous donne-t-il des idées ?]}\r\n    (4...Rxd3 $2 5.cxd3 {Dans cette variante, les noirs perdent du matériel sans compensations offensives évidentes... Trouvez mieux !})\r\n5.Bc4\r\n    {Excellent travail ! Les noirs sont très contents d'échanger, car ils se débarrassent d'un important défenseur et menacent de mater avec ...Da4. Les blancs sont forcés de jouer le coup Fc4, et nous avons récupéré notre pièce de retard avec une bonne position !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k2r/ppq1b1pp/5p2/2pQ4/8/1B1P3P/PPP3P1/4RK2 b k - 3 20\"]\r\n\r\n{Trait aux noirs. Le roi est coincé au milieu de l'échiquier et l'attaque blanche se fait de plus en plus menaçante. Comment forcer l'échange des dames pour calmer l'offensive adverse ?}\r\n20...Qf4+\r\n    {[%wrong Ce coup ne force pas l'échange des dames. Cherchez encore !][%hint Trouvez un échec forçant le roi blanc à se rendre sur une case où nous pourrons attaquer à la fois le roi et la dame.]}\r\n    (20...Qc6 $2 21.Qf7+ {Bien essayé, mais l'attaque blanche est trop forte. Essayez de forcer l'échange des dames...})\r\n    (20...Qd6 $2 21.Qxd6 {Oh, non ! Le fou est cloué... Cherchez encore !})\r\n21.Kg1\r\n    {Beau travail ! Comme Re2 permet aux noirs d'échanger les dames par ...De5+, le roi blanc part en g1. Mais, là aussi, nous pouvons forcer l'échanger des dames ! A vous de jouer.}\r\n21...Qd4+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Cherchez encore !][%hint Comment attaquer à la fois le roi et la dame pour forcer l'échange des dames ?]}\r\n22.Qxd4\r\n    {Bien joué ! Échangeons maintenant les dames !}\r\n22...cxd4\r\n    {[%wrong Prenez la dame blanche !][%hint Prenez la dame blanche.] Félicitations, vous avez défendu une position très compliquée. Les noirs ont survécu à l'attaque blanche et peuvent tenir cette finale.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppqn1pbp/2pp1np1/8/3PNB2/1B1Q1N1P/PPP2PP1/2KR3R b - - 0 1\"]\r\n\r\n{Trait aux noirs. Notre position est très serrée, et les blancs menacent de gagner d6. Quelle est la meilleure défense ?}\r\n1...Nxe4\r\n    {[%wrong Ce coup ne défend pas le pion d6. Cherchez encore !][%hint Échanger une pièce offensive de votre adversaire est souvent une bonne idée...]}\r\n    (1...d5 $2 2.Bxc7 {Vérifiez toujours les diagonales que vous ouvrez en poussant un pion...})\r\n    (1...Ne8 $2 {Ce coup protège effectivement le pion d6, mais le cavalier est très passif en e8. Trouvez une idée plus active.})\r\n2.Qxe4\r\n    {Beau travail ! Le cavalier actif des blancs n'est plus de la partie. Il est maintenant temps d'améliorer notre cavalier d7 !}\r\n2...Nf6\r\n    {[%wrong Il existe un coup de cavalier beaucoup plus actif. Trouvez-le !][%hint Votre cavalier pourrait-il avancer tout en attaquant la dame blanche ?] Bien vu ! Le cavalier noir passe à l'action, gagnant un tempo sur la dame et ouvrant les yeux de son fou de cases blanches.}\r\n    (2...Nb6 $6 {Ce coup ouvre effectivement la diagonale du fou de cases blanches, mais ce cavalier a une case beaucoup plus forte à disposition. Trouvez-la !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Savoir quand échanger peut vous faciliter la tache vers la victoire.",
+    "outroText": "Echanger au bon moment est fondamental aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "path": "lecture-de-l-echiquier",
+      "title": "Lecture de l'échiquier",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/346efa28-a55a-11e8-87ab-eb3d1fefd4e2.07e448f1.728x410o.a0bbcabbc031.png"
+    },
+    "parentId": "b7cf1f46-83b4-11e8-9169-d57823e02caa",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-to-trade-pieces5d125781c7931.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-to-trade-pieces-5668856e54f624.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-to-trade-pieces-15ea2412c39924.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-to-trade-pieces-26151bc60433ec.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 84,
+    "order": 6,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "name": "Lecture de l'échiquier",
+      "path": "lecture-de-l-echiquier",
+      "order": 5
+    }
+  }
+}

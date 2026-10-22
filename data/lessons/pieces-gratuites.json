@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/pieces-gratuites",
+  "capturedAt": "2026-10-22T13:42:27.342Z",
+  "title": "Pièces gratuites",
+  "exercises": [
+    {
+      "fen": "8/4r1n1/1n6/8/3B4/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e7e8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e8;persistent;true,e7h7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;h7;persistent;true,e7e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e1;persistent;true,e7a7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;a7;persistent;true]Prenez le cavalier qui n'est pas protégé par la tour.",
+        "[%hint Trouvez le cavalier non protégé.][%wrong Ce coup ne capture pas un cavalier gratuit.] Exactement !",
+        "Votre fou se fait capturer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4r1n1/1n6/8/3B4/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow e7e8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e8;persistent;true,e7h7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;h7;persistent;true,e7e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e1;persistent;true,e7a7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;a7;persistent;true]Prenez le cavalier qui n'est pas protégé par la tour.} 1. Bxb6 {[%hint Trouvez le cavalier non protégé.][%wrong Ce coup ne capture pas un cavalier gratuit.] Exactement !} (1. Bxg7? Rxg7 {Votre fou se fait capturer.}) *"
+    },
+    {
+      "fen": "8/8/4r3/8/3N3n/5r2/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true] Quelle tour n'a aucun défenseur ?",
+        "[%wrong Vous n'avez pas capturé de tour.][%hint Une seule tour n'est pas protégée.]Exactement. Vous avez capturé une tour gratuitement.",
+        "Votre cavalier se fait capturer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4r3/8/3N3n/5r2/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true] Quelle tour n'a aucun défenseur ?} 1. Nxe6 {[%wrong Vous n'avez pas capturé de tour.][%hint Une seule tour n'est pas protégée.]Exactement. Vous avez capturé une tour gratuitement.} (1. Nxf3? Nxf3 {Votre cavalier se fait capturer.}) *"
+    },
+    {
+      "fen": "8/6r1/1p6/6r1/8/4Q3/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Capturer quelque chose de petit gratuitement est parfois la meilleure option.",
+        "[%hint Pouvez-vous capturer un pion gratuitement ?][%wrong Vous n'avez pas pris le pion gratuit.]Oui, vous avez évité les menaces de la tour.",
+        "Votre dame se fait capturer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6r1/1p6/6r1/8/4Q3/8/8 w - - 0 1\"]\r\n\r\n{Capturer quelque chose de petit gratuitement est parfois la meilleure option.} 1. Qxb6 {[%hint Pouvez-vous capturer un pion gratuitement ?][%wrong Vous n'avez pas pris le pion gratuit.]Oui, vous avez évité les menaces de la tour.} (1. Qxg5? Rxg5 {Votre dame se fait capturer.}) *"
+    },
+    {
+      "fen": "r1bqk2r/p1pp1ppp/2p5/2b3n1/4P3/4B3/PPP2PPP/RN1QKB1R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Il y a deux pièces que vous pouvez capturer, mais laquelle n'est pas défendue ?",
+        "[%hint Y a-t-il un fou non défendu ?][%wrong Vous n'avez pas capturé la pièce gratuite.] Oui ! C'était bien la pièce gratuite !",
+        "Votre fou se fait capturer.",
+        "Votre dame se fait capturer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/p1pp1ppp/2p5/2b3n1/4P3/4B3/PPP2PPP/RN1QKB1R w - - 0 1\"]\r\n\r\n{[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Il y a deux pièces que vous pouvez capturer, mais laquelle n'est pas défendue ?} 1. Bxc5 {[%hint Y a-t-il un fou non défendu ?][%wrong Vous n'avez pas capturé la pièce gratuite.] Oui ! C'était bien la pièce gratuite !} (1. Bxg5? Qxg5 {Votre fou se fait capturer.}) (1. Qxd7+? Bxd7 {Votre dame se fait capturer.}) *"
+    },
+    {
+      "fen": "r2qkbnr/ppp1pppp/8/3p1b2/1n1P1B2/5N2/PPP1PPPP/RN1KQB1R w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous pourrez voir cela en partie.",
+        "[%hint Pouvez-vous capturer une pièce gratuite avec votre dame ?][%wrong Il y a une pièce gratuite à capturer, vous pouvez la trouver.] Oui, c'était un cavalier gratuit.",
+        "Votre fou s'est fait capturer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/ppp1pppp/8/3p1b2/1n1P1B2/5N2/PPP1PPPP/RN1KQB1R w kq - 0 1\"]\r\n\r\n{Vous pourrez voir cela en partie.} 1. Qxb4 {[%hint Pouvez-vous capturer une pièce gratuite avec votre dame ?][%wrong Il y a une pièce gratuite à capturer, vous pouvez la trouver.] Oui, c'était un cavalier gratuit.} (1. Bxc7? Qxc7 {Votre fou s'est fait capturer.}) *"
+    },
+    {
+      "fen": "2k5/ppp4p/8/1B4p1/PR5n/7P/4q1PK/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Capturer en arrière est toujours une option.",
+        "[%hint Votre fou peut-il capturer la dame ?][%wrong Vous n'avez pas encore trouvé la prise.] Belle trouvaille !",
+        "Il y a une meilleure prise possible."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/ppp4p/8/1B4p1/PR5n/7P/4q1PK/8 w - - 0 1\"]\r\n\r\n{Capturer en arrière est toujours une option.} 1. Bxe2 {[%hint Votre fou peut-il capturer la dame ?][%wrong Vous n'avez pas encore trouvé la prise.] Belle trouvaille !} (1. Rxh4? gxh4 {Il y a une meilleure prise possible.}) *"
+    },
+    {
+      "fen": "r2q1rk1/pbp1ppbp/1p1p1np1/8/2BnP3/1PN2N2/PBPP1PPP/R2QK2R w K - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ouah ! L'échiquier est bien rempli, mais il y a une pièce gratuite quelque part.",
+        "[%hint Pouvez-vous trouver le cavalier gratuit ?][%wrong Vous n'avez pas encore trouvé la prise.]Vous avez trouvé la pièce gratuite !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pbp1ppbp/1p1p1np1/8/2BnP3/1PN2N2/PBPP1PPP/R2QK2R w K - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2301765699360615\"]\r\n\r\n{Ouah ! L'échiquier est bien rempli, mais il y a une pièce gratuite quelque part.} 1. Nxd4 {[%hint Pouvez-vous trouver le cavalier gratuit ?][%wrong Vous n'avez pas encore trouvé la prise.]Vous avez trouvé la pièce gratuite !} *"
+    },
+    {
+      "fen": "r4rk1/2pn1ppp/1b2n3/8/2N5/1B4BP/PPP3P1/1K1RR3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il y a beaucoup à analyser ici. Qu'est-ce qui est gratuit ?",
+        "[%hint Votre tour peut-elle capturer une pièce gratuitement ?][%wrong Vous n'avez pas encore trouvé la prise gratuite.] Bien vu !",
+        "Votre pièce se fait reprendre.",
+        "Votre pièce se fait reprendre.",
+        "Votre pièce se fait reprendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/2pn1ppp/1b2n3/8/2N5/1B4BP/PPP3P1/1K1RR3 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2302540998668760\"]\r\n\r\n{Il y a beaucoup à analyser ici. Qu'est-ce qui est gratuit ?} 1. Rxd7 {[%hint Votre tour peut-elle capturer une pièce gratuitement ?][%wrong Vous n'avez pas encore trouvé la prise gratuite.] Bien vu !} (1. Rxe6 $2 fxe6 {Votre pièce se fait reprendre.}) (1. Bxc7 $2 Bxc7 {Votre pièce se fait reprendre.}) (1. Nxb6 $2 Nxb6 {Votre pièce se fait reprendre.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c204-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Pièces gratuites",
+    "path": "pieces-gratuites",
+    "description": "Apprenez à capturer des pièces gratuitement.",
+    "glyphName": "pieces-all",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4r1n1/1n6/8/3B4/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow e7e8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e8;persistent;true,e7h7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;h7;persistent;true,e7e1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;e1;persistent;true,e7a7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;a7;persistent;true]Prenez le cavalier qui n'est pas protégé par la tour.} 1. Bxb6 {[%hint Trouvez le cavalier non protégé.][%wrong Ce coup ne capture pas un cavalier gratuit.] Exactement !} (1. Bxg7? Rxg7 {Votre fou se fait capturer.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4r3/8/3N3n/5r2/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true] Quelle tour n'a aucun défenseur ?} 1. Nxe6 {[%wrong Vous n'avez pas capturé de tour.][%hint Une seule tour n'est pas protégée.]Exactement. Vous avez capturé une tour gratuitement.} (1. Nxf3? Nxf3 {Votre cavalier se fait capturer.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6r1/1p6/6r1/8/4Q3/8/8 w - - 0 1\"]\r\n\r\n{Capturer quelque chose de petit gratuitement est parfois la meilleure option.} 1. Qxb6 {[%hint Pouvez-vous capturer un pion gratuitement ?][%wrong Vous n'avez pas pris le pion gratuit.]Oui, vous avez évité les menaces de la tour.} (1. Qxg5? Rxg5 {Votre dame se fait capturer.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/p1pp1ppp/2p5/2b3n1/4P3/4B3/PPP2PPP/RN1QKB1R w - - 0 1\"]\r\n\r\n{[%c_highlight d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Il y a deux pièces que vous pouvez capturer, mais laquelle n'est pas défendue ?} 1. Bxc5 {[%hint Y a-t-il un fou non défendu ?][%wrong Vous n'avez pas capturé la pièce gratuite.] Oui ! C'était bien la pièce gratuite !} (1. Bxg5? Qxg5 {Votre fou se fait capturer.}) (1. Qxd7+? Bxd7 {Votre dame se fait capturer.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/ppp1pppp/8/3p1b2/1n1P1B2/5N2/PPP1PPPP/RN1KQB1R w kq - 0 1\"]\r\n\r\n{Vous pourrez voir cela en partie.} 1. Qxb4 {[%hint Pouvez-vous capturer une pièce gratuite avec votre dame ?][%wrong Il y a une pièce gratuite à capturer, vous pouvez la trouver.] Oui, c'était un cavalier gratuit.} (1. Bxc7? Qxc7 {Votre fou s'est fait capturer.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/ppp4p/8/1B4p1/PR5n/7P/4q1PK/8 w - - 0 1\"]\r\n\r\n{Capturer en arrière est toujours une option.} 1. Bxe2 {[%hint Votre fou peut-il capturer la dame ?][%wrong Vous n'avez pas encore trouvé la prise.] Belle trouvaille !} (1. Rxh4? gxh4 {Il y a une meilleure prise possible.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pbp1ppbp/1p1p1np1/8/2BnP3/1PN2N2/PBPP1PPP/R2QK2R w K - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2301765699360615\"]\r\n\r\n{Ouah ! L'échiquier est bien rempli, mais il y a une pièce gratuite quelque part.} 1. Nxd4 {[%hint Pouvez-vous trouver le cavalier gratuit ?][%wrong Vous n'avez pas encore trouvé la prise.]Vous avez trouvé la pièce gratuite !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/2pn1ppp/1b2n3/8/2N5/1B4BP/PPP3P1/1K1RR3 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2302540998668760\"]\r\n\r\n{Il y a beaucoup à analyser ici. Qu'est-ce qui est gratuit ?} 1. Rxd7 {[%hint Votre tour peut-elle capturer une pièce gratuitement ?][%wrong Vous n'avez pas encore trouvé la prise gratuite.] Bien vu !} (1. Rxe6 $2 fxe6 {Votre pièce se fait reprendre.}) (1. Bxc7 $2 Bxc7 {Votre pièce se fait reprendre.}) (1. Nxb6 $2 Nxb6 {Votre pièce se fait reprendre.}) *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à capturer des pièces gratuitement.",
+    "outroText": "Vous savez maintenant comment capturer des pièces gratuites.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "ca9ad6a0-1d8b-11f1-a766-796a9e45f89b"
+  },
+  "curriculum": {
+    "number": 16,
+    "order": 4,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

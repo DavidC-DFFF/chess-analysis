@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/evaluer-les-captures",
+  "capturedAt": "2026-10-22T12:23:31.666Z",
+  "title": "Evaluer les captures",
+  "exercises": [
+    {
+      "fen": "1r4k1/1p3p2/n1p1n1p1/8/2B3P1/1P4N1/PK3P2/4R3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont plusieurs captures à évaluer. Trouvez une pièce adverse attaquée plus de fois qu'elle n'est défendue.",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le cavalier noir est attaqué deux fois mais défendu une seule fois.]",
+        "Bien essayé, mais ce coup ne gagne pas de matériel. Essayez encore !",
+        "Bonne idée, mais mauvaise prise ! Après Fxe6, les blancs échangent une tour (5 points) contre un cavalier et un pion (4 points). Essayez un autre ordre de coup !",
+        "Bien joué ! Continuez dans cette voie pour gagner du matériel.",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Emparez-vous du pion.] Et voilà ! En calculant précisément, vous avez gagné un pion !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/1p3p2/n1p1n1p1/8/2B3P1/1P4N1/PK3P2/4R3 w - - 0 1\"]\r\n\r\n{Les blancs ont plusieurs captures à évaluer. Trouvez une pièce adverse attaquée plus de fois qu'elle n'est défendue.}\r\n1.Bxe6\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le cavalier noir est attaqué deux fois mais défendu une seule fois.]}\r\n    (1.Bxa6 $2 bxa6 {Bien essayé, mais ce coup ne gagne pas de matériel. Essayez encore !})\r\n    (1.Rxe6 $2 fxe6 {Bonne idée, mais mauvaise prise ! Après Fxe6, les blancs échangent une tour (5 points) contre un cavalier et un pion (4 points). Essayez un autre ordre de coup !})\r\n1...fxe6\r\n    {Bien joué ! Continuez dans cette voie pour gagner du matériel.}\r\n2.Rxe6\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Emparez-vous du pion.] Et voilà ! En calculant précisément, vous avez gagné un pion !}\r\n*"
+    },
+    {
+      "fen": "2r2rk1/1pqbbppp/p1n1p1n1/3p4/3PP3/P1NB1N2/1P1BQPPP/1R3RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position, les blancs peuvent prendre deux pions noirs : a6 et d5. Grâce à vos connaissances sur la valeur des pièces et en calculant précisément, trouvez comment gagner du matériel.",
+        "[%wrong Vous devez prendre un deux deux pions mentionnées plus haut.][%hint Le cavalier c3 et le pion e4 forment une excellente équipe.]",
+        "C'est la bonne idée, mais pas le bon ordre de coups. Vous perdez un cavalier contre deux pions. Essayez encore !",
+        "Les blancs ont deux attaquants contre un défenseur, mais ces attaquants valent plus que le pion capturé. Vous avez donc perdu du matériel. Essayez encore !",
+        "Excellent ! Continuez dans cette voie pour gagner du matériel.",
+        "[%wrong Il faut s'emparer du pion d5][%hint Le pion défensif reste en prise.] Bien joué ! Vous obtenez un pion d'avance et une excellente position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/1pqbbppp/p1n1p1n1/3p4/3PP3/P1NB1N2/1P1BQPPP/1R3RK1 w - - 0 1\"]\r\n\r\n{Dans cette position, les blancs peuvent prendre deux pions noirs : a6 et d5. Grâce à vos connaissances sur la valeur des pièces et en calculant précisément, trouvez comment gagner du matériel.}\r\n1.exd5\r\n    {[%wrong Vous devez prendre un deux deux pions mentionnées plus haut.][%hint Le cavalier c3 et le pion e4 forment une excellente équipe.]}\r\n    (1.Nxd5 $2 exd5 {C'est la bonne idée, mais pas le bon ordre de coups. Vous perdez un cavalier contre deux pions. Essayez encore !})\r\n    (1.Bxa6 $2 bxa6 {Les blancs ont deux attaquants contre un défenseur, mais ces attaquants valent plus que le pion capturé. Vous avez donc perdu du matériel. Essayez encore !})\r\n1...exd5\r\n    {Excellent ! Continuez dans cette voie pour gagner du matériel.}\r\n2.Nxd5\r\n    {[%wrong Il faut s'emparer du pion d5][%hint Le pion défensif reste en prise.] Bien joué ! Vous obtenez un pion d'avance et une excellente position.}\r\n*"
+    },
+    {
+      "fen": "rnbqk2r/ppp2ppp/4p3/2b5/4P1n1/5NP1/PPPNQP1P/R1B1KB1R b KQkq - 2 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent f2 deux fois (avec un cavalier et un fou), mais les blancs défendent le pion deux fois (avec le roi et la dame). Les noirs peuvent-ils tout de même prendre en f2 ?",
+        "[%wrong Il faut en effet prendre le pion f2. A vous de jouer !][%hint Il faudrait prendre le pion f2 en faisant échec...]",
+        "Bien vu ! Ce bon coup permet de gagner du matériel. Cependant, prendre avec le fou est encore plus fort.",
+        "Très bien ! La dame blanche est maintenant à votre merci !",
+        "[%wrong Non, emparez-vous de la dame tant qu'il est encore temps !][%hint La dame ne doit pas s'échapper...]",
+        "Les blancs avaient bien deux défenseurs contre deux attaquants, mais ils perdent tout de même du matériel car les noirs ont pris un pion et une dame (9+1=10 points) contre un cavalier et un fou (3+3=6 points). Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp2ppp/4p3/2b5/4P1n1/5NP1/PPPNQP1P/R1B1KB1R b KQkq - 2 7\"]\r\n\r\n{Les noirs attaquent f2 deux fois (avec un cavalier et un fou), mais les blancs défendent le pion deux fois (avec le roi et la dame). Les noirs peuvent-ils tout de même prendre en f2 ?}\r\n7...Bxf2+\r\n    {[%wrong Il faut en effet prendre le pion f2. A vous de jouer !][%hint Il faudrait prendre le pion f2 en faisant échec...]}\r\n    (7...Nxf2 $5 {Bien vu ! Ce bon coup permet de gagner du matériel. Cependant, prendre avec le fou est encore plus fort.})\r\n8.Qxf2\r\n    {Très bien ! La dame blanche est maintenant à votre merci !}\r\n8...Nxf2\r\n {[%wrong Non, emparez-vous de la dame tant qu'il est encore temps !][%hint La dame ne doit pas s'échapper...]}\r\n9.Kxf2\r\n    {Les blancs avaient bien deux défenseurs contre deux attaquants, mais ils perdent tout de même du matériel car les noirs ont pris un pion et une dame (9+1=10 points) contre un cavalier et un fou (3+3=6 points). Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r2qkbnr/ppp1pppp/8/3p1b2/1n1P1B2/5NP1/PPP1PP1P/RN1QKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent le pion c2 avec deux pièces (cavalier et fou). Les blancs, eux, n'ont qu'un seul défenseur (la dame). Trouvez un moyen de mieux défendre le pion c2.",
+        "[%wrong Ce coup ne défend pas le pion c2. Essayez encore !][%hint Il faut jouer un coup de cavalier.] Bien joué ! Les blancs défendent une seconde fois le pion c2, que les noirs ne peuvent plus prendre sans perdre du matériel.",
+        "Les blancs perdent un pion et doivent encore trouver un moyen de défendre c2. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/ppp1pppp/8/3p1b2/1n1P1B2/5NP1/PPP1PP1P/RN1QKB1R w KQkq - 0 1\"]\r\n\r\n{Les noirs attaquent le pion c2 avec deux pièces (cavalier et fou). Les blancs, eux, n'ont qu'un seul défenseur (la dame). Trouvez un moyen de mieux défendre le pion c2.}\r\n1.Na3\r\n    {[%wrong Ce coup ne défend pas le pion c2. Essayez encore !][%hint Il faut jouer un coup de cavalier.] Bien joué ! Les blancs défendent une seconde fois le pion c2, que les noirs ne peuvent plus prendre sans perdre du matériel.}\r\n    (1.e4 $2 Bxe4 {Les blancs perdent un pion et doivent encore trouver un moyen de défendre c2. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "3r2k1/p5pp/bp3p2/3p4/3Q2n1/1P2P1Pq/PB1N1P1P/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent deux fois h2 et menacent de mater. Comment ajouter un second défenseur ?",
+        "[%wrong Ce coup n'empêche pas le mat. Essayez encore !][%hint Le cavalier est le dernier espoir des blancs...] Excellente défense ! Ce coup protège h2 et empêche le mat.",
+        "C'était la bonne idée, mais sur cette case, le fou noir élimine votre défenseur. Essayez de trouver une case sur laquelle votre cavalier sera en sécurité.",
+        "Ce coup empêche le mat, mais les blancs perdent beaucoup de matériel. Trouvez une défense plus efficace."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/p5pp/bp3p2/3p4/3Q2n1/1P2P1Pq/PB1N1P1P/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs attaquent deux fois h2 et menacent de mater. Comment ajouter un second défenseur ?}\r\n1.Nf3\r\n    {[%wrong Ce coup n'empêche pas le mat. Essayez encore !][%hint Le cavalier est le dernier espoir des blancs...] Excellente défense ! Ce coup protège h2 et empêche le mat.}\r\n    (1.Nf1 $2 Bxf1 {C'était la bonne idée, mais sur cette case, le fou noir élimine votre défenseur. Essayez de trouver une case sur laquelle votre cavalier sera en sécurité.})\r\n    (1.Qxg4 $2 Qxg4 {Ce coup empêche le mat, mais les blancs perdent beaucoup de matériel. Trouvez une défense plus efficace.})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "4fdbf24a-9ce8-11e8-82a1-f1e42141470e",
+    "name": "Evaluer les captures",
+    "path": "evaluer-les-captures",
+    "description": "Si vous avez plus de pièces attaquantes que l’adversaire à de pièces défensives, il est sans doute possible de prendre la pièce attaquée. Ainsi, vous serez le premier et le dernier à prendre, et gagnerez une pièce à la fin des échanges. Attention cependant à la valeur des pièces en question. Il n’est pas recommandé d’échanger une dame contre deux pions !",
+    "glyphName": "tool-scale",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-counting-captures-j4f.mp4",
+    "fen": "1r4k1/1p3p2/n1p1n1p1/8/2B3P1/1P4N1/PK3P2/4R3 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/1p3p2/n1p1n1p1/8/2B3P1/1P4N1/PK3P2/4R3 w - - 0 1\"]\r\n\r\n{Les blancs ont plusieurs captures à évaluer. Trouvez une pièce adverse attaquée plus de fois qu'elle n'est défendue.}\r\n1.Bxe6\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le cavalier noir est attaqué deux fois mais défendu une seule fois.]}\r\n    (1.Bxa6 $2 bxa6 {Bien essayé, mais ce coup ne gagne pas de matériel. Essayez encore !})\r\n    (1.Rxe6 $2 fxe6 {Bonne idée, mais mauvaise prise ! Après Fxe6, les blancs échangent une tour (5 points) contre un cavalier et un pion (4 points). Essayez un autre ordre de coup !})\r\n1...fxe6\r\n    {Bien joué ! Continuez dans cette voie pour gagner du matériel.}\r\n2.Rxe6\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Emparez-vous du pion.] Et voilà ! En calculant précisément, vous avez gagné un pion !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/1pqbbppp/p1n1p1n1/3p4/3PP3/P1NB1N2/1P1BQPPP/1R3RK1 w - - 0 1\"]\r\n\r\n{Dans cette position, les blancs peuvent prendre deux pions noirs : a6 et d5. Grâce à vos connaissances sur la valeur des pièces et en calculant précisément, trouvez comment gagner du matériel.}\r\n1.exd5\r\n    {[%wrong Vous devez prendre un deux deux pions mentionnées plus haut.][%hint Le cavalier c3 et le pion e4 forment une excellente équipe.]}\r\n    (1.Nxd5 $2 exd5 {C'est la bonne idée, mais pas le bon ordre de coups. Vous perdez un cavalier contre deux pions. Essayez encore !})\r\n    (1.Bxa6 $2 bxa6 {Les blancs ont deux attaquants contre un défenseur, mais ces attaquants valent plus que le pion capturé. Vous avez donc perdu du matériel. Essayez encore !})\r\n1...exd5\r\n    {Excellent ! Continuez dans cette voie pour gagner du matériel.}\r\n2.Nxd5\r\n    {[%wrong Il faut s'emparer du pion d5][%hint Le pion défensif reste en prise.] Bien joué ! Vous obtenez un pion d'avance et une excellente position.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp2ppp/4p3/2b5/4P1n1/5NP1/PPPNQP1P/R1B1KB1R b KQkq - 2 7\"]\r\n\r\n{Les noirs attaquent f2 deux fois (avec un cavalier et un fou), mais les blancs défendent le pion deux fois (avec le roi et la dame). Les noirs peuvent-ils tout de même prendre en f2 ?}\r\n7...Bxf2+\r\n    {[%wrong Il faut en effet prendre le pion f2. A vous de jouer !][%hint Il faudrait prendre le pion f2 en faisant échec...]}\r\n    (7...Nxf2 $5 {Bien vu ! Ce bon coup permet de gagner du matériel. Cependant, prendre avec le fou est encore plus fort.})\r\n8.Qxf2\r\n    {Très bien ! La dame blanche est maintenant à votre merci !}\r\n8...Nxf2\r\n {[%wrong Non, emparez-vous de la dame tant qu'il est encore temps !][%hint La dame ne doit pas s'échapper...]}\r\n9.Kxf2\r\n    {Les blancs avaient bien deux défenseurs contre deux attaquants, mais ils perdent tout de même du matériel car les noirs ont pris un pion et une dame (9+1=10 points) contre un cavalier et un fou (3+3=6 points). Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/ppp1pppp/8/3p1b2/1n1P1B2/5NP1/PPP1PP1P/RN1QKB1R w KQkq - 0 1\"]\r\n\r\n{Les noirs attaquent le pion c2 avec deux pièces (cavalier et fou). Les blancs, eux, n'ont qu'un seul défenseur (la dame). Trouvez un moyen de mieux défendre le pion c2.}\r\n1.Na3\r\n    {[%wrong Ce coup ne défend pas le pion c2. Essayez encore !][%hint Il faut jouer un coup de cavalier.] Bien joué ! Les blancs défendent une seconde fois le pion c2, que les noirs ne peuvent plus prendre sans perdre du matériel.}\r\n    (1.e4 $2 Bxe4 {Les blancs perdent un pion et doivent encore trouver un moyen de défendre c2. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/p5pp/bp3p2/3p4/3Q2n1/1P2P1Pq/PB1N1P1P/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs attaquent deux fois h2 et menacent de mater. Comment ajouter un second défenseur ?}\r\n1.Nf3\r\n    {[%wrong Ce coup n'empêche pas le mat. Essayez encore !][%hint Le cavalier est le dernier espoir des blancs...] Excellente défense ! Ce coup protège h2 et empêche le mat.}\r\n    (1.Nf1 $2 Bxf1 {C'était la bonne idée, mais sur cette case, le fou noir élimine votre défenseur. Essayez de trouver une case sur laquelle votre cavalier sera en sécurité.})\r\n    (1.Qxg4 $2 Qxg4 {Ce coup empêche le mat, mais les blancs perdent beaucoup de matériel. Trouvez une défense plus efficace.})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons des captures plus compliquées à présent.",
+    "outroText": "Bien joué !  Pensez à bien tout vérifier avant de capturer des pièces.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "869147c6-83a8-11e8-bad2-a10240e4b32e",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/counting-captures5e61f495ecc1f.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/counting-captures-566886f348fd9b.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/counting-captures-160745e1c2e890.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/counting-captures-65ea2452e7936f.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/conta-le-catture639d0bf2213b0.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 32,
+    "order": 3,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-avancees/sous-promotion",
+  "capturedAt": "2026-10-22T12:23:53.614Z",
+  "title": "La sous-promotion",
+  "exercises": [
+    {
+      "fen": "1Q6/3P4/2k1B1p1/6Pp/1K5P/8/8/8 w - - 3 64",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le mat en un !",
+        "[%wrong Ce n'est pas mat, cherchez encore !][%hint Attention en promouvant votre pion, nous ne voulons pas mettre le roi adverse en position de pat...] Bien joué ! Grâce à cette sous-promotion cavalier, les blancs matent !",
+        "Oups ! Les noirs s'en sortent bien : c'est pat !",
+        "Trait aux blancs. Trouvez le mat en un !",
+        "Oups ! Les noirs s'en sortent bien : c'est pat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1Q6/3P4/2k1B1p1/6Pp/1K5P/8/8/8 w - - 3 64\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en un !}\r\n64.d8=N#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Attention en promouvant votre pion, nous ne voulons pas mettre le roi adverse en position de pat...] Bien joué ! Grâce à cette sous-promotion cavalier, les blancs matent !}\r\n    (64.d8=Q $2 {Oups ! Les noirs s'en sortent bien : c'est pat !})\r\n    ({Trait aux blancs. Trouvez le mat en un !} 64.d8=R $2 {Oups ! Les noirs s'en sortent bien : c'est pat !})\r\n*"
+    },
+    {
+      "fen": "8/2P5/8/8/3r4/8/2K5/k7 w - - 3 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs sont sur le point de promouvoir leur pion. Mais quelle pièce choisir ?",
+        "[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Nous devons nous munir d'une pièce qui va nous permettre de mater, tout en évitant le pat !]",
+        "Oups ! Vous êtes tombés dans le piège ! Les noirs vont forcer une position de pat si nous prenons leur tour... Trouvez mieux !",
+        "Bien essayé, mais les noirs maintiennent l'équilibre. Trouvez une autre idée pour promouvoir le pion !",
+        "Excellent travail ! Grâce à cette sous-promotion tour, les blancs menacent de mater sur la colonne a et enlèvent aux noirs tout espoir de pat. Trouvez désormais le coup gagnant en menaçant mat tout en attaquant la tour noire !",
+        "[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Relisez bien les instructions !]",
+        "Superbe ! Nous attaquons la tour adverse tout en menaçant Tc1#. Jolie conclusion !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2P5/8/8/3r4/8/2K5/k7 w - - 3 3\"]\r\n\r\n{Les blancs sont sur le point de promouvoir leur pion. Mais quelle pièce choisir ?}\r\n3.c8=R\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Nous devons nous munir d'une pièce qui va nous permettre de mater, tout en évitant le pat !]}\r\n    (3.c8=Q $2 Rc4+ {Oups ! Vous êtes tombés dans le piège ! Les noirs vont forcer une position de pat si nous prenons leur tour... Trouvez mieux !})\r\n    (3.Kc3 $2 Rd1 {Bien essayé, mais les noirs maintiennent l'équilibre. Trouvez une autre idée pour promouvoir le pion !})\r\n3...Ra4\r\n    {Excellent travail ! Grâce à cette sous-promotion tour, les blancs menacent de mater sur la colonne a et enlèvent aux noirs tout espoir de pat. Trouvez désormais le coup gagnant en menaçant mat tout en attaquant la tour noire !}\r\n4.Kb3\r\n{[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Relisez bien les instructions !]}\r\n    {Superbe ! Nous attaquons la tour adverse tout en menaçant Tc1#. Jolie conclusion !}\r\n*"
+    },
+    {
+      "fen": "7R/8/8/k7/1pK5/8/pr6/8 b - - 1 109",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans ce superbe combat entre grand-maîtres, jouons le coup de Ding Liren : 109...Tc2+",
+        "[%wrong Jouons, si vous le voulez bien, le coup de Ding Liren : 109...Tc2+.][%hint Jouez le coup ...Tc2+.]",
+        "Comme Rd3 se heurterait à ...Tc3+ suivi de ...Ta3, escortant le pion jusqu'à la promotion, les blancs choisissent la réponse Rb3. Que faire ?",
+        "[%wrong Bien essayé, mais il y a plus fort !][%hint Croyez le ou non, il y a un mat en un dans cette position !] Cette partie marathon (110 coups !) se termine par une superbe sous-promotion qui mate ! Bravo d'avoir trouvé cette idée.",
+        "Il faut effectivement promouvoir le pion, mais dans cette variante, les blancs gagnent la dame. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7R/8/8/k7/1pK5/8/pr6/8 b - - 1 109\"]\r\n\r\n{Dans ce superbe combat entre grand-maîtres, jouons le coup de Ding Liren : 109...Tc2+}\r\n109...Rc2+\r\n    {[%wrong Jouons, si vous le voulez bien, le coup de Ding Liren : 109...Tc2+.][%hint Jouez le coup ...Tc2+.]}\r\n110.Kb3\r\n    {Comme Rd3 se heurterait à ...Tc3+ suivi de ...Ta3, escortant le pion jusqu'à la promotion, les blancs choisissent la réponse Rb3. Que faire ?}\r\n110...a1=N#\r\n    {[%wrong Bien essayé, mais il y a plus fort !][%hint Croyez le ou non, il y a un mat en un dans cette position !] Cette partie marathon (110 coups !) se termine par une superbe sous-promotion qui mate ! Bravo d'avoir trouvé cette idée.}\r\n    (110...a1=Q $2 111.Ra8+ {Il faut effectivement promouvoir le pion, mais dans cette variante, les blancs gagnent la dame. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "8/8/k7/6p1/6K1/6p1/8/8 b - - 1 60",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Le roi blanc est pris en sandwich entre nos deux pions. Comment gagner ?",
+        "[%wrong Bien essayé, mais les blancs vont jouer Rxg3 et annuler cette position. Cherchez encore !][%hint Les pions passés sont faits pour être poussés...]",
+        "Pour l'instant, tout va bien... Comment continuer ?",
+        "[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Attention au pat...] Bravo ! Les noirs sont maintenant facilement gagnants !",
+        "Cette idée fonctionne également, mais elle est beaucoup compliquée à mettre en oeuvre...  Trouvez plus simple !",
+        "Oups ! Les blancs tiennent la nulle ! Cherchez encore !",
+        "Oups ! C'est pat ! Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/k7/6p1/6K1/6p1/8/8 b - - 1 60\"]\r\n\r\n{Trait aux noirs. Le roi blanc est pris en sandwich entre nos deux pions. Comment gagner ?}\r\n60...g2\r\n    {[%wrong Bien essayé, mais les blancs vont jouer Rxg3 et annuler cette position. Cherchez encore !][%hint Les pions passés sont faits pour être poussés...]}\r\n61.Kh3\r\n    {Pour l'instant, tout va bien... Comment continuer ?}\r\n61...g1=R\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Attention au pat...] Bravo ! Les noirs sont maintenant facilement gagnants !}\r\n    (61...g1=B $5 {Cette idée fonctionne également, mais elle est beaucoup compliquée à mettre en oeuvre...  Trouvez plus simple !})\r\n    (61...g1=N+ $2 62.Kg4 {Oups ! Les blancs tiennent la nulle ! Cherchez encore !})\r\n    (61...g1=Q $2 {Oups ! C'est pat ! Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "rnbqk1nr/ppp2ppp/8/4P3/1bPp4/4P3/PP1B1PPP/RN1QKBNR b KQkq - 2 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans ce contre-gambit Albin, tendons un piège bien connu en prenant le pion e3 et en laissant volontairement en prise notre fou b4 !",
+        "[%wrong Pour les besoins de l'exercice, commençons par prendre le pion e3 !][%hint Prenez le pion e3 avec votre pion.]",
+        "Le piège est tendu, et les blancs sont tombés dedans ! Le seul coup jouable était 6. fxe3. Le roi blanc est maintenant débordé : il doit protéger à la fois la dame et le pion f2 ! Comment en profiter ?",
+        "[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Si nous prenons le pion f2, les blancs pourront-ils le reprendre ?]",
+        "Attention, les blancs ont une pièce de plus. Dans cette variante, leur cavalier s'échappe et ils obtiennent une position gagnante. Cherchez encore !",
+        "Bien vu ! Le roi est obligé d'aller en e2. Trouvez maintenant l'idée spectaculaire qui va cimenter notre avantage !",
+        "[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Nous aimerions jouer ...Fg4 pour faire une enfilade sur le roi et la dame. Trouvez la superbe promotion qui menace cette idée !]",
+        "Bien essayé, mais les blancs échappent à la catastophe grâce à cet échec. C'est la bonne idée, mais pas la bonne pièce. Cherchez encore !",
+        "C'est la bonne idée, mais il faut d'abord éliminer le cavalier !",
+        "Incroyable ! Une sous-promotion après seulement sept coups ! Sur 8.Re1, 8...Dh4+ nous donnerait un avantage décisif. Mais comment continuer dans cette variante ?",
+        "[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint C'est l'heure de l'enfilade !] Un superbe piège d'ouverture fonctionnant grâce à une sous-promotion. Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk1nr/ppp2ppp/8/4P3/1bPp4/4P3/PP1B1PPP/RN1QKBNR b KQkq - 2 5\"]\r\n\r\n{Dans ce contre-gambit Albin, tendons un piège bien connu en prenant le pion e3 et en laissant volontairement en prise notre fou b4 !}\r\n5...dxe3\r\n    {[%wrong Pour les besoins de l'exercice, commençons par prendre le pion e3 !][%hint Prenez le pion e3 avec votre pion.]}\r\n6.Bxb4\r\n    {Le piège est tendu, et les blancs sont tombés dedans ! Le seul coup jouable était 6. fxe3. Le roi blanc est maintenant débordé : il doit protéger à la fois la dame et le pion f2 ! Comment en profiter ?}\r\n6...exf2+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Si nous prenons le pion f2, les blancs pourront-ils le reprendre ?]}\r\n    (6...Qxd1+ $2 7.Kxd1 {Attention, les blancs ont une pièce de plus. Dans cette variante, leur cavalier s'échappe et ils obtiennent une position gagnante. Cherchez encore !})\r\n7.Ke2\r\n    {Bien vu ! Le roi est obligé d'aller en e2. Trouvez maintenant l'idée spectaculaire qui va cimenter notre avantage !}\r\n7...fxg1=N+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Nous aimerions jouer ...Fg4 pour faire une enfilade sur le roi et la dame. Trouvez la superbe promotion qui menace cette idée !]}\r\n    (7...fxg1=Q $2 8.Qxd8+ {Bien essayé, mais les blancs échappent à la catastophe grâce à cet échec. C'est la bonne idée, mais pas la bonne pièce. Cherchez encore !})\r\n    (7...Bg4+ $2 8.Nf3 {C'est la bonne idée, mais il faut d'abord éliminer le cavalier !})\r\n8.Rxg1\r\n    {Incroyable ! Une sous-promotion après seulement sept coups ! Sur 8.Re1, 8...Dh4+ nous donnerait un avantage décisif. Mais comment continuer dans cette variante ?}\r\n8...Bg4+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint C'est l'heure de l'enfilade !] Un superbe piège d'ouverture fonctionnant grâce à une sous-promotion. Bravo !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "b1f22106-9cee-11e8-9f7b-4b11b20b15e2",
+    "name": "La sous-promotion",
+    "path": "sous-promotion",
+    "description": "Avant de vous précipiter vers la case de promotion et de prendre une dame, prenez un instant pour vérifier si une autre pièce ne serait pas plus indiquée. Parfois, promouvoir votre pion en tour ou en fou vous permettra d’éviter le pat. Plus souvent encore, il est possible de promouvoir le pion en cavalier pour réaliser une fourchette immédiate.",
+    "glyphName": "piece-rook-knight-bishop",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-underpromotion-e0v.mp4",
+    "fen": "7R/8/8/k7/1p6/1K6/p1r5/8 b - - 3 110",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1Q6/3P4/2k1B1p1/6Pp/1K5P/8/8/8 w - - 3 64\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en un !}\r\n64.d8=N#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Attention en promouvant votre pion, nous ne voulons pas mettre le roi adverse en position de pat...] Bien joué ! Grâce à cette sous-promotion cavalier, les blancs matent !}\r\n    (64.d8=Q $2 {Oups ! Les noirs s'en sortent bien : c'est pat !})\r\n    ({Trait aux blancs. Trouvez le mat en un !} 64.d8=R $2 {Oups ! Les noirs s'en sortent bien : c'est pat !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2P5/8/8/3r4/8/2K5/k7 w - - 3 3\"]\r\n\r\n{Les blancs sont sur le point de promouvoir leur pion. Mais quelle pièce choisir ?}\r\n3.c8=R\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Nous devons nous munir d'une pièce qui va nous permettre de mater, tout en évitant le pat !]}\r\n    (3.c8=Q $2 Rc4+ {Oups ! Vous êtes tombés dans le piège ! Les noirs vont forcer une position de pat si nous prenons leur tour... Trouvez mieux !})\r\n    (3.Kc3 $2 Rd1 {Bien essayé, mais les noirs maintiennent l'équilibre. Trouvez une autre idée pour promouvoir le pion !})\r\n3...Ra4\r\n    {Excellent travail ! Grâce à cette sous-promotion tour, les blancs menacent de mater sur la colonne a et enlèvent aux noirs tout espoir de pat. Trouvez désormais le coup gagnant en menaçant mat tout en attaquant la tour noire !}\r\n4.Kb3\r\n{[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Relisez bien les instructions !]}\r\n    {Superbe ! Nous attaquons la tour adverse tout en menaçant Tc1#. Jolie conclusion !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7R/8/8/k7/1pK5/8/pr6/8 b - - 1 109\"]\r\n\r\n{Dans ce superbe combat entre grand-maîtres, jouons le coup de Ding Liren : 109...Tc2+}\r\n109...Rc2+\r\n    {[%wrong Jouons, si vous le voulez bien, le coup de Ding Liren : 109...Tc2+.][%hint Jouez le coup ...Tc2+.]}\r\n110.Kb3\r\n    {Comme Rd3 se heurterait à ...Tc3+ suivi de ...Ta3, escortant le pion jusqu'à la promotion, les blancs choisissent la réponse Rb3. Que faire ?}\r\n110...a1=N#\r\n    {[%wrong Bien essayé, mais il y a plus fort !][%hint Croyez le ou non, il y a un mat en un dans cette position !] Cette partie marathon (110 coups !) se termine par une superbe sous-promotion qui mate ! Bravo d'avoir trouvé cette idée.}\r\n    (110...a1=Q $2 111.Ra8+ {Il faut effectivement promouvoir le pion, mais dans cette variante, les blancs gagnent la dame. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/k7/6p1/6K1/6p1/8/8 b - - 1 60\"]\r\n\r\n{Trait aux noirs. Le roi blanc est pris en sandwich entre nos deux pions. Comment gagner ?}\r\n60...g2\r\n    {[%wrong Bien essayé, mais les blancs vont jouer Rxg3 et annuler cette position. Cherchez encore !][%hint Les pions passés sont faits pour être poussés...]}\r\n61.Kh3\r\n    {Pour l'instant, tout va bien... Comment continuer ?}\r\n61...g1=R\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Attention au pat...] Bravo ! Les noirs sont maintenant facilement gagnants !}\r\n    (61...g1=B $5 {Cette idée fonctionne également, mais elle est beaucoup compliquée à mettre en oeuvre...  Trouvez plus simple !})\r\n    (61...g1=N+ $2 62.Kg4 {Oups ! Les blancs tiennent la nulle ! Cherchez encore !})\r\n    (61...g1=Q $2 {Oups ! C'est pat ! Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk1nr/ppp2ppp/8/4P3/1bPp4/4P3/PP1B1PPP/RN1QKBNR b KQkq - 2 5\"]\r\n\r\n{Dans ce contre-gambit Albin, tendons un piège bien connu en prenant le pion e3 et en laissant volontairement en prise notre fou b4 !}\r\n5...dxe3\r\n    {[%wrong Pour les besoins de l'exercice, commençons par prendre le pion e3 !][%hint Prenez le pion e3 avec votre pion.]}\r\n6.Bxb4\r\n    {Le piège est tendu, et les blancs sont tombés dedans ! Le seul coup jouable était 6. fxe3. Le roi blanc est maintenant débordé : il doit protéger à la fois la dame et le pion f2 ! Comment en profiter ?}\r\n6...exf2+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Si nous prenons le pion f2, les blancs pourront-ils le reprendre ?]}\r\n    (6...Qxd1+ $2 7.Kxd1 {Attention, les blancs ont une pièce de plus. Dans cette variante, leur cavalier s'échappe et ils obtiennent une position gagnante. Cherchez encore !})\r\n7.Ke2\r\n    {Bien vu ! Le roi est obligé d'aller en e2. Trouvez maintenant l'idée spectaculaire qui va cimenter notre avantage !}\r\n7...fxg1=N+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Nous aimerions jouer ...Fg4 pour faire une enfilade sur le roi et la dame. Trouvez la superbe promotion qui menace cette idée !]}\r\n    (7...fxg1=Q $2 8.Qxd8+ {Bien essayé, mais les blancs échappent à la catastophe grâce à cet échec. C'est la bonne idée, mais pas la bonne pièce. Cherchez encore !})\r\n    (7...Bg4+ $2 8.Nf3 {C'est la bonne idée, mais il faut d'abord éliminer le cavalier !})\r\n8.Rxg1\r\n    {Incroyable ! Une sous-promotion après seulement sept coups ! Sur 8.Re1, 8...Dh4+ nous donnerait un avantage décisif. Mais comment continuer dans cette variante ?}\r\n8...Bg4+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint C'est l'heure de l'enfilade !] Un superbe piège d'ouverture fonctionnant grâce à une sous-promotion. Bravo !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "562e8776-a55c-11e8-9553-4f7baecf710a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Parfois, le bon coup n'est pas de promouvoir son pion en dame.",
+    "outroText": "Attention à la promotion automatique en dame et aux risques de pat.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "path": "tactiques-avancees",
+      "title": "Tactiques avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/562e8776-a55c-11e8-9553-4f7baecf710a.5c197624.728x410o.1f86d1894a94.png"
+    },
+    "parentId": "4cfb7152-83b8-11e8-8e05-7f719d89a3b0",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/underpromotion5d125e6d1a181.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/underpromotion-25ea23dccc4625.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/underpromotion-4605b6cbe80208.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 128,
+    "order": 5,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "name": "Tactiques avancées",
+      "path": "tactiques-avancees",
+      "order": 6
+    }
+  }
+}

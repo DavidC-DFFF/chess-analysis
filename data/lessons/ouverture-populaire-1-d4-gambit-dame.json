@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/ouverture-populaire-1-d4-gambit-dame",
+  "capturedAt": "2026-10-22T12:23:45.073Z",
+  "title": "Une ouverture populaire avec 1.d4 : le gambit dame",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Jouons l'ouverture la plus populaire avec 1.d4 d5 : le gambit dame !",
+        "[%wrong Ce coup n’introduit pas le gambit dame. Essayez encore !][%hint Le gambit dame consiste à mettre immédiatement sous pression le centre noir avec le pion c.]",
+        "Très bien ! Les blancs mettent la pression sur d5, et les blancs décident de prendre en c4. C'est le gambit dame accepté. Quel est le meilleur coup pour les blancs ? Jouez un pion !",
+        "[%wrong Bien essayé, mais il existe un coup de pion encore plus fort. Trouvez-le !][%hint Comment prendre le contrôle du centre tout en menaçant de reprendre le pion c4 avec le fou de cases blanches ?] Bon travail ! Les blancs prennent le contrôle du centre et s'apprêtent à récupérer le pion du gambit par Fxc4. Les noirs vont devoir faire très attention s'ils ne veulent pas se retrouver dans une très mauvaise position dès l'ouverture.",
+        "Bon choix. Cette option solide donne aux blancs une bonne position. Trouvez maintenant un autre coup plus agressif contrôlant mieux le centre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Jouons l'ouverture la plus populaire avec 1.d4 d5 : le gambit dame !}\r\n2.c4\r\n    {[%wrong Ce coup n’introduit pas le gambit dame. Essayez encore !][%hint Le gambit dame consiste à mettre immédiatement sous pression le centre noir avec le pion c.]}\r\n2...dxc4\r\n    {Très bien ! Les blancs mettent la pression sur d5, et les blancs décident de prendre en c4. C'est le gambit dame accepté. Quel est le meilleur coup pour les blancs ? Jouez un pion !}\r\n3.e4\r\n    {[%wrong Bien essayé, mais il existe un coup de pion encore plus fort. Trouvez-le !][%hint Comment prendre le contrôle du centre tout en menaçant de reprendre le pion c4 avec le fou de cases blanches ?] Bon travail ! Les blancs prennent le contrôle du centre et s'apprêtent à récupérer le pion du gambit par Fxc4. Les noirs vont devoir faire très attention s'ils ne veulent pas se retrouver dans une très mauvaise position dès l'ouverture.}\r\n    (3.e3 $5 {Bon choix. Cette option solide donne aux blancs une bonne position. Trouvez maintenant un autre coup plus agressif contrôlant mieux le centre.})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Au lieu de prendre en c4, les noirs ont choisi de défendre d5 par ...c6. C'est la défense slave. Développons maintenant un cavalier vers le centre.",
+        "[%wrong Ce coup ne développe pas un cavalier vers le centre. Cherchez encore !][%hint Jouons un coup de cavalier contrôlant e4 et d5 et préparant le petit roque.]",
+        "Très bien ! Ce fort coup de développement est également très joué. Développons maintenant l'autre cavalier vers le centre.",
+        "Bien essayé, mais ce cavalier serait beaucoup plus actif en c3. Où pensez-vous que l'autre cavalier doit aller ? A vous de jouer !",
+        "Parfait ! Les noirs développent également leur cavalier vers le centre. Activons maintenant notre deuxième cavalier en attaquant d5 !",
+        "[%wrong Ce coup ne développe pas le deuxième cavalier vers le centre en attaquant d5. Essayez encore !][%hint Où placer le cavalier b1 pour qu'il attaque d5 ?]",
+        "Bon travail ! Les deux cavaliers sont désormais actifs. Comme souvent dans la défense slave, les noirs choisissent de continuer par 4...dxc4."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Au lieu de prendre en c4, les noirs ont choisi de défendre d5 par ...c6. C'est la défense slave. Développons maintenant un cavalier vers le centre.}\r\n3.Nf3\r\n    {[%wrong Ce coup ne développe pas un cavalier vers le centre. Cherchez encore !][%hint Jouons un coup de cavalier contrôlant e4 et d5 et préparant le petit roque.]}\r\n    (3.Nc3 $5 {Très bien ! Ce fort coup de développement est également très joué. Développons maintenant l'autre cavalier vers le centre.})\r\n    (3.Nd2 $6 {Bien essayé, mais ce cavalier serait beaucoup plus actif en c3. Où pensez-vous que l'autre cavalier doit aller ? A vous de jouer !})\r\n3...Nf6\r\n    {Parfait ! Les noirs développent également leur cavalier vers le centre. Activons maintenant notre deuxième cavalier en attaquant d5 !}\r\n4.Nc3\r\n    {[%wrong Ce coup ne développe pas le deuxième cavalier vers le centre en attaquant d5. Essayez encore !][%hint Où placer le cavalier b1 pour qu'il attaque d5 ?]}\r\n4...dxc4\r\n    {Bon travail ! Les deux cavaliers sont désormais actifs. Comme souvent dans la défense slave, les noirs choisissent de continuer par 4...dxc4.}\r\n*"
+    },
+    {
+      "fen": "rn1qkb1r/pp2pppp/2p2n2/3p1b2/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Que se passerait-il si, au lieu de jouer 4...dxc4, les noirs jouaient 4...Ff5 ? Prenons le pion d5 pour comprendre comment punir ce coup imprudent.",
+        "[%wrong Ce n'est pas le coup le plus fort dans cette position... Cherchez encore !][%hint Dans cette position, les blancs n'ont qu'une seule capture intéressante...]",
+        "Très bien ! Les noirs reprennent du pion pour ne pas laisser aux blancs le contrôle du centre. Trouvez maintenant un puissant coup de dame attaquant deux pions à la fois !",
+        "[%wrong Bien essayé, mais il existe un coup de dame beaucoup plus fort attaquant deux pions à la fois. Trouvez-le !][%hint Le pion b7 des noirs est sans défense. Comment l'attaquer tout en mettant la pression sur d5 ?]",
+        "Un jeu puissant ! Les blancs attaquent à la fois le pion b7 non protégé et le pion d5. Les noirs tentent de défendre contre les deux menaces simultanément, mais nous pouvons continuer en gagnant au moins un pion. Trouvez comment !",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas de pion. Cherchez encore !][%hint Le pion d5 est attaqué deux fois et n'a qu'un seul défenseur...]",
+        "Joli coup ! Les blancs prennent un pion, mais les noirs tentent de compliquer la position en échangeant les dames, supprimant au passage le défenseur du cavalier d5. Comment continuer ?",
+        "[%wrong Il existe un coup beaucoup plus fort. Trouvez-le !][%hint Avant de reprendre la dame, il faut insérer un échec !]",
+        "Oups ! Nous perdons une pièce. Cherchez encore !",
+        "Oups ! Nous perdons une pièce. Cherchez encore !",
+        "Un superbe intermezzo ! Les blancs prennent le cavalier adverse en faisant échec, ce qui va nous permettre de rester avec un pion de plus après avoir repris la dame. A vous de jouer !",
+        "[%wrong Non, nous devons récupérer notre retard matériel !][%hint Prenez la dame noire !] Voilà pourquoi les noirs évitent généralement le coup 4...Ff5. Retournons maintenant à la défense slave proprement dite, avec 4...dxc4 !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkb1r/pp2pppp/2p2n2/3p1b2/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 5\"]\r\n\r\n{Que se passerait-il si, au lieu de jouer 4...dxc4, les noirs jouaient 4...Ff5 ? Prenons le pion d5 pour comprendre comment punir ce coup imprudent.}\r\n5.cxd5\r\n    {[%wrong Ce n'est pas le coup le plus fort dans cette position... Cherchez encore !][%hint Dans cette position, les blancs n'ont qu'une seule capture intéressante...]}\r\n5...cxd5\r\n    {Très bien ! Les noirs reprennent du pion pour ne pas laisser aux blancs le contrôle du centre. Trouvez maintenant un puissant coup de dame attaquant deux pions à la fois !}\r\n6.Qb3\r\n    {[%wrong Bien essayé, mais il existe un coup de dame beaucoup plus fort attaquant deux pions à la fois. Trouvez-le !][%hint Le pion b7 des noirs est sans défense. Comment l'attaquer tout en mettant la pression sur d5 ?]}\r\n6...Qb6\r\n    {Un jeu puissant ! Les blancs attaquent à la fois le pion b7 non protégé et le pion d5. Les noirs tentent de défendre contre les deux menaces simultanément, mais nous pouvons continuer en gagnant au moins un pion. Trouvez comment !}\r\n7.Nxd5\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas de pion. Cherchez encore !][%hint Le pion d5 est attaqué deux fois et n'a qu'un seul défenseur...]}\r\n7...Qxb3\r\n    {Joli coup ! Les blancs prennent un pion, mais les noirs tentent de compliquer la position en échangeant les dames, supprimant au passage le défenseur du cavalier d5. Comment continuer ?}\r\n8.Nxf6+\r\n    {[%wrong Il existe un coup beaucoup plus fort. Trouvez-le !][%hint Avant de reprendre la dame, il faut insérer un échec !]}\r\n    (8.Nc7+ $2 Kd8 {Oups ! Nous perdons une pièce. Cherchez encore !})\r\n    (8.axb3 $2 Nxd5 {Oups ! Nous perdons une pièce. Cherchez encore !})\r\n8...exf6\r\n    {Un superbe intermezzo ! Les blancs prennent le cavalier adverse en faisant échec, ce qui va nous permettre de rester avec un pion de plus après avoir repris la dame. A vous de jouer !}\r\n9.axb3\r\n    {[%wrong Non, nous devons récupérer notre retard matériel !][%hint Prenez la dame noire !] Voilà pourquoi les noirs évitent généralement le coup 4...Ff5. Retournons maintenant à la défense slave proprement dite, avec 4...dxc4 !}\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Après 4...dxc4, les noirs menacent de s'accrocher au pion c4 par ...b5. Trouvez un fort coup de pion empêchant cette idée.",
+        "[%wrong Ce n'est pas un coup de pion empêchant ...b5. Cherchez encore !][%hint Quel coup de pion prépare la prise d'un éventuel pion en b5 ?]",
+        "Beau travail ! Les blancs ont empêché le coup ...b5. Les noirs se développent maintenant sur l'excellente case f5. Comment se préparer à reprendre le pion c4 tout en continuant notre développement ?",
+        "[%wrong Ne coup ne nous prépare pas à prendre le pion c4. Cherchez encore !][%hint Nous aimerions développer notre fou de cases blanches et reprendre le pion c4... Ouvrez la diagonale !] Joli coup ! Les blancs préparent Fxc4 et petit roque. Les deux camps vont maintenant terminer leur développement, et un combat intéressant s'annonce.",
+        "Joli coup ! Cette avancée dynamique nous fait rentrer dans une position très aiguë. Trouvez maintenant un autre coup ouvrant les yeux du fou de cases blanches et attaquant le pion c4.",
+        "Bien essayé, mais ce coup perd un pion. Cherchez encore !",
+        "Bien essayé, mais ce coup perd un pion. Cherchez encore !",
+        "Ce coup sacrifie un pion. Nous voulons récupérer c4 sans contrepartie ! Cherchez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5\"]\r\n\r\n{Après 4...dxc4, les noirs menacent de s'accrocher au pion c4 par ...b5. Trouvez un fort coup de pion empêchant cette idée.}\r\n5.a4\r\n    {[%wrong Ce n'est pas un coup de pion empêchant ...b5. Cherchez encore !][%hint Quel coup de pion prépare la prise d'un éventuel pion en b5 ?]}\r\n5...Bf5\r\n    {Beau travail ! Les blancs ont empêché le coup ...b5. Les noirs se développent maintenant sur l'excellente case f5. Comment se préparer à reprendre le pion c4 tout en continuant notre développement ?}\r\n6.e3\r\n    {[%wrong Ne coup ne nous prépare pas à prendre le pion c4. Cherchez encore !][%hint Nous aimerions développer notre fou de cases blanches et reprendre le pion c4... Ouvrez la diagonale !] Joli coup ! Les blancs préparent Fxc4 et petit roque. Les deux camps vont maintenant terminer leur développement, et un combat intéressant s'annonce.}\r\n    (6.Ne5 $5 {Joli coup ! Cette avancée dynamique nous fait rentrer dans une position très aiguë. Trouvez maintenant un autre coup ouvrant les yeux du fou de cases blanches et attaquant le pion c4.})\r\n    (6.e4 $2 Nxe4 {Bien essayé, mais ce coup perd un pion. Cherchez encore !})\r\n    (6.Nd2 $2 Qxd4 {Bien essayé, mais ce coup perd un pion. Cherchez encore !})\r\n    (6.b3 $2 cxb3 {Ce coup sacrifie un pion. Nous voulons récupérer c4 sans contrepartie ! Cherchez encore.})\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "4...dxc4 entre dans la défense slave. Mais quel est le coup constitutif de la défense semi-slave ?",
+        "[%wrong Non, il ne s'agit pas de la défense semi-slave. Essayez encore !][%hint Jouez un coup de pion protégeant d5 et ouvrant la diagonale de développement du fou de cases noires.]",
+        "Parfait ! Les noirs peuvent continuer solidement avec par exemple 5...Cbd7, ou choisir une partie plus tranchante en enchaînant par 5...dxc4. Pour le moment, jouons un coup solide déclouant notre cavalier et préparant le petit roque.",
+        "[%wrong Ce coup ne décloue pas notre cavalier tout en préparant le petit roque. Cherchez encore !][%hint Comment développer une pièce tout en déclouant le cavalier f6 ?] Et voilà ! Ce coup solide transpose dans le gambit dame refusé et évite la grande complexité des milieux de partie issus de la défense semi-slave avec 5...dxc4. Ce n'est pas une mauvaise idée lorsque l'on apprend tout juste les ouvertures !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4\"]\r\n\r\n{4...dxc4 entre dans la défense slave. Mais quel est le coup constitutif de la défense semi-slave ?}\r\n4...e6\r\n    {[%wrong Non, il ne s'agit pas de la défense semi-slave. Essayez encore !][%hint Jouez un coup de pion protégeant d5 et ouvrant la diagonale de développement du fou de cases noires.]}\r\n5.Bg5\r\n    {Parfait ! Les noirs peuvent continuer solidement avec par exemple 5...Cbd7, ou choisir une partie plus tranchante en enchaînant par 5...dxc4. Pour le moment, jouons un coup solide déclouant notre cavalier et préparant le petit roque.}\r\n5...Be7\r\n    {[%wrong Ce coup ne décloue pas notre cavalier tout en préparant le petit roque. Cherchez encore !][%hint Comment développer une pièce tout en déclouant le cavalier f6 ?] Et voilà ! Ce coup solide transpose dans le gambit dame refusé et évite la grande complexité des milieux de partie issus de la défense semi-slave avec 5...dxc4. Ce n'est pas une mauvaise idée lorsque l'on apprend tout juste les ouvertures !}\r\n*"
+    },
+    {
+      "fen": "rnbqk2r/ppp1bppp/4pn2/3p2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R b KQkq - 5 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Revenons dans les grandes lignes du gambit dame refusé. Nous pourrions jouer 5...c6 et transposer dans la position vue précédemment, mais nous allons cette fois essayer le petit roque pour découvrir les grandes idées de la position.",
+        "[%wrong Pour le moment, jouons petit roque.][%hint Faites petit roque !]",
+        "Les noirs roquent et obtiennent une position solide. Posons maintenant une question au fou de cases noires adverse en l'attaquant avec un pion.",
+        "[%wrong Ce coup n'attaque pas le fou de cases noires adverse avec un pion. Cherchez encore !][%hint Quel pion peut attaquer le fou g5 ?]",
+        "Intéressant ! Les noirs gagnent un tempo sur le fou et créent une case de fuite en h7 pour le roi. Ça peut toujours servir ! Et maintenant, comment préparer le développement de notre fou de cases blanches sur la diagonale h1-a8 ?",
+        "[%wrong Ce coup ne prépare pas le développement du fou de cases blanches sur la grande diagonale. Cherchez encore !][%hint Jouez un coup de pion ouvrant le fianchetto pour notre fou de cases blanches.]",
+        "Oups ! Ce coup obstrue la défense du pion d5 par la dame ! Les noirs vont perdre un pion.",
+        "Beau travail ! Les noirs ouvrent la grande diagonale, ce qui va permettre au fou de cases blanches de participer au contrôle du centre depuis le fianchetto. A vous de continuer !",
+        "[%wrong Ce coup n'active pas le fou sur la grande diagonale. Essayez encore !][%hint Il n'y a plus de pion en b7, profitions-en !] Excellent ! Notre fou de cases blanches est désormais en charge de la grande diagonale. Les noirs enchaînent généralement par ...Cbd7 et ...c5 pour mettre sous pression le centre blanc."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp1bppp/4pn2/3p2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R b KQkq - 5 5\"]\r\n\r\n{Revenons dans les grandes lignes du gambit dame refusé. Nous pourrions jouer 5...c6 et transposer dans la position vue précédemment, mais nous allons cette fois essayer le petit roque pour découvrir les grandes idées de la position.}\r\n5...O-O\r\n    {[%wrong Pour le moment, jouons petit roque.][%hint Faites petit roque !]}\r\n6.e3\r\n    {Les noirs roquent et obtiennent une position solide. Posons maintenant une question au fou de cases noires adverse en l'attaquant avec un pion.}\r\n6...h6\r\n    {[%wrong Ce coup n'attaque pas le fou de cases noires adverse avec un pion. Cherchez encore !][%hint Quel pion peut attaquer le fou g5 ?]}\r\n7.Bh4\r\n    {Intéressant ! Les noirs gagnent un tempo sur le fou et créent une case de fuite en h7 pour le roi. Ça peut toujours servir ! Et maintenant, comment préparer le développement de notre fou de cases blanches sur la diagonale h1-a8 ?}\r\n7...b6\r\n    {[%wrong Ce coup ne prépare pas le développement du fou de cases blanches sur la grande diagonale. Cherchez encore !][%hint Jouez un coup de pion ouvrant le fianchetto pour notre fou de cases blanches.]}\r\n    (7...Bd7 $2 8.Bxf6 {Oups ! Ce coup obstrue la défense du pion d5 par la dame ! Les noirs vont perdre un pion.})\r\n8.Bd3\r\n    {Beau travail ! Les noirs ouvrent la grande diagonale, ce qui va permettre au fou de cases blanches de participer au contrôle du centre depuis le fianchetto. A vous de continuer !}\r\n8...Bb7\r\n    {[%wrong Ce coup n'active pas le fou sur la grande diagonale. Essayez encore !][%hint Il n'y a plus de pion en b7, profitions-en !] Excellent ! Notre fou de cases blanches est désormais en charge de la grande diagonale. Les noirs enchaînent généralement par ...Cbd7 et ...c5 pour mettre sous pression le centre blanc.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "a358dae8-9ceb-11e8-8918-992b9bb97bf9",
+    "name": "Une ouverture populaire avec 1.d4 : le gambit dame",
+    "path": "ouverture-populaire-1-d4-gambit-dame",
+    "description": "1.d4 est un des coups d’ouverture les plus joués. Après 1…d5, les blancs jouent souvent 2.c4, entrant dans le gambit dame. Les noirs peuvent l’accepter par 2.dxc4 ou défendre le pion d5 par c6 (défense slave) ou e6 (gambit dame refusé).",
+    "glyphName": "document-book-d",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-popular-1-d4-openings-j8s.mp4",
+    "fen": "rnbqk2r/ppp1bppp/4pn2/3p2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R b KQkq - 5 5",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Jouons l'ouverture la plus populaire avec 1.d4 d5 : le gambit dame !}\r\n2.c4\r\n    {[%wrong Ce coup n’introduit pas le gambit dame. Essayez encore !][%hint Le gambit dame consiste à mettre immédiatement sous pression le centre noir avec le pion c.]}\r\n2...dxc4\r\n    {Très bien ! Les blancs mettent la pression sur d5, et les blancs décident de prendre en c4. C'est le gambit dame accepté. Quel est le meilleur coup pour les blancs ? Jouez un pion !}\r\n3.e4\r\n    {[%wrong Bien essayé, mais il existe un coup de pion encore plus fort. Trouvez-le !][%hint Comment prendre le contrôle du centre tout en menaçant de reprendre le pion c4 avec le fou de cases blanches ?] Bon travail ! Les blancs prennent le contrôle du centre et s'apprêtent à récupérer le pion du gambit par Fxc4. Les noirs vont devoir faire très attention s'ils ne veulent pas se retrouver dans une très mauvaise position dès l'ouverture.}\r\n    (3.e3 $5 {Bon choix. Cette option solide donne aux blancs une bonne position. Trouvez maintenant un autre coup plus agressif contrôlant mieux le centre.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Au lieu de prendre en c4, les noirs ont choisi de défendre d5 par ...c6. C'est la défense slave. Développons maintenant un cavalier vers le centre.}\r\n3.Nf3\r\n    {[%wrong Ce coup ne développe pas un cavalier vers le centre. Cherchez encore !][%hint Jouons un coup de cavalier contrôlant e4 et d5 et préparant le petit roque.]}\r\n    (3.Nc3 $5 {Très bien ! Ce fort coup de développement est également très joué. Développons maintenant l'autre cavalier vers le centre.})\r\n    (3.Nd2 $6 {Bien essayé, mais ce cavalier serait beaucoup plus actif en c3. Où pensez-vous que l'autre cavalier doit aller ? A vous de jouer !})\r\n3...Nf6\r\n    {Parfait ! Les noirs développent également leur cavalier vers le centre. Activons maintenant notre deuxième cavalier en attaquant d5 !}\r\n4.Nc3\r\n    {[%wrong Ce coup ne développe pas le deuxième cavalier vers le centre en attaquant d5. Essayez encore !][%hint Où placer le cavalier b1 pour qu'il attaque d5 ?]}\r\n4...dxc4\r\n    {Bon travail ! Les deux cavaliers sont désormais actifs. Comme souvent dans la défense slave, les noirs choisissent de continuer par 4...dxc4.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkb1r/pp2pppp/2p2n2/3p1b2/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 5\"]\r\n\r\n{Que se passerait-il si, au lieu de jouer 4...dxc4, les noirs jouaient 4...Ff5 ? Prenons le pion d5 pour comprendre comment punir ce coup imprudent.}\r\n5.cxd5\r\n    {[%wrong Ce n'est pas le coup le plus fort dans cette position... Cherchez encore !][%hint Dans cette position, les blancs n'ont qu'une seule capture intéressante...]}\r\n5...cxd5\r\n    {Très bien ! Les noirs reprennent du pion pour ne pas laisser aux blancs le contrôle du centre. Trouvez maintenant un puissant coup de dame attaquant deux pions à la fois !}\r\n6.Qb3\r\n    {[%wrong Bien essayé, mais il existe un coup de dame beaucoup plus fort attaquant deux pions à la fois. Trouvez-le !][%hint Le pion b7 des noirs est sans défense. Comment l'attaquer tout en mettant la pression sur d5 ?]}\r\n6...Qb6\r\n    {Un jeu puissant ! Les blancs attaquent à la fois le pion b7 non protégé et le pion d5. Les noirs tentent de défendre contre les deux menaces simultanément, mais nous pouvons continuer en gagnant au moins un pion. Trouvez comment !}\r\n7.Nxd5\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas de pion. Cherchez encore !][%hint Le pion d5 est attaqué deux fois et n'a qu'un seul défenseur...]}\r\n7...Qxb3\r\n    {Joli coup ! Les blancs prennent un pion, mais les noirs tentent de compliquer la position en échangeant les dames, supprimant au passage le défenseur du cavalier d5. Comment continuer ?}\r\n8.Nxf6+\r\n    {[%wrong Il existe un coup beaucoup plus fort. Trouvez-le !][%hint Avant de reprendre la dame, il faut insérer un échec !]}\r\n    (8.Nc7+ $2 Kd8 {Oups ! Nous perdons une pièce. Cherchez encore !})\r\n    (8.axb3 $2 Nxd5 {Oups ! Nous perdons une pièce. Cherchez encore !})\r\n8...exf6\r\n    {Un superbe intermezzo ! Les blancs prennent le cavalier adverse en faisant échec, ce qui va nous permettre de rester avec un pion de plus après avoir repris la dame. A vous de jouer !}\r\n9.axb3\r\n    {[%wrong Non, nous devons récupérer notre retard matériel !][%hint Prenez la dame noire !] Voilà pourquoi les noirs évitent généralement le coup 4...Ff5. Retournons maintenant à la défense slave proprement dite, avec 4...dxc4 !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5\"]\r\n\r\n{Après 4...dxc4, les noirs menacent de s'accrocher au pion c4 par ...b5. Trouvez un fort coup de pion empêchant cette idée.}\r\n5.a4\r\n    {[%wrong Ce n'est pas un coup de pion empêchant ...b5. Cherchez encore !][%hint Quel coup de pion prépare la prise d'un éventuel pion en b5 ?]}\r\n5...Bf5\r\n    {Beau travail ! Les blancs ont empêché le coup ...b5. Les noirs se développent maintenant sur l'excellente case f5. Comment se préparer à reprendre le pion c4 tout en continuant notre développement ?}\r\n6.e3\r\n    {[%wrong Ne coup ne nous prépare pas à prendre le pion c4. Cherchez encore !][%hint Nous aimerions développer notre fou de cases blanches et reprendre le pion c4... Ouvrez la diagonale !] Joli coup ! Les blancs préparent Fxc4 et petit roque. Les deux camps vont maintenant terminer leur développement, et un combat intéressant s'annonce.}\r\n    (6.Ne5 $5 {Joli coup ! Cette avancée dynamique nous fait rentrer dans une position très aiguë. Trouvez maintenant un autre coup ouvrant les yeux du fou de cases blanches et attaquant le pion c4.})\r\n    (6.e4 $2 Nxe4 {Bien essayé, mais ce coup perd un pion. Cherchez encore !})\r\n    (6.Nd2 $2 Qxd4 {Bien essayé, mais ce coup perd un pion. Cherchez encore !})\r\n    (6.b3 $2 cxb3 {Ce coup sacrifie un pion. Nous voulons récupérer c4 sans contrepartie ! Cherchez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4\"]\r\n\r\n{4...dxc4 entre dans la défense slave. Mais quel est le coup constitutif de la défense semi-slave ?}\r\n4...e6\r\n    {[%wrong Non, il ne s'agit pas de la défense semi-slave. Essayez encore !][%hint Jouez un coup de pion protégeant d5 et ouvrant la diagonale de développement du fou de cases noires.]}\r\n5.Bg5\r\n    {Parfait ! Les noirs peuvent continuer solidement avec par exemple 5...Cbd7, ou choisir une partie plus tranchante en enchaînant par 5...dxc4. Pour le moment, jouons un coup solide déclouant notre cavalier et préparant le petit roque.}\r\n5...Be7\r\n    {[%wrong Ce coup ne décloue pas notre cavalier tout en préparant le petit roque. Cherchez encore !][%hint Comment développer une pièce tout en déclouant le cavalier f6 ?] Et voilà ! Ce coup solide transpose dans le gambit dame refusé et évite la grande complexité des milieux de partie issus de la défense semi-slave avec 5...dxc4. Ce n'est pas une mauvaise idée lorsque l'on apprend tout juste les ouvertures !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp1bppp/4pn2/3p2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R b KQkq - 5 5\"]\r\n\r\n{Revenons dans les grandes lignes du gambit dame refusé. Nous pourrions jouer 5...c6 et transposer dans la position vue précédemment, mais nous allons cette fois essayer le petit roque pour découvrir les grandes idées de la position.}\r\n5...O-O\r\n    {[%wrong Pour le moment, jouons petit roque.][%hint Faites petit roque !]}\r\n6.e3\r\n    {Les noirs roquent et obtiennent une position solide. Posons maintenant une question au fou de cases noires adverse en l'attaquant avec un pion.}\r\n6...h6\r\n    {[%wrong Ce coup n'attaque pas le fou de cases noires adverse avec un pion. Cherchez encore !][%hint Quel pion peut attaquer le fou g5 ?]}\r\n7.Bh4\r\n    {Intéressant ! Les noirs gagnent un tempo sur le fou et créent une case de fuite en h7 pour le roi. Ça peut toujours servir ! Et maintenant, comment préparer le développement de notre fou de cases blanches sur la diagonale h1-a8 ?}\r\n7...b6\r\n    {[%wrong Ce coup ne prépare pas le développement du fou de cases blanches sur la grande diagonale. Cherchez encore !][%hint Jouez un coup de pion ouvrant le fianchetto pour notre fou de cases blanches.]}\r\n    (7...Bd7 $2 8.Bxf6 {Oups ! Ce coup obstrue la défense du pion d5 par la dame ! Les noirs vont perdre un pion.})\r\n8.Bd3\r\n    {Beau travail ! Les noirs ouvrent la grande diagonale, ce qui va permettre au fou de cases blanches de participer au contrôle du centre depuis le fianchetto. A vous de continuer !}\r\n8...Bb7\r\n    {[%wrong Ce coup n'active pas le fou sur la grande diagonale. Essayez encore !][%hint Il n'y a plus de pion en b7, profitions-en !] Excellent ! Notre fou de cases blanches est désormais en charge de la grande diagonale. Les noirs enchaînent généralement par ...Cbd7 et ...c5 pour mettre sous pression le centre blanc.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les ouvertures commençant par 1.d4 sont généralement plus positionnelles. Regardons ensemble.",
+    "outroText": "Vous pouvez adopter une approche plus positionnelle avec 1.d4.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "e9aa6df4-83b4-11e8-8a18-3719c356f5e5",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings5e7aaf8c5e1c3.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings-566886c9b0685a.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings-15ea240966be11.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings-26163ee5b7da8d.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 90,
+    "order": 5,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

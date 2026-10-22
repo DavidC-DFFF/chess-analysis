@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/utiliser-le-potentiel-de-ses-pieces/utiliser-ses-cavaliers",
+  "capturedAt": "2026-10-22T12:23:36.009Z",
+  "title": "Utiliser ses cavaliers",
+  "exercises": [
+    {
+      "fen": "r1bq1rk1/pp1nbppp/2p1pn2/3p2B1/2PP4/4PN2/PP2BPPP/RN1Q1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont encore une pièce mineure à développer. Où le cavalier b1 sera-t-il le mieux placé ?",
+        "[%wrong Ce coup ne développe pas le cavalier b1. Essayez encore !][%hint Quelle est la case qui permettre au cavalier de contrôler le plus de cases centrales ?] Voilà le cavalier joliment centralisé. Bien joué ! Il contrôle la case e4 et met sous pression le pion noir en d5.",
+        "Ce coup contrôle la case e4 et protège le cavalier f3. Mais pouvez-vous trouver une case où il pourra également mettre sous pression le centre noir ?",
+        "Placé au bord de l'échiquier, le cavalier est deux fois moins fort. Notez qu'il ne contrôle que quatre cases, et qu'aucune d'entre elles n'est centrale. Trouvez lui une position plus active !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp1nbppp/2p1pn2/3p2B1/2PP4/4PN2/PP2BPPP/RN1Q1RK1 w - - 0 1\"]\r\n\r\n{Les blancs ont encore une pièce mineure à développer. Où le cavalier b1 sera-t-il le mieux placé ?}\r\n1.Nc3\r\n    {[%wrong Ce coup ne développe pas le cavalier b1. Essayez encore !][%hint Quelle est la case qui permettre au cavalier de contrôler le plus de cases centrales ?] Voilà le cavalier joliment centralisé. Bien joué ! Il contrôle la case e4 et met sous pression le pion noir en d5.}\r\n    (1.Nbd2 $6 {Ce coup contrôle la case e4 et protège le cavalier f3. Mais pouvez-vous trouver une case où il pourra également mettre sous pression le centre noir ?})\r\n    (1.Na3 $2 {Placé au bord de l'échiquier, le cavalier est deux fois moins fort. Notez qu'il ne contrôle que quatre cases, et qu'aucune d'entre elles n'est centrale. Trouvez lui une position plus active !})\r\n*"
+    },
+    {
+      "fen": "r4rk1/pppqbppp/2n1b3/3np3/8/NP1P1NP1/PB2PPBP/R2Q1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier a3 est éloigné de l'action. Comment l'activer tout en créant une menace ?",
+        "[%wrong Ce coup n'améliore pas la position du cavalier a3. Essayez encore !][%hint Comment centraliser le cavalier a3 tout en menacant de gagner du matériel ?] Bien joué ! En ramenant leur cavalier vers le centre, les blancs ajoutent un troisième attaquant sur le pion e5.",
+        "Ce coup de cavalier met sous pression les pions a7 et c7, mais ils sont tous deux bien protégés, et il devra battre en retraite s'il est attaqué au coup suivant. Essayez encore !",
+        "Où va ce cavalier ? En tout cas, pour le moment, il ne fait aucune menace. Essayez de lui trouver une case plus active.",
+        "Ramener un cavalier à l'écurie n'est pas forcément une catastrophe, mais ici, ce n'est absolument pas nécessaire. Essayez encore !",
+        "Les noirs gagnent une pièce ! En effet, le fou des blancs ne peut pas à la fois prendre le cavalier adverse et continuer à protéger le cavalier a3.",
+        "Il faudrait améliorer la position de notre cavalier a3 avant de le perdre !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pppqbppp/2n1b3/3np3/8/NP1P1NP1/PB2PPBP/R2Q1RK1 w - - 0 1\"]\r\n\r\n{Le cavalier a3 est éloigné de l'action. Comment l'activer tout en créant une menace ?}\r\n1.Nc4\r\n    {[%wrong Ce coup n'améliore pas la position du cavalier a3. Essayez encore !][%hint Comment centraliser le cavalier a3 tout en menacant de gagner du matériel ?] Bien joué ! En ramenant leur cavalier vers le centre, les blancs ajoutent un troisième attaquant sur le pion e5.}\r\n    (1.Nb5 $2 {Ce coup de cavalier met sous pression les pions a7 et c7, mais ils sont tous deux bien protégés, et il devra battre en retraite s'il est attaqué au coup suivant. Essayez encore !})\r\n    (1.Nc2 $2 {Où va ce cavalier ? En tout cas, pour le moment, il ne fait aucune menace. Essayez de lui trouver une case plus active.})\r\n    (1.Nb1 $2 {Ramener un cavalier à l'écurie n'est pas forcément une catastrophe, mais ici, ce n'est absolument pas nécessaire. Essayez encore !})\r\n    (1.Nxe5 $2 Nxe5 {Les noirs gagnent une pièce ! En effet, le fou des blancs ne peut pas à la fois prendre le cavalier adverse et continuer à protéger le cavalier a3.})\r\n    (1.Bxe5 $2 Bxa3 {Il faudrait améliorer la position de notre cavalier a3 avant de le perdre !})\r\n*"
+    },
+    {
+      "fen": "4r1k1/pb1q1p1p/1p2p2p/1P2P3/P7/1QR3NP/5PP1/6K1 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier blanc aimerait s'installer sur la case f6, d'où il réaliserait une puissante fourchette sur les pièces lourdes et le roi adverses. Comment atteindre cette case en deux coups ?",
+        "\r\n[%wrong Bien essayé, mais ce coup n'aide pas le cavalier à atteindre sa case de rêve. Essayez encore !][%hint Trouvez un chemin sûr pour l'intrépide cavalier.]",
+        "N'oubliez jamais de vérifier que votre pièce s'installe sur une case sure. Ici, ce n'est pas le cas !",
+        "Bien joué ! Le cavalier blanc s'apprête à s'installer en f6, mais les noirs répondent en menaçant mat en g2. Que faire ?",
+        "[%wrong Non, il existe un coup beaucoup plus fort dans cette position !][%hint Pourquoi ne pas continuer à suivre le plan original ?]",
+        "Bien sûr, nous allons cette fois encore pouvoir faire une fourchette au roi et à la tour au prochain coup, mais il y a encore plus fort !",
+        "Donner un échec au roi tout en protégeant la case g2 ? Ce n'est pas une mauvaise idée, mais il y a encore plus fort dans la position.",
+        "Trouvé ! Les blancs ne se laissent pas distraire par la menace de mat et réalisent une fourchette familiale. Roi, dame, tour... Tout le monde y passe ! Maintenant, il est temps de s'emparer de la plus forte pièce adverse.",
+        "[%wrong Bien essayé, mais nous cherchons à prendre la dame noire !] [%hint Le cavalier n'a pas fait tout ce chemin pour rien !] Joli travail, vous maîtrisez de mieux en mieux les cavaliers !",
+        "Bien essayé, mais l'échange est ici égal. Comment prendre la dame avec une pièce moins forte pour gagner du matériel ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r1k1/pb1q1p1p/1p2p2p/1P2P3/P7/1QR3NP/5PP1/6K1 w - - 0 2\"]\r\n[PlyCount \"5\"]\r\n\r\n{Le cavalier blanc aimerait s'installer sur la case f6, d'où il réaliserait une puissante fourchette sur les pièces lourdes et le roi adverses. Comment atteindre cette case en deux coups ?} 2. Nh5 {\r\n[%wrong Bien essayé, mais ce coup n'aide pas le cavalier à atteindre sa case de rêve. Essayez encore !][%hint Trouvez un chemin sûr pour l'intrépide cavalier.]} (2. Ne4 $2 Bxe4 {N'oubliez jamais de vérifier que votre pièce s'installe sur une case sure. Ici, ce n'est pas le cas !}) \r\n2... Qd5 {Bien joué ! Le cavalier blanc s'apprête à s'installer en f6, mais les noirs répondent en menaçant mat en g2. Que faire ?} \r\n3. Nf6+ {[%wrong Non, il existe un coup beaucoup plus fort dans cette position !][%hint Pourquoi ne pas continuer à suivre le plan original ?]} (3. Qxd5 $6 Bxd5 {Bien sûr, nous allons cette fois encore pouvoir faire une fourchette au roi et à la tour au prochain coup, mais il y a encore plus fort !}) (3. Rg3+ $6 {Donner un échec au roi tout en protégeant la case g2 ? Ce n'est pas une mauvaise idée, mais il y a encore plus fort dans la position.}) 3... Kf8 {Trouvé ! Les blancs ne se laissent pas distraire par la menace de mat et réalisent une fourchette familiale. Roi, dame, tour... Tout le monde y passe ! Maintenant, il est temps de s'emparer de la plus forte pièce adverse.} \r\n4. Nxd5 {[%wrong Bien essayé, mais nous cherchons à prendre la dame noire !] [%hint Le cavalier n'a pas fait tout ce chemin pour rien !] Joli travail, vous maîtrisez de mieux en mieux les cavaliers !} \r\n(4. Qxd5 $2 {Bien essayé, mais l'échange est ici égal. Comment prendre la dame avec une pièce moins forte pour gagner du matériel ?}) *"
+    },
+    {
+      "fen": "2b1r1k1/1p2r1pp/p1p1p3/2Pp4/1P6/P3PN2/5PPP/1R1R2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou noir et ses tours veulent s'activer après avoir avancé le pion e6. Quel est le meilleur coup des blancs dans cette position ?",
+        "[%wrong Ce coup n'empêche pas les noirs de pousser le pion e6. Essayez encore !][%hint Comment empêcher les noirs de libérer leurs pièces en poussant le pion e6 ?] Votre jeu positionnel s'améliore à vue d’œil ! Le cavalier blanc va profiter d'une très jolie case centrale grâce à laquelle il réalise une blocade sur le pion e6, l'empêchant ainsi de progresser.",
+        "Le cavalier est bouté hors du centre et le fou de cases blanches des noirs est désormais libre... Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b1r1k1/1p2r1pp/p1p1p3/2Pp4/1P6/P3PN2/5PPP/1R1R2K1 w - - 0 1\"]\r\n\r\n{Le fou noir et ses tours veulent s'activer après avoir avancé le pion e6. Quel est le meilleur coup des blancs dans cette position ?}\r\n1.Ne5\r\n    {[%wrong Ce coup n'empêche pas les noirs de pousser le pion e6. Essayez encore !][%hint Comment empêcher les noirs de libérer leurs pièces en poussant le pion e6 ?] Votre jeu positionnel s'améliore à vue d’œil ! Le cavalier blanc va profiter d'une très jolie case centrale grâce à laquelle il réalise une blocade sur le pion e6, l'empêchant ainsi de progresser.}\r\n    (1.Nd4 $2 e5 {Le cavalier est bouté hors du centre et le fou de cases blanches des noirs est désormais libre... Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "3r2k1/p4pp1/1p5p/8/8/PbPp1N2/1P3PPP/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs s'apprêtent à jouer d2 pour promouvoir leur pion. Comment défendre contre ce dangereux passeur ?",
+        "[%wrong Ce coup n'empêche pas les noirs de pousser le pion d. Essayez encore !][%hint Les cavaliers sont les pièces idéales pour réaliser des blocades.] Superbe défense ! Le cavalier blanc bloque le pion passé tout en attaquant le fou b3.",
+        "Bloquer la protection de la tour sur son pion passé est généralement une bonne idée, mais ici, les noirs peuvent tout simplement pousser leur pion vers la terre promise. Essayez encore !",
+        "En effet, il faut bloquer le pion passé adverse, mais sans perdre une pièce au passage !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/p4pp1/1p5p/8/8/PbPp1N2/1P3PPP/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs s'apprêtent à jouer d2 pour promouvoir leur pion. Comment défendre contre ce dangereux passeur ?}\r\n1.Nd2\r\n    {[%wrong Ce coup n'empêche pas les noirs de pousser le pion d. Essayez encore !][%hint Les cavaliers sont les pièces idéales pour réaliser des blocades.] Superbe défense ! Le cavalier blanc bloque le pion passé tout en attaquant le fou b3.}\r\n    (1.Nd4 $2 d2 {Bloquer la protection de la tour sur son pion passé est généralement une bonne idée, mais ici, les noirs peuvent tout simplement pousser leur pion vers la terre promise. Essayez encore !})\r\n    (1.Rd1 $2 Bxd1 {En effet, il faut bloquer le pion passé adverse, mais sans perdre une pièce au passage !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "7aac6102-9ce9-11e8-85b2-8b97829251d7",
+    "name": "Utiliser ses cavaliers",
+    "path": "utiliser-ses-cavaliers",
+    "description": "Les cavaliers ne sont jamais aussi forts qu’au centre, d’où ils peuvent contrôler jusqu’à huit cases. Ils travaillent très bien en association avec la dame, et sont d’excellents bloqueurs de pions.",
+    "glyphName": "piece-pair-knight",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-using-your-knights-e0v.mp4",
+    "fen": "r4rk1/pppqbppp/2n1b3/3np3/2N5/1P1P1NP1/PB2PPBP/R2Q1RK1 b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp1nbppp/2p1pn2/3p2B1/2PP4/4PN2/PP2BPPP/RN1Q1RK1 w - - 0 1\"]\r\n\r\n{Les blancs ont encore une pièce mineure à développer. Où le cavalier b1 sera-t-il le mieux placé ?}\r\n1.Nc3\r\n    {[%wrong Ce coup ne développe pas le cavalier b1. Essayez encore !][%hint Quelle est la case qui permettre au cavalier de contrôler le plus de cases centrales ?] Voilà le cavalier joliment centralisé. Bien joué ! Il contrôle la case e4 et met sous pression le pion noir en d5.}\r\n    (1.Nbd2 $6 {Ce coup contrôle la case e4 et protège le cavalier f3. Mais pouvez-vous trouver une case où il pourra également mettre sous pression le centre noir ?})\r\n    (1.Na3 $2 {Placé au bord de l'échiquier, le cavalier est deux fois moins fort. Notez qu'il ne contrôle que quatre cases, et qu'aucune d'entre elles n'est centrale. Trouvez lui une position plus active !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pppqbppp/2n1b3/3np3/8/NP1P1NP1/PB2PPBP/R2Q1RK1 w - - 0 1\"]\r\n\r\n{Le cavalier a3 est éloigné de l'action. Comment l'activer tout en créant une menace ?}\r\n1.Nc4\r\n    {[%wrong Ce coup n'améliore pas la position du cavalier a3. Essayez encore !][%hint Comment centraliser le cavalier a3 tout en menacant de gagner du matériel ?] Bien joué ! En ramenant leur cavalier vers le centre, les blancs ajoutent un troisième attaquant sur le pion e5.}\r\n    (1.Nb5 $2 {Ce coup de cavalier met sous pression les pions a7 et c7, mais ils sont tous deux bien protégés, et il devra battre en retraite s'il est attaqué au coup suivant. Essayez encore !})\r\n    (1.Nc2 $2 {Où va ce cavalier ? En tout cas, pour le moment, il ne fait aucune menace. Essayez de lui trouver une case plus active.})\r\n    (1.Nb1 $2 {Ramener un cavalier à l'écurie n'est pas forcément une catastrophe, mais ici, ce n'est absolument pas nécessaire. Essayez encore !})\r\n    (1.Nxe5 $2 Nxe5 {Les noirs gagnent une pièce ! En effet, le fou des blancs ne peut pas à la fois prendre le cavalier adverse et continuer à protéger le cavalier a3.})\r\n    (1.Bxe5 $2 Bxa3 {Il faudrait améliorer la position de notre cavalier a3 avant de le perdre !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r1k1/pb1q1p1p/1p2p2p/1P2P3/P7/1QR3NP/5PP1/6K1 w - - 0 2\"]\r\n[PlyCount \"5\"]\r\n\r\n{Le cavalier blanc aimerait s'installer sur la case f6, d'où il réaliserait une puissante fourchette sur les pièces lourdes et le roi adverses. Comment atteindre cette case en deux coups ?} 2. Nh5 {\r\n[%wrong Bien essayé, mais ce coup n'aide pas le cavalier à atteindre sa case de rêve. Essayez encore !][%hint Trouvez un chemin sûr pour l'intrépide cavalier.]} (2. Ne4 $2 Bxe4 {N'oubliez jamais de vérifier que votre pièce s'installe sur une case sure. Ici, ce n'est pas le cas !}) \r\n2... Qd5 {Bien joué ! Le cavalier blanc s'apprête à s'installer en f6, mais les noirs répondent en menaçant mat en g2. Que faire ?} \r\n3. Nf6+ {[%wrong Non, il existe un coup beaucoup plus fort dans cette position !][%hint Pourquoi ne pas continuer à suivre le plan original ?]} (3. Qxd5 $6 Bxd5 {Bien sûr, nous allons cette fois encore pouvoir faire une fourchette au roi et à la tour au prochain coup, mais il y a encore plus fort !}) (3. Rg3+ $6 {Donner un échec au roi tout en protégeant la case g2 ? Ce n'est pas une mauvaise idée, mais il y a encore plus fort dans la position.}) 3... Kf8 {Trouvé ! Les blancs ne se laissent pas distraire par la menace de mat et réalisent une fourchette familiale. Roi, dame, tour... Tout le monde y passe ! Maintenant, il est temps de s'emparer de la plus forte pièce adverse.} \r\n4. Nxd5 {[%wrong Bien essayé, mais nous cherchons à prendre la dame noire !] [%hint Le cavalier n'a pas fait tout ce chemin pour rien !] Joli travail, vous maîtrisez de mieux en mieux les cavaliers !} \r\n(4. Qxd5 $2 {Bien essayé, mais l'échange est ici égal. Comment prendre la dame avec une pièce moins forte pour gagner du matériel ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b1r1k1/1p2r1pp/p1p1p3/2Pp4/1P6/P3PN2/5PPP/1R1R2K1 w - - 0 1\"]\r\n\r\n{Le fou noir et ses tours veulent s'activer après avoir avancé le pion e6. Quel est le meilleur coup des blancs dans cette position ?}\r\n1.Ne5\r\n    {[%wrong Ce coup n'empêche pas les noirs de pousser le pion e6. Essayez encore !][%hint Comment empêcher les noirs de libérer leurs pièces en poussant le pion e6 ?] Votre jeu positionnel s'améliore à vue d’œil ! Le cavalier blanc va profiter d'une très jolie case centrale grâce à laquelle il réalise une blocade sur le pion e6, l'empêchant ainsi de progresser.}\r\n    (1.Nd4 $2 e5 {Le cavalier est bouté hors du centre et le fou de cases blanches des noirs est désormais libre... Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/p4pp1/1p5p/8/8/PbPp1N2/1P3PPP/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs s'apprêtent à jouer d2 pour promouvoir leur pion. Comment défendre contre ce dangereux passeur ?}\r\n1.Nd2\r\n    {[%wrong Ce coup n'empêche pas les noirs de pousser le pion d. Essayez encore !][%hint Les cavaliers sont les pièces idéales pour réaliser des blocades.] Superbe défense ! Le cavalier blanc bloque le pion passé tout en attaquant le fou b3.}\r\n    (1.Nd4 $2 d2 {Bloquer la protection de la tour sur son pion passé est généralement une bonne idée, mais ici, les noirs peuvent tout simplement pousser leur pion vers la terre promise. Essayez encore !})\r\n    (1.Rd1 $2 Bxd1 {En effet, il faut bloquer le pion passé adverse, mais sans perdre une pièce au passage !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Passons à l'étape supérieure dans l'utilisation du cavalier.",
+    "outroText": "Rappelez-vous que les cavaliers sont plus forts lorsqu'ils sont proches du centre.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "title": "Utiliser tout le potentiel de ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/c8c21eaa-a558-11e8-8a0b-b114e31635bb.a8d7fd41.728x410o.77ff125711c0.png"
+    },
+    "parentId": "1b2c4cb8-83aa-11e8-8530-230b6589b6fa",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-knights5d1253ad2ca6f.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-knights-56688593133a91.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-knights-15ea24344f2ac3.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-knights-2602a3978efe29.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 50,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "name": "Utiliser tout le potentiel de ses pièces",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "order": 1
+    }
+  }
+}

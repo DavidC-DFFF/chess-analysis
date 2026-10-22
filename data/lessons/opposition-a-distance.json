@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/motifs-de-finales/opposition-a-distance",
+  "capturedAt": "2026-10-22T12:23:54.436Z",
+  "title": "L'opposition à distance",
+  "exercises": [
+    {
+      "fen": "8/8/8/2kp4/8/8/8/1K6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs ont un pion de plus, et tout semble perdu. Pourtant, en utilisant l'opposition, vous pouvez encore sauver cette position !",
+        "[%wrong Ce coup ne nous permet pas de sauver la partie. Cherchez encore !][%hint Où mettre notre roi pour qu'il y ait un nombre de cases impaires impaire entre lui et son homologue noir ?]",
+        "Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.",
+        "Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.",
+        "Excellent choix ! Les blancs prennent l'opposition distante. Comment tenir la nulle ?",
+        "[%wrong Oups ! Les noirs peuvent jouer ...Rd3 et obtiennent une position gagnante. Cherchez encore !][%hint L’intérêt de prendre l'opposition distante, c'est de la conserver lorsque les rois se rapprochent. Comment garder l'opposition ?]",
+        "Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.",
+        "Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.",
+        "Bien joué ! Les blancs gardent l'opposition. Les noirs tentent maintenant de se poster deux crans devant leur pion en jouant ...Re3 au prochain coup. Comment contrecarrer ce plan ?",
+        "[%wrong Oups ! Les noirs peuvent jouer ...Re3 et obtiennent une position gagnante. Cherchez encore !][%hint Comment garder l'opposition ?] Beau travail ! Les blancs gardent l'opposition, empêchant le roi noir de se positionner deux cases devant son pion. La nulle est garantie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2kp4/8/8/8/1K6 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont un pion de plus, et tout semble perdu. Pourtant, en utilisant l'opposition, vous pouvez encore sauver cette position !}\r\n1.Kc1\r\n    {[%wrong Ce coup ne nous permet pas de sauver la partie. Cherchez encore !][%hint Où mettre notre roi pour qu'il y ait un nombre de cases impaires impaire entre lui et son homologue noir ?]}\r\n    (1.Kc2 $2 Kc4 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n    (1.Kb2 $2 Kb4 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n1...Kc4\r\n    {Excellent choix ! Les blancs prennent l'opposition distante. Comment tenir la nulle ?}\r\n2.Kc2\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...Rd3 et obtiennent une position gagnante. Cherchez encore !][%hint L’intérêt de prendre l'opposition distante, c'est de la conserver lorsque les rois se rapprochent. Comment garder l'opposition ?]}\r\n    (2.Kd2 $2 Kd4 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n    (2.Kd1 $2 Kd3 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n2...Kd4\r\n    {Bien joué ! Les blancs gardent l'opposition. Les noirs tentent maintenant de se poster deux crans devant leur pion en jouant ...Re3 au prochain coup. Comment contrecarrer ce plan ?}\r\n3.Kd2\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...Re3 et obtiennent une position gagnante. Cherchez encore !][%hint Comment garder l'opposition ?] Beau travail ! Les blancs gardent l'opposition, empêchant le roi noir de se positionner deux cases devant son pion. La nulle est garantie !}\r\n*"
+    },
+    {
+      "fen": "8/8/8/2kp4/8/8/8/2K5 w - - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs ont l'opposition distante. Encore une fois, battez-vous jusqu'au bout : Il existe un coup qui force la nulle !",
+        "[%wrong Oups ! Les noirs peuvent jouer ...d4 et obtiennent une position gagnante. Cherchez encore !][%hint Mettez votre roi sur une case empêchant les noirs de garder l'opposition.]",
+        "Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !",
+        "Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !",
+        "Formidable ! Le pion noir empêche son roi de garder l'opposition distante. Les blancs vont maintenant pouvoir prendre l'opposition et annuler. A vous de jouer !",
+        "[%wrong Oups ! Les noirs peuvent jouer ...Rd3 et obtiennent une position gagnante. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?]",
+        "Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !",
+        "Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !",
+        "Trouvé ! Les blancs prennent l'opposition immédiate et vont annuler en force. Comment maintenir l'opposition ?",
+        "[%wrong Non, il faut absolument garder l'opposition immédiate pour annuler cette partie. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?] Excellente défense ! Les noirs ne peuvent plus progresser et nous allons annuler sans problème. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2kp4/8/8/8/2K5 w - - 1 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont l'opposition distante. Encore une fois, battez-vous jusqu'au bout : Il existe un coup qui force la nulle !}\r\n1.Kd1\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...d4 et obtiennent une position gagnante. Cherchez encore !][%hint Mettez votre roi sur une case empêchant les noirs de garder l'opposition.]}\r\n    (1.Kc2 $2 Kc4 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n    (1.Kd2 $2 Kd4 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n1...Kc4\r\n    {Formidable ! Le pion noir empêche son roi de garder l'opposition distante. Les blancs vont maintenant pouvoir prendre l'opposition et annuler. A vous de jouer !}\r\n2.Kc2\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...Rd3 et obtiennent une position gagnante. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?]}\r\n    (2.Kd2 $2 Kd4 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n    (2.Ke2 $2 Kc3 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n2...Kd4\r\n    {Trouvé ! Les blancs prennent l'opposition immédiate et vont annuler en force. Comment maintenir l'opposition ?}\r\n3.Kd2\r\n    {[%wrong Non, il faut absolument garder l'opposition immédiate pour annuler cette partie. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?] Excellente défense ! Les noirs ne peuvent plus progresser et nous allons annuler sans problème. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "1k6/8/8/8/K7/1P6/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Faut-il jouer Rb4 pour prendre l'opposition distante et gagner, ou bien y a-t-il plus simple ?",
+        "[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Si vous mettez votre roi en b5, votre adversaire pourra prendre l'opposition au coup suivant. Est-ce un problème ?]",
+        "Cette idée fonctionne, car si les noirs prennent l'opposition, les blancs pourront simplement pousser le pion pour la reprendre. Bien joué ! Trouvez maintenant un autre coup gagnant en mettant votre roi sur la cinquième rangée.",
+        "Les blancs prennent l'opposition distante, ce qui est suffisant pour l'emporter, mais il existe une solution plus simple. Trouvez-la !",
+        "Oups ! Les noirs parviennent à annuler en prenant l'opposition distante. Il aurait fallu mettre notre roi deux cases devant notre pion pour assurer la victoire... Cherchez encore !",
+        "Bien vu ! Il est généralement peu indiqué de laisser volontairement l'opposition à votre adversaire, mais dans ce cas, il est possible de la reprendre dès le coup suivant. Comment ?",
+        "[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Donner l'opposition à votre adversaire n'est pas un problème si vous pouvez la reprendre juste après grâce à un coup de pion.] Parfait ! Tant que les blancs peuvent pousser leur pion, l'opposition temporaire ne suffit pas. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/8/8/8/K7/1P6/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Faut-il jouer Rb4 pour prendre l'opposition distante et gagner, ou bien y a-t-il plus simple ?}\r\n1.Kb5\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Si vous mettez votre roi en b5, votre adversaire pourra prendre l'opposition au coup suivant. Est-ce un problème ?]}\r\n    (1.Ka5 $5 {Cette idée fonctionne, car si les noirs prennent l'opposition, les blancs pourront simplement pousser le pion pour la reprendre. Bien joué ! Trouvez maintenant un autre coup gagnant en mettant votre roi sur la cinquième rangée.})\r\n    (1.Kb4 $5 {Les blancs prennent l'opposition distante, ce qui est suffisant pour l'emporter, mais il existe une solution plus simple. Trouvez-la !})\r\n    (1.b4 $2 Ka8 {Oups ! Les noirs parviennent à annuler en prenant l'opposition distante. Il aurait fallu mettre notre roi deux cases devant notre pion pour assurer la victoire... Cherchez encore !})\r\n1...Kb7\r\n    {Bien vu ! Il est généralement peu indiqué de laisser volontairement l'opposition à votre adversaire, mais dans ce cas, il est possible de la reprendre dès le coup suivant. Comment ?}\r\n2.b4\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Donner l'opposition à votre adversaire n'est pas un problème si vous pouvez la reprendre juste après grâce à un coup de pion.] Parfait ! Tant que les blancs peuvent pousser leur pion, l'opposition temporaire ne suffit pas. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "8/8/8/3p1p2/8/4P3/6K1/2k5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cet exemple complexe, les blancs n'ont qu'un seul coup permettant d'annuler. Prenez votre temps, et trouvez lequel !",
+        "[%hint Comment prendre l'opposition distante ?]",
+        "Les noirs vont pouvoir mettre leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !",
+        "Les noirs prennent l'opposition diagonale et vont ensuite amener leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !",
+        "Oups, vous perdez le pion e3 ! Cherchez encore.",
+        "Les noirs vont pouvoir mettre leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !",
+        "Oups, vous perdez le pion e3 ! Cherchez encore.",
+        "Oups, vous perdez le pion e3 ! Cherchez encore.",
+        "Les noirs prennent l'opposition diagonale et vont ensuite amener leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !",
+        "Oups, vous perdez le pion e ! Cherchez encore.",
+        "Beau travail ! Les blancs prennent l'opposition distante et conservent l'équilibre de la position. Comment maintenir cette opposition ?",
+        "[%wrong Oups ! Ce coup perd le pion. Cherchez encore !][%hint Comment maintenir l'opposition distante ?]",
+        "Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !",
+        "Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !",
+        "Joli ! Les blancs gardent l'opposition distante et laisse la main aux noirs. Cette fois encore, restez patient et gardez l'opposition distante !",
+        "[%wrong Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !][%hint Pour garder l'opposition distante, il faut qu'il y ait trois cases entre votre roi et le roi adverse sur la même colonne.]",
+        "Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !!",
+        "Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !",
+        "Bien joué ! Les noirs partent à la chasse au pion. Il est maintenant temps de prendre l'opposition immédiate !",
+        "[%wrong Ce coup ne prend pas l’opposition immédiate, et les blancs perdent. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?]",
+        "Bien essayé, mais les blancs vont perdre le pion e et obtenir une position perdante. Cherchez encore !",
+        "Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !",
+        "Belle défense ! Les noirs tentent un dernier piège... Parez-le pour assurer la nulle !",
+        "[%wrong Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !][%hint N'oubliez pas l'opposition distante !] Sauvé par l'opposition distante ! Vous avez su faire preuve de patience pour tenir la nulle, bien joué !",
+        "Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !",
+        "Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3p1p2/8/4P3/6K1/2k5 w - - 0 1\"]\r\n\r\n{Dans cet exemple complexe, les blancs n'ont qu'un seul coup permettant d'annuler. Prenez votre temps, et trouvez lequel !}\r\n1.Kg1\r\n    {[%hint Comment prendre l'opposition distante ?]}\r\n    (1.Kf2 $2 Kd2 {Les noirs vont pouvoir mettre leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.Kf3 $2 Kd1 {Les noirs prennent l'opposition diagonale et vont ensuite amener leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.Kh1 $2 Kd2 {Oups, vous perdez le pion e3 ! Cherchez encore.})\r\n    (1.Kg3 Kd1 {Les noirs vont pouvoir mettre leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.Kh3 $2 Kd2 {Oups, vous perdez le pion e3 ! Cherchez encore.})\r\n    (1.Kh2 $2 Kd2 {Oups, vous perdez le pion e3 ! Cherchez encore.})\r\n    (1.Kf1 $2 Kd1 {Les noirs prennent l'opposition diagonale et vont ensuite amener leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.e4 $2 fxe4 {Oups, vous perdez le pion e ! Cherchez encore.})\r\n1...Kc2\r\n    {Beau travail ! Les blancs prennent l'opposition distante et conservent l'équilibre de la position. Comment maintenir cette opposition ?}\r\n2.Kg2\r\n    {[%wrong Oups ! Ce coup perd le pion. Cherchez encore !][%hint Comment maintenir l'opposition distante ?]}\r\n    (2.Kf2 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n    (2.Kf1 $2 Kd1 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n2...Kc3\r\n    {Joli ! Les blancs gardent l'opposition distante et laisse la main aux noirs. Cette fois encore, restez patient et gardez l'opposition distante !}\r\n3.Kg3\r\n    {[%wrong Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !][%hint Pour garder l'opposition distante, il faut qu'il y ait trois cases entre votre roi et le roi adverse sur la même colonne.]}\r\n    (3.Kf2 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !!})\r\n    (3.Kf3 $2 Kd3 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n3...Kd3\r\n    {Bien joué ! Les noirs partent à la chasse au pion. Il est maintenant temps de prendre l'opposition immédiate !}\r\n4.Kf3\r\n    {[%wrong Ce coup ne prend pas l’opposition immédiate, et les blancs perdent. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?]}\r\n    (4.Kf4 $2 Ke2 {Bien essayé, mais les blancs vont perdre le pion e et obtenir une position perdante. Cherchez encore !})\r\n    (4.Kf2 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n4...Kc2\r\n    {Belle défense ! Les noirs tentent un dernier piège... Parez-le pour assurer la nulle !}\r\n5.Kg2\r\n    {[%wrong Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !][%hint N'oubliez pas l'opposition distante !] Sauvé par l'opposition distante ! Vous avez su faire preuve de patience pour tenir la nulle, bien joué !}\r\n    (5.Kf4 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n    (5.Ke2 $2 Kc3 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "8/8/2k5/2qp4/8/8/2Q5/1K6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous allez maintenant avoir l'occasion de montrer vos talents positionnels en échangeant les dames et en maîtrisant cette finale. A vous de jouer !",
+        "[%wrong Commençons si vous le voulez bien par échanger les dames !][%hint Prenez la dame adverse avec échec.]",
+        "Et maintenant, annulons cette position grâce à l'opposition !",
+        "[%wrong L'opposition distante est le seul moyen de tenir cette finale... Cherchez encore !][%hint Comment prendre l'opposition distante ? N'oubliez pas qu'il faut que les deux rois soient séparés par un nombre de cases impaires.]",
+        "Bien joué ! Les blancs parviennent à annuler en prenant l'opposition distante, puis immédiate ! Continuez sur cette voie !",
+        "[%wrong Non, il faut prendre l'opposition directe !][%hint Prenez l'opposition directe !]",
+        "Superbe ! Les noirs tentent tout, mais tant que vous conservez l'opposition, il ne pourront rien obtenir !",
+        "[%wrong Non, il faut garder l'opposition !][%hint Gardez l'opposition pour assurer la nulle !] Chapeau ! Vous avez bien compris le thème de l'opposition."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k5/2qp4/8/8/2Q5/1K6 w - - 0 1\"]\r\n\r\n{Vous allez maintenant avoir l'occasion de montrer vos talents positionnels en échangeant les dames et en maîtrisant cette finale. A vous de jouer !}\r\n1.Qxc5+\r\n    {[%wrong Commençons si vous le voulez bien par échanger les dames !][%hint Prenez la dame adverse avec échec.]}\r\n1...Kxc5\r\n    {Et maintenant, annulons cette position grâce à l'opposition !}\r\n2.Kc1\r\n    {[%wrong L'opposition distante est le seul moyen de tenir cette finale... Cherchez encore !][%hint Comment prendre l'opposition distante ? N'oubliez pas qu'il faut que les deux rois soient séparés par un nombre de cases impaires.]}\r\n2...Kd4\r\n    {Bien joué ! Les blancs parviennent à annuler en prenant l'opposition distante, puis immédiate ! Continuez sur cette voie !}\r\n3.Kd2\r\n    {[%wrong Non, il faut prendre l'opposition directe !][%hint Prenez l'opposition directe !]}\r\n3...Ke4\r\n    {Superbe ! Les noirs tentent tout, mais tant que vous conservez l'opposition, il ne pourront rien obtenir !}\r\n4.Ke2\r\n    {[%wrong Non, il faut garder l'opposition !][%hint Gardez l'opposition pour assurer la nulle !] Chapeau ! Vous avez bien compris le thème de l'opposition.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "c1058480-9cee-11e8-868c-5b4e56d2fda2",
+    "name": "L'opposition à distance",
+    "path": "opposition-a-distance",
+    "description": "Lorsque deux rois se font face séparés d’une case seulement, on parle d’opposition. C’est le joueur qui n’a pas le trait qui a l’opposition, car c’est à son adversaire de se déplacer. L’opposition peut survenir lorsque les rois sont séparés de trois ou cinq cases. On parle alors d’opposition distante, et les mêmes principes s’appliquent.",
+    "glyphName": "arrows-triangle-oppositive-vertical",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-distant-opposition-b2k.mp4",
+    "fen": "8/8/8/1kp5/8/8/8/1K6 b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2kp4/8/8/8/1K6 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont un pion de plus, et tout semble perdu. Pourtant, en utilisant l'opposition, vous pouvez encore sauver cette position !}\r\n1.Kc1\r\n    {[%wrong Ce coup ne nous permet pas de sauver la partie. Cherchez encore !][%hint Où mettre notre roi pour qu'il y ait un nombre de cases impaires impaire entre lui et son homologue noir ?]}\r\n    (1.Kc2 $2 Kc4 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n    (1.Kb2 $2 Kb4 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n1...Kc4\r\n    {Excellent choix ! Les blancs prennent l'opposition distante. Comment tenir la nulle ?}\r\n2.Kc2\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...Rd3 et obtiennent une position gagnante. Cherchez encore !][%hint L’intérêt de prendre l'opposition distante, c'est de la conserver lorsque les rois se rapprochent. Comment garder l'opposition ?]}\r\n    (2.Kd2 $2 Kd4 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n    (2.Kd1 $2 Kd3 {Bien essayé, mais ce coup donne l'opposition à votre adversaire. Vous êtes maintenant perdant ! Cherchez encore.})\r\n2...Kd4\r\n    {Bien joué ! Les blancs gardent l'opposition. Les noirs tentent maintenant de se poster deux crans devant leur pion en jouant ...Re3 au prochain coup. Comment contrecarrer ce plan ?}\r\n3.Kd2\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...Re3 et obtiennent une position gagnante. Cherchez encore !][%hint Comment garder l'opposition ?] Beau travail ! Les blancs gardent l'opposition, empêchant le roi noir de se positionner deux cases devant son pion. La nulle est garantie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2kp4/8/8/8/2K5 w - - 1 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont l'opposition distante. Encore une fois, battez-vous jusqu'au bout : Il existe un coup qui force la nulle !}\r\n1.Kd1\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...d4 et obtiennent une position gagnante. Cherchez encore !][%hint Mettez votre roi sur une case empêchant les noirs de garder l'opposition.]}\r\n    (1.Kc2 $2 Kc4 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n    (1.Kd2 $2 Kd4 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n1...Kc4\r\n    {Formidable ! Le pion noir empêche son roi de garder l'opposition distante. Les blancs vont maintenant pouvoir prendre l'opposition et annuler. A vous de jouer !}\r\n2.Kc2\r\n    {[%wrong Oups ! Les noirs peuvent jouer ...Rd3 et obtiennent une position gagnante. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?]}\r\n    (2.Kd2 $2 Kd4 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n    (2.Ke2 $2 Kc3 {Oups ! Les noirs prennent l'opposition immédiate et obtiennent une position gagnante. Cherchez encore !})\r\n2...Kd4\r\n    {Trouvé ! Les blancs prennent l'opposition immédiate et vont annuler en force. Comment maintenir l'opposition ?}\r\n3.Kd2\r\n    {[%wrong Non, il faut absolument garder l'opposition immédiate pour annuler cette partie. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?] Excellente défense ! Les noirs ne peuvent plus progresser et nous allons annuler sans problème. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/8/8/8/K7/1P6/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Faut-il jouer Rb4 pour prendre l'opposition distante et gagner, ou bien y a-t-il plus simple ?}\r\n1.Kb5\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Si vous mettez votre roi en b5, votre adversaire pourra prendre l'opposition au coup suivant. Est-ce un problème ?]}\r\n    (1.Ka5 $5 {Cette idée fonctionne, car si les noirs prennent l'opposition, les blancs pourront simplement pousser le pion pour la reprendre. Bien joué ! Trouvez maintenant un autre coup gagnant en mettant votre roi sur la cinquième rangée.})\r\n    (1.Kb4 $5 {Les blancs prennent l'opposition distante, ce qui est suffisant pour l'emporter, mais il existe une solution plus simple. Trouvez-la !})\r\n    (1.b4 $2 Ka8 {Oups ! Les noirs parviennent à annuler en prenant l'opposition distante. Il aurait fallu mettre notre roi deux cases devant notre pion pour assurer la victoire... Cherchez encore !})\r\n1...Kb7\r\n    {Bien vu ! Il est généralement peu indiqué de laisser volontairement l'opposition à votre adversaire, mais dans ce cas, il est possible de la reprendre dès le coup suivant. Comment ?}\r\n2.b4\r\n    {[%wrong Ce coup ne gagne pas. Cherchez encore !][%hint Donner l'opposition à votre adversaire n'est pas un problème si vous pouvez la reprendre juste après grâce à un coup de pion.] Parfait ! Tant que les blancs peuvent pousser leur pion, l'opposition temporaire ne suffit pas. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3p1p2/8/4P3/6K1/2k5 w - - 0 1\"]\r\n\r\n{Dans cet exemple complexe, les blancs n'ont qu'un seul coup permettant d'annuler. Prenez votre temps, et trouvez lequel !}\r\n1.Kg1\r\n    {[%hint Comment prendre l'opposition distante ?]}\r\n    (1.Kf2 $2 Kd2 {Les noirs vont pouvoir mettre leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.Kf3 $2 Kd1 {Les noirs prennent l'opposition diagonale et vont ensuite amener leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.Kh1 $2 Kd2 {Oups, vous perdez le pion e3 ! Cherchez encore.})\r\n    (1.Kg3 Kd1 {Les noirs vont pouvoir mettre leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.Kh3 $2 Kd2 {Oups, vous perdez le pion e3 ! Cherchez encore.})\r\n    (1.Kh2 $2 Kd2 {Oups, vous perdez le pion e3 ! Cherchez encore.})\r\n    (1.Kf1 $2 Kd1 {Les noirs prennent l'opposition diagonale et vont ensuite amener leur roi en e2, gagnant ainsi le pion e3 et la partie. Cherchez encore !})\r\n    (1.e4 $2 fxe4 {Oups, vous perdez le pion e ! Cherchez encore.})\r\n1...Kc2\r\n    {Beau travail ! Les blancs prennent l'opposition distante et conservent l'équilibre de la position. Comment maintenir cette opposition ?}\r\n2.Kg2\r\n    {[%wrong Oups ! Ce coup perd le pion. Cherchez encore !][%hint Comment maintenir l'opposition distante ?]}\r\n    (2.Kf2 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n    (2.Kf1 $2 Kd1 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n2...Kc3\r\n    {Joli ! Les blancs gardent l'opposition distante et laisse la main aux noirs. Cette fois encore, restez patient et gardez l'opposition distante !}\r\n3.Kg3\r\n    {[%wrong Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !][%hint Pour garder l'opposition distante, il faut qu'il y ait trois cases entre votre roi et le roi adverse sur la même colonne.]}\r\n    (3.Kf2 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !!})\r\n    (3.Kf3 $2 Kd3 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n3...Kd3\r\n    {Bien joué ! Les noirs partent à la chasse au pion. Il est maintenant temps de prendre l'opposition immédiate !}\r\n4.Kf3\r\n    {[%wrong Ce coup ne prend pas l’opposition immédiate, et les blancs perdent. Cherchez encore !][%hint Comment prendre l'opposition immédiate ?]}\r\n    (4.Kf4 $2 Ke2 {Bien essayé, mais les blancs vont perdre le pion e et obtenir une position perdante. Cherchez encore !})\r\n    (4.Kf2 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n4...Kc2\r\n    {Belle défense ! Les noirs tentent un dernier piège... Parez-le pour assurer la nulle !}\r\n5.Kg2\r\n    {[%wrong Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !][%hint N'oubliez pas l'opposition distante !] Sauvé par l'opposition distante ! Vous avez su faire preuve de patience pour tenir la nulle, bien joué !}\r\n    (5.Kf4 $2 Kd2 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n    (5.Ke2 $2 Kc3 {Bien essayé, mais les noirs prennent l'opposition immédiate et vont gagner le pion e3 en quelques coups. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k5/2qp4/8/8/2Q5/1K6 w - - 0 1\"]\r\n\r\n{Vous allez maintenant avoir l'occasion de montrer vos talents positionnels en échangeant les dames et en maîtrisant cette finale. A vous de jouer !}\r\n1.Qxc5+\r\n    {[%wrong Commençons si vous le voulez bien par échanger les dames !][%hint Prenez la dame adverse avec échec.]}\r\n1...Kxc5\r\n    {Et maintenant, annulons cette position grâce à l'opposition !}\r\n2.Kc1\r\n    {[%wrong L'opposition distante est le seul moyen de tenir cette finale... Cherchez encore !][%hint Comment prendre l'opposition distante ? N'oubliez pas qu'il faut que les deux rois soient séparés par un nombre de cases impaires.]}\r\n2...Kd4\r\n    {Bien joué ! Les blancs parviennent à annuler en prenant l'opposition distante, puis immédiate ! Continuez sur cette voie !}\r\n3.Kd2\r\n    {[%wrong Non, il faut prendre l'opposition directe !][%hint Prenez l'opposition directe !]}\r\n3...Ke4\r\n    {Superbe ! Les noirs tentent tout, mais tant que vous conservez l'opposition, il ne pourront rien obtenir !}\r\n4.Ke2\r\n    {[%wrong Non, il faut garder l'opposition !][%hint Gardez l'opposition pour assurer la nulle !] Chapeau ! Vous avez bien compris le thème de l'opposition.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Concentrons-nous sur quelques concepts et techniques fondamentaux en finale.",
+    "outroText": "Joli ! Ces coups de roi sont la clé dans de nombreuses finales.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "path": "motifs-de-finales",
+      "title": "Motifs de finale",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/88fecd30-a55e-11e8-b04a-53817ee2115a.dd294b02.728x410o.de2eb5921014.png"
+    },
+    "parentId": "63150f84-83b8-11e8-aa3f-9dbd9dcaf5c2",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/distant-opposition5d125e78eafe8.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/distant-opposition-15ea23c636da61.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/distant-opposition-3605c8d7b2b4aa.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 129,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "name": "Motifs de finale",
+      "path": "motifs-de-finales",
+      "order": 7
+    }
+  }
+}

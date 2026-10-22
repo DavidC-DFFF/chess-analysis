@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-avancees/obstruction",
+  "capturedAt": "2026-10-22T12:23:53.470Z",
+  "title": "L'obstruction",
+  "exercises": [
+    {
+      "fen": "1r2r1k1/p1pbqppp/Q2b1n2/3p4/P2P4/2P5/1P2BPPP/R1B1KN1R b KQ - 2 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le champion du monde Alexandre Alekhine, qui conduit les pièces noires, met une grosse pression sur la colonne e. La dame blanche semble tenir la position... Pour l'instant ! Trouvez la tactique gagnante en utilisant le thème de l'obstruction.",
+        "[%wrong Ceci n'est pas une tactique d'obstruction. Cherchez encore !][%hint La dame blanche est seule à défendre son fou. Comment en profiter ?] Bien joué ! Les noirs gagnent une dame contre un simple fou !",
+        "Bien essayé. Ce coup bloque en effet la défense de la dame, mais il serait plus efficace d'attaquer cette dernière en même temps."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2r1k1/p1pbqppp/Q2b1n2/3p4/P2P4/2P5/1P2BPPP/R1B1KN1R b KQ - 2 14\"]\r\n\r\n{Le champion du monde Alexandre Alekhine, qui conduit les pièces noires, met une grosse pression sur la colonne e. La dame blanche semble tenir la position... Pour l'instant ! Trouvez la tactique gagnante en utilisant le thème de l'obstruction.}\r\n14...Bb5\r\n    {[%wrong Ceci n'est pas une tactique d'obstruction. Cherchez encore !][%hint La dame blanche est seule à défendre son fou. Comment en profiter ?] Bien joué ! Les noirs gagnent une dame contre un simple fou !}\r\n    (14...Rb5 $2 15.Ne3 {Bien essayé. Ce coup bloque en effet la défense de la dame, mais il serait plus efficace d'attaquer cette dernière en même temps.})\r\n*"
+    },
+    {
+      "fen": "r2q2k1/pQ2bppp/4p3/8/3r1B2/6P1/P3PP1P/1R3RK1 w - - 1 17",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette partie entre grand-maîtres, la position semble calme, mais le champion du monde Vasily Smyslov, qui conduit les pièces blanches, gagne du matériel grâce au thème de l'obstruction. Trouvez comment !",
+        "[%wrong Ceci n'est pas une tactique d'obstruction gagnant du matériel. Cherchez encore !][%hint La seule pièce protégeant la tour a8 est la dame. Comment en profiter ?]",
+        "Bien joué ! Dans cette position, l'adversaire de Smyslov abandonna. Comment aurait pu continuer la partie ?",
+        "[%wrong Oups, dans cette variante, c'est nous qui perdons du matériel. Cherchez encore !][%hint Comment gagner du matériel ?] Exact ! Les blancs gagnent la qualité et obtiennent une position écrasante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q2k1/pQ2bppp/4p3/8/3r1B2/6P1/P3PP1P/1R3RK1 w - - 1 17\"]\r\n\r\n{Dans cette partie entre grand-maîtres, la position semble calme, mais le champion du monde Vasily Smyslov, qui conduit les pièces blanches, gagne du matériel grâce au thème de l'obstruction. Trouvez comment !}\r\n17.Bb8\r\n    {[%wrong Ceci n'est pas une tactique d'obstruction gagnant du matériel. Cherchez encore !][%hint La seule pièce protégeant la tour a8 est la dame. Comment en profiter ?]}\r\n17...Rxb8\r\n    {Bien joué ! Dans cette position, l'adversaire de Smyslov abandonna. Comment aurait pu continuer la partie ?}\r\n18.Qxb8\r\n    {[%wrong Oups, dans cette variante, c'est nous qui perdons du matériel. Cherchez encore !][%hint Comment gagner du matériel ?] Exact ! Les blancs gagnent la qualité et obtiennent une position écrasante.}\r\n1-0"
+    },
+    {
+      "fen": "r1b2r1k/ppb2ppB/3q4/7Q/2PN4/PP1n4/1B3PPP/R4RK1 b - - 2 18",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs semblent en mauvaise posture. En effet, les blancs menacent de donner un terrible échec à la découverte sur la colonne h. Trouvez le coup puissant leur permettant de survivre !",
+        "[%wrong Ce coup ne sauve pas la position noire. Cherchez encore !][%hint Comment mettre le cavalier en sécurité tout en attaquant la dame blanche ?]",
+        "Les blancs sortent de cette série d'échanges avec un pion de plus.",
+        "Aïe ! Il est trop tard pour prendre ce fou, les blancs vont mater.",
+        "Une idée astucieuse, mais si les blancs ne prennent pas le fou, notre roi va subir une terrible déconvenue ! Cherchez encore.",
+        "Vous avez trouvé le coup qui sauve les noirs ! Trouvez maintenant la tactique d'obstruction gagnante.",
+        "[%wrong Bien essayé, mais ce n'est pas le coup gagnant. Cherchez encore !][%hint La dame blanche contrôle la case-clef h2, empêchant le mat. Il est temps de la contrer !]",
+        "Ce coup astucieux gagne le fou h7, mais il y a beaucoup plus fort dans cette position. Cherchez encore !",
+        "C'est la bonne idée, mais n'oubliez pas que les blancs menacent eux aussi de mater rapidement ! Il faut forcer la décision.",
+        "Superbe ! Les noirs menaçant de mater, les blancs doivent absolument prendre le cavalier. Et maintenant ?",
+        "[%wrong Oups, ce coup ne gagne pas ! Essayez encore.][%hint Impossible de mater pour l'instant, mais il y a du matériel à prendre !] Parfait ! Grâce à cette jolie tactique d'obstruction, les noirs obtiennent une position totalement gagnante !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2r1k/ppb2ppB/3q4/7Q/2PN4/PP1n4/1B3PPP/R4RK1 b - - 2 18\"]\r\n\r\n{Les noirs semblent en mauvaise posture. En effet, les blancs menacent de donner un terrible échec à la découverte sur la colonne h. Trouvez le coup puissant leur permettant de survivre !}\r\n18...Nf4\r\n    {[%wrong Ce coup ne sauve pas la position noire. Cherchez encore !][%hint Comment mettre le cavalier en sécurité tout en attaquant la dame blanche ?]}\r\n    (18...Qxh2+ $2 19.Qxh2 {Les blancs sortent de cette série d'échanges avec un pion de plus.})\r\n    (18...Nxb2 $2 19.Bg6+{Aïe ! Il est trop tard pour prendre ce fou, les blancs vont mater.})\r\n    (18...Bg4 $2 19.Qh4 {Une idée astucieuse, mais si les blancs ne prennent pas le fou, notre roi va subir une terrible déconvenue ! Cherchez encore.})\r\n19.Qh4\r\n    {Vous avez trouvé le coup qui sauve les noirs ! Trouvez maintenant la tactique d'obstruction gagnante.}\r\n19...Nh3+\r\n    {[%wrong Bien essayé, mais ce n'est pas le coup gagnant. Cherchez encore !][%hint La dame blanche contrôle la case-clef h2, empêchant le mat. Il est temps de la contrer !]}\r\n    (19...Bd8 $6 {Ce coup astucieux gagne le fou h7, mais il y a beaucoup plus fort dans cette position. Cherchez encore !})\r\n    (19...Bh3 $2 20.Bg6+ {C'est la bonne idée, mais n'oubliez pas que les blancs menacent eux aussi de mater rapidement ! Il faut forcer la décision.})\r\n20.Qxh3\r\n    {Superbe ! Les noirs menaçant de mater, les blancs doivent absolument prendre le cavalier. Et maintenant ?}\r\n20...Bxh3\r\n    {[%wrong Oups, ce coup ne gagne pas ! Essayez encore.][%hint Impossible de mater pour l'instant, mais il y a du matériel à prendre !] Parfait ! Grâce à cette jolie tactique d'obstruction, les noirs obtiennent une position totalement gagnante !}\r\n*"
+    },
+    {
+      "fen": "3Q1n2/p1p2ppk/1p5p/2qP4/2P5/6BP/5PPK/8 w - - 6 34",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette partie jouée à l'aveugle (les yeux bandés !) par deux grand-maîtres, le trait est au blanc. Trouvez la tactique d'obstruction jouée par l'indien Anand pour obtenir un avantage décisif.",
+        "[%wrong Ceci n'est pas une tactique d'obstruction. Cherchez encore !][%hint Le cavalier noir n'est protégé que par sa dame...]",
+        "Bien essayé, mais les noirs ne sont pas obligés de reprendre du pion ! Après l'échange forcé des dames, nous sommes hélas perdant... Cherchez encore !",
+        "Bien joué ! 34...cxd6 perd une pièce après 35. Bxd6. Le GMI Shirov l'a bien compris et il décide de défendre avec le cavalier. Trouvez la réfutation ratée par le puissant letton !",
+        "[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Faut-il bouger la dame, ou bien jouer un fort coup de pion ?] Superbe ! Vous avez trouvé l'idée gagnante du GMI indien. Dans cette position, les noirs perdent une pièce et abandonnent."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3Q1n2/p1p2ppk/1p5p/2qP4/2P5/6BP/5PPK/8 w - - 6 34\"]\r\n\r\n{Dans cette partie jouée à l'aveugle (les yeux bandés !) par deux grand-maîtres, le trait est au blanc. Trouvez la tactique d'obstruction jouée par l'indien Anand pour obtenir un avantage décisif.}\r\n34.d6\r\n    {[%wrong Ceci n'est pas une tactique d'obstruction. Cherchez encore !][%hint Le cavalier noir n'est protégé que par sa dame...]}\r\n    (34.Bd6 $2 Qxd6+ {Bien essayé, mais les noirs ne sont pas obligés de reprendre du pion ! Après l'échange forcé des dames, nous sommes hélas perdant... Cherchez encore !})\r\n34...Ne6\r\n    {Bien joué ! 34...cxd6 perd une pièce après 35. Bxd6. Le GMI Shirov l'a bien compris et il décide de défendre avec le cavalier. Trouvez la réfutation ratée par le puissant letton !}\r\n35.dxc7\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Faut-il bouger la dame, ou bien jouer un fort coup de pion ?] Superbe ! Vous avez trouvé l'idée gagnante du GMI indien. Dans cette position, les noirs perdent une pièce et abandonnent.}\r\n*"
+    },
+    {
+      "fen": "2r3k1/7p/6pb/3pB3/p2P4/P4RPq/4QP1P/6K1 w - - 8 35",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Mikhail Tal affronte Mikhail Botvinnik pour le titre mondial. Les noirs menacent le brutal ...35.Tc1+. Trouvez la superbe tactique d'obstruction joué par Tal pour empêcher cette idée !",
+        "[%wrong Ce n'est pas la tactique trouvée par Tal. Cherchez encore !][%hint Si la tour noir quitte la dernière rangée sans donner d'échec, les blancs materont en force...]",
+        "Cette idée intéressante permet de bien couvrir la dernière rangée, mais il y a dans la position une tactique d'interférence encore plus forte. Trouvez-la !",
+        "Incroyable ! Si les noirs prennent le fou, ils se font mater en force ! Ils choisissent donc l'option défensive. Trouvez maintenant la perle de Tal, qui attaque les deux pions non-protégés avec la dame et défend tactiquement le fou c7 !",
+        "[%wrong Ce n'est pas l'idée tactique de Tal. Cherchez encore !][%hint Où mettre la dame pour qu'elle attaque deux pions non protégé tout en se préparant à prendre en d5 avec échec ?]",
+        "Uné idée superbe ! Dans la partie, Botvinnik n'a pas pris le fou, mais il perdra tout de même en quelques coups. Qu'avait prévu le grand Tal sur Txc7 ?",
+        "[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Comment prendre un pion en donnant un échec ?]",
+        "Les noirs tentent de s'accrocher, mais les blancs gagnent du matériel grâce à une double attaque ! Comment ?",
+        "[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Comment attaquer à la fois le roi et la tour non-protégée ?] Bien vu ! Les blancs prennent l'avantage matériel et lancent une attaque violente sur le roi noir. Grâce à la tactique d'obstruction, vous avez obtenu une position superbe ! Vous êtes en train de devenir un redoutable tacticien."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/7p/6pb/3pB3/p2P4/P4RPq/4QP1P/6K1 w - - 8 35\"]\r\n\r\n{Mikhail Tal affronte Mikhail Botvinnik pour le titre mondial. Les noirs menacent le brutal ...35.Tc1+. Trouvez la superbe tactique d'obstruction joué par Tal pour empêcher cette idée !}\r\n35.Bc7\r\n    {[%wrong Ce n'est pas la tactique trouvée par Tal. Cherchez encore !][%hint Si la tour noir quitte la dernière rangée sans donner d'échec, les blancs materont en force...]}\r\n    (35.Rd3 $6 {Cette idée intéressante permet de bien couvrir la dernière rangée, mais il y a dans la position une tactique d'interférence encore plus forte. Trouvez-la !})\r\n35...Bf8\r\n    {Incroyable ! Si les noirs prennent le fou, ils se font mater en force ! Ils choisissent donc l'option défensive. Trouvez maintenant la perle de Tal, qui attaque les deux pions non-protégés avec la dame et défend tactiquement le fou c7 !}\r\n36.Qb5\r\n    {[%wrong Ce n'est pas l'idée tactique de Tal. Cherchez encore !][%hint Où mettre la dame pour qu'elle attaque deux pions non protégé tout en se préparant à prendre en d5 avec échec ?]}\r\n36...Rxc7\r\n    {Uné idée superbe ! Dans la partie, Botvinnik n'a pas pris le fou, mais il perdra tout de même en quelques coups. Qu'avait prévu le grand Tal sur Txc7 ?}\r\n37.Qxd5+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Comment prendre un pion en donnant un échec ?]}\r\n37...Kg7\r\n    {Les noirs tentent de s'accrocher, mais les blancs gagnent du matériel grâce à une double attaque ! Comment ?}\r\n38.Qe5+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Comment attaquer à la fois le roi et la tour non-protégée ?] Bien vu ! Les blancs prennent l'avantage matériel et lancent une attaque violente sur le roi noir. Grâce à la tactique d'obstruction, vous avez obtenu une position superbe ! Vous êtes en train de devenir un redoutable tacticien.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "da34e460-9ced-11e8-b25b-d3a759584a3a",
+    "name": "L'obstruction",
+    "path": "obstruction",
+    "description": "Gênez la coordination des pièces adverses en sacrifiant l’une des vôtres. Le sacrifice d’obstruction consiste à empêcher une pièce de défendre une case-clef en interposant du matériel.",
+    "glyphName": "game-drill",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-interference-q5d.mp4",
+    "fen": "2r1r2k/pb3pp1/1p1R4/6P1/7q/1P1Q4/P4P2/1B3RK1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2r1k1/p1pbqppp/Q2b1n2/3p4/P2P4/2P5/1P2BPPP/R1B1KN1R b KQ - 2 14\"]\r\n\r\n{Le champion du monde Alexandre Alekhine, qui conduit les pièces noires, met une grosse pression sur la colonne e. La dame blanche semble tenir la position... Pour l'instant ! Trouvez la tactique gagnante en utilisant le thème de l'obstruction.}\r\n14...Bb5\r\n    {[%wrong Ceci n'est pas une tactique d'obstruction. Cherchez encore !][%hint La dame blanche est seule à défendre son fou. Comment en profiter ?] Bien joué ! Les noirs gagnent une dame contre un simple fou !}\r\n    (14...Rb5 $2 15.Ne3 {Bien essayé. Ce coup bloque en effet la défense de la dame, mais il serait plus efficace d'attaquer cette dernière en même temps.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q2k1/pQ2bppp/4p3/8/3r1B2/6P1/P3PP1P/1R3RK1 w - - 1 17\"]\r\n\r\n{Dans cette partie entre grand-maîtres, la position semble calme, mais le champion du monde Vasily Smyslov, qui conduit les pièces blanches, gagne du matériel grâce au thème de l'obstruction. Trouvez comment !}\r\n17.Bb8\r\n    {[%wrong Ceci n'est pas une tactique d'obstruction gagnant du matériel. Cherchez encore !][%hint La seule pièce protégeant la tour a8 est la dame. Comment en profiter ?]}\r\n17...Rxb8\r\n    {Bien joué ! Dans cette position, l'adversaire de Smyslov abandonna. Comment aurait pu continuer la partie ?}\r\n18.Qxb8\r\n    {[%wrong Oups, dans cette variante, c'est nous qui perdons du matériel. Cherchez encore !][%hint Comment gagner du matériel ?] Exact ! Les blancs gagnent la qualité et obtiennent une position écrasante.}\r\n1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2r1k/ppb2ppB/3q4/7Q/2PN4/PP1n4/1B3PPP/R4RK1 b - - 2 18\"]\r\n\r\n{Les noirs semblent en mauvaise posture. En effet, les blancs menacent de donner un terrible échec à la découverte sur la colonne h. Trouvez le coup puissant leur permettant de survivre !}\r\n18...Nf4\r\n    {[%wrong Ce coup ne sauve pas la position noire. Cherchez encore !][%hint Comment mettre le cavalier en sécurité tout en attaquant la dame blanche ?]}\r\n    (18...Qxh2+ $2 19.Qxh2 {Les blancs sortent de cette série d'échanges avec un pion de plus.})\r\n    (18...Nxb2 $2 19.Bg6+{Aïe ! Il est trop tard pour prendre ce fou, les blancs vont mater.})\r\n    (18...Bg4 $2 19.Qh4 {Une idée astucieuse, mais si les blancs ne prennent pas le fou, notre roi va subir une terrible déconvenue ! Cherchez encore.})\r\n19.Qh4\r\n    {Vous avez trouvé le coup qui sauve les noirs ! Trouvez maintenant la tactique d'obstruction gagnante.}\r\n19...Nh3+\r\n    {[%wrong Bien essayé, mais ce n'est pas le coup gagnant. Cherchez encore !][%hint La dame blanche contrôle la case-clef h2, empêchant le mat. Il est temps de la contrer !]}\r\n    (19...Bd8 $6 {Ce coup astucieux gagne le fou h7, mais il y a beaucoup plus fort dans cette position. Cherchez encore !})\r\n    (19...Bh3 $2 20.Bg6+ {C'est la bonne idée, mais n'oubliez pas que les blancs menacent eux aussi de mater rapidement ! Il faut forcer la décision.})\r\n20.Qxh3\r\n    {Superbe ! Les noirs menaçant de mater, les blancs doivent absolument prendre le cavalier. Et maintenant ?}\r\n20...Bxh3\r\n    {[%wrong Oups, ce coup ne gagne pas ! Essayez encore.][%hint Impossible de mater pour l'instant, mais il y a du matériel à prendre !] Parfait ! Grâce à cette jolie tactique d'obstruction, les noirs obtiennent une position totalement gagnante !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3Q1n2/p1p2ppk/1p5p/2qP4/2P5/6BP/5PPK/8 w - - 6 34\"]\r\n\r\n{Dans cette partie jouée à l'aveugle (les yeux bandés !) par deux grand-maîtres, le trait est au blanc. Trouvez la tactique d'obstruction jouée par l'indien Anand pour obtenir un avantage décisif.}\r\n34.d6\r\n    {[%wrong Ceci n'est pas une tactique d'obstruction. Cherchez encore !][%hint Le cavalier noir n'est protégé que par sa dame...]}\r\n    (34.Bd6 $2 Qxd6+ {Bien essayé, mais les noirs ne sont pas obligés de reprendre du pion ! Après l'échange forcé des dames, nous sommes hélas perdant... Cherchez encore !})\r\n34...Ne6\r\n    {Bien joué ! 34...cxd6 perd une pièce après 35. Bxd6. Le GMI Shirov l'a bien compris et il décide de défendre avec le cavalier. Trouvez la réfutation ratée par le puissant letton !}\r\n35.dxc7\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Faut-il bouger la dame, ou bien jouer un fort coup de pion ?] Superbe ! Vous avez trouvé l'idée gagnante du GMI indien. Dans cette position, les noirs perdent une pièce et abandonnent.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/7p/6pb/3pB3/p2P4/P4RPq/4QP1P/6K1 w - - 8 35\"]\r\n\r\n{Mikhail Tal affronte Mikhail Botvinnik pour le titre mondial. Les noirs menacent le brutal ...35.Tc1+. Trouvez la superbe tactique d'obstruction joué par Tal pour empêcher cette idée !}\r\n35.Bc7\r\n    {[%wrong Ce n'est pas la tactique trouvée par Tal. Cherchez encore !][%hint Si la tour noir quitte la dernière rangée sans donner d'échec, les blancs materont en force...]}\r\n    (35.Rd3 $6 {Cette idée intéressante permet de bien couvrir la dernière rangée, mais il y a dans la position une tactique d'interférence encore plus forte. Trouvez-la !})\r\n35...Bf8\r\n    {Incroyable ! Si les noirs prennent le fou, ils se font mater en force ! Ils choisissent donc l'option défensive. Trouvez maintenant la perle de Tal, qui attaque les deux pions non-protégés avec la dame et défend tactiquement le fou c7 !}\r\n36.Qb5\r\n    {[%wrong Ce n'est pas l'idée tactique de Tal. Cherchez encore !][%hint Où mettre la dame pour qu'elle attaque deux pions non protégé tout en se préparant à prendre en d5 avec échec ?]}\r\n36...Rxc7\r\n    {Uné idée superbe ! Dans la partie, Botvinnik n'a pas pris le fou, mais il perdra tout de même en quelques coups. Qu'avait prévu le grand Tal sur Txc7 ?}\r\n37.Qxd5+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Comment prendre un pion en donnant un échec ?]}\r\n37...Kg7\r\n    {Les noirs tentent de s'accrocher, mais les blancs gagnent du matériel grâce à une double attaque ! Comment ?}\r\n38.Qe5+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Comment attaquer à la fois le roi et la tour non-protégée ?] Bien vu ! Les blancs prennent l'avantage matériel et lancent une attaque violente sur le roi noir. Grâce à la tactique d'obstruction, vous avez obtenu une position superbe ! Vous êtes en train de devenir un redoutable tacticien.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "562e8776-a55c-11e8-9553-4f7baecf710a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Bloquez les défenseurs en sacrifiant une de vos pièces.",
+    "outroText": "Bien joué ! Vous devenez un tacticien dangereux.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "path": "tactiques-avancees",
+      "title": "Tactiques avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/562e8776-a55c-11e8-9553-4f7baecf710a.5c197624.728x410o.1f86d1894a94.png"
+    },
+    "parentId": "3af14f7c-83b8-11e8-aa6f-b7bde0d091dd",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/interference5e7ab63ab77ea.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/interference-15ea23dbc2eae2.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/interference-26059f3784ccae.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 127,
+    "order": 4,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "562e8776-a55c-11e8-9553-4f7baecf710a",
+      "name": "Tactiques avancées",
+      "path": "tactiques-avancees",
+      "order": 6
+    }
+  }
+}

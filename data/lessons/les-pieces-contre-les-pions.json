@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/motifs-de-finales/les-pieces-contre-les-pions",
+  "capturedAt": "2026-10-22T12:23:54.938Z",
+  "title": "Les pièces contre les pions",
+  "exercises": [
+    {
+      "fen": "2k5/2p5/ppp5/4K3/1P2PN2/P1P3pp/5r2/6R1 b - - 3 38",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont une pièce de moins, mais deux pions passés connectés très dangereux. Trouvez le coup qui déborde les défenses blanches !",
+        "[%wrong Il va falloir trouver une idée plus tranchante pour ne pas se retrouver débordé. Cherchez encore !][%hint Comment gagner un tempo sur la tour blanche et la forcer à aller au coin ?]",
+        "Les noirs gardent de bonnes chances de gain dans cette finale technique après ...Th4, mais il y a un moyen plus simple d'obtenir une position gagnante... Cherchez encore !",
+        "C'est la bonne idée, mais pas le bon pion... Essayez encore !",
+        "Bien joué ! La tour blanche doit se réfugier dans le coin de l'échiquier. Comment venir à bout des défenses blanches et gagner grâce aux pions ?",
+        "[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Le cavalier blanc garde l'importante case g2. Éliminez-le !]",
+        "C'est la bonne idée, mais ce cavalier est un redoutable défenseur ! Pourquoi ne pas l'éliminer d'abord ?",
+        "Un coup puissant ! Les noirs se débarrassent d'un défenseur clef, et les deux pions passés dominent complètement la tour blanche. A vous de finir le travail !",
+        "[%wrong Oups ! Les blancs vont capturer nos deux pions passés et l'emporter. Cherchez encore !][%hint La case g2 est désormais libre de toute protection !] Superbe jeu de pion ! Les noirs vont faire une dame en force et obtenir une position gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/2p5/ppp5/4K3/1P2PN2/P1P3pp/5r2/6R1 b - - 3 38\"]\r\n\r\n{Les noirs ont une pièce de moins, mais deux pions passés connectés très dangereux. Trouvez le coup qui déborde les défenses blanches !}\r\n38...h2\r\n    {[%wrong Il va falloir trouver une idée plus tranchante pour ne pas se retrouver débordé. Cherchez encore !][%hint Comment gagner un tempo sur la tour blanche et la forcer à aller au coin ?]}\r\n    (38...Rxf4 $6 39.Rxg3 {Les noirs gardent de bonnes chances de gain dans cette finale technique après ...Th4, mais il y a un moyen plus simple d'obtenir une position gagnante... Cherchez encore !})\r\n    (38...g2 $2 39.Nxh3 {C'est la bonne idée, mais pas le bon pion... Essayez encore !})\r\n39.Rh1\r\n    {Bien joué ! La tour blanche doit se réfugier dans le coin de l'échiquier. Comment venir à bout des défenses blanches et gagner grâce aux pions ?}\r\n39...Rxf4\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Le cavalier blanc garde l'importante case g2. Éliminez-le !]}\r\n    (39...g2 $6 40.Nxg2 {C'est la bonne idée, mais ce cavalier est un redoutable défenseur ! Pourquoi ne pas l'éliminer d'abord ?})\r\n40.Kxf4\r\n    {Un coup puissant ! Les noirs se débarrassent d'un défenseur clef, et les deux pions passés dominent complètement la tour blanche. A vous de finir le travail !}\r\n40...g2\r\n    {[%wrong Oups ! Les blancs vont capturer nos deux pions passés et l'emporter. Cherchez encore !][%hint La case g2 est désormais libre de toute protection !] Superbe jeu de pion ! Les noirs vont faire une dame en force et obtenir une position gagnante.}\r\n*"
+    },
+    {
+      "fen": "2rbqrk1/6pp/1n1pp3/p7/Pp1PP3/1PpQBN1P/5PP1/2R1R1K1 b - - 3 24",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Votre serviteur a joué cette partie en différé sur Chess.com. Dans cette position, le meilleur coup était sans doute ...Dg6!, mais je n'ai pas pu m'empêcher de sacrifier une pièce pour obtenir trois pions passés connectés... Trouvez mon coup !",
+        "[%wrong Ce coup ne sacrifie pas une pièce pour obtenir trois pions passés. Cherchez encore !][%hint Observez la chaîne de pions noire sur l'aile dame. Comment la mettre en mouvement ?]",
+        "C'est la bonne idée, mais pas la bonne pièce ! Nous ne pouvons pas nous permettre de donner la dame. Y'aurait-il une pièce moins forte à sacrifier ?",
+        "Bravo, vous avez trouvé une idée créative et risquée ! Créons maintenant notre triplette de pions passés connectés !",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Croquons un autre pion adverse pour obtenir trois pions passés connectés !] Superbe ! Dans cette position, je n'ai pas pu calculer assez loin pour voir un gain forcé, mais j'ai senti que ce choix m'offrait d'excellentes chances pratiques. C'est ce que l'on appelle un \"sacrifice intuitif\". Passons maintenant à l'exercice suivant pour voir ce qui s'est produit dans la partie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rbqrk1/6pp/1n1pp3/p7/Pp1PP3/1PpQBN1P/5PP1/2R1R1K1 b - - 3 24\"]\r\n\r\n{Votre serviteur a joué cette partie en différé sur Chess.com. Dans cette position, le meilleur coup était sans doute ...Dg6!, mais je n'ai pas pu m'empêcher de sacrifier une pièce pour obtenir trois pions passés connectés... Trouvez mon coup !}\r\n24...Nxa4\r\n    {[%wrong Ce coup ne sacrifie pas une pièce pour obtenir trois pions passés. Cherchez encore !][%hint Observez la chaîne de pions noire sur l'aile dame. Comment la mettre en mouvement ?]}\r\n    (24...Qxa4 $2 {C'est la bonne idée, mais pas la bonne pièce ! Nous ne pouvons pas nous permettre de donner la dame. Y'aurait-il une pièce moins forte à sacrifier ?})\r\n25.bxa4\r\n    {Bravo, vous avez trouvé une idée créative et risquée ! Créons maintenant notre triplette de pions passés connectés !}\r\n25...Qxa4\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Croquons un autre pion adverse pour obtenir trois pions passés connectés !] Superbe ! Dans cette position, je n'ai pas pu calculer assez loin pour voir un gain forcé, mais j'ai senti que ce choix m'offrait d'excellentes chances pratiques. C'est ce que l'on appelle un \"sacrifice intuitif\". Passons maintenant à l'exercice suivant pour voir ce qui s'est produit dans la partie !}\r\n*"
+    },
+    {
+      "fen": "2r1r1k1/3q3p/3pN1p1/3Pp3/1p2PP2/p1pQ2RP/6P1/2R3K1 b - - 0 33",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Après ce sacrifice de pièce, j'ai progressivement poussé mes pions passés tandis que mon adversaire mettait la pression sur mon aile roi... Trait aux noirs. Quel pion avancer ?",
+        "[%wrong Il ne s'agit pas d'un coup de pion sur l'aile dame... Cherchez encore !][%hint Jouez le pion qui va aider les deux autres à avancer.]",
+        "L'ordinateur suggère cette superbe réponse pour les blancs. Elle permet de protéger la première rangée, de garder un œil sur la colonne f pour participer à une future attaque, et de révéler la défense de la tour g3 sur la troisième rangée. Cherchez un coup de pion soutenant l'avancée des autres.",
+        "Bien vu ! Ce coup créatif introduit la menace ...Da7+ suivi de la promotion du pion a. Restons-en pour l'instant au choix le plus prosaïque en poussant le pion qui va aider les autres à avancer.",
+        "Bravo ! Trois pions à deux cases de dame, c'en est trop pour les pièces blanches. Notre adversaire s'empare d'un pion tant qu'il le peut, mais il est trop tard ! Continuez à pousser !",
+        "[%wrong Il ne s'agit pas d'un coup de pion sur l'aile dame... Cherchez encore !][%hint Les deux coups semblent intéressant... Choisissez celui qui vous semble le meilleur !] Superbe ! Les blancs ne peuvent plus nous empêcher de promouvoir un pion : la partie est gagnée !",
+        "suivi de ...Tc1+ et de la promotion du pion... C'est également gagnant, bien vu ! Maintenant, essayons avec l'autre pion..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1r1k1/3q3p/3pN1p1/3Pp3/1p2PP2/p1pQ2RP/6P1/2R3K1 b - - 0 33\"]\r\n\r\n{Après ce sacrifice de pièce, j'ai progressivement poussé mes pions passés tandis que mon adversaire mettait la pression sur mon aile roi... Trait aux noirs. Quel pion avancer ?}\r\n33...b3\r\n    {[%wrong Il ne s'agit pas d'un coup de pion sur l'aile dame... Cherchez encore !][%hint Jouez le pion qui va aider les deux autres à avancer.]}\r\n    (33...c2 $2 34.Qf1 {L'ordinateur suggère cette superbe réponse pour les blancs. Elle permet de protéger la première rangée, de garder un œil sur la colonne f pour participer à une future attaque, et de révéler la défense de la tour g3 sur la troisième rangée. Cherchez un coup de pion soutenant l'avancée des autres.})\r\n    (33...a2 $5 {Bien vu ! Ce coup créatif introduit la menace ...Da7+ suivi de la promotion du pion a. Restons-en pour l'instant au choix le plus prosaïque en poussant le pion qui va aider les autres à avancer.})\r\n34.Rxc3\r\n    {Bravo ! Trois pions à deux cases de dame, c'en est trop pour les pièces blanches. Notre adversaire s'empare d'un pion tant qu'il le peut, mais il est trop tard ! Continuez à pousser !}\r\n34...a2\r\n    {[%wrong Il ne s'agit pas d'un coup de pion sur l'aile dame... Cherchez encore !][%hint Les deux coups semblent intéressant... Choisissez celui qui vous semble le meilleur !] Superbe ! Les blancs ne peuvent plus nous empêcher de promouvoir un pion : la partie est gagnée !}\r\n    (34...b2 $5 35.Rxa3 {suivi de ...Tc1+ et de la promotion du pion... C'est également gagnant, bien vu ! Maintenant, essayons avec l'autre pion...})\r\n*"
+    },
+    {
+      "fen": "2rrk3/8/1p3p2/RPPPp1p1/2K4p/1P2NP1P/6P1/8 w - - 0 49",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans ce combat entre grand-maîtres, les noirs viennent de jouer ...b6. Quelle a été la réaction du conducteur des noirs, le russe Timofeev ? Faut-il sauver la tour ou réaliser un spectaculaire sacrifice ?",
+        "[%wrong Ce n'est pas le coup que nous cherchons, essayez encore !][%hint Existe-t-il un moyen de sacrifier la tour contre quatre pions passés connectés ?]",
+        "Un coup tout à fait admirable. Quelle créativité ! Vous voulez jouer b6 si les noirs prennent la tour pour obtenir un avantage écrasant. Le GMI Timofeev, lui, a choisi un coup protégeant la tour et le pion c4. Trouvez-le !",
+        "Les blancs ont sans doute un avantage gagnant grâce à leur pion d5 passé, mais il existe un coup encore plus fort. Pour le trouver, il va falloir oser sacrifier la tour...",
+        "Bien tenté, mais hélas, la position blanche s'effondre... Cherchez encore !",
+        "Les blancs vont peut-être réussir à tenir la nulle en jouant c6, mais notez bien que Cd6+ serait une gaffe à cause du clouage sur le pion c5. ...Txd6 gagnerait tout simplement une pièce sèche ! Cherchez encore.",
+        "Bravo, vous avez trouvé le superbe coup d'Artyom Timofeev ! Son compatriote Khismatullin prend la tour avant qu'elle n'atteigne a6. Emparons-nous maintenant du pion a !",
+        "[%wrong Ce coup ne prend pas le pion a.][%hint Prenez le pion a5.] Ce n'est pas tous les jours que vous verrez quatre pions passés connectés ! Soutenus par un roi actif et un joli cavalier, ils se sont avéré trop forts pour les deux tours noires. Belle trouvaille !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rrk3/8/1p3p2/RPPPp1p1/2K4p/1P2NP1P/6P1/8 w - - 0 49\"]\r\n\r\n{Dans ce combat entre grand-maîtres, les noirs viennent de jouer ...b6. Quelle a été la réaction du conducteur des noirs, le russe Timofeev ? Faut-il sauver la tour ou réaliser un spectaculaire sacrifice ?}\r\n49.b4\r\n    {[%wrong Ce n'est pas le coup que nous cherchons, essayez encore !][%hint Existe-t-il un moyen de sacrifier la tour contre quatre pions passés connectés ?]}\r\n    (49.c6 $5 {Un coup tout à fait admirable. Quelle créativité ! Vous voulez jouer b6 si les noirs prennent la tour pour obtenir un avantage écrasant. Le GMI Timofeev, lui, a choisi un coup protégeant la tour et le pion c4. Trouvez-le !})\r\n    (49.Ra6 $5 Rxc5+ {Les blancs ont sans doute un avantage gagnant grâce à leur pion d5 passé, mais il existe un coup encore plus fort. Pour le trouver, il va falloir oser sacrifier la tour...})\r\n    (49.d6 $2 Rxc5+ {Bien tenté, mais hélas, la position blanche s'effondre... Cherchez encore !})\r\n    (49.Nf5 $2 bxa5 {Les blancs vont peut-être réussir à tenir la nulle en jouant c6, mais notez bien que Cd6+ serait une gaffe à cause du clouage sur le pion c5. ...Txd6 gagnerait tout simplement une pièce sèche ! Cherchez encore.})\r\n49...bxa5\r\n    {Bravo, vous avez trouvé le superbe coup d'Artyom Timofeev ! Son compatriote Khismatullin prend la tour avant qu'elle n'atteigne a6. Emparons-nous maintenant du pion a !}\r\n50.bxa5\r\n    {[%wrong Ce coup ne prend pas le pion a.][%hint Prenez le pion a5.] Ce n'est pas tous les jours que vous verrez quatre pions passés connectés ! Soutenus par un roi actif et un joli cavalier, ils se sont avéré trop forts pour les deux tours noires. Belle trouvaille !}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/ppp2ppp/1n3n2/3P2N1/2PQP3/8/PP3PPP/RNB1K2R b KQkq - 0 9",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont sacrifié une pièce pour obtenir un puissant centre de pions, et le cavalier b6 des noirs est mal placé. Améliorez sa position pour attaquer le centre blanc !",
+        "[%wrong Ce coup n'améliore pas la position du cavalier b6. Cherchez encore !][%hint Trouvez une case sûre pour votre cavalier tout en préparant le fort ...Fc5 !]",
+        "ce coup intéressant prépare les idées ...Df6 et ...Fc5. Mais pourquoi ne pas offrir cette case au cavalier b6 mal placé ?",
+        "Non protégé, le cavalier est vulnérable en a4. Trouvez-lui une case plus sûre !",
+        "Excellente décision ! Le cavalier noir rejoint une case forte participant au contrôle du centre. Il est maintenant temps de contre-attaquer en gagnant un tempo sur la dame blanche !",
+        "[%wrong Ce coup ne développe pas une pièce en gagnant un tempo sur la dame blanche. Cherchez encore !][%hint Nous voulons développer notre fou de cases noires...]",
+        "Cette idée agressive est également jouable, mais il y a plus fort : trouvez le coup qui gagne un tempo sur la dame blanche !",
+        "Avant de jouer ce coup intéressant, il serait préférable de développer le fou de cases noires. En outre, cela peut être fait en gagnant un tempo sur la dame blanche. Pourquoi s'en priver ?",
+        "Notre fou de cases noires s'insurge contre cette décision ! Cette case est la sienne !",
+        "Bravo ! Les pièces noires s'harmonisent à merveille pour lutter contre le fort centre blanc ! Trouvez maintenant le joli coup menaçant à la fois de s'emparer du pion e5 et de gagner la dame adverse grâce à une enfilade.",
+        "[%wrong Ce coup ne menace pas à la fois de s'emparer du pion e5 et de gagner la dame adverse grâce à une enfilade. Cherchez encore !][%hint Développez une pièce pour attaquer le pion e5 une seconde fois tout en menaçant l'idée Fb4 au prochain coup.] Joli jeu de pièces ! Les noirs menacent une enfilade dame-roi par ...Fb4, et après ...Cxe5, le centre blanc ne sera bientôt plus qu'un champ de ruines. Vous avez remporté cette bataille pièces contre pions !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/ppp2ppp/1n3n2/3P2N1/2PQP3/8/PP3PPP/RNB1K2R b KQkq - 0 9\"]\r\n\r\n{Les blancs ont sacrifié une pièce pour obtenir un puissant centre de pions, et le cavalier b6 des noirs est mal placé. Améliorez sa position pour attaquer le centre blanc !}\r\n9...Nbd7\r\n    {[%wrong Ce coup n'améliore pas la position du cavalier b6. Cherchez encore !][%hint Trouvez une case sûre pour votre cavalier tout en préparant le fort ...Fc5 !]}\r\n    (9...Nfd7 $5 {ce coup intéressant prépare les idées ...Df6 et ...Fc5. Mais pourquoi ne pas offrir cette case au cavalier b6 mal placé ?})\r\n    (9...Na4 $6 10.e5 {Non protégé, le cavalier est vulnérable en a4. Trouvez-lui une case plus sûre !})\r\n10.e5\r\n    {Excellente décision ! Le cavalier noir rejoint une case forte participant au contrôle du centre. Il est maintenant temps de contre-attaquer en gagnant un tempo sur la dame blanche !}\r\n10...Bc5\r\n    {[%wrong Ce coup ne développe pas une pièce en gagnant un tempo sur la dame blanche. Cherchez encore !][%hint Nous voulons développer notre fou de cases noires...]}\r\n    (10...Bb4+ $6 {Cette idée agressive est également jouable, mais il y a plus fort : trouvez le coup qui gagne un tempo sur la dame blanche !})\r\n    (10...Qe7 $6 {Avant de jouer ce coup intéressant, il serait préférable de développer le fou de cases noires. En outre, cela peut être fait en gagnant un tempo sur la dame blanche. Pourquoi s'en priver ?})\r\n    (10...c5 $2 11.Qc3 {Notre fou de cases noires s'insurge contre cette décision ! Cette case est la sienne !})\r\n11.Qc3\r\n    {Bravo ! Les pièces noires s'harmonisent à merveille pour lutter contre le fort centre blanc ! Trouvez maintenant le joli coup menaçant à la fois de s'emparer du pion e5 et de gagner la dame adverse grâce à une enfilade.}\r\n11...Qe7\r\n    {[%wrong Ce coup ne menace pas à la fois de s'emparer du pion e5 et de gagner la dame adverse grâce à une enfilade. Cherchez encore !][%hint Développez une pièce pour attaquer le pion e5 une seconde fois tout en menaçant l'idée Fb4 au prochain coup.] Joli jeu de pièces ! Les noirs menacent une enfilade dame-roi par ...Fb4, et après ...Cxe5, le centre blanc ne sera bientôt plus qu'un champ de ruines. Vous avez remporté cette bataille pièces contre pions !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "fc82868e-9cee-11e8-8a0b-d346e50c0615",
+    "name": "Les pièces contre les pions",
+    "path": "les-pieces-contre-les-pions",
+    "description": "Les pièces valent généralement plus que les pions, mais un pion proche de la promotion ou plusieurs pions connectés peuvent souvent donner beaucoup de fil à retordre à une pièce seule. Le camp qui joue avec pièce(s) contre pions doit souvent rendre du matériel pour bloquer les passeurs et reprendre l’initiative.",
+    "glyphName": "piece-combo-knight-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-pieces-vs-pawns-k2d.mp4",
+    "fen": "3b2rk/3P2pp/8/p7/8/2Q1p3/PP1p1pPP/3R3K b - - 0 37",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/2p5/ppp5/4K3/1P2PN2/P1P3pp/5r2/6R1 b - - 3 38\"]\r\n\r\n{Les noirs ont une pièce de moins, mais deux pions passés connectés très dangereux. Trouvez le coup qui déborde les défenses blanches !}\r\n38...h2\r\n    {[%wrong Il va falloir trouver une idée plus tranchante pour ne pas se retrouver débordé. Cherchez encore !][%hint Comment gagner un tempo sur la tour blanche et la forcer à aller au coin ?]}\r\n    (38...Rxf4 $6 39.Rxg3 {Les noirs gardent de bonnes chances de gain dans cette finale technique après ...Th4, mais il y a un moyen plus simple d'obtenir une position gagnante... Cherchez encore !})\r\n    (38...g2 $2 39.Nxh3 {C'est la bonne idée, mais pas le bon pion... Essayez encore !})\r\n39.Rh1\r\n    {Bien joué ! La tour blanche doit se réfugier dans le coin de l'échiquier. Comment venir à bout des défenses blanches et gagner grâce aux pions ?}\r\n39...Rxf4\r\n    {[%wrong Ce n'est pas le coup le plus fort. Cherchez encore !][%hint Le cavalier blanc garde l'importante case g2. Éliminez-le !]}\r\n    (39...g2 $6 40.Nxg2 {C'est la bonne idée, mais ce cavalier est un redoutable défenseur ! Pourquoi ne pas l'éliminer d'abord ?})\r\n40.Kxf4\r\n    {Un coup puissant ! Les noirs se débarrassent d'un défenseur clef, et les deux pions passés dominent complètement la tour blanche. A vous de finir le travail !}\r\n40...g2\r\n    {[%wrong Oups ! Les blancs vont capturer nos deux pions passés et l'emporter. Cherchez encore !][%hint La case g2 est désormais libre de toute protection !] Superbe jeu de pion ! Les noirs vont faire une dame en force et obtenir une position gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rbqrk1/6pp/1n1pp3/p7/Pp1PP3/1PpQBN1P/5PP1/2R1R1K1 b - - 3 24\"]\r\n\r\n{Votre serviteur a joué cette partie en différé sur Chess.com. Dans cette position, le meilleur coup était sans doute ...Dg6!, mais je n'ai pas pu m'empêcher de sacrifier une pièce pour obtenir trois pions passés connectés... Trouvez mon coup !}\r\n24...Nxa4\r\n    {[%wrong Ce coup ne sacrifie pas une pièce pour obtenir trois pions passés. Cherchez encore !][%hint Observez la chaîne de pions noire sur l'aile dame. Comment la mettre en mouvement ?]}\r\n    (24...Qxa4 $2 {C'est la bonne idée, mais pas la bonne pièce ! Nous ne pouvons pas nous permettre de donner la dame. Y'aurait-il une pièce moins forte à sacrifier ?})\r\n25.bxa4\r\n    {Bravo, vous avez trouvé une idée créative et risquée ! Créons maintenant notre triplette de pions passés connectés !}\r\n25...Qxa4\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Croquons un autre pion adverse pour obtenir trois pions passés connectés !] Superbe ! Dans cette position, je n'ai pas pu calculer assez loin pour voir un gain forcé, mais j'ai senti que ce choix m'offrait d'excellentes chances pratiques. C'est ce que l'on appelle un \"sacrifice intuitif\". Passons maintenant à l'exercice suivant pour voir ce qui s'est produit dans la partie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1r1k1/3q3p/3pN1p1/3Pp3/1p2PP2/p1pQ2RP/6P1/2R3K1 b - - 0 33\"]\r\n\r\n{Après ce sacrifice de pièce, j'ai progressivement poussé mes pions passés tandis que mon adversaire mettait la pression sur mon aile roi... Trait aux noirs. Quel pion avancer ?}\r\n33...b3\r\n    {[%wrong Il ne s'agit pas d'un coup de pion sur l'aile dame... Cherchez encore !][%hint Jouez le pion qui va aider les deux autres à avancer.]}\r\n    (33...c2 $2 34.Qf1 {L'ordinateur suggère cette superbe réponse pour les blancs. Elle permet de protéger la première rangée, de garder un œil sur la colonne f pour participer à une future attaque, et de révéler la défense de la tour g3 sur la troisième rangée. Cherchez un coup de pion soutenant l'avancée des autres.})\r\n    (33...a2 $5 {Bien vu ! Ce coup créatif introduit la menace ...Da7+ suivi de la promotion du pion a. Restons-en pour l'instant au choix le plus prosaïque en poussant le pion qui va aider les autres à avancer.})\r\n34.Rxc3\r\n    {Bravo ! Trois pions à deux cases de dame, c'en est trop pour les pièces blanches. Notre adversaire s'empare d'un pion tant qu'il le peut, mais il est trop tard ! Continuez à pousser !}\r\n34...a2\r\n    {[%wrong Il ne s'agit pas d'un coup de pion sur l'aile dame... Cherchez encore !][%hint Les deux coups semblent intéressant... Choisissez celui qui vous semble le meilleur !] Superbe ! Les blancs ne peuvent plus nous empêcher de promouvoir un pion : la partie est gagnée !}\r\n    (34...b2 $5 35.Rxa3 {suivi de ...Tc1+ et de la promotion du pion... C'est également gagnant, bien vu ! Maintenant, essayons avec l'autre pion...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rrk3/8/1p3p2/RPPPp1p1/2K4p/1P2NP1P/6P1/8 w - - 0 49\"]\r\n\r\n{Dans ce combat entre grand-maîtres, les noirs viennent de jouer ...b6. Quelle a été la réaction du conducteur des noirs, le russe Timofeev ? Faut-il sauver la tour ou réaliser un spectaculaire sacrifice ?}\r\n49.b4\r\n    {[%wrong Ce n'est pas le coup que nous cherchons, essayez encore !][%hint Existe-t-il un moyen de sacrifier la tour contre quatre pions passés connectés ?]}\r\n    (49.c6 $5 {Un coup tout à fait admirable. Quelle créativité ! Vous voulez jouer b6 si les noirs prennent la tour pour obtenir un avantage écrasant. Le GMI Timofeev, lui, a choisi un coup protégeant la tour et le pion c4. Trouvez-le !})\r\n    (49.Ra6 $5 Rxc5+ {Les blancs ont sans doute un avantage gagnant grâce à leur pion d5 passé, mais il existe un coup encore plus fort. Pour le trouver, il va falloir oser sacrifier la tour...})\r\n    (49.d6 $2 Rxc5+ {Bien tenté, mais hélas, la position blanche s'effondre... Cherchez encore !})\r\n    (49.Nf5 $2 bxa5 {Les blancs vont peut-être réussir à tenir la nulle en jouant c6, mais notez bien que Cd6+ serait une gaffe à cause du clouage sur le pion c5. ...Txd6 gagnerait tout simplement une pièce sèche ! Cherchez encore.})\r\n49...bxa5\r\n    {Bravo, vous avez trouvé le superbe coup d'Artyom Timofeev ! Son compatriote Khismatullin prend la tour avant qu'elle n'atteigne a6. Emparons-nous maintenant du pion a !}\r\n50.bxa5\r\n    {[%wrong Ce coup ne prend pas le pion a.][%hint Prenez le pion a5.] Ce n'est pas tous les jours que vous verrez quatre pions passés connectés ! Soutenus par un roi actif et un joli cavalier, ils se sont avéré trop forts pour les deux tours noires. Belle trouvaille !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/ppp2ppp/1n3n2/3P2N1/2PQP3/8/PP3PPP/RNB1K2R b KQkq - 0 9\"]\r\n\r\n{Les blancs ont sacrifié une pièce pour obtenir un puissant centre de pions, et le cavalier b6 des noirs est mal placé. Améliorez sa position pour attaquer le centre blanc !}\r\n9...Nbd7\r\n    {[%wrong Ce coup n'améliore pas la position du cavalier b6. Cherchez encore !][%hint Trouvez une case sûre pour votre cavalier tout en préparant le fort ...Fc5 !]}\r\n    (9...Nfd7 $5 {ce coup intéressant prépare les idées ...Df6 et ...Fc5. Mais pourquoi ne pas offrir cette case au cavalier b6 mal placé ?})\r\n    (9...Na4 $6 10.e5 {Non protégé, le cavalier est vulnérable en a4. Trouvez-lui une case plus sûre !})\r\n10.e5\r\n    {Excellente décision ! Le cavalier noir rejoint une case forte participant au contrôle du centre. Il est maintenant temps de contre-attaquer en gagnant un tempo sur la dame blanche !}\r\n10...Bc5\r\n    {[%wrong Ce coup ne développe pas une pièce en gagnant un tempo sur la dame blanche. Cherchez encore !][%hint Nous voulons développer notre fou de cases noires...]}\r\n    (10...Bb4+ $6 {Cette idée agressive est également jouable, mais il y a plus fort : trouvez le coup qui gagne un tempo sur la dame blanche !})\r\n    (10...Qe7 $6 {Avant de jouer ce coup intéressant, il serait préférable de développer le fou de cases noires. En outre, cela peut être fait en gagnant un tempo sur la dame blanche. Pourquoi s'en priver ?})\r\n    (10...c5 $2 11.Qc3 {Notre fou de cases noires s'insurge contre cette décision ! Cette case est la sienne !})\r\n11.Qc3\r\n    {Bravo ! Les pièces noires s'harmonisent à merveille pour lutter contre le fort centre blanc ! Trouvez maintenant le joli coup menaçant à la fois de s'emparer du pion e5 et de gagner la dame adverse grâce à une enfilade.}\r\n11...Qe7\r\n    {[%wrong Ce coup ne menace pas à la fois de s'emparer du pion e5 et de gagner la dame adverse grâce à une enfilade. Cherchez encore !][%hint Développez une pièce pour attaquer le pion e5 une seconde fois tout en menaçant l'idée Fb4 au prochain coup.] Joli jeu de pièces ! Les noirs menacent une enfilade dame-roi par ...Fb4, et après ...Cxe5, le centre blanc ne sera bientôt plus qu'un champ de ruines. Vous avez remporté cette bataille pièces contre pions !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les pions peuvent devenir plus puissants que les pièces en finale.",
+    "outroText": "Désormais, vous n'hésiterez plus à pousser vos pions en finale.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "path": "motifs-de-finales",
+      "title": "Motifs de finale",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/88fecd30-a55e-11e8-b04a-53817ee2115a.dd294b02.728x410o.de2eb5921014.png"
+    },
+    "parentId": "bb7aed74-83b8-11e8-a4aa-e516ae6f41d4",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pieces-and-pawns5d125ea7b74e0.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pieces-and-pawns-15ea23d12ddbdb.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pieces-and-pawns-26061ba5cd411d.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 133,
+    "order": 5,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "name": "Motifs de finale",
+      "path": "motifs-de-finales",
+      "order": 7
+    }
+  }
+}

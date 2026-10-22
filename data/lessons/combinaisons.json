@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-coups-forces/combinaisons",
+  "capturedAt": "2026-10-22T12:23:41.678Z",
+  "title": "Les combinaisons",
+  "exercises": [
+    {
+      "fen": "1q1b1r2/6kp/p5p1/1p3pQP/8/1B6/PP3PP1/3R2K1 w - - 8 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent la dame blanche. Faites fi de la menace et trouvez une puissante combinaison de mat !",
+        "[%wrong Non ! Dans cette position, les blancs ont un gain forcé. Trouvez-le !][%hint Le roi noir est vulnérable sur la septième rangée. Ramenez une pièce en attaque !]",
+        "Ce coup repousse le roi noir dans le coin, mais sans mener à une attaque convaincante. Cherchez encore !",
+        "Excellent ! La tour attaque le roi et le force à se réfugier dans le coin. Ouvrons maintenant des lignes pour le mater en force !",
+        "[%wrong Bien essayé, mais il faut trouver un coup plus direct. Cherchez encore !][%hint Comment détruire l'abri du roi noir ?]",
+        "Cet astucieux sacrifice de dame mène également au mat, bien joué ! Trouvez maintenant une combinaison forçant encore plus l'issue du combat !",
+        "Un enchaînement plein de puissance ! Le roi noir est maintenant en grand danger... Trouvez le mat en deux !",
+        "[%wrong Ce coup ne permet pas de mater en deux. Cherchez encore !][%hint Comment forcer le roi à retourner dans le coin pour y être maté ?]",
+        "Et voilà ! Eh bien, matez maintenant !",
+        "[%wrong Ce coup ne mate pas . Cherchez encore.][%hint Cherchez le mat en un...] Bravo, vous avez trouvé une superbe combinaison !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1q1b1r2/6kp/p5p1/1p3pQP/8/1B6/PP3PP1/3R2K1 w - - 8 5\"]\r\n\r\n{Les noirs attaquent la dame blanche. Faites fi de la menace et trouvez une puissante combinaison de mat !}\r\n5.Rd7+\r\n    {[%wrong Non ! Dans cette position, les blancs ont un gain forcé. Trouvez-le !][%hint Le roi noir est vulnérable sur la septième rangée. Ramenez une pièce en attaque !]}\r\n    (5.h6+ $2 Kh8 {Ce coup repousse le roi noir dans le coin, mais sans mener à une attaque convaincante. Cherchez encore !})\r\n5...Kh8\r\n    {Excellent ! La tour attaque le roi et le force à se réfugier dans le coin. Ouvrons maintenant des lignes pour le mater en force !}\r\n6.Rxh7+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus direct. Cherchez encore !][%hint Comment détruire l'abri du roi noir ?]}\r\n    (6.hxg6 $5 {Cet astucieux sacrifice de dame mène également au mat, bien joué ! Trouvez maintenant une combinaison forçant encore plus l'issue du combat !})\r\n6...Kxh7\r\n    {Un enchaînement plein de puissance ! Le roi noir est maintenant en grand danger... Trouvez le mat en deux !}\r\n7.Qxg6+\r\n    {[%wrong Ce coup ne permet pas de mater en deux. Cherchez encore !][%hint Comment forcer le roi à retourner dans le coin pour y être maté ?]}\r\n7...Kh8\r\n    {Et voilà ! Eh bien, matez maintenant !}\r\n8.Qh6#\r\n    {[%wrong Ce coup ne mate pas . Cherchez encore.][%hint Cherchez le mat en un...] Bravo, vous avez trouvé une superbe combinaison !}\r\n*"
+    },
+    {
+      "fen": "2r2rk1/pb3pp1/1p1bp2p/2p5/3P1q2/2P2N1P/PPQNBPPn/R3R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les pièces noires sont rivées sur le roi blanc, dont la situation semble délicate. Pourtant, une combinaison permet au camp blanc de gagner du matériel. Trouvez-la !",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Cherchez encore !][%hint Attaquez la plus forte pièce noire tout en fermant une dangereuse diagonale.]",
+        "Oups ! Les noirs matent en deux... Cherchez encore !",
+        "L'ouverture de la position favorise la paire de fous adverse. Cherchez encore !",
+        "Bien vu ! Cet élégant coup de pion force les noirs à prendre le cavalier, sous peine de perdre une pièce sèche. Comment enchaîner ?",
+        "[%wrong Ce coup ne gagne pas de matériel !!][%hint La dame noire est attaquée. Est-il possible de reprendre le cavalier tout en attaquant une autre pièce noire ?] Joliment fait ! Les blancs reprennent le cavalier et menacent le fou de cases blanches non protégé. Comme la dame noire est toujours attaquée, le gain matériel est assuré !",
+        "Non ! Les noirs maintiennent l'équilibre matériel et continuent à mettre la pression sur l'aile roi des blancs. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/pb3pp1/1p1bp2p/2p5/3P1q2/2P2N1P/PPQNBPPn/R3R1K1 w - - 0 1\"]\r\n\r\n{Les pièces noires sont rivées sur le roi blanc, dont la situation semble délicate. Pourtant, une combinaison permet au camp blanc de gagner du matériel. Trouvez-la !}\r\n1.g3\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Cherchez encore !][%hint Attaquez la plus forte pièce noire tout en fermant une dangereuse diagonale.]}\r\n    (1.Nxh2 $2 Qxh2+ {Oups ! Les noirs matent en deux... Cherchez encore !})\r\n    (1.dxc5 $2 Bxc5 {L'ouverture de la position favorise la paire de fous adverse. Cherchez encore !})\r\n1...Nxf3+\r\n    {Bien vu ! Cet élégant coup de pion force les noirs à prendre le cavalier, sous peine de perdre une pièce sèche. Comment enchaîner ?}\r\n2.Bxf3\r\n    {[%wrong Ce coup ne gagne pas de matériel !!][%hint La dame noire est attaquée. Est-il possible de reprendre le cavalier tout en attaquant une autre pièce noire ?] Joliment fait ! Les blancs reprennent le cavalier et menacent le fou de cases blanches non protégé. Comme la dame noire est toujours attaquée, le gain matériel est assuré !}\r\n    (2.Nxf3 $2 Qf6 {Non ! Les noirs maintiennent l'équilibre matériel et continuent à mettre la pression sur l'aile roi des blancs. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "2kr3r/pp4p1/5qp1/1Pp5/Q2n2n1/P2B1NP1/4PPKP/1R3R2 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs mettent une grosse pression sur le pion faible h2. Trouvez la combinaison sacrificielle qui force le mat !",
+        "[%wrong Bien essayé, mais il va falloir jouer un coup plus tranchant pour mater les blancs. Cherchez encore !][%hint Le cavalier blanc est bien seul pour protéger h2... Trouvez comment vous en débarrasser pour préparer le mat !]",
+        "Oups ! Attention à ne pas oublier de bien regarder tout l'échiquier avant de lancer une attaque !",
+        "Les noirs sacrifient une tour pour ouvrir la colonne h, mais sans avoir suffisamment de forces pour en profiter... Une idée intéressante, mais il faut trouver un sacrifice plus puissant !",
+        "Comment mater à la suite de cet excellent sacrifice de dame ?",
+        "[%wrong Ce coup ne mate pas, cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?]",
+        "Et voilà ! Le roi blanc prend la fuite, mais il est trop tard. Achevez-le !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore.][%hint Trouvez le mat en un.] Vos talents offensifs se développent à vue d’œil ! Continuez dans cette voie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr3r/pp4p1/5qp1/1Pp5/Q2n2n1/P2B1NP1/4PPKP/1R3R2 b - - 0 1\"]\r\n\r\n{Les noirs mettent une grosse pression sur le pion faible h2. Trouvez la combinaison sacrificielle qui force le mat !}\r\n1...Qxf3+\r\n    {[%wrong Bien essayé, mais il va falloir jouer un coup plus tranchant pour mater les blancs. Cherchez encore !][%hint Le cavalier blanc est bien seul pour protéger h2... Trouvez comment vous en débarrasser pour préparer le mat !]}\r\n    (1...Nxf3 $2 2.Qxg4+ {Oups ! Attention à ne pas oublier de bien regarder tout l'échiquier avant de lancer une attaque !})\r\n    (1...Rxh2+ $2 2.Nxh2 {Les noirs sacrifient une tour pour ouvrir la colonne h, mais sans avoir suffisamment de forces pour en profiter... Une idée intéressante, mais il faut trouver un sacrifice plus puissant !})\r\n2.exf3\r\n    {Comment mater à la suite de cet excellent sacrifice de dame ?}\r\n2...Rxh2+\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?]}\r\n3.Kg1\r\n    {Et voilà ! Le roi blanc prend la fuite, mais il est trop tard. Achevez-le !}\r\n3...Nxf3#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore.][%hint Trouvez le mat en un.] Vos talents offensifs se développent à vue d’œil ! Continuez dans cette voie.}\r\n*"
+    },
+    {
+      "fen": "2k2r2/2b5/8/2NK4/4P3/8/R7/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un pion d'avance. Vont-ils devoir s'imposer au terme d'une longue finale technique ? Pas forcément ! A vous de trouver la combinaison gagnante...",
+        "[%wrong Bien essayé, mais il faut trouver un coup plus tranchant pour rentrer dans cette variante. Cherchez encore !][%hint Comment clouer le fou des noirs à son roi ?]",
+        "Bien essayé, mais les noirs vont activer leur tour et nous opposer une résistance opiniâtre. Trouvez mieux !",
+        "Comme pour la plupart des combinaisons, les coups forcés sont la clef du problème ! Gagnons maintenant du matériel en éliminant la tour et le fou adverse.",
+        "[%wrong Bien essayé, mais il faut trouver un coup plus tranchant. Cherchez encore !][%hint Trouvez un sacrifice temporaire préparant une fourchette roi-tour.]",
+        "Un fort coup, mais qui offre un peu de contre jeu aux noirs. Essayez de trouver une suite forcée !",
+        "Formidable ! Sur cette case, le roi noir va subir une terrible fourchette !",
+        "[%wrong Ce coup ne gagne pas la tour noire. Essayez encore !][%hint Comment réaliser une fourchette roi-tour ??] Joli travail ! Au prochain coup, les blancs s'empareront dans la tour noire et rentreront dans une finale gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k2r2/2b5/8/2NK4/4P3/8/R7/8 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion d'avance. Vont-ils devoir s'imposer au terme d'une longue finale technique ? Pas forcément ! A vous de trouver la combinaison gagnante...}\r\n1.Ra8+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus tranchant pour rentrer dans cette variante. Cherchez encore !][%hint Comment clouer le fou des noirs à son roi ?]}\r\n    (1.Ne6 $2 Rf1 {Bien essayé, mais les noirs vont activer leur tour et nous opposer une résistance opiniâtre. Trouvez mieux !})\r\n1...Bb8\r\n    {Comme pour la plupart des combinaisons, les coups forcés sont la clef du problème ! Gagnons maintenant du matériel en éliminant la tour et le fou adverse.}\r\n2.Rxb8+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus tranchant. Cherchez encore !][%hint Trouvez un sacrifice temporaire préparant une fourchette roi-tour.]}\r\n    (2.Na6 $6 Rd8+ {Un fort coup, mais qui offre un peu de contre jeu aux noirs. Essayez de trouver une suite forcée !})\r\n2...Kxb8\r\n    {Formidable ! Sur cette case, le roi noir va subir une terrible fourchette !}\r\n3.Nd7+\r\n    {[%wrong Ce coup ne gagne pas la tour noire. Essayez encore !][%hint Comment réaliser une fourchette roi-tour ??] Joli travail ! Au prochain coup, les blancs s'empareront dans la tour noire et rentreront dans une finale gagnante.}\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/ppp3pp/3b4/4npBq/8/3B1N2/PPP2PPP/R2QR1K1 w - - 2 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Avant de devenir champion du monde, le grand Alexandre Alekhine a joué cette puissante partie d'attaque alors qu'il n'était âgé que de seize ans. Commençons par trouver le meilleur coup en capturant une pièce tout en menaçant la dame noire.",
+        "[%wrong Ce coup ne prend pas une pièce tout en menaçant la dame noire. Cherchez encore !][%hint Quelle pièce peut s'emparer d'une pièce adverse tout en révélant une menace sur la dame noire ?]",
+        "Les choses sérieuses commencent ! Les noirs ont joué leur pion f, ouvrant une diagonale vers leur roi. Profitons-en !",
+        "[%wrong Ce coup n'attaque pas le roi noir. Cherchez encore !][%hint Comment mettre le roi adverse en échec ?]",
+        "Les noirs subissent la partie ! Trouvez maintenant la combinaison qui permit à Alekhine de remporter une pièce sèche.",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le fou des noirs protège la tour f8, qui elle-même protège la dernière rangée. En éliminant le fou, on pourrait ensuite profiter des problèmes des noirs sur leur dernière rangée...]",
+        "Ce coup très tentant gagne en effet une qualité. Mais Alekhine en veut plus... Trouvez comment gagner une pièce entière !",
+        "Quel coup ! Les blancs sacrifient temporairement la dame, sachant qu'ils la récupérerons dans deux coups. Continuez par une fourchette !",
+        "[%wrong Ce coup n'est pas une fourchette royale. Cherchez encore !][%hint Cherchez la fourchette royale !]",
+        "Bien essayé, mais cet échec perd un cavalier. Trouvez mieux !",
+        "Beau travail ! La tour noire ne peut pas s'emparer du cavalier à cause de la menace Te8#. Prenez maintenant la dame noire !",
+        "[%wrong Ce coup ne prend pas la dame noire. Cherchez encore !][%hint Quelle pièce peut s'emparer de la dame noire ?] Bravo, vous avez trouvé les coups d'une légende des échecs ! Les blancs ont désormais une pièce de plus et une attaque écrasante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"1908.08.06\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppp3pp/3b4/4npBq/8/3B1N2/PPP2PPP/R2QR1K1 w - - 2 14\"]\r\n\r\n{Avant de devenir champion du monde, le grand Alexandre Alekhine a joué cette puissante partie d'attaque alors qu'il n'était âgé que de seize ans. Commençons par trouver le meilleur coup en capturant une pièce tout en menaçant la dame noire.}\r\n14.Nxe5\r\n    {[%wrong Ce coup ne prend pas une pièce tout en menaçant la dame noire. Cherchez encore !][%hint Quelle pièce peut s'emparer d'une pièce adverse tout en révélant une menace sur la dame noire ?]}\r\n14...Qxg5\r\n    {Les choses sérieuses commencent ! Les noirs ont joué leur pion f, ouvrant une diagonale vers leur roi. Profitons-en !}\r\n15.Bc4+\r\n    {[%wrong Ce coup n'attaque pas le roi noir. Cherchez encore !][%hint Comment mettre le roi adverse en échec ?]}\r\n15...Kh8\r\n    {Les noirs subissent la partie ! Trouvez maintenant la combinaison qui permit à Alekhine de remporter une pièce sèche.}\r\n16.Qxd6\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le fou des noirs protège la tour f8, qui elle-même protège la dernière rangée. En éliminant le fou, on pourrait ensuite profiter des problèmes des noirs sur leur dernière rangée...]}\r\n    (16.Nf7+ $6 Rxf7 {Ce coup très tentant gagne en effet une qualité. Mais Alekhine en veut plus... Trouvez comment gagner une pièce entière !})\r\n16...cxd6\r\n    {Quel coup ! Les blancs sacrifient temporairement la dame, sachant qu'ils la récupérerons dans deux coups. Continuez par une fourchette !}\r\n17.Nf7+\r\n    {[%wrong Ce coup n'est pas une fourchette royale. Cherchez encore !][%hint Cherchez la fourchette royale !]}\r\n    (17.Ng6+ $2 Qxg6 {Bien essayé, mais cet échec perd un cavalier. Trouvez mieux !})\r\n17...Kg8\r\n    {Beau travail ! La tour noire ne peut pas s'emparer du cavalier à cause de la menace Te8#. Prenez maintenant la dame noire !}\r\n18.Nxg5+\r\n    {[%wrong Ce coup ne prend pas la dame noire. Cherchez encore !][%hint Quelle pièce peut s'emparer de la dame noire ?] Bravo, vous avez trouvé les coups d'une légende des échecs ! Les blancs ont désormais une pièce de plus et une attaque écrasante.}\r\n1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "e12ee25a-9cea-11e8-893a-670b8b9ad1d7",
+    "name": "Les combinaisons",
+    "path": "combinaisons",
+    "description": "Vous connaissez maintenant de nombreux thèmes tactiques. Il est temps de les combiner pour créer de puissantes combinaisons. Les combinaisons sont des séries de coups forcés impliquant généralement des sacrifices. Leur objectif est de prendre un avantage gagnant.",
+    "glyphName": "square-fill-stack-plus",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-combinations-f9w.mp4",
+    "fen": "2r2rk1/pb3pp1/1p1bp2p/2p5/3P1q2/2P2NPP/PPQNBP1n/R3R1K1 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1q1b1r2/6kp/p5p1/1p3pQP/8/1B6/PP3PP1/3R2K1 w - - 8 5\"]\r\n\r\n{Les noirs attaquent la dame blanche. Faites fi de la menace et trouvez une puissante combinaison de mat !}\r\n5.Rd7+\r\n    {[%wrong Non ! Dans cette position, les blancs ont un gain forcé. Trouvez-le !][%hint Le roi noir est vulnérable sur la septième rangée. Ramenez une pièce en attaque !]}\r\n    (5.h6+ $2 Kh8 {Ce coup repousse le roi noir dans le coin, mais sans mener à une attaque convaincante. Cherchez encore !})\r\n5...Kh8\r\n    {Excellent ! La tour attaque le roi et le force à se réfugier dans le coin. Ouvrons maintenant des lignes pour le mater en force !}\r\n6.Rxh7+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus direct. Cherchez encore !][%hint Comment détruire l'abri du roi noir ?]}\r\n    (6.hxg6 $5 {Cet astucieux sacrifice de dame mène également au mat, bien joué ! Trouvez maintenant une combinaison forçant encore plus l'issue du combat !})\r\n6...Kxh7\r\n    {Un enchaînement plein de puissance ! Le roi noir est maintenant en grand danger... Trouvez le mat en deux !}\r\n7.Qxg6+\r\n    {[%wrong Ce coup ne permet pas de mater en deux. Cherchez encore !][%hint Comment forcer le roi à retourner dans le coin pour y être maté ?]}\r\n7...Kh8\r\n    {Et voilà ! Eh bien, matez maintenant !}\r\n8.Qh6#\r\n    {[%wrong Ce coup ne mate pas . Cherchez encore.][%hint Cherchez le mat en un...] Bravo, vous avez trouvé une superbe combinaison !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/pb3pp1/1p1bp2p/2p5/3P1q2/2P2N1P/PPQNBPPn/R3R1K1 w - - 0 1\"]\r\n\r\n{Les pièces noires sont rivées sur le roi blanc, dont la situation semble délicate. Pourtant, une combinaison permet au camp blanc de gagner du matériel. Trouvez-la !}\r\n1.g3\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas de matériel. Cherchez encore !][%hint Attaquez la plus forte pièce noire tout en fermant une dangereuse diagonale.]}\r\n    (1.Nxh2 $2 Qxh2+ {Oups ! Les noirs matent en deux... Cherchez encore !})\r\n    (1.dxc5 $2 Bxc5 {L'ouverture de la position favorise la paire de fous adverse. Cherchez encore !})\r\n1...Nxf3+\r\n    {Bien vu ! Cet élégant coup de pion force les noirs à prendre le cavalier, sous peine de perdre une pièce sèche. Comment enchaîner ?}\r\n2.Bxf3\r\n    {[%wrong Ce coup ne gagne pas de matériel !!][%hint La dame noire est attaquée. Est-il possible de reprendre le cavalier tout en attaquant une autre pièce noire ?] Joliment fait ! Les blancs reprennent le cavalier et menacent le fou de cases blanches non protégé. Comme la dame noire est toujours attaquée, le gain matériel est assuré !}\r\n    (2.Nxf3 $2 Qf6 {Non ! Les noirs maintiennent l'équilibre matériel et continuent à mettre la pression sur l'aile roi des blancs. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr3r/pp4p1/5qp1/1Pp5/Q2n2n1/P2B1NP1/4PPKP/1R3R2 b - - 0 1\"]\r\n\r\n{Les noirs mettent une grosse pression sur le pion faible h2. Trouvez la combinaison sacrificielle qui force le mat !}\r\n1...Qxf3+\r\n    {[%wrong Bien essayé, mais il va falloir jouer un coup plus tranchant pour mater les blancs. Cherchez encore !][%hint Le cavalier blanc est bien seul pour protéger h2... Trouvez comment vous en débarrasser pour préparer le mat !]}\r\n    (1...Nxf3 $2 2.Qxg4+ {Oups ! Attention à ne pas oublier de bien regarder tout l'échiquier avant de lancer une attaque !})\r\n    (1...Rxh2+ $2 2.Nxh2 {Les noirs sacrifient une tour pour ouvrir la colonne h, mais sans avoir suffisamment de forces pour en profiter... Une idée intéressante, mais il faut trouver un sacrifice plus puissant !})\r\n2.exf3\r\n    {Comment mater à la suite de cet excellent sacrifice de dame ?}\r\n2...Rxh2+\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?]}\r\n3.Kg1\r\n    {Et voilà ! Le roi blanc prend la fuite, mais il est trop tard. Achevez-le !}\r\n3...Nxf3#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore.][%hint Trouvez le mat en un.] Vos talents offensifs se développent à vue d’œil ! Continuez dans cette voie.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k2r2/2b5/8/2NK4/4P3/8/R7/8 w - - 0 1\"]\r\n\r\n{Les blancs ont un pion d'avance. Vont-ils devoir s'imposer au terme d'une longue finale technique ? Pas forcément ! A vous de trouver la combinaison gagnante...}\r\n1.Ra8+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus tranchant pour rentrer dans cette variante. Cherchez encore !][%hint Comment clouer le fou des noirs à son roi ?]}\r\n    (1.Ne6 $2 Rf1 {Bien essayé, mais les noirs vont activer leur tour et nous opposer une résistance opiniâtre. Trouvez mieux !})\r\n1...Bb8\r\n    {Comme pour la plupart des combinaisons, les coups forcés sont la clef du problème ! Gagnons maintenant du matériel en éliminant la tour et le fou adverse.}\r\n2.Rxb8+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus tranchant. Cherchez encore !][%hint Trouvez un sacrifice temporaire préparant une fourchette roi-tour.]}\r\n    (2.Na6 $6 Rd8+ {Un fort coup, mais qui offre un peu de contre jeu aux noirs. Essayez de trouver une suite forcée !})\r\n2...Kxb8\r\n    {Formidable ! Sur cette case, le roi noir va subir une terrible fourchette !}\r\n3.Nd7+\r\n    {[%wrong Ce coup ne gagne pas la tour noire. Essayez encore !][%hint Comment réaliser une fourchette roi-tour ??] Joli travail ! Au prochain coup, les blancs s'empareront dans la tour noire et rentreront dans une finale gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"1908.08.06\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppp3pp/3b4/4npBq/8/3B1N2/PPP2PPP/R2QR1K1 w - - 2 14\"]\r\n\r\n{Avant de devenir champion du monde, le grand Alexandre Alekhine a joué cette puissante partie d'attaque alors qu'il n'était âgé que de seize ans. Commençons par trouver le meilleur coup en capturant une pièce tout en menaçant la dame noire.}\r\n14.Nxe5\r\n    {[%wrong Ce coup ne prend pas une pièce tout en menaçant la dame noire. Cherchez encore !][%hint Quelle pièce peut s'emparer d'une pièce adverse tout en révélant une menace sur la dame noire ?]}\r\n14...Qxg5\r\n    {Les choses sérieuses commencent ! Les noirs ont joué leur pion f, ouvrant une diagonale vers leur roi. Profitons-en !}\r\n15.Bc4+\r\n    {[%wrong Ce coup n'attaque pas le roi noir. Cherchez encore !][%hint Comment mettre le roi adverse en échec ?]}\r\n15...Kh8\r\n    {Les noirs subissent la partie ! Trouvez maintenant la combinaison qui permit à Alekhine de remporter une pièce sèche.}\r\n16.Qxd6\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le fou des noirs protège la tour f8, qui elle-même protège la dernière rangée. En éliminant le fou, on pourrait ensuite profiter des problèmes des noirs sur leur dernière rangée...]}\r\n    (16.Nf7+ $6 Rxf7 {Ce coup très tentant gagne en effet une qualité. Mais Alekhine en veut plus... Trouvez comment gagner une pièce entière !})\r\n16...cxd6\r\n    {Quel coup ! Les blancs sacrifient temporairement la dame, sachant qu'ils la récupérerons dans deux coups. Continuez par une fourchette !}\r\n17.Nf7+\r\n    {[%wrong Ce coup n'est pas une fourchette royale. Cherchez encore !][%hint Cherchez la fourchette royale !]}\r\n    (17.Ng6+ $2 Qxg6 {Bien essayé, mais cet échec perd un cavalier. Trouvez mieux !})\r\n17...Kg8\r\n    {Beau travail ! La tour noire ne peut pas s'emparer du cavalier à cause de la menace Te8#. Prenez maintenant la dame noire !}\r\n18.Nxg5+\r\n    {[%wrong Ce coup ne prend pas la dame noire. Cherchez encore !][%hint Quelle pièce peut s'emparer de la dame noire ?] Bravo, vous avez trouvé les coups d'une légende des échecs ! Les blancs ont désormais une pièce de plus et une attaque écrasante.}\r\n1-0"
+    ],
+    "isPathLesson": true,
+    "courseId": "d99efe36-a559-11e8-8f87-67f547523c41",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons comment profiter de la tactique pour créer des combinaisons.",
+    "outroText": "Quand vos pièces sont harmonieuses, elles sont plus à-mêmes de produire des combinaisons.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "path": "les-coups-forces",
+      "title": "Les coups forcés",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/d99efe36-a559-11e8-8f87-67f547523c41.45eb0b22.728x410o.b971cb5ae816.png"
+    },
+    "parentId": "c8b47058-83ab-11e8-a131-4b7868a5a8bf",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/combinations5d12567fbc5dd.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/combinations-5667eebe182126.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/combinations-15ea2417221741.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/combinations-26144910f9f263.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 75,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "name": "Les coups forcés",
+      "path": "les-coups-forces",
+      "order": 4
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi-adverse/pions-faibles-f2-et-f7",
+  "capturedAt": "2026-10-22T12:23:34.078Z",
+  "title": "Les points faibles : f2 et f7",
+  "exercises": [
+    {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils mater ?",
+        "[%wrong Il est possible de faire échec et mat mais pas comme ça. Essayez encore en cherchant une capture plus efficace.] [%hint Cherchez les échecs. Lequel fait également mat ?]  La faiblesse en f7 permet aux blancs de l'emporter. Bien joué !",
+        "Il n'y a pas mat. Vous pouvez trouver mieux.",
+        "Ce n'est pas mat, cherchez une prise plus efficace.",
+        "Vous allez dans la mauvaise direction, il est possible de mater directement."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 4\"]\r\n[PlyCount \"1\"]\r\n\r\n{Comment les blancs peuvent-ils mater ?} 4. Qxf7# {[%wrong Il est possible de faire échec et mat mais pas comme ça. Essayez encore en cherchant une capture plus efficace.] [%hint Cherchez les échecs. Lequel fait également mat ?]  La faiblesse en f7 permet aux blancs de l'emporter. Bien joué !} (4. Bxf7+ $2 Ke7 {Il n'y a pas mat. Vous pouvez trouver mieux.})\r\n(4. Qxe5+ $2 Nxe5 {Ce n'est pas mat, cherchez une prise plus efficace.}) (4.\r\nQxh7 $2 Rxh7 {Vous allez dans la mauvaise direction, il est possible de mater directement.}) *"
+    },
+    {
+      "fen": "rnbqk2r/ppp2ppp/4pn2/2b5/4P3/5NP1/PPPN1P1P/R1BQKB1R b KQkq - 0 6",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Le fou attaque déjà le pion faible f2. Comment ajouter un second attaquant ?",
+        "[%wrong Ce coup ne vient pas attaquer une seconde fois le pion f2, ou alors la pièce jouée n'est pas en sécurité. Essayez encore !][%hint Pour attaquer le pion f, le fou et le cavalier forment un tandem de choc.] Bien joué ! Le cavalier noir se joint à l'attaque sur f2, et les blancs n'ont pas de défense convaincante. Les noirs vont gagner du matériel au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp2ppp/4pn2/2b5/4P3/5NP1/PPPN1P1P/R1BQKB1R b KQkq - 0 6\"]\r\n\r\n{Trait aux noirs. Le fou attaque déjà le pion faible f2. Comment ajouter un second attaquant ?}\r\n6...Ng4\r\n    {[%wrong Ce coup ne vient pas attaquer une seconde fois le pion f2, ou alors la pièce jouée n'est pas en sécurité. Essayez encore !][%hint Pour attaquer le pion f, le fou et le cavalier forment un tandem de choc.] Bien joué ! Le cavalier noir se joint à l'attaque sur f2, et les blancs n'ont pas de défense convaincante. Les noirs vont gagner du matériel au prochain coup.}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/ppp2ppp/2np1n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs devraient-ils prendre le pion f7 afin de faire une fourchette ?",
+        "[%wrong\r\nIl existe un meilleur coup. Réessayez.] [%hint\r\nCherchez à faire une fourchette entre la dame et la tour noires.]",
+        "\r\nLes blancs gagnent bien le pion f7 mais il existe une capture plus efficace.",
+        "Bien joué ! Que manger ensuite ?",
+        "\r\n[%wrong Il y a mieux !] \r\n[%hint Capturez une pièce qui n'est pas défendue.]  Les blancs ont gagné une tour et ont une superbe position !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/ppp2ppp/2np1n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs devraient-ils prendre le pion f7 afin de faire une fourchette ?} 5. Nxf7 {[%wrong\r\nIl existe un meilleur coup. Réessayez.] [%hint\r\nCherchez à faire une fourchette entre la dame et la tour noires.]} (5. Bxf7+ $2 Ke7 {\r\nLes blancs gagnent bien le pion f7 mais il existe une capture plus efficace.}) 5... Qe7 {Bien joué ! Que manger ensuite ?} 6. Nxh8 {\r\n[%wrong Il y a mieux !] \r\n[%hint Capturez une pièce qui n'est pas défendue.]  Les blancs ont gagné une tour et ont une superbe position !} *"
+    },
+    {
+      "fen": "r2qkbnr/pbppppp1/1pn4p/6N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle est la meilleure façon de prendre le pion f7 ?",
+        "[%wrong Il est possible de mater mais pas comme cela. Retentez votre chance.] \r\n[%hint Prenez un pion tout en attaquant le roi noir.]  Faire échec et mat constitue toujours la meilleure option !",
+        "Les blancs gagnent du matériel mais il est possible de mettre fin à la partie sur le champ. Essayez de trouver comment."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/pbppppp1/1pn4p/6N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5\"]\r\n[PlyCount \"1\"]\r\n\r\n{Quelle est la meilleure façon de prendre le pion f7 ?} 5. Bxf7# {[%wrong Il est possible de mater mais pas comme cela. Retentez votre chance.] \r\n[%hint Prenez un pion tout en attaquant le roi noir.]  Faire échec et mat constitue toujours la meilleure option !} (5. Nxf7 $2 {Les blancs gagnent du matériel mais il est possible de mettre fin à la partie sur le champ. Essayez de trouver comment.}) *"
+    },
+    {
+      "fen": "r1bqk2r/pp1n1ppp/2pp1n2/2b1p1B1/2P1P3/P2P1N1P/1P2BPP1/RN1QK2R b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou des noirs attaque le pion f2. Comment ajouter un second attaquant tout en s'en prenant au pion b2 non-protégé ?",
+        "[%wrong Ce coup ne permet pas d'ajouter un attaquant au pion f2 sans risque.][%hint La puissante dame peut attaquer de nombreux points de l'échiquier en même temps.]",
+        "Bien joué ! Les noirs attaquent simultanément les pions f2 et b2. Les blancs ont roqué pour se mettre à l'abri, il est donc temps de s'emparer de b2 !",
+        "[%wrong Ce coup ne prend pas le pion b2. Essayez encore !][%hint Comment prendre le pion b2 ?] Et voilà, grâce à des attaques conjuguées sur les pions f2 et b2, les noirs ont gagné du matériel !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pp1n1ppp/2pp1n2/2b1p1B1/2P1P3/P2P1N1P/1P2BPP1/RN1QK2R b KQkq - 0 1\"]\r\n\r\n{Le fou des noirs attaque le pion f2. Comment ajouter un second attaquant tout en s'en prenant au pion b2 non-protégé ?}\r\n1...Qb6\r\n    {[%wrong Ce coup ne permet pas d'ajouter un attaquant au pion f2 sans risque.][%hint La puissante dame peut attaquer de nombreux points de l'échiquier en même temps.]}\r\n2.O-O\r\n    {Bien joué ! Les noirs attaquent simultanément les pions f2 et b2. Les blancs ont roqué pour se mettre à l'abri, il est donc temps de s'emparer de b2 !}\r\n2...Qxb2\r\n    {[%wrong Ce coup ne prend pas le pion b2. Essayez encore !][%hint Comment prendre le pion b2 ?] Et voilà, grâce à des attaques conjuguées sur les pions f2 et b2, les noirs ont gagné du matériel !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "c764f5be-9ce8-11e8-9be8-173a446142a6",
+    "name": "Les points faibles : f2 et f7",
+    "path": "pions-faibles-f2-et-f7",
+    "description": "Dans la position de départ, les pions f2 et f7 ne sont défendus que par leur roi, ce sont donc les plus fragiles. Si vous attaquez le pion f de votre adversaire avec deux pièces lorsqu’il n’est défendu que par le roi, vous pourrez souvent gagner du matériel ou mater. C’est également un intérêt du roque, qui permet à votre tour de défendre le pion f.",
+    "glyphName": "game-type-boardvision",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-weak-targets-f2-and-f7-j0p.mp4",
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p1N1/4P3/1B6/PPPP1PPP/RNBQK2R w KQkq - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 4\"]\r\n[PlyCount \"1\"]\r\n\r\n{Comment les blancs peuvent-ils mater ?} 4. Qxf7# {[%wrong Il est possible de faire échec et mat mais pas comme ça. Essayez encore en cherchant une capture plus efficace.] [%hint Cherchez les échecs. Lequel fait également mat ?]  La faiblesse en f7 permet aux blancs de l'emporter. Bien joué !} (4. Bxf7+ $2 Ke7 {Il n'y a pas mat. Vous pouvez trouver mieux.})\r\n(4. Qxe5+ $2 Nxe5 {Ce n'est pas mat, cherchez une prise plus efficace.}) (4.\r\nQxh7 $2 Rxh7 {Vous allez dans la mauvaise direction, il est possible de mater directement.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp2ppp/4pn2/2b5/4P3/5NP1/PPPN1P1P/R1BQKB1R b KQkq - 0 6\"]\r\n\r\n{Trait aux noirs. Le fou attaque déjà le pion faible f2. Comment ajouter un second attaquant ?}\r\n6...Ng4\r\n    {[%wrong Ce coup ne vient pas attaquer une seconde fois le pion f2, ou alors la pièce jouée n'est pas en sécurité. Essayez encore !][%hint Pour attaquer le pion f, le fou et le cavalier forment un tandem de choc.] Bien joué ! Le cavalier noir se joint à l'attaque sur f2, et les blancs n'ont pas de défense convaincante. Les noirs vont gagner du matériel au prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/ppp2ppp/2np1n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs devraient-ils prendre le pion f7 afin de faire une fourchette ?} 5. Nxf7 {[%wrong\r\nIl existe un meilleur coup. Réessayez.] [%hint\r\nCherchez à faire une fourchette entre la dame et la tour noires.]} (5. Bxf7+ $2 Ke7 {\r\nLes blancs gagnent bien le pion f7 mais il existe une capture plus efficace.}) 5... Qe7 {Bien joué ! Que manger ensuite ?} 6. Nxh8 {\r\n[%wrong Il y a mieux !] \r\n[%hint Capturez une pièce qui n'est pas défendue.]  Les blancs ont gagné une tour et ont une superbe position !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qkbnr/pbppppp1/1pn4p/6N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5\"]\r\n[PlyCount \"1\"]\r\n\r\n{Quelle est la meilleure façon de prendre le pion f7 ?} 5. Bxf7# {[%wrong Il est possible de mater mais pas comme cela. Retentez votre chance.] \r\n[%hint Prenez un pion tout en attaquant le roi noir.]  Faire échec et mat constitue toujours la meilleure option !} (5. Nxf7 $2 {Les blancs gagnent du matériel mais il est possible de mettre fin à la partie sur le champ. Essayez de trouver comment.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pp1n1ppp/2pp1n2/2b1p1B1/2P1P3/P2P1N1P/1P2BPP1/RN1QK2R b KQkq - 0 1\"]\r\n\r\n{Le fou des noirs attaque le pion f2. Comment ajouter un second attaquant tout en s'en prenant au pion b2 non-protégé ?}\r\n1...Qb6\r\n    {[%wrong Ce coup ne permet pas d'ajouter un attaquant au pion f2 sans risque.][%hint La puissante dame peut attaquer de nombreux points de l'échiquier en même temps.]}\r\n2.O-O\r\n    {Bien joué ! Les noirs attaquent simultanément les pions f2 et b2. Les blancs ont roqué pour se mettre à l'abri, il est donc temps de s'emparer de b2 !}\r\n2...Qxb2\r\n    {[%wrong Ce coup ne prend pas le pion b2. Essayez encore !][%hint Comment prendre le pion b2 ?] Et voilà, grâce à des attaques conjuguées sur les pions f2 et b2, les noirs ont gagné du matériel !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Roquer permet de défendre ces points faibles.",
+    "outroText": "Garder ces cibles en tête peut vous aider dans vos parties.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "path": "attaquer-le-roi-adverse",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/12f47b0e-a558-11e8-9e63-7d798a2698c4.facbaf03.728x410o.856e9b44f8c8.png"
+    },
+    "parentId": "7cfc0420-83a9-11e8-8b64-c1e700a5d224",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/weak-targets-f2-and-f75d1113a5e221b.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/weak-targets-f2-and-f7-56688b9415d611.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/weak-targets-f2-and-f7-15ea2446f7ce12.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/weak-targets-f2-and-f7-4608fee0004ff6.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/punti-deboli-f2-e-f7647b7c4ce2774.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 41,
+    "order": 3,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi-adverse",
+      "order": 5
+    }
+  }
+}

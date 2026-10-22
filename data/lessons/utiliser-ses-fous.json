@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/utiliser-le-potentiel-de-ses-pieces/utiliser-ses-fous",
+  "capturedAt": "2026-10-22T12:23:36.488Z",
+  "title": "Utiliser ses fous",
+  "exercises": [
+    {
+      "fen": "r2q1rk1/pp3pp1/1bn2np1/3p4/3P4/1QN2N2/PP3PPP/R1BR2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs attaquent le pion central (d5) des noirs deux fois, mais les noirs ont déjà deux défenseurs. Comment le fou des blancs pourrait-il venir se mêler à la lutte pour le pion d5 ?",
+        "[%wrong Ce n'est pas un coup de fou qui participe à mettre sous pression le pion d5. Essayez encore !][%hint Il faudrait attaquer avec le fou un défenseur du pion.] Absolument ! Le fou attaque et cloue le cavalier noir en f6, menaçant de supprimer un défenseur du pion d5. Ce dernier va bientôt tomber.",
+        "C'est un coup de développement raisonnable, mais il n'aide pas les blancs à se battre pour le gain du pion d5. Essayez encore !",
+        "Bien essayé, mais le pion d4 est déjà suffisamment protégé. Comment ce fou peut-il nous aider à gagner le pion d5 ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pp3pp1/1bn2np1/3p4/3P4/1QN2N2/PP3PPP/R1BR2K1 w - - 0 1\"]\r\n\r\n{Les blancs attaquent le pion central (d5) des noirs deux fois, mais les noirs ont déjà deux défenseurs. Comment le fou des blancs pourrait-il venir se mêler à la lutte pour le pion d5 ?}\r\n1.Bg5\r\n    {[%wrong Ce n'est pas un coup de fou qui participe à mettre sous pression le pion d5. Essayez encore !][%hint Il faudrait attaquer avec le fou un défenseur du pion.] Absolument ! Le fou attaque et cloue le cavalier noir en f6, menaçant de supprimer un défenseur du pion d5. Ce dernier va bientôt tomber.}\r\n    (1.Bf4 $6 {C'est un coup de développement raisonnable, mais il n'aide pas les blancs à se battre pour le gain du pion d5. Essayez encore !})\r\n    (1.Be3 $6 {Bien essayé, mais le pion d4 est déjà suffisamment protégé. Comment ce fou peut-il nous aider à gagner le pion d5 ?})\r\n*"
+    },
+    {
+      "fen": "2k2B2/8/8/8/3Kp3/3p4/2p5/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont trois pions passés connectés. Le pion c, notamment, est tout proche de la promotion. Comment les blancs peuvent-ils sauver la partie ?",
+        "[%wrong Ce coup n'empêche pas le pion c2 d'accéder à la promotion au prochain coup. Essayez encore !][%hint Cherchez la diagonale qui permettra au fou de parer l'avancée des pions.]",
+        "La défense blanche est débordée. Les noirs vont aller à dame au prochain coup. Essayez encore !",
+        "Bien joué ! Le fou blanc empêche les pions noirs de progresser. Les noirs décident malgré tout de pousser leur pion e avant que le roi blanc ne le mange. Comment assurer la nulle ?",
+        "[%wrong Ce coup n'empêche pas le pion c2 d'accéder à la promotion au prochain coup. Essayez encore !][%hint Comment prendre le pion e3 tout en bloquant l'avancée du pion c2 ?] Tout simplement ! Le roi blanc va ensuite capturer les deux pions restants et la partie va se terminer par la nulle.",
+        "Non ! Le roi blanc empêche le fou de protéger la case de promotion ! Les noirs font dame et les blancs perdent... Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k2B2/8/8/8/3Kp3/3p4/2p5/8 w - - 0 1\"]\r\n\r\n{Les noirs ont trois pions passés connectés. Le pion c, notamment, est tout proche de la promotion. Comment les blancs peuvent-ils sauver la partie ?}\r\n1.Bh6\r\n    {[%wrong Ce coup n'empêche pas le pion c2 d'accéder à la promotion au prochain coup. Essayez encore !][%hint Cherchez la diagonale qui permettra au fou de parer l'avancée des pions.]}\r\n    (1.Ba3 $2 d2 {La défense blanche est débordée. Les noirs vont aller à dame au prochain coup. Essayez encore !})\r\n1...e3\r\n    {Bien joué ! Le fou blanc empêche les pions noirs de progresser. Les noirs décident malgré tout de pousser leur pion e avant que le roi blanc ne le mange. Comment assurer la nulle ?}\r\n2.Bxe3\r\n    {[%wrong Ce coup n'empêche pas le pion c2 d'accéder à la promotion au prochain coup. Essayez encore !][%hint Comment prendre le pion e3 tout en bloquant l'avancée du pion c2 ?] Tout simplement ! Le roi blanc va ensuite capturer les deux pions restants et la partie va se terminer par la nulle.}\r\n    (2.Kxe3 $2 c1=Q+ {Non ! Le roi blanc empêche le fou de protéger la case de promotion ! Les noirs font dame et les blancs perdent... Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "r1b1r1k1/1pp2p1p/1n4p1/pN1p2b1/P2P4/BP3BPP/2P2P1K/3R1R2 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs menacent de prendre un pion et de faire une fourchette sur les tours noires. Trouvez la meilleure défense.",
+        "[%wrong Ce coup ne protège pas la case c7. Essayez encore !][%hint Trouvez une pièce pouvant protéger le pion c7.] Un coup de fou plein de ressources, bravo ! Il protège le pion faible c7 et empêche toute idée de fourchette.",
+        "Il va falloir trouver une manière plus sure de défendre le pion c7...",
+        "Ce coup sauve le pion c, mais les blancs peuvent toujours faire fourchette. Essayez encore !",
+        "Ce coup sauve le pion c, mais les blancs peuvent toujours faire fourchette. Essayez encore !",
+        "C'est la bonne idée, mais il faudrait mettre ce fou sur une case où il sera en sécurité."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1r1k1/1pp2p1p/1n4p1/pN1p2b1/P2P4/BP3BPP/2P2P1K/3R1R2 b - - 0 1\"]\r\n\r\n{Les blancs menacent de prendre un pion et de faire une fourchette sur les tours noires. Trouvez la meilleure défense.}\r\n1...Bd8\r\n    {[%wrong Ce coup ne protège pas la case c7. Essayez encore !][%hint Trouvez une pièce pouvant protéger le pion c7.] Un coup de fou plein de ressources, bravo ! Il protège le pion faible c7 et empêche toute idée de fourchette.}\r\n    (1...Re7 $2 2.Bxe7 {Il va falloir trouver une manière plus sure de défendre le pion c7...})\r\n    (1...c6 $2 2.Nc7 {Ce coup sauve le pion c, mais les blancs peuvent toujours faire fourchette. Essayez encore !})\r\n    (1...c5 $2 2.Nc7 {Ce coup sauve le pion c, mais les blancs peuvent toujours faire fourchette. Essayez encore !})\r\n    (1...Bf4 $2 2.gxf4 {C'est la bonne idée, mais il faudrait mettre ce fou sur une case où il sera en sécurité.})\r\n*"
+    },
+    {
+      "fen": "1r4k1/7p/6pP/2B2p2/8/6P1/2r2PB1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux tours noires sont sur le point de prendre le dessus sur les fous blancs. Ne perdez pas de temps : Vous pouvez encore forcer un mat en deux !",
+        "[%wrong Ce coup ne va pas forcer le mat en deux. Essayez encore !][%hint Comment forcer le roi noir à se rendre dans le coin de l'échiquier ?]",
+        "Joli ! Le roi noir est acculé. A vous de lui donner le coup de grâce.",
+        "[%wrong Ce coup ne mate pas, essayez encore !][%hint C'est un fou qui porte l'estocade finale, mais lequel ?] La puissance de la paire de fous illustrée : échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/7p/6pP/2B2p2/8/6P1/2r2PB1/6K1 w - - 0 1\"]\r\n\r\n{Les deux tours noires sont sur le point de prendre le dessus sur les fous blancs. Ne perdez pas de temps : Vous pouvez encore forcer un mat en deux !}\r\n1.Bd5+\r\n    {[%wrong Ce coup ne va pas forcer le mat en deux. Essayez encore !][%hint Comment forcer le roi noir à se rendre dans le coin de l'échiquier ?]}\r\n1...Kh8\r\n    {Joli ! Le roi noir est acculé. A vous de lui donner le coup de grâce.}\r\n2.Bd4#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint C'est un fou qui porte l'estocade finale, mais lequel ?] La puissance de la paire de fous illustrée : échec et mat !}\r\n*"
+    },
+    {
+      "fen": "rn1qk2r/p3bpp1/1p2pn1p/2p5/2P1P3/3B1N2/P1P1QPPP/R1B2RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou d3 des blancs fait peine à voir. Il est bloqué dans toutes les directions ! Comment activer cette pièce passive ?",
+        "[%wrong Ce coup n'aide pas les blancs à activer le fou de cases blanches. Essayez encore !][%hint Trouvez un coup de pion agressif ouvrant une diagonale clef pour ce pauvre fou.]",
+        "Ce coup va effectivement permettre au fou blanc de battre en retraite en e2. Ce n'est pas une mauvaise décision, mais il existe un plan beaucoup plus actif. Trouvez le !",
+        "Ce n'est pas une mauvaise idée, mais il existe un coup beaucoup plus fort pour activer le fou. Cherchez encore !",
+        "Reconnaissons que ce coup laisse la case e2 pour le fou. Cependant, ce n'est pas la case la plus active, et la dame est mal placée car elle gêne les autres pièces. Trouvez une idée plus active !",
+        "Activer une pièce, c'est important, mais il ne faut pas pour autant rendre les autres passives ! (Ici, la dame et la tour f1).",
+        "Reconnaissons que ce coup laisse la case e2 pour le fou. Cependant, ce n'est pas la case la plus active, et la dame est mal placée car elle gêne les autres pièces. Trouvez une idée plus active !",
+        "Un coup puissant ! Les blancs attaquent le cavalier et ouvrent plusieurs cases pour leur fou. Comment utiliser cette liberté nouvelle pour gagner du matériel ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le fou de cases blanches est maintenant actif. Trouvez comment lui faire attaquer une pièce noire enfermée.]",
+        "Les noirs évitent la catastrophe de justesse. Essayez de profiter de la liberté nouvelle de notre fou de cases blanches !",
+        "Prenez soin de vos pièces, et elle prendront soin de vous ! Le fou, désormais actif, attaque la tour noire qui ne peut échapper à la case a8. Prenons la avant qu'elle ne s'échappe !",
+        "[%wrong Prenons la tour a8 avant qu'elle ne s'échappe !]\r\n[%hint Prenons la tour a8 avant qu'elle ne s'échappe !] Bien joué ! En activant votre fou passif, vous avez gagné du matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qk2r/p3bpp1/1p2pn1p/2p5/2P1P3/3B1N2/P1P1QPPP/R1B2RK1 w kq - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Le fou d3 des blancs fait peine à voir. Il est bloqué dans toutes les directions ! Comment activer cette pièce passive ?} \r\n1. e5 {[%wrong Ce coup n'aide pas les blancs à activer le fou de cases blanches. Essayez encore !][%hint Trouvez un coup de pion agressif ouvrant une diagonale clef pour ce pauvre fou.]} \r\n(1. Qd1 $6 {Ce coup va effectivement permettre au fou blanc de battre en retraite en e2. Ce n'est pas une mauvaise décision, mais il existe un plan beaucoup plus actif. Trouvez le !}) \r\n(1.c3 $6 {Ce n'est pas une mauvaise idée, mais il existe un coup beaucoup plus fort pour activer le fou. Cherchez encore !}) \r\n(1. Qd2 $6 {Reconnaissons que ce coup laisse la case e2 pour le fou. Cependant, ce n'est pas la case la plus active, et la dame est mal placée car elle gêne les autres pièces. Trouvez une idée plus active !}) \r\n(1. Qe1 $6 {Activer une pièce, c'est important, mais il ne faut pas pour autant rendre les autres passives ! (Ici, la dame et la tour f1).}) \r\n(1. Qe3 $6 {Reconnaissons que ce coup laisse la case e2 pour le fou. Cependant, ce n'est pas la case la plus active, et la dame est mal placée car elle gêne les autres pièces. Trouvez une idée plus active !})\r\n1... Nfd7 {Un coup puissant ! Les blancs attaquent le cavalier et ouvrent plusieurs cases pour leur fou. Comment utiliser cette liberté nouvelle pour gagner du matériel ?} \r\n2. Be4 {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le fou de cases blanches est maintenant actif. Trouvez comment lui faire attaquer une pièce noire enfermée.]} \r\n(2. Qe4 $6 Na6 {Les noirs évitent la catastrophe de justesse. Essayez de profiter de la liberté nouvelle de notre fou de cases blanches !}) \r\n2... Na6 {Prenez soin de vos pièces, et elle prendront soin de vous ! Le fou, désormais actif, attaque la tour noire qui ne peut échapper à la case a8. Prenons la avant qu'elle ne s'échappe !}\r\n3. Bxa8 {[%wrong Prenons la tour a8 avant qu'elle ne s'échappe !]\r\n[%hint Prenons la tour a8 avant qu'elle ne s'échappe !] Bien joué ! En activant votre fou passif, vous avez gagné du matériel.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "6bdbb56a-9ce9-11e8-b1dc-bbd2e88fcdf0",
+    "name": "Utiliser ses fous",
+    "path": "utiliser-ses-fous",
+    "description": "Les fous ne sont jamais aussi forts que quand ils contrôlent de longues diagonales sans obstacles. En outre, ils fonctionnent mieux par paire, car ils permettent ainsi de contrôler à la fois les cases noires et les cases blanches.",
+    "glyphName": "piece-pair-bishop",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-using-your-bishops-y4g.mp4",
+    "fen": "r2q1rk1/pp3pp1/1bn2np1/3p2B1/3P4/1QN2N2/PP3PPP/R2R2K1 b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pp3pp1/1bn2np1/3p4/3P4/1QN2N2/PP3PPP/R1BR2K1 w - - 0 1\"]\r\n\r\n{Les blancs attaquent le pion central (d5) des noirs deux fois, mais les noirs ont déjà deux défenseurs. Comment le fou des blancs pourrait-il venir se mêler à la lutte pour le pion d5 ?}\r\n1.Bg5\r\n    {[%wrong Ce n'est pas un coup de fou qui participe à mettre sous pression le pion d5. Essayez encore !][%hint Il faudrait attaquer avec le fou un défenseur du pion.] Absolument ! Le fou attaque et cloue le cavalier noir en f6, menaçant de supprimer un défenseur du pion d5. Ce dernier va bientôt tomber.}\r\n    (1.Bf4 $6 {C'est un coup de développement raisonnable, mais il n'aide pas les blancs à se battre pour le gain du pion d5. Essayez encore !})\r\n    (1.Be3 $6 {Bien essayé, mais le pion d4 est déjà suffisamment protégé. Comment ce fou peut-il nous aider à gagner le pion d5 ?})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k2B2/8/8/8/3Kp3/3p4/2p5/8 w - - 0 1\"]\r\n\r\n{Les noirs ont trois pions passés connectés. Le pion c, notamment, est tout proche de la promotion. Comment les blancs peuvent-ils sauver la partie ?}\r\n1.Bh6\r\n    {[%wrong Ce coup n'empêche pas le pion c2 d'accéder à la promotion au prochain coup. Essayez encore !][%hint Cherchez la diagonale qui permettra au fou de parer l'avancée des pions.]}\r\n    (1.Ba3 $2 d2 {La défense blanche est débordée. Les noirs vont aller à dame au prochain coup. Essayez encore !})\r\n1...e3\r\n    {Bien joué ! Le fou blanc empêche les pions noirs de progresser. Les noirs décident malgré tout de pousser leur pion e avant que le roi blanc ne le mange. Comment assurer la nulle ?}\r\n2.Bxe3\r\n    {[%wrong Ce coup n'empêche pas le pion c2 d'accéder à la promotion au prochain coup. Essayez encore !][%hint Comment prendre le pion e3 tout en bloquant l'avancée du pion c2 ?] Tout simplement ! Le roi blanc va ensuite capturer les deux pions restants et la partie va se terminer par la nulle.}\r\n    (2.Kxe3 $2 c1=Q+ {Non ! Le roi blanc empêche le fou de protéger la case de promotion ! Les noirs font dame et les blancs perdent... Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1r1k1/1pp2p1p/1n4p1/pN1p2b1/P2P4/BP3BPP/2P2P1K/3R1R2 b - - 0 1\"]\r\n\r\n{Les blancs menacent de prendre un pion et de faire une fourchette sur les tours noires. Trouvez la meilleure défense.}\r\n1...Bd8\r\n    {[%wrong Ce coup ne protège pas la case c7. Essayez encore !][%hint Trouvez une pièce pouvant protéger le pion c7.] Un coup de fou plein de ressources, bravo ! Il protège le pion faible c7 et empêche toute idée de fourchette.}\r\n    (1...Re7 $2 2.Bxe7 {Il va falloir trouver une manière plus sure de défendre le pion c7...})\r\n    (1...c6 $2 2.Nc7 {Ce coup sauve le pion c, mais les blancs peuvent toujours faire fourchette. Essayez encore !})\r\n    (1...c5 $2 2.Nc7 {Ce coup sauve le pion c, mais les blancs peuvent toujours faire fourchette. Essayez encore !})\r\n    (1...Bf4 $2 2.gxf4 {C'est la bonne idée, mais il faudrait mettre ce fou sur une case où il sera en sécurité.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/7p/6pP/2B2p2/8/6P1/2r2PB1/6K1 w - - 0 1\"]\r\n\r\n{Les deux tours noires sont sur le point de prendre le dessus sur les fous blancs. Ne perdez pas de temps : Vous pouvez encore forcer un mat en deux !}\r\n1.Bd5+\r\n    {[%wrong Ce coup ne va pas forcer le mat en deux. Essayez encore !][%hint Comment forcer le roi noir à se rendre dans le coin de l'échiquier ?]}\r\n1...Kh8\r\n    {Joli ! Le roi noir est acculé. A vous de lui donner le coup de grâce.}\r\n2.Bd4#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint C'est un fou qui porte l'estocade finale, mais lequel ?] La puissance de la paire de fous illustrée : échec et mat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qk2r/p3bpp1/1p2pn1p/2p5/2P1P3/3B1N2/P1P1QPPP/R1B2RK1 w kq - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Le fou d3 des blancs fait peine à voir. Il est bloqué dans toutes les directions ! Comment activer cette pièce passive ?} \r\n1. e5 {[%wrong Ce coup n'aide pas les blancs à activer le fou de cases blanches. Essayez encore !][%hint Trouvez un coup de pion agressif ouvrant une diagonale clef pour ce pauvre fou.]} \r\n(1. Qd1 $6 {Ce coup va effectivement permettre au fou blanc de battre en retraite en e2. Ce n'est pas une mauvaise décision, mais il existe un plan beaucoup plus actif. Trouvez le !}) \r\n(1.c3 $6 {Ce n'est pas une mauvaise idée, mais il existe un coup beaucoup plus fort pour activer le fou. Cherchez encore !}) \r\n(1. Qd2 $6 {Reconnaissons que ce coup laisse la case e2 pour le fou. Cependant, ce n'est pas la case la plus active, et la dame est mal placée car elle gêne les autres pièces. Trouvez une idée plus active !}) \r\n(1. Qe1 $6 {Activer une pièce, c'est important, mais il ne faut pas pour autant rendre les autres passives ! (Ici, la dame et la tour f1).}) \r\n(1. Qe3 $6 {Reconnaissons que ce coup laisse la case e2 pour le fou. Cependant, ce n'est pas la case la plus active, et la dame est mal placée car elle gêne les autres pièces. Trouvez une idée plus active !})\r\n1... Nfd7 {Un coup puissant ! Les blancs attaquent le cavalier et ouvrent plusieurs cases pour leur fou. Comment utiliser cette liberté nouvelle pour gagner du matériel ?} \r\n2. Be4 {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le fou de cases blanches est maintenant actif. Trouvez comment lui faire attaquer une pièce noire enfermée.]} \r\n(2. Qe4 $6 Na6 {Les noirs évitent la catastrophe de justesse. Essayez de profiter de la liberté nouvelle de notre fou de cases blanches !}) \r\n2... Na6 {Prenez soin de vos pièces, et elle prendront soin de vous ! Le fou, désormais actif, attaque la tour noire qui ne peut échapper à la case a8. Prenons la avant qu'elle ne s'échappe !}\r\n3. Bxa8 {[%wrong Prenons la tour a8 avant qu'elle ne s'échappe !]\r\n[%hint Prenons la tour a8 avant qu'elle ne s'échappe !] Bien joué ! En activant votre fou passif, vous avez gagné du matériel.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Lancez-vous dans la bataille des diagonales pour décupler la puissance de vos vous.",
+    "outroText": "Bien. Vous êtes prêt à martyriser vos adversaires dans les grandes diagonales.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "title": "Utiliser tout le potentiel de ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/c8c21eaa-a558-11e8-8a0b-b114e31635bb.a8d7fd41.728x410o.77ff125711c0.png"
+    },
+    "parentId": "eb0754c4-83a9-11e8-9661-218f50db6a1b",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-bishops5d1253b80005f.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-bishops-56688590457fc5.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-bishops-15ea243393833f.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-bishops-261837d6174a26.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 51,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "name": "Utiliser tout le potentiel de ses pièces",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "order": 1
+    }
+  }
+}

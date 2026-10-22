@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/nulles",
+  "capturedAt": "2026-10-22T13:42:29.769Z",
+  "title": "Les nulles",
+  "exercises": [
+    {
+      "fen": "k1q5/p1K5/P7/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pat se produit quand c'est à votre tour de jouer, que votre roi n'est pas en échec et que vous n'avez aucun coup légal : la partie se termine alors par une nulle. Trouvez le pat.",
+        "[%hint Quelle pièce peut prendre la dame ?][%wrong Bien essayé, mais ce coup ne prend pas la dame.]Beau sauvetage ! Les noirs n'ont aucun coup légal, mais le roi n'est pas en échec. C'est nulle."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1q5/p1K5/P7/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le pat se produit quand c'est à votre tour de jouer, que votre roi n'est pas en échec et que vous n'avez aucun coup légal : la partie se termine alors par une nulle. Trouvez le pat.} 1. Kxc8 {[%hint Quelle pièce peut prendre la dame ?][%wrong Bien essayé, mais ce coup ne prend pas la dame.]Beau sauvetage ! Les noirs n'ont aucun coup légal, mais le roi n'est pas en échec. C'est nulle.} 1/2-1/2"
+    },
+    {
+      "fen": "8/8/8/8/8/7k/5Kp1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow g2g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g2;to;g1;persistent;true] Arrête le pion. Les noirs vont soit faire pat, soit perdre le pion au prochain coup.",
+        "[%hint Utilisez votre roi pour empêcher le pion d'avancer et de promouvoir.][%wrong Bien essayé, mais ce coup n'empêche pas le pion de promouvoir. Essaye encore.]",
+        "Beau sauvetage ! Vous n'avez aucun coup légal disponible, mais le roi n'est pas en échec - c'est un pat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/7k/5Kp1/8 w - - 0 1\"]\r\n\r\n{[%c_arrow g2g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g2;to;g1;persistent;true] Arrête le pion. Les noirs vont soit faire pat, soit perdre le pion au prochain coup.} 1. Kg1 {[%hint Utilisez votre roi pour empêcher le pion d'avancer et de promouvoir.][%wrong Bien essayé, mais ce coup n'empêche pas le pion de promouvoir. Essaye encore.]} 1... Kg3 {Beau sauvetage ! Vous n'avez aucun coup légal disponible, mais le roi n'est pas en échec - c'est un pat.} 1/2-1/2"
+    },
+    {
+      "fen": "6K1/8/4p3/5b2/3N4/6k1/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d4e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d4;to;e6;persistent;true]Un fou seul ou un cavalier seul ne suffit pas pour mater. Prenez le dernier pion adverse pour obtenir la nulle.",
+        "[%hint Prenez le pion avec votre cavalier pour assurer la nulle.][%wrong Bien essayé, mais ce coup ne prend pas le pion. Essaye encore.]",
+        "[%c_arrow f5f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f5;to;f4;persistent;true] Bien essayé, mais cette prise permet au pion d'avancer vers la promotion. Essaye encore.",
+        "Bien vu ! Le fou seul ne peut pas mater votre roi, c'est donc une nulle."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"6K1/8/4p3/5b2/3N4/6k1/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/zwkyYVzBx/analysis\"]\r\n\r\n{[%c_arrow d4e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d4;to;e6;persistent;true]Un fou seul ou un cavalier seul ne suffit pas pour mater. Prenez le dernier pion adverse pour obtenir la nulle.} 1. Nxe6 {[%hint Prenez le pion avec votre cavalier pour assurer la nulle.][%wrong Bien essayé, mais ce coup ne prend pas le pion. Essaye encore.]} (1. Nxf5+? exf5 {[%c_arrow f5f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f5;to;f4;persistent;true] Bien essayé, mais cette prise permet au pion d'avancer vers la promotion. Essaye encore.}) 1... Bxe6+ {Bien vu ! Le fou seul ne peut pas mater votre roi, c'est donc une nulle.} 1/2-1/2"
+    },
+    {
+      "fen": "8/8/5K2/8/8/5b2/p6R/1k6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow a2a1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a2;to;a1;persistent;true]Votre meilleure option est d'empêcher la promotion et de vous contenter d'une nulle !",
+        "[%hint Le pion est sur le point de se transformer en dame. La seule façon de sauver la partie est de le prendre.][%wrong Bien essayé, mais cela ne sauve pas la partie. Cherchez un puissant sacrifice de tour.]",
+        "[%c_arrow a2a1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a2;to;a1;persistent;true] Bien essayé, mais le fou prend la tour et est prêt à promouvoir le pion. Essaye de prendre le pion.",
+        "Excellent jugement ! Sacrifier la tour pour le pion assure la nulle."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/5K2/8/8/5b2/p6R/1k6 w - - 0 1\"]\r\n\r\n{[%c_arrow a2a1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a2;to;a1;persistent;true]Votre meilleure option est d'empêcher la promotion et de vous contenter d'une nulle !} 1. Rxa2 {[%hint Le pion est sur le point de se transformer en dame. La seule façon de sauver la partie est de le prendre.][%wrong Bien essayé, mais cela ne sauve pas la partie. Cherchez un puissant sacrifice de tour.]} (1. Rh1+? Bxh1 {[%c_arrow a2a1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a2;to;a1;persistent;true] Bien essayé, mais le fou prend la tour et est prêt à promouvoir le pion. Essaye de prendre le pion.}) 1... Kxa2 {Excellent jugement ! Sacrifier la tour pour le pion assure la nulle.} 1/2-1/2"
+    },
+    {
+      "fen": "5r1r/p1q2pk1/1p2p3/5p1Q/1n2b1pP/6P1/PPP2P2/1K6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Répéter la même position trois fois est aussi une nulle. Continuez de faire échec au roi pour vous en sortir avec une partie nulle !",
+        "[%hint Trouvez le seul échec sûr avec la dame, puis répétez les coups.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]",
+        "Super ! Faites à nouveau échec au roi en toute sécurité.",
+        "[%hint Trouvez le seul échec sûr avec la dame puis répétez les coups.][%wrong Bien essayé, mais ce n'est pas un échec sûr avec la dame. Essaye encore.]",
+        "Bien joué ! Faites à nouveau échec au roi avec votre dame en toute sécurité.",
+        "[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais ce coup ne fait pas échec au roi en toute sécurité.]",
+        "Maintiens la pression : fais échec au roi en toute sécurité.",
+        "[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]",
+        "Fantastique ! Un dernier échec de dame en sécurité assure la nulle.",
+        "[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]Vous avez répété la position trois fois, sauvant ainsi la nulle. Beau sauvetage !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r1r/p1q2pk1/1p2p3/5p1Q/1n2b1pP/6P1/PPP2P2/1K6 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/5dUntDDpfQ/analysis\"]\r\n\r\n{Répéter la même position trois fois est aussi une nulle. Continuez de faire échec au roi pour vous en sortir avec une partie nulle !} 1. Qg5+ {[%hint Trouvez le seul échec sûr avec la dame, puis répétez les coups.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]} 1... Kh7 {Super ! Faites à nouveau échec au roi en toute sécurité.} 2. Qh5+ {[%hint Trouvez le seul échec sûr avec la dame puis répétez les coups.][%wrong Bien essayé, mais ce n'est pas un échec sûr avec la dame. Essaye encore.]} 2... Kg7 {Bien joué ! Faites à nouveau échec au roi avec votre dame en toute sécurité.} 3. Qg5+ {[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais ce coup ne fait pas échec au roi en toute sécurité.]} 3... Kh7 {Maintiens la pression : fais échec au roi en toute sécurité.} 4. Qh5+ {[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]} 4... Kg7 {Fantastique ! Un dernier échec de dame en sécurité assure la nulle.} 5. Qg5+ {[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]Vous avez répété la position trois fois, sauvant ainsi la nulle. Beau sauvetage !} 1/2-1/2"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c1f0-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Les nulles",
+    "path": "nulles",
+    "description": "Toutes les parties d'échecs ne se terminent pas par une victoire ou une défaite. Découvrez les différentes façons dont une partie peut se terminer par l'égalité, ce qu'on appelle une nulle.",
+    "glyphName": "hand-shake",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1q5/p1K5/P7/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le pat se produit quand c'est à votre tour de jouer, que votre roi n'est pas en échec et que vous n'avez aucun coup légal : la partie se termine alors par une nulle. Trouvez le pat.} 1. Kxc8 {[%hint Quelle pièce peut prendre la dame ?][%wrong Bien essayé, mais ce coup ne prend pas la dame.]Beau sauvetage ! Les noirs n'ont aucun coup légal, mais le roi n'est pas en échec. C'est nulle.} 1/2-1/2",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/7k/5Kp1/8 w - - 0 1\"]\r\n\r\n{[%c_arrow g2g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g2;to;g1;persistent;true] Arrête le pion. Les noirs vont soit faire pat, soit perdre le pion au prochain coup.} 1. Kg1 {[%hint Utilisez votre roi pour empêcher le pion d'avancer et de promouvoir.][%wrong Bien essayé, mais ce coup n'empêche pas le pion de promouvoir. Essaye encore.]} 1... Kg3 {Beau sauvetage ! Vous n'avez aucun coup légal disponible, mais le roi n'est pas en échec - c'est un pat.} 1/2-1/2",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"6K1/8/4p3/5b2/3N4/6k1/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/zwkyYVzBx/analysis\"]\r\n\r\n{[%c_arrow d4e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d4;to;e6;persistent;true]Un fou seul ou un cavalier seul ne suffit pas pour mater. Prenez le dernier pion adverse pour obtenir la nulle.} 1. Nxe6 {[%hint Prenez le pion avec votre cavalier pour assurer la nulle.][%wrong Bien essayé, mais ce coup ne prend pas le pion. Essaye encore.]} (1. Nxf5+? exf5 {[%c_arrow f5f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f5;to;f4;persistent;true] Bien essayé, mais cette prise permet au pion d'avancer vers la promotion. Essaye encore.}) 1... Bxe6+ {Bien vu ! Le fou seul ne peut pas mater votre roi, c'est donc une nulle.} 1/2-1/2",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/5K2/8/8/5b2/p6R/1k6 w - - 0 1\"]\r\n\r\n{[%c_arrow a2a1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a2;to;a1;persistent;true]Votre meilleure option est d'empêcher la promotion et de vous contenter d'une nulle !} 1. Rxa2 {[%hint Le pion est sur le point de se transformer en dame. La seule façon de sauver la partie est de le prendre.][%wrong Bien essayé, mais cela ne sauve pas la partie. Cherchez un puissant sacrifice de tour.]} (1. Rh1+? Bxh1 {[%c_arrow a2a1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a2;to;a1;persistent;true] Bien essayé, mais le fou prend la tour et est prêt à promouvoir le pion. Essaye de prendre le pion.}) 1... Kxa2 {Excellent jugement ! Sacrifier la tour pour le pion assure la nulle.} 1/2-1/2",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r1r/p1q2pk1/1p2p3/5p1Q/1n2b1pP/6P1/PPP2P2/1K6 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/5dUntDDpfQ/analysis\"]\r\n\r\n{Répéter la même position trois fois est aussi une nulle. Continuez de faire échec au roi pour vous en sortir avec une partie nulle !} 1. Qg5+ {[%hint Trouvez le seul échec sûr avec la dame, puis répétez les coups.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]} 1... Kh7 {Super ! Faites à nouveau échec au roi en toute sécurité.} 2. Qh5+ {[%hint Trouvez le seul échec sûr avec la dame puis répétez les coups.][%wrong Bien essayé, mais ce n'est pas un échec sûr avec la dame. Essaye encore.]} 2... Kg7 {Bien joué ! Faites à nouveau échec au roi avec votre dame en toute sécurité.} 3. Qg5+ {[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais ce coup ne fait pas échec au roi en toute sécurité.]} 3... Kh7 {Maintiens la pression : fais échec au roi en toute sécurité.} 4. Qh5+ {[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]} 4... Kg7 {Fantastique ! Un dernier échec de dame en sécurité assure la nulle.} 5. Qg5+ {[%hint Faites à nouveau échec au roi avec votre dame en toute sécurité.][%wrong Bien essayé, mais cet échec de dame n'est pas sûr. Essaye encore.]Vous avez répété la position trois fois, sauvant ainsi la nulle. Beau sauvetage !} 1/2-1/2"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrez comment une partie peut se terminer par une nulle.",
+    "outroText": "Bravo, vous savez désormais comment une partie d'échecs peut se terminer par une nulle.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "716c7ef4-1cbd-11f1-a4a7-253c867623e9"
+  },
+  "curriculum": {
+    "number": 27,
+    "order": 15,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

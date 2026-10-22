@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/pions-isoles-et-pions-pendants",
+  "capturedAt": "2026-10-22T12:23:48.121Z",
+  "title": "Les pions isolés et les pions pendants",
+  "exercises": [
+    {
+      "fen": "5rk1/p4p2/1p1rp1qp/6p1/3P4/P3Q1P1/1P1R1P1P/3R2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs se préparent à doubler les tours sur la colonne d pour appuyer sur la seule faiblesse blanche : le pion d isolé. Comment s'en débarrasser ?",
+        "[%wrong Ce coup ne va pas nous permettre de nous débarrasser de notre pion isolé. Cherchez encore !][%hint Si nous parvenons à échanger notre pion dame isolé, nous obtiendrons une finale solide. Échangez ce pion !]",
+        "Bien vu ! Les noirs développent une tour sur la colonne c. Débarrassons nous de notre faiblesse !",
+        "[%wrong Ce coup ne nous permet pas de nous débarrasser de notre faiblesse. Trouvez mieux !][%hint Utilisez le pion isolé pour prendre un pion adverse !] Excellent travail. Les blancs n'ont plus de faiblesses et obtiennent une finale solide."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p4p2/1p1rp1qp/6p1/3P4/P3Q1P1/1P1R1P1P/3R2K1 w - - 0 1\"]\r\n\r\n{Les noirs se préparent à doubler les tours sur la colonne d pour appuyer sur la seule faiblesse blanche : le pion d isolé. Comment s'en débarrasser ?}\r\n1.d5\r\n    {[%wrong Ce coup ne va pas nous permettre de nous débarrasser de notre pion isolé. Cherchez encore !][%hint Si nous parvenons à échanger notre pion dame isolé, nous obtiendrons une finale solide. Échangez ce pion !]}\r\n1...Rc8\r\n    {Bien vu ! Les noirs développent une tour sur la colonne c. Débarrassons nous de notre faiblesse !}\r\n2.dxe6\r\n    {[%wrong Ce coup ne nous permet pas de nous débarrasser de notre faiblesse. Trouvez mieux !][%hint Utilisez le pion isolé pour prendre un pion adverse !] Excellent travail. Les blancs n'ont plus de faiblesses et obtiennent une finale solide.}\r\n*"
+    },
+    {
+      "fen": "5rk1/p4p2/1p1rp1qp/6p1/3P4/P3Q1P1/1P1R1P1P/3R2K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Même position, mais cette fois, les noirs ont le trait. Que faire ?",
+        "[%wrong Ce coup n'empêche pas les blancs de pousser leur pion isolé. Cherchez encore !][%hint Les blancs ne pourront pas se débarrasser de leur faiblesse si vous l'empêchez d'avancer...] Joli ! Vous empêchez le pion isolé d'avancer. Vous allez pouvoir progressivement augmenter la pression sur cette faiblesse en doublant les tours et en mettant la dame sur la diagonale a1-h8 !",
+        "Un coup très fort, bien vu ! Trouvez maintenant un blocage empêchant le pion d4 d'avancer.",
+        "Bien essayé, mais il existe un coup beaucoup plus fort qui réfute cette défense blanche."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p4p2/1p1rp1qp/6p1/3P4/P3Q1P1/1P1R1P1P/3R2K1 b - - 0 1\"]\r\n\r\n{Même position, mais cette fois, les noirs ont le trait. Que faire ?}\r\n1...Rd5\r\n    {[%wrong Ce coup n'empêche pas les blancs de pousser leur pion isolé. Cherchez encore !][%hint Les blancs ne pourront pas se débarrasser de leur faiblesse si vous l'empêchez d'avancer...] Joli ! Vous empêchez le pion isolé d'avancer. Vous allez pouvoir progressivement augmenter la pression sur cette faiblesse en doublant les tours et en mettant la dame sur la diagonale a1-h8 !}\r\n    (1...Rfd8 $5 {Un coup très fort, bien vu ! Trouvez maintenant un blocage empêchant le pion d4 d'avancer.})\r\n    (1...Qf5 $6 2.Qe5 {Bien essayé, mais il existe un coup beaucoup plus fort qui réfute cette défense blanche.})\r\n*"
+    },
+    {
+      "fen": "5rk1/1bnqbrpp/ppp5/3pPp2/1P1P1P2/P2QN1P1/1B4P1/1BR2RK1 w - - 0 20",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La bataille pour le pion f5 fait rage ! Les blancs ont des pions doublés sur la colonne g. Comment se débarrasser de cette faiblesse tout en augmentant la pression sur f5 ?",
+        "[%wrong Ce coup n'augmente pas la pression sur le pion faible f5. Cherchez encore !][%hint Grâce à leur batterie dame-fou, les blancs clouent le pion f5. Comment augmenter la pression tout en se débarrassant des pions doublés sur g ?]",
+        "Bien essayé, mais cette option ne nous donne aucun avantage. Trouvez un coup plus fort !",
+        "Excellent coup ! Les noirs ne peuvent pas prendre en g4 à cause de Dxh7 mat ! Ils ajoutent donc un nouveau défenseur au pion f5. Forcez la création d'un pion isolé chez l'adversaire !",
+        "[%wrong Ce coup n'isole pas un pion noir. Cherchez encore !][%hint Éliminez les pions g doublés pour forcer les noirs à accepter un pion isolé.]",
+        "Les noirs ont maintenant une faiblesse à long terme, ce qui nous donne une excellente position. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1bnqbrpp/ppp5/3pPp2/1P1P1P2/P2QN1P1/1B4P1/1BR2RK1 w - - 0 20\"]\r\n\r\n{La bataille pour le pion f5 fait rage ! Les blancs ont des pions doublés sur la colonne g. Comment se débarrasser de cette faiblesse tout en augmentant la pression sur f5 ?}\r\n20.g4\r\n    {[%wrong Ce coup n'augmente pas la pression sur le pion faible f5. Cherchez encore !][%hint Grâce à leur batterie dame-fou, les blancs clouent le pion f5. Comment augmenter la pression tout en se débarrassant des pions doublés sur g ?]}\r\n    (20.Nxf5 $2 Qxf5 {Bien essayé, mais cette option ne nous donne aucun avantage. Trouvez un coup plus fort !})\r\n20...g6\r\n    {Excellent coup ! Les noirs ne peuvent pas prendre en g4 à cause de Dxh7 mat ! Ils ajoutent donc un nouveau défenseur au pion f5. Forcez la création d'un pion isolé chez l'adversaire !}\r\n21.gxf5\r\n    {[%wrong Ce coup n'isole pas un pion noir. Cherchez encore !][%hint Éliminez les pions g doublés pour forcer les noirs à accepter un pion isolé.]}\r\n21...gxf5\r\n    {Les noirs ont maintenant une faiblesse à long terme, ce qui nous donne une excellente position. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r2q1rk1/pb2bppp/1pn1pn2/8/3P4/2NB1N2/PP3PPP/R1BQR1K1 w - - 4 12",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion isolé des blancs participe au contrôle du centre et prépare des idées offensives. Cependant, il risque également d'être pris pour cible. Choisissez votre prochain coup parmi ces quatre options : a3, Fe3, Fg5, ou d5.",
+        "[%wrong Ce coup ne figure pas parmi les quatre options proposées : a3, Fe3, Fg5, ou d5. Cherchez encore !][%hint Les noirs aimeraient bien mettre le cavalier c6 en d5 pour bloquer notre pion isolé. Comment empêcher cette idée ?] Excellente décision ! Les blancs empêchent les noirs de réaliser la manœuvre thématique ...Cb4-d5. Les blancs vont continuer leur développement et mettre progressivement la pression sur l'aile roi.",
+        "Bien essayé, mais les noirs préparent le blocage du pion dame isolé, et vont obtenir une très bonne position. Cherchez encore !",
+        "Bien essayé, mais ce sacrifice de pion ne nous offre aucune attaque. Cherchez encore !",
+        "Les noirs se préparent à mettre en place un fort blocage du pion d5. Fe3 défend le pion d4, mais les noirs ne menaçaient de toutes façons pas de s'en emparer, car après l'échange des cavaliers en d4, si la dame noire prend, les blancs jouent Fxf7+ et la dame est perdue ! Cherchez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pb2bppp/1pn1pn2/8/3P4/2NB1N2/PP3PPP/R1BQR1K1 w - - 4 12\"]\r\n\r\n{Le pion isolé des blancs participe au contrôle du centre et prépare des idées offensives. Cependant, il risque également d'être pris pour cible. Choisissez votre prochain coup parmi ces quatre options : a3, Fe3, Fg5, ou d5.}\r\n12.a3\r\n    {[%wrong Ce coup ne figure pas parmi les quatre options proposées : a3, Fe3, Fg5, ou d5. Cherchez encore !][%hint Les noirs aimeraient bien mettre le cavalier c6 en d5 pour bloquer notre pion isolé. Comment empêcher cette idée ?] Excellente décision ! Les blancs empêchent les noirs de réaliser la manœuvre thématique ...Cb4-d5. Les blancs vont continuer leur développement et mettre progressivement la pression sur l'aile roi.}\r\n    (12.Bg5 $6 Nb4 {Bien essayé, mais les noirs préparent le blocage du pion dame isolé, et vont obtenir une très bonne position. Cherchez encore !})\r\n    (12.d5 $2 Nxd5 {Bien essayé, mais ce sacrifice de pion ne nous offre aucune attaque. Cherchez encore !})\r\n    (12.Be3 $6 Nb4 {Les noirs se préparent à mettre en place un fort blocage du pion d5. Fe3 défend le pion d4, mais les noirs ne menaçaient de toutes façons pas de s'en emparer, car après l'échange des cavaliers en d4, si la dame noire prend, les blancs jouent Fxf7+ et la dame est perdue ! Cherchez encore.})\r\n*"
+    },
+    {
+      "fen": "rnr3k1/4qpp1/pp2b2p/1Bpp4/3P4/Q3PN2/PP3PPP/2R1K2R w K - 0 15",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Lors de la sixième partie du championnat du monde 1972, Boris Spassky a joué 14...a6, \"attaquant\" le fou blanc. Le pion a6 étant cloué à la tour a8, trouvez une forte prise créant des pions pendants ou bien un pion d isolé chez l'adversaire.",
+        "[%wrong Ce coup ne force pas la création de pions pendants ou d'un pion isolé chez l'adversaire. Cherchez encore !][%hint Prenez avec un pion !]",
+        "Bien joué ! Vous avez trouvé le coup joué par le grand-maître américain Bobby Fischer. Les noirs ont maintenant des pions pendants. Le grand Fischer remporta ce match et devint champion du monde !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnr3k1/4qpp1/pp2b2p/1Bpp4/3P4/Q3PN2/PP3PPP/2R1K2R w K - 0 15\"]\r\n\r\n{Trait aux blancs. Lors de la sixième partie du championnat du monde 1972, Boris Spassky a joué 14...a6, \"attaquant\" le fou blanc. Le pion a6 étant cloué à la tour a8, trouvez une forte prise créant des pions pendants ou bien un pion d isolé chez l'adversaire.}\r\n15.dxc5\r\n    {[%wrong Ce coup ne force pas la création de pions pendants ou d'un pion isolé chez l'adversaire. Cherchez encore !][%hint Prenez avec un pion !]}\r\n15...bxc5\r\n    {Bien joué ! Vous avez trouvé le coup joué par le grand-maître américain Bobby Fischer. Les noirs ont maintenant des pions pendants. Le grand Fischer remporta ce match et devint champion du monde !}\r\n*"
+    },
+    {
+      "fen": "r2r2k1/pbq1np2/1p2p1p1/4N2p/2PP4/8/PQ2BPPP/2RR2K1 w - - 2 21",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent avancer leurs pions pendants pour obtenir un fort pion passé. Mais lequel pousser ? Trouvez le coup du grand-maître Levon Aronian.",
+        "[%wrong Non, nous cherchons à pousser un de nos deux pions pendants. Choisissez judicieusement !][%hint Le GMI Aronian veut créer un pion isolé qui deviendra un fort pion passé.]",
+        "Bien essayé. Les blancs ont toujours une bonne position, mais les noirs vont pouvoir bloquer le pion d et gardent de très bonnes chances défensives. Poussez l'autre pion pendant !",
+        "Vous avez trouvé le coup d'Aronian, bien joué ! Récupérons le matériel pour obtenir un fort pion passé !",
+        "[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Comment regagner le matériel tout en créant un pion passé ?]",
+        "Beau travail ! La dame noire se met à l'abri en bloquant notre pion passé. Attaquons-la pour aider le passeur à avancer !",
+        "[%wrong Ce coup ne force pas la dame noire à bouger. Cherchez encore !][%hint Nous cherchons un coup de cavalier !]",
+        "Bien essayé, mais les noirs ne sont pas obligés de prendre le cavalier ! Trouvez un coup qui force la main de la dame adverse.",
+        "Superbe coup ! Les noirs tentent encore de capturer notre pion isolé. Poussons-le pour créer la confusion dans le camp noir !",
+        "[%wrong Non, poussons notre pion passé !][%hint Les pions passés sont fait pour être poussés !]",
+        "Stevic continue à attaquer le pion blanc, mais ce dernier devient de plus en plus fort à mesure qu'il se rapproche de la terre promise. Continuez sur cette voie !",
+        "[%wrong Ce coup ne convertit pas l'avantage décisif des noirs. Poussez le pion passé !][%hint Les pions passés sont fait pour être poussés !] L'excellent jeu de pion d'Aronian lui a permis d'obtenir un avantage décisif qu'il va bientôt convertir en victoire. Vous savez maintenant comment défendre et attaquer les pions isolés et pendants. Beau boulot ! Continuez sur cette voie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r2k1/pbq1np2/1p2p1p1/4N2p/2PP4/8/PQ2BPPP/2RR2K1 w - - 2 21\"]\r\n\r\n{Les blancs veulent avancer leurs pions pendants pour obtenir un fort pion passé. Mais lequel pousser ? Trouvez le coup du grand-maître Levon Aronian.}\r\n21.d5\r\n    {[%wrong Non, nous cherchons à pousser un de nos deux pions pendants. Choisissez judicieusement !][%hint Le GMI Aronian veut créer un pion isolé qui deviendra un fort pion passé.]}\r\n    (21.c5 $6 Bd5 {Bien essayé. Les blancs ont toujours une bonne position, mais les noirs vont pouvoir bloquer le pion d et gardent de très bonnes chances défensives. Poussez l'autre pion pendant !})\r\n21...exd5\r\n    {Vous avez trouvé le coup d'Aronian, bien joué ! Récupérons le matériel pour obtenir un fort pion passé !}\r\n22.cxd5\r\n    {[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Comment regagner le matériel tout en créant un pion passé ?]}\r\n22...Qd6\r\n    {Beau travail ! La dame noire se met à l'abri en bloquant notre pion passé. Attaquons-la pour aider le passeur à avancer !}\r\n23.Nc4\r\n    {[%wrong Ce coup ne force pas la dame noire à bouger. Cherchez encore !][%hint Nous cherchons un coup de cavalier !]}\r\n    (23.Nc6 $6 Rd7 {Bien essayé, mais les noirs ne sont pas obligés de prendre le cavalier ! Trouvez un coup qui force la main de la dame adverse.})\r\n23...Qf4\r\n    {Superbe coup ! Les noirs tentent encore de capturer notre pion isolé. Poussons-le pour créer la confusion dans le camp noir !}\r\n24.d6\r\n    {[%wrong Non, poussons notre pion passé !][%hint Les pions passés sont fait pour être poussés !]}\r\n24...Nf5\r\n    {Stevic continue à attaquer le pion blanc, mais ce dernier devient de plus en plus fort à mesure qu'il se rapproche de la terre promise. Continuez sur cette voie !}\r\n25.d7\r\n    {[%wrong Ce coup ne convertit pas l'avantage décisif des noirs. Poussez le pion passé !][%hint Les pions passés sont fait pour être poussés !] L'excellent jeu de pion d'Aronian lui a permis d'obtenir un avantage décisif qu'il va bientôt convertir en victoire. Vous savez maintenant comment défendre et attaquer les pions isolés et pendants. Beau boulot ! Continuez sur cette voie.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "920889d6-9cec-11e8-bf89-c35cf4ca05e5",
+    "name": "Les pions isolés et les pions pendants",
+    "path": "pions-isoles-et-pions-pendants",
+    "description": "Affûtez vos compétences offensives et défensives en apprenant à jouer avec ces structures de pions canoniques ! Les pions isolés sont faciles à attaquer car ils ne peuvent pas être défendus par un homologue. Les pions pendants sont deux pions côte à côte (par exemple sur les colonnes c et d) sans autre soutien d’un côté comme de l’autre. Cette structure offre de bonnes chances offensives, mais elle est facile à attaquer.",
+    "glyphName": "piece-shield-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-isolated-and-hanging-pawns-h0e.mp4",
+    "fen": "2r3k1/p2n1pp1/1p1Pp2p/2p5/2P4B/1P2PP2/6PP/3R2K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p4p2/1p1rp1qp/6p1/3P4/P3Q1P1/1P1R1P1P/3R2K1 w - - 0 1\"]\r\n\r\n{Les noirs se préparent à doubler les tours sur la colonne d pour appuyer sur la seule faiblesse blanche : le pion d isolé. Comment s'en débarrasser ?}\r\n1.d5\r\n    {[%wrong Ce coup ne va pas nous permettre de nous débarrasser de notre pion isolé. Cherchez encore !][%hint Si nous parvenons à échanger notre pion dame isolé, nous obtiendrons une finale solide. Échangez ce pion !]}\r\n1...Rc8\r\n    {Bien vu ! Les noirs développent une tour sur la colonne c. Débarrassons nous de notre faiblesse !}\r\n2.dxe6\r\n    {[%wrong Ce coup ne nous permet pas de nous débarrasser de notre faiblesse. Trouvez mieux !][%hint Utilisez le pion isolé pour prendre un pion adverse !] Excellent travail. Les blancs n'ont plus de faiblesses et obtiennent une finale solide.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p4p2/1p1rp1qp/6p1/3P4/P3Q1P1/1P1R1P1P/3R2K1 b - - 0 1\"]\r\n\r\n{Même position, mais cette fois, les noirs ont le trait. Que faire ?}\r\n1...Rd5\r\n    {[%wrong Ce coup n'empêche pas les blancs de pousser leur pion isolé. Cherchez encore !][%hint Les blancs ne pourront pas se débarrasser de leur faiblesse si vous l'empêchez d'avancer...] Joli ! Vous empêchez le pion isolé d'avancer. Vous allez pouvoir progressivement augmenter la pression sur cette faiblesse en doublant les tours et en mettant la dame sur la diagonale a1-h8 !}\r\n    (1...Rfd8 $5 {Un coup très fort, bien vu ! Trouvez maintenant un blocage empêchant le pion d4 d'avancer.})\r\n    (1...Qf5 $6 2.Qe5 {Bien essayé, mais il existe un coup beaucoup plus fort qui réfute cette défense blanche.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/1bnqbrpp/ppp5/3pPp2/1P1P1P2/P2QN1P1/1B4P1/1BR2RK1 w - - 0 20\"]\r\n\r\n{La bataille pour le pion f5 fait rage ! Les blancs ont des pions doublés sur la colonne g. Comment se débarrasser de cette faiblesse tout en augmentant la pression sur f5 ?}\r\n20.g4\r\n    {[%wrong Ce coup n'augmente pas la pression sur le pion faible f5. Cherchez encore !][%hint Grâce à leur batterie dame-fou, les blancs clouent le pion f5. Comment augmenter la pression tout en se débarrassant des pions doublés sur g ?]}\r\n    (20.Nxf5 $2 Qxf5 {Bien essayé, mais cette option ne nous donne aucun avantage. Trouvez un coup plus fort !})\r\n20...g6\r\n    {Excellent coup ! Les noirs ne peuvent pas prendre en g4 à cause de Dxh7 mat ! Ils ajoutent donc un nouveau défenseur au pion f5. Forcez la création d'un pion isolé chez l'adversaire !}\r\n21.gxf5\r\n    {[%wrong Ce coup n'isole pas un pion noir. Cherchez encore !][%hint Éliminez les pions g doublés pour forcer les noirs à accepter un pion isolé.]}\r\n21...gxf5\r\n    {Les noirs ont maintenant une faiblesse à long terme, ce qui nous donne une excellente position. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pb2bppp/1pn1pn2/8/3P4/2NB1N2/PP3PPP/R1BQR1K1 w - - 4 12\"]\r\n\r\n{Le pion isolé des blancs participe au contrôle du centre et prépare des idées offensives. Cependant, il risque également d'être pris pour cible. Choisissez votre prochain coup parmi ces quatre options : a3, Fe3, Fg5, ou d5.}\r\n12.a3\r\n    {[%wrong Ce coup ne figure pas parmi les quatre options proposées : a3, Fe3, Fg5, ou d5. Cherchez encore !][%hint Les noirs aimeraient bien mettre le cavalier c6 en d5 pour bloquer notre pion isolé. Comment empêcher cette idée ?] Excellente décision ! Les blancs empêchent les noirs de réaliser la manœuvre thématique ...Cb4-d5. Les blancs vont continuer leur développement et mettre progressivement la pression sur l'aile roi.}\r\n    (12.Bg5 $6 Nb4 {Bien essayé, mais les noirs préparent le blocage du pion dame isolé, et vont obtenir une très bonne position. Cherchez encore !})\r\n    (12.d5 $2 Nxd5 {Bien essayé, mais ce sacrifice de pion ne nous offre aucune attaque. Cherchez encore !})\r\n    (12.Be3 $6 Nb4 {Les noirs se préparent à mettre en place un fort blocage du pion d5. Fe3 défend le pion d4, mais les noirs ne menaçaient de toutes façons pas de s'en emparer, car après l'échange des cavaliers en d4, si la dame noire prend, les blancs jouent Fxf7+ et la dame est perdue ! Cherchez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnr3k1/4qpp1/pp2b2p/1Bpp4/3P4/Q3PN2/PP3PPP/2R1K2R w K - 0 15\"]\r\n\r\n{Trait aux blancs. Lors de la sixième partie du championnat du monde 1972, Boris Spassky a joué 14...a6, \"attaquant\" le fou blanc. Le pion a6 étant cloué à la tour a8, trouvez une forte prise créant des pions pendants ou bien un pion d isolé chez l'adversaire.}\r\n15.dxc5\r\n    {[%wrong Ce coup ne force pas la création de pions pendants ou d'un pion isolé chez l'adversaire. Cherchez encore !][%hint Prenez avec un pion !]}\r\n15...bxc5\r\n    {Bien joué ! Vous avez trouvé le coup joué par le grand-maître américain Bobby Fischer. Les noirs ont maintenant des pions pendants. Le grand Fischer remporta ce match et devint champion du monde !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r2k1/pbq1np2/1p2p1p1/4N2p/2PP4/8/PQ2BPPP/2RR2K1 w - - 2 21\"]\r\n\r\n{Les blancs veulent avancer leurs pions pendants pour obtenir un fort pion passé. Mais lequel pousser ? Trouvez le coup du grand-maître Levon Aronian.}\r\n21.d5\r\n    {[%wrong Non, nous cherchons à pousser un de nos deux pions pendants. Choisissez judicieusement !][%hint Le GMI Aronian veut créer un pion isolé qui deviendra un fort pion passé.]}\r\n    (21.c5 $6 Bd5 {Bien essayé. Les blancs ont toujours une bonne position, mais les noirs vont pouvoir bloquer le pion d et gardent de très bonnes chances défensives. Poussez l'autre pion pendant !})\r\n21...exd5\r\n    {Vous avez trouvé le coup d'Aronian, bien joué ! Récupérons le matériel pour obtenir un fort pion passé !}\r\n22.cxd5\r\n    {[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Comment regagner le matériel tout en créant un pion passé ?]}\r\n22...Qd6\r\n    {Beau travail ! La dame noire se met à l'abri en bloquant notre pion passé. Attaquons-la pour aider le passeur à avancer !}\r\n23.Nc4\r\n    {[%wrong Ce coup ne force pas la dame noire à bouger. Cherchez encore !][%hint Nous cherchons un coup de cavalier !]}\r\n    (23.Nc6 $6 Rd7 {Bien essayé, mais les noirs ne sont pas obligés de prendre le cavalier ! Trouvez un coup qui force la main de la dame adverse.})\r\n23...Qf4\r\n    {Superbe coup ! Les noirs tentent encore de capturer notre pion isolé. Poussons-le pour créer la confusion dans le camp noir !}\r\n24.d6\r\n    {[%wrong Non, poussons notre pion passé !][%hint Les pions passés sont fait pour être poussés !]}\r\n24...Nf5\r\n    {Stevic continue à attaquer le pion blanc, mais ce dernier devient de plus en plus fort à mesure qu'il se rapproche de la terre promise. Continuez sur cette voie !}\r\n25.d7\r\n    {[%wrong Ce coup ne convertit pas l'avantage décisif des noirs. Poussez le pion passé !][%hint Les pions passés sont fait pour être poussés !] L'excellent jeu de pion d'Aronian lui a permis d'obtenir un avantage décisif qu'il va bientôt convertir en victoire. Vous savez maintenant comment défendre et attaquer les pions isolés et pendants. Beau boulot ! Continuez sur cette voie.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons à présent ce qu'est une \"blocade\".",
+    "outroText": "Les cavaliers sont les meilleurs bloqueurs du jeu !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "d5568bb6-83b5-11e8-ad79-ef770f835d3d",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/blockading-pawns5e7ab20b752f0.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/blockading-pawns-5668865c152221.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/blockading-pawns-15ea23f4f42d0e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/blockading-pawns-26106c8a5304e8.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 104,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

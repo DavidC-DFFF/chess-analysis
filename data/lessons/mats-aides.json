@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-la-partie/mats-aides",
+  "capturedAt": "2026-10-22T12:23:30.346Z",
+  "title": "Mats aidés",
+  "exercises": [
+    {
+      "fen": "5rk1/5ppp/8/8/8/8/1B4Q1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez comment combiner la puissance de la dame et du fou pour mater en un coup.",
+        "[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La dame et le fou attaquent tous les deux le pion placé devant le roi. Prenez-le !] Bien joué, la dame met le roi adverse en échec et lui prend toutes ses cases de fuite. En outre, elle n'est pas prenable car protégée par son fou.",
+        "Bien essayé. Ce coup gagne effectivement un pion et attaque la tour noire, mais en le prenant avec une autre pièce, vous auriez pu mater. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5ppp/8/8/8/8/1B4Q1/6K1 w - - 0 1\"]\r\n\r\n{Trouvez comment combiner la puissance de la dame et du fou pour mater en un coup.}\r\n1.Qxg7#\r\n    {[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La dame et le fou attaquent tous les deux le pion placé devant le roi. Prenez-le !] Bien joué, la dame met le roi adverse en échec et lui prend toutes ses cases de fuite. En outre, elle n'est pas prenable car protégée par son fou.}\r\n    (1.Bxg7 $2 {Bien essayé. Ce coup gagne effectivement un pion et attaque la tour noire, mais en le prenant avec une autre pièce, vous auriez pu mater. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "k7/7R/2N5/8/8/8/6K1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez comment combiner la puissance de la tour et du cavalier pour mater en un coup.",
+        "[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La tour et le cavalier peuvent tous deux se poster devant le roi noir, mais une seule de ces deux pièces peut mater.] Bien joué ! La tour met le roi en échec tandis que le cavalier protège la tour et contrôle la case de fuite du roi en b8.",
+        "Bien essayé, mais le roi noir parvient à s'échapper. Essayez encore !",
+        "C'est la bonne case, mais pas la bonne pièce. Vous n'avez pas mis le roi en échec."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/7R/2N5/8/8/8/6K1/8 w - - 0 1\"]\r\n\r\n{Trouvez comment combiner la puissance de la tour et du cavalier pour mater en un coup.}\r\n1.Ra7#\r\n    {[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La tour et le cavalier peuvent tous deux se poster devant le roi noir, mais une seule de ces deux pièces peut mater.] Bien joué ! La tour met le roi en échec tandis que le cavalier protège la tour et contrôle la case de fuite du roi en b8.}\r\n    (1.Rh8+ $2 Kb7 {Bien essayé, mais le roi noir parvient à s'échapper. Essayez encore !})\r\n    (1.Na7 $2 {C'est la bonne case, mais pas la bonne pièce. Vous n'avez pas mis le roi en échec.})\r\n*"
+    },
+    {
+      "fen": "4k1r1/1q3p2/4p3/Q7/8/8/6PP/3R3K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent de jouer Dxg2 mat au prochain coup. Mais c'est à vous de jouer. Matez le roi noir avant qu'il ne soit trop tard !",
+        "[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La dame et la tour peuvent se poster à côté du roi noir, mais une seule de ces pièces peut mater. Laquelle ?] Bravo ! La dame fait échec et mat.",
+        "Bien essayé, mais le roi parvient à s'échapper. Essayez avec une pièce plus puissante !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k1r1/1q3p2/4p3/Q7/8/8/6PP/3R3K w - - 0 1\"]\r\n\r\n{Les noirs menacent de jouer Dxg2 mat au prochain coup. Mais c'est à vous de jouer. Matez le roi noir avant qu'il ne soit trop tard !}\r\n1.Qd8#\r\n    {[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La dame et la tour peuvent se poster à côté du roi noir, mais une seule de ces pièces peut mater. Laquelle ?] Bravo ! La dame fait échec et mat.}\r\n    (1.Rd8+ $2 Ke7 {Bien essayé, mais le roi parvient à s'échapper. Essayez avec une pièce plus puissante !})\r\n*"
+    },
+    {
+      "fen": "8/kP6/p7/8/8/5q1p/5P2/1Q4K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire s'apprête à mettre un terme à la partie par Dg2 mat. Mais c'est aux blancs de jouer ! Trouvez un coup malin qui mate le roi noir.",
+        "[%wrong Vous n'avez pas maté le roi noir, essayez encore !][%hint Que se passe-t-il lorsqu'un pion atteint la dernière rangée ?] Fantastique ! Les blancs promeuvent leur pion en dame et matent le roi adverse !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/kP6/p7/8/8/5q1p/5P2/1Q4K1 w - - 0 1\"]\r\n\r\n{La dame noire s'apprête à mettre un terme à la partie par Dg2 mat. Mais c'est aux blancs de jouer ! Trouvez un coup malin qui mate le roi noir.}\r\n1.b8=Q#\r\n    {[%wrong Vous n'avez pas maté le roi noir, essayez encore !][%hint Que se passe-t-il lorsqu'un pion atteint la dernière rangée ?] Fantastique ! Les blancs promeuvent leur pion en dame et matent le roi adverse !}\r\n*"
+    },
+    {
+      "fen": "8/Q7/8/8/8/8/1rr5/5K1k w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux rois sont en danger, mais les blancs ont le trait. Trouvez le coup gagnant !",
+        "[%wrong Ce coup ne gagne pas. Essayez encore !][%hint La dame blanche peut recevoir l'aide de son roi pour mater.] Bien joué. Bloqué dans son coin, le roi noir est mat.",
+        "Bien essayé, mais la tour noire protège son roi. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/Q7/8/8/8/8/1rr5/5K1k w - - 0 1\"]\r\n\r\n{Les deux rois sont en danger, mais les blancs ont le trait. Trouvez le coup gagnant !}\r\n1.Qg1#\r\n    {[%wrong Ce coup ne gagne pas. Essayez encore !][%hint La dame blanche peut recevoir l'aide de son roi pour mater.] Bien joué. Bloqué dans son coin, le roi noir est mat.}\r\n    (1.Qh7+ $2 Rh2 {Bien essayé, mais la tour noire protège son roi. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "2bae993a-9ce4-11e8-9b8c-5f7f71a6289d",
+    "name": "Mats aidés",
+    "path": "mats-aides",
+    "description": "Comme le roi ne peut se mettre en position d’échec, il est parfois possible de le mater en plaçant face à lui une dame protégée par une autre pièce. On appelle ce tableau de mat « le baiser de la mort » : le roi n’a aucune case de fuite et la dame ne peut être capturée : Échec et mat !",
+    "glyphName": "piece-combo-queen-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-assisted-checkmates-q3m.mp4",
+    "fen": "5rk1/5pQp/8/8/8/8/1B6/6K1 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5ppp/8/8/8/8/1B4Q1/6K1 w - - 0 1\"]\r\n\r\n{Trouvez comment combiner la puissance de la dame et du fou pour mater en un coup.}\r\n1.Qxg7#\r\n    {[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La dame et le fou attaquent tous les deux le pion placé devant le roi. Prenez-le !] Bien joué, la dame met le roi adverse en échec et lui prend toutes ses cases de fuite. En outre, elle n'est pas prenable car protégée par son fou.}\r\n    (1.Bxg7 $2 {Bien essayé. Ce coup gagne effectivement un pion et attaque la tour noire, mais en le prenant avec une autre pièce, vous auriez pu mater. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/7R/2N5/8/8/8/6K1/8 w - - 0 1\"]\r\n\r\n{Trouvez comment combiner la puissance de la tour et du cavalier pour mater en un coup.}\r\n1.Ra7#\r\n    {[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La tour et le cavalier peuvent tous deux se poster devant le roi noir, mais une seule de ces deux pièces peut mater.] Bien joué ! La tour met le roi en échec tandis que le cavalier protège la tour et contrôle la case de fuite du roi en b8.}\r\n    (1.Rh8+ $2 Kb7 {Bien essayé, mais le roi noir parvient à s'échapper. Essayez encore !})\r\n    (1.Na7 $2 {C'est la bonne case, mais pas la bonne pièce. Vous n'avez pas mis le roi en échec.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k1r1/1q3p2/4p3/Q7/8/8/6PP/3R3K w - - 0 1\"]\r\n\r\n{Les noirs menacent de jouer Dxg2 mat au prochain coup. Mais c'est à vous de jouer. Matez le roi noir avant qu'il ne soit trop tard !}\r\n1.Qd8#\r\n    {[%wrong Vous n'avez pas mis le roi noir en échec. Essayez encore !][%hint La dame et la tour peuvent se poster à côté du roi noir, mais une seule de ces pièces peut mater. Laquelle ?] Bravo ! La dame fait échec et mat.}\r\n    (1.Rd8+ $2 Ke7 {Bien essayé, mais le roi parvient à s'échapper. Essayez avec une pièce plus puissante !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/kP6/p7/8/8/5q1p/5P2/1Q4K1 w - - 0 1\"]\r\n\r\n{La dame noire s'apprête à mettre un terme à la partie par Dg2 mat. Mais c'est aux blancs de jouer ! Trouvez un coup malin qui mate le roi noir.}\r\n1.b8=Q#\r\n    {[%wrong Vous n'avez pas maté le roi noir, essayez encore !][%hint Que se passe-t-il lorsqu'un pion atteint la dernière rangée ?] Fantastique ! Les blancs promeuvent leur pion en dame et matent le roi adverse !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/Q7/8/8/8/8/1rr5/5K1k w - - 0 1\"]\r\n\r\n{Les deux rois sont en danger, mais les blancs ont le trait. Trouvez le coup gagnant !}\r\n1.Qg1#\r\n    {[%wrong Ce coup ne gagne pas. Essayez encore !][%hint La dame blanche peut recevoir l'aide de son roi pour mater.] Bien joué. Bloqué dans son coin, le roi noir est mat.}\r\n    (1.Qh7+ $2 Rh2 {Bien essayé, mais la tour noire protège son roi. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "2a28990a-a557-11e8-9594-511f3664a6ec",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Faites travailler vos pièces de concert pour trouver le mat dans la prochaine leçon.",
+    "outroText": "Beau travail ! Les bases sur les mats sont posées.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "path": "gagner-la-partie",
+      "title": "Gagner la partie",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/2a28990a-a557-11e8-9594-511f3664a6ec.97114806.728x410o.7ceb702a43b5.png"
+    },
+    "parentId": "d58093ba-83a7-11e8-bcd9-27989f21a5f2",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/assisted-checkmates5d11113a21e45.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/assisted-checkmates-5668888b469864.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/assisted-checkmates-16065bac229cc8.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/assisted-checkmates-65ea245992cb2c.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/scaccomatto-assistito6391f21e206f8.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 26,
+    "order": 2,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "name": "Gagner la partie",
+      "path": "gagner-la-partie",
+      "order": 3
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/utiliser-le-potentiel-de-ses-pieces/utiliser-sa-dame",
+  "capturedAt": "2026-10-22T12:23:36.639Z",
+  "title": "Utiliser la dame",
+  "exercises": [
+    {
+      "fen": "r5k1/6pp/5p2/1p6/8/7P/p4PP1/3Q2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent de promouvoir leur pion a au prochain coup, et la dame blanche est le dernier espoir de son camp. Trouvez le seul coup gagnant des blancs.",
+        "[%wrong Ce coup n'empêche pas les noirs de promouvoir leur pion a. Essayez encore !][%hint Les coups qui forcent le plus la réaction de l'adversaire sont les échecs !]",
+        "La dame blanche est trop passive et ne va pas réussir à empêcher à elle seule les deux pions connectés d'arriver en terre promise. Trouvez un coup plus actif !",
+        "Le roi noir va se cacher dans le coin. Il est dorénavant impossible d'empêcher les noirs de promouvoir leur pion sans sacrifier la dame ! Trouvez mieux.",
+        "Ce coup perd tout simplement la dame. Essayez encore !",
+        "Joli ! La dame blanche réalise une fourchette sur le roi et la tour adverse. Et maintenant, comment gagner du matériel tout en empêchant les noirs de promouvoir leur pion a au prochain coup ?",
+        "[%wrong Ce coup ne gagne pas de matériel en empêchant les noirs de promouvoir au prochain coup. Essayez encore !][%hint Trouvez l'aboutissement de la fourchette du coup précédent !]",
+        "Parfait ! Les blancs prennent la tour, réalisant à nouveau une fourchette sur le roi et le pion a2, qu'il est désormais temps de cueillir !",
+        "[%wrong Nous cherchons à prendre le pion a !][%hint Emparez-vous du dangereux pion noir.] Bien joué ! La dame a sauvé la partie et les blancs sont maintenant complètement gagnants !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/6pp/5p2/1p6/8/7P/p4PP1/3Q2K1 w - - 0 1\"]\r\n\r\n{Les noirs menacent de promouvoir leur pion a au prochain coup, et la dame blanche est le dernier espoir de son camp. Trouvez le seul coup gagnant des blancs.}\r\n1.Qd5+\r\n    {[%wrong Ce coup n'empêche pas les noirs de promouvoir leur pion a. Essayez encore !][%hint Les coups qui forcent le plus la réaction de l'adversaire sont les échecs !]}\r\n    (1.Qa1 $2 b4 {La dame blanche est trop passive et ne va pas réussir à empêcher à elle seule les deux pions connectés d'arriver en terre promise. Trouvez un coup plus actif !})\r\n    (1.Qb3+ $2 Kh8 {Le roi noir va se cacher dans le coin. Il est dorénavant impossible d'empêcher les noirs de promouvoir leur pion sans sacrifier la dame ! Trouvez mieux.})\r\n    (1.Qd8+ $2 Rxd8 {Ce coup perd tout simplement la dame. Essayez encore !})\r\n1...Kf8\r\n    {Joli ! La dame blanche réalise une fourchette sur le roi et la tour adverse. Et maintenant, comment gagner du matériel tout en empêchant les noirs de promouvoir leur pion a au prochain coup ?}\r\n2.Qxa8+\r\n    {[%wrong Ce coup ne gagne pas de matériel en empêchant les noirs de promouvoir au prochain coup. Essayez encore !][%hint Trouvez l'aboutissement de la fourchette du coup précédent !]}\r\n2...Ke7\r\n    {Parfait ! Les blancs prennent la tour, réalisant à nouveau une fourchette sur le roi et le pion a2, qu'il est désormais temps de cueillir !}\r\n3.Qxa2\r\n    {[%wrong Nous cherchons à prendre le pion a !][%hint Emparez-vous du dangereux pion noir.] Bien joué ! La dame a sauvé la partie et les blancs sont maintenant complètement gagnants !}\r\n*"
+    },
+    {
+      "fen": "1r3rk1/5ppp/5P2/8/1q6/7P/3Q2P1/5R1K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont une tour de plus et proposent l'échange des dames. Faut-il accepter l'échange, ou bien y a-t-il un coup plus fort dans la position ?",
+        "[%wrong Bien essayé, mais il existe un coup d'attaque beaucoup plus fort avec la dame. Trouvez-le !][%hint Le pion f6 adorerait voir la dame se joindre à son attaque sur le roi !]",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez mieux !",
+        "Les noirs se débarrassent de la pièce blanche la plus dangereuse (la dame) et ont maintenant une position gagnante grâce à leur tour de plus. Trouvez une idée plus offensive !",
+        "Vous avez l'attaque dans le sang ! Les noirs sont contraints d'affaiblir les cases noires autour de leur roi. Trouvez maintenant un mat en deux !",
+        "[%wrong Ce coup ne force pas le mat en deux. Trouvez mieux !][%hint Le pion f6 pourrait aider la dame à donner un échec fatal en g7...]",
+        "Excellent coup ! Les noirs se préparent à défendre la case g7 par ...Df8. Donnons le mat avant qu'il ne soit trop tard !",
+        "Bravo, vous avez réalisé une superbe attaque sur le roi adverse ! [%wrong Non, ce coup ne fait pas mat ! Essayez encore !] [%hint Avec le soutien du pion f6, la dame peut donner un échec très puissant au roi adverse...]"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[PlyCount \"5\"]\r\n[FEN \"1r3rk1/5ppp/5P2/8/1q6/7P/3Q2P1/5R1K w - - 0 1\"]\r\n\r\n{Les noirs ont une tour de plus et proposent l'échange des dames. Faut-il accepter l'échange, ou bien y a-t-il un coup plus fort dans la position ?} \r\n1.Qg5 \r\n    {[%wrong Bien essayé, mais il existe un coup d'attaque beaucoup plus fort avec la dame. Trouvez-le !][%hint Le pion f6 adorerait voir la dame se joindre à son attaque sur le roi !]}\r\n    ( 1.fxg7 $2 Qxd2 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n    ( 1.Qxb4 $2 Rxb4 {Les noirs se débarrassent de la pièce blanche la plus dangereuse (la dame) et ont maintenant une position gagnante grâce à leur tour de plus. Trouvez une idée plus offensive !})\r\n1...g6 \r\n    {Vous avez l'attaque dans le sang ! Les noirs sont contraints d'affaiblir les cases noires autour de leur roi. Trouvez maintenant un mat en deux !}\r\n2.Qh6 \r\n    {[%wrong Ce coup ne force pas le mat en deux. Trouvez mieux !][%hint Le pion f6 pourrait aider la dame à donner un échec fatal en g7...]}\r\n2...Rfd8 \r\n    {Excellent coup ! Les noirs se préparent à défendre la case g7 par ...Df8. Donnons le mat avant qu'il ne soit trop tard !}\r\n3.Qg7# \r\n    {Bravo, vous avez réalisé une superbe attaque sur le roi adverse ! [%wrong Non, ce coup ne fait pas mat ! Essayez encore !] [%hint Avec le soutien du pion f6, la dame peut donner un échec très puissant au roi adverse...]}\r\n*"
+    },
+    {
+      "fen": "3r1rk1/1b1q1p2/p5pp/1pp5/2B5/1P6/PBQ3PP/R5K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un sérieux déficit matériel, mais la dame et les deux fous sont braqués sur l'aile roi fragilisée des noirs. Trouvez le coup écrasant qui met immédiatement un terme aux débats !",
+        "[%wrong Bien essayé, mais il faut trouver un coup plus direct. Essayez encore !][%hint Le pion f7 des noirs est cloué... Comment en profiter ?] Superbe ! Le pion f7 étant cloué, les deux puissants fous blancs peuvent aider la dame à donner un joli mat.",
+        "Idée intéressante, mais les noirs peuvent maintenant forcer l'échange des dames et les blancs ont un trop grand retard matériel pour espérer l'emporter. Essayez encore !",
+        "Bien essayé, mais les blancs ont un retard matériel trop important. Trouvez un coup qui gagne immédiatement !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/1b1q1p2/p5pp/1pp5/2B5/1P6/PBQ3PP/R5K1 w - - 0 1\"]\r\n\r\n{Les blancs ont un sérieux déficit matériel, mais la dame et les deux fous sont braqués sur l'aile roi fragilisée des noirs. Trouvez le coup écrasant qui met immédiatement un terme aux débats !}\r\n1.Qxg6#\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus direct. Essayez encore !][%hint Le pion f7 des noirs est cloué... Comment en profiter ?] Superbe ! Le pion f7 étant cloué, les deux puissants fous blancs peuvent aider la dame à donner un joli mat.}\r\n    (1.Qc3 $2 Qd4+ {Idée intéressante, mais les noirs peuvent maintenant forcer l'échange des dames et les blancs ont un trop grand retard matériel pour espérer l'emporter. Essayez encore !})\r\n    (1.Bxf7+ $2 Qxf7 {Bien essayé, mais les blancs ont un retard matériel trop important. Trouvez un coup qui gagne immédiatement !})\r\n*"
+    },
+    {
+      "fen": "r2r1bk1/5ppp/5n2/q6P/1p6/1P1B4/2P2Q2/1KN3RR w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est en grand danger. En effet, les noirs menacent de mater en a1. Trouvez un coup de dame offensif qui sauve la position.",
+        "[%wrong Ce n'est pas un coup qui empêche le mat. Essayez encore !][%hint A l'aide d'un clouage, trouvez une manière de protéger la case a1 avec la dame.]",
+        "C'est la bonne idée, mais cette case est couverte. Trouvez un coup surprenant qui permet à la dame de s'installer sur cette diagonale pour protéger a1.",
+        "Ce coup évite en effet un mat immédiat, mais il perd une pièce. En outre, notre roi est toujours très faible. Trouvez un coup plus fort !",
+        "Magnifique ! Les blancs profitent du clouage sur le pion g7 pour gagner un cavalier tout en protégeant la case a1. Les noirs déclouent leur pion par un coup de roi, menaçant ainsi de prendre la dame blanche. Où mettre cette dernière pour s'assurer de garder une pièce d'avance ?",
+        "[%wrong Ce coup ne met pas la dame à l'abri tout en continuant à couvrir la case a1. Essayez encore !][%hint Trouvez une case sur la diagonale a1-h8 où la dame sera en sécurité.] Bien joué ! Les blancs ont une pièce de plus et la dame couvre efficacement la case faible a1. La suite de la partie se présente bien !",
+        "Ce coup menaçait de mater, mais vous avez hélas laissé les blancs mater en premier ! Essayez encore !",
+        "Attention ! Votre dame doit se rendre sur une case où elle sera en sécurité !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r1bk1/5ppp/5n2/q6P/1p6/1P1B4/2P2Q2/1KN3RR w - - 0 1\"]\r\n\r\n{Le roi blanc est en grand danger. En effet, les noirs menacent de mater en a1. Trouvez un coup de dame offensif qui sauve la position.}\r\n1.Qxf6\r\n    {[%wrong Ce n'est pas un coup qui empêche le mat. Essayez encore !][%hint A l'aide d'un clouage, trouvez une manière de protéger la case a1 avec la dame.]}\r\n    (1.Qd4 $2 Rxd4 {C'est la bonne idée, mais cette case est couverte. Trouvez un coup surprenant qui permet à la dame de s'installer sur cette diagonale pour protéger a1.})\r\n    (1.Na2 $2 Qxa2+ {Ce coup évite en effet un mat immédiat, mais il perd une pièce. En outre, notre roi est toujours très faible. Trouvez un coup plus fort !})\r\n1...Kh8\r\n    {Magnifique ! Les blancs profitent du clouage sur le pion g7 pour gagner un cavalier tout en protégeant la case a1. Les noirs déclouent leur pion par un coup de roi, menaçant ainsi de prendre la dame blanche. Où mettre cette dernière pour s'assurer de garder une pièce d'avance ?}\r\n2.Qb2\r\n    {[%wrong Ce coup ne met pas la dame à l'abri tout en continuant à couvrir la case a1. Essayez encore !][%hint Trouvez une case sur la diagonale a1-h8 où la dame sera en sécurité.] Bien joué ! Les blancs ont une pièce de plus et la dame couvre efficacement la case faible a1. La suite de la partie se présente bien !}\r\n    (2.Qf5 $2 Qa1# {Ce coup menaçait de mater, mais vous avez hélas laissé les blancs mater en premier ! Essayez encore !})\r\n    (2.Qa1 $2 Qxa1# {Attention ! Votre dame doit se rendre sur une case où elle sera en sécurité !})\r\n*"
+    },
+    {
+      "fen": "6k1/5pp1/1p5p/p7/6Q1/1r2P1P1/5P1P/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La tour noire en b3 n'est pas protégée. Trouvez une puissante manœuvre de dame permettant de la gagner en force !",
+        "[%wrong Ce coup ne va pas nous permettre de gagner la tour noire. Essayez encore !][%hint Une attaque simple ne suffira pas. Il faudrait forcer le roi à aller sur une case où les noirs pourraient subir une double attaque...]",
+        "Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...",
+        "Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...",
+        "Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...",
+        "Belle vision d'ensemble ! Le roi noir est forcé de se rendre en h7, ce qui va nous permettre de réaliser une double attaque au prochain coup. A vous de la trouver !",
+        "Bien joué ! La dame blanche réalise une fourchette sur le roi et la tour, gagnant la tour au prochain coup. [%wrong Bien essayé, mais ce coup ne réalise pas de double attaque. Trouvez mieux !] [%hint Trouvez un échec de la dame attaquant également la tour b3.]"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/1p5p/p7/6Q1/1r2P1P1/5P1P/6K1 w - - 0 1\"]\r\n\r\n{La tour noire en b3 n'est pas protégée. Trouvez une puissante manœuvre de dame permettant de la gagner en force !} \r\n1.Qc8+ \r\n    {[%wrong Ce coup ne va pas nous permettre de gagner la tour noire. Essayez encore !][%hint Une attaque simple ne suffira pas. Il faudrait forcer le roi à aller sur une case où les noirs pourraient subir une double attaque...]}\r\n    ( 1.Qa4 $6 Rb1+ {Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...} )\r\n    ( 1.Qc4 $6 Rb1+ {Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...} )\r\n    ( 1.Qd1 $6 a4 {Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...} )\r\n1...Kh7 \r\n    {Belle vision d'ensemble ! Le roi noir est forcé de se rendre en h7, ce qui va nous permettre de réaliser une double attaque au prochain coup. A vous de la trouver !}\r\n2.Qc2+ \r\n    {Bien joué ! La dame blanche réalise une fourchette sur le roi et la tour, gagnant la tour au prochain coup. [%wrong Bien essayé, mais ce coup ne réalise pas de double attaque. Trouvez mieux !] [%hint Trouvez un échec de la dame attaquant également la tour b3.]}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "9881dcf2-9ce9-11e8-add5-877dae15b93c",
+    "name": "Utiliser la dame",
+    "path": "utiliser-sa-dame",
+    "description": "La dame est une pièce très puissante. Soyez prudent, votre adversaire cherchera sans doute à vous l’échanger contre une pièce de moindre valeur ! C’est pourquoi on la développe généralement après les autres pièces. La dame n’est jamais aussi forte que quand elle attaque le roi adverse avec le soutien d'autres pièces.",
+    "glyphName": "piece-fill-queen",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-using-your-queen-f9h.mp4",
+    "fen": "1r3rk1/5p1p/5PpQ/8/1q6/7P/6P1/5R1K b - - 1 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/6pp/5p2/1p6/8/7P/p4PP1/3Q2K1 w - - 0 1\"]\r\n\r\n{Les noirs menacent de promouvoir leur pion a au prochain coup, et la dame blanche est le dernier espoir de son camp. Trouvez le seul coup gagnant des blancs.}\r\n1.Qd5+\r\n    {[%wrong Ce coup n'empêche pas les noirs de promouvoir leur pion a. Essayez encore !][%hint Les coups qui forcent le plus la réaction de l'adversaire sont les échecs !]}\r\n    (1.Qa1 $2 b4 {La dame blanche est trop passive et ne va pas réussir à empêcher à elle seule les deux pions connectés d'arriver en terre promise. Trouvez un coup plus actif !})\r\n    (1.Qb3+ $2 Kh8 {Le roi noir va se cacher dans le coin. Il est dorénavant impossible d'empêcher les noirs de promouvoir leur pion sans sacrifier la dame ! Trouvez mieux.})\r\n    (1.Qd8+ $2 Rxd8 {Ce coup perd tout simplement la dame. Essayez encore !})\r\n1...Kf8\r\n    {Joli ! La dame blanche réalise une fourchette sur le roi et la tour adverse. Et maintenant, comment gagner du matériel tout en empêchant les noirs de promouvoir leur pion a au prochain coup ?}\r\n2.Qxa8+\r\n    {[%wrong Ce coup ne gagne pas de matériel en empêchant les noirs de promouvoir au prochain coup. Essayez encore !][%hint Trouvez l'aboutissement de la fourchette du coup précédent !]}\r\n2...Ke7\r\n    {Parfait ! Les blancs prennent la tour, réalisant à nouveau une fourchette sur le roi et le pion a2, qu'il est désormais temps de cueillir !}\r\n3.Qxa2\r\n    {[%wrong Nous cherchons à prendre le pion a !][%hint Emparez-vous du dangereux pion noir.] Bien joué ! La dame a sauvé la partie et les blancs sont maintenant complètement gagnants !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[PlyCount \"5\"]\r\n[FEN \"1r3rk1/5ppp/5P2/8/1q6/7P/3Q2P1/5R1K w - - 0 1\"]\r\n\r\n{Les noirs ont une tour de plus et proposent l'échange des dames. Faut-il accepter l'échange, ou bien y a-t-il un coup plus fort dans la position ?} \r\n1.Qg5 \r\n    {[%wrong Bien essayé, mais il existe un coup d'attaque beaucoup plus fort avec la dame. Trouvez-le !][%hint Le pion f6 adorerait voir la dame se joindre à son attaque sur le roi !]}\r\n    ( 1.fxg7 $2 Qxd2 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n    ( 1.Qxb4 $2 Rxb4 {Les noirs se débarrassent de la pièce blanche la plus dangereuse (la dame) et ont maintenant une position gagnante grâce à leur tour de plus. Trouvez une idée plus offensive !})\r\n1...g6 \r\n    {Vous avez l'attaque dans le sang ! Les noirs sont contraints d'affaiblir les cases noires autour de leur roi. Trouvez maintenant un mat en deux !}\r\n2.Qh6 \r\n    {[%wrong Ce coup ne force pas le mat en deux. Trouvez mieux !][%hint Le pion f6 pourrait aider la dame à donner un échec fatal en g7...]}\r\n2...Rfd8 \r\n    {Excellent coup ! Les noirs se préparent à défendre la case g7 par ...Df8. Donnons le mat avant qu'il ne soit trop tard !}\r\n3.Qg7# \r\n    {Bravo, vous avez réalisé une superbe attaque sur le roi adverse ! [%wrong Non, ce coup ne fait pas mat ! Essayez encore !] [%hint Avec le soutien du pion f6, la dame peut donner un échec très puissant au roi adverse...]}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/1b1q1p2/p5pp/1pp5/2B5/1P6/PBQ3PP/R5K1 w - - 0 1\"]\r\n\r\n{Les blancs ont un sérieux déficit matériel, mais la dame et les deux fous sont braqués sur l'aile roi fragilisée des noirs. Trouvez le coup écrasant qui met immédiatement un terme aux débats !}\r\n1.Qxg6#\r\n    {[%wrong Bien essayé, mais il faut trouver un coup plus direct. Essayez encore !][%hint Le pion f7 des noirs est cloué... Comment en profiter ?] Superbe ! Le pion f7 étant cloué, les deux puissants fous blancs peuvent aider la dame à donner un joli mat.}\r\n    (1.Qc3 $2 Qd4+ {Idée intéressante, mais les noirs peuvent maintenant forcer l'échange des dames et les blancs ont un trop grand retard matériel pour espérer l'emporter. Essayez encore !})\r\n    (1.Bxf7+ $2 Qxf7 {Bien essayé, mais les blancs ont un retard matériel trop important. Trouvez un coup qui gagne immédiatement !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r1bk1/5ppp/5n2/q6P/1p6/1P1B4/2P2Q2/1KN3RR w - - 0 1\"]\r\n\r\n{Le roi blanc est en grand danger. En effet, les noirs menacent de mater en a1. Trouvez un coup de dame offensif qui sauve la position.}\r\n1.Qxf6\r\n    {[%wrong Ce n'est pas un coup qui empêche le mat. Essayez encore !][%hint A l'aide d'un clouage, trouvez une manière de protéger la case a1 avec la dame.]}\r\n    (1.Qd4 $2 Rxd4 {C'est la bonne idée, mais cette case est couverte. Trouvez un coup surprenant qui permet à la dame de s'installer sur cette diagonale pour protéger a1.})\r\n    (1.Na2 $2 Qxa2+ {Ce coup évite en effet un mat immédiat, mais il perd une pièce. En outre, notre roi est toujours très faible. Trouvez un coup plus fort !})\r\n1...Kh8\r\n    {Magnifique ! Les blancs profitent du clouage sur le pion g7 pour gagner un cavalier tout en protégeant la case a1. Les noirs déclouent leur pion par un coup de roi, menaçant ainsi de prendre la dame blanche. Où mettre cette dernière pour s'assurer de garder une pièce d'avance ?}\r\n2.Qb2\r\n    {[%wrong Ce coup ne met pas la dame à l'abri tout en continuant à couvrir la case a1. Essayez encore !][%hint Trouvez une case sur la diagonale a1-h8 où la dame sera en sécurité.] Bien joué ! Les blancs ont une pièce de plus et la dame couvre efficacement la case faible a1. La suite de la partie se présente bien !}\r\n    (2.Qf5 $2 Qa1# {Ce coup menaçait de mater, mais vous avez hélas laissé les blancs mater en premier ! Essayez encore !})\r\n    (2.Qa1 $2 Qxa1# {Attention ! Votre dame doit se rendre sur une case où elle sera en sécurité !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/1p5p/p7/6Q1/1r2P1P1/5P1P/6K1 w - - 0 1\"]\r\n\r\n{La tour noire en b3 n'est pas protégée. Trouvez une puissante manœuvre de dame permettant de la gagner en force !} \r\n1.Qc8+ \r\n    {[%wrong Ce coup ne va pas nous permettre de gagner la tour noire. Essayez encore !][%hint Une attaque simple ne suffira pas. Il faudrait forcer le roi à aller sur une case où les noirs pourraient subir une double attaque...]}\r\n    ( 1.Qa4 $6 Rb1+ {Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...} )\r\n    ( 1.Qc4 $6 Rb1+ {Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...} )\r\n    ( 1.Qd1 $6 a4 {Attaquer directement la tour ne nous permettra pas de gagner du matériel. Il faut trouver une idée plus ingénieuse...} )\r\n1...Kh7 \r\n    {Belle vision d'ensemble ! Le roi noir est forcé de se rendre en h7, ce qui va nous permettre de réaliser une double attaque au prochain coup. A vous de la trouver !}\r\n2.Qc2+ \r\n    {Bien joué ! La dame blanche réalise une fourchette sur le roi et la tour, gagnant la tour au prochain coup. [%wrong Bien essayé, mais ce coup ne réalise pas de double attaque. Trouvez mieux !] [%hint Trouvez un échec de la dame attaquant également la tour b3.]}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Affinez votre utilisation de la pièce la plus puissante : la dame.",
+    "outroText": "Beau travail. Vous avez trouvé quelques jolies tactiques dans cette leçon.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "title": "Utiliser tout le potentiel de ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/c8c21eaa-a558-11e8-8a0b-b114e31635bb.a8d7fd41.728x410o.77ff125711c0.png"
+    },
+    "parentId": "57a496c8-83aa-11e8-a668-ed8d9f69a707",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-queen5d1253d69f0d4.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-queen-566885a3676036.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-queen-15ea24350e1ee5.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-queen-2602a3835cae2f.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 53,
+    "order": 4,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "name": "Utiliser tout le potentiel de ses pièces",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "order": 1
+    }
+  }
+}

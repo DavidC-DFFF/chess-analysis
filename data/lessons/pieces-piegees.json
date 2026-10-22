@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs/pieces-piegees",
+  "capturedAt": "2026-10-22T13:42:31.565Z",
+  "title": "Pièces enfermées",
+  "exercises": [
+    {
+      "fen": "6nr/2pk3p/1p1p4/8/8/1P5P/P4PP1/2B2RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight h8;color;%23eb6150;opacity;0.8;square;h8;persistent;true][%c_arrow b2h8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;h8;persistent;true]Parfois, vous pouvez attaquer une pièce qui n'a aucun moyen de s'échapper : elle est piégée !",
+        "[%hint Déplacez votre fou pour attaquer la tour.][%wrong Vous ne pouvez pas capturer une tour de cette façon.]Oui, c'est ça ! Pouvez-vous capturer la pièce maintenant ?",
+        "[%hint Pouvez-vous capturer avec votre fou ?][%wrong Ce n'est pas le bon coup, pouvez-vous réessayer ?]Bravo ! Vous avez capturé votre première pièce piégée."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6nr/2pk3p/1p1p4/8/8/1P5P/P4PP1/2B2RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight h8;color;%23eb6150;opacity;0.8;square;h8;persistent;true][%c_arrow b2h8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;h8;persistent;true]Parfois, vous pouvez attaquer une pièce qui n'a aucun moyen de s'échapper : elle est piégée !} 1. Bb2 {[%hint Déplacez votre fou pour attaquer la tour.][%wrong Vous ne pouvez pas capturer une tour de cette façon.]Oui, c'est ça ! Pouvez-vous capturer la pièce maintenant ?} 1... Ne7 2. Bxh8 {[%hint Pouvez-vous capturer avec votre fou ?][%wrong Ce n'est pas le bon coup, pouvez-vous réessayer ?]Bravo ! Vous avez capturé votre première pièce piégée.} *"
+    },
+    {
+      "fen": "rn1q1rk1/pp2pp1p/5nb1/2p5/8/2NP2P1/PPP2PBP/R1BQ1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "À vous de jouer.",
+        "[%hint Pouvez-vous trouver la tour piégée ?][%wrong Ce n'est pas la bonne manière de capturer une pièce piégée.]",
+        "Bien vu, la tour est piégée. Pouvez-vous la capturer ?",
+        "[%hint Pouvez-vous capturer avec votre fou ?][%wrong Ce n'est pas le bon coup. Avez-vous besoin d'un indice ?] Exactement !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/pp2pp1p/5nb1/2p5/8/2NP2P1/PPP2PBP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{À vous de jouer.} 1. Bxb7 {[%hint Pouvez-vous trouver la tour piégée ?][%wrong Ce n'est pas la bonne manière de capturer une pièce piégée.]} 1... Nbd7 {Bien vu, la tour est piégée. Pouvez-vous la capturer ?} 2. Bxa8 {[%hint Pouvez-vous capturer avec votre fou ?][%wrong Ce n'est pas le bon coup. Avez-vous besoin d'un indice ?] Exactement !} *"
+    },
+    {
+      "fen": "r1b2rk1/ppp1nppp/2n1pq2/8/3P4/2PB1N2/P1P2PPP/R1BQ1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true] Leur dame n'a presque plus de cases où aller.",
+        "[%hint Pouvez-vous utiliser votre fou ?][%wrong Ce n'est pas le bon coup.]",
+        "Oui, vous avez piégé la dame ! Pouvez-vous reprendre ?",
+        "[%hint Pouvez-vous capturer avec votre cavalier ?][%wrong Ce n'est pas le bon coup. Vous pouvez demander un indice.] Félicitations !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppp1nppp/2n1pq2/8/3P4/2PB1N2/P1P2PPP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true] Leur dame n'a presque plus de cases où aller.} 1. Bg5 {[%hint Pouvez-vous utiliser votre fou ?][%wrong Ce n'est pas le bon coup.]} 1... Qxg5 {Oui, vous avez piégé la dame ! Pouvez-vous reprendre ?} 2. Nxg5 {[%hint Pouvez-vous capturer avec votre cavalier ?][%wrong Ce n'est pas le bon coup. Vous pouvez demander un indice.] Félicitations !} *"
+    },
+    {
+      "fen": "r3k2r/ppqnbppp/2p1pnb1/8/2BP2PP/2N2P2/PPPBQ3/2KR2NR w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Votre mur de pions a l'air solide. Utilisez-le !",
+        "[%hint Pouvez-vous attaquer un fou avec un pion ?][%wrong Ce n'est pas ça, essaie encore.]",
+        "Oui, le fou était piégé, pouvez-vous reprendre ?",
+        "[%wrong Vous pouvez reprendre le fou.][%hint Pouvez-vous capturer avec votre pion ?]Bravo, vous avez piégé et capturé un fou.",
+        "Votre tour s'est fait capturer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/ppqnbppp/2p1pnb1/8/2BP2PP/2N2P2/PPPBQ3/2KR2NR w - - 0 1\"]\r\n\r\n{Votre mur de pions a l'air solide. Utilisez-le !} 1. h5 {[%hint Pouvez-vous attaquer un fou avec un pion ?][%wrong Ce n'est pas ça, essaie encore.]} 1... Bxh5 {Oui, le fou était piégé, pouvez-vous reprendre ?} 2. gxh5 {[%wrong Vous pouvez reprendre le fou.][%hint Pouvez-vous capturer avec votre pion ?]Bravo, vous avez piégé et capturé un fou.} (2. Rxh5? Nxh5 {Votre tour s'est fait capturer.}) *"
+    },
+    {
+      "fen": "1k1r3r/1pp1n3/p1n4p/4p1p1/3pP3/P4PN1/1PP1QBq1/1KR4R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Pas d'indices cette fois.",
+        "[%hint Pouvez-vous utiliser votre tour ?][%wrong Ce n'était pas le bon coup.]",
+        "Oui ! Maintenant vous pouvez reprendre.",
+        "Félicitations, vous avez appris à enfermer les pièces !",
+        "Félicitations pour avoir appris à enfermer les pièces !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r3r/1pp1n3/p1n4p/4p1p1/3pP3/P4PN1/1PP1QBq1/1KR4R w - - 0 1\"]\r\n\r\n{Pas d'indices cette fois.} 1. Rcg1 {[%hint Pouvez-vous utiliser votre tour ?][%wrong Ce n'était pas le bon coup.]} 1... Qxg1+ {Oui ! Maintenant vous pouvez reprendre.} 2. Rxg1 {Félicitations, vous avez appris à enfermer les pièces !} (2. Bxg1!! {Félicitations pour avoir appris à enfermer les pièces !}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c218-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Pièces enfermées",
+    "path": "pieces-piegees",
+    "description": "Apprenez à tirer profit des pièces enfermées.",
+    "glyphName": "piece-trapped-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6nr/2pk3p/1p1p4/8/8/1P5P/P4PP1/2B2RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight h8;color;%23eb6150;opacity;0.8;square;h8;persistent;true][%c_arrow b2h8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;h8;persistent;true]Parfois, vous pouvez attaquer une pièce qui n'a aucun moyen de s'échapper : elle est piégée !} 1. Bb2 {[%hint Déplacez votre fou pour attaquer la tour.][%wrong Vous ne pouvez pas capturer une tour de cette façon.]Oui, c'est ça ! Pouvez-vous capturer la pièce maintenant ?} 1... Ne7 2. Bxh8 {[%hint Pouvez-vous capturer avec votre fou ?][%wrong Ce n'est pas le bon coup, pouvez-vous réessayer ?]Bravo ! Vous avez capturé votre première pièce piégée.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/pp2pp1p/5nb1/2p5/8/2NP2P1/PPP2PBP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{À vous de jouer.} 1. Bxb7 {[%hint Pouvez-vous trouver la tour piégée ?][%wrong Ce n'est pas la bonne manière de capturer une pièce piégée.]} 1... Nbd7 {Bien vu, la tour est piégée. Pouvez-vous la capturer ?} 2. Bxa8 {[%hint Pouvez-vous capturer avec votre fou ?][%wrong Ce n'est pas le bon coup. Avez-vous besoin d'un indice ?] Exactement !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppp1nppp/2n1pq2/8/3P4/2PB1N2/P1P2PPP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true] Leur dame n'a presque plus de cases où aller.} 1. Bg5 {[%hint Pouvez-vous utiliser votre fou ?][%wrong Ce n'est pas le bon coup.]} 1... Qxg5 {Oui, vous avez piégé la dame ! Pouvez-vous reprendre ?} 2. Nxg5 {[%hint Pouvez-vous capturer avec votre cavalier ?][%wrong Ce n'est pas le bon coup. Vous pouvez demander un indice.] Félicitations !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k2r/ppqnbppp/2p1pnb1/8/2BP2PP/2N2P2/PPPBQ3/2KR2NR w - - 0 1\"]\r\n\r\n{Votre mur de pions a l'air solide. Utilisez-le !} 1. h5 {[%hint Pouvez-vous attaquer un fou avec un pion ?][%wrong Ce n'est pas ça, essaie encore.]} 1... Bxh5 {Oui, le fou était piégé, pouvez-vous reprendre ?} 2. gxh5 {[%wrong Vous pouvez reprendre le fou.][%hint Pouvez-vous capturer avec votre pion ?]Bravo, vous avez piégé et capturé un fou.} (2. Rxh5? Nxh5 {Votre tour s'est fait capturer.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r3r/1pp1n3/p1n4p/4p1p1/3pP3/P4PN1/1PP1QBq1/1KR4R w - - 0 1\"]\r\n\r\n{Pas d'indices cette fois.} 1. Rcg1 {[%hint Pouvez-vous utiliser votre tour ?][%wrong Ce n'était pas le bon coup.]} 1... Qxg1+ {Oui ! Maintenant vous pouvez reprendre.} 2. Rxg1 {Félicitations, vous avez appris à enfermer les pièces !} (2. Bxg1!! {Félicitations pour avoir appris à enfermer les pièces !}) *"
+    ],
+    "courseId": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à tirer profit des pièces piégées.",
+    "outroText": "Vous savez maintenant que vous pouvez capturer les pièces piégées.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs",
+      "title": "Tactique"
+    },
+    "parentId": "92461a04-2393-11f1-86c4-7b1d7c4eedc2"
+  },
+  "curriculum": {
+    "number": 34,
+    "order": 4,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c101ab0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactique",
+      "path": "tactiques-echecs",
+      "order": 2
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi/reseaux-de-mat",
+  "capturedAt": "2026-10-22T12:23:51.878Z",
+  "title": "Réseaux de mat",
+  "exercises": [
+    {
+      "fen": "5r2/R7/1p6/3pn1kB/PP1P2P1/2Pb4/3K4/8 b - - 3 38",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs, conduits par le grand-maître Viktor Korchnoi. Il semble qu'il soit sur le point de perdre une pièce, mais grâce à un joli réseau de mat, le grand Viktor est en réalité gagnant ! A vous de trouver comment.",
+        "[%wrong Ce coup ne crée pas de réseau de mat, et les blancs sont désormais gagnants. Cherchez encore !][%hint Trouvez un échec forçant le roi blanc à prendre le fou sous peine de se faire mater sur la première rangée.]",
+        "Bien vu ! Ce coup crée également un réseau de mat après Re1 et ...Tf1+, mais il existe un ordre de coups plus rapide encore. Trouvez-le !",
+        "Bien calculé ! Le roi blanc doit absolument prendre le fou sous peine de se faire mater immédiatement. A vous de mettre en place le réseau de mat !",
+        "[%wrong Ce coup ne crée pas de réseau de mat, et les blancs sont désormais gagnants. Cherchez encore !][%hint Enfermez le roi sur la troisième rangée...] Vous avez trouvé le superbe réseau de Korchnoi, bien joué ! Les blancs ne peuvent plus empêcher ...Td2 mat.",
+        "Bien essayé, mais le cavalier noir et la tour ne peuvent forcer le mat à eux seuls... Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/R7/1p6/3pn1kB/PP1P2P1/2Pb4/3K4/8 b - - 3 38\"]\r\n\r\n{Trait aux noirs, conduits par le grand-maître Viktor Korchnoi. Il semble qu'il soit sur le point de perdre une pièce, mais grâce à un joli réseau de mat, le grand Viktor est en réalité gagnant ! A vous de trouver comment.}\r\n38...Nc4+\r\n    {[%wrong Ce coup ne crée pas de réseau de mat, et les blancs sont désormais gagnants. Cherchez encore !][%hint Trouvez un échec forçant le roi blanc à prendre le fou sous peine de se faire mater sur la première rangée.]}\r\n    (38...Rf2+ $5 {Bien vu ! Ce coup crée également un réseau de mat après Re1 et ...Tf1+, mais il existe un ordre de coups plus rapide encore. Trouvez-le !})\r\n39.Kxd3\r\n    {Bien calculé ! Le roi blanc doit absolument prendre le fou sous peine de se faire mater immédiatement. A vous de mettre en place le réseau de mat !}\r\n39...Rf2\r\n    {[%wrong Ce coup ne crée pas de réseau de mat, et les blancs sont désormais gagnants. Cherchez encore !][%hint Enfermez le roi sur la troisième rangée...] Vous avez trouvé le superbe réseau de Korchnoi, bien joué ! Les blancs ne peuvent plus empêcher ...Td2 mat.}\r\n    (39...Rf3+ $2 40.Ke2 {Bien essayé, mais le cavalier noir et la tour ne peuvent forcer le mat à eux seuls... Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "6k1/p1r2p2/4qPr1/1Q5p/8/6PP/2p2R1K/3R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs viennent de jouer ...c2 sans se rendre compte qu'ils étaient dans un réseau de mat ! A vous de jouer.",
+        "[%wrong Ce coup ne force pas le mat, cherchez encore !][%hint Trouvez l'échec qui force le roi noir à se rendre sur la colonne h.]",
+        "Bien essayé, mais les noirs échappent au réseau de mat. Trouvez mieux !",
+        "Joli ! Le roi noir se retrouve sur la dangereuse colonne h. Continuez l'attaque !",
+        "[%wrong Ce coup ne force pas le mat, cherchez encore !][%hint Comment ramener la dame au cœur du combat ?]",
+        "Cette idée incroyable est également gagnante, mais laisser les noirs promouvoir un pion en dame complique inutilement la position. Trouvez le réseau de mat le plus simple !",
+        "Bien vu ! La tour noire doit absolument parer l'échec. Votre adversaire est-il vraiment dans un réseau de mat ? Prouvez-le !",
+        "[%wrong Bien essayé, mais il n'existe qu'un seul chemin vers la victoire. Trouvez une idée plus tranchante !][%hint Forcez le roi noir à relâcher sa protection de la tour pour mater en deux !]",
+        "Beau travail ! Le roi noir ne peut plus continuer à protéger sa tour, et les blancs matent désormais en deux coups. Trouvez comment !",
+        "[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Le roi noir ne protège plus sa tour !]",
+        "Parfait ! Il est maintenant temps de mater.",
+        "[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Vous avez su créer un joli réseau de mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p1r2p2/4qPr1/1Q5p/8/6PP/2p2R1K/3R4 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de jouer ...c2 sans se rendre compte qu'ils étaient dans un réseau de mat ! A vous de jouer.}\r\n1.Rd8+\r\n    {[%wrong Ce coup ne force pas le mat, cherchez encore !][%hint Trouvez l'échec qui force le roi noir à se rendre sur la colonne h.]}\r\n    (1.Qb8+ $2 Rc8 {Bien essayé, mais les noirs échappent au réseau de mat. Trouvez mieux !})\r\n1...Kh7\r\n    {Joli ! Le roi noir se retrouve sur la dangereuse colonne h. Continuez l'attaque !}\r\n2.Qxh5+\r\n    {[%wrong Ce coup ne force pas le mat, cherchez encore !][%hint Comment ramener la dame au cœur du combat ?]}\r\n    (2.Qb8 $6 Qxf6 {Cette idée incroyable est également gagnante, mais laisser les noirs promouvoir un pion en dame complique inutilement la position. Trouvez le réseau de mat le plus simple !})\r\n2...Rh6\r\n    {Bien vu ! La tour noire doit absolument parer l'échec. Votre adversaire est-il vraiment dans un réseau de mat ? Prouvez-le !}\r\n3.Rh8+\r\n    {[%wrong Bien essayé, mais il n'existe qu'un seul chemin vers la victoire. Trouvez une idée plus tranchante !][%hint Forcez le roi noir à relâcher sa protection de la tour pour mater en deux !]}\r\n3...Kxh8\r\n    {Beau travail ! Le roi noir ne peut plus continuer à protéger sa tour, et les blancs matent désormais en deux coups. Trouvez comment !}\r\n4.Qxh6+\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Le roi noir ne protège plus sa tour !]}\r\n4...Kg8\r\n    {Parfait ! Il est maintenant temps de mater.}\r\n5.Qg7#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Vous avez su créer un joli réseau de mat.}\r\n*"
+    },
+    {
+      "fen": "r1r4k/pp1q2R1/5pp1/3p2N1/6Q1/8/PP3PPP/2R3K1 w - - 3 27",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position célèbre, le premier champion du monde de l'histoire, Wilhelm Steinitz, a montré au public pourquoi son adversaire avait abandonné. Découvrons son réseau de mat en commençant par 27.Dh4+ !",
+        "[%wrong Commençons si vous le voulez comme Steinitz en jouant 27. Dh4+.][%hint Déplacez votre dame sur la case h4.]",
+        "Difficile d'imaginer que le roi noir est dans un réseau... Et pourtant ! Essayez de trouver l'idée de Steinitz.",
+        "[%wrong Bien essayé, mais il va nous falloir faire jouer notre dame et notre cavalier de concert pour mater. Cherchez encore !][%hint Mettez le roi adverse en échec grâce au soutien du cavalier.]",
+        "Bien joué ! Le roi noir doit se rendre sur la huitième rangée. Et ce n'est pas la dernière fois ! Comment continuer ?",
+        "[%wrong Bien essayé, mais il faut trouver un coup qui force le roi noir à se rendre vers le milieu de l'échiquier. Cherchez encore !][%hint Trouvez un échec forçant le roi à se rendre en e7.]",
+        "Les noirs renouvelle la menace de mat du couloir et les blancs ne bloquent désormais plus le roi adverse qui peut se rendre sur la colonne c. Or, c'est un facteur très important, comme nous allons le voir ensuite. Trouvez mieux !",
+        "N'oubliez pas les ressources noirs ! Il fait trouver un coup plus tranchant et direct.",
+        "Coup après coup, les blancs forcent le roi noir à se rapprocher de la case d8, sur laquelle il subira une terrible combinaison de mat. Comment le forcer à rester près de la colonne d ?",
+        "[%wrong Bien essayé, mais ce coup ne force pas le roi noir à rester au contact de la colonne d. Cherchez encore !][%hint Trouvez l'échec qui rapproche notre dame du roi adverse sans risques.]",
+        "Cela parait insensé, et pourtant, le roi noir va survivre à cette attaque car il nous est impossible de prendre le pion f6 avec notre dame. Trouvez un meilleur échec de dame !",
+        "Ce fort coup devrait également mener les blancs à la victoire, mais le roi noir échappe à notre réseau de mat. Trouvez mieux !",
+        "Excellent travail ! Les noirs ne peuvent pas mettre leur roi en d6 à cause Dxf6+ et mat à suivre. Par conséquent, le roi noir retourne sur la dernière rangée. Trouvez maintenant deux échecs de la dame le forçant à aller en d8.",
+        "[%wrong Bien essayé, mais ce coup ne force pas le roi à aller sur la case d8. Cherchez encore !][%hint L'idée consiste à jouer Df7+ au prochain coup...]",
+        "Parfait ! La dame est prête à envoyer le roi en d8 avec le soutien du cavalier. A vous de continuer !",
+        "[%wrong Ce coup ne force pas le roi noir à aller en d8. Cherchez encore !][%hint Utilisez la puissance combinée du cavalier et de la dame.]",
+        "Les noirs ne peuvent pas mettre leur roi en d6 à cause Dxf6+ et mat à suivre. Cette fois, le roi noir se retrouve en d8. Comment clouer la dame noire sur la huitième rangée tout en préparant une combinaison de mat ?",
+        "[%wrong Ce coup ne force pas la dame noire à revenir sur la dernière rangée. Cherchez encore !][%hint Trouvez un échec ne pouvant être paré que par la dame noire.]",
+        "Oups ! Le roi échappe à notre réseau de mat. Trouvez mieux !",
+        "C'est la bonne idée, mais ce coup ne force pas la dame noire à se rendre sur la huitième rangée. Trouvez mieux !",
+        "Ce coup a l'air fort, mais il perd la partie à cause de la faiblesse de notre première rangée ! Cherchez encore.",
+        "Bien vu, c'est enfin l'heure du grand final ! Trouvez le mat en deux.",
+        "[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Trouvez un échec de cavalier protégeant d6 et préparant le mat au prochain coup.]",
+        "Bien joué ! Ce coup mate également en force après Ce6+. Mais il existe un moyen encore plus rapide de mater... Trouvez-le !",
+        "Les blancs sont sans doute toujours gagnants après Cc5+, mais il est possible de mater en deux ! Trouvez le mat le plus rapide.",
+        "Fantastique ! Finissons le travail comme Steinitz l'aurait fait : en matant le roi noir !",
+        "[%wrong Ce n'est pas mat, cherchez encore !][%hint Encore une fois, la dame et le cavalier sont de redoutables attaquants !] Bravo, vous avez su suivre les traces du grand Wilhelm ! Continuez sur cette voie, et vous serez bientôt un expert des réseaux de mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1r4k/pp1q2R1/5pp1/3p2N1/6Q1/8/PP3PPP/2R3K1 w - - 3 27\"]\r\n\r\n{Dans cette position célèbre, le premier champion du monde de l'histoire, Wilhelm Steinitz, a montré au public pourquoi son adversaire avait abandonné. Découvrons son réseau de mat en commençant par 27.Dh4+ !}\r\n27.Qh4+\r\n    {[%wrong Commençons si vous le voulez comme Steinitz en jouant 27. Dh4+.][%hint Déplacez votre dame sur la case h4.]}\r\n27...Kxg7\r\n    {Difficile d'imaginer que le roi noir est dans un réseau... Et pourtant ! Essayez de trouver l'idée de Steinitz.}\r\n28.Qh7+\r\n    {[%wrong Bien essayé, mais il va nous falloir faire jouer notre dame et notre cavalier de concert pour mater. Cherchez encore !][%hint Mettez le roi adverse en échec grâce au soutien du cavalier.]}\r\n28...Kf8\r\n    {Bien joué ! Le roi noir doit se rendre sur la huitième rangée. Et ce n'est pas la dernière fois ! Comment continuer ?}\r\n29.Qh8+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup qui force le roi noir à se rendre vers le milieu de l'échiquier. Cherchez encore !][%hint Trouvez un échec forçant le roi à se rendre en e7.]}\r\n    (29.Rxc8+ $2 Rxc8 {Les noirs renouvelle la menace de mat du couloir et les blancs ne bloquent désormais plus le roi adverse qui peut se rendre sur la colonne c. Or, c'est un facteur très important, comme nous allons le voir ensuite. Trouvez mieux !})\r\n    (29.Qxd7 $2 {N'oubliez pas les ressources noirs ! Il fait trouver un coup plus tranchant et direct.} 29...Rxc1#)\r\n29...Ke7\r\n    {Coup après coup, les blancs forcent le roi noir à se rapprocher de la case d8, sur laquelle il subira une terrible combinaison de mat. Comment le forcer à rester près de la colonne d ?}\r\n30.Qg7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi noir à rester au contact de la colonne d. Cherchez encore !][%hint Trouvez l'échec qui rapproche notre dame du roi adverse sans risques.]}\r\n    (30.Qh7+ $2 Kd6 {Cela parait insensé, et pourtant, le roi noir va survivre à cette attaque car il nous est impossible de prendre le pion f6 avec notre dame. Trouvez un meilleur échec de dame !})\r\n    (30.Re1+ $6 {Ce fort coup devrait également mener les blancs à la victoire, mais le roi noir échappe à notre réseau de mat. Trouvez mieux !})\r\n30...Ke8\r\n    {Excellent travail ! Les noirs ne peuvent pas mettre leur roi en d6 à cause Dxf6+ et mat à suivre. Par conséquent, le roi noir retourne sur la dernière rangée. Trouvez maintenant deux échecs de la dame le forçant à aller en d8.}\r\n31.Qg8+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi à aller sur la case d8. Cherchez encore !][%hint L'idée consiste à jouer Df7+ au prochain coup...]}\r\n31...Ke7\r\n    {Parfait ! La dame est prête à envoyer le roi en d8 avec le soutien du cavalier. A vous de continuer !}\r\n32.Qf7+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller en d8. Cherchez encore !][%hint Utilisez la puissance combinée du cavalier et de la dame.]}\r\n32...Kd8\r\n    {Les noirs ne peuvent pas mettre leur roi en d6 à cause Dxf6+ et mat à suivre. Cette fois, le roi noir se retrouve en d8. Comment clouer la dame noire sur la huitième rangée tout en préparant une combinaison de mat ?}\r\n33.Qf8+\r\n    {[%wrong Ce coup ne force pas la dame noire à revenir sur la dernière rangée. Cherchez encore !][%hint Trouvez un échec ne pouvant être paré que par la dame noire.]}\r\n    (33.Qxf6+ $2 Qe7 {Oups ! Le roi échappe à notre réseau de mat. Trouvez mieux !})\r\n    (33.Qg8+ $6 {C'est la bonne idée, mais ce coup ne force pas la dame noire à se rendre sur la huitième rangée. Trouvez mieux !})\r\n    (33.Ne6+ $2 Qxe6 {Ce coup a l'air fort, mais il perd la partie à cause de la faiblesse de notre première rangée ! Cherchez encore.})\r\n33...Qe8\r\n    {Bien vu, c'est enfin l'heure du grand final ! Trouvez le mat en deux.}\r\n34.Nf7+\r\n    {[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Trouvez un échec de cavalier protégeant d6 et préparant le mat au prochain coup.]}\r\n    (34.Qd6+ $5 {Bien joué ! Ce coup mate également en force après Ce6+. Mais il existe un moyen encore plus rapide de mater... Trouvez-le !})\r\n    (34.Ne6+ $2 Kd7 {Les blancs sont sans doute toujours gagnants après Cc5+, mais il est possible de mater en deux ! Trouvez le mat le plus rapide.})\r\n34...Kd7\r\n    {Fantastique ! Finissons le travail comme Steinitz l'aurait fait : en matant le roi noir !}\r\n35.Qd6#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Encore une fois, la dame et le cavalier sont de redoutables attaquants !] Bravo, vous avez su suivre les traces du grand Wilhelm ! Continuez sur cette voie, et vous serez bientôt un expert des réseaux de mat !}\r\n*"
+    },
+    {
+      "fen": "8/1R4p1/6k1/2B3n1/2p3r1/3b4/1P5K/3N4 b - - 6 47",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est sous pression. Ramenez un fou en attaque pour l'enfermer dans un réseau de mat !",
+        "[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Les noirs aimeraient jouer ...Cf3+ sans que le roi adverse puisse s'échapper en h3...]",
+        "Les noirs ont toujours une excellente position, mais nous n'avons pas créé de réseau de mat... Trouvez mieux !",
+        "Bien vu ! Le roi blanc ne peut plus échapper à notre réseau. Le cavalier adverse réalise une fourchette sur notre tour et notre fou, mais il est trop tard : trouvez le mat en deux !",
+        "[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Maintenant que le roi blanc ne peut plus aller en h3, il est temps de lui donner un échec !]",
+        "Bien joué ! Le roi blanc est acculé dans le coin de l'échiquier. Matez-le !",
+        "[%wrong Ce n'est pas mat, cherchez encore !][%hint Votre cavalier est bien placé pour soutenir l'estocade finale de la tour !] Bien joué ! Vous avez su mettre en place un réseau de mat imparable.",
+        "Superbe ! Trouvez maintenant l'autre mat jouable dans cette position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1R4p1/6k1/2B3n1/2p3r1/3b4/1P5K/3N4 b - - 6 47\"]\r\n\r\n{Le roi blanc est sous pression. Ramenez un fou en attaque pour l'enfermer dans un réseau de mat !}\r\n47...Bf1\r\n    {[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Les noirs aimeraient jouer ...Cf3+ sans que le roi adverse puisse s'échapper en h3...]}\r\n    (47...Nf3+ $6 48.Kh3 {Les noirs ont toujours une excellente position, mais nous n'avons pas créé de réseau de mat... Trouvez mieux !})\r\n48.Ne3\r\n    {Bien vu ! Le roi blanc ne peut plus échapper à notre réseau. Le cavalier adverse réalise une fourchette sur notre tour et notre fou, mais il est trop tard : trouvez le mat en deux !}\r\n48...Nf3+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Maintenant que le roi blanc ne peut plus aller en h3, il est temps de lui donner un échec !]}\r\n49.Kh1\r\n    {Bien joué ! Le roi blanc est acculé dans le coin de l'échiquier. Matez-le !}\r\n49...Rg1#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Votre cavalier est bien placé pour soutenir l'estocade finale de la tour !] Bien joué ! Vous avez su mettre en place un réseau de mat imparable.}\r\n    (49...Rh4# $5 {Superbe ! Trouvez maintenant l'autre mat jouable dans cette position.})\r\n*"
+    },
+    {
+      "fen": "6k1/8/p5KP/bp2N3/1n6/1b3P2/2p1p1P1/R7 w - - 1 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Serez-vous capable de tisser un réseau de mat comme Viktor Korchnoi le faisait à 80 ans ? Trait aux blancs !",
+        "[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Comment menacer à la fois de promouvoir un pion et de mater le roi noir ?]",
+        "Bien joué ! Le roi noir doit se rendre dans le coin pour empêcher la promotion et le mat. Continuons à tisser notre réseau de mat pour gagner la partie !",
+        "[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Ah, si seulement le cavalier pouvait venir donner l'échec fatal en g6...] Un superbe coup de la légende des échecs. Dans cette position, son adversaire (un grand-maître international !) a abandonné car il ne pouvait plus empêcher Cg6#. Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/p5KP/bp2N3/1n6/1b3P2/2p1p1P1/R7 w - - 1 3\"]\r\n\r\n{Serez-vous capable de tisser un réseau de mat comme Viktor Korchnoi le faisait à 80 ans ? Trait aux blancs !}\r\n3.h7+\r\n    {[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Comment menacer à la fois de promouvoir un pion et de mater le roi noir ?]}\r\n3...Kh8\r\n    {Bien joué ! Le roi noir doit se rendre dans le coin pour empêcher la promotion et le mat. Continuons à tisser notre réseau de mat pour gagner la partie !}\r\n4.Kh6\r\n    {[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Ah, si seulement le cavalier pouvait venir donner l'échec fatal en g6...] Un superbe coup de la légende des échecs. Dans cette position, son adversaire (un grand-maître international !) a abandonné car il ne pouvait plus empêcher Cg6#. Beau travail !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "71e3568a-9ced-11e8-9110-7f771facd923",
+    "name": "Réseaux de mat",
+    "path": "reseaux-de-mat",
+    "description": "Lorsque vous pièces se coordonnent pour empêcher le roi adverse de fuir l’attaque, on parle de réseau de mat. Pour former un réseau, il n’est pas nécessaire de ne donner que des échecs. Parfois, un coup silencieux empêchant le roi de s’échapper est encore plus fort.",
+    "glyphName": "move-mate-net",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-mating-net-e3g.mp4",
+    "fen": "2bn1r1k/6pp/1qp5/1p3pN1/p4P2/1B6/PPP3PP/3Q1R1K w - - 0 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/R7/1p6/3pn1kB/PP1P2P1/2Pb4/3K4/8 b - - 3 38\"]\r\n\r\n{Trait aux noirs, conduits par le grand-maître Viktor Korchnoi. Il semble qu'il soit sur le point de perdre une pièce, mais grâce à un joli réseau de mat, le grand Viktor est en réalité gagnant ! A vous de trouver comment.}\r\n38...Nc4+\r\n    {[%wrong Ce coup ne crée pas de réseau de mat, et les blancs sont désormais gagnants. Cherchez encore !][%hint Trouvez un échec forçant le roi blanc à prendre le fou sous peine de se faire mater sur la première rangée.]}\r\n    (38...Rf2+ $5 {Bien vu ! Ce coup crée également un réseau de mat après Re1 et ...Tf1+, mais il existe un ordre de coups plus rapide encore. Trouvez-le !})\r\n39.Kxd3\r\n    {Bien calculé ! Le roi blanc doit absolument prendre le fou sous peine de se faire mater immédiatement. A vous de mettre en place le réseau de mat !}\r\n39...Rf2\r\n    {[%wrong Ce coup ne crée pas de réseau de mat, et les blancs sont désormais gagnants. Cherchez encore !][%hint Enfermez le roi sur la troisième rangée...] Vous avez trouvé le superbe réseau de Korchnoi, bien joué ! Les blancs ne peuvent plus empêcher ...Td2 mat.}\r\n    (39...Rf3+ $2 40.Ke2 {Bien essayé, mais le cavalier noir et la tour ne peuvent forcer le mat à eux seuls... Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p1r2p2/4qPr1/1Q5p/8/6PP/2p2R1K/3R4 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de jouer ...c2 sans se rendre compte qu'ils étaient dans un réseau de mat ! A vous de jouer.}\r\n1.Rd8+\r\n    {[%wrong Ce coup ne force pas le mat, cherchez encore !][%hint Trouvez l'échec qui force le roi noir à se rendre sur la colonne h.]}\r\n    (1.Qb8+ $2 Rc8 {Bien essayé, mais les noirs échappent au réseau de mat. Trouvez mieux !})\r\n1...Kh7\r\n    {Joli ! Le roi noir se retrouve sur la dangereuse colonne h. Continuez l'attaque !}\r\n2.Qxh5+\r\n    {[%wrong Ce coup ne force pas le mat, cherchez encore !][%hint Comment ramener la dame au cœur du combat ?]}\r\n    (2.Qb8 $6 Qxf6 {Cette idée incroyable est également gagnante, mais laisser les noirs promouvoir un pion en dame complique inutilement la position. Trouvez le réseau de mat le plus simple !})\r\n2...Rh6\r\n    {Bien vu ! La tour noire doit absolument parer l'échec. Votre adversaire est-il vraiment dans un réseau de mat ? Prouvez-le !}\r\n3.Rh8+\r\n    {[%wrong Bien essayé, mais il n'existe qu'un seul chemin vers la victoire. Trouvez une idée plus tranchante !][%hint Forcez le roi noir à relâcher sa protection de la tour pour mater en deux !]}\r\n3...Kxh8\r\n    {Beau travail ! Le roi noir ne peut plus continuer à protéger sa tour, et les blancs matent désormais en deux coups. Trouvez comment !}\r\n4.Qxh6+\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Le roi noir ne protège plus sa tour !]}\r\n4...Kg8\r\n    {Parfait ! Il est maintenant temps de mater.}\r\n5.Qg7#\r\n    {[%wrong Ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo ! Vous avez su créer un joli réseau de mat.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1r4k/pp1q2R1/5pp1/3p2N1/6Q1/8/PP3PPP/2R3K1 w - - 3 27\"]\r\n\r\n{Dans cette position célèbre, le premier champion du monde de l'histoire, Wilhelm Steinitz, a montré au public pourquoi son adversaire avait abandonné. Découvrons son réseau de mat en commençant par 27.Dh4+ !}\r\n27.Qh4+\r\n    {[%wrong Commençons si vous le voulez comme Steinitz en jouant 27. Dh4+.][%hint Déplacez votre dame sur la case h4.]}\r\n27...Kxg7\r\n    {Difficile d'imaginer que le roi noir est dans un réseau... Et pourtant ! Essayez de trouver l'idée de Steinitz.}\r\n28.Qh7+\r\n    {[%wrong Bien essayé, mais il va nous falloir faire jouer notre dame et notre cavalier de concert pour mater. Cherchez encore !][%hint Mettez le roi adverse en échec grâce au soutien du cavalier.]}\r\n28...Kf8\r\n    {Bien joué ! Le roi noir doit se rendre sur la huitième rangée. Et ce n'est pas la dernière fois ! Comment continuer ?}\r\n29.Qh8+\r\n    {[%wrong Bien essayé, mais il faut trouver un coup qui force le roi noir à se rendre vers le milieu de l'échiquier. Cherchez encore !][%hint Trouvez un échec forçant le roi à se rendre en e7.]}\r\n    (29.Rxc8+ $2 Rxc8 {Les noirs renouvelle la menace de mat du couloir et les blancs ne bloquent désormais plus le roi adverse qui peut se rendre sur la colonne c. Or, c'est un facteur très important, comme nous allons le voir ensuite. Trouvez mieux !})\r\n    (29.Qxd7 $2 {N'oubliez pas les ressources noirs ! Il fait trouver un coup plus tranchant et direct.} 29...Rxc1#)\r\n29...Ke7\r\n    {Coup après coup, les blancs forcent le roi noir à se rapprocher de la case d8, sur laquelle il subira une terrible combinaison de mat. Comment le forcer à rester près de la colonne d ?}\r\n30.Qg7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi noir à rester au contact de la colonne d. Cherchez encore !][%hint Trouvez l'échec qui rapproche notre dame du roi adverse sans risques.]}\r\n    (30.Qh7+ $2 Kd6 {Cela parait insensé, et pourtant, le roi noir va survivre à cette attaque car il nous est impossible de prendre le pion f6 avec notre dame. Trouvez un meilleur échec de dame !})\r\n    (30.Re1+ $6 {Ce fort coup devrait également mener les blancs à la victoire, mais le roi noir échappe à notre réseau de mat. Trouvez mieux !})\r\n30...Ke8\r\n    {Excellent travail ! Les noirs ne peuvent pas mettre leur roi en d6 à cause Dxf6+ et mat à suivre. Par conséquent, le roi noir retourne sur la dernière rangée. Trouvez maintenant deux échecs de la dame le forçant à aller en d8.}\r\n31.Qg8+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi à aller sur la case d8. Cherchez encore !][%hint L'idée consiste à jouer Df7+ au prochain coup...]}\r\n31...Ke7\r\n    {Parfait ! La dame est prête à envoyer le roi en d8 avec le soutien du cavalier. A vous de continuer !}\r\n32.Qf7+\r\n    {[%wrong Ce coup ne force pas le roi noir à aller en d8. Cherchez encore !][%hint Utilisez la puissance combinée du cavalier et de la dame.]}\r\n32...Kd8\r\n    {Les noirs ne peuvent pas mettre leur roi en d6 à cause Dxf6+ et mat à suivre. Cette fois, le roi noir se retrouve en d8. Comment clouer la dame noire sur la huitième rangée tout en préparant une combinaison de mat ?}\r\n33.Qf8+\r\n    {[%wrong Ce coup ne force pas la dame noire à revenir sur la dernière rangée. Cherchez encore !][%hint Trouvez un échec ne pouvant être paré que par la dame noire.]}\r\n    (33.Qxf6+ $2 Qe7 {Oups ! Le roi échappe à notre réseau de mat. Trouvez mieux !})\r\n    (33.Qg8+ $6 {C'est la bonne idée, mais ce coup ne force pas la dame noire à se rendre sur la huitième rangée. Trouvez mieux !})\r\n    (33.Ne6+ $2 Qxe6 {Ce coup a l'air fort, mais il perd la partie à cause de la faiblesse de notre première rangée ! Cherchez encore.})\r\n33...Qe8\r\n    {Bien vu, c'est enfin l'heure du grand final ! Trouvez le mat en deux.}\r\n34.Nf7+\r\n    {[%wrong Ce coup ne force pas le mat. Cherchez encore !][%hint Trouvez un échec de cavalier protégeant d6 et préparant le mat au prochain coup.]}\r\n    (34.Qd6+ $5 {Bien joué ! Ce coup mate également en force après Ce6+. Mais il existe un moyen encore plus rapide de mater... Trouvez-le !})\r\n    (34.Ne6+ $2 Kd7 {Les blancs sont sans doute toujours gagnants après Cc5+, mais il est possible de mater en deux ! Trouvez le mat le plus rapide.})\r\n34...Kd7\r\n    {Fantastique ! Finissons le travail comme Steinitz l'aurait fait : en matant le roi noir !}\r\n35.Qd6#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Encore une fois, la dame et le cavalier sont de redoutables attaquants !] Bravo, vous avez su suivre les traces du grand Wilhelm ! Continuez sur cette voie, et vous serez bientôt un expert des réseaux de mat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1R4p1/6k1/2B3n1/2p3r1/3b4/1P5K/3N4 b - - 6 47\"]\r\n\r\n{Le roi blanc est sous pression. Ramenez un fou en attaque pour l'enfermer dans un réseau de mat !}\r\n47...Bf1\r\n    {[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Les noirs aimeraient jouer ...Cf3+ sans que le roi adverse puisse s'échapper en h3...]}\r\n    (47...Nf3+ $6 48.Kh3 {Les noirs ont toujours une excellente position, mais nous n'avons pas créé de réseau de mat... Trouvez mieux !})\r\n48.Ne3\r\n    {Bien vu ! Le roi blanc ne peut plus échapper à notre réseau. Le cavalier adverse réalise une fourchette sur notre tour et notre fou, mais il est trop tard : trouvez le mat en deux !}\r\n48...Nf3+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Maintenant que le roi blanc ne peut plus aller en h3, il est temps de lui donner un échec !]}\r\n49.Kh1\r\n    {Bien joué ! Le roi blanc est acculé dans le coin de l'échiquier. Matez-le !}\r\n49...Rg1#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Votre cavalier est bien placé pour soutenir l'estocade finale de la tour !] Bien joué ! Vous avez su mettre en place un réseau de mat imparable.}\r\n    (49...Rh4# $5 {Superbe ! Trouvez maintenant l'autre mat jouable dans cette position.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/p5KP/bp2N3/1n6/1b3P2/2p1p1P1/R7 w - - 1 3\"]\r\n\r\n{Serez-vous capable de tisser un réseau de mat comme Viktor Korchnoi le faisait à 80 ans ? Trait aux blancs !}\r\n3.h7+\r\n    {[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Comment menacer à la fois de promouvoir un pion et de mater le roi noir ?]}\r\n3...Kh8\r\n    {Bien joué ! Le roi noir doit se rendre dans le coin pour empêcher la promotion et le mat. Continuons à tisser notre réseau de mat pour gagner la partie !}\r\n4.Kh6\r\n    {[%wrong Ce coup ne crée pas de réseau de mat. Cherchez encore !][%hint Ah, si seulement le cavalier pouvait venir donner l'échec fatal en g6...] Un superbe coup de la légende des échecs. Dans cette position, son adversaire (un grand-maître international !) a abandonné car il ne pouvait plus empêcher Cg6#. Beau travail !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "En combinant la puissance de vos pièces, vous pouvez créer des réseaux de mat.",
+    "outroText": "Continuez comme ça ! Votre sens de l'attaque augmente à vue d'œil.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "path": "attaquer-le-roi",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/fb3a54c6-a55b-11e8-a822-312ba136ba58.45c9b3b7.728x410o.0b4182d70109.png"
+    },
+    "parentId": "961c14f0-83b7-11e8-95ae-d3f30170f5cc",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/mating-net604b75173ab18.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/siatka-matowa604b7641ad365.pl_PL.vtt",
+        "languageCode": "pl",
+        "languageName": "Polski"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/mating-net-15ea23e3f92ed5.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/rete-di-matto604b76b08cad5.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/mating-net-2604b7d23027be.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 120,
+    "order": 4,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi",
+      "order": 5
+    }
+  }
+}

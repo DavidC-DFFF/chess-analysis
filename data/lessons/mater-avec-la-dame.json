@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-la-partie/mater-avec-la-dame",
+  "capturedAt": "2026-10-22T12:23:31.063Z",
+  "title": "Mater avec la dame",
+  "exercises": [
+    {
+      "fen": "7k/8/5K2/6Q1/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le mat en un !",
+        "[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Donnez échec sur une case où la dame sera protégée par son roi.] Bien joué ! Grâce à la protection de son roi, la dame met le roi adverse échec et mat.",
+        "Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/5K2/6Q1/8/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en un !}\r\n1.Qg7#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Donnez échec sur une case où la dame sera protégée par son roi.] Bien joué ! Grâce à la protection de son roi, la dame met le roi adverse échec et mat.}\r\n    (1.Qg6 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "7k/2Q5/5K2/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs peuvent-ils mater immédiatement, ou doivent-ils jouer Rg6 pour préparer le mat ?",
+        "[%wrong Il est possible de mater en un. Essayez encore !][%hint Donnez échec sur une case où la dame sera protégée par son roi.] Bien joué, c'est échec et mat.",
+        "Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !",
+        "Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !",
+        "Oups ! Sur cette case, la dame blanche n'était pas protégée. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/2Q5/5K2/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs peuvent-ils mater immédiatement, ou doivent-ils jouer Rg6 pour préparer le mat ?}\r\n1.Qg7#\r\n    {[%wrong Il est possible de mater en un. Essayez encore !][%hint Donnez échec sur une case où la dame sera protégée par son roi.] Bien joué, c'est échec et mat.}\r\n    (1.Kg6 $5 {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n    (1.Qf7 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n    (1.Qh7+ $2 Kxh7 {Oups ! Sur cette case, la dame blanche n'était pas protégée. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "7k/8/8/4K1Q1/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir est encerclé. Trouvez un coup qui nous permettra de mater au prochain !",
+        "[%wrong Ce coup ne va pas permettre de mater au prochain. Essayez encore !][%hint La dame a besoin de l'aide de son roi pour mater.]",
+        "Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !",
+        "Bien joué ! Le roi blanc est idéalement placé pour aider la dame à mater au prochain coup. A vous de jouer !",
+        "[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Ne laissez pas de cases de fuite au roi noir.] Bien joué, c'est échec et mat.",
+        "Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !",
+        "Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/8/4K1Q1/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi noir est encerclé. Trouvez un coup qui nous permettra de mater au prochain !}\r\n1.Kf6\r\n    {[%wrong Ce coup ne va pas permettre de mater au prochain. Essayez encore !][%hint La dame a besoin de l'aide de son roi pour mater.]}\r\n    (1.Qg6 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n1...Kh7\r\n    {Bien joué ! Le roi blanc est idéalement placé pour aider la dame à mater au prochain coup. A vous de jouer !}\r\n2.Qg7#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Ne laissez pas de cases de fuite au roi noir.] Bien joué, c'est échec et mat.}\r\n    (2.Qg6+ $5 {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n    (2.Kf7 $5 {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "1k6/8/8/2K5/8/8/8/3Q4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment forcer le roi noir à se rendre sur la case a8 ?",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la case a8. Essayez encore !][%hint La dame doit se poster sur la septième rangée.]",
+        "Bravo ! Vous avez forcé le roi adverse à aller dans le coin. Maintenant, ramenez votre propre roi à la rescousse pour mater.",
+        "[%wrong Ce coup ne va pas nous permettre de mater au prochain. Essayez encore !][%hint Le roi doit se rapprocher de son homologue noir.]",
+        "Ce coup prépare en effet un mat au prochain. Trouvez un autre coup remplissant la même fonction !",
+        "Bien joué ! Il est maintenant de mater le roi adverse sur une case contrôlée par votre roi.",
+        "[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Ne laissez pas de cases de fuite au roi noir.] Bien joué, c'est échec et mat.",
+        "Bien joué ! C'est effectivement échec et mat. Trouvez un autre mat sur une case où la dame est protégée par son roi.",
+        "Bien joué ! C'est effectivement échec et mat. Trouvez un autre mat sur une case où la dame est protégée par son roi.",
+        "Oups ! Sur cette case, la dame n'est pas protégée. Essayez encore !",
+        "Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/8/8/2K5/8/8/8/3Q4 w - - 0 1\"]\r\n\r\n{Comment forcer le roi noir à se rendre sur la case a8 ?}\r\n1.Qd7\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la case a8. Essayez encore !][%hint La dame doit se poster sur la septième rangée.]}\r\n1...Ka8\r\n    {Bravo ! Vous avez forcé le roi adverse à aller dans le coin. Maintenant, ramenez votre propre roi à la rescousse pour mater.}\r\n2.Kb6\r\n {[%wrong Ce coup ne va pas nous permettre de mater au prochain. Essayez encore !][%hint Le roi doit se rapprocher de son homologue noir.]}\r\n    (2.Kc6 $1 {Ce coup prépare en effet un mat au prochain. Trouvez un autre coup remplissant la même fonction !})\r\n2...Kb8\r\n    {Bien joué ! Il est maintenant de mater le roi adverse sur une case contrôlée par votre roi.}\r\n3.Qb7#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Ne laissez pas de cases de fuite au roi noir.] Bien joué, c'est échec et mat.}\r\n    (3.Qd8# $1 {Bien joué ! C'est effectivement échec et mat. Trouvez un autre mat sur une case où la dame est protégée par son roi.})\r\n    (3.Qe8# $1 {Bien joué ! C'est effectivement échec et mat. Trouvez un autre mat sur une case où la dame est protégée par son roi.})\r\n    (3.Qc8+ $2 Kxc8 {Oups ! Sur cette case, la dame n'est pas protégée. Essayez encore !})\r\n    (3.Qc7+ {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "k7/8/1K6/8/8/8/1Q6/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le mat en un !",
+        "[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Donnez échec avec la dame.] Bien joué, c'est échec et mat.",
+        "Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/1K6/8/8/8/1Q6/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en un !}\r\n1.Qh8#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Donnez échec avec la dame.] Bien joué, c'est échec et mat.}\r\n    (1.Ka6 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "13fcdc58-9ce8-11e8-beaa-db87e056d8d9",
+    "name": "Mater avec la dame",
+    "path": "mater-avec-la-dame",
+    "description": "Pour gagner avec une dame, rien de plus simple : 1. Placez votre dame à un coup de cavalier du roi adverse pour restreindre son mouvement. 2. Copiez les coups du roi adverse avec la dame pour rester toujours à la même distance. 3.Lorsque le roi adverse atteint le bord de l’échiquier, placez la dame sur la deuxième colonne ou rangée pour l’empêcher de quitter la bordure. 4.Ramenez le roi au plus près du roi adverse, puis matez grâce au baiser de la mort !",
+    "glyphName": "piece-badge-queen-mate",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-checkmate-with-the-queen-v3w.mp4",
+    "fen": "7k/8/5K2/6Q1/8/8/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/5K2/6Q1/8/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en un !}\r\n1.Qg7#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Donnez échec sur une case où la dame sera protégée par son roi.] Bien joué ! Grâce à la protection de son roi, la dame met le roi adverse échec et mat.}\r\n    (1.Qg6 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/2Q5/5K2/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs peuvent-ils mater immédiatement, ou doivent-ils jouer Rg6 pour préparer le mat ?}\r\n1.Qg7#\r\n    {[%wrong Il est possible de mater en un. Essayez encore !][%hint Donnez échec sur une case où la dame sera protégée par son roi.] Bien joué, c'est échec et mat.}\r\n    (1.Kg6 $5 {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n    (1.Qf7 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n    (1.Qh7+ $2 Kxh7 {Oups ! Sur cette case, la dame blanche n'était pas protégée. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/8/8/4K1Q1/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi noir est encerclé. Trouvez un coup qui nous permettra de mater au prochain !}\r\n1.Kf6\r\n    {[%wrong Ce coup ne va pas permettre de mater au prochain. Essayez encore !][%hint La dame a besoin de l'aide de son roi pour mater.]}\r\n    (1.Qg6 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n1...Kh7\r\n    {Bien joué ! Le roi blanc est idéalement placé pour aider la dame à mater au prochain coup. A vous de jouer !}\r\n2.Qg7#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Ne laissez pas de cases de fuite au roi noir.] Bien joué, c'est échec et mat.}\r\n    (2.Qg6+ $5 {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n    (2.Kf7 $5 {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/8/8/2K5/8/8/8/3Q4 w - - 0 1\"]\r\n\r\n{Comment forcer le roi noir à se rendre sur la case a8 ?}\r\n1.Qd7\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la case a8. Essayez encore !][%hint La dame doit se poster sur la septième rangée.]}\r\n1...Ka8\r\n    {Bravo ! Vous avez forcé le roi adverse à aller dans le coin. Maintenant, ramenez votre propre roi à la rescousse pour mater.}\r\n2.Kb6\r\n {[%wrong Ce coup ne va pas nous permettre de mater au prochain. Essayez encore !][%hint Le roi doit se rapprocher de son homologue noir.]}\r\n    (2.Kc6 $1 {Ce coup prépare en effet un mat au prochain. Trouvez un autre coup remplissant la même fonction !})\r\n2...Kb8\r\n    {Bien joué ! Il est maintenant de mater le roi adverse sur une case contrôlée par votre roi.}\r\n3.Qb7#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Ne laissez pas de cases de fuite au roi noir.] Bien joué, c'est échec et mat.}\r\n    (3.Qd8# $1 {Bien joué ! C'est effectivement échec et mat. Trouvez un autre mat sur une case où la dame est protégée par son roi.})\r\n    (3.Qe8# $1 {Bien joué ! C'est effectivement échec et mat. Trouvez un autre mat sur une case où la dame est protégée par son roi.})\r\n    (3.Qc8+ $2 Kxc8 {Oups ! Sur cette case, la dame n'est pas protégée. Essayez encore !})\r\n    (3.Qc7+ {Ce coup va effectivement nous permettre de mater au prochain, mais il était possible de mater en un. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/8/1K6/8/8/8/1Q6/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en un !}\r\n1.Qh8#\r\n    {[%wrong Ce coup ne met pas le roi noir échec et mat. Essayez encore !][%hint Donnez échec avec la dame.] Bien joué, c'est échec et mat.}\r\n    (1.Ka6 $2 {Oups ! Le roi noir ne peut plus bouger, mais il n'est pas en échec. C'est pat ! Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "2a28990a-a557-11e8-9594-511f3664a6ec",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrons la technique pour mater avec une dame.",
+    "outroText": "Magnifique ! Vous devriez souvent avoir à employer cette technique en fin de partie.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "path": "gagner-la-partie",
+      "title": "Gagner la partie",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/2a28990a-a557-11e8-9594-511f3664a6ec.97114806.728x410o.7ceb702a43b5.png"
+    },
+    "parentId": "ecb13e54-83a7-11e8-b00f-c736a78b38da",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-queen5e579c5c70550.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-queen-5668888db0f775.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-queen-1606af54fb712c.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-queen-65ea245aa0b1d8.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/scaccomatto-con-la-donna63920929e28f5.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 28,
+    "order": 4,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "name": "Gagner la partie",
+      "path": "gagner-la-partie",
+      "order": 3
+    }
+  }
+}

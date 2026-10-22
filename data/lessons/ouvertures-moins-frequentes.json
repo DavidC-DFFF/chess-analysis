@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/ouvertures-moins-frequentes",
+  "capturedAt": "2026-10-22T12:23:44.199Z",
+  "title": "Les ouvertures moins fréquentes",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Si l'on a pas envie de prendre immédiatement le contrôle du centre, l'ouverture anglaise peut être un excellent choix. Elle consiste à jouer un pion du fou pour contrôler la case d5. Armé de cette description, jouez l'ouverture anglaise !",
+        "[%wrong Non, ce n'est pas l'ouverture anglaise. Cherchez encore !][%hint A part e4, quel est le seul premier coup de pion qui permet de contrôler la case d5 ?]",
+        "Bien joué ! Les blancs se lancent dans une stratégie sur cases blanches. Développons maintenant une pièce mineure pour renforcer notre contrôle de d5.",
+        "[%wrong Ce coup ne développe pas une pièce mineure aidant au contrôle de d5. Cherchez encore !][%hint Trouvez un coup de développement naturel pour un cavalier.]",
+        "Très bien ! Activons maintenant notre fou de cases blanches sur la puissante diagonale h1-a8.",
+        "[%wrong Ce coup ne va pas nous permettre d'activer le fou de cases blanches sur la diagonale a1-h8. Cherchez encore !][%hint Faites de la place pour votre fou qui aimerait se poster sur la case g2.]",
+        "C'est le bon pion, mais pas le bon coup ! Vous perdez un pion. Trouvez un coup plus sûr !",
+        "Bien vu ! Dès le prochain coup, vous pourrez développer votre fou sur la grande diagonale et obtenir un contrôle des cases blanches encore plus important. A vous de jouer !",
+        "[%wrong Ce coup n'active pas notre fou sur la diagonale h1-a8. Cherchez encore !][%hint Maintenant que la case g2 est libre, utilisons-la pour notre fou !] Très bien ! le fou de cases blanches va être très fort sur la grande diagonale. Dans cette position, les noirs jouent généralement ...Fb4 ou ...Fc5, avec un combat intéressant à venir."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{Si l'on a pas envie de prendre immédiatement le contrôle du centre, l'ouverture anglaise peut être un excellent choix. Elle consiste à jouer un pion du fou pour contrôler la case d5. Armé de cette description, jouez l'ouverture anglaise !}\r\n1.c4\r\n    {[%wrong Non, ce n'est pas l'ouverture anglaise. Cherchez encore !][%hint A part e4, quel est le seul premier coup de pion qui permet de contrôler la case d5 ?]}\r\n1...e5\r\n    {Bien joué ! Les blancs se lancent dans une stratégie sur cases blanches. Développons maintenant une pièce mineure pour renforcer notre contrôle de d5.}\r\n2.Nc3\r\n    {[%wrong Ce coup ne développe pas une pièce mineure aidant au contrôle de d5. Cherchez encore !][%hint Trouvez un coup de développement naturel pour un cavalier.]}\r\n2...Nf6\r\n    {Très bien ! Activons maintenant notre fou de cases blanches sur la puissante diagonale h1-a8.}\r\n3.g3\r\n    {[%wrong Ce coup ne va pas nous permettre d'activer le fou de cases blanches sur la diagonale a1-h8. Cherchez encore !][%hint Faites de la place pour votre fou qui aimerait se poster sur la case g2.]}\r\n    (3.g4 $2 Nxg4 {C'est le bon pion, mais pas le bon coup ! Vous perdez un pion. Trouvez un coup plus sûr !})\r\n3...Nc6\r\n    {Bien vu ! Dès le prochain coup, vous pourrez développer votre fou sur la grande diagonale et obtenir un contrôle des cases blanches encore plus important. A vous de jouer !}\r\n4.Bg2\r\n    {[%wrong Ce coup n'active pas notre fou sur la diagonale h1-a8. Cherchez encore !][%hint Maintenant que la case g2 est libre, utilisons-la pour notre fou !] Très bien ! le fou de cases blanches va être très fort sur la grande diagonale. Dans cette position, les noirs jouent généralement ...Fb4 ou ...Fc5, avec un combat intéressant à venir.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un autre plan solide : préparer d5 et transposer dans un gambit dame refusé. Quel coup de pion pourrait s'inscrire dans ce plan ?",
+        "[%wrong Ce coup ne prépare pas la poussée ...d5. Cherchez encore !][%hint Le pion e est le candidat idéal pour soutenir la poussée ...d5.]",
+        "C'est une idée intéressante ! La partie pourrait transposer dans une défense slave ou une Caro-Kann. Trouvez maintenant l'autre coup de pion qui prépare d5.",
+        "C'est l'idée, mais nous voulons pouvoir reprendre ce pion avec un pion quand il sera capturé. Préparons la poussée.",
+        "Très bien ! Les noirs sont prêt à contester le centre avec le coup ...d5. Jouez-le !",
+        "[%wrong Non, nous voulons jouer le coup ...d5.][%hint Jouez le coup ...d5.]",
+        "Très bien ! Les noirs contrent la stratégie sur cases blanches des blancs en transposant dans le gambit dame refusé."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les noirs ont un autre plan solide : préparer d5 et transposer dans un gambit dame refusé. Quel coup de pion pourrait s'inscrire dans ce plan ?}\r\n1...e6\r\n    {[%wrong Ce coup ne prépare pas la poussée ...d5. Cherchez encore !][%hint Le pion e est le candidat idéal pour soutenir la poussée ...d5.]}\r\n    (1...c6 $5 {C'est une idée intéressante ! La partie pourrait transposer dans une défense slave ou une Caro-Kann. Trouvez maintenant l'autre coup de pion qui prépare d5.})\r\n    (1...d5 $6 2.cxd5 {C'est l'idée, mais nous voulons pouvoir reprendre ce pion avec un pion quand il sera capturé. Préparons la poussée.})\r\n2.Nc3\r\n    {Très bien ! Les noirs sont prêt à contester le centre avec le coup ...d5. Jouez-le !}\r\n2...d5\r\n    {[%wrong Non, nous voulons jouer le coup ...d5.][%hint Jouez le coup ...d5.]}\r\n3.d4\r\n    {Très bien ! Les noirs contrent la stratégie sur cases blanches des blancs en transposant dans le gambit dame refusé.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont joué le début Bird. Profitons-en pour prendre tout de suite de l'espace au centre avec un coup de pion !",
+        "[%wrong Ce coup ne place pas un pion au centre de l'échiquier. Cherchez encore !][%hint Quel est le seul pion pouvant être placé au centre sans risque ?]",
+        "Ce coup risqué est connu sous le nom de gambit From. Y'a-t-il un coup plus prudent qui nous permettrait de prendre de l'espace au centre ?",
+        "Très bien. Les noirs ont maintenant de nombreux coups intéressants à jouer, comme par exemple 2...Cf6. Cette position est en réalité une défense hollandaise inversée. Pourquoi alors ne pas développer notre fou de cases noires sur la grande diagonale ? A vous de jouer !",
+        "[%wrong Ce coup ne va pas nous permettre d'activer le fou de cases noires sur la grande diagonale. Cherchez encore !][%hint Faites de la place pour votre fou qui aimerait se poster sur la case g7.]",
+        "C'est le bon pion, mais pas le bon coup ! Vous perdez un pion. Trouvez un coup plus sûr !",
+        "Parfait ! Il est maintenant temps de mettre notre fou de cases noires en fianchetto. A vous de jouer !",
+        "[%wrong Ce coup n'active pas notre fou sur la diagonale a1-h8. Cherchez encore !][%hint Maintenant que la case g7 est libre, utilisons-la pour notre fou !] Et voilà ! Cette défense hollandaise (1.d4 f5) inversée est une ouverture très solide pour les noirs."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs ont joué le début Bird. Profitons-en pour prendre tout de suite de l'espace au centre avec un coup de pion !}\r\n1...d5\r\n    {[%wrong Ce coup ne place pas un pion au centre de l'échiquier. Cherchez encore !][%hint Quel est le seul pion pouvant être placé au centre sans risque ?]}\r\n    (1...e5 $6 2.fxe5 {Ce coup risqué est connu sous le nom de gambit From. Y'a-t-il un coup plus prudent qui nous permettrait de prendre de l'espace au centre ?})\r\n2.Nf3\r\n    {Très bien. Les noirs ont maintenant de nombreux coups intéressants à jouer, comme par exemple 2...Cf6. Cette position est en réalité une défense hollandaise inversée. Pourquoi alors ne pas développer notre fou de cases noires sur la grande diagonale ? A vous de jouer !}\r\n2...g6\r\n    {[%wrong Ce coup ne va pas nous permettre d'activer le fou de cases noires sur la grande diagonale. Cherchez encore !][%hint Faites de la place pour votre fou qui aimerait se poster sur la case g7.]}\r\n    (2...g5 $2 3.fxg5 {C'est le bon pion, mais pas le bon coup ! Vous perdez un pion. Trouvez un coup plus sûr !})\r\n3.g3\r\n    {Parfait ! Il est maintenant temps de mettre notre fou de cases noires en fianchetto. A vous de jouer !}\r\n3...Bg7\r\n    {[%wrong Ce coup n'active pas notre fou sur la diagonale a1-h8. Cherchez encore !][%hint Maintenant que la case g7 est libre, utilisons-la pour notre fou !] Et voilà ! Cette défense hollandaise (1.d4 f5) inversée est une ouverture très solide pour les noirs.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette fois, les blancs ont choisi le début Larsen. Encore une fois, prenons de l'espace au centre par un coup de pion !",
+        "[%wrong Ce coup n'installe pas de pion au centre. Cherchez encore !][%hint Comment mettre un pion directement au centre de l'échiquier ?]",
+        "Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.",
+        "Bon travail ! Les blancs mettent tout de suite la pression sur notre pion e5. En prenant en compte les principes généraux de l'ouverture, comment le défendre efficacement ?",
+        "[%wrong Ce coup ne protège pas le pion e5. Cherchez encore !][%hint Trouvez un coup de développement naturel protégeant e5.] Très bien ! En développant un cavalier sur une case naturelle, les noirs renforcent leur contrôle du centre. Grâce à notre pion central, nous allons pouvoir profiter d'un avantage d'espace pour développer nos pièces.",
+        "Ce coup solide obstrue la diagonale du fou de cases noires des blancs, mais notre fou de cases noires, en revanche, va rester très passif. Trouvez un coup développant une pièce.",
+        "Ce coup protège effectivement le pion e5, mais il ouvre des lignes très dangereuses vers notre roi et empêche notre cavalier g8 de se développer sur sa case la plus naturelle. Trouvez un coup développant une pièce.",
+        "Ce coup protège effectivement le pion e5, mais le fou n'est pas content de se retrouver coincé entre deux pions ! Jouons plutôt un cavalier.",
+        "Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.",
+        "Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.",
+        "Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Cette fois, les blancs ont choisi le début Larsen. Encore une fois, prenons de l'espace au centre par un coup de pion !}\r\n1...e5\r\n    {[%wrong Ce coup n'installe pas de pion au centre. Cherchez encore !][%hint Comment mettre un pion directement au centre de l'échiquier ?]}\r\n    (1...d5 $5 {Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.})\r\n2.Bb2\r\n    {Bon travail ! Les blancs mettent tout de suite la pression sur notre pion e5. En prenant en compte les principes généraux de l'ouverture, comment le défendre efficacement ?}\r\n2...Nc6\r\n    {[%wrong Ce coup ne protège pas le pion e5. Cherchez encore !][%hint Trouvez un coup de développement naturel protégeant e5.] Très bien ! En développant un cavalier sur une case naturelle, les noirs renforcent leur contrôle du centre. Grâce à notre pion central, nous allons pouvoir profiter d'un avantage d'espace pour développer nos pièces.}\r\n    (2...d6 $5 {Ce coup solide obstrue la diagonale du fou de cases noires des blancs, mais notre fou de cases noires, en revanche, va rester très passif. Trouvez un coup développant une pièce.})\r\n    (2...f6 $2 {Ce coup protège effectivement le pion e5, mais il ouvre des lignes très dangereuses vers notre roi et empêche notre cavalier g8 de se développer sur sa case la plus naturelle. Trouvez un coup développant une pièce.})\r\n    (2...Bd6 $6 {Ce coup protège effectivement le pion e5, mais le fou n'est pas content de se retrouver coincé entre deux pions ! Jouons plutôt un cavalier.})\r\n    (2...Qe7 $2 {Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.})\r\n    (2...Qf6 $2 {Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.})\r\n    (2...Qg5 $2 3.Nf3 {Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Entrons maintenant dans le monde étrange de l'ouverture de l'orang-outang. Face à une ouverture ne contrôlant pas immédiatement le centre, il est souvent de bon aloi de prendre le contrôle dudit centre. Faisons-le avec un pion !",
+        "[%wrong Nous cherchons à placer un pion au centre. Cherchez encore !][%hint Choisissez quel pion vous préférez mettre au centre.]",
+        "Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.",
+        "Très bien ! Les blancs développent maintenant une pièce et attaquent e5. Une fois n'est pas coutume, dans cette position, il est préférable d'échanger un pion de l'aile adverse contre un pion central. Nous allons voir pourquoi après avoir pris b4.",
+        "[%wrong Non, jouons le coup le plus fort : Fxb4!][%hint Prenez le pion b4.]",
+        "Les blancs menacent maintenant de prendre notre pion g7. Développons donc un cavalier sur une case naturelle pour empêcher cette idée.",
+        "[%wrong Nous voulons développer un cavalier pour empêcher Fxg7. Cherchez encore !][%hint Quel coup de cavalier empêche les blancs de prendre en g7.] Beau travail ! Il paraît peu avisé d'échanger un de nos pions centraux contre un pion de l'aile, mais les noirs ont en réalité un bel avantage. Deux beaux îlots de pions, contre un pion isolé en a2 et la possibilité de roquer dès le prochain coup pour mettre une tour sur la colonne semi-ouverte e. Tout va bien !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Entrons maintenant dans le monde étrange de l'ouverture de l'orang-outang. Face à une ouverture ne contrôlant pas immédiatement le centre, il est souvent de bon aloi de prendre le contrôle dudit centre. Faisons-le avec un pion !}\r\n1...e5\r\n    {[%wrong Nous cherchons à placer un pion au centre. Cherchez encore !][%hint Choisissez quel pion vous préférez mettre au centre.]}\r\n    (1...d5 $5 {Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.})\r\n2.Bb2\r\n    {Très bien ! Les blancs développent maintenant une pièce et attaquent e5. Une fois n'est pas coutume, dans cette position, il est préférable d'échanger un pion de l'aile adverse contre un pion central. Nous allons voir pourquoi après avoir pris b4.}\r\n2...Bxb4\r\n    {[%wrong Non, jouons le coup le plus fort : Fxb4!][%hint Prenez le pion b4.]}\r\n3.Bxe5\r\n    {Les blancs menacent maintenant de prendre notre pion g7. Développons donc un cavalier sur une case naturelle pour empêcher cette idée.}\r\n3...Nf6\r\n    {[%wrong Nous voulons développer un cavalier pour empêcher Fxg7. Cherchez encore !][%hint Quel coup de cavalier empêche les blancs de prendre en g7.] Beau travail ! Il paraît peu avisé d'échanger un de nos pions centraux contre un pion de l'aile, mais les noirs ont en réalité un bel avantage. Deux beaux îlots de pions, contre un pion isolé en a2 et la possibilité de roquer dès le prochain coup pour mettre une tour sur la colonne semi-ouverte e. Tout va bien !}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont choisi la fantasque Grob. Mauvaise idée ! Là encore, nous allons pouvoir prendre le contrôle du centre avec un pion !",
+        "[%wrong Nous voulons mettre immédiatement un pion au centre. Cherchez encore !][%hint Prenons de l'espace au centre avec un pion !]",
+        "Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.",
+        "Les blancs nous invitent gentiment à mettre deux pions au centre. Ne nous faisons pas prier !",
+        "[%wrong Non, nous voulons mettre notre deuxième pion directement au centre.][%hint Quel pion peut venir rejoindre e5 au centre ?] Bien joué ! En plus de prendre le contrôle du centre, nous attaquons le pion g4 non protégé. Les noirs sont déjà mieux. Vous avez très bien appréhendé ces ouvertures irrégulières !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs ont choisi la fantasque Grob. Mauvaise idée ! Là encore, nous allons pouvoir prendre le contrôle du centre avec un pion !}\r\n1...e5\r\n    {[%wrong Nous voulons mettre immédiatement un pion au centre. Cherchez encore !][%hint Prenons de l'espace au centre avec un pion !]}\r\n    (1...d5 $5 {Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.})\r\n2.Bg2\r\n    {Les blancs nous invitent gentiment à mettre deux pions au centre. Ne nous faisons pas prier !}\r\n2...d5\r\n    {[%wrong Non, nous voulons mettre notre deuxième pion directement au centre.][%hint Quel pion peut venir rejoindre e5 au centre ?] Bien joué ! En plus de prendre le contrôle du centre, nous attaquons le pion g4 non protégé. Les noirs sont déjà mieux. Vous avez très bien appréhendé ces ouvertures irrégulières !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "c1475b06-9ceb-11e8-9ed6-5bc6f7f45dff",
+    "name": "Les ouvertures moins fréquentes",
+    "path": "ouvertures-moins-frequentes",
+    "description": "Toutes les parties ne commencent pas par 1.e4 ou 1.d4. La troisième ouverture la plus populaire est la partie anglaise, introduite pas le coup 1.c4. Les noirs peuvent y répondre par 1…e5 ou 1…c5 pour entrer dans positions purement anglaises, ou transposer dans des ouvertures du pion d4 par 1…c6 ou 1…e6. Le début Bird (1.f4) est plus risqué. Il permet de contrôler le centre mais expose le roi blanc aux attaques. 1.b3 est le début Larsen. Un coup jouable, mais qui permet aux noirs d’obtenir rapidement une bonne position en prenant le contrôle du centre. 1.b4 est l’ouverture de l’orang-outang. Les noirs peuvent y répondre de manière avantageuse en plaçant des pions au centre. 1.g4 est le début Grob, une mauvaise ouverture qui expose le roi blanc et ne contrôle pas le centre. 1.a3 est l’ouverture Anderssen. Elle ne permet pas de contrôler le centre, mais elle n’endommage pas la position blanche.",
+    "glyphName": "emote-face-wink-tongue",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-offbeat-openings-b7q.mp4",
+    "fen": "rnbqkbnr/ppp2ppp/8/3pp3/6P1/8/PPPPPPBP/RNBQK1NR w KQkq d6 0 3",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{Si l'on a pas envie de prendre immédiatement le contrôle du centre, l'ouverture anglaise peut être un excellent choix. Elle consiste à jouer un pion du fou pour contrôler la case d5. Armé de cette description, jouez l'ouverture anglaise !}\r\n1.c4\r\n    {[%wrong Non, ce n'est pas l'ouverture anglaise. Cherchez encore !][%hint A part e4, quel est le seul premier coup de pion qui permet de contrôler la case d5 ?]}\r\n1...e5\r\n    {Bien joué ! Les blancs se lancent dans une stratégie sur cases blanches. Développons maintenant une pièce mineure pour renforcer notre contrôle de d5.}\r\n2.Nc3\r\n    {[%wrong Ce coup ne développe pas une pièce mineure aidant au contrôle de d5. Cherchez encore !][%hint Trouvez un coup de développement naturel pour un cavalier.]}\r\n2...Nf6\r\n    {Très bien ! Activons maintenant notre fou de cases blanches sur la puissante diagonale h1-a8.}\r\n3.g3\r\n    {[%wrong Ce coup ne va pas nous permettre d'activer le fou de cases blanches sur la diagonale a1-h8. Cherchez encore !][%hint Faites de la place pour votre fou qui aimerait se poster sur la case g2.]}\r\n    (3.g4 $2 Nxg4 {C'est le bon pion, mais pas le bon coup ! Vous perdez un pion. Trouvez un coup plus sûr !})\r\n3...Nc6\r\n    {Bien vu ! Dès le prochain coup, vous pourrez développer votre fou sur la grande diagonale et obtenir un contrôle des cases blanches encore plus important. A vous de jouer !}\r\n4.Bg2\r\n    {[%wrong Ce coup n'active pas notre fou sur la diagonale h1-a8. Cherchez encore !][%hint Maintenant que la case g2 est libre, utilisons-la pour notre fou !] Très bien ! le fou de cases blanches va être très fort sur la grande diagonale. Dans cette position, les noirs jouent généralement ...Fb4 ou ...Fc5, avec un combat intéressant à venir.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les noirs ont un autre plan solide : préparer d5 et transposer dans un gambit dame refusé. Quel coup de pion pourrait s'inscrire dans ce plan ?}\r\n1...e6\r\n    {[%wrong Ce coup ne prépare pas la poussée ...d5. Cherchez encore !][%hint Le pion e est le candidat idéal pour soutenir la poussée ...d5.]}\r\n    (1...c6 $5 {C'est une idée intéressante ! La partie pourrait transposer dans une défense slave ou une Caro-Kann. Trouvez maintenant l'autre coup de pion qui prépare d5.})\r\n    (1...d5 $6 2.cxd5 {C'est l'idée, mais nous voulons pouvoir reprendre ce pion avec un pion quand il sera capturé. Préparons la poussée.})\r\n2.Nc3\r\n    {Très bien ! Les noirs sont prêt à contester le centre avec le coup ...d5. Jouez-le !}\r\n2...d5\r\n    {[%wrong Non, nous voulons jouer le coup ...d5.][%hint Jouez le coup ...d5.]}\r\n3.d4\r\n    {Très bien ! Les noirs contrent la stratégie sur cases blanches des blancs en transposant dans le gambit dame refusé.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs ont joué le début Bird. Profitons-en pour prendre tout de suite de l'espace au centre avec un coup de pion !}\r\n1...d5\r\n    {[%wrong Ce coup ne place pas un pion au centre de l'échiquier. Cherchez encore !][%hint Quel est le seul pion pouvant être placé au centre sans risque ?]}\r\n    (1...e5 $6 2.fxe5 {Ce coup risqué est connu sous le nom de gambit From. Y'a-t-il un coup plus prudent qui nous permettrait de prendre de l'espace au centre ?})\r\n2.Nf3\r\n    {Très bien. Les noirs ont maintenant de nombreux coups intéressants à jouer, comme par exemple 2...Cf6. Cette position est en réalité une défense hollandaise inversée. Pourquoi alors ne pas développer notre fou de cases noires sur la grande diagonale ? A vous de jouer !}\r\n2...g6\r\n    {[%wrong Ce coup ne va pas nous permettre d'activer le fou de cases noires sur la grande diagonale. Cherchez encore !][%hint Faites de la place pour votre fou qui aimerait se poster sur la case g7.]}\r\n    (2...g5 $2 3.fxg5 {C'est le bon pion, mais pas le bon coup ! Vous perdez un pion. Trouvez un coup plus sûr !})\r\n3.g3\r\n    {Parfait ! Il est maintenant temps de mettre notre fou de cases noires en fianchetto. A vous de jouer !}\r\n3...Bg7\r\n    {[%wrong Ce coup n'active pas notre fou sur la diagonale a1-h8. Cherchez encore !][%hint Maintenant que la case g7 est libre, utilisons-la pour notre fou !] Et voilà ! Cette défense hollandaise (1.d4 f5) inversée est une ouverture très solide pour les noirs.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Cette fois, les blancs ont choisi le début Larsen. Encore une fois, prenons de l'espace au centre par un coup de pion !}\r\n1...e5\r\n    {[%wrong Ce coup n'installe pas de pion au centre. Cherchez encore !][%hint Comment mettre un pion directement au centre de l'échiquier ?]}\r\n    (1...d5 $5 {Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.})\r\n2.Bb2\r\n    {Bon travail ! Les blancs mettent tout de suite la pression sur notre pion e5. En prenant en compte les principes généraux de l'ouverture, comment le défendre efficacement ?}\r\n2...Nc6\r\n    {[%wrong Ce coup ne protège pas le pion e5. Cherchez encore !][%hint Trouvez un coup de développement naturel protégeant e5.] Très bien ! En développant un cavalier sur une case naturelle, les noirs renforcent leur contrôle du centre. Grâce à notre pion central, nous allons pouvoir profiter d'un avantage d'espace pour développer nos pièces.}\r\n    (2...d6 $5 {Ce coup solide obstrue la diagonale du fou de cases noires des blancs, mais notre fou de cases noires, en revanche, va rester très passif. Trouvez un coup développant une pièce.})\r\n    (2...f6 $2 {Ce coup protège effectivement le pion e5, mais il ouvre des lignes très dangereuses vers notre roi et empêche notre cavalier g8 de se développer sur sa case la plus naturelle. Trouvez un coup développant une pièce.})\r\n    (2...Bd6 $6 {Ce coup protège effectivement le pion e5, mais le fou n'est pas content de se retrouver coincé entre deux pions ! Jouons plutôt un cavalier.})\r\n    (2...Qe7 $2 {Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.})\r\n    (2...Qf6 $2 {Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.})\r\n    (2...Qg5 $2 3.Nf3 {Ce coup protège effectivement le pion e5, mais il n'est pas recommandé de développer la dame aussi tôt dans la partie. Trouvons un coup de développement plus naturel.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Entrons maintenant dans le monde étrange de l'ouverture de l'orang-outang. Face à une ouverture ne contrôlant pas immédiatement le centre, il est souvent de bon aloi de prendre le contrôle dudit centre. Faisons-le avec un pion !}\r\n1...e5\r\n    {[%wrong Nous cherchons à placer un pion au centre. Cherchez encore !][%hint Choisissez quel pion vous préférez mettre au centre.]}\r\n    (1...d5 $5 {Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.})\r\n2.Bb2\r\n    {Très bien ! Les blancs développent maintenant une pièce et attaquent e5. Une fois n'est pas coutume, dans cette position, il est préférable d'échanger un pion de l'aile adverse contre un pion central. Nous allons voir pourquoi après avoir pris b4.}\r\n2...Bxb4\r\n    {[%wrong Non, jouons le coup le plus fort : Fxb4!][%hint Prenez le pion b4.]}\r\n3.Bxe5\r\n    {Les blancs menacent maintenant de prendre notre pion g7. Développons donc un cavalier sur une case naturelle pour empêcher cette idée.}\r\n3...Nf6\r\n    {[%wrong Nous voulons développer un cavalier pour empêcher Fxg7. Cherchez encore !][%hint Quel coup de cavalier empêche les blancs de prendre en g7.] Beau travail ! Il paraît peu avisé d'échanger un de nos pions centraux contre un pion de l'aile, mais les noirs ont en réalité un bel avantage. Deux beaux îlots de pions, contre un pion isolé en a2 et la possibilité de roquer dès le prochain coup pour mettre une tour sur la colonne semi-ouverte e. Tout va bien !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs ont choisi la fantasque Grob. Mauvaise idée ! Là encore, nous allons pouvoir prendre le contrôle du centre avec un pion !}\r\n1...e5\r\n    {[%wrong Nous voulons mettre immédiatement un pion au centre. Cherchez encore !][%hint Prenons de l'espace au centre avec un pion !]}\r\n    (1...d5 $5 {Bon choix ! Trouvez maintenant l'autre coup mettant un pion au centre.})\r\n2.Bg2\r\n    {Les blancs nous invitent gentiment à mettre deux pions au centre. Ne nous faisons pas prier !}\r\n2...d5\r\n    {[%wrong Non, nous voulons mettre notre deuxième pion directement au centre.][%hint Quel pion peut venir rejoindre e5 au centre ?] Bien joué ! En plus de prendre le contrôle du centre, nous attaquons le pion g4 non protégé. Les noirs sont déjà mieux. Vous avez très bien appréhendé ces ouvertures irrégulières !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les ouvertures moins jouées peuvent offrir de bonnes surprises.",
+    "outroText": "Les ouvertures moins fréquentes peuvent s'avérer dangereuses quand vous les rencontrez pour la première fois.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "fa2497f4-83b4-11e8-9bb4-f7e517b61366",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/offbeat-openings5d1257d613a60.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/offbeat-openings-566886bd07e8ac.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/offbeat-openings-15ea2407639bd1.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/offbeat-openings-261655447b2d35.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 86,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

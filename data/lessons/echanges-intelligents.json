@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-avancee/echanges-intelligents",
+  "capturedAt": "2026-10-22T13:42:38.462Z",
+  "title": "Échanges intelligents",
+  "exercises": [
+    {
+      "fen": "2r3k1/5pbp/2b1p1p1/1p1pP3/pNpP4/P1Pn1NP1/1P3PB1/1R4K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d3;color;%23eb6150;opacity;0.8;square;d3;persistent;true,c6;color;%23eb6150;opacity;0.8;square;c6;persistent;true,b4;color;%23ffaa00;opacity;0.8;square;b4;persistent;true]Les bonnes pièces contrôlent beaucoup de cases. Contre quelle pièce votre cavalier doit-il s'échanger ?",
+        "[%hint Quelle pièce est la plus dangereuse pour vous ?][%wrong Réessaye.] Exactement, le fou est bloqué par les pions.",
+        "Ce fou n'était pas une menace. Il était bloqué par les pions."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/5pbp/2b1p1p1/1p1pP3/pNpP4/P1Pn1NP1/1P3PB1/1R4K1 w - - 0 1\"]\r\n\r\n{[%c_highlight d3;color;%23eb6150;opacity;0.8;square;d3;persistent;true,c6;color;%23eb6150;opacity;0.8;square;c6;persistent;true,b4;color;%23ffaa00;opacity;0.8;square;b4;persistent;true]Les bonnes pièces contrôlent beaucoup de cases. Contre quelle pièce votre cavalier doit-il s'échanger ?} 1. Nxd3 {[%hint Quelle pièce est la plus dangereuse pour vous ?][%wrong Réessaye.] Exactement, le fou est bloqué par les pions.} (1. Nxc6? {Ce fou n'était pas une menace. Il était bloqué par les pions.}) *"
+    },
+    {
+      "fen": "8/5p2/6p1/4k1PP/8/3K4/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faut-il échanger les pions ou avancer ?",
+        "[%hint Pouvez-vous promouvoir en toute sécurité si vous vous contentez d'avancer ?][%wrong Réessayez. Vous pouvez y arriver.]",
+        "Oui, la voie vers la promotion est dégagée. Pouvez-vous continuer ?",
+        "[%hint Pouvez-vous continuer à promouvoir votre pion ?][%wrong Ce n'était pas le bon coup, pouvez-vous réessayer ?]",
+        "Presque, pouvez-vous promouvoir ?",
+        "[%wrong Votre pion est tout près de la promotion. Pouvez-vous réessayer ?][%hint Pouvez-vous promouvoir en la meilleure pièce ?]Oui, vous avez atteint la promotion !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5p2/6p1/4k1PP/8/3K4/8/8 w - - 0 1\"]\r\n\r\n{Faut-il échanger les pions ou avancer ?} 1. h6 {[%hint Pouvez-vous promouvoir en toute sécurité si vous vous contentez d'avancer ?][%wrong Réessayez. Vous pouvez y arriver.]} 1... Ke6 {Oui, la voie vers la promotion est dégagée. Pouvez-vous continuer ?} 2. h7 {[%hint Pouvez-vous continuer à promouvoir votre pion ?][%wrong Ce n'était pas le bon coup, pouvez-vous réessayer ?]} 2... Ke7 {Presque, pouvez-vous promouvoir ?} 3. h8=Q {[%wrong Votre pion est tout près de la promotion. Pouvez-vous réessayer ?][%hint Pouvez-vous promouvoir en la meilleure pièce ?]Oui, vous avez atteint la promotion !} *"
+    },
+    {
+      "fen": "8/4kb2/1p3b2/pPp1N3/P1P5/1K4B1/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faut-il échanger contre leur fou ?",
+        "[%hint Quelle pièce dangereuse pouvez-vous prendre avec votre cavalier ?][%wrong Réessaye.]Oui, parce qu'il représentait une menace pour votre roi."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4kb2/1p3b2/pPp1N3/P1P5/1K4B1/8/8 w - - 0 1\"]\r\n\r\n{Faut-il échanger contre leur fou ?} 1. Nxf7 {[%hint Quelle pièce dangereuse pouvez-vous prendre avec votre cavalier ?][%wrong Réessaye.]Oui, parce qu'il représentait une menace pour votre roi.} *"
+    },
+    {
+      "fen": "r2qk2r/pp3ppp/2nbpn2/3p4/3P1Bb1/2PB1N2/PP1N1PPP/R2QK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f4;color;%23eb6150;opacity;0.8;square;f4;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true]Vos pions sont solides sur les cases noires, les leurs sur les cases blanches. Faut-il échanger les fous de cases noires ?",
+        "[%hint Ce fou est-il une menace pour vos forts pions ?][%wrong Réessaye.] C'est un bon échange : on échange le fou blanc, gêné par ses propres pions, contre le fou noir actif.",
+        "C'est un bon coup, qui permet aux noirs d'échanger les fous, afin que les blancs puissent reprendre avec le pion h2 et libérer la tour h1."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/pp3ppp/2nbpn2/3p4/3P1Bb1/2PB1N2/PP1N1PPP/R2QK2R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight f4;color;%23eb6150;opacity;0.8;square;f4;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true]Vos pions sont solides sur les cases noires, les leurs sur les cases blanches. Faut-il échanger les fous de cases noires ?} 1. Bxd6 {[%hint Ce fou est-il une menace pour vos forts pions ?][%wrong Réessaye.] C'est un bon échange : on échange le fou blanc, gêné par ses propres pions, contre le fou noir actif.} (1. Bg3!! {C'est un bon coup, qui permet aux noirs d'échanger les fous, afin que les blancs puissent reprendre avec le pion h2 et libérer la tour h1.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c16e-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Échanges intelligents",
+    "path": "echanges-intelligents",
+    "description": "Apprenez à réaliser des échanges intelligents.",
+    "glyphName": "utility-balance",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r3k1/5pbp/2b1p1p1/1p1pP3/pNpP4/P1Pn1NP1/1P3PB1/1R4K1 w - - 0 1\"]\r\n\r\n{[%c_highlight d3;color;%23eb6150;opacity;0.8;square;d3;persistent;true,c6;color;%23eb6150;opacity;0.8;square;c6;persistent;true,b4;color;%23ffaa00;opacity;0.8;square;b4;persistent;true]Les bonnes pièces contrôlent beaucoup de cases. Contre quelle pièce votre cavalier doit-il s'échanger ?} 1. Nxd3 {[%hint Quelle pièce est la plus dangereuse pour vous ?][%wrong Réessaye.] Exactement, le fou est bloqué par les pions.} (1. Nxc6? {Ce fou n'était pas une menace. Il était bloqué par les pions.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5p2/6p1/4k1PP/8/3K4/8/8 w - - 0 1\"]\r\n\r\n{Faut-il échanger les pions ou avancer ?} 1. h6 {[%hint Pouvez-vous promouvoir en toute sécurité si vous vous contentez d'avancer ?][%wrong Réessayez. Vous pouvez y arriver.]} 1... Ke6 {Oui, la voie vers la promotion est dégagée. Pouvez-vous continuer ?} 2. h7 {[%hint Pouvez-vous continuer à promouvoir votre pion ?][%wrong Ce n'était pas le bon coup, pouvez-vous réessayer ?]} 2... Ke7 {Presque, pouvez-vous promouvoir ?} 3. h8=Q {[%wrong Votre pion est tout près de la promotion. Pouvez-vous réessayer ?][%hint Pouvez-vous promouvoir en la meilleure pièce ?]Oui, vous avez atteint la promotion !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4kb2/1p3b2/pPp1N3/P1P5/1K4B1/8/8 w - - 0 1\"]\r\n\r\n{Faut-il échanger contre leur fou ?} 1. Nxf7 {[%hint Quelle pièce dangereuse pouvez-vous prendre avec votre cavalier ?][%wrong Réessaye.]Oui, parce qu'il représentait une menace pour votre roi.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/pp3ppp/2nbpn2/3p4/3P1Bb1/2PB1N2/PP1N1PPP/R2QK2R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight f4;color;%23eb6150;opacity;0.8;square;f4;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,c3;color;%23ffaa00;opacity;0.8;square;c3;persistent;true,b2;color;%23ffaa00;opacity;0.8;square;b2;persistent;true]Vos pions sont solides sur les cases noires, les leurs sur les cases blanches. Faut-il échanger les fous de cases noires ?} 1. Bxd6 {[%hint Ce fou est-il une menace pour vos forts pions ?][%wrong Réessaye.] C'est un bon échange : on échange le fou blanc, gêné par ses propres pions, contre le fou noir actif.} (1. Bg3!! {C'est un bon coup, qui permet aux noirs d'échanger les fous, afin que les blancs puissent reprendre avec le pion h2 et libérer la tour h1.}) *"
+    ],
+    "courseId": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à réaliser des échanges intelligents.",
+    "outroText": "Maintenant, vous savez comment réaliser des échanges intelligents.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-avancee",
+      "title": "Stratégie avancée"
+    },
+    "parentId": "51d7a416-2c1b-11f1-98e6-214140ce2bb5"
+  },
+  "curriculum": {
+    "number": 51,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Stratégie avancée",
+      "path": "strategie-avancee",
+      "order": 3
+    }
+  }
+}

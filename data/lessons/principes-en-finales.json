@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-avancees/principes-en-finales",
+  "capturedAt": "2026-10-22T12:23:49.940Z",
+  "title": "Les principes des finales",
+  "exercises": [
+    {
+      "fen": "8/2P5/8/5b2/p7/Pk6/8/2K5 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Traits aux noirs. La finale est souvent le moment le plus crucial d'une partie. Ici, la victoire nous tend les bras, mais le chemin est étroit... Trouvez le SEUL coup gagnant !",
+        "[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Le roi blanc tente de se rapprocher de la case de promotion. Comment l'en empêcher ?]",
+        "Il existe une maxime à ne pas oublier en finale : \"Ne jamais se précipiter.\" Pas la peine de prendre ce pion pour l'instant, l'important, c'est de stopper le contre jeu blanc ! Dans cette variante, le roi blanc revient couvrir la case de promotion à temps, et c'est partie nulle... Cherchez encore !",
+        "Le roi blanc peut rester dans le coin. Comme la case de promotion n'est pas de la bonne couleur pour notre fou, cette finale est nulle ! Cherchez encore.",
+        "Joli ! Les noirs empêchent le roi blanc de venir couvrir la case de promotion. Il est maintenant temps de s'emparer du pion !",
+        "[%wrong Ce coup ne gagne pas le pion. Essayez encore !][%hint Prenez le pion blanc.]",
+        "Parfait. Trouvez maintenant le coup qui assure définitivement la victoire !",
+        "[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Éloignez le roi blanc du coin de l'échiquier !] Belle technique! Les noirs forcent le roi blanc à s'éloigner du bord de l'échiquier, et le pion noir va pouvoir filer à dame.",
+        "Les blancs dévient le fou noir, qui ne couvre plus la case b1. Le roi blanc va pouvoir aller dans le coin pour empêcher la promotion. Partie nulle ! Trouvez le coup gagnant."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2P5/8/5b2/p7/Pk6/8/2K5 b - - 0 1\"]\r\n\r\n{Traits aux noirs. La finale est souvent le moment le plus crucial d'une partie. Ici, la victoire nous tend les bras, mais le chemin est étroit... Trouvez le SEUL coup gagnant !}\r\n1...Ka2\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Le roi blanc tente de se rapprocher de la case de promotion. Comment l'en empêcher ?]}\r\n    (1...Kxa3 $2 2.c8=Q {Il existe une maxime à ne pas oublier en finale : \"Ne jamais se précipiter.\" Pas la peine de prendre ce pion pour l'instant, l'important, c'est de stopper le contre jeu blanc ! Dans cette variante, le roi blanc revient couvrir la case de promotion à temps, et c'est partie nulle... Cherchez encore !})\r\n    (1...Bc8 $2 2.Kb1 {Le roi blanc peut rester dans le coin. Comme la case de promotion n'est pas de la bonne couleur pour notre fou, cette finale est nulle ! Cherchez encore.})\r\n2.Kd2\r\n    {Joli ! Les noirs empêchent le roi blanc de venir couvrir la case de promotion. Il est maintenant temps de s'emparer du pion !}\r\n2...Kxa3\r\n    {[%wrong Ce coup ne gagne pas le pion. Essayez encore !][%hint Prenez le pion blanc.]}\r\n3.Kc1\r\n    {Parfait. Trouvez maintenant le coup qui assure définitivement la victoire !}\r\n3...Ka2\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Éloignez le roi blanc du coin de l'échiquier !] Belle technique! Les noirs forcent le roi blanc à s'éloigner du bord de l'échiquier, et le pion noir va pouvoir filer à dame.}\r\n    (3...Kb3 $2 4.c8=Q {Les blancs dévient le fou noir, qui ne couvre plus la case b1. Le roi blanc va pouvoir aller dans le coin pour empêcher la promotion. Partie nulle ! Trouvez le coup gagnant.})\r\n*"
+    },
+    {
+      "fen": "6k1/7p/p1p4K/Pp1p2P1/1P1P4/2P5/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le seul coup gagnant !",
+        "[%hint Comment forcer l'échange des pions de l'aile roi pour que notre roi plus actif puisse profiter de sa proximité avec les pions de l'aile dame ?]",
+        "Ce coup offre un pion passé aux noirs, qui sont désormais gagnants... Cherchez encore !",
+        "Le roi noir s'active, et le gain devient impossible... Trouvez mieux !",
+        "Beau travail ! Notre roi a l'opposition. Jouez le coup gagnant !",
+        "[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Comment prendre l'opposition tout en gagnant du matériel ?]",
+        "Bien joué ! Le roi noir file vers l'aile dame. Gardez le à distance en maintenant l'opposition !",
+        "[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Forcez le roi noir à rester sur la dernière rangée !]",
+        "Oui ! Grâce à l'opposition, le roi noir reste passif. Continuez sur cette voie !",
+        "[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Forcez le roi noir à rester sur la dernière rangée !] Quelle technique ! Le roi blanc maintient son homologue dans la passivité et va ramasser tous les pions adverses."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/7p/p1p4K/Pp1p2P1/1P1P4/2P5/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant !}\r\n1.g6\r\n    {[%hint Comment forcer l'échange des pions de l'aile roi pour que notre roi plus actif puisse profiter de sa proximité avec les pions de l'aile dame ?]}\r\n    (1.c4 $2 dxc4 {Ce coup offre un pion passé aux noirs, qui sont désormais gagnants... Cherchez encore !})\r\n    (1.Kh5 $2 Kg7 {Le roi noir s'active, et le gain devient impossible... Trouvez mieux !})\r\n1...hxg6\r\n    {Beau travail ! Notre roi a l'opposition. Jouez le coup gagnant !}\r\n2.Kxg6\r\n    {[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Comment prendre l'opposition tout en gagnant du matériel ?]}\r\n2...Kf8\r\n    {Bien joué ! Le roi noir file vers l'aile dame. Gardez le à distance en maintenant l'opposition !}\r\n3.Kf6\r\n    {[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Forcez le roi noir à rester sur la dernière rangée !]}\r\n3...Ke8\r\n    {Oui ! Grâce à l'opposition, le roi noir reste passif. Continuez sur cette voie !}\r\n4.Ke6\r\n    {[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Forcez le roi noir à rester sur la dernière rangée !] Quelle technique ! Le roi blanc maintient son homologue dans la passivité et va ramasser tous les pions adverses.}\r\n*"
+    },
+    {
+      "fen": "8/5P2/2N5/8/4k3/3r4/8/5K2 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi et la tour noirs travaillent de concert pour préparer ...Tf3+ si les blancs promeuvent leur pion. Trouvez le coup surprenant qui brise cette coordination et permet aux blancs de faire une dame en force !",
+        "[%wrong Ce coup n'empêche pas la tour noire d'accéder à la huitième rangée ou à la colonne f. Cherchez encore !][%hint Où mettre le cavalier blanc pour qu'il empêche la tour noire d'accéder à la huitième rangée ?]",
+        "Les noirs vont jouer ...Tf3 au prochain coup pour nous empêcher de promouvoir. Trouvez mieux !",
+        "C'est partie nulle... Cherchez encore !",
+        "Bien esssayé, mais il est impossible de continuer à progresser : nulle.",
+        "Beau travail ! Le cavalier blanc empêche la tour d’accéder à la fois à la huitième rangée et à la colonne f ! Nous pouvons maintenant promouvoir notre pion sans risque !",
+        "[%wrong Transformez le pion en dame !][%hint Transformez le pion en dame !] Cette finale roi-dame contre roi-tour est techniquement gagnante. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5P2/2N5/8/4k3/3r4/8/5K2 w - - 0 1\"]\r\n\r\n{Le roi et la tour noirs travaillent de concert pour préparer ...Tf3+ si les blancs promeuvent leur pion. Trouvez le coup surprenant qui brise cette coordination et permet aux blancs de faire une dame en force !}\r\n1.Nd4\r\n    {[%wrong Ce coup n'empêche pas la tour noire d'accéder à la huitième rangée ou à la colonne f. Cherchez encore !][%hint Où mettre le cavalier blanc pour qu'il empêche la tour noire d'accéder à la huitième rangée ?]}\r\n    (1.Ke2 $2 Re3+ {Les noirs vont jouer ...Tf3 au prochain coup pour nous empêcher de promouvoir. Trouvez mieux !})\r\n    (1.f8=Q $2 Rf3+ {C'est partie nulle... Cherchez encore !})\r\n    (1.Ne5 $2 Rd8 {Bien esssayé, mais il est impossible de continuer à progresser : nulle.})\r\n1...Rxd4\r\n    {Beau travail ! Le cavalier blanc empêche la tour d’accéder à la fois à la huitième rangée et à la colonne f ! Nous pouvons maintenant promouvoir notre pion sans risque !}\r\n2.f8=Q\r\n    {[%wrong Transformez le pion en dame !][%hint Transformez le pion en dame !] Cette finale roi-dame contre roi-tour est techniquement gagnante. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "R7/8/1k6/5K2/3P4/8/pr6/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La tour blanche empêche le pion noir de filer à dame. Trouvez un plan pour venir à bout des défenses blanches !",
+        "[%wrong Bien essayé, mais ce coup ne permet pas de promouvoir le pion. Cherchez encore !][%hint Interposez notre tour entre la tour blanche et le pion passé !]",
+        "Bien essayé, mais la tour blanche reste derrière le pion et la position est nulle. Cherchez encore !",
+        "Cet échec ne nous aide pas du tout... Trouvez mieux !",
+        "Attention à notre pion !",
+        "Joli coup ! La tour noire s'apprête à se placer derrière son pion passé. A vous de continuer !",
+        "[%wrong Ce coup ne met pas notre tour derrière notre pion passé. Cherchez encore !][%hint Comment soutenir notre pion passé tout en attaquant la tour adverse ?] Joli ! Les noirs vont promouvoir leur pion et remporter la partie sans problèmes."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"R7/8/1k6/5K2/3P4/8/pr6/8 b - - 0 1\"]\r\n\r\n{La tour blanche empêche le pion noir de filer à dame. Trouvez un plan pour venir à bout des défenses blanches !}\r\n1...Rb5+\r\n    {[%wrong Bien essayé, mais ce coup ne permet pas de promouvoir le pion. Cherchez encore !][%hint Interposez notre tour entre la tour blanche et le pion passé !]}\r\n    (1...Kb7 $2 2.Ra3 {Bien essayé, mais la tour blanche reste derrière le pion et la position est nulle. Cherchez encore !})\r\n    (1...Rf2+ $2 2.Ke4 {Cet échec ne nous aide pas du tout... Trouvez mieux !})\r\n    (1...Rb1 $2 2.Rxa2 {Attention à notre pion !})\r\n2.Ke4\r\n    {Joli coup ! La tour noire s'apprête à se placer derrière son pion passé. A vous de continuer !}\r\n2...Ra5\r\n    {[%wrong Ce coup ne met pas notre tour derrière notre pion passé. Cherchez encore !][%hint Comment soutenir notre pion passé tout en attaquant la tour adverse ?] Joli ! Les noirs vont promouvoir leur pion et remporter la partie sans problèmes.}\r\n*"
+    },
+    {
+      "fen": "R7/4k3/P7/8/8/8/3K4/r7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le seul coup gagnant !",
+        "[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Les pions passés sont fait pour être poussés...]",
+        "Le roi noir revient à temps couvrir la case de promotion et force la nulle. Cherchez encore !",
+        "Beau travail ! Les noirs n'ont pas de réponse satisfaisante. Jouez le coup gagnant !",
+        "[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Comment menacer de promouvoir le pion tout en préparant une enfilade ?] Fomidable ! Les blancs menacent de promouvoir le pion. Si les noirs le prennent au prochain coup, Th7+ gagnera la tour grâce à une enfilade !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"R7/4k3/P7/8/8/8/3K4/r7 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant !}\r\n1.a7\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Les pions passés sont fait pour être poussés...]}\r\n    (1.Kc3 $2 Kd7 {Le roi noir revient à temps couvrir la case de promotion et force la nulle. Cherchez encore !})\r\n1...Kf7\r\n    {Beau travail ! Les noirs n'ont pas de réponse satisfaisante. Jouez le coup gagnant !}\r\n2.Rh8\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Comment menacer de promouvoir le pion tout en préparant une enfilade ?] Fomidable ! Les blancs menacent de promouvoir le pion. Si les noirs le prennent au prochain coup, Th7+ gagnera la tour grâce à une enfilade !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "fa7be38c-9cec-11e8-a54b-c3949b1d1623",
+    "name": "Les principes des finales",
+    "path": "principes-en-finales",
+    "description": "Maîtrisez les concepts de base des finales pour prendre l’avantage lorsque la plupart des pièces ont disparu de l’échiquier. L’important est de rester calme et d’éviter tout contre jeu. Souvenez-vous qu’il n’existe pas de prix spéciaux pour le gain le plus rapide ! Prenez votre temps et assurez la victoire.",
+    "glyphName": "time-hourglass-3",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-endgame-principles-i9l.mp4",
+    "fen": "6R1/1k4P1/8/6r1/8/7K/8/8 w - - 1 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2P5/8/5b2/p7/Pk6/8/2K5 b - - 0 1\"]\r\n\r\n{Traits aux noirs. La finale est souvent le moment le plus crucial d'une partie. Ici, la victoire nous tend les bras, mais le chemin est étroit... Trouvez le SEUL coup gagnant !}\r\n1...Ka2\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Le roi blanc tente de se rapprocher de la case de promotion. Comment l'en empêcher ?]}\r\n    (1...Kxa3 $2 2.c8=Q {Il existe une maxime à ne pas oublier en finale : \"Ne jamais se précipiter.\" Pas la peine de prendre ce pion pour l'instant, l'important, c'est de stopper le contre jeu blanc ! Dans cette variante, le roi blanc revient couvrir la case de promotion à temps, et c'est partie nulle... Cherchez encore !})\r\n    (1...Bc8 $2 2.Kb1 {Le roi blanc peut rester dans le coin. Comme la case de promotion n'est pas de la bonne couleur pour notre fou, cette finale est nulle ! Cherchez encore.})\r\n2.Kd2\r\n    {Joli ! Les noirs empêchent le roi blanc de venir couvrir la case de promotion. Il est maintenant temps de s'emparer du pion !}\r\n2...Kxa3\r\n    {[%wrong Ce coup ne gagne pas le pion. Essayez encore !][%hint Prenez le pion blanc.]}\r\n3.Kc1\r\n    {Parfait. Trouvez maintenant le coup qui assure définitivement la victoire !}\r\n3...Ka2\r\n    {[%wrong Ce n'est pas le coup gagnant. Cherchez encore !][%hint Éloignez le roi blanc du coin de l'échiquier !] Belle technique! Les noirs forcent le roi blanc à s'éloigner du bord de l'échiquier, et le pion noir va pouvoir filer à dame.}\r\n    (3...Kb3 $2 4.c8=Q {Les blancs dévient le fou noir, qui ne couvre plus la case b1. Le roi blanc va pouvoir aller dans le coin pour empêcher la promotion. Partie nulle ! Trouvez le coup gagnant.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/7p/p1p4K/Pp1p2P1/1P1P4/2P5/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant !}\r\n1.g6\r\n    {[%hint Comment forcer l'échange des pions de l'aile roi pour que notre roi plus actif puisse profiter de sa proximité avec les pions de l'aile dame ?]}\r\n    (1.c4 $2 dxc4 {Ce coup offre un pion passé aux noirs, qui sont désormais gagnants... Cherchez encore !})\r\n    (1.Kh5 $2 Kg7 {Le roi noir s'active, et le gain devient impossible... Trouvez mieux !})\r\n1...hxg6\r\n    {Beau travail ! Notre roi a l'opposition. Jouez le coup gagnant !}\r\n2.Kxg6\r\n    {[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Comment prendre l'opposition tout en gagnant du matériel ?]}\r\n2...Kf8\r\n    {Bien joué ! Le roi noir file vers l'aile dame. Gardez le à distance en maintenant l'opposition !}\r\n3.Kf6\r\n    {[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Forcez le roi noir à rester sur la dernière rangée !]}\r\n3...Ke8\r\n    {Oui ! Grâce à l'opposition, le roi noir reste passif. Continuez sur cette voie !}\r\n4.Ke6\r\n    {[%wrong Vous devez garder l'opposition pour l'emporter. Essayez encore !][%hint Forcez le roi noir à rester sur la dernière rangée !] Quelle technique ! Le roi blanc maintient son homologue dans la passivité et va ramasser tous les pions adverses.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5P2/2N5/8/4k3/3r4/8/5K2 w - - 0 1\"]\r\n\r\n{Le roi et la tour noirs travaillent de concert pour préparer ...Tf3+ si les blancs promeuvent leur pion. Trouvez le coup surprenant qui brise cette coordination et permet aux blancs de faire une dame en force !}\r\n1.Nd4\r\n    {[%wrong Ce coup n'empêche pas la tour noire d'accéder à la huitième rangée ou à la colonne f. Cherchez encore !][%hint Où mettre le cavalier blanc pour qu'il empêche la tour noire d'accéder à la huitième rangée ?]}\r\n    (1.Ke2 $2 Re3+ {Les noirs vont jouer ...Tf3 au prochain coup pour nous empêcher de promouvoir. Trouvez mieux !})\r\n    (1.f8=Q $2 Rf3+ {C'est partie nulle... Cherchez encore !})\r\n    (1.Ne5 $2 Rd8 {Bien esssayé, mais il est impossible de continuer à progresser : nulle.})\r\n1...Rxd4\r\n    {Beau travail ! Le cavalier blanc empêche la tour d’accéder à la fois à la huitième rangée et à la colonne f ! Nous pouvons maintenant promouvoir notre pion sans risque !}\r\n2.f8=Q\r\n    {[%wrong Transformez le pion en dame !][%hint Transformez le pion en dame !] Cette finale roi-dame contre roi-tour est techniquement gagnante. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"R7/8/1k6/5K2/3P4/8/pr6/8 b - - 0 1\"]\r\n\r\n{La tour blanche empêche le pion noir de filer à dame. Trouvez un plan pour venir à bout des défenses blanches !}\r\n1...Rb5+\r\n    {[%wrong Bien essayé, mais ce coup ne permet pas de promouvoir le pion. Cherchez encore !][%hint Interposez notre tour entre la tour blanche et le pion passé !]}\r\n    (1...Kb7 $2 2.Ra3 {Bien essayé, mais la tour blanche reste derrière le pion et la position est nulle. Cherchez encore !})\r\n    (1...Rf2+ $2 2.Ke4 {Cet échec ne nous aide pas du tout... Trouvez mieux !})\r\n    (1...Rb1 $2 2.Rxa2 {Attention à notre pion !})\r\n2.Ke4\r\n    {Joli coup ! La tour noire s'apprête à se placer derrière son pion passé. A vous de continuer !}\r\n2...Ra5\r\n    {[%wrong Ce coup ne met pas notre tour derrière notre pion passé. Cherchez encore !][%hint Comment soutenir notre pion passé tout en attaquant la tour adverse ?] Joli ! Les noirs vont promouvoir leur pion et remporter la partie sans problèmes.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"R7/4k3/P7/8/8/8/3K4/r7 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant !}\r\n1.a7\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Les pions passés sont fait pour être poussés...]}\r\n    (1.Kc3 $2 Kd7 {Le roi noir revient à temps couvrir la case de promotion et force la nulle. Cherchez encore !})\r\n1...Kf7\r\n    {Beau travail ! Les noirs n'ont pas de réponse satisfaisante. Jouez le coup gagnant !}\r\n2.Rh8\r\n    {[%wrong Ce coup ne gagne pas, cherchez encore !][%hint Comment menacer de promouvoir le pion tout en préparant une enfilade ?] Fomidable ! Les blancs menacent de promouvoir le pion. Si les noirs le prennent au prochain coup, Th7+ gagnera la tour grâce à une enfilade !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Vous êtes prêt pour passer aux finales avancées.",
+    "outroText": "Très belle technique ! Ces principes vont vous aider à convertir vos fins de partie.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "path": "finales-avancees",
+      "title": "Finales avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a03f97ac-a55b-11e8-8184-9d27df009acd.92637022.728x410o.3d0706f65a2f.png"
+    },
+    "parentId": "ebac58ae-83b6-11e8-9b0c-1735de8e95d4",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/endgame-principles5e7ab4be87592.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/endgame-principles-5668868d79bc81.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/endgame-principles-15ea23e9d299f4.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/endgame-principles-3612e5a32ed79f.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 112,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "name": "Finales avancées",
+      "path": "finales-avancees",
+      "order": 4
+    }
+  }
+}

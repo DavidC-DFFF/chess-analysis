@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/fourchette",
+  "capturedAt": "2026-10-22T12:23:32.146Z",
+  "title": "La fourchette",
+  "exercises": [
+    {
+      "fen": "6k1/P7/8/3q4/6N1/8/8/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs semblent en difficulté, mais une fourchette va les sauver. Trouvez-la !",
+        "[%wrong Ce coup ne fait pas une fourchette sur le roi et la dame. Essayez encore !][%hint Le cavalier peut attaquer la dame et le roi en même temps.] Bien joué ! Vous avez réalisé une fourchette royale. Au prochain coup, vous pourrez prendre la dame adverse, puis promouvoir votre pion a7 pour remporter la partie.",
+        "Ce pion nouvellement promu en dame attaque en effet le roi et la dame adverse, mais cette dernière peut simplement prendre ! Essayez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/P7/8/3q4/6N1/8/8/6K1 w - - 0 1\"]\r\n\r\n{Les blancs semblent en difficulté, mais une fourchette va les sauver. Trouvez-la !}\r\n1.Nf6+\r\n    {[%wrong Ce coup ne fait pas une fourchette sur le roi et la dame. Essayez encore !][%hint Le cavalier peut attaquer la dame et le roi en même temps.] Bien joué ! Vous avez réalisé une fourchette royale. Au prochain coup, vous pourrez prendre la dame adverse, puis promouvoir votre pion a7 pour remporter la partie.}\r\n    (1.a8=Q+ $2 Qxa8 {Ce pion nouvellement promu en dame attaque en effet le roi et la dame adverse, mais cette dernière peut simplement prendre ! Essayez encore.})\r\n*"
+    },
+    {
+      "fen": "5rk1/3rbp1p/3p3p/3Pp3/2P1N3/7P/5PP1/3QR1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez une fourchette permettant de gagner une tour.",
+        "[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint Il faudrait pouvoir faire une double attaque sur le roi noir et la tour non protégée...]",
+        "Cette fourchette perd du matériel. Trouvez mieux !",
+        "Bien joué ! Vous avez effectué une fourchette sur le roi et la tour. Il est temps de finir le travail !",
+        "[%wrong Il faut maintenant capturer la tour !][%hint La tour d7 est en prise.] Vous gagnez une tour grâce à cette jolie tactique !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/3rbp1p/3p3p/3Pp3/2P1N3/7P/5PP1/3QR1K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez une fourchette permettant de gagner une tour.}\r\n1.Qg4+\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint Il faudrait pouvoir faire une double attaque sur le roi noir et la tour non protégée...]}\r\n    (1.Nf6+ $2 Bxf6 {Cette fourchette perd du matériel. Trouvez mieux !})\r\n1...Kh8\r\n    {Bien joué ! Vous avez effectué une fourchette sur le roi et la tour. Il est temps de finir le travail !}\r\n2.Qxd7\r\n    {[%wrong Il faut maintenant capturer la tour !][%hint La tour d7 est en prise.] Vous gagnez une tour grâce à cette jolie tactique !}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pppp1ppp/2n5/4p3/2B1N3/5N2/PPPP1PPP/R1BQK2R b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un cavalier de moins contre un pion. Trouvez une fourchette leur permettant de gagner du matériel !",
+        "[%wrong Ce coup n'est pas une fourchette. Essayez d'attaquer deux pièces blanches en même temps !][%hint Il faudrait attaquer à la fois le fou et le cavalier adverse...]",
+        "Bravo ! Vous avez réalisé une fourchette de pion. Vous gagnez une pièce !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n5/4p3/2B1N3/5N2/PPPP1PPP/R1BQK2R b KQkq - 0 1\"]\r\n\r\n{Les noirs ont un cavalier de moins contre un pion. Trouvez une fourchette leur permettant de gagner du matériel !}\r\n1...d5\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez d'attaquer deux pièces blanches en même temps !][%hint Il faudrait attaquer à la fois le fou et le cavalier adverse...]}\r\n2.Bd3\r\n    {Bravo ! Vous avez réalisé une fourchette de pion. Vous gagnez une pièce !}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/2p2ppp/p1np4/1p2p3/4n3/1BP2N2/PP1P1PPP/RNBQ1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de prendre par ...Cxe4. Trouvez une fourchette pour gagner du matériel !",
+        "[%wrong Ce coup ne fait pas de fourchette. Essayez encore !][%hint Les deux cavaliers noirs sont en prise. Trouvez un moyen de les attaquer tous les deux en même temps.] Bien joué ! Vous allez gagner un des deux cavaliers au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/2p2ppp/p1np4/1p2p3/4n3/1BP2N2/PP1P1PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{Les noirs viennent de prendre par ...Cxe4. Trouvez une fourchette pour gagner du matériel !}\r\n1.Bd5\r\n    {[%wrong Ce coup ne fait pas de fourchette. Essayez encore !][%hint Les deux cavaliers noirs sont en prise. Trouvez un moyen de les attaquer tous les deux en même temps.] Bien joué ! Vous allez gagner un des deux cavaliers au prochain coup.}\r\n*"
+    },
+    {
+      "fen": "8/5P2/4k1q1/P7/5P2/7p/8/7K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent de mater en g2 et la situation semble sans espoir pour les blancs. Mais une surprenante fourchette va les sauver ! A vous de la trouver.",
+        "[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint Il n'est pas obligatoire de promouvoir les pions en dame...]",
+        "Bien essayé, mais la dame adverse s'empare du pion et votre position est perdante. Essayez encore !",
+        "Bravo ! Grâce à cette sous-promotion cavalier, vous faites une fourchette sur le roi et la dame adverse ! Il est temps de finir le travail.",
+        "[%wrong Non ! Il faut maintenant prendre la dame noire !][%hint Prenez maintenant la dame noire.] Bien joué ! Vous vous emparez de la dame, et les noirs ne vont pas pouvoir vous empêcher de promouvoir un des deux pions."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5P2/4k1q1/P7/5P2/7p/8/7K w - - 0 1\"]\r\n\r\n{Les noirs menacent de mater en g2 et la situation semble sans espoir pour les blancs. Mais une surprenante fourchette va les sauver ! A vous de la trouver.}\r\n1.f8=N+\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint Il n'est pas obligatoire de promouvoir les pions en dame...]}\r\n    (1.f5+ $2 Qxf5 {Bien essayé, mais la dame adverse s'empare du pion et votre position est perdante. Essayez encore !})\r\n1...Kf5\r\n    {Bravo ! Grâce à cette sous-promotion cavalier, vous faites une fourchette sur le roi et la dame adverse ! Il est temps de finir le travail.}\r\n2.Nxg6\r\n    {[%wrong Non ! Il faut maintenant prendre la dame noire !][%hint Prenez maintenant la dame noire.] Bien joué ! Vous vous emparez de la dame, et les noirs ne vont pas pouvoir vous empêcher de promouvoir un des deux pions.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "5ec24188-9ce8-11e8-9565-f186e094282e",
+    "name": "La fourchette",
+    "path": "fourchette",
+    "description": "Une excellente manière de gagner du matériel consiste à attaquer plus d’une pièce à la fois avec une seule. C’est une technique qu’on appelle la fourchette. Comme votre adversaire ne peut déplacer qu’une seule pièce à chaque coup, si vous attaquez deux pièces, vous pourrez en prendre une des deux au coup suivant !",
+    "glyphName": "game-tactic-fork",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-forks-j3n.mp4",
+    "fen": "5rk1/3rbp1p/3p3p/3Pp3/2P1N1Q1/7P/5PP1/4R1K1 b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/P7/8/3q4/6N1/8/8/6K1 w - - 0 1\"]\r\n\r\n{Les blancs semblent en difficulté, mais une fourchette va les sauver. Trouvez-la !}\r\n1.Nf6+\r\n    {[%wrong Ce coup ne fait pas une fourchette sur le roi et la dame. Essayez encore !][%hint Le cavalier peut attaquer la dame et le roi en même temps.] Bien joué ! Vous avez réalisé une fourchette royale. Au prochain coup, vous pourrez prendre la dame adverse, puis promouvoir votre pion a7 pour remporter la partie.}\r\n    (1.a8=Q+ $2 Qxa8 {Ce pion nouvellement promu en dame attaque en effet le roi et la dame adverse, mais cette dernière peut simplement prendre ! Essayez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/3rbp1p/3p3p/3Pp3/2P1N3/7P/5PP1/3QR1K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez une fourchette permettant de gagner une tour.}\r\n1.Qg4+\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint Il faudrait pouvoir faire une double attaque sur le roi noir et la tour non protégée...]}\r\n    (1.Nf6+ $2 Bxf6 {Cette fourchette perd du matériel. Trouvez mieux !})\r\n1...Kh8\r\n    {Bien joué ! Vous avez effectué une fourchette sur le roi et la tour. Il est temps de finir le travail !}\r\n2.Qxd7\r\n    {[%wrong Il faut maintenant capturer la tour !][%hint La tour d7 est en prise.] Vous gagnez une tour grâce à cette jolie tactique !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n5/4p3/2B1N3/5N2/PPPP1PPP/R1BQK2R b KQkq - 0 1\"]\r\n\r\n{Les noirs ont un cavalier de moins contre un pion. Trouvez une fourchette leur permettant de gagner du matériel !}\r\n1...d5\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez d'attaquer deux pièces blanches en même temps !][%hint Il faudrait attaquer à la fois le fou et le cavalier adverse...]}\r\n2.Bd3\r\n    {Bravo ! Vous avez réalisé une fourchette de pion. Vous gagnez une pièce !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/2p2ppp/p1np4/1p2p3/4n3/1BP2N2/PP1P1PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{Les noirs viennent de prendre par ...Cxe4. Trouvez une fourchette pour gagner du matériel !}\r\n1.Bd5\r\n    {[%wrong Ce coup ne fait pas de fourchette. Essayez encore !][%hint Les deux cavaliers noirs sont en prise. Trouvez un moyen de les attaquer tous les deux en même temps.] Bien joué ! Vous allez gagner un des deux cavaliers au prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5P2/4k1q1/P7/5P2/7p/8/7K w - - 0 1\"]\r\n\r\n{Les noirs menacent de mater en g2 et la situation semble sans espoir pour les blancs. Mais une surprenante fourchette va les sauver ! A vous de la trouver.}\r\n1.f8=N+\r\n    {[%wrong Ce coup n'est pas une fourchette. Essayez encore !][%hint Il n'est pas obligatoire de promouvoir les pions en dame...]}\r\n    (1.f5+ $2 Qxf5 {Bien essayé, mais la dame adverse s'empare du pion et votre position est perdante. Essayez encore !})\r\n1...Kf5\r\n    {Bravo ! Grâce à cette sous-promotion cavalier, vous faites une fourchette sur le roi et la dame adverse ! Il est temps de finir le travail.}\r\n2.Nxg6\r\n    {[%wrong Non ! Il faut maintenant prendre la dame noire !][%hint Prenez maintenant la dame noire.] Bien joué ! Vous vous emparez de la dame, et les noirs ne vont pas pouvoir vous empêcher de promouvoir un des deux pions.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Envie de découvrir une nouvelle tactique ? Apprenons ensemble la \"fourchette\".",
+    "outroText": "Beau travail. Trouver des fourchettes dans vos parties peut vous faire gagner beaucoup de matériel.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "f23d1496-83a8-11e8-b443-6d0fbc41f5fe",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/forks5d1111c4a59e4.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/forks-566886f64a67e1.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/forks-160796bad0b79a.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/forks-65ea2453648f0e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/forchetta63c07e34b2fea.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 33,
+    "order": 4,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

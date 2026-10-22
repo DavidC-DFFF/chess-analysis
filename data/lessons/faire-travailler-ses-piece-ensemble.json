@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/utiliser-le-potentiel-de-ses-pieces/faire-travailler-ses-piece-ensemble",
+  "capturedAt": "2026-10-22T12:23:37.202Z",
+  "title": "Faire travailler ses pièces ensemble",
+  "exercises": [
+    {
+      "fen": "rr4k1/5ppp/3Nn3/3N4/8/7P/2b4P/1q3RRK w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de promouvoir leur pion en dame en b1. Les blancs sont en infériorité matérielle, mais en faisant travailler toutes leurs pièces ensemble, ils peuvent forcer le mat en deux coups !",
+        "[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Les blancs n'ont que deux échecs dans cette position. L'un d'entre eux force le mat en deux.]",
+        "Une idée intéressante, mais qui ne force pas le roi noir à aller dans le coin. Impossible de mater dans cette variante !",
+        "Joli coup ! Comme le roi noir se ferait mater en h8 après Cxf7, il doit absolument aller en f8. Mais là aussi, la bonne coordination de vos pièces lui sera fatale. Trouvez le mat !",
+        "[%wrong Ce coup ne mate pas. Essayez encore !][%hint Comment protéger le cavalier e7 tout en faisant échec au roi noir ?] Les deux cavaliers et la tour ont parfaitement travaillé ensemble pour mater. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rr4k1/5ppp/3Nn3/3N4/8/7P/2b4P/1q3RRK w - - 0 1\"]\r\n\r\n{Les noirs viennent de promouvoir leur pion en dame en b1. Les blancs sont en infériorité matérielle, mais en faisant travailler toutes leurs pièces ensemble, ils peuvent forcer le mat en deux coups !}\r\n1.Ne7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Les blancs n'ont que deux échecs dans cette position. L'un d'entre eux force le mat en deux.]}\r\n    (1.Nf6+ $2 Kf8 {Une idée intéressante, mais qui ne force pas le roi noir à aller dans le coin. Impossible de mater dans cette variante !})\r\n1...Kf8\r\n    {Joli coup ! Comme le roi noir se ferait mater en h8 après Cxf7, il doit absolument aller en f8. Mais là aussi, la bonne coordination de vos pièces lui sera fatale. Trouvez le mat !}\r\n2.Rxf7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Comment protéger le cavalier e7 tout en faisant échec au roi noir ?] Les deux cavaliers et la tour ont parfaitement travaillé ensemble pour mater. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "5r1k/1p4pp/N1b5/4p3/1R5K/8/PPR2P1P/6r1 b - - 5 44",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc a été chassé jusqu'à l'autre bout de l'échiquier. Utilisez le plein potentiel des pièces noires pour forcer un mat en trois coups ! Allons-y un échec à la fois...",
+        "[%wrong Ce n'est pas un échec sûr. Essayez encore !][%hint Ne sous-estimez jamais la puissance des pions !]",
+        "Comme sur Rh3, les noirs avaient ...Tf3 mat, le roi noir s'échappe vers h5. Trouvons maintenant le mat forcé en deux !",
+        "[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Quels sont les échecs possibles dans cette position ?]",
+        "Cet échec est également très fort, mais un autre coup de fou force le mat en deux coups seulement. Trouvez-le !",
+        "Le roi blanc n'a plus d'issue. Il est temps de le mater !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quels sont les échecs possibles dans cette position ?]"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r1k/1p4pp/N1b5/4p3/1R5K/8/PPR2P1P/6r1 b - - 5 44\"]\r\n\r\n{Le roi blanc a été chassé jusqu'à l'autre bout de l'échiquier. Utilisez le plein potentiel des pièces noires pour forcer un mat en trois coups ! Allons-y un échec à la fois...}\r\n44...g5+\r\n    {[%wrong Ce n'est pas un échec sûr. Essayez encore !][%hint Ne sous-estimez jamais la puissance des pions !]}\r\n45.Kh5\r\n    {Comme sur Rh3, les noirs avaient ...Tf3 mat, le roi noir s'échappe vers h5. Trouvons maintenant le mat forcé en deux !}\r\n45...Be8+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Quels sont les échecs possibles dans cette position ?]}\r\n    (45...Bf3+ $5 46.Rg4 {Cet échec est également très fort, mais un autre coup de fou force le mat en deux coups seulement. Trouvez-le !})\r\n46.Kh6\r\n    {Le roi blanc n'a plus d'issue. Il est temps de le mater !}\r\n46...Rf6#\r\n{[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quels sont les échecs possibles dans cette position ?]}\r\n*"
+    },
+    {
+      "fen": "6k1/pQ4p1/6qp/4p3/3p3R/P4P2/1Pr2P1P/5K2 b - - 3 29",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est exposé. Utilisez la tour, la dame et le pion d4 pour forcer un mat en deux.",
+        "[%wrong Pour forcer le roi adverse à s'aventurer vers le milieu de l'échiquier, il faut souvent lui donner un échec. Essayez encore !][%hint Trouvez un échec qui forcera le roi blanc à se rendre sur la case e2, où il sera entouré de pièces noires !]",
+        "Le roi blanc est attiré contre son gré vers un destin fatal. Finissez le travail par un joli mat !",
+        "[%wrong Ce coup ne mate pas, essayez encore.][%hint Trouvez l'échec, il se pourrait bien qu'il fasse mat !] Beau travail d'équipe ! Échec et mat.",
+        "Les noirs ont également une bonne position dans cette variante, mais un autre coup force le mat en un. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/pQ4p1/6qp/4p3/3p3R/P4P2/1Pr2P1P/5K2 b - - 3 29\"]\r\n\r\n{Le roi blanc est exposé. Utilisez la tour, la dame et le pion d4 pour forcer un mat en deux.}\r\n29...Rc1+\r\n    {[%wrong Pour forcer le roi adverse à s'aventurer vers le milieu de l'échiquier, il faut souvent lui donner un échec. Essayez encore !][%hint Trouvez un échec qui forcera le roi blanc à se rendre sur la case e2, où il sera entouré de pièces noires !]}\r\n    (29...Qd3+ $2 30.Kg2)\r\n30.Ke2\r\n    {Le roi blanc est attiré contre son gré vers un destin fatal. Finissez le travail par un joli mat !}\r\n30...Qc2#\r\n    {[%wrong Ce coup ne mate pas, essayez encore.][%hint Trouvez l'échec, il se pourrait bien qu'il fasse mat !] Beau travail d'équipe ! Échec et mat.}\r\n    (30...d3+ $6 31.Ke3 {Les noirs ont également une bonne position dans cette variante, mais un autre coup force le mat en un. Trouvez-le !})\r\n*"
+    },
+    {
+      "fen": "8/6N1/8/7p/4np1P/7K/5k2/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est presque enfermé. Comment le menacer de mat ?",
+        "[%wrong Ce coup n'enferme pas le roi blanc. Essayez encore !][%hint Trouvez un coup qui empêchera totalement le roi blanc de se déplacer.]",
+        "Un coup sûr et raisonnable, mais il existe un moyen de mater en force. Trouvez-le !",
+        "Un coup également très fort, mais il existe un moyen de mater en force. Trouvez-le !",
+        "Joli travail ! Les blancs prennent le pion h5, offrant ainsi une case de fuite au roi en g4. Matez-le avant qu'il ne s'échappe !",
+        "[%wrong Ce coup ne mate pas, essayez encore !][%hint Le roi noir a laissé la case f2 pour une bonne raison.] Bien trouvé ! Le roi noir et son cavalier ont travaillé de concert pour mater le roi blanc.",
+        "Attention ! Assurez-vous de mettre votre cavalier sur une case où il ne pourra pas être pris."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6N1/8/7p/4np1P/7K/5k2/8 b - - 0 1\"]\r\n\r\n{Le roi blanc est presque enfermé. Comment le menacer de mat ?}\r\n1...Kg1\r\n    {[%wrong Ce coup n'enferme pas le roi blanc. Essayez encore !][%hint Trouvez un coup qui empêchera totalement le roi blanc de se déplacer.]}\r\n    (1...Nf6 $6 {Un coup sûr et raisonnable, mais il existe un moyen de mater en force. Trouvez-le !})\r\n    (1...f3 $6 {Un coup également très fort, mais il existe un moyen de mater en force. Trouvez-le !})\r\n2.Nxh5\r\n    {Joli travail ! Les blancs prennent le pion h5, offrant ainsi une case de fuite au roi en g4. Matez-le avant qu'il ne s'échappe !}\r\n2...Nf2#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Le roi noir a laissé la case f2 pour une bonne raison.] Bien trouvé ! Le roi noir et son cavalier ont travaillé de concert pour mater le roi blanc.}\r\n    (2...Ng5+ $2 3.hxg5 {Attention ! Assurez-vous de mettre votre cavalier sur une case où il ne pourra pas être pris.})\r\n*"
+    },
+    {
+      "fen": "k1B5/3K4/3N4/8/8/8/8/8 w - - 12 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Utilisons les trois pièces blanches ensemble pour forcer le mat. Première étape : Forcer le roi noir à se rendre en a7.",
+        "[%wrong Ce coup ne force pas le roi noir à aller en a7. Essayez encore !][%hint Activez votre roi !]",
+        "Le roi blanc se mêle à la lutte. Prenez votre temps, et trouvez le mat en deux !",
+        "[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Comment forcer le roi noir à aller dans le coin ?]",
+        "Bien essayé, mais vous avez mis le roi noir en position de pat. Essayez encore !",
+        "Le cavalier blanc repousse le roi dans les cordes. C'est maintenant au fou de finir le travail !",
+        "[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échecs pour les blancs dans cette position ?] Superbe coordination des pièces, vous avez maté le roi noir !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1B5/3K4/3N4/8/8/8/8/8 w - - 12 7\"]\r\n\r\n{Utilisons les trois pièces blanches ensemble pour forcer le mat. Première étape : Forcer le roi noir à se rendre en a7.}\r\n7.Kc7\r\n    {[%wrong Ce coup ne force pas le roi noir à aller en a7. Essayez encore !][%hint Activez votre roi !]}\r\n7...Ka7\r\n    {Le roi blanc se mêle à la lutte. Prenez votre temps, et trouvez le mat en deux !}\r\n8.Nb5+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Comment forcer le roi noir à aller dans le coin ?]}\r\n    (8.Bb7 $2 {Bien essayé, mais vous avez mis le roi noir en position de pat. Essayez encore !})\r\n8...Ka8\r\n    {Le cavalier blanc repousse le roi dans les cordes. C'est maintenant au fou de finir le travail !}\r\n9.Bb7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échecs pour les blancs dans cette position ?] Superbe coordination des pièces, vous avez maté le roi noir !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "c55f588a-9ce9-11e8-baf2-af26db214273",
+    "name": "Faire travailler ses pièces ensemble",
+    "path": "faire-travailler-ses-piece-ensemble",
+    "description": "Aux échecs, comme dans les sports collectifs, vos pièces doivent travailler ensemble pour aller chercher la victoire ! Une seule pièce forte ne suffira pas contre plusieurs pièces légères bien coordonnées.",
+    "glyphName": "pieces-all",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-pieces-working-together-l1q.mp4",
+    "fen": "8/8/8/7N/5p1P/7K/5n2/6k1 w - - 1 3",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rr4k1/5ppp/3Nn3/3N4/8/7P/2b4P/1q3RRK w - - 0 1\"]\r\n\r\n{Les noirs viennent de promouvoir leur pion en dame en b1. Les blancs sont en infériorité matérielle, mais en faisant travailler toutes leurs pièces ensemble, ils peuvent forcer le mat en deux coups !}\r\n1.Ne7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Les blancs n'ont que deux échecs dans cette position. L'un d'entre eux force le mat en deux.]}\r\n    (1.Nf6+ $2 Kf8 {Une idée intéressante, mais qui ne force pas le roi noir à aller dans le coin. Impossible de mater dans cette variante !})\r\n1...Kf8\r\n    {Joli coup ! Comme le roi noir se ferait mater en h8 après Cxf7, il doit absolument aller en f8. Mais là aussi, la bonne coordination de vos pièces lui sera fatale. Trouvez le mat !}\r\n2.Rxf7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Comment protéger le cavalier e7 tout en faisant échec au roi noir ?] Les deux cavaliers et la tour ont parfaitement travaillé ensemble pour mater. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r1k/1p4pp/N1b5/4p3/1R5K/8/PPR2P1P/6r1 b - - 5 44\"]\r\n\r\n{Le roi blanc a été chassé jusqu'à l'autre bout de l'échiquier. Utilisez le plein potentiel des pièces noires pour forcer un mat en trois coups ! Allons-y un échec à la fois...}\r\n44...g5+\r\n    {[%wrong Ce n'est pas un échec sûr. Essayez encore !][%hint Ne sous-estimez jamais la puissance des pions !]}\r\n45.Kh5\r\n    {Comme sur Rh3, les noirs avaient ...Tf3 mat, le roi noir s'échappe vers h5. Trouvons maintenant le mat forcé en deux !}\r\n45...Be8+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Quels sont les échecs possibles dans cette position ?]}\r\n    (45...Bf3+ $5 46.Rg4 {Cet échec est également très fort, mais un autre coup de fou force le mat en deux coups seulement. Trouvez-le !})\r\n46.Kh6\r\n    {Le roi blanc n'a plus d'issue. Il est temps de le mater !}\r\n46...Rf6#\r\n{[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quels sont les échecs possibles dans cette position ?]}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/pQ4p1/6qp/4p3/3p3R/P4P2/1Pr2P1P/5K2 b - - 3 29\"]\r\n\r\n{Le roi blanc est exposé. Utilisez la tour, la dame et le pion d4 pour forcer un mat en deux.}\r\n29...Rc1+\r\n    {[%wrong Pour forcer le roi adverse à s'aventurer vers le milieu de l'échiquier, il faut souvent lui donner un échec. Essayez encore !][%hint Trouvez un échec qui forcera le roi blanc à se rendre sur la case e2, où il sera entouré de pièces noires !]}\r\n    (29...Qd3+ $2 30.Kg2)\r\n30.Ke2\r\n    {Le roi blanc est attiré contre son gré vers un destin fatal. Finissez le travail par un joli mat !}\r\n30...Qc2#\r\n    {[%wrong Ce coup ne mate pas, essayez encore.][%hint Trouvez l'échec, il se pourrait bien qu'il fasse mat !] Beau travail d'équipe ! Échec et mat.}\r\n    (30...d3+ $6 31.Ke3 {Les noirs ont également une bonne position dans cette variante, mais un autre coup force le mat en un. Trouvez-le !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6N1/8/7p/4np1P/7K/5k2/8 b - - 0 1\"]\r\n\r\n{Le roi blanc est presque enfermé. Comment le menacer de mat ?}\r\n1...Kg1\r\n    {[%wrong Ce coup n'enferme pas le roi blanc. Essayez encore !][%hint Trouvez un coup qui empêchera totalement le roi blanc de se déplacer.]}\r\n    (1...Nf6 $6 {Un coup sûr et raisonnable, mais il existe un moyen de mater en force. Trouvez-le !})\r\n    (1...f3 $6 {Un coup également très fort, mais il existe un moyen de mater en force. Trouvez-le !})\r\n2.Nxh5\r\n    {Joli travail ! Les blancs prennent le pion h5, offrant ainsi une case de fuite au roi en g4. Matez-le avant qu'il ne s'échappe !}\r\n2...Nf2#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Le roi noir a laissé la case f2 pour une bonne raison.] Bien trouvé ! Le roi noir et son cavalier ont travaillé de concert pour mater le roi blanc.}\r\n    (2...Ng5+ $2 3.hxg5 {Attention ! Assurez-vous de mettre votre cavalier sur une case où il ne pourra pas être pris.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k1B5/3K4/3N4/8/8/8/8/8 w - - 12 7\"]\r\n\r\n{Utilisons les trois pièces blanches ensemble pour forcer le mat. Première étape : Forcer le roi noir à se rendre en a7.}\r\n7.Kc7\r\n    {[%wrong Ce coup ne force pas le roi noir à aller en a7. Essayez encore !][%hint Activez votre roi !]}\r\n7...Ka7\r\n    {Le roi blanc se mêle à la lutte. Prenez votre temps, et trouvez le mat en deux !}\r\n8.Nb5+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le mat en deux. Cherchez encore !][%hint Comment forcer le roi noir à aller dans le coin ?]}\r\n    (8.Bb7 $2 {Bien essayé, mais vous avez mis le roi noir en position de pat. Essayez encore !})\r\n8...Ka8\r\n    {Le cavalier blanc repousse le roi dans les cordes. C'est maintenant au fou de finir le travail !}\r\n9.Bb7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échecs pour les blancs dans cette position ?] Superbe coordination des pièces, vous avez maté le roi noir !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Plus vos pièces sont coordonnées, plus elles seront efficaces.",
+    "outroText": "Félicitations ! Vous avez terminé cette leçon pour améliorer l'utilisation de vos pièces.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "title": "Utiliser tout le potentiel de ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/c8c21eaa-a558-11e8-8a0b-b114e31635bb.a8d7fd41.728x410o.77ff125711c0.png"
+    },
+    "parentId": "879ebd90-83aa-11e8-98e3-877300395477",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pieces-working-together5e62014ce7a94.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pieces-working-together-5668857bcd14d3.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pieces-working-together-25ea24367bb9de.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pieces-working-together-3602a8cf6ac8c1.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 56,
+    "order": 7,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "name": "Utiliser tout le potentiel de ses pièces",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "order": 1
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/eliminer-le-defenseur",
+  "capturedAt": "2026-10-22T13:42:37.849Z",
+  "title": "Éliminer le défenseur",
+  "exercises": [
+    {
+      "fen": "8/6p1/5n2/3b4/8/8/1B6/3R4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow b2f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;f6;persistent;true,f6d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f6;to;d5;persistent;true][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true] Si le cavalier est pris, le fou n'est plus défendu.",
+        "[%hint Prenez le défenseur avec votre fou.][%wrong Le défenseur est toujours actif.]",
+        "Votre tour se fait prendre.",
+        "Oui ! Vous pouvez maintenant prendre le fou.",
+        "[%hint Prenez le fou.][%wrong Ce coup ne prend pas le fou.] Beau travail pour éliminer le défenseur !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6p1/5n2/3b4/8/8/1B6/3R4 w - - 0 1\"]\r\n\r\n{[%c_arrow b2f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;f6;persistent;true,f6d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f6;to;d5;persistent;true][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true] Si le cavalier est pris, le fou n'est plus défendu.} 1. Bxf6 {[%hint Prenez le défenseur avec votre fou.][%wrong Le défenseur est toujours actif.]} (1. Rxd5? Nxd5 {Votre tour se fait prendre.}) 1... gxf6 {Oui ! Vous pouvez maintenant prendre le fou.} 2. Rxd5 {[%hint Prenez le fou.][%wrong Ce coup ne prend pas le fou.] Beau travail pour éliminer le défenseur !} *"
+    },
+    {
+      "fen": "2b2rk1/6pp/8/8/6B1/7P/6P1/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow g4c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g4;to;c8;persistent;true,f8c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f8;to;c8;persistent;true]Débarrassez-vous de la tour pour gagner le fou.",
+        "[%hint Sans la tour, vous pouvez prendre le fou.][%wrong Bien essayé, mais ce coup n'élimine pas la tour. ]",
+        "Cette pièce était défendue.",
+        "Le défenseur n'est plus là — gagnons le fou !",
+        "[%hint Prenez le fou.][%wrong Ce coup ne prend aucune pièce.] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b2rk1/6pp/8/8/6B1/7P/6P1/5RK1 w - - 0 1\"]\r\n\r\n{[%c_arrow g4c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g4;to;c8;persistent;true,f8c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f8;to;c8;persistent;true]Débarrassez-vous de la tour pour gagner le fou.} 1. Rxf8+ {[%hint Sans la tour, vous pouvez prendre le fou.][%wrong Bien essayé, mais ce coup n'élimine pas la tour. ]} (1. Bxc8? Rxc8 {Cette pièce était défendue.}) 1... Kxf8 {Le défenseur n'est plus là — gagnons le fou !} 2. Bxc8 {[%hint Prenez le fou.][%wrong Ce coup ne prend aucune pièce.] Bien joué !} *"
+    },
+    {
+      "fen": "5rk1/pp3pp1/1bpq1n1p/3p4/3P4/2PQ3P/PPB3P1/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,h7;color;%23ffaa00;opacity;0.8;square;h7;persistent;true]Leur cavalier est la seule chose qui vous empêche de mater.",
+        "[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce coup ne prend pas le cavalier.]",
+        "Votre dame se fait prendre.",
+        "Maintenant vous pouvez mater !",
+        "[%hint Votre fou et votre dame pointent vers la case de mat.][%wrong Bien essayé, mais ce n'est pas mat. ] Bien vu !",
+        "Vous y étiez presque ! Rapprochez votre dame du roi pour gagner."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/pp3pp1/1bpq1n1p/3p4/3P4/2PQ3P/PPB3P1/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,h7;color;%23ffaa00;opacity;0.8;square;h7;persistent;true]Leur cavalier est la seule chose qui vous empêche de mater.} 1. Rxf6 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce coup ne prend pas le cavalier.]} (1. Qh7+? Nxh7 {Votre dame se fait prendre.}) 1... gxf6 {Maintenant vous pouvez mater !} 2. Qh7# {[%hint Votre fou et votre dame pointent vers la case de mat.][%wrong Bien essayé, mais ce n'est pas mat. ] Bien vu !} (2. Qg6+? fxg6 {Vous y étiez presque ! Rapprochez votre dame du roi pour gagner.}) 1-0"
+    },
+    {
+      "fen": "1kr4r/ppp1bppp/2n2n2/3bp1B1/8/2N5/PPP1NPPP/R3RBK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true]Trouvez le défenseur et éliminez-le !",
+        "[%hint Utilisez votre fou.][%wrong Cela n'élimine pas le défenseur.]",
+        "Le fou était défendu.",
+        "Bien joué ! Gagnons le fou.",
+        "[%hint Prenez la pièce non protégée.][%wrong Ce coup ne prend aucune pièce.] Beau travail pour gagner du matériel !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1kr4r/ppp1bppp/2n2n2/3bp1B1/8/2N5/PPP1NPPP/R3RBK1 w - - 0 1\"]\r\n\r\n{[%c_highlight d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true]Trouvez le défenseur et éliminez-le !} 1. Bxf6 {[%hint Utilisez votre fou.][%wrong Cela n'élimine pas le défenseur.]} (1. Nxd5? Nxd5 {Le fou était défendu.}) 1... Bxf6 {Bien joué ! Gagnons le fou.} 2. Nxd5 {[%hint Prenez la pièce non protégée.][%wrong Ce coup ne prend aucune pièce.] Beau travail pour gagner du matériel !} *"
+    },
+    {
+      "fen": "r4rk1/pppb1ppp/1b3n2/8/4P3/P1N2N2/BP3PPP/3R1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Un simple pion peut être puissant.",
+        "[%hint Pouvez-vous attaquer une pièce avec votre pion ?][%wrong Ce n'est pas le bon coup.]",
+        "Le fou était défendu.",
+        "Bon coup — maintenant vous pouvez gagner un fou.",
+        "[%hint Prenez le fou non défendu.][%wrong Bien essayé, mais ce coup ne gagne pas de fou. ] Excellent !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pppb1ppp/1b3n2/8/4P3/P1N2N2/BP3PPP/3R1RK1 w - - 0 1\"]\r\n\r\n{Un simple pion peut être puissant.} 1. e5 {[%hint Pouvez-vous attaquer une pièce avec votre pion ?][%wrong Ce n'est pas le bon coup.]} (1. Rxd7? Nxd7 {Le fou était défendu.}) 1... Ng4 {Bon coup — maintenant vous pouvez gagner un fou.} 2. Rxd7 {[%hint Prenez le fou non défendu.][%wrong Bien essayé, mais ce coup ne gagne pas de fou. ] Excellent !} *"
+    },
+    {
+      "fen": "r2qk2r/ppp2ppp/1bnp3n/4p3/2B1P1P1/2NP1Q1P/PPP1NP2/R3K1R1 w Qkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Votre dame veut délivrer le mat. Quelle pièce vous en empêche ?",
+        "[%hint Pouvez-vous attaquer avec un pion ?][%wrong Ce n'est pas le bon coup.]",
+        "Le cavalier était en défense.",
+        "Le cavalier était en défense.",
+        "Ce n'était pas la pièce à attaquer.",
+        "Oui ! Maintenant, quand le cavalier bouge, votre dame peut délivrer le mat.",
+        "[%hint Votre dame et votre fou fixent un pion — c'est l'heure du mat.][%wrong Ce n'est pas mat. ]Votre dame et votre fou forment une équipe puissante — joli mat !",
+        "Vous avez la bonne case, prenez simplement avec l'autre pièce."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/1bnp3n/4p3/2B1P1P1/2NP1Q1P/PPP1NP2/R3K1R1 w Qkq - 0 1\"]\r\n\r\n{Votre dame veut délivrer le mat. Quelle pièce vous en empêche ?} 1. g5 {[%hint Pouvez-vous attaquer avec un pion ?][%wrong Ce n'est pas le bon coup.]} (1. Qxf7+? Nxf7 {Le cavalier était en défense.}) (1. Bxf7+? Nxf7 {Le cavalier était en défense.}) (1. d4? Nxd4 {Ce n'était pas la pièce à attaquer.}) 1... Ng8 {Oui ! Maintenant, quand le cavalier bouge, votre dame peut délivrer le mat.} 2. Qxf7# {[%hint Votre dame et votre fou fixent un pion — c'est l'heure du mat.][%wrong Ce n'est pas mat. ]Votre dame et votre fou forment une équipe puissante — joli mat !} (2. Bxf7+? Kd7 {Vous avez la bonne case, prenez simplement avec l'autre pièce.}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c178-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Éliminer le défenseur",
+    "path": "eliminer-le-defenseur",
+    "description": "Apprenez à éliminer le défenseur.",
+    "glyphName": "utility-shield-off",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/6p1/5n2/3b4/8/8/1B6/3R4 w - - 0 1\"]\r\n\r\n{[%c_arrow b2f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b2;to;f6;persistent;true,f6d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f6;to;d5;persistent;true][%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true] Si le cavalier est pris, le fou n'est plus défendu.} 1. Bxf6 {[%hint Prenez le défenseur avec votre fou.][%wrong Le défenseur est toujours actif.]} (1. Rxd5? Nxd5 {Votre tour se fait prendre.}) 1... gxf6 {Oui ! Vous pouvez maintenant prendre le fou.} 2. Rxd5 {[%hint Prenez le fou.][%wrong Ce coup ne prend pas le fou.] Beau travail pour éliminer le défenseur !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b2rk1/6pp/8/8/6B1/7P/6P1/5RK1 w - - 0 1\"]\r\n\r\n{[%c_arrow g4c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g4;to;c8;persistent;true,f8c8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f8;to;c8;persistent;true]Débarrassez-vous de la tour pour gagner le fou.} 1. Rxf8+ {[%hint Sans la tour, vous pouvez prendre le fou.][%wrong Bien essayé, mais ce coup n'élimine pas la tour. ]} (1. Bxc8? Rxc8 {Cette pièce était défendue.}) 1... Kxf8 {Le défenseur n'est plus là — gagnons le fou !} 2. Bxc8 {[%hint Prenez le fou.][%wrong Ce coup ne prend aucune pièce.] Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/pp3pp1/1bpq1n1p/3p4/3P4/2PQ3P/PPB3P1/5RK1 w - - 0 1\"]\r\n\r\n{[%c_highlight f6;color;%23eb6150;opacity;0.8;square;f6;persistent;true,h7;color;%23ffaa00;opacity;0.8;square;h7;persistent;true]Leur cavalier est la seule chose qui vous empêche de mater.} 1. Rxf6 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Ce coup ne prend pas le cavalier.]} (1. Qh7+? Nxh7 {Votre dame se fait prendre.}) 1... gxf6 {Maintenant vous pouvez mater !} 2. Qh7# {[%hint Votre fou et votre dame pointent vers la case de mat.][%wrong Bien essayé, mais ce n'est pas mat. ] Bien vu !} (2. Qg6+? fxg6 {Vous y étiez presque ! Rapprochez votre dame du roi pour gagner.}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1kr4r/ppp1bppp/2n2n2/3bp1B1/8/2N5/PPP1NPPP/R3RBK1 w - - 0 1\"]\r\n\r\n{[%c_highlight d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true]Trouvez le défenseur et éliminez-le !} 1. Bxf6 {[%hint Utilisez votre fou.][%wrong Cela n'élimine pas le défenseur.]} (1. Nxd5? Nxd5 {Le fou était défendu.}) 1... Bxf6 {Bien joué ! Gagnons le fou.} 2. Nxd5 {[%hint Prenez la pièce non protégée.][%wrong Ce coup ne prend aucune pièce.] Beau travail pour gagner du matériel !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pppb1ppp/1b3n2/8/4P3/P1N2N2/BP3PPP/3R1RK1 w - - 0 1\"]\r\n\r\n{Un simple pion peut être puissant.} 1. e5 {[%hint Pouvez-vous attaquer une pièce avec votre pion ?][%wrong Ce n'est pas le bon coup.]} (1. Rxd7? Nxd7 {Le fou était défendu.}) 1... Ng4 {Bon coup — maintenant vous pouvez gagner un fou.} 2. Rxd7 {[%hint Prenez le fou non défendu.][%wrong Bien essayé, mais ce coup ne gagne pas de fou. ] Excellent !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/1bnp3n/4p3/2B1P1P1/2NP1Q1P/PPP1NP2/R3K1R1 w Qkq - 0 1\"]\r\n\r\n{Votre dame veut délivrer le mat. Quelle pièce vous en empêche ?} 1. g5 {[%hint Pouvez-vous attaquer avec un pion ?][%wrong Ce n'est pas le bon coup.]} (1. Qxf7+? Nxf7 {Le cavalier était en défense.}) (1. Bxf7+? Nxf7 {Le cavalier était en défense.}) (1. d4? Nxd4 {Ce n'était pas la pièce à attaquer.}) 1... Ng8 {Oui ! Maintenant, quand le cavalier bouge, votre dame peut délivrer le mat.} 2. Qxf7# {[%hint Votre dame et votre fou fixent un pion — c'est l'heure du mat.][%wrong Ce n'est pas mat. ]Votre dame et votre fou forment une équipe puissante — joli mat !} (2. Bxf7+? Kd7 {Vous avez la bonne case, prenez simplement avec l'autre pièce.}) 1-0"
+    ],
+    "courseId": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à éliminer le défenseur.",
+    "outroText": "Maintenant, vous savez éliminer le défenseur.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs-avancees",
+      "title": "Tactiques avancées"
+    },
+    "parentId": "a48ed61c-278d-11f1-bd76-832d7fb7956f"
+  },
+  "curriculum": {
+    "number": 47,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactiques avancées",
+      "path": "tactiques-echecs-avancees",
+      "order": 2
+    }
+  }
+}

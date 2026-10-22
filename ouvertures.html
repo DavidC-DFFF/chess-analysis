@@ -133,10 +133,38 @@
 .study-picker .mode-options{grid-template-columns:repeat(2,minmax(0,1fr))}
 .training-panel .actions:has(#hint[hidden]){grid-template-columns:1fr 1fr}
 .move-ghost{position:fixed;z-index:50;pointer-events:none;user-select:none;object-fit:contain}
+.site-nav{display:flex;gap:6px;flex-shrink:0}.site-nav a{color:#e9ece5;text-decoration:none;padding:8px 12px;border-radius:7px;font-size:.88rem}.site-nav a:hover{background:#3b5041}.site-nav a[aria-current]{background:#dbb979;color:#1d281f;font-weight:750}.site-nav a:focus-visible{outline:3px solid #e4bd71;outline-offset:2px}@media(max-width:560px){.top{flex-wrap:wrap;gap:8px}.brand{font-size:.77rem}.site-nav a{padding:8px 10px}}
+#sound-toggle{font:inherit;font-size:.82rem;white-space:nowrap;border:1px solid #61765f;background:#29392f;color:#e9ece5;border-radius:7px;padding:8px 10px;cursor:pointer}#sound-toggle:hover{background:#3b5041}#sound-toggle:focus-visible{outline:3px solid #e4bd71;outline-offset:2px}
+</style>
+<style id="chess-appearance">
+/* Reference appearance: Neo pieces and Walnut board. */
+#board,#lesson-board{
+  background:#a88961 url('./boards/walnut.webp') center / 100% 100% no-repeat;
+  border-radius:0;
+  grid-template-rows:repeat(8,minmax(0,1fr));
+}
+#board .sq.light,#board .sq.dark,#board .square.light,#board .square.dark,
+#lesson-board .sq.light,#lesson-board .sq.dark{
+  background:transparent;
+}
+#board .piece,#lesson-board .piece{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  pointer-events:none;
+  filter:none;
+  text-shadow:none;
+}
+#board .light,#lesson-board .light{color:#382b1d}
+#board .dark,#lesson-board .dark{color:#fff4df}
+
 </style>
 </head>
 <body>
-<header class="top"><div class="brand"><span>♞</span><span>ATELIER DES OUVERTURES</span></div><span class="offline">100 % local · sans serveur</span></header>
+<header class="top"><div class="brand"><span>♞</span><span>ATELIER DES OUVERTURES</span></div><nav class="site-nav" aria-label="Navigation principale"><a href="./ouvertures.html" aria-current="page">Ouvertures</a><a href="./lecons.html">Leçons</a><button type="button" id="sound-toggle" aria-pressed="true">Son : activé</button></nav></header>
 <main class="shell">
 <section aria-label="Échiquier d’entraînement">
 <div class="board-head"><div><p class="eyebrow">APPRENDRE UNE LIGNE</p><h1 id="title"></h1><p id="intro" class="muted"></p></div><button id="flip" class="icon" aria-label="Retourner l’échiquier" title="Retourner l’échiquier">⇅</button></div>
@@ -1789,7 +1817,7 @@ function playTrainingMove(from,to,shown=false){
  const game=rulesAt();let played;
  try{played=game.move({from,to})}catch{}
  const reason=played?`Le coup ${played.san} est légal, mais ne fait pas partie des réponses travaillées ici. `+(replyThreat(game)||"Ce n’est pas une évaluation de sa force."):illegalMoveReason(game,from,to);
- wrongAnswers++;feedbackKind="wrong";
+ wrongAnswers++;feedbackKind="wrong";globalThis.openingSounds?.play('illegal');
  feedback=reason+" Objectif de la réponse étudiée : "+opening.moves[step].note+" Essaie encore, la position est conservée.";
  selected="";preview=null;hintLevel=0;render()
 }
@@ -1809,7 +1837,7 @@ function playDraggedMove(from,to,dropPoint=null){
  else{
  const expected=opening.moves[step].uci;
  if(from+to===expected.slice(0,4)){const move=opening.moves[step];go(step+1,true);if(mode==="autonomous")showMessage("Bonne réponse : "+move.san+". "+move.note)}
- else{selected="";preview=null;hintLevel=0;render();showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
+ else{selected="";preview=null;hintLevel=0;render();globalThis.openingSounds?.play('illegal');showMessage("Ce n’est pas le coup de cette ligne. Essaie encore ou demande un indice.")}
  }
  pendingMoveOrigin=null;
  if(step===previousStep&&dropPoint)animateRejectedMove(from,dropPoint)
@@ -1867,7 +1895,7 @@ function draw(){
  const b=boardAt(step),board=document.getElementById("board");board.replaceChildren();
  const move=hintLevel||preview?null:opening.moves[step-1],uci=move?.uci;
  const guided=training&&learningMode==="learn",hinted=opening.moves[step]?.uci,hintFrom=(guided||hintLevel>=1)?hinted?.slice(0,2):null,hintTo=(guided||hintLevel>=2)?hinted?.slice(2,4):null;
- for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.dataset.square=sq;cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(sq===hintFrom)cell.classList.add("hint-origin");if(sq===hintTo)cell.classList.add("hint-target");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){cell.classList.add("has-piece");const image=document.createElement("img");image.className="piece";image.src="pieces/kaneo/"+piece[0]+piece[1].toUpperCase()+".svg";image.alt="";image.draggable=false;cell.append(image)}cell.addEventListener("click",()=>{if(suppressNextClick)return;clickSquare(sq,b)});board.append(cell)}
+ for(let row=0;row<8;row++)for(let col=0;col<8;col++){const sq=squareAt(row,col),piece=b[sq],cell=document.createElement("button");cell.type="button";cell.className="sq "+((row+col)%2?"dark":"light");cell.dataset.square=sq;cell.setAttribute("aria-label",sq+" "+(piece?(piece[0]==="w"?"blanc ":"noir ")+names[piece[1]]:"vide"));if(selected===sq)cell.classList.add("selected");if(sq===hintFrom)cell.classList.add("hint-origin");if(sq===hintTo)cell.classList.add("hint-target");if(uci&&(sq===uci.slice(0,2)||sq===uci.slice(2,4)))cell.classList.add("last");if(col===0){const rank=document.createElement("span");rank.className="coord rank";rank.textContent=sq[1];cell.append(rank)}if(row===7){const file=document.createElement("span");file.className="coord file";file.textContent=sq[0];cell.append(file)}if(piece){cell.classList.add("has-piece");const image=document.createElement("img");image.className="piece";image.src="pieces/neo/"+piece[0]+piece[1]+".webp";image.alt="";image.draggable=false;cell.append(image)}cell.addEventListener("click",()=>{if(suppressNextClick)return;clickSquare(sq,b)});board.append(cell)}
  const arrow=document.getElementById("arrow");const arrowUci=preview?preview.from+preview.to:(guided||hintLevel>=3)?hinted||uci:uci;if(arrowUci){const a=center(arrowUci.slice(0,2)),z=center(arrowUci.slice(2,4));arrow.setAttribute("x1",a[0]);arrow.setAttribute("y1",a[1]);arrow.setAttribute("x2",z[0]);arrow.setAttribute("y2",z[1]);arrow.setAttribute("class",preview||guided||hintLevel>=3?"blue":"");arrow.style.display=""}else arrow.style.display="none";
  renderedOpening=opening;renderedStep=step;renderedFlipped=flipped
 }
@@ -1906,10 +1934,12 @@ function render(){
 }
 function go(n,auto=false,animate=true){
  const minimum=training&&learningMode==="test"?training.start:0,target=Math.max(minimum,Math.min(opening.moves.length,n));
+ const soundMove=target===step+1?opening.moves[step]:null,opponentMove=mode!=="autonomous"&&autoTurn();
  const motions=animate?captureMoveMotions(target):[];
  cancelReply();step=target;selected="";preview=null;hintLevel=0;message="";
  if(auto&&autoTurn()){const scheduledStep=step;replyTimer=setTimeout(()=>{replyTimer=null;if(step===scheduledStep&&autoTurn())go(step+1,true)},1000)}
- render();for(const motion of motions)animatePieceMotion(motion)
+ render();for(const motion of motions)animatePieceMotion(motion);
+ if(soundMove)globalThis.openingSounds?.playMove(soundMove,{opponent:opponentMove,finished:target===opening.moves.length});else globalThis.openingSounds?.stop();
 }
 function cancelMoveAnimations(){
  for(const item of activeMoveAnimations){item.animation.cancel();item.ghost.remove();item.target.style.visibility=""}
@@ -1977,6 +2007,55 @@ window.addEventListener("resize",cancelMoveAnimations);
 window.addEventListener("scroll",cancelMoveAnimations,true);
 renderLists();
 document.getElementById("copyright-year").textContent=new Date().getFullYear();
+</script>
+<script id="opening-sounds">
+// Local Default sound bank. This file is also embedded in the standalone pages.
+(() => {
+  class DefaultSoundBank {
+    constructor({ base = './audio/default/', AudioClass = globalThis.Audio, storage, schedule = (callback, delay) => globalThis.setTimeout(callback, delay), cancel = timer => globalThis.clearTimeout(timer) } = {}) {
+      this.base=base;this.AudioClass=AudioClass;this.schedule=schedule;this.cancel=cancel;
+      this.storage=storage;this.enabled=true;this.current=null;this.finish=null;this.generation=0;
+      if(!this.storage)try{this.storage=globalThis.localStorage;}catch{}
+      try{this.enabled=this.storage?.getItem('chess-analysis.sound')!=='off';}catch{}
+    }
+    stop(){this.generation++;if(this.current){try{this.current.pause();}catch{}this.current=null;}this.finish?.(false);}
+    setEnabled(enabled){this.enabled=Boolean(enabled);if(!this.enabled)this.stop();try{this.storage?.setItem('chess-analysis.sound',this.enabled?'on':'off');}catch{}this.updateButton();}
+    attach(button){if(!button)return;this.button=button;button.onclick=()=>this.setEnabled(!this.enabled);this.updateButton();}
+    updateButton(){if(!this.button)return;this.button.textContent=this.enabled?'Son : activé':'Son : coupé';this.button.setAttribute('aria-pressed',String(this.enabled));this.button.title='Banque de sons Default';}
+    moveSound(move={},opponent=false){
+      const san=move.san||'',flags=move.flags||'';
+      if(/[+#]/.test(san))return 'move-check';
+      if(move.promotion||flags.includes('p'))return 'promote';
+      if(/^(O|0)-(O|0)/.test(san)||/[kq]/.test(flags))return 'castle';
+      if(move.captured||san.includes('x')||/[ce]/.test(flags))return 'capture';
+      return opponent?'move-opponent':'move-self';
+    }
+    play(name){return this.playSequence([name]);}
+    playMove(move, {opponent=false,finished=false}={}){return this.playSequence([this.moveSound(move,opponent),...(finished?['game-end']:[])]);}
+    async playSequence(names){
+      this.stop();const generation=this.generation;
+      if(!this.enabled||typeof this.AudioClass!=='function')return;
+      for(const name of names){
+        if(!this.enabled||generation!==this.generation)return;
+        const ok=await new Promise(resolve=>{
+          let audio,timer,done=false;
+          const finish=success=>{if(done)return;done=true;this.cancel(timer);if(audio){audio.removeEventListener('ended',ended);audio.removeEventListener('error',failed);}if(this.current===audio)this.current=null;if(this.finish===finish)this.finish=null;resolve(success);};
+          const ended=()=>finish(true),failed=()=>finish(false);
+          try{
+            audio=new this.AudioClass(this.base+name+'.mp3');audio.volume=.6;this.current=audio;this.finish=finish;
+            audio.addEventListener('ended',ended);audio.addEventListener('error',failed);
+            timer=this.schedule(()=>{try{audio.pause();}catch{}finish(false);},8000);
+            const playing=audio.play();if(playing?.catch)playing.catch(failed);
+          }catch{finish(false);}
+        });
+        if(!ok)return;
+      }
+    }
+  }
+  globalThis.DefaultSoundBank=DefaultSoundBank;
+})();
+
+globalThis.openingSounds=new DefaultSoundBank();openingSounds.attach(document.getElementById("sound-toggle"));
 </script>
 </body>
 </html>

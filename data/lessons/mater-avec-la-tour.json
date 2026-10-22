@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-la-partie/mater-avec-la-tour",
+  "capturedAt": "2026-10-22T12:23:31.101Z",
+  "title": "Mater avec la tour",
+  "exercises": [
+    {
+      "fen": "6k1/R7/6K1/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi est coincé sur la dernière rangée. Trouvez le coup gagnant pour les blancs !",
+        "[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.",
+        "Bien essayé, mais le roi noir s'échappe. Trouvez un coup imparable !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/R7/6K1/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi est coincé sur la dernière rangée. Trouvez le coup gagnant pour les blancs !}\r\n1.Ra8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n    (1.Rg7+ {Bien essayé, mais le roi noir s'échappe. Trouvez un coup imparable !})\r\n*"
+    },
+    {
+      "fen": "8/8/7R/8/k1K5/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi est coincé sur la colonne a. Trouvez le coup gagnant pour les blancs !",
+        "[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/7R/8/k1K5/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi est coincé sur la colonne a. Trouvez le coup gagnant pour les blancs !}\r\n1.Ra6#\r\n     {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n*"
+    },
+    {
+      "fen": "k7/7R/2K5/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs n'ont qu'un seul déplacement légal au prochain coup : Rb8. Les blancs ont le trait. Comment se préparer pour mater juste après le coup ...Rb8 ?",
+        "[%wrong Ce coup ne permet pas de mater au prochain coup. Essayez encore !][%hint Jouez le roi blanc sur une case où il fera face au roi adverse lorsque celui-ci jouera ...Rb8.]",
+        "Le roi noir ne peut pas bouger, mais il n'est pas échec. C'est pat ! Essayez encore.",
+        "Bravo ! Le roi blanc contrôle toutes les cases de fuite du roi noir sur la septième rangée. Il est maintenant temps de mater !",
+        "[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/7R/2K5/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les noirs n'ont qu'un seul déplacement légal au prochain coup : Rb8. Les blancs ont le trait. Comment se préparer pour mater juste après le coup ...Rb8 ?}\r\n1.Kb6\r\n    {[%wrong Ce coup ne permet pas de mater au prochain coup. Essayez encore !][%hint Jouez le roi blanc sur une case où il fera face au roi adverse lorsque celui-ci jouera ...Rb8.]}\r\n    (1.Rb7 $2 {Le roi noir ne peut pas bouger, mais il n'est pas échec. C'est pat ! Essayez encore.})\r\n1...Kb8\r\n    {Bravo ! Le roi blanc contrôle toutes les cases de fuite du roi noir sur la septième rangée. Il est maintenant temps de mater !}\r\n2.Rh8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n*"
+    },
+    {
+      "fen": "1k6/2R5/2K5/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent forcer le roi noir à aller en a8 pour le mater au prochain coup. Comment faire ?",
+        "[%wrong Ce coup ne force pas le roi noir à aller en a8 tout en préparant le mat au prochain coup. Essayez encore !][%hint C'est avec notre propre roi que l'on pourra repousser le roi adverse dans le coin.]",
+        "Ce coup force effectivement le roi noir à aller dans le coin, mais il ne va pas nous permettre de mater au prochain coup. Essayez encore !",
+        "Bien joué ! Le roi noir est repoussé en a8. Trouvez le mat final !",
+        "[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.",
+        "Hélas, le roi blanc ne peut pas bouger mais il n'est pas en échec. C'est pat ! Essayez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/2R5/2K5/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs veulent forcer le roi noir à aller en a8 pour le mater au prochain coup. Comment faire ?}\r\n1.Kb6\r\n    {[%wrong Ce coup ne force pas le roi noir à aller en a8 tout en préparant le mat au prochain coup. Essayez encore !][%hint C'est avec notre propre roi que l'on pourra repousser le roi adverse dans le coin.]}\r\n    (1.Kd6 $6 Ka8 {Ce coup force effectivement le roi noir à aller dans le coin, mais il ne va pas nous permettre de mater au prochain coup. Essayez encore !})\r\n1...Ka8\r\n    {Bien joué ! Le roi noir est repoussé en a8. Trouvez le mat final !}\r\n2.Rc8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n    (2.Rb7 $2 {Hélas, le roi blanc ne peut pas bouger mais il n'est pas en échec. C'est pat ! Essayez encore.})\r\n*"
+    },
+    {
+      "fen": "6k1/8/5K2/R7/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent forcer le roi noir à aller en f8 pour le mater au coup suivant. Trouvez le bon coup de tour !",
+        "[%wrong Ce coup ne force pas le roi noir à aller sur la case f8. Essayez encore !][%hint La tour doit aller sur la colonne h.]",
+        "Bien joué ! Le roi blanc est forcé de se réfugier en f8, d'où le roi blanc le bloque contre la bande. Il est maintenant temps de mater.",
+        "[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/5K2/R7/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs veulent forcer le roi noir à aller en f8 pour le mater au coup suivant. Trouvez le bon coup de tour !}\r\n1.Rh5\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la case f8. Essayez encore !][%hint La tour doit aller sur la colonne h.]}\r\n1...Kf8\r\n    {Bien joué ! Le roi blanc est forcé de se réfugier en f8, d'où le roi blanc le bloque contre la bande. Il est maintenant temps de mater.}\r\n2.Rh8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "22f15bee-9ce8-11e8-a756-3338c3016a05",
+    "name": "Mater avec la tour",
+    "path": "mater-avec-la-tour",
+    "description": "Mater avec un roi et une tour contre un roi dépouillé, mode d'emploi : 1. Restreignez la liberté de mouvement du roi adverse avec la tour. 2. Amenez le roi au contact de la tour pour la protéger. 3.Réduisez la liberté de mouvement du roi adverse. 4. Une fois le roi adverse au bord de l’échiquier, matez en utilisant la tour tandis que votre roi, face au roi adverse, couvre ses cases de fuites.",
+    "glyphName": "piece-badge-rook-mate",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-checkmate-with-the-rook-c9f.mp4",
+    "fen": "6k1/R7/6K1/8/8/8/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/R7/6K1/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi est coincé sur la dernière rangée. Trouvez le coup gagnant pour les blancs !}\r\n1.Ra8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n    (1.Rg7+ {Bien essayé, mais le roi noir s'échappe. Trouvez un coup imparable !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/7R/8/k1K5/8/8/8 w - - 0 1\"]\r\n\r\n{Le roi est coincé sur la colonne a. Trouvez le coup gagnant pour les blancs !}\r\n1.Ra6#\r\n     {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/7R/2K5/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les noirs n'ont qu'un seul déplacement légal au prochain coup : Rb8. Les blancs ont le trait. Comment se préparer pour mater juste après le coup ...Rb8 ?}\r\n1.Kb6\r\n    {[%wrong Ce coup ne permet pas de mater au prochain coup. Essayez encore !][%hint Jouez le roi blanc sur une case où il fera face au roi adverse lorsque celui-ci jouera ...Rb8.]}\r\n    (1.Rb7 $2 {Le roi noir ne peut pas bouger, mais il n'est pas échec. C'est pat ! Essayez encore.})\r\n1...Kb8\r\n    {Bravo ! Le roi blanc contrôle toutes les cases de fuite du roi noir sur la septième rangée. Il est maintenant temps de mater !}\r\n2.Rh8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/2R5/2K5/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs veulent forcer le roi noir à aller en a8 pour le mater au prochain coup. Comment faire ?}\r\n1.Kb6\r\n    {[%wrong Ce coup ne force pas le roi noir à aller en a8 tout en préparant le mat au prochain coup. Essayez encore !][%hint C'est avec notre propre roi que l'on pourra repousser le roi adverse dans le coin.]}\r\n    (1.Kd6 $6 Ka8 {Ce coup force effectivement le roi noir à aller dans le coin, mais il ne va pas nous permettre de mater au prochain coup. Essayez encore !})\r\n1...Ka8\r\n    {Bien joué ! Le roi noir est repoussé en a8. Trouvez le mat final !}\r\n2.Rc8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n    (2.Rb7 $2 {Hélas, le roi blanc ne peut pas bouger mais il n'est pas en échec. C'est pat ! Essayez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/5K2/R7/8/8/8/8 w - - 0 1\"]\r\n\r\n{Les blancs veulent forcer le roi noir à aller en f8 pour le mater au coup suivant. Trouvez le bon coup de tour !}\r\n1.Rh5\r\n    {[%wrong Ce coup ne force pas le roi noir à aller sur la case f8. Essayez encore !][%hint La tour doit aller sur la colonne h.]}\r\n1...Kf8\r\n    {Bien joué ! Le roi blanc est forcé de se réfugier en f8, d'où le roi blanc le bloque contre la bande. Il est maintenant temps de mater.}\r\n2.Rh8#\r\n    {[%wrong Il faut trouver un mat en un !][%hint C'est la tour qui doit délivrer le mat.] Bien joué ! C'est échec et mat.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "2a28990a-a557-11e8-9594-511f3664a6ec",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Roi et tour peuvent mater ensemble, découvrons comment.",
+    "outroText": "Très bien. N'oubliez pas de vous entrainer régulièrement à ces techniques pour les maîtriser.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "path": "gagner-la-partie",
+      "title": "Gagner la partie",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/2a28990a-a557-11e8-9594-511f3664a6ec.97114806.728x410o.7ceb702a43b5.png"
+    },
+    "parentId": "f7692d48-83a7-11e8-b316-6d25637c4a4e",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-rook5d111171ce63f.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-rook-5668888fcb32c1.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-rook-1606c7cca50673.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-the-rook-65ea245b2eb003.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/scaccomatto-con-la-torre639216f69b3aa.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 29,
+    "order": 5,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "name": "Gagner la partie",
+      "path": "gagner-la-partie",
+      "order": 3
+    }
+  }
+}

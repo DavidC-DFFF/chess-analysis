@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/avant-poste",
+  "capturedAt": "2026-10-22T12:23:48.427Z",
+  "title": "L'avant-poste",
+  "exercises": [
+    {
+      "fen": "r3r1k1/1p1qbppp/p2p1n2/4pPB1/4P3/2NQ4/PPP3PP/R4RK1 w - - 2 16",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Démontrez vos talents positionnels en plaçant votre cavalier sur un bel avant-poste !",
+        "[%wrong Ce coup ne place pas le cavalier sur un puissant avant-poste. Cherchez encore !][%hint d5 serait un joli avant-poste pour le cavalier. Comment l'y amener ?]",
+        "C'est la bonne idée, mais pas la bonne exécution. La case d5 est pour l'instant bien gardée. Commencez par éliminer la pièce qui la défend !",
+        "Joli coup ! Le défenseur de l'avant-poste d5 est éliminé. Nous allons pouvoir dominer la position en installant notre cavalier sur cette case puissante. A vous de jouer !",
+        "[%wrong Ce coup ne place notre cavalier sur un puissant avant-poste. Essayez encore !][%hint Mettez votre cavalier sur un puissant avant-poste.] Beau travail ! Le cavalier, bien installé sur ce puissant avant-poste, domine complètement la position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3r1k1/1p1qbppp/p2p1n2/4pPB1/4P3/2NQ4/PPP3PP/R4RK1 w - - 2 16\"]\r\n\r\n{Trait aux blancs. Démontrez vos talents positionnels en plaçant votre cavalier sur un bel avant-poste !}\r\n16.Bxf6\r\n    {[%wrong Ce coup ne place pas le cavalier sur un puissant avant-poste. Cherchez encore !][%hint d5 serait un joli avant-poste pour le cavalier. Comment l'y amener ?]}\r\n    (16.Nd5 $2 Nxd5 {C'est la bonne idée, mais pas la bonne exécution. La case d5 est pour l'instant bien gardée. Commencez par éliminer la pièce qui la défend !})\r\n16...Bxf6\r\n    {Joli coup ! Le défenseur de l'avant-poste d5 est éliminé. Nous allons pouvoir dominer la position en installant notre cavalier sur cette case puissante. A vous de jouer !}\r\n17.Nd5\r\n    {[%wrong Ce coup ne place notre cavalier sur un puissant avant-poste. Essayez encore !][%hint Mettez votre cavalier sur un puissant avant-poste.] Beau travail ! Le cavalier, bien installé sur ce puissant avant-poste, domine complètement la position.}\r\n*"
+    },
+    {
+      "fen": "3r4/p4pkp/4p1p1/1p1n4/3P4/1P6/P3BPPP/2R3K1 b - - 1 29",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les pion b est attaqué. Parez la menace tout en créant un superbe avant-poste pour votre cavalier !",
+        "[%wrong Ce coup ne défend pas le pion b tout en créant un avant-poste. Cherchez encore !][%hint La case c3 serait excellente pour le cavalier...]",
+        "Ce coup protège le pion mais ne crée pas d'avant poste. Cherchez encore !",
+        "Bien essayé, mais ce coup n'améliore pas notre position. Cherchez encore !",
+        "Joliment fait ! Le cavalier va maintenant pouvoir s'installer sur le fort avant-poste c3. Mais les blancs s'en prennent au pion b4. Faut-il tout de suite sauter sur c3 ?",
+        "[%wrong Vous avez deux options : jouer ...Cc3 ou protéger le pion b4. Choisissez judicieusement !][%hint Le cavalier noir a des idées de fourchette sur un fou et un pion non protégés...]",
+        "Protéger le pion b4 avant de mettre notre cavalier sur l'avant-poste c3 ? Pourquoi pas, c'est un bon coup. Mais est-ce le plus fort ? Essayons l'autre coup !",
+        "Bien joué ! Le cavalier noir réalise une fourchette sur le fou et le pion a2. Emparons-nous de ce dernier tout en défendant b4 !",
+        "[%wrong Non, nous voulons prendre a2 !][%hint Prenez le pion a2.] Bien joué ! Le cavalier a fait gagner du matériel à son camp, et la position noire est excellente."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/p4pkp/4p1p1/1p1n4/3P4/1P6/P3BPPP/2R3K1 b - - 1 29\"]\r\n\r\n{Trait aux noirs. Les pion b est attaqué. Parez la menace tout en créant un superbe avant-poste pour votre cavalier !}\r\n29...b4\r\n {[%wrong Ce coup ne défend pas le pion b tout en créant un avant-poste. Cherchez encore !][%hint La case c3 serait excellente pour le cavalier...]}\r\n    (29...a6 $6 {Ce coup protège le pion mais ne crée pas d'avant poste. Cherchez encore !})\r\n    (29...Nf4 $2 30.Bxb5 {Bien essayé, mais ce coup n'améliore pas notre position. Cherchez encore !})\r\n30.Rc4\r\n    {Joliment fait ! Le cavalier va maintenant pouvoir s'installer sur le fort avant-poste c3. Mais les blancs s'en prennent au pion b4. Faut-il tout de suite sauter sur c3 ?}\r\n30...Nc3\r\n    {[%wrong Vous avez deux options : jouer ...Cc3 ou protéger le pion b4. Choisissez judicieusement !][%hint Le cavalier noir a des idées de fourchette sur un fou et un pion non protégés...]}\r\n    (30...a5 $5 {Protéger le pion b4 avant de mettre notre cavalier sur l'avant-poste c3 ? Pourquoi pas, c'est un bon coup. Mais est-ce le plus fort ? Essayons l'autre coup !})\r\n31.Bf3\r\n    {Bien joué ! Le cavalier noir réalise une fourchette sur le fou et le pion a2. Emparons-nous de ce dernier tout en défendant b4 !}\r\n31...Nxa2\r\n    {[%wrong Non, nous voulons prendre a2 !][%hint Prenez le pion a2.] Bien joué ! Le cavalier a fait gagner du matériel à son camp, et la position noire est excellente.}\r\n*"
+    },
+    {
+      "fen": "r4rk1/1b1nbppp/pq1p1n2/1ppPp3/4P3/PBP2N1P/1PQN1PP1/R1B1R1K1 b - - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs rêvent de se créer un avant-poste. Gagnez un tempo en attaquant une pièce blanche et en créant en même temps un avant poste pour le cavalier.",
+        "[%wrong Ce coup ne crée pas d'avant-poste. Cherchez encore !][%hint Comment attaquer une pièce blanche avec un pion tout en libérant une case pour le cavalier ?]",
+        "Excellent ! Les noirs attaquent le fou blanc et sécurisent l'avant poste d3. Plaçons-y un cavalier !",
+        "[%wrong Ce coup ne prépare pas l'arrivée d'un cavalier en e3. Cherchez encore !][%hint Quel cavalier peut rapidement accéder à d3 via c5 ?] Bien vu ! Les noirs obtiennent une excellente position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1b1nbppp/pq1p1n2/1ppPp3/4P3/PBP2N1P/1PQN1PP1/R1B1R1K1 b - - 0 14\"]\r\n\r\n{Les noirs rêvent de se créer un avant-poste. Gagnez un tempo en attaquant une pièce blanche et en créant en même temps un avant poste pour le cavalier.}\r\n14...c4\r\n    {[%wrong Ce coup ne crée pas d'avant-poste. Cherchez encore !][%hint Comment attaquer une pièce blanche avec un pion tout en libérant une case pour le cavalier ?]}\r\n15.Ba2\r\n    {Excellent ! Les noirs attaquent le fou blanc et sécurisent l'avant poste d3. Plaçons-y un cavalier !}\r\n15...Nc5\r\n    {[%wrong Ce coup ne prépare pas l'arrivée d'un cavalier en e3. Cherchez encore !][%hint Quel cavalier peut rapidement accéder à d3 via c5 ?] Bien vu ! Les noirs obtiennent une excellente position.}\r\n*"
+    },
+    {
+      "fen": "3q1r1k/p1p3pp/1p1p1n2/4p3/4P1b1/PBP2N2/1P1Q1PPP/4R1K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Trouvez un fort coup positionnel créant un avant-poste pour votre cavalier.",
+        "[%wrong Ce coup ne crée pas d'avant-poste pour notre cavalier. Cherchez encore !][%hint Comment abîmer la structure de pions blanche tout en créant un avant poste en f4 ?]",
+        "f4 est une superbe case pour le cavalier, mais on ne peut pas pas la qualifier d'avant-poste en raison de la présence d'un pion g blanc. Trouvez le fort coup qui force la création de l'avant-poste f4 !",
+        "Joli ! Les noirs cassent la structure de pions blanche et transforment la case f4 en avant-poste. Nous entrerons bientôt dans une finale bon cavalier contre mauvais fou. Placez maintenant le cavalier sur sa case de rêve !",
+        "[%wrong Ce coup ne prépare pas l'installation du cavalier sur l'avant-poste f4. Cherchez encore !][%hint Comment amener le cavalier en f4 en deux coups ?] Bien joué ! Le cavalier noir va se poster sur l'excellente case f4 au prochain coup, et le roque blanc est en lambeaux."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3q1r1k/p1p3pp/1p1p1n2/4p3/4P1b1/PBP2N2/1P1Q1PPP/4R1K1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez un fort coup positionnel créant un avant-poste pour votre cavalier.}\r\n1...Bxf3\r\n    {[%wrong Ce coup ne crée pas d'avant-poste pour notre cavalier. Cherchez encore !][%hint Comment abîmer la structure de pions blanche tout en créant un avant poste en f4 ?]}\r\n    (1...Nh5 $6 2.Bd1 {f4 est une superbe case pour le cavalier, mais on ne peut pas pas la qualifier d'avant-poste en raison de la présence d'un pion g blanc. Trouvez le fort coup qui force la création de l'avant-poste f4 !})\r\n2.gxf3\r\n    {Joli ! Les noirs cassent la structure de pions blanche et transforment la case f4 en avant-poste. Nous entrerons bientôt dans une finale bon cavalier contre mauvais fou. Placez maintenant le cavalier sur sa case de rêve !}\r\n2...Nh5\r\n    {[%wrong Ce coup ne prépare pas l'installation du cavalier sur l'avant-poste f4. Cherchez encore !][%hint Comment amener le cavalier en f4 en deux coups ?] Bien joué ! Le cavalier noir va se poster sur l'excellente case f4 au prochain coup, et le roque blanc est en lambeaux.}\r\n*"
+    },
+    {
+      "fen": "2r1k2r/1q1b1pp1/p1n1p2p/1p2P3/6P1/P1P1Q1NP/2PB1P2/R3R1K1 b k - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs s'apprêtent à installer un cavalier sur le fort avant-poste d6. Mais les noirs ont le trait, et ils ont un plan consistant à mettre leur propre cavalier sur un avant-poste pour couvrir la case d6. A vous de jouer !",
+        "[%wrong Ce coup ne prépare pas l'arrivée de notre cavalier sur un avant-poste d'où il couvrira d6. Cherchez encore !][%hint Les noirs ont leur propre avant-poste en c4... Comment y accéder ?]",
+        "Bien vu ! Le cavalier noir s'apprêtent à se placer sur la meilleure case possible pour parer la menace Cd6 Finissez le travail !",
+        "[%wrong Ce coup ne place pas le cavalier sur l'avant-poste souhaité. Essayez encore !][%hint Placez votre cavalier sur l'avant-poste couvrant d6.] Vous avez combiné l'attaque et la défense avec brio. Les noirs attaquent la dame blanche et couvrent la case d6."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1k2r/1q1b1pp1/p1n1p2p/1p2P3/6P1/P1P1Q1NP/2PB1P2/R3R1K1 b k - 0 1\"]\r\n\r\n{Les blancs s'apprêtent à installer un cavalier sur le fort avant-poste d6. Mais les noirs ont le trait, et ils ont un plan consistant à mettre leur propre cavalier sur un avant-poste pour couvrir la case d6. A vous de jouer !}\r\n1...Na5\r\n    {[%wrong Ce coup ne prépare pas l'arrivée de notre cavalier sur un avant-poste d'où il couvrira d6. Cherchez encore !][%hint Les noirs ont leur propre avant-poste en c4... Comment y accéder ?]}\r\n2.Ne4\r\n    {Bien vu ! Le cavalier noir s'apprêtent à se placer sur la meilleure case possible pour parer la menace Cd6 Finissez le travail !}\r\n2...Nc4\r\n    {[%wrong Ce coup ne place pas le cavalier sur l'avant-poste souhaité. Essayez encore !][%hint Placez votre cavalier sur l'avant-poste couvrant d6.] Vous avez combiné l'attaque et la défense avec brio. Les noirs attaquent la dame blanche et couvrent la case d6.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "a0f090c4-9cec-11e8-a37a-ab6a947682c9",
+    "name": "L'avant-poste",
+    "path": "avant-poste",
+    "description": "Un avant-poste est une case sur laquelle votre pièce ne peut pas être attaquée par un pion adverse. L’avant-poste est particulièrement efficace quand il est défendu par un de vos propres pions et qu’il permet de contrôler des cases clefs de la position adverse. Les cavaliers sont les pièces qui profitent le mieux des avant-postes.",
+    "glyphName": "piece-knight-outpost",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-outposts-w5n.mp4",
+    "fen": "4r1k1/1pr2p1p/p1pNbp2/2P5/P7/P6P/1R3PPK/2R5 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3r1k1/1p1qbppp/p2p1n2/4pPB1/4P3/2NQ4/PPP3PP/R4RK1 w - - 2 16\"]\r\n\r\n{Trait aux blancs. Démontrez vos talents positionnels en plaçant votre cavalier sur un bel avant-poste !}\r\n16.Bxf6\r\n    {[%wrong Ce coup ne place pas le cavalier sur un puissant avant-poste. Cherchez encore !][%hint d5 serait un joli avant-poste pour le cavalier. Comment l'y amener ?]}\r\n    (16.Nd5 $2 Nxd5 {C'est la bonne idée, mais pas la bonne exécution. La case d5 est pour l'instant bien gardée. Commencez par éliminer la pièce qui la défend !})\r\n16...Bxf6\r\n    {Joli coup ! Le défenseur de l'avant-poste d5 est éliminé. Nous allons pouvoir dominer la position en installant notre cavalier sur cette case puissante. A vous de jouer !}\r\n17.Nd5\r\n    {[%wrong Ce coup ne place notre cavalier sur un puissant avant-poste. Essayez encore !][%hint Mettez votre cavalier sur un puissant avant-poste.] Beau travail ! Le cavalier, bien installé sur ce puissant avant-poste, domine complètement la position.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r4/p4pkp/4p1p1/1p1n4/3P4/1P6/P3BPPP/2R3K1 b - - 1 29\"]\r\n\r\n{Trait aux noirs. Les pion b est attaqué. Parez la menace tout en créant un superbe avant-poste pour votre cavalier !}\r\n29...b4\r\n {[%wrong Ce coup ne défend pas le pion b tout en créant un avant-poste. Cherchez encore !][%hint La case c3 serait excellente pour le cavalier...]}\r\n    (29...a6 $6 {Ce coup protège le pion mais ne crée pas d'avant poste. Cherchez encore !})\r\n    (29...Nf4 $2 30.Bxb5 {Bien essayé, mais ce coup n'améliore pas notre position. Cherchez encore !})\r\n30.Rc4\r\n    {Joliment fait ! Le cavalier va maintenant pouvoir s'installer sur le fort avant-poste c3. Mais les blancs s'en prennent au pion b4. Faut-il tout de suite sauter sur c3 ?}\r\n30...Nc3\r\n    {[%wrong Vous avez deux options : jouer ...Cc3 ou protéger le pion b4. Choisissez judicieusement !][%hint Le cavalier noir a des idées de fourchette sur un fou et un pion non protégés...]}\r\n    (30...a5 $5 {Protéger le pion b4 avant de mettre notre cavalier sur l'avant-poste c3 ? Pourquoi pas, c'est un bon coup. Mais est-ce le plus fort ? Essayons l'autre coup !})\r\n31.Bf3\r\n    {Bien joué ! Le cavalier noir réalise une fourchette sur le fou et le pion a2. Emparons-nous de ce dernier tout en défendant b4 !}\r\n31...Nxa2\r\n    {[%wrong Non, nous voulons prendre a2 !][%hint Prenez le pion a2.] Bien joué ! Le cavalier a fait gagner du matériel à son camp, et la position noire est excellente.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1b1nbppp/pq1p1n2/1ppPp3/4P3/PBP2N1P/1PQN1PP1/R1B1R1K1 b - - 0 14\"]\r\n\r\n{Les noirs rêvent de se créer un avant-poste. Gagnez un tempo en attaquant une pièce blanche et en créant en même temps un avant poste pour le cavalier.}\r\n14...c4\r\n    {[%wrong Ce coup ne crée pas d'avant-poste. Cherchez encore !][%hint Comment attaquer une pièce blanche avec un pion tout en libérant une case pour le cavalier ?]}\r\n15.Ba2\r\n    {Excellent ! Les noirs attaquent le fou blanc et sécurisent l'avant poste d3. Plaçons-y un cavalier !}\r\n15...Nc5\r\n    {[%wrong Ce coup ne prépare pas l'arrivée d'un cavalier en e3. Cherchez encore !][%hint Quel cavalier peut rapidement accéder à d3 via c5 ?] Bien vu ! Les noirs obtiennent une excellente position.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3q1r1k/p1p3pp/1p1p1n2/4p3/4P1b1/PBP2N2/1P1Q1PPP/4R1K1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez un fort coup positionnel créant un avant-poste pour votre cavalier.}\r\n1...Bxf3\r\n    {[%wrong Ce coup ne crée pas d'avant-poste pour notre cavalier. Cherchez encore !][%hint Comment abîmer la structure de pions blanche tout en créant un avant poste en f4 ?]}\r\n    (1...Nh5 $6 2.Bd1 {f4 est une superbe case pour le cavalier, mais on ne peut pas pas la qualifier d'avant-poste en raison de la présence d'un pion g blanc. Trouvez le fort coup qui force la création de l'avant-poste f4 !})\r\n2.gxf3\r\n    {Joli ! Les noirs cassent la structure de pions blanche et transforment la case f4 en avant-poste. Nous entrerons bientôt dans une finale bon cavalier contre mauvais fou. Placez maintenant le cavalier sur sa case de rêve !}\r\n2...Nh5\r\n    {[%wrong Ce coup ne prépare pas l'installation du cavalier sur l'avant-poste f4. Cherchez encore !][%hint Comment amener le cavalier en f4 en deux coups ?] Bien joué ! Le cavalier noir va se poster sur l'excellente case f4 au prochain coup, et le roque blanc est en lambeaux.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r1k2r/1q1b1pp1/p1n1p2p/1p2P3/6P1/P1P1Q1NP/2PB1P2/R3R1K1 b k - 0 1\"]\r\n\r\n{Les blancs s'apprêtent à installer un cavalier sur le fort avant-poste d6. Mais les noirs ont le trait, et ils ont un plan consistant à mettre leur propre cavalier sur un avant-poste pour couvrir la case d6. A vous de jouer !}\r\n1...Na5\r\n    {[%wrong Ce coup ne prépare pas l'arrivée de notre cavalier sur un avant-poste d'où il couvrira d6. Cherchez encore !][%hint Les noirs ont leur propre avant-poste en c4... Comment y accéder ?]}\r\n2.Ne4\r\n    {Bien vu ! Le cavalier noir s'apprêtent à se placer sur la meilleure case possible pour parer la menace Cd6 Finissez le travail !}\r\n2...Nc4\r\n    {[%wrong Ce coup ne place pas le cavalier sur l'avant-poste souhaité. Essayez encore !][%hint Placez votre cavalier sur l'avant-poste couvrant d6.] Vous avez combiné l'attaque et la défense avec brio. Les noirs attaquent la dame blanche et couvrent la case d6.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrez quel rôle de soutien peuvent avoir les pions pour les pièces.",
+    "outroText": "Continuez comme ça ! Votre jeu stratégique ne cesse de s'enrichir.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "e652cb00-83b5-11e8-8a41-dd1048744117",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/outposts5e7ab2a13b43c.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/outposts-5668866b18db22.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/outposts-25ea23f5c34933.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/outposts-3611e73d0799a4.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 106,
+    "order": 5,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

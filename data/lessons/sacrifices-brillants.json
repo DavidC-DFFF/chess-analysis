@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/sacrifices-brillants",
+  "capturedAt": "2026-10-22T13:42:37.749Z",
+  "title": "Sacrifices brillants",
+  "exercises": [
+    {
+      "fen": "1r4k1/5ppp/6q1/3Q4/8/7P/5PP1/3R2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d5d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;d8;persistent;true] Parfois, il faut sacrifier une pièce de valeur pour obtenir un avantage encore plus grand.",
+        "[%hint Faites échec au roi et préparez-vous à gagner la partie avec votre tour.][%wrong Bien essayé, mais ce coup n'est pas gagnant. Essayez de trouver un échec puissant avec la dame.]",
+        "Bien essayé, mais cela ne fonctionne pas. Jouez l'autre échec avec la dame.",
+        "Excellent ! C'est l'heure du mat.",
+        "[%hint Prenez la tour.][%wrong Bien essayé, mais ce n'est pas mat.]Beau travail en sacrifiant votre dame pour forcer le mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/5ppp/6q1/3Q4/8/7P/5PP1/3R2K1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{[%c_arrow d5d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;d8;persistent;true] Parfois, il faut sacrifier une pièce de valeur pour obtenir un avantage encore plus grand.} 1. Qd8+ {[%hint Faites échec au roi et préparez-vous à gagner la partie avec votre tour.][%wrong Bien essayé, mais ce coup n'est pas gagnant. Essayez de trouver un échec puissant avec la dame.]} (1. Qxf7+? Qxf7 {Bien essayé, mais cela ne fonctionne pas. Jouez l'autre échec avec la dame.}) 1... Rxd8 {Excellent ! C'est l'heure du mat.} 2. Rxd8# {[%hint Prenez la tour.][%wrong Bien essayé, mais ce n'est pas mat.]Beau travail en sacrifiant votre dame pour forcer le mat !} 1-0"
+    },
+    {
+      "fen": "1q1b2k1/6pp/8/2N5/8/1P6/P5PP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true,f8;color;%23ffaa00;opacity;0.8;square;f8;persistent;true][%c_arrow c5d7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;d7;persistent;true]Quel sacrifice permettra à votre cavalier de faire une fourchette entre le roi et la dame ?",
+        "[%hint Trouvez le seul échec disponible, qui force le roi à aller sur une case de fourchette.][%wrong Bien essayé, mais cela ne fonctionne pas. Cherchez un échec puissant.]",
+        "[%c_arrow a7g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a7;to;g1;persistent;true,a7d7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a7;to;d7;persistent;true]Bien essayé, mais cela permet une fourchette qui gagne votre cavalier.",
+        "[%c_arrow b6e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b6;to;e6;persistent;true,b6g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b6;to;g1;persistent;true]Bien essayé, mais cela permet une fourchette qui gagne votre cavalier.",
+        "Bien joué ! C'est l'heure de la fourchette.",
+        "[%hint Attaquez le roi et la dame en même temps.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Essayez encore.]",
+        "Excellent ! Allons récupérer la dame.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne gagne pas la dame. Essayez encore.]Bien joué ! Vous avez sacrifié votre tour pour gagner la dame !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1q1b2k1/6pp/8/2N5/8/1P6/P5PP/5RK1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true,f8;color;%23ffaa00;opacity;0.8;square;f8;persistent;true][%c_arrow c5d7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;d7;persistent;true]Quel sacrifice permettra à votre cavalier de faire une fourchette entre le roi et la dame ?} 1. Rf8+ {[%hint Trouvez le seul échec disponible, qui force le roi à aller sur une case de fourchette.][%wrong Bien essayé, mais cela ne fonctionne pas. Cherchez un échec puissant.]} (1. Nd7? Qa7+ {[%c_arrow a7g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a7;to;g1;persistent;true,a7d7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a7;to;d7;persistent;true]Bien essayé, mais cela permet une fourchette qui gagne votre cavalier.}) (1. Ne6? Qb6+ {[%c_arrow b6e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b6;to;e6;persistent;true,b6g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b6;to;g1;persistent;true]Bien essayé, mais cela permet une fourchette qui gagne votre cavalier.}) 1... Kxf8 {Bien joué ! C'est l'heure de la fourchette.} 2. Nd7+ {[%hint Attaquez le roi et la dame en même temps.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Essayez encore.]} 2... Ke8 {Excellent ! Allons récupérer la dame.} 3. Nxb8 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne gagne pas la dame. Essayez encore.]Bien joué ! Vous avez sacrifié votre tour pour gagner la dame !} *"
+    },
+    {
+      "fen": "1k4r1/p1p5/1p6/8/8/5Qq1/6P1/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Sacrifiez une pièce pour éloigner la tour de la défense de la dame.",
+        "[%hint Trouvez un échec puissant qui force la tour à abandonner la défense de la dame.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Essayez encore.]",
+        "Bien essayé, mais cela ne fait qu'échanger les dames. Trouvez un moyen de dévier la tour de la défense de la dame.",
+        "Bien essayé, mais cela perd la dame. Essayez de faire échec sur la dernière rangée avec une autre pièce.",
+        "Fantastique ! Vous sacrifiez votre tour pour gagner la dame.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas la dame.]Bien joué ! Vous avez sacrifié votre tour pour gagner la dame."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4r1/p1p5/1p6/8/8/5Qq1/6P1/4R1K1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Sacrifiez une pièce pour éloigner la tour de la défense de la dame.} 1. Re8+ {[%hint Trouvez un échec puissant qui force la tour à abandonner la défense de la dame.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Essayez encore.]} (1. Qxg3? Rxg3 {Bien essayé, mais cela ne fait qu'échanger les dames. Trouvez un moyen de dévier la tour de la défense de la dame.}) (1. Qf8+? Rxf8 {Bien essayé, mais cela perd la dame. Essayez de faire échec sur la dernière rangée avec une autre pièce.}) 1... Rxe8 {Fantastique ! Vous sacrifiez votre tour pour gagner la dame.} 2. Qxg3 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas la dame.]Bien joué ! Vous avez sacrifié votre tour pour gagner la dame.} *"
+    },
+    {
+      "fen": "r4rk1/pppq1pp1/2n2n1p/2b5/5N2/2NB2Q1/PPP2PPP/3R1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous pouvez gagner la dame ici si vous êtes assez audacieux.",
+        "[%hint Votre fou empêche la tour d'attaquer la dame. Trouvez un coup de fou forçant.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Cherchez un échec puissant.]",
+        "Bien essayé, mais cela ne gagne pas la dame. Essayez de trouver un coup de fou plus forçant.",
+        "Bien essayé, mais cela ne gagne pas la dame. Essayez de trouver un coup de fou plus forçant.",
+        "[%c_arrow h5g3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h5;to;g3;persistent;true]Bien essayé, mais maintenant votre dame est attaquée. Essayez encore.",
+        "Sacrifice brillant ! Maintenant vous pouvez gagner la dame.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne gagne pas la dame.]Impressionnant sacrifice, vous gagnez la dame !",
+        "Ce coup échange les dames alors que vous avez du matériel en moins... Essayez de prendre la dame directement."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pppq1pp1/2n2n1p/2b5/5N2/2NB2Q1/PPP2PPP/3R1RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Vous pouvez gagner la dame ici si vous êtes assez audacieux.} 1. Bh7+ {[%hint Votre fou empêche la tour d'attaquer la dame. Trouvez un coup de fou forçant.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Cherchez un échec puissant.]} (1. Ba6? Bd6 {Bien essayé, mais cela ne gagne pas la dame. Essayez de trouver un coup de fou plus forçant.}) (1. Bg6? Bd6 {Bien essayé, mais cela ne gagne pas la dame. Essayez de trouver un coup de fou plus forçant.}) (1. Nh5? Nxh5 {[%c_arrow h5g3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h5;to;g3;persistent;true]Bien essayé, mais maintenant votre dame est attaquée. Essayez encore.}) 1... Kxh7 {Sacrifice brillant ! Maintenant vous pouvez gagner la dame.} 2. Rxd7 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne gagne pas la dame.]Impressionnant sacrifice, vous gagnez la dame !} (2. Qd3+? Qxd3 {Ce coup échange les dames alors que vous avez du matériel en moins... Essayez de prendre la dame directement.}) *"
+    },
+    {
+      "fen": "3r1rk1/p1R1R2p/4npp1/1p6/q5b1/5N2/P3QPPP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vos tours sur la septième rangée sont puissantes, mais ne peuvent pas encore conclure.",
+        "[%hint Le cavalier empêche votre tour d'attaquer le roi sans risques. Éliminez le défenseur.][%wrong Bien essayé, mais ce coup n'est pas gagnant. Essayez encore.]",
+        "Bien essayé, mais cela pose problème. Essayez de prendre le cavalier avec une autre pièce.",
+        "Le cavalier ruine vos plans. Éliminons d'abord le cavalier !",
+        "Bien essayé, mais cela pose problème. Essayez encore.",
+        "Brillant ! Continuez d'attaquer le roi.",
+        "[%hint Trouvez un moyen de faire échec au roi.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Essayez encore.]",
+        "Bien essayé, mais c'est un coup trop lent. Essayez de faire échec au roi avec votre tour.",
+        "Oui ! Un échec en amène un autre.",
+        "[%hint Continuez à faire échec le long de la septième rangée.][%wrong Bien essayé, mais ce coup ne fait pas échec au roi. Essayez encore.]",
+        "Bien essayé, mais cherche un échec plus sûr.",
+        "Continuez ! C'est l'heure du mat.",
+        "[%hint Trouvez un échec avec la tour qui gagne la partie immédiatement.][%wrong Bien essayé, mais ce coup n'est pas mat. Essayez encore.]Les tours s'harmonisent parfaitement pour délivrer le mat - excellent travail !",
+        "Bonne case, mauvaise tour. Essayez encore et vous gagnerez la partie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/p1R1R2p/4npp1/1p6/q5b1/5N2/P3QPPP/6K1 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n\r\n{Vos tours sur la septième rangée sont puissantes, mais ne peuvent pas encore conclure.} 1. Qxe6+ {[%hint Le cavalier empêche votre tour d'attaquer le roi sans risques. Éliminez le défenseur.][%wrong Bien essayé, mais ce coup n'est pas gagnant. Essayez encore.]} (1. Rxe6? Rd1+ {Bien essayé, mais cela pose problème. Essayez de prendre le cavalier avec une autre pièce.}) (1. Rg7+? Nxg7 {Le cavalier ruine vos plans. Éliminons d'abord le cavalier !}) (1. Rxa7? Rd1+ {Bien essayé, mais cela pose problème. Essayez encore.}) 1... Bxe6 {Brillant ! Continuez d'attaquer le roi.} 2. Rg7+ {[%hint Trouvez un moyen de faire échec au roi.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Essayez encore.]} (2. Rxh7? Qd1+ {Bien essayé, mais c'est un coup trop lent. Essayez de faire échec au roi avec votre tour.}) 2... Kh8 {Oui ! Un échec en amène un autre.} 3. Rxh7+ {[%hint Continuez à faire échec le long de la septième rangée.][%wrong Bien essayé, mais ce coup ne fait pas échec au roi. Essayez encore.]} (3. Rg8+? Kxg8 {Bien essayé, mais cherche un échec plus sûr.}) 3... Kg8 {Continuez ! C'est l'heure du mat.} 4. Rcg7# {[%hint Trouvez un échec avec la tour qui gagne la partie immédiatement.][%wrong Bien essayé, mais ce coup n'est pas mat. Essayez encore.]Les tours s'harmonisent parfaitement pour délivrer le mat - excellent travail !} (4. Rhg7+? Kh8 {Bonne case, mauvaise tour. Essayez encore et vous gagnerez la partie !}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c268-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Sacrifices brillants",
+    "path": "sacrifices-brillants",
+    "description": "Apprenez à trouver des sacrifices brillants pour gagner avec style !",
+    "glyphName": "piece-badge-king-danger",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r4k1/5ppp/6q1/3Q4/8/7P/5PP1/3R2K1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{[%c_arrow d5d8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;d8;persistent;true] Parfois, il faut sacrifier une pièce de valeur pour obtenir un avantage encore plus grand.} 1. Qd8+ {[%hint Faites échec au roi et préparez-vous à gagner la partie avec votre tour.][%wrong Bien essayé, mais ce coup n'est pas gagnant. Essayez de trouver un échec puissant avec la dame.]} (1. Qxf7+? Qxf7 {Bien essayé, mais cela ne fonctionne pas. Jouez l'autre échec avec la dame.}) 1... Rxd8 {Excellent ! C'est l'heure du mat.} 2. Rxd8# {[%hint Prenez la tour.][%wrong Bien essayé, mais ce n'est pas mat.]Beau travail en sacrifiant votre dame pour forcer le mat !} 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1q1b2k1/6pp/8/2N5/8/1P6/P5PP/5RK1 w - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true,f8;color;%23ffaa00;opacity;0.8;square;f8;persistent;true][%c_arrow c5d7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c5;to;d7;persistent;true]Quel sacrifice permettra à votre cavalier de faire une fourchette entre le roi et la dame ?} 1. Rf8+ {[%hint Trouvez le seul échec disponible, qui force le roi à aller sur une case de fourchette.][%wrong Bien essayé, mais cela ne fonctionne pas. Cherchez un échec puissant.]} (1. Nd7? Qa7+ {[%c_arrow a7g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a7;to;g1;persistent;true,a7d7;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a7;to;d7;persistent;true]Bien essayé, mais cela permet une fourchette qui gagne votre cavalier.}) (1. Ne6? Qb6+ {[%c_arrow b6e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b6;to;e6;persistent;true,b6g1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b6;to;g1;persistent;true]Bien essayé, mais cela permet une fourchette qui gagne votre cavalier.}) 1... Kxf8 {Bien joué ! C'est l'heure de la fourchette.} 2. Nd7+ {[%hint Attaquez le roi et la dame en même temps.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Essayez encore.]} 2... Ke8 {Excellent ! Allons récupérer la dame.} 3. Nxb8 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne gagne pas la dame. Essayez encore.]Bien joué ! Vous avez sacrifié votre tour pour gagner la dame !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4r1/p1p5/1p6/8/8/5Qq1/6P1/4R1K1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Sacrifiez une pièce pour éloigner la tour de la défense de la dame.} 1. Re8+ {[%hint Trouvez un échec puissant qui force la tour à abandonner la défense de la dame.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Essayez encore.]} (1. Qxg3? Rxg3 {Bien essayé, mais cela ne fait qu'échanger les dames. Trouvez un moyen de dévier la tour de la défense de la dame.}) (1. Qf8+? Rxf8 {Bien essayé, mais cela perd la dame. Essayez de faire échec sur la dernière rangée avec une autre pièce.}) 1... Rxe8 {Fantastique ! Vous sacrifiez votre tour pour gagner la dame.} 2. Qxg3 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas la dame.]Bien joué ! Vous avez sacrifié votre tour pour gagner la dame.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pppq1pp1/2n2n1p/2b5/5N2/2NB2Q1/PPP2PPP/3R1RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Vous pouvez gagner la dame ici si vous êtes assez audacieux.} 1. Bh7+ {[%hint Votre fou empêche la tour d'attaquer la dame. Trouvez un coup de fou forçant.][%wrong Bien essayé, mais ce coup ne gagne pas la dame. Cherchez un échec puissant.]} (1. Ba6? Bd6 {Bien essayé, mais cela ne gagne pas la dame. Essayez de trouver un coup de fou plus forçant.}) (1. Bg6? Bd6 {Bien essayé, mais cela ne gagne pas la dame. Essayez de trouver un coup de fou plus forçant.}) (1. Nh5? Nxh5 {[%c_arrow h5g3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h5;to;g3;persistent;true]Bien essayé, mais maintenant votre dame est attaquée. Essayez encore.}) 1... Kxh7 {Sacrifice brillant ! Maintenant vous pouvez gagner la dame.} 2. Rxd7 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne gagne pas la dame.]Impressionnant sacrifice, vous gagnez la dame !} (2. Qd3+? Qxd3 {Ce coup échange les dames alors que vous avez du matériel en moins... Essayez de prendre la dame directement.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/p1R1R2p/4npp1/1p6/q5b1/5N2/P3QPPP/6K1 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n\r\n{Vos tours sur la septième rangée sont puissantes, mais ne peuvent pas encore conclure.} 1. Qxe6+ {[%hint Le cavalier empêche votre tour d'attaquer le roi sans risques. Éliminez le défenseur.][%wrong Bien essayé, mais ce coup n'est pas gagnant. Essayez encore.]} (1. Rxe6? Rd1+ {Bien essayé, mais cela pose problème. Essayez de prendre le cavalier avec une autre pièce.}) (1. Rg7+? Nxg7 {Le cavalier ruine vos plans. Éliminons d'abord le cavalier !}) (1. Rxa7? Rd1+ {Bien essayé, mais cela pose problème. Essayez encore.}) 1... Bxe6 {Brillant ! Continuez d'attaquer le roi.} 2. Rg7+ {[%hint Trouvez un moyen de faire échec au roi.][%wrong Bien essayé, mais ce coup n'attaque pas le roi. Essayez encore.]} (2. Rxh7? Qd1+ {Bien essayé, mais c'est un coup trop lent. Essayez de faire échec au roi avec votre tour.}) 2... Kh8 {Oui ! Un échec en amène un autre.} 3. Rxh7+ {[%hint Continuez à faire échec le long de la septième rangée.][%wrong Bien essayé, mais ce coup ne fait pas échec au roi. Essayez encore.]} (3. Rg8+? Kxg8 {Bien essayé, mais cherche un échec plus sûr.}) 3... Kg8 {Continuez ! C'est l'heure du mat.} 4. Rcg7# {[%hint Trouvez un échec avec la tour qui gagne la partie immédiatement.][%wrong Bien essayé, mais ce coup n'est pas mat. Essayez encore.]Les tours s'harmonisent parfaitement pour délivrer le mat - excellent travail !} (4. Rhg7+? Kh8 {Bonne case, mauvaise tour. Essayez encore et vous gagnerez la partie !}) 1-0"
+    ],
+    "courseId": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à trouver des sacrifices brillants pour gagner avec style !",
+    "outroText": "Excellent travail pour apprendre à trouver des sacrifices brillants !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs-avancees",
+      "title": "Tactiques avancées"
+    },
+    "parentId": "03dfb626-2a0f-11f1-9f16-edb328463c69"
+  },
+  "curriculum": {
+    "number": 50,
+    "order": 4,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactiques avancées",
+      "path": "tactiques-echecs-avancees",
+      "order": 2
+    }
+  }
+}

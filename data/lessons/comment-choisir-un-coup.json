@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/comment-choisir-un-coup",
+  "capturedAt": "2026-10-22T12:23:45.804Z",
+  "title": "Comment choisir un coup",
+  "exercises": [
+    {
+      "fen": "4r1k1/3q1p1p/p3B1pQ/1p3b2/8/1P6/PB3PPP/2R3K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont plusieurs manières de reprendre le fou e6. Choisissez la meilleure !",
+        "[%wrong Ce coup ne capture pas le fou e6. Cherchez encore !][%hint Avant de choisir votre coup, réfléchissez bien au prochain coup des blancs.] Exactement ! Même si un coup ne vous semble pas particulièrement joli, parfois, il faut le jouer. Ici, nous préférerions reprendre autrement, car dans cette variante nous bloquons notre tour et isolons le pion e6, mais c'est la seule variante qui évite le mat !",
+        "Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !",
+        "Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !",
+        "Prendre avec la dame et menacer un mat du couloir par De1+ ? Ce serait une bonne idée, si les blancs ne mataient pas avant ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r1k1/3q1p1p/p3B1pQ/1p3b2/8/1P6/PB3PPP/2R3K1 b - - 0 1\"]\r\n\r\n{Les noirs ont plusieurs manières de reprendre le fou e6. Choisissez la meilleure !}\r\n1...fxe6\r\n    {[%wrong Ce coup ne capture pas le fou e6. Cherchez encore !][%hint Avant de choisir votre coup, réfléchissez bien au prochain coup des blancs.] Exactement ! Même si un coup ne vous semble pas particulièrement joli, parfois, il faut le jouer. Ici, nous préférerions reprendre autrement, car dans cette variante nous bloquons notre tour et isolons le pion e6, mais c'est la seule variante qui évite le mat !}\r\n    (1...Bxe6 $2 2.Qg7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n    (1...Rxe6 $2 2.Qg7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n    (1...Qxe6 $2 2.Qg7# {Prendre avec la dame et menacer un mat du couloir par De1+ ? Ce serait une bonne idée, si les blancs ne mataient pas avant ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n*"
+    },
+    {
+      "fen": "rnbqr1k1/1p3ppp/5n2/p1bNp3/8/PP1P2P1/2Q1PPBP/R1B1K1NR b KQ - 0 10",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette partie jouée en compétition, les noirs ont eu peur de Cc3xd5 \"gagnant\" un pion, car sur ...Cxd5, la dame blanche peut prendre le fou c5 non protégé. Pourtant, cette variante était jouable, et même bonne pour les noirs ! Trouvez le fort coup qu'ils ont raté.",
+        "[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Les noirs ont-ils des échecs ? Calculez-en les conséquences...]",
+        "Vous avez trouvé un coup malin, mais ce fou peut se rendre encore plus utile ! Cherchez encore.",
+        "Les blancs gagnent un pion. Notre position est toujours jouable, mais il y avait une idée beaucoup plus forte permettant de regagner ce pion. Trouvez-la !",
+        "Bien vu ! Ce desperado affaiblit le roi blanc et regagne un pion. Terminons la combinaison en prenant le cavalier d5 !",
+        "[%wrong Il est temps de récupérer notre matériel ! Prenez le cavalier d5.][%hint Un cavalier peut en manger un autre...] Bien joué. Les noirs ont récupéré le matériel et affaibli le roi blanc. Leur position est excellente."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqr1k1/1p3ppp/5n2/p1bNp3/8/PP1P2P1/2Q1PPBP/R1B1K1NR b KQ - 0 10\"]\r\n\r\n{Dans cette partie jouée en compétition, les noirs ont eu peur de Cc3xd5 \"gagnant\" un pion, car sur ...Cxd5, la dame blanche peut prendre le fou c5 non protégé. Pourtant, cette variante était jouable, et même bonne pour les noirs ! Trouvez le fort coup qu'ils ont raté.}\r\n10...Bxf2+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Les noirs ont-ils des échecs ? Calculez-en les conséquences...]}\r\n    (10...Bd4 $6 11.Nc3 {Vous avez trouvé un coup malin, mais ce fou peut se rendre encore plus utile ! Cherchez encore.})\r\n    (10...Nxd5 $6 11.Qxc5 {Les blancs gagnent un pion. Notre position est toujours jouable, mais il y avait une idée beaucoup plus forte permettant de regagner ce pion. Trouvez-la !})\r\n11.Kxf2\r\n    {Bien vu ! Ce desperado affaiblit le roi blanc et regagne un pion. Terminons la combinaison en prenant le cavalier d5 !}\r\n11...Nxd5\r\n    {[%wrong Il est temps de récupérer notre matériel ! Prenez le cavalier d5.][%hint Un cavalier peut en manger un autre...] Bien joué. Les noirs ont récupéré le matériel et affaibli le roi blanc. Leur position est excellente.}\r\n*"
+    },
+    {
+      "fen": "6k1/5p1p/p5q1/n4p2/p1p5/2P2N1P/P4PP1/3Q2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont l'opportunité de prendre le pion a4. Mais est-ce la meilleure option ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort dans cette position. Trouvez-le !][%hint Profitez de la position précaire du cavalier non défendu en a5...]",
+        "Lorsque vous avez trouvé un bon coup, cherchez-en un meilleur ! Prendre le pion est une bonne option, mais il existe un coup bien plus fort. Trouvez-le !",
+        "Excellente vision tactique ! Au lieu de gagner un pion, nous gagnons un cavalier !",
+        "[%wrong Prenez le cavalier en prise !][%hint Prenez le cavalier.] Joli !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5p1p/p5q1/n4p2/p1p5/2P2N1P/P4PP1/3Q2K1 w - - 0 1\"]\r\n\r\n{Les blancs ont l'opportunité de prendre le pion a4. Mais est-ce la meilleure option ?}\r\n1.Qd8+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort dans cette position. Trouvez-le !][%hint Profitez de la position précaire du cavalier non défendu en a5...]}\r\n    (1.Qxa4 $6 {Lorsque vous avez trouvé un bon coup, cherchez-en un meilleur ! Prendre le pion est une bonne option, mais il existe un coup bien plus fort. Trouvez-le !})\r\n1...Kg7\r\n    {Excellente vision tactique ! Au lieu de gagner un pion, nous gagnons un cavalier !}\r\n2.Qxa5\r\n    {[%wrong Prenez le cavalier en prise !][%hint Prenez le cavalier.] Joli !}\r\n*"
+    },
+    {
+      "fen": "2q2rk1/2pnbpp1/1p2pB1p/6N1/2P5/6P1/1PQ1PPBP/5RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs ont pour le moment une pièce en plus, mais deux d'entre elles sont en prise. Laquelle capturer ?",
+        "[%wrong Non, il faut prendre une pièce adverse !][%hint Trouvez l'idée des blancs, et jouez une prise empêchant leur plan !] Bien vu ! En reprenant du cavalier, les noirs empêchent le mat en h7 et gardent une position solide.",
+        "Les noirs empêchent le mat, mais perdent une autre pièce... Cherchez encore !",
+        "Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !",
+        "Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2q2rk1/2pnbpp1/1p2pB1p/6N1/2P5/6P1/1PQ1PPBP/5RK1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont pour le moment une pièce en plus, mais deux d'entre elles sont en prise. Laquelle capturer ?}\r\n1...Nxf6\r\n    {[%wrong Non, il faut prendre une pièce adverse !][%hint Trouvez l'idée des blancs, et jouez une prise empêchant leur plan !] Bien vu ! En reprenant du cavalier, les noirs empêchent le mat en h7 et gardent une position solide.}\r\n    (1...hxg5 $2 2.Bxe7 {Les noirs empêchent le mat, mais perdent une autre pièce... Cherchez encore !})\r\n    (1...Bxf6 $2 2.Qh7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n    (1...gxf6 $2 2.Qh7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n*"
+    },
+    {
+      "fen": "5bk1/2p2bp1/2p1p2p/5p2/2PP4/4PNP1/2N2PP1/6K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont deux fous passifs et et une mauvaise structure de pions. Comment améliorer leur position ?",
+        "[%wrong Ce coup n'améliore pas la position noire. Cherchez encore !][%hint Les blancs aimeraient jouer c5 pour emmurer notre fou de cases noires. Comment empêcher cette idée tout en résolvant notre problème de pions doublés ?] Excellent travail ! Les noirs vont ensuite jouer ...cxd4, dédoublant leur pions de la colonne c. Ce coup empêche également les blancs de fermer la diagonale du fou de cases noires. La position va s'ouvrir, et ce dernier va pouvoir s'exprimer.",
+        "Ce coup active les fous. C'est une bonne idée, mais dans cette variante, les blancs gagnent un pion tout en protégeant c4. Cherchez mieux !",
+        "Nous avons résolu le problème du fou de cases blanches, mais le fou de cases noires est littéralement emmuré et le pion c6 va tomber... Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5bk1/2p2bp1/2p1p2p/5p2/2PP4/4PNP1/2N2PP1/6K1 b - - 0 1\"]\r\n\r\n{Les noirs ont deux fous passifs et et une mauvaise structure de pions. Comment améliorer leur position ?}\r\n1...c5\r\n    {[%wrong Ce coup n'améliore pas la position noire. Cherchez encore !][%hint Les blancs aimeraient jouer c5 pour emmurer notre fou de cases noires. Comment empêcher cette idée tout en résolvant notre problème de pions doublés ?] Excellent travail ! Les noirs vont ensuite jouer ...cxd4, dédoublant leur pions de la colonne c. Ce coup empêche également les blancs de fermer la diagonale du fou de cases noires. La position va s'ouvrir, et ce dernier va pouvoir s'exprimer.}\r\n    (1...e5 $2 2.Nxe5 {Ce coup active les fous. C'est une bonne idée, mais dans cette variante, les blancs gagnent un pion tout en protégeant c4. Cherchez mieux !})\r\n    (1...Bh5 $6 2.c5 {Nous avons résolu le problème du fou de cases blanches, mais le fou de cases noires est littéralement emmuré et le pion c6 va tomber... Trouvez mieux !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "ee0031fe-9ceb-11e8-b227-5dda59eed897",
+    "name": "Comment choisir un coup",
+    "path": "comment-choisir-un-coup",
+    "description": "Il existe tellement d’options qu’il est parfois difficile de savoir quoi faire. Pour vous aider, cherchez les suites les plus forcées. Elles vous permettront de repérer les idées offensives clefs pour vous-même comme pour votre adversaire. Il faudra également s’intéresser aux forces et aux faiblesses de chaque camp pour savoir où défendre et où attaquer.",
+    "glyphName": "arrow-fork-vertical",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-how-to-choose-a-move-p9x.mp4",
+    "fen": "4r1k1/3q1p1p/p3B1pQ/1p3b2/8/1P6/PB3PPP/2R3K1 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r1k1/3q1p1p/p3B1pQ/1p3b2/8/1P6/PB3PPP/2R3K1 b - - 0 1\"]\r\n\r\n{Les noirs ont plusieurs manières de reprendre le fou e6. Choisissez la meilleure !}\r\n1...fxe6\r\n    {[%wrong Ce coup ne capture pas le fou e6. Cherchez encore !][%hint Avant de choisir votre coup, réfléchissez bien au prochain coup des blancs.] Exactement ! Même si un coup ne vous semble pas particulièrement joli, parfois, il faut le jouer. Ici, nous préférerions reprendre autrement, car dans cette variante nous bloquons notre tour et isolons le pion e6, mais c'est la seule variante qui évite le mat !}\r\n    (1...Bxe6 $2 2.Qg7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n    (1...Rxe6 $2 2.Qg7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n    (1...Qxe6 $2 2.Qg7# {Prendre avec la dame et menacer un mat du couloir par De1+ ? Ce serait une bonne idée, si les blancs ne mataient pas avant ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqr1k1/1p3ppp/5n2/p1bNp3/8/PP1P2P1/2Q1PPBP/R1B1K1NR b KQ - 0 10\"]\r\n\r\n{Dans cette partie jouée en compétition, les noirs ont eu peur de Cc3xd5 \"gagnant\" un pion, car sur ...Cxd5, la dame blanche peut prendre le fou c5 non protégé. Pourtant, cette variante était jouable, et même bonne pour les noirs ! Trouvez le fort coup qu'ils ont raté.}\r\n10...Bxf2+\r\n    {[%wrong Bien essayé, mais il y a plus fort. Cherchez encore !][%hint Les noirs ont-ils des échecs ? Calculez-en les conséquences...]}\r\n    (10...Bd4 $6 11.Nc3 {Vous avez trouvé un coup malin, mais ce fou peut se rendre encore plus utile ! Cherchez encore.})\r\n    (10...Nxd5 $6 11.Qxc5 {Les blancs gagnent un pion. Notre position est toujours jouable, mais il y avait une idée beaucoup plus forte permettant de regagner ce pion. Trouvez-la !})\r\n11.Kxf2\r\n    {Bien vu ! Ce desperado affaiblit le roi blanc et regagne un pion. Terminons la combinaison en prenant le cavalier d5 !}\r\n11...Nxd5\r\n    {[%wrong Il est temps de récupérer notre matériel ! Prenez le cavalier d5.][%hint Un cavalier peut en manger un autre...] Bien joué. Les noirs ont récupéré le matériel et affaibli le roi blanc. Leur position est excellente.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5p1p/p5q1/n4p2/p1p5/2P2N1P/P4PP1/3Q2K1 w - - 0 1\"]\r\n\r\n{Les blancs ont l'opportunité de prendre le pion a4. Mais est-ce la meilleure option ?}\r\n1.Qd8+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort dans cette position. Trouvez-le !][%hint Profitez de la position précaire du cavalier non défendu en a5...]}\r\n    (1.Qxa4 $6 {Lorsque vous avez trouvé un bon coup, cherchez-en un meilleur ! Prendre le pion est une bonne option, mais il existe un coup bien plus fort. Trouvez-le !})\r\n1...Kg7\r\n    {Excellente vision tactique ! Au lieu de gagner un pion, nous gagnons un cavalier !}\r\n2.Qxa5\r\n    {[%wrong Prenez le cavalier en prise !][%hint Prenez le cavalier.] Joli !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2q2rk1/2pnbpp1/1p2pB1p/6N1/2P5/6P1/1PQ1PPBP/5RK1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont pour le moment une pièce en plus, mais deux d'entre elles sont en prise. Laquelle capturer ?}\r\n1...Nxf6\r\n    {[%wrong Non, il faut prendre une pièce adverse !][%hint Trouvez l'idée des blancs, et jouez une prise empêchant leur plan !] Bien vu ! En reprenant du cavalier, les noirs empêchent le mat en h7 et gardent une position solide.}\r\n    (1...hxg5 $2 2.Bxe7 {Les noirs empêchent le mat, mais perdent une autre pièce... Cherchez encore !})\r\n    (1...Bxf6 $2 2.Qh7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n    (1...gxf6 $2 2.Qh7# {Oups ! Avant de choisir votre coup, n'oubliez pas de regarder les réponses de votre adversaire !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5bk1/2p2bp1/2p1p2p/5p2/2PP4/4PNP1/2N2PP1/6K1 b - - 0 1\"]\r\n\r\n{Les noirs ont deux fous passifs et et une mauvaise structure de pions. Comment améliorer leur position ?}\r\n1...c5\r\n    {[%wrong Ce coup n'améliore pas la position noire. Cherchez encore !][%hint Les blancs aimeraient jouer c5 pour emmurer notre fou de cases noires. Comment empêcher cette idée tout en résolvant notre problème de pions doublés ?] Excellent travail ! Les noirs vont ensuite jouer ...cxd4, dédoublant leur pions de la colonne c. Ce coup empêche également les blancs de fermer la diagonale du fou de cases noires. La position va s'ouvrir, et ce dernier va pouvoir s'exprimer.}\r\n    (1...e5 $2 2.Nxe5 {Ce coup active les fous. C'est une bonne idée, mais dans cette variante, les blancs gagnent un pion tout en protégeant c4. Cherchez mieux !})\r\n    (1...Bh5 $6 2.c5 {Nous avons résolu le problème du fou de cases blanches, mais le fou de cases noires est littéralement emmuré et le pion c6 va tomber... Trouvez mieux !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Comment choisir le meilleur coup ?",
+    "outroText": "C'est bien de commencer par regarder les coups forcés dans sa réflexion.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "299c5cc4-83b5-11e8-b9a5-8972e5e6e689",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/how-to-choose-a-move5d1257ff40ac1.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/how-to-choose-a-move-566886a498f475.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/how-to-choose-a-move-15ea23fe5c613c.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/how-to-choose-a-move-260c2013f14801.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 94,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

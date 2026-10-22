@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/promotion-fr",
+  "capturedAt": "2026-10-22T13:42:28.434Z",
+  "title": "Promotion",
+  "exercises": [
+    {
+      "fen": "8/1P6/8/8/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow b7b8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b7;to;b8;persistent;true]Faites une dame !",
+        "[%hint Poussez votre pion en avant et promouvez-le en une puissante dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame.]Beau travail en transformant votre pion en dame !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1P6/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow b7b8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b7;to;b8;persistent;true]Faites une dame !} 1. b8=Q {[%hint Poussez votre pion en avant et promouvez-le en une puissante dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame.]Beau travail en transformant votre pion en dame !} *"
+    },
+    {
+      "fen": "8/p7/8/4P3/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Gagnez la course et promeuvez votre pion en dame en premier !",
+        "[%hint Poussez votre pion vers la promotion.][%wrong Coup illégal.]",
+        "Excellent ! Continuez à pousser.",
+        "[%wrong Coup illégal.][%hint Votre pion se débrouille très bien — continuez à avancer !]",
+        "Vous n'êtes qu'à une case de la promotion — voyons cette dame !",
+        "[%hint Promouvez votre pion en la pièce la plus puissante — la dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame.]Excellent travail ! Leur pion ne fait pas le poids face à votre dame fraîchement promue."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/p7/8/4P3/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Gagnez la course et promeuvez votre pion en dame en premier !} 1. e6 {[%hint Poussez votre pion vers la promotion.][%wrong Coup illégal.]} 1... a5 {Excellent ! Continuez à pousser.} 2. e7 {[%wrong Coup illégal.][%hint Votre pion se débrouille très bien — continuez à avancer !]} 2... a4 {Vous n'êtes qu'à une case de la promotion — voyons cette dame !} 3. e8=Q {[%hint Promouvez votre pion en la pièce la plus puissante — la dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame.]Excellent travail ! Leur pion ne fait pas le poids face à votre dame fraîchement promue.} *"
+    },
+    {
+      "fen": "8/1P4P1/8/4b3/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Restez en sécurité.",
+        "[%hint Quelle case de promotion n'est pas protégée par leur fou ?][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame en toute sécurité.] Bien joué ! Le pion est promu en dame en toute sécurité.",
+        "Bien essayé, mais le fou couvre cette case de promotion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1P4P1/8/4b3/8/8/8/8 w - - 0 1\"]\r\n\r\n{Restez en sécurité.} 1. g8=Q {[%hint Quelle case de promotion n'est pas protégée par leur fou ?][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame en toute sécurité.] Bien joué ! Le pion est promu en dame en toute sécurité.} (1. b8=Q? Bxb8 {Bien essayé, mais le fou couvre cette case de promotion.}) *"
+    },
+    {
+      "fen": "8/P7/8/8/8/8/7p/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight h1;color;%23eb6150;opacity;0.8;square;h1;persistent;true]Promouvez et défendez.",
+        "[%hint Promouvez votre pion en la pièce la plus puissante des échecs.][%wrong Bien essayé, mais vous pourriez promouvoir votre pion en dame, la meilleure pièce. Réessayez.]",
+        "Quel timing ! Élimine leur dame.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas leur dame.] Premier à promouvoir et premier à prendre — beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/P7/8/8/8/8/7p/8 w - - 0 1\"]\r\n\r\n{[%c_highlight h1;color;%23eb6150;opacity;0.8;square;h1;persistent;true]Promouvez et défendez.} 1. a8=Q {[%hint Promouvez votre pion en la pièce la plus puissante des échecs.][%wrong Bien essayé, mais vous pourriez promouvoir votre pion en dame, la meilleure pièce. Réessayez.]} 1... h1=Q {Quel timing ! Élimine leur dame.} 2. Qxh1 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas leur dame.] Premier à promouvoir et premier à prendre — beau travail !} *"
+    },
+    {
+      "fen": "8/8/8/P4P2/7p/8/1K1k4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Allez promouvoir votre pion, mais choisissez celui qui peut aussi défendre !",
+        "[%hint Poussez le pion qui sera promu et qui couvrira la case de promotion du pion adverse.][%wrong Bien essayé, mais ce coup ne vous aide pas à promouvoir un pion. Réessayez.]",
+        "Bien essayé, mais ce chemin ne les empêchera pas de promouvoir en toute sécurité. Poussez l'autre pion.",
+        "Excellent choix ! Continuez à pousser votre pion.",
+        "[%hint Vous n'êtes qu'à deux coups de la promotion — continuez !][%wrong Bien essayé, mais ce coup ne promeut pas un pion à temps. Réessaye.]",
+        "Ils sont sur le point de promouvoir leur pion — mettons une dame sur l'échiquier !",
+        "[%hint Votre prochain coup peut transformer un pion en dame — promouvons !][%wrong Bien essayé, mais ce coup ne promeut pas le pion en dame. Réessaye.]",
+        "Les deux camps ont promu un pion en dame, mais maintenant c'est à vous de gagner du matériel !",
+        "[%hint Comment pouvez-vous faire disparaître la dame ?][%wrong Bien essayé, mais ce coup ne prend pas leur dame. Réessaye.]Beau travail avec vos pions — vous maîtrisez !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/P4P2/7p/8/1K1k4/8 w - - 0 1\"]\r\n\r\n{Allez promouvoir votre pion, mais choisissez celui qui peut aussi défendre !} 1. a6 {[%hint Poussez le pion qui sera promu et qui couvrira la case de promotion du pion adverse.][%wrong Bien essayé, mais ce coup ne vous aide pas à promouvoir un pion. Réessayez.]} (1. f6? h3 {Bien essayé, mais ce chemin ne les empêchera pas de promouvoir en toute sécurité. Poussez l'autre pion.}) 1... h3 {Excellent choix ! Continuez à pousser votre pion.} 2. a7 {[%hint Vous n'êtes qu'à deux coups de la promotion — continuez !][%wrong Bien essayé, mais ce coup ne promeut pas un pion à temps. Réessaye.]} 2... h2 {Ils sont sur le point de promouvoir leur pion — mettons une dame sur l'échiquier !} 3. a8=Q {[%hint Votre prochain coup peut transformer un pion en dame — promouvons !][%wrong Bien essayé, mais ce coup ne promeut pas le pion en dame. Réessaye.]} 3... h1=Q {Les deux camps ont promu un pion en dame, mais maintenant c'est à vous de gagner du matériel !} 4. Qxh1 {[%hint Comment pouvez-vous faire disparaître la dame ?][%wrong Bien essayé, mais ce coup ne prend pas leur dame. Réessaye.]Beau travail avec vos pions — vous maîtrisez !} *"
+    },
+    {
+      "fen": "3k4/8/8/8/8/5K2/3p4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d2d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d2;to;d1;persistent;true] Il est temps de défendre. Ne les laisse pas promouvoir en toute sécurité !",
+        "[%hint Déplacez votre roi sur une case qui attaque leur pion tout en protégeant la case de promotion.][%wrong Bel effort, mais ce coup n'empêche pas leur pion de promouvoir en toute sécurité. Réessaye.]",
+        "Bien essayé d'attaquer leur pion, mais cela ne protège pas la case de promotion. Réessaye.",
+        "Excellent coup ! Maintenant vous êtes prêt à prendre la dame fraîchement promue.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas leur dame.] Sauvetage impressionnant !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"3k4/8/8/8/8/5K2/3p4/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d2d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d2;to;d1;persistent;true] Il est temps de défendre. Ne les laisse pas promouvoir en toute sécurité !} 1. Ke2 {[%hint Déplacez votre roi sur une case qui attaque leur pion tout en protégeant la case de promotion.][%wrong Bel effort, mais ce coup n'empêche pas leur pion de promouvoir en toute sécurité. Réessaye.]} (1. Ke3? d1=Q {Bien essayé d'attaquer leur pion, mais cela ne protège pas la case de promotion. Réessaye.}) 1... d1=Q+ {Excellent coup ! Maintenant vous êtes prêt à prendre la dame fraîchement promue.} 2. Kxd1 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas leur dame.] Sauvetage impressionnant !} 1/2-1/2"
+    },
+    {
+      "fen": "4k3/8/8/8/8/3p4/4Kp2/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Rattrape les deux pions avant qu'ils n'atteignent leur but. Celui-ci est difficile !",
+        "[%hint Prenez le pion qui est prêt à être promu au prochain coup.][%wrong Bien essayé, mais cela n'empêche pas leurs pions de promouvoir en toute sécurité. Réessaye.]",
+        "Prendre ce pion était tentant, mais l'autre pion est promu.",
+        "Bien essayé, mais vous ne pouvez pas empêcher les deux pions d'être promus.",
+        "Bien vu ! Maintenant, arrête l'autre pion !",
+        "[%hint Attaquez le pion et gardez la case de promotion en même temps.][%wrong Bien essayé, mais cela n'empêche pas le pion d'être promu.]",
+        "Bien essayé, mais vous devez défendre la case de promotion.",
+        "Joli coup ! Prenez la dame.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas la dame. Réessaye. ]Compétences défensives très impressionnantes, en arrêtant les deux pions avec votre roi !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/8/8/8/3p4/4Kp2/8 w - - 0 1\"]\r\n\r\n{Rattrape les deux pions avant qu'ils n'atteignent leur but. Celui-ci est difficile !} 1. Kxf2 {[%hint Prenez le pion qui est prêt à être promu au prochain coup.][%wrong Bien essayé, mais cela n'empêche pas leurs pions de promouvoir en toute sécurité. Réessaye.]} (1. Kxd3? f1=Q+ {Prendre ce pion était tentant, mais l'autre pion est promu.}) (1. Kf1? d2 {Bien essayé, mais vous ne pouvez pas empêcher les deux pions d'être promus.}) 1... d2 {Bien vu ! Maintenant, arrête l'autre pion !} 2. Ke2 {[%hint Attaquez le pion et gardez la case de promotion en même temps.][%wrong Bien essayé, mais cela n'empêche pas le pion d'être promu.]} (2. Ke3? d1=Q {Bien essayé, mais vous devez défendre la case de promotion.}) 2... d1=Q+ {Joli coup ! Prenez la dame.} 3. Kxd1 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas la dame. Réessaye. ]Compétences défensives très impressionnantes, en arrêtant les deux pions avec votre roi !} 1/2-1/2"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c236-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Promotion",
+    "path": "promotion-fr",
+    "description": "Apprenez à promouvoir vos pions vers la victoire et à contrer les plans de promotion de votre adversaire.",
+    "glyphName": "trophy-medal-badge-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1P6/8/8/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow b7b8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;b7;to;b8;persistent;true]Faites une dame !} 1. b8=Q {[%hint Poussez votre pion en avant et promouvez-le en une puissante dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame.]Beau travail en transformant votre pion en dame !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/p7/8/4P3/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight e8;color;%23ffaa00;opacity;0.8;square;e8;persistent;true]Gagnez la course et promeuvez votre pion en dame en premier !} 1. e6 {[%hint Poussez votre pion vers la promotion.][%wrong Coup illégal.]} 1... a5 {Excellent ! Continuez à pousser.} 2. e7 {[%wrong Coup illégal.][%hint Votre pion se débrouille très bien — continuez à avancer !]} 2... a4 {Vous n'êtes qu'à une case de la promotion — voyons cette dame !} 3. e8=Q {[%hint Promouvez votre pion en la pièce la plus puissante — la dame.][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame.]Excellent travail ! Leur pion ne fait pas le poids face à votre dame fraîchement promue.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1P4P1/8/4b3/8/8/8/8 w - - 0 1\"]\r\n\r\n{Restez en sécurité.} 1. g8=Q {[%hint Quelle case de promotion n'est pas protégée par leur fou ?][%wrong Bien essayé, mais ce coup ne promeut pas votre pion en dame en toute sécurité.] Bien joué ! Le pion est promu en dame en toute sécurité.} (1. b8=Q? Bxb8 {Bien essayé, mais le fou couvre cette case de promotion.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/P7/8/8/8/8/7p/8 w - - 0 1\"]\r\n\r\n{[%c_highlight h1;color;%23eb6150;opacity;0.8;square;h1;persistent;true]Promouvez et défendez.} 1. a8=Q {[%hint Promouvez votre pion en la pièce la plus puissante des échecs.][%wrong Bien essayé, mais vous pourriez promouvoir votre pion en dame, la meilleure pièce. Réessayez.]} 1... h1=Q {Quel timing ! Élimine leur dame.} 2. Qxh1 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas leur dame.] Premier à promouvoir et premier à prendre — beau travail !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/P4P2/7p/8/1K1k4/8 w - - 0 1\"]\r\n\r\n{Allez promouvoir votre pion, mais choisissez celui qui peut aussi défendre !} 1. a6 {[%hint Poussez le pion qui sera promu et qui couvrira la case de promotion du pion adverse.][%wrong Bien essayé, mais ce coup ne vous aide pas à promouvoir un pion. Réessayez.]} (1. f6? h3 {Bien essayé, mais ce chemin ne les empêchera pas de promouvoir en toute sécurité. Poussez l'autre pion.}) 1... h3 {Excellent choix ! Continuez à pousser votre pion.} 2. a7 {[%hint Vous n'êtes qu'à deux coups de la promotion — continuez !][%wrong Bien essayé, mais ce coup ne promeut pas un pion à temps. Réessaye.]} 2... h2 {Ils sont sur le point de promouvoir leur pion — mettons une dame sur l'échiquier !} 3. a8=Q {[%hint Votre prochain coup peut transformer un pion en dame — promouvons !][%wrong Bien essayé, mais ce coup ne promeut pas le pion en dame. Réessaye.]} 3... h1=Q {Les deux camps ont promu un pion en dame, mais maintenant c'est à vous de gagner du matériel !} 4. Qxh1 {[%hint Comment pouvez-vous faire disparaître la dame ?][%wrong Bien essayé, mais ce coup ne prend pas leur dame. Réessaye.]Beau travail avec vos pions — vous maîtrisez !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"3k4/8/8/8/8/5K2/3p4/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d2d1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d2;to;d1;persistent;true] Il est temps de défendre. Ne les laisse pas promouvoir en toute sécurité !} 1. Ke2 {[%hint Déplacez votre roi sur une case qui attaque leur pion tout en protégeant la case de promotion.][%wrong Bel effort, mais ce coup n'empêche pas leur pion de promouvoir en toute sécurité. Réessaye.]} (1. Ke3? d1=Q {Bien essayé d'attaquer leur pion, mais cela ne protège pas la case de promotion. Réessaye.}) 1... d1=Q+ {Excellent coup ! Maintenant vous êtes prêt à prendre la dame fraîchement promue.} 2. Kxd1 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas leur dame.] Sauvetage impressionnant !} 1/2-1/2",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1/2-1/2\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/8/8/8/3p4/4Kp2/8 w - - 0 1\"]\r\n\r\n{Rattrape les deux pions avant qu'ils n'atteignent leur but. Celui-ci est difficile !} 1. Kxf2 {[%hint Prenez le pion qui est prêt à être promu au prochain coup.][%wrong Bien essayé, mais cela n'empêche pas leurs pions de promouvoir en toute sécurité. Réessaye.]} (1. Kxd3? f1=Q+ {Prendre ce pion était tentant, mais l'autre pion est promu.}) (1. Kf1? d2 {Bien essayé, mais vous ne pouvez pas empêcher les deux pions d'être promus.}) 1... d2 {Bien vu ! Maintenant, arrête l'autre pion !} 2. Ke2 {[%hint Attaquez le pion et gardez la case de promotion en même temps.][%wrong Bien essayé, mais cela n'empêche pas le pion d'être promu.]} (2. Ke3? d1=Q {Bien essayé, mais vous devez défendre la case de promotion.}) 2... d1=Q+ {Joli coup ! Prenez la dame.} 3. Kxd1 {[%hint Prenez la dame.][%wrong Bien essayé, mais cela ne prend pas la dame. Réessaye. ]Compétences défensives très impressionnantes, en arrêtant les deux pions avec votre roi !} 1/2-1/2"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à promouvoir vos pions vers la victoire et à contrer les plans de promotion de votre adversaire.",
+    "outroText": "Vous êtes prêt à promouvoir vos pions vers le succès — excellent travail !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "d264c04a-18d0-11f1-96a1-552327a44d1e"
+  },
+  "curriculum": {
+    "number": 21,
+    "order": 9,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

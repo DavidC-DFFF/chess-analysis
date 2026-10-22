@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-echecs/cavaliers",
+  "capturedAt": "2026-10-22T13:42:36.188Z",
+  "title": "Cavaliers",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/7N/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f4;color;%23ffaa00;opacity;0.8;square;f4;persistent;true][%c_arrow f4g6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;g6;persistent;true,f4e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;e6;persistent;true,f4h5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;h5;persistent;true,f4h3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;h3;persistent;true,f4g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;g2;persistent;true,f4e2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;e2;persistent;true,f4d3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;d3;persistent;true,f4d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;d5;persistent;true]Les cavaliers aiment être le plus centralisés possible pour contrôler le maximum de cases. Déplaçons-nous sur la case en surbrillance.",
+        "[%hint Déplacez votre cavalier vers la case surlignée.][%wrong Bien essayé, mais nous voulons déplacer notre cavalier vers la case surlignée.]Bien joué ! Votre cavalier contrôle deux fois plus de cases qu'au coup précédent."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/7N/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight f4;color;%23ffaa00;opacity;0.8;square;f4;persistent;true][%c_arrow f4g6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;g6;persistent;true,f4e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;e6;persistent;true,f4h5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;h5;persistent;true,f4h3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;h3;persistent;true,f4g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;g2;persistent;true,f4e2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;e2;persistent;true,f4d3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;d3;persistent;true,f4d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;d5;persistent;true]Les cavaliers aiment être le plus centralisés possible pour contrôler le maximum de cases. Déplaçons-nous sur la case en surbrillance.} 1. Nf4 {[%hint Déplacez votre cavalier vers la case surlignée.][%wrong Bien essayé, mais nous voulons déplacer notre cavalier vers la case surlignée.]Bien joué ! Votre cavalier contrôle deux fois plus de cases qu'au coup précédent.} *"
+    },
+    {
+      "fen": "4k3/p7/1p2p2p/3p2p1/3P4/2PN1P2/PP4PP/4K3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true]Les cavaliers aiment vivre sur des avant-postes : une case sûre en territoire ennemi où votre cavalier est soutenu par un pion.",
+        "[%c_highlight c6;color;%23ffaa00;opacity;0.8;square;c6;persistent;true,d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g6;color;%23ffaa00;opacity;0.8;square;g6;persistent;true][%c_arrow d4e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d4;to;e5;persistent;true][%hint Déplacez votre cavalier directement au centre.][%wrong Bien essayé, mais ce coup ne déplace pas le cavalier vers un avant-poste central. Essaye encore.] Excellent ! Le cavalier profite d'un excellent contrôle des cases depuis cet avant-poste central.",
+        "Bien essayé, mais ce coup perd le cavalier. Essaye de déplacer le cavalier au centre.",
+        "Bien essayé, mais ce coup perd le cavalier. Essaye de déplacer le cavalier au centre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/p7/1p2p2p/3p2p1/3P4/2PN1P2/PP4PP/4K3 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4PhC6sZCgn/lesson-editor\"]\r\n\r\n{[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true]Les cavaliers aiment vivre sur des avant-postes : une case sûre en territoire ennemi où votre cavalier est soutenu par un pion.} 1. Ne5 {[%c_highlight c6;color;%23ffaa00;opacity;0.8;square;c6;persistent;true,d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g6;color;%23ffaa00;opacity;0.8;square;g6;persistent;true][%c_arrow d4e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d4;to;e5;persistent;true][%hint Déplacez votre cavalier directement au centre.][%wrong Bien essayé, mais ce coup ne déplace pas le cavalier vers un avant-poste central. Essaye encore.] Excellent ! Le cavalier profite d'un excellent contrôle des cases depuis cet avant-poste central.} (1. Nc5? bxc5 {Bien essayé, mais ce coup perd le cavalier. Essaye de déplacer le cavalier au centre.}) (1. Nf4? gxf4 {Bien essayé, mais ce coup perd le cavalier. Essaye de déplacer le cavalier au centre.}) *"
+    },
+    {
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p1B1/2B1P3/2NP1N2/PPP2PPP/R2QK2R w KQ - 0 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Placez votre cavalier sur un avant-poste et augmentez la pression sur une pièce clouée.",
+        "[%wrong Bien essayé, mais ce coup de cavalier n'attaque pas une pièce clouée. Essaye encore.][%hint Les cavaliers adorent sauter au centre. ]",
+        "Bien essayé, mais ce coup perd votre cavalier. Essayez de déplacer votre autre cavalier au centre.",
+        "[%c_arrow d5f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;f6;persistent;true]Bien joué ! Votre cavalier est prêt à prendre le cavalier cloué pour faire exploser le roque adverse. Pouvez-vous le faire ?",
+        "[%hint Pouvez-vous prendre le fou adverse ?][%wrong Trouvez une prise pour détruire le roque adverse. Avez-vous besoin d'un indice ?][%c_arrow g7f6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;f6;persistent;true]Excellent coup, maintenant quand ils reprennent, le roque adverse est détruit.",
+        "[%c_arrow g7f6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;f6;persistent;true] Excellent coup ! Quand ils reprendront, leur position roquée sera ruinée."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/ppp2ppp/2np1n2/2b1p1B1/2B1P3/2NP1N2/PPP2PPP/R2QK2R w KQ - 0 7\"]\r\n\r\n{Placez votre cavalier sur un avant-poste et augmentez la pression sur une pièce clouée.} 7. Nd5 {[%wrong Bien essayé, mais ce coup de cavalier n'attaque pas une pièce clouée. Essaye encore.][%hint Les cavaliers adorent sauter au centre. ]} (7. Nd4? exd4 {Bien essayé, mais ce coup perd votre cavalier. Essayez de déplacer votre autre cavalier au centre.}) 7... Be6 {[%c_arrow d5f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;f6;persistent;true]Bien joué ! Votre cavalier est prêt à prendre le cavalier cloué pour faire exploser le roque adverse. Pouvez-vous le faire ?} 8. Nxf6+ {[%hint Pouvez-vous prendre le fou adverse ?][%wrong Trouvez une prise pour détruire le roque adverse. Avez-vous besoin d'un indice ?][%c_arrow g7f6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;f6;persistent;true]Excellent coup, maintenant quand ils reprennent, le roque adverse est détruit.} (8. Bxf6!! {[%c_arrow g7f6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;f6;persistent;true] Excellent coup ! Quand ils reprendront, leur position roquée sera ruinée.}) *"
+    },
+    {
+      "fen": "r2q1rk1/5ppp/2bp1b2/pp1Np3/4P3/2P5/PPN2PPP/R2Q1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c6d5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;d5;persistent;true]L'adversaire est sur le point de prendre votre cavalier si bien placé sur son avant-poste. Où pouvez-vous envoyer votre autre cavalier pour qu'il prenne sa place ?",
+        "[%hint Vers quelle case votre cavalier peut-il se déplacer en sécurité pour défendre l'autre cavalier au centre ?][%wrong Ce coup de cavalier n'aide pas à défendre votre cavalier au centre. Essayez encore.]",
+        "Vous avez la bonne idée, mais cette case n'est pas sûre pour votre cavalier. Cherchez une case plus sûre pour aider à défendre l'autre cavalier.",
+        "Bien essayé, mais ce coup perd un pion. Essayez de déplacer votre autre cavalier pour aider à défendre l'avant-poste du cavalier.",
+        "Bien joué ! Créons maintenant un nouvel avant-poste de cavalier au centre.",
+        "[%hint Prenez le fou avec votre cavalier.][%wrong Bien essayé, mais ce coup ne crée pas un avant-poste central pour le cavalier. Essaye encore.]Excellent ! Votre cavalier profite d'un formidable avant-poste."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/5ppp/2bp1b2/pp1Np3/4P3/2P5/PPN2PPP/R2Q1RK1 w - - 0 1\"]\r\n\r\n{[%c_arrow c6d5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;d5;persistent;true]L'adversaire est sur le point de prendre votre cavalier si bien placé sur son avant-poste. Où pouvez-vous envoyer votre autre cavalier pour qu'il prenne sa place ?} 1. Nce3 {[%hint Vers quelle case votre cavalier peut-il se déplacer en sécurité pour défendre l'autre cavalier au centre ?][%wrong Ce coup de cavalier n'aide pas à défendre votre cavalier au centre. Essayez encore.]} (1. Ncb4? axb4 {Vous avez la bonne idée, mais cette case n'est pas sûre pour votre cavalier. Cherchez une case plus sûre pour aider à défendre l'autre cavalier.}) (1. Nde3? Bxe4 {Bien essayé, mais ce coup perd un pion. Essayez de déplacer votre autre cavalier pour aider à défendre l'avant-poste du cavalier.}) 1... Bxd5 {Bien joué ! Créons maintenant un nouvel avant-poste de cavalier au centre.} 2. Nxd5 {[%hint Prenez le fou avec votre cavalier.][%wrong Bien essayé, mais ce coup ne crée pas un avant-poste central pour le cavalier. Essaye encore.]Excellent ! Votre cavalier profite d'un formidable avant-poste.} *"
+    },
+    {
+      "fen": "5rk1/p4pp1/qp1b3p/2p1p3/P3P2N/2P3Q1/1P3PPP/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Faites coopérer votre cavalier et votre dame pour créer une forte menace.",
+        "[%hint Votre dame fixe le pion devant le roi. Déplacez votre cavalier sur une case qui soutient une menace de mat.][%wrong Bien essayé, mais cela ne crée pas une menace sérieuse avec votre cavalier et votre dame. Cherchez une menace de mat.]",
+        "Bien essayé, mais cette case n'est pas sûre pour votre cavalier.",
+        "Votre cavalier et votre dame attaquent un pion, mais cela ne fonctionne pas tout à fait. Essayez d'attaquer le pion devant le roi adverse.",
+        "Bien vu ! La dame et le cavalier coopèrent à merveille — pouvez-vous trouver le mat ?",
+        "[%hint Votre dame et votre cavalier visent le pion devant leur roi. C'est l'heure du mat !][%wrong Bien essayé, mais ce coup n'est pas mat. Essaye encore.] Mat impressionnant ! La dame et le cavalier sont d'excellents partenaires d'attaque."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p4pp1/qp1b3p/2p1p3/P3P2N/2P3Q1/1P3PPP/5RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Faites coopérer votre cavalier et votre dame pour créer une forte menace.} 1. Nf5 {[%hint Votre dame fixe le pion devant le roi. Déplacez votre cavalier sur une case qui soutient une menace de mat.][%wrong Bien essayé, mais cela ne crée pas une menace sérieuse avec votre cavalier et votre dame. Cherchez une menace de mat.]} (1. Ng6? fxg6 {Bien essayé, mais cette case n'est pas sûre pour votre cavalier.}) (1. Nf3? Qxa4 {Votre cavalier et votre dame attaquent un pion, mais cela ne fonctionne pas tout à fait. Essayez d'attaquer le pion devant le roi adverse.}) 1... Rd8 {Bien vu ! La dame et le cavalier coopèrent à merveille — pouvez-vous trouver le mat ?} 2. Qxg7# {[%hint Votre dame et votre cavalier visent le pion devant leur roi. C'est l'heure du mat !][%wrong Bien essayé, mais ce coup n'est pas mat. Essaye encore.] Mat impressionnant ! La dame et le cavalier sont d'excellents partenaires d'attaque.} 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0b0-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Cavaliers",
+    "path": "cavaliers",
+    "description": "Apprenez à maximiser le potentiel de vos cavaliers — un véritable cauchemar pour votre adversaire !",
+    "glyphName": "piece-pair-knight",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/7N/8/8 w - - 0 1\"]\r\n\r\n{[%c_highlight f4;color;%23ffaa00;opacity;0.8;square;f4;persistent;true][%c_arrow f4g6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;g6;persistent;true,f4e6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;e6;persistent;true,f4h5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;h5;persistent;true,f4h3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;h3;persistent;true,f4g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;g2;persistent;true,f4e2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;e2;persistent;true,f4d3;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;d3;persistent;true,f4d5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;d5;persistent;true]Les cavaliers aiment être le plus centralisés possible pour contrôler le maximum de cases. Déplaçons-nous sur la case en surbrillance.} 1. Nf4 {[%hint Déplacez votre cavalier vers la case surlignée.][%wrong Bien essayé, mais nous voulons déplacer notre cavalier vers la case surlignée.]Bien joué ! Votre cavalier contrôle deux fois plus de cases qu'au coup précédent.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/p7/1p2p2p/3p2p1/3P4/2PN1P2/PP4PP/4K3 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/4PhC6sZCgn/lesson-editor\"]\r\n\r\n{[%c_highlight e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true]Les cavaliers aiment vivre sur des avant-postes : une case sûre en territoire ennemi où votre cavalier est soutenu par un pion.} 1. Ne5 {[%c_highlight c6;color;%23ffaa00;opacity;0.8;square;c6;persistent;true,d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true,f7;color;%23ffaa00;opacity;0.8;square;f7;persistent;true,g6;color;%23ffaa00;opacity;0.8;square;g6;persistent;true][%c_arrow d4e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d4;to;e5;persistent;true][%hint Déplacez votre cavalier directement au centre.][%wrong Bien essayé, mais ce coup ne déplace pas le cavalier vers un avant-poste central. Essaye encore.] Excellent ! Le cavalier profite d'un excellent contrôle des cases depuis cet avant-poste central.} (1. Nc5? bxc5 {Bien essayé, mais ce coup perd le cavalier. Essaye de déplacer le cavalier au centre.}) (1. Nf4? gxf4 {Bien essayé, mais ce coup perd le cavalier. Essaye de déplacer le cavalier au centre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/ppp2ppp/2np1n2/2b1p1B1/2B1P3/2NP1N2/PPP2PPP/R2QK2R w KQ - 0 7\"]\r\n\r\n{Placez votre cavalier sur un avant-poste et augmentez la pression sur une pièce clouée.} 7. Nd5 {[%wrong Bien essayé, mais ce coup de cavalier n'attaque pas une pièce clouée. Essaye encore.][%hint Les cavaliers adorent sauter au centre. ]} (7. Nd4? exd4 {Bien essayé, mais ce coup perd votre cavalier. Essayez de déplacer votre autre cavalier au centre.}) 7... Be6 {[%c_arrow d5f6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;d5;to;f6;persistent;true]Bien joué ! Votre cavalier est prêt à prendre le cavalier cloué pour faire exploser le roque adverse. Pouvez-vous le faire ?} 8. Nxf6+ {[%hint Pouvez-vous prendre le fou adverse ?][%wrong Trouvez une prise pour détruire le roque adverse. Avez-vous besoin d'un indice ?][%c_arrow g7f6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;f6;persistent;true]Excellent coup, maintenant quand ils reprennent, le roque adverse est détruit.} (8. Bxf6!! {[%c_arrow g7f6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g7;to;f6;persistent;true] Excellent coup ! Quand ils reprendront, leur position roquée sera ruinée.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/5ppp/2bp1b2/pp1Np3/4P3/2P5/PPN2PPP/R2Q1RK1 w - - 0 1\"]\r\n\r\n{[%c_arrow c6d5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;d5;persistent;true]L'adversaire est sur le point de prendre votre cavalier si bien placé sur son avant-poste. Où pouvez-vous envoyer votre autre cavalier pour qu'il prenne sa place ?} 1. Nce3 {[%hint Vers quelle case votre cavalier peut-il se déplacer en sécurité pour défendre l'autre cavalier au centre ?][%wrong Ce coup de cavalier n'aide pas à défendre votre cavalier au centre. Essayez encore.]} (1. Ncb4? axb4 {Vous avez la bonne idée, mais cette case n'est pas sûre pour votre cavalier. Cherchez une case plus sûre pour aider à défendre l'autre cavalier.}) (1. Nde3? Bxe4 {Bien essayé, mais ce coup perd un pion. Essayez de déplacer votre autre cavalier pour aider à défendre l'avant-poste du cavalier.}) 1... Bxd5 {Bien joué ! Créons maintenant un nouvel avant-poste de cavalier au centre.} 2. Nxd5 {[%hint Prenez le fou avec votre cavalier.][%wrong Bien essayé, mais ce coup ne crée pas un avant-poste central pour le cavalier. Essaye encore.]Excellent ! Votre cavalier profite d'un formidable avant-poste.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/p4pp1/qp1b3p/2p1p3/P3P2N/2P3Q1/1P3PPP/5RK1 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Faites coopérer votre cavalier et votre dame pour créer une forte menace.} 1. Nf5 {[%hint Votre dame fixe le pion devant le roi. Déplacez votre cavalier sur une case qui soutient une menace de mat.][%wrong Bien essayé, mais cela ne crée pas une menace sérieuse avec votre cavalier et votre dame. Cherchez une menace de mat.]} (1. Ng6? fxg6 {Bien essayé, mais cette case n'est pas sûre pour votre cavalier.}) (1. Nf3? Qxa4 {Votre cavalier et votre dame attaquent un pion, mais cela ne fonctionne pas tout à fait. Essayez d'attaquer le pion devant le roi adverse.}) 1... Rd8 {Bien vu ! La dame et le cavalier coopèrent à merveille — pouvez-vous trouver le mat ?} 2. Qxg7# {[%hint Votre dame et votre cavalier visent le pion devant leur roi. C'est l'heure du mat !][%wrong Bien essayé, mais ce coup n'est pas mat. Essaye encore.] Mat impressionnant ! La dame et le cavalier sont d'excellents partenaires d'attaque.} 1-0"
+    ],
+    "courseId": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les cavaliers adorent être au centre de l'attention — sautons dans l'aventure !",
+    "outroText": "Beau travail avec vos cavaliers, vous savez maintenant les manœuvrer avec talent !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-echecs",
+      "title": "Stratégie"
+    },
+    "parentId": "8dd842c0-22e0-11f1-9a23-317f435a3022"
+  },
+  "curriculum": {
+    "number": 39,
+    "order": 4,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c1004ee-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Stratégie",
+      "path": "strategie-echecs",
+      "order": 3
+    }
+  }
+}

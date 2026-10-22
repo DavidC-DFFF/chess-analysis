@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/comprendre-les-finales/creer-une-breche-trois-pions-contre-trois",
+  "capturedAt": "2026-10-22T12:23:38.276Z",
+  "title": "Créer une brèche pour ses pions à trois contre trois",
+  "exercises": [
+    {
+      "fen": "8/5ppp/1k6/5PPP/1K6/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position, les blancs ont une percée qui permet de créer un pion passé. A vous de la trouver !",
+        "[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Quelle poussée permettrait au pion d'être soutenu par ses deux homologues ?]",
+        "Bien essayé, mais ce coup ne force pas la création d'un pion passé.",
+        "Bien essayé, mais ce coup ne force pas la création d'un pion passé.",
+        "Bien trouvé ! Et maintenant, créons un pion passé !",
+        "[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Il vous faudra sacrifier un pion pour en pousser un autre !]",
+        "Bien essayé, mais ce coup ne force pas la création d'un pion passé.",
+        "Bien essayé, mais ce coup ne force pas la création d'un pion passé.",
+        "Bien essayé, mais ce coup ne force pas la création d'un pion passé.",
+        "Bien joué ! Vous avez sacrifié deux pions, mais le résultat est là : Votre pion passé va maintenant filer à dame ! A vous de jouer !",
+        "[%wrong Avançons le pion passé !][%hint Les pions passés sont fait pour être poussés.] Beau travail ! Nous allons pouvoir tranquillement convertir notre pion en dame et ramasser les pions noirs bien avant qu'ils n'atteignent la promotion ! ",
+        "Votre pion passé est votre plus grande force. Il doit à tout prix rester sur l'échiquier !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5ppp/1k6/5PPP/1K6/8/8/8 w - - 0 1\"]\r\n\r\n{Dans cette position, les blancs ont une percée qui permet de créer un pion passé. A vous de la trouver !}\r\n1.g6\r\n    {[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Quelle poussée permettrait au pion d'être soutenu par ses deux homologues ?]}\r\n    (1.f6 $2 gxf6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (1.h6 $2 gxh6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n1...hxg6\r\n    {Bien trouvé ! Et maintenant, créons un pion passé !}\r\n2.f6\r\n    {[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Il vous faudra sacrifier un pion pour en pousser un autre !]}\r\n    (2.h6 $2 gxh6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (2.hxg6 $2 f6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (2.fxg6 $2 fxg6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n2...gxf6\r\n    {Bien joué ! Vous avez sacrifié deux pions, mais le résultat est là : Votre pion passé va maintenant filer à dame ! A vous de jouer !}\r\n3.h6\r\n    {[%wrong Avançons le pion passé !][%hint Les pions passés sont fait pour être poussés.] Beau travail ! Nous allons pouvoir tranquillement convertir notre pion en dame et ramasser les pions noirs bien avant qu'ils n'atteignent la promotion ! }\r\n    (3.hxg6 $2 fxg6 {Votre pion passé est votre plus grande force. Il doit à tout prix rester sur l'échiquier !})\r\n*"
+    },
+    {
+      "fen": "8/5pp1/1k4p1/5P1P/1K6/8/8/8 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Quel coup de pion force la création d'un pion passé ?",
+        "[%wrong Ce coup ne fonctionne pas. Essayez encore !][%hint Il n'y a qu'un seul gain dans cette position !]",
+        "Bien essayé, mais ce coup ne force pas la création d'un pion passé.",
+        "Bien essayé, mais ce coup ne force pas la création d'un pion passé.",
+        "Bien joué ! Les blancs se créent un pion passé en force, mais cette fois, les noirs décident de prendre le pion h. Que faire ?",
+        "[%wrong Ce coup perd un pion. Essayez encore !][%hint Il n'y a de toutes façons qu'un seul coup de pion dans cette position !]",
+        "Et voilà ! Qu'on le transforme en dame !",
+        "[%wrong Promouvons ce pion en dame.][%hint Promouvons ce pion en dame.] Beau travail ! Comme vous pouvez le voir, la dame blanche va maintenant facilement stopper les pions noirs."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pp1/1k4p1/5P1P/1K6/8/8/8 w - - 0 2\"]\r\n\r\n{Trait aux blancs. Quel coup de pion force la création d'un pion passé ?}\r\n2.f6\r\n{[%wrong Ce coup ne fonctionne pas. Essayez encore !][%hint Il n'y a qu'un seul gain dans cette position !]}\r\n    (2.h6 $2 gxh6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (2.hxg6 $2 f6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n2...gxh5\r\n    {Bien joué ! Les blancs se créent un pion passé en force, mais cette fois, les noirs décident de prendre le pion h. Que faire ?}\r\n3.fxg7\r\n    {[%wrong Ce coup perd un pion. Essayez encore !][%hint Il n'y a de toutes façons qu'un seul coup de pion dans cette position !]}\r\n3...h4\r\n    {Et voilà ! Qu'on le transforme en dame !}\r\n4.g8=Q\r\n    {[%wrong Promouvons ce pion en dame.][%hint Promouvons ce pion en dame.] Beau travail ! Comme vous pouvez le voir, la dame blanche va maintenant facilement stopper les pions noirs.}\r\n*"
+    },
+    {
+      "fen": "8/5pp1/7p/5PPP/1k6/8/1K6/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs attaquent notre pion g5. Quel est le meilleur coup ?",
+        "[%wrong Les noirs vont simplement prendre le pion g5 non protégé. Essayez encore !][%hint Il existe un coup qui force la création d'un pion passé. Trouvez-le !]",
+        "Les pions sont désormais déconnectés et le roi noir va les ramasser les uns après les autres, obtenant une position gagnante. Essayez encore !",
+        "Les noirs ferment la position, et les blancs vont devoir faire très attention s'ils ne veulent pas perdre la partie. Trouvez mieux !",
+        "Beau travail ! Comment les blancs peuvent-ils maintenant forcer la création d'un pion passé ?",
+        "[%wrong Bien essayé, mais ce coup ne force pas la création d'un pion passé.][%hint Le coup à trouver est une capture.] C'est dans la poche ! Les blancs vont faire une dame et s'emparer de tous les pions noirs avant qu'ils n'aient pu atteindre la terre promise.",
+        "Une belle idée, qui marche également. Trouvez maintenant un autre moyen de créer un pion passé tout en gagnant du matériel !",
+        "Les pions sont désormais déconnectés et le roi noir va les ramasser les uns après les autres, obtenant une position gagnante. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pp1/7p/5PPP/1k6/8/1K6/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs attaquent notre pion g5. Quel est le meilleur coup ?}\r\n1.f6\r\n    {[%wrong Les noirs vont simplement prendre le pion g5 non protégé. Essayez encore !][%hint Il existe un coup qui force la création d'un pion passé. Trouvez-le !]}\r\n    (1.gxh6 $2 gxh6 {Les pions sont désormais déconnectés et le roi noir va les ramasser les uns après les autres, obtenant une position gagnante. Essayez encore !})\r\n    (1.g6 $2 f6 {Les noirs ferment la position, et les blancs vont devoir faire très attention s'ils ne veulent pas perdre la partie. Trouvez mieux !})\r\n1...gxf6\r\n    {Beau travail ! Comment les blancs peuvent-ils maintenant forcer la création d'un pion passé ?}\r\n2.gxh6\r\n    {[%wrong Bien essayé, mais ce coup ne force pas la création d'un pion passé.][%hint Le coup à trouver est une capture.] C'est dans la poche ! Les blancs vont faire une dame et s'emparer de tous les pions noirs avant qu'ils n'aient pu atteindre la terre promise.}\r\n    (2.g6 $5 {Une belle idée, qui marche également. Trouvez maintenant un autre moyen de créer un pion passé tout en gagnant du matériel !})\r\n    (2.gxf6 $2 {Les pions sont désormais déconnectés et le roi noir va les ramasser les uns après les autres, obtenant une position gagnante. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "8/1k3ppp/8/1K3PPP/8/8/8/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Tous les coups perdent, sauf un. Lequel ?",
+        "\r\n[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Les blancs ont gagné dans cette position en jouant g6. Ce coup pourrait-il également marcher pour les noirs ?]",
+        "Les blancs parviennent à se créer un pion passé, obtenant une position gagnante. Essayez encore !",
+        "Les blancs parviennent à se créer un pion passé, obtenant une position gagnante. Essayez encore !",
+        "Bien joué ! Les noirs ont joué g6 avant les blancs, empêchant la création d'un pion passé. Reprenons maintenant avec le bon pion !",
+        "[%wrong Ce coup perd un pion et permet aux de promouvoir leur pion. Essayez encore !][%hint Faudrait-il continuer à copier ce qu'ont fait les blancs dans l'exercice précédent ?] Joli ! Les noirs gardent une structure de pions symétrique, empêchant ainsi les blancs de se créer un pion passé.",
+        "Il va être impossible d'empêcher ce pion de filer à dame. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1k3ppp/8/1K3PPP/8/8/8/8 b - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Trait aux noirs. Tous les coups perdent, sauf un. Lequel ?} \r\n1... g6 {\r\n[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Les blancs ont gagné dans cette position en jouant g6. Ce coup pourrait-il également marcher pour les noirs ?]} \r\n(1... h6 $2 2. f6 {Les blancs parviennent à se créer un pion passé, obtenant une position gagnante. Essayez encore !}) (1... f6\r\n2. h6 {Les blancs parviennent à se créer un pion passé, obtenant une position gagnante. Essayez encore !}) 2. hxg6 {Bien joué ! Les noirs ont joué g6 avant les blancs, empêchant la création d'un pion passé. Reprenons maintenant avec le bon pion !} \r\nhxg6 {[%wrong Ce coup perd un pion et permet aux de promouvoir leur pion. Essayez encore !][%hint Faudrait-il continuer à copier ce qu'ont fait les blancs dans l'exercice précédent ?] Joli ! Les noirs gardent une structure de pions symétrique, empêchant ainsi les blancs de se créer un pion passé.} \r\n(2... fxg6 $2 3. f6 {Il va être impossible d'empêcher ce pion de filer à dame. Essayez encore !}) *"
+    },
+    {
+      "fen": "8/ppp1q3/8/PP6/1P4K1/8/2Q5/6k1 w - - 18 10",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent le pion faible en b4. Comment forcer une finale de pions gagnante ?",
+        "[%wrong Ce coup ne permet pas de rentrer dans une finale de pions gagnante pour les blancs. Essayez encore !][%hint Est-il possible de forcer l'échange des dames en attaquant à la fois le roi et la dame adverse ?]",
+        "Joli ! Les blancs forcent l'échange des dames. Finissons comme il se doit.",
+        "[%wrong Prenons la dame adverse !][%hint Prenons la dame adverse !] Les blancs vont maintenant jouer la percée b6 ou prendre tous les pions noirs, car le roi adverse est trop loin du combat. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/ppp1q3/8/PP6/1P4K1/8/2Q5/6k1 w - - 18 10\"]\r\n\r\n{Les noirs menacent le pion faible en b4. Comment forcer une finale de pions gagnante ?}\r\n10.Qc5+\r\n    {[%wrong Ce coup ne permet pas de rentrer dans une finale de pions gagnante pour les blancs. Essayez encore !][%hint Est-il possible de forcer l'échange des dames en attaquant à la fois le roi et la dame adverse ?]}\r\n10...Qxc5\r\n    {Joli ! Les blancs forcent l'échange des dames. Finissons comme il se doit.}\r\n11.bxc5\r\n    {[%wrong Prenons la dame adverse !][%hint Prenons la dame adverse !] Les blancs vont maintenant jouer la percée b6 ou prendre tous les pions noirs, car le roi adverse est trop loin du combat. Bien joué !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0107e186-9cea-11e8-982c-957e09beb7a3",
+    "name": "Créer une brèche pour ses pions à trois contre trois",
+    "path": "creer-une-breche-trois-pions-contre-trois",
+    "description": "Soyez attentifs aux coups de pions et aux sacrifices qui peuvent vous permettre de créer un pion passé. Souvent, c’est grâce à un ou plusieurs sacrifices de pions que vous parviendrez à promouvoir votre pion. Souvenez-vous : une dame est bien plus forte que quelques pions, même connectés.",
+    "glyphName": "piece-pawn-3",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-3-v-3-pawn-breakthrough-w7f.mp4",
+    "fen": "8/5pp1/5P1p/6PP/1k6/8/1K6/8 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5ppp/1k6/5PPP/1K6/8/8/8 w - - 0 1\"]\r\n\r\n{Dans cette position, les blancs ont une percée qui permet de créer un pion passé. A vous de la trouver !}\r\n1.g6\r\n    {[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Quelle poussée permettrait au pion d'être soutenu par ses deux homologues ?]}\r\n    (1.f6 $2 gxf6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (1.h6 $2 gxh6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n1...hxg6\r\n    {Bien trouvé ! Et maintenant, créons un pion passé !}\r\n2.f6\r\n    {[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Il vous faudra sacrifier un pion pour en pousser un autre !]}\r\n    (2.h6 $2 gxh6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (2.hxg6 $2 f6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (2.fxg6 $2 fxg6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n2...gxf6\r\n    {Bien joué ! Vous avez sacrifié deux pions, mais le résultat est là : Votre pion passé va maintenant filer à dame ! A vous de jouer !}\r\n3.h6\r\n    {[%wrong Avançons le pion passé !][%hint Les pions passés sont fait pour être poussés.] Beau travail ! Nous allons pouvoir tranquillement convertir notre pion en dame et ramasser les pions noirs bien avant qu'ils n'atteignent la promotion ! }\r\n    (3.hxg6 $2 fxg6 {Votre pion passé est votre plus grande force. Il doit à tout prix rester sur l'échiquier !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pp1/1k4p1/5P1P/1K6/8/8/8 w - - 0 2\"]\r\n\r\n{Trait aux blancs. Quel coup de pion force la création d'un pion passé ?}\r\n2.f6\r\n{[%wrong Ce coup ne fonctionne pas. Essayez encore !][%hint Il n'y a qu'un seul gain dans cette position !]}\r\n    (2.h6 $2 gxh6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n    (2.hxg6 $2 f6 {Bien essayé, mais ce coup ne force pas la création d'un pion passé.})\r\n2...gxh5\r\n    {Bien joué ! Les blancs se créent un pion passé en force, mais cette fois, les noirs décident de prendre le pion h. Que faire ?}\r\n3.fxg7\r\n    {[%wrong Ce coup perd un pion. Essayez encore !][%hint Il n'y a de toutes façons qu'un seul coup de pion dans cette position !]}\r\n3...h4\r\n    {Et voilà ! Qu'on le transforme en dame !}\r\n4.g8=Q\r\n    {[%wrong Promouvons ce pion en dame.][%hint Promouvons ce pion en dame.] Beau travail ! Comme vous pouvez le voir, la dame blanche va maintenant facilement stopper les pions noirs.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5pp1/7p/5PPP/1k6/8/1K6/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs attaquent notre pion g5. Quel est le meilleur coup ?}\r\n1.f6\r\n    {[%wrong Les noirs vont simplement prendre le pion g5 non protégé. Essayez encore !][%hint Il existe un coup qui force la création d'un pion passé. Trouvez-le !]}\r\n    (1.gxh6 $2 gxh6 {Les pions sont désormais déconnectés et le roi noir va les ramasser les uns après les autres, obtenant une position gagnante. Essayez encore !})\r\n    (1.g6 $2 f6 {Les noirs ferment la position, et les blancs vont devoir faire très attention s'ils ne veulent pas perdre la partie. Trouvez mieux !})\r\n1...gxf6\r\n    {Beau travail ! Comment les blancs peuvent-ils maintenant forcer la création d'un pion passé ?}\r\n2.gxh6\r\n    {[%wrong Bien essayé, mais ce coup ne force pas la création d'un pion passé.][%hint Le coup à trouver est une capture.] C'est dans la poche ! Les blancs vont faire une dame et s'emparer de tous les pions noirs avant qu'ils n'aient pu atteindre la terre promise.}\r\n    (2.g6 $5 {Une belle idée, qui marche également. Trouvez maintenant un autre moyen de créer un pion passé tout en gagnant du matériel !})\r\n    (2.gxf6 $2 {Les pions sont désormais déconnectés et le roi noir va les ramasser les uns après les autres, obtenant une position gagnante. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1k3ppp/8/1K3PPP/8/8/8/8 b - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Trait aux noirs. Tous les coups perdent, sauf un. Lequel ?} \r\n1... g6 {\r\n[%wrong Ce n'est pas un coup de pion. Essayez encore !][%hint Les blancs ont gagné dans cette position en jouant g6. Ce coup pourrait-il également marcher pour les noirs ?]} \r\n(1... h6 $2 2. f6 {Les blancs parviennent à se créer un pion passé, obtenant une position gagnante. Essayez encore !}) (1... f6\r\n2. h6 {Les blancs parviennent à se créer un pion passé, obtenant une position gagnante. Essayez encore !}) 2. hxg6 {Bien joué ! Les noirs ont joué g6 avant les blancs, empêchant la création d'un pion passé. Reprenons maintenant avec le bon pion !} \r\nhxg6 {[%wrong Ce coup perd un pion et permet aux de promouvoir leur pion. Essayez encore !][%hint Faudrait-il continuer à copier ce qu'ont fait les blancs dans l'exercice précédent ?] Joli ! Les noirs gardent une structure de pions symétrique, empêchant ainsi les blancs de se créer un pion passé.} \r\n(2... fxg6 $2 3. f6 {Il va être impossible d'empêcher ce pion de filer à dame. Essayez encore !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/ppp1q3/8/PP6/1P4K1/8/2Q5/6k1 w - - 18 10\"]\r\n\r\n{Les noirs menacent le pion faible en b4. Comment forcer une finale de pions gagnante ?}\r\n10.Qc5+\r\n    {[%wrong Ce coup ne permet pas de rentrer dans une finale de pions gagnante pour les blancs. Essayez encore !][%hint Est-il possible de forcer l'échange des dames en attaquant à la fois le roi et la dame adverse ?]}\r\n10...Qxc5\r\n    {Joli ! Les blancs forcent l'échange des dames. Finissons comme il se doit.}\r\n11.bxc5\r\n    {[%wrong Prenons la dame adverse !][%hint Prenons la dame adverse !] Les blancs vont maintenant jouer la percée b6 ou prendre tous les pions noirs, car le roi adverse est trop loin du combat. Bien joué !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "23cce244-a559-11e8-9aa6-effd2afc771b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Intéressons-nous à un concept de pion plus avancé : la rupture.",
+    "outroText": "Parfait. Vous serez un as des finales en un rien de temps.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "path": "comprendre-les-finales",
+      "title": "Comprendre les finales",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/23cce244-a559-11e8-9aa6-effd2afc771b.c6ee284d.728x410o.fc91752ed604.png"
+    },
+    "parentId": "c932df70-83aa-11e8-ab04-319868ed867f",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/3-v-3-pawn-breakthrough5d125431429ea.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/3-v-3-pawn-breakthrough-566885bee857f8.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/3-v-3-pawn-breakthrough-15ea242cd6e96b.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/3-v-3-pawn-breakthrough-2602e748e771f6.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 60,
+    "order": 4,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "name": "Comprendre les finales",
+      "path": "comprendre-les-finales",
+      "order": 2
+    }
+  }
+}

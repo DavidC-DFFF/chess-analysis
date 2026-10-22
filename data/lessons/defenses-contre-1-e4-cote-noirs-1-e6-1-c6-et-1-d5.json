@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/introduction-au-ouvertures-classiques/defenses-contre-1-e4-cote-noirs-1-e6-1-c6-et-1-d5",
+  "capturedAt": "2026-10-22T12:23:35.727Z",
+  "title": "Les défenses contre 1.e4 pour les noirs : 1...e6, 1...c6, et 1...d5",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayons le coup 1...d5, qu'on appelle la défense scandinave.",
+        "[%wrong Pour jouer la défense scandinave, il nous faut commencer par jouer notre pion en d5 !][%hint Avancez le pion de la dame de deux cases.]",
+        "La défense scandinave attaque immédiatement le pion e4, mais laisse les blancs prendre en d5. Comme il est impossible de reprendre ce pion avec un autre pion, c'est notre dame qui va devoir faire le travail !",
+        "[%wrong Ce coup ne récupère pas le pion d5 !][%hint Sortez votre dame pour récupérer le matériel.]",
+        "Les blancs développent un cavalier vers le centre, attaquant la dame blanche au passage. Les noirs sont dans l'obligation de perdre un temps pour battre en retraite. C'est la raison pour laquelle la défense scandinave n'est pas une ouverture très populaire."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Essayons le coup 1...d5, qu'on appelle la défense scandinave.}\r\n1...d5\r\n    {[%wrong Pour jouer la défense scandinave, il nous faut commencer par jouer notre pion en d5 !][%hint Avancez le pion de la dame de deux cases.]}\r\n2.exd5\r\n    {La défense scandinave attaque immédiatement le pion e4, mais laisse les blancs prendre en d5. Comme il est impossible de reprendre ce pion avec un autre pion, c'est notre dame qui va devoir faire le travail !}\r\n2...Qxd5\r\n {[%wrong Ce coup ne récupère pas le pion d5 !][%hint Sortez votre dame pour récupérer le matériel.]}\r\n3.Nc3\r\n    {Les blancs développent un cavalier vers le centre, attaquant la dame blanche au passage. Les noirs sont dans l'obligation de perdre un temps pour battre en retraite. C'est la raison pour laquelle la défense scandinave n'est pas une ouverture très populaire.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Préparons cette fois le coup ...d5 en jouant en premier 1...e6. C'est la défense française !",
+        "[%wrong Pour jouer la défense française, il nous faut commencer par jouer notre pion en e6 !][%hint Avancez le pion du roi d'une case.]",
+        "Bien joué ! Les noirs laissent les blancs installer deux pions au centre, mais c'est pour mieux les attaquer par 2...d5. A vous de jouer !",
+        "[%wrong Vous devez jouer le coup ...d5. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]",
+        "Les noirs doivent-ils reprendre le pion d5 avec le pion ou la dame ?",
+        "[%wrong Nous voulons reprendre le pion d5. Essayez encore !][%hint L'un deux deux coups contrôle mieux le centre et ouvre la diagonale du fou de cases blanches.] Bien joué ! Les noirs installent un pion au centre et facilitent le futur développement du fou de cases blanches.",
+        "Bien essayé, mais la dame va rapidement être repoussé par une pièce blanche et les noirs n'auront pas de contrôle du centre. Trouvez un meilleur coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Préparons cette fois le coup ...d5 en jouant en premier 1...e6. C'est la défense française !}\r\n1...e6\r\n{[%wrong Pour jouer la défense française, il nous faut commencer par jouer notre pion en e6 !][%hint Avancez le pion du roi d'une case.]}\r\n2.d4\r\n    {Bien joué ! Les noirs laissent les blancs installer deux pions au centre, mais c'est pour mieux les attaquer par 2...d5. A vous de jouer !}\r\n2...d5\r\n    {[%wrong Vous devez jouer le coup ...d5. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.exd5\r\n    {Les noirs doivent-ils reprendre le pion d5 avec le pion ou la dame ?}\r\n3...exd5\r\n    {[%wrong Nous voulons reprendre le pion d5. Essayez encore !][%hint L'un deux deux coups contrôle mieux le centre et ouvre la diagonale du fou de cases blanches.] Bien joué ! Les noirs installent un pion au centre et facilitent le futur développement du fou de cases blanches.}\r\n    (3...Qxd5 $6 {Bien essayé, mais la dame va rapidement être repoussé par une pièce blanche et les noirs n'auront pas de contrôle du centre. Trouvez un meilleur coup !})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Réessayons la défense française avec 2...d5!",
+        "[%wrong Pour jouer la défense française, il nous faut commencer par le coup ...d5 !][%hint Avancez le pion de la dame de deux cases.]",
+        "Très bien ! Les blancs décident de pousser leur pion en e5 pour prendre un avantage d'espace. Comment contrer leur fort centre de pions ?",
+        "[%wrong Ce coup n'attaque pas la chaîne de pions blanche. Essayez encore !][%hint Le pion avancé e5 des blancs est supporté par le pion d4. C'est celui qu'il nous faut attaquer.] Bien joué ! Les noirs attaquent le pion d4 qui protège le pion avancé des blancs. Ils vont ensuite continuer en augmentant la pression sur d4 tandis que les blancs vont s'attacher à défendre cette case d'une importance primordiale.",
+        "L'idée est intéressante, mais ce coup ouvre des lignes vers votre roi un peu trop tôt dans la partie. Essayez plutôt d'attaquer le pion d4 !",
+        "Le cavalier attaque les deux pions. C'est une très bonne idée, mais avant de jouer ce coup, peut-être devrions nous utiliser le pion c7 pour mettre encore plus de pression sur le centre blanc..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Réessayons la défense française avec 2...d5!}\r\n2...d5\r\n {[%wrong Pour jouer la défense française, il nous faut commencer par le coup ...d5 !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.e5\r\n    {Très bien ! Les blancs décident de pousser leur pion en e5 pour prendre un avantage d'espace. Comment contrer leur fort centre de pions ?}\r\n3...c5\r\n    {[%wrong Ce coup n'attaque pas la chaîne de pions blanche. Essayez encore !][%hint Le pion avancé e5 des blancs est supporté par le pion d4. C'est celui qu'il nous faut attaquer.] Bien joué ! Les noirs attaquent le pion d4 qui protège le pion avancé des blancs. Ils vont ensuite continuer en augmentant la pression sur d4 tandis que les blancs vont s'attacher à défendre cette case d'une importance primordiale.}\r\n    (3...f6 $6 {L'idée est intéressante, mais ce coup ouvre des lignes vers votre roi un peu trop tôt dans la partie. Essayez plutôt d'attaquer le pion d4 !})\r\n    (3...Nc6 $6 {Le cavalier attaque les deux pions. C'est une très bonne idée, mais avant de jouer ce coup, peut-être devrions nous utiliser le pion c7 pour mettre encore plus de pression sur le centre blanc...})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayons une autre manière très solide de s'en prendre au pion e4 : La défense Caro-Kann, qui commence avec le coup ...c6..",
+        "[%wrong Nous voulons jouer 1...c6 pour tester la défense Caro-Kann. Essayez encore !][%hint Avancez le pion c7 d'une case.]",
+        "Parfait ! Attaquons maintenant le centre blanc par 2...d5 !",
+        "[%wrong Ce coup n'attaque pas le pion e4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]",
+        "Bien joué ! Les noirs doivent-ils maintenant reprendre avec le pion ou la dame ?",
+        "[%wrong Nous voulons reprendre le pion d5. Essayez encore !][%hint Reprendre avec un pion offre un meilleur contrôle du centre !] Et voilà ! Il faut bien entendu reprendre du pion.",
+        "Bien essayé, mais la dame va rapidement être repoussé par une pièce blanche et les noirs n'auront pas de contrôle du centre. Trouvez un meilleur coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Essayons une autre manière très solide de s'en prendre au pion e4 : La défense Caro-Kann, qui commence avec le coup ...c6..}\r\n1...c6\r\n    {[%wrong Nous voulons jouer 1...c6 pour tester la défense Caro-Kann. Essayez encore !][%hint Avancez le pion c7 d'une case.]}\r\n2.d4\r\n    {Parfait ! Attaquons maintenant le centre blanc par 2...d5 !}\r\n2...d5\r\n    {[%wrong Ce coup n'attaque pas le pion e4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.exd5\r\n    {Bien joué ! Les noirs doivent-ils maintenant reprendre avec le pion ou la dame ?}\r\n3...cxd5\r\n    {[%wrong Nous voulons reprendre le pion d5. Essayez encore !][%hint Reprendre avec un pion offre un meilleur contrôle du centre !] Et voilà ! Il faut bien entendu reprendre du pion.}\r\n    (3...Qxd5 $6 {Bien essayé, mais la dame va rapidement être repoussé par une pièce blanche et les noirs n'auront pas de contrôle du centre. Trouvez un meilleur coup !})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Contre-attaquons à nouveau au centre par 2...d5!",
+        "[%wrong Pour bien jouer la défense Caro-Kann, il nous faut commencer par jouer notre pion en d5 !][%hint Avancez le pion de la dame de deux cases.]",
+        "Très bien ! Encore une fois, les blancs jouent le coup e5 pour prendre de l'espace au centre. Contrairement à la défense française, nous avons cette fois l'opportunité de développer le fou de cases blanches sur une case centrale avant de jouer ...e6. A vous de jouer !",
+        "[%wrong Ce coup ne développe pas le fou de cases blanches des noirs vers le centre. Essayez encore !][%hint Trouvez une diagonale ouverte sur laquelle le fou pourra participer au contrôle du centre.] Parfait ! Vous avez développé votre fou sur une très bonne case avant de fermer la diagonale par le coup ...e6.",
+        "Bien essayé, mais le fou est ici bloqué entre deux pions. Essayez de lui trouver une diagonale ouverte.",
+        "Ce coup ne donne au fou aucune case à utiliser et gêne le développement de la dame et du cavalier. Essayez encore !",
+        "Sur cette case, le fou n'est pas protégé. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Contre-attaquons à nouveau au centre par 2...d5!}\r\n2...d5\r\n {[%wrong Pour bien jouer la défense Caro-Kann, il nous faut commencer par jouer notre pion en d5 !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.e5\r\n    {Très bien ! Encore une fois, les blancs jouent le coup e5 pour prendre de l'espace au centre. Contrairement à la défense française, nous avons cette fois l'opportunité de développer le fou de cases blanches sur une case centrale avant de jouer ...e6. A vous de jouer !}\r\n3...Bf5\r\n    {[%wrong Ce coup ne développe pas le fou de cases blanches des noirs vers le centre. Essayez encore !][%hint Trouvez une diagonale ouverte sur laquelle le fou pourra participer au contrôle du centre.] Parfait ! Vous avez développé votre fou sur une très bonne case avant de fermer la diagonale par le coup ...e6.}\r\n    (3...Be6 $2 {Bien essayé, mais le fou est ici bloqué entre deux pions. Essayez de lui trouver une diagonale ouverte.})\r\n    (3...Bd7 $2 {Ce coup ne donne au fou aucune case à utiliser et gêne le développement de la dame et du cavalier. Essayez encore !})\r\n    (3...Bg4 $2 4.Qxg4 {Sur cette case, le fou n'est pas protégé. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "3ef43842-9ce9-11e8-ab71-612c64f35cbc",
+    "name": "Les défenses contre 1.e4 pour les noirs : 1...e6, 1...c6, et 1...d5",
+    "path": "defenses-contre-1-e4-cote-noirs-1-e6-1-c6-et-1-d5",
+    "description": "Si les noirs répondent à 1.e4 par un autre coup que e5 ou c5, l’idée principale est généralement de préparer l’arrivée d’un pion en d5. Le coup 1…d5 directement est jouable, mais assez risqué, car ce pion peut être tout de suite capturé. Les options les plus fréquemment choisies sont donc 1…e6 ou 1…c6 pour préparer d5 au prochain coup.",
+    "glyphName": "document-book-e-badge-left",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-intro-to-1-e4-defenses-for-black-1-e6-1-c6-and-1-d5-c9s.mp4",
+    "fen": "rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Essayons le coup 1...d5, qu'on appelle la défense scandinave.}\r\n1...d5\r\n    {[%wrong Pour jouer la défense scandinave, il nous faut commencer par jouer notre pion en d5 !][%hint Avancez le pion de la dame de deux cases.]}\r\n2.exd5\r\n    {La défense scandinave attaque immédiatement le pion e4, mais laisse les blancs prendre en d5. Comme il est impossible de reprendre ce pion avec un autre pion, c'est notre dame qui va devoir faire le travail !}\r\n2...Qxd5\r\n {[%wrong Ce coup ne récupère pas le pion d5 !][%hint Sortez votre dame pour récupérer le matériel.]}\r\n3.Nc3\r\n    {Les blancs développent un cavalier vers le centre, attaquant la dame blanche au passage. Les noirs sont dans l'obligation de perdre un temps pour battre en retraite. C'est la raison pour laquelle la défense scandinave n'est pas une ouverture très populaire.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Préparons cette fois le coup ...d5 en jouant en premier 1...e6. C'est la défense française !}\r\n1...e6\r\n{[%wrong Pour jouer la défense française, il nous faut commencer par jouer notre pion en e6 !][%hint Avancez le pion du roi d'une case.]}\r\n2.d4\r\n    {Bien joué ! Les noirs laissent les blancs installer deux pions au centre, mais c'est pour mieux les attaquer par 2...d5. A vous de jouer !}\r\n2...d5\r\n    {[%wrong Vous devez jouer le coup ...d5. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.exd5\r\n    {Les noirs doivent-ils reprendre le pion d5 avec le pion ou la dame ?}\r\n3...exd5\r\n    {[%wrong Nous voulons reprendre le pion d5. Essayez encore !][%hint L'un deux deux coups contrôle mieux le centre et ouvre la diagonale du fou de cases blanches.] Bien joué ! Les noirs installent un pion au centre et facilitent le futur développement du fou de cases blanches.}\r\n    (3...Qxd5 $6 {Bien essayé, mais la dame va rapidement être repoussé par une pièce blanche et les noirs n'auront pas de contrôle du centre. Trouvez un meilleur coup !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Réessayons la défense française avec 2...d5!}\r\n2...d5\r\n {[%wrong Pour jouer la défense française, il nous faut commencer par le coup ...d5 !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.e5\r\n    {Très bien ! Les blancs décident de pousser leur pion en e5 pour prendre un avantage d'espace. Comment contrer leur fort centre de pions ?}\r\n3...c5\r\n    {[%wrong Ce coup n'attaque pas la chaîne de pions blanche. Essayez encore !][%hint Le pion avancé e5 des blancs est supporté par le pion d4. C'est celui qu'il nous faut attaquer.] Bien joué ! Les noirs attaquent le pion d4 qui protège le pion avancé des blancs. Ils vont ensuite continuer en augmentant la pression sur d4 tandis que les blancs vont s'attacher à défendre cette case d'une importance primordiale.}\r\n    (3...f6 $6 {L'idée est intéressante, mais ce coup ouvre des lignes vers votre roi un peu trop tôt dans la partie. Essayez plutôt d'attaquer le pion d4 !})\r\n    (3...Nc6 $6 {Le cavalier attaque les deux pions. C'est une très bonne idée, mais avant de jouer ce coup, peut-être devrions nous utiliser le pion c7 pour mettre encore plus de pression sur le centre blanc...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Essayons une autre manière très solide de s'en prendre au pion e4 : La défense Caro-Kann, qui commence avec le coup ...c6..}\r\n1...c6\r\n    {[%wrong Nous voulons jouer 1...c6 pour tester la défense Caro-Kann. Essayez encore !][%hint Avancez le pion c7 d'une case.]}\r\n2.d4\r\n    {Parfait ! Attaquons maintenant le centre blanc par 2...d5 !}\r\n2...d5\r\n    {[%wrong Ce coup n'attaque pas le pion e4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.exd5\r\n    {Bien joué ! Les noirs doivent-ils maintenant reprendre avec le pion ou la dame ?}\r\n3...cxd5\r\n    {[%wrong Nous voulons reprendre le pion d5. Essayez encore !][%hint Reprendre avec un pion offre un meilleur contrôle du centre !] Et voilà ! Il faut bien entendu reprendre du pion.}\r\n    (3...Qxd5 $6 {Bien essayé, mais la dame va rapidement être repoussé par une pièce blanche et les noirs n'auront pas de contrôle du centre. Trouvez un meilleur coup !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Contre-attaquons à nouveau au centre par 2...d5!}\r\n2...d5\r\n {[%wrong Pour bien jouer la défense Caro-Kann, il nous faut commencer par jouer notre pion en d5 !][%hint Avancez le pion de la dame de deux cases.]}\r\n3.e5\r\n    {Très bien ! Encore une fois, les blancs jouent le coup e5 pour prendre de l'espace au centre. Contrairement à la défense française, nous avons cette fois l'opportunité de développer le fou de cases blanches sur une case centrale avant de jouer ...e6. A vous de jouer !}\r\n3...Bf5\r\n    {[%wrong Ce coup ne développe pas le fou de cases blanches des noirs vers le centre. Essayez encore !][%hint Trouvez une diagonale ouverte sur laquelle le fou pourra participer au contrôle du centre.] Parfait ! Vous avez développé votre fou sur une très bonne case avant de fermer la diagonale par le coup ...e6.}\r\n    (3...Be6 $2 {Bien essayé, mais le fou est ici bloqué entre deux pions. Essayez de lui trouver une diagonale ouverte.})\r\n    (3...Bd7 $2 {Ce coup ne donne au fou aucune case à utiliser et gêne le développement de la dame et du cavalier. Essayez encore !})\r\n    (3...Bg4 $2 4.Qxg4 {Sur cette case, le fou n'est pas protégé. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "6dd84776-a558-11e8-9f8a-21067497efe2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrons quelques ouvertures supplémentaires.",
+    "outroText": "Bravo. Vous commencez à vous constrruire un premier répertoire d'ouvertures.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "path": "introduction-au-ouvertures-classiques",
+      "title": "Introduction aux ouvertures classiques",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/6dd84776-a558-11e8-9f8a-21067497efe2.708d46c2.728x410o.0c89eb80dd7c.png"
+    },
+    "parentId": "93f95466-910a-11e8-afa7-dd9463b681cd",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/intro-to-1-e4-defenses-for-black-1-e6-1-c6-and-1-d55e54d2cdf1df4.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/intro-to-1-e4-defenses-for-black-1-e6-1-c6-and-1-d5-56688bd25d0bef.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/intro-to-1-e4-defenses-for-black-1-e6-1-c6-and-1-d5-15ea243e6acf57.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/intro-to-1-e4-defenses-for-black-1-e6-1-c6-and-1-d5-2609cff1544c3c.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 48,
+    "order": 4,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "name": "Introduction aux ouvertures classiques",
+      "path": "introduction-au-ouvertures-classiques",
+      "order": 6
+    }
+  }
+}

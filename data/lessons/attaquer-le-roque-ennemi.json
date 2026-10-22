@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi/attaquer-le-roque-ennemi",
+  "capturedAt": "2026-10-22T12:23:51.249Z",
+  "title": "Attaquer le roque ennemi",
+  "exercises": [
+    {
+      "fen": "r1bq1rk1/pp3ppp/2n1pn2/3p4/1b1PP3/2NB1N2/PP3PPP/R1BQ1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le fort coup de pion supprimant un défenseur-clef du roi noir.",
+        "[%wrong Ce n'est pas un coup de pion forçant un défenseur du roque noir à se déplacer. Cherchez encore !][%hint Le cavalier f6 est un excellent défenseur du roi. Comment le forcer à bouger ?]",
+        "Les noirs n'améliorent pas leur position en ramenant le cavalier sur une case passive... Attaquons violemment le roque adverse pour forcer le roi à sortir de sa tanière !",
+        "[%wrong Bien essayé, mais ce coup ne force pas l'ouverture de lignes contre le roi noir. Cherchez encore !][%hint Trouvez un puissant sacrifice forçant le roi noir à se rendre sur la colonne h.]",
+        "Beau travail ! Le roi noir a dû sortir de son château ! Continuons l'attaque.",
+        "[%wrong Ce coup ne continue pas l'attaque de manière suffisamment tranchante. Cherchez un échec !][%hint Donnez un fort échec préparant l'arrivée de la dame en h5 au prochain coup.]",
+        "Une idée intéressante, mais il existe un coup beaucoup plus fort dans cette position. Trouvez-le !",
+        "Bien essayé, mais l'attaque blanche n'est pas assez tranchante. Trouvez un coup plus fort !",
+        "Formidable ! Le roi noir doit retourner se cacher en g8, car sur Rg6, Dd3+ donne aux blancs une attaque gagnante. Ramenez maintenant la dame en attaque pour porter l'estocade finale !",
+        "[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Mettez la dame blanche sur une case où elle pourra menacer mat sans pouvoir être bloquée par un pion.] Excellent travail ! Le seul moyen pour les noirs d'empêcher le mat est de sacrifier la dame contre le cavalier. Les blancs obtiennent une position gagnante.",
+        "Les blancs ont toujours une position gagnante, mais sur Dh3, les noirs vont pouvoir jouer ...Tf7 et résister plus longtemps. Comment menacer mat en un coup seulement ?",
+        "Les blancs n'ont pas de suite gagnante, et se retrouvent simplement avec une pièce de moins. Trouvez la suite la plus tranchante !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp3ppp/2n1pn2/3p4/1b1PP3/2NB1N2/PP3PPP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le fort coup de pion supprimant un défenseur-clef du roi noir.}\r\n1.e5\r\n    {[%wrong Ce n'est pas un coup de pion forçant un défenseur du roque noir à se déplacer. Cherchez encore !][%hint Le cavalier f6 est un excellent défenseur du roi. Comment le forcer à bouger ?]}\r\n1...Ne8\r\n    {Les noirs n'améliorent pas leur position en ramenant le cavalier sur une case passive... Attaquons violemment le roque adverse pour forcer le roi à sortir de sa tanière !}\r\n2.Bxh7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'ouverture de lignes contre le roi noir. Cherchez encore !][%hint Trouvez un puissant sacrifice forçant le roi noir à se rendre sur la colonne h.]}\r\n2...Kxh7\r\n    {Beau travail ! Le roi noir a dû sortir de son château ! Continuons l'attaque.}\r\n3.Ng5+\r\n    {[%wrong Ce coup ne continue pas l'attaque de manière suffisamment tranchante. Cherchez un échec !][%hint Donnez un fort échec préparant l'arrivée de la dame en h5 au prochain coup.]}\r\n    (3.Qd3+ $2 g6 {Une idée intéressante, mais il existe un coup beaucoup plus fort dans cette position. Trouvez-le !})\r\n    (3.Qc2+ $2 Kg8 {Bien essayé, mais l'attaque blanche n'est pas assez tranchante. Trouvez un coup plus fort !})\r\n3...Kg8\r\n    {Formidable ! Le roi noir doit retourner se cacher en g8, car sur Rg6, Dd3+ donne aux blancs une attaque gagnante. Ramenez maintenant la dame en attaque pour porter l'estocade finale !}\r\n4.Qh5\r\n    {[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Mettez la dame blanche sur une case où elle pourra menacer mat sans pouvoir être bloquée par un pion.] Excellent travail ! Le seul moyen pour les noirs d'empêcher le mat est de sacrifier la dame contre le cavalier. Les blancs obtiennent une position gagnante.}\r\n    (4.Qd3 $6 f5 {Les blancs ont toujours une position gagnante, mais sur Dh3, les noirs vont pouvoir jouer ...Tf7 et résister plus longtemps. Comment menacer mat en un coup seulement ?})\r\n    (4.Qc2 $2 g6 {Les blancs n'ont pas de suite gagnante, et se retrouvent simplement avec une pièce de moins. Trouvez la suite la plus tranchante !})\r\n*"
+    },
+    {
+      "fen": "r1b1r1k1/ppq1bppp/2n1pn2/3pP3/3P4/2NB1N2/PP3PPP/R1BQ1RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position similaire, les noirs ont désormais un fou en e7. Cela leur permet-il de jouer ...Cd7, ou bien faut-il mettre le cavalier ailleurs ? A vous de voir...",
+        "[%wrong Nous cherchons à mettre le cavalier f6 en sécurité... Cherchez encore !][%hint Si vous mettez le cavalier en d7, le fou e7 couvrira-t-il toujours la case g5 si nécessaire ?]",
+        "Oups ! Vous perdez un pion et les blancs gardent un fort potentiel offensif. Cherchez encore !",
+        "Oups ! Le cavalier est enfermé. Cherchez encore !",
+        "Le cavalier va être capturé au prochain coup et les blancs gardent un fort potentiel offensif. Cherchez encore !",
+        "Excellente décision. L'attaque blanche peut sembler inquiétante, mais le fou e7 est parfaitement placé ! Pouvons-nous pour autant nous emparer du fou ?",
+        "[%hint Les blancs auront-ils une attaque de mat si vous prenez ce fou ? Calculez bien toutes les possibilités.]",
+        "Les blancs ont tout simplement gagné un pion et affaibli le roque noire. Trouvez mieux !",
+        "Les blancs ont tout simplement gagné un pion et affaibli le roque noire. Trouvez mieux !",
+        "Bien joué ! Les noirs acceptent avec plaisir le sacrifice. L'attaque blanche ne fonctionne tout simplement pas, à vous de prouver pourquoi !",
+        "[%wrong Ce coup ne nous débarrasse pas du dangereux cavalier blanc. Essayez encore !][%hint Le cavalier blanc est un redoutable attaquant. Éliminez-le !] Belle défense ! Les noirs ont une pièce de plus contre un pion et l'attaque blanche s'essouffle déjà."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1r1k1/ppq1bppp/2n1pn2/3pP3/3P4/2NB1N2/PP3PPP/R1BQ1RK1 b - - 0 1\"]\r\n\r\n{Dans cette position similaire, les noirs ont désormais un fou en e7. Cela leur permet-il de jouer ...Cd7, ou bien faut-il mettre le cavalier ailleurs ? A vous de voir...}\r\n1...Nd7\r\n    {[%wrong Nous cherchons à mettre le cavalier f6 en sécurité... Cherchez encore !][%hint Si vous mettez le cavalier en d7, le fou e7 couvrira-t-il toujours la case g5 si nécessaire ?]}\r\n    (1...Ne4 $2 2.Nxe4 {Oups ! Vous perdez un pion et les blancs gardent un fort potentiel offensif. Cherchez encore !})\r\n    (1...Nh5 $2 2.g4 {Oups ! Le cavalier est enfermé. Cherchez encore !})\r\n    (1...Ng4 $2 2.h3 {Le cavalier va être capturé au prochain coup et les blancs gardent un fort potentiel offensif. Cherchez encore !})\r\n2.Bxh7+\r\n    {Excellente décision. L'attaque blanche peut sembler inquiétante, mais le fou e7 est parfaitement placé ! Pouvons-nous pour autant nous emparer du fou ?}\r\n2...Kxh7\r\n    {[%hint Les blancs auront-ils une attaque de mat si vous prenez ce fou ? Calculez bien toutes les possibilités.]}\r\n    (2...Kh8 $2 3.Bc2 {Les blancs ont tout simplement gagné un pion et affaibli le roque noire. Trouvez mieux !})\r\n    (2...Kf8 $2 3.Bc2 {Les blancs ont tout simplement gagné un pion et affaibli le roque noire. Trouvez mieux !})\r\n3.Ng5+\r\n    {Bien joué ! Les noirs acceptent avec plaisir le sacrifice. L'attaque blanche ne fonctionne tout simplement pas, à vous de prouver pourquoi !}\r\n3...Bxg5\r\n    {[%wrong Ce coup ne nous débarrasse pas du dangereux cavalier blanc. Essayez encore !][%hint Le cavalier blanc est un redoutable attaquant. Éliminez-le !] Belle défense ! Les noirs ont une pièce de plus contre un pion et l'attaque blanche s'essouffle déjà.}\r\n*"
+    },
+    {
+      "fen": "r4rk1/2q2pp1/n1p1p3/p1P4N/1p1PQp2/1P6/P5PP/R4RK1 w - - 0 21",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Nous avons une dame et un cavalier prêts à attaquer le roque noir. Ramenez une troisième pièce à l'assaut !",
+        "[%wrong Ce coup ne ramène pas une troisième pièce en attaque. Cherchez encore !][%hint Ramenez une pièce vers l'aile roi tout en capturant du matériel !]",
+        "Un solide coup de développement, mais il existe dans cette position un autre coup de tour encore plus fort gagnant du matériel. Trouvez-le !",
+        "Ce coup de centralisation est intéressant, mais il existe dans cette position un autre coup de tour encore plus fort gagnant du matériel. Trouvez-le !",
+        "C'est la bonne idée. Trouvez un coup similaire gagnant du matériel et ouvrant la colonne f.",
+        "Beau travail ! Les blancs ont maintenant trois pièces autour du roque noir. Les noirs, inconscients du danger, développent une pièce. Profitez-en pour mater en quatre !",
+        "[%wrong Ce coup ne mène pas à un mat en quatre. Cherchez encore !][%hint Trouvez un échec violent forçant l'ouverture de la colonne g.]",
+        "Cette idée intéressante affaibli l'aile roi des noirs, mais il n'y a pas de mat. Trouvez mieux !",
+        "Cette idée puissante gagne au moins un pion, mais il est encore plus fort de mater en quatre coups ! Cherchez encore.",
+        "Formidable ! Les noirs sont obligés de prendre à cause de la mencace Dh7#. Les colonnes g et h sont maintenant grandes ouvertes et l'attaque se poursuit. Envoyez le roi noir sur la colonne h !",
+        "[%wrong Ce coup ne force pas le roi noir à se rendre sur la colonne h. Cherchez encore !][%hint Quel est le seul échec des blancs envoyant le roi noir vers la colonne h ?]",
+        "Bien essayé, mais les noirs survivent à notre attaque. Trouvez mieux !",
+        "Bien vu ! Trouvez maintenant le mat en deux.",
+        "[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Mettez le roi noir en échec à chaque coup pour mater en force !]",
+        "Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.",
+        "Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.",
+        "Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.",
+        "Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.",
+        "Parfait ! Et maintenant, mat !",
+        "[%wrong Ce coup ne mate pas, essayez encore !][%hint Cherchez le mat en un !] Excellent travail ! Vous avez mené de main de maître cette attaque de mat.",
+        "Bien joué, c'est mat ! Trouvez maintenant l'autre mat disponible dans la position. "
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/2q2pp1/n1p1p3/p1P4N/1p1PQp2/1P6/P5PP/R4RK1 w - - 0 21\"]\r\n\r\n{Trait aux blancs. Nous avons une dame et un cavalier prêts à attaquer le roque noir. Ramenez une troisième pièce à l'assaut !} \r\n21.Rxf4 \r\n    {[%wrong Ce coup ne ramène pas une troisième pièce en attaque. Cherchez encore !][%hint Ramenez une pièce vers l'aile roi tout en capturant du matériel !]}\r\n    ( 21.Rae1 $5 {Un solide coup de développement, mais il existe dans cette position un autre coup de tour encore plus fort gagnant du matériel. Trouvez-le !})\r\n    ( 21.Rad1 $5 {Ce coup de centralisation est intéressant, mais il existe dans cette position un autre coup de tour encore plus fort gagnant du matériel. Trouvez-le !})\r\n    ( 21.Rf3 $6 {C'est la bonne idée. Trouvez un coup similaire gagnant du matériel et ouvrant la colonne f.})\r\n21...Rad8 \r\n    {Beau travail ! Les blancs ont maintenant trois pièces autour du roque noir. Les noirs, inconscients du danger, développent une pièce. Profitez-en pour mater en quatre !}\r\n22.Nf6+ \r\n    {[%wrong Ce coup ne mène pas à un mat en quatre. Cherchez encore !][%hint Trouvez un échec violent forçant l'ouverture de la colonne g.]}\r\n    ( 22.Rg4 $6 g6 {Cette idée intéressante affaibli l'aile roi des noirs, mais il n'y a pas de mat. Trouvez mieux !})\r\n    ( 22.Rh4 $6 f5 {Cette idée puissante gagne au moins un pion, mais il est encore plus fort de mater en quatre coups ! Cherchez encore.})\r\n22...gxf6 \r\n    {Formidable ! Les noirs sont obligés de prendre à cause de la mencace Dh7#. Les colonnes g et h sont maintenant grandes ouvertes et l'attaque se poursuit. Envoyez le roi noir sur la colonne h !}\r\n23.Rg4+ \r\n    {[%wrong Ce coup ne force pas le roi noir à se rendre sur la colonne h. Cherchez encore !][%hint Quel est le seul échec des blancs envoyant le roi noir vers la colonne h ?]}\r\n    ( 23.Rh4 $2 f5 {Bien essayé, mais les noirs survivent à notre attaque. Trouvez mieux !})\r\n23...Kh8 \r\n    {Bien vu ! Trouvez maintenant le mat en deux.}\r\n24.Rh4+ \r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Mettez le roi noir en échec à chaque coup pour mater en force !]}\r\n    ( 24.Qe3 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n    ( 24.Qf3 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n    ( 24.Qe1 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n    ( 24.Qd3 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n24...Kg7 \r\n    {Parfait ! Et maintenant, mat !}\r\n25.Qg4# \r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Cherchez le mat en un !] Excellent travail ! Vous avez mené de main de maître cette attaque de mat.}\r\n    ( 25.Qh7# $5 {Bien joué, c'est mat ! Trouvez maintenant l'autre mat disponible dans la position. })\r\n*"
+    },
+    {
+      "fen": "3r2k1/1p3p2/p1n3p1/5bQp/P7/1PB5/5qPP/4R2K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs ont une pièce de plus, mais leur roi est faible. Retournez la situation en trouvant l'attaque gagnante !",
+        "[%wrong Ce n'est pas une attaque gagnante, cherchez encore !][%hint Les cases noires autour du roi sont faibles. Trouvez un puissant sacrifice qui force le mat en trois !]",
+        "Bien essayé, mais les noirs vont pouvoir attaquer notre première rangée et obtenir une position gagnante. Trouvez mieux !",
+        "Bien essayé, mais les noirs tiennent la position est vont pouvoir profiter de leur pièce en plus. Cherchez encore !",
+        "Bien vu ! Continuez l'attaque dans cette veine !",
+        "[%wrong Ce coup n'est pas assez tranchant pour mater en deux... Cherchez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.]",
+        "Parfait ! Eh bien, matez maintenant !",
+        "[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échec des blancs ?] Beau travail ! Vous savez attaquez le roque adverse."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p3p2/p1n3p1/5bQp/P7/1PB5/5qPP/4R2K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont une pièce de plus, mais leur roi est faible. Retournez la situation en trouvant l'attaque gagnante !}\r\n1.Qxd8+\r\n    {[%wrong Ce n'est pas une attaque gagnante, cherchez encore !][%hint Les cases noires autour du roi sont faibles. Trouvez un puissant sacrifice qui force le mat en trois !]}\r\n    (1.Qf6 $2 Qxe1+ {Bien essayé, mais les noirs vont pouvoir attaquer notre première rangée et obtenir une position gagnante. Trouvez mieux !})\r\n    (1.Qh6 $2 f6 {Bien essayé, mais les noirs tiennent la position est vont pouvoir profiter de leur pièce en plus. Cherchez encore !})\r\n1...Nxd8\r\n    {Bien vu ! Continuez l'attaque dans cette veine !}\r\n2.Re8+\r\n    {[%wrong Ce coup n'est pas assez tranchant pour mater en deux... Cherchez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.]}\r\n2...Kh7\r\n    {Parfait ! Eh bien, matez maintenant !}\r\n3.Rh8#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échec des blancs ?] Beau travail ! Vous savez attaquez le roque adverse.}\r\n*"
+    },
+    {
+      "fen": "r3nrk1/pp2R1np/3p2pB/2pP2N1/2P2p2/2P4R/P4PPP/6K1 w - - 0 23",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le grand-maître Capablanca est à l'attaque ! Trouvez le coup qui gagne du matériel et lance une puissante attaque sur le roque noir.",
+        "[%wrong Bien essayé, mais il existe un coup d'attaque plus fort. Cherchez encore !][%hint Trouvez une prise qui permet à la tour h3 de se joindre à l'attaque.]",
+        "Vous avez pris la bonne pièce, mais nous allons avoir besoin de cette tour pour attaquer. Prenez ce cavalier avec une pièce de moindre valeur !",
+        "Beau travail ! Les blancs prennent le cavalier et ouvrent la colonne pour la tour h3. Continuez l'attaque dans le style du champion cubain !",
+        "[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Comment faire jouer votre tour h3 ?]",
+        "Les noirs mettent leur cavalier en sûreté tout en attaquant la tour e7. Mettez vous aussi votre tour en sécurité tout en menaçant mat !",
+        "[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Le pion g6 est resté sans défense...]",
+        "Attention aux défenses noires ! Cherchez encore.",
+        "Attention aux défenses noires ! Cherchez encore.",
+        "Et l'attaque continue ! Les noirs tentent de donner au roi une case de fuite, mais il est trop tard !",
+        "[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Le pion g6 est resté sans défense...]",
+        "Bien joué ! Les noirs ne peuvent pas jouer Rf8 sous peine de Tf7#. Trouvez le coup de tour qui force maintenant le mat en deux !",
+        "[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Cherchez une prise de la tour.] Bien vu ! Les noirs seront matés au prochain coup par Th7 ou Tf7 selon le choix du roi noir. Vous avez mené cette attaque comme un champion du monde !",
+        "Ce coup est évidemment très fort aussi, mais l'autre prise permet de mater encore plus vite. Jouez-la !",
+        "Trait aux blancs. Les noirs ont une pièce de plus, mais leur roi est faible. Retournez la situation en trouvant l'attaque gagnante !",
+        "[%wrong Ce n'est pas une attaque gagnante, cherchez encore !][%hint Les cases noires autour du roi sont faibles. Trouvez un puissant sacrifice qui force le mat en trois !]",
+        "Bien essayé, mais les noirs vont pouvoir attaquer notre première rangée et obtenir une position gagnante. Trouvez mieux !",
+        "Bien essayé, mais les noirs tiennent la position est vont pouvoir profiter de leur pièce en plus. Cherchez encore !",
+        "Bien vu ! Continuez l'attaque dans cette veine !",
+        "[%wrong Ce coup n'est pas assez tranchant pour mater en deux... Cherchez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.]",
+        "Parfait ! Eh bien, matez maintenant !",
+        "[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échec des blancs ?] Beau travail ! Vous savez attaquez le roque adverse."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3nrk1/pp2R1np/3p2pB/2pP2N1/2P2p2/2P4R/P4PPP/6K1 w - - 0 23\"]\r\n\r\n{Le grand-maître Capablanca est à l'attaque ! Trouvez le coup qui gagne du matériel et lance une puissante attaque sur le roque noir.}\r\n23.Bxg7\r\n    {[%wrong Bien essayé, mais il existe un coup d'attaque plus fort. Cherchez encore !][%hint Trouvez une prise qui permet à la tour h3 de se joindre à l'attaque.]}\r\n    (23.Rxg7+ $2 {Vous avez pris la bonne pièce, mais nous allons avoir besoin de cette tour pour attaquer. Prenez ce cavalier avec une pièce de moindre valeur !})\r\n23...Nxg7\r\n    {Beau travail ! Les blancs prennent le cavalier et ouvrent la colonne pour la tour h3. Continuez l'attaque dans le style du champion cubain !}\r\n24.Rxh7\r\n    {[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Comment faire jouer votre tour h3 ?]}\r\n24...Nf5\r\n    {Les noirs mettent leur cavalier en sûreté tout en attaquant la tour e7. Mettez vous aussi votre tour en sécurité tout en menaçant mat !}\r\n25.Re6\r\n    {[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Le pion g6 est resté sans défense...]}\r\n    (25.Reg7+ $2 Nxg7 {Attention aux défenses noires ! Cherchez encore.})\r\n    (25.Rhg7+ $2 Nxg7 {Attention aux défenses noires ! Cherchez encore.})\r\n25...Rfe8\r\n    {Et l'attaque continue ! Les noirs tentent de donner au roi une case de fuite, mais il est trop tard !}\r\n26.Rxg6+\r\n    {[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Le pion g6 est resté sans défense...]}\r\n26...Ng7\r\n    {Bien joué ! Les noirs ne peuvent pas jouer Rf8 sous peine de Tf7#. Trouvez le coup de tour qui force maintenant le mat en deux !}\r\n27.Rhxg7+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Cherchez une prise de la tour.] Bien vu ! Les noirs seront matés au prochain coup par Th7 ou Tf7 selon le choix du roi noir. Vous avez mené cette attaque comme un champion du monde !}\r\n    (27.Rgxg7+ $5 {Ce coup est évidemment très fort aussi, mais l'autre prise permet de mater encore plus vite. Jouez-la !})\r\n*\r\n\r\n\r\n[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p3p2/p1n3p1/5bQp/P7/1PB5/5qPP/4R2K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont une pièce de plus, mais leur roi est faible. Retournez la situation en trouvant l'attaque gagnante !}\r\n1.Qxd8+\r\n    {[%wrong Ce n'est pas une attaque gagnante, cherchez encore !][%hint Les cases noires autour du roi sont faibles. Trouvez un puissant sacrifice qui force le mat en trois !]}\r\n    (1.Qf6 $2 Qxe1+ {Bien essayé, mais les noirs vont pouvoir attaquer notre première rangée et obtenir une position gagnante. Trouvez mieux !})\r\n    (1.Qh6 $2 f6 {Bien essayé, mais les noirs tiennent la position est vont pouvoir profiter de leur pièce en plus. Cherchez encore !})\r\n1...Nxd8\r\n    {Bien vu ! Continuez l'attaque dans cette veine !}\r\n2.Re8+\r\n    {[%wrong Ce coup n'est pas assez tranchant pour mater en deux... Cherchez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.]}\r\n2...Kh7\r\n    {Parfait ! Eh bien, matez maintenant !}\r\n3.Rh8#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échec des blancs ?] Beau travail ! Vous savez attaquez le roque adverse.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "540a729c-9ced-11e8-88fe-abd1e8c00045",
+    "name": "Attaquer le roque ennemi",
+    "path": "attaquer-le-roque-ennemi",
+    "description": "Même après le roque, le roi n’est pas forcément en sécurité. Il est souvent possible de sacrifier du matériel pour l’attirer hors de sa tanière. Le meilleur exemple est le sacrifice grec, une attaque qui commence par Fxh7+ et se termine par un mat de la dame assistée du cavalier.",
+    "glyphName": "piece-combo-king-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-attacking-the-castled-king-t6m.mp4",
+    "fen": "3r1rk1/1pq1bpB1/p1n1p3/2P4Q/5P2/1P6/P5PP/2R2R1K b - - 0 3",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp3ppp/2n1pn2/3p4/1b1PP3/2NB1N2/PP3PPP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le fort coup de pion supprimant un défenseur-clef du roi noir.}\r\n1.e5\r\n    {[%wrong Ce n'est pas un coup de pion forçant un défenseur du roque noir à se déplacer. Cherchez encore !][%hint Le cavalier f6 est un excellent défenseur du roi. Comment le forcer à bouger ?]}\r\n1...Ne8\r\n    {Les noirs n'améliorent pas leur position en ramenant le cavalier sur une case passive... Attaquons violemment le roque adverse pour forcer le roi à sortir de sa tanière !}\r\n2.Bxh7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'ouverture de lignes contre le roi noir. Cherchez encore !][%hint Trouvez un puissant sacrifice forçant le roi noir à se rendre sur la colonne h.]}\r\n2...Kxh7\r\n    {Beau travail ! Le roi noir a dû sortir de son château ! Continuons l'attaque.}\r\n3.Ng5+\r\n    {[%wrong Ce coup ne continue pas l'attaque de manière suffisamment tranchante. Cherchez un échec !][%hint Donnez un fort échec préparant l'arrivée de la dame en h5 au prochain coup.]}\r\n    (3.Qd3+ $2 g6 {Une idée intéressante, mais il existe un coup beaucoup plus fort dans cette position. Trouvez-le !})\r\n    (3.Qc2+ $2 Kg8 {Bien essayé, mais l'attaque blanche n'est pas assez tranchante. Trouvez un coup plus fort !})\r\n3...Kg8\r\n    {Formidable ! Le roi noir doit retourner se cacher en g8, car sur Rg6, Dd3+ donne aux blancs une attaque gagnante. Ramenez maintenant la dame en attaque pour porter l'estocade finale !}\r\n4.Qh5\r\n    {[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Mettez la dame blanche sur une case où elle pourra menacer mat sans pouvoir être bloquée par un pion.] Excellent travail ! Le seul moyen pour les noirs d'empêcher le mat est de sacrifier la dame contre le cavalier. Les blancs obtiennent une position gagnante.}\r\n    (4.Qd3 $6 f5 {Les blancs ont toujours une position gagnante, mais sur Dh3, les noirs vont pouvoir jouer ...Tf7 et résister plus longtemps. Comment menacer mat en un coup seulement ?})\r\n    (4.Qc2 $2 g6 {Les blancs n'ont pas de suite gagnante, et se retrouvent simplement avec une pièce de moins. Trouvez la suite la plus tranchante !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1r1k1/ppq1bppp/2n1pn2/3pP3/3P4/2NB1N2/PP3PPP/R1BQ1RK1 b - - 0 1\"]\r\n\r\n{Dans cette position similaire, les noirs ont désormais un fou en e7. Cela leur permet-il de jouer ...Cd7, ou bien faut-il mettre le cavalier ailleurs ? A vous de voir...}\r\n1...Nd7\r\n    {[%wrong Nous cherchons à mettre le cavalier f6 en sécurité... Cherchez encore !][%hint Si vous mettez le cavalier en d7, le fou e7 couvrira-t-il toujours la case g5 si nécessaire ?]}\r\n    (1...Ne4 $2 2.Nxe4 {Oups ! Vous perdez un pion et les blancs gardent un fort potentiel offensif. Cherchez encore !})\r\n    (1...Nh5 $2 2.g4 {Oups ! Le cavalier est enfermé. Cherchez encore !})\r\n    (1...Ng4 $2 2.h3 {Le cavalier va être capturé au prochain coup et les blancs gardent un fort potentiel offensif. Cherchez encore !})\r\n2.Bxh7+\r\n    {Excellente décision. L'attaque blanche peut sembler inquiétante, mais le fou e7 est parfaitement placé ! Pouvons-nous pour autant nous emparer du fou ?}\r\n2...Kxh7\r\n    {[%hint Les blancs auront-ils une attaque de mat si vous prenez ce fou ? Calculez bien toutes les possibilités.]}\r\n    (2...Kh8 $2 3.Bc2 {Les blancs ont tout simplement gagné un pion et affaibli le roque noire. Trouvez mieux !})\r\n    (2...Kf8 $2 3.Bc2 {Les blancs ont tout simplement gagné un pion et affaibli le roque noire. Trouvez mieux !})\r\n3.Ng5+\r\n    {Bien joué ! Les noirs acceptent avec plaisir le sacrifice. L'attaque blanche ne fonctionne tout simplement pas, à vous de prouver pourquoi !}\r\n3...Bxg5\r\n    {[%wrong Ce coup ne nous débarrasse pas du dangereux cavalier blanc. Essayez encore !][%hint Le cavalier blanc est un redoutable attaquant. Éliminez-le !] Belle défense ! Les noirs ont une pièce de plus contre un pion et l'attaque blanche s'essouffle déjà.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/2q2pp1/n1p1p3/p1P4N/1p1PQp2/1P6/P5PP/R4RK1 w - - 0 21\"]\r\n\r\n{Trait aux blancs. Nous avons une dame et un cavalier prêts à attaquer le roque noir. Ramenez une troisième pièce à l'assaut !} \r\n21.Rxf4 \r\n    {[%wrong Ce coup ne ramène pas une troisième pièce en attaque. Cherchez encore !][%hint Ramenez une pièce vers l'aile roi tout en capturant du matériel !]}\r\n    ( 21.Rae1 $5 {Un solide coup de développement, mais il existe dans cette position un autre coup de tour encore plus fort gagnant du matériel. Trouvez-le !})\r\n    ( 21.Rad1 $5 {Ce coup de centralisation est intéressant, mais il existe dans cette position un autre coup de tour encore plus fort gagnant du matériel. Trouvez-le !})\r\n    ( 21.Rf3 $6 {C'est la bonne idée. Trouvez un coup similaire gagnant du matériel et ouvrant la colonne f.})\r\n21...Rad8 \r\n    {Beau travail ! Les blancs ont maintenant trois pièces autour du roque noir. Les noirs, inconscients du danger, développent une pièce. Profitez-en pour mater en quatre !}\r\n22.Nf6+ \r\n    {[%wrong Ce coup ne mène pas à un mat en quatre. Cherchez encore !][%hint Trouvez un échec violent forçant l'ouverture de la colonne g.]}\r\n    ( 22.Rg4 $6 g6 {Cette idée intéressante affaibli l'aile roi des noirs, mais il n'y a pas de mat. Trouvez mieux !})\r\n    ( 22.Rh4 $6 f5 {Cette idée puissante gagne au moins un pion, mais il est encore plus fort de mater en quatre coups ! Cherchez encore.})\r\n22...gxf6 \r\n    {Formidable ! Les noirs sont obligés de prendre à cause de la mencace Dh7#. Les colonnes g et h sont maintenant grandes ouvertes et l'attaque se poursuit. Envoyez le roi noir sur la colonne h !}\r\n23.Rg4+ \r\n    {[%wrong Ce coup ne force pas le roi noir à se rendre sur la colonne h. Cherchez encore !][%hint Quel est le seul échec des blancs envoyant le roi noir vers la colonne h ?]}\r\n    ( 23.Rh4 $2 f5 {Bien essayé, mais les noirs survivent à notre attaque. Trouvez mieux !})\r\n23...Kh8 \r\n    {Bien vu ! Trouvez maintenant le mat en deux.}\r\n24.Rh4+ \r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Mettez le roi noir en échec à chaque coup pour mater en force !]}\r\n    ( 24.Qe3 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n    ( 24.Qf3 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n    ( 24.Qe1 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n    ( 24.Qd3 $5 {Bien joué, ce coup intelligent force également le mat. Trouvez maintenant un mat forcé en deux coups seulement.})\r\n24...Kg7 \r\n    {Parfait ! Et maintenant, mat !}\r\n25.Qg4# \r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Cherchez le mat en un !] Excellent travail ! Vous avez mené de main de maître cette attaque de mat.}\r\n    ( 25.Qh7# $5 {Bien joué, c'est mat ! Trouvez maintenant l'autre mat disponible dans la position. })\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p3p2/p1n3p1/5bQp/P7/1PB5/5qPP/4R2K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont une pièce de plus, mais leur roi est faible. Retournez la situation en trouvant l'attaque gagnante !}\r\n1.Qxd8+\r\n    {[%wrong Ce n'est pas une attaque gagnante, cherchez encore !][%hint Les cases noires autour du roi sont faibles. Trouvez un puissant sacrifice qui force le mat en trois !]}\r\n    (1.Qf6 $2 Qxe1+ {Bien essayé, mais les noirs vont pouvoir attaquer notre première rangée et obtenir une position gagnante. Trouvez mieux !})\r\n    (1.Qh6 $2 f6 {Bien essayé, mais les noirs tiennent la position est vont pouvoir profiter de leur pièce en plus. Cherchez encore !})\r\n1...Nxd8\r\n    {Bien vu ! Continuez l'attaque dans cette veine !}\r\n2.Re8+\r\n    {[%wrong Ce coup n'est pas assez tranchant pour mater en deux... Cherchez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.]}\r\n2...Kh7\r\n    {Parfait ! Eh bien, matez maintenant !}\r\n3.Rh8#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échec des blancs ?] Beau travail ! Vous savez attaquez le roque adverse.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3nrk1/pp2R1np/3p2pB/2pP2N1/2P2p2/2P4R/P4PPP/6K1 w - - 0 23\"]\r\n\r\n{Le grand-maître Capablanca est à l'attaque ! Trouvez le coup qui gagne du matériel et lance une puissante attaque sur le roque noir.}\r\n23.Bxg7\r\n    {[%wrong Bien essayé, mais il existe un coup d'attaque plus fort. Cherchez encore !][%hint Trouvez une prise qui permet à la tour h3 de se joindre à l'attaque.]}\r\n    (23.Rxg7+ $2 {Vous avez pris la bonne pièce, mais nous allons avoir besoin de cette tour pour attaquer. Prenez ce cavalier avec une pièce de moindre valeur !})\r\n23...Nxg7\r\n    {Beau travail ! Les blancs prennent le cavalier et ouvrent la colonne pour la tour h3. Continuez l'attaque dans le style du champion cubain !}\r\n24.Rxh7\r\n    {[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Comment faire jouer votre tour h3 ?]}\r\n24...Nf5\r\n    {Les noirs mettent leur cavalier en sûreté tout en attaquant la tour e7. Mettez vous aussi votre tour en sécurité tout en menaçant mat !}\r\n25.Re6\r\n    {[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Le pion g6 est resté sans défense...]}\r\n    (25.Reg7+ $2 Nxg7 {Attention aux défenses noires ! Cherchez encore.})\r\n    (25.Rhg7+ $2 Nxg7 {Attention aux défenses noires ! Cherchez encore.})\r\n25...Rfe8\r\n    {Et l'attaque continue ! Les noirs tentent de donner au roi une case de fuite, mais il est trop tard !}\r\n26.Rxg6+\r\n    {[%wrong Bien essayé, mais il existe une idée offensive plus forte. Trouvez-la !][%hint Le pion g6 est resté sans défense...]}\r\n26...Ng7\r\n    {Bien joué ! Les noirs ne peuvent pas jouer Rf8 sous peine de Tf7#. Trouvez le coup de tour qui force maintenant le mat en deux !}\r\n27.Rhxg7+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Cherchez une prise de la tour.] Bien vu ! Les noirs seront matés au prochain coup par Th7 ou Tf7 selon le choix du roi noir. Vous avez mené cette attaque comme un champion du monde !}\r\n    (27.Rgxg7+ $5 {Ce coup est évidemment très fort aussi, mais l'autre prise permet de mater encore plus vite. Jouez-la !})\r\n*\r\n\r\n\r\n[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/1p3p2/p1n3p1/5bQp/P7/1PB5/5qPP/4R2K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs ont une pièce de plus, mais leur roi est faible. Retournez la situation en trouvant l'attaque gagnante !}\r\n1.Qxd8+\r\n    {[%wrong Ce n'est pas une attaque gagnante, cherchez encore !][%hint Les cases noires autour du roi sont faibles. Trouvez un puissant sacrifice qui force le mat en trois !]}\r\n    (1.Qf6 $2 Qxe1+ {Bien essayé, mais les noirs vont pouvoir attaquer notre première rangée et obtenir une position gagnante. Trouvez mieux !})\r\n    (1.Qh6 $2 f6 {Bien essayé, mais les noirs tiennent la position est vont pouvoir profiter de leur pièce en plus. Cherchez encore !})\r\n1...Nxd8\r\n    {Bien vu ! Continuez l'attaque dans cette veine !}\r\n2.Re8+\r\n    {[%wrong Ce coup n'est pas assez tranchant pour mater en deux... Cherchez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.]}\r\n2...Kh7\r\n    {Parfait ! Eh bien, matez maintenant !}\r\n3.Rh8#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Quel est le seul échec des blancs ?] Beau travail ! Vous savez attaquez le roque adverse.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Le roque ne suffit pas toujours à mettre un roi à l'abri...",
+    "outroText": "Parfait ! Vous devenez un fort tacticien.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "path": "attaquer-le-roi",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/fb3a54c6-a55b-11e8-a822-312ba136ba58.45c9b3b7.728x410o.0b4182d70109.png"
+    },
+    "parentId": "6de2abde-83b7-11e8-b237-75a34bf5a50b",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/attacking-the-castled-king5d08f444cfef3.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/attacking-the-castled-king-15ea23e22e3aea.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/attacking-the-castled-king-2604907755a7c6.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 118,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi",
+      "order": 5
+    }
+  }
+}

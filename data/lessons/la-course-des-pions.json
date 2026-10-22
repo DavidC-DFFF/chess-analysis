@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi-adverse/la-course-des-pions",
+  "capturedAt": "2026-10-22T12:23:33.722Z",
+  "title": "La course des pions",
+  "exercises": [
+    {
+      "fen": "8/8/K1k4P/5P2/8/p7/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux camps rivalisent de vitesse pour remporter la course à la promotion. Trait aux blancs : quel point pousser pour promouvoir en premier ?",
+        "[%wrong Non, ce n'est pas la bonne idée !][%hint L'un des deux pions peut filer à dame en deux coups seulement. Lequel ?]",
+        "Très bien, continuez comme ça !",
+        "[%wrong Il faut maintenant promouvoir le pion !][%hint Plus qu'une case !] Bien joué ! Les blancs font dame en premier, et la nouvelle dame couvre la case de promotion du pion noir !",
+        "Il faut presque toujours promouvoir ses pions en dame, la pièce la plus forte. Dans ce cas, la nouvelle dame noire arrive avec échec et gagnera la tour blanche au prochain coup. Essayez encore !",
+        "Ce n'est pas une bonne idée. Essayez plutôt de promouvoir ce pion en dame !",
+        "Ce coup couvre effectivement la case de promotion du pion noir, mais pourquoi se contenter d'un fou quand on peut avoir une dame ? Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/K1k4P/5P2/8/p7/8/8 w - - 0 1\"]\r\n\r\n{Les deux camps rivalisent de vitesse pour remporter la course à la promotion. Trait aux blancs : quel point pousser pour promouvoir en premier ?}\r\n1.h7\r\n    {[%wrong Non, ce n'est pas la bonne idée !][%hint L'un des deux pions peut filer à dame en deux coups seulement. Lequel ?]}\r\n1...a2\r\n    {Très bien, continuez comme ça !}\r\n2.h8=Q\r\n    {[%wrong Il faut maintenant promouvoir le pion !][%hint Plus qu'une case !] Bien joué ! Les blancs font dame en premier, et la nouvelle dame couvre la case de promotion du pion noir !}\r\n    (2.h8=R $2 a1=Q# {Il faut presque toujours promouvoir ses pions en dame, la pièce la plus forte. Dans ce cas, la nouvelle dame noire arrive avec échec et gagnera la tour blanche au prochain coup. Essayez encore !})\r\n    (2.h8=N $2 {Ce n'est pas une bonne idée. Essayez plutôt de promouvoir ce pion en dame !})\r\n    (2.h8=B $2 {Ce coup couvre effectivement la case de promotion du pion noir, mais pourquoi se contenter d'un fou quand on peut avoir une dame ? Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "6k1/8/5KP1/1P6/p7/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Quel pion jouer pour remporter la course ?",
+        "[%wrong Non, ce n'est pas la bonne idée !][%hint L'une des cases de promotion est obstruée par une pièce noire.]",
+        "Très bien ! les blancs jouent le pion dont la case de promotion n'est pas obstruée par une pièce. Continuez comme ça !",
+        "[%wrong Ce coup ne va pas nous permettre de promouvoir un pion au prochain coup. Essayez encore !][%hint L'un des deux pions blancs a le chemin libre vers la promotion.]",
+        "Bon travail ! Continuez sur cette voie.",
+        "[%wrong Ce coup ne promeut pas de pion. Essayez encore.][%hint Pousser une nouvelle fois ce pion !] Et voilà ! C'est échec et mat.",
+        "Cette idée fonctionne également, mais il est théoriquement préférable dans presque toutes les situations de promouvoir ses pions en dame."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/5KP1/1P6/p7/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Quel pion jouer pour remporter la course ?}\r\n1.b6\r\n    {[%wrong Non, ce n'est pas la bonne idée !][%hint L'une des cases de promotion est obstruée par une pièce noire.]}\r\n1...a3\r\n    {Très bien ! les blancs jouent le pion dont la case de promotion n'est pas obstruée par une pièce. Continuez comme ça !}\r\n2.b7\r\n    {[%wrong Ce coup ne va pas nous permettre de promouvoir un pion au prochain coup. Essayez encore !][%hint L'un des deux pions blancs a le chemin libre vers la promotion.]}\r\n2...a2\r\n    {Bon travail ! Continuez sur cette voie.}\r\n3.b8=Q#\r\n    {[%wrong Ce coup ne promeut pas de pion. Essayez encore.][%hint Pousser une nouvelle fois ce pion !] Et voilà ! C'est échec et mat.}\r\n    (3.b8=R# {Cette idée fonctionne également, mais il est théoriquement préférable dans presque toutes les situations de promouvoir ses pions en dame.})\r\n*"
+    },
+    {
+      "fen": "8/8/1P5P/8/1k1K4/p7/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont deux pions passés pouvant accéder à la promotion en deux coups. Lequel jouer ?",
+        "[%wrong Nous cherchons à jouer un pion.][%hint L'une des deux option permet de gagner la partie, l'autre perd. Choisissez judicieusement.]",
+        "Non ! Les blancs vont faire dame en premier, mais les noirs promeuvent avec échec, gagnant la dame blanche au coup suivant ! Essayez encore.",
+        "Bien joué ! Les deux camps sont sur le point de promouvoir, mais vous allez gagner la course !",
+        "[%wrong Ce coup ne promeut pas le pion en dame. Essayez encore.][%hint Poussez donc ce petit pion jusqu'en terre promise !] Les blancs promeuvent avec échec et obtiennent une position gagnante. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/1P5P/8/1k1K4/p7/8/8 w - - 0 1\"]\r\n\r\n{Les blancs ont deux pions passés pouvant accéder à la promotion en deux coups. Lequel jouer ?}\r\n1.b7\r\n    {[%wrong Nous cherchons à jouer un pion.][%hint L'une des deux option permet de gagner la partie, l'autre perd. Choisissez judicieusement.]}\r\n    (1.h7 $2 a2 {Non ! Les blancs vont faire dame en premier, mais les noirs promeuvent avec échec, gagnant la dame blanche au coup suivant ! Essayez encore.})\r\n1...a2\r\n    {Bien joué ! Les deux camps sont sur le point de promouvoir, mais vous allez gagner la course !}\r\n2.b8=Q+\r\n    {[%wrong Ce coup ne promeut pas le pion en dame. Essayez encore.][%hint Poussez donc ce petit pion jusqu'en terre promise !] Les blancs promeuvent avec échec et obtiennent une position gagnante. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "8/P5k1/8/8/4K3/3N4/7p/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux pions sont sur le point d'atteindre la promotion. Trait aux blancs. Faut-il promouvoir le pion ou bien empêcher les noirs de promouvoir le leur ?",
+        "[%wrong Ce coup n'empêche pas la promotion du pion noir. Essayez encore !][%hint En couvrant la case de promotion du pion noir, les blancs obtiennent une position gagnante.] Parfait ! Le cavalier blanc protège la case de promotion, prêt à capturer la nouvelle dame. Les blancs vont tranquillement promouvoir leur pion au prochain coup.",
+        "Les blancs ont promu en premier, mais en faisant échec, les noirs vont gagner la dame blanche au prochain coup. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/P5k1/8/8/4K3/3N4/7p/8 w - - 0 1\"]\r\n\r\n{Les deux pions sont sur le point d'atteindre la promotion. Trait aux blancs. Faut-il promouvoir le pion ou bien empêcher les noirs de promouvoir le leur ?}\r\n1.Nf2\r\n    {[%wrong Ce coup n'empêche pas la promotion du pion noir. Essayez encore !][%hint En couvrant la case de promotion du pion noir, les blancs obtiennent une position gagnante.] Parfait ! Le cavalier blanc protège la case de promotion, prêt à capturer la nouvelle dame. Les blancs vont tranquillement promouvoir leur pion au prochain coup.}\r\n    (1.a8=Q $2 h1=Q+ {Les blancs ont promu en premier, mais en faisant échec, les noirs vont gagner la dame blanche au prochain coup. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "8/3K1Pk1/8/8/8/7p/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs n'ont plus qu'un seul espoir : promouvoir leur pion passé, mais celui-ci est sur le point d'être pris par le roi noir. Trouvez un coup qui le protège tout en préparant la promotion au prochain coup.",
+        "[%wrong Ce coup ne couvre pas la case de promotion tout en protégeant le pion passé. Essayez encore !][%hint C'est au roi de venir à la rescousse. Plusieurs cases font l'affaire !]",
+        "Très bien ! Ce coup fonctionne. Trouvez maintenant l'autre coup qui aurait pu faire l'affaire.",
+        "Le roi blanc protège le pion, mais pas la case de promotion, qui est promptement occupée par le roi adverse. Les noirs vont maintenant promouvoir en premier et l'emporter. Essayez encore !",
+        "La case de promotion n'est pas protégée. Par conséquent, les noirs peuvent simplement capturer la nouvelle dame. Essayez encore !",
+        "Très bien ! Et maintenant, il est temps de passer à la promotion.",
+        "[%wrong Ce coup ne promeut pas le pion en dame. Essayez encore.][%hint Plus qu'une petite case !] Et voilà ! Vous avez promu votre pion en faisant échec."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3K1Pk1/8/8/8/7p/8/8 w - - 0 1\"]\r\n\r\n{Les blancs n'ont plus qu'un seul espoir : promouvoir leur pion passé, mais celui-ci est sur le point d'être pris par le roi noir. Trouvez un coup qui le protège tout en préparant la promotion au prochain coup.}\r\n1.Ke7\r\n    {[%wrong Ce coup ne couvre pas la case de promotion tout en protégeant le pion passé. Essayez encore !][%hint C'est au roi de venir à la rescousse. Plusieurs cases font l'affaire !]}\r\n    (1.Ke8 $1 {Très bien ! Ce coup fonctionne. Trouvez maintenant l'autre coup qui aurait pu faire l'affaire.})\r\n    (1.Ke6 $2 Kf8 {Le roi blanc protège le pion, mais pas la case de promotion, qui est promptement occupée par le roi adverse. Les noirs vont maintenant promouvoir en premier et l'emporter. Essayez encore !})\r\n    (1.f8=Q+ $2 Kxf8 {La case de promotion n'est pas protégée. Par conséquent, les noirs peuvent simplement capturer la nouvelle dame. Essayez encore !})\r\n1...h2\r\n    {Très bien ! Et maintenant, il est temps de passer à la promotion.}\r\n2.f8=Q+\r\n    {[%wrong Ce coup ne promeut pas le pion en dame. Essayez encore.][%hint Plus qu'une petite case !] Et voilà ! Vous avez promu votre pion en faisant échec.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "a9b8d436-9ce8-11e8-a8a9-ff55af71fbc4",
+    "name": "La course des pions",
+    "path": "la-course-des-pions",
+    "description": "Lorsque les deux camps n’ont plus qu’un roi et des pions, il est essentiel de calculer le nombre de coups restants avant la promotion. C’est généralement le premier camp à faire une dame qui l’emporte !",
+    "glyphName": "piece-rush-right-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-pawn-races-b4r.mp4",
+    "fen": "8/8/K1k4P/5P2/8/p7/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/K1k4P/5P2/8/p7/8/8 w - - 0 1\"]\r\n\r\n{Les deux camps rivalisent de vitesse pour remporter la course à la promotion. Trait aux blancs : quel point pousser pour promouvoir en premier ?}\r\n1.h7\r\n    {[%wrong Non, ce n'est pas la bonne idée !][%hint L'un des deux pions peut filer à dame en deux coups seulement. Lequel ?]}\r\n1...a2\r\n    {Très bien, continuez comme ça !}\r\n2.h8=Q\r\n    {[%wrong Il faut maintenant promouvoir le pion !][%hint Plus qu'une case !] Bien joué ! Les blancs font dame en premier, et la nouvelle dame couvre la case de promotion du pion noir !}\r\n    (2.h8=R $2 a1=Q# {Il faut presque toujours promouvoir ses pions en dame, la pièce la plus forte. Dans ce cas, la nouvelle dame noire arrive avec échec et gagnera la tour blanche au prochain coup. Essayez encore !})\r\n    (2.h8=N $2 {Ce n'est pas une bonne idée. Essayez plutôt de promouvoir ce pion en dame !})\r\n    (2.h8=B $2 {Ce coup couvre effectivement la case de promotion du pion noir, mais pourquoi se contenter d'un fou quand on peut avoir une dame ? Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/5KP1/1P6/p7/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Quel pion jouer pour remporter la course ?}\r\n1.b6\r\n    {[%wrong Non, ce n'est pas la bonne idée !][%hint L'une des cases de promotion est obstruée par une pièce noire.]}\r\n1...a3\r\n    {Très bien ! les blancs jouent le pion dont la case de promotion n'est pas obstruée par une pièce. Continuez comme ça !}\r\n2.b7\r\n    {[%wrong Ce coup ne va pas nous permettre de promouvoir un pion au prochain coup. Essayez encore !][%hint L'un des deux pions blancs a le chemin libre vers la promotion.]}\r\n2...a2\r\n    {Bon travail ! Continuez sur cette voie.}\r\n3.b8=Q#\r\n    {[%wrong Ce coup ne promeut pas de pion. Essayez encore.][%hint Pousser une nouvelle fois ce pion !] Et voilà ! C'est échec et mat.}\r\n    (3.b8=R# {Cette idée fonctionne également, mais il est théoriquement préférable dans presque toutes les situations de promouvoir ses pions en dame.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/1P5P/8/1k1K4/p7/8/8 w - - 0 1\"]\r\n\r\n{Les blancs ont deux pions passés pouvant accéder à la promotion en deux coups. Lequel jouer ?}\r\n1.b7\r\n    {[%wrong Nous cherchons à jouer un pion.][%hint L'une des deux option permet de gagner la partie, l'autre perd. Choisissez judicieusement.]}\r\n    (1.h7 $2 a2 {Non ! Les blancs vont faire dame en premier, mais les noirs promeuvent avec échec, gagnant la dame blanche au coup suivant ! Essayez encore.})\r\n1...a2\r\n    {Bien joué ! Les deux camps sont sur le point de promouvoir, mais vous allez gagner la course !}\r\n2.b8=Q+\r\n    {[%wrong Ce coup ne promeut pas le pion en dame. Essayez encore.][%hint Poussez donc ce petit pion jusqu'en terre promise !] Les blancs promeuvent avec échec et obtiennent une position gagnante. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/P5k1/8/8/4K3/3N4/7p/8 w - - 0 1\"]\r\n\r\n{Les deux pions sont sur le point d'atteindre la promotion. Trait aux blancs. Faut-il promouvoir le pion ou bien empêcher les noirs de promouvoir le leur ?}\r\n1.Nf2\r\n    {[%wrong Ce coup n'empêche pas la promotion du pion noir. Essayez encore !][%hint En couvrant la case de promotion du pion noir, les blancs obtiennent une position gagnante.] Parfait ! Le cavalier blanc protège la case de promotion, prêt à capturer la nouvelle dame. Les blancs vont tranquillement promouvoir leur pion au prochain coup.}\r\n    (1.a8=Q $2 h1=Q+ {Les blancs ont promu en premier, mais en faisant échec, les noirs vont gagner la dame blanche au prochain coup. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3K1Pk1/8/8/8/7p/8/8 w - - 0 1\"]\r\n\r\n{Les blancs n'ont plus qu'un seul espoir : promouvoir leur pion passé, mais celui-ci est sur le point d'être pris par le roi noir. Trouvez un coup qui le protège tout en préparant la promotion au prochain coup.}\r\n1.Ke7\r\n    {[%wrong Ce coup ne couvre pas la case de promotion tout en protégeant le pion passé. Essayez encore !][%hint C'est au roi de venir à la rescousse. Plusieurs cases font l'affaire !]}\r\n    (1.Ke8 $1 {Très bien ! Ce coup fonctionne. Trouvez maintenant l'autre coup qui aurait pu faire l'affaire.})\r\n    (1.Ke6 $2 Kf8 {Le roi blanc protège le pion, mais pas la case de promotion, qui est promptement occupée par le roi adverse. Les noirs vont maintenant promouvoir en premier et l'emporter. Essayez encore !})\r\n    (1.f8=Q+ $2 Kxf8 {La case de promotion n'est pas protégée. Par conséquent, les noirs peuvent simplement capturer la nouvelle dame. Essayez encore !})\r\n1...h2\r\n    {Très bien ! Et maintenant, il est temps de passer à la promotion.}\r\n2.f8=Q+\r\n    {[%wrong Ce coup ne promeut pas le pion en dame. Essayez encore.][%hint Plus qu'une petite case !] Et voilà ! Vous avez promu votre pion en faisant échec.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Passons à un scénario excitant : les courses de pions !",
+    "outroText": "Bel effort ! Vos pions sont prêts à arriver les premiers.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "path": "attaquer-le-roi-adverse",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/12f47b0e-a558-11e8-9e63-7d798a2698c4.facbaf03.728x410o.856e9b44f8c8.png"
+    },
+    "parentId": "5c7bd0c2-83a9-11e8-b6a4-0f2b261464ae",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-race5d11140bdb5e0.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-race-56688b92b183b2.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-race-15ea24453aaf6d.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-race-660701e60101e1.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/gara-di-pedoni6470d47852a1d.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 39,
+    "order": 1,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi-adverse",
+      "order": 5
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/pieges-d-ouverture",
+  "capturedAt": "2026-10-22T12:23:45.713Z",
+  "title": "Pièges d'ouverture",
+  "exercises": [
+    {
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Nous allons tendre un piège. Dans cette défense scandinave, développons une pièce en gagnant un tempo sur la dame noire.",
+        "[%wrong Ce coup ne développe pas une pièce tout en attaquant la dame noire. Cherchez encore !][%hint Développez un cavalier sur sa case naturelle pour attaquer la dame.]",
+        "Bien essayé, mais ce coup ne nous donne aucun avantage. Essayez plutôt de développer un cavalier vers le centre !",
+        "Très bien ! La dame noire bat en retraite vers d8. Dans cette position, le coup le plus fort est 4.d4, mais cette fois-ci, nous allons tendre un piège avec 4.Fc4.",
+        "[%wrong Pour les besoins de l'exercice, jouons le coup 4. Fc4 !][%hint Mettez votre fou en c4.]",
+        "Il est toujours possible de jouer d4, mais pour les besoins du piège, jouons le timide 5.Cf3.",
+        "[%wrong Pour les besoins de l'exercice, jouons le coup 4. Cf3 !][%hint Mettez votre cavalier en f3.]",
+        "Parfait ! Les noirs, qui s'attendaient sans doute au coup d4, tombent dans le piège de ce coup à l'apparence inoffensive ! Trouvez la tactique qui gagne du matériel !",
+        "[%wrong Ce coup ne gagne pas de matériel en force. Cherchez encore !][%hint Si nous pouvions jouer Ce5 avec échec, les noirs auraient de gros problèmes...]",
+        "Joli coup ! Cette idée, combinée à 7.Fxe6, va ruiner la structure de pions noire. Mais il existe une pointe tactique qui gagne immédiatement du matériel. Trouvez-la !",
+        "Excellente décision ! Le roi noir est exposé. Continuez la combinaison !",
+        "[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons.][%hint Il y a de la fourchette dans l'air...] Formidable ! Les blancs ont démoli l'abri du roi noir et vont prendre le fou g4 au prochain coup. Ils auront alors un pion de plus et une excellente position.",
+        "C'est la bonne pièce, mais pas le bon échec ! Les noirs s'en sortent et gardent une pièce de plus. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Nous allons tendre un piège. Dans cette défense scandinave, développons une pièce en gagnant un tempo sur la dame noire.}\r\n3.Nc3\r\n    {[%wrong Ce coup ne développe pas une pièce tout en attaquant la dame noire. Cherchez encore !][%hint Développez un cavalier sur sa case naturelle pour attaquer la dame.]}\r\n    (3.c4 $2 Qe4+ {Bien essayé, mais ce coup ne nous donne aucun avantage. Essayez plutôt de développer un cavalier vers le centre !})\r\n3...Qd8\r\n    {Très bien ! La dame noire bat en retraite vers d8. Dans cette position, le coup le plus fort est 4.d4, mais cette fois-ci, nous allons tendre un piège avec 4.Fc4.}\r\n4.Bc4\r\n    {[%wrong Pour les besoins de l'exercice, jouons le coup 4. Fc4 !][%hint Mettez votre fou en c4.]}\r\n4...Nf6\r\n    {Il est toujours possible de jouer d4, mais pour les besoins du piège, jouons le timide 5.Cf3.}\r\n5.Nf3\r\n    {[%wrong Pour les besoins de l'exercice, jouons le coup 4. Cf3 !][%hint Mettez votre cavalier en f3.]}\r\n5...Bg4\r\n    {Parfait ! Les noirs, qui s'attendaient sans doute au coup d4, tombent dans le piège de ce coup à l'apparence inoffensive ! Trouvez la tactique qui gagne du matériel !}\r\n6.Bxf7+\r\n    {[%wrong Ce coup ne gagne pas de matériel en force. Cherchez encore !][%hint Si nous pouvions jouer Ce5 avec échec, les noirs auraient de gros problèmes...]}\r\n    (6.Ne5 $5 Be6 {Joli coup ! Cette idée, combinée à 7.Fxe6, va ruiner la structure de pions noire. Mais il existe une pointe tactique qui gagne immédiatement du matériel. Trouvez-la !})\r\n6...Kxf7\r\n    {Excellente décision ! Le roi noir est exposé. Continuez la combinaison !}\r\n7.Ne5+\r\n    {[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons.][%hint Il y a de la fourchette dans l'air...] Formidable ! Les blancs ont démoli l'abri du roi noir et vont prendre le fou g4 au prochain coup. Ils auront alors un pion de plus et une excellente position.}\r\n    (7.Ng5+ $2 Ke8 {C'est la bonne pièce, mais pas le bon échec ! Les noirs s'en sortent et gardent une pièce de plus. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2P5/PP3PPP/RNBQKBNR w KQkq - 1 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent juste de jouer 3...Cf6, attaquant e4. Trouvez une prise du pion tendant un piège démoniaque !",
+        "[%wrong Ce n'est pas une prise du pion. Cherchez encore !][%hint Il n'existe qu'une seule prise possible avec un pion dans cette position...]",
+        "Bien joué ! Si les noirs prennent c5, les blancs échangeront les dames et obtiendront une très bonne position. Les noirs tombent dans le piège et s'emparent du pion e4. Punissez ce cavalier pour son imprudence !",
+        "[%wrong Ce coup ne gagne pas le cavalier e4. Cherchez encore !][%hint Trouvez une double attaque sur le roi noir et le cavalier e4.] Bien vu ! Grâce à cette double attaque, les blancs gagnent le cavalier !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2P5/PP3PPP/RNBQKBNR w KQkq - 1 4\"]\r\n\r\n{Les noirs viennent juste de jouer 3...Cf6, attaquant e4. Trouvez une prise du pion tendant un piège démoniaque !}\r\n4.dxc5\r\n    {[%wrong Ce n'est pas une prise du pion. Cherchez encore !][%hint Il n'existe qu'une seule prise possible avec un pion dans cette position...]}\r\n4...Nxe4\r\n    {Bien joué ! Si les noirs prennent c5, les blancs échangeront les dames et obtiendront une très bonne position. Les noirs tombent dans le piège et s'emparent du pion e4. Punissez ce cavalier pour son imprudence !}\r\n5.Qa4+\r\n    {[%wrong Ce coup ne gagne pas le cavalier e4. Cherchez encore !][%hint Trouvez une double attaque sur le roi noir et le cavalier e4.] Bien vu ! Grâce à cette double attaque, les blancs gagnent le cavalier !}\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans ce gambit dame refusé, tendons un piège aux blancs en jouant 4...Cbd7 !",
+        "[%wrong Pour les besoins de l'exercice, commençons par jouer le coup 4...Nbd7 !][%hint Déplacez le cavalier de b8 à d7.]",
+        "Le cavalier noir bloque la protection du pion d, et les blancs se précipitent dessus, croyant gagner un pion. Reprenons-le tout de suite...",
+        "[%wrong Non, nous voulons reprendre le pion d5 !][%hint Faut-il reprendre d5 du cavalier ou du pion ?]",
+        "Pour l'instant; ce coup perd la dame, mais rappelez-vous en pour la suite...",
+        "Les blancs tombent dans notre piège et se jettent sur le pion. Il existe maintenant une superbe idée qui permet aux noirs de gagner du matériel. Trouvez-la !",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Notez que le roi blanc n'a qu'une seule case de fuite : d2. Que se passerait-il si nous prenions le cavalier d5 ?]",
+        "Superbe ! Les noirs sacrifient la dame, mais ce n'est que temporaire. Comment continuer ?",
+        "[%wrong Bien essayé, mais il ne s'agit pas d'un coup forcé gagnant la dame blanche. Cherchez encore !][%hint Quel est le seul échec dans cette position ?]",
+        "Bien vu ! Emparons-nous maintenant de la dame blanche.!",
+        "[%wrong Non, prenez la dame blanche !][%hint Le fou peut prendre la dame blanche !]",
+        "Et voilà ! Terminons en beauté en prenant le fou resté dans notre camp.",
+        "[%wrong Non, prenez le fou en prise !][%hint Le roi est aussi une pièce d'attaque !] Formidable combinaison ! Ce piège subtil a permis aux noirs de gagner une pièce contre un pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4\"]\r\n\r\n{Dans ce gambit dame refusé, tendons un piège aux blancs en jouant 4...Cbd7 !}\r\n4...Nbd7\r\n    {[%wrong Pour les besoins de l'exercice, commençons par jouer le coup 4...Nbd7 !][%hint Déplacez le cavalier de b8 à d7.]}\r\n5.cxd5\r\n    {Le cavalier noir bloque la protection du pion d, et les blancs se précipitent dessus, croyant gagner un pion. Reprenons-le tout de suite...}\r\n5...exd5\r\n    {[%wrong Non, nous voulons reprendre le pion d5 !][%hint Faut-il reprendre d5 du cavalier ou du pion ?]}\r\n    (5...Nxd5 $2 6.Bxd8 {Pour l'instant; ce coup perd la dame, mais rappelez-vous en pour la suite...})\r\n6.Nxd5\r\n    {Les blancs tombent dans notre piège et se jettent sur le pion. Il existe maintenant une superbe idée qui permet aux noirs de gagner du matériel. Trouvez-la !}\r\n6...Nxd5\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Notez que le roi blanc n'a qu'une seule case de fuite : d2. Que se passerait-il si nous prenions le cavalier d5 ?]}\r\n7.Bxd8\r\n    {Superbe ! Les noirs sacrifient la dame, mais ce n'est que temporaire. Comment continuer ?}\r\n7...Bb4+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas d'un coup forcé gagnant la dame blanche. Cherchez encore !][%hint Quel est le seul échec dans cette position ?]}\r\n8.Qd2\r\n    {Bien vu ! Emparons-nous maintenant de la dame blanche.!}\r\n8...Bxd2+\r\n    {[%wrong Non, prenez la dame blanche !][%hint Le fou peut prendre la dame blanche !]}\r\n9.Kxd2\r\n    {Et voilà ! Terminons en beauté en prenant le fou resté dans notre camp.}\r\n9...Kxd8\r\n    {[%wrong Non, prenez le fou en prise !][%hint Le roi est aussi une pièce d'attaque !] Formidable combinaison ! Ce piège subtil a permis aux noirs de gagner une pièce contre un pion.}\r\n*"
+    },
+    {
+      "fen": "rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette Caro-Kann d'avance, jouons le coup plus malin : 4.h4.",
+        "[%wrong Tendons un piège en jouant 4. h4.][%hint Avancez votre pion h de deux cases.]",
+        "Les blancs prennent de l'espace à l'aile roi et tendent un piège dans lequel les noirs vont tomber. Au lieu de pousser le pion h, ils gaffent et jouent 4...e6?? Trouvez le bon coup !",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort.][%hint Après 4...e6, le fou des noirs est enfermé sur la diagonale b1-h7. Profitez-en !]",
+        "Bien joué ! Le fou peut fuir un moment, mais c'est sans issue ! Continuez à l'attaquer !",
+        "[%wrong Non, pour gagner du matériel, il faut attaquer le fou piégé avec un pion !][%hint Continuez à harceler le fou avec vos pions !]",
+        "Le fou noir attaque la tour h1 dans l'espoir de s'échapper. Comment l'enfermer ?",
+        "[%wrong Ce coup n'enferme pas le fou noir. Cherchez encore !][%hint Un troisième coup de pion va finir le travail !] Vous avez intelligemment résolu ce problème, bravo ! Le fou est définitivement enfermé."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4\"]\r\n\r\n{Dans cette Caro-Kann d'avance, jouons le coup plus malin : 4.h4.}\r\n4.h4\r\n    {[%wrong Tendons un piège en jouant 4. h4.][%hint Avancez votre pion h de deux cases.]}\r\n4...e6\r\n    {Les blancs prennent de l'espace à l'aile roi et tendent un piège dans lequel les noirs vont tomber. Au lieu de pousser le pion h, ils gaffent et jouent 4...e6?? Trouvez le bon coup !}\r\n5.g4\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort.][%hint Après 4...e6, le fou des noirs est enfermé sur la diagonale b1-h7. Profitez-en !]}\r\n5...Bg6\r\n    {Bien joué ! Le fou peut fuir un moment, mais c'est sans issue ! Continuez à l'attaquer !}\r\n6.h5\r\n    {[%wrong Non, pour gagner du matériel, il faut attaquer le fou piégé avec un pion !][%hint Continuez à harceler le fou avec vos pions !]}\r\n6...Be4\r\n    {Le fou noir attaque la tour h1 dans l'espoir de s'échapper. Comment l'enfermer ?}\r\n7.f3\r\n    {[%wrong Ce coup n'enferme pas le fou noir. Cherchez encore !][%hint Un troisième coup de pion va finir le travail !] Vous avez intelligemment résolu ce problème, bravo ! Le fou est définitivement enfermé.}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pppppppp/2n2n2/3P4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette défense mexicaine, le cavalier noir est attaqué. Jouons le coup standard : 3.Ce5.",
+        "[%wrong Jouons le coup principal : 3...Ce5. ][%hint Jouez 3...Ce5.]",
+        "Les blancs répondent rapidement par e4. Ont-ils vu que le pion n'était pas protégé, ou est-ce un piège ? Choisissez entre 4...e6 et 4...Cxe4.",
+        "[%wrong Vous devez choisir entre deux options : 4...e5, ou 4...Cxe4. Essayez encore !][%hint Si vous mettez votre cavalier en e4, la dame pourra-t-elle l'attaquer ?] Bonne décision. 4...Cxe4? 5. Dd4 perdait une pièce, il était donc nécessaire de faire attention. Même si les noirs ne sont pas tombés dans leur piège, les blancs ont une bonne position. C'est la marque d'un bon piège d'ouverture !",
+        "Oups ! C'était un piège ! Nous allons perdre un cavalier. Essayez encore..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppppppp/2n2n2/3P4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3\"]\r\n\r\n{Dans cette défense mexicaine, le cavalier noir est attaqué. Jouons le coup standard : 3.Ce5.}\r\n3...Ne5\r\n    {[%wrong Jouons le coup principal : 3...Ce5. ][%hint Jouez 3...Ce5.]}\r\n4.e4\r\n    {Les blancs répondent rapidement par e4. Ont-ils vu que le pion n'était pas protégé, ou est-ce un piège ? Choisissez entre 4...e6 et 4...Cxe4.}\r\n4...e6\r\n    {[%wrong Vous devez choisir entre deux options : 4...e5, ou 4...Cxe4. Essayez encore !][%hint Si vous mettez votre cavalier en e4, la dame pourra-t-elle l'attaquer ?] Bonne décision. 4...Cxe4? 5. Dd4 perdait une pièce, il était donc nécessaire de faire attention. Même si les noirs ne sont pas tombés dans leur piège, les blancs ont une bonne position. C'est la marque d'un bon piège d'ouverture !}\r\n    (4...Nxe4 $2 5.Qd4 {Oups ! C'était un piège ! Nous allons perdre un cavalier. Essayez encore...})\r\n*"
+    },
+    {
+      "fen": "rnb1kbnr/1p1ppppp/1qp5/p7/1P6/P7/1BPPPPPP/RN1QKBNR w KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette étrange position issue de l'ouverture de l'orang-outang, les noirs viennent de jouer 3...a5 en pensant que le pion cloué devrait être défendu par 4.c3. Surprenons-les en jouant 4.c4 !",
+        "[%wrong Non, il faut jouer c4 !][%hint Jouez c4.]",
+        "Les noirs prennent le pion sans avoir compris le piège. Tentez maintenant d'attirer la dame en c5 en offrant encore un pion !",
+        "[%wrong Ce n'est pas un coup de pion ayant pour but d'attirer la dame en c5. Cherchez encore !][%hint Trouvez un sacrifice de pion qui vise à attirer la dame noire sur la case c5.]",
+        "Bien vu ! Les noirs auraient du jouer 5.Dc7. Dans ce cas, 6.axb4 nous aurait donné une position totalement jouable. Mais la dame noire est trop gourmande, et elle s'empare du pion c5. Punissons-la !",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Trouvez une prise dévoilant une jolie double attaque.] Excellent travail ! Les blancs attaquent la dame noire tout en dévoilant une attaque sur la tour a8. Nous allons par conséquent gagner une de ces deux pièces au prochain coup ! Vous savez maintenant comment tendre et éviter les pièges les plus courant."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/1p1ppppp/1qp5/p7/1P6/P7/1BPPPPPP/RN1QKBNR w KQkq - 0 4\"]\r\n\r\n{Dans cette étrange position issue de l'ouverture de l'orang-outang, les noirs viennent de jouer 3...a5 en pensant que le pion cloué devrait être défendu par 4.c3. Surprenons-les en jouant 4.c4 !}\r\n4.c4\r\n    {[%wrong Non, il faut jouer c4 !][%hint Jouez c4.]}\r\n4...axb4\r\n    {Les noirs prennent le pion sans avoir compris le piège. Tentez maintenant d'attirer la dame en c5 en offrant encore un pion !}\r\n5.c5\r\n    {[%wrong Ce n'est pas un coup de pion ayant pour but d'attirer la dame en c5. Cherchez encore !][%hint Trouvez un sacrifice de pion qui vise à attirer la dame noire sur la case c5.]}\r\n5...Qxc5\r\n    {Bien vu ! Les noirs auraient du jouer 5.Dc7. Dans ce cas, 6.axb4 nous aurait donné une position totalement jouable. Mais la dame noire est trop gourmande, et elle s'empare du pion c5. Punissons-la !}\r\n6.axb4\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Trouvez une prise dévoilant une jolie double attaque.] Excellent travail ! Les blancs attaquent la dame noire tout en dévoilant une attaque sur la tour a8. Nous allons par conséquent gagner une de ces deux pièces au prochain coup ! Vous savez maintenant comment tendre et éviter les pièges les plus courant.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "defb6386-9ceb-11e8-8bd5-b53e744717ac",
+    "name": "Pièges d'ouverture",
+    "path": "pieges-d-ouverture",
+    "description": "Il faut absolument connaître quelques pièges d’ouverture pour ne pas perdre la partie dès les premiers coups. Par exemple, ne copiez jamais votre adversaire ! Exemple : 1.e4 e5 2.Cf3 Cf6 3.Cxe5 Cxe4 De2. Si les noirs jouent De7, les blancs gagnant le cavalier noir en e4, et si le cavalier recule vers les cases f6 ou d6, les blancs gagnent la dame adverse grâce à une pointe tactique que nous allons découvrir. Il existe des pièges du même type dans presque toutes les ouvertures, soyez prudents !",
+    "glyphName": "document-box-trap",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-opening-traps-t2j.mp4",
+    "fen": "rnb1kbnr/1p1ppppp/2p5/2q5/1P6/8/1B1PPPPP/RN1QKBNR b KQkq - 0 6",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Nous allons tendre un piège. Dans cette défense scandinave, développons une pièce en gagnant un tempo sur la dame noire.}\r\n3.Nc3\r\n    {[%wrong Ce coup ne développe pas une pièce tout en attaquant la dame noire. Cherchez encore !][%hint Développez un cavalier sur sa case naturelle pour attaquer la dame.]}\r\n    (3.c4 $2 Qe4+ {Bien essayé, mais ce coup ne nous donne aucun avantage. Essayez plutôt de développer un cavalier vers le centre !})\r\n3...Qd8\r\n    {Très bien ! La dame noire bat en retraite vers d8. Dans cette position, le coup le plus fort est 4.d4, mais cette fois-ci, nous allons tendre un piège avec 4.Fc4.}\r\n4.Bc4\r\n    {[%wrong Pour les besoins de l'exercice, jouons le coup 4. Fc4 !][%hint Mettez votre fou en c4.]}\r\n4...Nf6\r\n    {Il est toujours possible de jouer d4, mais pour les besoins du piège, jouons le timide 5.Cf3.}\r\n5.Nf3\r\n    {[%wrong Pour les besoins de l'exercice, jouons le coup 4. Cf3 !][%hint Mettez votre cavalier en f3.]}\r\n5...Bg4\r\n    {Parfait ! Les noirs, qui s'attendaient sans doute au coup d4, tombent dans le piège de ce coup à l'apparence inoffensive ! Trouvez la tactique qui gagne du matériel !}\r\n6.Bxf7+\r\n    {[%wrong Ce coup ne gagne pas de matériel en force. Cherchez encore !][%hint Si nous pouvions jouer Ce5 avec échec, les noirs auraient de gros problèmes...]}\r\n    (6.Ne5 $5 Be6 {Joli coup ! Cette idée, combinée à 7.Fxe6, va ruiner la structure de pions noire. Mais il existe une pointe tactique qui gagne immédiatement du matériel. Trouvez-la !})\r\n6...Kxf7\r\n    {Excellente décision ! Le roi noir est exposé. Continuez la combinaison !}\r\n7.Ne5+\r\n    {[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons.][%hint Il y a de la fourchette dans l'air...] Formidable ! Les blancs ont démoli l'abri du roi noir et vont prendre le fou g4 au prochain coup. Ils auront alors un pion de plus et une excellente position.}\r\n    (7.Ng5+ $2 Ke8 {C'est la bonne pièce, mais pas le bon échec ! Les noirs s'en sortent et gardent une pièce de plus. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2P5/PP3PPP/RNBQKBNR w KQkq - 1 4\"]\r\n\r\n{Les noirs viennent juste de jouer 3...Cf6, attaquant e4. Trouvez une prise du pion tendant un piège démoniaque !}\r\n4.dxc5\r\n    {[%wrong Ce n'est pas une prise du pion. Cherchez encore !][%hint Il n'existe qu'une seule prise possible avec un pion dans cette position...]}\r\n4...Nxe4\r\n    {Bien joué ! Si les noirs prennent c5, les blancs échangeront les dames et obtiendront une très bonne position. Les noirs tombent dans le piège et s'emparent du pion e4. Punissez ce cavalier pour son imprudence !}\r\n5.Qa4+\r\n    {[%wrong Ce coup ne gagne pas le cavalier e4. Cherchez encore !][%hint Trouvez une double attaque sur le roi noir et le cavalier e4.] Bien vu ! Grâce à cette double attaque, les blancs gagnent le cavalier !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4\"]\r\n\r\n{Dans ce gambit dame refusé, tendons un piège aux blancs en jouant 4...Cbd7 !}\r\n4...Nbd7\r\n    {[%wrong Pour les besoins de l'exercice, commençons par jouer le coup 4...Nbd7 !][%hint Déplacez le cavalier de b8 à d7.]}\r\n5.cxd5\r\n    {Le cavalier noir bloque la protection du pion d, et les blancs se précipitent dessus, croyant gagner un pion. Reprenons-le tout de suite...}\r\n5...exd5\r\n    {[%wrong Non, nous voulons reprendre le pion d5 !][%hint Faut-il reprendre d5 du cavalier ou du pion ?]}\r\n    (5...Nxd5 $2 6.Bxd8 {Pour l'instant; ce coup perd la dame, mais rappelez-vous en pour la suite...})\r\n6.Nxd5\r\n    {Les blancs tombent dans notre piège et se jettent sur le pion. Il existe maintenant une superbe idée qui permet aux noirs de gagner du matériel. Trouvez-la !}\r\n6...Nxd5\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Notez que le roi blanc n'a qu'une seule case de fuite : d2. Que se passerait-il si nous prenions le cavalier d5 ?]}\r\n7.Bxd8\r\n    {Superbe ! Les noirs sacrifient la dame, mais ce n'est que temporaire. Comment continuer ?}\r\n7...Bb4+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas d'un coup forcé gagnant la dame blanche. Cherchez encore !][%hint Quel est le seul échec dans cette position ?]}\r\n8.Qd2\r\n    {Bien vu ! Emparons-nous maintenant de la dame blanche.!}\r\n8...Bxd2+\r\n    {[%wrong Non, prenez la dame blanche !][%hint Le fou peut prendre la dame blanche !]}\r\n9.Kxd2\r\n    {Et voilà ! Terminons en beauté en prenant le fou resté dans notre camp.}\r\n9...Kxd8\r\n    {[%wrong Non, prenez le fou en prise !][%hint Le roi est aussi une pièce d'attaque !] Formidable combinaison ! Ce piège subtil a permis aux noirs de gagner une pièce contre un pion.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4\"]\r\n\r\n{Dans cette Caro-Kann d'avance, jouons le coup plus malin : 4.h4.}\r\n4.h4\r\n    {[%wrong Tendons un piège en jouant 4. h4.][%hint Avancez votre pion h de deux cases.]}\r\n4...e6\r\n    {Les blancs prennent de l'espace à l'aile roi et tendent un piège dans lequel les noirs vont tomber. Au lieu de pousser le pion h, ils gaffent et jouent 4...e6?? Trouvez le bon coup !}\r\n5.g4\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort.][%hint Après 4...e6, le fou des noirs est enfermé sur la diagonale b1-h7. Profitez-en !]}\r\n5...Bg6\r\n    {Bien joué ! Le fou peut fuir un moment, mais c'est sans issue ! Continuez à l'attaquer !}\r\n6.h5\r\n    {[%wrong Non, pour gagner du matériel, il faut attaquer le fou piégé avec un pion !][%hint Continuez à harceler le fou avec vos pions !]}\r\n6...Be4\r\n    {Le fou noir attaque la tour h1 dans l'espoir de s'échapper. Comment l'enfermer ?}\r\n7.f3\r\n    {[%wrong Ce coup n'enferme pas le fou noir. Cherchez encore !][%hint Un troisième coup de pion va finir le travail !] Vous avez intelligemment résolu ce problème, bravo ! Le fou est définitivement enfermé.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppppppp/2n2n2/3P4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3\"]\r\n\r\n{Dans cette défense mexicaine, le cavalier noir est attaqué. Jouons le coup standard : 3.Ce5.}\r\n3...Ne5\r\n    {[%wrong Jouons le coup principal : 3...Ce5. ][%hint Jouez 3...Ce5.]}\r\n4.e4\r\n    {Les blancs répondent rapidement par e4. Ont-ils vu que le pion n'était pas protégé, ou est-ce un piège ? Choisissez entre 4...e6 et 4...Cxe4.}\r\n4...e6\r\n    {[%wrong Vous devez choisir entre deux options : 4...e5, ou 4...Cxe4. Essayez encore !][%hint Si vous mettez votre cavalier en e4, la dame pourra-t-elle l'attaquer ?] Bonne décision. 4...Cxe4? 5. Dd4 perdait une pièce, il était donc nécessaire de faire attention. Même si les noirs ne sont pas tombés dans leur piège, les blancs ont une bonne position. C'est la marque d'un bon piège d'ouverture !}\r\n    (4...Nxe4 $2 5.Qd4 {Oups ! C'était un piège ! Nous allons perdre un cavalier. Essayez encore...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kbnr/1p1ppppp/1qp5/p7/1P6/P7/1BPPPPPP/RN1QKBNR w KQkq - 0 4\"]\r\n\r\n{Dans cette étrange position issue de l'ouverture de l'orang-outang, les noirs viennent de jouer 3...a5 en pensant que le pion cloué devrait être défendu par 4.c3. Surprenons-les en jouant 4.c4 !}\r\n4.c4\r\n    {[%wrong Non, il faut jouer c4 !][%hint Jouez c4.]}\r\n4...axb4\r\n    {Les noirs prennent le pion sans avoir compris le piège. Tentez maintenant d'attirer la dame en c5 en offrant encore un pion !}\r\n5.c5\r\n    {[%wrong Ce n'est pas un coup de pion ayant pour but d'attirer la dame en c5. Cherchez encore !][%hint Trouvez un sacrifice de pion qui vise à attirer la dame noire sur la case c5.]}\r\n5...Qxc5\r\n    {Bien vu ! Les noirs auraient du jouer 5.Dc7. Dans ce cas, 6.axb4 nous aurait donné une position totalement jouable. Mais la dame noire est trop gourmande, et elle s'empare du pion c5. Punissons-la !}\r\n6.axb4\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Trouvez une prise dévoilant une jolie double attaque.] Excellent travail ! Les blancs attaquent la dame noire tout en dévoilant une attaque sur la tour a8. Nous allons par conséquent gagner une de ces deux pièces au prochain coup ! Vous savez maintenant comment tendre et éviter les pièges les plus courant.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Les Gambits et les pièges peuvent constituer des armes d'ouverture dangereuses.",
+    "outroText": "Vous avez appris beaucoup d'ouvertures. Laquelle vous préférez ?",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "19c5d5fa-83b5-11e8-8178-33d54cda55c3",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opening-traps5e7ab05217e33.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opening-traps-566886c176ca64.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opening-traps-15ea240ad3adbb.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/opening-traps-2616801c6d55a2.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 93,
+    "order": 8,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/defense-populaire-contre-1-e4-francaise-caro-kann",
+  "capturedAt": "2026-10-22T12:23:44.937Z",
+  "title": "Des défenses populaires contre 1.e4 : la française et la Caro-Kann",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Jouons la défense française !",
+        "[%wrong Ce coup n'introduit pas la défense française. Cherchez encore !][%hint La défense française consiste à jouer un coup de pion qui prépare la poussée ...d5 au prochain.]",
+        "Très bien ! Les blancs prennent le contrôle du centre, mais nous sommes prêts à leur contester en attaquant le pion e4. A vous de jouer !",
+        "[%wrong Ce n'est pas le coup que nous avons préparé en jouant 1...e6. Cherchez encore !][%hint 1...e6 préparait la poussée du pion d. Jouez ...d5 !]",
+        "Bien vu ! Les blancs choisissent de prendre de l'espace au centre en jouant la variante d'avance avec 3.e5. Il faut absolument lutter contre la chaîne de pion adverse. Jouez le coup de pion qui attaque le centre blanc !",
+        "[%wrong Ce n'est pas un coup de pion attaquant le centre blanc. Cherchez encore !][%hint Quel pion peut attaquer d4 en un coup ?]",
+        "Ce coup est également très important dans la défense française, mais il est un peu risqué d'ouvrir des lignes devant notre roi aussi tôt dans la partie. Comment attaquer le centre blanc à sa base ?",
+        "Très bien, vous avez trouvé la contre-attaque clef ! Les blancs répondent en créant une solide chaîne de pions au centre. Comment développer une pièce en mettant plus de pression contre le pion d4 ?",
+        "[%wrong Ce coup ne développe pas une pièce tout en mettant la pression sur d4. Cherchez encore !][%hint Jouez un coup de cavalier naturel mettant la pression sur d4.]",
+        "Bien joué. Ce coup est également intéressant. Obtenez maintenant le même résultat en développant une pièce mineure !",
+        "Continuez sur cette voie ! Développons maintenant notre dame pour rajouter de la pression sur l'importante case d4.",
+        "[%wrong Ce n'est pas un coup de dame mettant la pression sur d4. Cherchez encore !][%hint Jouez un coup de dame soutenant la pression exercée par le pion c5 sur le centre blanc.] Excellente décision ! Les noirs continuent d'augmenter la pression. Un combat intense va s'ensuivre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Jouons la défense française !}\r\n1...e6\r\n    {[%wrong Ce coup n'introduit pas la défense française. Cherchez encore !][%hint La défense française consiste à jouer un coup de pion qui prépare la poussée ...d5 au prochain.]}\r\n2.d4\r\n    {Très bien ! Les blancs prennent le contrôle du centre, mais nous sommes prêts à leur contester en attaquant le pion e4. A vous de jouer !}\r\n2...d5\r\n    {[%wrong Ce n'est pas le coup que nous avons préparé en jouant 1...e6. Cherchez encore !][%hint 1...e6 préparait la poussée du pion d. Jouez ...d5 !]}\r\n3.e5\r\n    {Bien vu ! Les blancs choisissent de prendre de l'espace au centre en jouant la variante d'avance avec 3.e5. Il faut absolument lutter contre la chaîne de pion adverse. Jouez le coup de pion qui attaque le centre blanc !}\r\n3...c5\r\n    {[%wrong Ce n'est pas un coup de pion attaquant le centre blanc. Cherchez encore !][%hint Quel pion peut attaquer d4 en un coup ?]}\r\n    (3...f6 $2 {Ce coup est également très important dans la défense française, mais il est un peu risqué d'ouvrir des lignes devant notre roi aussi tôt dans la partie. Comment attaquer le centre blanc à sa base ?})\r\n4.c3\r\n    {Très bien, vous avez trouvé la contre-attaque clef ! Les blancs répondent en créant une solide chaîne de pions au centre. Comment développer une pièce en mettant plus de pression contre le pion d4 ?}\r\n4...Nc6\r\n    {[%wrong Ce coup ne développe pas une pièce tout en mettant la pression sur d4. Cherchez encore !][%hint Jouez un coup de cavalier naturel mettant la pression sur d4.]}\r\n    (4...Qb6 $5 {Bien joué. Ce coup est également intéressant. Obtenez maintenant le même résultat en développant une pièce mineure !})\r\n5.Nf3\r\n    {Continuez sur cette voie ! Développons maintenant notre dame pour rajouter de la pression sur l'importante case d4.}\r\n5...Qb6\r\n    {[%wrong Ce n'est pas un coup de dame mettant la pression sur d4. Cherchez encore !][%hint Jouez un coup de dame soutenant la pression exercée par le pion c5 sur le centre blanc.] Excellente décision ! Les noirs continuent d'augmenter la pression. Un combat intense va s'ensuivre.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Jouons le coup le plus populaire des blancs : il consiste à développer un cavalier pour qu'il protège e4 tout en mettant sous pression le pion d5 des noirs.",
+        "[%wrong Ce coup ne protège pas e4 tout en attaquant d5. Cherchez encore !][%hint Où placer le cavalier b1 pour qu'il protège e4 tout en attaquant d5 ?]",
+        "Bien joué ! Les noirs choisissent de jouer la très tendue \"variante Winaver\". Le pion e4 étant attaqué et le cavalier cloué, prenons de l'espace au centre en empêchant les noirs de développer un cavalier en f6.",
+        "[%wrong Ce coup ne gagne pas d'espace au centre tout en empêchant les noirs de jouer ...Cf6. Cherchez encore !][%hint Comment mettre le pion e4 en sécurité tout en s'installant en territoire noir ?]",
+        "Bien vu ! Les blancs prennent de l'espace au centre, et les noirs répondent pas la contre-attaque typique : 4...c5. Les blancs vont généralement gagner la paire de fous en jouant 5.a3, et la suite des débats est souvent très aiguë !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Jouons le coup le plus populaire des blancs : il consiste à développer un cavalier pour qu'il protège e4 tout en mettant sous pression le pion d5 des noirs.}\r\n3.Nc3\r\n    {[%wrong Ce coup ne protège pas e4 tout en attaquant d5. Cherchez encore !][%hint Où placer le cavalier b1 pour qu'il protège e4 tout en attaquant d5 ?]}\r\n3...Bb4\r\n    {Bien joué ! Les noirs choisissent de jouer la très tendue \"variante Winaver\". Le pion e4 étant attaqué et le cavalier cloué, prenons de l'espace au centre en empêchant les noirs de développer un cavalier en f6.}\r\n4.e5\r\n    {[%wrong Ce coup ne gagne pas d'espace au centre tout en empêchant les noirs de jouer ...Cf6. Cherchez encore !][%hint Comment mettre le pion e4 en sécurité tout en s'installant en territoire noir ?]}\r\n4...c5\r\n    {Bien vu ! Les blancs prennent de l'espace au centre, et les noirs répondent pas la contre-attaque typique : 4...c5. Les blancs vont généralement gagner la paire de fous en jouant 5.a3, et la suite des débats est souvent très aiguë !}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 1 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer la populaire variante Tarrasch avec 3.Cd2. Choisissez votre réponse parmi ces deux options : 3...c5 ou 3...Fb4.",
+        "[%wrong Choisissez votre réponse parmi ces deux options : 3...c5 ou 3...Fb4.][%hint Si vous jouez 3...Fb4, les noirs pourront casser le clouage en gagnant un tempo sur notre fou...] Excellente décision ! 3...Fb4 se heurte à 4.c3. La contre-attaque thématique 3...c5 est donc toute indiquée.",
+        "Contrairement à la Winaver, il est ici impossible de clouer le cavalier, car les blancs ont une forte réponse. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 1 3\"]\r\n\r\n{Les blancs viennent de jouer la populaire variante Tarrasch avec 3.Cd2. Choisissez votre réponse parmi ces deux options : 3...c5 ou 3...Fb4.}\r\n3...c5\r\n    {[%wrong Choisissez votre réponse parmi ces deux options : 3...c5 ou 3...Fb4.][%hint Si vous jouez 3...Fb4, les noirs pourront casser le clouage en gagnant un tempo sur notre fou...] Excellente décision ! 3...Fb4 se heurte à 4.c3. La contre-attaque thématique 3...c5 est donc toute indiquée.}\r\n    (3...Bb4 $2 4.c3 {Contrairement à la Winaver, il est ici impossible de clouer le cavalier, car les blancs ont une forte réponse. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Penchons nous maintenant sur une ouverture similaire à la défense française : la Caro-Kann. Quel est le premier coup ?",
+        "[%wrong Ce coup n'est pas constitutif de la défense Caro-Kann. Cherchez encore !][%hint La Caro-Kann consiste à prépare l'attaque d'e4 au prochain coup, mais cette fois avec le soutien du pion c.]",
+        "Exact ! Encore une fois, il faut continuer en attaquant e4 immédiatement pour contester le centre. A vous de jouer !",
+        "[%wrong Bien essayé, mais ce n'est pas un coup de pion attaquant e4. Cherchez encore !][%hint Le coup 1...c6 préparait la poussée du pion d attaquant le centre.]",
+        "Les blancs décident de prendre de l'espace au centre. Trouvez un coup actif pour notre fou de cases blanches !",
+        "[%wrong Ce coup ne place pas notre fou de cases blanches sur sa case la plus active. Cherchez encore !][%hint Une fois le pion e avancé, la case f5 devient utilisable...] Beau travail ! Contrairement à la variante d'avance de la défense française, le fou de cases blanches des noirs peut se développer sur une case active avant que les noirs n'aient joué ...e6. La position est solide.",
+        "Le fou est coincé entre deux pions et empêche le pion e d'avancer. Trouvez-lui une diagonale plus active !",
+        "Cette case est passive. Trouvez une case plus active pour ce fou !",
+        "Bien essayé, mais cette case n'est pas disponible, car la dame adverse la contrôle ! Cherchez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Penchons nous maintenant sur une ouverture similaire à la défense française : la Caro-Kann. Quel est le premier coup ?}\r\n1...c6\r\n    {[%wrong Ce coup n'est pas constitutif de la défense Caro-Kann. Cherchez encore !][%hint La Caro-Kann consiste à prépare l'attaque d'e4 au prochain coup, mais cette fois avec le soutien du pion c.]}\r\n2.d4\r\n    {Exact ! Encore une fois, il faut continuer en attaquant e4 immédiatement pour contester le centre. A vous de jouer !}\r\n2...d5\r\n    {[%wrong Bien essayé, mais ce n'est pas un coup de pion attaquant e4. Cherchez encore !][%hint Le coup 1...c6 préparait la poussée du pion d attaquant le centre.]}\r\n3.e5\r\n    {Les blancs décident de prendre de l'espace au centre. Trouvez un coup actif pour notre fou de cases blanches !}\r\n3...Bf5\r\n    {[%wrong Ce coup ne place pas notre fou de cases blanches sur sa case la plus active. Cherchez encore !][%hint Une fois le pion e avancé, la case f5 devient utilisable...] Beau travail ! Contrairement à la variante d'avance de la défense française, le fou de cases blanches des noirs peut se développer sur une case active avant que les noirs n'aient joué ...e6. La position est solide.}\r\n    (3...Be6 $2 {Le fou est coincé entre deux pions et empêche le pion e d'avancer. Trouvez-lui une diagonale plus active !})\r\n    (3...Bd7 $2 {Cette case est passive. Trouvez une case plus active pour ce fou !})\r\n    (3...Bg4 $2 4.Qxg4 {Bien essayé, mais cette case n'est pas disponible, car la dame adverse la contrôle ! Cherchez encore.})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Retournons du côté blanc. Développons un cavalier vers le centre pour protéger le pion e4.",
+        "[%wrong Ce coup ne développe pas un cavalier pour protéger e4. Cherchez encore !][%hint Comment protéger e4 tout en mettant la pression sur d5 ?]",
+        "Ce coup est également jouable et transpose généralement dans la même ligne. Jouons maintenant l'autre coup de cavalier protégeant e4.",
+        "Bien joué ! Les blancs protègent le pion et mettent la pression sur d5. Les noirs ont capturé le pion e4. Reprenons !",
+        "[%wrong Non, nous voulons reprendre le pion e4.][%hint Comment reprendre le pion e4 ?]",
+        "Les noirs attaquent notre cavalier non protégé. Comment le mettre en sécurité tout en attaquant à notre tour le fou noir ?",
+        "[%wrong Ce coup ne met pas le cavalier en sûreté tout en attaquant le fou noir. Cherchez encore !][%hint Le cavalier doit battre en retraite pour attaquer le fou f5.]",
+        "Bien vu ! Les deux camps vont maintenant se concentrer sur le développement. Les blancs chercheront ensuite un moyen d'attaquer la solide position noire."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Retournons du côté blanc. Développons un cavalier vers le centre pour protéger le pion e4.}\r\n3.Nc3\r\n    {[%wrong Ce coup ne développe pas un cavalier pour protéger e4. Cherchez encore !][%hint Comment protéger e4 tout en mettant la pression sur d5 ?]}\r\n    (3.Nd2 $5 {Ce coup est également jouable et transpose généralement dans la même ligne. Jouons maintenant l'autre coup de cavalier protégeant e4.})\r\n3...dxe4\r\n    {Bien joué ! Les blancs protègent le pion et mettent la pression sur d5. Les noirs ont capturé le pion e4. Reprenons !}\r\n4.Nxe4\r\n    {[%wrong Non, nous voulons reprendre le pion e4.][%hint Comment reprendre le pion e4 ?]}\r\n4...Bf5\r\n    {Les noirs attaquent notre cavalier non protégé. Comment le mettre en sécurité tout en attaquant à notre tour le fou noir ?}\r\n5.Ng3\r\n    {[%wrong Ce coup ne met pas le cavalier en sûreté tout en attaquant le fou noir. Cherchez encore !][%hint Le cavalier doit battre en retraite pour attaquer le fou f5.]}\r\n5...Bg6\r\n    {Bien vu ! Les deux camps vont maintenant se concentrer sur le développement. Les blancs chercheront ensuite un moyen d'attaquer la solide position noire.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "94637cc8-9ceb-11e8-b0e0-7306d9f080f1",
+    "name": "Des défenses populaires contre 1.e4 : la française et la Caro-Kann",
+    "path": "defense-populaire-contre-1-e4-francaise-caro-kann",
+    "description": "Si les noirs veulent obtenir une position solide contre 1.e4, ils peuvent choisir la défense française ou la défense Caro-Kann. Dans les deux cas, les noirs préparent la poussée d5 (avec 1…e6 dans la française et 1…c6 dans la Caro-Kann). Les blancs obtiennent un avantage d’espace dans les deux lignes, mais les noirs ont tout de même une position solide.",
+    "glyphName": "game-opening-french",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-popular-1-e4-openings-french-and-caro-kann-n5t.mp4",
+    "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P4/6N1/PPP2PPP/R1BQKBNR w KQkq - 3 6",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Jouons la défense française !}\r\n1...e6\r\n    {[%wrong Ce coup n'introduit pas la défense française. Cherchez encore !][%hint La défense française consiste à jouer un coup de pion qui prépare la poussée ...d5 au prochain.]}\r\n2.d4\r\n    {Très bien ! Les blancs prennent le contrôle du centre, mais nous sommes prêts à leur contester en attaquant le pion e4. A vous de jouer !}\r\n2...d5\r\n    {[%wrong Ce n'est pas le coup que nous avons préparé en jouant 1...e6. Cherchez encore !][%hint 1...e6 préparait la poussée du pion d. Jouez ...d5 !]}\r\n3.e5\r\n    {Bien vu ! Les blancs choisissent de prendre de l'espace au centre en jouant la variante d'avance avec 3.e5. Il faut absolument lutter contre la chaîne de pion adverse. Jouez le coup de pion qui attaque le centre blanc !}\r\n3...c5\r\n    {[%wrong Ce n'est pas un coup de pion attaquant le centre blanc. Cherchez encore !][%hint Quel pion peut attaquer d4 en un coup ?]}\r\n    (3...f6 $2 {Ce coup est également très important dans la défense française, mais il est un peu risqué d'ouvrir des lignes devant notre roi aussi tôt dans la partie. Comment attaquer le centre blanc à sa base ?})\r\n4.c3\r\n    {Très bien, vous avez trouvé la contre-attaque clef ! Les blancs répondent en créant une solide chaîne de pions au centre. Comment développer une pièce en mettant plus de pression contre le pion d4 ?}\r\n4...Nc6\r\n    {[%wrong Ce coup ne développe pas une pièce tout en mettant la pression sur d4. Cherchez encore !][%hint Jouez un coup de cavalier naturel mettant la pression sur d4.]}\r\n    (4...Qb6 $5 {Bien joué. Ce coup est également intéressant. Obtenez maintenant le même résultat en développant une pièce mineure !})\r\n5.Nf3\r\n    {Continuez sur cette voie ! Développons maintenant notre dame pour rajouter de la pression sur l'importante case d4.}\r\n5...Qb6\r\n    {[%wrong Ce n'est pas un coup de dame mettant la pression sur d4. Cherchez encore !][%hint Jouez un coup de dame soutenant la pression exercée par le pion c5 sur le centre blanc.] Excellente décision ! Les noirs continuent d'augmenter la pression. Un combat intense va s'ensuivre.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Jouons le coup le plus populaire des blancs : il consiste à développer un cavalier pour qu'il protège e4 tout en mettant sous pression le pion d5 des noirs.}\r\n3.Nc3\r\n    {[%wrong Ce coup ne protège pas e4 tout en attaquant d5. Cherchez encore !][%hint Où placer le cavalier b1 pour qu'il protège e4 tout en attaquant d5 ?]}\r\n3...Bb4\r\n    {Bien joué ! Les noirs choisissent de jouer la très tendue \"variante Winaver\". Le pion e4 étant attaqué et le cavalier cloué, prenons de l'espace au centre en empêchant les noirs de développer un cavalier en f6.}\r\n4.e5\r\n    {[%wrong Ce coup ne gagne pas d'espace au centre tout en empêchant les noirs de jouer ...Cf6. Cherchez encore !][%hint Comment mettre le pion e4 en sécurité tout en s'installant en territoire noir ?]}\r\n4...c5\r\n    {Bien vu ! Les blancs prennent de l'espace au centre, et les noirs répondent pas la contre-attaque typique : 4...c5. Les blancs vont généralement gagner la paire de fous en jouant 5.a3, et la suite des débats est souvent très aiguë !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 1 3\"]\r\n\r\n{Les blancs viennent de jouer la populaire variante Tarrasch avec 3.Cd2. Choisissez votre réponse parmi ces deux options : 3...c5 ou 3...Fb4.}\r\n3...c5\r\n    {[%wrong Choisissez votre réponse parmi ces deux options : 3...c5 ou 3...Fb4.][%hint Si vous jouez 3...Fb4, les noirs pourront casser le clouage en gagnant un tempo sur notre fou...] Excellente décision ! 3...Fb4 se heurte à 4.c3. La contre-attaque thématique 3...c5 est donc toute indiquée.}\r\n    (3...Bb4 $2 4.c3 {Contrairement à la Winaver, il est ici impossible de clouer le cavalier, car les blancs ont une forte réponse. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Penchons nous maintenant sur une ouverture similaire à la défense française : la Caro-Kann. Quel est le premier coup ?}\r\n1...c6\r\n    {[%wrong Ce coup n'est pas constitutif de la défense Caro-Kann. Cherchez encore !][%hint La Caro-Kann consiste à prépare l'attaque d'e4 au prochain coup, mais cette fois avec le soutien du pion c.]}\r\n2.d4\r\n    {Exact ! Encore une fois, il faut continuer en attaquant e4 immédiatement pour contester le centre. A vous de jouer !}\r\n2...d5\r\n    {[%wrong Bien essayé, mais ce n'est pas un coup de pion attaquant e4. Cherchez encore !][%hint Le coup 1...c6 préparait la poussée du pion d attaquant le centre.]}\r\n3.e5\r\n    {Les blancs décident de prendre de l'espace au centre. Trouvez un coup actif pour notre fou de cases blanches !}\r\n3...Bf5\r\n    {[%wrong Ce coup ne place pas notre fou de cases blanches sur sa case la plus active. Cherchez encore !][%hint Une fois le pion e avancé, la case f5 devient utilisable...] Beau travail ! Contrairement à la variante d'avance de la défense française, le fou de cases blanches des noirs peut se développer sur une case active avant que les noirs n'aient joué ...e6. La position est solide.}\r\n    (3...Be6 $2 {Le fou est coincé entre deux pions et empêche le pion e d'avancer. Trouvez-lui une diagonale plus active !})\r\n    (3...Bd7 $2 {Cette case est passive. Trouvez une case plus active pour ce fou !})\r\n    (3...Bg4 $2 4.Qxg4 {Bien essayé, mais cette case n'est pas disponible, car la dame adverse la contrôle ! Cherchez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3\"]\r\n\r\n{Retournons du côté blanc. Développons un cavalier vers le centre pour protéger le pion e4.}\r\n3.Nc3\r\n    {[%wrong Ce coup ne développe pas un cavalier pour protéger e4. Cherchez encore !][%hint Comment protéger e4 tout en mettant la pression sur d5 ?]}\r\n    (3.Nd2 $5 {Ce coup est également jouable et transpose généralement dans la même ligne. Jouons maintenant l'autre coup de cavalier protégeant e4.})\r\n3...dxe4\r\n    {Bien joué ! Les blancs protègent le pion et mettent la pression sur d5. Les noirs ont capturé le pion e4. Reprenons !}\r\n4.Nxe4\r\n    {[%wrong Non, nous voulons reprendre le pion e4.][%hint Comment reprendre le pion e4 ?]}\r\n4...Bf5\r\n    {Les noirs attaquent notre cavalier non protégé. Comment le mettre en sécurité tout en attaquant à notre tour le fou noir ?}\r\n5.Ng3\r\n    {[%wrong Ce coup ne met pas le cavalier en sûreté tout en attaquant le fou noir. Cherchez encore !][%hint Le cavalier doit battre en retraite pour attaquer le fou f5.]}\r\n5...Bg6\r\n    {Bien vu ! Les deux camps vont maintenant se concentrer sur le développement. Les blancs chercheront ensuite un moyen d'attaquer la solide position noire.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Certaines ouvertures populaires sont caractérisées par leur chaine de pions.",
+    "outroText": "Certains joueurs apprécient particulièrement cette chaine de pions avec les noirs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "bc74fdee-8eb4-11e8-a69b-41c6f5ea6d90",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-french-and-caro-kann-15d1257ae7bb7e.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-french-and-caro-kann-1-566886cc156b00.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-french-and-caro-kann-1-15ea2408f2651d.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-french-and-caro-kann-1-2615feb3a0a172.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 89,
+    "order": 4,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

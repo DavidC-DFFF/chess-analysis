@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/clouage",
+  "capturedAt": "2026-10-22T12:23:32.476Z",
+  "title": "Le clouage",
+  "exercises": [
+    {
+      "fen": "6k1/6pp/4q3/8/8/8/4B1PP/2R4K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire menace de capturer le fou blanc. Trouvez un clouage qui gagne la dame adverse.",
+        "[%wrong Vous n'avez pas cloué la dame noire. Essayez encore !][%hint Le roi et la dame noire sont alignés sur la même diagonale... C'est une histoire de fou !] Bien joué ! Votre fou cloue la dame adverse, vous allez donc gagner du matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6pp/4q3/8/8/8/4B1PP/2R4K w - - 0 1\"]\r\n\r\n{La dame noire menace de capturer le fou blanc. Trouvez un clouage qui gagne la dame adverse.}\r\n1.Bc4\r\n    {[%wrong Vous n'avez pas cloué la dame noire. Essayez encore !][%hint Le roi et la dame noire sont alignés sur la même diagonale... C'est une histoire de fou !] Bien joué ! Votre fou cloue la dame adverse, vous allez donc gagner du matériel.}\r\n*"
+    },
+    {
+      "fen": "r1b1kb1r/1pp2ppp/p1p2n2/8/4q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire vient de prendre le pion e4. Comment utiliser cette colonne e désormais ouverte pour clouer la dame adverse à son roi ?",
+        "[%wrong Vous n'avez pas cloué la dame noire. Essayez encore !][%hint Utilisez une pièce de moindre valeur pour clouer la dame sur la colonne e.] Bien joué ! La dame noire est désormais clouée à son roi, et vous allez gagner du matériel.",
+        "L'idée est bonne, mais votre dame vaut autant que la dame adverse. Les noirs vont simplement les échanger. Essayez de réaliser le clouage avec une pièce de moindre valeur !",
+        "Oups ! Vous perdez votre dame. Trouvez la bonne case et essayez de réaliser le clouage avec une pièce de moindre valeur !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/1pp2ppp/p1p2n2/8/4q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{La dame noire vient de prendre le pion e4. Comment utiliser cette colonne e désormais ouverte pour clouer la dame adverse à son roi ?}\r\n1.Re1\r\n    {[%wrong Vous n'avez pas cloué la dame noire. Essayez encore !][%hint Utilisez une pièce de moindre valeur pour clouer la dame sur la colonne e.] Bien joué ! La dame noire est désormais clouée à son roi, et vous allez gagner du matériel.}\r\n    (1.Qe1 $2 {L'idée est bonne, mais votre dame vaut autant que la dame adverse. Les noirs vont simplement les échanger. Essayez de réaliser le clouage avec une pièce de moindre valeur !})\r\n    (1.Qe2 $2 Qxe2 {Oups ! Vous perdez votre dame. Trouvez la bonne case et essayez de réaliser le clouage avec une pièce de moindre valeur !})\r\n*"
+    },
+    {
+      "fen": "7k/5p1p/1B4p1/P3b3/5Q2/7P/6PK/4q3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame blanche est clouée devant son roi. Comment la sauver ?",
+        "[%wrong Ce coup ne sauve pas la dame. Essayez encore !][%hint Il faudrait pouvoir clouer le fou qui cloue notre dame...] Bien joué ! Vous avez sauvé votre dame en clouant la pièce qui vous clouait."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/5p1p/1B4p1/P3b3/5Q2/7P/6PK/4q3 w - - 0 1\"]\r\n\r\n{La dame blanche est clouée devant son roi. Comment la sauver ?}\r\n1.Bd4\r\n    {[%wrong Ce coup ne sauve pas la dame. Essayez encore !][%hint Il faudrait pouvoir clouer le fou qui cloue notre dame...] Bien joué ! Vous avez sauvé votre dame en clouant la pièce qui vous clouait.}\r\n*"
+    },
+    {
+      "fen": "rn1qk1nr/pbpp1ppp/1p2p3/8/1b1PP3/2N5/PPP1NPPP/R1BQKB1R b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Gagnez du matériel grâce à un clouage.",
+        "[%wrong Ce coup ne gagne pas de matériel par clouage. Essayez encore !][%hint Le cavalier c3 est cloué. Par conséquent, il ne protège pas le pion e4...] Bien joué ! Vous gagnez du matériel car le cavalier c3 est cloué à son roi et ne peut pas protéger le pion.",
+        "En prenant le cavalier, vous avez relâché le clouage. Par conséquent, le nouveau cavalier c3 protège désormais efficacement le pion e4. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qk1nr/pbpp1ppp/1p2p3/8/1b1PP3/2N5/PPP1NPPP/R1BQKB1R b KQkq - 0 1\"]\r\n\r\n{Trait aux noirs. Gagnez du matériel grâce à un clouage.}\r\n1...Bxe4\r\n    {[%wrong Ce coup ne gagne pas de matériel par clouage. Essayez encore !][%hint Le cavalier c3 est cloué. Par conséquent, il ne protège pas le pion e4...] Bien joué ! Vous gagnez du matériel car le cavalier c3 est cloué à son roi et ne peut pas protéger le pion.}\r\n    (1...Bxc3+ $2 2.Nxc3 {En prenant le cavalier, vous avez relâché le clouage. Par conséquent, le nouveau cavalier c3 protège désormais efficacement le pion e4. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "rn1qkb1r/pp1bpp1p/3p2p1/1B6/3NP1n1/2N1B3/PPP2PPP/R2QK2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou noir en d7 est cloué devant son roi. Trouvez un coup permettant de gagner du matériel.",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le fou d7 est cloué. Par conséquent, il ne protège pas la pièce pouvant être capturée par la dame blanche.] Bien joué ! La dame blanche s'empare du cavalier adverse, car son défenseur est cloué.",
+        "En prenant le fou, vous avez relâché le clouage. Par conséquent, la dame noire protège désormais efficacement le cavalier g4. Essayez encore !!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkb1r/pp1bpp1p/3p2p1/1B6/3NP1n1/2N1B3/PPP2PPP/R2QK2R w KQkq - 0 1\"]\r\n\r\n{Le fou noir en d7 est cloué devant son roi. Trouvez un coup permettant de gagner du matériel.}\r\n1.Qxg4\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le fou d7 est cloué. Par conséquent, il ne protège pas la pièce pouvant être capturée par la dame blanche.] Bien joué ! La dame blanche s'empare du cavalier adverse, car son défenseur est cloué.}\r\n    (1.Bxd7+ $2 Qxd7 {En prenant le fou, vous avez relâché le clouage. Par conséquent, la dame noire protège désormais efficacement le cavalier g4. Essayez encore !!})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "6db2ecce-9ce8-11e8-8fb0-e921be3194ec",
+    "name": "Le clouage",
+    "path": "clouage",
+    "description": "Le clouage consiste à attaquer une pièce qui se retrouve dans l’impossibilité de bouger car derrière elle se trouve une pièce de plus forte valeur. Le clouage absolu consiste à clouer une pièce à son roi. Dans ce cas, elle ne peut tout simplement pas bouger car elle exposerait son roi à un échec. Le clouage relatif survient lorsqu’il n’est pas recommandé de déplacer la pièce clouée car derrière elle se trouve une pièce de plus forte valeur, une dame par exemple.",
+    "glyphName": "game-tactic-pin",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-pinning-i7y.mp4",
+    "fen": "6k1/5qpp/4B3/8/8/8/6PP/2R4K b - - 3 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6pp/4q3/8/8/8/4B1PP/2R4K w - - 0 1\"]\r\n\r\n{La dame noire menace de capturer le fou blanc. Trouvez un clouage qui gagne la dame adverse.}\r\n1.Bc4\r\n    {[%wrong Vous n'avez pas cloué la dame noire. Essayez encore !][%hint Le roi et la dame noire sont alignés sur la même diagonale... C'est une histoire de fou !] Bien joué ! Votre fou cloue la dame adverse, vous allez donc gagner du matériel.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1kb1r/1pp2ppp/p1p2n2/8/4q3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{La dame noire vient de prendre le pion e4. Comment utiliser cette colonne e désormais ouverte pour clouer la dame adverse à son roi ?}\r\n1.Re1\r\n    {[%wrong Vous n'avez pas cloué la dame noire. Essayez encore !][%hint Utilisez une pièce de moindre valeur pour clouer la dame sur la colonne e.] Bien joué ! La dame noire est désormais clouée à son roi, et vous allez gagner du matériel.}\r\n    (1.Qe1 $2 {L'idée est bonne, mais votre dame vaut autant que la dame adverse. Les noirs vont simplement les échanger. Essayez de réaliser le clouage avec une pièce de moindre valeur !})\r\n    (1.Qe2 $2 Qxe2 {Oups ! Vous perdez votre dame. Trouvez la bonne case et essayez de réaliser le clouage avec une pièce de moindre valeur !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/5p1p/1B4p1/P3b3/5Q2/7P/6PK/4q3 w - - 0 1\"]\r\n\r\n{La dame blanche est clouée devant son roi. Comment la sauver ?}\r\n1.Bd4\r\n    {[%wrong Ce coup ne sauve pas la dame. Essayez encore !][%hint Il faudrait pouvoir clouer le fou qui cloue notre dame...] Bien joué ! Vous avez sauvé votre dame en clouant la pièce qui vous clouait.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qk1nr/pbpp1ppp/1p2p3/8/1b1PP3/2N5/PPP1NPPP/R1BQKB1R b KQkq - 0 1\"]\r\n\r\n{Trait aux noirs. Gagnez du matériel grâce à un clouage.}\r\n1...Bxe4\r\n    {[%wrong Ce coup ne gagne pas de matériel par clouage. Essayez encore !][%hint Le cavalier c3 est cloué. Par conséquent, il ne protège pas le pion e4...] Bien joué ! Vous gagnez du matériel car le cavalier c3 est cloué à son roi et ne peut pas protéger le pion.}\r\n    (1...Bxc3+ $2 2.Nxc3 {En prenant le cavalier, vous avez relâché le clouage. Par conséquent, le nouveau cavalier c3 protège désormais efficacement le pion e4. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkb1r/pp1bpp1p/3p2p1/1B6/3NP1n1/2N1B3/PPP2PPP/R2QK2R w KQkq - 0 1\"]\r\n\r\n{Le fou noir en d7 est cloué devant son roi. Trouvez un coup permettant de gagner du matériel.}\r\n1.Qxg4\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Le fou d7 est cloué. Par conséquent, il ne protège pas la pièce pouvant être capturée par la dame blanche.] Bien joué ! La dame blanche s'empare du cavalier adverse, car son défenseur est cloué.}\r\n    (1.Bxd7+ $2 Qxd7 {En prenant le fou, vous avez relâché le clouage. Par conséquent, la dame noire protège désormais efficacement le cavalier g4. Essayez encore !!})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Mettez votre adversaire en difficulté en clouant ses pièces.",
+    "outroText": "Excellent. Vous êtes désormais un as du clouage.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "240aead4-83a9-11e8-b55b-d59171ad0fdb",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pins5d11126218056.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pinning-56688700f189aa.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pins-1607d595a25b4c.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pins-25ea24540120c4.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/inchiodatura63c084ce1d44f.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 34,
+    "order": 5,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

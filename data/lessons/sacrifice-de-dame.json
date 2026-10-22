@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-coups-forces/sacrifice-de-dame",
+  "capturedAt": "2026-10-22T12:23:42.136Z",
+  "title": "Les sacrifices de dame",
+  "exercises": [
+    {
+      "fen": "r1b2rk1/pppp1ppp/8/2b1P3/2B3nq/5N2/PP3PPP/RNBQR1K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont sacrifié une pièce pour obtenir une puissante attaque. Montrez vos talents tactiques en trouvant la combinaison qui mate le roi blanc !",
+        "[%wrong Il existe un coup beaucoup plus fort dans la position. Trouvez-le !][%hint Nos pièces développées ont toutes les yeux rivés sur une case bien particulière... Laquelle ?]",
+        "C'est la bonne idée, mais il existe une manière beaucoup plus forte d'attaquer f2. Laquelle ?",
+        "Bien essayé, mais après l'échange des dames, nous aurons toujours une pièce de moins dans une position simplifiée... Trouvez une attaque plus tranchante !",
+        "Bien joué ! Le roi blanc se réfugie dans le coin. Matez-le en deux !",
+        "[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Sacrifiez la dame pour enfermer totalement le roi adverse.]",
+        "Bien essayé, mais ce coup ne mène pas au mat. Cherchez encore !",
+        "Fantastique ! Les blancs doivent obligatoirement accepter le sacrifice en prenant avec la tour ou le cavalier. Quel que soit leur choix, nous pouvons désormais mater en un. A vous de jouer !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?] Vos talents offensifs s'améliorent à vue d’œil. Continuez sur cette voie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pppp1ppp/8/2b1P3/2B3nq/5N2/PP3PPP/RNBQR1K1 b - - 0 1\"]\r\n\r\n{Les noirs ont sacrifié une pièce pour obtenir une puissante attaque. Montrez vos talents tactiques en trouvant la combinaison qui mate le roi blanc !}\r\n1...Qxf2+\r\n    {[%wrong Il existe un coup beaucoup plus fort dans la position. Trouvez-le !][%hint Nos pièces développées ont toutes les yeux rivés sur une case bien particulière... Laquelle ?]}\r\n    (1...Bxf2+ $6 {C'est la bonne idée, mais il existe une manière beaucoup plus forte d'attaquer f2. Laquelle ?})\r\n    (1...Nxf2 $2 2.Nxh4 {Bien essayé, mais après l'échange des dames, nous aurons toujours une pièce de moins dans une position simplifiée... Trouvez une attaque plus tranchante !})\r\n2.Kh1\r\n    {Bien joué ! Le roi blanc se réfugie dans le coin. Matez-le en deux !}\r\n2...Qg1+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Sacrifiez la dame pour enfermer totalement le roi adverse.]}\r\n    (2...Qxe1+ $2 3.Qxe1 {Bien essayé, mais ce coup ne mène pas au mat. Cherchez encore !})\r\n3.Rxg1\r\n    {Fantastique ! Les blancs doivent obligatoirement accepter le sacrifice en prenant avec la tour ou le cavalier. Quel que soit leur choix, nous pouvons désormais mater en un. A vous de jouer !}\r\n3...Nf2#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?] Vos talents offensifs s'améliorent à vue d’œil. Continuez sur cette voie !}\r\n*"
+    },
+    {
+      "fen": "2kr4/pp1rbppp/2n1p1q1/2p5/2PPQB2/2P2N2/P4PPP/1R1R2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs mettent une immense pression sur le pion d4, mais leur roi est en grand danger. Profitez de sa position précaire pour le mater en deux !",
+        "[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Une fois la colonne b ouverte et le cavalier noir supprimé, le fou et la tour pourraient combiner leurs forces sur la case b8...]",
+        "Notre dame est en l'air ! Trouvez une idée plus tranchante.",
+        "Un coup puissant ! Si la tour noir avait bloqué l'échec en c7, nous aurions pu jouer Dxc7#. Maintenant que la colonne b est ouverte, utilisons-la pour mater !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?] Beau travail. Encore une fois, c'est une puissant sacrifice de dame qui nous permet de mater !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr4/pp1rbppp/2n1p1q1/2p5/2PPQB2/2P2N2/P4PPP/1R1R2K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs mettent une immense pression sur le pion d4, mais leur roi est en grand danger. Profitez de sa position précaire pour le mater en deux !}\r\n1.Qxc6+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Une fois la colonne b ouverte et le cavalier noir supprimé, le fou et la tour pourraient combiner leurs forces sur la case b8...]}\r\n    (1.Rxb7 $2 Qxe4 {Notre dame est en l'air ! Trouvez une idée plus tranchante.})\r\n1...bxc6\r\n    {Un coup puissant ! Si la tour noir avait bloqué l'échec en c7, nous aurions pu jouer Dxc7#. Maintenant que la colonne b est ouverte, utilisons-la pour mater !}\r\n2.Rb8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?] Beau travail. Encore une fois, c'est une puissant sacrifice de dame qui nous permet de mater !}\r\n*"
+    },
+    {
+      "fen": "4rk2/R4p2/1pp4p/2Pp1p1q/3P3P/1P2QPP1/P4K2/8 w - - 1 37",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Nous rejoignons une intense bataille opposant les grand-maîtres Vassily Ivanchuk (blancs, au trait) et Magnus Carlsen (noirs). Trouvez l'incroyable sacrifice de dame joué par Ivanchuk permettant d'ouvrir la voie à un pion dont la promotion va décider.",
+        "[%wrong Dans cette position, nous sommes à la recherche d'un puissant sacrifice de dame. Trouvez-le !][%hint La tour noir protège (trop) efficacement la dernière rangée. Supprimez-la !]",
+        "Ce sacrifice de dame très astucieux fonctionne également, mais il donne plus de contre jeu que nécessaire aux noirs, car notre roi va être exposé aux échecs en e3. Trouvez un moyen plus direct de sacrifier cette dame !",
+        "Ce coup sacrifie la dame blanche mais permet aux blancs d'entrer dans une position gagnante... Trouvez un sacrifice plus productif !",
+        "Quel coup extraordinaire ! Les blancs se débarrassent de la tour qui défendait la dernière rangée. Il est maintenant de créer un pion passé et de l'envoyer à dame !",
+        "[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Nous avons sacrifié la dame pour amener un pion à la promotion... Créez un pion passé !]",
+        "Bien joué ! Carlsen tente désespérément de créer du contre jeu sur le roi blanc. Poussons notre pion passé !",
+        "[%wrong Nous voulons pousser notre pion passé.][%hint Poussez le pion b6.]",
+        "Les noirs tentent encore une fois de compliquer la position. Comment mettre le roi en sécurité ?",
+        "[%hint Un roi n'est jamais mieux protégé que par un pion adverse...] Joli ! Notre roi est idéalement posté devant le pion adverse, et les noirs ne peuvent plus nous empêcher de promouvoir notre pion...",
+        "Ce coup est peut-être toujours gagnant, mais il offre beaucoup de contre jeu à la dame noire, qui va pouvoir donner une multitude d'échecs... Mieux vaut jouer plus simplement pour éviter les complications !",
+        "Oh non ! La dame noire s'empare du pion non protégé et Carlsen obtient une attaque gagnante. Cherchez encore !",
+        "Joli coup. Les blancs sont gagnants ! Mais il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...",
+        "Monter le roi pourrait s'avérer dangereux, car les noirs ont encore une dame. Cependant, dans ce cas, le roi blanc est en sécurité... Mais il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...",
+        "Placer le roi sur une colonne ouverte lorsque l'adverse dispose encore d'une dame est très dangereux. Mais cette fois, les noirs ne peuvent en profiter à temps, et les blancs vont tout de même l'emporter. Cependant, il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...",
+        "Placer le roi sur une colonne ouverte lorsque l'adverse dispose encore d'une dame est très dangereux. Mais cette fois, les noirs ne peuvent en profiter à temps, et les blancs vont tout de même l'emporter. Cependant, il serait plus prudent de trouver un coup empêchant le pion g3 de progresser..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rk2/R4p2/1pp4p/2Pp1p1q/3P3P/1P2QPP1/P4K2/8 w - - 1 37\"]\r\n\r\n{Nous rejoignons une intense bataille opposant les grand-maîtres Vassily Ivanchuk (blancs, au trait) et Magnus Carlsen (noirs). Trouvez l'incroyable sacrifice de dame joué par Ivanchuk permettant d'ouvrir la voie à un pion dont la promotion va décider.}\r\n37.Qxe8+\r\n    {[%wrong Dans cette position, nous sommes à la recherche d'un puissant sacrifice de dame. Trouvez-le !][%hint La tour noir protège (trop) efficacement la dernière rangée. Supprimez-la !]}\r\n    (37.cxb6 $5 Rxe3 {Ce sacrifice de dame très astucieux fonctionne également, mais il donne plus de contre jeu que nécessaire aux noirs, car notre roi va être exposé aux échecs en e3. Trouvez un moyen plus direct de sacrifier cette dame !})\r\n    (37.Qxh6+ $2 Qxh6 {Ce coup sacrifie la dame blanche mais permet aux blancs d'entrer dans une position gagnante... Trouvez un sacrifice plus productif !})\r\n37...Kxe8\r\n    {Quel coup extraordinaire ! Les blancs se débarrassent de la tour qui défendait la dernière rangée. Il est maintenant de créer un pion passé et de l'envoyer à dame !}\r\n38.cxb6\r\n    {[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Nous avons sacrifié la dame pour amener un pion à la promotion... Créez un pion passé !]}\r\n38...f4\r\n    {Bien joué ! Carlsen tente désespérément de créer du contre jeu sur le roi blanc. Poussons notre pion passé !}\r\n39.b7\r\n    {[%wrong Nous voulons pousser notre pion passé.][%hint Poussez le pion b6.]}\r\n39...fxg3+\r\n    {Les noirs tentent encore une fois de compliquer la position. Comment mettre le roi en sécurité ?}\r\n40.Kg2\r\n    {[%hint Un roi n'est jamais mieux protégé que par un pion adverse...] Joli ! Notre roi est idéalement posté devant le pion adverse, et les noirs ne peuvent plus nous empêcher de promouvoir notre pion...}\r\n    (40.Kxg3 $6 Qg6+ {Ce coup est peut-être toujours gagnant, mais il offre beaucoup de contre jeu à la dame noire, qui va pouvoir donner une multitude d'échecs... Mieux vaut jouer plus simplement pour éviter les complications !})\r\n    (40.Kf1 $2 Qxf3+ {Oh non ! La dame noire s'empare du pion non protégé et Carlsen obtient une attaque gagnante. Cherchez encore !})\r\n    (40.Kg1 $5 {Joli coup. Les blancs sont gagnants ! Mais il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n    (40.Ke3 $5 {Monter le roi pourrait s'avérer dangereux, car les noirs ont encore une dame. Cependant, dans ce cas, le roi blanc est en sécurité... Mais il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n    (40.Ke1 $5 {Placer le roi sur une colonne ouverte lorsque l'adverse dispose encore d'une dame est très dangereux. Mais cette fois, les noirs ne peuvent en profiter à temps, et les blancs vont tout de même l'emporter. Cependant, il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n    (40.Ke2 $5 {Placer le roi sur une colonne ouverte lorsque l'adverse dispose encore d'une dame est très dangereux. Mais cette fois, les noirs ne peuvent en profiter à temps, et les blancs vont tout de même l'emporter. Cependant, il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n*"
+    },
+    {
+      "fen": "6R1/3Q3p/6bk/2p3p1/2P5/5q1P/r5PK/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un bel avantage matériel et menacent de mater en un. Ils s'attendent à voir les blancs abandonner, mais nous n'avons pas dit notre dernier mot... Trouvez l'attaque brutale qui va nous permettre de mater en premier !",
+        "[%wrong Ce coup n'est pas assez incisif, les noirs vont l'emporter... Cherchez encore !][%hint Dans cette position, quel est le seul échec qui ne perd pas de matériel ?]",
+        "Ce sacrifice ne permet pas de mater... Cherchez encore !",
+        "Ce sacrifice ne permet pas de mater... Cherchez encore !",
+        "Joli ! Le roi noir est attiré vers le centre de l'échiquier. Trouvez maintenant un sacrifice puissant menant au mat en deux !",
+        "[%wrong Ce coup ne mène pas au mat en deux. Cherchez encore !][%hint Comment coincer le roi noir sur la colonne h et forcer le mat ?]",
+        "Ce sacrifice n'était pas judicieux : Nous perdons le matériel et la partie ! Cherchez encore.",
+        "Magnifique ! Le roi noir est acculé contre la bande, et le sacrifice de la dame a permis d'ouvrir la colonne h. Profitez-en pour mater !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Les noirs pensaient avoir partie gagnée, mais c'était sans compter sur cette formidable attaque de mat sacrificielle. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6R1/3Q3p/6bk/2p3p1/2P5/5q1P/r5PK/8 w - - 0 1\"]\r\n\r\n{Les noirs ont un bel avantage matériel et menacent de mater en un. Ils s'attendent à voir les blancs abandonner, mais nous n'avons pas dit notre dernier mot... Trouvez l'attaque brutale qui va nous permettre de mater en premier !}\r\n1.Qg7+\r\n    {[%wrong Ce coup n'est pas assez incisif, les noirs vont l'emporter... Cherchez encore !][%hint Dans cette position, quel est le seul échec qui ne perd pas de matériel ?]}\r\n    (1.Rxg6+ $2 hxg6 {Ce sacrifice ne permet pas de mater... Cherchez encore !})\r\n    (1.Qxh7+ $2 Kxh7 {Ce sacrifice ne permet pas de mater... Cherchez encore !})\r\n1...Kh5\r\n    {Joli ! Le roi noir est attiré vers le centre de l'échiquier. Trouvez maintenant un sacrifice puissant menant au mat en deux !}\r\n2.Qxg6+\r\n    {[%wrong Ce coup ne mène pas au mat en deux. Cherchez encore !][%hint Comment coincer le roi noir sur la colonne h et forcer le mat ?]}\r\n    (2.Qxh7+ $2 Bxh7 {Ce sacrifice n'était pas judicieux : Nous perdons le matériel et la partie ! Cherchez encore.})\r\n2...hxg6\r\n    {Magnifique ! Le roi noir est acculé contre la bande, et le sacrifice de la dame a permis d'ouvrir la colonne h. Profitez-en pour mater !}\r\n3.Rh8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Les noirs pensaient avoir partie gagnée, mais c'était sans compter sur cette formidable attaque de mat sacrificielle. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "2rq3k/pb4pp/1p6/4RQ2/5R2/PB5P/1P1r2PK/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. La tour d2 et le fou b7 des noirs mettent sous pression le pion faible g2. Avant qu'ils n'aient pu mettre leur menace à exécution, trouvez le joli sacrifice de dame qui permet de mater en trois coups !",
+        "[%wrong Nous sommes à la recherche d'un coup violent entraînant une combinaison forcée... Trouvez-le !][%hint Comment ouvrir des lignes d'attaque sur la colonne h ?]",
+        "Bien essayé, mais la dernière rangée noire est protégée par la tour c8... Cherchez encore !",
+        "Les noirs vont simplement pouvoir prendre notre dame avec une attaque gagnante. Trouvez un moyen plus direct d'attaquer le roi noir !",
+        "Quel coup extraordinaire ! Le roi noir est maintenant exposé. Comment l'attaquer sur la colonne h ?",
+        "[%wrong Ce coup ne permet pas de mater en force. Cherchez encore !][%hint Quel est le seul échec\" jouable\" sur la colonne h ?]",
+        "Oups ! Attention aux défenseurs adverses !",
+        "Beau travail ! Le roi noir fuit vers g6. Va-t-il nous échapper ? Pas si vous trouvez le mat en un !",
+        "[%wrong Ce coup ne mate pas en un. Cherchez encore !][%hint Les tours ont besoin de l'aide du fou !] Vous maîtrisez de mieux en mieux les sacrifices de dames. Continuez comme cela !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rq3k/pb4pp/1p6/4RQ2/5R2/PB5P/1P1r2PK/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. La tour d2 et le fou b7 des noirs mettent sous pression le pion faible g2. Avant qu'ils n'aient pu mettre leur menace à exécution, trouvez le joli sacrifice de dame qui permet de mater en trois coups !}\r\n1.Qxh7+\r\n    {[%wrong Nous sommes à la recherche d'un coup violent entraînant une combinaison forcée... Trouvez-le !][%hint Comment ouvrir des lignes d'attaque sur la colonne h ?]}\r\n    (1.Qf8+ $2 Qxf8 {Bien essayé, mais la dernière rangée noire est protégée par la tour c8... Cherchez encore !})\r\n    (1.Qxc8 $2 Rxg2+ {Les noirs vont simplement pouvoir prendre notre dame avec une attaque gagnante. Trouvez un moyen plus direct d'attaquer le roi noir !})\r\n1...Kxh7\r\n    {Quel coup extraordinaire ! Le roi noir est maintenant exposé. Comment l'attaquer sur la colonne h ?}\r\n2.Rh5+\r\n    {[%wrong Ce coup ne permet pas de mater en force. Cherchez encore !][%hint Quel est le seul échec\" jouable\" sur la colonne h ?]}\r\n    (2.Rh4+ $2 Qxh4 {Oups ! Attention aux défenseurs adverses !})\r\n2...Kg6\r\n    {Beau travail ! Le roi noir fuit vers g6. Va-t-il nous échapper ? Pas si vous trouvez le mat en un !}\r\n3.Bf7#\r\n    {[%wrong Ce coup ne mate pas en un. Cherchez encore !][%hint Les tours ont besoin de l'aide du fou !] Vous maîtrisez de mieux en mieux les sacrifices de dames. Continuez comme cela !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "fef90c52-9cea-11e8-b4b5-3d80d98c1b80",
+    "name": "Les sacrifices de dame",
+    "path": "sacrifice-de-dame",
+    "description": "Il n’y a rien de plus satisfaisant que de sacrifier sa dame pour gagner. Donner sa pièce la plus puissante peut sembler dangereux, mais si c’est pour mater, il faut le faire ! Parfois, il est également possible de sacrifier la dame pour obtenir des compensations intéressantes, telles que des pièces mineures extrêmement bien coordonnées.",
+    "glyphName": "piece-simple-queen-off",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-queen-sacrifices.mp4",
+    "fen": "6R1/3Q3p/6bk/2p3p1/2P5/5q1P/r5PK/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pppp1ppp/8/2b1P3/2B3nq/5N2/PP3PPP/RNBQR1K1 b - - 0 1\"]\r\n\r\n{Les noirs ont sacrifié une pièce pour obtenir une puissante attaque. Montrez vos talents tactiques en trouvant la combinaison qui mate le roi blanc !}\r\n1...Qxf2+\r\n    {[%wrong Il existe un coup beaucoup plus fort dans la position. Trouvez-le !][%hint Nos pièces développées ont toutes les yeux rivés sur une case bien particulière... Laquelle ?]}\r\n    (1...Bxf2+ $6 {C'est la bonne idée, mais il existe une manière beaucoup plus forte d'attaquer f2. Laquelle ?})\r\n    (1...Nxf2 $2 2.Nxh4 {Bien essayé, mais après l'échange des dames, nous aurons toujours une pièce de moins dans une position simplifiée... Trouvez une attaque plus tranchante !})\r\n2.Kh1\r\n    {Bien joué ! Le roi blanc se réfugie dans le coin. Matez-le en deux !}\r\n2...Qg1+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Sacrifiez la dame pour enfermer totalement le roi adverse.]}\r\n    (2...Qxe1+ $2 3.Qxe1 {Bien essayé, mais ce coup ne mène pas au mat. Cherchez encore !})\r\n3.Rxg1\r\n    {Fantastique ! Les blancs doivent obligatoirement accepter le sacrifice en prenant avec la tour ou le cavalier. Quel que soit leur choix, nous pouvons désormais mater en un. A vous de jouer !}\r\n3...Nf2#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?] Vos talents offensifs s'améliorent à vue d’œil. Continuez sur cette voie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2kr4/pp1rbppp/2n1p1q1/2p5/2PPQB2/2P2N2/P4PPP/1R1R2K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs mettent une immense pression sur le pion d4, mais leur roi est en grand danger. Profitez de sa position précaire pour le mater en deux !}\r\n1.Qxc6+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Une fois la colonne b ouverte et le cavalier noir supprimé, le fou et la tour pourraient combiner leurs forces sur la case b8...]}\r\n    (1.Rxb7 $2 Qxe4 {Notre dame est en l'air ! Trouvez une idée plus tranchante.})\r\n1...bxc6\r\n    {Un coup puissant ! Si la tour noir avait bloqué l'échec en c7, nous aurions pu jouer Dxc7#. Maintenant que la colonne b est ouverte, utilisons-la pour mater !}\r\n2.Rb8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?] Beau travail. Encore une fois, c'est une puissant sacrifice de dame qui nous permet de mater !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rk2/R4p2/1pp4p/2Pp1p1q/3P3P/1P2QPP1/P4K2/8 w - - 1 37\"]\r\n\r\n{Nous rejoignons une intense bataille opposant les grand-maîtres Vassily Ivanchuk (blancs, au trait) et Magnus Carlsen (noirs). Trouvez l'incroyable sacrifice de dame joué par Ivanchuk permettant d'ouvrir la voie à un pion dont la promotion va décider.}\r\n37.Qxe8+\r\n    {[%wrong Dans cette position, nous sommes à la recherche d'un puissant sacrifice de dame. Trouvez-le !][%hint La tour noir protège (trop) efficacement la dernière rangée. Supprimez-la !]}\r\n    (37.cxb6 $5 Rxe3 {Ce sacrifice de dame très astucieux fonctionne également, mais il donne plus de contre jeu que nécessaire aux noirs, car notre roi va être exposé aux échecs en e3. Trouvez un moyen plus direct de sacrifier cette dame !})\r\n    (37.Qxh6+ $2 Qxh6 {Ce coup sacrifie la dame blanche mais permet aux blancs d'entrer dans une position gagnante... Trouvez un sacrifice plus productif !})\r\n37...Kxe8\r\n    {Quel coup extraordinaire ! Les blancs se débarrassent de la tour qui défendait la dernière rangée. Il est maintenant de créer un pion passé et de l'envoyer à dame !}\r\n38.cxb6\r\n    {[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Nous avons sacrifié la dame pour amener un pion à la promotion... Créez un pion passé !]}\r\n38...f4\r\n    {Bien joué ! Carlsen tente désespérément de créer du contre jeu sur le roi blanc. Poussons notre pion passé !}\r\n39.b7\r\n    {[%wrong Nous voulons pousser notre pion passé.][%hint Poussez le pion b6.]}\r\n39...fxg3+\r\n    {Les noirs tentent encore une fois de compliquer la position. Comment mettre le roi en sécurité ?}\r\n40.Kg2\r\n    {[%hint Un roi n'est jamais mieux protégé que par un pion adverse...] Joli ! Notre roi est idéalement posté devant le pion adverse, et les noirs ne peuvent plus nous empêcher de promouvoir notre pion...}\r\n    (40.Kxg3 $6 Qg6+ {Ce coup est peut-être toujours gagnant, mais il offre beaucoup de contre jeu à la dame noire, qui va pouvoir donner une multitude d'échecs... Mieux vaut jouer plus simplement pour éviter les complications !})\r\n    (40.Kf1 $2 Qxf3+ {Oh non ! La dame noire s'empare du pion non protégé et Carlsen obtient une attaque gagnante. Cherchez encore !})\r\n    (40.Kg1 $5 {Joli coup. Les blancs sont gagnants ! Mais il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n    (40.Ke3 $5 {Monter le roi pourrait s'avérer dangereux, car les noirs ont encore une dame. Cependant, dans ce cas, le roi blanc est en sécurité... Mais il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n    (40.Ke1 $5 {Placer le roi sur une colonne ouverte lorsque l'adverse dispose encore d'une dame est très dangereux. Mais cette fois, les noirs ne peuvent en profiter à temps, et les blancs vont tout de même l'emporter. Cependant, il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n    (40.Ke2 $5 {Placer le roi sur une colonne ouverte lorsque l'adverse dispose encore d'une dame est très dangereux. Mais cette fois, les noirs ne peuvent en profiter à temps, et les blancs vont tout de même l'emporter. Cependant, il serait plus prudent de trouver un coup empêchant le pion g3 de progresser...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6R1/3Q3p/6bk/2p3p1/2P5/5q1P/r5PK/8 w - - 0 1\"]\r\n\r\n{Les noirs ont un bel avantage matériel et menacent de mater en un. Ils s'attendent à voir les blancs abandonner, mais nous n'avons pas dit notre dernier mot... Trouvez l'attaque brutale qui va nous permettre de mater en premier !}\r\n1.Qg7+\r\n    {[%wrong Ce coup n'est pas assez incisif, les noirs vont l'emporter... Cherchez encore !][%hint Dans cette position, quel est le seul échec qui ne perd pas de matériel ?]}\r\n    (1.Rxg6+ $2 hxg6 {Ce sacrifice ne permet pas de mater... Cherchez encore !})\r\n    (1.Qxh7+ $2 Kxh7 {Ce sacrifice ne permet pas de mater... Cherchez encore !})\r\n1...Kh5\r\n    {Joli ! Le roi noir est attiré vers le centre de l'échiquier. Trouvez maintenant un sacrifice puissant menant au mat en deux !}\r\n2.Qxg6+\r\n    {[%wrong Ce coup ne mène pas au mat en deux. Cherchez encore !][%hint Comment coincer le roi noir sur la colonne h et forcer le mat ?]}\r\n    (2.Qxh7+ $2 Bxh7 {Ce sacrifice n'était pas judicieux : Nous perdons le matériel et la partie ! Cherchez encore.})\r\n2...hxg6\r\n    {Magnifique ! Le roi noir est acculé contre la bande, et le sacrifice de la dame a permis d'ouvrir la colonne h. Profitez-en pour mater !}\r\n3.Rh8#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Quel est le seul échec des blancs dans cette position ?] Les noirs pensaient avoir partie gagnée, mais c'était sans compter sur cette formidable attaque de mat sacrificielle. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rq3k/pb4pp/1p6/4RQ2/5R2/PB5P/1P1r2PK/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. La tour d2 et le fou b7 des noirs mettent sous pression le pion faible g2. Avant qu'ils n'aient pu mettre leur menace à exécution, trouvez le joli sacrifice de dame qui permet de mater en trois coups !}\r\n1.Qxh7+\r\n    {[%wrong Nous sommes à la recherche d'un coup violent entraînant une combinaison forcée... Trouvez-le !][%hint Comment ouvrir des lignes d'attaque sur la colonne h ?]}\r\n    (1.Qf8+ $2 Qxf8 {Bien essayé, mais la dernière rangée noire est protégée par la tour c8... Cherchez encore !})\r\n    (1.Qxc8 $2 Rxg2+ {Les noirs vont simplement pouvoir prendre notre dame avec une attaque gagnante. Trouvez un moyen plus direct d'attaquer le roi noir !})\r\n1...Kxh7\r\n    {Quel coup extraordinaire ! Le roi noir est maintenant exposé. Comment l'attaquer sur la colonne h ?}\r\n2.Rh5+\r\n    {[%wrong Ce coup ne permet pas de mater en force. Cherchez encore !][%hint Quel est le seul échec\" jouable\" sur la colonne h ?]}\r\n    (2.Rh4+ $2 Qxh4 {Oups ! Attention aux défenseurs adverses !})\r\n2...Kg6\r\n    {Beau travail ! Le roi noir fuit vers g6. Va-t-il nous échapper ? Pas si vous trouvez le mat en un !}\r\n3.Bf7#\r\n    {[%wrong Ce coup ne mate pas en un. Cherchez encore !][%hint Les tours ont besoin de l'aide du fou !] Vous maîtrisez de mieux en mieux les sacrifices de dames. Continuez comme cela !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "d99efe36-a559-11e8-8f87-67f547523c41",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrez quand sacrifier votre pièce la plus puissante.",
+    "outroText": "Réussir un sacrifice de dame procure des sentiments incroyables.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "path": "les-coups-forces",
+      "title": "Les coups forcés",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/d99efe36-a559-11e8-8f87-67f547523c41.45eb0b22.728x410o.b971cb5ae816.png"
+    },
+    "parentId": "83028f00-83b4-11e8-82b0-bf762ec4f99a",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/queen-sacrifices5e620417ee8e3.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/queen-sacrifices-5667eed48312de.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/queen-sacrifices-15ea2417d6888f.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/queen-sacrifices-260be0ac171a30.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 77,
+    "order": 4,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "name": "Les coups forcés",
+      "path": "les-coups-forces",
+      "order": 4
+    }
+  }
+}

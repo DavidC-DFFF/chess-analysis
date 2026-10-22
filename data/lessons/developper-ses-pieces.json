@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-echecs/developper-ses-pieces",
+  "capturedAt": "2026-10-22T13:42:30.307Z",
+  "title": "Développez vos pièces",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g1;color;%23ffaa00;opacity;0.8;square;g1;persistent;true]Développez votre cavalier pour attaquer un pion noir.",
+        "[%hint Comment pouvez-vous déplacer le cavalier g1 vers le centre et menacer de prendre le pion central noir ?][%wrong Les blancs ont plusieurs options, mais on nous demande de développer le cavalier de l'aile roi sur la meilleure case. Essayons de trouver ce coup.] Excellent choix ! C'est de loin le coup le plus populaire chez les meilleurs joueurs dans cette position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286572913192971\"]\r\n\r\n{[%c_highlight g1;color;%23ffaa00;opacity;0.8;square;g1;persistent;true]Développez votre cavalier pour attaquer un pion noir.} 1. Nf3 {[%hint Comment pouvez-vous déplacer le cavalier g1 vers le centre et menacer de prendre le pion central noir ?][%wrong Les blancs ont plusieurs options, mais on nous demande de développer le cavalier de l'aile roi sur la meilleure case. Essayons de trouver ce coup.] Excellent choix ! C'est de loin le coup le plus populaire chez les meilleurs joueurs dans cette position.} *"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c6e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c6;to;e5;persistent;true] Comment les noirs peuvent-ils développer un cavalier pour défendre le pion ?",
+        "[%hint Comment pouvez-vous développer un cavalier vers le centre et protéger le pion ?][%wrong Ce coup ne développe pas une pièce tout en protégeant le pion. Trouvons un coup de cavalier plus naturel qui protège le pion.] Un coup magnifique ! Les noirs développent un cavalier vers le centre et protègent le pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286573173379105\"]\r\n\r\n{[%c_arrow c6e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c6;to;e5;persistent;true] Comment les noirs peuvent-ils développer un cavalier pour défendre le pion ?} 1... Nc6 {[%hint Comment pouvez-vous développer un cavalier vers le centre et protéger le pion ?][%wrong Ce coup ne développe pas une pièce tout en protégeant le pion. Trouvons un coup de cavalier plus naturel qui protège le pion.] Un coup magnifique ! Les noirs développent un cavalier vers le centre et protègent le pion.} *"
+    },
+    {
+      "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f1;color;%23ffaa00;opacity;0.8;square;f1;persistent;true,e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true,b5;color;%23ffaa00;opacity;0.8;square;b5;persistent;true,a6;color;%23ffaa00;opacity;0.8;square;a6;persistent;true]Développez votre fou pour attaquer un cavalier noir.",
+        "[%hint Développez un fou pour viser un cavalier noir.][%wrong Développez votre fou de l'aile roi pour attaquer un cavalier noir sur une case blanche.] Bien joué ! Les blancs sont prêts à roquer.",
+        "Votre fou se fait prendre ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight f1;color;%23ffaa00;opacity;0.8;square;f1;persistent;true,e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true,b5;color;%23ffaa00;opacity;0.8;square;b5;persistent;true,a6;color;%23ffaa00;opacity;0.8;square;a6;persistent;true]Développez votre fou pour attaquer un cavalier noir.} 1. Bb5 {[%hint Développez un fou pour viser un cavalier noir.][%wrong Développez votre fou de l'aile roi pour attaquer un cavalier noir sur une case blanche.] Bien joué ! Les blancs sont prêts à roquer.} (1. Ba6? bxa6 {Votre fou se fait prendre ici.}) *"
+    },
+    {
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Comment libérer votre fou dame pour le développer ?",
+        "[%hint Poussez un pion pour libérer votre fou non développé.] [%wrong Il y a un meilleur coup pour libérer votre fou non développé. Essayez de trouver une bonne poussée de pion.]Bon choix ! Vous pourrez développer le fou au coup suivant.",
+        "Les noirs gagnent un pion. Essayez de trouver une poussée de pion plus sûre pour libérer votre fou de l'aile dame.",
+        "Les noirs gagnent un pion. Essayez de trouver une poussée de pion plus sûre pour libérer votre fou de l'aile dame.",
+        "Il vaut mieux pousser un pion central pour libérer votre fou de l'aile dame. Comment faire ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286574434009156\"]\r\n\r\n{[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Comment libérer votre fou dame pour le développer ?} 5. d3 {[%hint Poussez un pion pour libérer votre fou non développé.] [%wrong Il y a un meilleur coup pour libérer votre fou non développé. Essayez de trouver une bonne poussée de pion.]Bon choix ! Vous pourrez développer le fou au coup suivant.} (5. d4 $2 exd4 {Les noirs gagnent un pion. Essayez de trouver une poussée de pion plus sûre pour libérer votre fou de l'aile dame.}) (5. b4 $2 Bxb4 {Les noirs gagnent un pion. Essayez de trouver une poussée de pion plus sûre pour libérer votre fou de l'aile dame.}) (5. b3 $2 {Il vaut mieux pousser un pion central pour libérer votre fou de l'aile dame. Comment faire ?}) *"
+    },
+    {
+      "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 6",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true]Développez votre fou et attaquez le cavalier !",
+        "[%hint Trouvez un moyen pour que votre fou de cases noires attaque un cavalier.] [%wrong Il y a un meilleur coup. Essayez d'utiliser votre fou de cases noires pour attaquer un cavalier.]  Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 6\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286574434009156\"]\r\n\r\n{[%c_highlight c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true]Développez votre fou et attaquez le cavalier !} 6. Bg5 {[%hint Trouvez un moyen pour que votre fou de cases noires attaque un cavalier.] [%wrong Il y a un meilleur coup. Essayez d'utiliser votre fou de cases noires pour attaquer un cavalier.]  Bravo !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c15a-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Développez vos pièces",
+    "path": "developper-ses-pieces",
+    "description": "Prenez le contrôle de la partie en développant rapidement vos pièces sur des cases où elles contrôlent le centre.",
+    "glyphName": "board-badge-arrow-top",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286572913192971\"]\r\n\r\n{[%c_highlight g1;color;%23ffaa00;opacity;0.8;square;g1;persistent;true]Développez votre cavalier pour attaquer un pion noir.} 1. Nf3 {[%hint Comment pouvez-vous déplacer le cavalier g1 vers le centre et menacer de prendre le pion central noir ?][%wrong Les blancs ont plusieurs options, mais on nous demande de développer le cavalier de l'aile roi sur la meilleure case. Essayons de trouver ce coup.] Excellent choix ! C'est de loin le coup le plus populaire chez les meilleurs joueurs dans cette position.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286573173379105\"]\r\n\r\n{[%c_arrow c6e5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;c6;to;e5;persistent;true] Comment les noirs peuvent-ils développer un cavalier pour défendre le pion ?} 1... Nc6 {[%hint Comment pouvez-vous développer un cavalier vers le centre et protéger le pion ?][%wrong Ce coup ne développe pas une pièce tout en protégeant le pion. Trouvons un coup de cavalier plus naturel qui protège le pion.] Un coup magnifique ! Les noirs développent un cavalier vers le centre et protègent le pion.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 1\"]\r\n\r\n{[%c_highlight f1;color;%23ffaa00;opacity;0.8;square;f1;persistent;true,e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,d3;color;%23ffaa00;opacity;0.8;square;d3;persistent;true,c4;color;%23ffaa00;opacity;0.8;square;c4;persistent;true,b5;color;%23ffaa00;opacity;0.8;square;b5;persistent;true,a6;color;%23ffaa00;opacity;0.8;square;a6;persistent;true]Développez votre fou pour attaquer un cavalier noir.} 1. Bb5 {[%hint Développez un fou pour viser un cavalier noir.][%wrong Développez votre fou de l'aile roi pour attaquer un cavalier noir sur une case blanche.] Bien joué ! Les blancs sont prêts à roquer.} (1. Ba6? bxa6 {Votre fou se fait prendre ici.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286574434009156\"]\r\n\r\n{[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Comment libérer votre fou dame pour le développer ?} 5. d3 {[%hint Poussez un pion pour libérer votre fou non développé.] [%wrong Il y a un meilleur coup pour libérer votre fou non développé. Essayez de trouver une bonne poussée de pion.]Bon choix ! Vous pourrez développer le fou au coup suivant.} (5. d4 $2 exd4 {Les noirs gagnent un pion. Essayez de trouver une poussée de pion plus sûre pour libérer votre fou de l'aile dame.}) (5. b4 $2 Bxb4 {Les noirs gagnent un pion. Essayez de trouver une poussée de pion plus sûre pour libérer votre fou de l'aile dame.}) (5. b3 $2 {Il vaut mieux pousser un pion central pour libérer votre fou de l'aile dame. Comment faire ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 6\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286574434009156\"]\r\n\r\n{[%c_highlight c1;color;%23ffaa00;opacity;0.8;square;c1;persistent;true]Développez votre fou et attaquez le cavalier !} 6. Bg5 {[%hint Trouvez un moyen pour que votre fou de cases noires attaque un cavalier.] [%wrong Il y a un meilleur coup. Essayez d'utiliser votre fou de cases noires pour attaquer un cavalier.]  Bravo !} *"
+    ],
+    "courseId": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à développer vos pièces pour contrôler le centre.",
+    "outroText": "Développer ses pièces est l'un des principes fondamentaux des échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "ouvertures-echecs",
+      "title": "Ouvertures"
+    },
+    "parentId": "262a000a-1d7c-11f1-b983-abe9dd85fdc8"
+  },
+  "curriculum": {
+    "number": 29,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Ouvertures",
+      "path": "ouvertures-echecs",
+      "order": 1
+    }
+  }
+}

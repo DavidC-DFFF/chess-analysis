@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/controler-la-septieme-rangee",
+  "capturedAt": "2026-10-22T12:23:50.053Z",
+  "title": "Contrôler la septième rangée",
+  "exercises": [
+    {
+      "fen": "1r2r1k1/1pR3pp/p7/P7/4P3/7P/6P1/5RK1 w - - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une très bonne position. Trouvez le coup qui va gagner tout le matériel noir sur la septième rangée !",
+        "[%wrong Ce coup ne nous prépare pas à gagner le matériel noir sur la septième rangée. Cherchez encore !][%hint Une tour sur la septième, c'est une bonne chose. Deux, c'est encore mieux !]",
+        "Le cochon est dans le maïs ! Quel pion prendre en premier ?",
+        "[%wrong Ce coup ne gagne pas un pion sur la septième rangée. Cherchez encore !][%hint Prenez un pion tout en donnant échec !]",
+        "Pas d'impatience ! Dans cette variante, les noirs parviennent à défendre. Donnons d'abord un échec.",
+        "Bien vu ! Prenons maintenant un deuxième pion tout en menaçant mat !",
+        "[%wrong Ce coup ne gagne pas un pion en menaçant mat. Cherchez encore !][%hint Comment prendre un pion tout en menaçant mat en h8 ?]",
+        "Ce coup est également gagnant, mais plus compliqué. Pourquoi ne pas prendre d'abord le pion h en menaçant mat ?",
+        "Beau travail ! Les blancs prennent le pion h et menacent de mater en h8. Continuez le festin !",
+        "[%wrong Ce coup ne mange pas le dernier pion noir de la septième rangée. Essayez encore !][%hint Prenez le pion b7.] Bravo ! Vos tours sur la septième ont complètement détruit la position adverse. Votre position est gagnante !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2r1k1/1pR3pp/p7/P7/4P3/7P/6P1/5RK1 w - - 1 1\"]\r\n\r\n{Les blancs ont une très bonne position. Trouvez le coup qui va gagner tout le matériel noir sur la septième rangée !}\r\n1.Rff7\r\n    {[%wrong Ce coup ne nous prépare pas à gagner le matériel noir sur la septième rangée. Cherchez encore !][%hint Une tour sur la septième, c'est une bonne chose. Deux, c'est encore mieux !]}\r\n1...Rxe4\r\n    {Le cochon est dans le maïs ! Quel pion prendre en premier ?}\r\n2.Rxg7+\r\n    {[%wrong Ce coup ne gagne pas un pion sur la septième rangée. Cherchez encore !][%hint Prenez un pion tout en donnant échec !]}\r\n    (2.Rxb7 $2 Rxb7 {Pas d'impatience ! Dans cette variante, les noirs parviennent à défendre. Donnons d'abord un échec.})\r\n2...Kf8\r\n    {Bien vu ! Prenons maintenant un deuxième pion tout en menaçant mat !}\r\n3.Rxh7\r\n    {[%wrong Ce coup ne gagne pas un pion en menaçant mat. Cherchez encore !][%hint Comment prendre un pion tout en menaçant mat en h8 ?]}\r\n    (3.Rxb7 $6 Rxb7 {Ce coup est également gagnant, mais plus compliqué. Pourquoi ne pas prendre d'abord le pion h en menaçant mat ?})\r\n3...Kg8\r\n    {Beau travail ! Les blancs prennent le pion h et menacent de mater en h8. Continuez le festin !}\r\n4.Rxb7\r\n    {[%wrong Ce coup ne mange pas le dernier pion noir de la septième rangée. Essayez encore !][%hint Prenez le pion b7.] Bravo ! Vos tours sur la septième ont complètement détruit la position adverse. Votre position est gagnante !}\r\n*"
+    },
+    {
+      "fen": "3R4/4R1pk/7p/7P/P2P2P1/8/1r3r2/4K3 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont deux pions de moins, mais deux tours sur la seconde rangée. Trouvez le coup qui menace mat !",
+        "[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Où placer la tour pour qu'elle menace un mat de l'escalier ?] Bien vu ! Les blancs n'ont plus aucun moyen de parer le mat. Victoire noire.",
+        "Bien essayé, mais nous n'avons pas mieux que la nulle dans cette variante. Trouvez mieux !",
+        "Bien essayé, mais nous n'avons pas mieux que la nulle dans cette variante. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3R4/4R1pk/7p/7P/P2P2P1/8/1r3r2/4K3 b - - 0 1\"]\r\n\r\n{Les noirs ont deux pions de moins, mais deux tours sur la seconde rangée. Trouvez le coup qui menace mat !}\r\n1...Rh2\r\n    {[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Où placer la tour pour qu'elle menace un mat de l'escalier ?] Bien vu ! Les blancs n'ont plus aucun moyen de parer le mat. Victoire noire.}\r\n    (1...Rg2 $2 2.Kf1 {Bien essayé, mais nous n'avons pas mieux que la nulle dans cette variante. Trouvez mieux !})\r\n    (1...Rfc2 $2 2.Kf1 {Bien essayé, mais nous n'avons pas mieux que la nulle dans cette variante. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "1k6/1p2R1b1/p7/8/8/5BP1/P1r4r/1K1R4 b - - 1 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux camps attaquent le roi adverse. Trouvez le seul coup gagnant pour les noirs !",
+        "[%wrong Pour gagner la partie, il va falloir trouver une idée plus tranchante... Cherchez encore !][%hint Les tours et le fou noirs sont tous rivés sur une case bien précise de la deuxième rangée...]",
+        "Bien essayé, mais les blancs matent avant nous ! Il faut trouver une idée plus tranchante. Cherchez encore !",
+        "Joliment fait ! Trouvez maintenant le mat en deux !",
+        "[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Cherchez le double échec !]",
+        "Et voilà ! Ce double échec force le roi blanc à aller en b1. Matez-le !",
+        "[%wrong Non, ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo, les noirs l'emportent !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/1p2R1b1/p7/8/8/5BP1/P1r4r/1K1R4 b - - 1 2\"]\r\n\r\n{Les deux camps attaquent le roi adverse. Trouvez le seul coup gagnant pour les noirs !}\r\n2...Rb2+\r\n    {[%wrong Pour gagner la partie, il va falloir trouver une idée plus tranchante... Cherchez encore !][%hint Les tours et le fou noirs sont tous rivés sur une case bien précise de la deuxième rangée...]}\r\n    (2...Rxa2 $2 3.Rd8+ {Bien essayé, mais les blancs matent avant nous ! Il faut trouver une idée plus tranchante. Cherchez encore !})\r\n3.Ka1\r\n    {Joliment fait ! Trouvez maintenant le mat en deux !}\r\n3...Rxa2+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Cherchez le double échec !]}\r\n4.Kb1\r\n    {Et voilà ! Ce double échec force le roi blanc à aller en b1. Matez-le !}\r\n4...Ra1#\r\n    {[%wrong Non, ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo, les noirs l'emportent !}\r\n*"
+    },
+    {
+      "fen": "2b5/Rp3ppk/3rp2p/8/3B4/1P2P1P1/2r2P1P/4R1K1 b - - 0 27",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs aimeraient mettre une seconde tour sur la deuxième rangée. Comment faire ?",
+        "[%wrong Ce coup ne nous permet pas de mettre une tour sur la seconde rangée au prochain coup. Cherchez encore !][%hint Le fou des blancs bloque le passage. Comment ouvrir la colonne d en force ?]",
+        "C'est la bonne idée, mais préparer ...e5 laisse le temps aux blancs de défendre par Tc5. Ouvrons la colonne d au plus vite !",
+        "Bien vu ! Les noirs sacrifient un pion pour ouvrir la colonne d en force. Il est temps d'envahir la deuxième rangée !",
+        "[%wrong Ce coup ne place pas une seconde tour sur la deuxième rangée. Cherchez encore !][%hint La colonne d est désormais ouverte, profitez-en !]",
+        "En sacrifiant un pion, les noirs ont rendu les pièces blanches passives. Le fou veut maintenant rejoindre l'attaque. Quelle est sa meilleure case ?",
+        "[%wrong Bien essayé, mais il y a plus fort...][%hint La tour f1 protège le point faible f2. Attaquons-la !] Beau travail ! Le fou noir attaque la tour blanche. Quelle que soit la réponse, les noirs vont gagner du matériel au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b5/Rp3ppk/3rp2p/8/3B4/1P2P1P1/2r2P1P/4R1K1 b - - 0 27\"]\r\n\r\n{Les noirs aimeraient mettre une seconde tour sur la deuxième rangée. Comment faire ?}\r\n27...e5\r\n    {[%wrong Ce coup ne nous permet pas de mettre une tour sur la seconde rangée au prochain coup. Cherchez encore !][%hint Le fou des blancs bloque le passage. Comment ouvrir la colonne d en force ?]}\r\n    (27...f6 $6 28.Ra5 {C'est la bonne idée, mais préparer ...e5 laisse le temps aux blancs de défendre par Tc5. Ouvrons la colonne d au plus vite !})\r\n28.Bxe5\r\n    {Bien vu ! Les noirs sacrifient un pion pour ouvrir la colonne d en force. Il est temps d'envahir la deuxième rangée !}\r\n28...Rdd2\r\n    {[%wrong Ce coup ne place pas une seconde tour sur la deuxième rangée. Cherchez encore !][%hint La colonne d est désormais ouverte, profitez-en !]}\r\n29.Rf1\r\n    {En sacrifiant un pion, les noirs ont rendu les pièces blanches passives. Le fou veut maintenant rejoindre l'attaque. Quelle est sa meilleure case ?}\r\n29...Bh3\r\n    {[%wrong Bien essayé, mais il y a plus fort...][%hint La tour f1 protège le point faible f2. Attaquons-la !] Beau travail ! Le fou noir attaque la tour blanche. Quelle que soit la réponse, les noirs vont gagner du matériel au prochain coup.}\r\n*"
+    },
+    {
+      "fen": "r6k/3R3p/8/8/3P4/7P/pr4PK/4R3 w - - 4 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs ont un fort pion passé prêt à devenir une dame au prochain coup. Comment sauver la partie ?",
+        "[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Les tours sur la septième rangée à la rescousse !]",
+        "Bien essayé, mais les noirs gagnent. Trouvez mieux !",
+        "Le combat continue ! Les noirs font une dame, mais les blancs sont sauvés par leurs fortes tours. Trouvez la ressource de nulle !",
+        "[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Gagnez du matériel tout en donnant échec.]",
+        "Parfait. Continuez à faire échec !",
+        "[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Jouez la même tour !]",
+        "C'est la bonne idée, mais la mauvaise tour. Le roi noir va s'échapper vers l'aile dame pour éviter les échecs et gagner la partie. Trouvez mieux !",
+        "Et voilà ! Tant que les blancs donnent échec avec cette tour et que l'autre reste en d7, le roi noir ne peut éviter l'échec perpétuel. Beau sauvetage !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r6k/3R3p/8/8/3P4/7P/pr4PK/4R3 w - - 4 3\"]\r\n\r\n{Trait aux blancs. Les noirs ont un fort pion passé prêt à devenir une dame au prochain coup. Comment sauver la partie ?}\r\n3.Ree7\r\n    {[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Les tours sur la septième rangée à la rescousse !]}\r\n    (3.Ra1 $2 Rb1 {Bien essayé, mais les noirs gagnent. Trouvez mieux !})\r\n3...a1=Q\r\n    {Le combat continue ! Les noirs font une dame, mais les blancs sont sauvés par leurs fortes tours. Trouvez la ressource de nulle !}\r\n4.Rxh7+\r\n    {[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Gagnez du matériel tout en donnant échec.]}\r\n4...Kg8\r\n    {Parfait. Continuez à faire échec !}\r\n5.Rhg7+\r\n    {[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Jouez la même tour !]}\r\n    (5.Rdg7+ $2 Kf8 {C'est la bonne idée, mais la mauvaise tour. Le roi noir va s'échapper vers l'aile dame pour éviter les échecs et gagner la partie. Trouvez mieux !})\r\n5...Kf8\r\n    {Et voilà ! Tant que les blancs donnent échec avec cette tour et que l'autre reste en d7, le roi noir ne peut éviter l'échec perpétuel. Beau sauvetage !}\r\n*"
+    },
+    {
+      "fen": "3r1rk1/p1R1R2p/4npp1/1p6/q5b1/5N2/P3QPPP/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont deux tours sur la septième, mais l'une d'entre elles est attaquée et la première rangée est faible. Trouvez le seul coup gagnant !",
+        "[%wrong Cette idée ne fonctionne pas, cherchez encore !][%hint Tg7+ materait en force sans ce maudit cavalier e6...]",
+        "Attention aux ressources défensives de l'adversaire ! Cherchez encore.",
+        "Bien essayé, mais nous n'avons pas le temps : notre première rangée est trop faible ! Cherchez encore.",
+        "Joli ! Les blancs sacrifient la dame pour éliminer un défenseur clef. Il est temps de trouver le mat en trois !",
+        "[%wrong Il va falloir trouver une série de coups forcés pour l'emporter, car les noirs menacent toujours notre dernière rangée ! Cherchez encore.][%hint La case g7 n'est plus protégée, profitions-en !]",
+        "Les tours sur la septième rangée révèlent leur puissance ! Continuez sur cette voie.",
+        "[%wrong Il va falloir trouver une série de coups forcés pour l'emporter, car les noirs menacent toujours notre dernière rangée ! Cherchez encore.][%hint Continuez à attaquez le roi !]",
+        "Et voilà ! Trouvez maintenant le mat en un.",
+        "[%wrong Ce n'est pas mat, cherchez encore !][%hint Trouvez le mat en un.] Vous savez utiliser les tours sur la septième rangée. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/p1R1R2p/4npp1/1p6/q5b1/5N2/P3QPPP/6K1 w - - 0 1\"]\r\n\r\n{Les blancs ont deux tours sur la septième, mais l'une d'entre elles est attaquée et la première rangée est faible. Trouvez le seul coup gagnant !}\r\n1.Qxe6+\r\n    {[%wrong Cette idée ne fonctionne pas, cherchez encore !][%hint Tg7+ materait en force sans ce maudit cavalier e6...]}\r\n    (1.Rg7+ $2 Nxg7 {Attention aux ressources défensives de l'adversaire ! Cherchez encore.})\r\n    (1.Rxa7 $2 Rd1+ {Bien essayé, mais nous n'avons pas le temps : notre première rangée est trop faible ! Cherchez encore.})\r\n1...Bxe6\r\n    {Joli ! Les blancs sacrifient la dame pour éliminer un défenseur clef. Il est temps de trouver le mat en trois !}\r\n2.Rg7+\r\n    {[%wrong Il va falloir trouver une série de coups forcés pour l'emporter, car les noirs menacent toujours notre dernière rangée ! Cherchez encore.][%hint La case g7 n'est plus protégée, profitions-en !]}\r\n2...Kh8\r\n    {Les tours sur la septième rangée révèlent leur puissance ! Continuez sur cette voie.}\r\n3.Rxh7+\r\n    {[%wrong Il va falloir trouver une série de coups forcés pour l'emporter, car les noirs menacent toujours notre dernière rangée ! Cherchez encore.][%hint Continuez à attaquez le roi !]}\r\n3...Kg8\r\n    {Et voilà ! Trouvez maintenant le mat en un.}\r\n4.Rcg7#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Trouvez le mat en un.] Vous savez utiliser les tours sur la septième rangée. Bien joué !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "dcaae470-9cec-11e8-ae6c-dbcf3f8ad157",
+    "name": "Contrôler la septième rangée",
+    "path": "controler-la-septieme-rangee",
+    "description": "L’une des plus puissantes batteries consiste à placer ses deux tours sur la septième rangée. Elles peuvent prendre des pions, restreindre les pièces adverses, et parfois même mater.",
+    "glyphName": "game-tactic-pig",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-pigs-on-the-7th-d8c.mp4",
+    "fen": "2b5/Rp3ppk/7p/4B3/8/1P2P1P1/2rr1P1P/4R1K1 w - - 1 29",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2r1k1/1pR3pp/p7/P7/4P3/7P/6P1/5RK1 w - - 1 1\"]\r\n\r\n{Les blancs ont une très bonne position. Trouvez le coup qui va gagner tout le matériel noir sur la septième rangée !}\r\n1.Rff7\r\n    {[%wrong Ce coup ne nous prépare pas à gagner le matériel noir sur la septième rangée. Cherchez encore !][%hint Une tour sur la septième, c'est une bonne chose. Deux, c'est encore mieux !]}\r\n1...Rxe4\r\n    {Le cochon est dans le maïs ! Quel pion prendre en premier ?}\r\n2.Rxg7+\r\n    {[%wrong Ce coup ne gagne pas un pion sur la septième rangée. Cherchez encore !][%hint Prenez un pion tout en donnant échec !]}\r\n    (2.Rxb7 $2 Rxb7 {Pas d'impatience ! Dans cette variante, les noirs parviennent à défendre. Donnons d'abord un échec.})\r\n2...Kf8\r\n    {Bien vu ! Prenons maintenant un deuxième pion tout en menaçant mat !}\r\n3.Rxh7\r\n    {[%wrong Ce coup ne gagne pas un pion en menaçant mat. Cherchez encore !][%hint Comment prendre un pion tout en menaçant mat en h8 ?]}\r\n    (3.Rxb7 $6 Rxb7 {Ce coup est également gagnant, mais plus compliqué. Pourquoi ne pas prendre d'abord le pion h en menaçant mat ?})\r\n3...Kg8\r\n    {Beau travail ! Les blancs prennent le pion h et menacent de mater en h8. Continuez le festin !}\r\n4.Rxb7\r\n    {[%wrong Ce coup ne mange pas le dernier pion noir de la septième rangée. Essayez encore !][%hint Prenez le pion b7.] Bravo ! Vos tours sur la septième ont complètement détruit la position adverse. Votre position est gagnante !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3R4/4R1pk/7p/7P/P2P2P1/8/1r3r2/4K3 b - - 0 1\"]\r\n\r\n{Les noirs ont deux pions de moins, mais deux tours sur la seconde rangée. Trouvez le coup qui menace mat !}\r\n1...Rh2\r\n    {[%wrong Ce coup ne menace pas mat. Cherchez encore !][%hint Où placer la tour pour qu'elle menace un mat de l'escalier ?] Bien vu ! Les blancs n'ont plus aucun moyen de parer le mat. Victoire noire.}\r\n    (1...Rg2 $2 2.Kf1 {Bien essayé, mais nous n'avons pas mieux que la nulle dans cette variante. Trouvez mieux !})\r\n    (1...Rfc2 $2 2.Kf1 {Bien essayé, mais nous n'avons pas mieux que la nulle dans cette variante. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/1p2R1b1/p7/8/8/5BP1/P1r4r/1K1R4 b - - 1 2\"]\r\n\r\n{Les deux camps attaquent le roi adverse. Trouvez le seul coup gagnant pour les noirs !}\r\n2...Rb2+\r\n    {[%wrong Pour gagner la partie, il va falloir trouver une idée plus tranchante... Cherchez encore !][%hint Les tours et le fou noirs sont tous rivés sur une case bien précise de la deuxième rangée...]}\r\n    (2...Rxa2 $2 3.Rd8+ {Bien essayé, mais les blancs matent avant nous ! Il faut trouver une idée plus tranchante. Cherchez encore !})\r\n3.Ka1\r\n    {Joliment fait ! Trouvez maintenant le mat en deux !}\r\n3...Rxa2+\r\n    {[%wrong Ce coup ne mate pas en deux. Cherchez encore !][%hint Cherchez le double échec !]}\r\n4.Kb1\r\n    {Et voilà ! Ce double échec force le roi blanc à aller en b1. Matez-le !}\r\n4...Ra1#\r\n    {[%wrong Non, ce coup ne mate pas, cherchez encore !][%hint Trouvez le mat en un !] Bravo, les noirs l'emportent !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2b5/Rp3ppk/3rp2p/8/3B4/1P2P1P1/2r2P1P/4R1K1 b - - 0 27\"]\r\n\r\n{Les noirs aimeraient mettre une seconde tour sur la deuxième rangée. Comment faire ?}\r\n27...e5\r\n    {[%wrong Ce coup ne nous permet pas de mettre une tour sur la seconde rangée au prochain coup. Cherchez encore !][%hint Le fou des blancs bloque le passage. Comment ouvrir la colonne d en force ?]}\r\n    (27...f6 $6 28.Ra5 {C'est la bonne idée, mais préparer ...e5 laisse le temps aux blancs de défendre par Tc5. Ouvrons la colonne d au plus vite !})\r\n28.Bxe5\r\n    {Bien vu ! Les noirs sacrifient un pion pour ouvrir la colonne d en force. Il est temps d'envahir la deuxième rangée !}\r\n28...Rdd2\r\n    {[%wrong Ce coup ne place pas une seconde tour sur la deuxième rangée. Cherchez encore !][%hint La colonne d est désormais ouverte, profitez-en !]}\r\n29.Rf1\r\n    {En sacrifiant un pion, les noirs ont rendu les pièces blanches passives. Le fou veut maintenant rejoindre l'attaque. Quelle est sa meilleure case ?}\r\n29...Bh3\r\n    {[%wrong Bien essayé, mais il y a plus fort...][%hint La tour f1 protège le point faible f2. Attaquons-la !] Beau travail ! Le fou noir attaque la tour blanche. Quelle que soit la réponse, les noirs vont gagner du matériel au prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r6k/3R3p/8/8/3P4/7P/pr4PK/4R3 w - - 4 3\"]\r\n\r\n{Trait aux blancs. Les noirs ont un fort pion passé prêt à devenir une dame au prochain coup. Comment sauver la partie ?}\r\n3.Ree7\r\n    {[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Les tours sur la septième rangée à la rescousse !]}\r\n    (3.Ra1 $2 Rb1 {Bien essayé, mais les noirs gagnent. Trouvez mieux !})\r\n3...a1=Q\r\n    {Le combat continue ! Les noirs font une dame, mais les blancs sont sauvés par leurs fortes tours. Trouvez la ressource de nulle !}\r\n4.Rxh7+\r\n    {[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Gagnez du matériel tout en donnant échec.]}\r\n4...Kg8\r\n    {Parfait. Continuez à faire échec !}\r\n5.Rhg7+\r\n    {[%wrong Ce coup ne sauve pas la position blanche. Cherchez encore !][%hint Jouez la même tour !]}\r\n    (5.Rdg7+ $2 Kf8 {C'est la bonne idée, mais la mauvaise tour. Le roi noir va s'échapper vers l'aile dame pour éviter les échecs et gagner la partie. Trouvez mieux !})\r\n5...Kf8\r\n    {Et voilà ! Tant que les blancs donnent échec avec cette tour et que l'autre reste en d7, le roi noir ne peut éviter l'échec perpétuel. Beau sauvetage !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/p1R1R2p/4npp1/1p6/q5b1/5N2/P3QPPP/6K1 w - - 0 1\"]\r\n\r\n{Les blancs ont deux tours sur la septième, mais l'une d'entre elles est attaquée et la première rangée est faible. Trouvez le seul coup gagnant !}\r\n1.Qxe6+\r\n    {[%wrong Cette idée ne fonctionne pas, cherchez encore !][%hint Tg7+ materait en force sans ce maudit cavalier e6...]}\r\n    (1.Rg7+ $2 Nxg7 {Attention aux ressources défensives de l'adversaire ! Cherchez encore.})\r\n    (1.Rxa7 $2 Rd1+ {Bien essayé, mais nous n'avons pas le temps : notre première rangée est trop faible ! Cherchez encore.})\r\n1...Bxe6\r\n    {Joli ! Les blancs sacrifient la dame pour éliminer un défenseur clef. Il est temps de trouver le mat en trois !}\r\n2.Rg7+\r\n    {[%wrong Il va falloir trouver une série de coups forcés pour l'emporter, car les noirs menacent toujours notre dernière rangée ! Cherchez encore.][%hint La case g7 n'est plus protégée, profitions-en !]}\r\n2...Kh8\r\n    {Les tours sur la septième rangée révèlent leur puissance ! Continuez sur cette voie.}\r\n3.Rxh7+\r\n    {[%wrong Il va falloir trouver une série de coups forcés pour l'emporter, car les noirs menacent toujours notre dernière rangée ! Cherchez encore.][%hint Continuez à attaquez le roi !]}\r\n3...Kg8\r\n    {Et voilà ! Trouvez maintenant le mat en un.}\r\n4.Rcg7#\r\n    {[%wrong Ce n'est pas mat, cherchez encore !][%hint Trouvez le mat en un.] Vous savez utiliser les tours sur la septième rangée. Bien joué !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Quid des tours ? Dans quelle position peuvent-elles dominer ?",
+    "outroText": "C'est ça ! Une tour active dans la 7ème rangée est souvent synonyme d'avantage.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "b917667c-83b6-11e8-a32d-1b6248713bd2",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pigs-on-the-7th-rank5e7ab3ff13300.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pigs-on-the-7th-rank-15ea23f7a8b744.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pigs-on-the-7th-rank-26128e9806cacb.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 110,
+    "order": 9,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

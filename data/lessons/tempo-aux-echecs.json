@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-avancee/tempo-aux-echecs",
+  "capturedAt": "2026-10-22T08:24:45.5694522Z",
+  "title": "Tempo",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/8/3QP3/8/PPP2PPP/RNB1KBNR b KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true]Quand c'est possible, il vaut mieux se développer « avec tempo », c'est-à-dire en créant une menace en même temps. Ainsi, votre adversaire doit perdre du temps à répondre à votre menace. Comment les noirs peuvent-ils se développer avec tempo ?",
+        "[%hint Pouvez-vous développer une pièce pour attaquer la dame ?][%wrong Réessaye, pense au tempo.] Oui, la dame doit maintenant battre en retraite.",
+        "Belle menace sur la dame, mais cela ne développe pas une pièce comme un cavalier, un fou ou une tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/8/3QP3/8/PPP2PPP/RNB1KBNR b KQ - 0 1\"]\r\n\r\n{[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true]Quand c'est possible, il vaut mieux se développer « avec tempo », c'est-à-dire en créant une menace en même temps. Ainsi, votre adversaire doit perdre du temps à répondre à votre menace. Comment les noirs peuvent-ils se développer avec tempo ?} 1... Nc6 {[%hint Pouvez-vous développer une pièce pour attaquer la dame ?][%wrong Réessaye, pense au tempo.] Oui, la dame doit maintenant battre en retraite.} (1... c5? {Belle menace sur la dame, mais cela ne développe pas une pièce comme un cavalier, un fou ou une tour.}) *"
+    },
+    {
+      "fen": "rnbqk2r/ppp1bppp/3p4/8/3Pn3/5N2/PPP2PPP/RNBQKB1R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils développer un fou avec tempo ?",
+        "[%hint Pouvez-vous attaquer le cavalier en développant une pièce ?][%wrong Réessaye, avec tempo.] Exactement, le cavalier doit maintenant battre en retraite.",
+        "Vous êtes maintenant forcé de doubler vos pions.",
+        "Cette attaque n'était pas un développement avec tempo."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp1bppp/3p4/8/3Pn3/5N2/PPP2PPP/RNBQKB1R w KQ - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils développer un fou avec tempo ?} 1. Bd3 {[%hint Pouvez-vous attaquer le cavalier en développant une pièce ?][%wrong Réessaye, avec tempo.] Exactement, le cavalier doit maintenant battre en retraite.} (1. Nc3? Nxc3 {Vous êtes maintenant forcé de doubler vos pions.}) (1. Nbd2? Nxd2 {Cette attaque n'était pas un développement avec tempo.}) *"
+    },
+    {
+      "fen": "r1b2rk1/ppqpbppp/2n1pn2/8/4P3/1NN3P1/PPP2PBP/R1BQK2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils développer une pièce avec tempo ?",
+        "[%hint Pouvez-vous menacer la dame ?][%wrong Réessayez, y a-t-il une pièce lourde que vous pouvez attaquer ?] Oui ! La dame doit maintenant bouger.",
+        "Cela attaque la dame sans développer de pièce. Réessaye.",
+        "Votre pièce se fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppqpbppp/2n1pn2/8/4P3/1NN3P1/PPP2PBP/R1BQK2R w KQ - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils développer une pièce avec tempo ?} 1. Bf4 {[%hint Pouvez-vous menacer la dame ?][%wrong Réessayez, y a-t-il une pièce lourde que vous pouvez attaquer ?] Oui ! La dame doit maintenant bouger.} (1. Nb5? {Cela attaque la dame sans développer de pièce. Réessaye.}) (1. Nd5? exd5 {Votre pièce se fait prendre.}) *"
+    },
+    {
+      "fen": "r3k1nr/pp1bbppp/4p3/3pP3/3q4/3B4/PP1N1PPP/R1BQ1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils mieux centraliser une pièce avec tempo sur la dame noire ?",
+        "[%hint Pouvez-vous développer votre cavalier ?][%wrong Essaye à nouveau d'attaquer la dame en développant une pièce.] Oui, joli tempo sur la dame.",
+        "Presque, mais la dame peut s'échapper en prenant un pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/pp1bbppp/4p3/3pP3/3q4/3B4/PP1N1PPP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils mieux centraliser une pièce avec tempo sur la dame noire ?} 1. Nf3 {[%hint Pouvez-vous développer votre cavalier ?][%wrong Essaye à nouveau d'attaquer la dame en développant une pièce.] Oui, joli tempo sur la dame.} (1. Nb3? Qxe5 {Presque, mais la dame peut s'échapper en prenant un pion.}) *"
+    },
+    {
+      "fen": "r3k1nr/pp1bbppp/4p3/2qp4/8/3B1N2/PP3PPP/R1BQ1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Continuons la partie. Comment les blancs peuvent-ils développer une autre pièce avec tempo ?",
+        "[%hint Pouvez-vous attaquer la dame tout en développant une pièce ?][%wrong Réessaye.] Oui, joli tempo sur la dame.",
+        "Votre pion se fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/pp1bbppp/4p3/2qp4/8/3B1N2/PP3PPP/R1BQ1RK1 w kq - 0 1\"]\r\n\r\n{Continuons la partie. Comment les blancs peuvent-ils développer une autre pièce avec tempo ?} 1. Be3 {[%hint Pouvez-vous attaquer la dame tout en développant une pièce ?][%wrong Réessaye.] Oui, joli tempo sur la dame.} (1. b4? Qxb4 {Votre pion se fait prendre.}) *"
+    },
+    {
+      "fen": "r3k1nr/ppqbbppp/4p3/3pP3/8/3BBN2/PP3PPP/R2Q1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs continuent de trouver des cases vulnérables pour leur dame. Comment les blancs doivent-ils développer une autre pièce avec tempo ?",
+        "[%hint Pouvez-vous développer votre tour ?][%wrong Réessaye, menace la dame.] Oui, la dame doit maintenant s'échapper.",
+        "Votre pièce se fait prendre.",
+        "C'est un échange de dames, pas un gain de tempo.",
+        "C'est un échange de dames, pas un gain de tempo."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/ppqbbppp/4p3/3pP3/8/3BBN2/PP3PPP/R2Q1RK1 w kq - 0 1\"]\r\n\r\n{Les noirs continuent de trouver des cases vulnérables pour leur dame. Comment les blancs doivent-ils développer une autre pièce avec tempo ?} 1. Rc1 {[%hint Pouvez-vous développer votre tour ?][%wrong Réessaye, menace la dame.] Oui, la dame doit maintenant s'échapper.} (1. Bb6? Qxb6 {Votre pièce se fait prendre.}) (1. Qc1? Qxc1 {C'est un échange de dames, pas un gain de tempo.}) (1. Qc2? Qxc2 {C'est un échange de dames, pas un gain de tempo.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c29a-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Tempo",
+    "path": "tempo-aux-echecs",
+    "description": "Apprenez ce qu'est le tempo aux échecs.",
+    "glyphName": "time-hourglass-3",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/8/3QP3/8/PPP2PPP/RNB1KBNR b KQ - 0 1\"]\r\n\r\n{[%c_highlight b8;color;%23ffaa00;opacity;0.8;square;b8;persistent;true]Quand c'est possible, il vaut mieux se développer « avec tempo », c'est-à-dire en créant une menace en même temps. Ainsi, votre adversaire doit perdre du temps à répondre à votre menace. Comment les noirs peuvent-ils se développer avec tempo ?} 1... Nc6 {[%hint Pouvez-vous développer une pièce pour attaquer la dame ?][%wrong Réessaye, pense au tempo.] Oui, la dame doit maintenant battre en retraite.} (1... c5? {Belle menace sur la dame, mais cela ne développe pas une pièce comme un cavalier, un fou ou une tour.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqk2r/ppp1bppp/3p4/8/3Pn3/5N2/PPP2PPP/RNBQKB1R w KQ - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils développer un fou avec tempo ?} 1. Bd3 {[%hint Pouvez-vous attaquer le cavalier en développant une pièce ?][%wrong Réessaye, avec tempo.] Exactement, le cavalier doit maintenant battre en retraite.} (1. Nc3? Nxc3 {Vous êtes maintenant forcé de doubler vos pions.}) (1. Nbd2? Nxd2 {Cette attaque n'était pas un développement avec tempo.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppqpbppp/2n1pn2/8/4P3/1NN3P1/PPP2PBP/R1BQK2R w KQ - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils développer une pièce avec tempo ?} 1. Bf4 {[%hint Pouvez-vous menacer la dame ?][%wrong Réessayez, y a-t-il une pièce lourde que vous pouvez attaquer ?] Oui ! La dame doit maintenant bouger.} (1. Nb5? {Cela attaque la dame sans développer de pièce. Réessaye.}) (1. Nd5? exd5 {Votre pièce se fait prendre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/pp1bbppp/4p3/3pP3/3q4/3B4/PP1N1PPP/R1BQ1RK1 w - - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils mieux centraliser une pièce avec tempo sur la dame noire ?} 1. Nf3 {[%hint Pouvez-vous développer votre cavalier ?][%wrong Essaye à nouveau d'attaquer la dame en développant une pièce.] Oui, joli tempo sur la dame.} (1. Nb3? Qxe5 {Presque, mais la dame peut s'échapper en prenant un pion.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/pp1bbppp/4p3/2qp4/8/3B1N2/PP3PPP/R1BQ1RK1 w kq - 0 1\"]\r\n\r\n{Continuons la partie. Comment les blancs peuvent-ils développer une autre pièce avec tempo ?} 1. Be3 {[%hint Pouvez-vous attaquer la dame tout en développant une pièce ?][%wrong Réessaye.] Oui, joli tempo sur la dame.} (1. b4? Qxb4 {Votre pion se fait prendre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3k1nr/ppqbbppp/4p3/3pP3/8/3BBN2/PP3PPP/R2Q1RK1 w kq - 0 1\"]\r\n\r\n{Les noirs continuent de trouver des cases vulnérables pour leur dame. Comment les blancs doivent-ils développer une autre pièce avec tempo ?} 1. Rc1 {[%hint Pouvez-vous développer votre tour ?][%wrong Réessaye, menace la dame.] Oui, la dame doit maintenant s'échapper.} (1. Bb6? Qxb6 {Votre pièce se fait prendre.}) (1. Qc1? Qxc1 {C'est un échange de dames, pas un gain de tempo.}) (1. Qc2? Qxc2 {C'est un échange de dames, pas un gain de tempo.}) *"
+    ],
+    "courseId": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez ce qu'est le tempo aux échecs.",
+    "outroText": "Vous savez maintenant ce qu'est le tempo aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-avancee",
+      "title": "Stratégie avancée"
+    },
+    "parentId": "36c04e0e-2c1f-11f1-b676-232475fcb659"
+  }
+}

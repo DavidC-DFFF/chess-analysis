@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/gerer-ses-emotions",
+  "capturedAt": "2026-10-22T12:23:47.533Z",
+  "title": "Gérer ses émotions",
+  "exercises": [
+    {
+      "fen": "r1bq1rk1/pp2bppp/1n2pn2/6B1/2BP4/2N2N2/PP3PPP/R2Q1RK1 w - - 1 11",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs viennent de jouer ...Cb6, attaquant notre fou de cases blanches. Trouvez-lui une case active !",
+        "[%wrong Ce coup ne met pas notre fou de cases blanches en sécurité. Cherchez encore !][%hint Postez votre fou sur une case active depuis laquelle il contrôlera le centre.] Bien joué ! Ce coup est encore plus flexible que celui choisi dans la partie (Fd3). Le fou contrôle une importante diagonale et pourrait se joindre à l'attaque sur la diagonale b1-h7 par la suite.",
+        "Ce coup, joué dans la partie, est également tout à fait correct. Trouvez maintenant une autre idée permettant de garder le fou sur la diagonale a2-g8.",
+        "Bien essayé, mais notre fou pourrait profiter d'une case plus active. Laquelle ?",
+        "Les noirs seraient très contents d'échanger leur fou passif contre notre bon fou. Trouvez le coup qui garde le contrôle du centre !",
+        "Oups, vous perdez une pièce !",
+        "Oups, vous perdez une pièce !",
+        "Oups, vous perdez une pièce !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp2bppp/1n2pn2/6B1/2BP4/2N2N2/PP3PPP/R2Q1RK1 w - - 1 11\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de jouer ...Cb6, attaquant notre fou de cases blanches. Trouvez-lui une case active !}\r\n11.Bb3\r\n    {[%wrong Ce coup ne met pas notre fou de cases blanches en sécurité. Cherchez encore !][%hint Postez votre fou sur une case active depuis laquelle il contrôlera le centre.] Bien joué ! Ce coup est encore plus flexible que celui choisi dans la partie (Fd3). Le fou contrôle une importante diagonale et pourrait se joindre à l'attaque sur la diagonale b1-h7 par la suite.}\r\n    (11.Bd3 $5 {Ce coup, joué dans la partie, est également tout à fait correct. Trouvez maintenant une autre idée permettant de garder le fou sur la diagonale a2-g8.})\r\n    (11.Be2 $6 {Bien essayé, mais notre fou pourrait profiter d'une case plus active. Laquelle ?})\r\n    (11.Bb5 $6 Bd7 {Les noirs seraient très contents d'échanger leur fou passif contre notre bon fou. Trouvez le coup qui garde le contrôle du centre !})\r\n    (11.Bd5 $2 Nbxd5 {Oups, vous perdez une pièce !})\r\n    (11.Bxe6 $2 Bxe6 {Oups, vous perdez une pièce !})\r\n    (11.Ba6 $2 bxa6 {Oups, vous perdez une pièce !})\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/pp2qppp/1n2p3/3n4/3P4/2NB1N2/PP3PPP/R2Q1RK1 w - - 0 13",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Utilisons la vision à rayon x de la tour ! Développez une tour pour qu'elle mette une pression indirecte sur la dame noire.",
+        "[%wrong Ce coup ne poste pas une tour en vis-à-vis de la dame adverse. Cherchez encore !][%hint La dame noire est sur la colonne e...]",
+        "La pression augmente sur la colonne e ! Notre adversaire, beaucoup mieux classé, joue l'improbable 13...f5? Fermons les yeux, respirons un grand coup, et développons une pièce sur la diagonale a2-g8 !",
+        "[%wrong Ce coup ne développe de pièce sur la diagonale a2-g8. Cherchez encore !][%hint Mettez la dame sur la diagonale du roi adverse.]",
+        "Oups ! Bien essayé, mais prenez garde aux ressources de défensives de votre adversaire...",
+        "En gardant votre calme, vous avez instantanément puni les noirs pour avoir affaibli leur roque. Dans la partie, les noirs ont joué ...Df6. Mais qu'aurions-nous pu faire sur un coup de développement anodin tel que ...Fd7 ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez les prises possibles !][%hint Le pion e6 est cloué. Trouvez la capture qui permet de gagner du matériel !]",
+        "Joli ! La position noire ne tient plus qu'à un fil. Comment gagner une pièce ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le pion e6 est cloué. Trouvez la capture qui permet de gagner du matériel !] Bravo, vous avez su profiter du clouage !!",
+        "Ce coup gagne effectivement un pion, mais il y avait beaucoup plus fort ! Gagnez une pièce entière."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp2qppp/1n2p3/3n4/3P4/2NB1N2/PP3PPP/R2Q1RK1 w - - 0 13\"]\r\n\r\n{Trait aux blancs. Utilisons la vision à rayon x de la tour ! Développez une tour pour qu'elle mette une pression indirecte sur la dame noire.}\r\n13.Re1\r\n    {[%wrong Ce coup ne poste pas une tour en vis-à-vis de la dame adverse. Cherchez encore !][%hint La dame noire est sur la colonne e...]}\r\n13...f5\r\n    {La pression augmente sur la colonne e ! Notre adversaire, beaucoup mieux classé, joue l'improbable 13...f5? Fermons les yeux, respirons un grand coup, et développons une pièce sur la diagonale a2-g8 !}\r\n14.Qb3\r\n    {[%wrong Ce coup ne développe de pièce sur la diagonale a2-g8. Cherchez encore !][%hint Mettez la dame sur la diagonale du roi adverse.]}\r\n    (14.Bc4 $2 Nxc4 {Oups ! Bien essayé, mais prenez garde aux ressources de défensives de votre adversaire...})\r\n14...Bd7\r\n    {En gardant votre calme, vous avez instantanément puni les noirs pour avoir affaibli leur roque. Dans la partie, les noirs ont joué ...Df6. Mais qu'aurions-nous pu faire sur un coup de développement anodin tel que ...Fd7 ?}\r\n15.Nxd5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez les prises possibles !][%hint Le pion e6 est cloué. Trouvez la capture qui permet de gagner du matériel !]}\r\n15...Nxd5\r\n    {Joli ! La position noire ne tient plus qu'à un fil. Comment gagner une pièce ?}\r\n16.Qxd5\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le pion e6 est cloué. Trouvez la capture qui permet de gagner du matériel !] Bravo, vous avez su profiter du clouage !!}\r\n    (16.Qxb7 $6 Nb6 {Ce coup gagne effectivement un pion, mais il y avait beaucoup plus fort ! Gagnez une pièce entière.})\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/pp4pp/4pq2/3n1p2/3P4/1Q1B1N2/PP3PPP/R3R1K1 w - - 0 16",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont sagement retiré la dame de la colonne e. Comment continuer à mettre la pression sur la diagonale a2-g8 affaiblie ?",
+        "[%wrong Ce coup n'augmente pas la pression sur la diagonale a2-g8. Cherchez encore !][%hint Ajoutez un nouvel attaquant sur la diagonale.]",
+        "Ce fort coup sera également bientôt joué. Mais pour le moment, retrouvez le coup de la partie mettant la pression sur la diagonale a2-g8.",
+        "La tension monte ! Attaquons maintenant le cavalier noir une troisième fois !",
+        "[%wrong Ce coup n'attaque pas le cavalier noir une troisième fois. Cherchez encore !][%hint Ramenez une tour dans la bagarre !] Cet excellent jeu positionnel punit les noirs pour leur inconséquence. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp4pp/4pq2/3n1p2/3P4/1Q1B1N2/PP3PPP/R3R1K1 w - - 0 16\"]\r\n\r\n{Les noirs ont sagement retiré la dame de la colonne e. Comment continuer à mettre la pression sur la diagonale a2-g8 affaiblie ?}\r\n16.Bc4\r\n    {[%wrong Ce coup n'augmente pas la pression sur la diagonale a2-g8. Cherchez encore !][%hint Ajoutez un nouvel attaquant sur la diagonale.]}\r\n    (16.Re5 $5 {Ce fort coup sera également bientôt joué. Mais pour le moment, retrouvez le coup de la partie mettant la pression sur la diagonale a2-g8.})\r\n16...Rd8\r\n    {La tension monte ! Attaquons maintenant le cavalier noir une troisième fois !}\r\n17.Re5\r\n    {[%wrong Ce coup n'attaque pas le cavalier noir une troisième fois. Cherchez encore !][%hint Ramenez une tour dans la bagarre !] Cet excellent jeu positionnel punit les noirs pour leur inconséquence. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r1br2k1/ppn3pp/4pq2/4Rp2/2BP4/1Q3N2/PP3PPP/R5K1 w - - 4 18",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs retranchent le cavalier en c7 dans l'espoir de s'accrocher au pion e6. Comment déborder leurs défenses en développant notre dernière pièce ?",
+        "[%wrong Ce coup ne développe pas notre dernière pièce pour qu'elle augmente la pression sur e6. Cherchez encore !][%hint La tour a1 est prête à rejoindre le combat !]",
+        "Bien vu ! Les noirs aimeraient bien pouvoir reculer leur pion f5 en f7 ! Dans cette position, les blancs voulaient jouer 19.d5! mais ils ont eu peur de la réponse 19...b5. Enlevez-leur cette crainte en parant avant toute chose l'idée ...b5.",
+        "[%wrong Ce coup ne couvre pas la case b5 avec un pion. Cherchez encore !][%hint Quel coup de pion empêcherait les noirs de jouer b5 ?]",
+        "Il s'avère que ce coup était en réalité excellent, comme nous le verrons dans le prochain exercice. Mais pour le moment, couvrons la case b5 pour empêcher la poussée noire !",
+        "Excellent coup ! Pas besoin de se précipiter. Les blancs empêchent tout contre jeu et préparent la puissante poussée d5. Les noirs jouent b5 malgré tout. Comment leur répondre ?",
+        "[%wrong Ce coup ne prend pas le pion b5. Cherchez encore.][%hint Justifions le coup 19. a4 !] Exactement ! la tentative désespérée de contre jeu amorcée par les noirs est terminée avant même d'avoir commencé. Les blancs sont maintenant prêt à jouer la poussée d5 !",
+        "Bien essayé, mais ce coup donne aux noirs un peu trop de contre jeu grâce au clouage de notre fou. Prenez le pion b5 de manière plus sure.",
+        "Oups, vous perdez du matériel. Cherchez encore !",
+        "Oups, vous perdez du matériel. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1br2k1/ppn3pp/4pq2/4Rp2/2BP4/1Q3N2/PP3PPP/R5K1 w - - 4 18\"]\r\n\r\n{Les noirs retranchent le cavalier en c7 dans l'espoir de s'accrocher au pion e6. Comment déborder leurs défenses en développant notre dernière pièce ?}\r\n18.Rae1\r\n    {[%wrong Ce coup ne développe pas notre dernière pièce pour qu'elle augmente la pression sur e6. Cherchez encore !][%hint La tour a1 est prête à rejoindre le combat !]}\r\n18...Re8\r\n    {Bien vu ! Les noirs aimeraient bien pouvoir reculer leur pion f5 en f7 ! Dans cette position, les blancs voulaient jouer 19.d5! mais ils ont eu peur de la réponse 19...b5. Enlevez-leur cette crainte en parant avant toute chose l'idée ...b5.}\r\n19.a4\r\n    {[%wrong Ce coup ne couvre pas la case b5 avec un pion. Cherchez encore !][%hint Quel coup de pion empêcherait les noirs de jouer b5 ?]}\r\n    (19.d5 $5 {Il s'avère que ce coup était en réalité excellent, comme nous le verrons dans le prochain exercice. Mais pour le moment, couvrons la case b5 pour empêcher la poussée noire !})\r\n19...b5\r\n    {Excellent coup ! Pas besoin de se précipiter. Les blancs empêchent tout contre jeu et préparent la puissante poussée d5. Les noirs jouent b5 malgré tout. Comment leur répondre ?}\r\n20.axb5\r\n    {[%wrong Ce coup ne prend pas le pion b5. Cherchez encore.][%hint Justifions le coup 19. a4 !] Exactement ! la tentative désespérée de contre jeu amorcée par les noirs est terminée avant même d'avoir commencé. Les blancs sont maintenant prêt à jouer la poussée d5 !}\r\n    (20.Bxb5 $6 Rb8 {Bien essayé, mais ce coup donne aux noirs un peu trop de contre jeu grâce au clouage de notre fou. Prenez le pion b5 de manière plus sure.})\r\n    (20.Rxb5 $2 Nxb5 {Oups, vous perdez du matériel. Cherchez encore !})\r\n    (20.Qxb5 $2 Nxb5 {Oups, vous perdez du matériel. Cherchez encore !})\r\n*"
+    },
+    {
+      "fen": "r1b1r1k1/ppn3pp/4pq2/4Rp2/2BP4/1Q3N2/PP3PPP/4R1K1 w - - 6 19",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans la partie, les blancs ont joué le prudent 19.a4 pour enlever tout contre jeu aux noirs, mais en s'armant de courage, il était possible de jouer immédiatement 19.d5! Jouons ce fort coup pour en mesurer les conséquences...",
+        "[%wrong Suivons l'énoncé et jouons d5 !][%hint Poussez votre pion sur le case d5.]",
+        "Les blancs se ruent à l'assaut des défenses noires ! Prenons maintenant le pion b5 et voyons ce qui leur a fait peur dans la partie.",
+        "[%wrong Suivons l'énoncé et jouons Fxb5 !][%hint Prenez le pion b5 avec votre fou.]",
+        "Les blancs n'étaient pas allé plus loin dans leurs calculs, pensant qu'ils perdraient une pièce à cause du clouage. Trouvez le fort coup qu'ils ont raté : il attaque le cavalier noir tout en défendant une seconde fois le fou blanc !",
+        "[%wrong Ce coup n'attaque pas le cavalier noir tout en défendant une seconde fois le fou blanc. Cherchez encore !][%hint La tour e5 est sur la même ligne que notre fou vulnérable. Utilisez-la pour défendre !] Bien vu, vous avez trouvé le coup que les blancs avaient raté dans la partie ! Ils ont maintenant un pion de plus et une position écrasante. Admirez la puissance du pion passé d6 !",
+        "Ce coup intéressant permet également de défendre le fou b5 une seconde fois, mais il existe un coup encore plus fort attaquant le cavalier noir en même temps. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1r1k1/ppn3pp/4pq2/4Rp2/2BP4/1Q3N2/PP3PPP/4R1K1 w - - 6 19\"]\r\n\r\n{Dans la partie, les blancs ont joué le prudent 19.a4 pour enlever tout contre jeu aux noirs, mais en s'armant de courage, il était possible de jouer immédiatement 19.d5! Jouons ce fort coup pour en mesurer les conséquences...}\r\n19.d5\r\n    {[%wrong Suivons l'énoncé et jouons d5 !][%hint Poussez votre pion sur le case d5.]}\r\n19...b5\r\n    {Les blancs se ruent à l'assaut des défenses noires ! Prenons maintenant le pion b5 et voyons ce qui leur a fait peur dans la partie.}\r\n20.Bxb5\r\n    {[%wrong Suivons l'énoncé et jouons Fxb5 !][%hint Prenez le pion b5 avec votre fou.]}\r\n20...Rb8\r\n    {Les blancs n'étaient pas allé plus loin dans leurs calculs, pensant qu'ils perdraient une pièce à cause du clouage. Trouvez le fort coup qu'ils ont raté : il attaque le cavalier noir tout en défendant une seconde fois le fou blanc !}\r\n21.d6\r\n    {[%wrong Ce coup n'attaque pas le cavalier noir tout en défendant une seconde fois le fou blanc. Cherchez encore !][%hint La tour e5 est sur la même ligne que notre fou vulnérable. Utilisez-la pour défendre !] Bien vu, vous avez trouvé le coup que les blancs avaient raté dans la partie ! Ils ont maintenant un pion de plus et une position écrasante. Admirez la puissance du pion passé d6 !}\r\n    (21.dxe6 $6 {Ce coup intéressant permet également de défendre le fou b5 une seconde fois, mais il existe un coup encore plus fort attaquant le cavalier noir en même temps. Trouvez-le !})\r\n*"
+    },
+    {
+      "fen": "1r2r1k1/pbn3pp/4pq2/1P1PRp2/2B5/1Q3N2/1P3PPP/4R1K1 w - - 1 24",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Après avoir prudemment préparé notre attaque, il est temps de frapper ! Comment créer un pion passé tout en attaquant le cavalier noir ?",
+        "[%wrong Ce coup ne crée pas de pion passé tout en attaquant le cavalier noir. Cherchez encore !][%hint Quel pion peut attaquer le cavalier c7 sans risque ?]",
+        "Bravo, vous avez désormais un dangereux pion passé ! Continuons à le pousser !",
+        "[%wrong Ce coup ne pousse pas le pion passé. Essayez encore !][%hint Le pion d peut continuer sa route !]",
+        "Ce pion intrépide sème la pagaille dans le camp noir ! Il est temps de conclure et de battre notre fort adversaire. Trouvez une prise puissante amorçant une jolie combinaison.",
+        "[%wrong Ce coup n'est pas une capture déclenchant une puissante combinaison... Cherchez encore !][%hint Le cavalier noir est à point. Prenez-le et enchaînez par une combinaison gagnante !]",
+        "Excellente décision - Il nous faut même reconnaître que ce coup est encore plus fort que celui joué par les blancs dans la partie ! Trouvez maintenant l'autre sacrifice qui gagne la partie.",
+        "C'est la bonne case, mais pas la bonne pièce. Pourquoi ne pas prendre avec une pièce de moindre valeur ?",
+        "Bien essayé, mais ce coup perd du matériel. Chechez encore !",
+        "Bien vu ! Le conducteur des blancs, tremblant, peine à croire qu'il est effectivement en train de battre son très fort adversaire ! Rassurez-le en terminant le travail grâce à une superbe combinaison.",
+        "[%wrong Ce coup n'est pas une prise gagnante. Cherchez encore !][%hint Jouez un puissant sacrifice de dame !]",
+        "Ce coup gagne également, bien joué ! Trouvez maintenant le sacrifice de dame joué dans la partie.",
+        "Les blancs se jettent à l'eau et, malgré le stress, sacrifient leur dame ! A vous de finir le travail.",
+        "[%wrong Oups ! Ce coup perd la partie. Cherchez encore !][%hint Si nous avons sacrifié notre dame, c'est pour ouvrir la colonne e !] Malgré la pression, les blancs ont réussi l'exploit de battre un joueur beaucoup mieux classé. En partie, croyez toujours en vous et jouez la position, pas le joueur !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2r1k1/pbn3pp/4pq2/1P1PRp2/2B5/1Q3N2/1P3PPP/4R1K1 w - - 1 24\"]\r\n\r\n{Après avoir prudemment préparé notre attaque, il est temps de frapper ! Comment créer un pion passé tout en attaquant le cavalier noir ?}\r\n24.d6\r\n    {[%wrong Ce coup ne crée pas de pion passé tout en attaquant le cavalier noir. Cherchez encore !][%hint Quel pion peut attaquer le cavalier c7 sans risque ?]}\r\n24...Nd5\r\n    {Bravo, vous avez désormais un dangereux pion passé ! Continuons à le pousser !}\r\n25.d7\r\n    {[%wrong Ce coup ne pousse pas le pion passé. Essayez encore !][%hint Le pion d peut continuer sa route !]}\r\n25...Re7\r\n    {Ce pion intrépide sème la pagaille dans le camp noir ! Il est temps de conclure et de battre notre fort adversaire. Trouvez une prise puissante amorçant une jolie combinaison.}\r\n26.Bxd5\r\n    {[%wrong Ce coup n'est pas une capture déclenchant une puissante combinaison... Cherchez encore !][%hint Le cavalier noir est à point. Prenez-le et enchaînez par une combinaison gagnante !]}\r\n    (26.Rxe6 $5 {Excellente décision - Il nous faut même reconnaître que ce coup est encore plus fort que celui joué par les blancs dans la partie ! Trouvez maintenant l'autre sacrifice qui gagne la partie.})\r\n    (26.Rxd5 $6 exd5 {C'est la bonne case, mais pas la bonne pièce. Pourquoi ne pas prendre avec une pièce de moindre valeur ?})\r\n    (26.Rxf5 $2 Qxf5 {Bien essayé, mais ce coup perd du matériel. Chechez encore !})\r\n26...Bxd5\r\n    {Bien vu ! Le conducteur des blancs, tremblant, peine à croire qu'il est effectivement en train de battre son très fort adversaire ! Rassurez-le en terminant le travail grâce à une superbe combinaison.}\r\n27.Qxd5\r\n    {[%wrong Ce coup n'est pas une prise gagnante. Cherchez encore !][%hint Jouez un puissant sacrifice de dame !]}\r\n    (27.Rxd5 $5 {Ce coup gagne également, bien joué ! Trouvez maintenant le sacrifice de dame joué dans la partie.})\r\n27...exd5\r\n    {Les blancs se jettent à l'eau et, malgré le stress, sacrifient leur dame ! A vous de finir le travail.}\r\n28.Rxe7\r\n    {[%wrong Oups ! Ce coup perd la partie. Cherchez encore !][%hint Si nous avons sacrifié notre dame, c'est pour ouvrir la colonne e !] Malgré la pression, les blancs ont réussi l'exploit de battre un joueur beaucoup mieux classé. En partie, croyez toujours en vous et jouez la position, pas le joueur !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "565ea0fa-9cec-11e8-b48a-87728e979a9c",
+    "name": "Gérer ses émotions",
+    "path": "gerer-ses-emotions",
+    "description": "Restez bien concentres sur les aspects échiquéens de la position. Ne vous laissez pas distraire par d’autres facteurs, tels que votre classement dans le tournoi ou l’Elo de votre adversaire.",
+    "glyphName": "emote-face-happy-sad",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-overcoming-your-emotions-i0s.mp4",
+    "fen": "r1br2k1/pp4pp/4pq2/3nRp2/2BP4/1Q3N2/PP3PPP/R5K1 b - - 3 17",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pp2bppp/1n2pn2/6B1/2BP4/2N2N2/PP3PPP/R2Q1RK1 w - - 1 11\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de jouer ...Cb6, attaquant notre fou de cases blanches. Trouvez-lui une case active !}\r\n11.Bb3\r\n    {[%wrong Ce coup ne met pas notre fou de cases blanches en sécurité. Cherchez encore !][%hint Postez votre fou sur une case active depuis laquelle il contrôlera le centre.] Bien joué ! Ce coup est encore plus flexible que celui choisi dans la partie (Fd3). Le fou contrôle une importante diagonale et pourrait se joindre à l'attaque sur la diagonale b1-h7 par la suite.}\r\n    (11.Bd3 $5 {Ce coup, joué dans la partie, est également tout à fait correct. Trouvez maintenant une autre idée permettant de garder le fou sur la diagonale a2-g8.})\r\n    (11.Be2 $6 {Bien essayé, mais notre fou pourrait profiter d'une case plus active. Laquelle ?})\r\n    (11.Bb5 $6 Bd7 {Les noirs seraient très contents d'échanger leur fou passif contre notre bon fou. Trouvez le coup qui garde le contrôle du centre !})\r\n    (11.Bd5 $2 Nbxd5 {Oups, vous perdez une pièce !})\r\n    (11.Bxe6 $2 Bxe6 {Oups, vous perdez une pièce !})\r\n    (11.Ba6 $2 bxa6 {Oups, vous perdez une pièce !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp2qppp/1n2p3/3n4/3P4/2NB1N2/PP3PPP/R2Q1RK1 w - - 0 13\"]\r\n\r\n{Trait aux blancs. Utilisons la vision à rayon x de la tour ! Développez une tour pour qu'elle mette une pression indirecte sur la dame noire.}\r\n13.Re1\r\n    {[%wrong Ce coup ne poste pas une tour en vis-à-vis de la dame adverse. Cherchez encore !][%hint La dame noire est sur la colonne e...]}\r\n13...f5\r\n    {La pression augmente sur la colonne e ! Notre adversaire, beaucoup mieux classé, joue l'improbable 13...f5? Fermons les yeux, respirons un grand coup, et développons une pièce sur la diagonale a2-g8 !}\r\n14.Qb3\r\n    {[%wrong Ce coup ne développe de pièce sur la diagonale a2-g8. Cherchez encore !][%hint Mettez la dame sur la diagonale du roi adverse.]}\r\n    (14.Bc4 $2 Nxc4 {Oups ! Bien essayé, mais prenez garde aux ressources de défensives de votre adversaire...})\r\n14...Bd7\r\n    {En gardant votre calme, vous avez instantanément puni les noirs pour avoir affaibli leur roque. Dans la partie, les noirs ont joué ...Df6. Mais qu'aurions-nous pu faire sur un coup de développement anodin tel que ...Fd7 ?}\r\n15.Nxd5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Cherchez les prises possibles !][%hint Le pion e6 est cloué. Trouvez la capture qui permet de gagner du matériel !]}\r\n15...Nxd5\r\n    {Joli ! La position noire ne tient plus qu'à un fil. Comment gagner une pièce ?}\r\n16.Qxd5\r\n    {[%wrong Ce coup ne gagne pas de matériel. Cherchez encore !][%hint Le pion e6 est cloué. Trouvez la capture qui permet de gagner du matériel !] Bravo, vous avez su profiter du clouage !!}\r\n    (16.Qxb7 $6 Nb6 {Ce coup gagne effectivement un pion, mais il y avait beaucoup plus fort ! Gagnez une pièce entière.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/pp4pp/4pq2/3n1p2/3P4/1Q1B1N2/PP3PPP/R3R1K1 w - - 0 16\"]\r\n\r\n{Les noirs ont sagement retiré la dame de la colonne e. Comment continuer à mettre la pression sur la diagonale a2-g8 affaiblie ?}\r\n16.Bc4\r\n    {[%wrong Ce coup n'augmente pas la pression sur la diagonale a2-g8. Cherchez encore !][%hint Ajoutez un nouvel attaquant sur la diagonale.]}\r\n    (16.Re5 $5 {Ce fort coup sera également bientôt joué. Mais pour le moment, retrouvez le coup de la partie mettant la pression sur la diagonale a2-g8.})\r\n16...Rd8\r\n    {La tension monte ! Attaquons maintenant le cavalier noir une troisième fois !}\r\n17.Re5\r\n    {[%wrong Ce coup n'attaque pas le cavalier noir une troisième fois. Cherchez encore !][%hint Ramenez une tour dans la bagarre !] Cet excellent jeu positionnel punit les noirs pour leur inconséquence. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1br2k1/ppn3pp/4pq2/4Rp2/2BP4/1Q3N2/PP3PPP/R5K1 w - - 4 18\"]\r\n\r\n{Les noirs retranchent le cavalier en c7 dans l'espoir de s'accrocher au pion e6. Comment déborder leurs défenses en développant notre dernière pièce ?}\r\n18.Rae1\r\n    {[%wrong Ce coup ne développe pas notre dernière pièce pour qu'elle augmente la pression sur e6. Cherchez encore !][%hint La tour a1 est prête à rejoindre le combat !]}\r\n18...Re8\r\n    {Bien vu ! Les noirs aimeraient bien pouvoir reculer leur pion f5 en f7 ! Dans cette position, les blancs voulaient jouer 19.d5! mais ils ont eu peur de la réponse 19...b5. Enlevez-leur cette crainte en parant avant toute chose l'idée ...b5.}\r\n19.a4\r\n    {[%wrong Ce coup ne couvre pas la case b5 avec un pion. Cherchez encore !][%hint Quel coup de pion empêcherait les noirs de jouer b5 ?]}\r\n    (19.d5 $5 {Il s'avère que ce coup était en réalité excellent, comme nous le verrons dans le prochain exercice. Mais pour le moment, couvrons la case b5 pour empêcher la poussée noire !})\r\n19...b5\r\n    {Excellent coup ! Pas besoin de se précipiter. Les blancs empêchent tout contre jeu et préparent la puissante poussée d5. Les noirs jouent b5 malgré tout. Comment leur répondre ?}\r\n20.axb5\r\n    {[%wrong Ce coup ne prend pas le pion b5. Cherchez encore.][%hint Justifions le coup 19. a4 !] Exactement ! la tentative désespérée de contre jeu amorcée par les noirs est terminée avant même d'avoir commencé. Les blancs sont maintenant prêt à jouer la poussée d5 !}\r\n    (20.Bxb5 $6 Rb8 {Bien essayé, mais ce coup donne aux noirs un peu trop de contre jeu grâce au clouage de notre fou. Prenez le pion b5 de manière plus sure.})\r\n    (20.Rxb5 $2 Nxb5 {Oups, vous perdez du matériel. Cherchez encore !})\r\n    (20.Qxb5 $2 Nxb5 {Oups, vous perdez du matériel. Cherchez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1r1k1/ppn3pp/4pq2/4Rp2/2BP4/1Q3N2/PP3PPP/4R1K1 w - - 6 19\"]\r\n\r\n{Dans la partie, les blancs ont joué le prudent 19.a4 pour enlever tout contre jeu aux noirs, mais en s'armant de courage, il était possible de jouer immédiatement 19.d5! Jouons ce fort coup pour en mesurer les conséquences...}\r\n19.d5\r\n    {[%wrong Suivons l'énoncé et jouons d5 !][%hint Poussez votre pion sur le case d5.]}\r\n19...b5\r\n    {Les blancs se ruent à l'assaut des défenses noires ! Prenons maintenant le pion b5 et voyons ce qui leur a fait peur dans la partie.}\r\n20.Bxb5\r\n    {[%wrong Suivons l'énoncé et jouons Fxb5 !][%hint Prenez le pion b5 avec votre fou.]}\r\n20...Rb8\r\n    {Les blancs n'étaient pas allé plus loin dans leurs calculs, pensant qu'ils perdraient une pièce à cause du clouage. Trouvez le fort coup qu'ils ont raté : il attaque le cavalier noir tout en défendant une seconde fois le fou blanc !}\r\n21.d6\r\n    {[%wrong Ce coup n'attaque pas le cavalier noir tout en défendant une seconde fois le fou blanc. Cherchez encore !][%hint La tour e5 est sur la même ligne que notre fou vulnérable. Utilisez-la pour défendre !] Bien vu, vous avez trouvé le coup que les blancs avaient raté dans la partie ! Ils ont maintenant un pion de plus et une position écrasante. Admirez la puissance du pion passé d6 !}\r\n    (21.dxe6 $6 {Ce coup intéressant permet également de défendre le fou b5 une seconde fois, mais il existe un coup encore plus fort attaquant le cavalier noir en même temps. Trouvez-le !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2r1k1/pbn3pp/4pq2/1P1PRp2/2B5/1Q3N2/1P3PPP/4R1K1 w - - 1 24\"]\r\n\r\n{Après avoir prudemment préparé notre attaque, il est temps de frapper ! Comment créer un pion passé tout en attaquant le cavalier noir ?}\r\n24.d6\r\n    {[%wrong Ce coup ne crée pas de pion passé tout en attaquant le cavalier noir. Cherchez encore !][%hint Quel pion peut attaquer le cavalier c7 sans risque ?]}\r\n24...Nd5\r\n    {Bravo, vous avez désormais un dangereux pion passé ! Continuons à le pousser !}\r\n25.d7\r\n    {[%wrong Ce coup ne pousse pas le pion passé. Essayez encore !][%hint Le pion d peut continuer sa route !]}\r\n25...Re7\r\n    {Ce pion intrépide sème la pagaille dans le camp noir ! Il est temps de conclure et de battre notre fort adversaire. Trouvez une prise puissante amorçant une jolie combinaison.}\r\n26.Bxd5\r\n    {[%wrong Ce coup n'est pas une capture déclenchant une puissante combinaison... Cherchez encore !][%hint Le cavalier noir est à point. Prenez-le et enchaînez par une combinaison gagnante !]}\r\n    (26.Rxe6 $5 {Excellente décision - Il nous faut même reconnaître que ce coup est encore plus fort que celui joué par les blancs dans la partie ! Trouvez maintenant l'autre sacrifice qui gagne la partie.})\r\n    (26.Rxd5 $6 exd5 {C'est la bonne case, mais pas la bonne pièce. Pourquoi ne pas prendre avec une pièce de moindre valeur ?})\r\n    (26.Rxf5 $2 Qxf5 {Bien essayé, mais ce coup perd du matériel. Chechez encore !})\r\n26...Bxd5\r\n    {Bien vu ! Le conducteur des blancs, tremblant, peine à croire qu'il est effectivement en train de battre son très fort adversaire ! Rassurez-le en terminant le travail grâce à une superbe combinaison.}\r\n27.Qxd5\r\n    {[%wrong Ce coup n'est pas une prise gagnante. Cherchez encore !][%hint Jouez un puissant sacrifice de dame !]}\r\n    (27.Rxd5 $5 {Ce coup gagne également, bien joué ! Trouvez maintenant le sacrifice de dame joué dans la partie.})\r\n27...exd5\r\n    {Les blancs se jettent à l'eau et, malgré le stress, sacrifient leur dame ! A vous de finir le travail.}\r\n28.Rxe7\r\n    {[%wrong Oups ! Ce coup perd la partie. Cherchez encore !][%hint Si nous avons sacrifié notre dame, c'est pour ouvrir la colonne e !] Malgré la pression, les blancs ont réussi l'exploit de battre un joueur beaucoup mieux classé. En partie, croyez toujours en vous et jouez la position, pas le joueur !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons maintenant comment contenir vos émotions et rester concentré.",
+    "outroText": "Excellent ! Le contrôle de soi est décisif en fin de partie.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "9da5ff08-83b5-11e8-8076-fbf28f3be8f7",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/overcoming-your-emotions5e7ab116d6519.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/overcoming-your-emotions-566886a98161f8.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/overcoming-your-emotions-15ea24023f2168.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/overcoming-your-emotions-2603fba15be884.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 101,
+    "order": 8,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

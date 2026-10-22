@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/decisions-de-prise",
+  "capturedAt": "2026-10-22T13:42:27.851Z",
+  "title": "Choix des prises",
+  "exercises": [
+    {
+      "fen": "8/1p5n/2r5/8/4B3/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow b7c6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;b7;to;c6;persistent;true]Quelle prise vous rapporte le plus de points ? Faites attention aux défenseurs !",
+        "[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce à prendre.][%hint Vaut-il mieux échanger votre fou contre une tour ou prendre le cavalier gratuitement ?]Beau travail ! Vous avez pris le cavalier à trois points gratuitement.",
+        "Cet échange vous rapporte deux points — pas mal ! Maintenant, gagnons trois points !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p5n/2r5/8/4B3/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow b7c6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;b7;to;c6;persistent;true]Quelle prise vous rapporte le plus de points ? Faites attention aux défenseurs !} 1. Bxh7 {[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce à prendre.][%hint Vaut-il mieux échanger votre fou contre une tour ou prendre le cavalier gratuitement ?]Beau travail ! Vous avez pris le cavalier à trois points gratuitement.} (1. Bxc6? bxc6 {Cet échange vous rapporte deux points — pas mal ! Maintenant, gagnons trois points !}) *"
+    },
+    {
+      "fen": "8/1p6/2q5/5b2/3N4/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Parfois, prendre une pièce protégée reste la meilleure idée.",
+        "[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce puissante à prendre.][%hint Vous pouvez prendre une pièce à trois points, ou faire un échange qui rapporte six points.]Excellent ! Vous avez échangé votre cavalier à trois points contre la dame à neuf points — six points en votre faveur !",
+        "Prendre une pièce à trois points est logique, mais une autre prise rapporte six points."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/2q5/5b2/3N4/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/tccHh2yyQ/lesson-editor\"]\r\n\r\n{Parfois, prendre une pièce protégée reste la meilleure idée.} 1. Nxc6 {[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce puissante à prendre.][%hint Vous pouvez prendre une pièce à trois points, ou faire un échange qui rapporte six points.]Excellent ! Vous avez échangé votre cavalier à trois points contre la dame à neuf points — six points en votre faveur !} (1. Nxf5? {Prendre une pièce à trois points est logique, mais une autre prise rapporte six points.}) *"
+    },
+    {
+      "fen": "8/1p5r/2q5/8/4B3/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quelle prise vaut le plus ?",
+        "[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce puissante à prendre.][%hint La tour est gratuite, mais gagnez-vous plus de matériel en échangeant votre fou contre une dame ?]Bien vu ! Vous échangez votre fou à trois points contre la dame à neuf points, gagnant six points.",
+        "Prendre la tour fait plaisir, mais l'autre prise rapporte plus de matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p5r/2q5/8/4B3/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2R7HgSWrYn/lesson-editor\"]\r\n\r\n{Quelle prise vaut le plus ?} 1. Bxc6 {[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce puissante à prendre.][%hint La tour est gratuite, mais gagnez-vous plus de matériel en échangeant votre fou contre une dame ?]Bien vu ! Vous échangez votre fou à trois points contre la dame à neuf points, gagnant six points.} (1. Bxh7? {Prendre la tour fait plaisir, mais l'autre prise rapporte plus de matériel.}) *"
+    },
+    {
+      "fen": "8/1p6/2r3R1/8/8/8/6B1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow g6c6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g6;to;c6;persistent;true,g2c6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g2;to;c6;persistent;true]Prenez les pièces de plus grande valeur avec des pièces de moindre valeur.",
+        "[%hint Prenez la tour d'abord avec votre pièce de plus petite valeur.][%wrong Ce coup ne prend pas de pièce. Prenez la tour d'abord avec votre pièce de plus petite valeur.]Bien joué ! Vous avez échangé votre fou à trois points contre leur tour à cinq points !",
+        "Bonne idée, mais prenez d'abord avec votre pièce de moindre valeur pour gagner plus de matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/2r3R1/8/8/8/6B1/8 w - - 0 1\"]\r\n\r\n{[%c_arrow g6c6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g6;to;c6;persistent;true,g2c6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g2;to;c6;persistent;true]Prenez les pièces de plus grande valeur avec des pièces de moindre valeur.} 1. Bxc6 {[%hint Prenez la tour d'abord avec votre pièce de plus petite valeur.][%wrong Ce coup ne prend pas de pièce. Prenez la tour d'abord avec votre pièce de plus petite valeur.]Bien joué ! Vous avez échangé votre fou à trois points contre leur tour à cinq points !} (1. Rxc6? bxc6 {Bonne idée, mais prenez d'abord avec votre pièce de moindre valeur pour gagner plus de matériel.}) *"
+    },
+    {
+      "fen": "r1b2rk1/ppp1nppp/1b1p4/8/3nP3/2N1B3/PPP2PPP/2KR1B1R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayons une position tirée d'une vraie partie. Trouvez la meilleure prise.",
+        "[%hint Prenez la pièce supplémentaire adverse avec votre pièce attaquante de moindre valeur.][%wrong Essayez de prendre une pièce avec votre pièce attaquante de moindre valeur.]Bien joué ! Vous prenez le cavalier avec votre fou à trois points, un échange équitable.",
+        "Bien essayé, mais vous ne voulez pas perdre votre tour. Essayez une autre prise."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppp1nppp/1b1p4/8/3nP3/2N1B3/PPP2PPP/2KR1B1R w - - 0 1\"]\r\n\r\n{Essayons une position tirée d'une vraie partie. Trouvez la meilleure prise.} 1. Bxd4 {[%hint Prenez la pièce supplémentaire adverse avec votre pièce attaquante de moindre valeur.][%wrong Essayez de prendre une pièce avec votre pièce attaquante de moindre valeur.]Bien joué ! Vous prenez le cavalier avec votre fou à trois points, un échange équitable.} (1. Rxd4? Bxd4 {Bien essayé, mais vous ne voulez pas perdre votre tour. Essayez une autre prise.}) *"
+    },
+    {
+      "fen": "r4rk1/ppN3pp/2p1bnn1/3p4/3P4/1P2PN2/4BPPP/R4RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Encore une ! Trouvez la meilleure prise — faites attention aux défenseurs !",
+        "[%c_arrow e6f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;f8;persistent;true][%hint Essaye de prendre gratuitement une pièce qui n'est défendue par aucune autre pièce.][%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye.]Très bien ! Vous avez pris un fou gratuitement et vous attaquez maintenant une tour.",
+        "Ce coup tentant rapporte deux points. Trouvez maintenant une prise plus forte.",
+        "Bien essayé, mais ce coup vous fait perdre votre tour. Essayez de trouver une pièce non protégée à prendre.",
+        "Bien essayé, mais ce coup vous fait perdre votre cavalier contre un pion. Essayez de trouver une pièce non protégée à prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/ppN3pp/2p1bnn1/3p4/3P4/1P2PN2/4BPPP/R4RK1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/21s7ZpV8k6/lesson-editor\"]\r\n\r\n{Encore une ! Trouvez la meilleure prise — faites attention aux défenseurs !} 1. Nxe6 {[%c_arrow e6f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;f8;persistent;true][%hint Essaye de prendre gratuitement une pièce qui n'est défendue par aucune autre pièce.][%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye.]Très bien ! Vous avez pris un fou gratuitement et vous attaquez maintenant une tour.} (1. Nxa8? Rxa8 {Ce coup tentant rapporte deux points. Trouvez maintenant une prise plus forte.}) (1. Rxa7? Rxa7 {Bien essayé, mais ce coup vous fait perdre votre tour. Essayez de trouver une pièce non protégée à prendre.}) (1. Nxd5? cxd5 {Bien essayé, mais ce coup vous fait perdre votre cavalier contre un pion. Essayez de trouver une pièce non protégée à prendre.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c11e-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Choix des prises",
+    "path": "decisions-de-prise",
+    "description": "Apprenez à gagner le maximum de points en faisant le meilleur choix de prise.",
+    "glyphName": "board-badge-question",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p5n/2r5/8/4B3/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow b7c6;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;b7;to;c6;persistent;true]Quelle prise vous rapporte le plus de points ? Faites attention aux défenseurs !} 1. Bxh7 {[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce à prendre.][%hint Vaut-il mieux échanger votre fou contre une tour ou prendre le cavalier gratuitement ?]Beau travail ! Vous avez pris le cavalier à trois points gratuitement.} (1. Bxc6? bxc6 {Cet échange vous rapporte deux points — pas mal ! Maintenant, gagnons trois points !}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/2q5/5b2/3N4/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/tccHh2yyQ/lesson-editor\"]\r\n\r\n{Parfois, prendre une pièce protégée reste la meilleure idée.} 1. Nxc6 {[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce puissante à prendre.][%hint Vous pouvez prendre une pièce à trois points, ou faire un échange qui rapporte six points.]Excellent ! Vous avez échangé votre cavalier à trois points contre la dame à neuf points — six points en votre faveur !} (1. Nxf5? {Prendre une pièce à trois points est logique, mais une autre prise rapporte six points.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p5r/2q5/8/4B3/8/8/8 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/2R7HgSWrYn/lesson-editor\"]\r\n\r\n{Quelle prise vaut le plus ?} 1. Bxc6 {[%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye et trouve une pièce puissante à prendre.][%hint La tour est gratuite, mais gagnez-vous plus de matériel en échangeant votre fou contre une dame ?]Bien vu ! Vous échangez votre fou à trois points contre la dame à neuf points, gagnant six points.} (1. Bxh7? {Prendre la tour fait plaisir, mais l'autre prise rapporte plus de matériel.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p6/2r3R1/8/8/8/6B1/8 w - - 0 1\"]\r\n\r\n{[%c_arrow g6c6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g6;to;c6;persistent;true,g2c6;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g2;to;c6;persistent;true]Prenez les pièces de plus grande valeur avec des pièces de moindre valeur.} 1. Bxc6 {[%hint Prenez la tour d'abord avec votre pièce de plus petite valeur.][%wrong Ce coup ne prend pas de pièce. Prenez la tour d'abord avec votre pièce de plus petite valeur.]Bien joué ! Vous avez échangé votre fou à trois points contre leur tour à cinq points !} (1. Rxc6? bxc6 {Bonne idée, mais prenez d'abord avec votre pièce de moindre valeur pour gagner plus de matériel.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppp1nppp/1b1p4/8/3nP3/2N1B3/PPP2PPP/2KR1B1R w - - 0 1\"]\r\n\r\n{Essayons une position tirée d'une vraie partie. Trouvez la meilleure prise.} 1. Bxd4 {[%hint Prenez la pièce supplémentaire adverse avec votre pièce attaquante de moindre valeur.][%wrong Essayez de prendre une pièce avec votre pièce attaquante de moindre valeur.]Bien joué ! Vous prenez le cavalier avec votre fou à trois points, un échange équitable.} (1. Rxd4? Bxd4 {Bien essayé, mais vous ne voulez pas perdre votre tour. Essayez une autre prise.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/ppN3pp/2p1bnn1/3p4/3P4/1P2PN2/4BPPP/R4RK1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/21s7ZpV8k6/lesson-editor\"]\r\n\r\n{Encore une ! Trouvez la meilleure prise — faites attention aux défenseurs !} 1. Nxe6 {[%c_arrow e6f8;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e6;to;f8;persistent;true][%hint Essaye de prendre gratuitement une pièce qui n'est défendue par aucune autre pièce.][%wrong Bien essayé, mais ce coup ne prend pas de pièce. Réessaye.]Très bien ! Vous avez pris un fou gratuitement et vous attaquez maintenant une tour.} (1. Nxa8? Rxa8 {Ce coup tentant rapporte deux points. Trouvez maintenant une prise plus forte.}) (1. Rxa7? Rxa7 {Bien essayé, mais ce coup vous fait perdre votre tour. Essayez de trouver une pièce non protégée à prendre.}) (1. Nxd5? cxd5 {Bien essayé, mais ce coup vous fait perdre votre cavalier contre un pion. Essayez de trouver une pièce non protégée à prendre.}) *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à gagner le maximum de matériel en faisant le meilleur choix de prise.",
+    "outroText": "Vous êtes maintenant prêt à faire les meilleurs choix de prise — beau travail !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "93167740-1726-11f1-a4da-b746974f3d85"
+  },
+  "curriculum": {
+    "number": 18,
+    "order": 6,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

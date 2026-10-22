@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/l-enfilade",
+  "capturedAt": "2026-10-22T12:23:33.029Z",
+  "title": "L'enfilade",
+  "exercises": [
+    {
+      "fen": "8/8/4k3/8/8/pq6/6QP/7K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire soutient son pion dans sa quête de la promotion. Mais les blancs ont une enfilade fatale dans cette position. A vous de la trouver !",
+        "[%wrong Bien essayé, mais il ne s'agit pas de l'enfilade finale. Essayez encore !][%hint Trouvez un échec qui enfile le roi et la dame adverses.]",
+        "Bien joué ! C'est une enfilade royale. Il est désormais temps de capturer la dame !",
+        "[%wrong Non, essayez encore !][%hint Comment prendre la dame noire ?] Bravo ! Les blancs vont ensuite gagner le pion, et la partie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4k3/8/8/pq6/6QP/7K w - - 0 1\"]\r\n\r\n{La dame noire soutient son pion dans sa quête de la promotion. Mais les blancs ont une enfilade fatale dans cette position. A vous de la trouver !}\r\n1.Qg8+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas de l'enfilade finale. Essayez encore !][%hint Trouvez un échec qui enfile le roi et la dame adverses.]}\r\n1...Kd6\r\n    {Bien joué ! C'est une enfilade royale. Il est désormais temps de capturer la dame !}\r\n2.Qxb3\r\n    {[%wrong Non, essayez encore !][%hint Comment prendre la dame noire ?] Bravo ! Les blancs vont ensuite gagner le pion, et la partie.}\r\n*"
+    },
+    {
+      "fen": "8/7p/p2k3B/2p1b3/P7/5NP1/1r3P2/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez un coup qui capture une pièce adverse tout en préparant une enfilade.",
+        "[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Il n'y a qu'une seule prise possible dans la position pour les blancs, et elle mène à une enfilade !]",
+        "Bien joué ! Si le roi n'avait pas repris le cavalier, les blancs gagnaient tout simplement une pièce. Maintenant, il est temps de trouver l'enfilade gagnante !",
+        "[%wrong Ce coup n'enfile pas les pièces adverses. Essayez encore !][%hint Repérez la diagonale que partagent le roi et la tour noirs.]",
+        "Et voilà ! Il ne reste plus qu'à prendre la tour !",
+        "[%wrong Ce coup ne gagne pas la tour noire. Essayez encore !][%hint Finissez le travail en gagnant un maximum de matériel.]",
+        "Une enfilade efficace !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/7p/p2k3B/2p1b3/P7/5NP1/1r3P2/5RK1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez un coup qui capture une pièce adverse tout en préparant une enfilade.}\r\n1.Nxe5\r\n    {[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Il n'y a qu'une seule prise possible dans la position pour les blancs, et elle mène à une enfilade !]}\r\n1...Kxe5\r\n    {Bien joué ! Si le roi n'avait pas repris le cavalier, les blancs gagnaient tout simplement une pièce. Maintenant, il est temps de trouver l'enfilade gagnante !}\r\n2.Bg7+\r\n    {[%wrong Ce coup n'enfile pas les pièces adverses. Essayez encore !][%hint Repérez la diagonale que partagent le roi et la tour noirs.]}\r\n2...Kf5\r\n    {Et voilà ! Il ne reste plus qu'à prendre la tour !}\r\n3.Bxb2\r\n {[%wrong Ce coup ne gagne pas la tour noire. Essayez encore !][%hint Finissez le travail en gagnant un maximum de matériel.]}\r\n    {Une enfilade efficace !}\r\n*"
+    },
+    {
+      "fen": "2n5/1r4k1/p4p2/4b1p1/8/3B2P1/4NPK1/7R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez la MEILLEURE enfilade pour les blancs dans cette position.",
+        "[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint Il faudrait enfiler le roi et la tour noire.]",
+        "Bien essayé. Ce coup enfile la tour et le cavalier et va nous permettre de gagner un pion, mais il y a beaucoup plus fort dans la position. Cherchez encore !",
+        "Bravo ! C'est une enfilade roi-tour. Notre tour est protégée par le fou, ce qui force le roi à bouger, et nous permet maintenant de capturer la tour adverse en toute décontraction !",
+        "[%wrong Ce coup ne prend pas la tour noire. Essayez encore !][%hint Cette tour n'attend que d'être prise !] Bien joué, vous avez trouvé la meilleure enfilade !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2n5/1r4k1/p4p2/4b1p1/8/3B2P1/4NPK1/7R w - - 0 1\"]\r\n\r\n{Trouvez la MEILLEURE enfilade pour les blancs dans cette position.}\r\n1.Rh7+\r\n    {[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint Il faudrait enfiler le roi et la tour noire.]}\r\n    (1.Bxa6 $2 Rc7 {Bien essayé. Ce coup enfile la tour et le cavalier et va nous permettre de gagner un pion, mais il y a beaucoup plus fort dans la position. Cherchez encore !})\r\n1...Kg8\r\n    {Bravo ! C'est une enfilade roi-tour. Notre tour est protégée par le fou, ce qui force le roi à bouger, et nous permet maintenant de capturer la tour adverse en toute décontraction !}\r\n2.Rxb7\r\n    {[%wrong Ce coup ne prend pas la tour noire. Essayez encore !][%hint Cette tour n'attend que d'être prise !] Bien joué, vous avez trouvé la meilleure enfilade !}\r\n*"
+    },
+    {
+      "fen": "8/3r2p1/5k2/2p2r2/1pP5/1P5P/4B1P1/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs accusent un retard matériel, mais dans cette position, ils peuvent prendre une pièce et préparer une enfilade. A vous de jouer !",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Il n'y a qu'une seule prise possible dans la position pour les blancs, et elle mène à une enfilade !]",
+        "Si près du but ! Le fou a essayé de gagner du matériel, mais cet échec l'en empêche. Trouvez une autre manière de faire marcher cette idée !",
+        "Formidable ! Le roi noir reprend la tour, mais il est maintenant sur la même diagonale que sa tour d7. A vous d'enchaîner avec une enfilade !",
+        "[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint Repérez la diagonale que partagent le roi et la tour noire.]",
+        "Et voilà ! Il ne reste plus qu'à prendre la tour !",
+        "[%wrong Non, il faut maintenant prendre la tour. Essayez encore.][%hint Cette tour n'attend que d'être prise !] Excellent travail, vous avez trouvé l'enfilade fatale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3r2p1/5k2/2p2r2/1pP5/1P5P/4B1P1/5RK1 w - - 0 1\"]\r\n\r\n{Les blancs accusent un retard matériel, mais dans cette position, ils peuvent prendre une pièce et préparer une enfilade. A vous de jouer !}\r\n1.Rxf5+ $1\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Il n'y a qu'une seule prise possible dans la position pour les blancs, et elle mène à une enfilade !]}\r\n    (1.Bg4 $2 Rxf1+ {Si près du but ! Le fou a essayé de gagner du matériel, mais cet échec l'en empêche. Trouvez une autre manière de faire marcher cette idée !})\r\n1...Kxf5\r\n    {Formidable ! Le roi noir reprend la tour, mais il est maintenant sur la même diagonale que sa tour d7. A vous d'enchaîner avec une enfilade !}\r\n2.Bg4+\r\n    {[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint Repérez la diagonale que partagent le roi et la tour noire.]}\r\n2...Ke5\r\n    {Et voilà ! Il ne reste plus qu'à prendre la tour !}\r\n3.Bxd7\r\n    {[%wrong Non, il faut maintenant prendre la tour. Essayez encore.][%hint Cette tour n'attend que d'être prise !] Excellent travail, vous avez trouvé l'enfilade fatale.}\r\n*"
+    },
+    {
+      "fen": "8/7P/2r5/3p4/3k3B/6R1/5nPK/q7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de promouvoir un pion en dame en a1, et menacent ...Dh1 échec et mat. Trouvez l'enfilade qui sauve les blancs !",
+        "[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint N'oubliez pas le thème de la promotion du pion !]",
+        "Ce coup fonctionne également, mais pourquoi ne pas promouvoir en dame pour se simplifier le travail ?",
+        "Bien essayé, mais cette enfilade se heurte à une solide défense adverse. Essayez de trouver un coup plus sûr.",
+        "Les blancs promeuvent leur pion en dame et enfile le roi et la dame adverses. Il est maintenant temps de finir le travail !",
+        "[%wrong Non, il faut maintenant prendre la dame. Essayez encore.][%hint Cette dame n'attend que d'être prise !] Excellent travail, vous avez trouvé l'enfilade fatale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/7P/2r5/3p4/3k3B/6R1/5nPK/q7 w - - 0 1\"]\r\n\r\n{Les noirs viennent de promouvoir un pion en dame en a1, et menacent ...Dh1 échec et mat. Trouvez l'enfilade qui sauve les blancs !}\r\n1.h8=Q+\r\n    {[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint N'oubliez pas le thème de la promotion du pion !]}\r\n    (1.h8=B+ $2 {Ce coup fonctionne également, mais pourquoi ne pas promouvoir en dame pour se simplifier le travail ?})\r\n    (1.Bf6+ $2 Rxf6 {Bien essayé, mais cette enfilade se heurte à une solide défense adverse. Essayez de trouver un coup plus sûr.})\r\n1...Kc4\r\n    {Les blancs promeuvent leur pion en dame et enfile le roi et la dame adverses. Il est maintenant temps de finir le travail !}\r\n2.Qxa1\r\n    {[%wrong Non, il faut maintenant prendre la dame. Essayez encore.][%hint Cette dame n'attend que d'être prise !] Excellent travail, vous avez trouvé l'enfilade fatale.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "8ba3046c-9ce8-11e8-8207-bd548449f4de",
+    "name": "L'enfilade",
+    "path": "l-enfilade",
+    "description": "Une enfilade consiste à attaquer une pièce qui cache derrière elle une pièce de moindre valeur. Lorsque la pièce la plus importante échappe à l’attaque, il devient possible de capturer celle qu’elle protégeait. En ce sens, l’enfilade est une sorte de clouage inversé.",
+    "glyphName": "game-tactic-skewer",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-skewers-l3d.mp4",
+    "fen": "6Q1/8/4k3/8/8/pq6/7P/7K b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/4k3/8/8/pq6/6QP/7K w - - 0 1\"]\r\n\r\n{La dame noire soutient son pion dans sa quête de la promotion. Mais les blancs ont une enfilade fatale dans cette position. A vous de la trouver !}\r\n1.Qg8+\r\n    {[%wrong Bien essayé, mais il ne s'agit pas de l'enfilade finale. Essayez encore !][%hint Trouvez un échec qui enfile le roi et la dame adverses.]}\r\n1...Kd6\r\n    {Bien joué ! C'est une enfilade royale. Il est désormais temps de capturer la dame !}\r\n2.Qxb3\r\n    {[%wrong Non, essayez encore !][%hint Comment prendre la dame noire ?] Bravo ! Les blancs vont ensuite gagner le pion, et la partie.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/7p/p2k3B/2p1b3/P7/5NP1/1r3P2/5RK1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez un coup qui capture une pièce adverse tout en préparant une enfilade.}\r\n1.Nxe5\r\n    {[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Il n'y a qu'une seule prise possible dans la position pour les blancs, et elle mène à une enfilade !]}\r\n1...Kxe5\r\n    {Bien joué ! Si le roi n'avait pas repris le cavalier, les blancs gagnaient tout simplement une pièce. Maintenant, il est temps de trouver l'enfilade gagnante !}\r\n2.Bg7+\r\n    {[%wrong Ce coup n'enfile pas les pièces adverses. Essayez encore !][%hint Repérez la diagonale que partagent le roi et la tour noirs.]}\r\n2...Kf5\r\n    {Et voilà ! Il ne reste plus qu'à prendre la tour !}\r\n3.Bxb2\r\n {[%wrong Ce coup ne gagne pas la tour noire. Essayez encore !][%hint Finissez le travail en gagnant un maximum de matériel.]}\r\n    {Une enfilade efficace !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2n5/1r4k1/p4p2/4b1p1/8/3B2P1/4NPK1/7R w - - 0 1\"]\r\n\r\n{Trouvez la MEILLEURE enfilade pour les blancs dans cette position.}\r\n1.Rh7+\r\n    {[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint Il faudrait enfiler le roi et la tour noire.]}\r\n    (1.Bxa6 $2 Rc7 {Bien essayé. Ce coup enfile la tour et le cavalier et va nous permettre de gagner un pion, mais il y a beaucoup plus fort dans la position. Cherchez encore !})\r\n1...Kg8\r\n    {Bravo ! C'est une enfilade roi-tour. Notre tour est protégée par le fou, ce qui force le roi à bouger, et nous permet maintenant de capturer la tour adverse en toute décontraction !}\r\n2.Rxb7\r\n    {[%wrong Ce coup ne prend pas la tour noire. Essayez encore !][%hint Cette tour n'attend que d'être prise !] Bien joué, vous avez trouvé la meilleure enfilade !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3r2p1/5k2/2p2r2/1pP5/1P5P/4B1P1/5RK1 w - - 0 1\"]\r\n\r\n{Les blancs accusent un retard matériel, mais dans cette position, ils peuvent prendre une pièce et préparer une enfilade. A vous de jouer !}\r\n1.Rxf5+ $1\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Il n'y a qu'une seule prise possible dans la position pour les blancs, et elle mène à une enfilade !]}\r\n    (1.Bg4 $2 Rxf1+ {Si près du but ! Le fou a essayé de gagner du matériel, mais cet échec l'en empêche. Trouvez une autre manière de faire marcher cette idée !})\r\n1...Kxf5\r\n    {Formidable ! Le roi noir reprend la tour, mais il est maintenant sur la même diagonale que sa tour d7. A vous d'enchaîner avec une enfilade !}\r\n2.Bg4+\r\n    {[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint Repérez la diagonale que partagent le roi et la tour noire.]}\r\n2...Ke5\r\n    {Et voilà ! Il ne reste plus qu'à prendre la tour !}\r\n3.Bxd7\r\n    {[%wrong Non, il faut maintenant prendre la tour. Essayez encore.][%hint Cette tour n'attend que d'être prise !] Excellent travail, vous avez trouvé l'enfilade fatale.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/7P/2r5/3p4/3k3B/6R1/5nPK/q7 w - - 0 1\"]\r\n\r\n{Les noirs viennent de promouvoir un pion en dame en a1, et menacent ...Dh1 échec et mat. Trouvez l'enfilade qui sauve les blancs !}\r\n1.h8=Q+\r\n    {[%wrong Ce coup n'est pas une enfilade. Essayez encore !][%hint N'oubliez pas le thème de la promotion du pion !]}\r\n    (1.h8=B+ $2 {Ce coup fonctionne également, mais pourquoi ne pas promouvoir en dame pour se simplifier le travail ?})\r\n    (1.Bf6+ $2 Rxf6 {Bien essayé, mais cette enfilade se heurte à une solide défense adverse. Essayez de trouver un coup plus sûr.})\r\n1...Kc4\r\n    {Les blancs promeuvent leur pion en dame et enfile le roi et la dame adverses. Il est maintenant temps de finir le travail !}\r\n2.Qxa1\r\n    {[%wrong Non, il faut maintenant prendre la dame. Essayez encore.][%hint Cette dame n'attend que d'être prise !] Excellent travail, vous avez trouvé l'enfilade fatale.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il est temps de s'intéresser à la terrible \"enfilade\".",
+    "outroText": "Magnifique ! Une corde de plus à votre arc.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "4c625512-83a9-11e8-a40c-9f2f5c400134",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/skewers5d11129e4b02e.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/skewers-566886ff97320f.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/skewers-1608fde90e3b0c.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/skewers-65ea2454f6de74.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/infilata63c08fe1b93f7.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 36,
+    "order": 7,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/le-fou",
+  "capturedAt": "2026-10-22T12:23:25.705Z",
+  "title": "Le Fou",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/8/8/1B6 w - - 0 1",
+      "challengeType": "captureTheStar",
+      "targets": "f5",
+      "comments": [
+        "Utilisez votre fou pour capturer l'étoile."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/8/1B6 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"f5\"]\r\n\r\n{Utilisez votre fou pour capturer l'étoile.} *"
+    },
+    {
+      "fen": "8/8/8/5B2/8/8/8/8 w - - 0 1",
+      "challengeType": "captureTheStar",
+      "targets": "e8",
+      "comments": [
+        "Et la suivante..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/5B2/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"e8\"]\r\n\r\n{Et la suivante...} *"
+    },
+    {
+      "fen": "4B3/8/8/8/8/8/8/8 w - - 0 1",
+      "challengeType": "captureTheStar",
+      "targets": "d5",
+      "comments": [
+        "Une dernière. Vous vous en sortez très bien."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4B3/8/8/8/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"d5\"]\r\n[LESSON_CHALLENGE_COMPLETE_TEXT \"Incroyable ! Maintenant que vous savez comment déplacer le fou, il ne vous reste plus que deux pièces à apprendre.\"]\r\n\r\n{Une dernière. Vous vous en sortez très bien.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "a86633f0-ebdf-11f0-9a53-2b1570570bb8",
+    "name": "Le Fou",
+    "path": "le-fou",
+    "description": "Apprenez à délacer le Fou.",
+    "glyphName": "piece-fill-bishop",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/8/1B6 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"f5\"]\r\n\r\n{Utilisez votre fou pour capturer l'étoile.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/5B2/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"e8\"]\r\n\r\n{Et la suivante...} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4B3/8/8/8/8/8/8/8 w - - 0 1\"]\r\n[LESSON_CHALLENGE_TYPE \"captureTheStar\"]\r\n[LESSON_STAR_LOCATIONS \"d5\"]\r\n[LESSON_CHALLENGE_COMPLETE_TEXT \"Incroyable ! Maintenant que vous savez comment déplacer le fou, il ne vous reste plus que deux pièces à apprendre.\"]\r\n\r\n{Une dernière. Vous vous en sortez très bien.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "introText": "Apprenez à délacer le Fou.",
+    "outroText": "Bien ! Prêt à découvrir comment déplacer le Cavalier ?",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/8/1B6 w - - 0 1\"]\r\n\r\n{[%c_arrow b1a2;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;b1;to;a2;persistent;true,b1h7;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;b1;to;h7;persistent;true] Vient ensuite le fou. Il peut se déplacer d'un nombre illimité de cases uniquement en diagonale.} *"
+        ]
+      }
+    ],
+    "animationName": "bishop-complete",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "5366783e-b42a-11f0-b53c-25d81c6ef608",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 4,
+    "order": 4,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

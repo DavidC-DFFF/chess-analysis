@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/le-blocage",
+  "capturedAt": "2026-10-22T12:23:48.126Z",
+  "title": "Le blocage",
+  "exercises": [
+    {
+      "fen": "4rr1k/ppqb2pp/3bpn2/3p4/1P1B4/2PB1N2/P3QPPP/2R2RK1 w - - 9 17",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs se préparent à jouer la puissante poussée ...e5. Comment empêcher cette idée ?",
+        "[%wrong Ce coup n'empêche pas les noirs de pousser ...e5. Cherchez encore !][%hint Bloquez le pion e6 !] Bien vu ! Le cavalier s'installe sur l'excellent avant-poste e5, bloquant le pion e6 et forçant les noirs à jouer passivement. Beau travail !",
+        "Belle idée, mais les noirs peuvent attaquer le bloqueur par ...Cg4. Essayez avec une autre pièce !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rr1k/ppqb2pp/3bpn2/3p4/1P1B4/2PB1N2/P3QPPP/2R2RK1 w - - 9 17\"]\r\n\r\n{Les noirs se préparent à jouer la puissante poussée ...e5. Comment empêcher cette idée ?}\r\n17.Ne5\r\n    {[%wrong Ce coup n'empêche pas les noirs de pousser ...e5. Cherchez encore !][%hint Bloquez le pion e6 !] Bien vu ! Le cavalier s'installe sur l'excellent avant-poste e5, bloquant le pion e6 et forçant les noirs à jouer passivement. Beau travail !}\r\n    (17.Be5 $6 Ng4 {Belle idée, mais les noirs peuvent attaquer le bloqueur par ...Cg4. Essayez avec une autre pièce !})\r\n*"
+    },
+    {
+      "fen": "1r1r4/p2b1pk1/1p3npp/2pPp3/2P1P3/P1P3PB/5N1P/1R2R1K1 b - - 2 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Comment forcer le cavalier blanc à se rendre au bord de l'échiquier ?",
+        "[%wrong Ce coup n'envoie pas le cavalier adverse vers la bande. Cherchez encore !][%hint Cherchez un échange de pièce...]",
+        "Bien vu ! Le cavalier blanc est mal placé. Profitez-en pour bloquer le pion passé d des blancs tout en attaquant c4. Vous avez deux coups !",
+        "[%wrong Ce coup ne prépare pas le blocage du pion d5 et l'attaque de c4. Cherchez encore !][%hint Où placer le cavalier pour qu'il bloque d5 tout en attaquant c4 ? Et comment l'y amener ?]",
+        "Excellent ! Le cavalier noir s'apprête à venir bloquer le pion passé d tout en attaquant c4. A vous de jouer !",
+        "[%wrong Ce n'est pas le coup qui conclut la séquence. Cherchez encore !][%hint Le cavalier a fait la moitié du chemin. Bloquez d5 et attaquez c4 !] Parfait ! Les noirs bloquent le pion passé blanc et vont s'emparer de c4 au prochain coup. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r4/p2b1pk1/1p3npp/2pPp3/2P1P3/P1P3PB/5N1P/1R2R1K1 b - - 2 2\"]\r\n\r\n{Trait aux noirs. Comment forcer le cavalier blanc à se rendre au bord de l'échiquier ?}\r\n2...Bxh3\r\n    {[%wrong Ce coup n'envoie pas le cavalier adverse vers la bande. Cherchez encore !][%hint Cherchez un échange de pièce...]}\r\n3.Nxh3\r\n    {Bien vu ! Le cavalier blanc est mal placé. Profitez-en pour bloquer le pion passé d des blancs tout en attaquant c4. Vous avez deux coups !}\r\n3...Ne8\r\n    {[%wrong Ce coup ne prépare pas le blocage du pion d5 et l'attaque de c4. Cherchez encore !][%hint Où placer le cavalier pour qu'il bloque d5 tout en attaquant c4 ? Et comment l'y amener ?]}\r\n4.Nf2\r\n    {Excellent ! Le cavalier noir s'apprête à venir bloquer le pion passé d tout en attaquant c4. A vous de jouer !}\r\n4...Nd6\r\n    {[%wrong Ce n'est pas le coup qui conclut la séquence. Cherchez encore !][%hint Le cavalier a fait la moitié du chemin. Bloquez d5 et attaquez c4 !] Parfait ! Les noirs bloquent le pion passé blanc et vont s'emparer de c4 au prochain coup. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "4q2k/1b2P1p1/p3Q2p/1p6/1Pp4P/2Pn2P1/4B2K/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils sacrifier du matériel afin de rompre le blocus des noirs en e7 ?",
+        "[%wrong Il existe un meilleur coup. Essayez de trouver comment attaquer la dame noire.] [%hint Sacrifiez votre fou pour détourner la dame noire de se tâche de blocus du pion.]",
+        "Magnifique coup ! Comment gagner du matériel à présent ?",
+        "\r\n[%wrong Essayez plutôt de trouver comment promouvoir votre pion.] [%hint\r\nFaites une deuxième dame.]  Bien joué ! Les blancs ont désormais une dame de plus !",
+        "\r\nLes blancs sont certes gagnant mais pourquoi se priver d'une pièce plus forte ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4q2k/1b2P1p1/p3Q2p/1p6/1Pp4P/2Pn2P1/4B2K/8 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils sacrifier du matériel afin de rompre le blocus des noirs en e7 ?} 1.\r\nBh5 {[%wrong Il existe un meilleur coup. Essayez de trouver comment attaquer la dame noire.] [%hint Sacrifiez votre fou pour détourner la dame noire de se tâche de blocus du pion.]} Qxh5 {Magnifique coup ! Comment gagner du matériel à présent ?} 2. e8=Q+ {\r\n[%wrong Essayez plutôt de trouver comment promouvoir votre pion.] [%hint\r\nFaites une deuxième dame.]  Bien joué ! Les blancs ont désormais une dame de plus !} (2. e8=R+ $5 {\r\nLes blancs sont certes gagnant mais pourquoi se priver d'une pièce plus forte ?}) *"
+    },
+    {
+      "fen": "r5k1/1b1r1ppp/p3p3/2npP3/1p3P2/1PN3P1/P1P3BP/3RR1K1 w - - 8 20",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier blanc est attaqué. Comment le ramener vers le centre pour bloquer le pion d5 ?",
+        "[%wrong Ce coup ne met pas le cavalier sur une bonne case. Cherchez encore !][%hint La case d4 serait idéale pour le cavalier. Comment y arriver en deux coups ?]",
+        "Joli coup ! Bloquons maintenant le pion d5 pour améliorer la position de notre cavalier.",
+        "[%wrong Ce coup ne bloque pas le pion d5 avec le cavalier. Cherchez encore !][%hint Placez le cavalier sur la case de blocage du pion d5.] Jolie manœuvre ! Les blancs ont une très bonne position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/1b1r1ppp/p3p3/2npP3/1p3P2/1PN3P1/P1P3BP/3RR1K1 w - - 8 20\"]\r\n\r\n{Le cavalier blanc est attaqué. Comment le ramener vers le centre pour bloquer le pion d5 ?}\r\n20.Ne2\r\n    {[%wrong Ce coup ne met pas le cavalier sur une bonne case. Cherchez encore !][%hint La case d4 serait idéale pour le cavalier. Comment y arriver en deux coups ?]}\r\n20...Rad8\r\n    {Joli coup ! Bloquons maintenant le pion d5 pour améliorer la position de notre cavalier.}\r\n21.Nd4\r\n    {[%wrong Ce coup ne bloque pas le pion d5 avec le cavalier. Cherchez encore !][%hint Placez le cavalier sur la case de blocage du pion d5.] Jolie manœuvre ! Les blancs ont une très bonne position.}\r\n*"
+    },
+    {
+      "fen": "r2q1rk1/1p3ppp/p1n2n2/2bp4/7N/1PN1P2P/PB2bPP1/R2Q1RK1 w - - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs doivent-ils reprendre en e2 pour préparer le blocus du pion d4 ?",
+        "[%wrong Les noirs gagnent du matériel. Recommencez avec une capture plus forte.] [%hint\r\nReprenez en e2 et augmenter votre contrôle de la case clé en d4.]  Bien joué ! Les blancs préparent Ce2-d4 ou Ch4-f5-d4 afin de bloquer le pion isolé des noirs.",
+        "Les noirs échangent leur pion isolé et obtiennent une position sans risque.\r\nRetentez votre chance en cherchant une prise plus adéquate."
+      ],
+      "pgn": "[Event \"86th ch-BRA 2020\"]\r\n[Site \"?\"]\r\n[Date \"2020.??.??\"]\r\n[Round \"2.2\"]\r\n[White \"IQP 3\"]\r\n[Black \"Molina Rob\"]\r\n[Result \"1-0\"]\r\n[WhiteElo \"2528\"]\r\n[BlackElo \"2431\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/1p3ppp/p1n2n2/2bp4/7N/1PN1P2P/PB2bPP1/R2Q1RK1 w - - 0 14\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"2020.??.??\"]\r\n\r\n{Comment les blancs doivent-ils reprendre en e2 pour préparer le blocus du pion d4 ?} 14. Nxe2\r\n{[%wrong Les noirs gagnent du matériel. Recommencez avec une capture plus forte.] [%hint\r\nReprenez en e2 et augmenter votre contrôle de la case clé en d4.]  Bien joué ! Les blancs préparent Ce2-d4 ou Ch4-f5-d4 afin de bloquer le pion isolé des noirs.} (14. Qxe2 $2 d4 {Les noirs échangent leur pion isolé et obtiennent une position sans risque.\r\nRetentez votre chance en cherchant une prise plus adéquate.}) 1-0"
+    }
+  ],
+  "sourceLesson": {
+    "id": "83345d90-9cec-11e8-ab22-a5969cb06334",
+    "name": "Le blocage",
+    "path": "le-blocage",
+    "description": "Les pions passés peuvent se révéler très dangereux, il est donc important de les bloquer. Comme ils peuvent sauter par-dessus les autres pièces et donc rester actifs, les cavaliers sont d’excellents bloqueurs. Si vous laissez un pion passé adverse s’aventurer trop loin, il faudra parfois sacrifier du matériel pour l’empêcher d'accéder à la promotion.",
+    "glyphName": "piece-badge-pawn-question",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-blockading-pawns-t4r.mp4",
+    "fen": "5rk1/p4p2/1p1rp1qp/6p1/3P4/P3Q1P1/1P1R1P1P/3R2K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rr1k/ppqb2pp/3bpn2/3p4/1P1B4/2PB1N2/P3QPPP/2R2RK1 w - - 9 17\"]\r\n\r\n{Les noirs se préparent à jouer la puissante poussée ...e5. Comment empêcher cette idée ?}\r\n17.Ne5\r\n    {[%wrong Ce coup n'empêche pas les noirs de pousser ...e5. Cherchez encore !][%hint Bloquez le pion e6 !] Bien vu ! Le cavalier s'installe sur l'excellent avant-poste e5, bloquant le pion e6 et forçant les noirs à jouer passivement. Beau travail !}\r\n    (17.Be5 $6 Ng4 {Belle idée, mais les noirs peuvent attaquer le bloqueur par ...Cg4. Essayez avec une autre pièce !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1r4/p2b1pk1/1p3npp/2pPp3/2P1P3/P1P3PB/5N1P/1R2R1K1 b - - 2 2\"]\r\n\r\n{Trait aux noirs. Comment forcer le cavalier blanc à se rendre au bord de l'échiquier ?}\r\n2...Bxh3\r\n    {[%wrong Ce coup n'envoie pas le cavalier adverse vers la bande. Cherchez encore !][%hint Cherchez un échange de pièce...]}\r\n3.Nxh3\r\n    {Bien vu ! Le cavalier blanc est mal placé. Profitez-en pour bloquer le pion passé d des blancs tout en attaquant c4. Vous avez deux coups !}\r\n3...Ne8\r\n    {[%wrong Ce coup ne prépare pas le blocage du pion d5 et l'attaque de c4. Cherchez encore !][%hint Où placer le cavalier pour qu'il bloque d5 tout en attaquant c4 ? Et comment l'y amener ?]}\r\n4.Nf2\r\n    {Excellent ! Le cavalier noir s'apprête à venir bloquer le pion passé d tout en attaquant c4. A vous de jouer !}\r\n4...Nd6\r\n    {[%wrong Ce n'est pas le coup qui conclut la séquence. Cherchez encore !][%hint Le cavalier a fait la moitié du chemin. Bloquez d5 et attaquez c4 !] Parfait ! Les noirs bloquent le pion passé blanc et vont s'emparer de c4 au prochain coup. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4q2k/1b2P1p1/p3Q2p/1p6/1Pp4P/2Pn2P1/4B2K/8 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils sacrifier du matériel afin de rompre le blocus des noirs en e7 ?} 1.\r\nBh5 {[%wrong Il existe un meilleur coup. Essayez de trouver comment attaquer la dame noire.] [%hint Sacrifiez votre fou pour détourner la dame noire de se tâche de blocus du pion.]} Qxh5 {Magnifique coup ! Comment gagner du matériel à présent ?} 2. e8=Q+ {\r\n[%wrong Essayez plutôt de trouver comment promouvoir votre pion.] [%hint\r\nFaites une deuxième dame.]  Bien joué ! Les blancs ont désormais une dame de plus !} (2. e8=R+ $5 {\r\nLes blancs sont certes gagnant mais pourquoi se priver d'une pièce plus forte ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/1b1r1ppp/p3p3/2npP3/1p3P2/1PN3P1/P1P3BP/3RR1K1 w - - 8 20\"]\r\n\r\n{Le cavalier blanc est attaqué. Comment le ramener vers le centre pour bloquer le pion d5 ?}\r\n20.Ne2\r\n    {[%wrong Ce coup ne met pas le cavalier sur une bonne case. Cherchez encore !][%hint La case d4 serait idéale pour le cavalier. Comment y arriver en deux coups ?]}\r\n20...Rad8\r\n    {Joli coup ! Bloquons maintenant le pion d5 pour améliorer la position de notre cavalier.}\r\n21.Nd4\r\n    {[%wrong Ce coup ne bloque pas le pion d5 avec le cavalier. Cherchez encore !][%hint Placez le cavalier sur la case de blocage du pion d5.] Jolie manœuvre ! Les blancs ont une très bonne position.}\r\n*",
+      "[Event \"86th ch-BRA 2020\"]\r\n[Site \"?\"]\r\n[Date \"2020.??.??\"]\r\n[Round \"2.2\"]\r\n[White \"IQP 3\"]\r\n[Black \"Molina Rob\"]\r\n[Result \"1-0\"]\r\n[WhiteElo \"2528\"]\r\n[BlackElo \"2431\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/1p3ppp/p1n2n2/2bp4/7N/1PN1P2P/PB2bPP1/R2Q1RK1 w - - 0 14\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"2020.??.??\"]\r\n\r\n{Comment les blancs doivent-ils reprendre en e2 pour préparer le blocus du pion d4 ?} 14. Nxe2\r\n{[%wrong Les noirs gagnent du matériel. Recommencez avec une capture plus forte.] [%hint\r\nReprenez en e2 et augmenter votre contrôle de la case clé en d4.]  Bien joué ! Les blancs préparent Ce2-d4 ou Ch4-f5-d4 afin de bloquer le pion isolé des noirs.} (14. Qxe2 $2 d4 {Les noirs échangent leur pion isolé et obtiennent une position sans risque.\r\nRetentez votre chance en cherchant une prise plus adéquate.}) 1-0"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Identifions maintenant les pions faibles faciles à cibler.",
+    "outroText": "Excellent ! C'est un principe important à comprendre pour trouver des plans.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "5da60e2e-8eb5-11e8-8faa-3de049d956e9",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/isolated-and-hanging-pawns5e7ab25954441.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/isolated-and-hanging-pawns-56688663a25dee.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/isolated-and-hanging-pawns-15ea23f5602d5d.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/isolated-and-hanging-pawns-361052b92018cd.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 105,
+    "order": 4,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

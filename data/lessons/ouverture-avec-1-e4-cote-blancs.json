@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/introduction-au-ouvertures-classiques/ouverture-avec-1-e4-cote-blancs",
+  "capturedAt": "2026-10-22T12:23:35.041Z",
+  "title": "Les ouvertures avec 1.e4 pour les blancs",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Commençons la partie en jouant 1. e4 !",
+        "[%wrong Vous n'avez pas mis un pion en e4. Essayez encore !][%hint Avancez le pion du roi de deux cases.]",
+        "Très bien ! Et maintenant, comment développer un cavalier vers le centre tout en attaquant le pion e5 ?",
+        "[%wrong Ce coup ne développe pas un cavalier tout en attaquant e5. Essayez encore !][%hint Utilisez le cavalier g1.]",
+        "Exact ! Les blancs développent un cavalier vers le centre tout en attaquant le pion e5. Jouons la partie italienne en développant maintenant notre fou de cases blanches en c4.",
+        "[%wrong Ce coup ne place pas le fou sur la case c4. Essayez encore !][%hint Sur cette case, le fou pourra attaquer la case faible f7.] Très bien ! Les blancs contrôlent une excellente diagonale et sont prêts à roquer. Cette ouverture est connue sous le nom de \"partie italienne\"."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{Commençons la partie en jouant 1. e4 !}\r\n1.e4\r\n    {[%wrong Vous n'avez pas mis un pion en e4. Essayez encore !][%hint Avancez le pion du roi de deux cases.]}\r\n1...e5\r\n    {Très bien ! Et maintenant, comment développer un cavalier vers le centre tout en attaquant le pion e5 ?}\r\n2.Nf3\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en attaquant e5. Essayez encore !][%hint Utilisez le cavalier g1.]}\r\n2...Nc6\r\n    {Exact ! Les blancs développent un cavalier vers le centre tout en attaquant le pion e5. Jouons la partie italienne en développant maintenant notre fou de cases blanches en c4.}\r\n3.Bc4\r\n    {[%wrong Ce coup ne place pas le fou sur la case c4. Essayez encore !][%hint Sur cette case, le fou pourra attaquer la case faible f7.] Très bien ! Les blancs contrôlent une excellente diagonale et sont prêts à roquer. Cette ouverture est connue sous le nom de \"partie italienne\".}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayons maintenant le coup 3.Fb5, pour attaquer le cavalier noir en c6. C'est la partie espagnole !",
+        "[%wrong Ce coup ne place pas le fou en b5. Essayez encore !][%hint Sur la case b5, le fou attaquera le cavalier c6.]",
+        "Parfait ! Cette fois, les blancs ont choisi la partie espagnole. Les noirs répondent en attaquant le fou blanc. Comment mettre ce dernier en sécurité tout en gardant la pression sur le cavalier c6 ?",
+        "[%wrong Bien essayé, mais ce coup ne met pas le fou à l'abri tout en gardant la pression. Essayez encore !][%hint Comment garder le fou sur la même diagonale tout en gardant la pression sur le cavalier ?]",
+        "Ce coup est également possible, mais nous en reparlerons plus tard ! Pour l'instant, nous voulons garder le fou sur l'échiquier tout en continuant à mettre la pression sur le cavalier c6.",
+        "Exactement ! Les blancs mettent leur fou en sécurité tout en gardant la pression sur le cavalier c6. Mais les noirs attaquent à nouveau notre fou ! Comment le mettre à nouveau en sûreté sur une forte diagonale ?",
+        "[%wrong Ce coup ne met pas le fou de cases blanches en sécurité. Essayez encore !][%hint Ce fou n'a qu'une seule case sûre.] Et voilà ! Le fou blanc va maintenant profiter d'une forte diagonale, avec le pion faible f7 en ligne de mire.",
+        "Cet échange est mauvais : nous perdons un fou contre un pion. Mettez votre fou en sécurité !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{Essayons maintenant le coup 3.Fb5, pour attaquer le cavalier noir en c6. C'est la partie espagnole !}\r\n1.Bb5\r\n    {[%wrong Ce coup ne place pas le fou en b5. Essayez encore !][%hint Sur la case b5, le fou attaquera le cavalier c6.]}\r\n1...a6\r\n    {Parfait ! Cette fois, les blancs ont choisi la partie espagnole. Les noirs répondent en attaquant le fou blanc. Comment mettre ce dernier en sécurité tout en gardant la pression sur le cavalier c6 ?}\r\n2.Ba4\r\n    {[%wrong Bien essayé, mais ce coup ne met pas le fou à l'abri tout en gardant la pression. Essayez encore !][%hint Comment garder le fou sur la même diagonale tout en gardant la pression sur le cavalier ?]}\r\n    (2.Bxc6 $5 {Ce coup est également possible, mais nous en reparlerons plus tard ! Pour l'instant, nous voulons garder le fou sur l'échiquier tout en continuant à mettre la pression sur le cavalier c6.})\r\n2...b5\r\n    {Exactement ! Les blancs mettent leur fou en sécurité tout en gardant la pression sur le cavalier c6. Mais les noirs attaquent à nouveau notre fou ! Comment le mettre à nouveau en sûreté sur une forte diagonale ?}\r\n3.Bb3\r\n    {[%wrong Ce coup ne met pas le fou de cases blanches en sécurité. Essayez encore !][%hint Ce fou n'a qu'une seule case sûre.] Et voilà ! Le fou blanc va maintenant profiter d'une forte diagonale, avec le pion faible f7 en ligne de mire.}\r\n    (3.Bxb5 $2 axb5 {Cet échange est mauvais : nous perdons un fou contre un pion. Mettez votre fou en sécurité !})\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Prenons le cavalier noir pour comprendre pourquoi ce coup ne gagne pas un pion comme on pourrait l'imaginer.",
+        "[%wrong Non, il faut prendre le cavalier c6!][%hint Emparez-vous du cavalier c6 avec le fou.]",
+        "Les blancs échangent un fou contre un cavalier. Nous pourrions maintenant roquer et avoir une bonne position, mais jouons Cxe5 pour voir pourquoi ce coup ne marche pas.",
+        "[%wrong Jouez Cxe5.][%hint Emparez vous du pion e5 avec votre cavalier.]",
+        "Les blancs ont effectivement eu un pion de plus pendant quelques instants, mais dès le coup suivant, la dame noire attaque à la fois ce cavalier et le pion e4, et il est impossible de défendre les deux à la fois. Les noirs vont donc s'emparer du pion e4 dès le prochain coup et obtenir une bonne position. Cela explique pourquoi les blancs ne préfèrent généralement pas échanger le fou contre le cavalier si tôt dans la partie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 2\"]\r\n\r\n{Prenons le cavalier noir pour comprendre pourquoi ce coup ne gagne pas un pion comme on pourrait l'imaginer.}\r\n2.Bxc6\r\n    {[%wrong Non, il faut prendre le cavalier c6!][%hint Emparez-vous du cavalier c6 avec le fou.]}\r\n2...dxc6\r\n    {Les blancs échangent un fou contre un cavalier. Nous pourrions maintenant roquer et avoir une bonne position, mais jouons Cxe5 pour voir pourquoi ce coup ne marche pas.}\r\n3.Nxe5\r\n    {[%wrong Jouez Cxe5.][%hint Emparez vous du pion e5 avec votre cavalier.]}\r\n3...Qd4\r\n    {Les blancs ont effectivement eu un pion de plus pendant quelques instants, mais dès le coup suivant, la dame noire attaque à la fois ce cavalier et le pion e4, et il est impossible de défendre les deux à la fois. Les noirs vont donc s'emparer du pion e4 dès le prochain coup et obtenir une bonne position. Cela explique pourquoi les blancs ne préfèrent généralement pas échanger le fou contre le cavalier si tôt dans la partie.}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Intéressons nous maintenant à l'agressive partie écossaise avec 3. d4.",
+        "[%wrong Ce coup ne place pas un pion en d4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]",
+        "Très bien. En jouant le coup 3. d4. nous sommes rentrés dans la partie écossaise. Les noirs répondent généralement par 3...exd4, mais après avoir joué ce coup moins fort, nous avons l'opportunité de prendre un pion et d'ouvrir la colonne d. Comment faire ?",
+        "[%wrong Ce coup ne prend pas le pion noir en ouvrant la colonne d. Essayez encore !][%hint Emparons-nous du pion e5....]",
+        "Un cavalier contre un pion... C'est un mauvais échange. Prenons plutôt le pion avec un pion !",
+        "Parfait ! Les noirs prennent avec le cavalier plutôt qu'avec le pion pour essayer d'empêcher les blancs d'échanger les dames. Comment échanger les cavaliers tout en ouvrant la colonne d pour forcer l'échange des dames ?",
+        "[%wrong Ce coup n'échange pas les cavaliers. Essayez encore !][%hint Prenez le cavalier e5....]",
+        "Très bien ! Les blancs forcent l'ouverture de la colonne d. Échangeons maintenant les dames pour empêcher les noirs de roquer.",
+        "[%wrong Ce coup n'échange pas les dames. Essayez encore !][%hint Comment prendre la dame noire ?]",
+        "Bien joué ! Le roi noir est désormais au centre pour de bon. Enchaînons en développant un fou pour attaquer au plus vite le pion f7 resté non protégé.",
+        "[%wrong Ce coup ne développe pas le fou de cases blanches sur une case où il attaque le pion f7. Essayez encore !][%hint La case c4 semble, encore une fois, la plus indiquée.] Excellent ! Les blancs lancent leur fou de cases blanches dans le combat en attaquant immédiatement un pion adverse. En outre, ils vont bientôt pouvoir roquer, tandis que le roi noir devra rester au centre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3\"]\r\n\r\n{Intéressons nous maintenant à l'agressive partie écossaise avec 3. d4.}\r\n3.d4\r\n    {[%wrong Ce coup ne place pas un pion en d4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3...d6\r\n    {Très bien. En jouant le coup 3. d4. nous sommes rentrés dans la partie écossaise. Les noirs répondent généralement par 3...exd4, mais après avoir joué ce coup moins fort, nous avons l'opportunité de prendre un pion et d'ouvrir la colonne d. Comment faire ?}\r\n4.dxe5\r\n    {[%wrong Ce coup ne prend pas le pion noir en ouvrant la colonne d. Essayez encore !][%hint Emparons-nous du pion e5....]}\r\n    (4.Nxe5 $2 dxe5 {Un cavalier contre un pion... C'est un mauvais échange. Prenons plutôt le pion avec un pion !})\r\n4...Nxe5\r\n    {Parfait ! Les noirs prennent avec le cavalier plutôt qu'avec le pion pour essayer d'empêcher les blancs d'échanger les dames. Comment échanger les cavaliers tout en ouvrant la colonne d pour forcer l'échange des dames ?}\r\n5.Nxe5\r\n {[%wrong Ce coup n'échange pas les cavaliers. Essayez encore !][%hint Prenez le cavalier e5....]}\r\ndxe5\r\n    {Très bien ! Les blancs forcent l'ouverture de la colonne d. Échangeons maintenant les dames pour empêcher les noirs de roquer.}\r\n6.Qxd8+\r\n    {[%wrong Ce coup n'échange pas les dames. Essayez encore !][%hint Comment prendre la dame noire ?]}\r\n6...Kxd8\r\n    {Bien joué ! Le roi noir est désormais au centre pour de bon. Enchaînons en développant un fou pour attaquer au plus vite le pion f7 resté non protégé.}\r\n7.Bc4\r\n    {[%wrong Ce coup ne développe pas le fou de cases blanches sur une case où il attaque le pion f7. Essayez encore !][%hint La case c4 semble, encore une fois, la plus indiquée.] Excellent ! Les blancs lancent leur fou de cases blanches dans le combat en attaquant immédiatement un pion adverse. En outre, ils vont bientôt pouvoir roquer, tandis que le roi noir devra rester au centre.}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Continuons à explorer la partie écossaise avec 3.d4 !",
+        "[%wrong Ce coup ne place pas un pion en d4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]",
+        "Les noirs jouent la réponse la plus populaire en prenant le pion blanc. Récupérerons le matériel à l'aide du cavalier..",
+        "[%wrong Ce coup ne prend pas le pion d4 avec un cavalier. Essayez encore !][%hint Il faut bien entendu utiliser le cavalier f3.]",
+        "Parfait ! Les blancs récupèrent le pion et placent un cavalier au centre. Mais les noirs développent une nouvelle pièce et attaquent une seconde fois le cavalier d4. Comment le défendre tout en développant un fou ?",
+        "[%wrong Ce coup ne développe pas un fou tout en protégeant le cavalier. Essayez encore !][%hint Où pourrait aller le fou de cases noires pour protéger le cavalier d4 ?] Très bien ! Les blancs ramènent une nouvelle pièce en jeu tout en défendant le cavalier d4."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3\"]\r\n\r\n{Continuons à explorer la partie écossaise avec 3.d4 !}\r\n3.d4\r\n    {[%wrong Ce coup ne place pas un pion en d4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3...exd4\r\n    {Les noirs jouent la réponse la plus populaire en prenant le pion blanc. Récupérerons le matériel à l'aide du cavalier..}\r\n4.Nxd4\r\n    {[%wrong Ce coup ne prend pas le pion d4 avec un cavalier. Essayez encore !][%hint Il faut bien entendu utiliser le cavalier f3.]}\r\n4...Bc5\r\n    {Parfait ! Les blancs récupèrent le pion et placent un cavalier au centre. Mais les noirs développent une nouvelle pièce et attaquent une seconde fois le cavalier d4. Comment le défendre tout en développant un fou ?}\r\n5.Be3\r\n    {[%wrong Ce coup ne développe pas un fou tout en protégeant le cavalier. Essayez encore !][%hint Où pourrait aller le fou de cases noires pour protéger le cavalier d4 ?] Très bien ! Les blancs ramènent une nouvelle pièce en jeu tout en défendant le cavalier d4.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "1222c7b6-9ce9-11e8-8a94-55f27eafa61b",
+    "name": "Les ouvertures avec 1.e4 pour les blancs",
+    "path": "ouverture-avec-1-e4-cote-blancs",
+    "description": "L’un des premiers coups les plus fréquents est 1.e4. La réponse la plus solide pour les noirs consiste à jouer 1…e5. La partie continue souvent par 2.Cf3 Cc6, puis l’un des trois coups principaux : Fc4, Fb5 ou d4.",
+    "glyphName": "document-book-e",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-1-e4-openings-for-beginners-white-i0w.mp4",
+    "fen": "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/4B3/PPP2PPP/RN1QKB1R b KQkq - 2 5",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{Commençons la partie en jouant 1. e4 !}\r\n1.e4\r\n    {[%wrong Vous n'avez pas mis un pion en e4. Essayez encore !][%hint Avancez le pion du roi de deux cases.]}\r\n1...e5\r\n    {Très bien ! Et maintenant, comment développer un cavalier vers le centre tout en attaquant le pion e5 ?}\r\n2.Nf3\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en attaquant e5. Essayez encore !][%hint Utilisez le cavalier g1.]}\r\n2...Nc6\r\n    {Exact ! Les blancs développent un cavalier vers le centre tout en attaquant le pion e5. Jouons la partie italienne en développant maintenant notre fou de cases blanches en c4.}\r\n3.Bc4\r\n    {[%wrong Ce coup ne place pas le fou sur la case c4. Essayez encore !][%hint Sur cette case, le fou pourra attaquer la case faible f7.] Très bien ! Les blancs contrôlent une excellente diagonale et sont prêts à roquer. Cette ouverture est connue sous le nom de \"partie italienne\".}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{Essayons maintenant le coup 3.Fb5, pour attaquer le cavalier noir en c6. C'est la partie espagnole !}\r\n1.Bb5\r\n    {[%wrong Ce coup ne place pas le fou en b5. Essayez encore !][%hint Sur la case b5, le fou attaquera le cavalier c6.]}\r\n1...a6\r\n    {Parfait ! Cette fois, les blancs ont choisi la partie espagnole. Les noirs répondent en attaquant le fou blanc. Comment mettre ce dernier en sécurité tout en gardant la pression sur le cavalier c6 ?}\r\n2.Ba4\r\n    {[%wrong Bien essayé, mais ce coup ne met pas le fou à l'abri tout en gardant la pression. Essayez encore !][%hint Comment garder le fou sur la même diagonale tout en gardant la pression sur le cavalier ?]}\r\n    (2.Bxc6 $5 {Ce coup est également possible, mais nous en reparlerons plus tard ! Pour l'instant, nous voulons garder le fou sur l'échiquier tout en continuant à mettre la pression sur le cavalier c6.})\r\n2...b5\r\n    {Exactement ! Les blancs mettent leur fou en sécurité tout en gardant la pression sur le cavalier c6. Mais les noirs attaquent à nouveau notre fou ! Comment le mettre à nouveau en sûreté sur une forte diagonale ?}\r\n3.Bb3\r\n    {[%wrong Ce coup ne met pas le fou de cases blanches en sécurité. Essayez encore !][%hint Ce fou n'a qu'une seule case sûre.] Et voilà ! Le fou blanc va maintenant profiter d'une forte diagonale, avec le pion faible f7 en ligne de mire.}\r\n    (3.Bxb5 $2 axb5 {Cet échange est mauvais : nous perdons un fou contre un pion. Mettez votre fou en sécurité !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 2\"]\r\n\r\n{Prenons le cavalier noir pour comprendre pourquoi ce coup ne gagne pas un pion comme on pourrait l'imaginer.}\r\n2.Bxc6\r\n    {[%wrong Non, il faut prendre le cavalier c6!][%hint Emparez-vous du cavalier c6 avec le fou.]}\r\n2...dxc6\r\n    {Les blancs échangent un fou contre un cavalier. Nous pourrions maintenant roquer et avoir une bonne position, mais jouons Cxe5 pour voir pourquoi ce coup ne marche pas.}\r\n3.Nxe5\r\n    {[%wrong Jouez Cxe5.][%hint Emparez vous du pion e5 avec votre cavalier.]}\r\n3...Qd4\r\n    {Les blancs ont effectivement eu un pion de plus pendant quelques instants, mais dès le coup suivant, la dame noire attaque à la fois ce cavalier et le pion e4, et il est impossible de défendre les deux à la fois. Les noirs vont donc s'emparer du pion e4 dès le prochain coup et obtenir une bonne position. Cela explique pourquoi les blancs ne préfèrent généralement pas échanger le fou contre le cavalier si tôt dans la partie.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3\"]\r\n\r\n{Intéressons nous maintenant à l'agressive partie écossaise avec 3. d4.}\r\n3.d4\r\n    {[%wrong Ce coup ne place pas un pion en d4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3...d6\r\n    {Très bien. En jouant le coup 3. d4. nous sommes rentrés dans la partie écossaise. Les noirs répondent généralement par 3...exd4, mais après avoir joué ce coup moins fort, nous avons l'opportunité de prendre un pion et d'ouvrir la colonne d. Comment faire ?}\r\n4.dxe5\r\n    {[%wrong Ce coup ne prend pas le pion noir en ouvrant la colonne d. Essayez encore !][%hint Emparons-nous du pion e5....]}\r\n    (4.Nxe5 $2 dxe5 {Un cavalier contre un pion... C'est un mauvais échange. Prenons plutôt le pion avec un pion !})\r\n4...Nxe5\r\n    {Parfait ! Les noirs prennent avec le cavalier plutôt qu'avec le pion pour essayer d'empêcher les blancs d'échanger les dames. Comment échanger les cavaliers tout en ouvrant la colonne d pour forcer l'échange des dames ?}\r\n5.Nxe5\r\n {[%wrong Ce coup n'échange pas les cavaliers. Essayez encore !][%hint Prenez le cavalier e5....]}\r\ndxe5\r\n    {Très bien ! Les blancs forcent l'ouverture de la colonne d. Échangeons maintenant les dames pour empêcher les noirs de roquer.}\r\n6.Qxd8+\r\n    {[%wrong Ce coup n'échange pas les dames. Essayez encore !][%hint Comment prendre la dame noire ?]}\r\n6...Kxd8\r\n    {Bien joué ! Le roi noir est désormais au centre pour de bon. Enchaînons en développant un fou pour attaquer au plus vite le pion f7 resté non protégé.}\r\n7.Bc4\r\n    {[%wrong Ce coup ne développe pas le fou de cases blanches sur une case où il attaque le pion f7. Essayez encore !][%hint La case c4 semble, encore une fois, la plus indiquée.] Excellent ! Les blancs lancent leur fou de cases blanches dans le combat en attaquant immédiatement un pion adverse. En outre, ils vont bientôt pouvoir roquer, tandis que le roi noir devra rester au centre.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3\"]\r\n\r\n{Continuons à explorer la partie écossaise avec 3.d4 !}\r\n3.d4\r\n    {[%wrong Ce coup ne place pas un pion en d4. Essayez encore !][%hint Avancez le pion de la dame de deux cases.]}\r\n3...exd4\r\n    {Les noirs jouent la réponse la plus populaire en prenant le pion blanc. Récupérerons le matériel à l'aide du cavalier..}\r\n4.Nxd4\r\n    {[%wrong Ce coup ne prend pas le pion d4 avec un cavalier. Essayez encore !][%hint Il faut bien entendu utiliser le cavalier f3.]}\r\n4...Bc5\r\n    {Parfait ! Les blancs récupèrent le pion et placent un cavalier au centre. Mais les noirs développent une nouvelle pièce et attaquent une seconde fois le cavalier d4. Comment le défendre tout en développant un fou ?}\r\n5.Be3\r\n    {[%wrong Ce coup ne développe pas un fou tout en protégeant le cavalier. Essayez encore !][%hint Où pourrait aller le fou de cases noires pour protéger le cavalier d4 ?] Très bien ! Les blancs ramènent une nouvelle pièce en jeu tout en défendant le cavalier d4.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "6dd84776-a558-11e8-9f8a-21067497efe2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Prêt à apprendre quelques ouvertures de base ?",
+    "outroText": "Vous devriez souvent être confronté à ces débuts de partie.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "path": "introduction-au-ouvertures-classiques",
+      "title": "Introduction aux ouvertures classiques",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/6dd84776-a558-11e8-9f8a-21067497efe2.708d46c2.728x410o.0c89eb80dd7c.png"
+    },
+    "parentId": "3a8125d4-83b4-11e8-839b-a1747ab819ed",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-openings-for-beginners-white5e5cd305708fa.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-openings-for-beginners-white-56688bcaf7dd61.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-openings-for-beginners-white-15ea243bcae36f.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-openings-for-beginners-white-260955de315830.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-e4-aperture-per-principianti-bianco649ebd82d1da4.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 45,
+    "order": 1,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "name": "Introduction aux ouvertures classiques",
+      "path": "introduction-au-ouvertures-classiques",
+      "order": 6
+    }
+  }
+}

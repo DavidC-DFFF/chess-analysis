@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/comprendre-les-finales/le-carre-du-pion",
+  "capturedAt": "2026-10-22T12:23:38.411Z",
+  "title": "Le carré du pion",
+  "exercises": [
+    {
+      "fen": "8/8/8/7P/3k4/8/2K5/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir n'a qu'un seul coup pour sauver la partie. Entrez dans le carré du pion !",
+        "[%wrong Vous n'êtes pas entré dans le carré du pion. Par conséquent, la finale est perdante. Essayez encore !][%hint Les coins du carré du pion sont en h5, e5, e8, et h8.]",
+        "Le roi noir doit entrer dans le carré du pion. Essayez encore !",
+        "Le roi noir doit entrer dans le carré du pion. Essayez encore !",
+        "Joli coup ! Le roi noir entre dans le carré du pion. Mais il faut y rester ! Comment faire ?",
+        "[%wrong Vous n'êtes pas entré dans le carré du pion. Par conséquent, la finale est perdante. Essayez encore !][%hint Les coins du carré du pion sont en h6, f6, f8, et h8.]",
+        "Bien joué ! Le pion est à votre merci !",
+        "[%wrong Il faut maintenant couvrir la case de promotion.][%hint Il faut maintenant couvrir la case de promotion.] Juste à temps pour rattraper le pion. Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/7P/3k4/8/2K5/8 b - - 0 1\"]\r\n\r\n{Le roi noir n'a qu'un seul coup pour sauver la partie. Entrez dans le carré du pion !}\r\n1...Ke5\r\n    {[%wrong Vous n'êtes pas entré dans le carré du pion. Par conséquent, la finale est perdante. Essayez encore !][%hint Les coins du carré du pion sont en h5, e5, e8, et h8.]}\r\n    (1...Ke4 $2 2.h6 {Le roi noir doit entrer dans le carré du pion. Essayez encore !})\r\n    (1...Kd5 $2 2.h6 {Le roi noir doit entrer dans le carré du pion. Essayez encore !})\r\n2.h6\r\n    {Joli coup ! Le roi noir entre dans le carré du pion. Mais il faut y rester ! Comment faire ?}\r\n2...Kf6\r\n    {[%wrong Vous n'êtes pas entré dans le carré du pion. Par conséquent, la finale est perdante. Essayez encore !][%hint Les coins du carré du pion sont en h6, f6, f8, et h8.]}\r\n3.h7\r\n    {Bien joué ! Le pion est à votre merci !}\r\n3...Kg7\r\n    {[%wrong Il faut maintenant couvrir la case de promotion.][%hint Il faut maintenant couvrir la case de promotion.] Juste à temps pour rattraper le pion. Beau travail !}\r\n*"
+    },
+    {
+      "fen": "8/8/8/8/8/8/P3k1K1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Quel coup de pion fait gagner les blancs ?",
+        "[%wrong Nous cherchons un coup de pion, essayez encore !][%hint Un seul coup permet de rendre le carré du pion inaccessible pour le roi noir. Lequel ?!]",
+        "Bien essayé, mais le roi noir entre dans le carré du pion, et la partie est nulle. Trouvez mieux !",
+        "Bien joué ! Le pion blanc avance de deux cases, empêchant le roi noir d'accéder son carré. Maintenant, il file à dame !",
+        "[%wrong Non, il faut continuer à pousser ce pion !][%hint Les pions passés sont fait pour être poussés !] Superbe ! Le roi noir n'est pas dans le carré du pion, et les blancs vont l'emporter."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/P3k1K1/8 w - - 0 1\"]\r\n\r\n{Quel coup de pion fait gagner les blancs ?}\r\n1.a4\r\n    {[%wrong Nous cherchons un coup de pion, essayez encore !][%hint Un seul coup permet de rendre le carré du pion inaccessible pour le roi noir. Lequel ?!]}\r\n    (1.a3 $2 Kd3 {Bien essayé, mais le roi noir entre dans le carré du pion, et la partie est nulle. Trouvez mieux !})\r\n1...Kd3\r\n    {Bien joué ! Le pion blanc avance de deux cases, empêchant le roi noir d'accéder son carré. Maintenant, il file à dame !}\r\n2.a5\r\n    {[%wrong Non, il faut continuer à pousser ce pion !][%hint Les pions passés sont fait pour être poussés !] Superbe ! Le roi noir n'est pas dans le carré du pion, et les blancs vont l'emporter.}\r\n*"
+    },
+    {
+      "fen": "8/8/6p1/3k3P/8/1K6/8/8 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le seul coup gagnant dans cette position !",
+        "[%wrong Dans cette variante, les noirs peuvent prendre le pion noir. Il faut trouver mieux !][%hint Il faut à tout prix empêcher le roi noir d'entrer dans le carré du pion h.]",
+        "Les blancs gagnent un pion, mais le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !",
+        "Excellente décision ! Le roi noir est trop court. Continuez à pousser le pion !",
+        "[%wrong Non, il faut continuer à pousser ce pion !][%hint Les pions passés sont fait pour être poussés !] Bien joué ! Les noirs ne peuvent plus nous empêcher de promouvoir notre pion au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6p1/3k3P/8/1K6/8/8 w - - 0 2\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant dans cette position !}\r\n2.h6\r\n    {[%wrong Dans cette variante, les noirs peuvent prendre le pion noir. Il faut trouver mieux !][%hint Il faut à tout prix empêcher le roi noir d'entrer dans le carré du pion h.]}\r\n    (2.hxg6 $2 Ke6 {Les blancs gagnent un pion, mais le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !})\r\n2...Ke6\r\n    {Excellente décision ! Le roi noir est trop court. Continuez à pousser le pion !}\r\n3.h7\r\n    {[%wrong Non, il faut continuer à pousser ce pion !][%hint Les pions passés sont fait pour être poussés !] Bien joué ! Les noirs ne peuvent plus nous empêcher de promouvoir notre pion au prochain coup.}\r\n*"
+    },
+    {
+      "fen": "8/4R3/8/8/7K/8/1P2r3/4k3 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs doivent-ils accepter d'entrer dans une finale de pions ou bien éviter l'échange des tours ? Jouez le meilleur coup !",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas. Trouvez mieux !][%hint Une fois les tours échangées, le roi noir pourra-t-il rattraper votre pion ?]",
+        "Bien calculé ! Le roi noir était dans le carré du pion, mais plus maintenant ! Jouez maintenant le coup gagnant.",
+        "[%wrong Non, il est temps de filer à dame !][%hint N'attendons pas que le roi noir soit revenu dans le carré du pion !] Bien joué ! Le roi noir n'est pas dans le carré du pion, qui file vers la terre promise.",
+        "Non ! Dans cette variante, le roi rattrape notre pion. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4R3/8/8/7K/8/1P2r3/4k3 w - - 0 2\"]\r\n\r\n{Les blancs doivent-ils accepter d'entrer dans une finale de pions ou bien éviter l'échange des tours ? Jouez le meilleur coup !}\r\n2.Rxe2+\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Trouvez mieux !][%hint Une fois les tours échangées, le roi noir pourra-t-il rattraper votre pion ?]}\r\n2...Kxe2\r\n    {Bien calculé ! Le roi noir était dans le carré du pion, mais plus maintenant ! Jouez maintenant le coup gagnant.}\r\n3.b4\r\n    {[%wrong Non, il est temps de filer à dame !][%hint N'attendons pas que le roi noir soit revenu dans le carré du pion !] Bien joué ! Le roi noir n'est pas dans le carré du pion, qui file vers la terre promise.}\r\n    (3.b3 $2 Kd3 {Non ! Dans cette variante, le roi rattrape notre pion. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "8/8/8/2K5/8/3k4/7P/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez l'idée gagnante pour les blancs.",
+        "[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Si vous jouez h4, le roi noir pourra entrer dans le carré du pion. Comment l'empêcher d’accéder à la quatrième rangée ?]",
+        "Le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !",
+        "Bien joué ! Le roi noir ne peut pas entrer dans le carré du pion. Mais il n'abandonne pas la chasse et tente d'accéder à la quatrième rangée. Comment l'arrêter ?",
+        "[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Ne laissez pas le roi noir entrer sur la quatrième rangée.]",
+        "Le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !",
+        "Joli ! Le roi noir ne peut décidément pas accéder à la quatrième rangée. Maintenant, réfléchissez bien et trouvez la suite gagnante !",
+        "[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Ne laissez pas le roi noir entrer sur la quatrième rangée.]",
+        "Les noirs peuvent s'emparer du pion ! Trouvez mieux.",
+        "Et voilà ! Filez maintenant vers la victoire !",
+        "[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Les pions passés sont fait pour être poussés !] Formidable ! Vous avez joué intelligemment et obtenu une position gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2K5/8/3k4/7P/8 w - - 0 1\"]\r\n\r\n{Trouvez l'idée gagnante pour les blancs.}\r\n1.Kd5\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Si vous jouez h4, le roi noir pourra entrer dans le carré du pion. Comment l'empêcher d’accéder à la quatrième rangée ?]}\r\n    (1.h4 $2 Ke4 {Le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !})\r\n1...Ke3\r\n    {Bien joué ! Le roi noir ne peut pas entrer dans le carré du pion. Mais il n'abandonne pas la chasse et tente d'accéder à la quatrième rangée. Comment l'arrêter ?}\r\n2.Ke5\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Ne laissez pas le roi noir entrer sur la quatrième rangée.]}\r\n    (2.h4 $2 Kf4 {Le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !})\r\n2...Kf3\r\n    {Joli ! Le roi noir ne peut décidément pas accéder à la quatrième rangée. Maintenant, réfléchissez bien et trouvez la suite gagnante !}\r\n3.Kf5\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Ne laissez pas le roi noir entrer sur la quatrième rangée.]}\r\n    (3.h3 $2 Kg3 {Les noirs peuvent s'emparer du pion ! Trouvez mieux.})\r\n3...Kg2\r\n    {Et voilà ! Filez maintenant vers la victoire !}\r\n4.h4\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Les pions passés sont fait pour être poussés !] Formidable ! Vous avez joué intelligemment et obtenu une position gagnante.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "1edf16e8-9cea-11e8-9414-bdf9b6286276",
+    "name": "Le carré du pion",
+    "path": "le-carre-du-pion",
+    "description": "Épargnez-vous des soucis et de longs calculs en apprenant cette règle de finale toute simple. Imaginez une ligne reliant la diagonale du pion à la dernière rangée. Reliez ensuite cette ligne au pion en question puis au bord de l’échiquier pour former un carré. C’est le carré du pion. Si le roi adverse peut rentrer dans ce carré, alors il pourra rattraper votre pion à temps. Sinon, votre pion va simplement filer à la promotion. N’oubliez pas cependant que les autres pièces ou les pions se déplaçant de deux cases en un coup (premier coup) peuvent contrecarrer cette prédiction.",
+    "glyphName": "tool-crop",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-rule-of-the-square-j8d.mp4",
+    "fen": "8/7P/5k2/8/8/8/2K5/8 b - - 0 3",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/7P/3k4/8/2K5/8 b - - 0 1\"]\r\n\r\n{Le roi noir n'a qu'un seul coup pour sauver la partie. Entrez dans le carré du pion !}\r\n1...Ke5\r\n    {[%wrong Vous n'êtes pas entré dans le carré du pion. Par conséquent, la finale est perdante. Essayez encore !][%hint Les coins du carré du pion sont en h5, e5, e8, et h8.]}\r\n    (1...Ke4 $2 2.h6 {Le roi noir doit entrer dans le carré du pion. Essayez encore !})\r\n    (1...Kd5 $2 2.h6 {Le roi noir doit entrer dans le carré du pion. Essayez encore !})\r\n2.h6\r\n    {Joli coup ! Le roi noir entre dans le carré du pion. Mais il faut y rester ! Comment faire ?}\r\n2...Kf6\r\n    {[%wrong Vous n'êtes pas entré dans le carré du pion. Par conséquent, la finale est perdante. Essayez encore !][%hint Les coins du carré du pion sont en h6, f6, f8, et h8.]}\r\n3.h7\r\n    {Bien joué ! Le pion est à votre merci !}\r\n3...Kg7\r\n    {[%wrong Il faut maintenant couvrir la case de promotion.][%hint Il faut maintenant couvrir la case de promotion.] Juste à temps pour rattraper le pion. Beau travail !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/P3k1K1/8 w - - 0 1\"]\r\n\r\n{Quel coup de pion fait gagner les blancs ?}\r\n1.a4\r\n    {[%wrong Nous cherchons un coup de pion, essayez encore !][%hint Un seul coup permet de rendre le carré du pion inaccessible pour le roi noir. Lequel ?!]}\r\n    (1.a3 $2 Kd3 {Bien essayé, mais le roi noir entre dans le carré du pion, et la partie est nulle. Trouvez mieux !})\r\n1...Kd3\r\n    {Bien joué ! Le pion blanc avance de deux cases, empêchant le roi noir d'accéder son carré. Maintenant, il file à dame !}\r\n2.a5\r\n    {[%wrong Non, il faut continuer à pousser ce pion !][%hint Les pions passés sont fait pour être poussés !] Superbe ! Le roi noir n'est pas dans le carré du pion, et les blancs vont l'emporter.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/6p1/3k3P/8/1K6/8/8 w - - 0 2\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup gagnant dans cette position !}\r\n2.h6\r\n    {[%wrong Dans cette variante, les noirs peuvent prendre le pion noir. Il faut trouver mieux !][%hint Il faut à tout prix empêcher le roi noir d'entrer dans le carré du pion h.]}\r\n    (2.hxg6 $2 Ke6 {Les blancs gagnent un pion, mais le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !})\r\n2...Ke6\r\n    {Excellente décision ! Le roi noir est trop court. Continuez à pousser le pion !}\r\n3.h7\r\n    {[%wrong Non, il faut continuer à pousser ce pion !][%hint Les pions passés sont fait pour être poussés !] Bien joué ! Les noirs ne peuvent plus nous empêcher de promouvoir notre pion au prochain coup.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4R3/8/8/7K/8/1P2r3/4k3 w - - 0 2\"]\r\n\r\n{Les blancs doivent-ils accepter d'entrer dans une finale de pions ou bien éviter l'échange des tours ? Jouez le meilleur coup !}\r\n2.Rxe2+\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Trouvez mieux !][%hint Une fois les tours échangées, le roi noir pourra-t-il rattraper votre pion ?]}\r\n2...Kxe2\r\n    {Bien calculé ! Le roi noir était dans le carré du pion, mais plus maintenant ! Jouez maintenant le coup gagnant.}\r\n3.b4\r\n    {[%wrong Non, il est temps de filer à dame !][%hint N'attendons pas que le roi noir soit revenu dans le carré du pion !] Bien joué ! Le roi noir n'est pas dans le carré du pion, qui file vers la terre promise.}\r\n    (3.b3 $2 Kd3 {Non ! Dans cette variante, le roi rattrape notre pion. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/2K5/8/3k4/7P/8 w - - 0 1\"]\r\n\r\n{Trouvez l'idée gagnante pour les blancs.}\r\n1.Kd5\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Si vous jouez h4, le roi noir pourra entrer dans le carré du pion. Comment l'empêcher d’accéder à la quatrième rangée ?]}\r\n    (1.h4 $2 Ke4 {Le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !})\r\n1...Ke3\r\n    {Bien joué ! Le roi noir ne peut pas entrer dans le carré du pion. Mais il n'abandonne pas la chasse et tente d'accéder à la quatrième rangée. Comment l'arrêter ?}\r\n2.Ke5\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Ne laissez pas le roi noir entrer sur la quatrième rangée.]}\r\n    (2.h4 $2 Kf4 {Le roi adverse revient à temps pour prendre le pion passé blanc et annuler la partie. Essayez encore !})\r\n2...Kf3\r\n    {Joli ! Le roi noir ne peut décidément pas accéder à la quatrième rangée. Maintenant, réfléchissez bien et trouvez la suite gagnante !}\r\n3.Kf5\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Ne laissez pas le roi noir entrer sur la quatrième rangée.]}\r\n    (3.h3 $2 Kg3 {Les noirs peuvent s'emparer du pion ! Trouvez mieux.})\r\n3...Kg2\r\n    {Et voilà ! Filez maintenant vers la victoire !}\r\n4.h4\r\n    {[%wrong Bien essayé, mais les noirs peuvent annuler dans cette variante. Cherchez encore !][%hint Les pions passés sont fait pour être poussés !] Formidable ! Vous avez joué intelligemment et obtenu une position gagnante.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "23cce244-a559-11e8-9aa6-effd2afc771b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez une astuce primordiale en finale de pions.",
+    "outroText": "La règle du carré vous sera des plus utiles en finale de pions !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "path": "comprendre-les-finales",
+      "title": "Comprendre les finales",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/23cce244-a559-11e8-9aa6-effd2afc771b.c6ee284d.728x410o.fc91752ed604.png"
+    },
+    "parentId": "ebb23082-83aa-11e8-a90a-1b781c4f37ea",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/rule-of-the-square5d1254e3ca984.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/rule-of-the-square-15ea242dd2f4b6.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/rule-of-the-square-26155b6a9e777d.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 62,
+    "order": 6,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "name": "Comprendre les finales",
+      "path": "comprendre-les-finales",
+      "order": 2
+    }
+  }
+}

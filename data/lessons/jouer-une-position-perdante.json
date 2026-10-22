@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/jouer-une-position-perdante",
+  "capturedAt": "2026-10-22T12:23:46.886Z",
+  "title": "Jouer une position perdante",
+  "exercises": [
+    {
+      "fen": "2rr2k1/Qp3pp1/2p1p1b1/3q2N1/P6p/1R5P/1P3PP1/2R3K1 w - - 0 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un pion de moins et la dame noire menace de prendre le cavalier non protégé et la tour b3. Comment protéger ces deux pièces attaquées en même temps ?",
+        "[%wrong Ce coup ne protège pas les deux pièces blanches attaquées. Cherchez encore !][%hint Ramenez la dame en défense !] Bon travail ! La première règle, lorsque l'on joue une position perdante, c'est de ne pas l'empirer ! La dame blanche protège les deux pièces attaquées, et les blancs conservent des chances pratiques de tenir cette position compliquée.",
+        "Ce coup sauve le cavalier, mais pas la tour ! Cherchez encore.",
+        "N'oubliez pas de vérifier où vous mettez vos pièces !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"position\"]\r\n[Black \"one\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr2k1/Qp3pp1/2p1p1b1/3q2N1/P6p/1R5P/1P3PP1/2R3K1 w - - 0 5\"]\r\n\r\n{Les blancs ont un pion de moins et la dame noire menace de prendre le cavalier non protégé et la tour b3. Comment protéger ces deux pièces attaquées en même temps ?}\r\n5.Qe3\r\n    {[%wrong Ce coup ne protège pas les deux pièces blanches attaquées. Cherchez encore !][%hint Ramenez la dame en défense !] Bon travail ! La première règle, lorsque l'on joue une position perdante, c'est de ne pas l'empirer ! La dame blanche protège les deux pièces attaquées, et les blancs conservent des chances pratiques de tenir cette position compliquée.}\r\n    (5.Nf3 $2 Qxb3 {Ce coup sauve le cavalier, mais pas la tour ! Cherchez encore.})\r\n    (5.Rg3 $2 hxg3 {N'oubliez pas de vérifier où vous mettez vos pièces !})\r\n*"
+    },
+    {
+      "fen": "2Q5/1P4pk/5pn1/5B2/5q1p/7P/5PP1/6K1 b - - 1 37",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette partie a été jouée entre deux forts maîtres. Les noirs ont de gros problèmes, mais tendent un joli piège avec le coup ...Dd2. Jouez-le !",
+        "[%wrong Jouez le coup du maître, Dd2.][%hint Jouez Dd2.]",
+        "Bien joué ! Dans cette position perdante, les noirs ont tendu un dernier piège. Dans la vraie partie, les blancs ont paré le piège en jouant Fxg6+, mais s'ils avaient mordu à l'hameçon et fait une deuxième dame, comment les noirs auraient-ils forcé la nulle ?",
+        "[%wrong Ce coup ne sauve pas les noirs, cherchez encore !][%hint Le roi ne peut aller qu'en h6. Cherchez un sacrifice de dame créant une opportunité de pat !]",
+        "Bien essayé, mais sur ...De5+, les blancs échangerons les dames et forceront le roi noir à aller en h6. La solution est toute proche, cherchez encore !",
+        "Superbe coup ! Si les blancs prennent la dame, c'est pat ! Forcez maintenant l'échec perpétuel !",
+        "[%wrong Ce coup ne sauve pas la position noire. Cherchez encore !][%hint Continuez à sacrifier votre dame sur la diagonale c1-h6.] Excellent travail ! Encore une fois, les blancs ne peuvent pas prendre la dame sous peine de pat. Les noirs vont donc répéter l'échec jusqu'à ce que la partie nulle soit signée.",
+        "Non ! Le roi peut aller en h6, ce n'est donc pas pat !",
+        "Non ! Le roi peut aller en h6, ce n'est donc pas pat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2Q5/1P4pk/5pn1/5B2/5q1p/7P/5PP1/6K1 b - - 1 37\"]\r\n\r\n{Cette partie a été jouée entre deux forts maîtres. Les noirs ont de gros problèmes, mais tendent un joli piège avec le coup ...Dd2. Jouez-le !}\r\n37...Qd2\r\n    {[%wrong Jouez le coup du maître, Dd2.][%hint Jouez Dd2.]}\r\n38.b8=Q\r\n    {Bien joué ! Dans cette position perdante, les noirs ont tendu un dernier piège. Dans la vraie partie, les blancs ont paré le piège en jouant Fxg6+, mais s'ils avaient mordu à l'hameçon et fait une deuxième dame, comment les noirs auraient-ils forcé la nulle ?}\r\n38...Qc1+\r\n    {[%wrong Ce coup ne sauve pas les noirs, cherchez encore !][%hint Le roi ne peut aller qu'en h6. Cherchez un sacrifice de dame créant une opportunité de pat !]}\r\n    (38...Qe1+ $2 39.Kh2 {Bien essayé, mais sur ...De5+, les blancs échangerons les dames et forceront le roi noir à aller en h6. La solution est toute proche, cherchez encore !})\r\n39.Kh2\r\n    {Superbe coup ! Si les blancs prennent la dame, c'est pat ! Forcez maintenant l'échec perpétuel !}\r\n39...Qf4+\r\n    {[%wrong Ce coup ne sauve pas la position noire. Cherchez encore !][%hint Continuez à sacrifier votre dame sur la diagonale c1-h6.] Excellent travail ! Encore une fois, les blancs ne peuvent pas prendre la dame sous peine de pat. Les noirs vont donc répéter l'échec jusqu'à ce que la partie nulle soit signée.}\r\n    (39...Qh1+ $2 40.Kxh1 {Non ! Le roi peut aller en h6, ce n'est donc pas pat !})\r\n    (39...Qc7+ $2 40.Qbxc7 {Non ! Le roi peut aller en h6, ce n'est donc pas pat !})\r\n*"
+    },
+    {
+      "fen": "7R/4P2k/5Kbp/4B3/8/8/4r3/8 b - - 1 68",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Lorsque vous jouez une position perdante, il est important de ne pas abandonner trop tôt. Dans cette partie disputée entre deux grand-maîtres, les noirs ont abandonné dans cette position en pensant qu'après avoir pris la tour, les blancs allaient prendre le fou et promouvoir leur pion. Pourquoi ne pas tout simplement vérifier ? Prenez la tour !",
+        "[%hint Dans cette position, il n'existe qu'un seul coup légal. N'utilisez pas les indices de manière systématique !]",
+        "Le roi noir ne peut empêcher le pion d'aller à dame, mais il existe pourtant un coup gagnant ! Lequel ?",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas. Cherchez encore !][%hint C'est à la tour de sauver son camp !] Et voilà ! C'est le coup qu'a raté le grand-maître. Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7R/4P2k/5Kbp/4B3/8/8/4r3/8 b - - 1 68\"]\r\n\r\n{Lorsque vous jouez une position perdante, il est important de ne pas abandonner trop tôt. Dans cette partie disputée entre deux grand-maîtres, les noirs ont abandonné dans cette position en pensant qu'après avoir pris la tour, les blancs allaient prendre le fou et promouvoir leur pion. Pourquoi ne pas tout simplement vérifier ? Prenez la tour !}\r\n68...Kxh8\r\n    {[%hint Dans cette position, il n'existe qu'un seul coup légal. N'utilisez pas les indices de manière systématique !]}\r\n69.Kxg6+\r\n    {Le roi noir ne peut empêcher le pion d'aller à dame, mais il existe pourtant un coup gagnant ! Lequel ?}\r\n69...Rxe5\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Cherchez encore !][%hint C'est à la tour de sauver son camp !] Et voilà ! C'est le coup qu'a raté le grand-maître. Bravo !}\r\n*"
+    },
+    {
+      "fen": "8/8/8/1P6/6p1/r4kP1/7P/1R4K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La situation semble désespérée pour les noirs, mais il existe pourtant un dernier piège permettant de sauver la partie ! Comment préparer un sacrifice de tour sur la colonne e pour mettre en place un pat ?",
+        "[%wrong Ce coup ne prépare pas le sacrifice de la tour sur la colonne e. Cherchez encore !][%hint Placez la tour noire sur la colonne e !]",
+        "Malin ! Obnubilés par le pion passé, les blancs gaffent en ignorant le plan noir. Le coup gagnant était Rf1! Sauvons maintenant la partie en forçant le pat !",
+        "[%wrong Ce coup ne force pas le pat, cherchez encore !][%hint Les coups les plus décisifs sont souvent les échecs !]",
+        "Pat ! En tendant un dernier piège, les noirs ont sauvé la partie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/1P6/6p1/r4kP1/7P/1R4K1 b - - 0 1\"]\r\n\r\n{La situation semble désespérée pour les noirs, mais il existe pourtant un dernier piège permettant de sauver la partie ! Comment préparer un sacrifice de tour sur la colonne e pour mettre en place un pat ?}\r\n1...Re3\r\n    {[%wrong Ce coup ne prépare pas le sacrifice de la tour sur la colonne e. Cherchez encore !][%hint Placez la tour noire sur la colonne e !]}\r\n2.b6\r\n    {Malin ! Obnubilés par le pion passé, les blancs gaffent en ignorant le plan noir. Le coup gagnant était Rf1! Sauvons maintenant la partie en forçant le pat !}\r\n2...Re1+\r\n    {[%wrong Ce coup ne force pas le pat, cherchez encore !][%hint Les coups les plus décisifs sont souvent les échecs !]}\r\n3.Rxe1\r\n    {Pat ! En tendant un dernier piège, les noirs ont sauvé la partie !}\r\n*"
+    },
+    {
+      "fen": "3r1bk1/6pp/5p2/8/p1pqQN2/1b2N1P1/5P1P/2R3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Lorsque vous êtes dans une position perdante, votre adversaire cherchera souvent à échanger les dames pour simplifier le gain. Dans cette position, les noirs viennent de prendre un pion en d4 et proposent l'échange des dames. Faut-il accepter ?",
+        "[%wrong Nous sommes à la recherche d'un coup offensif qui garde les dames. Cherchez encore !][%hint Nous voulons éviter l'échange des dames. Donnez un échec !]",
+        "Lorsque vous êtes dans une position perdante, essayez de la garder aussi compliquée que possible. Après l'échange des dames, les blancs ont tout simplement deux pions de moins sans le moindre contre-jeu !",
+        "Le roi noir a l'air en sécurité, mais grâce à un coup surprenant, il est possible d'ouvrir de nouvelles lignes pour lui donner un échec perpétuel ! A vous de jouer.",
+        "[%wrong Ce coup n'ouvre pas de lignes vers le roi noir. Cherchez encore !][%hint Trouvez un échec forçant l'ouverture de la colonne h !]",
+        "Formidable ! Les blancs sacrifient un cavalier pour ouvrir la colonne h. Comment continuer l'attaque du roi ?",
+        "[%wrong Ce coup n'attaque pas le roi noir sur la colonne h. Cherchez encore !][%hint Quelle pièce peut donner un échec sur la colonne h ?]",
+        "Bien vu ! Le roi noir doit retourner en g8. C'est le moment de donner l'échec perpétuel !",
+        "[%wrong Ce coup ne force pas l'échec perpétuel. Cherchez encore !][%hint Continuez à donner des échecs !] Et voilà ! En enchaînant De6+ et Dh3+, les blancs forcent la nulle par échec perpétuel. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1bk1/6pp/5p2/8/p1pqQN2/1b2N1P1/5P1P/2R3K1 w - - 0 1\"]\r\n\r\n{Lorsque vous êtes dans une position perdante, votre adversaire cherchera souvent à échanger les dames pour simplifier le gain. Dans cette position, les noirs viennent de prendre un pion en d4 et proposent l'échange des dames. Faut-il accepter ?}\r\n1.Qe6+\r\n    {[%wrong Nous sommes à la recherche d'un coup offensif qui garde les dames. Cherchez encore !][%hint Nous voulons éviter l'échange des dames. Donnez un échec !]}\r\n    (1.Qxd4 $2 Rxd4 {Lorsque vous êtes dans une position perdante, essayez de la garder aussi compliquée que possible. Après l'échange des dames, les blancs ont tout simplement deux pions de moins sans le moindre contre-jeu !})\r\n1...Kh8\r\n    {Le roi noir a l'air en sécurité, mais grâce à un coup surprenant, il est possible d'ouvrir de nouvelles lignes pour lui donner un échec perpétuel ! A vous de jouer.}\r\n2.Ng6+\r\n    {[%wrong Ce coup n'ouvre pas de lignes vers le roi noir. Cherchez encore !][%hint Trouvez un échec forçant l'ouverture de la colonne h !]}\r\n2...hxg6\r\n    {Formidable ! Les blancs sacrifient un cavalier pour ouvrir la colonne h. Comment continuer l'attaque du roi ?}\r\n3.Qh3+\r\n    {[%wrong Ce coup n'attaque pas le roi noir sur la colonne h. Cherchez encore !][%hint Quelle pièce peut donner un échec sur la colonne h ?]}\r\n3...Kg8\r\n    {Bien vu ! Le roi noir doit retourner en g8. C'est le moment de donner l'échec perpétuel !}\r\n4.Qe6+\r\n    {[%wrong Ce coup ne force pas l'échec perpétuel. Cherchez encore !][%hint Continuez à donner des échecs !] Et voilà ! En enchaînant De6+ et Dh3+, les blancs forcent la nulle par échec perpétuel. Bien joué !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "388f7126-9cec-11e8-9fb1-a953e58c6f8e",
+    "name": "Jouer une position perdante",
+    "path": "jouer-une-position-perdante",
+    "description": "Même les positions perdantes ne sont pas perdues ! Gardez un état d’esprit positif et tentez de faire déjouer votre adversaire. Compliquez au maximum la position et éviter les échanges. Si vous êtes totalement perdant, n’hésitez pas à tendre des pièges. Quand bien même ils seraient incorrects, vous n’avez de toute façon plus rien à perdre !",
+    "glyphName": "hand-thumbs-down",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-when-youre-losing-g2b.mp4",
+    "fen": "1QQ5/6pk/5pn1/5B2/7p/7P/3q1PP1/6K1 b - - 0 38",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"position\"]\r\n[Black \"one\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr2k1/Qp3pp1/2p1p1b1/3q2N1/P6p/1R5P/1P3PP1/2R3K1 w - - 0 5\"]\r\n\r\n{Les blancs ont un pion de moins et la dame noire menace de prendre le cavalier non protégé et la tour b3. Comment protéger ces deux pièces attaquées en même temps ?}\r\n5.Qe3\r\n    {[%wrong Ce coup ne protège pas les deux pièces blanches attaquées. Cherchez encore !][%hint Ramenez la dame en défense !] Bon travail ! La première règle, lorsque l'on joue une position perdante, c'est de ne pas l'empirer ! La dame blanche protège les deux pièces attaquées, et les blancs conservent des chances pratiques de tenir cette position compliquée.}\r\n    (5.Nf3 $2 Qxb3 {Ce coup sauve le cavalier, mais pas la tour ! Cherchez encore.})\r\n    (5.Rg3 $2 hxg3 {N'oubliez pas de vérifier où vous mettez vos pièces !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2Q5/1P4pk/5pn1/5B2/5q1p/7P/5PP1/6K1 b - - 1 37\"]\r\n\r\n{Cette partie a été jouée entre deux forts maîtres. Les noirs ont de gros problèmes, mais tendent un joli piège avec le coup ...Dd2. Jouez-le !}\r\n37...Qd2\r\n    {[%wrong Jouez le coup du maître, Dd2.][%hint Jouez Dd2.]}\r\n38.b8=Q\r\n    {Bien joué ! Dans cette position perdante, les noirs ont tendu un dernier piège. Dans la vraie partie, les blancs ont paré le piège en jouant Fxg6+, mais s'ils avaient mordu à l'hameçon et fait une deuxième dame, comment les noirs auraient-ils forcé la nulle ?}\r\n38...Qc1+\r\n    {[%wrong Ce coup ne sauve pas les noirs, cherchez encore !][%hint Le roi ne peut aller qu'en h6. Cherchez un sacrifice de dame créant une opportunité de pat !]}\r\n    (38...Qe1+ $2 39.Kh2 {Bien essayé, mais sur ...De5+, les blancs échangerons les dames et forceront le roi noir à aller en h6. La solution est toute proche, cherchez encore !})\r\n39.Kh2\r\n    {Superbe coup ! Si les blancs prennent la dame, c'est pat ! Forcez maintenant l'échec perpétuel !}\r\n39...Qf4+\r\n    {[%wrong Ce coup ne sauve pas la position noire. Cherchez encore !][%hint Continuez à sacrifier votre dame sur la diagonale c1-h6.] Excellent travail ! Encore une fois, les blancs ne peuvent pas prendre la dame sous peine de pat. Les noirs vont donc répéter l'échec jusqu'à ce que la partie nulle soit signée.}\r\n    (39...Qh1+ $2 40.Kxh1 {Non ! Le roi peut aller en h6, ce n'est donc pas pat !})\r\n    (39...Qc7+ $2 40.Qbxc7 {Non ! Le roi peut aller en h6, ce n'est donc pas pat !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7R/4P2k/5Kbp/4B3/8/8/4r3/8 b - - 1 68\"]\r\n\r\n{Lorsque vous jouez une position perdante, il est important de ne pas abandonner trop tôt. Dans cette partie disputée entre deux grand-maîtres, les noirs ont abandonné dans cette position en pensant qu'après avoir pris la tour, les blancs allaient prendre le fou et promouvoir leur pion. Pourquoi ne pas tout simplement vérifier ? Prenez la tour !}\r\n68...Kxh8\r\n    {[%hint Dans cette position, il n'existe qu'un seul coup légal. N'utilisez pas les indices de manière systématique !]}\r\n69.Kxg6+\r\n    {Le roi noir ne peut empêcher le pion d'aller à dame, mais il existe pourtant un coup gagnant ! Lequel ?}\r\n69...Rxe5\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Cherchez encore !][%hint C'est à la tour de sauver son camp !] Et voilà ! C'est le coup qu'a raté le grand-maître. Bravo !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/1P6/6p1/r4kP1/7P/1R4K1 b - - 0 1\"]\r\n\r\n{La situation semble désespérée pour les noirs, mais il existe pourtant un dernier piège permettant de sauver la partie ! Comment préparer un sacrifice de tour sur la colonne e pour mettre en place un pat ?}\r\n1...Re3\r\n    {[%wrong Ce coup ne prépare pas le sacrifice de la tour sur la colonne e. Cherchez encore !][%hint Placez la tour noire sur la colonne e !]}\r\n2.b6\r\n    {Malin ! Obnubilés par le pion passé, les blancs gaffent en ignorant le plan noir. Le coup gagnant était Rf1! Sauvons maintenant la partie en forçant le pat !}\r\n2...Re1+\r\n    {[%wrong Ce coup ne force pas le pat, cherchez encore !][%hint Les coups les plus décisifs sont souvent les échecs !]}\r\n3.Rxe1\r\n    {Pat ! En tendant un dernier piège, les noirs ont sauvé la partie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1bk1/6pp/5p2/8/p1pqQN2/1b2N1P1/5P1P/2R3K1 w - - 0 1\"]\r\n\r\n{Lorsque vous êtes dans une position perdante, votre adversaire cherchera souvent à échanger les dames pour simplifier le gain. Dans cette position, les noirs viennent de prendre un pion en d4 et proposent l'échange des dames. Faut-il accepter ?}\r\n1.Qe6+\r\n    {[%wrong Nous sommes à la recherche d'un coup offensif qui garde les dames. Cherchez encore !][%hint Nous voulons éviter l'échange des dames. Donnez un échec !]}\r\n    (1.Qxd4 $2 Rxd4 {Lorsque vous êtes dans une position perdante, essayez de la garder aussi compliquée que possible. Après l'échange des dames, les blancs ont tout simplement deux pions de moins sans le moindre contre-jeu !})\r\n1...Kh8\r\n    {Le roi noir a l'air en sécurité, mais grâce à un coup surprenant, il est possible d'ouvrir de nouvelles lignes pour lui donner un échec perpétuel ! A vous de jouer.}\r\n2.Ng6+\r\n    {[%wrong Ce coup n'ouvre pas de lignes vers le roi noir. Cherchez encore !][%hint Trouvez un échec forçant l'ouverture de la colonne h !]}\r\n2...hxg6\r\n    {Formidable ! Les blancs sacrifient un cavalier pour ouvrir la colonne h. Comment continuer l'attaque du roi ?}\r\n3.Qh3+\r\n    {[%wrong Ce coup n'attaque pas le roi noir sur la colonne h. Cherchez encore !][%hint Quelle pièce peut donner un échec sur la colonne h ?]}\r\n3...Kg8\r\n    {Bien vu ! Le roi noir doit retourner en g8. C'est le moment de donner l'échec perpétuel !}\r\n4.Qe6+\r\n    {[%wrong Ce coup ne force pas l'échec perpétuel. Cherchez encore !][%hint Continuez à donner des échecs !] Et voilà ! En enchaînant De6+ et Dh3+, les blancs forcent la nulle par échec perpétuel. Bien joué !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La partie n'est pas terminée tant qu'il n'y a pas échec et mat.",
+    "outroText": "Sauver une partie perdante est l'un des meilleurs sentiments aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "7c3aaa9e-83b5-11e8-8b15-bba2f0da001d",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-youre-losing5d125862736e5.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-youre-losing-566886b596aad8.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-youre-losing-15ea24016e4dd3.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/when-youre-losing-260e84870876cc.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 99,
+    "order": 6,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

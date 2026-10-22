@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/mat-a-l-etouffe",
+  "capturedAt": "2026-10-22T12:23:40.321Z",
+  "title": "Le mat à l'étouffé",
+  "exercises": [
+    {
+      "fen": "1q3r1k/6pp/7N/8/8/1Q6/6PP/7K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le mat en deux !",
+        "[%wrong Ce coup ne force pas le mat en deux. Essayez encore !][%hint Quel échec force la tour noire à aller en g8, où elle étoufferait son propre roi ?]",
+        "Bien essayé. En jouant Ch6 double échec au prochain coup, vous pouvez l'emporter. Mais ce coup ne mate pas en deux !",
+        "Bien essayé, mais nous n'avons pas le temps de préparer le mat, les noirs ont aussi une menace !",
+        "Joli ! Les noirs sont forcés d'enfermer leur roi. Il est temps de mater !",
+        "[%wrong Ce coup ne mate pas. Essayez encore.][%hint Quel est le seul échec dans cette position ?] Et voilà ! Joli mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1q3r1k/6pp/7N/8/8/1Q6/6PP/7K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en deux !}\r\n1.Qg8+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Essayez encore !][%hint Quel échec force la tour noire à aller en g8, où elle étoufferait son propre roi ?]}\r\n    (1.Nf7+ $6 Kg8 {Bien essayé. En jouant Ch6 double échec au prochain coup, vous pouvez l'emporter. Mais ce coup ne mate pas en deux !})\r\n    (1.Ng8 $2 Rf1# {Bien essayé, mais nous n'avons pas le temps de préparer le mat, les noirs ont aussi une menace !})\r\n1...Rxg8\r\n    {Joli ! Les noirs sont forcés d'enfermer leur roi. Il est temps de mater !}\r\n2.Nf7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Quel est le seul échec dans cette position ?] Et voilà ! Joli mat.}\r\n*"
+    },
+    {
+      "fen": "1qr4k/6pp/8/6N1/8/8/Q5PP/7K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position, les blancs ont un mat à l'étouffé en quatre coups. A vous de le trouver !",
+        "[%wrong Ce coup ne prépare pas le mat à l'étouffé. Essayez encore !][%hint Comment forcer le roi noir à aller sur la case g8 ?]",
+        "La tour n'est pas forcée de prendre la dame ! N'allez pas trop vite en besogne.",
+        "Bien joué ! Le roi adverse est maintenant sur la diagonale de notre dame. Comment en profiter ?",
+        "[%wrong Ce coup ne prépare pas le mat à l'étouffé. Essayez encore !][%hint Trouvez un double échec forçant le roi noir à aller dans le coin.]",
+        "Bien essayé, mais dans cette variante, vous ne pouvez pas faire mieux que de répéter la position. Essayez de trouver un double échec !",
+        "Excellent ! Ce double échec est la clef du problème. Le roi noir doit maintenant aller en h8, et toutes les conditions sont réunies pour un mat à l'étouffé... A vous de jouer !",
+        "[%wrong Ce coup ne mate pas en deux. Essayez encore.][%hint Quel échec force la tour noire à aller en g8, où elle étoufferait son propre roi ?]",
+        "Parfait ! Finissions la partie par un joli mat !",
+        "[%wrong Ce coup ne mate pas. Essayez encore.][%hint Quel est le seul échec dans cette position ?] Et voilà ! Encore un superbe mat à l'étouffé."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1qr4k/6pp/8/6N1/8/8/Q5PP/7K w - - 0 1\"]\r\n\r\n{Dans cette position, les blancs ont un mat à l'étouffé en quatre coups. A vous de le trouver !}\r\n1.Nf7+\r\n    {[%wrong Ce coup ne prépare pas le mat à l'étouffé. Essayez encore !][%hint Comment forcer le roi noir à aller sur la case g8 ?]}\r\n    (1.Qg8+ $2 Kxg8 {La tour n'est pas forcée de prendre la dame ! N'allez pas trop vite en besogne.})\r\n1...Kg8\r\n    {Bien joué ! Le roi adverse est maintenant sur la diagonale de notre dame. Comment en profiter ?}\r\n2.Nh6+\r\n    {[%wrong Ce coup ne prépare pas le mat à l'étouffé. Essayez encore !][%hint Trouvez un double échec forçant le roi noir à aller dans le coin.]}\r\n    (2.Ng5+ $6 Kh8 {Bien essayé, mais dans cette variante, vous ne pouvez pas faire mieux que de répéter la position. Essayez de trouver un double échec !})\r\n2...Kh8\r\n    {Excellent ! Ce double échec est la clef du problème. Le roi noir doit maintenant aller en h8, et toutes les conditions sont réunies pour un mat à l'étouffé... A vous de jouer !}\r\n3.Qg8+\r\n    {[%wrong Ce coup ne mate pas en deux. Essayez encore.][%hint Quel échec force la tour noire à aller en g8, où elle étoufferait son propre roi ?]}\r\n3...Rxg8\r\n    {Parfait ! Finissions la partie par un joli mat !}\r\n4.Nf7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Quel est le seul échec dans cette position ?] Et voilà ! Encore un superbe mat à l'étouffé.}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir semble en sécurité, mais c'est une illusion. Les blancs peuvent gagner en un coup ! Trouvez comment.",
+        "[%wrong Ce coup ne gagne pas immédiatement. Essayez encore !][%hint L'un des deux échecs possibles est un mat à l’étouffé !] Génial ! Voilà un mat pas piqué des hannetons !!",
+        "Bien essayé, mais les noirs contrôlent efficacement cette case. Trouvez l'échec qui gagne instantanément !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQkq - 0 1\"]\r\n\r\n{Le roi noir semble en sécurité, mais c'est une illusion. Les blancs peuvent gagner en un coup ! Trouvez comment.}\r\n1.Nd6#\r\n    {[%wrong Ce coup ne gagne pas immédiatement. Essayez encore !][%hint L'un des deux échecs possibles est un mat à l’étouffé !] Génial ! Voilà un mat pas piqué des hannetons !!}\r\n    (1.Nxf6+ $2 Nxf6 {Bien essayé, mais les noirs contrôlent efficacement cette case. Trouvez l'échec qui gagne instantanément !})\r\n*"
+    },
+    {
+      "fen": "r1bqk2r/pppp1ppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 8",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer a3, attaquant le fou des noirs. Répondons par un coup malin : De7.",
+        "[%wrong Commençons si vous le voulez bien par jouer De7.][%hint Mettez votre dame en e7.]",
+        "Les blancs s'emparent sans sourciller de ce fou qui semble avoir été \"oublie\". Mais il y a avait un piège ! C'est l'heure de trouver le mat à l'étouffé.",
+        "[%wrong Ce coup ne mate pas. Essayez encore.][%hint Trouvez un échec ultra-puissant.] Bien sûr ! Les blancs ont gagné un fou, mais les noirs ont gagné la partie !",
+        "Bien essayé, mais les blancs échappent à notre attaque et ont maintenant une pièce de plus. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 8\"]\r\n\r\n{Les blancs viennent de jouer a3, attaquant le fou des noirs. Répondons par un coup malin : De7.}\r\n8...Qe7\r\n    {[%wrong Commençons si vous le voulez bien par jouer De7.][%hint Mettez votre dame en e7.]}\r\n9.axb4 $2\r\n    {Les blancs s'emparent sans sourciller de ce fou qui semble avoir été \"oublie\". Mais il y a avait un piège ! C'est l'heure de trouver le mat à l'étouffé.}\r\n9...Nd3#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Trouvez un échec ultra-puissant.] Bien sûr ! Les blancs ont gagné un fou, mais les noirs ont gagné la partie !}\r\n    (9...Nxf3+ $2 10.gxf3 {Bien essayé, mais les blancs échappent à notre attaque et ont maintenant une pièce de plus. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "r1k4r/ppp1bq1p/2n1N3/6B1/3p2Q1/8/PPP2PPP/R5K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position, le grand maître américain Paul Morphy a trouvé une combinaison forçant le mat à l'étouffé. Saurez-vous jouer aussi bien que lui ? Commençons par trouver un coup de cavalier forçant le roi noir à aller en b8.",
+        "[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons.][%hint Commençons par un fort échec à la découverte.]",
+        "Très bien ! Pour éviter le mat, le roi noir doit absolument se rendre en b8. Trouvez maintenant l'autre coup de cavalier accomplissant la même tâche.",
+        "Bien essayé, mais les noirs peuvent ici simplement prendre le cavalier. Attention à vos pièces !",
+        "Si les noirs avaient placé leur roi en d8, nous aurions pu jouer Dd7 mat. Par conséquent, le voilà maintenant en b8. Avez-vous déjà repéré le mat à l'étouffé qui se profile ? C'est le moment de le jouer !",
+        "[%wrong Bien essayé, mais ce coup ne force pas le roi à aller en c8. Cherchez encore !][%hint Nous cherchons un échec forçant le roi noir à aller en c8.]",
+        "C'est la bonne idée, mais pour l'instant, le roi peut tout simplement capturer la dame. Pas de précipitation !",
+        "Bien joué ! Le roi noir est maintenant sur la diagonale de la dame blanche. C'est le moment de trouver le double échec !",
+        "[%wrong Ce n'est pas un double échec. Essayez encore !][%hint Trouvez un double échec cavalier + dame..]",
+        "A ce point de la partie, le matériel n'a aucune importance. Concentrons-nous sur le mat à venir !",
+        "Superbe ! Ce double échec force le roi à revenir en b8. C'est l'heure du mat à l'étouffé !",
+        "[%wrong Pas de mat à l'étouffé dans cette variante... Essayez encore !][%hint Comment forcer la tour c8 à enfermer son roi ?]",
+        "Bien essayé, mais dans cette variante, vous ne pouvez pas faire mieux que de répéter la position.",
+        "Et voilà ! Le roi noir est maintenant totalement enfermé par ses propres pièces. Passons au mat !!",
+        "[%wrong Ce coup ne mat pas. Essayez encore !][%hint Quel est le seul échec dans cette position ?] Bien joué ! Vous êtes maintenant un spécialiste des mats à l'étouffé !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1k4r/ppp1bq1p/2n1N3/6B1/3p2Q1/8/PPP2PPP/R5K1 w - - 0 1\"]\r\n\r\n{Dans cette position, le grand maître américain Paul Morphy a trouvé une combinaison forçant le mat à l'étouffé. Saurez-vous jouer aussi bien que lui ? Commençons par trouver un coup de cavalier forçant le roi noir à aller en b8.}\r\n1.Nc5+\r\n{[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons.][%hint Commençons par un fort échec à la découverte.]}\r\n    (1.Nf8+ $5 {Très bien ! Pour éviter le mat, le roi noir doit absolument se rendre en b8. Trouvez maintenant l'autre coup de cavalier accomplissant la même tâche.})\r\n    (1.Nd8+ $2 Kxd8 {Bien essayé, mais les noirs peuvent ici simplement prendre le cavalier. Attention à vos pièces !})\r\n1...Kb8\r\n    {Si les noirs avaient placé leur roi en d8, nous aurions pu jouer Dd7 mat. Par conséquent, le voilà maintenant en b8. Avez-vous déjà repéré le mat à l'étouffé qui se profile ? C'est le moment de le jouer !}\r\n2.Nd7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi à aller en c8. Cherchez encore !][%hint Nous cherchons un échec forçant le roi noir à aller en c8.]}\r\n    (2.Qc8+ $2 Kxc8 {C'est la bonne idée, mais pour l'instant, le roi peut tout simplement capturer la dame. Pas de précipitation !})\r\n2...Kc8\r\n    {Bien joué ! Le roi noir est maintenant sur la diagonale de la dame blanche. C'est le moment de trouver le double échec !}\r\n3.Nb6+\r\n    {[%wrong Ce n'est pas un double échec. Essayez encore !][%hint Trouvez un double échec cavalier + dame..]}\r\n    (3.Ne5+ $6 {A ce point de la partie, le matériel n'a aucune importance. Concentrons-nous sur le mat à venir !})\r\n3...Kb8\r\n    {Superbe ! Ce double échec force le roi à revenir en b8. C'est l'heure du mat à l'étouffé !}\r\n4.Qc8+\r\n    {[%wrong Pas de mat à l'étouffé dans cette variante... Essayez encore !][%hint Comment forcer la tour c8 à enfermer son roi ?]}\r\n    (4.Nd7+ $6 Kc8 {Bien essayé, mais dans cette variante, vous ne pouvez pas faire mieux que de répéter la position.})\r\n4...Rxc8\r\n    {Et voilà ! Le roi noir est maintenant totalement enfermé par ses propres pièces. Passons au mat !!}\r\n5.Nd7#\r\n    {[%wrong Ce coup ne mat pas. Essayez encore !][%hint Quel est le seul échec dans cette position ?] Bien joué ! Vous êtes maintenant un spécialiste des mats à l'étouffé !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "9658f37e-9cea-11e8-bbc3-e74c496c0157",
+    "name": "Le mat à l'étouffé",
+    "path": "mat-a-l-etouffe",
+    "description": "On appelle mat à l’étouffée un mat donné par un cavalier à un roi enfermé par ses propres pièces. Le mat à l’étouffé le plus courant implique un double échec suivi d’un sacrifice de dame.",
+    "glyphName": "move-mate-smothered",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-smothered-mate-p0d.mp4",
+    "fen": "1q4rk/5Npp/8/8/8/8/6PP/7K b - - 1 4",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1q3r1k/6pp/7N/8/8/1Q6/6PP/7K w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le mat en deux !}\r\n1.Qg8+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Essayez encore !][%hint Quel échec force la tour noire à aller en g8, où elle étoufferait son propre roi ?]}\r\n    (1.Nf7+ $6 Kg8 {Bien essayé. En jouant Ch6 double échec au prochain coup, vous pouvez l'emporter. Mais ce coup ne mate pas en deux !})\r\n    (1.Ng8 $2 Rf1# {Bien essayé, mais nous n'avons pas le temps de préparer le mat, les noirs ont aussi une menace !})\r\n1...Rxg8\r\n    {Joli ! Les noirs sont forcés d'enfermer leur roi. Il est temps de mater !}\r\n2.Nf7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Quel est le seul échec dans cette position ?] Et voilà ! Joli mat.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1qr4k/6pp/8/6N1/8/8/Q5PP/7K w - - 0 1\"]\r\n\r\n{Dans cette position, les blancs ont un mat à l'étouffé en quatre coups. A vous de le trouver !}\r\n1.Nf7+\r\n    {[%wrong Ce coup ne prépare pas le mat à l'étouffé. Essayez encore !][%hint Comment forcer le roi noir à aller sur la case g8 ?]}\r\n    (1.Qg8+ $2 Kxg8 {La tour n'est pas forcée de prendre la dame ! N'allez pas trop vite en besogne.})\r\n1...Kg8\r\n    {Bien joué ! Le roi adverse est maintenant sur la diagonale de notre dame. Comment en profiter ?}\r\n2.Nh6+\r\n    {[%wrong Ce coup ne prépare pas le mat à l'étouffé. Essayez encore !][%hint Trouvez un double échec forçant le roi noir à aller dans le coin.]}\r\n    (2.Ng5+ $6 Kh8 {Bien essayé, mais dans cette variante, vous ne pouvez pas faire mieux que de répéter la position. Essayez de trouver un double échec !})\r\n2...Kh8\r\n    {Excellent ! Ce double échec est la clef du problème. Le roi noir doit maintenant aller en h8, et toutes les conditions sont réunies pour un mat à l'étouffé... A vous de jouer !}\r\n3.Qg8+\r\n    {[%wrong Ce coup ne mate pas en deux. Essayez encore.][%hint Quel échec force la tour noire à aller en g8, où elle étoufferait son propre roi ?]}\r\n3...Rxg8\r\n    {Parfait ! Finissions la partie par un joli mat !}\r\n4.Nf7#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Quel est le seul échec dans cette position ?] Et voilà ! Encore un superbe mat à l'étouffé.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w KQkq - 0 1\"]\r\n\r\n{Le roi noir semble en sécurité, mais c'est une illusion. Les blancs peuvent gagner en un coup ! Trouvez comment.}\r\n1.Nd6#\r\n    {[%wrong Ce coup ne gagne pas immédiatement. Essayez encore !][%hint L'un des deux échecs possibles est un mat à l’étouffé !] Génial ! Voilà un mat pas piqué des hannetons !!}\r\n    (1.Nxf6+ $2 Nxf6 {Bien essayé, mais les noirs contrôlent efficacement cette case. Trouvez l'échec qui gagne instantanément !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/pppp1ppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R b KQkq - 0 8\"]\r\n\r\n{Les blancs viennent de jouer a3, attaquant le fou des noirs. Répondons par un coup malin : De7.}\r\n8...Qe7\r\n    {[%wrong Commençons si vous le voulez bien par jouer De7.][%hint Mettez votre dame en e7.]}\r\n9.axb4 $2\r\n    {Les blancs s'emparent sans sourciller de ce fou qui semble avoir été \"oublie\". Mais il y a avait un piège ! C'est l'heure de trouver le mat à l'étouffé.}\r\n9...Nd3#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore.][%hint Trouvez un échec ultra-puissant.] Bien sûr ! Les blancs ont gagné un fou, mais les noirs ont gagné la partie !}\r\n    (9...Nxf3+ $2 10.gxf3 {Bien essayé, mais les blancs échappent à notre attaque et ont maintenant une pièce de plus. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1k4r/ppp1bq1p/2n1N3/6B1/3p2Q1/8/PPP2PPP/R5K1 w - - 0 1\"]\r\n\r\n{Dans cette position, le grand maître américain Paul Morphy a trouvé une combinaison forçant le mat à l'étouffé. Saurez-vous jouer aussi bien que lui ? Commençons par trouver un coup de cavalier forçant le roi noir à aller en b8.}\r\n1.Nc5+\r\n{[%wrong Bien essayé, mais ce n'est pas le coup que nous cherchons.][%hint Commençons par un fort échec à la découverte.]}\r\n    (1.Nf8+ $5 {Très bien ! Pour éviter le mat, le roi noir doit absolument se rendre en b8. Trouvez maintenant l'autre coup de cavalier accomplissant la même tâche.})\r\n    (1.Nd8+ $2 Kxd8 {Bien essayé, mais les noirs peuvent ici simplement prendre le cavalier. Attention à vos pièces !})\r\n1...Kb8\r\n    {Si les noirs avaient placé leur roi en d8, nous aurions pu jouer Dd7 mat. Par conséquent, le voilà maintenant en b8. Avez-vous déjà repéré le mat à l'étouffé qui se profile ? C'est le moment de le jouer !}\r\n2.Nd7+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi à aller en c8. Cherchez encore !][%hint Nous cherchons un échec forçant le roi noir à aller en c8.]}\r\n    (2.Qc8+ $2 Kxc8 {C'est la bonne idée, mais pour l'instant, le roi peut tout simplement capturer la dame. Pas de précipitation !})\r\n2...Kc8\r\n    {Bien joué ! Le roi noir est maintenant sur la diagonale de la dame blanche. C'est le moment de trouver le double échec !}\r\n3.Nb6+\r\n    {[%wrong Ce n'est pas un double échec. Essayez encore !][%hint Trouvez un double échec cavalier + dame..]}\r\n    (3.Ne5+ $6 {A ce point de la partie, le matériel n'a aucune importance. Concentrons-nous sur le mat à venir !})\r\n3...Kb8\r\n    {Superbe ! Ce double échec force le roi à revenir en b8. C'est l'heure du mat à l'étouffé !}\r\n4.Qc8+\r\n    {[%wrong Pas de mat à l'étouffé dans cette variante... Essayez encore !][%hint Comment forcer la tour c8 à enfermer son roi ?]}\r\n    (4.Nd7+ $6 Kc8 {Bien essayé, mais dans cette variante, vous ne pouvez pas faire mieux que de répéter la position.})\r\n4...Rxc8\r\n    {Et voilà ! Le roi noir est maintenant totalement enfermé par ses propres pièces. Passons au mat !!}\r\n5.Nd7#\r\n    {[%wrong Ce coup ne mat pas. Essayez encore !][%hint Quel est le seul échec dans cette position ?] Bien joué ! Vous êtes maintenant un spécialiste des mats à l'étouffé !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenons l'un de mes mats favoris : le mat à l'étouffé.",
+    "outroText": "Le mat à l'étouffé est le schéma le plus jouissif à placer pour conclure une partie.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "70de057e-83ab-11e8-8cfb-8104fbc92573",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/smothered-mate5e6202ea045e4.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/smothered-mate-56688551e6e4e7.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/smothered-mate-25ea242476ee8f.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/smothered-mate-3603683019c651.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 70,
+    "order": 7,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

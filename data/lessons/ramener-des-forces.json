@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/ramener-des-forces",
+  "capturedAt": "2026-10-22T12:23:32.749Z",
+  "title": "Ramener des forces",
+  "exercises": [
+    {
+      "fen": "7k/3n3p/4p2p/3pn2b/1P1B4/2P5/3N1PP1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une pièce de moins, mais le cavalier noir en e5 est cloué. Ramenez des forces pour vous en emparer !",
+        "[%wrong Ce coup n'amène de nouvelle pièce à l'attaque du cavalier e5. Essayez encore !][%hint N'oubliez pas, les pions sont aussi des pièces !] Bien joué ! Les blancs attaquent une deuxième fois le cavalier cloué, qui sera capturé au prochain coup.",
+        "C'est la bonne idée, mais le cavalier n'est pas en sécurité sur cette case. Essayez encore !",
+        "C'est la bonne idée, mais le cavalier n'est pas en sécurité sur cette case. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/3n3p/4p2p/3pn2b/1P1B4/2P5/3N1PP1/6K1 w - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de moins, mais le cavalier noir en e5 est cloué. Ramenez des forces pour vous en emparer !}\r\n1.f4\r\n    {[%wrong Ce coup n'amène de nouvelle pièce à l'attaque du cavalier e5. Essayez encore !][%hint N'oubliez pas, les pions sont aussi des pièces !] Bien joué ! Les blancs attaquent une deuxième fois le cavalier cloué, qui sera capturé au prochain coup.}\r\n    (1.Nf3 $2 Bxf3 {C'est la bonne idée, mais le cavalier n'est pas en sécurité sur cette case. Essayez encore !})\r\n    (1.Nc4 $2 dxc4 {C'est la bonne idée, mais le cavalier n'est pas en sécurité sur cette case. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "2br2k1/pn4p1/1p1p3p/2pPp3/2P1P3/P1P2N1P/6P1/2BR2K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un pion faible en c4. Attaquons-le !",
+        "[%wrong Ce coup n'attaque pas le pion c4. Essayez encore !][%hint Déplacez une pièce noire sur une case où elle attaquera le pion c4.]",
+        "Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez encore !",
+        "Bien joué ! Vous attaquez le pion faible, forçant les blancs à ramener une pièce pour le défendre. Il est temps d'augmenter la pression !",
+        "[%wrong Ce coup n'attaque pas le pion c4 une seconde fois. Essayez encore !][%hint Le fou doit jouer sa part.] Bien joué ! La pression sur le pion c4 est désormais maximale, et les blancs n'ont plus la moindre pièce pour le défendre. Au prochain coup, il sera gagné.",
+        "Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2br2k1/pn4p1/1p1p3p/2pPp3/2P1P3/P1P2N1P/6P1/2BR2K1 b - - 0 1\"]\r\n\r\n{Les blancs ont un pion faible en c4. Attaquons-le !}\r\n1...Na5\r\n    {[%wrong Ce coup n'attaque pas le pion c4. Essayez encore !][%hint Déplacez une pièce noire sur une case où elle attaquera le pion c4.]}\r\n    (1...b5 $2 2.cxb5 {Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez encore !})\r\n2.Nd2\r\n    {Bien joué ! Vous attaquez le pion faible, forçant les blancs à ramener une pièce pour le défendre. Il est temps d'augmenter la pression !}\r\n2...Ba6\r\n    {[%wrong Ce coup n'attaque pas le pion c4 une seconde fois. Essayez encore !][%hint Le fou doit jouer sa part.] Bien joué ! La pression sur le pion c4 est désormais maximale, et les blancs n'ont plus la moindre pièce pour le défendre. Au prochain coup, il sera gagné.}\r\n    (2...b5 $2 3.cxb5 {Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "r1b1k2r/1p1nbppp/pqn1p3/3pP3/1P6/P1PB1N2/3NQPPP/R1B1K2R b KQkq - 2 13",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les deux camps s'écharpent pour le pion e5, chacun ayant deux pièces dans la bataille. Le trait est aux noirs. A vous de ramener un troisième attaquant pour remporter le pion !",
+        "[%wrong Ce coup n'attaque pas le pion e5 une troisième fois. Essayez encore !][%hint Parfois, une pièce peut reculer pour mieux attaquer...] Bien joué ! La dame noire vient attaquer une fois de plus le pion e5, qui va tomber au prochain coup faute de défenseurs.",
+        "Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez de rajouter de la pression avec une pièce lourde !",
+        "C'est la bonne idée, mais le fou n'est pas en sécurité sur cette case. Essayez encore !",
+        "C'est la bonne idée, mais le fou n'est pas en sécurité sur cette case. Essayez encore !",
+        "C'est la bonne idée, mais la dame n'est pas en sécurité sur cette case. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/1p1nbppp/pqn1p3/3pP3/1P6/P1PB1N2/3NQPPP/R1B1K2R b KQkq - 2 13\"]\r\n\r\n{Les deux camps s'écharpent pour le pion e5, chacun ayant deux pièces dans la bataille. Le trait est aux noirs. A vous de ramener un troisième attaquant pour remporter le pion !}\r\n13...Qc7\r\n    {[%wrong Ce coup n'attaque pas le pion e5 une troisième fois. Essayez encore !][%hint Parfois, une pièce peut reculer pour mieux attaquer...] Bien joué ! La dame noire vient attaquer une fois de plus le pion e5, qui va tomber au prochain coup faute de défenseurs.}\r\n    (13...f6 $2 14.exf6 {Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez de rajouter de la pression avec une pièce lourde !})\r\n    (13...Bd6 $2 14.exd6 {C'est la bonne idée, mais le fou n'est pas en sécurité sur cette case. Essayez encore !})\r\n    (13...Bf6 $2 14.exf6 {C'est la bonne idée, mais le fou n'est pas en sécurité sur cette case. Essayez encore !})\r\n    (13...Qd4 $2 14.cxd4 {C'est la bonne idée, mais la dame n'est pas en sécurité sur cette case. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p1N1/2B1P3/2NP4/PPP2PPP/R1BQK2R b KQkq - 0 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier blanc en g5 et le fou c4 attaquent tous les deux le pion f7 et s'apprête à le capturer au prochain coup. Quelle est la meilleure défense des noirs ?",
+        "[%wrong Ce coup ne défend pas le pion f7. Essayez encore !][%hint L'idéal serait de mettre son roi à l'abri tout en ajoutant un second défenseur.]",
+        "Vous avez ajouté un défenseur, mais la dame vaut plus que la somme des attaquants (fou et cavalier). Vous allez donc perdre du matériel. Essayez encore !",
+        "Ce coup défend le pion f7, mais perd le pion d5. Essayez de trouver une défense qui ne perde pas de matériel.",
+        "Les noirs défendent avec le fou, mais perdent du matériel. Essayez encore !",
+        "C'est la bonne idée, mais le roi noir est désormais coincé au centre de l'échiquier. Il faudrait le mettre à l'abri tout en défendant f7 !",
+        "Vous avez ajouté un défenseur, mais la dame vaut plus que la somme des attaquants (fou et cavalier). Vous allez donc perdre du matériel. Essayez encore !",
+        "Cette contre attaque sur la dame blanche est réfutée par la prise du pion avec échec. Bien essayé, mais concentrons-nous pour le moment sur la défense du pion f7.",
+        "Bien joué ! En roquant, les noirs mettent leur roi à l'abri et postent la tour à la défense du pion f7. Continuons en prenant ce cavalier.",
+        "[%wrong Ce coup ne capture pas le cavalier f7. Essayez encore !][%hint Prenez le cavalier f7 avec la tour.]",
+        "Bien joué ! Et maintenant, prenons le fou.",
+        "[%wrong Ce coup ne prend pas le fou. Essayez encore.][%hint Le roi peut également être une pièce d'attaque !] Les noirs ont échangé une tour et un pion (6 points) contre un cavalier et un fou (6 points). C'est une bonne défense, et vous avez même désormais un avantage de développement."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/ppp2ppp/2np1n2/2b1p1N1/2B1P3/2NP4/PPP2PPP/R1BQK2R b KQkq - 0 7\"]\r\n\r\n{Le cavalier blanc en g5 et le fou c4 attaquent tous les deux le pion f7 et s'apprête à le capturer au prochain coup. Quelle est la meilleure défense des noirs ?}\r\n7...O-O\r\n    {[%wrong Ce coup ne défend pas le pion f7. Essayez encore !][%hint L'idéal serait de mettre son roi à l'abri tout en ajoutant un second défenseur.]}\r\n    (7...Qe7 $2 8.Bxf7+ {Vous avez ajouté un défenseur, mais la dame vaut plus que la somme des attaquants (fou et cavalier). Vous allez donc perdre du matériel. Essayez encore !})\r\n    (7...d5 $2 8.Nxd5 {Ce coup défend le pion f7, mais perd le pion d5. Essayez de trouver une défense qui ne perde pas de matériel.})\r\n    (7...Be6 $2 8.Bxe6 {Les noirs défendent avec le fou, mais perdent du matériel. Essayez encore !})\r\n    (7...Rf8 $2 {C'est la bonne idée, mais le roi noir est désormais coincé au centre de l'échiquier. Il faudrait le mettre à l'abri tout en défendant f7 !})\r\n    (7...Qd7 $2 8.Bxf7+ {Vous avez ajouté un défenseur, mais la dame vaut plus que la somme des attaquants (fou et cavalier). Vous allez donc perdre du matériel. Essayez encore !})\r\n    (7...Bg4 $2 8.Bxf7+ $1 {Cette contre attaque sur la dame blanche est réfutée par la prise du pion avec échec. Bien essayé, mais concentrons-nous pour le moment sur la défense du pion f7.})\r\n8.Nxf7\r\n    {Bien joué ! En roquant, les noirs mettent leur roi à l'abri et postent la tour à la défense du pion f7. Continuons en prenant ce cavalier.}\r\n8...Rxf7\r\n    {[%wrong Ce coup ne capture pas le cavalier f7. Essayez encore !][%hint Prenez le cavalier f7 avec la tour.]}\r\n9.Bxf7+\r\n    {Bien joué ! Et maintenant, prenons le fou.}\r\n9...Kxf7\r\n    {[%wrong Ce coup ne prend pas le fou. Essayez encore.][%hint Le roi peut également être une pièce d'attaque !] Les noirs ont échangé une tour et un pion (6 points) contre un cavalier et un fou (6 points). C'est une bonne défense, et vous avez même désormais un avantage de développement.}\r\n*"
+    },
+    {
+      "fen": "k3nr2/p6p/1p3p2/2pn4/2N5/1P5P/P1P2PRK/3B4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier noir en d5 n'est pas protégé. Comment l'attaquer en le clouant à son roi ?",
+        "[%wrong Ce coup ne cloue pas le cavalier. Essayez encore !][%hint Le cavalier d5 est sur la même diagonale que le roi noir. C'est une histoire de fou !]",
+        "Bien joué ! Vous avez cloué le cavalier au roi noir. Ajoutons maintenant un second attaquant.",
+        "[%wrong Ce coup n'ajoute pas un deuxième attaquant. Essayez encore !][%hint Le cavalier blanc est prêt se joindre à l'attaque !]",
+        "Attaquez le cavalier cloué depuis une casé où votre pièce sera en sécurité !",
+        "Bien joué ! Les blancs attaquent le cavalier cloué une seconde fois, mais les noirs ont encore un défenseur. Ajoutons un troisième attaquant pour prendre définitivement le contrôle !",
+        "[%wrong Ce coup n'ajoute pas un troisième attaquant. Essayez encore !][%hint Pion !] Bien joué ! Vous avez ajouté un troisième attaquant, et le cavalier cloué va disparaître au prochain coup !",
+        "Attaquez le cavalier cloué depuis une casé où votre pièce sera en sécurité !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k3nr2/p6p/1p3p2/2pn4/2N5/1P5P/P1P2PRK/3B4 w - - 0 1\"]\r\n\r\n{Le cavalier noir en d5 n'est pas protégé. Comment l'attaquer en le clouant à son roi ?}\r\n1.Bf3\r\n    {[%wrong Ce coup ne cloue pas le cavalier. Essayez encore !][%hint Le cavalier d5 est sur la même diagonale que le roi noir. C'est une histoire de fou !]}\r\n1...Nc7\r\n    {Bien joué ! Vous avez cloué le cavalier au roi noir. Ajoutons maintenant un second attaquant.}\r\n2.Ne3\r\n    {[%wrong Ce coup n'ajoute pas un deuxième attaquant. Essayez encore !][%hint Le cavalier blanc est prêt se joindre à l'attaque !]}\r\n    (2.Rg5 $2 fxg5 {Attaquez le cavalier cloué depuis une casé où votre pièce sera en sécurité !})\r\n2...Rd8\r\n    {Bien joué ! Les blancs attaquent le cavalier cloué une seconde fois, mais les noirs ont encore un défenseur. Ajoutons un troisième attaquant pour prendre définitivement le contrôle !}\r\n3.c4\r\n    {[%wrong Ce coup n'ajoute pas un troisième attaquant. Essayez encore !][%hint Pion !] Bien joué ! Vous avez ajouté un troisième attaquant, et le cavalier cloué va disparaître au prochain coup !}\r\n    (3.Rg5 $2 fxg5 {Attaquez le cavalier cloué depuis une casé où votre pièce sera en sécurité !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "7cab935c-9ce8-11e8-9d6c-19143eb4fd0a",
+    "name": "Ramener des forces",
+    "path": "ramener-des-forces",
+    "description": "Lorsqu’une pièce est clouée, elle ne peut ou ne doit pas bouger. Le meilleur moyen de profiter de la situation est de rajouter des pièces offensives jusqu’à ce qu’il soit possible de capturer la pièce clouée en gagnant du matériel.",
+    "glyphName": "square-fill-stack-3D",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-piling-up-b5t.mp4",
+    "fen": "k2n4/p3N2p/1pnr1p2/1Pp5/8/1P3B1P/P4PRK/8 b - - 0 3",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/3n3p/4p2p/3pn2b/1P1B4/2P5/3N1PP1/6K1 w - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de moins, mais le cavalier noir en e5 est cloué. Ramenez des forces pour vous en emparer !}\r\n1.f4\r\n    {[%wrong Ce coup n'amène de nouvelle pièce à l'attaque du cavalier e5. Essayez encore !][%hint N'oubliez pas, les pions sont aussi des pièces !] Bien joué ! Les blancs attaquent une deuxième fois le cavalier cloué, qui sera capturé au prochain coup.}\r\n    (1.Nf3 $2 Bxf3 {C'est la bonne idée, mais le cavalier n'est pas en sécurité sur cette case. Essayez encore !})\r\n    (1.Nc4 $2 dxc4 {C'est la bonne idée, mais le cavalier n'est pas en sécurité sur cette case. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2br2k1/pn4p1/1p1p3p/2pPp3/2P1P3/P1P2N1P/6P1/2BR2K1 b - - 0 1\"]\r\n\r\n{Les blancs ont un pion faible en c4. Attaquons-le !}\r\n1...Na5\r\n    {[%wrong Ce coup n'attaque pas le pion c4. Essayez encore !][%hint Déplacez une pièce noire sur une case où elle attaquera le pion c4.]}\r\n    (1...b5 $2 2.cxb5 {Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez encore !})\r\n2.Nd2\r\n    {Bien joué ! Vous attaquez le pion faible, forçant les blancs à ramener une pièce pour le défendre. Il est temps d'augmenter la pression !}\r\n2...Ba6\r\n    {[%wrong Ce coup n'attaque pas le pion c4 une seconde fois. Essayez encore !][%hint Le fou doit jouer sa part.] Bien joué ! La pression sur le pion c4 est désormais maximale, et les blancs n'ont plus la moindre pièce pour le défendre. Au prochain coup, il sera gagné.}\r\n    (2...b5 $2 3.cxb5 {Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/1p1nbppp/pqn1p3/3pP3/1P6/P1PB1N2/3NQPPP/R1B1K2R b KQkq - 2 13\"]\r\n\r\n{Les deux camps s'écharpent pour le pion e5, chacun ayant deux pièces dans la bataille. Le trait est aux noirs. A vous de ramener un troisième attaquant pour remporter le pion !}\r\n13...Qc7\r\n    {[%wrong Ce coup n'attaque pas le pion e5 une troisième fois. Essayez encore !][%hint Parfois, une pièce peut reculer pour mieux attaquer...] Bien joué ! La dame noire vient attaquer une fois de plus le pion e5, qui va tomber au prochain coup faute de défenseurs.}\r\n    (13...f6 $2 14.exf6 {Cette attaque ne marche pas. Les blancs prennent simplement le pion. Essayez de rajouter de la pression avec une pièce lourde !})\r\n    (13...Bd6 $2 14.exd6 {C'est la bonne idée, mais le fou n'est pas en sécurité sur cette case. Essayez encore !})\r\n    (13...Bf6 $2 14.exf6 {C'est la bonne idée, mais le fou n'est pas en sécurité sur cette case. Essayez encore !})\r\n    (13...Qd4 $2 14.cxd4 {C'est la bonne idée, mais la dame n'est pas en sécurité sur cette case. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/ppp2ppp/2np1n2/2b1p1N1/2B1P3/2NP4/PPP2PPP/R1BQK2R b KQkq - 0 7\"]\r\n\r\n{Le cavalier blanc en g5 et le fou c4 attaquent tous les deux le pion f7 et s'apprête à le capturer au prochain coup. Quelle est la meilleure défense des noirs ?}\r\n7...O-O\r\n    {[%wrong Ce coup ne défend pas le pion f7. Essayez encore !][%hint L'idéal serait de mettre son roi à l'abri tout en ajoutant un second défenseur.]}\r\n    (7...Qe7 $2 8.Bxf7+ {Vous avez ajouté un défenseur, mais la dame vaut plus que la somme des attaquants (fou et cavalier). Vous allez donc perdre du matériel. Essayez encore !})\r\n    (7...d5 $2 8.Nxd5 {Ce coup défend le pion f7, mais perd le pion d5. Essayez de trouver une défense qui ne perde pas de matériel.})\r\n    (7...Be6 $2 8.Bxe6 {Les noirs défendent avec le fou, mais perdent du matériel. Essayez encore !})\r\n    (7...Rf8 $2 {C'est la bonne idée, mais le roi noir est désormais coincé au centre de l'échiquier. Il faudrait le mettre à l'abri tout en défendant f7 !})\r\n    (7...Qd7 $2 8.Bxf7+ {Vous avez ajouté un défenseur, mais la dame vaut plus que la somme des attaquants (fou et cavalier). Vous allez donc perdre du matériel. Essayez encore !})\r\n    (7...Bg4 $2 8.Bxf7+ $1 {Cette contre attaque sur la dame blanche est réfutée par la prise du pion avec échec. Bien essayé, mais concentrons-nous pour le moment sur la défense du pion f7.})\r\n8.Nxf7\r\n    {Bien joué ! En roquant, les noirs mettent leur roi à l'abri et postent la tour à la défense du pion f7. Continuons en prenant ce cavalier.}\r\n8...Rxf7\r\n    {[%wrong Ce coup ne capture pas le cavalier f7. Essayez encore !][%hint Prenez le cavalier f7 avec la tour.]}\r\n9.Bxf7+\r\n    {Bien joué ! Et maintenant, prenons le fou.}\r\n9...Kxf7\r\n    {[%wrong Ce coup ne prend pas le fou. Essayez encore.][%hint Le roi peut également être une pièce d'attaque !] Les noirs ont échangé une tour et un pion (6 points) contre un cavalier et un fou (6 points). C'est une bonne défense, et vous avez même désormais un avantage de développement.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k3nr2/p6p/1p3p2/2pn4/2N5/1P5P/P1P2PRK/3B4 w - - 0 1\"]\r\n\r\n{Le cavalier noir en d5 n'est pas protégé. Comment l'attaquer en le clouant à son roi ?}\r\n1.Bf3\r\n    {[%wrong Ce coup ne cloue pas le cavalier. Essayez encore !][%hint Le cavalier d5 est sur la même diagonale que le roi noir. C'est une histoire de fou !]}\r\n1...Nc7\r\n    {Bien joué ! Vous avez cloué le cavalier au roi noir. Ajoutons maintenant un second attaquant.}\r\n2.Ne3\r\n    {[%wrong Ce coup n'ajoute pas un deuxième attaquant. Essayez encore !][%hint Le cavalier blanc est prêt se joindre à l'attaque !]}\r\n    (2.Rg5 $2 fxg5 {Attaquez le cavalier cloué depuis une casé où votre pièce sera en sécurité !})\r\n2...Rd8\r\n    {Bien joué ! Les blancs attaquent le cavalier cloué une seconde fois, mais les noirs ont encore un défenseur. Ajoutons un troisième attaquant pour prendre définitivement le contrôle !}\r\n3.c4\r\n    {[%wrong Ce coup n'ajoute pas un troisième attaquant. Essayez encore !][%hint Pion !] Bien joué ! Vous avez ajouté un troisième attaquant, et le cavalier cloué va disparaître au prochain coup !}\r\n    (3.Rg5 $2 fxg5 {Attaquez le cavalier cloué depuis une casé où votre pièce sera en sécurité !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Amener plus de pièces à l'attaque peut créer le surnombre décisif.",
+    "outroText": "Parfait. Vos adversaires n'ont qu'à bien se tenir.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "36722a2a-83a9-11e8-b7b5-7da2bd7a4319",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/piling-up5d11128c3ad77.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/piling-up-566886f9f6680f.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/piling-up-1608a9ffea7fce.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/piling-up-65ea2454816229.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/sfrutta-l-inchiodatura63c08a0d3e85c.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 35,
+    "order": 6,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

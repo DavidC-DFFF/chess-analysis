@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/les-pieces-enfermes",
+  "capturedAt": "2026-10-22T12:23:39.026Z",
+  "title": "Les pièces enfermées",
+  "exercises": [
+    {
+      "fen": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/P1B1P3/2PP1N2/1P3PPP/RNBQK2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs, pensant être en sécurité dans cette position \"calme\", viennent de pousser leur pion en d6. Profitez-en pour enfermer une de leurs pièces !",
+        "[%wrong Ce coup n'enferme pas de pièce adverse. Essayez encore !][%hint Le fou de cases noires des noirs n'a qu'une seule case de fuite...]",
+        "C'est une idée intéressante, mais le fou des noirs n'est pas enfermé. Essayez encore !",
+        "C'est la bonne idée, mais les noirs ont le temps d'ouvrir une case de fuite pour leur fou. La solution est toute proche. Cherchez encore !",
+        "Bien joué ! Le fou noir bat en retraite, mais nous avons maintenant l'occasion de l'enfermer. A vous de jouer !",
+        "[%wrong Ce coup n'enferme pas de pièce adverse. Essayez encore !][%hint Les pions de l'aile dame sont en grande forme...] Beau travail ! Le fou noir n'a plus de cases, et nous allons gagner du matériel au prochain coup.",
+        "Le cavalier noir échappe à notre attaque et bloque désormais l'avancée du pion a. Trouvez une attaque plus forte !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/ppp2ppp/2np1n2/2b1p3/P1B1P3/2PP1N2/1P3PPP/RNBQK2R w KQ - 0 1\"]\r\n\r\n{Les noirs, pensant être en sécurité dans cette position \"calme\", viennent de pousser leur pion en d6. Profitez-en pour enfermer une de leurs pièces !}\r\n1.b4\r\n    {[%wrong Ce coup n'enferme pas de pièce adverse. Essayez encore !][%hint Le fou de cases noires des noirs n'a qu'une seule case de fuite...]}\r\n    (1.d4 $6 exd4 {C'est une idée intéressante, mais le fou des noirs n'est pas enfermé. Essayez encore !})\r\n    (1.a5 $2 a6 {C'est la bonne idée, mais les noirs ont le temps d'ouvrir une case de fuite pour leur fou. La solution est toute proche. Cherchez encore !})\r\n1...Bb6\r\n    {Bien joué ! Le fou noir bat en retraite, mais nous avons maintenant l'occasion de l'enfermer. A vous de jouer !}\r\n2.a5\r\n    {[%wrong Ce coup n'enferme pas de pièce adverse. Essayez encore !][%hint Les pions de l'aile dame sont en grande forme...] Beau travail ! Le fou noir n'a plus de cases, et nous allons gagner du matériel au prochain coup.}\r\n    (2.b5 $2 Na5 {Le cavalier noir échappe à notre attaque et bloque désormais l'avancée du pion a. Trouvez une attaque plus forte !})\r\n*"
+    },
+    {
+      "fen": "r1b1k2r/pp2ppbp/2n3p1/2p5/q2PP3/1R3N2/P1QB1PPP/4KB1R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame noire est isolée au bord de l'échiquier. Comment l'enfermer ?",
+        "[%wrong Ce coup n'enferme pas la dame noire. Cherchez encore !][%hint Est-il possible de développer une pièce tout en attaquant la dame noire ?] Bien joué ! La dame noire est enfermée !!",
+        "Rappel : Il est inutile d'essayer d'enfermer une pièce adverse avec une pièce de même valeur. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/pp2ppbp/2n3p1/2p5/q2PP3/1R3N2/P1QB1PPP/4KB1R w - - 0 1\"]\r\n\r\n{La dame noire est isolée au bord de l'échiquier. Comment l'enfermer ?}\r\n1.Bb5\r\n    {[%wrong Ce coup n'enferme pas la dame noire. Cherchez encore !][%hint Est-il possible de développer une pièce tout en attaquant la dame noire ?] Bien joué ! La dame noire est enfermée !!}\r\n    (1.Qc4 $2 Qxc4 {Rappel : Il est inutile d'essayer d'enfermer une pièce adverse avec une pièce de même valeur. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "2q2rk1/pp5r/2p5/3pQ3/3Pn3/4PN2/PP4P1/2R1R1K1 b - - 6 41",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Enfermer la dame adverse au bord de l'échiquier est une chose, mais un vrai joueur d'échecs sait également enfermer une dame au milieu du plateau ! A vous de jouer...",
+        "[%wrong Ce coup n'enferme pas la dame noire. Cherchez encore !][%hint Trouvez un coup attaquant la dame noir et ne lui laissant aucune issue.] Cela paraît incroyable, et pourtant... La puissante dame adverse est bel et bien coincée en plein centre de l'échiquier ! Bien joué !",
+        "Ce coup permet à la dame de survivre encore quelques coups. Trouvez mieux !",
+        "Rappel : Il est inutile d'essayer d'enfermer une pièce adverse avec une pièce de même valeur. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2q2rk1/pp5r/2p5/3pQ3/3Pn3/4PN2/PP4P1/2R1R1K1 b - - 6 41\"]\r\n\r\n{Enfermer la dame adverse au bord de l'échiquier est une chose, mais un vrai joueur d'échecs sait également enfermer une dame au milieu du plateau ! A vous de jouer...}\r\n41...Rf5\r\n    {[%wrong Ce coup n'enferme pas la dame noire. Cherchez encore !][%hint Trouvez un coup attaquant la dame noir et ne lui laissant aucune issue.] Cela paraît incroyable, et pourtant... La puissante dame adverse est bel et bien coincée en plein centre de l'échiquier ! Bien joué !}\r\n    (41...Re8 $6 42.Qf4 {Ce coup permet à la dame de survivre encore quelques coups. Trouvez mieux !})\r\n    (41...Qf5 $2 42.Qxf5 {Rappel : Il est inutile d'essayer d'enfermer une pièce adverse avec une pièce de même valeur. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "5k2/pp4pp/4pp2/1P6/8/P3P3/5PPb/2B2K2 w - - 0 29",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de \"manger\" le pion h2, mais celui-ci était empoisonné ! Enfermez le fou adverse.",
+        "[%wrong Ce coup n'empêche pas le fou noir de s'échapper. Essayez encore !][%hint Comment fermer la diagonale du fou pour qu'il ne puisse plus battre en retraite ?]",
+        "Bien essayé, mais ce coup permet au fou de s'échapper. Trouvez mieux !",
+        "Bien joué ! Le fou noir est enfermé, mais son camp lui envoie l'aide du pion h. Ne perdons pas de temps et attaquons la pièce enfermée !",
+        "[%wrong Ce coup n'attaque pas le fou noir. Essayez encore !][%hint Quelle pièce peut attaquer le fou noir ?]",
+        "Et voilà ! Le fou noir n'a plus d'échappatoire. Il aurait dû, avant d'être capturé, prendre le pion g3 pour récupérer au moins un pion de plus... Tant pis pour lui !",
+        "[%wrong Non, il faut maintenant prendre le fou !][%hint Prenez le fou !] Et voilà ! La pièce enfermée est capturée !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/pp4pp/4pp2/1P6/8/P3P3/5PPb/2B2K2 w - - 0 29\"]\r\n\r\n{Les noirs viennent de \"manger\" le pion h2, mais celui-ci était empoisonné ! Enfermez le fou adverse.}\r\n29.g3\r\n    {[%wrong Ce coup n'empêche pas le fou noir de s'échapper. Essayez encore !][%hint Comment fermer la diagonale du fou pour qu'il ne puisse plus battre en retraite ?]}\r\n    (29.f4 $2 Bg3 {Bien essayé, mais ce coup permet au fou de s'échapper. Trouvez mieux !})\r\n29...h5\r\n    {Bien joué ! Le fou noir est enfermé, mais son camp lui envoie l'aide du pion h. Ne perdons pas de temps et attaquons la pièce enfermée !}\r\n30.Kg2\r\n    {[%wrong Ce coup n'attaque pas le fou noir. Essayez encore !][%hint Quelle pièce peut attaquer le fou noir ?]}\r\n30...h4\r\n    {Et voilà ! Le fou noir n'a plus d'échappatoire. Il aurait dû, avant d'être capturé, prendre le pion g3 pour récupérer au moins un pion de plus... Tant pis pour lui !}\r\n31.Kxh2\r\n    {[%wrong Non, il faut maintenant prendre le fou !][%hint Prenez le fou !] Et voilà ! La pièce enfermée est capturée !}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/p3ppp1/3p3p/1pp5/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de jouer c5 avec l'idée c4 au prochain coup, enfermant le fou blanc. Comment parer cette menace ?",
+        "[%wrong Bien essayé, mais il existe un coup bien plus fort !][%hint Comment échapper à l'enfermement tout en attaquant une pièce noire déjà enfermée ?] Bien joué ! Le fou blanc échappe à la menace adverse et attaque maintenant la tour a8, qui sera capturée au prochain coup.",
+        "Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !",
+        "Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !",
+        "Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !",
+        "Ce coup pare en effet la menace, mais il obstrue la meilleure diagonale du fou. Trouvez mieux !",
+        "Pas besoin de paniquer ! Il existe un coup bien plus fort. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/p3ppp1/3p3p/1pp5/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{Les noirs viennent de jouer c5 avec l'idée c4 au prochain coup, enfermant le fou blanc. Comment parer cette menace ?}\r\n1.Bd5\r\n    {[%wrong Bien essayé, mais il existe un coup bien plus fort !][%hint Comment échapper à l'enfermement tout en attaquant une pièce noire déjà enfermée ?] Bien joué ! Le fou blanc échappe à la menace adverse et attaque maintenant la tour a8, qui sera capturée au prochain coup.}\r\n    (1.a4 $6 {Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !})\r\n    (1.a3 {Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !})\r\n    (1.c3 {Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !})\r\n    (1.c4 {Ce coup pare en effet la menace, mais il obstrue la meilleure diagonale du fou. Trouvez mieux !})\r\n    (1.Bxf7+ $2 Kxf7 {Pas besoin de paniquer ! Il existe un coup bien plus fort. Trouvez-le !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "4ba869e0-9cea-11e8-b92c-dd33193a6459",
+    "name": "Les pièces enfermées",
+    "path": "les-pieces-enfermes",
+    "description": "Les bons coups de pions vous permettent de prendre des cases aux pièces adverses. Même la dame peut alors se retrouver en danger de devoir s’échanger contre une pièce de moindre valeur.",
+    "glyphName": "piece-trapped-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-trapped-piece-g6c.mp4",
+    "fen": "r1b1k2r/pp2ppbp/2n3p1/1Bp5/q2PP3/1R3N2/P1QB1PPP/4K2R b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/ppp2ppp/2np1n2/2b1p3/P1B1P3/2PP1N2/1P3PPP/RNBQK2R w KQ - 0 1\"]\r\n\r\n{Les noirs, pensant être en sécurité dans cette position \"calme\", viennent de pousser leur pion en d6. Profitez-en pour enfermer une de leurs pièces !}\r\n1.b4\r\n    {[%wrong Ce coup n'enferme pas de pièce adverse. Essayez encore !][%hint Le fou de cases noires des noirs n'a qu'une seule case de fuite...]}\r\n    (1.d4 $6 exd4 {C'est une idée intéressante, mais le fou des noirs n'est pas enfermé. Essayez encore !})\r\n    (1.a5 $2 a6 {C'est la bonne idée, mais les noirs ont le temps d'ouvrir une case de fuite pour leur fou. La solution est toute proche. Cherchez encore !})\r\n1...Bb6\r\n    {Bien joué ! Le fou noir bat en retraite, mais nous avons maintenant l'occasion de l'enfermer. A vous de jouer !}\r\n2.a5\r\n    {[%wrong Ce coup n'enferme pas de pièce adverse. Essayez encore !][%hint Les pions de l'aile dame sont en grande forme...] Beau travail ! Le fou noir n'a plus de cases, et nous allons gagner du matériel au prochain coup.}\r\n    (2.b5 $2 Na5 {Le cavalier noir échappe à notre attaque et bloque désormais l'avancée du pion a. Trouvez une attaque plus forte !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/pp2ppbp/2n3p1/2p5/q2PP3/1R3N2/P1QB1PPP/4KB1R w - - 0 1\"]\r\n\r\n{La dame noire est isolée au bord de l'échiquier. Comment l'enfermer ?}\r\n1.Bb5\r\n    {[%wrong Ce coup n'enferme pas la dame noire. Cherchez encore !][%hint Est-il possible de développer une pièce tout en attaquant la dame noire ?] Bien joué ! La dame noire est enfermée !!}\r\n    (1.Qc4 $2 Qxc4 {Rappel : Il est inutile d'essayer d'enfermer une pièce adverse avec une pièce de même valeur. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2q2rk1/pp5r/2p5/3pQ3/3Pn3/4PN2/PP4P1/2R1R1K1 b - - 6 41\"]\r\n\r\n{Enfermer la dame adverse au bord de l'échiquier est une chose, mais un vrai joueur d'échecs sait également enfermer une dame au milieu du plateau ! A vous de jouer...}\r\n41...Rf5\r\n    {[%wrong Ce coup n'enferme pas la dame noire. Cherchez encore !][%hint Trouvez un coup attaquant la dame noir et ne lui laissant aucune issue.] Cela paraît incroyable, et pourtant... La puissante dame adverse est bel et bien coincée en plein centre de l'échiquier ! Bien joué !}\r\n    (41...Re8 $6 42.Qf4 {Ce coup permet à la dame de survivre encore quelques coups. Trouvez mieux !})\r\n    (41...Qf5 $2 42.Qxf5 {Rappel : Il est inutile d'essayer d'enfermer une pièce adverse avec une pièce de même valeur. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5k2/pp4pp/4pp2/1P6/8/P3P3/5PPb/2B2K2 w - - 0 29\"]\r\n\r\n{Les noirs viennent de \"manger\" le pion h2, mais celui-ci était empoisonné ! Enfermez le fou adverse.}\r\n29.g3\r\n    {[%wrong Ce coup n'empêche pas le fou noir de s'échapper. Essayez encore !][%hint Comment fermer la diagonale du fou pour qu'il ne puisse plus battre en retraite ?]}\r\n    (29.f4 $2 Bg3 {Bien essayé, mais ce coup permet au fou de s'échapper. Trouvez mieux !})\r\n29...h5\r\n    {Bien joué ! Le fou noir est enfermé, mais son camp lui envoie l'aide du pion h. Ne perdons pas de temps et attaquons la pièce enfermée !}\r\n30.Kg2\r\n    {[%wrong Ce coup n'attaque pas le fou noir. Essayez encore !][%hint Quelle pièce peut attaquer le fou noir ?]}\r\n30...h4\r\n    {Et voilà ! Le fou noir n'a plus d'échappatoire. Il aurait dû, avant d'être capturé, prendre le pion g3 pour récupérer au moins un pion de plus... Tant pis pour lui !}\r\n31.Kxh2\r\n    {[%wrong Non, il faut maintenant prendre le fou !][%hint Prenez le fou !] Et voilà ! La pièce enfermée est capturée !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/p3ppp1/3p3p/1pp5/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1\"]\r\n\r\n{Les noirs viennent de jouer c5 avec l'idée c4 au prochain coup, enfermant le fou blanc. Comment parer cette menace ?}\r\n1.Bd5\r\n    {[%wrong Bien essayé, mais il existe un coup bien plus fort !][%hint Comment échapper à l'enfermement tout en attaquant une pièce noire déjà enfermée ?] Bien joué ! Le fou blanc échappe à la menace adverse et attaque maintenant la tour a8, qui sera capturée au prochain coup.}\r\n    (1.a4 $6 {Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !})\r\n    (1.a3 {Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !})\r\n    (1.c3 {Ce n'est pas une mauvaise idée, mais il existe un coup bien plus fort. Trouvez-le !})\r\n    (1.c4 {Ce coup pare en effet la menace, mais il obstrue la meilleure diagonale du fou. Trouvez mieux !})\r\n    (1.Bxf7+ $2 Kxf7 {Pas besoin de paniquer ! Il existe un coup bien plus fort. Trouvez-le !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Piéger une pièce adverse peut vous rapporter du matériel.",
+    "outroText": "Vous avez trouvé de jolis coups. Bien joué !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "1b30b6ee-83ab-11e8-8706-1fd556f4ea96",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/trapped-piece5e5f5e6136a8b.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/trapped-piece-566885557bcebb.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/trapped-piece-15ea2421b19c1e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/trapped-piece-260300f2db90bb.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 65,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

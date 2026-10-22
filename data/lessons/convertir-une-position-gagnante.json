@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/convertir-une-position-gagnante",
+  "capturedAt": "2026-10-22T12:23:47.036Z",
+  "title": "Convertir une position gagnante",
+  "exercises": [
+    {
+      "fen": "r3kr2/4q2p/p1pp2pn/4P3/1p2P3/7Q/PPP3PP/RN3RK1 w - - 0 21",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette partie entre grand-maîtres, les blancs ont un pion de plus et leur roi est en sécurité. Les noirs, eux, ont un très mauvais cavalier en h6. Choisissez votre prochain coup parmi ces trois options : Txf8+, Cd2, ou Dxh6.",
+        "[%wrong Choisissez votre prochain coup parmi ces trois options : Txf8+, Cd2, ou Dxh6.][%hint S'il est possible de prendre le cavalier sans tomber dans un piège, parfait. Si ce n'est pas le cas, alors il est sans doute plus solide d'échanger les tours et de terminer le développement.]",
+        "Continuer le développement, connecter les tours et menacer de prendre le cavalier noir ? C'est une excellente idée ! Trouvez maintenant la seconde bonne réponse en choisissant entre Txf8+ et Dxh6.",
+        "Oups ! Ce coup permet aux noirs de mater en force ! Nous verrons comment dans le prochain exercice. Trouvez un meilleur coup !",
+        "Très bien ! Les blancs forcent la dame noire à revenir sur la huitième rangée pour protéger son cavalier. Comment terminer le développement et préparer Tf1 ?",
+        "[%wrong Ce coup ne développe pas le cavalier sur une case sure. Cherchez encore !][%hint Où développer le cavalier ?]",
+        "Les noirs menacent ...Dd4+ suivi de ...Dxb2. Les blancs ne sont plus gagnants, et doivent même faire très attention. Cherchez un meilleur coup !",
+        "Ce coup est certes jouable, mais les noirs ont de bonnes chances de tenir la nulle dans cette variante. Terminez votre développement pour pouvoir jouer Tf1.",
+        "Bonne décision! Les noirs, imprudents, prennent le pion e5. Tf1 est toujours une idée intéressante, mais le dernier coup des noirs nous offre un échec encore plus fort. Trouvez-le !",
+        "[%wrong Non, ce n'est pas l'échec que nous cherchons !][%hint Trouvez un échec attaquant à la fois les pions c5 et e5.] Bien joué ! Les blancs s'apprêtent à jouer le puissant Dxc6. Voyons maintenant ce qui s'est passé dans la vraie partie !",
+        "Excellent coup ! Les blancs terminent leur développement et obtiennent une position écrasante. Trouvez maintenant l'échec qui détruit encore plus sûrement la position noire."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3kr2/4q2p/p1pp2pn/4P3/1p2P3/7Q/PPP3PP/RN3RK1 w - - 0 21\"]\r\n\r\n{Dans cette partie entre grand-maîtres, les blancs ont un pion de plus et leur roi est en sécurité. Les noirs, eux, ont un très mauvais cavalier en h6. Choisissez votre prochain coup parmi ces trois options : Txf8+, Cd2, ou Dxh6.}\r\n21.Rxf8+\r\n    {[%wrong Choisissez votre prochain coup parmi ces trois options : Txf8+, Cd2, ou Dxh6.][%hint S'il est possible de prendre le cavalier sans tomber dans un piège, parfait. Si ce n'est pas le cas, alors il est sans doute plus solide d'échanger les tours et de terminer le développement.]}\r\n    (21.Nd2 $5 {Continuer le développement, connecter les tours et menacer de prendre le cavalier noir ? C'est une excellente idée ! Trouvez maintenant la seconde bonne réponse en choisissant entre Txf8+ et Dxh6.})\r\n    (21.Qxh6 $2 {Oups ! Ce coup permet aux noirs de mater en force ! Nous verrons comment dans le prochain exercice. Trouvez un meilleur coup !})\r\n21...Qxf8\r\n    {Très bien ! Les blancs forcent la dame noire à revenir sur la huitième rangée pour protéger son cavalier. Comment terminer le développement et préparer Tf1 ?}\r\n22.Nd2\r\n    {[%wrong Ce coup ne développe pas le cavalier sur une case sure. Cherchez encore !][%hint Où développer le cavalier ?]}\r\n    (22.exd6 $2 Qxd6 {Les noirs menacent ...Dd4+ suivi de ...Dxb2. Les blancs ne sont plus gagnants, et doivent même faire très attention. Cherchez un meilleur coup !})\r\n    (22.Qe6+ $2 Qe7 {Ce coup est certes jouable, mais les noirs ont de bonnes chances de tenir la nulle dans cette variante. Terminez votre développement pour pouvoir jouer Tf1.})\r\n22...dxe5\r\n    {Bonne décision! Les noirs, imprudents, prennent le pion e5. Tf1 est toujours une idée intéressante, mais le dernier coup des noirs nous offre un échec encore plus fort. Trouvez-le !}\r\n23.Qe6+\r\n    {[%wrong Non, ce n'est pas l'échec que nous cherchons !][%hint Trouvez un échec attaquant à la fois les pions c5 et e5.] Bien joué ! Les blancs s'apprêtent à jouer le puissant Dxc6. Voyons maintenant ce qui s'est passé dans la vraie partie !}\r\n    (23.Rf1 $5 {Excellent coup ! Les blancs terminent leur développement et obtiennent une position écrasante. Trouvez maintenant l'échec qui détruit encore plus sûrement la position noire.})\r\n*"
+    },
+    {
+      "fen": "r3kr2/4q2p/p1pp2pQ/4P3/1p2P3/8/PPP3PP/RN3RK1 b - - 0 21",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le GMI Matanovic a laissé filé la partie en prenant le cavalier h6. Qu'a-t-il raté ? Trait aux noirs.",
+        "[%wrong Bien essayé, mais il va falloir trouvé un coup plus tranchant sous peine de voir les blancs gagner. Cherchez encore !][%hint Les blancs ont négligé un échec surprenant sur la diagonale g1-a7...]",
+        "Le roi est légèrement exposé, mais il n'y pas de gain forcé dans cette variante. Les blancs vont terminer leur développement en quelques coups et obtenir une position gagnante. Cherchez encore !",
+        "Le GMI Donner réussit le casse du siècle ! C'est désormais mat en deux. A vous !",
+        "[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?] Et voilà ! Les noirs vont mater au prochain coup. Excellente vision tactique !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3kr2/4q2p/p1pp2pQ/4P3/1p2P3/8/PPP3PP/RN3RK1 b - - 0 21\"]\r\n\r\n{Le GMI Matanovic a laissé filé la partie en prenant le cavalier h6. Qu'a-t-il raté ? Trait aux noirs.}\r\n21...Qa7+\r\n    {[%wrong Bien essayé, mais il va falloir trouvé un coup plus tranchant sous peine de voir les blancs gagner. Cherchez encore !][%hint Les blancs ont négligé un échec surprenant sur la diagonale g1-a7...]}\r\n    (21...Rxf1+ $2 22.Kxf1 {Le roi est légèrement exposé, mais il n'y pas de gain forcé dans cette variante. Les blancs vont terminer leur développement en quelques coups et obtenir une position gagnante. Cherchez encore !})\r\n22.Rf2\r\n    {Le GMI Donner réussit le casse du siècle ! C'est désormais mat en deux. A vous !}\r\n22...Qxf2+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?] Et voilà ! Les noirs vont mater au prochain coup. Excellente vision tactique !}\r\n*"
+    },
+    {
+      "fen": "1k6/2q2p2/5p2/KP3P1p/P2Q3P/8/8/8 w - - 4 45",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs viennent de donner un échec désespéré. Comment répondre en combinant l'attaque et la défense ? Choisissez judicieusement !",
+        "[%hint Un des deux coups défensifs gagne, l'autre non. Choisissez judicieusement !]",
+        "Bien vu ! Cette idée gagne également, mais plus difficilement.",
+        "Bien essayé, mais les noirs peuvent forcer la répétition. Trouvez mieux !",
+        "Incroyable, mais vrai : ce coup est une gaffe, car les noirs peuvent désormais forcer la nulle. Nous verrons comment dans l'exercice suivant. Quelle est l'autre manière d'attaquer la dame noire tout en parant l'échec ?",
+        "Excellent choix ! Les noirs tentent de nous tendre un dernier piège. Ne vous laissez pas surprendre !",
+        "[%wrong Oups ! Vous perdez la dame. Cherchez encore !][%hint L'échange de dames est forcé, entrez dans la finale de pions !]",
+        "Parfait ! Et maintenant, comment assurer la victoire blanche dans cette finale ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort assurant la victoire. Attention au pion passé des noirs !][%hint Les noirs ne peuvent nous piéger qu'avec leur pion passé e. Marquez-le à la culotte !]",
+        "Ce coup gagne la finale, bien joué ! Trouvez maintenant l'autre coup de roi gagnant.",
+        "Oups ! Vous avez laissé filé le dernier atout des noirs, et la position est maintenant perdante ! Trouvez un coup de roi assurant la victoire.",
+        "Ce coup gagne également, mais au prix d'une finale plus complexe. Trouvez un moyen plus simple de l'emporter en rapprochant votre roi du pion passé noir.",
+        "Et voilà ! Comment convertir cette position gagnante ?",
+        "[%wrong Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?][%hint Les derniers espoirs des noirs reposent sur le pion passé e. Comment le stopper dans son élan ?] Dans les finales, la patience est primordiale ! Les blancs vont maintenant s'emparer du pion passé, et le roi noir va être rapidement débordé par nos forts pions.",
+        "Ce coup gagne la finale, bien joué ! Trouvé maintenant l'autre coup de roi gagnant.",
+        "Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?",
+        "Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?",
+        "Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/2q2p2/5p2/KP3P1p/P2Q3P/8/8/8 w - - 4 45\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de donner un échec désespéré. Comment répondre en combinant l'attaque et la défense ? Choisissez judicieusement !}\r\n45.b6\r\n    {[%hint Un des deux coups défensifs gagne, l'autre non. Choisissez judicieusement !]}\r\n    (45.Kb4 $5 Qe7+ {Bien vu ! Cette idée gagne également, mais plus difficilement.})\r\n    (45.Ka6 $6 Qb7+ {Bien essayé, mais les noirs peuvent forcer la répétition. Trouvez mieux !})\r\n    (45.Qb6+ $2 {Incroyable, mais vrai : ce coup est une gaffe, car les noirs peuvent désormais forcer la nulle. Nous verrons comment dans l'exercice suivant. Quelle est l'autre manière d'attaquer la dame noire tout en parant l'échec ?})\r\n45...Qe5+\r\n    {Excellent choix ! Les noirs tentent de nous tendre un dernier piège. Ne vous laissez pas surprendre !}\r\n46.Qxe5+\r\n    {[%wrong Oups ! Vous perdez la dame. Cherchez encore !][%hint L'échange de dames est forcé, entrez dans la finale de pions !]}\r\n46...fxe5\r\n    {Parfait ! Et maintenant, comment assurer la victoire blanche dans cette finale ?}\r\n47.Kb5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort assurant la victoire. Attention au pion passé des noirs !][%hint Les noirs ne peuvent nous piéger qu'avec leur pion passé e. Marquez-le à la culotte !]}\r\n    (47.Kb4 $5 {Ce coup gagne la finale, bien joué ! Trouvez maintenant l'autre coup de roi gagnant.})\r\n    (47.Ka6 $2 e4 {Oups ! Vous avez laissé filé le dernier atout des noirs, et la position est maintenant perdante ! Trouvez un coup de roi assurant la victoire.})\r\n    (47.f6 $5 {Ce coup gagne également, mais au prix d'une finale plus complexe. Trouvez un moyen plus simple de l'emporter en rapprochant votre roi du pion passé noir.})\r\n47...e4\r\n    {Et voilà ! Comment convertir cette position gagnante ?}\r\n48.Kc4\r\n    {[%wrong Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?][%hint Les derniers espoirs des noirs reposent sur le pion passé e. Comment le stopper dans son élan ?] Dans les finales, la patience est primordiale ! Les blancs vont maintenant s'emparer du pion passé, et le roi noir va être rapidement débordé par nos forts pions.}\r\n    (48.Kb4 $5 {Ce coup gagne la finale, bien joué ! Trouvé maintenant l'autre coup de roi gagnant.})\r\n    (48.a5 $2 e3 {Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?})\r\n    (48.Kc6 $2 e3 {Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?})\r\n    (48.Kc5 $2 e3 {Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?})\r\n*"
+    },
+    {
+      "fen": "1k6/2q2p2/1Q3p2/KP3P1p/P6P/8/8/8 b - - 5 45",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le candidat au titre mondial Mikhail Tchigorine devait s'attendre à voir les noirs abandonner, et pourtant... Trouvez le coup malin qui force la nulle !",
+        "[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Quand il n'y a plus aucun espoir, il reste le pat !]",
+        " Bravo, vous avez trouvé le piège diabolique du grand-maître Schlechter ! Les blancs refusent évidemment de prendre la dame pour éviter le pat. Trouvez la suite calculée par les noirs !",
+        "[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Comment forcer le roi blanc à revenir en a5 ?]",
+        "Et voilà ! Trouvez maintenant l'incroyable sacrifice de dame joué dans la partie.",
+        "[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Sacrifiez votre dame pour forcer le pat !] Bien vu ! Les blancs ne peuvent plus rien faire, et les joueurs se serrent la main : Partie nulle. Les noirs s'en sortent bien !",
+        "Oups, les blancs font échec et gagnent ! Cherchez encore.!",
+        "Bien vu ! Ce coup force également la nulle par répétition. Trouvez maintenant le sacrifice de dame joué dans la partie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/2q2p2/1Q3p2/KP3P1p/P6P/8/8/8 b - - 5 45\"]\r\n\r\n{Le candidat au titre mondial Mikhail Tchigorine devait s'attendre à voir les noirs abandonner, et pourtant... Trouvez le coup malin qui force la nulle !} \r\n45...Ka8 \r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Quand il n'y a plus aucun espoir, il reste le pat !]}\r\n46.Ka6 \r\n    { Bravo, vous avez trouvé le piège diabolique du grand-maître Schlechter ! Les blancs refusent évidemment de prendre la dame pour éviter le pat. Trouvez la suite calculée par les noirs !}\r\n46...Qc8+ \r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Comment forcer le roi blanc à revenir en a5 ?]}\r\n47.Ka5 \r\n    {Et voilà ! Trouvez maintenant l'incroyable sacrifice de dame joué dans la partie.}\r\n47...Qc7 \r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Sacrifiez votre dame pour forcer le pat !] Bien vu ! Les blancs ne peuvent plus rien faire, et les joueurs se serrent la main : Partie nulle. Les noirs s'en sortent bien !}\r\n    ( 47...Qd8 $2 48.Qxd8+ {Oups, les blancs font échec et gagnent ! Cherchez encore.!})\r\n    ( 47...Qc3+ $5 {Bien vu ! Ce coup force également la nulle par répétition. Trouvez maintenant le sacrifice de dame joué dans la partie !})\r\n*"
+    },
+    {
+      "fen": "Q7/pp1nkp2/2pp2p1/8/3q1r2/7R/PPP3PP/4R2K b - - 1 29",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs, conduits par le tout premier champion du monde de l'histoire, Wilhelm Steinitz, sont dans une position perdante. Tendons un dernier piège en jouant le coup ...Te4.",
+        "[%wrong Jouez le coup de Steinitz, 29...Te4.][%hint Jouez votre tour en e4.]",
+        "Zukertort pourrait l'emporter en protégeant simplement sa première rangée par Tf1 ou Tg1, mais il choisit d'échanger du matériel pour gagner plus simplement. Prouvons-lui qu'il a tort !",
+        "[%wrong Oups ! Ce coup perd la dame. Cherchez encore !][%hint Trouvez le seul coup qui ne perd pas.]",
+        "Bien joué. Zukertort a prévu de couvrir sa dernière rangée grâce à la diagonale g1-a7. Comment assurer la victoire noire ?",
+        "[%wrong Ce coup ne bloque pas la diagonale g1-a7. Cherchez encore !][%hint Comment bloquer la digonale g7-a7 tout en empêchant les blancs de mettre leur dame en a5 ?] Superbe ! Dans cette position, Zukertort a tout simplement abandonné, car il ne peut plus empêcher le mat sans donner une large portion de son matériel.",
+        "Ce coup est également gagnant, mais il existe un moyen plus fort de bloquer la diagonale g1-a7 tout en couvrant la case a5. Trouvez-le !",
+        "L'idée est bonne, mais dans cette variante, les noirs ont beaucoup de mal à l'emporter. Trouvez un moyen de bloquer la diagonale g1-a7 tout en couvrant la case a5.",
+        "Bien essayé, mais les noirs ne sont plus gagnants ! Cherchez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"Q7/pp1nkp2/2pp2p1/8/3q1r2/7R/PPP3PP/4R2K b - - 1 29\"]\r\n\r\n{Les noirs, conduits par le tout premier champion du monde de l'histoire, Wilhelm Steinitz, sont dans une position perdante. Tendons un dernier piège en jouant le coup ...Te4.} \r\n29...Re4 \r\n    {[%wrong Jouez le coup de Steinitz, 29...Te4.][%hint Jouez votre tour en e4.]}\r\n30.Rxe4+ \r\n    {Zukertort pourrait l'emporter en protégeant simplement sa première rangée par Tf1 ou Tg1, mais il choisit d'échanger du matériel pour gagner plus simplement. Prouvons-lui qu'il a tort !}\r\n30...Qxe4 \r\n    {[%wrong Oups ! Ce coup perd la dame. Cherchez encore !][%hint Trouvez le seul coup qui ne perd pas.]}\r\n31.Qxa7 \r\n    {Bien joué. Zukertort a prévu de couvrir sa dernière rangée grâce à la diagonale g1-a7. Comment assurer la victoire noire ?}\r\n31...b6 \r\n    {[%wrong Ce coup ne bloque pas la diagonale g1-a7. Cherchez encore !][%hint Comment bloquer la digonale g7-a7 tout en empêchant les blancs de mettre leur dame en a5 ?] Superbe ! Dans cette position, Zukertort a tout simplement abandonné, car il ne peut plus empêcher le mat sans donner une large portion de son matériel.}\r\n    ( 31...Nc5 $6 32.Qa5 {Ce coup est également gagnant, mais il existe un moyen plus fort de bloquer la diagonale g1-a7 tout en couvrant la case a5. Trouvez-le !})\r\n    ( 31...c5 $2 32.Qa5 {L'idée est bonne, mais dans cette variante, les noirs ont beaucoup de mal à l'emporter. Trouvez un moyen de bloquer la diagonale g1-a7 tout en couvrant la case a5.})\r\n    ( 31...Qxc2 $2 32.Re3+ {Bien essayé, mais les noirs ne sont plus gagnants ! Cherchez encore.})\r\n*"
+    },
+    {
+      "fen": "6k1/1pp3pp/8/3Pp1r1/1P6/1Q5P/r4qPK/1R4R1 w - - 4 28",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs viennent de jouer ...Txa2 et s'attendent à voir leur adversaire abandonner. Trouvez la superbe ressource forçant le roi noir à se rendre en h8 !",
+        "[%wrong Ce coup n'est pas assez tranchant. Trouvez un échec !][%hint Quel est le seul échec des blancs dans cette position ?]",
+        "Bien joué ! Le roi noir doit se rendre en h8 sous peine de perdre sa dame. Notez qu'il est maintenant acculé sur sa dernière rangée. Trouvez une prise surprenante profitant de cette faiblesse !",
+        "[%wrong Nous cherchons un coup de dame gagnant. Essayez encore !][%hint Les noirs menacent mat. Comment sacrifier votre dame pour l'empêcher tout en préparant une attaque sur la dernière rangée ?]",
+        "N'oublions pas l'attaque de mat adverse... Cherchez encore !",
+        "N'oublions pas l'attaque de mat adverse... Cherchez encore !",
+        "Ce coup protège notre roi, mais renonce également à toute chance de victoire. Trouvez mieux !",
+        "Beau boulot ! Les noirs ne menacent plus mat. Jouons maintenant une forte capture du pion pour menacer de filer à dame !",
+        "[%wrong Ce coup ne capture pas un pion noir en menaçant de faire dame au prochain coup. Cherchez encore.][%hint Comment prendre un pion noir tout en menaçant de promouvoir le notre au prochain coup ?]",
+        "Bien essayé, mais il ne faut surtout pas bloquer la colonne d. Cherchez encore !",
+        "Bien essayé, mais les noirs vont pouvoir défendre la dernière rangée à temps et survivre à notre attaque. Cherchez encore !",
+        "Et maintenant, convertissez la position en trouvant le seul coup gagnant !",
+        "[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Comment menacer le mat du couloir sans laisser de contre-jeu aux noirs ?]",
+        "Bien essayé, mais une fois que les noirs auront pris la tour c1, nous ne pourrons échapper à l'échec perpétuel. Cherchez encore !",
+        "Bien essayé, mais n'oubliez pas les ressources noires !",
+        "Bien essayé, mais les noirs parviennent à défendre leur dernière rangée à temps,, et leur avantage matériel devrait décider. Cherchez un meilleur coup !",
+        "Bien essayé, mais n'oubliez pas les ressources noires !",
+        "Un coup puissant ! Les noirs doivent absolument défendre la dernière rangée. Gagnez la partie en force !",
+        "[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Préparez la promotion du pion en attaquant la dernière rangée !]",
+        "Joliment fait ! Plus qu'un coup pour assurer la victoire !",
+        "[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Récupérons la dame que nous avons sacrifié plus tôt !] Bravo ! Vous vous êtes sorti d'une position très compliquée pour remporter la victoire !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1pp3pp/8/3Pp1r1/1P6/1Q5P/r4qPK/1R4R1 w - - 4 28\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de jouer ...Txa2 et s'attendent à voir leur adversaire abandonner. Trouvez la superbe ressource forçant le roi noir à se rendre en h8 !}\r\n28.d6+\r\n    {[%wrong Ce coup n'est pas assez tranchant. Trouvez un échec !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n28...Kh8\r\n    {Bien joué ! Le roi noir doit se rendre en h8 sous peine de perdre sa dame. Notez qu'il est maintenant acculé sur sa dernière rangée. Trouvez une prise surprenante profitant de cette faiblesse !}\r\n29.Qxa2\r\n    {[%wrong Nous cherchons un coup de dame gagnant. Essayez encore !][%hint Les noirs menacent mat. Comment sacrifier votre dame pour l'empêcher tout en préparant une attaque sur la dernière rangée ?]}\r\n    (29.dxc7 $2 Rxg2+ {N'oublions pas l'attaque de mat adverse... Cherchez encore !})\r\n    (29.d7 $2 Rxg2+ {N'oublions pas l'attaque de mat adverse... Cherchez encore !})\r\n    (29.Qd5 $2 cxd6 {Ce coup protège notre roi, mais renonce également à toute chance de victoire. Trouvez mieux !})\r\n29...Qxa2\r\n    {Beau boulot ! Les noirs ne menacent plus mat. Jouons maintenant une forte capture du pion pour menacer de filer à dame !}\r\n30.dxc7\r\n    {[%wrong Ce coup ne capture pas un pion noir en menaçant de faire dame au prochain coup. Cherchez encore.][%hint Comment prendre un pion noir tout en menaçant de promouvoir le notre au prochain coup ?]}\r\n    (30.d7 $2 Qg8 {Bien essayé, mais il ne faut surtout pas bloquer la colonne d. Cherchez encore !})\r\n    (30.Ra1 $2 Qg8 {Bien essayé, mais les noirs vont pouvoir défendre la dernière rangée à temps et survivre à notre attaque. Cherchez encore !})\r\n30...Qc2\r\n    {Et maintenant, convertissez la position en trouvant le seul coup gagnant !}\r\n31.Ra1\r\n    {[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Comment menacer le mat du couloir sans laisser de contre-jeu aux noirs ?]}\r\n    (31.Rbc1 $2 Rxg2+ {Bien essayé, mais une fois que les noirs auront pris la tour c1, nous ne pourrons échapper à l'échec perpétuel. Cherchez encore !})\r\n    (31.Rgc1 $2 Qxg2# {Bien essayé, mais n'oubliez pas les ressources noires !})\r\n    (31.Rbf1 $2 Kg8 {Bien essayé, mais les noirs parviennent à défendre leur dernière rangée à temps,, et leur avantage matériel devrait décider. Cherchez un meilleur coup !})\r\n    (31.Rgf1 $2 Qxg2# {Bien essayé, mais n'oubliez pas les ressources noires !})\r\n31...h6\r\n    {Un coup puissant ! Les noirs doivent absolument défendre la dernière rangée. Gagnez la partie en force !}\r\n32.Ra8+\r\n    {[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Préparez la promotion du pion en attaquant la dernière rangée !]}\r\n32...Kh7\r\n    {Joliment fait ! Plus qu'un coup pour assurer la victoire !}\r\n33.c8=Q\r\n    {[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Récupérons la dame que nous avons sacrifié plus tôt !] Bravo ! Vous vous êtes sorti d'une position très compliquée pour remporter la victoire !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "477194ee-9cec-11e8-9589-f32a0f10a250",
+    "name": "Convertir une position gagnante",
+    "path": "convertir-une-position-gagnante",
+    "description": "Lorsque vous avez une position gagnante, il est important de bien visualiser les coups adverses qui pourraient vous embêter. Chercher le contre jeu adverse et simplifier la position dès que possible.",
+    "glyphName": "graph-bars-star",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-winning-the-won-game-f8h.mp4",
+    "fen": "r3kr2/4q2p/p1pp2pn/4P3/1p2P3/7Q/PPP3PP/RN3RK1 w - - 0 21",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3kr2/4q2p/p1pp2pn/4P3/1p2P3/7Q/PPP3PP/RN3RK1 w - - 0 21\"]\r\n\r\n{Dans cette partie entre grand-maîtres, les blancs ont un pion de plus et leur roi est en sécurité. Les noirs, eux, ont un très mauvais cavalier en h6. Choisissez votre prochain coup parmi ces trois options : Txf8+, Cd2, ou Dxh6.}\r\n21.Rxf8+\r\n    {[%wrong Choisissez votre prochain coup parmi ces trois options : Txf8+, Cd2, ou Dxh6.][%hint S'il est possible de prendre le cavalier sans tomber dans un piège, parfait. Si ce n'est pas le cas, alors il est sans doute plus solide d'échanger les tours et de terminer le développement.]}\r\n    (21.Nd2 $5 {Continuer le développement, connecter les tours et menacer de prendre le cavalier noir ? C'est une excellente idée ! Trouvez maintenant la seconde bonne réponse en choisissant entre Txf8+ et Dxh6.})\r\n    (21.Qxh6 $2 {Oups ! Ce coup permet aux noirs de mater en force ! Nous verrons comment dans le prochain exercice. Trouvez un meilleur coup !})\r\n21...Qxf8\r\n    {Très bien ! Les blancs forcent la dame noire à revenir sur la huitième rangée pour protéger son cavalier. Comment terminer le développement et préparer Tf1 ?}\r\n22.Nd2\r\n    {[%wrong Ce coup ne développe pas le cavalier sur une case sure. Cherchez encore !][%hint Où développer le cavalier ?]}\r\n    (22.exd6 $2 Qxd6 {Les noirs menacent ...Dd4+ suivi de ...Dxb2. Les blancs ne sont plus gagnants, et doivent même faire très attention. Cherchez un meilleur coup !})\r\n    (22.Qe6+ $2 Qe7 {Ce coup est certes jouable, mais les noirs ont de bonnes chances de tenir la nulle dans cette variante. Terminez votre développement pour pouvoir jouer Tf1.})\r\n22...dxe5\r\n    {Bonne décision! Les noirs, imprudents, prennent le pion e5. Tf1 est toujours une idée intéressante, mais le dernier coup des noirs nous offre un échec encore plus fort. Trouvez-le !}\r\n23.Qe6+\r\n    {[%wrong Non, ce n'est pas l'échec que nous cherchons !][%hint Trouvez un échec attaquant à la fois les pions c5 et e5.] Bien joué ! Les blancs s'apprêtent à jouer le puissant Dxc6. Voyons maintenant ce qui s'est passé dans la vraie partie !}\r\n    (23.Rf1 $5 {Excellent coup ! Les blancs terminent leur développement et obtiennent une position écrasante. Trouvez maintenant l'échec qui détruit encore plus sûrement la position noire.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r3kr2/4q2p/p1pp2pQ/4P3/1p2P3/8/PPP3PP/RN3RK1 b - - 0 21\"]\r\n\r\n{Le GMI Matanovic a laissé filé la partie en prenant le cavalier h6. Qu'a-t-il raté ? Trait aux noirs.}\r\n21...Qa7+\r\n    {[%wrong Bien essayé, mais il va falloir trouvé un coup plus tranchant sous peine de voir les blancs gagner. Cherchez encore !][%hint Les blancs ont négligé un échec surprenant sur la diagonale g1-a7...]}\r\n    (21...Rxf1+ $2 22.Kxf1 {Le roi est légèrement exposé, mais il n'y pas de gain forcé dans cette variante. Les blancs vont terminer leur développement en quelques coups et obtenir une position gagnante. Cherchez encore !})\r\n22.Rf2\r\n    {Le GMI Donner réussit le casse du siècle ! C'est désormais mat en deux. A vous !}\r\n22...Qxf2+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Cherchez encore !][%hint Quel est le seul échec des noirs dans cette position ?] Et voilà ! Les noirs vont mater au prochain coup. Excellente vision tactique !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/2q2p2/5p2/KP3P1p/P2Q3P/8/8/8 w - - 4 45\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de donner un échec désespéré. Comment répondre en combinant l'attaque et la défense ? Choisissez judicieusement !}\r\n45.b6\r\n    {[%hint Un des deux coups défensifs gagne, l'autre non. Choisissez judicieusement !]}\r\n    (45.Kb4 $5 Qe7+ {Bien vu ! Cette idée gagne également, mais plus difficilement.})\r\n    (45.Ka6 $6 Qb7+ {Bien essayé, mais les noirs peuvent forcer la répétition. Trouvez mieux !})\r\n    (45.Qb6+ $2 {Incroyable, mais vrai : ce coup est une gaffe, car les noirs peuvent désormais forcer la nulle. Nous verrons comment dans l'exercice suivant. Quelle est l'autre manière d'attaquer la dame noire tout en parant l'échec ?})\r\n45...Qe5+\r\n    {Excellent choix ! Les noirs tentent de nous tendre un dernier piège. Ne vous laissez pas surprendre !}\r\n46.Qxe5+\r\n    {[%wrong Oups ! Vous perdez la dame. Cherchez encore !][%hint L'échange de dames est forcé, entrez dans la finale de pions !]}\r\n46...fxe5\r\n    {Parfait ! Et maintenant, comment assurer la victoire blanche dans cette finale ?}\r\n47.Kb5\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort assurant la victoire. Attention au pion passé des noirs !][%hint Les noirs ne peuvent nous piéger qu'avec leur pion passé e. Marquez-le à la culotte !]}\r\n    (47.Kb4 $5 {Ce coup gagne la finale, bien joué ! Trouvez maintenant l'autre coup de roi gagnant.})\r\n    (47.Ka6 $2 e4 {Oups ! Vous avez laissé filé le dernier atout des noirs, et la position est maintenant perdante ! Trouvez un coup de roi assurant la victoire.})\r\n    (47.f6 $5 {Ce coup gagne également, mais au prix d'une finale plus complexe. Trouvez un moyen plus simple de l'emporter en rapprochant votre roi du pion passé noir.})\r\n47...e4\r\n    {Et voilà ! Comment convertir cette position gagnante ?}\r\n48.Kc4\r\n    {[%wrong Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?][%hint Les derniers espoirs des noirs reposent sur le pion passé e. Comment le stopper dans son élan ?] Dans les finales, la patience est primordiale ! Les blancs vont maintenant s'emparer du pion passé, et le roi noir va être rapidement débordé par nos forts pions.}\r\n    (48.Kb4 $5 {Ce coup gagne la finale, bien joué ! Trouvé maintenant l'autre coup de roi gagnant.})\r\n    (48.a5 $2 e3 {Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?})\r\n    (48.Kc6 $2 e3 {Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?})\r\n    (48.Kc5 $2 e3 {Bien essayé, mais les noirs vont promouvoir leur pion en premier et obtenir une position gagnante. Comment empêcher le pion e de filer à dame ?})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/2q2p2/1Q3p2/KP3P1p/P6P/8/8/8 b - - 5 45\"]\r\n\r\n{Le candidat au titre mondial Mikhail Tchigorine devait s'attendre à voir les noirs abandonner, et pourtant... Trouvez le coup malin qui force la nulle !} \r\n45...Ka8 \r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Quand il n'y a plus aucun espoir, il reste le pat !]}\r\n46.Ka6 \r\n    { Bravo, vous avez trouvé le piège diabolique du grand-maître Schlechter ! Les blancs refusent évidemment de prendre la dame pour éviter le pat. Trouvez la suite calculée par les noirs !}\r\n46...Qc8+ \r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Comment forcer le roi blanc à revenir en a5 ?]}\r\n47.Ka5 \r\n    {Et voilà ! Trouvez maintenant l'incroyable sacrifice de dame joué dans la partie.}\r\n47...Qc7 \r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Sacrifiez votre dame pour forcer le pat !] Bien vu ! Les blancs ne peuvent plus rien faire, et les joueurs se serrent la main : Partie nulle. Les noirs s'en sortent bien !}\r\n    ( 47...Qd8 $2 48.Qxd8+ {Oups, les blancs font échec et gagnent ! Cherchez encore.!})\r\n    ( 47...Qc3+ $5 {Bien vu ! Ce coup force également la nulle par répétition. Trouvez maintenant le sacrifice de dame joué dans la partie !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"Q7/pp1nkp2/2pp2p1/8/3q1r2/7R/PPP3PP/4R2K b - - 1 29\"]\r\n\r\n{Les noirs, conduits par le tout premier champion du monde de l'histoire, Wilhelm Steinitz, sont dans une position perdante. Tendons un dernier piège en jouant le coup ...Te4.} \r\n29...Re4 \r\n    {[%wrong Jouez le coup de Steinitz, 29...Te4.][%hint Jouez votre tour en e4.]}\r\n30.Rxe4+ \r\n    {Zukertort pourrait l'emporter en protégeant simplement sa première rangée par Tf1 ou Tg1, mais il choisit d'échanger du matériel pour gagner plus simplement. Prouvons-lui qu'il a tort !}\r\n30...Qxe4 \r\n    {[%wrong Oups ! Ce coup perd la dame. Cherchez encore !][%hint Trouvez le seul coup qui ne perd pas.]}\r\n31.Qxa7 \r\n    {Bien joué. Zukertort a prévu de couvrir sa dernière rangée grâce à la diagonale g1-a7. Comment assurer la victoire noire ?}\r\n31...b6 \r\n    {[%wrong Ce coup ne bloque pas la diagonale g1-a7. Cherchez encore !][%hint Comment bloquer la digonale g7-a7 tout en empêchant les blancs de mettre leur dame en a5 ?] Superbe ! Dans cette position, Zukertort a tout simplement abandonné, car il ne peut plus empêcher le mat sans donner une large portion de son matériel.}\r\n    ( 31...Nc5 $6 32.Qa5 {Ce coup est également gagnant, mais il existe un moyen plus fort de bloquer la diagonale g1-a7 tout en couvrant la case a5. Trouvez-le !})\r\n    ( 31...c5 $2 32.Qa5 {L'idée est bonne, mais dans cette variante, les noirs ont beaucoup de mal à l'emporter. Trouvez un moyen de bloquer la diagonale g1-a7 tout en couvrant la case a5.})\r\n    ( 31...Qxc2 $2 32.Re3+ {Bien essayé, mais les noirs ne sont plus gagnants ! Cherchez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1pp3pp/8/3Pp1r1/1P6/1Q5P/r4qPK/1R4R1 w - - 4 28\"]\r\n\r\n{Trait aux blancs. Les noirs viennent de jouer ...Txa2 et s'attendent à voir leur adversaire abandonner. Trouvez la superbe ressource forçant le roi noir à se rendre en h8 !}\r\n28.d6+\r\n    {[%wrong Ce coup n'est pas assez tranchant. Trouvez un échec !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n28...Kh8\r\n    {Bien joué ! Le roi noir doit se rendre en h8 sous peine de perdre sa dame. Notez qu'il est maintenant acculé sur sa dernière rangée. Trouvez une prise surprenante profitant de cette faiblesse !}\r\n29.Qxa2\r\n    {[%wrong Nous cherchons un coup de dame gagnant. Essayez encore !][%hint Les noirs menacent mat. Comment sacrifier votre dame pour l'empêcher tout en préparant une attaque sur la dernière rangée ?]}\r\n    (29.dxc7 $2 Rxg2+ {N'oublions pas l'attaque de mat adverse... Cherchez encore !})\r\n    (29.d7 $2 Rxg2+ {N'oublions pas l'attaque de mat adverse... Cherchez encore !})\r\n    (29.Qd5 $2 cxd6 {Ce coup protège notre roi, mais renonce également à toute chance de victoire. Trouvez mieux !})\r\n29...Qxa2\r\n    {Beau boulot ! Les noirs ne menacent plus mat. Jouons maintenant une forte capture du pion pour menacer de filer à dame !}\r\n30.dxc7\r\n    {[%wrong Ce coup ne capture pas un pion noir en menaçant de faire dame au prochain coup. Cherchez encore.][%hint Comment prendre un pion noir tout en menaçant de promouvoir le notre au prochain coup ?]}\r\n    (30.d7 $2 Qg8 {Bien essayé, mais il ne faut surtout pas bloquer la colonne d. Cherchez encore !})\r\n    (30.Ra1 $2 Qg8 {Bien essayé, mais les noirs vont pouvoir défendre la dernière rangée à temps et survivre à notre attaque. Cherchez encore !})\r\n30...Qc2\r\n    {Et maintenant, convertissez la position en trouvant le seul coup gagnant !}\r\n31.Ra1\r\n    {[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Comment menacer le mat du couloir sans laisser de contre-jeu aux noirs ?]}\r\n    (31.Rbc1 $2 Rxg2+ {Bien essayé, mais une fois que les noirs auront pris la tour c1, nous ne pourrons échapper à l'échec perpétuel. Cherchez encore !})\r\n    (31.Rgc1 $2 Qxg2# {Bien essayé, mais n'oubliez pas les ressources noires !})\r\n    (31.Rbf1 $2 Kg8 {Bien essayé, mais les noirs parviennent à défendre leur dernière rangée à temps,, et leur avantage matériel devrait décider. Cherchez un meilleur coup !})\r\n    (31.Rgf1 $2 Qxg2# {Bien essayé, mais n'oubliez pas les ressources noires !})\r\n31...h6\r\n    {Un coup puissant ! Les noirs doivent absolument défendre la dernière rangée. Gagnez la partie en force !}\r\n32.Ra8+\r\n    {[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Préparez la promotion du pion en attaquant la dernière rangée !]}\r\n32...Kh7\r\n    {Joliment fait ! Plus qu'un coup pour assurer la victoire !}\r\n33.c8=Q\r\n    {[%wrong Hélas, ce coup perd la partie. Cherchez encore !][%hint Récupérons la dame que nous avons sacrifié plus tôt !] Bravo ! Vous vous êtes sorti d'une position très compliquée pour remporter la victoire !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Adopter une approche positive peut vous aider à convertir votre avantage.",
+    "outroText": "Beau travail ! Vous avez trouvé de jolis gains dans cette leçon.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "8c6284dc-83b5-11e8-a737-2ffd0911c89e",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/winning-the-won-game5d234ce6673e5.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/winning-the-won-game-566886b863474d.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/winning-the-won-game-15ea2401d6365b.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/winning-the-won-game-2603cecd2e07bb.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 100,
+    "order": 7,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

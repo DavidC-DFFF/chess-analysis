@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/echec-a-la-decouverte",
+  "capturedAt": "2026-10-22T12:23:39.621Z",
+  "title": "L'échec à la découverte",
+  "exercises": [
+    {
+      "fen": "1kr5/pp3p2/2p3bp/4R2p/8/2P3BP/PP3PP1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. N'importe quel coup de tour déclenche un échec à la découverte. Mais quel est le meilleur coup ?",
+        "[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Nous sommes à la recherche d'un mat en deux forcé.]",
+        "Ce n'est pas une mauvaise idée, car nous allons gagner deux pions grâce à cet échec à la découverte. Mais il existe également un moyen de forcer le mat !",
+        "Bien joué ! Le roi noir est forcé d'aller dans le coin. Finissez le travail en beauté !",
+        "[%wrong Ce n'est pas mat. Essayez encore !][%hint Mat en un !] Joli !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1kr5/pp3p2/2p3bp/4R2p/8/2P3BP/PP3PP1/6K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. N'importe quel coup de tour déclenche un échec à la découverte. Mais quel est le meilleur coup ?}\r\n1.Re8+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Nous sommes à la recherche d'un mat en deux forcé.]}\r\n    (1.Rxh5+ $6 {Ce n'est pas une mauvaise idée, car nous allons gagner deux pions grâce à cet échec à la découverte. Mais il existe également un moyen de forcer le mat !})\r\n1...Ka8\r\n    {Bien joué ! Le roi noir est forcé d'aller dans le coin. Finissez le travail en beauté !}\r\n2.Rxc8#\r\n    {[%wrong Ce n'est pas mat. Essayez encore !][%hint Mat en un !] Joli !}\r\n*"
+    },
+    {
+      "fen": "r1bqr1k1/p1p2ppp/3b1n2/2P3B1/8/2NQ1N2/PP3PPP/R4RK1 b - - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de prendre un pion en c5, pensant que les noirs allaient reprendre en c5 avec le fou et échanger les dames. Qu'est-ce que les blancs ont oublié ?",
+        "[%wrong Bien essayé mais il existe un coup bien plus fort !][%hint La dame blanche n'est pas protégée et se trouve sur la même colonne que la dame noire - Pouvez-vous l'exploiter ?]",
+        "Les blancs échangent les dames avec une position confortable. Essayez de trouver une option bien plus forte !",
+        "Bien joué ! Les noirs créent une attaque à la découverte et vont gagner la dame adverse !",
+        "[%wrong Il est temps d'encaisser son dû !][%hint Capturez la dame blanche !] Mission accomplie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqr1k1/p1p2ppp/3b1n2/2P3B1/8/2NQ1N2/PP3PPP/R4RK1 b - - 0 14\"]\r\n\r\n{Les blancs viennent de prendre un pion en c5, pensant que les noirs allaient reprendre en c5 avec le fou et échanger les dames. Qu'est-ce que les blancs ont oublié ?}\r\n14...Bxh2+\r\n    {[%wrong Bien essayé mais il existe un coup bien plus fort !][%hint La dame blanche n'est pas protégée et se trouve sur la même colonne que la dame noire - Pouvez-vous l'exploiter ?]}\r\n    (14...Bxc5 $2 15.Qxd8 {Les blancs échangent les dames avec une position confortable. Essayez de trouver une option bien plus forte !})\r\n15.Nxh2\r\n    {Bien joué ! Les noirs créent une attaque à la découverte et vont gagner la dame adverse !}\r\n15...Qxd3\r\n    {[%wrong Il est temps d'encaisser son dû !][%hint Capturez la dame blanche !] Mission accomplie !}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pppp1ppp/2nn4/1B2N3/8/8/PPPP1PPP/RNBQR1K1 b kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer Cxe5 en laissant les noirs prendre le fou en b5. Que faire ?",
+        "[%wrong Ce coup ne résout pas le problème du roi noir vulnérable au centre. Trouvez mieux !][%hint Si les blancs bougent le cavalier e5, il fera un échec à la découverte. Comment préparer le roque qui mettrait notre roi en sécurité ?] Très bien ! Les noirs développent une pièce tout en se préparant à roquer. Ils vont obtenir une position solide et éviter le piège blanc.",
+        "Bien essayé, mais ce coup bloque les pièces noires et le roi est toujours coincé au centre. Y'aurait-il une meilleure pièce à mettre en e7 ?",
+        "Vous avez trouvé un bon coup évitant le piège blanc. Il y a toutefois plus prudent. Trouvez un autre coup préparant le roque en toute sécurité !",
+        "Vous avez raté le piège blanc, qui gagne notre dame. Essayez encore !",
+        "L'échec à la découverte des blancs gagne notre dame ! Trouvez un meilleur coup défensif."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2nn4/1B2N3/8/8/PPPP1PPP/RNBQR1K1 b kq - 0 1\"]\r\n\r\n{Les blancs viennent de jouer Cxe5 en laissant les noirs prendre le fou en b5. Que faire ?}\r\n1...Be7\r\n    {[%wrong Ce coup ne résout pas le problème du roi noir vulnérable au centre. Trouvez mieux !][%hint Si les blancs bougent le cavalier e5, il fera un échec à la découverte. Comment préparer le roque qui mettrait notre roi en sécurité ?] Très bien ! Les noirs développent une pièce tout en se préparant à roquer. Ils vont obtenir une position solide et éviter le piège blanc.}\r\n    (1...Ne7 $2 {Bien essayé, mais ce coup bloque les pièces noires et le roi est toujours coincé au centre. Y'aurait-il une meilleure pièce à mettre en e7 ?})\r\n    (1...Nxe5 $5 2.Rxe5+ {Vous avez trouvé un bon coup évitant le piège blanc. Il y a toutefois plus prudent. Trouvez un autre coup préparant le roque en toute sécurité !})\r\n    (1...Nxb5 $2 2.Nxc6+ {Vous avez raté le piège blanc, qui gagne notre dame. Essayez encore !})\r\n    (1...Nd4 $2 2.Nc6+ {L'échec à la découverte des blancs gagne notre dame ! Trouvez un meilleur coup défensif.})\r\n*"
+    },
+    {
+      "fen": "1r2rk2/1p1bqp2/p1p1pNpp/P7/2P5/6P1/1Q2PPKP/1RR5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame blanche rêve d'aller en h8 pour délivrer le coup de grâce. Pouvez-vous trouver la plus forte découverte pour les blancs ?",
+        "[%wrong Bien essayé mais il existe un coup nettement plus fort !][%hint Pouvez-vous libérer le chemin vers la case h8 pour la dame blanche tout en attaquant une pièce noire très importante ?]",
+        "Bien tenté mais cela ne mène qu'à une répétition de coups après Cf6+. Vous pouvez trouver mieux !",
+        "Cela a l'air fort mais après la prise du cavalier par la dame noire, la case de fuite en e7 se libère pour le roi noir. Essayez encore !",
+        "Excellent ! Le cavalier attaque la dame noire et permet à la dame blanche de délivrer le coup de grâce en h8. Une fois que les noirs ont paré le mat, comment enchainer ?",
+        "[%wrong Il est temps de récolter les fruits de vos efforts.][%hint Pouvez-vous capturer la dame noire ?] Beau travail ! Grâce à cette double menace à la découverte, les blancs ont gagné la dame adverse !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2rk2/1p1bqp2/p1p1pNpp/P7/2P5/6P1/1Q2PPKP/1RR5 w - - 0 1\"]\r\n\r\n{La dame blanche rêve d'aller en h8 pour délivrer le coup de grâce. Pouvez-vous trouver la plus forte découverte pour les blancs ?}\r\n1.Nd5\r\n    {[%wrong Bien essayé mais il existe un coup nettement plus fort !][%hint Pouvez-vous libérer le chemin vers la case h8 pour la dame blanche tout en attaquant une pièce noire très importante ?]}\r\n    (1.Nh7+ $6 Kg8 {Bien tenté mais cela ne mène qu'à une répétition de coups après Cf6+. Vous pouvez trouver mieux !})\r\n    (1.Nxd7+ $6 Qxd7 {Cela a l'air fort mais après la prise du cavalier par la dame noire, la case de fuite en e7 se libère pour le roi noir. Essayez encore !})\r\n1...e5\r\n    {Excellent ! Le cavalier attaque la dame noire et permet à la dame blanche de délivrer le coup de grâce en h8. Une fois que les noirs ont paré le mat, comment enchainer ?}\r\n2.Nxe7\r\n    {[%wrong Il est temps de récolter les fruits de vos efforts.][%hint Pouvez-vous capturer la dame noire ?] Beau travail ! Grâce à cette double menace à la découverte, les blancs ont gagné la dame adverse !}\r\n*"
+    },
+    {
+      "fen": "5r1k/3n1p2/8/4p3/3pP3/3P3K/1rP5/6RR w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une pièce de moins, mais le roi noir n'est pas en sécurité. Les échecs à la découverte à la rescousse !",
+        "[%wrong Ce n'est pas un échec à la découverte. Essayez encore !][%hint Le roi blanc est placé entre son homologue noir et la tour h1. Déplacez-le pour déclencher une attaque à la découverte !]",
+        "Bonne idée, mais le cavalier noir revient juste à temps pour protéger son roi. Essayez encore !",
+        "Bonne idée, mais le cavalier noir revient juste à temps pour protéger son roi. Essayez encore !",
+        "Bien essayé, mais le roi s'échappe via la case f6. Trouvez un meilleur moyen de l'empêcher de fuir !",
+        "Bien essayé, mais le roi s'échappe via la case f6. Trouvez un meilleur moyen de l'empêcher de fuir !",
+        "Quel coup ! Le roi noir tente maintenant de s'enfuir via la case f6. Trouvez l'échec à la découverte gagnant avant qu'il ne soit trop tard !",
+        "[%wrong Ce coup ne mate pas. Essayez encore !][%hint Nous cherchons encore une fois un coup de roi.] Le roi blanc déclenche un échec de sa tour à la découverte, et les noirs sont échec et mat. Bien joué !",
+        "Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !",
+        "Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !",
+        "Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !",
+        "Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r1k/3n1p2/8/4p3/3pP3/3P3K/1rP5/6RR w - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de moins, mais le roi noir n'est pas en sécurité. Les échecs à la découverte à la rescousse !}\r\n1.Kg4+\r\n    {[%wrong Ce n'est pas un échec à la découverte. Essayez encore !][%hint Le roi blanc est placé entre son homologue noir et la tour h1. Déplacez-le pour déclencher une attaque à la découverte !]}\r\n    (1.Rg5 $2 Nf6 {Bonne idée, mais le cavalier noir revient juste à temps pour protéger son roi. Essayez encore !})\r\n    (1.Rg4 $2 Nf6 {Bonne idée, mais le cavalier noir revient juste à temps pour protéger son roi. Essayez encore !})\r\n    (1.Kg3+ $2 Kg7 {Bien essayé, mais le roi s'échappe via la case f6. Trouvez un meilleur moyen de l'empêcher de fuir !})\r\n    (1.Kg2+ $2 Kg7 {Bien essayé, mais le roi s'échappe via la case f6. Trouvez un meilleur moyen de l'empêcher de fuir !})\r\n1...Kg7\r\n    {Quel coup ! Le roi noir tente maintenant de s'enfuir via la case f6. Trouvez l'échec à la découverte gagnant avant qu'il ne soit trop tard !}\r\n2.Kf5#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Nous cherchons encore une fois un coup de roi.] Le roi blanc déclenche un échec de sa tour à la découverte, et les noirs sont échec et mat. Bien joué !}\r\n    (2.Kf3+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n    (2.Kh3+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n    (2.Kh5+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n    (2.Kh4+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "69881294-9cea-11e8-81bc-0b262be74d8e",
+    "name": "L'échec à la découverte",
+    "path": "echec-a-la-decouverte",
+    "description": "L’échec à la découverte est une attaque très puissante. Comme le roi adverse est attaqué, vous obtenez un coup gratuit avec la pièce déplacée pour attaquer ou capturer une pièce adverse pendant qu’il échappe à l’échec.",
+    "glyphName": "local-door-right-plus",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-discovered-check-o0w.mp4",
+    "fen": "1kr5/pp3p2/2pR2bp/7p/8/2P3BP/PP3PP1/6K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1kr5/pp3p2/2p3bp/4R2p/8/2P3BP/PP3PP1/6K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. N'importe quel coup de tour déclenche un échec à la découverte. Mais quel est le meilleur coup ?}\r\n1.Re8+\r\n    {[%wrong Bien essayé, mais il existe un coup beaucoup plus fort. Trouvez-le !][%hint Nous sommes à la recherche d'un mat en deux forcé.]}\r\n    (1.Rxh5+ $6 {Ce n'est pas une mauvaise idée, car nous allons gagner deux pions grâce à cet échec à la découverte. Mais il existe également un moyen de forcer le mat !})\r\n1...Ka8\r\n    {Bien joué ! Le roi noir est forcé d'aller dans le coin. Finissez le travail en beauté !}\r\n2.Rxc8#\r\n    {[%wrong Ce n'est pas mat. Essayez encore !][%hint Mat en un !] Joli !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqr1k1/p1p2ppp/3b1n2/2P3B1/8/2NQ1N2/PP3PPP/R4RK1 b - - 0 14\"]\r\n\r\n{Les blancs viennent de prendre un pion en c5, pensant que les noirs allaient reprendre en c5 avec le fou et échanger les dames. Qu'est-ce que les blancs ont oublié ?}\r\n14...Bxh2+\r\n    {[%wrong Bien essayé mais il existe un coup bien plus fort !][%hint La dame blanche n'est pas protégée et se trouve sur la même colonne que la dame noire - Pouvez-vous l'exploiter ?]}\r\n    (14...Bxc5 $2 15.Qxd8 {Les blancs échangent les dames avec une position confortable. Essayez de trouver une option bien plus forte !})\r\n15.Nxh2\r\n    {Bien joué ! Les noirs créent une attaque à la découverte et vont gagner la dame adverse !}\r\n15...Qxd3\r\n    {[%wrong Il est temps d'encaisser son dû !][%hint Capturez la dame blanche !] Mission accomplie !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pppp1ppp/2nn4/1B2N3/8/8/PPPP1PPP/RNBQR1K1 b kq - 0 1\"]\r\n\r\n{Les blancs viennent de jouer Cxe5 en laissant les noirs prendre le fou en b5. Que faire ?}\r\n1...Be7\r\n    {[%wrong Ce coup ne résout pas le problème du roi noir vulnérable au centre. Trouvez mieux !][%hint Si les blancs bougent le cavalier e5, il fera un échec à la découverte. Comment préparer le roque qui mettrait notre roi en sécurité ?] Très bien ! Les noirs développent une pièce tout en se préparant à roquer. Ils vont obtenir une position solide et éviter le piège blanc.}\r\n    (1...Ne7 $2 {Bien essayé, mais ce coup bloque les pièces noires et le roi est toujours coincé au centre. Y'aurait-il une meilleure pièce à mettre en e7 ?})\r\n    (1...Nxe5 $5 2.Rxe5+ {Vous avez trouvé un bon coup évitant le piège blanc. Il y a toutefois plus prudent. Trouvez un autre coup préparant le roque en toute sécurité !})\r\n    (1...Nxb5 $2 2.Nxc6+ {Vous avez raté le piège blanc, qui gagne notre dame. Essayez encore !})\r\n    (1...Nd4 $2 2.Nc6+ {L'échec à la découverte des blancs gagne notre dame ! Trouvez un meilleur coup défensif.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r2rk2/1p1bqp2/p1p1pNpp/P7/2P5/6P1/1Q2PPKP/1RR5 w - - 0 1\"]\r\n\r\n{La dame blanche rêve d'aller en h8 pour délivrer le coup de grâce. Pouvez-vous trouver la plus forte découverte pour les blancs ?}\r\n1.Nd5\r\n    {[%wrong Bien essayé mais il existe un coup nettement plus fort !][%hint Pouvez-vous libérer le chemin vers la case h8 pour la dame blanche tout en attaquant une pièce noire très importante ?]}\r\n    (1.Nh7+ $6 Kg8 {Bien tenté mais cela ne mène qu'à une répétition de coups après Cf6+. Vous pouvez trouver mieux !})\r\n    (1.Nxd7+ $6 Qxd7 {Cela a l'air fort mais après la prise du cavalier par la dame noire, la case de fuite en e7 se libère pour le roi noir. Essayez encore !})\r\n1...e5\r\n    {Excellent ! Le cavalier attaque la dame noire et permet à la dame blanche de délivrer le coup de grâce en h8. Une fois que les noirs ont paré le mat, comment enchainer ?}\r\n2.Nxe7\r\n    {[%wrong Il est temps de récolter les fruits de vos efforts.][%hint Pouvez-vous capturer la dame noire ?] Beau travail ! Grâce à cette double menace à la découverte, les blancs ont gagné la dame adverse !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r1k/3n1p2/8/4p3/3pP3/3P3K/1rP5/6RR w - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de moins, mais le roi noir n'est pas en sécurité. Les échecs à la découverte à la rescousse !}\r\n1.Kg4+\r\n    {[%wrong Ce n'est pas un échec à la découverte. Essayez encore !][%hint Le roi blanc est placé entre son homologue noir et la tour h1. Déplacez-le pour déclencher une attaque à la découverte !]}\r\n    (1.Rg5 $2 Nf6 {Bonne idée, mais le cavalier noir revient juste à temps pour protéger son roi. Essayez encore !})\r\n    (1.Rg4 $2 Nf6 {Bonne idée, mais le cavalier noir revient juste à temps pour protéger son roi. Essayez encore !})\r\n    (1.Kg3+ $2 Kg7 {Bien essayé, mais le roi s'échappe via la case f6. Trouvez un meilleur moyen de l'empêcher de fuir !})\r\n    (1.Kg2+ $2 Kg7 {Bien essayé, mais le roi s'échappe via la case f6. Trouvez un meilleur moyen de l'empêcher de fuir !})\r\n1...Kg7\r\n    {Quel coup ! Le roi noir tente maintenant de s'enfuir via la case f6. Trouvez l'échec à la découverte gagnant avant qu'il ne soit trop tard !}\r\n2.Kf5#\r\n    {[%wrong Ce coup ne mate pas. Essayez encore !][%hint Nous cherchons encore une fois un coup de roi.] Le roi blanc déclenche un échec de sa tour à la découverte, et les noirs sont échec et mat. Bien joué !}\r\n    (2.Kf3+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n    (2.Kh3+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n    (2.Kh5+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n    (2.Kh4+ $2 Kf6 {Non ! Ce coup permet au roi noir de s'enfuir en f6. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Encore plus dangereux, l'échec à la découverte !",
+    "outroText": "Super. Votre niveau tactique augmente en flèche !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "3bff6ba4-83ab-11e8-839d-5542c95f9b14",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-check603cb7f7395c7.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-check-6667efc25de7a6.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-check-25ea2423296f93.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/discovered-check-3603529131ee69.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 67,
+    "order": 4,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

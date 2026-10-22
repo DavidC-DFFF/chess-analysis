@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-la-partie/le-coup-du-berger",
+  "capturedAt": "2026-10-22T12:23:30.421Z",
+  "title": "Le coup du berger",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p2Q/4P3/8/PPPP1PPP/RNB1KBNR b KQkq - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame blanche entre dans la danse, attaquant le pion noir en e5. Pouvez-vous développer un cavalier pour le protéger ?",
+        "[%wrong Ce coup ne développe pas de cavalier et ne protège pas le pion e5. Essayez encore !][%hint Essaie de protéger le pion e5 avec le cavalier b8.] Bien joué ! Les noirs développent leur cavalier sur une très bonne case et protègent le pion.",
+        "Oups ! Les noirs perdent un pion et la dame blanche fait échec au roi tout en attaquant la tour h8. Essayez de jouer un coup de cavalier pour protéger le pion e5.",
+        "Ce coup attaque la dame et le pion e4, mais les noirs perdent un pion. Essayez avec l'autre cavalier..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p2Q/4P3/8/PPPP1PPP/RNB1KBNR b KQkq - 1 1\"]\r\n\r\n{La dame blanche entre dans la danse, attaquant le pion noir en e5. Pouvez-vous développer un cavalier pour le protéger ?}\r\n1...Nc6\r\n    {[%wrong Ce coup ne développe pas de cavalier et ne protège pas le pion e5. Essayez encore !][%hint Essaie de protéger le pion e5 avec le cavalier b8.] Bien joué ! Les noirs développent leur cavalier sur une très bonne case et protègent le pion.}\r\n    (1...g6 $2 2.Qxe5+ {Oups ! Les noirs perdent un pion et la dame blanche fait échec au roi tout en attaquant la tour h8. Essayez de jouer un coup de cavalier pour protéger le pion e5.})\r\n    (1...Nf6 $2 2.Qxe5+ {Ce coup attaque la dame et le pion e4, mais les noirs perdent un pion. Essayez avec l'autre cavalier...})\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont joué leur fou en c4, se joignant à la dame pour attaquer le pion f7. Comment les noirs peuvent-ils attaquer la dame blanche tout en l'empêchant de capturer le pion f7 ?",
+        "[%wrong Bien essayé, mais ce coup n'attaque pas la dame en l'empêchant de prendre en f7. Essayez encore !][%hint Jouez un pion pour attaquer la dame et l'empêcher de capturer f7.] Fantastique ! Les noirs attaquent la dame avec leur pion et l'empêchent de prendre en f7.",
+        "Oups ! Le cavalier attaque la dame, mais il ne défend pas la case f7. Échec et mat !!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 1 1\"]\r\n\r\n{Les blancs ont joué leur fou en c4, se joignant à la dame pour attaquer le pion f7. Comment les noirs peuvent-ils attaquer la dame blanche tout en l'empêchant de capturer le pion f7 ?}\r\n1...g6\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas la dame en l'empêchant de prendre en f7. Essayez encore !][%hint Jouez un pion pour attaquer la dame et l'empêcher de capturer f7.] Fantastique ! Les noirs attaquent la dame avec leur pion et l'empêchent de prendre en f7.}\r\n    (1...Nf6 $2 2.Qxf7# {Oups ! Le cavalier attaque la dame, mais il ne défend pas la case f7. Échec et mat !!})\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1p1p/2n3p1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b KQkq - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont mis leur dame en sécurité mais ils menacent toujours de mater en f7. Comment parer cette menace tout en développant une pièce ?",
+        "[%wrong Bien essayé, mais ce coup ne développe pas de pièce pour empêcher la dame de prendre en f7.][%hint Essayez de bloquer le chemin de la dame en développant un cavalier vers le centre.] Bien joué ! Les noirs développent un cavalier vers le centre et empêchent la dame blanche de mater en f7.",
+        "Ce coup empêche effectivement la dame adverse de mater en f7. Mais serait-il possible de trouver un autre coup évitant de sortir notre dame trop tôt ?",
+        "Le cavalier attaque la dame, mais il ne l'empêche pas de prendre en f7 pour mater... Essayez encore !",
+        "Ce coup pare le mat, mais il serait plus efficace de laisser cette case au cavalier g8. Essayez encore !!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1p1p/2n3p1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b KQkq - 1 1\"]\r\n\r\n{Les blancs ont mis leur dame en sécurité mais ils menacent toujours de mater en f7. Comment parer cette menace tout en développant une pièce ?}\r\n1...Nf6\r\n    {[%wrong Bien essayé, mais ce coup ne développe pas de pièce pour empêcher la dame de prendre en f7.][%hint Essayez de bloquer le chemin de la dame en développant un cavalier vers le centre.] Bien joué ! Les noirs développent un cavalier vers le centre et empêchent la dame blanche de mater en f7.}\r\n    (1...Qf6 $5 {Ce coup empêche effectivement la dame adverse de mater en f7. Mais serait-il possible de trouver un autre coup évitant de sortir notre dame trop tôt ?})\r\n    (1...Nd4 $2 2.Qxf7# {Le cavalier attaque la dame, mais il ne l'empêche pas de prendre en f7 pour mater... Essayez encore !})\r\n    (1...f6 $6 {Ce coup pare le mat, mais il serait plus efficace de laisser cette case au cavalier g8. Essayez encore !!})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez comment développer un cavalier vers le centre tout en protégeant le pion e5.",
+        "[%wrong Ce coup ne développe pas un cavalier et ne protège pas le pion e5. Essayez encore !][%hint Le cavalier b8 est la pièce idéale pour défendre le pion e5. Trouvez où le placer !]",
+        "C'est un bon coup, qui développe un cavalier et attaque un pion adverse. Mais il ne protège pas le pion e5.",
+        "Bien joué ! En développant ce cavalier vers le centre, vous avez protégé le pion e5. Les blancs jouent leur dame en h5 et menacent de mater en f7. Comment attaquer la dame tout en empêchant le mat ?",
+        "[%wrong Bien essayé, mais ce coup n'empêche pas la dame blanche de prendre en f7. Essayez encore !][%hint Jouez un pion pour attaquer la dame et l'empêcher de capturer f7.] Bravo ! Le pion attaque la dame et empêche le mat.",
+        "Oups ! Le cavalier attaque la dame, mais il n'empêche pas le mat ! Essayez encore.!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2\"]\r\n\r\n{Trouvez comment développer un cavalier vers le centre tout en protégeant le pion e5.}\r\n2...Nc6\r\n    {[%wrong Ce coup ne développe pas un cavalier et ne protège pas le pion e5. Essayez encore !][%hint Le cavalier b8 est la pièce idéale pour défendre le pion e5. Trouvez où le placer !]}\r\n    (2...Nf6 $1 {C'est un bon coup, qui développe un cavalier et attaque un pion adverse. Mais il ne protège pas le pion e5.})\r\n3.Qh5\r\n    {Bien joué ! En développant ce cavalier vers le centre, vous avez protégé le pion e5. Les blancs jouent leur dame en h5 et menacent de mater en f7. Comment attaquer la dame tout en empêchant le mat ?}\r\n3...g6\r\n    {[%wrong Bien essayé, mais ce coup n'empêche pas la dame blanche de prendre en f7. Essayez encore !][%hint Jouez un pion pour attaquer la dame et l'empêcher de capturer f7.] Bravo ! Le pion attaque la dame et empêche le mat.}\r\n    (3...Nf6 $2 4.Qxf7# {Oups ! Le cavalier attaque la dame, mais il n'empêche pas le mat ! Essayez encore.!})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Développez un cavalier vers le centre tout en menaçant le pion e4",
+        "[%wrong Ce coup ne développe pas de cavalier et n'attaque pas le pion e4. Essayez encore !!][%hint Utilisez le cavalier g8 pour attaquer le pion e4.]",
+        "Ce coup développe bien un cavalier, mais il n'attaque pas le pion e4. Essayez l'autre cavalier !",
+        "Bien joué ! Le cavalier se développe vers le centre et menace le pion e4 non-protégé. Les blancs, inconscients du danger, ont sorti leur dame pour menacer de mater en f7. A vous de trouver la meilleure défense pour les noirs !",
+        "[%wrong Il y a beaucoup plus fort que ça, essayez encore !][%hint Est-il possible de capturer la pièce offensive ?] Bien joué ! Les noirs s'emparent de la dame blanche !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 0 1\"]\r\n\r\n{Développez un cavalier vers le centre tout en menaçant le pion e4}\r\n1...Nf6\r\n    {[%wrong Ce coup ne développe pas de cavalier et n'attaque pas le pion e4. Essayez encore !!][%hint Utilisez le cavalier g8 pour attaquer le pion e4.]}\r\n    (1...Nc6 $1 {Ce coup développe bien un cavalier, mais il n'attaque pas le pion e4. Essayez l'autre cavalier !})\r\n2.Qh5\r\n    {Bien joué ! Le cavalier se développe vers le centre et menace le pion e4 non-protégé. Les blancs, inconscients du danger, ont sorti leur dame pour menacer de mater en f7. A vous de trouver la meilleure défense pour les noirs !}\r\n2...Nxh5\r\n    {[%wrong Il y a beaucoup plus fort que ça, essayez encore !][%hint Est-il possible de capturer la pièce offensive ?] Bien joué ! Les noirs s'emparent de la dame blanche !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "1cad8838-9ce4-11e8-bf3b-391cd239210a",
+    "name": "Le coup du berger",
+    "path": "le-coup-du-berger",
+    "description": "Chez les débutants, de nombreuses parties sont gagnées ou perdues en quatre coups seulement grâce au mat du berger : 1.e4 e5 2.Dh5 Cc6 3.Fc4, puis Dxf7# au coup suivant. Il est donc primordial de défendre au mieux le point faible de la position de départ : le pion f7 pour les noirs et f2 pour les blancs. Si vous parvenez à empêcher les pièces adverses d’attaquer cette case, vous obtiendrez sans doute une bonne position.",
+    "glyphName": "move-circle-winner",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-4-move-checkmate-f3s.mp4",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 2",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p2Q/4P3/8/PPPP1PPP/RNB1KBNR b KQkq - 1 1\"]\r\n\r\n{La dame blanche entre dans la danse, attaquant le pion noir en e5. Pouvez-vous développer un cavalier pour le protéger ?}\r\n1...Nc6\r\n    {[%wrong Ce coup ne développe pas de cavalier et ne protège pas le pion e5. Essayez encore !][%hint Essaie de protéger le pion e5 avec le cavalier b8.] Bien joué ! Les noirs développent leur cavalier sur une très bonne case et protègent le pion.}\r\n    (1...g6 $2 2.Qxe5+ {Oups ! Les noirs perdent un pion et la dame blanche fait échec au roi tout en attaquant la tour h8. Essayez de jouer un coup de cavalier pour protéger le pion e5.})\r\n    (1...Nf6 $2 2.Qxe5+ {Ce coup attaque la dame et le pion e4, mais les noirs perdent un pion. Essayez avec l'autre cavalier...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 1 1\"]\r\n\r\n{Les blancs ont joué leur fou en c4, se joignant à la dame pour attaquer le pion f7. Comment les noirs peuvent-ils attaquer la dame blanche tout en l'empêchant de capturer le pion f7 ?}\r\n1...g6\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas la dame en l'empêchant de prendre en f7. Essayez encore !][%hint Jouez un pion pour attaquer la dame et l'empêcher de capturer f7.] Fantastique ! Les noirs attaquent la dame avec leur pion et l'empêchent de prendre en f7.}\r\n    (1...Nf6 $2 2.Qxf7# {Oups ! Le cavalier attaque la dame, mais il ne défend pas la case f7. Échec et mat !!})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1p1p/2n3p1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b KQkq - 1 1\"]\r\n\r\n{Les blancs ont mis leur dame en sécurité mais ils menacent toujours de mater en f7. Comment parer cette menace tout en développant une pièce ?}\r\n1...Nf6\r\n    {[%wrong Bien essayé, mais ce coup ne développe pas de pièce pour empêcher la dame de prendre en f7.][%hint Essayez de bloquer le chemin de la dame en développant un cavalier vers le centre.] Bien joué ! Les noirs développent un cavalier vers le centre et empêchent la dame blanche de mater en f7.}\r\n    (1...Qf6 $5 {Ce coup empêche effectivement la dame adverse de mater en f7. Mais serait-il possible de trouver un autre coup évitant de sortir notre dame trop tôt ?})\r\n    (1...Nd4 $2 2.Qxf7# {Le cavalier attaque la dame, mais il ne l'empêche pas de prendre en f7 pour mater... Essayez encore !})\r\n    (1...f6 $6 {Ce coup pare le mat, mais il serait plus efficace de laisser cette case au cavalier g8. Essayez encore !!})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2\"]\r\n\r\n{Trouvez comment développer un cavalier vers le centre tout en protégeant le pion e5.}\r\n2...Nc6\r\n    {[%wrong Ce coup ne développe pas un cavalier et ne protège pas le pion e5. Essayez encore !][%hint Le cavalier b8 est la pièce idéale pour défendre le pion e5. Trouvez où le placer !]}\r\n    (2...Nf6 $1 {C'est un bon coup, qui développe un cavalier et attaque un pion adverse. Mais il ne protège pas le pion e5.})\r\n3.Qh5\r\n    {Bien joué ! En développant ce cavalier vers le centre, vous avez protégé le pion e5. Les blancs jouent leur dame en h5 et menacent de mater en f7. Comment attaquer la dame tout en empêchant le mat ?}\r\n3...g6\r\n    {[%wrong Bien essayé, mais ce coup n'empêche pas la dame blanche de prendre en f7. Essayez encore !][%hint Jouez un pion pour attaquer la dame et l'empêcher de capturer f7.] Bravo ! Le pion attaque la dame et empêche le mat.}\r\n    (3...Nf6 $2 4.Qxf7# {Oups ! Le cavalier attaque la dame, mais il n'empêche pas le mat ! Essayez encore.!})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 0 1\"]\r\n\r\n{Développez un cavalier vers le centre tout en menaçant le pion e4}\r\n1...Nf6\r\n    {[%wrong Ce coup ne développe pas de cavalier et n'attaque pas le pion e4. Essayez encore !!][%hint Utilisez le cavalier g8 pour attaquer le pion e4.]}\r\n    (1...Nc6 $1 {Ce coup développe bien un cavalier, mais il n'attaque pas le pion e4. Essayez l'autre cavalier !})\r\n2.Qh5\r\n    {Bien joué ! Le cavalier se développe vers le centre et menace le pion e4 non-protégé. Les blancs, inconscients du danger, ont sorti leur dame pour menacer de mater en f7. A vous de trouver la meilleure défense pour les noirs !}\r\n2...Nxh5\r\n    {[%wrong Il y a beaucoup plus fort que ça, essayez encore !][%hint Est-il possible de capturer la pièce offensive ?] Bien joué ! Les noirs s'emparent de la dame blanche !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "2a28990a-a557-11e8-9594-511f3664a6ec",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La prise est-elle bonne pour moi ou pas ? Voyons cela ensemble.",
+    "outroText": "C'est l'un des mats les plus joués chez les débutants, cela vous sera utile de le connaitre.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "path": "gagner-la-partie",
+      "title": "Gagner la partie",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/2a28990a-a557-11e8-9594-511f3664a6ec.97114806.728x410o.7ceb702a43b5.png"
+    },
+    "parentId": "c8ac080e-83a7-11e8-971a-3bb6855f7ac4",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-4-move-checkmate5e579bc40f46c.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-4-move-checkmate-56688894a76636.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-4-move-checkmate-16065a84a8a777.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/the-4-move-checkmate-65ea2459165088.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/il-matto-del-barbiere646290ada9422.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 25,
+    "order": 1,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "name": "Gagner la partie",
+      "path": "gagner-la-partie",
+      "order": 3
+    }
+  }
+}

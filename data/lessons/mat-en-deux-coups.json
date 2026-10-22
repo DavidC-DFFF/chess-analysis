@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi-adverse/mat-en-deux-coups",
+  "capturedAt": "2026-10-22T12:23:34.730Z",
+  "title": "Mat en deux",
+  "exercises": [
+    {
+      "fen": "r4rk1/1p3pp1/p3n3/R2N4/1P6/7P/5PP1/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cette position semble sans histoires, et pourtant... Les blancs ont un échec et mat en deux coups ! Parviendrez-vous à le trouver ?",
+        "[%wrong Ce coup ne mène pas à un mat en deux. Essayez encore !][%hint Quel est le seul échec jouable pour les blancs dans cette position ?]",
+        "C'est la bonne idée, mais cet échec de cavalier perd tout simplement du matériel. Essayez encore !",
+        "Joli ! Le roi noir est repoussé sur la colonne h, où il sera maté dès le prochain coup. A vous de jouer !",
+        "[%wrong Non, c'est n'est pas mat, essayez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.] Et la tour donne le mat. Bravo !!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1p3pp1/p3n3/R2N4/1P6/7P/5PP1/5RK1 w - - 0 1\"]\r\n\r\n{Cette position semble sans histoires, et pourtant... Les blancs ont un échec et mat en deux coups ! Parviendrez-vous à le trouver ?}\r\n1.Ne7+\r\n    {[%wrong Ce coup ne mène pas à un mat en deux. Essayez encore !][%hint Quel est le seul échec jouable pour les blancs dans cette position ?]}\r\n    (1.Nf6+ $2 gxf6 {C'est la bonne idée, mais cet échec de cavalier perd tout simplement du matériel. Essayez encore !})\r\n1...Kh7\r\n    {Joli ! Le roi noir est repoussé sur la colonne h, où il sera maté dès le prochain coup. A vous de jouer !}\r\n2.Rh5#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.] Et la tour donne le mat. Bravo !!}\r\n*"
+    },
+    {
+      "fen": "5rk1/5p2/7p/4P1p1/4Nn2/5P1q/2Q2P2/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent ...Dg2 mat au prochain coup. La position semble désespérée, et pourtant, en deux coups seulement, les blancs peuvent forcer le mat ! A vous de jouer.",
+        "[%wrong Ce coup n'est pas un échec. Les noirs vont maintenant jouer ...Dg2 mat. Essayez encore !][%hint Les blancs n'ont qu'un seul échec possible dans cette position...]",
+        "Formidable ! Les blancs donnent échec avec le cavalier et ouvre la diagonale pour leur dame. Trouvez maintenant le mat en un !",
+        "[%wrong Non, c'est n'est pas mat, essayez encore !][%hint La dame et le cavalier fonctionnent très bien ensemble...] Et voilà ! Le tandem dame-cavalier a encore frappé ! Bien joué !!"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5p2/7p/4P1p1/4Nn2/5P1q/2Q2P2/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs menacent ...Dg2 mat au prochain coup. La position semble désespérée, et pourtant, en deux coups seulement, les blancs peuvent forcer le mat ! A vous de jouer.}\r\n1.Nf6+\r\n    {[%wrong Ce coup n'est pas un échec. Les noirs vont maintenant jouer ...Dg2 mat. Essayez encore !][%hint Les blancs n'ont qu'un seul échec possible dans cette position...]}\r\n1...Kg7\r\n    {Formidable ! Les blancs donnent échec avec le cavalier et ouvre la diagonale pour leur dame. Trouvez maintenant le mat en un !}\r\n2.Qh7#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint La dame et le cavalier fonctionnent très bien ensemble...] Et voilà ! Le tandem dame-cavalier a encore frappé ! Bien joué !!}\r\n*"
+    },
+    {
+      "fen": "k4r1r/p1RR1p2/Bp6/6p1/P7/8/1P3bPP/7K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs sont en grand danger, tandis que le roi blanc semble parfaitement en sécurité derrière son mur de pions. Pourtant, il est possible de percer la muraille pour mater en deux ! A vous de jouer.",
+        "[%wrong Ce coup ne force pas l'ouverture de lignes. Trouvez plus fort !][%hint Quel est le seul échec des blancs dans cette position ?]",
+        "Mais oui, c'est clair ! Les noirs ouvrent la colonne h par un sacrifice de tours. Il est maintenant temps de mater !",
+        "[%wrong Non, c'est n'est pas mat, essayez encore !][%hint Tout se passe sur la colonne h que vous venez d'ouvrir...] Oui ! Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k4r1r/p1RR1p2/Bp6/6p1/P7/8/1P3bPP/7K b - - 0 1\"]\r\n\r\n{Les noirs sont en grand danger, tandis que le roi blanc semble parfaitement en sécurité derrière son mur de pions. Pourtant, il est possible de percer la muraille pour mater en deux ! A vous de jouer.}\r\n1...Rxh2+\r\n    {[%wrong Ce coup ne force pas l'ouverture de lignes. Trouvez plus fort !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n2.Kxh2\r\n    {Mais oui, c'est clair ! Les noirs ouvrent la colonne h par un sacrifice de tours. Il est maintenant temps de mater !}\r\n2...Rh8#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint Tout se passe sur la colonne h que vous venez d'ouvrir...] Oui ! Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r5k1/5pbp/6p1/8/4P2P/q1p3P1/P1Qn4/K2RR3 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est acculé dans un coin de l'échiquier. Trouvez le mat en deux qui abrégera ses souffrances !",
+        "[%wrong Ce coup ne force pas le mat en deux. Essayez encore !][%hint Trouvez un échec qui force l'échange de dames...]",
+        "Les noirs peuvent maintenant pousser leur pion en c2, déclenchant un échec du fou à la découverte, mais les blancs peuvent le parer en poussant e5, avec de nombreuses complications. Essayez de trouver une ligne qui force le gain en deux coups !",
+        "Ce coup a du chien, mais il ne force pas le mat en deux. Essayez encore !",
+        "Formidable ! Après avoir forcé l'échange des dames, c'est le pion noir qui va donner le mat. A vous de terminer le travail !",
+        "[%wrong Ce coup n'est pas un mat. Essayez encore !][%hint Une prise du pion va mettre un terme à la partie !] Un superbe mat ! Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/5pbp/6p1/8/4P2P/q1p3P1/P1Qn4/K2RR3 b - - 0 1\"]\r\n\r\n{Le roi blanc est acculé dans un coin de l'échiquier. Trouvez le mat en deux qui abrégera ses souffrances !}\r\n1...Qb2+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Essayez encore !][%hint Trouvez un échec qui force l'échange de dames...]}\r\n    (1...Qxa2+ $6 2.Qxa2 {Les noirs peuvent maintenant pousser leur pion en c2, déclenchant un échec du fou à la découverte, mais les blancs peuvent le parer en poussant e5, avec de nombreuses complications. Essayez de trouver une ligne qui force le gain en deux coups !})\r\n    (1...Nb3+ $6 2.Kb1 {Ce coup a du chien, mais il ne force pas le mat en deux. Essayez encore !})\r\n2.Qxb2\r\n    {Formidable ! Après avoir forcé l'échange des dames, c'est le pion noir qui va donner le mat. A vous de terminer le travail !}\r\n2...cxb2#\r\n    {[%wrong Ce coup n'est pas un mat. Essayez encore !][%hint Une prise du pion va mettre un terme à la partie !] Un superbe mat ! Bien joué !}"
+    },
+    {
+      "fen": "1k4rr/p1p5/1pPbqp2/6p1/4P2p/1P2RNP1/1P5P/R4Q1K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Toutes les pièces noires sont rivées sur l'aile roi des blancs, prêtes à ouvrir des lignes pour attaquer. Trouvez un mat en deux pour sauver la patrie !",
+        "[%wrong Ce coup ne menace pas de mater au prochain coup. Essayez encore !][%hint Où pourrait aller la dame pour menacer mat au prochain ?]",
+        "Joli coup ! Les blancs menacent de mater en b7, mais la dame noire revient au plus vite en défense pour couvrir cette case. Heureusement, les blancs menaçaient également un autre mat ! Vous l'aviez vu, n'est-ce pas ?",
+        "[%wrong Non, c'est n'est pas mat, essayez encore !][%hint La dame et la tour blanche forment une batterie sur la colonne a...] Et voilà ! La partie se termine par un mat ! Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4rr/p1p5/1pPbqp2/6p1/4P2p/1P2RNP1/1P5P/R4Q1K w - - 0 1\"]\r\n\r\n{Toutes les pièces noires sont rivées sur l'aile roi des blancs, prêtes à ouvrir des lignes pour attaquer. Trouvez un mat en deux pour sauver la patrie !}\r\n1.Qa6\r\n    {[%wrong Ce coup ne menace pas de mater au prochain coup. Essayez encore !][%hint Où pourrait aller la dame pour menacer mat au prochain ?]}\r\n1...Qc8\r\n    {Joli coup ! Les blancs menacent de mater en b7, mais la dame noire revient au plus vite en défense pour couvrir cette case. Heureusement, les blancs menaçaient également un autre mat ! Vous l'aviez vu, n'est-ce pas ?}\r\n2.Qxa7#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint La dame et la tour blanche forment une batterie sur la colonne a...] Et voilà ! La partie se termine par un mat ! Bravo !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "f44292bc-9ce8-11e8-8e9a-39fad7666736",
+    "name": "Mat en deux",
+    "path": "mat-en-deux-coups",
+    "description": "Regardez toujours tous les échecs disponibles pour les deux camps à chaque coup, en déterminez s’ils peuvent mener à un mat ou à un gain matériel.",
+    "glyphName": "move-mate-2",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-checkmate-in-2-moves-p5v.mp4",
+    "fen": "r4rk1/1p2Npp1/p3n3/R7/1P6/7P/5PP1/5RK1 b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1p3pp1/p3n3/R2N4/1P6/7P/5PP1/5RK1 w - - 0 1\"]\r\n\r\n{Cette position semble sans histoires, et pourtant... Les blancs ont un échec et mat en deux coups ! Parviendrez-vous à le trouver ?}\r\n1.Ne7+\r\n    {[%wrong Ce coup ne mène pas à un mat en deux. Essayez encore !][%hint Quel est le seul échec jouable pour les blancs dans cette position ?]}\r\n    (1.Nf6+ $2 gxf6 {C'est la bonne idée, mais cet échec de cavalier perd tout simplement du matériel. Essayez encore !})\r\n1...Kh7\r\n    {Joli ! Le roi noir est repoussé sur la colonne h, où il sera maté dès le prochain coup. A vous de jouer !}\r\n2.Rh5#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint Les blancs n'ont qu'un seul échec dans cette position.] Et la tour donne le mat. Bravo !!}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5rk1/5p2/7p/4P1p1/4Nn2/5P1q/2Q2P2/4R1K1 w - - 0 1\"]\r\n\r\n{Les noirs menacent ...Dg2 mat au prochain coup. La position semble désespérée, et pourtant, en deux coups seulement, les blancs peuvent forcer le mat ! A vous de jouer.}\r\n1.Nf6+\r\n    {[%wrong Ce coup n'est pas un échec. Les noirs vont maintenant jouer ...Dg2 mat. Essayez encore !][%hint Les blancs n'ont qu'un seul échec possible dans cette position...]}\r\n1...Kg7\r\n    {Formidable ! Les blancs donnent échec avec le cavalier et ouvre la diagonale pour leur dame. Trouvez maintenant le mat en un !}\r\n2.Qh7#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint La dame et le cavalier fonctionnent très bien ensemble...] Et voilà ! Le tandem dame-cavalier a encore frappé ! Bien joué !!}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k4r1r/p1RR1p2/Bp6/6p1/P7/8/1P3bPP/7K b - - 0 1\"]\r\n\r\n{Les noirs sont en grand danger, tandis que le roi blanc semble parfaitement en sécurité derrière son mur de pions. Pourtant, il est possible de percer la muraille pour mater en deux ! A vous de jouer.}\r\n1...Rxh2+\r\n    {[%wrong Ce coup ne force pas l'ouverture de lignes. Trouvez plus fort !][%hint Quel est le seul échec des blancs dans cette position ?]}\r\n2.Kxh2\r\n    {Mais oui, c'est clair ! Les noirs ouvrent la colonne h par un sacrifice de tours. Il est maintenant temps de mater !}\r\n2...Rh8#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint Tout se passe sur la colonne h que vous venez d'ouvrir...] Oui ! Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/5pbp/6p1/8/4P2P/q1p3P1/P1Qn4/K2RR3 b - - 0 1\"]\r\n\r\n{Le roi blanc est acculé dans un coin de l'échiquier. Trouvez le mat en deux qui abrégera ses souffrances !}\r\n1...Qb2+\r\n    {[%wrong Ce coup ne force pas le mat en deux. Essayez encore !][%hint Trouvez un échec qui force l'échange de dames...]}\r\n    (1...Qxa2+ $6 2.Qxa2 {Les noirs peuvent maintenant pousser leur pion en c2, déclenchant un échec du fou à la découverte, mais les blancs peuvent le parer en poussant e5, avec de nombreuses complications. Essayez de trouver une ligne qui force le gain en deux coups !})\r\n    (1...Nb3+ $6 2.Kb1 {Ce coup a du chien, mais il ne force pas le mat en deux. Essayez encore !})\r\n2.Qxb2\r\n    {Formidable ! Après avoir forcé l'échange des dames, c'est le pion noir qui va donner le mat. A vous de terminer le travail !}\r\n2...cxb2#\r\n    {[%wrong Ce coup n'est pas un mat. Essayez encore !][%hint Une prise du pion va mettre un terme à la partie !] Un superbe mat ! Bien joué !}",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4rr/p1p5/1pPbqp2/6p1/4P2p/1P2RNP1/1P5P/R4Q1K w - - 0 1\"]\r\n\r\n{Toutes les pièces noires sont rivées sur l'aile roi des blancs, prêtes à ouvrir des lignes pour attaquer. Trouvez un mat en deux pour sauver la patrie !}\r\n1.Qa6\r\n    {[%wrong Ce coup ne menace pas de mater au prochain coup. Essayez encore !][%hint Où pourrait aller la dame pour menacer mat au prochain ?]}\r\n1...Qc8\r\n    {Joli coup ! Les blancs menacent de mater en b7, mais la dame noire revient au plus vite en défense pour couvrir cette case. Heureusement, les blancs menaçaient également un autre mat ! Vous l'aviez vu, n'est-ce pas ?}\r\n2.Qxa7#\r\n    {[%wrong Non, c'est n'est pas mat, essayez encore !][%hint La dame et la tour blanche forment une batterie sur la colonne a...] Et voilà ! La partie se termine par un mat ! Bravo !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Passons à l'étape supérieure avec les mats en 2 coups.",
+    "outroText": "Super ! Vous commencez à développer votre capacité de calcul.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "path": "attaquer-le-roi-adverse",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/12f47b0e-a558-11e8-9e63-7d798a2698c4.facbaf03.728x410o.856e9b44f8c8.png"
+    },
+    "parentId": "b20abc56-83a9-11e8-92b6-27d55efcfa39",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-2-moves5d11141f771b6.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-2-moves-56688b86b455f8.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-2-moves-15ea244c8ce392.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-in-2-moves-26093c72ddd011.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/scaccomatto-in-2-mosse649a0419eca95.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 44,
+    "order": 6,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "12f47b0e-a558-11e8-9e63-7d798a2698c4",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi-adverse",
+      "order": 5
+    }
+  }
+}

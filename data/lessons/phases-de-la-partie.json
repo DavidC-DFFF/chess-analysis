@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/principes-ouverture/phases-de-la-partie",
+  "capturedAt": "2026-10-22T12:23:30.294Z",
+  "title": "Les phases de la partie",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "C'est parti ! Commençons par mettre un pion au centre !",
+        "[%wrong Non, ce coup n'occupe pas immédiatement le centre. Essayez encore !][%hint Le pion placé devant votre roi est le plus joué lors du premier coup.]",
+        "Très bien ! En poussant le pion de la dame, vous occupez immédiatement le centre. Maintenant, jouez l'autre pion pouvant occuper le centre dès le premier coup.",
+        "Parfait ! 1. e4 est un coup qui place immédiatement un pion au centre. Les noirs décident de prendre de l'espace au centre en répondant 1...e5. Comment développer une pièce tout en attaquant leur pion ?",
+        "[%wrong Ce coup ne développe pas une pièce en attaquant le pion central des noirs. Essayez encore.][%hint Un coup de cavalier pourrait tout de suite mettre le pion e5 sous pression...] Excellent ! Les blancs développent leur cavalier vers le centre et menacent déjà de prendre le pion e5.",
+        "Ce coup agressif attaque en effet le pion e5, mais sortir la dame trop tôt n'est pas recommandé. Souvent, elle sera vite attaquée et forcée à reculer. Trouvez mieux !",
+        "Ce coup risqué est un gambit bien connu qui affaiblit la position du roi blanc. Pour le moment, essayons d'attaquer le pion e5 sans perdre de matériel.",
+        "Ce coup n'est pas mauvais, mais il existe un coup plus fort qui attaque le pion e5 sans laisser les noirs prendre en premier. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n{C'est parti ! Commençons par mettre un pion au centre !}\n1.e4\n    {[%wrong Non, ce coup n'occupe pas immédiatement le centre. Essayez encore !][%hint Le pion placé devant votre roi est le plus joué lors du premier coup.]}\n    (1.d4 $1 {Très bien ! En poussant le pion de la dame, vous occupez immédiatement le centre. Maintenant, jouez l'autre pion pouvant occuper le centre dès le premier coup.})\n1...e5\n    {Parfait ! 1. e4 est un coup qui place immédiatement un pion au centre. Les noirs décident de prendre de l'espace au centre en répondant 1...e5. Comment développer une pièce tout en attaquant leur pion ?}\n2.Nf3\n    {[%wrong Ce coup ne développe pas une pièce en attaquant le pion central des noirs. Essayez encore.][%hint Un coup de cavalier pourrait tout de suite mettre le pion e5 sous pression...] Excellent ! Les blancs développent leur cavalier vers le centre et menacent déjà de prendre le pion e5.}\n    (2.Qh5 $6 {Ce coup agressif attaque en effet le pion e5, mais sortir la dame trop tôt n'est pas recommandé. Souvent, elle sera vite attaquée et forcée à reculer. Trouvez mieux !})\n    (2.f4 $6 exf4 {Ce coup risqué est un gambit bien connu qui affaiblit la position du roi blanc. Pour le moment, essayons d'attaquer le pion e5 sans perdre de matériel.})\n    (2.d4 $6 exd4 {Ce coup n'est pas mauvais, mais il existe un coup plus fort qui attaque le pion e5 sans laisser les noirs prendre en premier. Trouvez-le !})\n*"
+    },
+    {
+      "fen": "rnbqk1nr/ppppbppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de jouer leur fou en e7. Comment profiter de ce coup fade pour gagner un pion ?",
+        "[%wrong Ce coup ne gagne pas de pion. Essayez encore !][%hint Vous venez justement de développer un cavalier...] Et voilà ! Les blancs gagnent un pion gratuit !"
+      ],
+      "pgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"rnbqk1nr/ppppbppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\n\n{Les noirs viennent de jouer leur fou en e7. Comment profiter de ce coup fade pour gagner un pion ?}\n1.Nxe5 $1\n    {[%wrong Ce coup ne gagne pas de pion. Essayez encore !][%hint Vous venez justement de développer un cavalier...] Et voilà ! Les blancs gagnent un pion gratuit !}\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le pion e5 des noirs est attaqué par le cavalier f3. Comment défendre ce pion tout en développant une pièce ?",
+        "[%wrong Ce coup ne défend pas le pion e5 avec un cavalier. Essayez encore !][%hint Un cavalier développé vers le centre pourrait remplir le rôle de défenseur...] Bien joué ! C'est le meilleur coup. Les noirs développent leur cavalier sur une très bonne case tout en protégeant le pion e5.",
+        "Ce coup ne protège pas le pion e5, mais il contre-attaque immédiatement sur le pion e4. C'est intéressant, mais ce n'est pas ce que nous cherchons à faire pour l'instant ! Comment protéger le pion e5 avec un cavalier ?"
+      ],
+      "pgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2\"]\n\n{Le pion e5 des noirs est attaqué par le cavalier f3. Comment défendre ce pion tout en développant une pièce ?}\n2...Nc6\n    {[%wrong Ce coup ne défend pas le pion e5 avec un cavalier. Essayez encore !][%hint Un cavalier développé vers le centre pourrait remplir le rôle de défenseur...] Bien joué ! C'est le meilleur coup. Les noirs développent leur cavalier sur une très bonne case tout en protégeant le pion e5.}\n    (2...Nf6 $5 {Ce coup ne protège pas le pion e5, mais il contre-attaque immédiatement sur le pion e4. C'est intéressant, mais ce n'est pas ce que nous cherchons à faire pour l'instant ! Comment protéger le pion e5 avec un cavalier ?})\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent jouer leur fou f1 pour préparer le petit roque. Placez-le sur une diagonale ouverte qui contrôle le centre.",
+        "[%wrong Ce coup ne développe pas le fou f1 sur une diagonale du centre. Essayez encore !][%hint Pourquoi ne pas s'en prendre directement au pion f7 ?]",
+        "Ce coup attaque le cavalier qui protège le pion e5. C'est une bonne idée, mais pouvez-vous trouver un coup permettant au fou de contrôler directement des cases centrales ?",
+        "Ce coup protège le pion central en e4, mais le fou se retrouve bloqué. Trouvez une autre case contrôlant le centre et donnant au fou plus de cases sur lesquelles évoluer par la suite.",
+        "Parfait ! Le fou se développe sur une diagonale ouverte d'où il contrôle le centre tout en gardant un œil sur le pion f7. Les blancs sont maintenant prêts à roquer. Les noirs développent eux aussi leur fou sur une excellente case, et c'est à nouveau à vous de jouer !",
+        "[%wrong Cette fois-ci, nous voulons roquer !][%hint Lors du roque, le roi a le droit de bouger de deux cases. Déplacez votre roi en g1 et voyez ce qu'il se passe !] Bien joué ! Le roi blanc est en sécurité derrière ses trois pions, et la tour se rapproche du centre.",
+        "Bien essayé, mais ce coup ne fait pas petit roque. Pour roquer, il faut déplacer son roi de deux cases d'un coup. Essayez la case g1 !"
+      ],
+      "pgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\n\n{Les blancs veulent jouer leur fou f1 pour préparer le petit roque. Placez-le sur une diagonale ouverte qui contrôle le centre.}\n1.Bc4\n    {[%wrong Ce coup ne développe pas le fou f1 sur une diagonale du centre. Essayez encore !][%hint Pourquoi ne pas s'en prendre directement au pion f7 ?]}\n    (1.Bb5 $1 {Ce coup attaque le cavalier qui protège le pion e5. C'est une bonne idée, mais pouvez-vous trouver un coup permettant au fou de contrôler directement des cases centrales ?})\n    (1.Bd3 $2 {Ce coup protège le pion central en e4, mais le fou se retrouve bloqué. Trouvez une autre case contrôlant le centre et donnant au fou plus de cases sur lesquelles évoluer par la suite.})\n1...Bc5\n    {Parfait ! Le fou se développe sur une diagonale ouverte d'où il contrôle le centre tout en gardant un œil sur le pion f7. Les blancs sont maintenant prêts à roquer. Les noirs développent eux aussi leur fou sur une excellente case, et c'est à nouveau à vous de jouer !}\n2.O-O\n    {[%wrong Cette fois-ci, nous voulons roquer !][%hint Lors du roque, le roi a le droit de bouger de deux cases. Déplacez votre roi en g1 et voyez ce qu'il se passe !] Bien joué ! Le roi blanc est en sécurité derrière ses trois pions, et la tour se rapproche du centre.}\n    (2.Kf1 $2 {Bien essayé, mais ce coup ne fait pas petit roque. Pour roquer, il faut déplacer son roi de deux cases d'un coup. Essayez la case g1 !})\n*"
+    },
+    {
+      "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "En f6, le cavalier attaque le pion e4 des blancs. Ceux-ci doivent maintenant répondre en développant à leur tour une pièce pour protéger leur pion.",
+        "Bien joué ! Vous avez développé votre cavalier vers le centre tout en protégeant le pion e4. [%wrong Ce coup ne développe pas une pièce tout en attaquant le pion e4. Essayez encore !][%hint Jouez le cavalier resté à l'écurie !]",
+        "Plutôt que de déplacer un cavalier déjà développé, pourquoi ne pas ramener une nouvelle pièce dans la partie ?",
+        "Ce coup est fort, et il protège efficacement le pion e4. Mais cette fois-ci, nous cherchons également à développer une pièce !\n    ",
+        "Très bien, ce coup protège en effet le pion e4. Essayons maintenant de le défendre avec un cavalier.",
+        "Ce coup protège effectivement le pion, mais la tour f1 est maintenant bloqué par la dame, qui n'est d'ailleurs pas très bien placée. Pourquoi ne pas plutôt développer un cavalier ?",
+        "Très bien, ce coup protège en effet le pion e4. Essayons maintenant de le défendre avec un cavalier."
+      ],
+      "pgn": "[Event \"\"]\n[Site \"\"]\n[Date \"????.??.??\"]\n[Round \"\"]\n[White \"\"]\n[Black \"\"]\n[Result \"*\"]\n[FEN \"r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1\"]\n\n{En f6, le cavalier attaque le pion e4 des blancs. Ceux-ci doivent maintenant répondre en développant à leur tour une pièce pour protéger leur pion.} \n1.Nc3 \n    {Bien joué ! Vous avez développé votre cavalier vers le centre tout en protégeant le pion e4. [%wrong Ce coup ne développe pas une pièce tout en attaquant le pion e4. Essayez encore !][%hint Jouez le cavalier resté à l'écurie !]}\n    ( 1.Ng5 $2 O-O {Plutôt que de déplacer un cavalier déjà développé, pourquoi ne pas ramener une nouvelle pièce dans la partie ?} )\n    ( 1.d3 $1 {Ce coup est fort, et il protège efficacement le pion e4. Mais cette fois-ci, nous cherchons également à développer une pièce !\n    } )\n    ( 1.Re1 $5 {Très bien, ce coup protège en effet le pion e4. Essayons maintenant de le défendre avec un cavalier.} )\n    ( 1.Qe1 $2 {Ce coup protège effectivement le pion, mais la tour f1 est maintenant bloqué par la dame, qui n'est d'ailleurs pas très bien placée. Pourquoi ne pas plutôt développer un cavalier ?} )\n    ( 1.Qe2 $5 {Très bien, ce coup protège en effet le pion e4. Essayons maintenant de le défendre avec un cavalier.} )\n*"
+    },
+    {
+      "fen": "r1bq1rk1/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQ1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent avancer un pion pour protéger leur pion e4 tout en ouvrant la diagonale de leur fou c1. Comment faire ?",
+        "[%wrong Ce coup ne protège pas le pion e4 en ouvrant la diagonale du fou c1. Essayez encore !][%hint Pourquoi ne pas utiliser le pion d ?]",
+        "Bien essayé ! Ce coup ouvre effectivement une diagonale pour le fou c1, mais ce coup ne protège pas le pion e4. Essayez encore !",
+        "Super ! Ce coup protège le pion e4 tout en ouvrant la diagonale c1-h6 pour le fou de cases blanches. Et maintenant, où développer le fou c1 pour qu'il attaque le cavalier noir ?",
+        "[%wrong Non, ce coup n'attaque pas le cavalier adverse.][%hint Nous cherchons à placer le fou c1 sur une diagonale où il pourra attaquer le cavalier f6.] Parfait ! Le fou rentre en jeu et attaque le cavalier adverse.",
+        "Ce coup intéressant attaque le fou c5, mais pas le cavalier que nous voulons viser !"
+      ],
+      "pgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"r1bq1rk1/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQ1RK1 w - - 0 1\"]\n\n{Les blancs veulent avancer un pion pour protéger leur pion e4 tout en ouvrant la diagonale de leur fou c1. Comment faire ?}\n1.d3\n    {[%wrong Ce coup ne protège pas le pion e4 en ouvrant la diagonale du fou c1. Essayez encore !][%hint Pourquoi ne pas utiliser le pion d ?]}\n    (1.b3 $6 {Bien essayé ! Ce coup ouvre effectivement une diagonale pour le fou c1, mais ce coup ne protège pas le pion e4. Essayez encore !})\n1...d6\n    {Super ! Ce coup protège le pion e4 tout en ouvrant la diagonale c1-h6 pour le fou de cases blanches. Et maintenant, où développer le fou c1 pour qu'il attaque le cavalier noir ?}\n2.Bg5\n    {[%wrong Non, ce coup n'attaque pas le cavalier adverse.][%hint Nous cherchons à placer le fou c1 sur une diagonale où il pourra attaquer le cavalier f6.] Parfait ! Le fou rentre en jeu et attaque le cavalier adverse.}\n    (2.Be3 $5 {Ce coup intéressant attaque le fou c5, mais pas le cavalier que nous voulons viser !})\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0331cce8-9ce9-11e8-83fe-33e2256637e4",
+    "name": "Les phases de la partie",
+    "path": "phases-de-la-partie",
+    "description": "Il en existe trois : L'ouverture, le milieu de jeu, et la finale.",
+    "glyphName": "game-phases",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-phases-of-the-game-i8e.mp4",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+    "questions": [
+      "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n{C'est parti ! Commençons par mettre un pion au centre !}\n1.e4\n    {[%wrong Non, ce coup n'occupe pas immédiatement le centre. Essayez encore !][%hint Le pion placé devant votre roi est le plus joué lors du premier coup.]}\n    (1.d4 $1 {Très bien ! En poussant le pion de la dame, vous occupez immédiatement le centre. Maintenant, jouez l'autre pion pouvant occuper le centre dès le premier coup.})\n1...e5\n    {Parfait ! 1. e4 est un coup qui place immédiatement un pion au centre. Les noirs décident de prendre de l'espace au centre en répondant 1...e5. Comment développer une pièce tout en attaquant leur pion ?}\n2.Nf3\n    {[%wrong Ce coup ne développe pas une pièce en attaquant le pion central des noirs. Essayez encore.][%hint Un coup de cavalier pourrait tout de suite mettre le pion e5 sous pression...] Excellent ! Les blancs développent leur cavalier vers le centre et menacent déjà de prendre le pion e5.}\n    (2.Qh5 $6 {Ce coup agressif attaque en effet le pion e5, mais sortir la dame trop tôt n'est pas recommandé. Souvent, elle sera vite attaquée et forcée à reculer. Trouvez mieux !})\n    (2.f4 $6 exf4 {Ce coup risqué est un gambit bien connu qui affaiblit la position du roi blanc. Pour le moment, essayons d'attaquer le pion e5 sans perdre de matériel.})\n    (2.d4 $6 exd4 {Ce coup n'est pas mauvais, mais il existe un coup plus fort qui attaque le pion e5 sans laisser les noirs prendre en premier. Trouvez-le !})\n*",
+      "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"rnbqk1nr/ppppbppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\n\n{Les noirs viennent de jouer leur fou en e7. Comment profiter de ce coup fade pour gagner un pion ?}\n1.Nxe5 $1\n    {[%wrong Ce coup ne gagne pas de pion. Essayez encore !][%hint Vous venez justement de développer un cavalier...] Et voilà ! Les blancs gagnent un pion gratuit !}\n*",
+      "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2\"]\n\n{Le pion e5 des noirs est attaqué par le cavalier f3. Comment défendre ce pion tout en développant une pièce ?}\n2...Nc6\n    {[%wrong Ce coup ne défend pas le pion e5 avec un cavalier. Essayez encore !][%hint Un cavalier développé vers le centre pourrait remplir le rôle de défenseur...] Bien joué ! C'est le meilleur coup. Les noirs développent leur cavalier sur une très bonne case tout en protégeant le pion e5.}\n    (2...Nf6 $5 {Ce coup ne protège pas le pion e5, mais il contre-attaque immédiatement sur le pion e4. C'est intéressant, mais ce n'est pas ce que nous cherchons à faire pour l'instant ! Comment protéger le pion e5 avec un cavalier ?})\n*",
+      "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\n\n{Les blancs veulent jouer leur fou f1 pour préparer le petit roque. Placez-le sur une diagonale ouverte qui contrôle le centre.}\n1.Bc4\n    {[%wrong Ce coup ne développe pas le fou f1 sur une diagonale du centre. Essayez encore !][%hint Pourquoi ne pas s'en prendre directement au pion f7 ?]}\n    (1.Bb5 $1 {Ce coup attaque le cavalier qui protège le pion e5. C'est une bonne idée, mais pouvez-vous trouver un coup permettant au fou de contrôler directement des cases centrales ?})\n    (1.Bd3 $2 {Ce coup protège le pion central en e4, mais le fou se retrouve bloqué. Trouvez une autre case contrôlant le centre et donnant au fou plus de cases sur lesquelles évoluer par la suite.})\n1...Bc5\n    {Parfait ! Le fou se développe sur une diagonale ouverte d'où il contrôle le centre tout en gardant un œil sur le pion f7. Les blancs sont maintenant prêts à roquer. Les noirs développent eux aussi leur fou sur une excellente case, et c'est à nouveau à vous de jouer !}\n2.O-O\n    {[%wrong Cette fois-ci, nous voulons roquer !][%hint Lors du roque, le roi a le droit de bouger de deux cases. Déplacez votre roi en g1 et voyez ce qu'il se passe !] Bien joué ! Le roi blanc est en sécurité derrière ses trois pions, et la tour se rapproche du centre.}\n    (2.Kf1 $2 {Bien essayé, mais ce coup ne fait pas petit roque. Pour roquer, il faut déplacer son roi de deux cases d'un coup. Essayez la case g1 !})\n*",
+      "[Event \"\"]\n[Site \"\"]\n[Date \"????.??.??\"]\n[Round \"\"]\n[White \"\"]\n[Black \"\"]\n[Result \"*\"]\n[FEN \"r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1\"]\n\n{En f6, le cavalier attaque le pion e4 des blancs. Ceux-ci doivent maintenant répondre en développant à leur tour une pièce pour protéger leur pion.} \n1.Nc3 \n    {Bien joué ! Vous avez développé votre cavalier vers le centre tout en protégeant le pion e4. [%wrong Ce coup ne développe pas une pièce tout en attaquant le pion e4. Essayez encore !][%hint Jouez le cavalier resté à l'écurie !]}\n    ( 1.Ng5 $2 O-O {Plutôt que de déplacer un cavalier déjà développé, pourquoi ne pas ramener une nouvelle pièce dans la partie ?} )\n    ( 1.d3 $1 {Ce coup est fort, et il protège efficacement le pion e4. Mais cette fois-ci, nous cherchons également à développer une pièce !\n    } )\n    ( 1.Re1 $5 {Très bien, ce coup protège en effet le pion e4. Essayons maintenant de le défendre avec un cavalier.} )\n    ( 1.Qe1 $2 {Ce coup protège effectivement le pion, mais la tour f1 est maintenant bloqué par la dame, qui n'est d'ailleurs pas très bien placée. Pourquoi ne pas plutôt développer un cavalier ?} )\n    ( 1.Qe2 $5 {Très bien, ce coup protège en effet le pion e4. Essayons maintenant de le défendre avec un cavalier.} )\n*",
+      "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n[SetUp \"1\"]\n[FEN \"r1bq1rk1/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQ1RK1 w - - 0 1\"]\n\n{Les blancs veulent avancer un pion pour protéger leur pion e4 tout en ouvrant la diagonale de leur fou c1. Comment faire ?}\n1.d3\n    {[%wrong Ce coup ne protège pas le pion e4 en ouvrant la diagonale du fou c1. Essayez encore !][%hint Pourquoi ne pas utiliser le pion d ?]}\n    (1.b3 $6 {Bien essayé ! Ce coup ouvre effectivement une diagonale pour le fou c1, mais ce coup ne protège pas le pion e4. Essayez encore !})\n1...d6\n    {Super ! Ce coup protège le pion e4 tout en ouvrant la diagonale c1-h6 pour le fou de cases blanches. Et maintenant, où développer le fou c1 pour qu'il attaque le cavalier noir ?}\n2.Bg5\n    {[%wrong Non, ce coup n'attaque pas le cavalier adverse.][%hint Nous cherchons à placer le fou c1 sur une diagonale où il pourra attaquer le cavalier f6.] Parfait ! Le fou rentre en jeu et attaque le cavalier adverse.}\n    (2.Be3 $5 {Ce coup intéressant attaque le fou c5, mais pas le cavalier que nous voulons viser !})\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "a6677c04-2326-11ea-a680-816421b79861",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Vous devez vous concentrer sur plusieurs aspects à mesure que la partie progresse. Prêt ?",
+    "outroText": "Super ! Vous commencez à devenir plus aguerri.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a6677c04-2326-11ea-a680-816421b79861",
+      "path": "principes-ouverture",
+      "title": "Principes d'ouverture",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a6677c04-2326-11ea-a680-816421b79861.945b3a35.728x410o.e7a9dfd032aa.png"
+    },
+    "parentId": "c6fc788e-83a9-11e8-bfea-5ffed72db148",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/phases-of-the-game5d11143945c28.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/phases-of-the-game-568552193c9275.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/phases-of-the-game-16064833878da4.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/phases-of-the-game-65ea2462bc546a.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/le-fasi-della-partita638f54ad179e9.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 24,
+    "order": 5,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "a6677c04-2326-11ea-a680-816421b79861",
+      "name": "Principes d'ouverture",
+      "path": "principes-ouverture",
+      "order": 2
+    }
+  }
+}

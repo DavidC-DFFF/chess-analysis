@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-grace-a-la-tactique/le-double-echec",
+  "capturedAt": "2026-10-22T12:23:39.697Z",
+  "title": "Le double échec",
+  "exercises": [
+    {
+      "fen": "1rbk4/5p1p/p6p/1qp5/8/P5P1/1PPB1P1P/2KRR3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs menacent de mater au prochain coup, mais un double échec vient sauver votre camp ! A vous de le trouver.",
+        "[%wrong Il ne s'agit pas d'un double échec. Essayez encore !][%hint Deux échecs doubles sont jouables dans cette position. Et l'un d'entre eux fait mat !] Bien joué ! Ce double échec fait mat en un !",
+        "Ce double échec permet aux blancs de maintenir l'équilibre, mais il existe un coup beaucoup plus fort. Trouvez-le !",
+        "Cet échec à la découverte donne aux blancs une bonne position, mais nous cherchons un double échec qui gagne sur le champ !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rbk4/5p1p/p6p/1qp5/8/P5P1/1PPB1P1P/2KRR3 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs menacent de mater au prochain coup, mais un double échec vient sauver votre camp ! A vous de le trouver.}\r\n1.Ba5#\r\n    {[%wrong Il ne s'agit pas d'un double échec. Essayez encore !][%hint Deux échecs doubles sont jouables dans cette position. Et l'un d'entre eux fait mat !] Bien joué ! Ce double échec fait mat en un !}\r\n    (1.Bg5+ $2 Kc7 {Ce double échec permet aux blancs de maintenir l'équilibre, mais il existe un coup beaucoup plus fort. Trouvez-le !})\r\n    (1.Bf4+ $2 {Cet échec à la découverte donne aux blancs une bonne position, mais nous cherchons un double échec qui gagne sur le champ !})\r\n*"
+    },
+    {
+      "fen": "rn1qkbnr/ppp2ppp/8/8/4Np2/5b2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs jouent et gagnent.",
+        "[%wrong Ce coup ne force pas le gain. Essayez encore !][%hint Deux échecs doubles sont jouables dans cette position. Trouvez le meilleur d'entre eux !] Excellent ! Les deux pièces offensives blanches sont en prise, mais aucune ne peut être capturée. C'est mat !",
+        "Reprendre du matériel est une bonne chose, mais mater est encore plus fort. Essayez encore !",
+        "Reprendre du matériel est une bonne chose, mais mater est encore plus fort. Essayez encore !",
+        "Ce double échec laisse le roi noir s'échapper. C'est la bonne idée, mais pas la bonne exécution !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkbnr/ppp2ppp/8/8/4Np2/5b2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7\"]\r\n\r\n{Les blancs jouent et gagnent.}\r\n7.Nf6#\r\n    {[%wrong Ce coup ne force pas le gain. Essayez encore !][%hint Deux échecs doubles sont jouables dans cette position. Trouvez le meilleur d'entre eux !] Excellent ! Les deux pièces offensives blanches sont en prise, mais aucune ne peut être capturée. C'est mat !}\r\n    (7.Qxf3 $2 {Reprendre du matériel est une bonne chose, mais mater est encore plus fort. Essayez encore !})\r\n    (7.gxf3 $2 {Reprendre du matériel est une bonne chose, mais mater est encore plus fort. Essayez encore !})\r\n    (7.Nd6+ $2 Kd7 {Ce double échec laisse le roi noir s'échapper. C'est la bonne idée, mais pas la bonne exécution !})\r\n*"
+    },
+    {
+      "fen": "3r1nk1/3P3p/pp3q2/2p1p3/P1P3B1/3b2R1/1P5P/6K1 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs accusent un large retard matériel mais disposent d'un double échec pour forcer le mat. Comment procéder ?",
+        "[%wrong Bien essayé mais cela ne force pas le mat. Retentez votre chance !][%hint Il faut trouver le double échec dans cette position !]",
+        "C'est ça ! Le roi noir est désormais contraint d'aller en h8 et il ne vous reste plus qu'à conclure !",
+        "[%wrong Ce coup ne mène pas au mat, réessayez !][%hint Quel est le seul échec des blancs dans cette position ?] Beau travail !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1nk1/3P3p/pp3q2/2p1p3/P1P3B1/3b2R1/1P5P/6K1 w - - 0 2\"]\r\n[PlyCount \"3\"]\r\n\r\n{Les blancs accusent un large retard matériel mais disposent d'un double échec pour forcer le mat. Comment procéder ?} 2. Be6+ {[%wrong Bien essayé mais cela ne force pas le mat. Retentez votre chance !][%hint Il faut trouver le double échec dans cette position !]} Kh8 {C'est ça ! Le roi noir est désormais contraint d'aller en h8 et il ne vous reste plus qu'à conclure !} 3. Rg8# {[%wrong Ce coup ne mène pas au mat, réessayez !][%hint Quel est le seul échec des blancs dans cette position ?] Beau travail !} *"
+    },
+    {
+      "fen": "7k/1pb3p1/p1p3p1/2P1n3/2P5/1P5P/6PK/4R1R1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont plusieurs coups tentants, mais un seul gagne en force. Trouvez-le !",
+        "[%wrong Bien essayé, mais il va nous falloir attaquer le roi blanc de manière plus violente. Cherchez encore !][%hint Il existe dans cette position un double échec forçant le mat en deux.]",
+        "Les noirs récupèrent du matériel mais sont toujours dans une position compliquée. Trouvez mieux !",
+        "Les blancs ne sont pas obligés de bouger leur roi et notre attaque s’essouffle... Trouvez mieux !",
+        "Les noirs récupèrent un pion, mais accusent toujours un retard matériel trop important... Trouvez mieux !",
+        "Impressionnant ! Le roi blanc est acculé dans un coin de l'échiquier. Il est temps de finir le travail !",
+        "[%wrong Ce coup ne mate pas, essayez encore !][%hint Quel est le seul échec des noirs dans cette position ?] Bien joué ! Encore un joli mat."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1pb3p1/p1p3p1/2P1n3/2P5/1P5P/6PK/4R1R1 b - - 0 1\"]\r\n\r\n{Les noirs ont plusieurs coups tentants, mais un seul gagne en force. Trouvez-le !}\r\n1...Ng4+\r\n    {[%wrong Bien essayé, mais il va nous falloir attaquer le roi blanc de manière plus violente. Cherchez encore !][%hint Il existe dans cette position un double échec forçant le mat en deux.]}\r\n    (1...Nf3+ $2 2.Kh1 {Les noirs récupèrent du matériel mais sont toujours dans une position compliquée. Trouvez mieux !})\r\n    (1...Nd3+ $2 2.g3 {Les blancs ne sont pas obligés de bouger leur roi et notre attaque s’essouffle... Trouvez mieux !})\r\n    (1...Nxc4+ $2 {Les noirs récupèrent un pion, mais accusent toujours un retard matériel trop important... Trouvez mieux !})\r\n2.Kh1\r\n    {Impressionnant ! Le roi blanc est acculé dans un coin de l'échiquier. Il est temps de finir le travail !}\r\n2...Nf2#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Quel est le seul échec des noirs dans cette position ?] Bien joué ! Encore un joli mat.}\r\n*"
+    },
+    {
+      "fen": "r5k1/1b2Pp1p/3n4/1p5p/8/1PR2P2/rB5P/5R1K w - - 3 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Les noirs ont une pièce de plus, mais nous avons une attaque dangereuse. A vous de mater en force !",
+        "[%wrong Bien essayé, mais il va falloir trouver plus agressif.][%hint L'objectif : Trouver un échec menant à un double échec au prochain coup.]",
+        "Bien essayé. Malheureusement, cette idée créative est réfutée car le fou des noirs va bloquer l'échec de la tour sur la colonne g. La solution est toute proche. Continuez à chercher !",
+        "Bien joué ! Le roi noir est acculé dans le coin, aligné avec notre tour et notre fou. Comment finir la partie ?",
+        "[%wrong Ce coup ne mate pas, essayez encore !][%hint Restons dans le thème du double échec...] Double échec et mat ! Joliment fait !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/1b2Pp1p/3n4/1p5p/8/1PR2P2/rB5P/5R1K w - - 3 2\"]\r\n\r\n{Trait aux blancs. Les noirs ont une pièce de plus, mais nous avons une attaque dangereuse. A vous de mater en force !}\r\n2.Rg1+\r\n    {[%wrong Bien essayé, mais il va falloir trouver plus agressif.][%hint L'objectif : Trouver un échec menant à un double échec au prochain coup.]}\r\n    (2.Rc8+ $2 Bxc8 {Bien essayé. Malheureusement, cette idée créative est réfutée car le fou des noirs va bloquer l'échec de la tour sur la colonne g. La solution est toute proche. Continuez à chercher !})\r\n2...Kh8\r\n    {Bien joué ! Le roi noir est acculé dans le coin, aligné avec notre tour et notre fou. Comment finir la partie ?}\r\n3.Rc8#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Restons dans le thème du double échec...] Double échec et mat ! Joliment fait !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "7872f648-9cea-11e8-9e76-516ef47f38f7",
+    "name": "Le double échec",
+    "path": "le-double-echec",
+    "description": "Le double échec est un des coups les plus forts du jeu. Il consiste à réaliser un échec à la découverte tout en donnant échec avec la pièce jouée. Le seul moyen d’y échapper est de déplacer le roi, ce qui parfois n’est pas possible. Dans ce cas, c'est mat !",
+    "glyphName": "move-check-2",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-double-check-u8f.mp4",
+    "fen": "1rbk4/5p1p/p6p/1qp5/8/P5P1/1PPB1P1P/2KRR3 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rbk4/5p1p/p6p/1qp5/8/P5P1/1PPB1P1P/2KRR3 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Les noirs menacent de mater au prochain coup, mais un double échec vient sauver votre camp ! A vous de le trouver.}\r\n1.Ba5#\r\n    {[%wrong Il ne s'agit pas d'un double échec. Essayez encore !][%hint Deux échecs doubles sont jouables dans cette position. Et l'un d'entre eux fait mat !] Bien joué ! Ce double échec fait mat en un !}\r\n    (1.Bg5+ $2 Kc7 {Ce double échec permet aux blancs de maintenir l'équilibre, mais il existe un coup beaucoup plus fort. Trouvez-le !})\r\n    (1.Bf4+ $2 {Cet échec à la découverte donne aux blancs une bonne position, mais nous cherchons un double échec qui gagne sur le champ !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1qkbnr/ppp2ppp/8/8/4Np2/5b2/PPPPQ1PP/R1B1KB1R w KQkq - 0 7\"]\r\n\r\n{Les blancs jouent et gagnent.}\r\n7.Nf6#\r\n    {[%wrong Ce coup ne force pas le gain. Essayez encore !][%hint Deux échecs doubles sont jouables dans cette position. Trouvez le meilleur d'entre eux !] Excellent ! Les deux pièces offensives blanches sont en prise, mais aucune ne peut être capturée. C'est mat !}\r\n    (7.Qxf3 $2 {Reprendre du matériel est une bonne chose, mais mater est encore plus fort. Essayez encore !})\r\n    (7.gxf3 $2 {Reprendre du matériel est une bonne chose, mais mater est encore plus fort. Essayez encore !})\r\n    (7.Nd6+ $2 Kd7 {Ce double échec laisse le roi noir s'échapper. C'est la bonne idée, mais pas la bonne exécution !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1nk1/3P3p/pp3q2/2p1p3/P1P3B1/3b2R1/1P5P/6K1 w - - 0 2\"]\r\n[PlyCount \"3\"]\r\n\r\n{Les blancs accusent un large retard matériel mais disposent d'un double échec pour forcer le mat. Comment procéder ?} 2. Be6+ {[%wrong Bien essayé mais cela ne force pas le mat. Retentez votre chance !][%hint Il faut trouver le double échec dans cette position !]} Kh8 {C'est ça ! Le roi noir est désormais contraint d'aller en h8 et il ne vous reste plus qu'à conclure !} 3. Rg8# {[%wrong Ce coup ne mène pas au mat, réessayez !][%hint Quel est le seul échec des blancs dans cette position ?] Beau travail !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7k/1pb3p1/p1p3p1/2P1n3/2P5/1P5P/6PK/4R1R1 b - - 0 1\"]\r\n\r\n{Les noirs ont plusieurs coups tentants, mais un seul gagne en force. Trouvez-le !}\r\n1...Ng4+\r\n    {[%wrong Bien essayé, mais il va nous falloir attaquer le roi blanc de manière plus violente. Cherchez encore !][%hint Il existe dans cette position un double échec forçant le mat en deux.]}\r\n    (1...Nf3+ $2 2.Kh1 {Les noirs récupèrent du matériel mais sont toujours dans une position compliquée. Trouvez mieux !})\r\n    (1...Nd3+ $2 2.g3 {Les blancs ne sont pas obligés de bouger leur roi et notre attaque s’essouffle... Trouvez mieux !})\r\n    (1...Nxc4+ $2 {Les noirs récupèrent un pion, mais accusent toujours un retard matériel trop important... Trouvez mieux !})\r\n2.Kh1\r\n    {Impressionnant ! Le roi blanc est acculé dans un coin de l'échiquier. Il est temps de finir le travail !}\r\n2...Nf2#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Quel est le seul échec des noirs dans cette position ?] Bien joué ! Encore un joli mat.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/1b2Pp1p/3n4/1p5p/8/1PR2P2/rB5P/5R1K w - - 3 2\"]\r\n\r\n{Trait aux blancs. Les noirs ont une pièce de plus, mais nous avons une attaque dangereuse. A vous de mater en force !}\r\n2.Rg1+\r\n    {[%wrong Bien essayé, mais il va falloir trouver plus agressif.][%hint L'objectif : Trouver un échec menant à un double échec au prochain coup.]}\r\n    (2.Rc8+ $2 Bxc8 {Bien essayé. Malheureusement, cette idée créative est réfutée car le fou des noirs va bloquer l'échec de la tour sur la colonne g. La solution est toute proche. Continuez à chercher !})\r\n2...Kh8\r\n    {Bien joué ! Le roi noir est acculé dans le coin, aligné avec notre tour et notre fou. Comment finir la partie ?}\r\n3.Rc8#\r\n    {[%wrong Ce coup ne mate pas, essayez encore !][%hint Restons dans le thème du double échec...] Double échec et mat ! Joliment fait !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Faire échec c'est bien, faire double échec c'est encore mieux !",
+    "outroText": "Des pièces bien placées peuvent conduire à un double échec fatal.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "path": "gagner-grace-a-la-tactique",
+      "title": "Gagner grâce à la tactique",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/7ea6480e-a559-11e8-bc1c-a58777c5c578.1dbeef59.728x410o.884572580680.png"
+    },
+    "parentId": "4cf047d0-83ab-11e8-a4d4-d35369794600",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/double-check5d1255659d091.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/double-check-5668854c1a4a2c.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/double-check-15ea24238e314e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/double-check-26035375db39a3.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 68,
+    "order": 5,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "7ea6480e-a559-11e8-bc1c-a58777c5c578",
+      "name": "Gagner grâce à la tactique",
+      "path": "gagner-grace-a-la-tactique",
+      "order": 3
+    }
+  }
+}

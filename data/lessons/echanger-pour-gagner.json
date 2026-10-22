@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/comprendre-les-finales/echanger-pour-gagner",
+  "capturedAt": "2026-10-22T12:23:38.367Z",
+  "title": "Échanger pour gagner",
+  "exercises": [
+    {
+      "fen": "8/4kpp1/p2rpnp1/P1p5/1pP4P/1P2P1P1/1B2KPB1/2R5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont une pièce de plus. Trouvez un plan permettant de se débarrasser de la tour et du cavalier noir pour entrer dans une finale simplifiée et gagnante.",
+        "[%wrong Ce coup ne permet pas d'échanger les pièces restantes. Essayez encore !]",
+        "Cette idée intéressante permet en effet de forcer l'échange des tours. Mais serait-il possible d'échanger le cavalier avant pour s'assurer le gain ?",
+        "Exact ! Les blancs se débarrassent de la dernière pièce mineure noire. Il est temps de s'occuper de la tour !",
+        "[%wrong Bien essayé, mais ce coup ne force pas l'échange des tours.][%hint La tour noire ne peut pas quitter la colonne d. L'échange va donc se passer sur cette colonne.] Joliment fait ! L'échange des tours est désormais inévitable. Les blancs vont ensuite l'emporter très facilement en jouant Fb7 pour se créer un pion passé sur la colonne a."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4kpp1/p2rpnp1/P1p5/1pP4P/1P2P1P1/1B2KPB1/2R5 w - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de plus. Trouvez un plan permettant de se débarrasser de la tour et du cavalier noir pour entrer dans une finale simplifiée et gagnante.}\r\n1.Bxf6+\r\n    {[%wrong Ce coup ne permet pas d'échanger les pièces restantes. Essayez encore !]}\r\n    (1.Rd1 $5 {Cette idée intéressante permet en effet de forcer l'échange des tours. Mais serait-il possible d'échanger le cavalier avant pour s'assurer le gain ?})\r\n1...gxf6\r\n    {Exact ! Les blancs se débarrassent de la dernière pièce mineure noire. Il est temps de s'occuper de la tour !}\r\n2.Rd1\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'échange des tours.][%hint La tour noire ne peut pas quitter la colonne d. L'échange va donc se passer sur cette colonne.] Joliment fait ! L'échange des tours est désormais inévitable. Les blancs vont ensuite l'emporter très facilement en jouant Fb7 pour se créer un pion passé sur la colonne a.}\r\n*"
+    },
+    {
+      "fen": "2q3k1/8/p2Q3p/6p1/8/7P/5PP1/6K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La dame blanche a envahi la position noire ! Trouvez un plan gagnant forçant l'échange des dames et permettant au pion passé noir de filer vers la promotion.",
+        "[%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Essayez encore !][%hint Trouvez un échec qui force le roi blanc à se rendre sur une case où nous pourrons échanger les dames.]",
+        "Bien essayé, mais ce coup ne force pas l'échange des dames, et perd même notre précieux pion passé. Trouvez mieux !",
+        "Joli travail ! Le roi blanc doit partir à l'opposé du pion passé noir. Il est maintenant temps d'échanger les dames !",
+        "[%wrong Ce coup ne force pas l'échange des dames. Essayez encore !][%hint Comment donner un échec au roi tout en attaquant la dame ?]",
+        "Bien trouvé ! Les blancs sont obligés d'échanger les dames et d'entrer dans une finale perdante. Finissez le travail !",
+        "[%wrong Prenez la dame blanche.][%hint Prenez la dame blanche.] Et voilà ! Le pion a file vers la victoire."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2q3k1/8/p2Q3p/6p1/8/7P/5PP1/6K1 b - - 0 1\"]\r\n\r\n{La dame blanche a envahi la position noire ! Trouvez un plan gagnant forçant l'échange des dames et permettant au pion passé noir de filer vers la promotion.}\r\n1...Qc1+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Essayez encore !][%hint Trouvez un échec qui force le roi blanc à se rendre sur une case où nous pourrons échanger les dames.]}\r\n    (1...Qf8 $2 2.Qxa6 {Bien essayé, mais ce coup ne force pas l'échange des dames, et perd même notre précieux pion passé. Trouvez mieux !})\r\n2.Kh2\r\n    {Joli travail ! Le roi blanc doit partir à l'opposé du pion passé noir. Il est maintenant temps d'échanger les dames !}\r\n2...Qf4+\r\n    {[%wrong Ce coup ne force pas l'échange des dames. Essayez encore !][%hint Comment donner un échec au roi tout en attaquant la dame ?]}\r\n3.Qxf4\r\n    {Bien trouvé ! Les blancs sont obligés d'échanger les dames et d'entrer dans une finale perdante. Finissez le travail !}\r\n3...gxf4\r\n    {[%wrong Prenez la dame blanche.][%hint Prenez la dame blanche.] Et voilà ! Le pion a file vers la victoire.}\r\n*"
+    },
+    {
+      "fen": "8/3kqR2/6K1/3p4/1p1B4/p3P3/8/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le conducteur des pièces noires est le champion du monde Mikhaïl Botvinnik. Jouez comme lui et échangez les pièces pour obtenir  une position gagnante !",
+        "[%wrong Bien essayé, mais ce coup ne gagne pas. Trouvez mieux !][%hint La dame noire sera prise dès le prochain coup. Gagnons un tempo en initiant l'échange nous-mêmes !]",
+        "Bien essayé, mais une fois que nous aurons pris la tour, les blancs joueront Fc5+ et capturerons le dangereux pions a3 au coup suivant. Essayez encore !",
+        "Bien joué ! Botvinnik échange pour gagner ! Trouvez maintenant le coup de pion permettant aux noirs de gagner.",
+        "[%wrong Non, nous cherchons un coup de pion !][%hint Il faudrait pousser un pion lui-même soutenu par un autre pion.] Excellent choix ! Les blancs ne peuvent plus rien faire contre l'idée ...b2, et les noirs vont l'emporter sans coup férir.",
+        "Bien essayé, mais les pions noirs, ne peuvent plus s'entraider pour avancer. Il faut trouver mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3kqR2/6K1/3p4/1p1B4/p3P3/8/8 b - - 0 1\"]\r\n\r\n{Le conducteur des pièces noires est le champion du monde Mikhaïl Botvinnik. Jouez comme lui et échangez les pièces pour obtenir  une position gagnante !}\r\n1...Qxf7+\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Trouvez mieux !][%hint La dame noire sera prise dès le prochain coup. Gagnons un tempo en initiant l'échange nous-mêmes !]}\r\n    (1...b3 $2 2.Rxe7+ {Bien essayé, mais une fois que nous aurons pris la tour, les blancs joueront Fc5+ et capturerons le dangereux pions a3 au coup suivant. Essayez encore !})\r\n2.Kxf7\r\n    {Bien joué ! Botvinnik échange pour gagner ! Trouvez maintenant le coup de pion permettant aux noirs de gagner.}\r\n2...b3\r\n    {[%wrong Non, nous cherchons un coup de pion !][%hint Il faudrait pousser un pion lui-même soutenu par un autre pion.] Excellent choix ! Les blancs ne peuvent plus rien faire contre l'idée ...b2, et les noirs vont l'emporter sans coup férir.}\r\n    (2...a2 $2 3.Kf6 {Bien essayé, mais les pions noirs, ne peuvent plus s'entraider pour avancer. Il faut trouver mieux !})\r\n*"
+    },
+    {
+      "fen": "8/k6q/P7/2p4P/8/5Q2/8/7K w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils transposer dans une finale gagnante ?",
+        "[%wrong Il existe une meilleure option. Essayez encore en cherchant un moyen de forcer l'échange des dames.] \r\n[%hint Forcez l'échange des dames sur la septième rangée.]",
+        "Comment continuer ?",
+        "[%wrong Une option plus naturelle s'impose.] [%hint Reprenez la dame.]  Bien joué ! Le pion h est désormais inarrêtable et va offrir aux blancs la victoire."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/k6q/P7/2p4P/8/5Q2/8/7K w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils transposer dans une finale gagnante ?} 1. Qb7+ {[%wrong Il existe une meilleure option. Essayez encore en cherchant un moyen de forcer l'échange des dames.] \r\n[%hint Forcez l'échange des dames sur la septième rangée.]} Qxb7+ {Comment continuer ?} 2. axb7\r\n{[%wrong Une option plus naturelle s'impose.] [%hint Reprenez la dame.]  Bien joué ! Le pion h est désormais inarrêtable et va offrir aux blancs la victoire.} *"
+    },
+    {
+      "fen": "8/3k4/6K1/3n1P2/6N1/8/8/8 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent s'assurer de la survie de leur dernier pion ?",
+        "[%wrong\r\nIl existe un meilleur coup : essayez de forcer l'échange des cavaliers.] [%hint Forcez l'échange des cavaliers.]",
+        "Il est impossible de mater avec seulement un cavalier. Cherchez une meilleure solution.",
+        "Bien vu ! Comment poursuivre ?",
+        "[%wrong Il faut jouer le coup le plus logique.] [%hint Reprenez le cavalier.]  Le pion f est désormais inarrêtable et va offrir aux blancs la victoire !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/6K1/3n1P2/6N1/8/8/8 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent s'assurer de la survie de leur dernier pion ?} 1. Nf6+ {[%wrong\r\nIl existe un meilleur coup : essayez de forcer l'échange des cavaliers.] [%hint Forcez l'échange des cavaliers.]} (1. f6 $2\r\nNxf6 {Il est impossible de mater avec seulement un cavalier. Cherchez une meilleure solution.}) 1...\r\nNxf6 {Bien vu ! Comment poursuivre ?} 2. Kxf6 {[%wrong Il faut jouer le coup le plus logique.] [%hint Reprenez le cavalier.]  Le pion f est désormais inarrêtable et va offrir aux blancs la victoire !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0fefe2ac-9cea-11e8-8397-45183d334f77",
+    "name": "Échanger pour gagner",
+    "path": "echanger-pour-gagner",
+    "description": "Échangez toujours les pièces pour une bonne raison. Lorsque vous avez l’avantage matériel, par exemple. Dans ce cas, les échanges vous aideront à simplifier la position pour convertir plus facilement votre avantage en victoire.",
+    "glyphName": "arrows-triangle-shuffle",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-exchanging-down-to-a-win-r6t.mp4",
+    "fen": "8/3kqR2/6K1/3p4/1p1B4/p3P3/8/8 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4kpp1/p2rpnp1/P1p5/1pP4P/1P2P1P1/1B2KPB1/2R5 w - - 0 1\"]\r\n\r\n{Les blancs ont une pièce de plus. Trouvez un plan permettant de se débarrasser de la tour et du cavalier noir pour entrer dans une finale simplifiée et gagnante.}\r\n1.Bxf6+\r\n    {[%wrong Ce coup ne permet pas d'échanger les pièces restantes. Essayez encore !]}\r\n    (1.Rd1 $5 {Cette idée intéressante permet en effet de forcer l'échange des tours. Mais serait-il possible d'échanger le cavalier avant pour s'assurer le gain ?})\r\n1...gxf6\r\n    {Exact ! Les blancs se débarrassent de la dernière pièce mineure noire. Il est temps de s'occuper de la tour !}\r\n2.Rd1\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'échange des tours.][%hint La tour noire ne peut pas quitter la colonne d. L'échange va donc se passer sur cette colonne.] Joliment fait ! L'échange des tours est désormais inévitable. Les blancs vont ensuite l'emporter très facilement en jouant Fb7 pour se créer un pion passé sur la colonne a.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2q3k1/8/p2Q3p/6p1/8/7P/5PP1/6K1 b - - 0 1\"]\r\n\r\n{La dame blanche a envahi la position noire ! Trouvez un plan gagnant forçant l'échange des dames et permettant au pion passé noir de filer vers la promotion.}\r\n1...Qc1+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Essayez encore !][%hint Trouvez un échec qui force le roi blanc à se rendre sur une case où nous pourrons échanger les dames.]}\r\n    (1...Qf8 $2 2.Qxa6 {Bien essayé, mais ce coup ne force pas l'échange des dames, et perd même notre précieux pion passé. Trouvez mieux !})\r\n2.Kh2\r\n    {Joli travail ! Le roi blanc doit partir à l'opposé du pion passé noir. Il est maintenant temps d'échanger les dames !}\r\n2...Qf4+\r\n    {[%wrong Ce coup ne force pas l'échange des dames. Essayez encore !][%hint Comment donner un échec au roi tout en attaquant la dame ?]}\r\n3.Qxf4\r\n    {Bien trouvé ! Les blancs sont obligés d'échanger les dames et d'entrer dans une finale perdante. Finissez le travail !}\r\n3...gxf4\r\n    {[%wrong Prenez la dame blanche.][%hint Prenez la dame blanche.] Et voilà ! Le pion a file vers la victoire.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3kqR2/6K1/3p4/1p1B4/p3P3/8/8 b - - 0 1\"]\r\n\r\n{Le conducteur des pièces noires est le champion du monde Mikhaïl Botvinnik. Jouez comme lui et échangez les pièces pour obtenir  une position gagnante !}\r\n1...Qxf7+\r\n    {[%wrong Bien essayé, mais ce coup ne gagne pas. Trouvez mieux !][%hint La dame noire sera prise dès le prochain coup. Gagnons un tempo en initiant l'échange nous-mêmes !]}\r\n    (1...b3 $2 2.Rxe7+ {Bien essayé, mais une fois que nous aurons pris la tour, les blancs joueront Fc5+ et capturerons le dangereux pions a3 au coup suivant. Essayez encore !})\r\n2.Kxf7\r\n    {Bien joué ! Botvinnik échange pour gagner ! Trouvez maintenant le coup de pion permettant aux noirs de gagner.}\r\n2...b3\r\n    {[%wrong Non, nous cherchons un coup de pion !][%hint Il faudrait pousser un pion lui-même soutenu par un autre pion.] Excellent choix ! Les blancs ne peuvent plus rien faire contre l'idée ...b2, et les noirs vont l'emporter sans coup férir.}\r\n    (2...a2 $2 3.Kf6 {Bien essayé, mais les pions noirs, ne peuvent plus s'entraider pour avancer. Il faut trouver mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/k6q/P7/2p4P/8/5Q2/8/7K w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent-ils transposer dans une finale gagnante ?} 1. Qb7+ {[%wrong Il existe une meilleure option. Essayez encore en cherchant un moyen de forcer l'échange des dames.] \r\n[%hint Forcez l'échange des dames sur la septième rangée.]} Qxb7+ {Comment continuer ?} 2. axb7\r\n{[%wrong Une option plus naturelle s'impose.] [%hint Reprenez la dame.]  Bien joué ! Le pion h est désormais inarrêtable et va offrir aux blancs la victoire.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/6K1/3n1P2/6N1/8/8/8 w - - 0 0\"]\r\n[PlyCount \"3\"]\r\n\r\n{Comment les blancs peuvent s'assurer de la survie de leur dernier pion ?} 1. Nf6+ {[%wrong\r\nIl existe un meilleur coup : essayez de forcer l'échange des cavaliers.] [%hint Forcez l'échange des cavaliers.]} (1. f6 $2\r\nNxf6 {Il est impossible de mater avec seulement un cavalier. Cherchez une meilleure solution.}) 1...\r\nNxf6 {Bien vu ! Comment poursuivre ?} 2. Kxf6 {[%wrong Il faut jouer le coup le plus logique.] [%hint Reprenez le cavalier.]  Le pion f est désormais inarrêtable et va offrir aux blancs la victoire !} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "23cce244-a559-11e8-9aa6-effd2afc771b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Quand vous avez l'avantage matériel, il est judicieux de simplifier la partie.",
+    "outroText": "Les échanges sont généralement favorables au joueur qui a l'avantage matériel.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "path": "comprendre-les-finales",
+      "title": "Comprendre les finales",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/23cce244-a559-11e8-9aa6-effd2afc771b.c6ee284d.728x410o.fc91752ed604.png"
+    },
+    "parentId": "dac89540-83aa-11e8-89e5-ffd2320c8658",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/exchanging-down-to-a-win5e62024d064cd.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/exchanging-down-to-a-win-566886032578e8.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/exchanging-down-to-a-win-15ea242d2be91a.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/exchanging-down-to-a-win-261531bb1c2117.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 61,
+    "order": 5,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "23cce244-a559-11e8-9aa6-effd2afc771b",
+      "name": "Comprendre les finales",
+      "path": "comprendre-les-finales",
+      "order": 2
+    }
+  }
+}

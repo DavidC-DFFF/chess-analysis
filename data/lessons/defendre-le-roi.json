@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/attaquer-le-roi/defendre-le-roi",
+  "capturedAt": "2026-10-22T12:23:52.427Z",
+  "title": "Défendre le roi",
+  "exercises": [
+    {
+      "fen": "3r1rk1/1pqn1ppp/2p5/p2p4/2PQ3b/1PN2P1P/PB3P2/1K1R2R1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs ont lancé une puissante offensive. Quelle est la meilleure défense ?",
+        "[%wrong Ce coup n'empêche pas le mat en sauvant le fou h4. Cherchez encore !][%hint Les blancs menacent de mater et de capturer le fou h4. Comment parer les deux menaces en même temps ?] Une superbe défense active ! Les noirs empêchent le mat et sauvent leur fou attaqué tout en attaquant la dame adverse.",
+        "Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?",
+        "Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?",
+        "Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?",
+        "Bien essayé, mais le fou h4 est en l'air, et les blancs peuvent répondre par une puissante attaque à la découverte menaçant de mater au prochain coup sur les cases noires. Cherchez encore !",
+        "Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/1pqn1ppp/2p5/p2p4/2PQ3b/1PN2P1P/PB3P2/1K1R2R1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont lancé une puissante offensive. Quelle est la meilleure défense ?}\r\n1...Bf6\r\n    {[%wrong Ce coup n'empêche pas le mat en sauvant le fou h4. Cherchez encore !][%hint Les blancs menacent de mater et de capturer le fou h4. Comment parer les deux menaces en même temps ?] Une superbe défense active ! Les noirs empêchent le mat et sauvent leur fou attaqué tout en attaquant la dame adverse.}\r\n    (1...Qe5 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n    (1...Ne5 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n    (1...Nf6 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n    (1...g6 $2 2.Nxd5 {Bien essayé, mais le fou h4 est en l'air, et les blancs peuvent répondre par une puissante attaque à la découverte menaçant de mater au prochain coup sur les cases noires. Cherchez encore !})\r\n    (1...f6 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n*"
+    },
+    {
+      "fen": "4rk2/8/1p5p/1Pp2b1p/q7/3P1QPP/8/BR5K b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou noir est cloué et sera bientôt capturé par la dame blanche. Une puissante attaque se dessine contre le roi noir. Comment défendre le fou tout en enrayant le plan des blancs ?",
+        "[%wrong Ce coup ne sauve pas notre fou. Cherchez encore !][%hint Notez que le roi et la dame blanche sont sur la même diagonale. Utilisez le thème du clouage pour défendre !]",
+        "Oups ! Attention aux ressources défensives de votre adversaire !",
+        "Bien essayé, mais ce coup n'empêche pas les blancs de gagner le fou et de continuer leur attaque. Trouvez mieux !",
+        "Bien essayé, mais ce coup n'empêche pas les blancs de gagner le fou et de continuer leur attaque. Trouvez mieux !",
+        "Belle vision d'ensemble ! Vous avez trouvé la seule défense qui permet aux noirs de rester dans la partie. Tous les autres coups perdent ! L'échange des dames est maintenant forcé. Comment continuer ?",
+        "[%wrong Ce coup ne récupère la dame adverse !][%hint Prenez la dame blanche !]",
+        "Le fou noir est à nouveau cloué. Y-a-il encore une défense ?",
+        "[%wrong Hélas, les blancs gagnent une pièce par Txf5+. Cherchez encore !][%hint Mettez votre roi en sécurité tout en vous préparant à protéger le pion h6 pour la finale de tours qui va suivre.]",
+        "Bien vu, c'est un choix raisonnable. Cependant, jouons plutôt le roi en g8, ce qui lui permettra de se rapprocher des pions faibles sur la colonne h.",
+        "Bien vu, c'est un choix raisonnable. Cependant, jouons plutôt le roi en g8, ce qui lui permettra de se rapprocher des pions faibles sur la colonne h.",
+        "Oups ! Les blancs gagnent une pièce par Txf5+. Cherchez encore !",
+        "Bien essayé, mais nous n'avons pas besoin de sacrifier du matériel pour rester dans la partie ! Tant que les blancs ne prennent pas notre fou en faisant échec, nous pourrons répondre en prenant le leur. Cherchez encore !",
+        "Parfait ! Les noirs retirent leur roi du clouage et se préparent à défendre le pion faible h6. Les blancs en profitent pour s'emparer de notre fou. Comment conserver l'équilibre matériel ?",
+        "[%wrong Ce coup ne rétablit pas l'équilibre matériel. Cherchez encore !][%hint Prenez le fou adverse !] Bravo ! Vous avez défendu une position compliquée pour entrer dans une finale de tours égale."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rk2/8/1p5p/1Pp2b1p/q7/3P1QPP/8/BR5K b - - 0 1\"]\r\n\r\n{Le fou noir est cloué et sera bientôt capturé par la dame blanche. Une puissante attaque se dessine contre le roi noir. Comment défendre le fou tout en enrayant le plan des blancs ?}\r\n1...Qa8\r\n    {[%wrong Ce coup ne sauve pas notre fou. Cherchez encore !][%hint Notez que le roi et la dame blanche sont sur la même diagonale. Utilisez le thème du clouage pour défendre !]}\r\n    (1...Re5 $2 2.Bxe5 {Oups ! Attention aux ressources défensives de votre adversaire !})\r\n    (1...Qc2 $2 2.Qxf5+ {Bien essayé, mais ce coup n'empêche pas les blancs de gagner le fou et de continuer leur attaque. Trouvez mieux !})\r\n    (1...Kg8 $2 2.Qxf5 {Bien essayé, mais ce coup n'empêche pas les blancs de gagner le fou et de continuer leur attaque. Trouvez mieux !})\r\n2.Qxa8\r\n    {Belle vision d'ensemble ! Vous avez trouvé la seule défense qui permet aux noirs de rester dans la partie. Tous les autres coups perdent ! L'échange des dames est maintenant forcé. Comment continuer ?}\r\n2...Rxa8\r\n    {[%wrong Ce coup ne récupère la dame adverse !][%hint Prenez la dame blanche !]}\r\n3.Rf1\r\n    {Le fou noir est à nouveau cloué. Y-a-il encore une défense ?}\r\n3...Kg8\r\n    {[%wrong Hélas, les blancs gagnent une pièce par Txf5+. Cherchez encore !][%hint Mettez votre roi en sécurité tout en vous préparant à protéger le pion h6 pour la finale de tours qui va suivre.]}\r\n    (3...Ke8 $5 {Bien vu, c'est un choix raisonnable. Cependant, jouons plutôt le roi en g8, ce qui lui permettra de se rapprocher des pions faibles sur la colonne h.})\r\n    (3...Ke7 $5 {Bien vu, c'est un choix raisonnable. Cependant, jouons plutôt le roi en g8, ce qui lui permettra de se rapprocher des pions faibles sur la colonne h.})\r\n    (3...Kf7 $2 4.Rxf5+ {Oups ! Les blancs gagnent une pièce par Txf5+. Cherchez encore !})\r\n    (3...Rxa1 $2 4.Rxa1 {Bien essayé, mais nous n'avons pas besoin de sacrifier du matériel pour rester dans la partie ! Tant que les blancs ne prennent pas notre fou en faisant échec, nous pourrons répondre en prenant le leur. Cherchez encore !})\r\n4.Rxf5\r\n    {Parfait ! Les noirs retirent leur roi du clouage et se préparent à défendre le pion faible h6. Les blancs en profitent pour s'emparer de notre fou. Comment conserver l'équilibre matériel ?}\r\n4...Rxa1+\r\n    {[%wrong Ce coup ne rétablit pas l'équilibre matériel. Cherchez encore !][%hint Prenez le fou adverse !] Bravo ! Vous avez défendu une position compliquée pour entrer dans une finale de tours égale.}\r\n*"
+    },
+    {
+      "fen": "3rr1k1/pp1b1pp1/q7/b1Pp2NQ/3P3P/1R6/P4PPB/5RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir est sérieusement sous pression... Comment défendre contre la dangereuse attaque blanche ?",
+        "[%wrong Ce coup ne sauve pas notre position. Essayez une défense plus active !][%hint Faut-il vraiment défendre ? Il existe peut-être une manière de renverser la vapeur grâce à la tactique...]",
+        "Ce coup met un terme à l'attaque blanche sur l'aile roi, mais après Txb7, l'adversaire aura un fort avantage positionnel. Trouvez une défense plus active !",
+        "Ce coup empêche une attaque, mais pas deux ! Il faut trouver une défense plus active...",
+        "Bien essayé, mais ce coup ne sauve pas notre position. Essayez une défense plus active !",
+        "Oups ! Les blancs vont mater au prochain coup... Trouvez une défense plus active !",
+        "Bravo, vous avez su rester à l’affût des opportunités tactiques ! Finissez le travail !",
+        "[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Vous devenez un joueur plein de ressources ! Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rr1k1/pp1b1pp1/q7/b1Pp2NQ/3P3P/1R6/P4PPB/5RK1 b - - 0 1\"]\r\n\r\n{Le roi noir est sérieusement sous pression... Comment défendre contre la dangereuse attaque blanche ?}\r\n1...Qxf1+\r\n    {[%wrong Ce coup ne sauve pas notre position. Essayez une défense plus active !][%hint Faut-il vraiment défendre ? Il existe peut-être une manière de renverser la vapeur grâce à la tactique...]}\r\n    (1...Qg6 $2 2.Qxg6 $2 {Ce coup met un terme à l'attaque blanche sur l'aile roi, mais après Txb7, l'adversaire aura un fort avantage positionnel. Trouvez une défense plus active !})\r\n    (1...Qh6 $2 2.Qxf7+ {Ce coup empêche une attaque, mais pas deux ! Il faut trouver une défense plus active...})\r\n    (1...Bf5 $2 2.Qxf7+ {Bien essayé, mais ce coup ne sauve pas notre position. Essayez une défense plus active !})\r\n    (1...g6 $2 2.Qh7+ {Oups ! Les blancs vont mater au prochain coup... Trouvez une défense plus active !})\r\n2.Kxf1\r\n    {Bravo, vous avez su rester à l’affût des opportunités tactiques ! Finissez le travail !}\r\n2...Re1#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Vous devenez un joueur plein de ressources ! Bien joué !}\r\n*"
+    },
+    {
+      "fen": "4r1rk/pb4q1/1p5p/2p2p2/2PP1n2/PP2B3/1Q1R1PPP/2R1N1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont deux pions de moins, mais leurs pièces très actives mettent le roi blanc sous une pression incroyable. Comment simplifier la position et enrayer leur attaque ?",
+        "[%wrong Ce coup ne réduit pas la pression noire à l'aile roi. Cherchez encore !][%hint Lorsque l'on est attaqué, il est souvent de bon ton d'échanger les dames !] Excellente défense ! Les blancs forcent l'échange des dames, bloquent la diagonale d'attaque du fou noir et créent un redoutable pion passé.",
+        "suivi de ...Cxg2 donnent une position au mieux égale à cause de la faiblesse du roi blanc. Il faut trouver mieux !",
+        "suivi de ...f4 donne une forte attaque aux noirs. Trouvez mieux !",
+        "Les noirs ont deux pions de moins, mais des pièces plus actives et une belle attaque sur le roi blanc. Comment réfuter cette attaque ?",
+        "Ce coup perd le fou. Cherchez encore !",
+        "Oups ! Les noirs vont nous mater au prochain coup... Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r1rk/pb4q1/1p5p/2p2p2/2PP1n2/PP2B3/1Q1R1PPP/2R1N1K1 w - - 0 1\"]\r\n\r\n{Les noirs ont deux pions de moins, mais leurs pièces très actives mettent le roi blanc sous une pression incroyable. Comment simplifier la position et enrayer leur attaque ?}\r\n1.d5\r\n    {[%wrong Ce coup ne réduit pas la pression noire à l'aile roi. Cherchez encore !][%hint Lorsque l'on est attaqué, il est souvent de bon ton d'échanger les dames !] Excellente défense ! Les blancs forcent l'échange des dames, bloquent la diagonale d'attaque du fou noir et créent un redoutable pion passé.}\r\n    (1.dxc5 $2 Qxb2 {suivi de ...Cxg2 donnent une position au mieux égale à cause de la faiblesse du roi blanc. Il faut trouver mieux !})\r\n    (1.g3 $2 Nh3+ {suivi de ...f4 donne une forte attaque aux noirs. Trouvez mieux !})\r\n    ({Les noirs ont deux pions de moins, mais des pièces plus actives et une belle attaque sur le roi blanc. Comment réfuter cette attaque ?} 1.f3 $2 Rxe3 {Ce coup perd le fou. Cherchez encore !})\r\n    (1.Bxf4 $2 Rxe1+ {Oups ! Les noirs vont nous mater au prochain coup... Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/ppbnq1p1/2n1p3/2ppP1NQ/5P2/2P1P1B1/PP4PP/R3K2R b KQ - 0 15",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont sacrifié un cavalier et un fou pour menacer mat. Comment les noirs peuvent-ils rendre efficacement du matériel afin de se défendre ?",
+        "[%wrong L'attaque blanche est trop forte. Cherchez un moyen efficace de défendre la case h7.] \r\n[%hint Sacrifiez un cavalier pour défendre la case h7.]",
+        "\r\nL'attaque des blancs leur garantit au moins la nulle. Essayez de trouver un sacrifice malin afin de contrecarrer leur attaque.",
+        "Les blancs gagnent du matériel. Retentez votre chance.",
+        "\r\nLes blancs ont abandonné lors de la partie Boric - Korobov, 2004. Comment les noirs comptaient reprendre en f6 ?",
+        "[%wrong Cela assurerait aux blancs une attaque gagnante. Réessayez !] [%hint Prenez en f6 tout en libérant le chemin pour que votre dame défende h7.]  Bien joué ! L'attaque blanche s'essouffle et les noirs ont l'avantage matériel."
+      ],
+      "pgn": "[Event \"Dubai op 6th\"]\r\n[Site \"Dubai\"]\r\n[Date \"2004.04.24\"]\r\n[Round \"6\"]\r\n[White \"Boric, Muhamed\"]\r\n[Black \"Korobov, Anton\"]\r\n[Result \"0-1\"]\r\n[ECO \"D02\"]\r\n[WhiteElo \"2387\"]\r\n[BlackElo \"2571\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppbnq1p1/2n1p3/2ppP1NQ/5P2/2P1P1B1/PP4PP/R3K2R b KQ - 0 15\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2004.04.19\"]\r\n[EventType \"swiss\"]\r\n[EventRounds \"9\"]\r\n[EventCountry \"UAE\"]\r\n[Source \"ChessBase\"]\r\n\r\n{Les blancs ont sacrifié un cavalier et un fou pour menacer mat. Comment les noirs peuvent-ils rendre efficacement du matériel afin de se défendre ?} 15... Nf6 {[%wrong L'attaque blanche est trop forte. Cherchez un moyen efficace de défendre la case h7.] \r\n[%hint Sacrifiez un cavalier pour défendre la case h7.]} (15... g6 $2 16. Qxg6+ {\r\nL'attaque des blancs leur garantit au moins la nulle. Essayez de trouver un sacrifice malin afin de contrecarrer leur attaque.}) (15... Qxg5 $2 16. fxg5 {Les blancs gagnent du matériel. Retentez votre chance.}) 16. exf6 {\r\nLes blancs ont abandonné lors de la partie Boric - Korobov, 2004. Comment les noirs comptaient reprendre en f6 ?} gxf6 {[%wrong Cela assurerait aux blancs une attaque gagnante. Réessayez !] [%hint Prenez en f6 tout en libérant le chemin pour que votre dame défende h7.]  Bien joué ! L'attaque blanche s'essouffle et les noirs ont l'avantage matériel.} 0-1"
+    }
+  ],
+  "sourceLesson": {
+    "id": "9e9eb6a6-9ced-11e8-b469-8bda3cd18ff4",
+    "name": "Défendre le roi",
+    "path": "defendre-le-roi",
+    "description": "Lorsque vous saurez défendre votre roi dans les positions difficiles, vous améliorerez grandement vos résultats. Quand les choses se compliquent, gardez un état d’esprit positif et soyez à l’affût de toutes les opportunités. Choisissez si possible les coups les plus actifs et les plus tranchants.",
+    "glyphName": "piece-shield-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-defending-the-king-w1h.mp4",
+    "fen": "6k1/8/5KP1/5P2/8/R7/6rp/8 b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r1rk1/1pqn1ppp/2p5/p2p4/2PQ3b/1PN2P1P/PB3P2/1K1R2R1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont lancé une puissante offensive. Quelle est la meilleure défense ?}\r\n1...Bf6\r\n    {[%wrong Ce coup n'empêche pas le mat en sauvant le fou h4. Cherchez encore !][%hint Les blancs menacent de mater et de capturer le fou h4. Comment parer les deux menaces en même temps ?] Une superbe défense active ! Les noirs empêchent le mat et sauvent leur fou attaqué tout en attaquant la dame adverse.}\r\n    (1...Qe5 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n    (1...Ne5 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n    (1...Nf6 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n    (1...g6 $2 2.Nxd5 {Bien essayé, mais le fou h4 est en l'air, et les blancs peuvent répondre par une puissante attaque à la découverte menaçant de mater au prochain coup sur les cases noires. Cherchez encore !})\r\n    (1...f6 $2 2.Qxh4 {Bien essayé, mais vous perdez une pièce ! Comment parer la double attaque des blancs ?})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rk2/8/1p5p/1Pp2b1p/q7/3P1QPP/8/BR5K b - - 0 1\"]\r\n\r\n{Le fou noir est cloué et sera bientôt capturé par la dame blanche. Une puissante attaque se dessine contre le roi noir. Comment défendre le fou tout en enrayant le plan des blancs ?}\r\n1...Qa8\r\n    {[%wrong Ce coup ne sauve pas notre fou. Cherchez encore !][%hint Notez que le roi et la dame blanche sont sur la même diagonale. Utilisez le thème du clouage pour défendre !]}\r\n    (1...Re5 $2 2.Bxe5 {Oups ! Attention aux ressources défensives de votre adversaire !})\r\n    (1...Qc2 $2 2.Qxf5+ {Bien essayé, mais ce coup n'empêche pas les blancs de gagner le fou et de continuer leur attaque. Trouvez mieux !})\r\n    (1...Kg8 $2 2.Qxf5 {Bien essayé, mais ce coup n'empêche pas les blancs de gagner le fou et de continuer leur attaque. Trouvez mieux !})\r\n2.Qxa8\r\n    {Belle vision d'ensemble ! Vous avez trouvé la seule défense qui permet aux noirs de rester dans la partie. Tous les autres coups perdent ! L'échange des dames est maintenant forcé. Comment continuer ?}\r\n2...Rxa8\r\n    {[%wrong Ce coup ne récupère la dame adverse !][%hint Prenez la dame blanche !]}\r\n3.Rf1\r\n    {Le fou noir est à nouveau cloué. Y-a-il encore une défense ?}\r\n3...Kg8\r\n    {[%wrong Hélas, les blancs gagnent une pièce par Txf5+. Cherchez encore !][%hint Mettez votre roi en sécurité tout en vous préparant à protéger le pion h6 pour la finale de tours qui va suivre.]}\r\n    (3...Ke8 $5 {Bien vu, c'est un choix raisonnable. Cependant, jouons plutôt le roi en g8, ce qui lui permettra de se rapprocher des pions faibles sur la colonne h.})\r\n    (3...Ke7 $5 {Bien vu, c'est un choix raisonnable. Cependant, jouons plutôt le roi en g8, ce qui lui permettra de se rapprocher des pions faibles sur la colonne h.})\r\n    (3...Kf7 $2 4.Rxf5+ {Oups ! Les blancs gagnent une pièce par Txf5+. Cherchez encore !})\r\n    (3...Rxa1 $2 4.Rxa1 {Bien essayé, mais nous n'avons pas besoin de sacrifier du matériel pour rester dans la partie ! Tant que les blancs ne prennent pas notre fou en faisant échec, nous pourrons répondre en prenant le leur. Cherchez encore !})\r\n4.Rxf5\r\n    {Parfait ! Les noirs retirent leur roi du clouage et se préparent à défendre le pion faible h6. Les blancs en profitent pour s'emparer de notre fou. Comment conserver l'équilibre matériel ?}\r\n4...Rxa1+\r\n    {[%wrong Ce coup ne rétablit pas l'équilibre matériel. Cherchez encore !][%hint Prenez le fou adverse !] Bravo ! Vous avez défendu une position compliquée pour entrer dans une finale de tours égale.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rr1k1/pp1b1pp1/q7/b1Pp2NQ/3P3P/1R6/P4PPB/5RK1 b - - 0 1\"]\r\n\r\n{Le roi noir est sérieusement sous pression... Comment défendre contre la dangereuse attaque blanche ?}\r\n1...Qxf1+\r\n    {[%wrong Ce coup ne sauve pas notre position. Essayez une défense plus active !][%hint Faut-il vraiment défendre ? Il existe peut-être une manière de renverser la vapeur grâce à la tactique...]}\r\n    (1...Qg6 $2 2.Qxg6 $2 {Ce coup met un terme à l'attaque blanche sur l'aile roi, mais après Txb7, l'adversaire aura un fort avantage positionnel. Trouvez une défense plus active !})\r\n    (1...Qh6 $2 2.Qxf7+ {Ce coup empêche une attaque, mais pas deux ! Il faut trouver une défense plus active...})\r\n    (1...Bf5 $2 2.Qxf7+ {Bien essayé, mais ce coup ne sauve pas notre position. Essayez une défense plus active !})\r\n    (1...g6 $2 2.Qh7+ {Oups ! Les blancs vont mater au prochain coup... Trouvez une défense plus active !})\r\n2.Kxf1\r\n    {Bravo, vous avez su rester à l’affût des opportunités tactiques ! Finissez le travail !}\r\n2...Re1#\r\n    {[%wrong Ce coup ne mate pas. Cherchez encore !][%hint Trouvez le mat en un !] Vous devenez un joueur plein de ressources ! Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r1rk/pb4q1/1p5p/2p2p2/2PP1n2/PP2B3/1Q1R1PPP/2R1N1K1 w - - 0 1\"]\r\n\r\n{Les noirs ont deux pions de moins, mais leurs pièces très actives mettent le roi blanc sous une pression incroyable. Comment simplifier la position et enrayer leur attaque ?}\r\n1.d5\r\n    {[%wrong Ce coup ne réduit pas la pression noire à l'aile roi. Cherchez encore !][%hint Lorsque l'on est attaqué, il est souvent de bon ton d'échanger les dames !] Excellente défense ! Les blancs forcent l'échange des dames, bloquent la diagonale d'attaque du fou noir et créent un redoutable pion passé.}\r\n    (1.dxc5 $2 Qxb2 {suivi de ...Cxg2 donnent une position au mieux égale à cause de la faiblesse du roi blanc. Il faut trouver mieux !})\r\n    (1.g3 $2 Nh3+ {suivi de ...f4 donne une forte attaque aux noirs. Trouvez mieux !})\r\n    ({Les noirs ont deux pions de moins, mais des pièces plus actives et une belle attaque sur le roi blanc. Comment réfuter cette attaque ?} 1.f3 $2 Rxe3 {Ce coup perd le fou. Cherchez encore !})\r\n    (1.Bxf4 $2 Rxe1+ {Oups ! Les noirs vont nous mater au prochain coup... Trouvez mieux !})\r\n*",
+      "[Event \"Dubai op 6th\"]\r\n[Site \"Dubai\"]\r\n[Date \"2004.04.24\"]\r\n[Round \"6\"]\r\n[White \"Boric, Muhamed\"]\r\n[Black \"Korobov, Anton\"]\r\n[Result \"0-1\"]\r\n[ECO \"D02\"]\r\n[WhiteElo \"2387\"]\r\n[BlackElo \"2571\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppbnq1p1/2n1p3/2ppP1NQ/5P2/2P1P1B1/PP4PP/R3K2R b KQ - 0 15\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2004.04.19\"]\r\n[EventType \"swiss\"]\r\n[EventRounds \"9\"]\r\n[EventCountry \"UAE\"]\r\n[Source \"ChessBase\"]\r\n\r\n{Les blancs ont sacrifié un cavalier et un fou pour menacer mat. Comment les noirs peuvent-ils rendre efficacement du matériel afin de se défendre ?} 15... Nf6 {[%wrong L'attaque blanche est trop forte. Cherchez un moyen efficace de défendre la case h7.] \r\n[%hint Sacrifiez un cavalier pour défendre la case h7.]} (15... g6 $2 16. Qxg6+ {\r\nL'attaque des blancs leur garantit au moins la nulle. Essayez de trouver un sacrifice malin afin de contrecarrer leur attaque.}) (15... Qxg5 $2 16. fxg5 {Les blancs gagnent du matériel. Retentez votre chance.}) 16. exf6 {\r\nLes blancs ont abandonné lors de la partie Boric - Korobov, 2004. Comment les noirs comptaient reprendre en f6 ?} gxf6 {[%wrong Cela assurerait aux blancs une attaque gagnante. Réessayez !] [%hint Prenez en f6 tout en libérant le chemin pour que votre dame défende h7.]  Bien joué ! L'attaque blanche s'essouffle et les noirs ont l'avantage matériel.} 0-1"
+    ],
+    "isPathLesson": true,
+    "courseId": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons maitenant comment défendre efficacement votre roi contre une marrée de pions.",
+    "outroText": "Travailler la défense est tout aussi important !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "path": "attaquer-le-roi",
+      "title": "Attaquer le roi adverse",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/fb3a54c6-a55b-11e8-a822-312ba136ba58.45c9b3b7.728x410o.0b4182d70109.png"
+    },
+    "parentId": "da8ebeb2-83b7-11e8-9a58-359fce8ec7b8",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/defending-the-king5d125e33ca834.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/defending-the-king-15ea23e6517ac8.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/defending-the-king-26050ce9257860.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 123,
+    "order": 7,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "fb3a54c6-a55b-11e8-a822-312ba136ba58",
+      "name": "Attaquer le roi adverse",
+      "path": "attaquer-le-roi",
+      "order": 5
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/defendre-ses-pieces",
+  "capturedAt": "2026-10-22T13:42:27.272Z",
+  "title": "Défendre ses pièces",
+  "exercises": [
+    {
+      "fen": "B7/1N6/8/8/4R3/r7/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow a3a8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a3;to;a8;persistent;true][%c_highlight a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Comment votre tour peut-elle défendre votre fou ?",
+        "[%hint Pouvez-vous déplacer votre tour au bout de l'échiquier ?][%wrong Votre fou est toujours en danger.]Oui, maintenant votre tour défend votre fou.",
+        "Votre tour se fait prendre de cette façon.",
+        "Votre cavalier se fait prendre.",
+        "Ce coup vous fait perdre votre tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"B7/1N6/8/8/4R3/r7/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow a3a8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a3;to;a8;persistent;true][%c_highlight a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Comment votre tour peut-elle défendre votre fou ?} 1. Re8 {[%hint Pouvez-vous déplacer votre tour au bout de l'échiquier ?][%wrong Votre fou est toujours en danger.]Oui, maintenant votre tour défend votre fou.} (1. Ra4? Rxa4 {Votre tour se fait prendre de cette façon.}) (1. Na5? Rxa5 {Votre cavalier se fait prendre.}) (1. Re3? Rxe3 {Ce coup vous fait perdre votre tour.}) *"
+    },
+    {
+      "fen": "8/8/8/3q1B2/8/6P1/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Protégez votre fou avec votre pion.",
+        "[%hint Votre pion peut-il avancer ?][%wrong Ce coup n'a pas protégé votre fou avec un pion.] Exact !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3q1B2/8/6P1/8/8 w - - 0 1\"]\r\n\r\n{Protégez votre fou avec votre pion.} 1. g4 {[%hint Votre pion peut-il avancer ?][%wrong Ce coup n'a pas protégé votre fou avec un pion.] Exact !} *"
+    },
+    {
+      "fen": "5r2/3R4/8/8/8/5nN1/7B/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g5;color;%23eb6150;opacity;0.8;square;g5;persistent;true,h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true,g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true,h2;color;%23eb6150;opacity;0.8;square;h2;persistent;true,e1;color;%23eb6150;opacity;0.8;square;e1;persistent;true,d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true,e5;color;%23eb6150;opacity;0.8;square;e5;persistent;true]Comment pouvez-vous protéger votre fou avec une autre pièce tout en évitant le cavalier noir ?",
+        "[%hint Y a-t-il une case sûre pour votre tour ?][%wrong Votre fou est toujours en danger.]Oui, votre tour protège votre fou.",
+        "Oui, votre cavalier protège votre fou.",
+        "Votre tour se fait prendre ici, et votre fou est toujours en danger.",
+        "Votre tour se fait prendre ici, et votre fou est toujours en danger.",
+        "Votre tour se fait prendre ici, et votre fou est toujours en danger.",
+        "Votre tour se fait prendre ici, et votre fou est toujours en danger.",
+        "Votre cavalier se fait prendre ici, et votre fou est toujours en danger.",
+        "Votre fou se fait prendre ici."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/3R4/8/8/8/5nN1/7B/8 w - - 0 1\"]\r\n\r\n{[%c_highlight g5;color;%23eb6150;opacity;0.8;square;g5;persistent;true,h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true,g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true,h2;color;%23eb6150;opacity;0.8;square;h2;persistent;true,e1;color;%23eb6150;opacity;0.8;square;e1;persistent;true,d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true,e5;color;%23eb6150;opacity;0.8;square;e5;persistent;true]Comment pouvez-vous protéger votre fou avec une autre pièce tout en évitant le cavalier noir ?} 1. Rh7 {[%hint Y a-t-il une case sûre pour votre tour ?][%wrong Votre fou est toujours en danger.]Oui, votre tour protège votre fou.} (1. Nf1!! {Oui, votre cavalier protège votre fou.}) (1. Rd8? Rxd8 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Rf7? Rxf7 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Rd4? Nxd4 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Rd2? Nxd2 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Nf5? Rxf5 {Votre cavalier se fait prendre ici, et votre fou est toujours en danger.}) (1. Bg1? Nxg1 {Votre fou se fait prendre ici.}) *"
+    },
+    {
+      "fen": "8/8/8/8/3NqN2/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Celui-ci est un peu délicat. Les cavaliers peuvent se protéger entre eux !",
+        "[%hint Les cavaliers se déplacent en forme de L.][%wrong Vos cavaliers ne peuvent pas se protéger entre eux ici.] Oui ! Maintenant les cavaliers se protègent entre eux.",
+        "Votre cavalier se fait prendre.",
+        "Votre cavalier se fait prendre.",
+        "Oui ! Maintenant les cavaliers se protègent entre eux.",
+        "Votre cavalier se fait prendre.",
+        "Votre cavalier se fait prendre.",
+        "Oui ! Maintenant les cavaliers se protègent entre eux.",
+        "Votre cavalier se fait prendre.",
+        "Votre cavalier se fait prendre.",
+        "Oui ! Maintenant les cavaliers se protègent entre eux.",
+        "Votre cavalier se fait prendre.",
+        "Votre cavalier se fait prendre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3NqN2/8/8/8 w - - 0 1\"]\r\n\r\n{Celui-ci est un peu délicat. Les cavaliers peuvent se protéger entre eux !} 1. Nfe6 {[%hint Les cavaliers se déplacent en forme de L.][%wrong Vos cavaliers ne peuvent pas se protéger entre eux ici.] Oui ! Maintenant les cavaliers se protègent entre eux.} (1. Ng6? Qxg6 {Votre cavalier se fait prendre.}) (1. Ng2? Qxg2 {Votre cavalier se fait prendre.}) (1. Nfe2!! {Oui ! Maintenant les cavaliers se protègent entre eux.}) (1. Nd3? Qxd3 {Votre cavalier se fait prendre.}) (1. Nd5? Qxd5 {Votre cavalier se fait prendre.}) (1. Nde6!! {Oui ! Maintenant les cavaliers se protègent entre eux.}) (1. Nf5? Qxf5 {Votre cavalier se fait prendre.}) (1. Nf3? Qxf3 {Votre cavalier se fait prendre.}) (1. Nde2!! {Oui ! Maintenant les cavaliers se protègent entre eux.}) (1. Nc2? Qxc2 {Votre cavalier se fait prendre.}) (1. Nc6? Qxc6 {Votre cavalier se fait prendre.}) *"
+    },
+    {
+      "fen": "6b1/kp5p/p1p3pb/8/5N2/P2P3P/1P2RPP1/2R3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow h6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h6;to;f4;persistent;true,g8a2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g8;to;a2;persistent;true]Comment pouvez-vous défendre votre cavalier ?",
+        "[%hint Pouvez-vous défendre votre cavalier ?][%wrong Votre cavalier est toujours en danger.]Oui, votre cavalier est défendu maintenant.",
+        "Oui, votre cavalier est défendu maintenant.",
+        "Votre cavalier se fait prendre.",
+        "Cela défend votre cavalier mais vous fait perdre une tour.",
+        "Votre cavalier se fait prendre.",
+        "Votre cavalier se fait prendre.",
+        "Cela défend le cavalier, mais vous fait perdre la tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6b1/kp5p/p1p3pb/8/5N2/P2P3P/1P2RPP1/2R3K1 w - - 0 1\"]\r\n\r\n{[%c_arrow h6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h6;to;f4;persistent;true,g8a2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g8;to;a2;persistent;true]Comment pouvez-vous défendre votre cavalier ?} 1. g3 {[%hint Pouvez-vous défendre votre cavalier ?][%wrong Votre cavalier est toujours en danger.]Oui, votre cavalier est défendu maintenant.} (1. Re4!! {Oui, votre cavalier est défendu maintenant.}) (1. Nxg6? hxg6 {Votre cavalier se fait prendre.}) (1. Ne6? Bxc1 {Cela défend votre cavalier mais vous fait perdre une tour.}) (1. Nd5? Bxd5 {Votre cavalier se fait prendre.}) (1. Nh5? gxh5 {Votre cavalier se fait prendre.}) (1. Rc4? Bxc4 {Cela défend le cavalier, mais vous fait perdre la tour.}) *"
+    },
+    {
+      "fen": "r1b1k2r/1pppnp1p/pb4p1/8/3NP3/1P3P2/P1P1B1PP/R1B1K2R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trouvez quelle pièce est en danger puis amenez un défenseur.",
+        "[%hint Votre cavalier est en danger.][%wrong Votre cavalier est toujours en danger.]Bien joué, vous avez défendu avec votre fou.",
+        "Bien joué, vous avez défendu avec votre fou.",
+        "Votre cavalier se fait prendre par le pion.",
+        "Votre cavalier se fait prendre par le pion.",
+        "Votre cavalier se fait prendre par le pion.",
+        "Votre cavalier se fait prendre par le pion.",
+        "Bien joué, vous avez défendu avec votre pion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/1pppnp1p/pb4p1/8/3NP3/1P3P2/P1P1B1PP/R1B1K2R w - - 0 1\"]\r\n\r\n{Trouvez quelle pièce est en danger puis amenez un défenseur.} 1. Be3 {[%hint Votre cavalier est en danger.][%wrong Votre cavalier est toujours en danger.]Bien joué, vous avez défendu avec votre fou.} (1. Bb2!! {Bien joué, vous avez défendu avec votre fou.}) (1. Nb5? axb5 {Votre cavalier se fait prendre par le pion.}) (1. Nc6? dxc6 {Votre cavalier se fait prendre par le pion.}) (1. Ne6? fxe6 {Votre cavalier se fait prendre par le pion.}) (1. Nf5? gxf5 {Votre cavalier se fait prendre par le pion.}) (1. c3!! {Bien joué, vous avez défendu avec votre pion.}) *"
+    },
+    {
+      "fen": "r2b1r1k/p1n3pp/2p2p2/3pp3/3bP3/PBNP4/2P2PPP/R1B1R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous savez quoi faire.",
+        "[%hint Défendez votre cavalier.][%wrong Bien essayé, mais ce coup ne défend pas votre cavalier.]Oui, vous avez défendu votre cavalier !",
+        "Oui, vous avez défendu votre cavalier !",
+        "Le fou prend votre tour !",
+        "Le fou prend votre tour !",
+        "Le fou prend votre tour !",
+        "Le fou prend votre tour !",
+        "Le fou prend votre tour !",
+        "Le fou prend votre tour !",
+        "Le fou prend votre tour !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2b1r1k/p1n3pp/2p2p2/3pp3/3bP3/PBNP4/2P2PPP/R1B1R1K1 w - - 0 1\"]\r\n\r\n{Vous savez quoi faire.} 1. Bb2 {[%hint Défendez votre cavalier.][%wrong Bien essayé, mais ce coup ne défend pas votre cavalier.]Oui, vous avez défendu votre cavalier !} (1. Bd2!! {Oui, vous avez défendu votre cavalier !}) (1. Ne2? Bxa1 {Le fou prend votre tour !}) (1. Nb5? Bxa1 {Le fou prend votre tour !}) (1. Na4? Bxa1 {Le fou prend votre tour !}) (1. Na2? Bxa1 {Le fou prend votre tour !}) (1. Nb1? Bxa1 {Le fou prend votre tour !}) (1. Nd1? Bxa1 {Le fou prend votre tour !}) (1. Nxd5? Bxa1 {Le fou prend votre tour !}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c132-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Défendre ses pièces",
+    "path": "defendre-ses-pieces",
+    "description": "Apprenez à défendre vos pièces.",
+    "glyphName": "piece-shield-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"B7/1N6/8/8/4R3/r7/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow a3a8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;a3;to;a8;persistent;true][%c_highlight a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Comment votre tour peut-elle défendre votre fou ?} 1. Re8 {[%hint Pouvez-vous déplacer votre tour au bout de l'échiquier ?][%wrong Votre fou est toujours en danger.]Oui, maintenant votre tour défend votre fou.} (1. Ra4? Rxa4 {Votre tour se fait prendre de cette façon.}) (1. Na5? Rxa5 {Votre cavalier se fait prendre.}) (1. Re3? Rxe3 {Ce coup vous fait perdre votre tour.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3q1B2/8/6P1/8/8 w - - 0 1\"]\r\n\r\n{Protégez votre fou avec votre pion.} 1. g4 {[%hint Votre pion peut-il avancer ?][%wrong Ce coup n'a pas protégé votre fou avec un pion.] Exact !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5r2/3R4/8/8/8/5nN1/7B/8 w - - 0 1\"]\r\n\r\n{[%c_highlight g5;color;%23eb6150;opacity;0.8;square;g5;persistent;true,h4;color;%23eb6150;opacity;0.8;square;h4;persistent;true,g1;color;%23eb6150;opacity;0.8;square;g1;persistent;true,h2;color;%23eb6150;opacity;0.8;square;h2;persistent;true,e1;color;%23eb6150;opacity;0.8;square;e1;persistent;true,d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true,d4;color;%23eb6150;opacity;0.8;square;d4;persistent;true,e5;color;%23eb6150;opacity;0.8;square;e5;persistent;true]Comment pouvez-vous protéger votre fou avec une autre pièce tout en évitant le cavalier noir ?} 1. Rh7 {[%hint Y a-t-il une case sûre pour votre tour ?][%wrong Votre fou est toujours en danger.]Oui, votre tour protège votre fou.} (1. Nf1!! {Oui, votre cavalier protège votre fou.}) (1. Rd8? Rxd8 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Rf7? Rxf7 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Rd4? Nxd4 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Rd2? Nxd2 {Votre tour se fait prendre ici, et votre fou est toujours en danger.}) (1. Nf5? Rxf5 {Votre cavalier se fait prendre ici, et votre fou est toujours en danger.}) (1. Bg1? Nxg1 {Votre fou se fait prendre ici.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/3NqN2/8/8/8 w - - 0 1\"]\r\n\r\n{Celui-ci est un peu délicat. Les cavaliers peuvent se protéger entre eux !} 1. Nfe6 {[%hint Les cavaliers se déplacent en forme de L.][%wrong Vos cavaliers ne peuvent pas se protéger entre eux ici.] Oui ! Maintenant les cavaliers se protègent entre eux.} (1. Ng6? Qxg6 {Votre cavalier se fait prendre.}) (1. Ng2? Qxg2 {Votre cavalier se fait prendre.}) (1. Nfe2!! {Oui ! Maintenant les cavaliers se protègent entre eux.}) (1. Nd3? Qxd3 {Votre cavalier se fait prendre.}) (1. Nd5? Qxd5 {Votre cavalier se fait prendre.}) (1. Nde6!! {Oui ! Maintenant les cavaliers se protègent entre eux.}) (1. Nf5? Qxf5 {Votre cavalier se fait prendre.}) (1. Nf3? Qxf3 {Votre cavalier se fait prendre.}) (1. Nde2!! {Oui ! Maintenant les cavaliers se protègent entre eux.}) (1. Nc2? Qxc2 {Votre cavalier se fait prendre.}) (1. Nc6? Qxc6 {Votre cavalier se fait prendre.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6b1/kp5p/p1p3pb/8/5N2/P2P3P/1P2RPP1/2R3K1 w - - 0 1\"]\r\n\r\n{[%c_arrow h6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;h6;to;f4;persistent;true,g8a2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g8;to;a2;persistent;true]Comment pouvez-vous défendre votre cavalier ?} 1. g3 {[%hint Pouvez-vous défendre votre cavalier ?][%wrong Votre cavalier est toujours en danger.]Oui, votre cavalier est défendu maintenant.} (1. Re4!! {Oui, votre cavalier est défendu maintenant.}) (1. Nxg6? hxg6 {Votre cavalier se fait prendre.}) (1. Ne6? Bxc1 {Cela défend votre cavalier mais vous fait perdre une tour.}) (1. Nd5? Bxd5 {Votre cavalier se fait prendre.}) (1. Nh5? gxh5 {Votre cavalier se fait prendre.}) (1. Rc4? Bxc4 {Cela défend le cavalier, mais vous fait perdre la tour.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b1k2r/1pppnp1p/pb4p1/8/3NP3/1P3P2/P1P1B1PP/R1B1K2R w - - 0 1\"]\r\n\r\n{Trouvez quelle pièce est en danger puis amenez un défenseur.} 1. Be3 {[%hint Votre cavalier est en danger.][%wrong Votre cavalier est toujours en danger.]Bien joué, vous avez défendu avec votre fou.} (1. Bb2!! {Bien joué, vous avez défendu avec votre fou.}) (1. Nb5? axb5 {Votre cavalier se fait prendre par le pion.}) (1. Nc6? dxc6 {Votre cavalier se fait prendre par le pion.}) (1. Ne6? fxe6 {Votre cavalier se fait prendre par le pion.}) (1. Nf5? gxf5 {Votre cavalier se fait prendre par le pion.}) (1. c3!! {Bien joué, vous avez défendu avec votre pion.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2b1r1k/p1n3pp/2p2p2/3pp3/3bP3/PBNP4/2P2PPP/R1B1R1K1 w - - 0 1\"]\r\n\r\n{Vous savez quoi faire.} 1. Bb2 {[%hint Défendez votre cavalier.][%wrong Bien essayé, mais ce coup ne défend pas votre cavalier.]Oui, vous avez défendu votre cavalier !} (1. Bd2!! {Oui, vous avez défendu votre cavalier !}) (1. Ne2? Bxa1 {Le fou prend votre tour !}) (1. Nb5? Bxa1 {Le fou prend votre tour !}) (1. Na4? Bxa1 {Le fou prend votre tour !}) (1. Na2? Bxa1 {Le fou prend votre tour !}) (1. Nb1? Bxa1 {Le fou prend votre tour !}) (1. Nd1? Bxa1 {Le fou prend votre tour !}) (1. Nxd5? Bxa1 {Le fou prend votre tour !}) *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à défendre vos pièces.",
+    "outroText": "Vous savez maintenant défendre vos pièces.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "3745fdae-1d85-11f1-a0bf-dfeb7a54718b"
+  },
+  "curriculum": {
+    "number": 17,
+    "order": 5,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

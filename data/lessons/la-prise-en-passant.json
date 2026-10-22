@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/la-prise-en-passant",
+  "capturedAt": "2026-10-22T12:23:26.261Z",
+  "title": "La prise-en-passant",
+  "exercises": [
+    {
+      "fen": "8/8/8/3pP3/8/8/8/8 w - d6 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e5d6;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e5;to;d6;persistent;true] Capturez ce pion grâce à la prise en passant en faisant comme s'il n'avait avancé que d'une seule case.",
+        "[%hint Dans cette position, vous pouvez effectuez la prise en passant en vous plaçant juste derrière le pion adverse.][%wrong Il est possible de faire la prise en passant ici. Consultez l'indice si vous avez besoin d'aide.] Bien joué ! La prise en passant n'est pas fréquente mais l'occasion se présentera forcément à vous dans une partie."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3pP3/8/8/8/8 w - d6 0 2\"]\r\n\r\n{[%c_arrow e5d6;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e5;to;d6;persistent;true] Capturez ce pion grâce à la prise en passant en faisant comme s'il n'avait avancé que d'une seule case.} 2. exd6 {[%hint Dans cette position, vous pouvez effectuez la prise en passant en vous plaçant juste derrière le pion adverse.][%wrong Il est possible de faire la prise en passant ici. Consultez l'indice si vous avez besoin d'aide.] Bien joué ! La prise en passant n'est pas fréquente mais l'occasion se présentera forcément à vous dans une partie.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "346f79dc-ec81-11f0-ab36-a35fd610370b",
+    "name": "La prise-en-passant",
+    "path": "la-prise-en-passant",
+    "description": "Découvrez comment marche le coup spécial nommé \"prise en passant\".",
+    "glyphName": "piece-pawn-enpassant-1",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/3pP3/8/8/8/8 w - d6 0 2\"]\r\n\r\n{[%c_arrow e5d6;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;e5;to;d6;persistent;true] Capturez ce pion grâce à la prise en passant en faisant comme s'il n'avait avancé que d'une seule case.} 2. exd6 {[%hint Dans cette position, vous pouvez effectuez la prise en passant en vous plaçant juste derrière le pion adverse.][%wrong Il est possible de faire la prise en passant ici. Consultez l'indice si vous avez besoin d'aide.] Bien joué ! La prise en passant n'est pas fréquente mais l'occasion se présentera forcément à vous dans une partie.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3p4/8/4P3/8/8/8/8 w - - 0 1\"]\r\n\r\n{[%c_arrow d7d5;color;rgba(159%2C%20207%2C%2063%2C%200.8);animated;true;opacity;0.8;from;d7;to;d5;persistent;true] Les pions jouissent d'un pouvoir spécial et unique appelé \\\"prise en passant\\\". Si un pion adverse avance de deux cases et s'arrête à côté de l'un de vos pions, vous pouvez quand même le capturer car il passe par une case où il aurait pu se faire prendre.} *"
+        ]
+      }
+    ],
+    "animationName": "en-passant",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "da2c3f4e-c487-11f0-8b0c-4dd58b585428",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 7,
+    "order": 7,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

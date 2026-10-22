@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer/the-value-of-the-pieces-2-5",
+  "capturedAt": "2026-10-22T12:23:27.659Z",
+  "title": "La valeur des pièces",
+  "exercises": [
+    {
+      "fen": "6k1/8/4b3/8/4Rq2/8/6P1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Entraînons-nous à capturer les pièces les plus précieuses. Votre tour peut prendre la dame noire (9 points) ou le fou noir (3 points). Quelle est la meilleure prise ?\r\n",
+        "[%wrong Il y a une meilleure option. Réessayer de trouver la prise optimale.] [%hint Optez pour la capture la plus intéressante en terme de points.]  Bon choix ! La dame a nettement plus de valeur qu'un fou.",
+        "C'est bien d'avoir remarqué qu'il est possible de prendre le fou mais il y a mieux à faire. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/4b3/8/4Rq2/8/6P1/6K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146673873411646\"]\r\n\r\n{Entraînons-nous à capturer les pièces les plus précieuses. Votre tour peut prendre la dame noire (9 points) ou le fou noir (3 points). Quelle est la meilleure prise ?\r\n} 1. Rxf4 {[%wrong Il y a une meilleure option. Réessayer de trouver la prise optimale.] [%hint Optez pour la capture la plus intéressante en terme de points.]  Bon choix ! La dame a nettement plus de valeur qu'un fou.} (1. Rxe6 $2 {C'est bien d'avoir remarqué qu'il est possible de prendre le fou mais il y a mieux à faire. Réessayez.}) *"
+    },
+    {
+      "fen": "6k1/6p1/n6p/5r2/8/P2B4/1PP5/2K5 w - - 0 0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous préférez prendre le cavalier (3 points) ou la tour (5 points) ?",
+        "[%wrong Il y a un meilleur coup. Cherchez les prises possibles et trouvez-en une meilleure.] [%hint Votre fou peut prendre une tour ou un cavalier. Optez pour la pièce qui a le plus de valeur.]  Excellent ! Les blancs prennent l'avantage grâce à ce coup.",
+        "C'est bien d'avoir remarqué qu'il est possible de prendre le cavalier mais il y a mieux à faire. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6p1/n6p/5r2/8/P2B4/1PP5/2K5 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146675033653258\"]\r\n\r\n{Vous préférez prendre le cavalier (3 points) ou la tour (5 points) ?} 1. Bxf5 {[%wrong Il y a un meilleur coup. Cherchez les prises possibles et trouvez-en une meilleure.] [%hint Votre fou peut prendre une tour ou un cavalier. Optez pour la pièce qui a le plus de valeur.]  Excellent ! Les blancs prennent l'avantage grâce à ce coup.} (1. Bxa6 $2 {C'est bien d'avoir remarqué qu'il est possible de prendre le cavalier mais il y a mieux à faire. Réessayez.}) *"
+    },
+    {
+      "fen": "6k1/5pp1/5n1p/p4b2/3Np3/4P3/5P2/R3K3 w Q - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont deux prises possibles ici, laquelle est la meilleure ?",
+        "[%wrong Il y a un meilleur coup. Regardez les différentes options et réessayez.] [%hint Votre tour peut prendre un pion et votre cavalier peut prendre un fou. Laquelle de ces deux prises a le plus de sens ?]  Bien joué ! Les blancs gagnent du matériel et ont une excellente position !",
+        "C'est bien d'avoir remarqué qu'il est possible de prendre un pion mais il y a mieux à faire. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/5n1p/p4b2/3Np3/4P3/5P2/R3K3 w Q - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146676505561007\"]\r\n\r\n{Les blancs ont deux prises possibles ici, laquelle est la meilleure ?} 1. Nxf5 {[%wrong Il y a un meilleur coup. Regardez les différentes options et réessayez.] [%hint Votre tour peut prendre un pion et votre cavalier peut prendre un fou. Laquelle de ces deux prises a le plus de sens ?]  Bien joué ! Les blancs gagnent du matériel et ont une excellente position !} (1. Rxa5 $2 {C'est bien d'avoir remarqué qu'il est possible de prendre un pion mais il y a mieux à faire. Réessayez.}) *"
+    },
+    {
+      "fen": "1k6/1p1n3p/6q1/1r6/7P/3Q2P1/5P2/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs peuvent prendre une dame (9 points), une tour (5 points) ou un cavalier (3 points). Quelle est la meilleure option ? Faites attention et regardez les pièces des noires en défense !",
+        "[%wrong Il y a un meilleur coup. Cherchez une prise plus optimale.] [%hint La dame noire est défendue par un pion. Cherchez une capture plus intéressante.]  Bien joué ! Les blancs gagnent une tour nette (5 points) et ont une excellente position !",
+        "C'est un bon coup dans l'absolu mais les noirs peuvent reprendre, ce n'est donc qu'un échange équitable. Essayez plutôt de gagner une pièce noire gratuitement.",
+        "C'est bien d'avoir remarqué que le cavalier est en prise mais il y a mieux à faire. Réessayez."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/1p1n3p/6q1/1r6/7P/3Q2P1/5P2/5RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146790533505442\"]\r\n\r\n{Les blancs peuvent prendre une dame (9 points), une tour (5 points) ou un cavalier (3 points). Quelle est la meilleure option ? Faites attention et regardez les pièces des noires en défense !} 1. Qxb5 {[%wrong Il y a un meilleur coup. Cherchez une prise plus optimale.] [%hint La dame noire est défendue par un pion. Cherchez une capture plus intéressante.]  Bien joué ! Les blancs gagnent une tour nette (5 points) et ont une excellente position !} (1. Qxg6 $2 hxg6 {C'est un bon coup dans l'absolu mais les noirs peuvent reprendre, ce n'est donc qu'un échange équitable. Essayez plutôt de gagner une pièce noire gratuitement.}) (1. Qxd7 $2 {C'est bien d'avoir remarqué que le cavalier est en prise mais il y a mieux à faire. Réessayez.}) *"
+    },
+    {
+      "fen": "1k6/ppp2r1p/5r2/6q1/3Rb3/1P3N1P/2P3P1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs doivent envisager plusieurs prises ainsi que d'autres idées. Que devriez-vous jouer ?",
+        "[%wrong Il y a un meilleur coup. Regardez touts les prises possibles et les échecs pour trouver le meilleur coup.] [%hint Faire échec et mat est mieux que de manger n'importe quelle pièce. Cherchez un échec et voyez s'il fait mat.]  Les blancs gagnent ! Mater est toujours le meilleur coup !",
+        "Cela gagne la dame mais les noirs ont déjà une avance matérielle. Tentez plutôt de mettre fin à la partie sur le champ !",
+        "Cela gagne du matériel mais les noirs ont déjà de l'avance. Tentez plutôt de mettre fin à la partie sur le champ."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/ppp2r1p/5r2/6q1/3Rb3/1P3N1P/2P3P1/6K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146792093091513\"]\r\n\r\n{Les blancs doivent envisager plusieurs prises ainsi que d'autres idées. Que devriez-vous jouer ?} 1. Rd8# {[%wrong Il y a un meilleur coup. Regardez touts les prises possibles et les échecs pour trouver le meilleur coup.] [%hint Faire échec et mat est mieux que de manger n'importe quelle pièce. Cherchez un échec et voyez s'il fait mat.]  Les blancs gagnent ! Mater est toujours le meilleur coup !} (1. Nxg5 $2 Bf5 {Cela gagne la dame mais les noirs ont déjà une avance matérielle. Tentez plutôt de mettre fin à la partie sur le champ !}) (1. Rxe4 $2 {Cela gagne du matériel mais les noirs ont déjà de l'avance. Tentez plutôt de mettre fin à la partie sur le champ.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "11111b50-f9e6-11ef-8276-d7c0c0626cfa",
+    "name": "La valeur des pièces",
+    "path": "the-value-of-the-pieces-2-5",
+    "description": "Chaque pièce d'échecs dispose d'une valeur théorique qui permet de déterminer quand effectuer un échange est avantageux. Un pion vaut 1 point, un cavalier 3 points, un fou également 3 points, une tour 5 points, une dame 9 points tandis que le roi \"vaut toute la partie !\".",
+    "glyphName": "piece-imbalance-knight-rook",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/BEG-material-value-h4f.mp4",
+    "fen": "6k1/6p1/r7/5n2/8/3B2P1/1P3P2/6K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/4b3/8/4Rq2/8/6P1/6K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146673873411646\"]\r\n\r\n{Entraînons-nous à capturer les pièces les plus précieuses. Votre tour peut prendre la dame noire (9 points) ou le fou noir (3 points). Quelle est la meilleure prise ?\r\n} 1. Rxf4 {[%wrong Il y a une meilleure option. Réessayer de trouver la prise optimale.] [%hint Optez pour la capture la plus intéressante en terme de points.]  Bon choix ! La dame a nettement plus de valeur qu'un fou.} (1. Rxe6 $2 {C'est bien d'avoir remarqué qu'il est possible de prendre le fou mais il y a mieux à faire. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/6p1/n6p/5r2/8/P2B4/1PP5/2K5 w - - 0 0\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146675033653258\"]\r\n\r\n{Vous préférez prendre le cavalier (3 points) ou la tour (5 points) ?} 1. Bxf5 {[%wrong Il y a un meilleur coup. Cherchez les prises possibles et trouvez-en une meilleure.] [%hint Votre fou peut prendre une tour ou un cavalier. Optez pour la pièce qui a le plus de valeur.]  Excellent ! Les blancs prennent l'avantage grâce à ce coup.} (1. Bxa6 $2 {C'est bien d'avoir remarqué qu'il est possible de prendre le cavalier mais il y a mieux à faire. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/5pp1/5n1p/p4b2/3Np3/4P3/5P2/R3K3 w Q - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146676505561007\"]\r\n\r\n{Les blancs ont deux prises possibles ici, laquelle est la meilleure ?} 1. Nxf5 {[%wrong Il y a un meilleur coup. Regardez les différentes options et réessayez.] [%hint Votre tour peut prendre un pion et votre cavalier peut prendre un fou. Laquelle de ces deux prises a le plus de sens ?]  Bien joué ! Les blancs gagnent du matériel et ont une excellente position !} (1. Rxa5 $2 {C'est bien d'avoir remarqué qu'il est possible de prendre un pion mais il y a mieux à faire. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/1p1n3p/6q1/1r6/7P/3Q2P1/5P2/5RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146790533505442\"]\r\n\r\n{Les blancs peuvent prendre une dame (9 points), une tour (5 points) ou un cavalier (3 points). Quelle est la meilleure option ? Faites attention et regardez les pièces des noires en défense !} 1. Qxb5 {[%wrong Il y a un meilleur coup. Cherchez une prise plus optimale.] [%hint La dame noire est défendue par un pion. Cherchez une capture plus intéressante.]  Bien joué ! Les blancs gagnent une tour nette (5 points) et ont une excellente position !} (1. Qxg6 $2 hxg6 {C'est un bon coup dans l'absolu mais les noirs peuvent reprendre, ce n'est donc qu'un échange équitable. Essayez plutôt de gagner une pièce noire gratuitement.}) (1. Qxd7 $2 {C'est bien d'avoir remarqué que le cavalier est en prise mais il y a mieux à faire. Réessayez.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/ppp2r1p/5r2/6q1/3Rb3/1P3N1P/2P3P1/6K1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2146792093091513\"]\r\n\r\n{Les blancs doivent envisager plusieurs prises ainsi que d'autres idées. Que devriez-vous jouer ?} 1. Rd8# {[%wrong Il y a un meilleur coup. Regardez touts les prises possibles et les échecs pour trouver le meilleur coup.] [%hint Faire échec et mat est mieux que de manger n'importe quelle pièce. Cherchez un échec et voyez s'il fait mat.]  Les blancs gagnent ! Mater est toujours le meilleur coup !} (1. Nxg5 $2 Bf5 {Cela gagne la dame mais les noirs ont déjà une avance matérielle. Tentez plutôt de mettre fin à la partie sur le champ !}) (1. Rxe4 $2 {Cela gagne du matériel mais les noirs ont déjà de l'avance. Tentez plutôt de mettre fin à la partie sur le champ.}) *"
+    ],
+    "isPathLesson": true,
+    "courseId": "cae69640-a556-11e8-9fa2-e50425638fa0",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Prenez les bonnes décisions en mémorisant la valeur des pièces.",
+    "outroText": "Vous êtes prêt à passer à l'étape supérieure.",
+    "locale": "fr_FR",
+    "videoDuration": 3,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "path": "jouer",
+      "title": "Jouez !",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/cae69640-a556-11e8-9fa2-e50425638fa0.6f70b58e.728x410o.3924271f36b9.png"
+    },
+    "parentId": "f40d4c26-ee1a-11ef-8ab4-cffad5dc0b15",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 14,
+    "order": 2,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "name": "Jouez !",
+      "path": "jouer",
+      "order": 1
+    }
+  }
+}

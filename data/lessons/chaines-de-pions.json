@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/lecture-de-l-echiquier/chaines-de-pions",
+  "capturedAt": "2026-10-22T12:23:43.011Z",
+  "title": "Les chaînes de pions",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent d4, la base de la chaîne de pions blanche. Comment défendre ce pion tout en ajoutant deux autres pions à notre chaîne ?",
+        "[%wrong Ce coup ne protège pas le pion d4 tout en allongeant notre chaîne de pions. Cherchez encore !][%hint Trouvez un coup de pion liant votre aile dame à votre chaîne de pions existante.] Excellent ! Vous avez maintenant une chaîne de pions allant de b2 à e5 et contrôlant toutes les cases importantes.",
+        "Ce coup crée une mini chaîne de pions f4-e5, mais abandonne le pion d4. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4\"]\r\n\r\n{Les noirs attaquent d4, la base de la chaîne de pions blanche. Comment défendre ce pion tout en ajoutant deux autres pions à notre chaîne ?}\r\n4.c3\r\n    {[%wrong Ce coup ne protège pas le pion d4 tout en allongeant notre chaîne de pions. Cherchez encore !][%hint Trouvez un coup de pion liant votre aile dame à votre chaîne de pions existante.] Excellent ! Vous avez maintenant une chaîne de pions allant de b2 à e5 et contrôlant toutes les cases importantes.}\r\n    (4.f4 $2 cxd4 {Ce coup crée une mini chaîne de pions f4-e5, mais abandonne le pion d4. Trouvez mieux !})"
+    },
+    {
+      "fen": "8/2p2kr1/p2p3p/P2Pp1p1/2P1Pp2/5P1P/2R3PK/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont deux chaînes de pions : c7-f4 et h6-f4. Quel est le meilleur moyen de les attaquer toutes les deux ?",
+        "[%wrong Ce coup n'attaque la chaîne de pions noire. Cherchez encore !][%hint Imaginez la puissance de votre tour si vous pouviez ouvrir la colonne c...]",
+        "Notez que les noirs ont deux faiblesses : les pions c7 et a6 non protégés. Mais dans cette ligne, ils ont largement le temps de les défendre tous les deux. Vous attaquez du mauvais côté de l'échiquier ! Cherchez encore.",
+        "Ce coup permet aux noirs d'activer leur tour. Trouvez un coup plus fort attaquant leur chaîne de pions !",
+        "Joli coup. Les blancs se préparent à attaquer les pions noirs faibles à l'aile dame. Essayez maintenant de trouver un moyen plus direct d'attaquer immédiatement la chaîne de pion sur l'aile dame. ",
+        "Formidable ! Les blancs attaquent d6 et se préparent à ouvrir la colonne c. A vous de jouer !",
+        "[%wrong Ce coup n'ouvre pas la colonne c. Cherchez encore !][%hint Comment ouvrir la colonne c pour la tour ?]",
+        "Joli ! La chaîne de pions adverse est désormais affaiblie. Gagnons du matériel grâce à une double attaque !",
+        "[%wrong Ce coup n'est pas une double attaque. Cherchez encore !][%hint Vous avez crée une faiblesse en d6. Attaquez-en une autre !] Bien vu ! Les noirs ne peuvent pas protéger à la fois a6 et d6, et vont donc perdre du matériel."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2p2kr1/p2p3p/P2Pp1p1/2P1Pp2/5P1P/2R3PK/8 w - - 0 1\"]\r\n\r\n{Les noirs ont deux chaînes de pions : c7-f4 et h6-f4. Quel est le meilleur moyen de les attaquer toutes les deux ?}\r\n1.c5\r\n    {[%wrong Ce coup n'attaque la chaîne de pions noire. Cherchez encore !][%hint Imaginez la puissance de votre tour si vous pouviez ouvrir la colonne c...]}\r\n    (1.g3 $2 Rg8 {Notez que les noirs ont deux faiblesses : les pions c7 et a6 non protégés. Mais dans cette ligne, ils ont largement le temps de les défendre tous les deux. Vous attaquez du mauvais côté de l'échiquier ! Cherchez encore.})\r\n    (1.h4 $2 gxh4 {Ce coup permet aux noirs d'activer leur tour. Trouvez un coup plus fort attaquant leur chaîne de pions !})\r\n    (1.Rb2 $5 {Joli coup. Les blancs se préparent à attaquer les pions noirs faibles à l'aile dame. Essayez maintenant de trouver un moyen plus direct d'attaquer immédiatement la chaîne de pion sur l'aile dame. })\r\n1...h5\r\n    {Formidable ! Les blancs attaquent d6 et se préparent à ouvrir la colonne c. A vous de jouer !}\r\n2.cxd6\r\n    {[%wrong Ce coup n'ouvre pas la colonne c. Cherchez encore !][%hint Comment ouvrir la colonne c pour la tour ?]}\r\n2...cxd6\r\n    {Joli ! La chaîne de pions adverse est désormais affaiblie. Gagnons du matériel grâce à une double attaque !}\r\n3.Rc6\r\n    {[%wrong Ce coup n'est pas une double attaque. Cherchez encore !][%hint Vous avez crée une faiblesse en d6. Attaquez-en une autre !] Bien vu ! Les noirs ne peuvent pas protéger à la fois a6 et d6, et vont donc perdre du matériel.}"
+    },
+    {
+      "fen": "1r1q1rk1/p4pp1/2n1bb1p/1p1p4/2pP4/1PN1P1P1/P1N1QPBP/1R3RK1 b - - 0 18",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer b3 pour attaquer c4, mais ils ne protègent plus c3. Trouvez comment gagner du temps en attaquant une pièce tout en construisant une nouvelle chaîne de pions en territoire ennemi !",
+        "[%wrong Bien essayé, mais ce coup n'attaque pas une pièce blanche tout en préparant la construction d'une nouvelle chaîne de pions. Cherchez encore !][%hint Avancez un pion en territoire blanc tout en attaquant une pièce.]",
+        "Bien essayé, mais il est préférable de garder le pion c3 sur l'échiquier, car il va bientôt pouvoir aller en c3 et devenir le fer de lance de notre nouvelle chaîne de pions. Cherchez encore !",
+        "Beau travail ! Les noirs gagnent un tempo sur le cavalier blanc et prennent de l'espace. Comment continuer à envahir le camp adverse en créant une chaîne de pions en territoire ennemi ?",
+        "[%wrong Ce coup ne permet pas de gagner de l'espace en territoire blanc. Cherchez encore !][%hint Vous avez mis un pion en b4. Peut-il désormais soutenir la poussée d'un autre pion pour créer une solide chaîne de pions ?]",
+        "Joli ! Vous avez installé votre chaîne des pions en territoire blanc. Les blancs l'attaquent maintenant par a3. Ajoutez un troisième larron à la chaîne pour protéger b4 !",
+        "[%wrong Non, nous voulons protéger b4 avec un pion !][%hint Votre pion b4 est attaqué. Défendez-le avec un autre pion !] Impressionnant ! Vous avez construit une jolie chaîne de pions dans le camp adverse. Les noirs ont une position très confortable.",
+        "La chaîne de pions noire est cassée, et nous nous retrouvons avec un pion faible en c3... Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1q1rk1/p4pp1/2n1bb1p/1p1p4/2pP4/1PN1P1P1/P1N1QPBP/1R3RK1 b - - 0 18\"]\r\n\r\n{Les blancs viennent de jouer b3 pour attaquer c4, mais ils ne protègent plus c3. Trouvez comment gagner du temps en attaquant une pièce tout en construisant une nouvelle chaîne de pions en territoire ennemi !}\r\n18...b4\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas une pièce blanche tout en préparant la construction d'une nouvelle chaîne de pions. Cherchez encore !][%hint Avancez un pion en territoire blanc tout en attaquant une pièce.]}\r\n    (18...cxb3 $2 19.axb3 {Bien essayé, mais il est préférable de garder le pion c3 sur l'échiquier, car il va bientôt pouvoir aller en c3 et devenir le fer de lance de notre nouvelle chaîne de pions. Cherchez encore !})\r\n19.Na4\r\n    {Beau travail ! Les noirs gagnent un tempo sur le cavalier blanc et prennent de l'espace. Comment continuer à envahir le camp adverse en créant une chaîne de pions en territoire ennemi ?}\r\n19...c3\r\n    {[%wrong Ce coup ne permet pas de gagner de l'espace en territoire blanc. Cherchez encore !][%hint Vous avez mis un pion en b4. Peut-il désormais soutenir la poussée d'un autre pion pour créer une solide chaîne de pions ?]}\r\n20.a3\r\n    {Joli ! Vous avez installé votre chaîne des pions en territoire blanc. Les blancs l'attaquent maintenant par a3. Ajoutez un troisième larron à la chaîne pour protéger b4 !}\r\n20...a5\r\n    {[%wrong Non, nous voulons protéger b4 avec un pion !][%hint Votre pion b4 est attaqué. Défendez-le avec un autre pion !] Impressionnant ! Vous avez construit une jolie chaîne de pions dans le camp adverse. Les noirs ont une position très confortable.}\r\n    (20...bxa3 $2 21.Nxa3 {La chaîne de pions noire est cassée, et nous nous retrouvons avec un pion faible en c3... Trouvez mieux !})"
+    },
+    {
+      "fen": "8/1p2r1kp/4p1p1/b2pPp2/p1pP1P2/2P3P1/PP2BR1P/6K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont un avantage d'espace à l'aile dame et veulent s'en prendre à la chaîne de pions b2-e5 des blancs. Trouvez le meilleur coup !",
+        "[%wrong Ce coup n'attaque pas la chaîne de pions blanche. Cherchez encore !][%hint Comment attaquer la base de la chaîne b2-e5 ?]",
+        "Belle idée, mais les blancs peuvent fermer l'aile dame avant que vous n’ayez pu jouer ...b4. Trouvez mieux !",
+        "Joliment fait ! Les noirs attaquent la base de la chaîne de pions blanche. Si les blancs prennent a3, nous avons ...Fxc3. Les blancs tentent donc de défendre le pion b2 avec la tour. Détruisons leur chaîne de pions !",
+        "[%wrong Ce coup ne détruit pas la chaîne de pions blanche. Cherchez encore !][%hint Prenez le pion de base de la chaîne !]",
+        "La chaîne de pions blanche commence à s'effondrer ! Maintenant que le pion b2 n'est plus de la partie, continuons notre travail de sape !",
+        "[%wrong Ce coup ne prend pas la nouvelle base de la chaîne de pions blanche. Cherchez encore !][%hint Où est la nouvelle base de la chaîne de pions blanche ? Est-elle prenable ?] Parfait ! Les noirs prennent un pion et font une fourchette sur la tour blanche et le pion d4. La chaîne de pions blanche va partir en fumée, et la victoire est dans la poche !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p2r1kp/4p1p1/b2pPp2/p1pP1P2/2P3P1/PP2BR1P/6K1 b - - 0 1\"]\r\n\r\n{Les noirs ont un avantage d'espace à l'aile dame et veulent s'en prendre à la chaîne de pions b2-e5 des blancs. Trouvez le meilleur coup !}\r\n1...a3\r\n    {[%wrong Ce coup n'attaque pas la chaîne de pions blanche. Cherchez encore !][%hint Comment attaquer la base de la chaîne b2-e5 ?]}\r\n    (1...b5 $2 2.a3 {Belle idée, mais les blancs peuvent fermer l'aile dame avant que vous n’ayez pu jouer ...b4. Trouvez mieux !})\r\n2.Bd1\r\n    {Joliment fait ! Les noirs attaquent la base de la chaîne de pions blanche. Si les blancs prennent a3, nous avons ...Fxc3. Les blancs tentent donc de défendre le pion b2 avec la tour. Détruisons leur chaîne de pions !}\r\n2...axb2\r\n    {[%wrong Ce coup ne détruit pas la chaîne de pions blanche. Cherchez encore !][%hint Prenez le pion de base de la chaîne !]}\r\n3.Rxb2\r\n    {La chaîne de pions blanche commence à s'effondrer ! Maintenant que le pion b2 n'est plus de la partie, continuons notre travail de sape !}\r\n3...Bxc3\r\n    {[%wrong Ce coup ne prend pas la nouvelle base de la chaîne de pions blanche. Cherchez encore !][%hint Où est la nouvelle base de la chaîne de pions blanche ? Est-elle prenable ?] Parfait ! Les noirs prennent un pion et font une fourchette sur la tour blanche et le pion d4. La chaîne de pions blanche va partir en fumée, et la victoire est dans la poche !}"
+    },
+    {
+      "fen": "2r2rk1/1p1b1pbp/p1n1p1p1/3pP3/3P4/1P3N1P/1P1NBPP1/2R2RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La chaîne de pions d4-e5 des blancs bloque la position noire. Comment attaquer cette chaîne et desserrer l'étau ?",
+        "[%wrong Ce coup n'attaque pas le fort centre de pions blanc. Cherchez encore !][%hint Le fou de cases noires est prêt à soutenir une attaque contre le pion adverse le plus avancée...]",
+        "Détruire la chaîne blanche de cette manière donne un contre jeu raisonnable pour la pièce sacrifiée. Mais il existe un autre moyen de l'attaquer sans sacrifier de matériel. Trouvez-le !",
+        "Bien vu ! Les noirs attaquent le fer de lance de la position blanche et forcent la création d'un pion isolé. Comment reprendre en f6 de manière active ?",
+        "[%wrong Ce coup ne prend pas le pion f6 tout en attaquant la faiblesse d4 des blancs. Cherchez encore !][%hint Quelle pièce peut simultanément prendre le pion f6 et attaquer d4 ?] Beau travail ! Le fou de cases noires se joint au cavalier pour attaquer le pion faible d4. Les noirs ont une très bonne position, car ce pion va tomber au prochain coup."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/1p1b1pbp/p1n1p1p1/3pP3/3P4/1P3N1P/1P1NBPP1/2R2RK1 b - - 0 1\"]\r\n\r\n{La chaîne de pions d4-e5 des blancs bloque la position noire. Comment attaquer cette chaîne et desserrer l'étau ?}\r\n1...f6\r\n    {[%wrong Ce coup n'attaque pas le fort centre de pions blanc. Cherchez encore !][%hint Le fou de cases noires est prêt à soutenir une attaque contre le pion adverse le plus avancée...]}\r\n    (1...Nxd4 $6 2.Nxd4 {Détruire la chaîne blanche de cette manière donne un contre jeu raisonnable pour la pièce sacrifiée. Mais il existe un autre moyen de l'attaquer sans sacrifier de matériel. Trouvez-le !})\r\n2.exf6\r\n    {Bien vu ! Les noirs attaquent le fer de lance de la position blanche et forcent la création d'un pion isolé. Comment reprendre en f6 de manière active ?}\r\n2...Bxf6\r\n    {[%wrong Ce coup ne prend pas le pion f6 tout en attaquant la faiblesse d4 des blancs. Cherchez encore !][%hint Quelle pièce peut simultanément prendre le pion f6 et attaquer d4 ?] Beau travail ! Le fou de cases noires se joint au cavalier pour attaquer le pion faible d4. Les noirs ont une très bonne position, car ce pion va tomber au prochain coup.}"
+    },
+    {
+      "fen": "6k1/p2r1pp1/2p2n1p/8/5q2/2PB4/2Pr1PPP/R1Q2RK1 w - - 0 24",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La tour d2 a des problèmes ! Attaquez son unique défenseur (la dame noire) tout en construisant une chaîne de pions.",
+        "[%wrong Ce coup n'attaque pas efficacement la dame noire. Cherchez encore !][%hint Trouvez un coup de pion attaquant la dame adverse.]",
+        "Parfait ! La dame noire se rend sur la seule case d'où elle peut continuer à défendre la tour d2. Quel est le meilleur moyen de continuer à l'attaquer pour gagner du matériel ?",
+        "[%wrong Ce coup n'attaque pas efficacement la dame noire. Cherchez encore !][%hint Attaquez la dame noire avec votre chaîne de pions sans pour autant ouvrir une diagonale importante vers votre roi...] Excellent travail ! Les blancs construisent une chaîne de pion f2-h4 et, plus important encore, gagnent la tour d2.",
+        "Après Rh1, les noirs vont mater en force en enchaînant par ...Dd5+. C'est la bonne idée, mais pas la bonne exécution. Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p2r1pp1/2p2n1p/8/5q2/2PB4/2Pr1PPP/R1Q2RK1 w - - 0 24\"]\r\n\r\n{La tour d2 a des problèmes ! Attaquez son unique défenseur (la dame noire) tout en construisant une chaîne de pions.}\r\n24.g3\r\n    {[%wrong Ce coup n'attaque pas efficacement la dame noire. Cherchez encore !][%hint Trouvez un coup de pion attaquant la dame adverse.]}\r\n24...Qg5\r\n    {Parfait ! La dame noire se rend sur la seule case d'où elle peut continuer à défendre la tour d2. Quel est le meilleur moyen de continuer à l'attaquer pour gagner du matériel ?}\r\n25.h4\r\n    {[%wrong Ce coup n'attaque pas efficacement la dame noire. Cherchez encore !][%hint Attaquez la dame noire avec votre chaîne de pions sans pour autant ouvrir une diagonale importante vers votre roi...] Excellent travail ! Les blancs construisent une chaîne de pion f2-h4 et, plus important encore, gagnent la tour d2.}\r\n    (25.f4 $2 Qc5+ {Après Rh1, les noirs vont mater en force en enchaînant par ...Dd5+. C'est la bonne idée, mais pas la bonne exécution. Cherchez encore !})"
+    }
+  ],
+  "sourceLesson": {
+    "id": "2bd5024e-9ceb-11e8-b13a-91793f33d3bc",
+    "name": "Les chaînes de pions",
+    "path": "chaines-de-pions",
+    "description": "Un groupe de pions qui s’entre-protège le long d’une diagonale est appelé une « chaîne de pions ». Son seul membre non protégé est à la base. Les chaînes de pions permettent de restreindre le mouvement des pièces adverses et de soutenir la poussée en finale.",
+    "glyphName": "piece-pawn-chain",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-pawn-chains-y8c.mp4",
+    "fen": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4\"]\r\n\r\n{Les noirs attaquent d4, la base de la chaîne de pions blanche. Comment défendre ce pion tout en ajoutant deux autres pions à notre chaîne ?}\r\n4.c3\r\n    {[%wrong Ce coup ne protège pas le pion d4 tout en allongeant notre chaîne de pions. Cherchez encore !][%hint Trouvez un coup de pion liant votre aile dame à votre chaîne de pions existante.] Excellent ! Vous avez maintenant une chaîne de pions allant de b2 à e5 et contrôlant toutes les cases importantes.}\r\n    (4.f4 $2 cxd4 {Ce coup crée une mini chaîne de pions f4-e5, mais abandonne le pion d4. Trouvez mieux !})",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2p2kr1/p2p3p/P2Pp1p1/2P1Pp2/5P1P/2R3PK/8 w - - 0 1\"]\r\n\r\n{Les noirs ont deux chaînes de pions : c7-f4 et h6-f4. Quel est le meilleur moyen de les attaquer toutes les deux ?}\r\n1.c5\r\n    {[%wrong Ce coup n'attaque la chaîne de pions noire. Cherchez encore !][%hint Imaginez la puissance de votre tour si vous pouviez ouvrir la colonne c...]}\r\n    (1.g3 $2 Rg8 {Notez que les noirs ont deux faiblesses : les pions c7 et a6 non protégés. Mais dans cette ligne, ils ont largement le temps de les défendre tous les deux. Vous attaquez du mauvais côté de l'échiquier ! Cherchez encore.})\r\n    (1.h4 $2 gxh4 {Ce coup permet aux noirs d'activer leur tour. Trouvez un coup plus fort attaquant leur chaîne de pions !})\r\n    (1.Rb2 $5 {Joli coup. Les blancs se préparent à attaquer les pions noirs faibles à l'aile dame. Essayez maintenant de trouver un moyen plus direct d'attaquer immédiatement la chaîne de pion sur l'aile dame. })\r\n1...h5\r\n    {Formidable ! Les blancs attaquent d6 et se préparent à ouvrir la colonne c. A vous de jouer !}\r\n2.cxd6\r\n    {[%wrong Ce coup n'ouvre pas la colonne c. Cherchez encore !][%hint Comment ouvrir la colonne c pour la tour ?]}\r\n2...cxd6\r\n    {Joli ! La chaîne de pions adverse est désormais affaiblie. Gagnons du matériel grâce à une double attaque !}\r\n3.Rc6\r\n    {[%wrong Ce coup n'est pas une double attaque. Cherchez encore !][%hint Vous avez crée une faiblesse en d6. Attaquez-en une autre !] Bien vu ! Les noirs ne peuvent pas protéger à la fois a6 et d6, et vont donc perdre du matériel.}",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r1q1rk1/p4pp1/2n1bb1p/1p1p4/2pP4/1PN1P1P1/P1N1QPBP/1R3RK1 b - - 0 18\"]\r\n\r\n{Les blancs viennent de jouer b3 pour attaquer c4, mais ils ne protègent plus c3. Trouvez comment gagner du temps en attaquant une pièce tout en construisant une nouvelle chaîne de pions en territoire ennemi !}\r\n18...b4\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas une pièce blanche tout en préparant la construction d'une nouvelle chaîne de pions. Cherchez encore !][%hint Avancez un pion en territoire blanc tout en attaquant une pièce.]}\r\n    (18...cxb3 $2 19.axb3 {Bien essayé, mais il est préférable de garder le pion c3 sur l'échiquier, car il va bientôt pouvoir aller en c3 et devenir le fer de lance de notre nouvelle chaîne de pions. Cherchez encore !})\r\n19.Na4\r\n    {Beau travail ! Les noirs gagnent un tempo sur le cavalier blanc et prennent de l'espace. Comment continuer à envahir le camp adverse en créant une chaîne de pions en territoire ennemi ?}\r\n19...c3\r\n    {[%wrong Ce coup ne permet pas de gagner de l'espace en territoire blanc. Cherchez encore !][%hint Vous avez mis un pion en b4. Peut-il désormais soutenir la poussée d'un autre pion pour créer une solide chaîne de pions ?]}\r\n20.a3\r\n    {Joli ! Vous avez installé votre chaîne des pions en territoire blanc. Les blancs l'attaquent maintenant par a3. Ajoutez un troisième larron à la chaîne pour protéger b4 !}\r\n20...a5\r\n    {[%wrong Non, nous voulons protéger b4 avec un pion !][%hint Votre pion b4 est attaqué. Défendez-le avec un autre pion !] Impressionnant ! Vous avez construit une jolie chaîne de pions dans le camp adverse. Les noirs ont une position très confortable.}\r\n    (20...bxa3 $2 21.Nxa3 {La chaîne de pions noire est cassée, et nous nous retrouvons avec un pion faible en c3... Trouvez mieux !})",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p2r1kp/4p1p1/b2pPp2/p1pP1P2/2P3P1/PP2BR1P/6K1 b - - 0 1\"]\r\n\r\n{Les noirs ont un avantage d'espace à l'aile dame et veulent s'en prendre à la chaîne de pions b2-e5 des blancs. Trouvez le meilleur coup !}\r\n1...a3\r\n    {[%wrong Ce coup n'attaque pas la chaîne de pions blanche. Cherchez encore !][%hint Comment attaquer la base de la chaîne b2-e5 ?]}\r\n    (1...b5 $2 2.a3 {Belle idée, mais les blancs peuvent fermer l'aile dame avant que vous n’ayez pu jouer ...b4. Trouvez mieux !})\r\n2.Bd1\r\n    {Joliment fait ! Les noirs attaquent la base de la chaîne de pions blanche. Si les blancs prennent a3, nous avons ...Fxc3. Les blancs tentent donc de défendre le pion b2 avec la tour. Détruisons leur chaîne de pions !}\r\n2...axb2\r\n    {[%wrong Ce coup ne détruit pas la chaîne de pions blanche. Cherchez encore !][%hint Prenez le pion de base de la chaîne !]}\r\n3.Rxb2\r\n    {La chaîne de pions blanche commence à s'effondrer ! Maintenant que le pion b2 n'est plus de la partie, continuons notre travail de sape !}\r\n3...Bxc3\r\n    {[%wrong Ce coup ne prend pas la nouvelle base de la chaîne de pions blanche. Cherchez encore !][%hint Où est la nouvelle base de la chaîne de pions blanche ? Est-elle prenable ?] Parfait ! Les noirs prennent un pion et font une fourchette sur la tour blanche et le pion d4. La chaîne de pions blanche va partir en fumée, et la victoire est dans la poche !}",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/1p1b1pbp/p1n1p1p1/3pP3/3P4/1P3N1P/1P1NBPP1/2R2RK1 b - - 0 1\"]\r\n\r\n{La chaîne de pions d4-e5 des blancs bloque la position noire. Comment attaquer cette chaîne et desserrer l'étau ?}\r\n1...f6\r\n    {[%wrong Ce coup n'attaque pas le fort centre de pions blanc. Cherchez encore !][%hint Le fou de cases noires est prêt à soutenir une attaque contre le pion adverse le plus avancée...]}\r\n    (1...Nxd4 $6 2.Nxd4 {Détruire la chaîne blanche de cette manière donne un contre jeu raisonnable pour la pièce sacrifiée. Mais il existe un autre moyen de l'attaquer sans sacrifier de matériel. Trouvez-le !})\r\n2.exf6\r\n    {Bien vu ! Les noirs attaquent le fer de lance de la position blanche et forcent la création d'un pion isolé. Comment reprendre en f6 de manière active ?}\r\n2...Bxf6\r\n    {[%wrong Ce coup ne prend pas le pion f6 tout en attaquant la faiblesse d4 des blancs. Cherchez encore !][%hint Quelle pièce peut simultanément prendre le pion f6 et attaquer d4 ?] Beau travail ! Le fou de cases noires se joint au cavalier pour attaquer le pion faible d4. Les noirs ont une très bonne position, car ce pion va tomber au prochain coup.}",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/p2r1pp1/2p2n1p/8/5q2/2PB4/2Pr1PPP/R1Q2RK1 w - - 0 24\"]\r\n\r\n{La tour d2 a des problèmes ! Attaquez son unique défenseur (la dame noire) tout en construisant une chaîne de pions.}\r\n24.g3\r\n    {[%wrong Ce coup n'attaque pas efficacement la dame noire. Cherchez encore !][%hint Trouvez un coup de pion attaquant la dame adverse.]}\r\n24...Qg5\r\n    {Parfait ! La dame noire se rend sur la seule case d'où elle peut continuer à défendre la tour d2. Quel est le meilleur moyen de continuer à l'attaquer pour gagner du matériel ?}\r\n25.h4\r\n    {[%wrong Ce coup n'attaque pas efficacement la dame noire. Cherchez encore !][%hint Attaquez la dame noire avec votre chaîne de pions sans pour autant ouvrir une diagonale importante vers votre roi...] Excellent travail ! Les blancs construisent une chaîne de pion f2-h4 et, plus important encore, gagnent la tour d2.}\r\n    (25.f4 $2 Qc5+ {Après Rh1, les noirs vont mater en force en enchaînant par ...Dd5+. C'est la bonne idée, mais pas la bonne exécution. Cherchez encore !})"
+    ],
+    "isPathLesson": true,
+    "courseId": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Quelle formation vos pions devraient-ils adopter ?",
+    "outroText": "Beau travail. Une chaine de pions saine est souvent indispensable pour permettre aux pièces de s'exprimer.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "path": "lecture-de-l-echiquier",
+      "title": "Lecture de l'échiquier",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/346efa28-a55a-11e8-87ab-eb3d1fefd4e2.07e448f1.728x410o.a0bbcabbc031.png"
+    },
+    "parentId": "100ee5dc-83ac-11e8-969e-ad8a8295f4da",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-chains5d1256eee19c7.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-chains-56688561b8c867.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-chains-15ea2410d50a1e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/pawn-chains-26149f955d75f0.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 80,
+    "order": 2,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "346efa28-a55a-11e8-87ab-eb3d1fefd4e2",
+      "name": "Lecture de l'échiquier",
+      "path": "lecture-de-l-echiquier",
+      "order": 5
+    }
+  }
+}

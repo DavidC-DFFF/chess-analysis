@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/percer-les-defenses-adverses",
+  "capturedAt": "2026-10-22T12:23:47.491Z",
+  "title": "Percer les défenses adverses",
+  "exercises": [
+    {
+      "fen": "8/8/2pp4/8/1P1P4/6k1/8/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi noir domine son vis-à-vis et s'apprête à ramasser tous ses pions. Sauvez le camp blanc grâce à une percée !",
+        "[%wrong Bien essayé, mais ce coup n'est pas une percée. Créons un pion passé !][%hint Quel coup force la création d'un pion passé ?]",
+        "C'est la bonne idée, mais pas le bon pion ! Dans cette variante, ce sont les noirs qui obtiennent un pion passé. Cherchez encore !",
+        "Bien vu ! Les blancs sacrifient un pion pour créer un passeur. Quelle est la manière la plus simple de gagner ?",
+        "[%wrong Oups, ce coup perd la partie. Ne sacrifiez pas votre pion c pour rien !][%hint Le pion d5 n'est qu'à trois cases de la promotion. Libérez lui la voie !]",
+        "Cette idée fonctionne également avec un jeu très précis. Notez que dans cette variante, si les blancs font dame en premier, les noirs promeuvent au coup d'après en faisant mat ! Il faudra inclure quelques coups de roi pour l'emporter. Trouvez un gain plus simple !",
+        "Bien joué ! Vous avez trouvé la poussée gagnante. Filez à dame !",
+        "[%wrong Ce coup ne rapproche pas votre pion passé de la promotion. Essayez encore !][%hint Poussez le pion !] Parfait ! Le pion blanc va se transformer en dame dans deux coups et pourra ensuite ramasser sans peine le pion noir !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2pp4/8/1P1P4/6k1/8/6K1 w - - 0 1\"]\r\n\r\n{Le roi noir domine son vis-à-vis et s'apprête à ramasser tous ses pions. Sauvez le camp blanc grâce à une percée !}\r\n1.d5\r\n    {[%wrong Bien essayé, mais ce coup n'est pas une percée. Créons un pion passé !][%hint Quel coup force la création d'un pion passé ?]}\r\n    (1.b5 $2 cxb5 {C'est la bonne idée, mais pas le bon pion ! Dans cette variante, ce sont les noirs qui obtiennent un pion passé. Cherchez encore !})\r\n1...c5\r\n    {Bien vu ! Les blancs sacrifient un pion pour créer un passeur. Quelle est la manière la plus simple de gagner ?}\r\n2.bxc5\r\n    {[%wrong Oups, ce coup perd la partie. Ne sacrifiez pas votre pion c pour rien !][%hint Le pion d5 n'est qu'à trois cases de la promotion. Libérez lui la voie !]}\r\n    (2.b5 $5 c4 {Cette idée fonctionne également avec un jeu très précis. Notez que dans cette variante, si les blancs font dame en premier, les noirs promeuvent au coup d'après en faisant mat ! Il faudra inclure quelques coups de roi pour l'emporter. Trouvez un gain plus simple !})\r\n2...dxc5\r\n    {Bien joué ! Vous avez trouvé la poussée gagnante. Filez à dame !}\r\n3.d6\r\n    {[%wrong Ce coup ne rapproche pas votre pion passé de la promotion. Essayez encore !][%hint Poussez le pion !] Parfait ! Le pion blanc va se transformer en dame dans deux coups et pourra ensuite ramasser sans peine le pion noir !}\r\n*"
+    },
+    {
+      "fen": "8/2k2b2/8/8/1p6/p4P2/P4K2/2N5 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Le cavalier blanc défend ses pions et empêche les nôtres d'avancer. Il est temps de percer !",
+        "[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Trouvez un sacrifice créant deux pions passés pour les noirs.]",
+        "Bien vu ! Les noirs sacrifient leur fou pour percer. Il est temps de pousser le pion !",
+        "[%wrong Non, il faut pousser le pion !][%hint Poussez le pion !]",
+        "C'est parti ! Faites bien attention avant de pousser à nouveau un pion...",
+        "[%wrong Nous devons choisir entre deux coups de pions. Trouvez le meilleur !][%hint Un coup de pion gagne, l'autre perd. Soyez prudent !]",
+        "Les blancs sont sauvés par une fourchette. Ils vont maintenant prendre un pion passé et empêcher l'autre d'avancer. Cherchez encore !",
+        "Superbe ! Finissions le travail avec un coup précis.",
+        "[%wrong Les noirs ne peuvent gagner qu'en jouant un coup de pion, cherchez encore !][%hint Un coup de pion gagne, l'autre perd. Soyez prudent !] Bien joué ! Le pion file à dame et les noirs vont l'emporter facilement.",
+        "Oups ! Les noirs gagnent ! Essayez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2k2b2/8/8/1p6/p4P2/P4K2/2N5 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Le cavalier blanc défend ses pions et empêche les nôtres d'avancer. Il est temps de percer !}\r\n1...Bxa2\r\n    {[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Trouvez un sacrifice créant deux pions passés pour les noirs.]}\r\n2.Nxa2\r\n    {Bien vu ! Les noirs sacrifient leur fou pour percer. Il est temps de pousser le pion !}\r\n2...b3\r\n    {[%wrong Non, il faut pousser le pion !][%hint Poussez le pion !]}\r\n3.Nc3\r\n    {C'est parti ! Faites bien attention avant de pousser à nouveau un pion...}\r\n3...a2\r\n    {[%wrong Nous devons choisir entre deux coups de pions. Trouvez le meilleur !][%hint Un coup de pion gagne, l'autre perd. Soyez prudent !]}\r\n    (3...b2 $2 4.Nb5+ {Les blancs sont sauvés par une fourchette. Ils vont maintenant prendre un pion passé et empêcher l'autre d'avancer. Cherchez encore !})\r\n4.Nxa2\r\n    {Superbe ! Finissions le travail avec un coup précis.}\r\n4...bxa2\r\n    {[%wrong Les noirs ne peuvent gagner qu'en jouant un coup de pion, cherchez encore !][%hint Un coup de pion gagne, l'autre perd. Soyez prudent !] Bien joué ! Le pion file à dame et les noirs vont l'emporter facilement.}\r\n    (4...b2 $2 5.Nc3 {Oups ! Les noirs gagnent ! Essayez encore.})\r\n*"
+    },
+    {
+      "fen": "8/1kp5/8/1P1P2p1/K6p/6PP/5P2/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs ont deux pions de plus, mais c'est sans compter sur notre percée ! A vous de jouer.",
+        "[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]",
+        "Oups, dans cette variante, ce sont les blancs qui obtiennent un pion passé. Cherchez encore !",
+        "Ce coup perd un pion. Cherchez encore !",
+        "Bien essayé, mais n'oubliez pas la prise en passant !",
+        "Parfait ! Poussons maintenant notre pion passé !",
+        "[%wrong Ce coup ne crée pas un pion passé. Cherchez encore !][%hint Nous avons forcé le pion h3 à bouger. Profitez-en !] Et voilà ! Les défenses blanches sont débordées, et notre position est gagnante !",
+        "Nous voulons envoyer notre pion à dame, pas l'échanger. Cherchez encore.",
+        "Ce coup perd un pion. Cherchez encore !",
+        "N'oubliez pas la prise en passant... Jetez un coup d’œil à l'autre côté de l'échiquier !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1kp5/8/1P1P2p1/K6p/6PP/5P2/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont deux pions de plus, mais c'est sans compter sur notre percée ! A vous de jouer.}\r\n1...g4\r\n    {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n    (1...hxg3 $2 2.fxg3 {Oups, dans cette variante, ce sont les blancs qui obtiennent un pion passé. Cherchez encore !})\r\n    (1...c6 $2 2.dxc6+ {Ce coup perd un pion. Cherchez encore !})\r\n    (1...c5 $2 2.dxc6+ {Bien essayé, mais n'oubliez pas la prise en passant !})\r\n2.hxg4\r\n    {Parfait ! Poussons maintenant notre pion passé !}\r\n2...h3\r\n    {[%wrong Ce coup ne crée pas un pion passé. Cherchez encore !][%hint Nous avons forcé le pion h3 à bouger. Profitez-en !] Et voilà ! Les défenses blanches sont débordées, et notre position est gagnante !}\r\n    (2...hxg3 $2 3.fxg3 {Nous voulons envoyer notre pion à dame, pas l'échanger. Cherchez encore.})\r\n    (2...c6 $2 3.dxc6+ {Ce coup perd un pion. Cherchez encore !})\r\n    (2...c5 $2 3.dxc6+ {N'oubliez pas la prise en passant... Jetez un coup d’œil à l'autre côté de l'échiquier !})\r\n*"
+    },
+    {
+      "fen": "8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Difficile d'imaginer que les noirs puissent gagner cette position, et pourtant... Trouvez la percée de pion gagnante !",
+        "[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]",
+        "C'est la bonne idée, mais pas le bon pion ! Dans cette variante, ce sont les blancs qui obtiennent un pion passé. Et si nous jouons ensuite ...c4, ils pourront répondre par b3!, empêchant toute avancée.",
+        "Beau boulot ! Le pion b3 a flanché, profitions-en pour forcer la création d'un pion passé.",
+        "[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le pion sans vis-à-vis...] Bien joué ! Les noirs vont pouvoir jouer ...a3 au prochain coup. La position est gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1\"]\r\n\r\n{Difficile d'imaginer que les noirs puissent gagner cette position, et pourtant... Trouvez la percée de pion gagnante !}\r\n1...c4\r\n  {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n    (1...a4 $2 2.bxa4 {C'est la bonne idée, mais pas le bon pion ! Dans cette variante, ce sont les blancs qui obtiennent un pion passé. Et si nous jouons ensuite ...c4, ils pourront répondre par b3!, empêchant toute avancée.})\r\n2.bxc4\r\n    {Beau boulot ! Le pion b3 a flanché, profitions-en pour forcer la création d'un pion passé.}\r\n2...a4\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le pion sans vis-à-vis...] Bien joué ! Les noirs vont pouvoir jouer ...a3 au prochain coup. La position est gagnante.}\r\n*"
+    },
+    {
+      "fen": "8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Jouons à nouveau cette percée gagnante !",
+        "[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]",
+        "Cette fois, les blancs prennent du pion d. Comment continuer ?",
+        "[%wrong Ce n'est pas un coup de pion gagnant. Cherchez encore !][%hint Quel coup libère la case b3 ?]",
+        "Ce coup de roi fonctionne également, mais seulement combiné à une percée au prochain coup. Jouons plutôt la percée tout de suite !",
+        "Bien joué ! Maintenant que la case b3 est libre, les noirs peuvent créer un pion passé. Jouez le coup juste !",
+        "[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le bon pion !]",
+        "Dans cette variante, ce sont les blancs qui obtiennent un pion passé... Cherchez encore !",
+        "Formidable, les blancs ont trois pions de plus, mais le notre est plus rapide. Filez à dame !",
+        "[%wrong Poussez le pion passé !][%hint Poussez le pion passé !] Cette percée était complexe, mais vous en avez saisi les rouages. Bravo !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Jouons à nouveau cette percée gagnante !}\r\n1...c4\r\n   {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n2.dxc4\r\n    {Cette fois, les blancs prennent du pion d. Comment continuer ?}\r\n2...a4\r\n    {[%wrong Ce n'est pas un coup de pion gagnant. Cherchez encore !][%hint Quel coup libère la case b3 ?]}\r\n    (2...Kc5 $5 {Ce coup de roi fonctionne également, mais seulement combiné à une percée au prochain coup. Jouons plutôt la percée tout de suite !})\r\n3.bxa4\r\n    {Bien joué ! Maintenant que la case b3 est libre, les noirs peuvent créer un pion passé. Jouez le coup juste !}\r\n3...b3\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le bon pion !]}\r\n    (3...d3 $2 4.cxd3 {Dans cette variante, ce sont les blancs qui obtiennent un pion passé... Cherchez encore !})\r\n4.cxb3\r\n    {Formidable, les blancs ont trois pions de plus, mais le notre est plus rapide. Filez à dame !}\r\n4...d3\r\n    {[%wrong Poussez le pion passé !][%hint Poussez le pion passé !] Cette percée était complexe, mais vous en avez saisi les rouages. Bravo !}\r\n*"
+    },
+    {
+      "fen": "8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Intéressons-nous maintenant à la défense la plus tenace des blancs. Commençons à nouveau par le coup initiateur de la percée !",
+        "[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]",
+        "Les blancs compliquent la position en refusant le sacrifice et en attaquant le pion d4. Essayez de trouver la percée gagnante dans cette position complexe. N'oubliez pas de demander un indice si nécessaire !",
+        "[%wrong Il ne s'agit pas d'une percée gagnante. Cherchez encore !][%hint Poussez le pion sans vis-à-vis...]",
+        "Ce coup prudent est également gagnant avec un jeu précis, mais concentrons-nous sur le coup de pion gagnant !",
+        "Bonne idée. Dans cette variante, nous sommes également gagnants grâce à l'idée ...a4. Pourquoi ne pas jouer ce coup tout de suite ?",
+        "Bien essayé, mais cette variante ne nous permet pas de faire passer un pion. Cherchez encore !",
+        "Beau travail ! Sur bxa4, nous avons la puissante réponse ...b3! qui force la percée. Par conséquent, les blancs prennent le pion d4. Pour gagner, il faut maintenant attaquer le pion b2. Mais comment ?",
+        "[%wrong Ce coup n'attaque pas le pion b2. Cherchez encore !][%hint Attaquez le pion b2 en empêchant le roi blanc d'accéder à la case c3 !]",
+        "C'est la bonne idée, mais pas le bon pion ! Le roi blanc va entrer dans le carré du pion par Rc3, ce qui va lui permettre de le rattraper à temps. Essayez encore !",
+        "Bien joué, vous avez déjoué toutes les embûches ! Assurons maintenant la victoire en poussant notre pion passé.",
+        "[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le pion !] Superbe ! Notre pion passé est trop loin pour être stoppé !",
+        "Dans cette variante, ce sont les blancs qui obtiennent un pion passé... Cherchez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1\"]\r\n\r\n{Intéressons-nous maintenant à la défense la plus tenace des blancs. Commençons à nouveau par le coup initiateur de la percée !}\r\n1...c4\r\n   {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n2.Ke5\r\n    {Les blancs compliquent la position en refusant le sacrifice et en attaquant le pion d4. Essayez de trouver la percée gagnante dans cette position complexe. N'oubliez pas de demander un indice si nécessaire !}\r\n2...a4\r\n    {[%wrong Il ne s'agit pas d'une percée gagnante. Cherchez encore !][%hint Poussez le pion sans vis-à-vis...]}\r\n    (2...Kc5 $5 {Ce coup prudent est également gagnant avec un jeu précis, mais concentrons-nous sur le coup de pion gagnant !})\r\n    (2...c3 $5 3.bxc3 {Bonne idée. Dans cette variante, nous sommes également gagnants grâce à l'idée ...a4. Pourquoi ne pas jouer ce coup tout de suite ?})\r\n    (2...cxb3 $2 3.cxb3 {Bien essayé, mais cette variante ne nous permet pas de faire passer un pion. Cherchez encore !})\r\n3.Kxd4\r\n    {Beau travail ! Sur bxa4, nous avons la puissante réponse ...b3! qui force la percée. Par conséquent, les blancs prennent le pion d4. Pour gagner, il faut maintenant attaquer le pion b2. Mais comment ?}\r\n3...c3\r\n    {[%wrong Ce coup n'attaque pas le pion b2. Cherchez encore !][%hint Attaquez le pion b2 en empêchant le roi blanc d'accéder à la case c3 !]}\r\n    (3...a3 $2 4.bxa3 {C'est la bonne idée, mais pas le bon pion ! Le roi blanc va entrer dans le carré du pion par Rc3, ce qui va lui permettre de le rattraper à temps. Essayez encore !})\r\n4.bxc3\r\n    {Bien joué, vous avez déjoué toutes les embûches ! Assurons maintenant la victoire en poussant notre pion passé.}\r\n4...a3\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le pion !] Superbe ! Notre pion passé est trop loin pour être stoppé !}\r\n    (4...bxc3 $2 5.bxa4 {Dans cette variante, ce sont les blancs qui obtiennent un pion passé... Cherchez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "65480c46-9cec-11e8-8941-f3064e2d6b37",
+    "name": "Percer les défenses adverses",
+    "path": "percer-les-defenses-adverses",
+    "description": "Souvent, la meilleure façon de remporter une partie consiste à promouvoir un pion. Il est tellement important d’obtenir une nouvelle dame que vous pourrez parfois sacrifier une pièce ou deux pour filer en terre promise.",
+    "glyphName": "game-type-nocastle",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-breakthrough-k3f.mp4",
+    "fen": "8/8/2k5/8/ppK5/1PPP4/2P5/8 w - - 1 6",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2pp4/8/1P1P4/6k1/8/6K1 w - - 0 1\"]\r\n\r\n{Le roi noir domine son vis-à-vis et s'apprête à ramasser tous ses pions. Sauvez le camp blanc grâce à une percée !}\r\n1.d5\r\n    {[%wrong Bien essayé, mais ce coup n'est pas une percée. Créons un pion passé !][%hint Quel coup force la création d'un pion passé ?]}\r\n    (1.b5 $2 cxb5 {C'est la bonne idée, mais pas le bon pion ! Dans cette variante, ce sont les noirs qui obtiennent un pion passé. Cherchez encore !})\r\n1...c5\r\n    {Bien vu ! Les blancs sacrifient un pion pour créer un passeur. Quelle est la manière la plus simple de gagner ?}\r\n2.bxc5\r\n    {[%wrong Oups, ce coup perd la partie. Ne sacrifiez pas votre pion c pour rien !][%hint Le pion d5 n'est qu'à trois cases de la promotion. Libérez lui la voie !]}\r\n    (2.b5 $5 c4 {Cette idée fonctionne également avec un jeu très précis. Notez que dans cette variante, si les blancs font dame en premier, les noirs promeuvent au coup d'après en faisant mat ! Il faudra inclure quelques coups de roi pour l'emporter. Trouvez un gain plus simple !})\r\n2...dxc5\r\n    {Bien joué ! Vous avez trouvé la poussée gagnante. Filez à dame !}\r\n3.d6\r\n    {[%wrong Ce coup ne rapproche pas votre pion passé de la promotion. Essayez encore !][%hint Poussez le pion !] Parfait ! Le pion blanc va se transformer en dame dans deux coups et pourra ensuite ramasser sans peine le pion noir !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2k2b2/8/8/1p6/p4P2/P4K2/2N5 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Le cavalier blanc défend ses pions et empêche les nôtres d'avancer. Il est temps de percer !}\r\n1...Bxa2\r\n    {[%wrong Ce coup ne crée pas de pion passé. Cherchez encore !][%hint Trouvez un sacrifice créant deux pions passés pour les noirs.]}\r\n2.Nxa2\r\n    {Bien vu ! Les noirs sacrifient leur fou pour percer. Il est temps de pousser le pion !}\r\n2...b3\r\n    {[%wrong Non, il faut pousser le pion !][%hint Poussez le pion !]}\r\n3.Nc3\r\n    {C'est parti ! Faites bien attention avant de pousser à nouveau un pion...}\r\n3...a2\r\n    {[%wrong Nous devons choisir entre deux coups de pions. Trouvez le meilleur !][%hint Un coup de pion gagne, l'autre perd. Soyez prudent !]}\r\n    (3...b2 $2 4.Nb5+ {Les blancs sont sauvés par une fourchette. Ils vont maintenant prendre un pion passé et empêcher l'autre d'avancer. Cherchez encore !})\r\n4.Nxa2\r\n    {Superbe ! Finissions le travail avec un coup précis.}\r\n4...bxa2\r\n    {[%wrong Les noirs ne peuvent gagner qu'en jouant un coup de pion, cherchez encore !][%hint Un coup de pion gagne, l'autre perd. Soyez prudent !] Bien joué ! Le pion file à dame et les noirs vont l'emporter facilement.}\r\n    (4...b2 $2 5.Nc3 {Oups ! Les noirs gagnent ! Essayez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1kp5/8/1P1P2p1/K6p/6PP/5P2/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont deux pions de plus, mais c'est sans compter sur notre percée ! A vous de jouer.}\r\n1...g4\r\n    {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n    (1...hxg3 $2 2.fxg3 {Oups, dans cette variante, ce sont les blancs qui obtiennent un pion passé. Cherchez encore !})\r\n    (1...c6 $2 2.dxc6+ {Ce coup perd un pion. Cherchez encore !})\r\n    (1...c5 $2 2.dxc6+ {Bien essayé, mais n'oubliez pas la prise en passant !})\r\n2.hxg4\r\n    {Parfait ! Poussons maintenant notre pion passé !}\r\n2...h3\r\n    {[%wrong Ce coup ne crée pas un pion passé. Cherchez encore !][%hint Nous avons forcé le pion h3 à bouger. Profitez-en !] Et voilà ! Les défenses blanches sont débordées, et notre position est gagnante !}\r\n    (2...hxg3 $2 3.fxg3 {Nous voulons envoyer notre pion à dame, pas l'échanger. Cherchez encore.})\r\n    (2...c6 $2 3.dxc6+ {Ce coup perd un pion. Cherchez encore !})\r\n    (2...c5 $2 3.dxc6+ {N'oubliez pas la prise en passant... Jetez un coup d’œil à l'autre côté de l'échiquier !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1\"]\r\n\r\n{Difficile d'imaginer que les noirs puissent gagner cette position, et pourtant... Trouvez la percée de pion gagnante !}\r\n1...c4\r\n  {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n    (1...a4 $2 2.bxa4 {C'est la bonne idée, mais pas le bon pion ! Dans cette variante, ce sont les blancs qui obtiennent un pion passé. Et si nous jouons ensuite ...c4, ils pourront répondre par b3!, empêchant toute avancée.})\r\n2.bxc4\r\n    {Beau boulot ! Le pion b3 a flanché, profitions-en pour forcer la création d'un pion passé.}\r\n2...a4\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le pion sans vis-à-vis...] Bien joué ! Les noirs vont pouvoir jouer ...a3 au prochain coup. La position est gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Jouons à nouveau cette percée gagnante !}\r\n1...c4\r\n   {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n2.dxc4\r\n    {Cette fois, les blancs prennent du pion d. Comment continuer ?}\r\n2...a4\r\n    {[%wrong Ce n'est pas un coup de pion gagnant. Cherchez encore !][%hint Quel coup libère la case b3 ?]}\r\n    (2...Kc5 $5 {Ce coup de roi fonctionne également, mais seulement combiné à une percée au prochain coup. Jouons plutôt la percée tout de suite !})\r\n3.bxa4\r\n    {Bien joué ! Maintenant que la case b3 est libre, les noirs peuvent créer un pion passé. Jouez le coup juste !}\r\n3...b3\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le bon pion !]}\r\n    (3...d3 $2 4.cxd3 {Dans cette variante, ce sont les blancs qui obtiennent un pion passé... Cherchez encore !})\r\n4.cxb3\r\n    {Formidable, les blancs ont trois pions de plus, mais le notre est plus rapide. Filez à dame !}\r\n4...d3\r\n    {[%wrong Poussez le pion passé !][%hint Poussez le pion passé !] Cette percée était complexe, mais vous en avez saisi les rouages. Bravo !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/2k1K3/p1p5/1p1p4/1P1P4/1PP5/8 b - - 0 1\"]\r\n\r\n{Intéressons-nous maintenant à la défense la plus tenace des blancs. Commençons à nouveau par le coup initiateur de la percée !}\r\n1...c4\r\n   {[%wrong Ce n'est pas une percée, cherchez encore !][%hint Sacrifiez un pion pour créer un pion passé en force.]}\r\n2.Ke5\r\n    {Les blancs compliquent la position en refusant le sacrifice et en attaquant le pion d4. Essayez de trouver la percée gagnante dans cette position complexe. N'oubliez pas de demander un indice si nécessaire !}\r\n2...a4\r\n    {[%wrong Il ne s'agit pas d'une percée gagnante. Cherchez encore !][%hint Poussez le pion sans vis-à-vis...]}\r\n    (2...Kc5 $5 {Ce coup prudent est également gagnant avec un jeu précis, mais concentrons-nous sur le coup de pion gagnant !})\r\n    (2...c3 $5 3.bxc3 {Bonne idée. Dans cette variante, nous sommes également gagnants grâce à l'idée ...a4. Pourquoi ne pas jouer ce coup tout de suite ?})\r\n    (2...cxb3 $2 3.cxb3 {Bien essayé, mais cette variante ne nous permet pas de faire passer un pion. Cherchez encore !})\r\n3.Kxd4\r\n    {Beau travail ! Sur bxa4, nous avons la puissante réponse ...b3! qui force la percée. Par conséquent, les blancs prennent le pion d4. Pour gagner, il faut maintenant attaquer le pion b2. Mais comment ?}\r\n3...c3\r\n    {[%wrong Ce coup n'attaque pas le pion b2. Cherchez encore !][%hint Attaquez le pion b2 en empêchant le roi blanc d'accéder à la case c3 !]}\r\n    (3...a3 $2 4.bxa3 {C'est la bonne idée, mais pas le bon pion ! Le roi blanc va entrer dans le carré du pion par Rc3, ce qui va lui permettre de le rattraper à temps. Essayez encore !})\r\n4.bxc3\r\n    {Bien joué, vous avez déjoué toutes les embûches ! Assurons maintenant la victoire en poussant notre pion passé.}\r\n4...a3\r\n    {[%wrong Ce coup ne force pas la création d'un pion passé. Cherchez encore !][%hint Poussez le pion !] Superbe ! Notre pion passé est trop loin pour être stoppé !}\r\n    (4...bxc3 $2 5.bxa4 {Dans cette variante, ce sont les blancs qui obtiennent un pion passé... Cherchez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il est désormais temps de creuser sur les ruptures de pion.",
+    "outroText": "Bravo ! une rupture de pion bien timée fait souvent basculer la partie.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "af5475c2-83b5-11e8-98ff-a752451956c3",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/breakthrough5e7ab17737bbf.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/breakthrough-56688660442151.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/breakthrough-25ea23f3bb1b74.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/breakthrough-360ec3c5721417.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 102,
+    "order": 1,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

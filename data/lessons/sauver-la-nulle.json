@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-coups-forces/sauver-la-nulle",
+  "capturedAt": "2026-10-22T12:23:42.526Z",
+  "title": "Sauver la nulle",
+  "exercises": [
+    {
+      "fen": "k7/2Q5/1K6/8/8/8/8/4b3 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "La situation semble compromise pour les noirs, mais il reste un coup pour sauver la partie. Trouvez-le !",
+        "[%wrong Ce coup n'empêche pas les blancs de mater. Cherchez encore !][%hint Peut-on forcer le pat ?]",
+        "Nous n'avons plus d'échecs, et les blancs vont ensuite jouer Db7#. Cherchez encore !",
+        "Bien joué ! En enfilant le roi et la dame, vous forcez le pat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/2Q5/1K6/8/8/8/8/4b3 b - - 0 1\"]\r\n\r\n{La situation semble compromise pour les noirs, mais il reste un coup pour sauver la partie. Trouvez-le !}\r\n1...Ba5+\r\n    {[%wrong Ce coup n'empêche pas les blancs de mater. Cherchez encore !][%hint Peut-on forcer le pat ?]}\r\n    (1...Bf2+ $2 2.Ka6 {Nous n'avons plus d'échecs, et les blancs vont ensuite jouer Db7#. Cherchez encore !})\r\n2.Kxa5\r\n    {Bien joué ! En enfilant le roi et la dame, vous forcez le pat !}\r\n*"
+    },
+    {
+      "fen": "8/Pb6/3K4/3p2k1/3Pp3/4P3/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont une pièce de plus, mais le fou doit défendre contre la poussée du pion passé blanc. Trouvez comment l'attaquer et forcer la nulle !",
+        "[%wrong Ce coup n'attaque pas le fou noir. Cherchez encore !][%hint En finale, le roi est une pièce d'attaque !]",
+        "Parfait ! Comment continuer à attaquer le fou noir ?",
+        "[%wrong Ce coup n'attaque pas le fou noir. Cherchez encore !][%hint Continuez à attaquez ce fou !]",
+        "Bien joué ! Le fou doit battre en retraite. Et maintenant, trouvez le coup qui assure la nulle !",
+        "[%wrong Ce coup ne permet pas d'annuler. Cherchez encore !][%hint Continuez dans la veine offensive !]",
+        "Le roi blanc est mal placé, ce qui va permettre aux noirs de pousser un pion jusqu'à la promotion. Cherchez encore !",
+        "Nous pouvons toujours annuler en attaquant le fou noir, mais ce serait jouer avec le feu, car le roi noir va s'activer ! Trouvez un moyen plus sûr d'annuler.",
+        "Bien joué ! Le fou des noirs n'a plus d'options, ce qui va nous permettre de forcer la répétition jusqu'à la partie nulle !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/Pb6/3K4/3p2k1/3Pp3/4P3/8/8 w - - 0 1\"]\r\n\r\n{Les noirs ont une pièce de plus, mais le fou doit défendre contre la poussée du pion passé blanc. Trouvez comment l'attaquer et forcer la nulle !}\r\n1.Kc7\r\n    {[%wrong Ce coup n'attaque pas le fou noir. Cherchez encore !][%hint En finale, le roi est une pièce d'attaque !]}\r\n1...Ba8\r\n    {Parfait ! Comment continuer à attaquer le fou noir ?}\r\n2.Kb8\r\n    {[%wrong Ce coup n'attaque pas le fou noir. Cherchez encore !][%hint Continuez à attaquez ce fou !]}\r\n2...Bc6\r\n    {Bien joué ! Le fou doit battre en retraite. Et maintenant, trouvez le coup qui assure la nulle !}\r\n3.Kc7\r\n    {[%wrong Ce coup ne permet pas d'annuler. Cherchez encore !][%hint Continuez dans la veine offensive !]}\r\n    (3.a8=Q $2 Bxa8 {Le roi blanc est mal placé, ce qui va permettre aux noirs de pousser un pion jusqu'à la promotion. Cherchez encore !})\r\n    (3.Kc8 $6 Kg4 {Nous pouvons toujours annuler en attaquant le fou noir, mais ce serait jouer avec le feu, car le roi noir va s'activer ! Trouvez un moyen plus sûr d'annuler.})\r\n3...Ba8\r\n    {Bien joué ! Le fou des noirs n'a plus d'options, ce qui va nous permettre de forcer la répétition jusqu'à la partie nulle !}\r\n*"
+    },
+    {
+      "fen": "k4r2/bp6/8/Q7/7p/7P/5qPK/4r3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs sont sur le point de se faire mater, mais il existe un tour de passe-passe qui va leur permettre de sauver la nulle. Lequel ?",
+        "[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Les blancs n'ont qu'un seul espoir, le pat. Comment le forcer ?]",
+        "Malheureusement, le roi noir n'est pas obligé de prendre, et le pion g des blancs va pouvoir bouger. Ce n'est pas un pat ! Cherchez encore.",
+        "Le pion g des blancs peut bouger, ce n'est donc pas un pat ! Cherchez encore.",
+        "Beau travail ! Les noirs refusent de prendre la dame blanche pour éviter le pat, mais ils ne font que retarder l'échéance ! Comment forcer le pat ?",
+        "[%wrong Ce coup ne force pas le pat. Cherchez encore !][%hint Comment forcer les noirs à prendre notre dame ?]",
+        "Et voilà ! Grâce à cette ressource de pat, nous nous sommes sorti honorablement d'une situation périlleuse.."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k4r2/bp6/8/Q7/7p/7P/5qPK/4r3 w - - 0 1\"]\r\n\r\n{Les blancs sont sur le point de se faire mater, mais il existe un tour de passe-passe qui va leur permettre de sauver la nulle. Lequel ?}\r\n1.Qd8+\r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Les blancs n'ont qu'un seul espoir, le pat. Comment le forcer ?]}\r\n    (1.Qxa7+ $2 Qxa7 {Malheureusement, le roi noir n'est pas obligé de prendre, et le pion g des blancs va pouvoir bouger. Ce n'est pas un pat ! Cherchez encore.})\r\n    (1.Qxe1 $2 Qxe1 {Le pion g des blancs peut bouger, ce n'est donc pas un pat ! Cherchez encore.})\r\n1...Bb8+\r\n    {Beau travail ! Les noirs refusent de prendre la dame blanche pour éviter le pat, mais ils ne font que retarder l'échéance ! Comment forcer le pat ?}\r\n2.Qxb8+\r\n    {[%wrong Ce coup ne force pas le pat. Cherchez encore !][%hint Comment forcer les noirs à prendre notre dame ?]}\r\n2...Kxb8\r\n    {Et voilà ! Grâce à cette ressource de pat, nous nous sommes sorti honorablement d'une situation périlleuse..}\r\n*"
+    },
+    {
+      "fen": "8/2R3pk/5Qp1/1q3p2/4p3/6PP/5P1K/1r6 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de prendre le fou f6 et menacent de mater grâce au clouage du pion g7. Est-ce terminé ? Ou bien y-a-t-il une astuce nous permettant de sauver la nulle ?",
+        "[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]",
+        "Malheureusement, cette défense astucieuse est réfutée par un mat ! Cherchez encore.",
+        "Les blancs matent juste à temps. Trouvez mieux !",
+        "Bien joué ! Sur Rg2, notre dame aurait pu mater en f1. Par conséquent, les blancs sont forcés d'accepter le sacrifice. Comment continuer ?",
+        "[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Serait-il possible de forcer l'échec perpétuel ?]",
+        "Les noirs ne vont bientôt plus avoir d'échecs, ce qui va permettre aux blancs de l'emporter. Cherchez encore !",
+        "Bien joué ! Et maintenant, comment forcer la nulle ?",
+        "[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Pensez à l'échec perpétuel !] Grâce à cet échec perpétuel, vous avez à nouveau sauvé une position difficile. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2R3pk/5Qp1/1q3p2/4p3/6PP/5P1K/1r6 b - - 0 1\"]\r\n\r\n{Les blancs viennent de prendre le fou f6 et menacent de mater grâce au clouage du pion g7. Est-ce terminé ? Ou bien y-a-t-il une astuce nous permettant de sauver la nulle ?}\r\n1...Rh1+\r\n    {[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n    (1...Qb2 $2 2.Rxg7+ {Malheureusement, cette défense astucieuse est réfutée par un mat ! Cherchez encore.})\r\n    (1...Qf1 $2 2.Qxg7# {Les blancs matent juste à temps. Trouvez mieux !})\r\n2.Kxh1\r\n    {Bien joué ! Sur Rg2, notre dame aurait pu mater en f1. Par conséquent, les blancs sont forcés d'accepter le sacrifice. Comment continuer ?}\r\n2...Qf1+\r\n    {[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Serait-il possible de forcer l'échec perpétuel ?]}\r\n    (2...Qb1+ $2 3.Kh2 {Les noirs ne vont bientôt plus avoir d'échecs, ce qui va permettre aux blancs de l'emporter. Cherchez encore !})\r\n3.Kh2\r\n    {Bien joué ! Et maintenant, comment forcer la nulle ?}\r\n3...Qxf2+\r\n    {[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Pensez à l'échec perpétuel !] Grâce à cet échec perpétuel, vous avez à nouveau sauvé une position difficile. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "3B4/1r2p3/r2p1p2/bkp1P1p1/1p1P1PPp/p1P4P/PPBK4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ce n'est pas tous les jours que l'on peut se permettre de duper un puissant programme d'échecs ! Pourtant, dans cette position insolite, l'ordinateur déclare les noirs gagnants. Prouvez-lui qu'il a tort et qu'un sacrifice de fou permet aux blancs d'annuler en force !",
+        "[%wrong Ce coup n'est pas un sacrifice de fou. Cherchez encore !][%hint Comment sacrifier le fou en faisant échec ?]",
+        "Il devient impossible de forcer la nulle. Essayez encore !",
+        "Les noirs doivent prendre le fou. S'ils refusent le sacrifice par Rc4, nous allons simplement répéter les coups avec Fb3+, et pour ceux que ça intéresse, les blancs auraient même une chance de gagner ! Bref, continuons à mettre ce roi en échec !",
+        "[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]",
+        "Et on continue !",
+        "[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]",
+        "... Et on continue !",
+        "[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]",
+        "... Et on continue !",
+        "[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]",
+        "Fermons maintenant la position pour empêcher toute prise.",
+        "[%wrong Ce coup ne ferme pas la position. Cherchez encore !][%hint Poussez le pion f pour fermer la position.]",
+        "Ce coup ouvre la colonne f pour la tour noire, ce qui va gâcher nos chances de nulle. Cherchez encore !",
+        "Malgré le gigantesque avantage matériel dont jouissent les noirs, il n'existe aucun moyen de percer tant que les blancs ne jouent que des coups de roi sans toucher à rien d'autre !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3B4/1r2p3/r2p1p2/bkp1P1p1/1p1P1PPp/p1P4P/PPBK4/8 w - - 0 1\"]\r\n\r\n{Ce n'est pas tous les jours que l'on peut se permettre de duper un puissant programme d'échecs ! Pourtant, dans cette position insolite, l'ordinateur déclare les noirs gagnants. Prouvez-lui qu'il a tort et qu'un sacrifice de fou permet aux blancs d'annuler en force !}\r\n1.Ba4+\r\n    {[%wrong Ce coup n'est pas un sacrifice de fou. Cherchez encore !][%hint Comment sacrifier le fou en faisant échec ?]}\r\n    (1.Bd3+ $2 c4 {Il devient impossible de forcer la nulle. Essayez encore !})\r\n1...Kxa4\r\n    {Les noirs doivent prendre le fou. S'ils refusent le sacrifice par Rc4, nous allons simplement répéter les coups avec Fb3+, et pour ceux que ça intéresse, les blancs auraient même une chance de gagner ! Bref, continuons à mettre ce roi en échec !}\r\n2.b3+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n2...Kb5\r\n    {Et on continue !}\r\n3.c4+\r\n   {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n3...Kc6\r\n    {... Et on continue !}\r\n4.d5+\r\n   {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n4...Kd7\r\n    {... Et on continue !}\r\n5.e6+\r\n   {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n5...Kxd8\r\n    {Fermons maintenant la position pour empêcher toute prise.}\r\n6.f5\r\n    {[%wrong Ce coup ne ferme pas la position. Cherchez encore !][%hint Poussez le pion f pour fermer la position.]}\r\n    (6.fxg5 $2 fxg5 {Ce coup ouvre la colonne f pour la tour noire, ce qui va gâcher nos chances de nulle. Cherchez encore !})\r\n6...Rc6\r\n    {Malgré le gigantesque avantage matériel dont jouissent les noirs, il n'existe aucun moyen de percer tant que les blancs ne jouent que des coups de roi sans toucher à rien d'autre !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0de7508e-9ceb-11e8-a2ae-a9cc65317fc1",
+    "name": "Sauver la nulle",
+    "path": "sauver-la-nulle",
+    "description": "Lorsque vous êtes perdant, cherchez des moyens de donner du matériel pour tenter de forcer la nulle. Soyez à l’affût des opportunités de pat et d’échecs perpétuels.",
+    "glyphName": "utility-rescue-ring",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-saving-draws-i2q.mp4",
+    "fen": "k4r2/bp6/8/Q7/7p/7P/5qPK/4r3 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/2Q5/1K6/8/8/8/8/4b3 b - - 0 1\"]\r\n\r\n{La situation semble compromise pour les noirs, mais il reste un coup pour sauver la partie. Trouvez-le !}\r\n1...Ba5+\r\n    {[%wrong Ce coup n'empêche pas les blancs de mater. Cherchez encore !][%hint Peut-on forcer le pat ?]}\r\n    (1...Bf2+ $2 2.Ka6 {Nous n'avons plus d'échecs, et les blancs vont ensuite jouer Db7#. Cherchez encore !})\r\n2.Kxa5\r\n    {Bien joué ! En enfilant le roi et la dame, vous forcez le pat !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/Pb6/3K4/3p2k1/3Pp3/4P3/8/8 w - - 0 1\"]\r\n\r\n{Les noirs ont une pièce de plus, mais le fou doit défendre contre la poussée du pion passé blanc. Trouvez comment l'attaquer et forcer la nulle !}\r\n1.Kc7\r\n    {[%wrong Ce coup n'attaque pas le fou noir. Cherchez encore !][%hint En finale, le roi est une pièce d'attaque !]}\r\n1...Ba8\r\n    {Parfait ! Comment continuer à attaquer le fou noir ?}\r\n2.Kb8\r\n    {[%wrong Ce coup n'attaque pas le fou noir. Cherchez encore !][%hint Continuez à attaquez ce fou !]}\r\n2...Bc6\r\n    {Bien joué ! Le fou doit battre en retraite. Et maintenant, trouvez le coup qui assure la nulle !}\r\n3.Kc7\r\n    {[%wrong Ce coup ne permet pas d'annuler. Cherchez encore !][%hint Continuez dans la veine offensive !]}\r\n    (3.a8=Q $2 Bxa8 {Le roi blanc est mal placé, ce qui va permettre aux noirs de pousser un pion jusqu'à la promotion. Cherchez encore !})\r\n    (3.Kc8 $6 Kg4 {Nous pouvons toujours annuler en attaquant le fou noir, mais ce serait jouer avec le feu, car le roi noir va s'activer ! Trouvez un moyen plus sûr d'annuler.})\r\n3...Ba8\r\n    {Bien joué ! Le fou des noirs n'a plus d'options, ce qui va nous permettre de forcer la répétition jusqu'à la partie nulle !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k4r2/bp6/8/Q7/7p/7P/5qPK/4r3 w - - 0 1\"]\r\n\r\n{Les blancs sont sur le point de se faire mater, mais il existe un tour de passe-passe qui va leur permettre de sauver la nulle. Lequel ?}\r\n1.Qd8+\r\n    {[%wrong Ce coup ne sauve pas la partie. Cherchez encore !][%hint Les blancs n'ont qu'un seul espoir, le pat. Comment le forcer ?]}\r\n    (1.Qxa7+ $2 Qxa7 {Malheureusement, le roi noir n'est pas obligé de prendre, et le pion g des blancs va pouvoir bouger. Ce n'est pas un pat ! Cherchez encore.})\r\n    (1.Qxe1 $2 Qxe1 {Le pion g des blancs peut bouger, ce n'est donc pas un pat ! Cherchez encore.})\r\n1...Bb8+\r\n    {Beau travail ! Les noirs refusent de prendre la dame blanche pour éviter le pat, mais ils ne font que retarder l'échéance ! Comment forcer le pat ?}\r\n2.Qxb8+\r\n    {[%wrong Ce coup ne force pas le pat. Cherchez encore !][%hint Comment forcer les noirs à prendre notre dame ?]}\r\n2...Kxb8\r\n    {Et voilà ! Grâce à cette ressource de pat, nous nous sommes sorti honorablement d'une situation périlleuse..}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/2R3pk/5Qp1/1q3p2/4p3/6PP/5P1K/1r6 b - - 0 1\"]\r\n\r\n{Les blancs viennent de prendre le fou f6 et menacent de mater grâce au clouage du pion g7. Est-ce terminé ? Ou bien y-a-t-il une astuce nous permettant de sauver la nulle ?}\r\n1...Rh1+\r\n    {[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n    (1...Qb2 $2 2.Rxg7+ {Malheureusement, cette défense astucieuse est réfutée par un mat ! Cherchez encore.})\r\n    (1...Qf1 $2 2.Qxg7# {Les blancs matent juste à temps. Trouvez mieux !})\r\n2.Kxh1\r\n    {Bien joué ! Sur Rg2, notre dame aurait pu mater en f1. Par conséquent, les blancs sont forcés d'accepter le sacrifice. Comment continuer ?}\r\n2...Qf1+\r\n    {[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Serait-il possible de forcer l'échec perpétuel ?]}\r\n    (2...Qb1+ $2 3.Kh2 {Les noirs ne vont bientôt plus avoir d'échecs, ce qui va permettre aux blancs de l'emporter. Cherchez encore !})\r\n3.Kh2\r\n    {Bien joué ! Et maintenant, comment forcer la nulle ?}\r\n3...Qxf2+\r\n    {[%wrong Ce coup ne sauve pas la nulle. Cherchez encore !][%hint Pensez à l'échec perpétuel !] Grâce à cet échec perpétuel, vous avez à nouveau sauvé une position difficile. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3B4/1r2p3/r2p1p2/bkp1P1p1/1p1P1PPp/p1P4P/PPBK4/8 w - - 0 1\"]\r\n\r\n{Ce n'est pas tous les jours que l'on peut se permettre de duper un puissant programme d'échecs ! Pourtant, dans cette position insolite, l'ordinateur déclare les noirs gagnants. Prouvez-lui qu'il a tort et qu'un sacrifice de fou permet aux blancs d'annuler en force !}\r\n1.Ba4+\r\n    {[%wrong Ce coup n'est pas un sacrifice de fou. Cherchez encore !][%hint Comment sacrifier le fou en faisant échec ?]}\r\n    (1.Bd3+ $2 c4 {Il devient impossible de forcer la nulle. Essayez encore !})\r\n1...Kxa4\r\n    {Les noirs doivent prendre le fou. S'ils refusent le sacrifice par Rc4, nous allons simplement répéter les coups avec Fb3+, et pour ceux que ça intéresse, les blancs auraient même une chance de gagner ! Bref, continuons à mettre ce roi en échec !}\r\n2.b3+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n2...Kb5\r\n    {Et on continue !}\r\n3.c4+\r\n   {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n3...Kc6\r\n    {... Et on continue !}\r\n4.d5+\r\n   {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n4...Kd7\r\n    {... Et on continue !}\r\n5.e6+\r\n   {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Quel est le seul échec jouable dans cette position ?]}\r\n5...Kxd8\r\n    {Fermons maintenant la position pour empêcher toute prise.}\r\n6.f5\r\n    {[%wrong Ce coup ne ferme pas la position. Cherchez encore !][%hint Poussez le pion f pour fermer la position.]}\r\n    (6.fxg5 $2 fxg5 {Ce coup ouvre la colonne f pour la tour noire, ce qui va gâcher nos chances de nulle. Cherchez encore !})\r\n6...Rc6\r\n    {Malgré le gigantesque avantage matériel dont jouissent les noirs, il n'existe aucun moyen de percer tant que les blancs ne jouent que des coups de roi sans toucher à rien d'autre !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "d99efe36-a559-11e8-8f87-67f547523c41",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il ne faut jamais baisser les bras même quand on est perdant, il existe toujours des sauvetages miracle !",
+    "outroText": "Cela devrait vous encourager à toujours y croire jusqu'au bout !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "path": "les-coups-forces",
+      "title": "Les coups forcés",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/d99efe36-a559-11e8-8f87-67f547523c41.45eb0b22.728x410o.b971cb5ae816.png"
+    },
+    "parentId": "f0666d86-83ab-11e8-b2f2-01e266ddbd04",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/saving-draws5d12569097802.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/saving-draws-5667eee2a10e74.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/saving-draws-15ea2418681b78.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/saving-draws-261488ee7e0558.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 78,
+    "order": 5,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "d99efe36-a559-11e8-8f87-67f547523c41",
+      "name": "Les coups forcés",
+      "path": "les-coups-forces",
+      "order": 4
+    }
+  }
+}

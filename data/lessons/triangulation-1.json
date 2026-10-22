@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/motifs-de-finales/triangulation-1",
+  "capturedAt": "2026-10-22T12:23:54.121Z",
+  "title": "La triangulation",
+  "exercises": [
+    {
+      "fen": "4k3/8/5P1p/4K2P/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le moyen le plus direct de gagner cette finale !",
+        "[%wrong Ce coup ne gagne pas en ligne... Cherchez encore !][%hint Pour gagner une finale, il est souvent intéressant de commencer par prendre l'opposition...]",
+        "Ceci est la position de départ du prochain exercice, qui démontrera que les blancs peuvent l'emporter grâce à la triangulation. Mais dans cette position, il y a plus simple. Cherchez encore !",
+        "Parfait ! Les blancs prennent l'opposition. Comment faire passer le pion f en force ?",
+        "[%wrong Bien essayé, mais il existe un moyen plus direct de l'emporter. Trouvez-le !][%hint Comment forcer le roi noir à quitter la dernière rangée ?]",
+        "Bien vu ! Le roi noir doit quitter la case de promotion. Comment continuer ?",
+        "[%wrong Oups ! Ce coup perd le pion f7. La position est désormais nulle ! Cherchez encore.][%hint Comment prendre le contrôle de la case de promotion ?]",
+        "Bien joué ! Et maintenant, finissez le travail !",
+        "[%wrong Bien essayé, mais il y a plus direct... Trouvez un mat en trois !][%hint Forcez le roi noir à se rendre en h8 !] Quelle précision ! Les blancs vont faire une dame au prochain coup, puis jouer Dg7 mat ! Ce plan est imparable.",
+        "La sécurité d'abord ! Cette sous-promotion est effectivement gagnante, bien joué ! Trouvez maintenant une variante encore plus forte permettant de mater en trois coups.",
+        "Attention au pat ! Essayez encore...",
+        "Même ce coup est théoriquement gagnant, mais il y a plus fort : trouvez le mat en trois !",
+        "Un coup patient évitant le pat. Trouvez maintenant une variante encore plus forte permettant de mater en trois coups."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/5P1p/4K2P/8/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le moyen le plus direct de gagner cette finale !}\r\n1.Ke6\r\n    {[%wrong Ce coup ne gagne pas en ligne... Cherchez encore !][%hint Pour gagner une finale, il est souvent intéressant de commencer par prendre l'opposition...]}\r\n    (1.Kf5 $6 Kf7 {Ceci est la position de départ du prochain exercice, qui démontrera que les blancs peuvent l'emporter grâce à la triangulation. Mais dans cette position, il y a plus simple. Cherchez encore !})\r\n1...Kf8\r\n    {Parfait ! Les blancs prennent l'opposition. Comment faire passer le pion f en force ?}\r\n2.f7\r\n    {[%wrong Bien essayé, mais il existe un moyen plus direct de l'emporter. Trouvez-le !][%hint Comment forcer le roi noir à quitter la dernière rangée ?]}\r\n2...Kg7\r\n    {Bien vu ! Le roi noir doit quitter la case de promotion. Comment continuer ?}\r\n3.Ke7\r\n    {[%wrong Oups ! Ce coup perd le pion f7. La position est désormais nulle ! Cherchez encore.][%hint Comment prendre le contrôle de la case de promotion ?]}\r\n3...Kh7\r\n    {Bien joué ! Et maintenant, finissez le travail !}\r\n4.Kf6\r\n    {[%wrong Bien essayé, mais il y a plus direct... Trouvez un mat en trois !][%hint Forcez le roi noir à se rendre en h8 !] Quelle précision ! Les blancs vont faire une dame au prochain coup, puis jouer Dg7 mat ! Ce plan est imparable.}\r\n    (4.f8=R $5 {La sécurité d'abord ! Cette sous-promotion est effectivement gagnante, bien joué ! Trouvez maintenant une variante encore plus forte permettant de mater en trois coups.})\r\n    (4.f8=Q $2 {Attention au pat ! Essayez encore...})\r\n    (4.f8=B $5 {Même ce coup est théoriquement gagnant, mais il y a plus fort : trouvez le mat en trois !})\r\n    (4.Ke8 $5 {Un coup patient évitant le pat. Trouvez maintenant une variante encore plus forte permettant de mater en trois coups.})\r\n*"
+    },
+    {
+      "fen": "8/5k2/5P1p/5K1P/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Si nous pouvions passer un tour, la position serait facilement gagnante grâce à l'opposition. Comment faire ? C'est le moment de trianguler !",
+        "[%wrong Attention à ne pas perdre un pion ! Essayez encore.][%hint Nous souhaitons faire un triangle avec le roi via les cases e5, f4 et e4.]",
+        "Bien joué ! Les noirs ne jouent pas ....Re8, qui transposerait dans la position de l'exercice précédent. Il est maintenant temps de trianguler avec les cases e5, f4 et e4.",
+        "[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Pour perdre un temps, nous souhaitons faire un triangle avec le roi via les cases e5, f4 et e4.]",
+        "cette triangulation fonctionne également, bien joué ! Jouons maintenant le roi en f4.",
+        "Les noirs prennent l'opposition, et il faut recommencer toute la procédure à zéro. Trouvez mieux !",
+        "Cette répétition ne nous permet pas d'avancer. Trouvez mieux !",
+        "Bien joué ! Notre roi est engagé sur le triangle e5-f4-e4. Continuez la triangulation !",
+        "[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Jouez votre roi en e4 pour continuer le processus.]",
+        "Les noirs prennent l'opposition, et il faut recommencer toute la procédure à zéro. Trouvez mieux !",
+        "Cette répétition ne nous permet pas d'avancer. Trouvez mieux !",
+        "Beau travail ! Terminons la boucle en revenant en e5 !",
+        "[%wrong Non, nous voulons mettre notre roi en e5 !][%hint La triangulation a pour but de perdre volontairement un tempo pour revenir à la case originelle en laissant le trait à l'adversaire.]",
+        "Cette répétition ne nous permet pas d'avancer. Trouvez mieux !",
+        "Bien joué, le roi est forcé d'aller en f7 (sous peine de Re6, et les blancs gagnent). Acculons maintenant le roi noir sur la dernière rangée !",
+        "[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Quel est le seul coup forçant le roi noir à reculer sans perdre le pion f6 ?]",
+        "Superbe triangulation ! Partons maintenant à la chasse au pion h6.",
+        "[%wrong Ce coup ne prépare pas la prise du pion h6. Cherchez encore !][%hint Le roi noir a dû renoncer au contrôle de la sixième rangée. Comment en profiter ?]",
+        "Très bien ! Les noirs prennent l'opposition, mais il est trop tard : nous gagnons du matériel ! A vous de jouer.",
+        "[%hint Emparez-vous du pion h6 !] Bravo, vous avez su dompter la redoutable triangulation. Continuez sur cette voie !",
+        "Une fois que nous aurons pris h6, la finale sera nulle car notre roi ne pourra plus se soustraire à la colonne h tout en empêchant le roi noir de passer devant le pion. Cherchez encore !",
+        "Nous devons maintenant recommencer tout le processus de triangulation ! Il aurait été plus simple de simplement prendre le pion noir !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5k2/5P1p/5K1P/8/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Si nous pouvions passer un tour, la position serait facilement gagnante grâce à l'opposition. Comment faire ? C'est le moment de trianguler !}\r\n1.Ke5\r\n    {[%wrong Attention à ne pas perdre un pion ! Essayez encore.][%hint Nous souhaitons faire un triangle avec le roi via les cases e5, f4 et e4.]}\r\n1...Kf8\r\n    {Bien joué ! Les noirs ne jouent pas ....Re8, qui transposerait dans la position de l'exercice précédent. Il est maintenant temps de trianguler avec les cases e5, f4 et e4.}\r\n2.Kf4\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Pour perdre un temps, nous souhaitons faire un triangle avec le roi via les cases e5, f4 et e4.]}\r\n    (2.Ke4 $5 {cette triangulation fonctionne également, bien joué ! Jouons maintenant le roi en f4.})\r\n    (2.Ke6 $2 Ke8 {Les noirs prennent l'opposition, et il faut recommencer toute la procédure à zéro. Trouvez mieux !})\r\n    (2.Kf5 $2 Kf7 {Cette répétition ne nous permet pas d'avancer. Trouvez mieux !})\r\n2...Kg8\r\n    {Bien joué ! Notre roi est engagé sur le triangle e5-f4-e4. Continuez la triangulation !}\r\n3.Ke4\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Jouez votre roi en e4 pour continuer le processus.]}\r\n    (3.Kf5 $2 Kf7 {Les noirs prennent l'opposition, et il faut recommencer toute la procédure à zéro. Trouvez mieux !})\r\n    (3.Ke5 $2 Kf8 {Cette répétition ne nous permet pas d'avancer. Trouvez mieux !})\r\n3...Kf8\r\n    {Beau travail ! Terminons la boucle en revenant en e5 !}\r\n4.Ke5\r\n    {[%wrong Non, nous voulons mettre notre roi en e5 !][%hint La triangulation a pour but de perdre volontairement un tempo pour revenir à la case originelle en laissant le trait à l'adversaire.]}\r\n    (4.Kf5 $2 Kf7 {Cette répétition ne nous permet pas d'avancer. Trouvez mieux !})\r\n4...Kf7\r\n    {Bien joué, le roi est forcé d'aller en f7 (sous peine de Re6, et les blancs gagnent). Acculons maintenant le roi noir sur la dernière rangée !}\r\n5.Kf5\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Quel est le seul coup forçant le roi noir à reculer sans perdre le pion f6 ?]}\r\n5...Kf8\r\n    {Superbe triangulation ! Partons maintenant à la chasse au pion h6.}\r\n6.Kg6\r\n    {[%wrong Ce coup ne prépare pas la prise du pion h6. Cherchez encore !][%hint Le roi noir a dû renoncer au contrôle de la sixième rangée. Comment en profiter ?]}\r\n6...Kg8\r\n    {Très bien ! Les noirs prennent l'opposition, mais il est trop tard : nous gagnons du matériel ! A vous de jouer.}\r\n7.Kxh6\r\n    {[%hint Emparez-vous du pion h6 !] Bravo, vous avez su dompter la redoutable triangulation. Continuez sur cette voie !}\r\n    (7.f7+ $2 Kf8 {Une fois que nous aurons pris h6, la finale sera nulle car notre roi ne pourra plus se soustraire à la colonne h tout en empêchant le roi noir de passer devant le pion. Cherchez encore !})\r\n    (7.Kf5 $2 Kf7 {Nous devons maintenant recommencer tout le processus de triangulation ! Il aurait été plus simple de simplement prendre le pion noir !})\r\n*"
+    },
+    {
+      "fen": "8/8/8/8/4kp1p/7P/4K3/8 b - - 3 54",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le conducteur des pièces noires est le futur champion du monde Garry Kasparov. Jouons son coup : 54...f3+.",
+        "[%wrong Commençons si vous le voulez bien par jouer le coup ...f3+.][%hint Donnez un échec !]",
+        "Le grand-maître Lev Alburt ne laisse pas les noirs prendre l'opposition. Comment gagner cette finale en perdant volontairement un tempo ? Triangulez comme un champion !",
+        "[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Proposons le triangle suivant : f4-f5-e5. A vous de jouer !]",
+        "Oups ! Les blancs prennent l'opposition. Cherchez encore !",
+        "Oups ! Les blancs prennent l'opposition. Cherchez encore !",
+        "Joli coup, qui lance effectivement une triangulation efficace. Jouons maintenant le coup de Kasparov : 55...Rf5.",
+        "Bien vu ! Le roi de Kasparov va faire un triangle e4-f5-e5. A vous de jouer !",
+        "[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Continuez à suivre le chemin e4-f5-e5.]",
+        "Notre roi n'est plus dans le triangle e4-f5-e5. Essayez encore !",
+        "Oups ! Les blancs prennent l'opposition. Cherchez encore !",
+        "Il n'est pas encore temps de revenir en e4 ! Terminons tout d'abord le processus de triangulation via les cases f5 et e5.",
+        "Bravo ! Dans cette position, les blancs ont abandonné. Comment aurait pu continuer la partie ?",
+        "[%wrong Ce coup ne revient pas sur la case de départ de notre triangle. Cherchez encore !][%hint Terminez le processus de triangulation en revenant sur la case originelle tout en laissant le trait aux blancs !]",
+        "Bien joué ! Les blancs tentent une dernière défense. Comment forcer le roi blanc à aller sur la dernière rangée tout en se préparant à gagner le pion h3 ?",
+        "[%wrong Oups ! Nous perdons notre précieux pion f3. Cherchez encore.][%hint Comment rester à la protection de f3 tout en forçant le roi blanc à reculer ?] Joli ! Le roi blanc se retrouve acculé contre la bande. Nous allons pouvoir jouer ...Rg3 au prochain coup pour gagner le pion h3 en force !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4kp1p/7P/4K3/8 b - - 3 54\"]\r\n\r\n{Le conducteur des pièces noires est le futur champion du monde Garry Kasparov. Jouons son coup : 54...f3+.}\r\n54...f3+\r\n{[%wrong Commençons si vous le voulez bien par jouer le coup ...f3+.][%hint Donnez un échec !]}\r\n55.Kf1\r\n    {Le grand-maître Lev Alburt ne laisse pas les noirs prendre l'opposition. Comment gagner cette finale en perdant volontairement un tempo ? Triangulez comme un champion !}\r\n55...Kf5\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Proposons le triangle suivant : f4-f5-e5. A vous de jouer !]}\r\n    (55...Ke3 $2 56.Ke1 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (55...Kf4 $2 56.Kf2 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (55...Ke5 $5 {Joli coup, qui lance effectivement une triangulation efficace. Jouons maintenant le coup de Kasparov : 55...Rf5.})\r\n56.Kg1\r\n    {Bien vu ! Le roi de Kasparov va faire un triangle e4-f5-e5. A vous de jouer !}\r\n56...Ke5\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Continuez à suivre le chemin e4-f5-e5.]}\r\n    (56...Kg5 $2 57.Kf1 {Notre roi n'est plus dans le triangle e4-f5-e5. Essayez encore !})\r\n    (56...Kf4 $2 57.Kf2 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (56...Ke4 $2 57.Kf1 {Il n'est pas encore temps de revenir en e4 ! Terminons tout d'abord le processus de triangulation via les cases f5 et e5.})\r\n57.Kf1\r\n    {Bravo ! Dans cette position, les blancs ont abandonné. Comment aurait pu continuer la partie ?}\r\n57...Ke4\r\n    {[%wrong Ce coup ne revient pas sur la case de départ de notre triangle. Cherchez encore !][%hint Terminez le processus de triangulation en revenant sur la case originelle tout en laissant le trait aux blancs !]}\r\n58.Kf2\r\n    {Bien joué ! Les blancs tentent une dernière défense. Comment forcer le roi blanc à aller sur la dernière rangée tout en se préparant à gagner le pion h3 ?}\r\n58...Kf4\r\n    {[%wrong Oups ! Nous perdons notre précieux pion f3. Cherchez encore.][%hint Comment rester à la protection de f3 tout en forçant le roi blanc à reculer ?] Joli ! Le roi blanc se retrouve acculé contre la bande. Nous allons pouvoir jouer ...Rg3 au prochain coup pour gagner le pion h3 en force !}\r\n*"
+    },
+    {
+      "fen": "8/5k2/8/p5pP/P3p1p1/4P3/6K1/8 b - - 0 39",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il est temps de montrer vos compétences en triangulation ! Commençons par jouer notre roi en g7 et observons la réponse des blancs.",
+        "[%wrong Jouons, si vous le voulez bien, le coup ...Rg7.][%hint Mettez votre roi en g7.]",
+        "Trait aux noirs. Un coup gagne, tous les autres perdent ! Prenez votre temps...",
+        "[%wrong Revenir sur la dernière rangée va permettre aux blancs de prendre nos deux pions g et d'obtenir une position gagnante... Cherchez encore !][%hint Intéressons-nous au triangle g7-h7-h6...]",
+        "Bien essayé, mais les blancs gagnent le pion g et la partie... Trouvez mieux !",
+        "Bien essayé, mais les blancs gagnent le pion g et la partie... Trouvez mieux !",
+        "Bien essayé, mais après ...Rf6, les blancs vont jouer h6! et obtenir une position gagnante. Cherchez encore.",
+        "Impressionnant ! Les noirs triangulent leur roi et vont gagner le pion h5 en force. Comment continuer ?",
+        "[%wrong Nous ne pouvons pas nous permettre de laisser notre pion g5. Cherchez encore !][%hint Comment gagner le pion h5 en force ?]",
+        "Excellent choix ! Les noirs ont maintenant une position totalement gagnante. Prenez le pion h !",
+        "[%wrong Prenez le pion h5.][%hint Prenez le pion h5.] Beau travail ! Notre pion g va filer à dame tandis que le pion e3 des blancs accuse un retard conséquent !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5k2/8/p5pP/P3p1p1/4P3/6K1/8 b - - 0 39\"]\r\n\r\n{Il est temps de montrer vos compétences en triangulation ! Commençons par jouer notre roi en g7 et observons la réponse des blancs.}\r\n39...Kg7\r\n    {[%wrong Jouons, si vous le voulez bien, le coup ...Rg7.][%hint Mettez votre roi en g7.]}\r\n40.Kg3\r\n    {Trait aux noirs. Un coup gagne, tous les autres perdent ! Prenez votre temps...}\r\n40...Kh7\r\n    {[%wrong Revenir sur la dernière rangée va permettre aux blancs de prendre nos deux pions g et d'obtenir une position gagnante... Cherchez encore !][%hint Intéressons-nous au triangle g7-h7-h6...]}\r\n    (40...Kh6 $2 41.Kxg4 {Bien essayé, mais les blancs gagnent le pion g et la partie... Trouvez mieux !})\r\n    (40...Kf6 $2 41.Kxg4 {Bien essayé, mais les blancs gagnent le pion g et la partie... Trouvez mieux !})\r\n    (40...Kf7 $2 41.Kxg4 {Bien essayé, mais après ...Rf6, les blancs vont jouer h6! et obtenir une position gagnante. Cherchez encore.})\r\n41.Kxg4\r\n    {Impressionnant ! Les noirs triangulent leur roi et vont gagner le pion h5 en force. Comment continuer ?}\r\n41...Kh6\r\n    {[%wrong Nous ne pouvons pas nous permettre de laisser notre pion g5. Cherchez encore !][%hint Comment gagner le pion h5 en force ?]}\r\n42.Kf5\r\n    {Excellent choix ! Les noirs ont maintenant une position totalement gagnante. Prenez le pion h !}\r\n42...Kxh5\r\n    {[%wrong Prenez le pion h5.][%hint Prenez le pion h5.] Beau travail ! Notre pion g va filer à dame tandis que le pion e3 des blancs accuse un retard conséquent !}\r\n*"
+    },
+    {
+      "fen": "8/3k4/8/3KP3/8/8/8/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Traits aux noirs. Les blancs tentent de nous faire le coup de la triangulation ! Quel est le seul coup permettant d'annuler dans cette position ?",
+        "[%wrong Ce coup laisse les blancs jouer Re6 et gagner la partie... Cherchez encore !][%hint Notre roi doit rester le plus proche possible du pion sur sa colonne...]",
+        "Oups ! Les blancs prennent l'opposition. Cherchez encore !",
+        "Oups ! Les blancs prennent l'opposition. Cherchez encore !",
+        "Très bien ! Les blancs tentent de gagner cette finale nulle grâce à la triangulation. Mais les noirs ont désormais plusieurs coups de défense, dont le plus simple consiste à mettre directement notre roi devant le pion blanc. A vous de jouer !",
+        "[%wrong Ce coup ne place pas notre roi devant le pion blanc. Cherchez encore !][%hint Jouez Re6.]",
+        "Et voilà ! Les blancs forcent maintenant notre roi à reculer. Pour une défense efficace, notre roi doit rester sur la même colonne que le pion adverse...",
+        "[%wrong Ce coup ne garde pas le roi sur la même colonne que le pion adverse. Essayez encore !][%hint Jouez Re7.]",
+        "Les blancs ont terminé leur triangulation, et c'est maintenant nous qui avons le trait. Est-ce un problème ? Trouvez le coup qui tient tout !",
+        "[%wrong Oups ! Le roi blanc peut passer devant son pion et obtenir une position gagnante ! Cherchez encore !][%hint N'oubliez pas l'opposition...] Parfait ! La triangulation ne fonctionne pas tant que le roi ne peut pas passer devant son pion. Bravo, vous avez tenu une nulle complexe !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/8/3KP3/8/8/8/8 b - - 0 1\"]\r\n\r\n{Traits aux noirs. Les blancs tentent de nous faire le coup de la triangulation ! Quel est le seul coup permettant d'annuler dans cette position ?}\r\n1...Ke7\r\n    {[%wrong Ce coup laisse les blancs jouer Re6 et gagner la partie... Cherchez encore !][%hint Notre roi doit rester le plus proche possible du pion sur sa colonne...]}\r\n    (1...Ke8 $2 2.Ke6 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (1...Kd8 $2 2.Kd6 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n2.Kd4\r\n    {Très bien ! Les blancs tentent de gagner cette finale nulle grâce à la triangulation. Mais les noirs ont désormais plusieurs coups de défense, dont le plus simple consiste à mettre directement notre roi devant le pion blanc. A vous de jouer !}\r\n2...Ke6\r\n    {[%wrong Ce coup ne place pas notre roi devant le pion blanc. Cherchez encore !][%hint Jouez Re6.]}\r\n3.Ke4\r\n    {Et voilà ! Les blancs forcent maintenant notre roi à reculer. Pour une défense efficace, notre roi doit rester sur la même colonne que le pion adverse...}\r\n3...Ke7\r\n    {[%wrong Ce coup ne garde pas le roi sur la même colonne que le pion adverse. Essayez encore !][%hint Jouez Re7.]}\r\n4.Kd5\r\n    {Les blancs ont terminé leur triangulation, et c'est maintenant nous qui avons le trait. Est-ce un problème ? Trouvez le coup qui tient tout !}\r\n4...Kd7\r\n    {[%wrong Oups ! Le roi blanc peut passer devant son pion et obtenir une position gagnante ! Cherchez encore !][%hint N'oubliez pas l'opposition...] Parfait ! La triangulation ne fonctionne pas tant que le roi ne peut pas passer devant son pion. Bravo, vous avez tenu une nulle complexe !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "cfc35e8e-9cee-11e8-8ddd-df00728fe84c",
+    "name": "La triangulation",
+    "path": "triangulation-1",
+    "description": "Dans certaines finales de pions, il faudra prendre l’opposition et mettre votre adversaire en zugzwang en perdant volontairement un tempo. La triangulation est une manœuvre de roi consistant à revenir sur la case de départ en trois coups. La position se répète, mais vous avez virtuellement passé votre tour, ce qui met votre adversaire en zugzwang.",
+    "glyphName": "graph-nodes-triangulate",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-triangulation-s9k.mp4",
+    "fen": "8/5k2/5P1p/5K1P/8/8/8/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4k3/8/5P1p/4K2P/8/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le moyen le plus direct de gagner cette finale !}\r\n1.Ke6\r\n    {[%wrong Ce coup ne gagne pas en ligne... Cherchez encore !][%hint Pour gagner une finale, il est souvent intéressant de commencer par prendre l'opposition...]}\r\n    (1.Kf5 $6 Kf7 {Ceci est la position de départ du prochain exercice, qui démontrera que les blancs peuvent l'emporter grâce à la triangulation. Mais dans cette position, il y a plus simple. Cherchez encore !})\r\n1...Kf8\r\n    {Parfait ! Les blancs prennent l'opposition. Comment faire passer le pion f en force ?}\r\n2.f7\r\n    {[%wrong Bien essayé, mais il existe un moyen plus direct de l'emporter. Trouvez-le !][%hint Comment forcer le roi noir à quitter la dernière rangée ?]}\r\n2...Kg7\r\n    {Bien vu ! Le roi noir doit quitter la case de promotion. Comment continuer ?}\r\n3.Ke7\r\n    {[%wrong Oups ! Ce coup perd le pion f7. La position est désormais nulle ! Cherchez encore.][%hint Comment prendre le contrôle de la case de promotion ?]}\r\n3...Kh7\r\n    {Bien joué ! Et maintenant, finissez le travail !}\r\n4.Kf6\r\n    {[%wrong Bien essayé, mais il y a plus direct... Trouvez un mat en trois !][%hint Forcez le roi noir à se rendre en h8 !] Quelle précision ! Les blancs vont faire une dame au prochain coup, puis jouer Dg7 mat ! Ce plan est imparable.}\r\n    (4.f8=R $5 {La sécurité d'abord ! Cette sous-promotion est effectivement gagnante, bien joué ! Trouvez maintenant une variante encore plus forte permettant de mater en trois coups.})\r\n    (4.f8=Q $2 {Attention au pat ! Essayez encore...})\r\n    (4.f8=B $5 {Même ce coup est théoriquement gagnant, mais il y a plus fort : trouvez le mat en trois !})\r\n    (4.Ke8 $5 {Un coup patient évitant le pat. Trouvez maintenant une variante encore plus forte permettant de mater en trois coups.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5k2/5P1p/5K1P/8/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Si nous pouvions passer un tour, la position serait facilement gagnante grâce à l'opposition. Comment faire ? C'est le moment de trianguler !}\r\n1.Ke5\r\n    {[%wrong Attention à ne pas perdre un pion ! Essayez encore.][%hint Nous souhaitons faire un triangle avec le roi via les cases e5, f4 et e4.]}\r\n1...Kf8\r\n    {Bien joué ! Les noirs ne jouent pas ....Re8, qui transposerait dans la position de l'exercice précédent. Il est maintenant temps de trianguler avec les cases e5, f4 et e4.}\r\n2.Kf4\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Pour perdre un temps, nous souhaitons faire un triangle avec le roi via les cases e5, f4 et e4.]}\r\n    (2.Ke4 $5 {cette triangulation fonctionne également, bien joué ! Jouons maintenant le roi en f4.})\r\n    (2.Ke6 $2 Ke8 {Les noirs prennent l'opposition, et il faut recommencer toute la procédure à zéro. Trouvez mieux !})\r\n    (2.Kf5 $2 Kf7 {Cette répétition ne nous permet pas d'avancer. Trouvez mieux !})\r\n2...Kg8\r\n    {Bien joué ! Notre roi est engagé sur le triangle e5-f4-e4. Continuez la triangulation !}\r\n3.Ke4\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Jouez votre roi en e4 pour continuer le processus.]}\r\n    (3.Kf5 $2 Kf7 {Les noirs prennent l'opposition, et il faut recommencer toute la procédure à zéro. Trouvez mieux !})\r\n    (3.Ke5 $2 Kf8 {Cette répétition ne nous permet pas d'avancer. Trouvez mieux !})\r\n3...Kf8\r\n    {Beau travail ! Terminons la boucle en revenant en e5 !}\r\n4.Ke5\r\n    {[%wrong Non, nous voulons mettre notre roi en e5 !][%hint La triangulation a pour but de perdre volontairement un tempo pour revenir à la case originelle en laissant le trait à l'adversaire.]}\r\n    (4.Kf5 $2 Kf7 {Cette répétition ne nous permet pas d'avancer. Trouvez mieux !})\r\n4...Kf7\r\n    {Bien joué, le roi est forcé d'aller en f7 (sous peine de Re6, et les blancs gagnent). Acculons maintenant le roi noir sur la dernière rangée !}\r\n5.Kf5\r\n    {[%wrong Ce n'est pas le coup que nous cherchons. Essayez encore !][%hint Quel est le seul coup forçant le roi noir à reculer sans perdre le pion f6 ?]}\r\n5...Kf8\r\n    {Superbe triangulation ! Partons maintenant à la chasse au pion h6.}\r\n6.Kg6\r\n    {[%wrong Ce coup ne prépare pas la prise du pion h6. Cherchez encore !][%hint Le roi noir a dû renoncer au contrôle de la sixième rangée. Comment en profiter ?]}\r\n6...Kg8\r\n    {Très bien ! Les noirs prennent l'opposition, mais il est trop tard : nous gagnons du matériel ! A vous de jouer.}\r\n7.Kxh6\r\n    {[%hint Emparez-vous du pion h6 !] Bravo, vous avez su dompter la redoutable triangulation. Continuez sur cette voie !}\r\n    (7.f7+ $2 Kf8 {Une fois que nous aurons pris h6, la finale sera nulle car notre roi ne pourra plus se soustraire à la colonne h tout en empêchant le roi noir de passer devant le pion. Cherchez encore !})\r\n    (7.Kf5 $2 Kf7 {Nous devons maintenant recommencer tout le processus de triangulation ! Il aurait été plus simple de simplement prendre le pion noir !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/4kp1p/7P/4K3/8 b - - 3 54\"]\r\n\r\n{Le conducteur des pièces noires est le futur champion du monde Garry Kasparov. Jouons son coup : 54...f3+.}\r\n54...f3+\r\n{[%wrong Commençons si vous le voulez bien par jouer le coup ...f3+.][%hint Donnez un échec !]}\r\n55.Kf1\r\n    {Le grand-maître Lev Alburt ne laisse pas les noirs prendre l'opposition. Comment gagner cette finale en perdant volontairement un tempo ? Triangulez comme un champion !}\r\n55...Kf5\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Proposons le triangle suivant : f4-f5-e5. A vous de jouer !]}\r\n    (55...Ke3 $2 56.Ke1 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (55...Kf4 $2 56.Kf2 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (55...Ke5 $5 {Joli coup, qui lance effectivement une triangulation efficace. Jouons maintenant le coup de Kasparov : 55...Rf5.})\r\n56.Kg1\r\n    {Bien vu ! Le roi de Kasparov va faire un triangle e4-f5-e5. A vous de jouer !}\r\n56...Ke5\r\n    {[%wrong Ce coup ne participe à la triangulation de notre roi... Cherchez encore !][%hint Continuez à suivre le chemin e4-f5-e5.]}\r\n    (56...Kg5 $2 57.Kf1 {Notre roi n'est plus dans le triangle e4-f5-e5. Essayez encore !})\r\n    (56...Kf4 $2 57.Kf2 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (56...Ke4 $2 57.Kf1 {Il n'est pas encore temps de revenir en e4 ! Terminons tout d'abord le processus de triangulation via les cases f5 et e5.})\r\n57.Kf1\r\n    {Bravo ! Dans cette position, les blancs ont abandonné. Comment aurait pu continuer la partie ?}\r\n57...Ke4\r\n    {[%wrong Ce coup ne revient pas sur la case de départ de notre triangle. Cherchez encore !][%hint Terminez le processus de triangulation en revenant sur la case originelle tout en laissant le trait aux blancs !]}\r\n58.Kf2\r\n    {Bien joué ! Les blancs tentent une dernière défense. Comment forcer le roi blanc à aller sur la dernière rangée tout en se préparant à gagner le pion h3 ?}\r\n58...Kf4\r\n    {[%wrong Oups ! Nous perdons notre précieux pion f3. Cherchez encore.][%hint Comment rester à la protection de f3 tout en forçant le roi blanc à reculer ?] Joli ! Le roi blanc se retrouve acculé contre la bande. Nous allons pouvoir jouer ...Rg3 au prochain coup pour gagner le pion h3 en force !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/5k2/8/p5pP/P3p1p1/4P3/6K1/8 b - - 0 39\"]\r\n\r\n{Il est temps de montrer vos compétences en triangulation ! Commençons par jouer notre roi en g7 et observons la réponse des blancs.}\r\n39...Kg7\r\n    {[%wrong Jouons, si vous le voulez bien, le coup ...Rg7.][%hint Mettez votre roi en g7.]}\r\n40.Kg3\r\n    {Trait aux noirs. Un coup gagne, tous les autres perdent ! Prenez votre temps...}\r\n40...Kh7\r\n    {[%wrong Revenir sur la dernière rangée va permettre aux blancs de prendre nos deux pions g et d'obtenir une position gagnante... Cherchez encore !][%hint Intéressons-nous au triangle g7-h7-h6...]}\r\n    (40...Kh6 $2 41.Kxg4 {Bien essayé, mais les blancs gagnent le pion g et la partie... Trouvez mieux !})\r\n    (40...Kf6 $2 41.Kxg4 {Bien essayé, mais les blancs gagnent le pion g et la partie... Trouvez mieux !})\r\n    (40...Kf7 $2 41.Kxg4 {Bien essayé, mais après ...Rf6, les blancs vont jouer h6! et obtenir une position gagnante. Cherchez encore.})\r\n41.Kxg4\r\n    {Impressionnant ! Les noirs triangulent leur roi et vont gagner le pion h5 en force. Comment continuer ?}\r\n41...Kh6\r\n    {[%wrong Nous ne pouvons pas nous permettre de laisser notre pion g5. Cherchez encore !][%hint Comment gagner le pion h5 en force ?]}\r\n42.Kf5\r\n    {Excellent choix ! Les noirs ont maintenant une position totalement gagnante. Prenez le pion h !}\r\n42...Kxh5\r\n    {[%wrong Prenez le pion h5.][%hint Prenez le pion h5.] Beau travail ! Notre pion g va filer à dame tandis que le pion e3 des blancs accuse un retard conséquent !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/8/3KP3/8/8/8/8 b - - 0 1\"]\r\n\r\n{Traits aux noirs. Les blancs tentent de nous faire le coup de la triangulation ! Quel est le seul coup permettant d'annuler dans cette position ?}\r\n1...Ke7\r\n    {[%wrong Ce coup laisse les blancs jouer Re6 et gagner la partie... Cherchez encore !][%hint Notre roi doit rester le plus proche possible du pion sur sa colonne...]}\r\n    (1...Ke8 $2 2.Ke6 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n    (1...Kd8 $2 2.Kd6 {Oups ! Les blancs prennent l'opposition. Cherchez encore !})\r\n2.Kd4\r\n    {Très bien ! Les blancs tentent de gagner cette finale nulle grâce à la triangulation. Mais les noirs ont désormais plusieurs coups de défense, dont le plus simple consiste à mettre directement notre roi devant le pion blanc. A vous de jouer !}\r\n2...Ke6\r\n    {[%wrong Ce coup ne place pas notre roi devant le pion blanc. Cherchez encore !][%hint Jouez Re6.]}\r\n3.Ke4\r\n    {Et voilà ! Les blancs forcent maintenant notre roi à reculer. Pour une défense efficace, notre roi doit rester sur la même colonne que le pion adverse...}\r\n3...Ke7\r\n    {[%wrong Ce coup ne garde pas le roi sur la même colonne que le pion adverse. Essayez encore !][%hint Jouez Re7.]}\r\n4.Kd5\r\n    {Les blancs ont terminé leur triangulation, et c'est maintenant nous qui avons le trait. Est-ce un problème ? Trouvez le coup qui tient tout !}\r\n4...Kd7\r\n    {[%wrong Oups ! Le roi blanc peut passer devant son pion et obtenir une position gagnante ! Cherchez encore !][%hint N'oubliez pas l'opposition...] Parfait ! La triangulation ne fonctionne pas tant que le roi ne peut pas passer devant son pion. Bravo, vous avez tenu une nulle complexe !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Il est temps d'aborder un sujet pointu en finale : la triangulation.",
+    "outroText": "Très bien ! Il s'agit de concepts complexes en finale.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "path": "motifs-de-finales",
+      "title": "Motifs de finale",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/88fecd30-a55e-11e8-b04a-53817ee2115a.dd294b02.728x410o.de2eb5921014.png"
+    },
+    "parentId": "7bdeb808-83b8-11e8-8330-c72b33e1232a",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/triangulation5d125e83eb311.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/triangulation-25ea23cca4b57c.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/triangulation-6605ca78bb854c.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 130,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "88fecd30-a55e-11e8-b04a-53817ee2115a",
+      "name": "Motifs de finale",
+      "path": "motifs-de-finales",
+      "order": 7
+    }
+  }
+}

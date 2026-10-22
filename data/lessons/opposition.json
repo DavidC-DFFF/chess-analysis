@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-avancees/opposition",
+  "capturedAt": "2026-10-22T12:23:50.558Z",
+  "title": "L'opposition",
+  "exercises": [
+    {
+      "fen": "8/3k4/3P4/4K3/8/8/8/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Dans cette position, un seul coup permet de tenir la nulle. Lequel ?",
+        "[%hint Pour tenir la nulle, le roi doit absolument rester sur la colonne du pion passé.]",
+        "Le roi blanc prend l'opposition et va forcer le roi noir à quitter la protection de la case de promotion en jouant d7 au prochain coup. Cherchez encore !",
+        "Le roi blanc prend l'opposition et va forcer le roi noir à quitter la protection de la case de promotion en jouant d7 au prochain coup. Cherchez encore !",
+        "Oups ! Il est désormais impossible d'arrêter le pion blanc ! Trouvez mieux.",
+        "Bien joué ! En restant sur la même colonne que le pion adverse, les blancs n'ont pas mieux que la nulle. Prenez l'opposition !",
+        "[%hint Pour prendre l'opposition, il faut se placer face au roi adverse sur la même colonne.]",
+        "Oups ! Il est désormais impossible d'arrêter le pion blanc, c'est pourquoi il nous faut absolument prendre l'opposition...",
+        "Parfait ! Les blancs prennent l'opposition, et les blancs décident de battre en retraite. Remettez-vous devant le pion !",
+        "[%wrong Non, il faut continuer à marquer à la culotte le pion adverse. Cherchez encore !][%hint Comment empêcher le pion blanc d'avancer ?]",
+        "Ce coup fait également nulle, bien vu ! Simplifions nous la vie en plaçant le roi directement face au pion adverse.",
+        "Bien joué ! Si c'est possible, prenez toujours la case faisant face au pion passé. Quel est maintenant le seul coup permettant d'annuler ?",
+        "[%wrong Ce coup perd à cause de Rc6. Cherchez encore !][%hint Restez toujours sur la colonne du pion passé !]",
+        "Oups ! Les blancs gagnent en jouant d7 au prochain coup. Cherchez encore !",
+        "Oups ! Les blancs gagnent en jouant d7 au prochain coup. Cherchez encore !",
+        "Très bien ! Mettez toujours le roi sur la même colonne que le pion. Prouvons aux blancs qu'ils ne peuvent pas gagner en reprenant l'opposition !",
+        "[%hint Prenez l'opposition!]",
+        "Oups ! Il est désormais impossible d'arrêter le pion blanc ! Trouvez mieux.",
+        "Beau travail ! Les blancs n'ont plus aucun piège en réserve. Assurons la nulle !",
+        "[%hint Restez toujours sur la colonne du pion passé !] Belle défense ! Au prochain coup des blancs, vous pourrez prendre le pion, ou vous serez pat. Dans tous les cas, c'est partie nulle !",
+        "Oups ! Vous n'avez pas réussi à empêcher les blancs de faire dame ! Essayez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/3P4/4K3/8/8/8/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Dans cette position, un seul coup permet de tenir la nulle. Lequel ?}\r\n1...Kd8\r\n    {[%hint Pour tenir la nulle, le roi doit absolument rester sur la colonne du pion passé.]}\r\n    (1...Ke8 $2 2.Ke6 {Le roi blanc prend l'opposition et va forcer le roi noir à quitter la protection de la case de promotion en jouant d7 au prochain coup. Cherchez encore !})\r\n    (1...Kc8 $2 2.Ke6 {Le roi blanc prend l'opposition et va forcer le roi noir à quitter la protection de la case de promotion en jouant d7 au prochain coup. Cherchez encore !})\r\n    (1...Kc6 $2 2.Ke6 {Oups ! Il est désormais impossible d'arrêter le pion blanc ! Trouvez mieux.})\r\n2.Ke6\r\n    {Bien joué ! En restant sur la même colonne que le pion adverse, les blancs n'ont pas mieux que la nulle. Prenez l'opposition !}\r\n2...Ke8\r\n    {[%hint Pour prendre l'opposition, il faut se placer face au roi adverse sur la même colonne.]}\r\n    (2...Kc8 $2 3.Ke7 {Oups ! Il est désormais impossible d'arrêter le pion blanc, c'est pourquoi il nous faut absolument prendre l'opposition...})\r\n3.Kd5\r\n    {Parfait ! Les blancs prennent l'opposition, et les blancs décident de battre en retraite. Remettez-vous devant le pion !}\r\n3...Kd7\r\n    {[%wrong Non, il faut continuer à marquer à la culotte le pion adverse. Cherchez encore !][%hint Comment empêcher le pion blanc d'avancer ?]}\r\n    (3...Kd8 $5 {Ce coup fait également nulle, bien vu ! Simplifions nous la vie en plaçant le roi directement face au pion adverse.})\r\n4.Kc5\r\n    {Bien joué ! Si c'est possible, prenez toujours la case faisant face au pion passé. Quel est maintenant le seul coup permettant d'annuler ?}\r\n4...Kd8\r\n    {[%wrong Ce coup perd à cause de Rc6. Cherchez encore !][%hint Restez toujours sur la colonne du pion passé !]}\r\n    (4...Kc8 $2 5.Kc6 {Oups ! Les blancs gagnent en jouant d7 au prochain coup. Cherchez encore !})\r\n    (4...Ke8 $2 5.Kc6 {Oups ! Les blancs gagnent en jouant d7 au prochain coup. Cherchez encore !})\r\n5.Kc6\r\n    {Très bien ! Mettez toujours le roi sur la même colonne que le pion. Prouvons aux blancs qu'ils ne peuvent pas gagner en reprenant l'opposition !}\r\n5...Kc8\r\n    {[%hint Prenez l'opposition!]}\r\n    (5...Ke8 $2 6.Kc7 {Oups ! Il est désormais impossible d'arrêter le pion blanc ! Trouvez mieux.})\r\n6.d7+\r\n    {Beau travail ! Les blancs n'ont plus aucun piège en réserve. Assurons la nulle !}\r\n6...Kd8\r\n    {[%hint Restez toujours sur la colonne du pion passé !] Belle défense ! Au prochain coup des blancs, vous pourrez prendre le pion, ou vous serez pat. Dans tous les cas, c'est partie nulle !}\r\n    (6...Kb8 $2 7.d8=Q+{Oups ! Vous n'avez pas réussi à empêcher les blancs de faire dame ! Essayez encore.})\r\n*"
+    },
+    {
+      "fen": "8/4k3/8/8/3KP3/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez le seul coup permettant de gagner cette finale !",
+        "[%wrong Ce coup ne prend pas l'opposition... Cherchez encore !][%hint Prenez l'opposition!]",
+        "Les blancs ne peuvent gagner qu'en prenant l'opposition en force. Dans cette variante, les noirs tiennent la nulle... Cherchez encore !",
+        "Les blancs ne peuvent gagner qu'en prenant l'opposition en force. Dans cette variante, les noirs tiennent la nulle... Cherchez encore !",
+        "Joli ! Les blancs prennent l'opposition. Installez-vous maintenant sur la case laissée sans protection par le roi noir.",
+        "[%wrong Ce coup ne prend pas la case voulue, cherchez encore !][%hint Mettez votre roi sur la sixième rangée.]",
+        "Bien joué ! Les noirs essaient maintenant de bloquer la case de promotion. C'est le moment de reprendre l'opposition !",
+        "[%wrong Ce coup ne prend pas l'opposition... Cherchez encore !][%hint Prenez l'opposition!]",
+        "Ce coup gagne également, mais la marche à suivre est plus compliquée. Prenons directement l'opposition !",
+        "Parfait ! Le roi noir est forcé d'abandonner le contrôle d'une case de la septième rangée... Profitez-en !",
+        "[%wrong Ce coup n'installe pas notre roi sur la septième rangée... Essayez encore !][%hint Le plan de gain le plus simple consiste à mettre le roi sur la septième rangée !]",
+        "Belle technique ! Maintenant que la case de promotion est couverte, il ne reste qu'à pousser le pion !",
+        "[%wrong Ce coup n'avance pas notre pion. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]",
+        "Continuez !",
+        "[%wrong Ce coup n'avance pas notre pion. Essayez encore !][%hint Poussez le pion !] Votre technique en finale est excellente ! Le roi noir est débordé."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4k3/8/8/3KP3/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup permettant de gagner cette finale !}\r\n1.Ke5\r\n    {[%wrong Ce coup ne prend pas l'opposition... Cherchez encore !][%hint Prenez l'opposition!]}\r\n    (1.e5 $2 Ke6 {Les blancs ne peuvent gagner qu'en prenant l'opposition en force. Dans cette variante, les noirs tiennent la nulle... Cherchez encore !})\r\n    (1.Kd5 $2 Kd7 {Les blancs ne peuvent gagner qu'en prenant l'opposition en force. Dans cette variante, les noirs tiennent la nulle... Cherchez encore !})\r\n1...Kd7\r\n    {Joli ! Les blancs prennent l'opposition. Installez-vous maintenant sur la case laissée sans protection par le roi noir.}\r\n2.Kf6\r\n    {[%wrong Ce coup ne prend pas la case voulue, cherchez encore !][%hint Mettez votre roi sur la sixième rangée.]}\r\n2...Ke8\r\n    {Bien joué ! Les noirs essaient maintenant de bloquer la case de promotion. C'est le moment de reprendre l'opposition !}\r\n3.Ke6\r\n   {[%wrong Ce coup ne prend pas l'opposition... Cherchez encore !][%hint Prenez l'opposition!]}\r\n    (3.e5 $5 {Ce coup gagne également, mais la marche à suivre est plus compliquée. Prenons directement l'opposition !})\r\n3...Kf8\r\n    {Parfait ! Le roi noir est forcé d'abandonner le contrôle d'une case de la septième rangée... Profitez-en !}\r\n4.Kd7\r\n    {[%wrong Ce coup n'installe pas notre roi sur la septième rangée... Essayez encore !][%hint Le plan de gain le plus simple consiste à mettre le roi sur la septième rangée !]}\r\n4...Kf7\r\n    {Belle technique ! Maintenant que la case de promotion est couverte, il ne reste qu'à pousser le pion !}\r\n5.e5\r\n    {[%wrong Ce coup n'avance pas notre pion. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]}\r\n5...Kf8\r\n    {Continuez !}\r\n6.e6\r\n    {[%wrong Ce coup n'avance pas notre pion. Essayez encore !][%hint Poussez le pion !] Votre technique en finale est excellente ! Le roi noir est débordé.}\r\n*"
+    },
+    {
+      "fen": "6k1/8/6K1/6P1/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Lorsque votre roi est devant votre pion sur la sixième rangée, l'opposition ne suffit pas à sauver le défenseur (sauf si le pion est sur les bords de l'échiquier). Passons de la théorie à la pratique en gardant notre roi sur la sixième rangée !",
+        "[%wrong Non, le seul moyen de gagner consiste à laisser notre roi sur la sixième rangée !][%hint Gardons notre roi sur la sixième rangée.]",
+        "Bien joué ! Mettons maintenant notre roi sur l'autre case disponible sur la sixième rangée pour vérifier que la théorie fonctionne également !",
+        "Les noirs continuent à suivre notre roi pour garder l'opposition. Poussons le pion !",
+        "[%wrong Le seul moyen de progresser est de pousser le pion.][%hint Poussez le pion !]",
+        "Ce coup peut gagner également, mais il y a plus simple. Cherchez encore !",
+        "La victoire se précise. En poussant notre pion, nous allons empêcher le roi de rester à la défense de la case de promotion... A vous de jouer !",
+        "[%wrong Non, il faut pousser le pion !][%hint Poussez le pion !]",
+        "Bien trouvé ! Couvrez maintenant la case de promotion avec le roi !",
+        "[%wrong Ce coup perd le pion, trouvez mieux !][%hint Rapprochez votre roi de la case fatidique.] Les blancs vont faire dame au prochain coup et remporter la partie. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/6K1/6P1/8/8/8/8 w - - 0 1\"]\r\n\r\n{Lorsque votre roi est devant votre pion sur la sixième rangée, l'opposition ne suffit pas à sauver le défenseur (sauf si le pion est sur les bords de l'échiquier). Passons de la théorie à la pratique en gardant notre roi sur la sixième rangée !}\r\n1.Kh6\r\n    {[%wrong Non, le seul moyen de gagner consiste à laisser notre roi sur la sixième rangée !][%hint Gardons notre roi sur la sixième rangée.]}\r\n    (1.Kf6 $5 {Bien joué ! Mettons maintenant notre roi sur l'autre case disponible sur la sixième rangée pour vérifier que la théorie fonctionne également !})\r\n1...Kh8\r\n    {Les noirs continuent à suivre notre roi pour garder l'opposition. Poussons le pion !}\r\n2.g6\r\n    {[%wrong Le seul moyen de progresser est de pousser le pion.][%hint Poussez le pion !]}\r\n    (2.Kg6 $5 {Ce coup peut gagner également, mais il y a plus simple. Cherchez encore !})\r\n2...Kg8\r\n    {La victoire se précise. En poussant notre pion, nous allons empêcher le roi de rester à la défense de la case de promotion... A vous de jouer !}\r\n3.g7\r\n    {[%wrong Non, il faut pousser le pion !][%hint Poussez le pion !]}\r\n3...Kf7\r\n    {Bien trouvé ! Couvrez maintenant la case de promotion avec le roi !}\r\n4.Kh7\r\n    {[%wrong Ce coup perd le pion, trouvez mieux !][%hint Rapprochez votre roi de la case fatidique.] Les blancs vont faire dame au prochain coup et remporter la partie. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "8/8/3k4/PK6/8/8/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Une course à la case de promotion s'est engagée. Les blancs, au trait, ont un coup gagnant. Lequel ?",
+        "[%wrong Ce coup n'empêche pas les noirs de jouer ...Rc7, et la position est nulle... Cherchez encore !][%hint L'opposition peut empêcher le roi noir de venir bloquer nos pions !]",
+        "Le roi noir revient juste à temps dans le coin pour forcer la nulle. Trouvez mieux !",
+        "L'opposition à la rescousse ! Le roi noir tente une nouvelle fois de se faufiler vers le coin de l'échiquier. Comment l'en empêcher ?",
+        "[%wrong Ce coup n'empêche pas le roi noir d'accéder à la colonne c, où il va pouvoir tenir la nulle. Trouvez mieux !][%hint Continuons sur le thème de l'opposition !] Bien joué ! Les blancs utilisent l'opposition pour empêcher le roi noir d'atteindre la colonne c, ce qui va leur permettre de promouvoir leur pion sans difficulté.",
+        "Cette idée fonctionne également, bien vu ! Essayons maintenant en prenant l'opposition contre le roi noir."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/3k4/PK6/8/8/8/8 w - - 0 1\"]\r\n\r\n{Une course à la case de promotion s'est engagée. Les blancs, au trait, ont un coup gagnant. Lequel ?}\r\n1.Kb6\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...Rc7, et la position est nulle... Cherchez encore !][%hint L'opposition peut empêcher le roi noir de venir bloquer nos pions !]}\r\n    (1.a6 $2 Kc7 {Le roi noir revient juste à temps dans le coin pour forcer la nulle. Trouvez mieux !})\r\n1...Kd7\r\n    {L'opposition à la rescousse ! Le roi noir tente une nouvelle fois de se faufiler vers le coin de l'échiquier. Comment l'en empêcher ?}\r\n2.Kb7\r\n    {[%wrong Ce coup n'empêche pas le roi noir d'accéder à la colonne c, où il va pouvoir tenir la nulle. Trouvez mieux !][%hint Continuons sur le thème de l'opposition !] Bien joué ! Les blancs utilisent l'opposition pour empêcher le roi noir d'atteindre la colonne c, ce qui va leur permettre de promouvoir leur pion sans difficulté.}\r\n    (2.a6 $5 {Cette idée fonctionne également, bien vu ! Essayons maintenant en prenant l'opposition contre le roi noir.})\r\n*"
+    },
+    {
+      "fen": "8/1k1p4/2r5/2R5/2K5/8/8/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Trouvez le coup qui force une finale de pions gagnante !",
+        "[%wrong Ce coup ne permet pas de rentrer dans une finale de pions gagnante. Cherchez encore !][%hint Comment forcer l'échanger des tours pour prendre l'opposition ?]",
+        "Bien essayé, mais bien que nous puissions prendre l'opposition par ...Rc7, les blancs vont pouvoir jouer Rd5 et il sera impossible de garder l'opposition. Cherchez encore !",
+        "Ce coup d'attente ne force pas l'échange des tours. Cherchez encore !",
+        "Malheureusement, le roi noir ne peut pas profiter de sa position, et les blancs vont pouvoir annuler. Trouvez mieux !",
+        "Bien joué ! Les noirs forcent l'échange des tours. Quel est maintenant la suite gagnante ?",
+        "[%wrong Nous devons tout d'abord reprendre la tour !][%hint Récupérez le matériel avec la bonne pièce !]",
+        "Les blancs prennent l'opposition et le roi noir ne peut plus se positionner devant son pion. La position est nulle.",
+        "Excellent travail ! Les noirs prennent l’opposition. Les blancs tentent de rester devant le pion passé, mais il nous reste une corde à notre arc ! Jouez le coup gagnant.",
+        "[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint La clef du problème réside dans l'opposition !] L'opposition est primordiale ! En continuant avec une technique irréprochable, les noirs vont s'imposer sans coup férir. Bien joué !",
+        "Le roi noir ne peut plus passer devant son pion : partie nulle...",
+        "Le roi noir ne peut plus passer devant son pion : partie nulle..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1k1p4/2r5/2R5/2K5/8/8/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez le coup qui force une finale de pions gagnante !}\r\n1...Kb6\r\n    {[%wrong Ce coup ne permet pas de rentrer dans une finale de pions gagnante. Cherchez encore !][%hint Comment forcer l'échanger des tours pour prendre l'opposition ?]}\r\n    (1...Rxc5+ $2 2.Kxc5 {Bien essayé, mais bien que nous puissions prendre l'opposition par ...Rc7, les blancs vont pouvoir jouer Rd5 et il sera impossible de garder l'opposition. Cherchez encore !})\r\n    (1...Kc7 $2 2.Kd5 {Ce coup d'attente ne force pas l'échange des tours. Cherchez encore !})\r\n    (1...d6 $2 2.Rxc6 {Malheureusement, le roi noir ne peut pas profiter de sa position, et les blancs vont pouvoir annuler. Trouvez mieux !})\r\n2.Rxc6+\r\n    {Bien joué ! Les noirs forcent l'échange des tours. Quel est maintenant la suite gagnante ?}\r\n2...Kxc6\r\n    {[%wrong Nous devons tout d'abord reprendre la tour !][%hint Récupérez le matériel avec la bonne pièce !]}\r\n    (2...dxc6 $2 3.Kb4 {Les blancs prennent l'opposition et le roi noir ne peut plus se positionner devant son pion. La position est nulle.})\r\n3.Kd4\r\n    {Excellent travail ! Les noirs prennent l’opposition. Les blancs tentent de rester devant le pion passé, mais il nous reste une corde à notre arc ! Jouez le coup gagnant.}\r\n3...Kd6\r\n    {[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint La clef du problème réside dans l'opposition !] L'opposition est primordiale ! En continuant avec une technique irréprochable, les noirs vont s'imposer sans coup férir. Bien joué !}\r\n    (3...d5 $2 4.Kd3 {Le roi noir ne peut plus passer devant son pion : partie nulle...})\r\n    (3...d6 $2 4.Kc4 {Le roi noir ne peut plus passer devant son pion : partie nulle...})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "1855460a-9ced-11e8-8e43-2dcd41e4067f",
+    "name": "L'opposition",
+    "path": "opposition",
+    "description": "L’opposition est un concept-clef en finale. Lorsque deux rois se font face à une case d’écart, celui qui a le trait est désavantagé car il doit céder le passage. Souvent, c’est grâce à l’opposition que les parties se gagnent ou s’annulent en finale. Dans une finale roi + pion contre roi seul, l’opposition est une technique de gain clef. Si le roi parvient à se mettre devant son pion sur la sixième, septième ou huitième rangée, la position est gagnante.",
+    "glyphName": "piece-opposites-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-king-opposition-e3n.mp4",
+    "fen": "8/1k6/8/1K6/1P6/8/8/8 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k4/3P4/4K3/8/8/8/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Dans cette position, un seul coup permet de tenir la nulle. Lequel ?}\r\n1...Kd8\r\n    {[%hint Pour tenir la nulle, le roi doit absolument rester sur la colonne du pion passé.]}\r\n    (1...Ke8 $2 2.Ke6 {Le roi blanc prend l'opposition et va forcer le roi noir à quitter la protection de la case de promotion en jouant d7 au prochain coup. Cherchez encore !})\r\n    (1...Kc8 $2 2.Ke6 {Le roi blanc prend l'opposition et va forcer le roi noir à quitter la protection de la case de promotion en jouant d7 au prochain coup. Cherchez encore !})\r\n    (1...Kc6 $2 2.Ke6 {Oups ! Il est désormais impossible d'arrêter le pion blanc ! Trouvez mieux.})\r\n2.Ke6\r\n    {Bien joué ! En restant sur la même colonne que le pion adverse, les blancs n'ont pas mieux que la nulle. Prenez l'opposition !}\r\n2...Ke8\r\n    {[%hint Pour prendre l'opposition, il faut se placer face au roi adverse sur la même colonne.]}\r\n    (2...Kc8 $2 3.Ke7 {Oups ! Il est désormais impossible d'arrêter le pion blanc, c'est pourquoi il nous faut absolument prendre l'opposition...})\r\n3.Kd5\r\n    {Parfait ! Les blancs prennent l'opposition, et les blancs décident de battre en retraite. Remettez-vous devant le pion !}\r\n3...Kd7\r\n    {[%wrong Non, il faut continuer à marquer à la culotte le pion adverse. Cherchez encore !][%hint Comment empêcher le pion blanc d'avancer ?]}\r\n    (3...Kd8 $5 {Ce coup fait également nulle, bien vu ! Simplifions nous la vie en plaçant le roi directement face au pion adverse.})\r\n4.Kc5\r\n    {Bien joué ! Si c'est possible, prenez toujours la case faisant face au pion passé. Quel est maintenant le seul coup permettant d'annuler ?}\r\n4...Kd8\r\n    {[%wrong Ce coup perd à cause de Rc6. Cherchez encore !][%hint Restez toujours sur la colonne du pion passé !]}\r\n    (4...Kc8 $2 5.Kc6 {Oups ! Les blancs gagnent en jouant d7 au prochain coup. Cherchez encore !})\r\n    (4...Ke8 $2 5.Kc6 {Oups ! Les blancs gagnent en jouant d7 au prochain coup. Cherchez encore !})\r\n5.Kc6\r\n    {Très bien ! Mettez toujours le roi sur la même colonne que le pion. Prouvons aux blancs qu'ils ne peuvent pas gagner en reprenant l'opposition !}\r\n5...Kc8\r\n    {[%hint Prenez l'opposition!]}\r\n    (5...Ke8 $2 6.Kc7 {Oups ! Il est désormais impossible d'arrêter le pion blanc ! Trouvez mieux.})\r\n6.d7+\r\n    {Beau travail ! Les blancs n'ont plus aucun piège en réserve. Assurons la nulle !}\r\n6...Kd8\r\n    {[%hint Restez toujours sur la colonne du pion passé !] Belle défense ! Au prochain coup des blancs, vous pourrez prendre le pion, ou vous serez pat. Dans tous les cas, c'est partie nulle !}\r\n    (6...Kb8 $2 7.d8=Q+{Oups ! Vous n'avez pas réussi à empêcher les blancs de faire dame ! Essayez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/4k3/8/8/3KP3/8/8/8 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez le seul coup permettant de gagner cette finale !}\r\n1.Ke5\r\n    {[%wrong Ce coup ne prend pas l'opposition... Cherchez encore !][%hint Prenez l'opposition!]}\r\n    (1.e5 $2 Ke6 {Les blancs ne peuvent gagner qu'en prenant l'opposition en force. Dans cette variante, les noirs tiennent la nulle... Cherchez encore !})\r\n    (1.Kd5 $2 Kd7 {Les blancs ne peuvent gagner qu'en prenant l'opposition en force. Dans cette variante, les noirs tiennent la nulle... Cherchez encore !})\r\n1...Kd7\r\n    {Joli ! Les blancs prennent l'opposition. Installez-vous maintenant sur la case laissée sans protection par le roi noir.}\r\n2.Kf6\r\n    {[%wrong Ce coup ne prend pas la case voulue, cherchez encore !][%hint Mettez votre roi sur la sixième rangée.]}\r\n2...Ke8\r\n    {Bien joué ! Les noirs essaient maintenant de bloquer la case de promotion. C'est le moment de reprendre l'opposition !}\r\n3.Ke6\r\n   {[%wrong Ce coup ne prend pas l'opposition... Cherchez encore !][%hint Prenez l'opposition!]}\r\n    (3.e5 $5 {Ce coup gagne également, mais la marche à suivre est plus compliquée. Prenons directement l'opposition !})\r\n3...Kf8\r\n    {Parfait ! Le roi noir est forcé d'abandonner le contrôle d'une case de la septième rangée... Profitez-en !}\r\n4.Kd7\r\n    {[%wrong Ce coup n'installe pas notre roi sur la septième rangée... Essayez encore !][%hint Le plan de gain le plus simple consiste à mettre le roi sur la septième rangée !]}\r\n4...Kf7\r\n    {Belle technique ! Maintenant que la case de promotion est couverte, il ne reste qu'à pousser le pion !}\r\n5.e5\r\n    {[%wrong Ce coup n'avance pas notre pion. Essayez encore !][%hint Les pions passés sont fait pour être poussés !]}\r\n5...Kf8\r\n    {Continuez !}\r\n6.e6\r\n    {[%wrong Ce coup n'avance pas notre pion. Essayez encore !][%hint Poussez le pion !] Votre technique en finale est excellente ! Le roi noir est débordé.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/8/6K1/6P1/8/8/8/8 w - - 0 1\"]\r\n\r\n{Lorsque votre roi est devant votre pion sur la sixième rangée, l'opposition ne suffit pas à sauver le défenseur (sauf si le pion est sur les bords de l'échiquier). Passons de la théorie à la pratique en gardant notre roi sur la sixième rangée !}\r\n1.Kh6\r\n    {[%wrong Non, le seul moyen de gagner consiste à laisser notre roi sur la sixième rangée !][%hint Gardons notre roi sur la sixième rangée.]}\r\n    (1.Kf6 $5 {Bien joué ! Mettons maintenant notre roi sur l'autre case disponible sur la sixième rangée pour vérifier que la théorie fonctionne également !})\r\n1...Kh8\r\n    {Les noirs continuent à suivre notre roi pour garder l'opposition. Poussons le pion !}\r\n2.g6\r\n    {[%wrong Le seul moyen de progresser est de pousser le pion.][%hint Poussez le pion !]}\r\n    (2.Kg6 $5 {Ce coup peut gagner également, mais il y a plus simple. Cherchez encore !})\r\n2...Kg8\r\n    {La victoire se précise. En poussant notre pion, nous allons empêcher le roi de rester à la défense de la case de promotion... A vous de jouer !}\r\n3.g7\r\n    {[%wrong Non, il faut pousser le pion !][%hint Poussez le pion !]}\r\n3...Kf7\r\n    {Bien trouvé ! Couvrez maintenant la case de promotion avec le roi !}\r\n4.Kh7\r\n    {[%wrong Ce coup perd le pion, trouvez mieux !][%hint Rapprochez votre roi de la case fatidique.] Les blancs vont faire dame au prochain coup et remporter la partie. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/3k4/PK6/8/8/8/8 w - - 0 1\"]\r\n\r\n{Une course à la case de promotion s'est engagée. Les blancs, au trait, ont un coup gagnant. Lequel ?}\r\n1.Kb6\r\n    {[%wrong Ce coup n'empêche pas les noirs de jouer ...Rc7, et la position est nulle... Cherchez encore !][%hint L'opposition peut empêcher le roi noir de venir bloquer nos pions !]}\r\n    (1.a6 $2 Kc7 {Le roi noir revient juste à temps dans le coin pour forcer la nulle. Trouvez mieux !})\r\n1...Kd7\r\n    {L'opposition à la rescousse ! Le roi noir tente une nouvelle fois de se faufiler vers le coin de l'échiquier. Comment l'en empêcher ?}\r\n2.Kb7\r\n    {[%wrong Ce coup n'empêche pas le roi noir d'accéder à la colonne c, où il va pouvoir tenir la nulle. Trouvez mieux !][%hint Continuons sur le thème de l'opposition !] Bien joué ! Les blancs utilisent l'opposition pour empêcher le roi noir d'atteindre la colonne c, ce qui va leur permettre de promouvoir leur pion sans difficulté.}\r\n    (2.a6 $5 {Cette idée fonctionne également, bien vu ! Essayons maintenant en prenant l'opposition contre le roi noir.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1k1p4/2r5/2R5/2K5/8/8/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Trouvez le coup qui force une finale de pions gagnante !}\r\n1...Kb6\r\n    {[%wrong Ce coup ne permet pas de rentrer dans une finale de pions gagnante. Cherchez encore !][%hint Comment forcer l'échanger des tours pour prendre l'opposition ?]}\r\n    (1...Rxc5+ $2 2.Kxc5 {Bien essayé, mais bien que nous puissions prendre l'opposition par ...Rc7, les blancs vont pouvoir jouer Rd5 et il sera impossible de garder l'opposition. Cherchez encore !})\r\n    (1...Kc7 $2 2.Kd5 {Ce coup d'attente ne force pas l'échange des tours. Cherchez encore !})\r\n    (1...d6 $2 2.Rxc6 {Malheureusement, le roi noir ne peut pas profiter de sa position, et les blancs vont pouvoir annuler. Trouvez mieux !})\r\n2.Rxc6+\r\n    {Bien joué ! Les noirs forcent l'échange des tours. Quel est maintenant la suite gagnante ?}\r\n2...Kxc6\r\n    {[%wrong Nous devons tout d'abord reprendre la tour !][%hint Récupérez le matériel avec la bonne pièce !]}\r\n    (2...dxc6 $2 3.Kb4 {Les blancs prennent l'opposition et le roi noir ne peut plus se positionner devant son pion. La position est nulle.})\r\n3.Kd4\r\n    {Excellent travail ! Les noirs prennent l’opposition. Les blancs tentent de rester devant le pion passé, mais il nous reste une corde à notre arc ! Jouez le coup gagnant.}\r\n3...Kd6\r\n    {[%wrong Ce n'est pas le coup gagnant, cherchez encore !][%hint La clef du problème réside dans l'opposition !] L'opposition est primordiale ! En continuant avec une technique irréprochable, les noirs vont s'imposer sans coup férir. Bien joué !}\r\n    (3...d5 $2 4.Kd3 {Le roi noir ne peut plus passer devant son pion : partie nulle...})\r\n    (3...d6 $2 4.Kc4 {Le roi noir ne peut plus passer devant son pion : partie nulle...})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenons une technique fondamentale en finale : l'opposition.",
+    "outroText": "Maitriser l'opposition va transformer vos fins de partie en promenades de santé.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "path": "finales-avancees",
+      "title": "Finales avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a03f97ac-a55b-11e8-8184-9d27df009acd.92637022.728x410o.3d0706f65a2f.png"
+    },
+    "parentId": "18446a6e-83b7-11e8-98da-8b5ab905f766",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-opposition5e7045b448223.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-opposition-566abb0bb65f11.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-opposition-15ea23eb00ce7d.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/king-opposition-26130d5c938a66.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 114,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "name": "Finales avancées",
+      "path": "finales-avancees",
+      "order": 4
+    }
+  }
+}

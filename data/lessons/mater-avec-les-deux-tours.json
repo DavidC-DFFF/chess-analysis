@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/gagner-la-partie/mater-avec-les-deux-tours",
+  "capturedAt": "2026-10-22T12:23:30.885Z",
+  "title": "Mater avec deux tours",
+  "exercises": [
+    {
+      "fen": "1k6/5R2/6R1/8/8/8/6K1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Matez le roi noir avec une tour !",
+        "[%wrong Vous n'avez pas maté le roi noir. Essayez encore !][%hint La tour sur la septième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez fait échec et mat.",
+        "Oups ! Le roi noir esquive le mat. Trouvez mieux."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/5R2/6R1/8/8/8/6K1/8 w - - 0 1\"]\r\n\r\n{Matez le roi noir avec une tour !}\r\n1.Rg8#\r\n    {[%wrong Vous n'avez pas maté le roi noir. Essayez encore !][%hint La tour sur la septième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez fait échec et mat.}\r\n    (1.Rf8+ $2 Kb7 {Oups ! Le roi noir esquive le mat. Trouvez mieux.})\r\n*"
+    },
+    {
+      "fen": "8/1R6/2R5/8/k7/8/8/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Même concept, mais cette fois en vertical. Trouvez le mat en un !",
+        "[%wrong Vous n'avez pas maté le roi noir. Essayez encore !][%hint La tour sur la colonne b coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez fait échec et mat.",
+        "Oups ! Le roi noir esquive le mat. Trouvez mieux."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1R6/2R5/8/k7/8/8/6K1 w - - 0 1\"]\r\n\r\n{Même concept, mais cette fois en vertical. Trouvez le mat en un !}\r\n1.Ra6#\r\n    {[%wrong Vous n'avez pas maté le roi noir. Essayez encore !][%hint La tour sur la colonne b coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez fait échec et mat.}\r\n    (1.Ra7+ $2 Kb5 {Oups ! Le roi noir esquive le mat. Trouvez mieux.})\r\n*"
+    },
+    {
+      "fen": "8/1k6/5R2/6R1/8/8/8/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment forcer le roi noir à aller sur la dernière rangée ?",
+        "[%wrong Bien essayé, mais ce coup ne force pas le roi noir à aller sur la dernière rangée.][%hint La tour sur la sixième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour le forcer à aller sur la dernière rangée.]",
+        "Ça sent le mat de l'escalier ! Le roi noir est repoussé sur la dernière rangée. Comment finir le travail ?",
+        "[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint La tour sur la septième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Le roi noir est échec et mat.",
+        "Le roi noir s'échappe. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1k6/5R2/6R1/8/8/8/6K1 w - - 0 1\"]\r\n\r\n{Comment forcer le roi noir à aller sur la dernière rangée ?}\r\n1.Rg7+ $1\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi noir à aller sur la dernière rangée.][%hint La tour sur la sixième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour le forcer à aller sur la dernière rangée.]}\r\n1...Kc8\r\n    {Ça sent le mat de l'escalier ! Le roi noir est repoussé sur la dernière rangée. Comment finir le travail ?}\r\n2.Rf8#\r\n    {[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint La tour sur la septième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Le roi noir est échec et mat.}\r\n    (2.Rg8+ $2 Kd7 {Le roi noir s'échappe. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "8/k7/p4R1R/8/1n6/8/1pb3PP/7K w - - 1 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs vont promouvoir le pion b2 en dame au prochain coup. A vous de sauver la partie avec un mat de l'escalier !",
+        "[%wrong Il faut forcer le roi noir à aller sur la dernière rangée. Essayez encore !][%hint Jouez un coup de tour qui met le roi noir en échec sur la septième rangée.]",
+        "Oups ! Attention aux pièces noires. Essayez encore !",
+        "Bien joué ! Le roi noir est repoussé sur la dernière rangée. A vous de finir le travail.",
+        "[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint L'une de vos tours peut mater sur la dernière rangée.] Bien joué ! Le roi noir est échec et mat.",
+        "Le roi noir s'échappe. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/k7/p4R1R/8/1n6/8/1pb3PP/7K w - - 1 1\"]\r\n\r\n{Les noirs vont promouvoir le pion b2 en dame au prochain coup. A vous de sauver la partie avec un mat de l'escalier !}\r\n1.Rf7+ $1\r\n    {[%wrong Il faut forcer le roi noir à aller sur la dernière rangée. Essayez encore !][%hint Jouez un coup de tour qui met le roi noir en échec sur la septième rangée.]}\r\n    (1.Rh7+ $2 Bxh7 {Oups ! Attention aux pièces noires. Essayez encore !})\r\n1...Kb8\r\n    {Bien joué ! Le roi noir est repoussé sur la dernière rangée. A vous de finir le travail.}\r\n2.Rh8#\r\n    {[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint L'une de vos tours peut mater sur la dernière rangée.] Bien joué ! Le roi noir est échec et mat.}\r\n    (2.Rf8+ $2 Kb7 {Le roi noir s'échappe. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "8/pk5r/p7/8/5P1q/8/4R1PP/2R4K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est attaqué par la dame noire et la tour. Heureusement, les tours blanches peuvent forcer le roi noir à aller dans le coin. Trouvez comment !",
+        "[%wrong Bien essayé, mais ce coup ne force pas le roi noir à aller dans le coin. Essayez encore !][%hint La tour sur la colonne c coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour le forcer à aller dans le coin.]",
+        "Formidable ! Le roi noir est maintenant acculé. Il est temps de finir le travail !",
+        "[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint La tour sur la colonne b coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez maté le roi adverse juste à temps.",
+        "Oups ! Sur cette case, la tour n'était pas protégée. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pk5r/p7/8/5P1q/8/4R1PP/2R4K w - - 0 1\"]\r\n\r\n{Le roi blanc est attaqué par la dame noire et la tour. Heureusement, les tours blanches peuvent forcer le roi noir à aller dans le coin. Trouvez comment !}\r\n1.Rb2+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi noir à aller dans le coin. Essayez encore !][%hint La tour sur la colonne c coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour le forcer à aller dans le coin.]}\r\n1...Ka8\r\n    {Formidable ! Le roi noir est maintenant acculé. Il est temps de finir le travail !}\r\n2.Rc8#\r\n    {[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint La tour sur la colonne b coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez maté le roi adverse juste à temps.}\r\n    (2.Rb8+ $2 Kxb8 {Oups ! Sur cette case, la tour n'était pas protégée. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "3a9bacf8-9ce4-11e8-b7ee-378a0396b706",
+    "name": "Mater avec deux tours",
+    "path": "mater-avec-les-deux-tours",
+    "description": "Une autre manière efficace de mater consiste à utiliser deux tours (ou une tour et une dame) pour forcer le roi adverse à se rendre sur le bord de l’échiquier. Lorsqu’une tour contrôle une colonne entière, le roi se retrouve totalement coupé du reste de l’échiquier. Une fois coincé contre la bande, il sera ainsi possible de le mater. Imaginez une position dans laquelle les tours blanches sont en g1 et h2 et le roi noir en h5 : c’est mat ! Cette technique, surnommée « mat de l’escalier » fonctionne également sur les premières et dernières rangées de l’échiquier.",
+    "glyphName": "piece-pair-rook-mate",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-checkmate-with-two-rooks-b2w.mp4",
+    "fen": "1k6/5R2/6R1/8/8/8/6K1/8 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k6/5R2/6R1/8/8/8/6K1/8 w - - 0 1\"]\r\n\r\n{Matez le roi noir avec une tour !}\r\n1.Rg8#\r\n    {[%wrong Vous n'avez pas maté le roi noir. Essayez encore !][%hint La tour sur la septième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez fait échec et mat.}\r\n    (1.Rf8+ $2 Kb7 {Oups ! Le roi noir esquive le mat. Trouvez mieux.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1R6/2R5/8/k7/8/8/6K1 w - - 0 1\"]\r\n\r\n{Même concept, mais cette fois en vertical. Trouvez le mat en un !}\r\n1.Ra6#\r\n    {[%wrong Vous n'avez pas maté le roi noir. Essayez encore !][%hint La tour sur la colonne b coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez fait échec et mat.}\r\n    (1.Ra7+ $2 Kb5 {Oups ! Le roi noir esquive le mat. Trouvez mieux.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1k6/5R2/6R1/8/8/8/6K1 w - - 0 1\"]\r\n\r\n{Comment forcer le roi noir à aller sur la dernière rangée ?}\r\n1.Rg7+ $1\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi noir à aller sur la dernière rangée.][%hint La tour sur la sixième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour le forcer à aller sur la dernière rangée.]}\r\n1...Kc8\r\n    {Ça sent le mat de l'escalier ! Le roi noir est repoussé sur la dernière rangée. Comment finir le travail ?}\r\n2.Rf8#\r\n    {[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint La tour sur la septième rangée coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Le roi noir est échec et mat.}\r\n    (2.Rg8+ $2 Kd7 {Le roi noir s'échappe. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/k7/p4R1R/8/1n6/8/1pb3PP/7K w - - 1 1\"]\r\n\r\n{Les noirs vont promouvoir le pion b2 en dame au prochain coup. A vous de sauver la partie avec un mat de l'escalier !}\r\n1.Rf7+ $1\r\n    {[%wrong Il faut forcer le roi noir à aller sur la dernière rangée. Essayez encore !][%hint Jouez un coup de tour qui met le roi noir en échec sur la septième rangée.]}\r\n    (1.Rh7+ $2 Bxh7 {Oups ! Attention aux pièces noires. Essayez encore !})\r\n1...Kb8\r\n    {Bien joué ! Le roi noir est repoussé sur la dernière rangée. A vous de finir le travail.}\r\n2.Rh8#\r\n    {[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint L'une de vos tours peut mater sur la dernière rangée.] Bien joué ! Le roi noir est échec et mat.}\r\n    (2.Rf8+ $2 Kb7 {Le roi noir s'échappe. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/pk5r/p7/8/5P1q/8/4R1PP/2R4K w - - 0 1\"]\r\n\r\n{Le roi blanc est attaqué par la dame noire et la tour. Heureusement, les tours blanches peuvent forcer le roi noir à aller dans le coin. Trouvez comment !}\r\n1.Rb2+\r\n    {[%wrong Bien essayé, mais ce coup ne force pas le roi noir à aller dans le coin. Essayez encore !][%hint La tour sur la colonne c coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour le forcer à aller dans le coin.]}\r\n1...Ka8\r\n    {Formidable ! Le roi noir est maintenant acculé. Il est temps de finir le travail !}\r\n2.Rc8#\r\n    {[%wrong Il est temps de mater le roi noir. Essayez encore !][%hint La tour sur la colonne b coupe le roi adverse du reste de l'échiquier. Utilisez l'autre tour pour mater.] Bien joué ! Vous avez maté le roi adverse juste à temps.}\r\n    (2.Rb8+ $2 Kxb8 {Oups ! Sur cette case, la tour n'était pas protégée. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "2a28990a-a557-11e8-9594-511f3664a6ec",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrons la technique pour mater avec 2 tours.",
+    "outroText": "Parfait ! C'est un schéma de mat important à connaitre.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "path": "gagner-la-partie",
+      "title": "Gagner la partie",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/2a28990a-a557-11e8-9594-511f3664a6ec.97114806.728x410o.7ceb702a43b5.png"
+    },
+    "parentId": "e0ac1886-83a7-11e8-a809-4d8a935aea70",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-two-rooks5e579c1aad557.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-two-rooks-566888916eb596.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-two-rooks-160673e099a363.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/checkmate-with-two-rooks-65ea245a2926f6.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/scaccomatto-con-due-torri6391ff128ee0c.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 27,
+    "order": 3,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "2a28990a-a557-11e8-9594-511f3664a6ec",
+      "name": "Gagner la partie",
+      "path": "gagner-la-partie",
+      "order": 3
+    }
+  }
+}

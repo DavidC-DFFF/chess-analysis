@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/defense-populaire-contre-1-d4-1-cf6-hollandaise",
+  "capturedAt": "2026-10-22T12:23:45.142Z",
+  "title": "Des défenses populaires contre 1.d4 : 1...Cf6 et la hollandaise",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Explorons la défense la plus populaire contre 1.d4 : 1...Cf6.",
+        "[%wrong Commençons, si vous le voulez bien, par jouer 1...Cf6.][%hint Jouez 1...Cf6.]",
+        "Les blancs se préparent généralement à jouer Cc3 et e4. Préparons-nous à repondre Fb4 à Cc3. C'est la défense nimzo-indienne. Comment préparer ce coup ?",
+        "[%wrong Ce coup ne prépare pas ...Fb4 - cherchez encore !][%hint Ouvrez la diagonale du fou de cases noires pour pouvoir jouer ...Fb4 au prochain coup.]",
+        "Ce coup va effectivement nous permettre du jouer ...Fb4 au prochain, mais il s'agit du très tranchant gambit de Budapest. Jouez un coup plus sûr pour rentrer dans la défense nimzo-indienne !",
+        "Très bien ! Nous sommes prêts à clouer le cavalier blanc. Jouez la défense nimzo-indienne !",
+        "[%wrong Pour entrer dans la nimzo-indienne, nous devons jouer 3...Fb4.][%hint Clouez le cavalier blanc à son roi en jouant votre fou de cases noires !]",
+        "Parfait ! Et maintenant, prenons le contrôle de la diagonale h1-a8 en y plaçant notre fou de cases blanches. Comment procéder ?",
+        "[%wrong Ce coup ne prépare l'installation du fou sur la diagonale h1-a8 diagonal. Cherchez encore !][%hint Libérez la case b7 pour y placer votre fou au prochain coup.]",
+        "Les blancs s'apprêtent à prendre le contrôle du centre par 6.e4. Empêchons cette idée en activant notre fou de cases blanches sur une case d'où il contrôlera le centre à distance !",
+        "[%wrong Ce coup ne développe pas le fou de cases en contrôlant e4 à distance. Cherchez encore !][%hint La case b7 est désormais libre !] Bravo ! Notez que les noirs n'ont aucun pion au centre, mais que leurs pièces le contrôle à distance... Un concept intéressant !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Explorons la défense la plus populaire contre 1.d4 : 1...Cf6.}\r\n1...Nf6\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer 1...Cf6.][%hint Jouez 1...Cf6.]}\r\n2.c4\r\n    {Les blancs se préparent généralement à jouer Cc3 et e4. Préparons-nous à repondre Fb4 à Cc3. C'est la défense nimzo-indienne. Comment préparer ce coup ?}\r\n2...e6\r\n    {[%wrong Ce coup ne prépare pas ...Fb4 - cherchez encore !][%hint Ouvrez la diagonale du fou de cases noires pour pouvoir jouer ...Fb4 au prochain coup.]}\r\n    (2...e5 $6 {Ce coup va effectivement nous permettre du jouer ...Fb4 au prochain, mais il s'agit du très tranchant gambit de Budapest. Jouez un coup plus sûr pour rentrer dans la défense nimzo-indienne !} 3.dxe5)\r\n3.Nc3\r\n    {Très bien ! Nous sommes prêts à clouer le cavalier blanc. Jouez la défense nimzo-indienne !}\r\n3...Bb4\r\n    {[%wrong Pour entrer dans la nimzo-indienne, nous devons jouer 3...Fb4.][%hint Clouez le cavalier blanc à son roi en jouant votre fou de cases noires !]}\r\n4.e3\r\n    {Parfait ! Et maintenant, prenons le contrôle de la diagonale h1-a8 en y plaçant notre fou de cases blanches. Comment procéder ?}\r\n4...b6\r\n    {[%wrong Ce coup ne prépare l'installation du fou sur la diagonale h1-a8 diagonal. Cherchez encore !][%hint Libérez la case b7 pour y placer votre fou au prochain coup.]}\r\n5.Bd3\r\n    {Les blancs s'apprêtent à prendre le contrôle du centre par 6.e4. Empêchons cette idée en activant notre fou de cases blanches sur une case d'où il contrôlera le centre à distance !}\r\n5...Bb7\r\n    {[%wrong Ce coup ne développe pas le fou de cases en contrôlant e4 à distance. Cherchez encore !][%hint La case b7 est désormais libre !] Bravo ! Notez que les noirs n'ont aucun pion au centre, mais que leurs pièces le contrôle à distance... Un concept intéressant !}\r\n*"
+    },
+    {
+      "fen": "rn1q1rk1/pbpp1ppp/1p2pn2/8/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - - 5 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de roquer, déclouant leur cavalier c3. Trouvez une prise forçant la création de pions doublés !",
+        "[%wrong Ce coup ne force pas la création de pions doublés. Cherchez encore !][%hint Le cavalier c3 est sur le point de se libérer... Empêchez-le grâce à votre fou et doublez les pions blancs sur la colonne c !]",
+        "Bien essayé, mais les blancs ne sont pas obligés de prendre avec le pion g. Dans cette variante, ils prennent le contrôle des cases blanches et attaquent notre tour a8. Trouvez mieux !",
+        "Bien vu ! Les noirs doublent les pions blancs sur la colonne c en échange de la paire de fous. Trouvez maintenant un coup de pion contrôlant les cases e5 et c5 et préparant la poussée ...e5.",
+        "[%wrong Ce coup ne prépare pas la poussée ...e5 tout en contrôlant e5 et c5. Cherchez encore !][%hint Quel pion pourrait supporter la poussée e5 tout en contrôlant c5 ?] Bon travail ! Les noirs placent un nouveau pion sur cases noires, limitant le champ d'action du fou adverse. Les noirs vont continuer par ...Cbd7 et ...e5, tandis que les blancs vont tenter de gagner de l'espace au centre en jouant e4.",
+        "Bloquer les pions doublés adverses sur la colonne c ? C'est également une très bonne idée, bravo ! Trouvez maintenant un autre coup, préparant ...e5 cette fois-ci."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/pbpp1ppp/1p2pn2/8/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - - 5 7\"]\r\n\r\n{Les blancs viennent de roquer, déclouant leur cavalier c3. Trouvez une prise forçant la création de pions doublés !}\r\n7...Bxc3\r\n    {[%wrong Ce coup ne force pas la création de pions doublés. Cherchez encore !][%hint Le cavalier c3 est sur le point de se libérer... Empêchez-le grâce à votre fou et doublez les pions blancs sur la colonne c !]}\r\n    (7...Bxf3 $2 8.Qxf3 {Bien essayé, mais les blancs ne sont pas obligés de prendre avec le pion g. Dans cette variante, ils prennent le contrôle des cases blanches et attaquent notre tour a8. Trouvez mieux !})\r\n8.bxc3\r\n    {Bien vu ! Les noirs doublent les pions blancs sur la colonne c en échange de la paire de fous. Trouvez maintenant un coup de pion contrôlant les cases e5 et c5 et préparant la poussée ...e5.}\r\n8...d6\r\n    {[%wrong Ce coup ne prépare pas la poussée ...e5 tout en contrôlant e5 et c5. Cherchez encore !][%hint Quel pion pourrait supporter la poussée e5 tout en contrôlant c5 ?] Bon travail ! Les noirs placent un nouveau pion sur cases noires, limitant le champ d'action du fou adverse. Les noirs vont continuer par ...Cbd7 et ...e5, tandis que les blancs vont tenter de gagner de l'espace au centre en jouant e4.}\r\n    (8...c5 $5 {Bloquer les pions doublés adverses sur la colonne c ? C'est également une très bonne idée, bravo ! Trouvez maintenant un autre coup, préparant ...e5 cette fois-ci.})\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Explorons maintenant des ouvertures plus tranchantes dans lesquelles les noirs développent le fou de cases noires sur la diagonale a1-h8. Jouez le coup préparant cette idée !",
+        "[%wrong Nous explorons pour l'instant des idées basées sur le fianchetto roi. Jouez 2...g6.][%hint Libérons la case g7 pour notre fou !]",
+        "Ce coup perd un pion ! Il faut effectivement jouer le pion g, mais sur une case plus sûre !",
+        "Beau travail ! Explorons maintenant la défense est-indienne en mettant le fou en g7 !",
+        "[%wrong Pour l'instant, développons notre fou en g7 !][%hint Jouez 3...Bg7 pour rentrer dans la défense est-indienne.]",
+        "Beau travail ! Les blancs prennent de l'espace au centre et menacent d'attaquer notre cavalier par e5. Jouons un coup de pion protégeant notre camp contre la poussée e5.",
+        "[%wrong Ce n'est pas un coup de pion contrôlant e5. Cherchez encore !][%hint Il n'existe qu'un seul coup de pion pouvant contrôler e5 !] Beau travail !  4...d6 couvre la case e5 et soutient une future poussée ...e5. Ce coup, attaquant le fort centre blanc, et une stratégie clef de la défense est-indienne !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Explorons maintenant des ouvertures plus tranchantes dans lesquelles les noirs développent le fou de cases noires sur la diagonale a1-h8. Jouez le coup préparant cette idée !}\r\n2...g6\r\n    {[%wrong Nous explorons pour l'instant des idées basées sur le fianchetto roi. Jouez 2...g6.][%hint Libérons la case g7 pour notre fou !]}\r\n    (2...g5 $2 3.Bxg5 {Ce coup perd un pion ! Il faut effectivement jouer le pion g, mais sur une case plus sûre !})\r\n3.Nc3\r\n    {Beau travail ! Explorons maintenant la défense est-indienne en mettant le fou en g7 !}\r\n3...Bg7\r\n    {[%wrong Pour l'instant, développons notre fou en g7 !][%hint Jouez 3...Bg7 pour rentrer dans la défense est-indienne.]}\r\n4.e4\r\n    {Beau travail ! Les blancs prennent de l'espace au centre et menacent d'attaquer notre cavalier par e5. Jouons un coup de pion protégeant notre camp contre la poussée e5.}\r\n4...d6\r\n    {[%wrong Ce n'est pas un coup de pion contrôlant e5. Cherchez encore !][%hint Il n'existe qu'un seul coup de pion pouvant contrôler e5 !] Beau travail !  4...d6 couvre la case e5 et soutient une future poussée ...e5. Ce coup, attaquant le fort centre blanc, et une stratégie clef de la défense est-indienne !}\r\n*"
+    },
+    {
+      "fen": "r1bq1rk1/pppnppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 5 7",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs sont prêts à attaquer le centre avec la rupture typique de l'est-indienne : ...e5. Jouons ce coup !",
+        "[%wrong Commençons, si vous le voulez bien, par jouer 7...e5.][%hint Jouez ...e5.]",
+        "Les blancs gagnent de l'espace au centre, mais ils perdent le contrôle de c5. Trouvez comment mettre plus de pression sur e4 tout en s'installant sur la case c5.",
+        "[%wrong Ce coup ne place de pièce sur la case c5 tout en attaquant le centre blanc. Cherchez encore !][%hint Quelle pièce noire peut sauter jusqu'en c5 pour attaquer e4 ?]",
+        "Beau travail ! le cavalier noir se poste en c5 pour mettre la pression sur le centre blanc. Ces derniers défendent e4 et se préparent à jouer b4 pour faire battre le cavalier en retraite. Comment empêcher cette idée ?",
+        "[%wrong Ce coup n'empêche pas b4. Cherchez encore !][%hint Trouvez un fort coup de pion contrôlant la case b4.] Beau travail ! Les noirs gagnent de l'espace sur l'aile dame et empêchent b4. Cette position nous offre de bonnes chances pour le milieu de partie.",
+        "Ce coup empêche en effet b4, mais il retire le cavalier de l'excellente case c5. Comment faire en sorte qu'il y reste ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pppnppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 5 7\"]\r\n\r\n{Les noirs sont prêts à attaquer le centre avec la rupture typique de l'est-indienne : ...e5. Jouons ce coup !}\r\n7...e5\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer 7...e5.][%hint Jouez ...e5.]}\r\n8.d5\r\n    {Les blancs gagnent de l'espace au centre, mais ils perdent le contrôle de c5. Trouvez comment mettre plus de pression sur e4 tout en s'installant sur la case c5.}\r\n8...Nc5\r\n    {[%wrong Ce coup ne place de pièce sur la case c5 tout en attaquant le centre blanc. Cherchez encore !][%hint Quelle pièce noire peut sauter jusqu'en c5 pour attaquer e4 ?]}\r\n9.Qc2\r\n    {Beau travail ! le cavalier noir se poste en c5 pour mettre la pression sur le centre blanc. Ces derniers défendent e4 et se préparent à jouer b4 pour faire battre le cavalier en retraite. Comment empêcher cette idée ?}\r\n9...a5\r\n    {[%wrong Ce coup n'empêche pas b4. Cherchez encore !][%hint Trouvez un fort coup de pion contrôlant la case b4.] Beau travail ! Les noirs gagnent de l'espace sur l'aile dame et empêchent b4. Cette position nous offre de bonnes chances pour le milieu de partie.}\r\n    (9...Na6 $2 {Ce coup empêche en effet b4, mais il retire le cavalier de l'excellente case c5. Comment faire en sorte qu'il y reste ?})\r\n*"
+    },
+    {
+      "fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Essayons maintenant une contre-attaque très agressive : la défense Grünfeld ! Quel est le coup de pion central constitutif de la Grünfeld ?",
+        "[%wrong Bien essayé, mais il ne s'agit pas de la défense Grünfeld. Attaquez tout de suite c4 avec un pion !][%hint On entre dans la défense Grünfeld en attaquant immédiatement le centre adverse avec un pion.]",
+        "Très bien ! Les noirs laissent aux blancs le contrôle du centre mais préparent une contre-attaque sur les pions. Reprenons en d5.",
+        "[%wrong Nous souhaitons reprendre en d5 sans perdre de matériel... Cherchez encore !][%hint Nous pouvons reprendre le pion d5 avec le cavalier ou la dame... Il n'y a pas à hésiter !]",
+        "Les blancs s'emparent fermement du centre, mais les noirs vont maintenant forcer la création d'une faiblesse en c3. A vous !",
+        "[%wrong Ce coup ne crée pas de faiblesses en c3. Cherchez encore !][%hint Emparez-vous du cavalier c3.]",
+        "Beau travail ! Les blancs ont un fort centre, mais aussi une faiblesse en c3. Plaçons maintenant le fou de cases noires sur la diagonale qui lui est destinée.",
+        "[%wrong Ce coup ne place pas le fou de cases noires sur la diagonale des pions d4 et c3. Cherchez encore !][%hint Nous avons joué 2.g6 pour libérer une case pour le fou.]",
+        "Les deux camps s''affrontent pour le contrôle du centre. Trouvez maintenant le fort coup attaquant tout de suite d4 !",
+        "[%wrong Ce coup ne s'attaque pas directement à d4. Cherchez encore !][%hint Le pion d4 des blancs est cloué. En effet, s'il bouge, les noirs pourront jouer ...Fxc3+ et gagneront du matériel. Grâce à cette tactique, trouvez le coup de pion qui attaque le centre blanc !]",
+        "Les blancs peuvent gagner le pion e5 ou jouer ce coup très pénible qui nous empêche de roquer. Trouvez mieux !",
+        "Bien vu ! Les noirs mettent de plus en plus de pression sur le pion d4, mais les blancs continuent par un fort coup défensif. Développez une autre pièce mineure pour mettre plus de pression sur d4 !",
+        "[%wrong Ce coup ne développe pas une pièce mineure tout en augmentant la pression sur d4. Cherchez encore !][%hint Quelle pièce mineure peut sauter vers le centre en attaquant d4 ?] Parfait ! Les noirs augmentent leur pression sur le centre blanc. Ces derniers ont de nombreuses suites intéressantes à disposition, parmi lesquels Dd2 ou Tc1. Une bataille très aiguë se profile !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3\"]\r\n\r\n{Essayons maintenant une contre-attaque très agressive : la défense Grünfeld ! Quel est le coup de pion central constitutif de la Grünfeld ?}\r\n3...d5\r\n    {[%wrong Bien essayé, mais il ne s'agit pas de la défense Grünfeld. Attaquez tout de suite c4 avec un pion !][%hint On entre dans la défense Grünfeld en attaquant immédiatement le centre adverse avec un pion.]}\r\n4.cxd5\r\n    {Très bien ! Les noirs laissent aux blancs le contrôle du centre mais préparent une contre-attaque sur les pions. Reprenons en d5.}\r\n4...Nxd5\r\n    {[%wrong Nous souhaitons reprendre en d5 sans perdre de matériel... Cherchez encore !][%hint Nous pouvons reprendre le pion d5 avec le cavalier ou la dame... Il n'y a pas à hésiter !]}\r\n5.e4\r\n    {Les blancs s'emparent fermement du centre, mais les noirs vont maintenant forcer la création d'une faiblesse en c3. A vous !}\r\n5...Nxc3\r\n    {[%wrong Ce coup ne crée pas de faiblesses en c3. Cherchez encore !][%hint Emparez-vous du cavalier c3.]}\r\n6.bxc3\r\n    {Beau travail ! Les blancs ont un fort centre, mais aussi une faiblesse en c3. Plaçons maintenant le fou de cases noires sur la diagonale qui lui est destinée.}\r\n6...Bg7\r\n    {[%wrong Ce coup ne place pas le fou de cases noires sur la diagonale des pions d4 et c3. Cherchez encore !][%hint Nous avons joué 2.g6 pour libérer une case pour le fou.]}\r\n7.Nf3\r\n    {Les deux camps s''affrontent pour le contrôle du centre. Trouvez maintenant le fort coup attaquant tout de suite d4 !}\r\n7...c5\r\n    {[%wrong Ce coup ne s'attaque pas directement à d4. Cherchez encore !][%hint Le pion d4 des blancs est cloué. En effet, s'il bouge, les noirs pourront jouer ...Fxc3+ et gagneront du matériel. Grâce à cette tactique, trouvez le coup de pion qui attaque le centre blanc !]}\r\n    (7...e5 $2 8.Ba3 {Les blancs peuvent gagner le pion e5 ou jouer ce coup très pénible qui nous empêche de roquer. Trouvez mieux !})\r\n8.Be3\r\n    {Bien vu ! Les noirs mettent de plus en plus de pression sur le pion d4, mais les blancs continuent par un fort coup défensif. Développez une autre pièce mineure pour mettre plus de pression sur d4 !}\r\n8...Nc6\r\n    {[%wrong Ce coup ne développe pas une pièce mineure tout en augmentant la pression sur d4. Cherchez encore !][%hint Quelle pièce mineure peut sauter vers le centre en attaquant d4 ?] Parfait ! Les noirs augmentent leur pression sur le centre blanc. Ces derniers ont de nombreuses suites intéressantes à disposition, parmi lesquels Dd2 ou Tc1. Une bataille très aiguë se profile !}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs ont choisi la tumultueuse défense hollandaise ! Notez bien que le pion risque de gêner le fou des blancs si celui-ci se rend en d3. Préparons donc son développement sur la diagonale h1-a8 !",
+        "[%wrong Ce coup ne prépare pas le développement du fou de cases blanches sur la diagonale h1-a8. Cherchez encore !][%hint Libérons la case g2 pour notre fou !]",
+        "Ce gambit risqué est certes jouable, mais il existe un moyen beaucoup plus simple de préparer l'installation de notre fou en g2.",
+        "Très bien ! Plaçons maintenant le fou de cases blanches sur la longue diagonale.",
+        "[%wrong Ce coup ne développe pas le fou de cases blanches sur la longue diagonale !][%hint Nous avons joué 2.g3 pour libérer une case pour le fou.] Parfait ! Le fou des blancs s'installe sur une excellente diagonale qui va lui permettre de lutter efficacement contre la défense hollandaise."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Les noirs ont choisi la tumultueuse défense hollandaise ! Notez bien que le pion risque de gêner le fou des blancs si celui-ci se rend en d3. Préparons donc son développement sur la diagonale h1-a8 !}\r\n2.g3\r\n    {[%wrong Ce coup ne prépare pas le développement du fou de cases blanches sur la diagonale h1-a8. Cherchez encore !][%hint Libérons la case g2 pour notre fou !]}\r\n    (2.g4 $6 {Ce gambit risqué est certes jouable, mais il existe un moyen beaucoup plus simple de préparer l'installation de notre fou en g2.})\r\n2...Nf6\r\n    {Très bien ! Plaçons maintenant le fou de cases blanches sur la longue diagonale.}\r\n3.Bg2\r\n    {[%wrong Ce coup ne développe pas le fou de cases blanches sur la longue diagonale !][%hint Nous avons joué 2.g3 pour libérer une case pour le fou.] Parfait ! Le fou des blancs s'installe sur une excellente diagonale qui va lui permettre de lutter efficacement contre la défense hollandaise.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "b2a34c40-9ceb-11e8-bb2a-1d2cac812a52",
+    "name": "Des défenses populaires contre 1.d4 : 1...Cf6 et la hollandaise",
+    "path": "defense-populaire-contre-1-d4-1-cf6-hollandaise",
+    "description": "La réponse la plus populaire au coup 1.d4 est 1…Cf6, qui développe une pièce et empêche les blancs de jouer e4. Les blancs continuent généralement par 2.c4, et les noirs peuvent alors choisir de porter le combat au centre par 2…e6 (préparant …d5) ou sur les ailes en jouant 2…g6. Il existe une autre option plus risqué, la défense hollandaise (1…f5). Elle permet d’attaquer immédiatement le centre, mais expose le roi noir.",
+    "glyphName": "game-opening-dutch",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-popular-1-d4-openings-1-nf6-dutch-defense-h5a.mp4",
+    "fen": "r1bqk2r/pp2ppbp/2n3p1/2p5/3PP3/2P1BN2/P4PPP/R2QKB1R w KQkq - 2 9",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Explorons la défense la plus populaire contre 1.d4 : 1...Cf6.}\r\n1...Nf6\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer 1...Cf6.][%hint Jouez 1...Cf6.]}\r\n2.c4\r\n    {Les blancs se préparent généralement à jouer Cc3 et e4. Préparons-nous à repondre Fb4 à Cc3. C'est la défense nimzo-indienne. Comment préparer ce coup ?}\r\n2...e6\r\n    {[%wrong Ce coup ne prépare pas ...Fb4 - cherchez encore !][%hint Ouvrez la diagonale du fou de cases noires pour pouvoir jouer ...Fb4 au prochain coup.]}\r\n    (2...e5 $6 {Ce coup va effectivement nous permettre du jouer ...Fb4 au prochain, mais il s'agit du très tranchant gambit de Budapest. Jouez un coup plus sûr pour rentrer dans la défense nimzo-indienne !} 3.dxe5)\r\n3.Nc3\r\n    {Très bien ! Nous sommes prêts à clouer le cavalier blanc. Jouez la défense nimzo-indienne !}\r\n3...Bb4\r\n    {[%wrong Pour entrer dans la nimzo-indienne, nous devons jouer 3...Fb4.][%hint Clouez le cavalier blanc à son roi en jouant votre fou de cases noires !]}\r\n4.e3\r\n    {Parfait ! Et maintenant, prenons le contrôle de la diagonale h1-a8 en y plaçant notre fou de cases blanches. Comment procéder ?}\r\n4...b6\r\n    {[%wrong Ce coup ne prépare l'installation du fou sur la diagonale h1-a8 diagonal. Cherchez encore !][%hint Libérez la case b7 pour y placer votre fou au prochain coup.]}\r\n5.Bd3\r\n    {Les blancs s'apprêtent à prendre le contrôle du centre par 6.e4. Empêchons cette idée en activant notre fou de cases blanches sur une case d'où il contrôlera le centre à distance !}\r\n5...Bb7\r\n    {[%wrong Ce coup ne développe pas le fou de cases en contrôlant e4 à distance. Cherchez encore !][%hint La case b7 est désormais libre !] Bravo ! Notez que les noirs n'ont aucun pion au centre, mais que leurs pièces le contrôle à distance... Un concept intéressant !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/pbpp1ppp/1p2pn2/8/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - - 5 7\"]\r\n\r\n{Les blancs viennent de roquer, déclouant leur cavalier c3. Trouvez une prise forçant la création de pions doublés !}\r\n7...Bxc3\r\n    {[%wrong Ce coup ne force pas la création de pions doublés. Cherchez encore !][%hint Le cavalier c3 est sur le point de se libérer... Empêchez-le grâce à votre fou et doublez les pions blancs sur la colonne c !]}\r\n    (7...Bxf3 $2 8.Qxf3 {Bien essayé, mais les blancs ne sont pas obligés de prendre avec le pion g. Dans cette variante, ils prennent le contrôle des cases blanches et attaquent notre tour a8. Trouvez mieux !})\r\n8.bxc3\r\n    {Bien vu ! Les noirs doublent les pions blancs sur la colonne c en échange de la paire de fous. Trouvez maintenant un coup de pion contrôlant les cases e5 et c5 et préparant la poussée ...e5.}\r\n8...d6\r\n    {[%wrong Ce coup ne prépare pas la poussée ...e5 tout en contrôlant e5 et c5. Cherchez encore !][%hint Quel pion pourrait supporter la poussée e5 tout en contrôlant c5 ?] Bon travail ! Les noirs placent un nouveau pion sur cases noires, limitant le champ d'action du fou adverse. Les noirs vont continuer par ...Cbd7 et ...e5, tandis que les blancs vont tenter de gagner de l'espace au centre en jouant e4.}\r\n    (8...c5 $5 {Bloquer les pions doublés adverses sur la colonne c ? C'est également une très bonne idée, bravo ! Trouvez maintenant un autre coup, préparant ...e5 cette fois-ci.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Explorons maintenant des ouvertures plus tranchantes dans lesquelles les noirs développent le fou de cases noires sur la diagonale a1-h8. Jouez le coup préparant cette idée !}\r\n2...g6\r\n    {[%wrong Nous explorons pour l'instant des idées basées sur le fianchetto roi. Jouez 2...g6.][%hint Libérons la case g7 pour notre fou !]}\r\n    (2...g5 $2 3.Bxg5 {Ce coup perd un pion ! Il faut effectivement jouer le pion g, mais sur une case plus sûre !})\r\n3.Nc3\r\n    {Beau travail ! Explorons maintenant la défense est-indienne en mettant le fou en g7 !}\r\n3...Bg7\r\n    {[%wrong Pour l'instant, développons notre fou en g7 !][%hint Jouez 3...Bg7 pour rentrer dans la défense est-indienne.]}\r\n4.e4\r\n    {Beau travail ! Les blancs prennent de l'espace au centre et menacent d'attaquer notre cavalier par e5. Jouons un coup de pion protégeant notre camp contre la poussée e5.}\r\n4...d6\r\n    {[%wrong Ce n'est pas un coup de pion contrôlant e5. Cherchez encore !][%hint Il n'existe qu'un seul coup de pion pouvant contrôler e5 !] Beau travail !  4...d6 couvre la case e5 et soutient une future poussée ...e5. Ce coup, attaquant le fort centre blanc, et une stratégie clef de la défense est-indienne !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1rk1/pppnppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 5 7\"]\r\n\r\n{Les noirs sont prêts à attaquer le centre avec la rupture typique de l'est-indienne : ...e5. Jouons ce coup !}\r\n7...e5\r\n    {[%wrong Commençons, si vous le voulez bien, par jouer 7...e5.][%hint Jouez ...e5.]}\r\n8.d5\r\n    {Les blancs gagnent de l'espace au centre, mais ils perdent le contrôle de c5. Trouvez comment mettre plus de pression sur e4 tout en s'installant sur la case c5.}\r\n8...Nc5\r\n    {[%wrong Ce coup ne place de pièce sur la case c5 tout en attaquant le centre blanc. Cherchez encore !][%hint Quelle pièce noire peut sauter jusqu'en c5 pour attaquer e4 ?]}\r\n9.Qc2\r\n    {Beau travail ! le cavalier noir se poste en c5 pour mettre la pression sur le centre blanc. Ces derniers défendent e4 et se préparent à jouer b4 pour faire battre le cavalier en retraite. Comment empêcher cette idée ?}\r\n9...a5\r\n    {[%wrong Ce coup n'empêche pas b4. Cherchez encore !][%hint Trouvez un fort coup de pion contrôlant la case b4.] Beau travail ! Les noirs gagnent de l'espace sur l'aile dame et empêchent b4. Cette position nous offre de bonnes chances pour le milieu de partie.}\r\n    (9...Na6 $2 {Ce coup empêche en effet b4, mais il retire le cavalier de l'excellente case c5. Comment faire en sorte qu'il y reste ?})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3\"]\r\n\r\n{Essayons maintenant une contre-attaque très agressive : la défense Grünfeld ! Quel est le coup de pion central constitutif de la Grünfeld ?}\r\n3...d5\r\n    {[%wrong Bien essayé, mais il ne s'agit pas de la défense Grünfeld. Attaquez tout de suite c4 avec un pion !][%hint On entre dans la défense Grünfeld en attaquant immédiatement le centre adverse avec un pion.]}\r\n4.cxd5\r\n    {Très bien ! Les noirs laissent aux blancs le contrôle du centre mais préparent une contre-attaque sur les pions. Reprenons en d5.}\r\n4...Nxd5\r\n    {[%wrong Nous souhaitons reprendre en d5 sans perdre de matériel... Cherchez encore !][%hint Nous pouvons reprendre le pion d5 avec le cavalier ou la dame... Il n'y a pas à hésiter !]}\r\n5.e4\r\n    {Les blancs s'emparent fermement du centre, mais les noirs vont maintenant forcer la création d'une faiblesse en c3. A vous !}\r\n5...Nxc3\r\n    {[%wrong Ce coup ne crée pas de faiblesses en c3. Cherchez encore !][%hint Emparez-vous du cavalier c3.]}\r\n6.bxc3\r\n    {Beau travail ! Les blancs ont un fort centre, mais aussi une faiblesse en c3. Plaçons maintenant le fou de cases noires sur la diagonale qui lui est destinée.}\r\n6...Bg7\r\n    {[%wrong Ce coup ne place pas le fou de cases noires sur la diagonale des pions d4 et c3. Cherchez encore !][%hint Nous avons joué 2.g6 pour libérer une case pour le fou.]}\r\n7.Nf3\r\n    {Les deux camps s''affrontent pour le contrôle du centre. Trouvez maintenant le fort coup attaquant tout de suite d4 !}\r\n7...c5\r\n    {[%wrong Ce coup ne s'attaque pas directement à d4. Cherchez encore !][%hint Le pion d4 des blancs est cloué. En effet, s'il bouge, les noirs pourront jouer ...Fxc3+ et gagneront du matériel. Grâce à cette tactique, trouvez le coup de pion qui attaque le centre blanc !]}\r\n    (7...e5 $2 8.Ba3 {Les blancs peuvent gagner le pion e5 ou jouer ce coup très pénible qui nous empêche de roquer. Trouvez mieux !})\r\n8.Be3\r\n    {Bien vu ! Les noirs mettent de plus en plus de pression sur le pion d4, mais les blancs continuent par un fort coup défensif. Développez une autre pièce mineure pour mettre plus de pression sur d4 !}\r\n8...Nc6\r\n    {[%wrong Ce coup ne développe pas une pièce mineure tout en augmentant la pression sur d4. Cherchez encore !][%hint Quelle pièce mineure peut sauter vers le centre en attaquant d4 ?] Parfait ! Les noirs augmentent leur pression sur le centre blanc. Ces derniers ont de nombreuses suites intéressantes à disposition, parmi lesquels Dd2 ou Tc1. Une bataille très aiguë se profile !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{Les noirs ont choisi la tumultueuse défense hollandaise ! Notez bien que le pion risque de gêner le fou des blancs si celui-ci se rend en d3. Préparons donc son développement sur la diagonale h1-a8 !}\r\n2.g3\r\n    {[%wrong Ce coup ne prépare pas le développement du fou de cases blanches sur la diagonale h1-a8. Cherchez encore !][%hint Libérons la case g2 pour notre fou !]}\r\n    (2.g4 $6 {Ce gambit risqué est certes jouable, mais il existe un moyen beaucoup plus simple de préparer l'installation de notre fou en g2.})\r\n2...Nf6\r\n    {Très bien ! Plaçons maintenant le fou de cases blanches sur la longue diagonale.}\r\n3.Bg2\r\n    {[%wrong Ce coup ne développe pas le fou de cases blanches sur la longue diagonale !][%hint Nous avons joué 2.g3 pour libérer une case pour le fou.] Parfait ! Le fou des blancs s'installe sur une excellente diagonale qui va lui permettre de lutter efficacement contre la défense hollandaise.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Une ouverture piégeuse contre 1.d4 est la Défense Hollandaise : Regardons les bases.",
+    "outroText": "Apprendre la théorie peut sembler fastidieux, n'hésitez pas à y aller petit à petit.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "51200aac-8eb4-11e8-a454-b32a4b40a29c",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings-1-nf6-dutch-defense5d1257c9da42c.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings-1-nf6-dutch-defense-566886c6c4e9b5.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings-1-nf6-dutch-defense-15ea2409f8d50e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-d4-openings-1-nf6-dutch-defense-2616457056ce0e.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 91,
+    "order": 6,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/utiliser-le-potentiel-de-ses-pieces/utiliser-son-roi",
+  "capturedAt": "2026-10-22T12:23:37.085Z",
+  "title": "Utiliser son roi",
+  "exercises": [
+    {
+      "fen": "rr4k1/1p1bppbp/p2p1np1/q7/P1BBP3/2N5/1PP1QPPP/R3K2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent roquer pour mettre leur roi en sécurité. Choisissez l'option la plus sûre.",
+        "[%wrong Ce coup ne fait roque. Essayez encore !][%hint Si vous étiez le roi noir, sur quelle aile de l'échiquier vous sentiriez vous le plus en sécurité ?] Bravo ! Le roi fait petit roque. Sur cette aile, il est bien protégé par ses trois pions.",
+        "Le roi a roqué du côté de l'attaque noire. La présence d'un pion en a4 va permettre aux noirs d'ouvrir de dangereuses lignes. Ce n'est pas un endroit pour un monarque. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rr4k1/1p1bppbp/p2p1np1/q7/P1BBP3/2N5/1PP1QPPP/R3K2R w KQ - 0 1\"]\r\n\r\n{Les blancs veulent roquer pour mettre leur roi en sécurité. Choisissez l'option la plus sûre.}\r\n1.O-O\r\n    {[%wrong Ce coup ne fait roque. Essayez encore !][%hint Si vous étiez le roi noir, sur quelle aile de l'échiquier vous sentiriez vous le plus en sécurité ?] Bravo ! Le roi fait petit roque. Sur cette aile, il est bien protégé par ses trois pions.}\r\n    (1.O-O-O $2 b5 {Le roi a roqué du côté de l'attaque noire. La présence d'un pion en a4 va permettre aux noirs d'ouvrir de dangereuses lignes. Ce n'est pas un endroit pour un monarque. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "3rr1k1/pbb2pp1/1p1q1np1/8/3P4/2NQBN2/PPP2PPP/R3K2R w KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comme dans l'exercice précédent, les blancs veulent roquer pour mettre leur roi en sécurité. Choisissez l'option la plus sûre.",
+        "[%wrong Ce coup ne fait roque. Essayez encore !][%hint La dame et les fous noirs vont aiguiller votre choix...] Bonne décision ! Le roi blanc sera ici en sécurité. En outre, les blancs vont pouvoir pousser leurs pions de l'aile roi pour attaquer le monarque adverse.",
+        "La dame et les deux fous noirs sont braqués sur l'aile roi. Par conséquent, ils gagnent une pièce grâce à la menace de mat en h2. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rr1k1/pbb2pp1/1p1q1np1/8/3P4/2NQBN2/PPP2PPP/R3K2R w KQ - 0 1\"]\r\n\r\n{Comme dans l'exercice précédent, les blancs veulent roquer pour mettre leur roi en sécurité. Choisissez l'option la plus sûre.}\r\n1.O-O-O\r\n    {[%wrong Ce coup ne fait roque. Essayez encore !][%hint La dame et les fous noirs vont aiguiller votre choix...] Bonne décision ! Le roi blanc sera ici en sécurité. En outre, les blancs vont pouvoir pousser leurs pions de l'aile roi pour attaquer le monarque adverse.}\r\n    (1.O-O $2 Bxf3 {La dame et les deux fous noirs sont braqués sur l'aile roi. Par conséquent, ils gagnent une pièce grâce à la menace de mat en h2. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "8/1p3pk1/1p4p1/8/1Pn2BP1/2PR1P2/r1K5/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc est en échec. Quelle est la meilleure réponse à l'attaque noire ?",
+        "[%hint Serait-il possible de joindre l'attaque à la défense ?] Mais oui, c'est clair ! Le roi est souvent vulnérable, mais c'est aussi un très bon attaquant en finale. Ici, il réalise une fourchette sur la tour et le cavalier adverse et va gagner une pièce au prochain coup !",
+        "Ce coup met effectivement le roi en sécurité, mais il y avait beaucoup plus fort. Trouvez le bon coup !",
+        "Avant de déplacer votre roi, faites toujours bien attention aux possibilités tactiques adverses. Essayez encore !",
+        "Ce coup met effectivement le roi en sécurité, mais il y avait beaucoup plus fort. Trouvez le bon coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p3pk1/1p4p1/8/1Pn2BP1/2PR1P2/r1K5/8 w - - 0 1\"]\r\n\r\n{Le roi blanc est en échec. Quelle est la meilleure réponse à l'attaque noire ?}\r\n1.Kb3\r\n    {[%hint Serait-il possible de joindre l'attaque à la défense ?] Mais oui, c'est clair ! Le roi est souvent vulnérable, mais c'est aussi un très bon attaquant en finale. Ici, il réalise une fourchette sur la tour et le cavalier adverse et va gagner une pièce au prochain coup !}\r\n    (1.Kb1 $2 {Ce coup met effectivement le roi en sécurité, mais il y avait beaucoup plus fort. Trouvez le bon coup !})\r\n    (1.Kd1 $2 Nb2+ {Avant de déplacer votre roi, faites toujours bien attention aux possibilités tactiques adverses. Essayez encore !})\r\n    (1.Kc1 {Ce coup met effectivement le roi en sécurité, mais il y avait beaucoup plus fort. Trouvez le bon coup !})\r\n*"
+    },
+    {
+      "fen": "8/3k2r1/2p1p1P1/1pPpP2K/1P1P4/8/6P1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "En finale, le roi devient une pièce active ! Le roi blanc peut-il prendre le dessus sur la tour noire avec l'appui de ses pions passés ?",
+        "[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Le roi passe à l'attaque !]",
+        "Nous avons effectivement l'intention de pousser un jour ce pion, mais attention à ne pas laisser les noirs coordonner leur roi et leur tour. Il faut attaquer vite pour les prendre de vitesse !",
+        "Nous avons effectivement l'intention de pousser un jour ce pion, mais attention à ne pas laisser les noirs coordonner leur roi et leur tour. Il faut attaquer vite pour les prendre de vitesse !",
+        "Bien joué ! Le roi blanc repousse la tour noire. Continuez sur cette voie !",
+        "[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Comment continuer à attaquer la tour noire ?]",
+        "Le roi blanc est en grande forme ! La tour est encore une fois repoussée, ce qui va permettre aux blancs de continuer à attaquer !",
+        "[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Comment continuer à attaquer ?] Bien trouvé ! Le pion attaque maintenant la tour adverse et se rapproche toujours plus de la promotion. Les noirs vont devoir sacrifier leur tour pour l'en en empêcher, ce qui va permettre au pion passé en plus des blancs de filer à dame.",
+        "Les blancs laissent l'opportunité aux noirs de revenir en défense, ce qui va les mener à la défaite. Trouvez un coup plus fort attaquant la tour noire !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k2r1/2p1p1P1/1pPpP2K/1P1P4/8/6P1/8 w - - 0 1\"]\r\n\r\n{En finale, le roi devient une pièce active ! Le roi blanc peut-il prendre le dessus sur la tour noire avec l'appui de ses pions passés ?}\r\n1.Kh6\r\n    {[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Le roi passe à l'attaque !]}\r\n    (1.g4 $2 Ke7 {Nous avons effectivement l'intention de pousser un jour ce pion, mais attention à ne pas laisser les noirs coordonner leur roi et leur tour. Il faut attaquer vite pour les prendre de vitesse !})\r\n    (1.g3 $2 Ke7 {Nous avons effectivement l'intention de pousser un jour ce pion, mais attention à ne pas laisser les noirs coordonner leur roi et leur tour. Il faut attaquer vite pour les prendre de vitesse !})\r\n1...Rg8\r\n    {Bien joué ! Le roi blanc repousse la tour noire. Continuez sur cette voie !}\r\n2.Kh7\r\n    {[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Comment continuer à attaquer la tour noire ?]}\r\n2...Rf8\r\n    {Le roi blanc est en grande forme ! La tour est encore une fois repoussée, ce qui va permettre aux blancs de continuer à attaquer !}\r\n3.g7\r\n    {[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Comment continuer à attaquer ?] Bien trouvé ! Le pion attaque maintenant la tour adverse et se rapproche toujours plus de la promotion. Les noirs vont devoir sacrifier leur tour pour l'en en empêcher, ce qui va permettre au pion passé en plus des blancs de filer à dame.}\r\n    (3.Kg7 $2 Ke7 {Les blancs laissent l'opportunité aux noirs de revenir en défense, ce qui va les mener à la défaite. Trouvez un coup plus fort attaquant la tour noire !})\r\n*"
+    },
+    {
+      "fen": "4rrk1/1bpR1p2/1pq1pQp1/p3P2p/P1PR1K1P/5N2/2P2PP1/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Il est rare de voir un roi aussi haut sur l'échiquier avec autant de pièces encore en jeu. Mais les pièces noires sont très passives. Comment utiliser cela pour créer des menaces de mat ?",
+        "[%wrong Ce coup n'utilise pas le roi blanc pour créer des menaces de mat. Essayez encore !][%hint Les blancs veulent mater en g7 avec la dame. Où placer le roi pour participer à cette attaque ?]",
+        "Magnifique ! Le roi blanc monte en g5, menaçant de se rendre en h6 pour assister la dame dans son mat en g7. Pour l'instant, le roi noir empêche cette idée, mais son dernier coup a relâché la surveillance d'une autre case ! Laquelle ?",
+        "[%wrong Bien essayé, mais il existe un autre coup bien plus fort pour attaquer le roi noir !][%hint Le roi noir ne protège plus la case f7 !]",
+        "Bien joué, vous avez trouvé un coup intéressant ! Trouvons-en un autre du même acabit pour prendre avec échec et forcer le mat en quelques coups.",
+        "La défense noire prend l'eau de toutes parts ! Emparez-vous maintenant de cette tour.",
+        "[%wrong Non, nous voulons prendre la tour f7 !][%hint Prenez la tour f7.]",
+        "Le roi noir est maintenant acculé dans un coin de l'échiquier. Il est temps de ramener le roi blanc en attaque !",
+        "[%wrong Bien essayé, mais ce coup ne participe pas au mat que veulent donner la dame et le roi blanc. Essayez encore !][%hint Le roi blanc peut maintenant se rendre sur la case dont il rêvait !]",
+        "Ce coup fonctionne également, mais les noirs ont maintenant plus d'options, comme par exemple ...Tg8 échec. Trouvez un moyen plus simple de préparer le mat !",
+        "Le roi termine son voyage ! Les noirs parent l'échec et mat en g7, mais les blancs en ont un second à disposition. A vous de le trouver !",
+        "[%wrong Bien essayé, mais ce coup ne fait pas mat en un !] [%hint Trouvez un mat en un combinant les atouts de votre dame et de votre roi.] Superbe !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[PlyCount \"9\"]\r\n[FEN \"4rrk1/1bpR1p2/1pq1pQp1/p3P2p/P1PR1K1P/5N2/2P2PP1/8 w - - 0 1\"]\r\n\r\n{Il est rare de voir un roi aussi haut sur l'échiquier avec autant de pièces encore en jeu. Mais les pièces noires sont très passives. Comment utiliser cela pour créer des menaces de mat ?} \r\n1.Kg5 \r\n    {[%wrong Ce coup n'utilise pas le roi blanc pour créer des menaces de mat. Essayez encore !][%hint Les blancs veulent mater en g7 avec la dame. Où placer le roi pour participer à cette attaque ?]}\r\n1...Kh7 \r\n    {Magnifique ! Le roi blanc monte en g5, menaçant de se rendre en h6 pour assister la dame dans son mat en g7. Pour l'instant, le roi noir empêche cette idée, mais son dernier coup a relâché la surveillance d'une autre case ! Laquelle ?}\r\n2.Rxf7+ \r\n    {[%wrong Bien essayé, mais il existe un autre coup bien plus fort pour attaquer le roi noir !][%hint Le roi noir ne protège plus la case f7 !]}\r\n    ( 2.Qxg6+ $5 {Bien joué, vous avez trouvé un coup intéressant ! Trouvons-en un autre du même acabit pour prendre avec échec et forcer le mat en quelques coups.} )\r\n2...Rxf7 \r\n    {La défense noire prend l'eau de toutes parts ! Emparez-vous maintenant de cette tour.}\r\n3.Qxf7+ \r\n    {[%wrong Non, nous voulons prendre la tour f7 !][%hint Prenez la tour f7.]}\r\n3...Kh8 \r\n    {Le roi noir est maintenant acculé dans un coin de l'échiquier. Il est temps de ramener le roi blanc en attaque !}\r\n4.Kh6 \r\n    {[%wrong Bien essayé, mais ce coup ne participe pas au mat que veulent donner la dame et le roi blanc. Essayez encore !][%hint Le roi blanc peut maintenant se rendre sur la case dont il rêvait !]}\r\n    ( 4.Kxg6 $5 {Ce coup fonctionne également, mais les noirs ont maintenant plus d'options, comme par exemple ...Tg8 échec. Trouvez un moyen plus simple de préparer le mat !})\r\n4...Rg8 \r\n    {Le roi termine son voyage ! Les noirs parent l'échec et mat en g7, mais les blancs en ont un second à disposition. A vous de le trouver !}\r\n5.Qh7# \r\n    {[%wrong Bien essayé, mais ce coup ne fait pas mat en un !] [%hint Trouvez un mat en un combinant les atouts de votre dame et de votre roi.] Superbe !}\r\n*"
+    },
+    {
+      "fen": "4rrk1/ppp2ppp/8/4p3/4P3/5P1q/PPP1QP1P/3R1RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc n'est pas content, il doit se défendre tout seul ! Les noirs sont sur le point de jouer ...Te6-g6 pour le mater. Déplaçons-le de manière à défendre nos points faibles.",
+        "[%wrong Nous voulons retirer le roi de la colonne g. Essayez encore !][%hint Déplacez le roi blanc.]",
+        "La tour noire s'apprête à foncer vers l'aile roi, où elle aidera la dame à mater en h2. Comment défendre ce pion faible en deux coups ?",
+        "[%wrong Bien essayé, mais ce coup ne va pas nous permettre de défendre h2 en deux coups.][%hint Mettez une pièce sur la case récemment libérée par le roi blanc.]",
+        "Bien joué ! La tour blanche prend le contrôle de la colonne g grâce au déplacement du roi un coup plus tôt. Mais les noirs menacent toujours de mater en h2. Trouvez le bon coup de défense !",
+        "[%wrong Ce coup ne protège pas le pion h2. Essayez encore !][%hint Comment protéger la case h2 ?] Exactement ! La tour protège h2 et laisse la case g1 à son homologue, qui va pouvoir venir doubler sur la colonne g. Les blancs survivent à l'attaque noire et obtiennent une position jouable."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rrk1/ppp2ppp/8/4p3/4P3/5P1q/PPP1QP1P/3R1RK1 w - - 0 1\"]\r\n\r\n{Le roi blanc n'est pas content, il doit se défendre tout seul ! Les noirs sont sur le point de jouer ...Te6-g6 pour le mater. Déplaçons-le de manière à défendre nos points faibles.}\r\n1.Kh1\r\n    {[%wrong Nous voulons retirer le roi de la colonne g. Essayez encore !][%hint Déplacez le roi blanc.]}\r\n1...Re6\r\n    {La tour noire s'apprête à foncer vers l'aile roi, où elle aidera la dame à mater en h2. Comment défendre ce pion faible en deux coups ?}\r\n2.Rg1\r\n    {[%wrong Bien essayé, mais ce coup ne va pas nous permettre de défendre h2 en deux coups.][%hint Mettez une pièce sur la case récemment libérée par le roi blanc.]}\r\n2...Rh6\r\n    {Bien joué ! La tour blanche prend le contrôle de la colonne g grâce au déplacement du roi un coup plus tôt. Mais les noirs menacent toujours de mater en h2. Trouvez le bon coup de défense !}\r\n3.Rg2\r\n    {[%wrong Ce coup ne protège pas le pion h2. Essayez encore !][%hint Comment protéger la case h2 ?] Exactement ! La tour protège h2 et laisse la case g1 à son homologue, qui va pouvoir venir doubler sur la colonne g. Les blancs survivent à l'attaque noire et obtiennent une position jouable.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "a77354f2-9ce9-11e8-87b6-9f13dea17b0d",
+    "name": "Utiliser son roi",
+    "path": "utiliser-son-roi",
+    "description": "En début de partie, il est préférable de roquer pour mettre son roi en sécurité, mais en finale, votre roi devient une pièce active capable d'escorter vos pions jusqu'à la promotion. Lorsqu’il ne peut plus être maté, le roi est une pièce forte !",
+    "glyphName": "piece-fill-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-INT-using-your-king-d9x.mp4",
+    "fen": "3rr1k1/pbb2pp1/1p1q1np1/8/3P4/2NQBN2/PPP2PPP/2KR3R b - - 1 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rr4k1/1p1bppbp/p2p1np1/q7/P1BBP3/2N5/1PP1QPPP/R3K2R w KQ - 0 1\"]\r\n\r\n{Les blancs veulent roquer pour mettre leur roi en sécurité. Choisissez l'option la plus sûre.}\r\n1.O-O\r\n    {[%wrong Ce coup ne fait roque. Essayez encore !][%hint Si vous étiez le roi noir, sur quelle aile de l'échiquier vous sentiriez vous le plus en sécurité ?] Bravo ! Le roi fait petit roque. Sur cette aile, il est bien protégé par ses trois pions.}\r\n    (1.O-O-O $2 b5 {Le roi a roqué du côté de l'attaque noire. La présence d'un pion en a4 va permettre aux noirs d'ouvrir de dangereuses lignes. Ce n'est pas un endroit pour un monarque. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rr1k1/pbb2pp1/1p1q1np1/8/3P4/2NQBN2/PPP2PPP/R3K2R w KQ - 0 1\"]\r\n\r\n{Comme dans l'exercice précédent, les blancs veulent roquer pour mettre leur roi en sécurité. Choisissez l'option la plus sûre.}\r\n1.O-O-O\r\n    {[%wrong Ce coup ne fait roque. Essayez encore !][%hint La dame et les fous noirs vont aiguiller votre choix...] Bonne décision ! Le roi blanc sera ici en sécurité. En outre, les blancs vont pouvoir pousser leurs pions de l'aile roi pour attaquer le monarque adverse.}\r\n    (1.O-O $2 Bxf3 {La dame et les deux fous noirs sont braqués sur l'aile roi. Par conséquent, ils gagnent une pièce grâce à la menace de mat en h2. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/1p3pk1/1p4p1/8/1Pn2BP1/2PR1P2/r1K5/8 w - - 0 1\"]\r\n\r\n{Le roi blanc est en échec. Quelle est la meilleure réponse à l'attaque noire ?}\r\n1.Kb3\r\n    {[%hint Serait-il possible de joindre l'attaque à la défense ?] Mais oui, c'est clair ! Le roi est souvent vulnérable, mais c'est aussi un très bon attaquant en finale. Ici, il réalise une fourchette sur la tour et le cavalier adverse et va gagner une pièce au prochain coup !}\r\n    (1.Kb1 $2 {Ce coup met effectivement le roi en sécurité, mais il y avait beaucoup plus fort. Trouvez le bon coup !})\r\n    (1.Kd1 $2 Nb2+ {Avant de déplacer votre roi, faites toujours bien attention aux possibilités tactiques adverses. Essayez encore !})\r\n    (1.Kc1 {Ce coup met effectivement le roi en sécurité, mais il y avait beaucoup plus fort. Trouvez le bon coup !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/3k2r1/2p1p1P1/1pPpP2K/1P1P4/8/6P1/8 w - - 0 1\"]\r\n\r\n{En finale, le roi devient une pièce active ! Le roi blanc peut-il prendre le dessus sur la tour noire avec l'appui de ses pions passés ?}\r\n1.Kh6\r\n    {[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Le roi passe à l'attaque !]}\r\n    (1.g4 $2 Ke7 {Nous avons effectivement l'intention de pousser un jour ce pion, mais attention à ne pas laisser les noirs coordonner leur roi et leur tour. Il faut attaquer vite pour les prendre de vitesse !})\r\n    (1.g3 $2 Ke7 {Nous avons effectivement l'intention de pousser un jour ce pion, mais attention à ne pas laisser les noirs coordonner leur roi et leur tour. Il faut attaquer vite pour les prendre de vitesse !})\r\n1...Rg8\r\n    {Bien joué ! Le roi blanc repousse la tour noire. Continuez sur cette voie !}\r\n2.Kh7\r\n    {[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Comment continuer à attaquer la tour noire ?]}\r\n2...Rf8\r\n    {Le roi blanc est en grande forme ! La tour est encore une fois repoussée, ce qui va permettre aux blancs de continuer à attaquer !}\r\n3.g7\r\n    {[%wrong Ce coup n'attaque pas la tour noire. Essayez encore !][%hint Comment continuer à attaquer ?] Bien trouvé ! Le pion attaque maintenant la tour adverse et se rapproche toujours plus de la promotion. Les noirs vont devoir sacrifier leur tour pour l'en en empêcher, ce qui va permettre au pion passé en plus des blancs de filer à dame.}\r\n    (3.Kg7 $2 Ke7 {Les blancs laissent l'opportunité aux noirs de revenir en défense, ce qui va les mener à la défaite. Trouvez un coup plus fort attaquant la tour noire !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[PlyCount \"9\"]\r\n[FEN \"4rrk1/1bpR1p2/1pq1pQp1/p3P2p/P1PR1K1P/5N2/2P2PP1/8 w - - 0 1\"]\r\n\r\n{Il est rare de voir un roi aussi haut sur l'échiquier avec autant de pièces encore en jeu. Mais les pièces noires sont très passives. Comment utiliser cela pour créer des menaces de mat ?} \r\n1.Kg5 \r\n    {[%wrong Ce coup n'utilise pas le roi blanc pour créer des menaces de mat. Essayez encore !][%hint Les blancs veulent mater en g7 avec la dame. Où placer le roi pour participer à cette attaque ?]}\r\n1...Kh7 \r\n    {Magnifique ! Le roi blanc monte en g5, menaçant de se rendre en h6 pour assister la dame dans son mat en g7. Pour l'instant, le roi noir empêche cette idée, mais son dernier coup a relâché la surveillance d'une autre case ! Laquelle ?}\r\n2.Rxf7+ \r\n    {[%wrong Bien essayé, mais il existe un autre coup bien plus fort pour attaquer le roi noir !][%hint Le roi noir ne protège plus la case f7 !]}\r\n    ( 2.Qxg6+ $5 {Bien joué, vous avez trouvé un coup intéressant ! Trouvons-en un autre du même acabit pour prendre avec échec et forcer le mat en quelques coups.} )\r\n2...Rxf7 \r\n    {La défense noire prend l'eau de toutes parts ! Emparez-vous maintenant de cette tour.}\r\n3.Qxf7+ \r\n    {[%wrong Non, nous voulons prendre la tour f7 !][%hint Prenez la tour f7.]}\r\n3...Kh8 \r\n    {Le roi noir est maintenant acculé dans un coin de l'échiquier. Il est temps de ramener le roi blanc en attaque !}\r\n4.Kh6 \r\n    {[%wrong Bien essayé, mais ce coup ne participe pas au mat que veulent donner la dame et le roi blanc. Essayez encore !][%hint Le roi blanc peut maintenant se rendre sur la case dont il rêvait !]}\r\n    ( 4.Kxg6 $5 {Ce coup fonctionne également, mais les noirs ont maintenant plus d'options, comme par exemple ...Tg8 échec. Trouvez un moyen plus simple de préparer le mat !})\r\n4...Rg8 \r\n    {Le roi termine son voyage ! Les noirs parent l'échec et mat en g7, mais les blancs en ont un second à disposition. A vous de le trouver !}\r\n5.Qh7# \r\n    {[%wrong Bien essayé, mais ce coup ne fait pas mat en un !] [%hint Trouvez un mat en un combinant les atouts de votre dame et de votre roi.] Superbe !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4rrk1/ppp2ppp/8/4p3/4P3/5P1q/PPP1QP1P/3R1RK1 w - - 0 1\"]\r\n\r\n{Le roi blanc n'est pas content, il doit se défendre tout seul ! Les noirs sont sur le point de jouer ...Te6-g6 pour le mater. Déplaçons-le de manière à défendre nos points faibles.}\r\n1.Kh1\r\n    {[%wrong Nous voulons retirer le roi de la colonne g. Essayez encore !][%hint Déplacez le roi blanc.]}\r\n1...Re6\r\n    {La tour noire s'apprête à foncer vers l'aile roi, où elle aidera la dame à mater en h2. Comment défendre ce pion faible en deux coups ?}\r\n2.Rg1\r\n    {[%wrong Bien essayé, mais ce coup ne va pas nous permettre de défendre h2 en deux coups.][%hint Mettez une pièce sur la case récemment libérée par le roi blanc.]}\r\n2...Rh6\r\n    {Bien joué ! La tour blanche prend le contrôle de la colonne g grâce au déplacement du roi un coup plus tôt. Mais les noirs menacent toujours de mater en h2. Trouvez le bon coup de défense !}\r\n3.Rg2\r\n    {[%wrong Ce coup ne protège pas le pion h2. Essayez encore !][%hint Comment protéger la case h2 ?] Exactement ! La tour protège h2 et laisse la case g1 à son homologue, qui va pouvoir venir doubler sur la colonne g. Les blancs survivent à l'attaque noire et obtiennent une position jouable.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Le roi peut aussi se muer en une pièce active. Voyons comment !",
+    "outroText": "Très bien ! N'oubliez jamais l'importance du roi en finale.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "title": "Utiliser tout le potentiel de ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/c8c21eaa-a558-11e8-8a0b-b114e31635bb.a8d7fd41.728x410o.77ff125711c0.png"
+    },
+    "parentId": "67c4f46c-83aa-11e8-9e71-ad4bae4371e3",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-king5d1253e3a610b.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-king-56688595c6ea27.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-king-15ea2435ad2995.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/using-your-king-2602a4874533c2.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 54,
+    "order": 5,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "c8c21eaa-a558-11e8-8a0b-b114e31635bb",
+      "name": "Utiliser tout le potentiel de ses pièces",
+      "path": "utiliser-le-potentiel-de-ses-pieces",
+      "order": 1
+    }
+  }
+}

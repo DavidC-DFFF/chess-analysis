@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/activer-ses-pieces/faire-une-batterie",
+  "capturedAt": "2026-10-22T12:23:49.184Z",
+  "title": "Faire une batterie",
+  "exercises": [
+    {
+      "fen": "r4rk1/1b1pqpp1/pb3n1p/np6/4P3/2NQ1N1P/PPB2PP1/R1B2RK1 w - - 4 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Profitez de la puissance de la batterie dame-fou sur la diagonale b1-h7 pour gagner du matériel !",
+        "[%wrong Ce coup n'ouvre pas la diagonale de notre puissante batterie. Cherchez encore !][%hint Le pion e4 bloque la batterie dame-fou. Déplacez-le !]",
+        "Bien joué ! Le cavalier noir ne peut pas abandonner la défense de h7 sous peine d'échec et mat. Les noirs tentent donc de compliquer la position par Fxf3. Quel est la meilleur réponse ?",
+        "[%wrong Bien essayé, mais il existe un coup encore plus fort, trouvez-le !][%hint Le cavalier noir en f6 est le seul défenseur empêchant le mat en h7. Éliminez-le !] Bien vu ! La dame noire et le fou sont attaqués et les blancs menacent toujours mat. C'est gagné !",
+        "Il n'y a aucun raison de réagir à la contre-attaque noire. Dans cette variante, les noirs s'en sortent et gagnent même un pion. Trouvez mieux !",
+        "Il n'y a aucun raison de réagir à la contre-attaque noire. Nous avons maintenant une mauvaise structure à l'aile roi et un pion de moins. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1b1pqpp1/pb3n1p/np6/4P3/2NQ1N1P/PPB2PP1/R1B2RK1 w - - 4 3\"]\r\n\r\n{Trait aux blancs. Profitez de la puissance de la batterie dame-fou sur la diagonale b1-h7 pour gagner du matériel !}\r\n3.e5\r\n    {[%wrong Ce coup n'ouvre pas la diagonale de notre puissante batterie. Cherchez encore !][%hint Le pion e4 bloque la batterie dame-fou. Déplacez-le !]}\r\n3...Bxf3\r\n    {Bien joué ! Le cavalier noir ne peut pas abandonner la défense de h7 sous peine d'échec et mat. Les noirs tentent donc de compliquer la position par Fxf3. Quel est la meilleur réponse ?}\r\n4.exf6\r\n    {[%wrong Bien essayé, mais il existe un coup encore plus fort, trouvez-le !][%hint Le cavalier noir en f6 est le seul défenseur empêchant le mat en h7. Éliminez-le !] Bien vu ! La dame noire et le fou sont attaqués et les blancs menacent toujours mat. C'est gagné !}\r\n    (4.Qxf3 $2 Qxe5 {Il n'y a aucun raison de réagir à la contre-attaque noire. Dans cette variante, les noirs s'en sortent et gagnent même un pion. Trouvez mieux !})\r\n    (4.gxf3 $2 Qxe5 {Il n'y a aucun raison de réagir à la contre-attaque noire. Nous avons maintenant une mauvaise structure à l'aile roi et un pion de moins. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "r4rk1/1p3ppp/p3pq2/3bQ3/3P3n/1P6/PB3PPP/R3RBK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs rêvent de créer une batterie dame-fou sur la diagonale h1-a8 pour fondre sur le roi adverse. Trouvez un étonnant sacrifice qui matérialise cette idée !",
+        "[%wrong Ce coup ne force pas l'ouverture de la grande diagonale. Cherchez encore !][%hint Trouvez un fort échec forçant les blanc à prendre du pion g.]",
+        "Un joli coup créatif ! Le plan des noirs se matérialise enfin. Trouvez le meilleur coup !",
+        "[%wrong Ce coup ne crée pas une puissante batterie dame-fou sur la grande diagonale. Trouvez mieux !][%hint Comment prendre f3 tout en menaçant mat ?] Bien joué ! Les noirs ont ouvert la grande diagonale et menacent mat au prochain coup. La position est gagnante."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1p3ppp/p3pq2/3bQ3/3P3n/1P6/PB3PPP/R3RBK1 b - - 0 1\"]\r\n\r\n{Les noirs rêvent de créer une batterie dame-fou sur la diagonale h1-a8 pour fondre sur le roi adverse. Trouvez un étonnant sacrifice qui matérialise cette idée !}\r\n1...Nf3+\r\n    {[%wrong Ce coup ne force pas l'ouverture de la grande diagonale. Cherchez encore !][%hint Trouvez un fort échec forçant les blanc à prendre du pion g.]}\r\n2.gxf3\r\n    {Un joli coup créatif ! Le plan des noirs se matérialise enfin. Trouvez le meilleur coup !}\r\n2...Qxf3\r\n    {[%wrong Ce coup ne crée pas une puissante batterie dame-fou sur la grande diagonale. Trouvez mieux !][%hint Comment prendre f3 tout en menaçant mat ?] Bien joué ! Les noirs ont ouvert la grande diagonale et menacent mat au prochain coup. La position est gagnante.}\r\n*"
+    },
+    {
+      "fen": "1k5r/p1pq3p/1pn1pb2/3p2p1/P2P2B1/2P1B1P1/4QPP1/1R4K1 b - - 0 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Le fou g4 n'a plus beaucoup de cases. Trouvez un coup qui ouvre en force la colonne h ou enferme le fou.",
+        "[%wrong Ce coup ne force pas l'ouverture de la colonne h. Cherchez encore !][%hint N'oubliez pas la puissance des pions !]",
+        "Bien vu ! La colonne h est désormais ouverte. Créez maintenant une batterie tout en menaçant la tour b1 non protégée !",
+        "[%wrong Ce coup ne crée pas une batterie sur la colonne h tout en attaquant b1. Cherchez encore !][%hint La dame passe à l'action...] Formidable ! La batterie dame-tour cloue le pauvre fou h5 à cause de la menace Dh1 mat. La tour b1 est également attaqué. Par conséquent, nous allons gagner du matériel au prochain coup !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k5r/p1pq3p/1pn1pb2/3p2p1/P2P2B1/2P1B1P1/4QPP1/1R4K1 b - - 0 14\"]\r\n\r\n{Trait aux noirs. Le fou g4 n'a plus beaucoup de cases. Trouvez un coup qui ouvre en force la colonne h ou enferme le fou.}\r\n14...h5\r\n    {[%wrong Ce coup ne force pas l'ouverture de la colonne h. Cherchez encore !][%hint N'oubliez pas la puissance des pions !]}\r\n15.Bxh5\r\n    {Bien vu ! La colonne h est désormais ouverte. Créez maintenant une batterie tout en menaçant la tour b1 non protégée !}\r\n15...Qh7\r\n    {[%wrong Ce coup ne crée pas une batterie sur la colonne h tout en attaquant b1. Cherchez encore !][%hint La dame passe à l'action...] Formidable ! La batterie dame-tour cloue le pauvre fou h5 à cause de la menace Dh1 mat. La tour b1 est également attaqué. Par conséquent, nous allons gagner du matériel au prochain coup !}\r\n*"
+    },
+    {
+      "fen": "1rr2k2/p2qn1p1/Ppn1p2p/1B1pPp2/1P1P1P2/2R1QN2/6PP/2R3K1 w - - 12 26",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs chargent le fameux \"pistolet d'Alekhine\" sur la colonne c ! Comment préparer Dc1 pour tripler les pièces lourdes ?",
+        "[%wrong Ce coup ne nous prépare pas à tripler les pièces lourdes sur la colonne c. Cherchez encore !][%hint Les blancs veulent placer leurs deux tours et leur dame sur la colonne c. Comment faire ?]",
+        "Notre dame veut être à la base de la batterie, pas en pointe ! Cherchez encore.",
+        "Beau travail ! Les noirs reviennent défendre le cavalier c6 cloué. Chargez le pistolet d'Alekhine !",
+        "[%wrong Ce coup ne charge pas le pistolet d'Alekhine. Mettez votre dame sur la colonne c !][%hint Mettez une troisième pièce lourde sur la colonne c !]",
+        "Le pistolet est chargé ! Les blancs veulent maintenant pousser b5 pour gagner du matériel. Comment jouer le fou tout en gardant le clouage sur le cavalier c6 ?",
+        "[%wrong Ce n'est pas le coup de fou que nous cherchons. Essayez encore !][%hint Comment retirer le fou de la case b5 tout en gardant le clouage sur le cavalier c6 ?] Superbe ! Les noirs n'ont plus aucune défense contre b5, et vont perdre du matériel.",
+        "Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...",
+        "Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...",
+        "Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rr2k2/p2qn1p1/Ppn1p2p/1B1pPp2/1P1P1P2/2R1QN2/6PP/2R3K1 w - - 12 26\"]\r\n\r\n{Les blancs chargent le fameux \"pistolet d'Alekhine\" sur la colonne c ! Comment préparer Dc1 pour tripler les pièces lourdes ?}\r\n26.R1c2\r\n    {[%wrong Ce coup ne nous prépare pas à tripler les pièces lourdes sur la colonne c. Cherchez encore !][%hint Les blancs veulent placer leurs deux tours et leur dame sur la colonne c. Comment faire ?]}\r\n    (26.R3c2 $2 {Notre dame veut être à la base de la batterie, pas en pointe ! Cherchez encore.})\r\n26...Rc7\r\n    {Beau travail ! Les noirs reviennent défendre le cavalier c6 cloué. Chargez le pistolet d'Alekhine !}\r\n27.Qc1\r\n    {[%wrong Ce coup ne charge pas le pistolet d'Alekhine. Mettez votre dame sur la colonne c !][%hint Mettez une troisième pièce lourde sur la colonne c !]}\r\n27...Rbc8\r\n    {Le pistolet est chargé ! Les blancs veulent maintenant pousser b5 pour gagner du matériel. Comment jouer le fou tout en gardant le clouage sur le cavalier c6 ?}\r\n28.Ba4\r\n    {[%wrong Ce n'est pas le coup de fou que nous cherchons. Essayez encore !][%hint Comment retirer le fou de la case b5 tout en gardant le clouage sur le cavalier c6 ?] Superbe ! Les noirs n'ont plus aucune défense contre b5, et vont perdre du matériel.}\r\n    (28.Bd3 $5 {Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...})\r\n    (28.Be2 $5 {Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...})\r\n    (28.Bf1 $5 {Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...})\r\n*"
+    },
+    {
+      "fen": "rnb2rk1/ppppqppp/8/2b5/2B5/1Q6/PB1N1PPP/R4RK1 w - - 1 11",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs clouent le pion f7 grâce à leur batterie dame-fou sur les cases blanches. Trouvez un coup de dame forçant l’ouverture de la grande diagonale et menaçant mat en un !",
+        "[%wrong Il ne s'agit pas d'un coup de dame menaçant mat. Cherchez encore !][%hint Attaquez g7 pour forcer les noirs à pousser le pion.]",
+        "Bien essayé, mais les noirs vont réussir à survivre à l'attaque. Trouvez un autre coup de dame menaçant mat et forçant les noirs à jouer ...g6.",
+        "Joli ! Les blancs forcent l'ouverture de la grande diagonale, affaiblissant le roi noir. Il est temps de créer une puissante batterie sur cette diagonale !",
+        "[%wrong Ce coup ne place pas efficacement la dame sur la diagonale a1-h8. Cherchez encore !][%hint Maintenant que la diagonale a1-h8 est ouverte, utilisez-la pour menacer mat.] Bien vu ! Le roi noir est sérieusement affaibli, et le mat est maintenant inévitable. Les blancs gagnent !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb2rk1/ppppqppp/8/2b5/2B5/1Q6/PB1N1PPP/R4RK1 w - - 1 11\"]\r\n\r\n{Les blancs clouent le pion f7 grâce à leur batterie dame-fou sur les cases blanches. Trouvez un coup de dame forçant l’ouverture de la grande diagonale et menaçant mat en un !}\r\n11.Qg3\r\n    {[%wrong Il ne s'agit pas d'un coup de dame menaçant mat. Cherchez encore !][%hint Attaquez g7 pour forcer les noirs à pousser le pion.]}\r\n    (11.Qc3 $2 Qf6 {Bien essayé, mais les noirs vont réussir à survivre à l'attaque. Trouvez un autre coup de dame menaçant mat et forçant les noirs à jouer ...g6.})\r\n11...g6\r\n    {Joli ! Les blancs forcent l'ouverture de la grande diagonale, affaiblissant le roi noir. Il est temps de créer une puissante batterie sur cette diagonale !}\r\n12.Qc3\r\n    {[%wrong Ce coup ne place pas efficacement la dame sur la diagonale a1-h8. Cherchez encore !][%hint Maintenant que la diagonale a1-h8 est ouverte, utilisez-la pour menacer mat.] Bien vu ! Le roi noir est sérieusement affaibli, et le mat est maintenant inévitable. Les blancs gagnent !}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "cdba73cc-9cec-11e8-ae39-61188cb7dc14",
+    "name": "Faire une batterie",
+    "path": "faire-une-batterie",
+    "description": "Débloquez le plein potentiel de vos pièces à longue portée en les focalisant sur le même objectif. Une batterie est une formation offensive consistant à placer plusieurs pièces lourdes sur la même rangée, colonne ou diagonale. Les batteries vous aideront souvent à mater ou à gagner du matériel.",
+    "glyphName": "piece-pair-rook-battery",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-batteries-p0v.mp4",
+    "fen": "1r1qnr1k/p4ppp/p1p5/5P2/8/1PNP2R1/1PP3QP/6RK w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1b1pqpp1/pb3n1p/np6/4P3/2NQ1N1P/PPB2PP1/R1B2RK1 w - - 4 3\"]\r\n\r\n{Trait aux blancs. Profitez de la puissance de la batterie dame-fou sur la diagonale b1-h7 pour gagner du matériel !}\r\n3.e5\r\n    {[%wrong Ce coup n'ouvre pas la diagonale de notre puissante batterie. Cherchez encore !][%hint Le pion e4 bloque la batterie dame-fou. Déplacez-le !]}\r\n3...Bxf3\r\n    {Bien joué ! Le cavalier noir ne peut pas abandonner la défense de h7 sous peine d'échec et mat. Les noirs tentent donc de compliquer la position par Fxf3. Quel est la meilleur réponse ?}\r\n4.exf6\r\n    {[%wrong Bien essayé, mais il existe un coup encore plus fort, trouvez-le !][%hint Le cavalier noir en f6 est le seul défenseur empêchant le mat en h7. Éliminez-le !] Bien vu ! La dame noire et le fou sont attaqués et les blancs menacent toujours mat. C'est gagné !}\r\n    (4.Qxf3 $2 Qxe5 {Il n'y a aucun raison de réagir à la contre-attaque noire. Dans cette variante, les noirs s'en sortent et gagnent même un pion. Trouvez mieux !})\r\n    (4.gxf3 $2 Qxe5 {Il n'y a aucun raison de réagir à la contre-attaque noire. Nous avons maintenant une mauvaise structure à l'aile roi et un pion de moins. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1p3ppp/p3pq2/3bQ3/3P3n/1P6/PB3PPP/R3RBK1 b - - 0 1\"]\r\n\r\n{Les noirs rêvent de créer une batterie dame-fou sur la diagonale h1-a8 pour fondre sur le roi adverse. Trouvez un étonnant sacrifice qui matérialise cette idée !}\r\n1...Nf3+\r\n    {[%wrong Ce coup ne force pas l'ouverture de la grande diagonale. Cherchez encore !][%hint Trouvez un fort échec forçant les blanc à prendre du pion g.]}\r\n2.gxf3\r\n    {Un joli coup créatif ! Le plan des noirs se matérialise enfin. Trouvez le meilleur coup !}\r\n2...Qxf3\r\n    {[%wrong Ce coup ne crée pas une puissante batterie dame-fou sur la grande diagonale. Trouvez mieux !][%hint Comment prendre f3 tout en menaçant mat ?] Bien joué ! Les noirs ont ouvert la grande diagonale et menacent mat au prochain coup. La position est gagnante.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k5r/p1pq3p/1pn1pb2/3p2p1/P2P2B1/2P1B1P1/4QPP1/1R4K1 b - - 0 14\"]\r\n\r\n{Trait aux noirs. Le fou g4 n'a plus beaucoup de cases. Trouvez un coup qui ouvre en force la colonne h ou enferme le fou.}\r\n14...h5\r\n    {[%wrong Ce coup ne force pas l'ouverture de la colonne h. Cherchez encore !][%hint N'oubliez pas la puissance des pions !]}\r\n15.Bxh5\r\n    {Bien vu ! La colonne h est désormais ouverte. Créez maintenant une batterie tout en menaçant la tour b1 non protégée !}\r\n15...Qh7\r\n    {[%wrong Ce coup ne crée pas une batterie sur la colonne h tout en attaquant b1. Cherchez encore !][%hint La dame passe à l'action...] Formidable ! La batterie dame-tour cloue le pauvre fou h5 à cause de la menace Dh1 mat. La tour b1 est également attaqué. Par conséquent, nous allons gagner du matériel au prochain coup !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1rr2k2/p2qn1p1/Ppn1p2p/1B1pPp2/1P1P1P2/2R1QN2/6PP/2R3K1 w - - 12 26\"]\r\n\r\n{Les blancs chargent le fameux \"pistolet d'Alekhine\" sur la colonne c ! Comment préparer Dc1 pour tripler les pièces lourdes ?}\r\n26.R1c2\r\n    {[%wrong Ce coup ne nous prépare pas à tripler les pièces lourdes sur la colonne c. Cherchez encore !][%hint Les blancs veulent placer leurs deux tours et leur dame sur la colonne c. Comment faire ?]}\r\n    (26.R3c2 $2 {Notre dame veut être à la base de la batterie, pas en pointe ! Cherchez encore.})\r\n26...Rc7\r\n    {Beau travail ! Les noirs reviennent défendre le cavalier c6 cloué. Chargez le pistolet d'Alekhine !}\r\n27.Qc1\r\n    {[%wrong Ce coup ne charge pas le pistolet d'Alekhine. Mettez votre dame sur la colonne c !][%hint Mettez une troisième pièce lourde sur la colonne c !]}\r\n27...Rbc8\r\n    {Le pistolet est chargé ! Les blancs veulent maintenant pousser b5 pour gagner du matériel. Comment jouer le fou tout en gardant le clouage sur le cavalier c6 ?}\r\n28.Ba4\r\n    {[%wrong Ce n'est pas le coup de fou que nous cherchons. Essayez encore !][%hint Comment retirer le fou de la case b5 tout en gardant le clouage sur le cavalier c6 ?] Superbe ! Les noirs n'ont plus aucune défense contre b5, et vont perdre du matériel.}\r\n    (28.Bd3 $5 {Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...})\r\n    (28.Be2 $5 {Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...})\r\n    (28.Bf1 $5 {Ce coup est également fort, mais gardons plutôt le clouage sur le cavalier c6...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb2rk1/ppppqppp/8/2b5/2B5/1Q6/PB1N1PPP/R4RK1 w - - 1 11\"]\r\n\r\n{Les blancs clouent le pion f7 grâce à leur batterie dame-fou sur les cases blanches. Trouvez un coup de dame forçant l’ouverture de la grande diagonale et menaçant mat en un !}\r\n11.Qg3\r\n    {[%wrong Il ne s'agit pas d'un coup de dame menaçant mat. Cherchez encore !][%hint Attaquez g7 pour forcer les noirs à pousser le pion.]}\r\n    (11.Qc3 $2 Qf6 {Bien essayé, mais les noirs vont réussir à survivre à l'attaque. Trouvez un autre coup de dame menaçant mat et forçant les noirs à jouer ...g6.})\r\n11...g6\r\n    {Joli ! Les blancs forcent l'ouverture de la grande diagonale, affaiblissant le roi noir. Il est temps de créer une puissante batterie sur cette diagonale !}\r\n12.Qc3\r\n    {[%wrong Ce coup ne place pas efficacement la dame sur la diagonale a1-h8. Cherchez encore !][%hint Maintenant que la diagonale a1-h8 est ouverte, utilisez-la pour menacer mat.] Bien vu ! Le roi noir est sérieusement affaibli, et le mat est maintenant inévitable. Les blancs gagnent !}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Examinons un concept important pour fusionner la force de plusieurs pièces.",
+    "outroText": "Bravo ! Vos pièces seront toujours plus puissantes en travaillant ensemble.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "path": "activer-ses-pieces",
+      "title": "Activer ses pièces",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/454729e6-a55b-11e8-b5a6-254056bd8ea7.b7bc92d9.728x410o.53c6bfce2772.png"
+    },
+    "parentId": "a55a7908-83b6-11e8-b9bf-9b29c62bae9b",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/batteries5e7ab39a163c1.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/batteries-566ab98d20f3c6.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/batteries-15ea23f7344164.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/batteries-2612674eead17e.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 109,
+    "order": 8,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "454729e6-a55b-11e8-b5a6-254056bd8ea7",
+      "name": "Activer ses pièces",
+      "path": "activer-ses-pieces",
+      "order": 3
+    }
+  }
+}

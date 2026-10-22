@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/valeur-des-pieces-7fa3c19e",
+  "capturedAt": "2026-10-22T12:23:31.521Z",
+  "title": "Valeur des pièces",
+  "exercises": [
+    {
+      "fen": "r2q2k1/2p2npp/1p2p3/pP3p2/1P1Q3B/P3P2P/5PP1/2R3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Plusieurs captures sont possibles. Laquelle permet de gagner du matériel ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint La pièce la plus puissante des noirs est en prise.] Excellent ! Les blancs échangent leur fou (3 points) contre la dame adverse (9 points).",
+        "Ce n'est pas un mauvais coup, car les blancs vont ensuite pouvoir jouer Txc7 et gagner un pion, mais il y avait beaucoup plus fort ! Essayez encore.",
+        "Échanger un pion contre un autre ne fait pas gagner de matériel. Trouvez une prise encore plus forte !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q2k1/2p2npp/1p2p3/pP3p2/1P1Q3B/P3P2P/5PP1/2R3K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Plusieurs captures sont possibles. Laquelle permet de gagner du matériel ?}\r\n1.Bxd8\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint La pièce la plus puissante des noirs est en prise.] Excellent ! Les blancs échangent leur fou (3 points) contre la dame adverse (9 points).}\r\n    (1.Qxd8+ $6 Nxd8 {Ce n'est pas un mauvais coup, car les blancs vont ensuite pouvoir jouer Txc7 et gagner un pion, mais il y avait beaucoup plus fort ! Essayez encore.})\r\n    (1.bxa5 $6 {Échanger un pion contre un autre ne fait pas gagner de matériel. Trouvez une prise encore plus forte !})\r\n*"
+    },
+    {
+      "fen": "r2rn1k1/3nqp1p/pp2p1p1/2p3N1/2P2P2/1P4P1/P1Q2PBP/2RR2K1 w - - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Comment gagner du matériel ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Regardez la longue diagonale blanche...]",
+        "L'échange n'est pas bon : Vous avez donné une tour (5 points) pour un fou (3 points). Il faut trouver mieux !",
+        "Bien joué ! Vous échangez un fou (3 points) contre une tour (5 points)."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2rn1k1/3nqp1p/pp2p1p1/2p3N1/2P2P2/1P4P1/P1Q2PBP/2RR2K1 w - - 0 2\"]\r\n\r\n{Trait aux blancs. Comment gagner du matériel ?}\r\n2.Bxa8\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Regardez la longue diagonale blanche...]}\r\n    (2.Rxd7 $2 Qxd7 {L'échange n'est pas bon : Vous avez donné une tour (5 points) pour un fou (3 points). Il faut trouver mieux !})\r\n2...Rxa8\r\n    {Bien joué ! Vous échangez un fou (3 points) contre une tour (5 points).}\r\n*"
+    },
+    {
+      "fen": "2r4k/p5pp/1b3n2/3Np3/P3Pp2/2r2B1P/5PP1/R4RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier blanc peut capturer quatre pièces différentes. Quel est le coup qui gagne du matériel ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Une des pièces prenables à une plus grande valeur théorique que le cavalier. Laquelle ?]",
+        "Bien essayé, mais il ne s'agit que d'un échange standard (3 points pour 3 points).",
+        "Bien essayé, mais il ne s'agit que d'un échange standard (3 points pour 3 points).",
+        "L'échange n'est pas bon : Vous avez donné un cavalier (3 points) pour un pion (1 point). Il faut trouver mieux !",
+        "Bien joué ! Vous échangez un cavalier (3 points) contre une tour (5 points)."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r4k/p5pp/1b3n2/3Np3/P3Pp2/2r2B1P/5PP1/R4RK1 w - - 0 1\"]\r\n\r\n{Le cavalier blanc peut capturer quatre pièces différentes. Quel est le coup qui gagne du matériel ?}\r\n1.Nxc3\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Une des pièces prenables à une plus grande valeur théorique que le cavalier. Laquelle ?]}\r\n    (1.Nxb6 $6 {Bien essayé, mais il ne s'agit que d'un échange standard (3 points pour 3 points).})\r\n    (1.Nxf6 $6 {Bien essayé, mais il ne s'agit que d'un échange standard (3 points pour 3 points).})\r\n    (1.Nxf4 $2 exf4 {L'échange n'est pas bon : Vous avez donné un cavalier (3 points) pour un pion (1 point). Il faut trouver mieux !})\r\n1...Rxc3\r\n    {Bien joué ! Vous échangez un cavalier (3 points) contre une tour (5 points).}\r\n*"
+    },
+    {
+      "fen": "r4rk1/1p3pb1/4p1p1/2P4p/p2n4/P1N3BP/1P1R1PP1/3R2K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position, les noirs ont un fort cavalier en d4. Comment l'éliminer en gagnant du matériel ?",
+        "[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Les deux tours blanches visent le cavalier. Il est temps de faire une petite addition !]",
+        "Ce coup va initier un échange égal (3 points contre 3 points), mais ne gagne pas de matériel. Essayez encore !",
+        "L'échange n'est pas bon : Vous avez donné un cavalier (3 points) pour un pion (1 point). Il faut trouver mieux !",
+        "Bravo ! On pourrait croire que les blancs perdent du matériel en échangeant leur tour contre le cavalier noir, mais il faut prendre en compte la capture qui va suivre.",
+        "[%wrong Non, finissez la séquence tactique !][%hint Il faut reprendre en d4 sous peine de perdre du matériel.]",
+        "Bien joué ! Vous avez échangé une tour (5 points) contre un cavalier et un fou (3+3 = 6 points)."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1p3pb1/4p1p1/2P4p/p2n4/P1N3BP/1P1R1PP1/3R2K1 w - - 0 1\"]\r\n\r\n{Dans cette position, les noirs ont un fort cavalier en d4. Comment l'éliminer en gagnant du matériel ?}\r\n1.Rxd4\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Les deux tours blanches visent le cavalier. Il est temps de faire une petite addition !]}\r\n    (1.Ne2 $2 {Ce coup va initier un échange égal (3 points contre 3 points), mais ne gagne pas de matériel. Essayez encore !})\r\n    (1.Nxa4 $2 Rxa4 {L'échange n'est pas bon : Vous avez donné un cavalier (3 points) pour un pion (1 point). Il faut trouver mieux !})\r\n1...Bxd4\r\n    {Bravo ! On pourrait croire que les blancs perdent du matériel en échangeant leur tour contre le cavalier noir, mais il faut prendre en compte la capture qui va suivre.}\r\n2.Rxd4\r\n {[%wrong Non, finissez la séquence tactique !][%hint Il faut reprendre en d4 sous peine de perdre du matériel.]}\r\n    {Bien joué ! Vous avez échangé une tour (5 points) contre un cavalier et un fou (3+3 = 6 points).}\r\n*"
+    },
+    {
+      "fen": "3r2k1/4np2/p5b1/1p5p/2pN2p1/P5P1/1P2PP1P/R1N3K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier d4 des blancs a des problèmes. Faut-il prendre le pion b5, ou bien y a-t-il une défense encore plus forte ?",
+        "[%wrong Ce coup ne sauve pas le cavalier. Essayez encore !][%hint Trouvez un coup qui protège le cavalier d4.] Bien joué ! Vous avez défendu votre pièce attaquée avec un pion. Ainsi, si les noirs la prennent avec leur tour, ils perdront du matériel.",
+        "Les blancs perdent du matériel en échangeant un cavalier (3 points) contre un pion (1 point). Il faut trouver mieux !",
+        "Vous perdez un cavalier \"sec\". Essayez encore !",
+        "Vous perdez un cavalier \"sec\". Essayez encore !",
+        "Vous perdez du matériel. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/4np2/p5b1/1p5p/2pN2p1/P5P1/1P2PP1P/R1N3K1 w - - 0 1\"]\r\n\r\n{Le cavalier d4 des blancs a des problèmes. Faut-il prendre le pion b5, ou bien y a-t-il une défense encore plus forte ?}\r\n1.e3\r\n    {[%wrong Ce coup ne sauve pas le cavalier. Essayez encore !][%hint Trouvez un coup qui protège le cavalier d4.] Bien joué ! Vous avez défendu votre pièce attaquée avec un pion. Ainsi, si les noirs la prennent avec leur tour, ils perdront du matériel.}\r\n    (1.Nxb5 $2 axb5 $2 {Les blancs perdent du matériel en échangeant un cavalier (3 points) contre un pion (1 point). Il faut trouver mieux !})\r\n    (1.Nc6 $2 Nxc6 {Vous perdez un cavalier \"sec\". Essayez encore !})\r\n    (1.Nc2 $2 Bxc2 {Vous perdez un cavalier \"sec\". Essayez encore !})\r\n    (1.Ncb3 $2 cxb3 {Vous perdez du matériel. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "3206888e-9ce8-11e8-a014-dbfcd065d61c",
+    "name": "Valeur des pièces",
+    "path": "valeur-des-pieces-7fa3c19e",
+    "description": "Pour évaluer la force des pièces, fiez-vous à cette échelle : Pion : 1 point. Cavalier : 3 points. Fou : 3 points. Tour : 5 points. Dame : 9 points. Roi : Inestimable ! Echanger un cavalier contre un fou est une bonne idée, mais donner une dame contre une tour n'est pas recommandé... En cas d’échanges, essayez toujours de prendre plus de matériel que votre adversaire, à moins d’avoir une excellente raison de ne pas le faire.",
+    "glyphName": "graph-bars-piece-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-value-of-the-pieces-d9s.mp4",
+    "fen": "2r4k/p5pp/1b3n2/3Np3/P3Pp2/2r2B1P/5PP1/R4RK1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q2k1/2p2npp/1p2p3/pP3p2/1P1Q3B/P3P2P/5PP1/2R3K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Plusieurs captures sont possibles. Laquelle permet de gagner du matériel ?}\r\n1.Bxd8\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint La pièce la plus puissante des noirs est en prise.] Excellent ! Les blancs échangent leur fou (3 points) contre la dame adverse (9 points).}\r\n    (1.Qxd8+ $6 Nxd8 {Ce n'est pas un mauvais coup, car les blancs vont ensuite pouvoir jouer Txc7 et gagner un pion, mais il y avait beaucoup plus fort ! Essayez encore.})\r\n    (1.bxa5 $6 {Échanger un pion contre un autre ne fait pas gagner de matériel. Trouvez une prise encore plus forte !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2rn1k1/3nqp1p/pp2p1p1/2p3N1/2P2P2/1P4P1/P1Q2PBP/2RR2K1 w - - 0 2\"]\r\n\r\n{Trait aux blancs. Comment gagner du matériel ?}\r\n2.Bxa8\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Regardez la longue diagonale blanche...]}\r\n    (2.Rxd7 $2 Qxd7 {L'échange n'est pas bon : Vous avez donné une tour (5 points) pour un fou (3 points). Il faut trouver mieux !})\r\n2...Rxa8\r\n    {Bien joué ! Vous échangez un fou (3 points) contre une tour (5 points).}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r4k/p5pp/1b3n2/3Np3/P3Pp2/2r2B1P/5PP1/R4RK1 w - - 0 1\"]\r\n\r\n{Le cavalier blanc peut capturer quatre pièces différentes. Quel est le coup qui gagne du matériel ?}\r\n1.Nxc3\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Une des pièces prenables à une plus grande valeur théorique que le cavalier. Laquelle ?]}\r\n    (1.Nxb6 $6 {Bien essayé, mais il ne s'agit que d'un échange standard (3 points pour 3 points).})\r\n    (1.Nxf6 $6 {Bien essayé, mais il ne s'agit que d'un échange standard (3 points pour 3 points).})\r\n    (1.Nxf4 $2 exf4 {L'échange n'est pas bon : Vous avez donné un cavalier (3 points) pour un pion (1 point). Il faut trouver mieux !})\r\n1...Rxc3\r\n    {Bien joué ! Vous échangez un cavalier (3 points) contre une tour (5 points).}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/1p3pb1/4p1p1/2P4p/p2n4/P1N3BP/1P1R1PP1/3R2K1 w - - 0 1\"]\r\n\r\n{Dans cette position, les noirs ont un fort cavalier en d4. Comment l'éliminer en gagnant du matériel ?}\r\n1.Rxd4\r\n    {[%wrong Ce coup ne gagne pas de matériel. Essayez encore !][%hint Les deux tours blanches visent le cavalier. Il est temps de faire une petite addition !]}\r\n    (1.Ne2 $2 {Ce coup va initier un échange égal (3 points contre 3 points), mais ne gagne pas de matériel. Essayez encore !})\r\n    (1.Nxa4 $2 Rxa4 {L'échange n'est pas bon : Vous avez donné un cavalier (3 points) pour un pion (1 point). Il faut trouver mieux !})\r\n1...Bxd4\r\n    {Bravo ! On pourrait croire que les blancs perdent du matériel en échangeant leur tour contre le cavalier noir, mais il faut prendre en compte la capture qui va suivre.}\r\n2.Rxd4\r\n {[%wrong Non, finissez la séquence tactique !][%hint Il faut reprendre en d4 sous peine de perdre du matériel.]}\r\n    {Bien joué ! Vous avez échangé une tour (5 points) contre un cavalier et un fou (3+3 = 6 points).}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3r2k1/4np2/p5b1/1p5p/2pN2p1/P5P1/1P2PP1P/R1N3K1 w - - 0 1\"]\r\n\r\n{Le cavalier d4 des blancs a des problèmes. Faut-il prendre le pion b5, ou bien y a-t-il une défense encore plus forte ?}\r\n1.e3\r\n    {[%wrong Ce coup ne sauve pas le cavalier. Essayez encore !][%hint Trouvez un coup qui protège le cavalier d4.] Bien joué ! Vous avez défendu votre pièce attaquée avec un pion. Ainsi, si les noirs la prennent avec leur tour, ils perdront du matériel.}\r\n    (1.Nxb5 $2 axb5 $2 {Les blancs perdent du matériel en échangeant un cavalier (3 points) contre un pion (1 point). Il faut trouver mieux !})\r\n    (1.Nc6 $2 Nxc6 {Vous perdez un cavalier \"sec\". Essayez encore !})\r\n    (1.Nc2 $2 Bxc2 {Vous perdez un cavalier \"sec\". Essayez encore !})\r\n    (1.Ncb3 $2 cxb3 {Vous perdez du matériel. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenons à évaluer les captures potentielles et faire les bons choix.",
+    "outroText": "Bien. N'oubliez jamais de prendre en compte la valeur des pièces.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "08f13006-83a8-11e8-abd8-7575d940b9dc",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/value-of-the-pieces5d111186bfe55.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/value-of-the-pieces-566887047482d4.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/value-of-the-pieces-160741a5f28d78.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/value-of-the-pieces-65ea2451d489b1.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/il-valore-dei-pezzi639cb92d256f7.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 30,
+    "order": 1,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

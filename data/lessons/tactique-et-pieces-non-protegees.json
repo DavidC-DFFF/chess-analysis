@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/tactique-et-pieces-non-protegees",
+  "capturedAt": "2026-10-22T12:23:32.627Z",
+  "title": "La tactique et les pièces non protégées",
+  "exercises": [
+    {
+      "fen": "7r/pk5p/1pp3p1/2b2p2/P1PB4/2P4P/5PP1/R5K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez la pièce adverse en prise !",
+        "[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Le fou des blancs peut capturer deux pièces différentes. L'une d'entre elles n'est pas protégée !] Bien joué ! La tour noire était en prise, et vous avez su en profiter.",
+        "Vous avez simplement échangé un fou contre un autre. Il y avait bien plus fort !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/pk5p/1pp3p1/2b2p2/P1PB4/2P4P/5PP1/R5K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez la pièce adverse en prise !}\r\n1.Bxh8\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Le fou des blancs peut capturer deux pièces différentes. L'une d'entre elles n'est pas protégée !] Bien joué ! La tour noire était en prise, et vous avez su en profiter.}\r\n    (1.Bxc5 $2 bxc5 {Vous avez simplement échangé un fou contre un autre. Il y avait bien plus fort !})\r\n*"
+    },
+    {
+      "fen": "2k5/ppp4p/8/1BP3p1/PQ5n/2P4P/6P1/5q1K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le roi blanc semble avoir de graves problèmes. Mais est-ce vraiment le cas ? Trouvez le bon coup de défense..",
+        "[%hint Est-il possible de capturer la pièce qui donne échec ?] Bien joué ! La dame noire était en prise et avez su en profiter.",
+        "Oups ! Vous vous êtes fait mater ! Essayez encore."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/ppp4p/8/1BP3p1/PQ5n/2P4P/6P1/5q1K w - - 0 1\"]\r\n\r\n{Le roi blanc semble avoir de graves problèmes. Mais est-ce vraiment le cas ? Trouvez le bon coup de défense..}\r\n1.Bxf1\r\n    {[%hint Est-il possible de capturer la pièce qui donne échec ?] Bien joué ! La dame noire était en prise et avez su en profiter.}\r\n    (1.Kh2 $2 Qxg2# {Oups ! Vous vous êtes fait mater ! Essayez encore.})\r\n*"
+    },
+    {
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier et le fou blancs attaquent f7. Mais n'ont-ils pas oublié quelque chose ?",
+        "[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Les blancs ont laissé une pièce en prise.] Bien joué ! Ce cavalier n'était pas protégé.",
+        "Les noirs échangent un fou contre un pion. Ce n'est pas une très bonne affaire ! Essayez de trouver mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4\"]\r\n\r\n{Le cavalier et le fou blancs attaquent f7. Mais n'ont-ils pas oublié quelque chose ?}\r\n4...Qxg5\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Les blancs ont laissé une pièce en prise.] Bien joué ! Ce cavalier n'était pas protégé.}\r\n    (4...Bxf2+ $2 5.Kxf2 {Les noirs échangent un fou contre un pion. Ce n'est pas une très bonne affaire ! Essayez de trouver mieux !})\r\n*"
+    },
+    {
+      "fen": "r4rk1/2pn1ppp/1p2n3/8/2N5/6BP/PPP3P1/1K1RR3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs peuvent-ils gagner du matériel ?",
+        "[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Regardez bien toutes les prises possibles.] Bien joué ! Le cavalier noir était en prise, et vous avez su en profiter.",
+        "Vous perdez du matériel au lieu d'en gagner. Essayez encore !",
+        "Ce pion était protégé par le cavalier. Essayez encore !",
+        "Ce cavalier était protégé par le pion. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/2pn1ppp/1p2n3/8/2N5/6BP/PPP3P1/1K1RR3 w - - 0 1\"]\r\n\r\n{Les blancs peuvent-ils gagner du matériel ?}\r\n1.Rxd7\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Regardez bien toutes les prises possibles.] Bien joué ! Le cavalier noir était en prise, et vous avez su en profiter.}\r\n    (1.Nxb6 $2 Nxb6 {Vous perdez du matériel au lieu d'en gagner. Essayez encore !})\r\n    (1.Bxc7 $2 Nxc7 {Ce pion était protégé par le cavalier. Essayez encore !})\r\n    (1.Rxe6 $2 fxe6 {Ce cavalier était protégé par le pion. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "r2qk2r/ppp2ppp/2n1p3/2bn4/Q5b1/2NP1NP1/PP2PPBP/R1B1K2R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Trouvez la pièce adverse en prise !",
+        "[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint La dame blanche a plusieurs captures possibles.] Bien joué ! Le fou noir était en l'air, et vous avez su en profiter.",
+        "Cette pièce est protégée. Essayez encore !",
+        "Vous perdez votre dame. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/2n1p3/2bn4/Q5b1/2NP1NP1/PP2PPBP/R1B1K2R w KQkq - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez la pièce adverse en prise !}\r\n1.Qxg4\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint La dame blanche a plusieurs captures possibles.] Bien joué ! Le fou noir était en l'air, et vous avez su en profiter.}\r\n    (1.Nxd5 $2 {Cette pièce est protégée. Essayez encore !})\r\n    (1.Qxc6+ $2 bxc6 {Vous perdez votre dame. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "40e47dd4-9ce8-11e8-8c2e-bbdb4285bb36",
+    "name": "La tactique et les pièces non protégées",
+    "path": "tactique-et-pieces-non-protegees",
+    "description": "Les tactiques sont des séries de coups permettant de prendre un avantage immédiat. Une excellente manière de prendre l’avantage reste de capturer une pièce restée « en l’air », c’est-à-dire non protégée. Observez bien tout l’échiquier à chaque coup à la recherche de pièces non protégées. Les capturer est généralement une très bonne idée !",
+    "glyphName": "piece-knight-fork",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-tactics-and-hanging-pieces-t5h.mp4",
+    "fen": "7r/pk5p/1pp3p1/2b2p2/P1P5/7P/1B3PP1/R5K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/pk5p/1pp3p1/2b2p2/P1PB4/2P4P/5PP1/R5K1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez la pièce adverse en prise !}\r\n1.Bxh8\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Le fou des blancs peut capturer deux pièces différentes. L'une d'entre elles n'est pas protégée !] Bien joué ! La tour noire était en prise, et vous avez su en profiter.}\r\n    (1.Bxc5 $2 bxc5 {Vous avez simplement échangé un fou contre un autre. Il y avait bien plus fort !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/ppp4p/8/1BP3p1/PQ5n/2P4P/6P1/5q1K w - - 0 1\"]\r\n\r\n{Le roi blanc semble avoir de graves problèmes. Mais est-ce vraiment le cas ? Trouvez le bon coup de défense..}\r\n1.Bxf1\r\n    {[%hint Est-il possible de capturer la pièce qui donne échec ?] Bien joué ! La dame noire était en prise et avez su en profiter.}\r\n    (1.Kh2 $2 Qxg2# {Oups ! Vous vous êtes fait mater ! Essayez encore.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk1nr/pppp1ppp/2n5/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4\"]\r\n\r\n{Le cavalier et le fou blancs attaquent f7. Mais n'ont-ils pas oublié quelque chose ?}\r\n4...Qxg5\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Les blancs ont laissé une pièce en prise.] Bien joué ! Ce cavalier n'était pas protégé.}\r\n    (4...Bxf2+ $2 5.Kxf2 {Les noirs échangent un fou contre un pion. Ce n'est pas une très bonne affaire ! Essayez de trouver mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/2pn1ppp/1p2n3/8/2N5/6BP/PPP3P1/1K1RR3 w - - 0 1\"]\r\n\r\n{Les blancs peuvent-ils gagner du matériel ?}\r\n1.Rxd7\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint Regardez bien toutes les prises possibles.] Bien joué ! Le cavalier noir était en prise, et vous avez su en profiter.}\r\n    (1.Nxb6 $2 Nxb6 {Vous perdez du matériel au lieu d'en gagner. Essayez encore !})\r\n    (1.Bxc7 $2 Nxc7 {Ce pion était protégé par le cavalier. Essayez encore !})\r\n    (1.Rxe6 $2 fxe6 {Ce cavalier était protégé par le pion. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qk2r/ppp2ppp/2n1p3/2bn4/Q5b1/2NP1NP1/PP2PPBP/R1B1K2R w KQkq - 0 1\"]\r\n\r\n{Trait aux blancs. Trouvez la pièce adverse en prise !}\r\n1.Qxg4\r\n    {[%wrong Ce coup ne capture pas une pièce adverse non protégée. Essayez encore !][%hint La dame blanche a plusieurs captures possibles.] Bien joué ! Le fou noir était en l'air, et vous avez su en profiter.}\r\n    (1.Nxd5 $2 {Cette pièce est protégée. Essayez encore !})\r\n    (1.Qxc6+ $2 bxc6 {Vous perdez votre dame. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Repérez les pièces \"en prise\" gratuites pour gagner vos parties.",
+    "outroText": "Parfait. Gagner du matériel est souvent le chemin le plus simple vers la victoire.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "4a6e1e4a-83a8-11e8-8948-a9c00aefb673",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/tactics-and-hanging-pieces5d1111a1cd589.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/tactics-and-hanging-pieces-56688702e84361.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/tactics-and-hanging-pieces-160743b09bec2b.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/tactics-and-hanging-pieces-65ea245257f6aa.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/tattica-e-pezzi-sospesi639cd603f2cec.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 31,
+    "order": 2,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

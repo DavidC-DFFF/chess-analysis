@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-echecs/les-pions-passes",
+  "capturedAt": "2026-10-22T13:42:34.997Z",
+  "title": "Pions passés",
+  "exercises": [
+    {
+      "fen": "k7/3p4/3p4/3Pp3/5P2/8/3K4/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f4;color;%23ffaa00;opacity;0.8;square;f4;persistent;true][%c_arrow f4f5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;f5;persistent;true] Aucun pion n'empêche un pion passé d'aller à la promotion. Ignore la tentation d'échanger et crée un pion passé !",
+        "[%hint Poussez un pion pour créer un pion passé.][%wrong Il existe un meilleur coup. Réessaye et cherche à créer un pion passé.]",
+        "Vous avez manqué l'occasion de créer un pion passé. Pouvez-vous réessayer ?",
+        "Votre pion passé ne peut pas être arrêté ! Pouvez-vous le pousser jusqu'à la promotion ?",
+        "[%wrong Ce n'est pas le bon coup. Avez-vous besoin d'un indice ?][%hint Pouvez-vous avancer votre pion vers la promotion ?]",
+        "Oui, pouvez-vous aller jusqu'au bout ?",
+        "[%hint Et si vous continuiez à pousser votre pion ?][%wrong Ce n'est pas le meilleur coup. Voulez-vous un indice ?]",
+        "Correct, il reste un coup. Pouvez-vous le trouver ?",
+        "[%hint Et si vous promouviez en la meilleure pièce ?][%wrong Vous y êtes presque. N'abandonnez pas et demandez un indice si nécessaire.]Bravo ! Vous avez poussé votre pion passé jusqu'à la promotion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/3p4/3p4/3Pp3/5P2/8/3K4/8 w - - 0 1\"]\r\n\r\n{[%c_highlight f4;color;%23ffaa00;opacity;0.8;square;f4;persistent;true][%c_arrow f4f5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;f5;persistent;true] Aucun pion n'empêche un pion passé d'aller à la promotion. Ignore la tentation d'échanger et crée un pion passé !} 1. f5 {[%hint Poussez un pion pour créer un pion passé.][%wrong Il existe un meilleur coup. Réessaye et cherche à créer un pion passé.]} (1. fxe5? dxe5 {Vous avez manqué l'occasion de créer un pion passé. Pouvez-vous réessayer ?}) 1... Kb8 {Votre pion passé ne peut pas être arrêté ! Pouvez-vous le pousser jusqu'à la promotion ?} 2. f6 {[%wrong Ce n'est pas le bon coup. Avez-vous besoin d'un indice ?][%hint Pouvez-vous avancer votre pion vers la promotion ?]} 2... Kc8 {Oui, pouvez-vous aller jusqu'au bout ?} 3. f7 {[%hint Et si vous continuiez à pousser votre pion ?][%wrong Ce n'est pas le meilleur coup. Voulez-vous un indice ?]} 3... Kd8 {Correct, il reste un coup. Pouvez-vous le trouver ?} 4. f8=Q+ {[%hint Et si vous promouviez en la meilleure pièce ?][%wrong Vous y êtes presque. N'abandonnez pas et demandez un indice si nécessaire.]Bravo ! Vous avez poussé votre pion passé jusqu'à la promotion.} *"
+    },
+    {
+      "fen": "6k1/2n5/p7/1P6/8/8/8/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Crée un pion passé en toute sécurité, puis pousse-le jusqu'à la promotion !",
+        "[%hint Poussez votre pion pour attaquer le cavalier.][%wrong Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.]",
+        "Échanger les pions mène à la nulle. Essaye plutôt de créer un pion passé.",
+        "Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.",
+        "Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.",
+        "Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.",
+        "Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.",
+        "Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.",
+        "Bon début ! Comment pouvez-vous lancer votre pion passé vers la promotion ?",
+        "[%hint Poussez votre pion passé.][%wrong Les noirs vont vite arrêter votre pion. Essayez de le promouvoir aussi vite que possible.]",
+        "Bien joué ! Les noirs ne pourront pas vous empêcher de promouvoir le pion. Pouvez-vous le faire ?",
+        "[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Ce n'était pas le meilleur coup. Réessayez, vous pouvez y arriver !]Belle promotion de votre pion passé !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/2n5/p7/1P6/8/8/8/6K1 w - - 0 1\"]\r\n\r\n{Crée un pion passé en toute sécurité, puis pousse-le jusqu'à la promotion !} 1. b6 {[%hint Poussez votre pion pour attaquer le cavalier.][%wrong Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.]} (1. bxa6? Nxa6 {Échanger les pions mène à la nulle. Essaye plutôt de créer un pion passé.}) (1. Kh1? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kh2? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kg2? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kf2? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kf1? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) 1... Nd5 {Bon début ! Comment pouvez-vous lancer votre pion passé vers la promotion ?} 2. b7 {[%hint Poussez votre pion passé.][%wrong Les noirs vont vite arrêter votre pion. Essayez de le promouvoir aussi vite que possible.]} 2... Kf7 {Bien joué ! Les noirs ne pourront pas vous empêcher de promouvoir le pion. Pouvez-vous le faire ?} 3. b8=Q {[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Ce n'était pas le meilleur coup. Réessayez, vous pouvez y arriver !]Belle promotion de votre pion passé !} *"
+    },
+    {
+      "fen": "3k4/6p1/6P1/7P/8/8/8/2K5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Crée un pion passé aussi vite que possible.",
+        "[%hint Sacrifiez un pion pour ouvrir la voie à l'autre pion.][%wrong Il existe un meilleur coup. Essaye de trouver un moyen d'ouvrir la voie pour promouvoir un pion.]",
+        "Excellente idée ! Comment pouvez-vous utiliser votre nouveau pion passé ?",
+        "[%hint Avancez vers la promotion.][%wrong Il existe un meilleur coup. Réessayez et poussez votre pion passé.]",
+        "Beau travail ! Pouvez-vous promouvoir maintenant ?",
+        "[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Il existe un meilleur coup. Avez-vous besoin d'un indice ?]Bravo ! Vous avez créé un pion passé et vous l'avez poussé jusqu'à la promotion."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3k4/6p1/6P1/7P/8/8/8/2K5 w - - 0 1\"]\r\n\r\n{Crée un pion passé aussi vite que possible.} 1. h6 {[%hint Sacrifiez un pion pour ouvrir la voie à l'autre pion.][%wrong Il existe un meilleur coup. Essaye de trouver un moyen d'ouvrir la voie pour promouvoir un pion.]} 1... gxh6 {Excellente idée ! Comment pouvez-vous utiliser votre nouveau pion passé ?} 2. g7 {[%hint Avancez vers la promotion.][%wrong Il existe un meilleur coup. Réessayez et poussez votre pion passé.]} 2... Ke8 {Beau travail ! Pouvez-vous promouvoir maintenant ?} 3. g8=Q+ {[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Il existe un meilleur coup. Avez-vous besoin d'un indice ?]Bravo ! Vous avez créé un pion passé et vous l'avez poussé jusqu'à la promotion.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c1c8-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Pions passés",
+    "path": "les-pions-passes",
+    "description": "Un pion passé est un pion qu'aucun pion adverse ne peut bloquer ni capturer.",
+    "glyphName": "piece-pawn-passing",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"k7/3p4/3p4/3Pp3/5P2/8/3K4/8 w - - 0 1\"]\r\n\r\n{[%c_highlight f4;color;%23ffaa00;opacity;0.8;square;f4;persistent;true][%c_arrow f4f5;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f4;to;f5;persistent;true] Aucun pion n'empêche un pion passé d'aller à la promotion. Ignore la tentation d'échanger et crée un pion passé !} 1. f5 {[%hint Poussez un pion pour créer un pion passé.][%wrong Il existe un meilleur coup. Réessaye et cherche à créer un pion passé.]} (1. fxe5? dxe5 {Vous avez manqué l'occasion de créer un pion passé. Pouvez-vous réessayer ?}) 1... Kb8 {Votre pion passé ne peut pas être arrêté ! Pouvez-vous le pousser jusqu'à la promotion ?} 2. f6 {[%wrong Ce n'est pas le bon coup. Avez-vous besoin d'un indice ?][%hint Pouvez-vous avancer votre pion vers la promotion ?]} 2... Kc8 {Oui, pouvez-vous aller jusqu'au bout ?} 3. f7 {[%hint Et si vous continuiez à pousser votre pion ?][%wrong Ce n'est pas le meilleur coup. Voulez-vous un indice ?]} 3... Kd8 {Correct, il reste un coup. Pouvez-vous le trouver ?} 4. f8=Q+ {[%hint Et si vous promouviez en la meilleure pièce ?][%wrong Vous y êtes presque. N'abandonnez pas et demandez un indice si nécessaire.]Bravo ! Vous avez poussé votre pion passé jusqu'à la promotion.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/2n5/p7/1P6/8/8/8/6K1 w - - 0 1\"]\r\n\r\n{Crée un pion passé en toute sécurité, puis pousse-le jusqu'à la promotion !} 1. b6 {[%hint Poussez votre pion pour attaquer le cavalier.][%wrong Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.]} (1. bxa6? Nxa6 {Échanger les pions mène à la nulle. Essaye plutôt de créer un pion passé.}) (1. Kh1? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kh2? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kg2? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kf2? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) (1. Kf1? Nxb5 {Les noirs gagnent le pion blanc. Réessayez et cherchez un moyen de sauver votre pion.}) 1... Nd5 {Bon début ! Comment pouvez-vous lancer votre pion passé vers la promotion ?} 2. b7 {[%hint Poussez votre pion passé.][%wrong Les noirs vont vite arrêter votre pion. Essayez de le promouvoir aussi vite que possible.]} 2... Kf7 {Bien joué ! Les noirs ne pourront pas vous empêcher de promouvoir le pion. Pouvez-vous le faire ?} 3. b8=Q {[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Ce n'était pas le meilleur coup. Réessayez, vous pouvez y arriver !]Belle promotion de votre pion passé !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3k4/6p1/6P1/7P/8/8/8/2K5 w - - 0 1\"]\r\n\r\n{Crée un pion passé aussi vite que possible.} 1. h6 {[%hint Sacrifiez un pion pour ouvrir la voie à l'autre pion.][%wrong Il existe un meilleur coup. Essaye de trouver un moyen d'ouvrir la voie pour promouvoir un pion.]} 1... gxh6 {Excellente idée ! Comment pouvez-vous utiliser votre nouveau pion passé ?} 2. g7 {[%hint Avancez vers la promotion.][%wrong Il existe un meilleur coup. Réessayez et poussez votre pion passé.]} 2... Ke8 {Beau travail ! Pouvez-vous promouvoir maintenant ?} 3. g8=Q+ {[%hint Pouvez-vous promouvoir en la meilleure pièce ?][%wrong Il existe un meilleur coup. Avez-vous besoin d'un indice ?]Bravo ! Vous avez créé un pion passé et vous l'avez poussé jusqu'à la promotion.} *"
+    ],
+    "courseId": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrez le pion passé : un pion qui ne peut pas être capturé et qui peut avancer jusqu'à la promotion.",
+    "outroText": "Les pions passés sont très puissants en finale.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "finales-echecs",
+      "title": "Finales"
+    },
+    "parentId": "ba3125dc-23a6-11f1-bbb1-a91b9e8f7531"
+  },
+  "curriculum": {
+    "number": 41,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c0fdadc-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Finales",
+      "path": "finales-echecs",
+      "order": 4
+    }
+  }
+}

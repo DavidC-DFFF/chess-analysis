@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/introduction-au-ouvertures-classiques/defenses-contre-1-d4-cote-noirs",
+  "capturedAt": "2026-10-22T12:23:35.842Z",
+  "title": "Les défenses contre 1.d4 pour les noirs",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs menacent de prendre le contrôle total du centre par 2. e4. Empêchons ce coup !",
+        "[%wrong Ce coup n'empêche pas les blancs de jouer 2.e4. Essayez encore !][%hint Copiez tout simplement le premier coup des blancs !] Très bien ! Les noirs prennent de l'espace au centre et contrôlent la case e4.",
+        "Ce coup est une alternative populaire au fréquent 1...d5, mais nous l'évoquerons dans un chapitre ultérieur !",
+        "Ce coup contrôle effectivement la case e4, mais il ouvre une dangereuse diagonale vers votre roi. Commençons par un coup plus prudent !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs menacent de prendre le contrôle total du centre par 2. e4. Empêchons ce coup !}\r\n1...d5\r\n    {[%wrong Ce coup n'empêche pas les blancs de jouer 2.e4. Essayez encore !][%hint Copiez tout simplement le premier coup des blancs !] Très bien ! Les noirs prennent de l'espace au centre et contrôlent la case e4.}\r\n    (1...Nf6 $5 {Ce coup est une alternative populaire au fréquent 1...d5, mais nous l'évoquerons dans un chapitre ultérieur !})\r\n    (1...f5 $6 {Ce coup contrôle effectivement la case e4, mais il ouvre une dangereuse diagonale vers votre roi. Commençons par un coup plus prudent !})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer 2...c4 pour attaquer notre important pion central. Comment défendre notre centre ?",
+        "[%wrong Ce coup ne protège pas le pion d5. Essayez encore !][%hint Il serait préférable d'utiliser un autre pion.]",
+        "Prendre en c4 laisse aux blancs le contrôle du centre. C'est un coup jouable, mais prudence ! Pour le moment, essayons de défendre notre pion central.",
+        "Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !",
+        "C'est un coup très solide et souvent joué, bon choix ! Mais pour l'instant, nous allons jouer son pendant 2...e6.",
+        "Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !",
+        "Très bien ! Les blancs prennent maintenant le pion d5 en espérant prendre le contrôle du centre. Comment reprendre ce pion ?",
+        "[%wrong Ce coup ne prend pas le pion d5. Essayez encore !][%hint Nous voulons garder un pion au centre !] Très bien ! En laissant un pion au centre, les noirs gardent une position solide.",
+        "Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Les blancs viennent de jouer 2...c4 pour attaquer notre important pion central. Comment défendre notre centre ?}\r\n2...e6\r\n    {[%wrong Ce coup ne protège pas le pion d5. Essayez encore !][%hint Il serait préférable d'utiliser un autre pion.]}\r\n    (2...dxc4 $5 3.e4 {Prendre en c4 laisse aux blancs le contrôle du centre. C'est un coup jouable, mais prudence ! Pour le moment, essayons de défendre notre pion central.})\r\n    (2...Nf6 $2 3.cxd5 {Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !})\r\n    (2...c6 $5 {C'est un coup très solide et souvent joué, bon choix ! Mais pour l'instant, nous allons jouer son pendant 2...e6.})\r\n    (2...Be6 $2 3.cxd5 {Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !})\r\n3.cxd5\r\n    {Très bien ! Les blancs prennent maintenant le pion d5 en espérant prendre le contrôle du centre. Comment reprendre ce pion ?}\r\n3...exd5\r\n    {[%wrong Ce coup ne prend pas le pion d5. Essayez encore !][%hint Nous voulons garder un pion au centre !] Très bien ! En laissant un pion au centre, les noirs gardent une position solide.}\r\n    (3...Qxd5 4.Nc3 {Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Jouons à nouveau le gambit dame refusé avec 2...e6 !",
+        "[%wrong Commençons par le coup 2...e6.][%hint Avancez le pion du roi d'une case.]",
+        "Bien joué ! Les blancs développent maintenant un cavalier pour mettre la pression sur le pion d5. Faisons la même chose pour défendre d5 !",
+        "[%wrong Ce coup ne développe pas un cavalier tout en protégeant d5. Essayez encore !][%hint Le cavalier g8 est la pièce de la situation !] Parfait ! Les noirs développent un cavalier vers le centre, protègent d5 et obtiennent une position solide."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Jouons à nouveau le gambit dame refusé avec 2...e6 !}\r\n2...e6\r\n    {[%wrong Commençons par le coup 2...e6.][%hint Avancez le pion du roi d'une case.]}\r\n3.Nc3\r\n    {Bien joué ! Les blancs développent maintenant un cavalier pour mettre la pression sur le pion d5. Faisons la même chose pour défendre d5 !}\r\n3...Nf6\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en protégeant d5. Essayez encore !][%hint Le cavalier g8 est la pièce de la situation !] Parfait ! Les noirs développent un cavalier vers le centre, protègent d5 et obtiennent une position solide.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Défendons à nouveau notre pion d5 par 3...Cf6 !",
+        "[%wrong Commençons par le coup Cf6.][%hint Le cavalier g8 est la pièce de la situation !]",
+        "Très bien ! Les noirs protègent d5 en développant le cavalier, et les blancs le clouent immédiatement à la dame. Comment développer un fou tout en déclouant notre cavalier ?",
+        "[%wrong Ce coup ne développe pas un fou tout en déclouant le cavalier f6. Essayez encore !][%hint Jouez le fou de cases noires !] Et voilà ! Les noirs ont développé leur fou, décloué leur cavalier, et sont prêts à roquer."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3\"]\r\n\r\n{Défendons à nouveau notre pion d5 par 3...Cf6 !}\r\n3...Nf6\r\n    {[%wrong Commençons par le coup Cf6.][%hint Le cavalier g8 est la pièce de la situation !]}\r\n4.Bg5\r\n    {Très bien ! Les noirs protègent d5 en développant le cavalier, et les blancs le clouent immédiatement à la dame. Comment développer un fou tout en déclouant notre cavalier ?}\r\n4...Be7\r\n    {[%wrong Ce coup ne développe pas un fou tout en déclouant le cavalier f6. Essayez encore !][%hint Jouez le fou de cases noires !] Et voilà ! Les noirs ont développé leur fou, décloué leur cavalier, et sont prêts à roquer.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Si les noirs ne souhaitent pas jouer le gambit dame refusé avec 2...e6, il existe aussi la solide défense slave, qui commence par le coup 2...c6. A vous de jouer !",
+        "[%wrong Commençons par le coup c6.][%hint Avancez le pion c7 d'une case.] Très bien ! Les noirs jouent la très solide défense slave."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Si les noirs ne souhaitent pas jouer le gambit dame refusé avec 2...e6, il existe aussi la solide défense slave, qui commence par le coup 2...c6. A vous de jouer !}\r\n2...c6\r\n    {[%wrong Commençons par le coup c6.][%hint Avancez le pion c7 d'une case.] Très bien ! Les noirs jouent la très solide défense slave.}\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "4de8908c-9ce9-11e8-98bf-2bd435dac08a",
+    "name": "Les défenses contre 1.d4 pour les noirs",
+    "path": "defenses-contre-1-d4-cote-noirs",
+    "description": "Lorsqu’ils sont confrontés au coup 1.d4, la plupart des joueurs empêchent les blancs de continuer par e4 en jouant soit 1…Cf6 soit 1…d5. Sur 1…d5, lorsque les blancs jouent c4, vous jouerez généralement e6 ou c6 pour soutenir votre pion d.",
+    "glyphName": "document-book-d-badge-left",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-1-d4-openings-for-beginners-black-u4y.mp4",
+    "fen": "rnbqk2r/ppp1bppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR w KQkq - 4 5",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{Les blancs menacent de prendre le contrôle total du centre par 2. e4. Empêchons ce coup !}\r\n1...d5\r\n    {[%wrong Ce coup n'empêche pas les blancs de jouer 2.e4. Essayez encore !][%hint Copiez tout simplement le premier coup des blancs !] Très bien ! Les noirs prennent de l'espace au centre et contrôlent la case e4.}\r\n    (1...Nf6 $5 {Ce coup est une alternative populaire au fréquent 1...d5, mais nous l'évoquerons dans un chapitre ultérieur !})\r\n    (1...f5 $6 {Ce coup contrôle effectivement la case e4, mais il ouvre une dangereuse diagonale vers votre roi. Commençons par un coup plus prudent !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Les blancs viennent de jouer 2...c4 pour attaquer notre important pion central. Comment défendre notre centre ?}\r\n2...e6\r\n    {[%wrong Ce coup ne protège pas le pion d5. Essayez encore !][%hint Il serait préférable d'utiliser un autre pion.]}\r\n    (2...dxc4 $5 3.e4 {Prendre en c4 laisse aux blancs le contrôle du centre. C'est un coup jouable, mais prudence ! Pour le moment, essayons de défendre notre pion central.})\r\n    (2...Nf6 $2 3.cxd5 {Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !})\r\n    (2...c6 $5 {C'est un coup très solide et souvent joué, bon choix ! Mais pour l'instant, nous allons jouer son pendant 2...e6.})\r\n    (2...Be6 $2 3.cxd5 {Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !})\r\n3.cxd5\r\n    {Très bien ! Les blancs prennent maintenant le pion d5 en espérant prendre le contrôle du centre. Comment reprendre ce pion ?}\r\n3...exd5\r\n    {[%wrong Ce coup ne prend pas le pion d5. Essayez encore !][%hint Nous voulons garder un pion au centre !] Très bien ! En laissant un pion au centre, les noirs gardent une position solide.}\r\n    (3...Qxd5 4.Nc3 {Les noirs abandonnent leur important pion central d5, et il va maintenant être difficile d'empêcher les blancs de jouer e4 et de prendre le contrôle du centre. Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Jouons à nouveau le gambit dame refusé avec 2...e6 !}\r\n2...e6\r\n    {[%wrong Commençons par le coup 2...e6.][%hint Avancez le pion du roi d'une case.]}\r\n3.Nc3\r\n    {Bien joué ! Les blancs développent maintenant un cavalier pour mettre la pression sur le pion d5. Faisons la même chose pour défendre d5 !}\r\n3...Nf6\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en protégeant d5. Essayez encore !][%hint Le cavalier g8 est la pièce de la situation !] Parfait ! Les noirs développent un cavalier vers le centre, protègent d5 et obtiennent une position solide.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3\"]\r\n\r\n{Défendons à nouveau notre pion d5 par 3...Cf6 !}\r\n3...Nf6\r\n    {[%wrong Commençons par le coup Cf6.][%hint Le cavalier g8 est la pièce de la situation !]}\r\n4.Bg5\r\n    {Très bien ! Les noirs protègent d5 en développant le cavalier, et les blancs le clouent immédiatement à la dame. Comment développer un fou tout en déclouant notre cavalier ?}\r\n4...Be7\r\n    {[%wrong Ce coup ne développe pas un fou tout en déclouant le cavalier f6. Essayez encore !][%hint Jouez le fou de cases noires !] Et voilà ! Les noirs ont développé leur fou, décloué leur cavalier, et sont prêts à roquer.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2\"]\r\n\r\n{Si les noirs ne souhaitent pas jouer le gambit dame refusé avec 2...e6, il existe aussi la solide défense slave, qui commence par le coup 2...c6. A vous de jouer !}\r\n2...c6\r\n    {[%wrong Commençons par le coup c6.][%hint Avancez le pion c7 d'une case.] Très bien ! Les noirs jouent la très solide défense slave.}\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "6dd84776-a558-11e8-9f8a-21067497efe2",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Voyons désormais 1.d4 du côté des noirs.",
+    "outroText": "Très bien. On poursuit le travail de mémmorisation.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "path": "introduction-au-ouvertures-classiques",
+      "title": "Introduction aux ouvertures classiques",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/6dd84776-a558-11e8-9f8a-21067497efe2.708d46c2.728x410o.0c89eb80dd7c.png"
+    },
+    "parentId": "70bc4cdc-83b4-11e8-a82b-ebd82ea9aa3b",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-d4-openings-for-beginners-black5e5cd4533bccb.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-d4-openings-for-beginners-black-56688bc55bdddb.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-d4-openings-for-beginners-black-15ea243f01543e.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/1-d4-openings-for-beginners-black-2609e46f820ebb.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 49,
+    "order": 5,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "6dd84776-a558-11e8-9f8a-21067497efe2",
+      "name": "Introduction aux ouvertures classiques",
+      "path": "introduction-au-ouvertures-classiques",
+      "order": 6
+    }
+  }
+}

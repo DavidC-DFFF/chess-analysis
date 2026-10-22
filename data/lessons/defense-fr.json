@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/tactiques-echecs-avancees/defense-fr",
+  "capturedAt": "2026-10-22T13:42:38.700Z",
+  "title": "Défense",
+  "exercises": [
+    {
+      "fen": "6k1/pp2npp1/6q1/4p3/2B1Pn1p/1QN4P/PPP2PP1/7K w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow f4g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;f4;to;g2;persistent;true,g6g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g6;to;g2;persistent;true]Ils sont à un coup du mat ! Comment pouvez-vous vous défendre ?",
+        "[%hint Qui a dit que votre fou ne pouvait jamais rentrer à la maison ?][%wrong Bien essayé, mais ce coup ne pare pas la menace de mat. Essayez encore.][%c_arrow f1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f1;to;g2;persistent;true]Bien vu ! Le fou met votre roi à l'abri.",
+        "Bien essayé, mais ce coup perd du matériel. Essayez de trouver un autre coup du fou qui pare le mat.",
+        "Bien essayé, mais cela perd du matériel et affaiblit votre roi. Essayez encore.",
+        "La prise en passant contrarie vos plans. Essayez de défendre le pion avec votre fou."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/pp2npp1/6q1/4p3/2B1Pn1p/1QN4P/PPP2PP1/7K w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_arrow f4g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;f4;to;g2;persistent;true,g6g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g6;to;g2;persistent;true]Ils sont à un coup du mat ! Comment pouvez-vous vous défendre ?} 1. Bf1 {[%hint Qui a dit que votre fou ne pouvait jamais rentrer à la maison ?][%wrong Bien essayé, mais ce coup ne pare pas la menace de mat. Essayez encore.][%c_arrow f1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f1;to;g2;persistent;true]Bien vu ! Le fou met votre roi à l'abri.} (1. Bxf7+? Qxf7 {Bien essayé, mais ce coup perd du matériel. Essayez de trouver un autre coup du fou qui pare le mat.}) (1. g3? hxg3 {Bien essayé, mais cela perd du matériel et affaiblit votre roi. Essayez encore.}) (1. g4? hxg3 {La prise en passant contrarie vos plans. Essayez de défendre le pion avec votre fou.}) *"
+    },
+    {
+      "fen": "1k1r3r/1pp1b3/p5qp/2P5/1PB5/P4N1b/1Q3PPP/2R2RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight g2;color;%23eb6150;opacity;0.8;square;g2;persistent;true]Comment pouvez-vous défendre la case de mat ?",
+        "[%c_arrow e1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;g2;persistent;true][%hint Quelle pièce peut défendre en toute sécurité le pion devant votre roi ?][%wrong Bien essayé, mais ce coup ne pare pas la menace de mat. Essayez encore.] Bravo ! Le cavalier défend la case de mat en toute sécurité.",
+        "Vous avez la bonne pièce en tête — essayez de trouver une case défensive plus sûre.",
+        "Malheureusement, le mat arrive trop vite. Essayez de défendre le pion avec votre cavalier.",
+        "[%c_highlight f3;color;%23eb6150;opacity;0.8;square;f3;persistent;true,f1;color;%23eb6150;opacity;0.8;square;f1;persistent;true]Bien essayé, mais cela affaiblit votre aile roi et votre cavalier et votre tour sont tous les deux attaqués."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r3r/1pp1b3/p5qp/2P5/1PB5/P4N1b/1Q3PPP/2R2RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight g2;color;%23eb6150;opacity;0.8;square;g2;persistent;true]Comment pouvez-vous défendre la case de mat ?} 1. Ne1 {[%c_arrow e1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;g2;persistent;true][%hint Quelle pièce peut défendre en toute sécurité le pion devant votre roi ?][%wrong Bien essayé, mais ce coup ne pare pas la menace de mat. Essayez encore.] Bravo ! Le cavalier défend la case de mat en toute sécurité.} (1. Nh4? Bxh4 {Vous avez la bonne pièce en tête — essayez de trouver une case défensive plus sûre.}) (1. Kh1? Qxg2# {Malheureusement, le mat arrive trop vite. Essayez de défendre le pion avec votre cavalier.}) (1. g3? Qc6 {[%c_highlight f3;color;%23eb6150;opacity;0.8;square;f3;persistent;true,f1;color;%23eb6150;opacity;0.8;square;f1;persistent;true]Bien essayé, mais cela affaiblit votre aile roi et votre cavalier et votre tour sont tous les deux attaqués.}) *"
+    },
+    {
+      "fen": "rnbqkb1r/ppp1pp1p/5np1/1N1p4/3P1B2/8/PPP1PPPP/R2QKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight c7;color;%23eb6150;opacity;0.8;square;c7;persistent;true]Quelle est la meilleure façon de se défendre contre les tactiques sur votre pion faible ?",
+        "[%hint Développez une pièce qui peut défendre en toute sécurité le pion menacé.][%wrong Bien essayé, mais cela ne pare pas la menace contre votre pion en toute sécurité. Essayez encore.]Bien joué ! Votre cavalier neutralise la menace.",
+        "[%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true,a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Bien essayé, mais cette fourchette pose problème. Essayez de développer une pièce pour défendre cette case en toute sécurité.",
+        "[%c_highlight c7;color;%23eb6150;opacity;0.8;square;c7;persistent;true]Bien essayé, mais cela perd un pion et votre pion est toujours menacé.",
+        "[%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true,a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Bien essayé, mais cette fourchette pose problème. Essayez de développer une pièce pour défendre cette case en toute sécurité."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp1pp1p/5np1/1N1p4/3P1B2/8/PPP1PPPP/R2QKBNR b KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight c7;color;%23eb6150;opacity;0.8;square;c7;persistent;true]Quelle est la meilleure façon de se défendre contre les tactiques sur votre pion faible ?} 1... Na6 {[%hint Développez une pièce qui peut défendre en toute sécurité le pion menacé.][%wrong Bien essayé, mais cela ne pare pas la menace contre votre pion en toute sécurité. Essayez encore.]Bien joué ! Votre cavalier neutralise la menace.} (1... c6? 2. Nc7+ {[%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true,a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Bien essayé, mais cette fourchette pose problème. Essayez de développer une pièce pour défendre cette case en toute sécurité.}) (1... e5? 2. Bxe5 {[%c_highlight c7;color;%23eb6150;opacity;0.8;square;c7;persistent;true]Bien essayé, mais cela perd un pion et votre pion est toujours menacé.}) (1... Nh5? 2. Nxc7+ {[%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true,a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Bien essayé, mais cette fourchette pose problème. Essayez de développer une pièce pour défendre cette case en toute sécurité.}) *"
+    },
+    {
+      "fen": "r1bq1b1r/pp3k1p/1n2p1p1/3n2B1/2pP4/1B3Q2/PPP2PPP/R3K1NR b KQ - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Un échec à la découverte et une menace sur votre dame. Trouvez l'unique défense !",
+        "[%wrong Impossible.][%hint Comment pouvez-vous protéger votre roi et votre dame en toute sécurité avec une autre pièce ?]Excellent ! Votre cavalier protège le roi et la dame en même temps, en toute sécurité !",
+        "Bien essayé, mais ce coup perd votre dame. Essayez de déplacer une autre pièce sur cette case.",
+        "[%c_arrow g5d8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g5;to;d8;persistent;true][%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true]Vous avez la bonne pièce, mais ce coup perd du matériel. Essayez d'utiliser une case mieux protégée avec le cavalier.",
+        "Bien essayé, mais cela perd votre dame. Essayez de parer l'échec avec une pièce.",
+        "Bien essayé, mais cela perd votre dame. Essayez de parer l'échec avec une pièce.",
+        "Bien essayé, mais cela perd votre dame. Essayez de bloquer l'échec avec une pièce."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1b1r/pp3k1p/1n2p1p1/3n2B1/2pP4/1B3Q2/PPP2PPP/R3K1NR b KQ - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Un échec à la découverte et une menace sur votre dame. Trouvez l'unique défense !} 1... Nf6 {[%wrong Impossible.][%hint Comment pouvez-vous protéger votre roi et votre dame en toute sécurité avec une autre pièce ?]Excellent ! Votre cavalier protège le roi et la dame en même temps, en toute sécurité !} (1... Qf6? 2. Bxf6 {Bien essayé, mais ce coup perd votre dame. Essayez de déplacer une autre pièce sur cette case.}) (1... Nf4? 2. Qxf4+ {[%c_arrow g5d8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g5;to;d8;persistent;true][%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true]Vous avez la bonne pièce, mais ce coup perd du matériel. Essayez d'utiliser une case mieux protégée avec le cavalier.}) (1... Kg7? 2. Bxd8 {Bien essayé, mais cela perd votre dame. Essayez de parer l'échec avec une pièce.}) (1... Kg8? 2. Bxd8 {Bien essayé, mais cela perd votre dame. Essayez de parer l'échec avec une pièce.}) (1... Ke8? 2. Bxd8 {Bien essayé, mais cela perd votre dame. Essayez de bloquer l'échec avec une pièce.}) *"
+    },
+    {
+      "fen": "7r/p1k3p1/2pR1pb1/2P4p/5N1P/4P3/P6Q/1r1K4 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Vous êtes en train de gagner, mais comment pouvez-vous conserver votre dame supplémentaire ?",
+        "[%wrong Coup illégal.][%hint Déplacez le roi sur une case qui n'empêche pas votre tour de défendre la deuxième rangée.]",
+        "[%c_highlight d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true][%c_arrow b2h2;color;rgba(72%2C%20193%2C%20249%2C%200.8);opacity;0.8;from;b2;to;h2;persistent;true]Bien essayé, mais cela crée une enfilade entre votre roi et votre dame. Essayez l'autre coup du roi.",
+        "Bien joué ! Comment pouvez-vous protéger votre roi sans perdre votre dame ?",
+        "[%hint Trouvez l'unique coup légal sans bouger le roi et sauvez votre dame !][%wrong Illégal.]Défense impressionnante ! La tour protège votre roi et conserve votre avantage.",
+        "Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.",
+        "Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.",
+        "Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.",
+        "Bien essayé, mais cela perd votre dame. Parez l'échec avec une pièce."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/p1k3p1/2pR1pb1/2P4p/5N1P/4P3/P6Q/1r1K4 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Vous êtes en train de gagner, mais comment pouvez-vous conserver votre dame supplémentaire ?} 1. Ke2 {[%wrong Coup illégal.][%hint Déplacez le roi sur une case qui n'empêche pas votre tour de défendre la deuxième rangée.]} (1. Kd2? Rb2+ {[%c_highlight d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true][%c_arrow b2h2;color;rgba(72%2C%20193%2C%20249%2C%200.8);opacity;0.8;from;b2;to;h2;persistent;true]Bien essayé, mais cela crée une enfilade entre votre roi et votre dame. Essayez l'autre coup du roi.}) 1... Rb2+ {Bien joué ! Comment pouvez-vous protéger votre roi sans perdre votre dame ?} 2. Rd2 {[%hint Trouvez l'unique coup légal sans bouger le roi et sauvez votre dame !][%wrong Illégal.]Défense impressionnante ! La tour protège votre roi et conserve votre avantage.} (2. Kf3? Rxh2 {Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.}) (2. Kf1? Rxh2 {Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.}) (2. Kd1? Rxh2 {Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.}) (2. Ke1? Rxh2 {Bien essayé, mais cela perd votre dame. Parez l'échec avec une pièce.}) *"
+    },
+    {
+      "fen": "r5k1/8/2p2Q2/1p4pR/8/p1P5/1qb2PP1/6K1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ils attaquent, mais vous êtes à quelques échecs astucieux d'échanger les dames !",
+        "[%hint Trouvez un échec qui prépare une attaque contre le roi et la dame au coup suivant.][%wrong Bien essayé, mais ce n'est pas un coup qui sauve la partie. Cherchez un puissant échec avec la dame.]",
+        "Vous avez la bonne pièce, mais il faut trouver un autre échec avec la dame qui prépare l'échange des dames.",
+        "Vous avez la bonne pièce, mais il faut trouver un autre échec avec la dame qui prépare l'échange des dames.",
+        "Belle géométrie avec la dame ! Comment pouvez-vous forcer un échange de dames ?",
+        "[%hint Trouvez un échec qui force l'échange des dames.][%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Essayez encore.]",
+        "Vous pourrez peut-être vous défendre, mais vous ne pouvez plus gagner la partie. Trouvez un échec qui force l'échange des dames.",
+        "Exactement ! Prenez la dame.",
+        "[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas la dame.][%c_arrow a3a2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a3;to;a2;persistent;true]Fantastique ! Vous avez forcé l'échange des dames. Vous êtes maintenant prêt à gagner la partie !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/8/2p2Q2/1p4pR/8/p1P5/1qb2PP1/6K1 b - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Ils attaquent, mais vous êtes à quelques échecs astucieux d'échanger les dames !} 1... Qc1+ {[%hint Trouvez un échec qui prépare une attaque contre le roi et la dame au coup suivant.][%wrong Bien essayé, mais ce n'est pas un coup qui sauve la partie. Cherchez un puissant échec avec la dame.]} (1... Qb1+? 2. Kh2 {Vous avez la bonne pièce, mais il faut trouver un autre échec avec la dame qui prépare l'échange des dames.}) (1... Qa1+? 2. Kh2 {Vous avez la bonne pièce, mais il faut trouver un autre échec avec la dame qui prépare l'échange des dames.}) 2. Kh2 {Belle géométrie avec la dame ! Comment pouvez-vous forcer un échange de dames ?} 2... Qf4+ {[%hint Trouvez un échec qui force l'échange des dames.][%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Essayez encore.]} (2... Bh7? 3. Rxg5+ {Vous pourrez peut-être vous défendre, mais vous ne pouvez plus gagner la partie. Trouvez un échec qui force l'échange des dames.}) 3. Qxf4 {Exactement ! Prenez la dame.} 3... gxf4 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas la dame.][%c_arrow a3a2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a3;to;a2;persistent;true]Fantastique ! Vous avez forcé l'échange des dames. Vous êtes maintenant prêt à gagner la partie !} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c13c-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Défense",
+    "path": "defense-fr",
+    "description": "Apprenez à survivre aux attaques grâce à une défense tenace.",
+    "glyphName": "piece-shield-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/pp2npp1/6q1/4p3/2B1Pn1p/1QN4P/PPP2PP1/7K w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_arrow f4g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;f4;to;g2;persistent;true,g6g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g6;to;g2;persistent;true]Ils sont à un coup du mat ! Comment pouvez-vous vous défendre ?} 1. Bf1 {[%hint Qui a dit que votre fou ne pouvait jamais rentrer à la maison ?][%wrong Bien essayé, mais ce coup ne pare pas la menace de mat. Essayez encore.][%c_arrow f1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;f1;to;g2;persistent;true]Bien vu ! Le fou met votre roi à l'abri.} (1. Bxf7+? Qxf7 {Bien essayé, mais ce coup perd du matériel. Essayez de trouver un autre coup du fou qui pare le mat.}) (1. g3? hxg3 {Bien essayé, mais cela perd du matériel et affaiblit votre roi. Essayez encore.}) (1. g4? hxg3 {La prise en passant contrarie vos plans. Essayez de défendre le pion avec votre fou.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k1r3r/1pp1b3/p5qp/2P5/1PB5/P4N1b/1Q3PPP/2R2RK1 w - - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight g2;color;%23eb6150;opacity;0.8;square;g2;persistent;true]Comment pouvez-vous défendre la case de mat ?} 1. Ne1 {[%c_arrow e1g2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;e1;to;g2;persistent;true][%hint Quelle pièce peut défendre en toute sécurité le pion devant votre roi ?][%wrong Bien essayé, mais ce coup ne pare pas la menace de mat. Essayez encore.] Bravo ! Le cavalier défend la case de mat en toute sécurité.} (1. Nh4? Bxh4 {Vous avez la bonne pièce en tête — essayez de trouver une case défensive plus sûre.}) (1. Kh1? Qxg2# {Malheureusement, le mat arrive trop vite. Essayez de défendre le pion avec votre cavalier.}) (1. g3? Qc6 {[%c_highlight f3;color;%23eb6150;opacity;0.8;square;f3;persistent;true,f1;color;%23eb6150;opacity;0.8;square;f1;persistent;true]Bien essayé, mais cela affaiblit votre aile roi et votre cavalier et votre tour sont tous les deux attaqués.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/ppp1pp1p/5np1/1N1p4/3P1B2/8/PPP1PPPP/R2QKBNR b KQkq - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight c7;color;%23eb6150;opacity;0.8;square;c7;persistent;true]Quelle est la meilleure façon de se défendre contre les tactiques sur votre pion faible ?} 1... Na6 {[%hint Développez une pièce qui peut défendre en toute sécurité le pion menacé.][%wrong Bien essayé, mais cela ne pare pas la menace contre votre pion en toute sécurité. Essayez encore.]Bien joué ! Votre cavalier neutralise la menace.} (1... c6? 2. Nc7+ {[%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true,a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Bien essayé, mais cette fourchette pose problème. Essayez de développer une pièce pour défendre cette case en toute sécurité.}) (1... e5? 2. Bxe5 {[%c_highlight c7;color;%23eb6150;opacity;0.8;square;c7;persistent;true]Bien essayé, mais cela perd un pion et votre pion est toujours menacé.}) (1... Nh5? 2. Nxc7+ {[%c_highlight e8;color;%23eb6150;opacity;0.8;square;e8;persistent;true,a8;color;%23eb6150;opacity;0.8;square;a8;persistent;true]Bien essayé, mais cette fourchette pose problème. Essayez de développer une pièce pour défendre cette case en toute sécurité.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bq1b1r/pp3k1p/1n2p1p1/3n2B1/2pP4/1B3Q2/PPP2PPP/R3K1NR b KQ - 0 1\"]\r\n[PlyCount \"1\"]\r\n\r\n{[%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true,d8;color;%23eb6150;opacity;0.8;square;d8;persistent;true]Un échec à la découverte et une menace sur votre dame. Trouvez l'unique défense !} 1... Nf6 {[%wrong Impossible.][%hint Comment pouvez-vous protéger votre roi et votre dame en toute sécurité avec une autre pièce ?]Excellent ! Votre cavalier protège le roi et la dame en même temps, en toute sécurité !} (1... Qf6? 2. Bxf6 {Bien essayé, mais ce coup perd votre dame. Essayez de déplacer une autre pièce sur cette case.}) (1... Nf4? 2. Qxf4+ {[%c_arrow g5d8;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;g5;to;d8;persistent;true][%c_highlight f7;color;%23eb6150;opacity;0.8;square;f7;persistent;true]Vous avez la bonne pièce, mais ce coup perd du matériel. Essayez d'utiliser une case mieux protégée avec le cavalier.}) (1... Kg7? 2. Bxd8 {Bien essayé, mais cela perd votre dame. Essayez de parer l'échec avec une pièce.}) (1... Kg8? 2. Bxd8 {Bien essayé, mais cela perd votre dame. Essayez de parer l'échec avec une pièce.}) (1... Ke8? 2. Bxd8 {Bien essayé, mais cela perd votre dame. Essayez de bloquer l'échec avec une pièce.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"7r/p1k3p1/2pR1pb1/2P4p/5N1P/4P3/P6Q/1r1K4 w - - 0 1\"]\r\n[PlyCount \"3\"]\r\n\r\n{Vous êtes en train de gagner, mais comment pouvez-vous conserver votre dame supplémentaire ?} 1. Ke2 {[%wrong Coup illégal.][%hint Déplacez le roi sur une case qui n'empêche pas votre tour de défendre la deuxième rangée.]} (1. Kd2? Rb2+ {[%c_highlight d2;color;%23eb6150;opacity;0.8;square;d2;persistent;true][%c_arrow b2h2;color;rgba(72%2C%20193%2C%20249%2C%200.8);opacity;0.8;from;b2;to;h2;persistent;true]Bien essayé, mais cela crée une enfilade entre votre roi et votre dame. Essayez l'autre coup du roi.}) 1... Rb2+ {Bien joué ! Comment pouvez-vous protéger votre roi sans perdre votre dame ?} 2. Rd2 {[%hint Trouvez l'unique coup légal sans bouger le roi et sauvez votre dame !][%wrong Illégal.]Défense impressionnante ! La tour protège votre roi et conserve votre avantage.} (2. Kf3? Rxh2 {Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.}) (2. Kf1? Rxh2 {Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.}) (2. Kd1? Rxh2 {Bien essayé, mais cela perd votre dame. Bloquez l'échec avec une pièce.}) (2. Ke1? Rxh2 {Bien essayé, mais cela perd votre dame. Parez l'échec avec une pièce.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/8/2p2Q2/1p4pR/8/p1P5/1qb2PP1/6K1 b - - 0 1\"]\r\n[PlyCount \"5\"]\r\n\r\n{Ils attaquent, mais vous êtes à quelques échecs astucieux d'échanger les dames !} 1... Qc1+ {[%hint Trouvez un échec qui prépare une attaque contre le roi et la dame au coup suivant.][%wrong Bien essayé, mais ce n'est pas un coup qui sauve la partie. Cherchez un puissant échec avec la dame.]} (1... Qb1+? 2. Kh2 {Vous avez la bonne pièce, mais il faut trouver un autre échec avec la dame qui prépare l'échange des dames.}) (1... Qa1+? 2. Kh2 {Vous avez la bonne pièce, mais il faut trouver un autre échec avec la dame qui prépare l'échange des dames.}) 2. Kh2 {Belle géométrie avec la dame ! Comment pouvez-vous forcer un échange de dames ?} 2... Qf4+ {[%hint Trouvez un échec qui force l'échange des dames.][%wrong Bien essayé, mais ce coup ne force pas l'échange des dames. Essayez encore.]} (2... Bh7? 3. Rxg5+ {Vous pourrez peut-être vous défendre, mais vous ne pouvez plus gagner la partie. Trouvez un échec qui force l'échange des dames.}) 3. Qxf4 {Exactement ! Prenez la dame.} 3... gxf4 {[%hint Prenez la dame.][%wrong Bien essayé, mais ce coup ne prend pas la dame.][%c_arrow a3a2;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a3;to;a2;persistent;true]Fantastique ! Vous avez forcé l'échange des dames. Vous êtes maintenant prêt à gagner la partie !} *"
+    ],
+    "courseId": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à survivre aux attaques grâce à une défense tenace.",
+    "outroText": "Beau travail ! Vous savez maintenant comment défendre votre position !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "tactiques-echecs-avancees",
+      "title": "Tactiques avancées"
+    },
+    "parentId": "9682a126-2a07-11f1-9188-49058c08998b"
+  },
+  "curriculum": {
+    "number": 49,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0f7740-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Tactiques avancées",
+      "path": "tactiques-echecs-avancees",
+      "order": 2
+    }
+  }
+}

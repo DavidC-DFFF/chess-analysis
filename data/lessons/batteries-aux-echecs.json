@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/strategie-avancee/batteries-aux-echecs",
+  "capturedAt": "2026-10-22T13:42:38.450Z",
+  "title": "Les batteries",
+  "exercises": [
+    {
+      "fen": "r5k1/5ppp/8/2r5/8/4R1P1/5P1P/4R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Deux pièces alignées dans la même direction qui se soutiennent mutuellement forment ce qu'on appelle une batterie. Comment les blancs peuvent-ils utiliser la batterie de tours pour forcer le mat ?",
+        "[%hint Pouvez-vous faire échec au roi avec votre tour ?][%wrong Essayez encore. Vous pouvez y arriver.]",
+        "Exactement ! Maintenant, pouvez-vous mater ?",
+        "[%hint Que se passe-t-il si vous reprenez ?][%wrong Ce n'est pas encore le meilleur coup. Vous pouvez réessayer.] Échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/5ppp/8/2r5/8/4R1P1/5P1P/4R1K1 w - - 0 1\"]\r\n\r\n{Deux pièces alignées dans la même direction qui se soutiennent mutuellement forment ce qu'on appelle une batterie. Comment les blancs peuvent-ils utiliser la batterie de tours pour forcer le mat ?} 1. Re8+ {[%hint Pouvez-vous faire échec au roi avec votre tour ?][%wrong Essayez encore. Vous pouvez y arriver.]} 1... Rxe8 {Exactement ! Maintenant, pouvez-vous mater ?} 2. Rxe8# {[%hint Que se passe-t-il si vous reprenez ?][%wrong Ce n'est pas encore le meilleur coup. Vous pouvez réessayer.] Échec et mat !} 1-0"
+    },
+    {
+      "fen": "2r2rk1/1b3p1p/1p3Qp1/8/p7/6BP/5PPK/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment la dame et le fou peuvent-ils former une batterie pour préparer un mat rapide ?",
+        "[%hint Votre fou peut-il être en batterie avec votre dame ?][%wrong Essayez encore, ce n'était pas encore le meilleur coup.]",
+        "Pouvez-vous mater ?",
+        "[%hint Vous pouvez utiliser votre dame.][%wrong Trouvez le coup avec votre dame.] Échec et mat !",
+        "Échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/1b3p1p/1p3Qp1/8/p7/6BP/5PPK/8 w - - 0 1\"]\r\n\r\n{Comment la dame et le fou peuvent-ils former une batterie pour préparer un mat rapide ?} 1. Be5 {[%hint Votre fou peut-il être en batterie avec votre dame ?][%wrong Essayez encore, ce n'était pas encore le meilleur coup.]} 1... a3 {Pouvez-vous mater ?} 2. Qg7# {[%hint Vous pouvez utiliser votre dame.][%wrong Trouvez le coup avec votre dame.] Échec et mat !} (2. Qh8#!! {Échec et mat !}) 1-0"
+    },
+    {
+      "fen": "2qr3k/p3p1rb/1p6/8/1pp1P3/5Q1R/1PP4R/1KN5 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Une dame en tête d'une batterie est utile si vous pouvez mater, mais une pièce de moindre valeur en tête est préférable pour gagner du matériel. Comment pouvez-vous augmenter la pression sur le fou ?",
+        "[%hint Pouvez-vous mettre la dame en batterie ?][%wrong Ce n'est pas encore le meilleur coup. Réessayez.]",
+        "Pouvez-vous prendre la pièce clouée ?",
+        "[%hint Pouvez-vous prendre avec votre tour ?][%wrong Essayez encore pour trouver le meilleur coup.] Exactement !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2qr3k/p3p1rb/1p6/8/1pp1P3/5Q1R/1PP4R/1KN5 w - - 0 1\"]\r\n\r\n{Une dame en tête d'une batterie est utile si vous pouvez mater, mais une pièce de moindre valeur en tête est préférable pour gagner du matériel. Comment pouvez-vous augmenter la pression sur le fou ?} 1. Qh1 {[%hint Pouvez-vous mettre la dame en batterie ?][%wrong Ce n'est pas encore le meilleur coup. Réessayez.]} 1... Kg8 {Pouvez-vous prendre la pièce clouée ?} 2. Rxh7 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Essayez encore pour trouver le meilleur coup.] Exactement !} *"
+    },
+    {
+      "fen": "r2qr1k1/pp3pp1/2p2p2/2Pp4/7Q/1PB3P1/P4PK1/1R6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs doivent-ils former une batterie utile ?",
+        "[%hint Pouvez-vous former une batterie avec votre tour ?][%wrong Ce n'était pas le meilleur coup, réessaie.]",
+        "Pouvez-vous trouver le mat ?",
+        "[%hint Pouvez-vous utiliser votre dame pour mater ?][%wrong Vous pouvez trouver le meilleur coup en réessayant.] Échec et mat !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qr1k1/pp3pp1/2p2p2/2Pp4/7Q/1PB3P1/P4PK1/1R6 w - - 0 1\"]\r\n\r\n{Comment les blancs doivent-ils former une batterie utile ?} 1. Rh1 {[%hint Pouvez-vous former une batterie avec votre tour ?][%wrong Ce n'était pas le meilleur coup, réessaie.]} 1... g6 {Pouvez-vous trouver le mat ?} 2. Qh8# {[%hint Pouvez-vous utiliser votre dame pour mater ?][%wrong Vous pouvez trouver le meilleur coup en réessayant.] Échec et mat !} 1-0"
+    },
+    {
+      "fen": "6k1/1p4pp/3B1p1n/r7/8/6PP/rPP5/1K3R1R w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comment les blancs peuvent-ils perturber la batterie formée par les tours noires ?",
+        "[%hint Pouvez-vous utiliser votre fou ?][%wrong Essayez encore.] Bien joué ! Leur batterie est ruinée."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1p4pp/3B1p1n/r7/8/6PP/rPP5/1K3R1R w - - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils perturber la batterie formée par les tours noires ?} 1. Ba3 {[%hint Pouvez-vous utiliser votre fou ?][%wrong Essayez encore.] Bien joué ! Leur batterie est ruinée.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c09c-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Les batteries",
+    "path": "batteries-aux-echecs",
+    "description": "Découvrez les batteries aux échecs.",
+    "glyphName": "piece-pair-rook-battery",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r5k1/5ppp/8/2r5/8/4R1P1/5P1P/4R1K1 w - - 0 1\"]\r\n\r\n{Deux pièces alignées dans la même direction qui se soutiennent mutuellement forment ce qu'on appelle une batterie. Comment les blancs peuvent-ils utiliser la batterie de tours pour forcer le mat ?} 1. Re8+ {[%hint Pouvez-vous faire échec au roi avec votre tour ?][%wrong Essayez encore. Vous pouvez y arriver.]} 1... Rxe8 {Exactement ! Maintenant, pouvez-vous mater ?} 2. Rxe8# {[%hint Que se passe-t-il si vous reprenez ?][%wrong Ce n'est pas encore le meilleur coup. Vous pouvez réessayer.] Échec et mat !} 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"2r2rk1/1b3p1p/1p3Qp1/8/p7/6BP/5PPK/8 w - - 0 1\"]\r\n\r\n{Comment la dame et le fou peuvent-ils former une batterie pour préparer un mat rapide ?} 1. Be5 {[%hint Votre fou peut-il être en batterie avec votre dame ?][%wrong Essayez encore, ce n'était pas encore le meilleur coup.]} 1... a3 {Pouvez-vous mater ?} 2. Qg7# {[%hint Vous pouvez utiliser votre dame.][%wrong Trouvez le coup avec votre dame.] Échec et mat !} (2. Qh8#!! {Échec et mat !}) 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2qr3k/p3p1rb/1p6/8/1pp1P3/5Q1R/1PP4R/1KN5 w - - 0 1\"]\r\n\r\n{Une dame en tête d'une batterie est utile si vous pouvez mater, mais une pièce de moindre valeur en tête est préférable pour gagner du matériel. Comment pouvez-vous augmenter la pression sur le fou ?} 1. Qh1 {[%hint Pouvez-vous mettre la dame en batterie ?][%wrong Ce n'est pas encore le meilleur coup. Réessayez.]} 1... Kg8 {Pouvez-vous prendre la pièce clouée ?} 2. Rxh7 {[%hint Pouvez-vous prendre avec votre tour ?][%wrong Essayez encore pour trouver le meilleur coup.] Exactement !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"1-0\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2qr1k1/pp3pp1/2p2p2/2Pp4/7Q/1PB3P1/P4PK1/1R6 w - - 0 1\"]\r\n\r\n{Comment les blancs doivent-ils former une batterie utile ?} 1. Rh1 {[%hint Pouvez-vous former une batterie avec votre tour ?][%wrong Ce n'était pas le meilleur coup, réessaie.]} 1... g6 {Pouvez-vous trouver le mat ?} 2. Qh8# {[%hint Pouvez-vous utiliser votre dame pour mater ?][%wrong Vous pouvez trouver le meilleur coup en réessayant.] Échec et mat !} 1-0",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1p4pp/3B1p1n/r7/8/6PP/rPP5/1K3R1R w - - 0 1\"]\r\n\r\n{Comment les blancs peuvent-ils perturber la batterie formée par les tours noires ?} 1. Ba3 {[%hint Pouvez-vous utiliser votre fou ?][%wrong Essayez encore.] Bien joué ! Leur batterie est ruinée.} *"
+    ],
+    "courseId": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Découvrez les batteries aux échecs.",
+    "outroText": "Vous connaissez maintenant les batteries aux échecs.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "strategie-avancee",
+      "title": "Stratégie avancée"
+    },
+    "parentId": "ffbe299a-2c31-11f1-ae90-fd9a9ce9d247"
+  },
+  "curriculum": {
+    "number": 53,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8c0f9072-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Stratégie avancée",
+      "path": "strategie-avancee",
+      "order": 3
+    }
+  }
+}

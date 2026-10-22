@@ -1,5 +1,33 @@
 # Atelier d’analyse d’échecs
 
+## Apparence de l’échiquier
+
+Les trois pages utilisent par défaut les **pièces Neo** et le **plateau Walnut (noyer)**, identifiés à partir de la capture Chess.com de David. Les fichiers sont locaux : `pieces/neo/` et `boards/walnut.webp`. Leur provenance et les crédits sont conservés dans `boards/SOURCE.md`. Le style commun est maintenu dans `src/chess-theme.css` et intégré aux pages autonomes par `npm run build`. Les surbrillances de sélection, de dernier coup et d’indice restent disponibles sur le plateau texturé.
+
+## Sons Default
+
+La banque **Default** est stockée localement dans `audio/default/`, avec sa provenance dans `SOURCE.md`. Les leçons, ouvertures et la revue de partie utilisent les sons de déplacement, prise, roque, promotion et échec. Une tentative refusée joue le son `illegal` ; la fin d’un exercice joue `game-end` après le son du déplacement. Ces deux signaux remplacent les sons de correction spécifiques, absents de cette copie de la banque. Les voix des commentaires ne sont pas incluses.
+
+Le bouton **Son : activé / Son : coupé** est présent sur les trois pages ; son choix est conservé dans le navigateur lorsque le stockage local est disponible. Aucun son ne joue au chargement. Les retours en arrière et les sauts de plusieurs coups restent silencieux. Les fichiers audio fonctionnent aussi hors ligne et sont copiés dans `dist/audio/` à la compilation.
+
+## Répéter les leçons
+
+Les réponses adverses sont jouées après **0,7 seconde**, pour laisser le temps de voir son propre coup. Les déplacements et indices sont bloqués pendant cette attente ; changer d’exercice, de leçon ou revenir à l’explication annule la réponse programmée. Le son de chaque camp accompagne son propre déplacement.
+
+Le catalogue contient **176 leçons et 916 exercices** : les leçons déjà importées et les 40 leçons débloquées manquantes du parcours personnel enregistré. Toutes sont réunies dans une progression par difficulté et par thème, avec une numérotation continue. Le classement est défini dans `tools/lesson-library-order.mjs` et conserve l’ordre interne de chaque cours ; il est adapté à cette bibliothèque, sans reproduire exactement un parcours Chess.com particulier. Les 53 leçons débloquées de la sauvegarde sont présentes ; les cinq encore verrouillées n’ont pas été ajoutées. L’écran conserve uniquement le menu, l’échiquier et les commandes utiles. La provenance et les limites de synchronisation se consultent par le bouton **i** en haut à droite, dans une fenêtre fermable avec Échap. Sur ordinateur, l’échiquier adapte sa taille à la hauteur disponible pour éviter le défilement de la page ; sur mobile, la page reste accessible verticalement. Les explications en plusieurs écrans, les exercices et la répétition sont disponibles hors ligne ; les exercices réussis sont conservés dans le navigateur.
+
+Pour préparer un nouvel instantané depuis une page Learn enregistrée : `node tools/prepare-personal-curriculum.mjs "chemin-vers-la-page.html"`. Puis importer les leçons manquantes : `node tools/import-lesson-catalog.mjs data/personal-lesson-curriculum.json data/personal-lesson-import-report.json --only-missing`, et reconstruire avec `npm run build`. Aucune donnée de connexion n’est nécessaire ni conservée. Le fichier `data/personal-lesson-curriculum.json` conserve seulement le classement des leçons débloquées de la sauvegarde, sans synchronisation automatique du compte.
+
+L’état connecté du compte n’est pas accessible à cet import : les leçons affichées ne sont pas présentées comme toutes débloquées sur Chess.com. La page publique utilise un parcours où Tempo ne figure pas ; cette leçon reste disponible à part, sans numéro de progression inventé. Les données brutes, y compris les variantes originales, restent dans `data/lessons/`. L’inventaire et les rapports sont dans `data/lesson-curriculum.json`, `data/lesson-import-report.json` et `data/lesson-playback-report.json`.
+
+Pour actualiser une copie publique de la page Learn : `node tools/prepare-lesson-curriculum.mjs`, puis `node tools/import-lesson-catalog.mjs`. Le premier script lit `.analysis-tools/chesscom-learn-fr.html` ; le second conserve un cache local et signale les échecs de téléchargement. `npm run build` intègre les données et les scripts au lecteur autonome.
+
+L’onglet **Leçons** ouvre `lecons.html`, également utilisable par double-clic sans serveur ni connexion. La première leçon, **Le fou**, comprend l’explication du déplacement et trois exercices de capture d’étoiles. Clique sur le fou puis sur sa destination, ou fais-le glisser. Les déplacements diagonaux intermédiaires sont acceptés ; les coups incorrects conservent la position et affichent une explication. Un indice, la sélection d’un exercice et les boutons pour répéter un exercice ou toute la leçon restent disponibles. La progression concerne la séance en cours.
+
+Le sélecteur **Mes leçons** propose aussi **Tempo**, avec six exercices de développement avec menace. Les consignes, indices, commentaires de réussite et explications des mauvaises variantes proviennent des données importées. Les solutions sont masquées avant la réponse. L’échiquier place le camp à jouer en bas, vérifie la légalité des coups et conserve la position après une réponse incorrecte.
+
+Les données importées sont conservées dans `data/lessons/le-fou.json` et `data/lessons/tempo-aux-echecs.json`. Après un nouvel import avec `tools/import-chesscom-lesson.ps1`, exécuter `node tools/build-lessons.mjs` pour actualiser la copie intégrée à la page. Le moteur de Tempo et l’interface sont maintenus dans `src/tempo-lesson.js` et `src/lessons-ui.js`, puis intégrés à la page autonome par ce script. `npm run build` le fait automatiquement et produit aussi les pages Ouvertures et Leçons avec leurs pièces locales.
+
 Support visuel pour les revues de parties préparées par Codex. Il affiche les positions, les conseils, les coups à revoir et les variantes fournies dans src/review.json. Le site ne calcule pas lui-même les évaluations.
 
 ## Démarrer

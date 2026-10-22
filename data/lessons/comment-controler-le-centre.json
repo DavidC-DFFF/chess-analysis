@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/ouvertures-echecs/comment-controler-le-centre",
+  "capturedAt": "2026-10-22T13:42:29.996Z",
+  "title": "Contrôler le centre",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true] Contrôler le centre, c'est contrôler la partie. Commence par placer ce pion au centre.",
+        "[%hint Placez le pion devant votre roi au centre.][%wrong On cherche à pousser le pion devant le roi vers le centre. Essayez encore.]\r\nBon début !\r\n\r\n"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{[%c_highlight e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true] Contrôler le centre, c'est contrôler la partie. Commence par placer ce pion au centre.} 1. e4 {[%hint Placez le pion devant votre roi au centre.][%wrong On cherche à pousser le pion devant le roi vers le centre. Essayez encore.]\r\nBon début !\r\n\r\n} *"
+    },
+    {
+      "fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Prenez le centre avec les deux pions.",
+        "[%hint Place un autre pion au centre.][%wrong On cherche à occuper le centre avec un autre pion. Où doit-il aller ?] Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Prenez le centre avec les deux pions.} 2. d4 {[%hint Place un autre pion au centre.][%wrong On cherche à occuper le centre avec un autre pion. Où doit-il aller ?] Bien joué !} *"
+    },
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true]Maintenant, vous prenez les pièces noires. Battez-vous pour le centre !",
+        "[%hint Occupe le centre avec le pion en surbrillance.][%wrong Il y a un meilleur coup. Essayez de trouver une case centrale pour le pion en surbrillance.]\r\n\r\nBon choix !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{[%c_highlight d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true]Maintenant, vous prenez les pièces noires. Battez-vous pour le centre !} 1... d5 {[%hint Occupe le centre avec le pion en surbrillance.][%wrong Il y a un meilleur coup. Essayez de trouver une case centrale pour le pion en surbrillance.]\r\n\r\nBon choix !} *"
+    },
+    {
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Ils essaient de vous prendre le centre. Mais soyez confiant : ils ont commis une erreur ! Comment les noirs peuvent-ils gagner du matériel ?",
+        "[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Essayez de prendre un pion gratuit.]Bravo ! Ne placez pas vos pions au centre s'ils n'y sont pas en sécurité."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286939946377675\"]\r\n\r\n{Ils essaient de vous prendre le centre. Mais soyez confiant : ils ont commis une erreur ! Comment les noirs peuvent-ils gagner du matériel ?} 2... dxe4 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Essayez de prendre un pion gratuit.]Bravo ! Ne placez pas vos pions au centre s'ils n'y sont pas en sécurité.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c0c4-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Contrôler le centre",
+    "path": "comment-controler-le-centre",
+    "description": "Placez vos pièces dans la position idéale pour contrôler la partie la plus importante de l'échiquier : le centre.",
+    "glyphName": "circle-target-practice",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{[%c_highlight e2;color;%23ffaa00;opacity;0.8;square;e2;persistent;true,d4;color;%23ffaa00;opacity;0.8;square;d4;persistent;true,d5;color;%23ffaa00;opacity;0.8;square;d5;persistent;true,e4;color;%23ffaa00;opacity;0.8;square;e4;persistent;true,e5;color;%23ffaa00;opacity;0.8;square;e5;persistent;true] Contrôler le centre, c'est contrôler la partie. Commence par placer ce pion au centre.} 1. e4 {[%hint Placez le pion devant votre roi au centre.][%wrong On cherche à pousser le pion devant le roi vers le centre. Essayez encore.]\r\nBon début !\r\n\r\n} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2\"]\r\n\r\n{[%c_highlight d2;color;%23ffaa00;opacity;0.8;square;d2;persistent;true]Prenez le centre avec les deux pions.} 2. d4 {[%hint Place un autre pion au centre.][%wrong On cherche à occuper le centre avec un autre pion. Où doit-il aller ?] Bien joué !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1\"]\r\n\r\n{[%c_highlight d7;color;%23ffaa00;opacity;0.8;square;d7;persistent;true]Maintenant, vous prenez les pièces noires. Battez-vous pour le centre !} 1... d5 {[%hint Occupe le centre avec le pion en surbrillance.][%wrong Il y a un meilleur coup. Essayez de trouver une case centrale pour le pion en surbrillance.]\r\n\r\nBon choix !} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"Enter New Game\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[WhiteFideId \"-1\"]\r\n[BlackFideId \"-1\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2\"]\r\n[PlyCount \"1\"]\r\n[GameId \"2286939946377675\"]\r\n\r\n{Ils essaient de vous prendre le centre. Mais soyez confiant : ils ont commis une erreur ! Comment les noirs peuvent-ils gagner du matériel ?} 2... dxe4 {[%hint Trouvez une bonne prise.] [%wrong Il y a un meilleur coup. Essayez de prendre un pion gratuit.]Bravo ! Ne placez pas vos pions au centre s'ils n'y sont pas en sécurité.} *"
+    ],
+    "courseId": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à contrôler le centre, l'un des principes essentiels aux échecs.",
+    "outroText": "Maintenant que vous savez contrôler le centre, vos ouvertures seront bien plus solides !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "ouvertures-echecs",
+      "title": "Ouvertures"
+    },
+    "parentId": "7bc3d8cc-1e46-11f1-9253-ed90642523a3"
+  },
+  "curriculum": {
+    "number": 28,
+    "order": 1,
+    "section": {
+      "id": "3",
+      "name": "Intermédiaire",
+      "level": "SECTION_LEVEL_INTERMEDIATE",
+      "color": "orange",
+      "order": 3
+    },
+    "course": {
+      "id": "8c0feff4-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Ouvertures",
+      "path": "ouvertures-echecs",
+      "order": 1
+    }
+  }
+}

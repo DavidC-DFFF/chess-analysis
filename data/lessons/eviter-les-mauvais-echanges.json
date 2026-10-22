@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/capturer-les-pieces-adverses/eviter-les-mauvais-echanges",
+  "capturedAt": "2026-10-22T12:23:33.247Z",
+  "title": "Eviter les mauvais échanges",
+  "exercises": [
+    {
+      "fen": "r2r2k1/p5bp/1p2bppn/2p1p3/2N5/P2PB1P1/1P2PPBP/2R1R1K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Cherchez tous les échanges possibles avec les fous blancs. Y'en a-t-il un qui vous semble préférable ? A vous de jouer !",
+        "[%wrong Bien essayé, mais vous n'avez pas trouvé le meilleur échange. Cherchez encore !][%hint Une des captures possibles gagne du matériel !] Superbe ! Les blancs capturent la tour noire (qui vaut cinq point) avec un fou (qui vaut trois points). C'est ce qui s’appelle gagner la qualité.",
+        "Bien essayé, mais ce coup échange notre fou actif contre le cavalier passif des noirs, et le fou adverse attaque notre tour. Trouvez un meilleur échange !",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez mieux !",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez mieux !",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos one\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r2k1/p5bp/1p2bppn/2p1p3/2N5/P2PB1P1/1P2PPBP/2R1R1K1 w - - 0 1\"]\r\n\r\n{Cherchez tous les échanges possibles avec les fous blancs. Y'en a-t-il un qui vous semble préférable ? A vous de jouer !}\r\n1.Bxa8\r\n    {[%wrong Bien essayé, mais vous n'avez pas trouvé le meilleur échange. Cherchez encore !][%hint Une des captures possibles gagne du matériel !] Superbe ! Les blancs capturent la tour noire (qui vaut cinq point) avec un fou (qui vaut trois points). C'est ce qui s’appelle gagner la qualité.}\r\n    (1.Bxh6 $2 Bxh6 {Bien essayé, mais ce coup échange notre fou actif contre le cavalier passif des noirs, et le fou adverse attaque notre tour. Trouvez un meilleur échange !})\r\n    (1.Bxc5 $2 bxc5 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n    (1.Nxe5 $2 fxe5 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n    (1.Nxb6 $2 axb6 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "rnbq1rk1/ppp2ppp/3bpn2/3p4/3P1B2/3BP3/PPPN1PPP/R2QK1NR w KQ - 4 6",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les fous de cases noires se regardent en chiens de faïence ! Les échanger en d6 améliore-t-il la position des blancs ? Si ce n'est pas le cas, il faudrait trouver une case où l'échange des fous ouvrirait la colonne h pour la tour blanche...",
+        "[%wrong Bien essayé, mais il faudrait placer notre fou sur une case où l'échange ouvrirait la colonne h.][%hint Placez votre fou sur une case où, protégé par le pion h, vous pourriez ouvrir cette colonne pour votre puissante tour si jamais il venait à être capturé.]",
+        "Bien essayé, mais ce coup facilite le développement des noirs en plaçant leur dame sur une meilleure case (ils peuvent également fortifier leur centre en reprenant du pion), et les blancs renoncent à une pièce très active. Essayez encore !",
+        "Bien essayé, mais les blancs perdent du temps et ce coup abandonne le contrôle de l'importante diagonale h2-b8 au profit du fou noir. Trouvez une case où votre fou pourrait continuer à contester la diagonale tout en permettant l'ouverture de la colonne h s'il venait à être capturé.",
+        "Développer une pièce tout en protégeant le fou f4 est une bonne idée, bien vu ! Mais dans cette position, il serait encore plus fort de faciliter l'ouverture de la colonne h en cas de capture de notre fou. Comment faire ?",
+        "Bien essayé, mais rien n'oblige les noirs à échanger immédiatement les fous. Ils vont d'ailleurs bientôt pouvoir l'attaquer en plaçant un cavalier en c6. Essayez encore !",
+        "Excellente décision ! Vous avez évité un échange inutile, et au lieu de continuer leur développement, les noirs font un mauvais échange. Punissez-les en ouvrant la colonne h pour votre puissante tour !",
+        "[%wrong Non, il faut reprendre le fou en g3. Essayez encore !][%hint Cette prise va nous permettre d'ouvrir la colonne h !] Bien joué ! Le mauvais échange initié par les noirs vous a permis d'ouvrir la colonne h pour votre puissante tour, qui attaque maintenant le point sensible h7 en compagnie du fou de cases blanches.",
+        "Bien essayé, mais ce coup affaiblit le pion e3 et nous donne une moins bonne structure de pions. L'idéal serait d'ouvrir la colonne h pour notre tour !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbq1rk1/ppp2ppp/3bpn2/3p4/3P1B2/3BP3/PPPN1PPP/R2QK1NR w KQ - 4 6\"]\r\n\r\n{Les fous de cases noires se regardent en chiens de faïence ! Les échanger en d6 améliore-t-il la position des blancs ? Si ce n'est pas le cas, il faudrait trouver une case où l'échange des fous ouvrirait la colonne h pour la tour blanche...}\r\n6.Bg3\r\n    {[%wrong Bien essayé, mais il faudrait placer notre fou sur une case où l'échange ouvrirait la colonne h.][%hint Placez votre fou sur une case où, protégé par le pion h, vous pourriez ouvrir cette colonne pour votre puissante tour si jamais il venait à être capturé.]}\r\n    (6.Bxd6 $6 Qxd6 {Bien essayé, mais ce coup facilite le développement des noirs en plaçant leur dame sur une meilleure case (ils peuvent également fortifier leur centre en reprenant du pion), et les blancs renoncent à une pièce très active. Essayez encore !})\r\n    (6.Bg5 $6 c5 {Bien essayé, mais les blancs perdent du temps et ce coup abandonne le contrôle de l'importante diagonale h2-b8 au profit du fou noir. Trouvez une case où votre fou pourrait continuer à contester la diagonale tout en permettant l'ouverture de la colonne h s'il venait à être capturé.})\r\n    (6.Ne2 $5 {Développer une pièce tout en protégeant le fou f4 est une bonne idée, bien vu ! Mais dans cette position, il serait encore plus fort de faciliter l'ouverture de la colonne h en cas de capture de notre fou. Comment faire ?})\r\n    (6.Be5 $6 c5 {Bien essayé, mais rien n'oblige les noirs à échanger immédiatement les fous. Ils vont d'ailleurs bientôt pouvoir l'attaquer en plaçant un cavalier en c6. Essayez encore !})\r\n6...Bxg3\r\n    {Excellente décision ! Vous avez évité un échange inutile, et au lieu de continuer leur développement, les noirs font un mauvais échange. Punissez-les en ouvrant la colonne h pour votre puissante tour !}\r\n7.hxg3\r\n    {[%wrong Non, il faut reprendre le fou en g3. Essayez encore !][%hint Cette prise va nous permettre d'ouvrir la colonne h !] Bien joué ! Le mauvais échange initié par les noirs vous a permis d'ouvrir la colonne h pour votre puissante tour, qui attaque maintenant le point sensible h7 en compagnie du fou de cases blanches.}\r\n    (7.fxg3 $2 {Bien essayé, mais ce coup affaiblit le pion e3 et nous donne une moins bonne structure de pions. L'idéal serait d'ouvrir la colonne h pour notre tour !})\r\n*"
+    },
+    {
+      "fen": "3rr1k1/1p3pp1/p4n1p/2b1p3/3nP2P/NP3P2/PBP2PB1/3RK2R b K - 3 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs ont un cavalier mal placé en a3, mais celui-ci a tout de même une fonction importante. Y'a-t-il une bonne raison d'échanger votre fou actif contre ce cavalier ?",
+        "[%wrong Bien essayé, mais il y a sans doute une bonne raison de prendre le cavalier a3. Essayez de trouver laquelle avant de jouer le coup !][%hint Les noirs voudraient prendre le pion c2 avec échec, mais le cavalier a3 protège cette case...]",
+        "Oui ! Le cavalier blanc ne protège plus la case c2. Comment utiliser ceci à notre avantage ?",
+        "[%wrong Non, profitons de la disparition du cavalier pour fondre sur le pion c2 !][%hint En capturant le cavalier a3, nous avons affaibli le pion c2. Il est temps d'en profiter !] Joli ! Les noirs gagnent un pion, et grâce à cette fourchette, ils vont également s'emparer du fou blanc au coup suivant."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos 3\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rr1k1/1p3pp1/p4n1p/2b1p3/3nP2P/NP3P2/PBP2PB1/3RK2R b K - 3 2\"]\r\n\r\n{Les blancs ont un cavalier mal placé en a3, mais celui-ci a tout de même une fonction importante. Y'a-t-il une bonne raison d'échanger votre fou actif contre ce cavalier ?}\r\n2...Bxa3\r\n    {[%wrong Bien essayé, mais il y a sans doute une bonne raison de prendre le cavalier a3. Essayez de trouver laquelle avant de jouer le coup !][%hint Les noirs voudraient prendre le pion c2 avec échec, mais le cavalier a3 protège cette case...]}\r\n3.Bxa3\r\n    {Oui ! Le cavalier blanc ne protège plus la case c2. Comment utiliser ceci à notre avantage ?}\r\n3...Nxc2+\r\n    {[%wrong Non, profitons de la disparition du cavalier pour fondre sur le pion c2 !][%hint En capturant le cavalier a3, nous avons affaibli le pion c2. Il est temps d'en profiter !] Joli ! Les noirs gagnent un pion, et grâce à cette fourchette, ils vont également s'emparer du fou blanc au coup suivant.}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/1pppnp1p/p1n3p1/1B2p3/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 w kq - 0 6",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent d'attaquer notre fou de cases blanches en jouant le coup ...a6. Quel est la meilleure réponse blanche ?",
+        "[%wrong Bien essayé, mais il ne faut pas abandonner ce fou b5 ! Trouvons lui le meilleur coup possible.][%hint En prenant le cavalier c6, nous laissons les noirs améliorer leur cavalier e7, jusque-là passif. Essayez de trouver une diagonale active sur laquelle le fou pourrait mettre la pression sur la case f7.] Bien joué ! Les blancs évitent un mauvais échange, replacent leur fou sur une diagonale active et augmentent la pression sur le point faible f7.",
+        "Bien joué ! Les blancs gardent la tension et évite un échange inutile. Essayez maintenant de trouver un autre fort coup permettant d'augmenter la pression sur le pion f7.",
+        "Bien essayé, mais votre fou n'est pas content de voir sa diagonale obstruée par le pion e4. Trouvez-lui une meilleure diagonale !",
+        "Ce coup est très prudent. Y aurait-il une diagonale plus active d'où ce fou pourrait mettre la pression sur la faiblesse f7 ?",
+        "Bien essayé, mais cet échange permet aux noirs d'améliorer leur cavalier passif en e7 et renonce à notre fou actif. Il faut trouver mieux !",
+        "Bien essayé, mais ce coup perd du matériel. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos 4\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/1pppnp1p/p1n3p1/1B2p3/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 w kq - 0 6\"]\r\n\r\n{Les noirs viennent d'attaquer notre fou de cases blanches en jouant le coup ...a6. Quel est la meilleure réponse blanche ?}\r\n6.Bc4\r\n    {[%wrong Bien essayé, mais il ne faut pas abandonner ce fou b5 ! Trouvons lui le meilleur coup possible.][%hint En prenant le cavalier c6, nous laissons les noirs améliorer leur cavalier e7, jusque-là passif. Essayez de trouver une diagonale active sur laquelle le fou pourrait mettre la pression sur la case f7.] Bien joué ! Les blancs évitent un mauvais échange, replacent leur fou sur une diagonale active et augmentent la pression sur le point faible f7.}\r\n    (6.Ba4 $5 {Bien joué ! Les blancs gardent la tension et évite un échange inutile. Essayez maintenant de trouver un autre fort coup permettant d'augmenter la pression sur le pion f7.})\r\n    (6.Bd3 $6 {Bien essayé, mais votre fou n'est pas content de voir sa diagonale obstruée par le pion e4. Trouvez-lui une meilleure diagonale !})\r\n    (6.Be2 $6 {Ce coup est très prudent. Y aurait-il une diagonale plus active d'où ce fou pourrait mettre la pression sur la faiblesse f7 ?})\r\n    (6.Bxc6 $6 Nxc6 {Bien essayé, mais cet échange permet aux noirs d'améliorer leur cavalier passif en e7 et renonce à notre fou actif. Il faut trouver mieux !})\r\n    (6.Bxa6 $2 Rxa6 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "r1b2rk1/ppq1npb1/2pp2pp/2n5/P2pP3/2N2N1P/1PP2PP1/R1BQRBK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs viennent de prendre en d4. Comment rétablir l'équilibre matériel ?",
+        "[%wrong Bien essayé, mais ce coup ne reprend pas le pion d4. Essayez encore !][%hint Vous avez deux attaquants pouvant s'emparer du pion d4. Quel est le plus indiqué dans cette situation ?]",
+        "Bien essayé, mais ce coup perd un pion. Pourquoi ne pas reprendre immédiatement avec un cavalier ?",
+        "Mauvaise pièce ! Comment reprendre en d4 sans perdre la dame ?",
+        "Bien vu ! Les blancs récupèrent le matériel et centralisent leur cavalier. Les noirs viennent ensuite mettre la pression sur ce cavalier central. Que faire ? Prendre le cavalier e6, ou ramener une autre pièce dans la bagarre pour protéger notre cavalier ?",
+        "[%wrong Bien essayé, mais ce coup ne protège pas le cavalier d4. Il faudrait développer une pièce qui protégerait ce dernier.][%hint Quelle pièce encore non-développé pourrait venir protéger notre cavalier ?] Excellente décision ! Les blancs développent une nouvelle pièce et défendent le cavalier. En évitant de faire des échanges inutiles, nous avons obtenu une position active et solide. Continuez comme cela !",
+        "Bien essayé, mais ce coup aide les noirs à développer leur fou et à connecter leur tours. Peut-être faudrait-il développer une pièce pour protéger notre cavalier central ?",
+        "Bien essayé, mais ce coup fait battre en retraite un cavalier qui contrôlait jusque-là d'importes cases centrales. Il faudrait développer une nouvelle pièce pour protéger notre cavalier central.",
+        "Non, ce coup perd une pièce. Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"five\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppq1npb1/2pp2pp/2n5/P2pP3/2N2N1P/1PP2PP1/R1BQRBK1 w - - 0 1\"]\r\n\r\n{Les noirs viennent de prendre en d4. Comment rétablir l'équilibre matériel ?}\r\n1.Nxd4\r\n    {[%wrong Bien essayé, mais ce coup ne reprend pas le pion d4. Essayez encore !][%hint Vous avez deux attaquants pouvant s'emparer du pion d4. Quel est le plus indiqué dans cette situation ?]}\r\n    (1.Ne2 $2 Nxe4 {Bien essayé, mais ce coup perd un pion. Pourquoi ne pas reprendre immédiatement avec un cavalier ?})\r\n    (1.Qxd4 $2 Bxd4 {Mauvaise pièce ! Comment reprendre en d4 sans perdre la dame ?})\r\n1...Ne6\r\n    {Bien vu ! Les blancs récupèrent le matériel et centralisent leur cavalier. Les noirs viennent ensuite mettre la pression sur ce cavalier central. Que faire ? Prendre le cavalier e6, ou ramener une autre pièce dans la bagarre pour protéger notre cavalier ?}\r\n2.Be3\r\n    {[%wrong Bien essayé, mais ce coup ne protège pas le cavalier d4. Il faudrait développer une pièce qui protégerait ce dernier.][%hint Quelle pièce encore non-développé pourrait venir protéger notre cavalier ?] Excellente décision ! Les blancs développent une nouvelle pièce et défendent le cavalier. En évitant de faire des échanges inutiles, nous avons obtenu une position active et solide. Continuez comme cela !}\r\n    (2.Nxe6 $6 Bxe6 {Bien essayé, mais ce coup aide les noirs à développer leur fou et à connecter leur tours. Peut-être faudrait-il développer une pièce pour protéger notre cavalier central ?})\r\n    (2.Nce2 $6 {Bien essayé, mais ce coup fait battre en retraite un cavalier qui contrôlait jusque-là d'importes cases centrales. Il faudrait développer une nouvelle pièce pour protéger notre cavalier central.})\r\n    (2.Ncb5 $2 cxb5 {Non, ce coup perd une pièce. Essayez encore !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "9a964d6c-9ce8-11e8-b4eb-3169e8374e38",
+    "name": "Eviter les mauvais échanges",
+    "path": "eviter-les-mauvais-echanges",
+    "description": "N'échangez pas vos bonnes pièces contre de mauvaises pièces ennemies.",
+    "glyphName": "circle-block",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-DEB-avoiding-bad-trades-b6t.mp4",
+    "fen": "r2r2k1/p5bp/1p2bppn/2p1p3/2N5/P2PB1P1/1P2PPBP/2R1R1K1 w - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos one\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2r2k1/p5bp/1p2bppn/2p1p3/2N5/P2PB1P1/1P2PPBP/2R1R1K1 w - - 0 1\"]\r\n\r\n{Cherchez tous les échanges possibles avec les fous blancs. Y'en a-t-il un qui vous semble préférable ? A vous de jouer !}\r\n1.Bxa8\r\n    {[%wrong Bien essayé, mais vous n'avez pas trouvé le meilleur échange. Cherchez encore !][%hint Une des captures possibles gagne du matériel !] Superbe ! Les blancs capturent la tour noire (qui vaut cinq point) avec un fou (qui vaut trois points). C'est ce qui s’appelle gagner la qualité.}\r\n    (1.Bxh6 $2 Bxh6 {Bien essayé, mais ce coup échange notre fou actif contre le cavalier passif des noirs, et le fou adverse attaque notre tour. Trouvez un meilleur échange !})\r\n    (1.Bxc5 $2 bxc5 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n    (1.Nxe5 $2 fxe5 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n    (1.Nxb6 $2 axb6 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbq1rk1/ppp2ppp/3bpn2/3p4/3P1B2/3BP3/PPPN1PPP/R2QK1NR w KQ - 4 6\"]\r\n\r\n{Les fous de cases noires se regardent en chiens de faïence ! Les échanger en d6 améliore-t-il la position des blancs ? Si ce n'est pas le cas, il faudrait trouver une case où l'échange des fous ouvrirait la colonne h pour la tour blanche...}\r\n6.Bg3\r\n    {[%wrong Bien essayé, mais il faudrait placer notre fou sur une case où l'échange ouvrirait la colonne h.][%hint Placez votre fou sur une case où, protégé par le pion h, vous pourriez ouvrir cette colonne pour votre puissante tour si jamais il venait à être capturé.]}\r\n    (6.Bxd6 $6 Qxd6 {Bien essayé, mais ce coup facilite le développement des noirs en plaçant leur dame sur une meilleure case (ils peuvent également fortifier leur centre en reprenant du pion), et les blancs renoncent à une pièce très active. Essayez encore !})\r\n    (6.Bg5 $6 c5 {Bien essayé, mais les blancs perdent du temps et ce coup abandonne le contrôle de l'importante diagonale h2-b8 au profit du fou noir. Trouvez une case où votre fou pourrait continuer à contester la diagonale tout en permettant l'ouverture de la colonne h s'il venait à être capturé.})\r\n    (6.Ne2 $5 {Développer une pièce tout en protégeant le fou f4 est une bonne idée, bien vu ! Mais dans cette position, il serait encore plus fort de faciliter l'ouverture de la colonne h en cas de capture de notre fou. Comment faire ?})\r\n    (6.Be5 $6 c5 {Bien essayé, mais rien n'oblige les noirs à échanger immédiatement les fous. Ils vont d'ailleurs bientôt pouvoir l'attaquer en plaçant un cavalier en c6. Essayez encore !})\r\n6...Bxg3\r\n    {Excellente décision ! Vous avez évité un échange inutile, et au lieu de continuer leur développement, les noirs font un mauvais échange. Punissez-les en ouvrant la colonne h pour votre puissante tour !}\r\n7.hxg3\r\n    {[%wrong Non, il faut reprendre le fou en g3. Essayez encore !][%hint Cette prise va nous permettre d'ouvrir la colonne h !] Bien joué ! Le mauvais échange initié par les noirs vous a permis d'ouvrir la colonne h pour votre puissante tour, qui attaque maintenant le point sensible h7 en compagnie du fou de cases blanches.}\r\n    (7.fxg3 $2 {Bien essayé, mais ce coup affaiblit le pion e3 et nous donne une moins bonne structure de pions. L'idéal serait d'ouvrir la colonne h pour notre tour !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos 3\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3rr1k1/1p3pp1/p4n1p/2b1p3/3nP2P/NP3P2/PBP2PB1/3RK2R b K - 3 2\"]\r\n\r\n{Les blancs ont un cavalier mal placé en a3, mais celui-ci a tout de même une fonction importante. Y'a-t-il une bonne raison d'échanger votre fou actif contre ce cavalier ?}\r\n2...Bxa3\r\n    {[%wrong Bien essayé, mais il y a sans doute une bonne raison de prendre le cavalier a3. Essayez de trouver laquelle avant de jouer le coup !][%hint Les noirs voudraient prendre le pion c2 avec échec, mais le cavalier a3 protège cette case...]}\r\n3.Bxa3\r\n    {Oui ! Le cavalier blanc ne protège plus la case c2. Comment utiliser ceci à notre avantage ?}\r\n3...Nxc2+\r\n    {[%wrong Non, profitons de la disparition du cavalier pour fondre sur le pion c2 !][%hint En capturant le cavalier a3, nous avons affaibli le pion c2. Il est temps d'en profiter !] Joli ! Les noirs gagnent un pion, et grâce à cette fourchette, ils vont également s'emparer du fou blanc au coup suivant.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"pos 4\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/1pppnp1p/p1n3p1/1B2p3/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 w kq - 0 6\"]\r\n\r\n{Les noirs viennent d'attaquer notre fou de cases blanches en jouant le coup ...a6. Quel est la meilleure réponse blanche ?}\r\n6.Bc4\r\n    {[%wrong Bien essayé, mais il ne faut pas abandonner ce fou b5 ! Trouvons lui le meilleur coup possible.][%hint En prenant le cavalier c6, nous laissons les noirs améliorer leur cavalier e7, jusque-là passif. Essayez de trouver une diagonale active sur laquelle le fou pourrait mettre la pression sur la case f7.] Bien joué ! Les blancs évitent un mauvais échange, replacent leur fou sur une diagonale active et augmentent la pression sur le point faible f7.}\r\n    (6.Ba4 $5 {Bien joué ! Les blancs gardent la tension et évite un échange inutile. Essayez maintenant de trouver un autre fort coup permettant d'augmenter la pression sur le pion f7.})\r\n    (6.Bd3 $6 {Bien essayé, mais votre fou n'est pas content de voir sa diagonale obstruée par le pion e4. Trouvez-lui une meilleure diagonale !})\r\n    (6.Be2 $6 {Ce coup est très prudent. Y aurait-il une diagonale plus active d'où ce fou pourrait mettre la pression sur la faiblesse f7 ?})\r\n    (6.Bxc6 $6 Nxc6 {Bien essayé, mais cet échange permet aux noirs d'améliorer leur cavalier passif en e7 et renonce à notre fou actif. Il faut trouver mieux !})\r\n    (6.Bxa6 $2 Rxa6 {Bien essayé, mais ce coup perd du matériel. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"five\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1b2rk1/ppq1npb1/2pp2pp/2n5/P2pP3/2N2N1P/1PP2PP1/R1BQRBK1 w - - 0 1\"]\r\n\r\n{Les noirs viennent de prendre en d4. Comment rétablir l'équilibre matériel ?}\r\n1.Nxd4\r\n    {[%wrong Bien essayé, mais ce coup ne reprend pas le pion d4. Essayez encore !][%hint Vous avez deux attaquants pouvant s'emparer du pion d4. Quel est le plus indiqué dans cette situation ?]}\r\n    (1.Ne2 $2 Nxe4 {Bien essayé, mais ce coup perd un pion. Pourquoi ne pas reprendre immédiatement avec un cavalier ?})\r\n    (1.Qxd4 $2 Bxd4 {Mauvaise pièce ! Comment reprendre en d4 sans perdre la dame ?})\r\n1...Ne6\r\n    {Bien vu ! Les blancs récupèrent le matériel et centralisent leur cavalier. Les noirs viennent ensuite mettre la pression sur ce cavalier central. Que faire ? Prendre le cavalier e6, ou ramener une autre pièce dans la bagarre pour protéger notre cavalier ?}\r\n2.Be3\r\n    {[%wrong Bien essayé, mais ce coup ne protège pas le cavalier d4. Il faudrait développer une pièce qui protégerait ce dernier.][%hint Quelle pièce encore non-développé pourrait venir protéger notre cavalier ?] Excellente décision ! Les blancs développent une nouvelle pièce et défendent le cavalier. En évitant de faire des échanges inutiles, nous avons obtenu une position active et solide. Continuez comme cela !}\r\n    (2.Nxe6 $6 Bxe6 {Bien essayé, mais ce coup aide les noirs à développer leur fou et à connecter leur tours. Peut-être faudrait-il développer une pièce pour protéger notre cavalier central ?})\r\n    (2.Nce2 $6 {Bien essayé, mais ce coup fait battre en retraite un cavalier qui contrôlait jusque-là d'importes cases centrales. Il faudrait développer une nouvelle pièce pour protéger notre cavalier central.})\r\n    (2.Ncb5 $2 cxb5 {Non, ce coup perd une pièce. Essayez encore !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "b7def424-a557-11e8-b3d4-5913cf50d102",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Quand faut-il échanger ? Découvrons ensemble comment prendre ses décisions.",
+    "outroText": "Impressionnant. Vous êtes sur le bon chemin.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "path": "capturer-les-pieces-adverses",
+      "title": "Capturer les pièces adverses",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/b7def424-a557-11e8-b3d4-5913cf50d102.3caeb01a.728x410o.ea08957bd009.png"
+    },
+    "parentId": "04628aba-83b4-11e8-8050-119a8866e3ce",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/avoiding-bad-trades5d234cbba6136.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/avoiding-bad-trades-5669e93678782b.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/avoiding-bad-trades-15ea24555d06e6.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/avoiding-bad-trades-66037a09475b8e.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/evita-gli-scambi-sfavorevoli63c1990c38ee9.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 37,
+    "order": 8,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "b7def424-a557-11e8-b3d4-5913cf50d102",
+      "name": "Capturer les pièces adverses",
+      "path": "capturer-les-pieces-adverses",
+      "order": 4
+    }
+  }
+}

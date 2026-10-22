@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/finales-avancees/finales-de-tours-frequentes",
+  "capturedAt": "2026-10-22T12:23:50.234Z",
+  "title": "Les finales de tours fréquentes",
+  "exercises": [
+    {
+      "fen": "3K4/8/2k5/8/1p6/8/8/6R1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Cette position peut sembler simple, mais il n'existe en réalité qu'un seul coup gagnant ! A vous de le trouver.",
+        "[%wrong Ce coup permet au roi noir de soutenir son pion passé, ce qui devrait assurer la nulle. Trouvez mieux !][%hint Comment séparer le roi noir de son pion passé ?]",
+        "Bien joué ! La tour blanche coupe le roi noir d'une partie de l'échiquier, et celui-ci ne peut plus soutenir son pion passé. Et maintenant, comment attaquer ce pion ?",
+        "[%wrong Le pion noir ne peut plus être protégé par son roi. Attaquons-le directement avec la tour !][%hint Quelle est la case permettant d'attaquer sans risques le pion noir avec la tour ?]",
+        "Le roi noir revient soutenir son pion, et notre tour ne peut plus à la fois restreindre le roi et empêcher le pion d'avancer. Trouvez mieux !",
+        "Les noirs vont maintenant pousser leur pion et les blancs ne peuvent plus empêcher le roi de le soutenir. Trouvez mieux !",
+        "Le roi noir revient soutenir son pion, et notre tour ne peut plus à la fois restreindre le roi et empêcher le pion d'avancer. Trouvez mieux !",
+        "Beau travail ! Attaquons à nouveau ce pion tout en empêchant la promotion.",
+        "[%wrong Ce coup n'attaque pas le pion noir tout en l'empêchant d'aller à dame. Cherchez encore !][%hint Placez la tour derrière le pion passé pour l'attaquer et l'empêcher d'accéder à la promotion.] Bien vu ! Une fois coupé du soutien de sa tour, le petit pion ne peut plus lutter contre la puissante tour.",
+        "Suivi de Tb1 fonctionne également, mais il existe un moyen encore plus sûr de gagner ce pion. Trouvez-le !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/8/2k5/8/1p6/8/8/6R1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Cette position peut sembler simple, mais il n'existe en réalité qu'un seul coup gagnant ! A vous de le trouver.}\r\n1.Rg5\r\n    {[%wrong Ce coup permet au roi noir de soutenir son pion passé, ce qui devrait assurer la nulle. Trouvez mieux !][%hint Comment séparer le roi noir de son pion passé ?]}\r\n1...b3\r\n    {Bien joué ! La tour blanche coupe le roi noir d'une partie de l'échiquier, et celui-ci ne peut plus soutenir son pion passé. Et maintenant, comment attaquer ce pion ?}\r\n2.Rg3\r\n    {[%wrong Le pion noir ne peut plus être protégé par son roi. Attaquons-le directement avec la tour !][%hint Quelle est la case permettant d'attaquer sans risques le pion noir avec la tour ?]}\r\n    (2.Rg1 $2 Kb5 {Le roi noir revient soutenir son pion, et notre tour ne peut plus à la fois restreindre le roi et empêcher le pion d'avancer. Trouvez mieux !})\r\n    (2.Rg4 $2 Kb5 {Les noirs vont maintenant pousser leur pion et les blancs ne peuvent plus empêcher le roi de le soutenir. Trouvez mieux !})\r\n    (2.Rg2 $2 Kb5 {Le roi noir revient soutenir son pion, et notre tour ne peut plus à la fois restreindre le roi et empêcher le pion d'avancer. Trouvez mieux !})\r\n2...b2\r\n    {Beau travail ! Attaquons à nouveau ce pion tout en empêchant la promotion.}\r\n3.Rb3\r\n    {[%wrong Ce coup n'attaque pas le pion noir tout en l'empêchant d'aller à dame. Cherchez encore !][%hint Placez la tour derrière le pion passé pour l'attaquer et l'empêcher d'accéder à la promotion.] Bien vu ! Une fois coupé du soutien de sa tour, le petit pion ne peut plus lutter contre la puissante tour.}\r\n    (3.Rg1 $5 {Suivi de Tb1 fonctionne également, mais il existe un moyen encore plus sûr de gagner ce pion. Trouvez-le !})\r\n*"
+    },
+    {
+      "fen": "8/8/8/1k6/8/R4K2/p7/r7 w - - 2 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent ...Tf1+, mettant le roi blanc en échec et soutenant la promotion du pion au prochain coup. Le roi blanc a trois manières de se rendre sur la deuxième rangée. Laquelle choisir ?",
+        "[%wrong Ce coup n'empêche pas la menace des noirs, qui vont maintenant faire échec puis promouvoir leur pion. Cherchez encore !][%hint Un seul coup de roi sauve la position blanche. Choisissez bien !]",
+        "Aïe ! Les noirs vont maintenant promouvoir leur pion, et si les blancs le prennent, ...Th2+ gagnera la tour grâce à une enfilade. Trouvez mieux !",
+        "Aïe ! Les noirs vont maintenant promouvoir leur pion, et si les blancs le prennent, ...Th2+ gagnera la tour grâce à une enfilade. Trouvez mieux !",
+        "Superbe défense ! Les noirs attaquent maintenant la tour blanche. Éloignez-la au maximum du roi adverse tout en continuant à couvrir la colonne a !",
+        "[%wrong Bien tenté, mais la tour blanche peut s'éloigner encore plus du roi noir. Essayez encore !][%hint Éloignez au maximum la tour du roi averse tout en restant sur la colonne a.]",
+        "Bien vu ! Nous allons pouvoir donner de nombreux échecs au roi noir. Ces derniers espèrent maintenant enlever la tour de la case de promotion. Empêchez-les !",
+        "[%wrong Ce coup n'empêche pas les noir de déplacer leur tour. Chercher encore !][%hint Les noirs ne pourront pas jouer leur tour si leur roi est en échec...] Bien joué : Les blancs vont mettre le roi noir en échec dès qu'il essaiera d'aller soutenir son pion. La nulle est assurée !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/1k6/8/R4K2/p7/r7 w - - 2 4\"]\r\n\r\n{Les noirs menacent ...Tf1+, mettant le roi blanc en échec et soutenant la promotion du pion au prochain coup. Le roi blanc a trois manières de se rendre sur la deuxième rangée. Laquelle choisir ?}\r\n4.Kg2\r\n    {[%wrong Ce coup n'empêche pas la menace des noirs, qui vont maintenant faire échec puis promouvoir leur pion. Cherchez encore !][%hint Un seul coup de roi sauve la position blanche. Choisissez bien !]}\r\n    (4.Kf2 $2 Rh1 {Aïe ! Les noirs vont maintenant promouvoir leur pion, et si les blancs le prennent, ...Th2+ gagnera la tour grâce à une enfilade. Trouvez mieux !})\r\n    (4.Ke2 $2 Rh1 {Aïe ! Les noirs vont maintenant promouvoir leur pion, et si les blancs le prennent, ...Th2+ gagnera la tour grâce à une enfilade. Trouvez mieux !})\r\n4...Kb4\r\n    {Superbe défense ! Les noirs attaquent maintenant la tour blanche. Éloignez-la au maximum du roi adverse tout en continuant à couvrir la colonne a !}\r\n5.Ra8\r\n    {[%wrong Bien tenté, mais la tour blanche peut s'éloigner encore plus du roi noir. Essayez encore !][%hint Éloignez au maximum la tour du roi averse tout en restant sur la colonne a.]}\r\n5...Kb3\r\n    {Bien vu ! Nous allons pouvoir donner de nombreux échecs au roi noir. Ces derniers espèrent maintenant enlever la tour de la case de promotion. Empêchez-les !}\r\n6.Rb8+\r\n    {[%wrong Ce coup n'empêche pas les noir de déplacer leur tour. Chercher encore !][%hint Les noirs ne pourront pas jouer leur tour si leur roi est en échec...] Bien joué : Les blancs vont mettre le roi noir en échec dès qu'il essaiera d'aller soutenir son pion. La nulle est assurée !}\r\n*"
+    },
+    {
+      "fen": "2R5/8/Pr6/6k1/8/K7/8/8 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Faut-il mieux placer une tour devant ou derrière un pion passé ? Choisissez judicieusement.",
+        "[%wrong Ce coup perd un pion à cause de ...Txa6. Cherchez encore !]\r\n[%hint Les tours se comportent mieux derrière les pions passés. Comment procéder ?]",
+        "Il sera beaucoup plus facile de l'emporter en mettant la tour derrière le pion passé que devant... Comment procéder ?",
+        "Cet échec permet au roi noir de se rapprocher de l'action. A éviter !",
+        "Oups ! Les noirs répondent par une double attaque gagnant notre pion. Cherchez encore !",
+        "Bien joué ! Que ce soit en attaque ou en défense, en finale, les tours sont toujours mieux placées derrière les pions passés. A vous de jouer !",
+        "[%wrong Ce coup perd un pion à cause de ...Txa6. Cherchez encore !][%hint Les tours se comportent mieux derrière les pions passés. Comment procéder ?]",
+        "Excellent ! Le pion est maintenant soutenu par la tour. Poussons-le !",
+        "[%wrong Non, les pions passés sont fait pour être poussés !]\r\n[%hint Poussez le pion !]",
+        "La tour noir est coincée, profitions-en pour activer le roi !",
+        "[%wrong Ce coup ne rapproche pas notre roi du pion passé. Essayez encore !][%hint Notre roi doit foncer vers la case b7. Trouvez le chemin le plus rapide !] Bien joué ! Notre roi va se positionner en b7 pour attaquer la tour noire et forcer la promotion du pion. La position est gagnante.",
+        "Tant que les blancs jouent Rb5 au prochain coup, cette technique fonctionne également. Mais pourquoi ne pas rapprocher directement le roi de la case b7 ? Essayez encore !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2R5/8/Pr6/6k1/8/K7/8/8 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n\r\n{Trait aux blancs. Faut-il mieux placer une tour devant ou derrière un pion passé ? Choisissez judicieusement.} \r\n1. Rc5+ {[%wrong Ce coup perd un pion à cause de ...Txa6. Cherchez encore !]\r\n[%hint Les tours se comportent mieux derrière les pions passés. Comment procéder ?]} (1. Ra8 $6 {Il sera beaucoup plus facile de l'emporter en mettant la tour derrière le pion passé que devant... Comment procéder ?}) (1. Rg8+ $2 Kf6 {Cet échec permet au roi noir de se rapprocher de l'action. A éviter !}) (1. a7 $2 Ra6+ {Oups ! Les noirs répondent par une double attaque gagnant notre pion. Cherchez encore !}) 1... Kf6 {Bien joué ! Que ce soit en attaque ou en défense, en finale, les tours sont toujours mieux placées derrière les pions passés. A vous de jouer !} \r\n2. Ra5 {[%wrong Ce coup perd un pion à cause de ...Txa6. Cherchez encore !][%hint Les tours se comportent mieux derrière les pions passés. Comment procéder ?]} \r\nRb8 {Excellent ! Le pion est maintenant soutenu par la tour. Poussons-le !} 3. a7 {[%wrong Non, les pions passés sont fait pour être poussés !]\r\n[%hint Poussez le pion !]} Ra8 {La tour noir est coincée, profitions-en pour activer le roi !} 4. Kb4 {[%wrong Ce coup ne rapproche pas notre roi du pion passé. Essayez encore !][%hint Notre roi doit foncer vers la case b7. Trouvez le chemin le plus rapide !] Bien joué ! Notre roi va se positionner en b7 pour attaquer la tour noire et forcer la promotion du pion. La position est gagnante.}\r\n(4. Ka4 $5 {Tant que les blancs jouent Rb5 au prochain coup, cette technique fonctionne également. Mais pourquoi ne pas rapprocher directement le roi de la case b7 ? Essayez encore !})\r\n*"
+    },
+    {
+      "fen": "4r3/8/8/k7/1p6/7R/3K4/8 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Nous avons établi qu'il était important de mettre les tours derrière les pions passés. Cependant, avant de jouer Tb8, il faut dans cette position jouer un coup important. Lequel ?",
+        "[%wrong Ce coup laisse les blancs jouer Rc2 pour ajouter un second défenseur contre notre pion passé. Cherchez encore !][%hint Il sera plus facile de promouvoir le pion si le roi blanc ne peut pas l'attaquer...] Excellente décision, vous avez trouvé le seul coup gagnant ! Le roi blanc est coupé de l'action, et sa tour seule ne va pas faire le poids contre l'association de notre tour, notre pion et notre roi.",
+        "Oups ! Le roi blanc revient en défense pour bloquer le pion passé. Les blancs vont tenir la nulle. Trouvez mieux !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r3/8/8/k7/1p6/7R/3K4/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Nous avons établi qu'il était important de mettre les tours derrière les pions passés. Cependant, avant de jouer Tb8, il faut dans cette position jouer un coup important. Lequel ?}\r\n1...Rc8\r\n    {[%wrong Ce coup laisse les blancs jouer Rc2 pour ajouter un second défenseur contre notre pion passé. Cherchez encore !][%hint Il sera plus facile de promouvoir le pion si le roi blanc ne peut pas l'attaquer...] Excellente décision, vous avez trouvé le seul coup gagnant ! Le roi blanc est coupé de l'action, et sa tour seule ne va pas faire le poids contre l'association de notre tour, notre pion et notre roi.}\r\n    (1...Rb8 $2 2.Kc2 {Oups ! Le roi blanc revient en défense pour bloquer le pion passé. Les blancs vont tenir la nulle. Trouvez mieux !})\r\n*"
+    },
+    {
+      "fen": "8/8/8/8/1k6/1p6/p4r2/K3R3 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. La situation semble désespérée, mais le fait que notre roi n'ait aucune case de fuite va s'avérer très utile... Trouvez pourquoi !",
+        "[%wrong Nous n'allons jamais survivre à cette position sans trouver une idée plus tranchante... Cherchez encore !][%hint Comment attaquer le roi noir ?]",
+        "Bien vu ! La tour attaque le roi noir. Notre roi, quant à lui, est toujours dans l'incapacité de bouger... Trouvez la ressource de nulle !",
+        "[%wrong Non, il faut continuer à mettre le roi noir en échec !][%hint Comment continuer à attaquer le roi noir ?]",
+        "Cette astucieuse ressource de pat fonctionne également. Jouons maintenant l'autre échec possible dans cette position !",
+        "Fomidable ! Les blancs continuent à mettre le roi noir en échec. C'est le thème de la tour folle ! Forcez maintenant la nulle grâce à la règle du pat.",
+        "[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Comment forcer les noirs à prendre votre tour ?] Bravo ! Les noirs sont obligés de prendre notre tour, et c'est pat ! Une superbe ressource de nulle.",
+        "Cette idée astucieuse fonctionne également, bien vu ! Trouvez maintenant le coup qui force les noirs à prendre votre tour.",
+        "Cette idée astucieuse fonctionne également, bien vu ! Trouvez maintenant le coup qui force les noirs à prendre votre tour."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/1k6/1p6/p4r2/K3R3 w - - 0 1\"]\r\n\r\n{Trait aux blancs. La situation semble désespérée, mais le fait que notre roi n'ait aucune case de fuite va s'avérer très utile... Trouvez pourquoi !}\r\n1.Re4+\r\n    {[%wrong Nous n'allons jamais survivre à cette position sans trouver une idée plus tranchante... Cherchez encore !][%hint Comment attaquer le roi noir ?]}\r\n1...Kc3\r\n    {Bien vu ! La tour attaque le roi noir. Notre roi, quant à lui, est toujours dans l'incapacité de bouger... Trouvez la ressource de nulle !}\r\n2.Re3+\r\n    {[%wrong Non, il faut continuer à mettre le roi noir en échec !][%hint Comment continuer à attaquer le roi noir ?]}\r\n    (2.Rc4+ $5 {Cette astucieuse ressource de pat fonctionne également. Jouons maintenant l'autre échec possible dans cette position !})\r\n2...Kc2\r\n    {Fomidable ! Les blancs continuent à mettre le roi noir en échec. C'est le thème de la tour folle ! Forcez maintenant la nulle grâce à la règle du pat.}\r\n3.Re2+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Comment forcer les noirs à prendre votre tour ?] Bravo ! Les noirs sont obligés de prendre notre tour, et c'est pat ! Une superbe ressource de nulle.}\r\n    (3.Rxb3 $5 {Cette idée astucieuse fonctionne également, bien vu ! Trouvez maintenant le coup qui force les noirs à prendre votre tour.})\r\n    (3.Rc3+ $5 {Cette idée astucieuse fonctionne également, bien vu ! Trouvez maintenant le coup qui force les noirs à prendre votre tour.})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "096cef62-9ced-11e8-85e8-276a69403f8a",
+    "name": "Les finales de tours fréquentes",
+    "path": "finales-de-tours-frequentes",
+    "description": "Les finales de tours sont les plus fréquentes. Il est important d’activer au maximum les tours pour qu’elles fonctionnent en harmonie avec votre roi. Les tours ne sont pas très efficaces pour stopper les pions. Dans les finales roi pion contre roi tour, le roi doit aider sa tour pour assurer le gain.",
+    "glyphName": "piece-combo-rook-pawn",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-common-rook-endgames-l0f.mp4",
+    "fen": "8/k7/8/8/7K/p1R5/8/3r4 b - - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"3K4/8/2k5/8/1p6/8/8/6R1 w - - 0 1\"]\r\n\r\n{Trait aux blancs. Cette position peut sembler simple, mais il n'existe en réalité qu'un seul coup gagnant ! A vous de le trouver.}\r\n1.Rg5\r\n    {[%wrong Ce coup permet au roi noir de soutenir son pion passé, ce qui devrait assurer la nulle. Trouvez mieux !][%hint Comment séparer le roi noir de son pion passé ?]}\r\n1...b3\r\n    {Bien joué ! La tour blanche coupe le roi noir d'une partie de l'échiquier, et celui-ci ne peut plus soutenir son pion passé. Et maintenant, comment attaquer ce pion ?}\r\n2.Rg3\r\n    {[%wrong Le pion noir ne peut plus être protégé par son roi. Attaquons-le directement avec la tour !][%hint Quelle est la case permettant d'attaquer sans risques le pion noir avec la tour ?]}\r\n    (2.Rg1 $2 Kb5 {Le roi noir revient soutenir son pion, et notre tour ne peut plus à la fois restreindre le roi et empêcher le pion d'avancer. Trouvez mieux !})\r\n    (2.Rg4 $2 Kb5 {Les noirs vont maintenant pousser leur pion et les blancs ne peuvent plus empêcher le roi de le soutenir. Trouvez mieux !})\r\n    (2.Rg2 $2 Kb5 {Le roi noir revient soutenir son pion, et notre tour ne peut plus à la fois restreindre le roi et empêcher le pion d'avancer. Trouvez mieux !})\r\n2...b2\r\n    {Beau travail ! Attaquons à nouveau ce pion tout en empêchant la promotion.}\r\n3.Rb3\r\n    {[%wrong Ce coup n'attaque pas le pion noir tout en l'empêchant d'aller à dame. Cherchez encore !][%hint Placez la tour derrière le pion passé pour l'attaquer et l'empêcher d'accéder à la promotion.] Bien vu ! Une fois coupé du soutien de sa tour, le petit pion ne peut plus lutter contre la puissante tour.}\r\n    (3.Rg1 $5 {Suivi de Tb1 fonctionne également, mais il existe un moyen encore plus sûr de gagner ce pion. Trouvez-le !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/1k6/8/R4K2/p7/r7 w - - 2 4\"]\r\n\r\n{Les noirs menacent ...Tf1+, mettant le roi blanc en échec et soutenant la promotion du pion au prochain coup. Le roi blanc a trois manières de se rendre sur la deuxième rangée. Laquelle choisir ?}\r\n4.Kg2\r\n    {[%wrong Ce coup n'empêche pas la menace des noirs, qui vont maintenant faire échec puis promouvoir leur pion. Cherchez encore !][%hint Un seul coup de roi sauve la position blanche. Choisissez bien !]}\r\n    (4.Kf2 $2 Rh1 {Aïe ! Les noirs vont maintenant promouvoir leur pion, et si les blancs le prennent, ...Th2+ gagnera la tour grâce à une enfilade. Trouvez mieux !})\r\n    (4.Ke2 $2 Rh1 {Aïe ! Les noirs vont maintenant promouvoir leur pion, et si les blancs le prennent, ...Th2+ gagnera la tour grâce à une enfilade. Trouvez mieux !})\r\n4...Kb4\r\n    {Superbe défense ! Les noirs attaquent maintenant la tour blanche. Éloignez-la au maximum du roi adverse tout en continuant à couvrir la colonne a !}\r\n5.Ra8\r\n    {[%wrong Bien tenté, mais la tour blanche peut s'éloigner encore plus du roi noir. Essayez encore !][%hint Éloignez au maximum la tour du roi averse tout en restant sur la colonne a.]}\r\n5...Kb3\r\n    {Bien vu ! Nous allons pouvoir donner de nombreux échecs au roi noir. Ces derniers espèrent maintenant enlever la tour de la case de promotion. Empêchez-les !}\r\n6.Rb8+\r\n    {[%wrong Ce coup n'empêche pas les noir de déplacer leur tour. Chercher encore !][%hint Les noirs ne pourront pas jouer leur tour si leur roi est en échec...] Bien joué : Les blancs vont mettre le roi noir en échec dès qu'il essaiera d'aller soutenir son pion. La nulle est assurée !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2R5/8/Pr6/6k1/8/K7/8/8 w - - 0 1\"]\r\n[PlyCount \"7\"]\r\n\r\n{Trait aux blancs. Faut-il mieux placer une tour devant ou derrière un pion passé ? Choisissez judicieusement.} \r\n1. Rc5+ {[%wrong Ce coup perd un pion à cause de ...Txa6. Cherchez encore !]\r\n[%hint Les tours se comportent mieux derrière les pions passés. Comment procéder ?]} (1. Ra8 $6 {Il sera beaucoup plus facile de l'emporter en mettant la tour derrière le pion passé que devant... Comment procéder ?}) (1. Rg8+ $2 Kf6 {Cet échec permet au roi noir de se rapprocher de l'action. A éviter !}) (1. a7 $2 Ra6+ {Oups ! Les noirs répondent par une double attaque gagnant notre pion. Cherchez encore !}) 1... Kf6 {Bien joué ! Que ce soit en attaque ou en défense, en finale, les tours sont toujours mieux placées derrière les pions passés. A vous de jouer !} \r\n2. Ra5 {[%wrong Ce coup perd un pion à cause de ...Txa6. Cherchez encore !][%hint Les tours se comportent mieux derrière les pions passés. Comment procéder ?]} \r\nRb8 {Excellent ! Le pion est maintenant soutenu par la tour. Poussons-le !} 3. a7 {[%wrong Non, les pions passés sont fait pour être poussés !]\r\n[%hint Poussez le pion !]} Ra8 {La tour noir est coincée, profitions-en pour activer le roi !} 4. Kb4 {[%wrong Ce coup ne rapproche pas notre roi du pion passé. Essayez encore !][%hint Notre roi doit foncer vers la case b7. Trouvez le chemin le plus rapide !] Bien joué ! Notre roi va se positionner en b7 pour attaquer la tour noire et forcer la promotion du pion. La position est gagnante.}\r\n(4. Ka4 $5 {Tant que les blancs jouent Rb5 au prochain coup, cette technique fonctionne également. Mais pourquoi ne pas rapprocher directement le roi de la case b7 ? Essayez encore !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"4r3/8/8/k7/1p6/7R/3K4/8 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Nous avons établi qu'il était important de mettre les tours derrière les pions passés. Cependant, avant de jouer Tb8, il faut dans cette position jouer un coup important. Lequel ?}\r\n1...Rc8\r\n    {[%wrong Ce coup laisse les blancs jouer Rc2 pour ajouter un second défenseur contre notre pion passé. Cherchez encore !][%hint Il sera plus facile de promouvoir le pion si le roi blanc ne peut pas l'attaquer...] Excellente décision, vous avez trouvé le seul coup gagnant ! Le roi blanc est coupé de l'action, et sa tour seule ne va pas faire le poids contre l'association de notre tour, notre pion et notre roi.}\r\n    (1...Rb8 $2 2.Kc2 {Oups ! Le roi blanc revient en défense pour bloquer le pion passé. Les blancs vont tenir la nulle. Trouvez mieux !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/1k6/1p6/p4r2/K3R3 w - - 0 1\"]\r\n\r\n{Trait aux blancs. La situation semble désespérée, mais le fait que notre roi n'ait aucune case de fuite va s'avérer très utile... Trouvez pourquoi !}\r\n1.Re4+\r\n    {[%wrong Nous n'allons jamais survivre à cette position sans trouver une idée plus tranchante... Cherchez encore !][%hint Comment attaquer le roi noir ?]}\r\n1...Kc3\r\n    {Bien vu ! La tour attaque le roi noir. Notre roi, quant à lui, est toujours dans l'incapacité de bouger... Trouvez la ressource de nulle !}\r\n2.Re3+\r\n    {[%wrong Non, il faut continuer à mettre le roi noir en échec !][%hint Comment continuer à attaquer le roi noir ?]}\r\n    (2.Rc4+ $5 {Cette astucieuse ressource de pat fonctionne également. Jouons maintenant l'autre échec possible dans cette position !})\r\n2...Kc2\r\n    {Fomidable ! Les blancs continuent à mettre le roi noir en échec. C'est le thème de la tour folle ! Forcez maintenant la nulle grâce à la règle du pat.}\r\n3.Re2+\r\n    {[%wrong Ce coup ne met pas le roi noir en échec. Cherchez encore !][%hint Comment forcer les noirs à prendre votre tour ?] Bravo ! Les noirs sont obligés de prendre notre tour, et c'est pat ! Une superbe ressource de nulle.}\r\n    (3.Rxb3 $5 {Cette idée astucieuse fonctionne également, bien vu ! Trouvez maintenant le coup qui force les noirs à prendre votre tour.})\r\n    (3.Rc3+ $5 {Cette idée astucieuse fonctionne également, bien vu ! Trouvez maintenant le coup qui force les noirs à prendre votre tour.})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La tour devient particulièrement puissante en finale. Voyons pourquoi.",
+    "outroText": "Vous allez devenir un expert des finales de tours !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "path": "finales-avancees",
+      "title": "Finales avancées",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/a03f97ac-a55b-11e8-8184-9d27df009acd.92637022.728x410o.3d0706f65a2f.png"
+    },
+    "parentId": "fdf61a86-83b6-11e8-9db6-41ee9a987e58",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/common-rook-endgames5e703cf8f239a.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/common-rook-endgames-5668868a70122c.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/common-rook-endgames-15ea23ea7afce2.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/common-rook-endgames-2612f8d1d5531f.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 113,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "a03f97ac-a55b-11e8-8184-9d27df009acd",
+      "name": "Finales avancées",
+      "path": "finales-avancees",
+      "order": 4
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/les-ouvertures-cles/ouvertures-populaires-1-e4-espagnole-italienne-ecossaise",
+  "capturedAt": "2026-10-22T12:23:44.381Z",
+  "title": "Des ouvertures populaires avec 1.e4 : L'espagnole, l'italienne et l'écossaise",
+  "exercises": [
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Testons la partie italienne en mettant notre fou en c4 !",
+        "[%wrong Non, nous voulons jouer le coup Fc4.][%hint Placez votre fou de cases blanches sur la case c4.]",
+        "Parfait ! Ce fou contrôle une très bonne diagonale, et nous sommes déjà prêts à roquer. On appelle cette ouverture la partie italienne. Avec le coup ...Cf6, les noirs attaquent le pion e4. Trouvez une idée agressive défendant ce pion tout en attaquent une deuxième fois le pion f7.",
+        "[%wrong Ce coup ne protège pas e4 tout en attaquant f7. Cherchez encore !][%hint Nous cherchons un coup de cavalier !] Bien vu ! Les blancs menacent déjà Cxf7, avec une fourchette dame-tour. Si les noirs ne savent pas exactement ce qu'ils font, ils pourraient très vite se retrouver en difficulté..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{Testons la partie italienne en mettant notre fou en c4 !}\r\n1.Bc4\r\n    {[%wrong Non, nous voulons jouer le coup Fc4.][%hint Placez votre fou de cases blanches sur la case c4.]}\r\n1...Nf6\r\n    {Parfait ! Ce fou contrôle une très bonne diagonale, et nous sommes déjà prêts à roquer. On appelle cette ouverture la partie italienne. Avec le coup ...Cf6, les noirs attaquent le pion e4. Trouvez une idée agressive défendant ce pion tout en attaquent une deuxième fois le pion f7.}\r\n2.Ng5\r\n    {[%wrong Ce coup ne protège pas e4 tout en attaquant f7. Cherchez encore !][%hint Nous cherchons un coup de cavalier !] Bien vu ! Les blancs menacent déjà Cxf7, avec une fourchette dame-tour. Si les noirs ne savent pas exactement ce qu'ils font, ils pourraient très vite se retrouver en difficulté...}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer Fc4, et nous devons maintenant choisir entre ...h6, ...Fe7 et ...Fc5. Quel est le meilleur coup ?",
+        "[%wrong Vous avez trois options dans cette position :  ...h6, ...Fe7 et ...Fc5.][%hint Quel coup développe notre fou sur une diagonale active pour qu'il contrôle des cases centrales ?]",
+        "En règle générale, il est préférable d'éviter de jouer dans l'ouverture des coups de pions qui n'aident pas au développement. Les blancs ne menaçaient de toutes façons pas Cg5. Pourquoi ne pas tout simplement développer notre fou de cases noires sur une diagonale active ?",
+        "Ce coup solide est un peu passif, car il permet aux blancs de jouer agressivement au centre par d4. Trouvez une case plus active pour ce fou.",
+        "Très bien ! Le fou se place sur une diagonale active. Les blancs continuent avec le solide d3. Où faudrait-il développer le cavalier g8 pour préparer le roque ?",
+        "[%wrong Nous cherchons à développer le cavalier g8. Essayez encore !][%hint Le contrôle du centre est primordial...]",
+        "Bien essayé, mais ce cavalier est passif. Il aurait été plus actif en f6 ! Notez que si les noirs roquent au prochain coup, Dh5 est très fort pour les blancs. Trouvez mieux !",
+        "On évite en général de placer les cavaliers sur le bord de l'échiquier, où ils contrôlent deux fois moins de cases... Cherchez encore !",
+        "Exactement ! Les blancs auraient du jouer un coup solide, comme 0-0, par exemple, mais ils se lancent dans une attaque prématurée. Comment répondre à ce coup douteux ?",
+        "[%wrong Il existe une façon beaucoup plus solide de réfuter l'attaque blanche. Cherchez encore !][%hint Mettre le roi à l'abri est toujours une bonne idée.]",
+        "Bien que les noirs aient deux attaquants contre deux défenseurs, les deux défenseurs ont plus de valeur, et nous allons donc perdre du matériel. Cherchez encore !",
+        "Une idée créative, mais l'ouverture de la position va améliorer les chances des blancs. Il existe un moyen plus simple de réfuter l'attaque blanche. Cherchez encore !",
+        "Excellente décision ! Les noirs roquent calmement, et les blancs continuent dans une veine trop agressive. Quelle est la meilleur réponse ?",
+        "[%wrong Il faut à tout prix se débarrasser de ce cavalier en f7... Cherchez encore !][%hint Échanger une tour et un pion contre deux pièces mineures est généralement une bonne idée...]",
+        "Les blancs s'enfuient et ont gagné un pion... Trouvez une défense plus active !",
+        "Nous perdons la dame... Cherchez encore !",
+        "Continuez sur cette voie ! Les noirs échangent avec joie une tour et un pion contre deux pièces mineures. Finissez le travail !",
+        "[%wrong Ce coup ne capture pas une pièce mineure. Cherchez encore !][%hint Le fou est en prise !] Les noirs ont défendu activement contre l'attaque prématurée des blancs, qui se retrouvent sous-développée avec une mauvaise position. Bien joué !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3\"]\r\n\r\n{Les blancs viennent de jouer Fc4, et nous devons maintenant choisir entre ...h6, ...Fe7 et ...Fc5. Quel est le meilleur coup ?}\r\n3...Bc5\r\n    {[%wrong Vous avez trois options dans cette position :  ...h6, ...Fe7 et ...Fc5.][%hint Quel coup développe notre fou sur une diagonale active pour qu'il contrôle des cases centrales ?]}\r\n    (3...h6 $2 {En règle générale, il est préférable d'éviter de jouer dans l'ouverture des coups de pions qui n'aident pas au développement. Les blancs ne menaçaient de toutes façons pas Cg5. Pourquoi ne pas tout simplement développer notre fou de cases noires sur une diagonale active ?})\r\n    (3...Be7 $5 4.d4 {Ce coup solide est un peu passif, car il permet aux blancs de jouer agressivement au centre par d4. Trouvez une case plus active pour ce fou.})\r\n4.d3\r\n    {Très bien ! Le fou se place sur une diagonale active. Les blancs continuent avec le solide d3. Où faudrait-il développer le cavalier g8 pour préparer le roque ?}\r\n4...Nf6\r\n    {[%wrong Nous cherchons à développer le cavalier g8. Essayez encore !][%hint Le contrôle du centre est primordial...]}\r\n    (4...Nge7 $2 5.Ng5 {Bien essayé, mais ce cavalier est passif. Il aurait été plus actif en f6 ! Notez que si les noirs roquent au prochain coup, Dh5 est très fort pour les blancs. Trouvez mieux !})\r\n    (4...Nh6 $2 {On évite en général de placer les cavaliers sur le bord de l'échiquier, où ils contrôlent deux fois moins de cases... Cherchez encore !})\r\n5.Ng5\r\n    {Exactement ! Les blancs auraient du jouer un coup solide, comme 0-0, par exemple, mais ils se lancent dans une attaque prématurée. Comment répondre à ce coup douteux ?}\r\n5...O-O\r\n    {[%wrong Il existe une façon beaucoup plus solide de réfuter l'attaque blanche. Cherchez encore !][%hint Mettre le roi à l'abri est toujours une bonne idée.]}\r\n    (5...Qe7 $2 6.Bxf7+ {Bien que les noirs aient deux attaquants contre deux défenseurs, les deux défenseurs ont plus de valeur, et nous allons donc perdre du matériel. Cherchez encore !})\r\n    (5...d5 $6 6.exd5 {Une idée créative, mais l'ouverture de la position va améliorer les chances des blancs. Il existe un moyen plus simple de réfuter l'attaque blanche. Cherchez encore !})\r\n6.Nxf7\r\n    {Excellente décision ! Les noirs roquent calmement, et les blancs continuent dans une veine trop agressive. Quelle est la meilleur réponse ?}\r\n6...Rxf7\r\n    {[%wrong Il faut à tout prix se débarrasser de ce cavalier en f7... Cherchez encore !][%hint Échanger une tour et un pion contre deux pièces mineures est généralement une bonne idée...]}\r\n    (6...Qe7 $2 7.Ng5+ {Les blancs s'enfuient et ont gagné un pion... Trouvez une défense plus active !})\r\n    (6...Qe8 $2 7.Nd6+ {Nous perdons la dame... Cherchez encore !})\r\n7.Bxf7+\r\n    {Continuez sur cette voie ! Les noirs échangent avec joie une tour et un pion contre deux pièces mineures. Finissez le travail !}\r\n7...Kxf7\r\n    {[%wrong Ce coup ne capture pas une pièce mineure. Cherchez encore !][%hint Le fou est en prise !] Les noirs ont défendu activement contre l'attaque prématurée des blancs, qui se retrouvent sous-développée avec une mauvaise position. Bien joué !}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs viennent de jouer 3.Fb5 pour entrer dans la partie espagnole. Jouons la réponse standard des noirs : 3...a6.",
+        "[%wrong Pour les besoins de l'exercice, commençons si vous le voulez bien par le coup 3...a6.][%hint Poussez le pion a en a6 !]",
+        "Pour comprendre la partie espagnole, il faut savoir que les blancs ne peuvent pas gagner un pion en jouant ce coup. Quelle la meilleure manière de reprendre le fou ?",
+        "[%wrong Non, nous voulons prendre le fou adverse !][%hint Il serait préférable de reprendre en ouvrant une colonne pour la dame...]",
+        "Les noirs peuvent récupérer le pion en jouant 5...De7, mais notre structure de pions présente de sérieuses faiblesses. Essayons avec un autre pion...",
+        "Bien vu ! Les noirs prennent avec le pion d pour ouvrir les yeux de la dame et du fou de cases blanches. Et maintenant, comment attaquer à la fois le cavalier e5 et le pion e4 ?",
+        "[%wrong Ce coup n'attaque pas à la fois le cavalier e5 et le pion e4. Cherchez encore !][%hint Trouvez une belle case centrale pour votre dame.] Bien joué ! Les noirs récupèrent le pion central et empêchent les blancs de roquer. Nous avons maintenant une très bonne position, ce qui explique pourquoi les blancs ne prennent généralement pas ce pion dans l'ouverture.",
+        "Cette idée créative gagne le pion g2 et permet de gagner un tempo sur la tour g1, mais nous sommes à la recherche d'un coup plus fort qui permet de s'emparer du pion e4. Trouvez-le !",
+        "Nous voulons attaquer à la fois e4 et e5, mais pas en mettant notre dame en prise ! Soyez prudent."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3\"]\r\n\r\n{Les blancs viennent de jouer 3.Fb5 pour entrer dans la partie espagnole. Jouons la réponse standard des noirs : 3...a6.}\r\n3...a6\r\n    {[%wrong Pour les besoins de l'exercice, commençons si vous le voulez bien par le coup 3...a6.][%hint Poussez le pion a en a6 !]}\r\n4.Bxc6\r\n    {Pour comprendre la partie espagnole, il faut savoir que les blancs ne peuvent pas gagner un pion en jouant ce coup. Quelle la meilleure manière de reprendre le fou ?}\r\n4...dxc6\r\n    {[%wrong Non, nous voulons prendre le fou adverse !][%hint Il serait préférable de reprendre en ouvrant une colonne pour la dame...]}\r\n    (4...bxc6 $6 5.Nxe5 {Les noirs peuvent récupérer le pion en jouant 5...De7, mais notre structure de pions présente de sérieuses faiblesses. Essayons avec un autre pion...})\r\n5.Nxe5\r\n    {Bien vu ! Les noirs prennent avec le pion d pour ouvrir les yeux de la dame et du fou de cases blanches. Et maintenant, comment attaquer à la fois le cavalier e5 et le pion e4 ?}\r\n5...Qd4\r\n    {[%wrong Ce coup n'attaque pas à la fois le cavalier e5 et le pion e4. Cherchez encore !][%hint Trouvez une belle case centrale pour votre dame.] Bien joué ! Les noirs récupèrent le pion central et empêchent les blancs de roquer. Nous avons maintenant une très bonne position, ce qui explique pourquoi les blancs ne prennent généralement pas ce pion dans l'ouverture.}\r\n    (5...Qg5 $6 6.Nf3 {Cette idée créative gagne le pion g2 et permet de gagner un tempo sur la tour g1, mais nous sommes à la recherche d'un coup plus fort qui permet de s'emparer du pion e4. Trouvez-le !})\r\n    (5...Qd5 $2 6.exd5 {Nous voulons attaquer à la fois e4 et e5, mais pas en mettant notre dame en prise ! Soyez prudent.})\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Comme les blancs ne souhaitent pas prendre le pion après 4.Fxc6, jouons plutôt le coup le plus populaire : il consiste à mettre notre fou en sécurité tout en gardant la pression sur le cavalier c6. A vous !",
+        "[%wrong Ce n'est pas le meilleur coup. Cherchez encore !][%hint Battez en retraite avec le fou de cases blanches tout en gardant la pression sur cette diagonale.]",
+        "Bien vu ! Le cavalier c6 reste sous pression. Les noirs répondent en s'attaquant à e4. Faut-il défendre ce pion ou jouer un autre coup ?",
+        "[%wrong Bien essayé, mais il existe une idée beaucoup plus forte. Trouvez-la !][%hint Si vous roquez, votre tour sera prête à attaquer sur la colonne e...]",
+        "Cette idée est intéressante, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !",
+        "Cette idée est jouable, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !",
+        "Cette idée est jouable, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !",
+        "Un jeu puissant ! Les blancs roquent, offrant le pion aux noirs. Ces derniers le prennent, il est donc temps de les attaquer sur la colonne e !",
+        "[%wrong Bien essayé, mais ce coup n'attaque pas sur la colonne e. Cherchez encore !][%hint Comme nous avons roqué, nous pouvons désormais activer la tour f sur une case intéressante...] Beau travail ! Nous attaquons le cavalier noir, et s'il bouge, Cxe5 est dans les tuyaux ! Si les noirs protègent le cavalier, d3 est également envisageable. Les blancs ont une position prometteuse.",
+        "Cette variante ultra-théorique est intéressante, mais très compliquée. Pour le moment, tenons-nous en aux plans simples et attaquons sur la colonne e !",
+        "Notre dame est sous-utilisée sur cette case. Il aurait été plus indiqué de la laisser à notre tour, désormais coincée en f1...",
+        "Attaquer avec la dame est une bonne idée, mais le faire avec la tour serait encore plus fort..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4\"]\r\n\r\n{Comme les blancs ne souhaitent pas prendre le pion après 4.Fxc6, jouons plutôt le coup le plus populaire : il consiste à mettre notre fou en sécurité tout en gardant la pression sur le cavalier c6. A vous !}\r\n4.Ba4\r\n    {[%wrong Ce n'est pas le meilleur coup. Cherchez encore !][%hint Battez en retraite avec le fou de cases blanches tout en gardant la pression sur cette diagonale.]}\r\n4...Nf6\r\n    {Bien vu ! Le cavalier c6 reste sous pression. Les noirs répondent en s'attaquant à e4. Faut-il défendre ce pion ou jouer un autre coup ?}\r\n5.O-O\r\n    {[%wrong Bien essayé, mais il existe une idée beaucoup plus forte. Trouvez-la !][%hint Si vous roquez, votre tour sera prête à attaquer sur la colonne e...]}\r\n    (5.d3 $5 {Cette idée est intéressante, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !})\r\n    (5.Nc3 $5 {Cette idée est jouable, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !})\r\n    (5.Qe2 $5 {Cette idée est jouable, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !})\r\n5...Nxe4\r\n    {Un jeu puissant ! Les blancs roquent, offrant le pion aux noirs. Ces derniers le prennent, il est donc temps de les attaquer sur la colonne e !}\r\n6.Re1\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas sur la colonne e. Cherchez encore !][%hint Comme nous avons roqué, nous pouvons désormais activer la tour f sur une case intéressante...] Beau travail ! Nous attaquons le cavalier noir, et s'il bouge, Cxe5 est dans les tuyaux ! Si les noirs protègent le cavalier, d3 est également envisageable. Les blancs ont une position prometteuse.}\r\n    (6.d4 $5 {Cette variante ultra-théorique est intéressante, mais très compliquée. Pour le moment, tenons-nous en aux plans simples et attaquons sur la colonne e !})\r\n    (6.Qe1 $2 {Notre dame est sous-utilisée sur cette case. Il aurait été plus indiqué de la laisser à notre tour, désormais coincée en f1...})\r\n    (6.Qe2 $6 {Attaquer avec la dame est une bonne idée, mais le faire avec la tour serait encore plus fort...})\r\n*"
+    },
+    {
+      "fen": "r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Au lieu de prendre en e4, les noirs vont généralement développer leur fou de cases noires et roquer. Les blancs aimeraient bien jouer d4 pour s'en prendre au centre noir. Trouvez un fort coup de pion qui prépare cette poussée.",
+        "[%wrong Ce coup ne prépare pas la poussée d4. Cherchez encore !][%hint Jouez un coup de pion protégeant la case d4.]",
+        "Bien vu ! Les blancs se préparent à pousser d4. Les noirs répondent en attaquant notre fou. Que faire ?",
+        "[%wrong Commençons par mettre notre fou en sécurité !][%hint Quelle est la diagonale la plus active pour le fou de cases blanches ?]",
+        "Bien vu. Cette idée consistant à sur-protéger le pion central et préparer d4 est très forte. Trouvez maintenant un autre excellent coup de fou !",
+        "Ce fou actif met maintenant la pression sur f7 ! Il est temps de passer à l'offensive centrale...",
+        "[%wrong Non, nous sommes maintenant prêt à faire entrer le pion d dans la bagarre !][%hint Attaquons le centre en jouant d4 !] Bien vu ! Les blancs agressent le centre noir et obtiennent une bonne position."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6\"]\r\n\r\n{Au lieu de prendre en e4, les noirs vont généralement développer leur fou de cases noires et roquer. Les blancs aimeraient bien jouer d4 pour s'en prendre au centre noir. Trouvez un fort coup de pion qui prépare cette poussée.}\r\n6.c3\r\n    {[%wrong Ce coup ne prépare pas la poussée d4. Cherchez encore !][%hint Jouez un coup de pion protégeant la case d4.]}\r\n6...b5\r\n    {Bien vu ! Les blancs se préparent à pousser d4. Les noirs répondent en attaquant notre fou. Que faire ?}\r\n7.Bb3\r\n    {[%wrong Commençons par mettre notre fou en sécurité !][%hint Quelle est la diagonale la plus active pour le fou de cases blanches ?]}\r\n    (7.Bc2 $5 {Bien vu. Cette idée consistant à sur-protéger le pion central et préparer d4 est très forte. Trouvez maintenant un autre excellent coup de fou !})\r\n7...d6\r\n    {Ce fou actif met maintenant la pression sur f7 ! Il est temps de passer à l'offensive centrale...}\r\n8.d4\r\n    {[%wrong Non, nous sommes maintenant prêt à faire entrer le pion d dans la bagarre !][%hint Attaquons le centre en jouant d4 !] Bien vu ! Les blancs agressent le centre noir et obtiennent une bonne position.}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Terminons nos aventures espagnoles en essayant le coup le plus solide des noirs : 5...Fe7.",
+        "[%wrong Pour les besoins de l'exercice, jouons ...Fe7.][%hint Jouez ...Fe7.]",
+        "Très bien. Les noirs sont prêts à roquer, et le fou est désormais posté sur une case solide où il ne pourra pas être attaqué par un pion blanc. Les blancs répondent en protégeant le pion e4. Choisissez la meilleure suite parmi ces trois options : 6...b5, 6...0-0, ou 6...d6.",
+        "[%wrong Choisissez votre coup parmi ces trois options : 6...b5, 6...0-0, ou 6...d6.][%hint Gagner un tempo sur le fou blanc en empêchant Fxc6 vous donnerait une position solide...] Excellent ! Rappelez-vous bien qu'une fois que votre adversaire a protégé son pion e4, il faut protéger votre pion e5. Les noirs vont maintenant pouvoir roquer et terminer leur développement avec une position très solide.",
+        "Cette idée est intéressante, mais la structure noire est affaiblie. Trouvez un coup empêchant Fxc6 avant de jouer ...d6.",
+        "Maintenant que le pion e4 est protégé, les blancs peuvent gagner un pion en prenant en c6 puis en e5 au prochain coup. Rappelez-vous bien qu'une fois que votre adversaire a protégé son pion e4, il faut protéger votre pion e5."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5\"]\r\n\r\n{Terminons nos aventures espagnoles en essayant le coup le plus solide des noirs : 5...Fe7.}\r\n5...Be7\r\n    {[%wrong Pour les besoins de l'exercice, jouons ...Fe7.][%hint Jouez ...Fe7.]}\r\n6.Re1\r\n    {Très bien. Les noirs sont prêts à roquer, et le fou est désormais posté sur une case solide où il ne pourra pas être attaqué par un pion blanc. Les blancs répondent en protégeant le pion e4. Choisissez la meilleure suite parmi ces trois options : 6...b5, 6...0-0, ou 6...d6.}\r\n6...b5\r\n    {[%wrong Choisissez votre coup parmi ces trois options : 6...b5, 6...0-0, ou 6...d6.][%hint Gagner un tempo sur le fou blanc en empêchant Fxc6 vous donnerait une position solide...] Excellent ! Rappelez-vous bien qu'une fois que votre adversaire a protégé son pion e4, il faut protéger votre pion e5. Les noirs vont maintenant pouvoir roquer et terminer leur développement avec une position très solide.}\r\n    (6...d6 $5 7.Bxc6+ {Cette idée est intéressante, mais la structure noire est affaiblie. Trouvez un coup empêchant Fxc6 avant de jouer ...d6.})\r\n    (6...O-O $2 7.Bxc6 {Maintenant que le pion e4 est protégé, les blancs peuvent gagner un pion en prenant en c6 puis en e5 au prochain coup. Rappelez-vous bien qu'une fois que votre adversaire a protégé son pion e4, il faut protéger votre pion e5.})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "768b72a0-9ceb-11e8-a207-513cb18fc294",
+    "name": "Des ouvertures populaires avec 1.e4 : L'espagnole, l'italienne et l'écossaise",
+    "path": "ouvertures-populaires-1-e4-espagnole-italienne-ecossaise",
+    "description": "Découvrez les idées qui sous-tendent les trois ouvertures les plus populaires. 1.e4 e5 2.Cf3 Cc6 3.Fc4 est constitutif de la partie italienne. Les noirs peuvent répondre par le risqué 3…Cf6 ou le plus sûr 3…Fc5. 3.Fb5 entre dans la populaire partie espagnole. La menace Fxc6 suivi de Cxe5 n’en est pas vraiment une, mais les noirs doivent tout de même être prudent et répondent souvent par 3…a6 pour éventuellement chasser le fou blanc par …b5 un peu plus tard.",
+    "glyphName": "document-book-e",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-popular-1-e4-openings-v9f.mp4",
+    "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq b6 0 7",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1\"]\r\n\r\n{Testons la partie italienne en mettant notre fou en c4 !}\r\n1.Bc4\r\n    {[%wrong Non, nous voulons jouer le coup Fc4.][%hint Placez votre fou de cases blanches sur la case c4.]}\r\n1...Nf6\r\n    {Parfait ! Ce fou contrôle une très bonne diagonale, et nous sommes déjà prêts à roquer. On appelle cette ouverture la partie italienne. Avec le coup ...Cf6, les noirs attaquent le pion e4. Trouvez une idée agressive défendant ce pion tout en attaquent une deuxième fois le pion f7.}\r\n2.Ng5\r\n    {[%wrong Ce coup ne protège pas e4 tout en attaquant f7. Cherchez encore !][%hint Nous cherchons un coup de cavalier !] Bien vu ! Les blancs menacent déjà Cxf7, avec une fourchette dame-tour. Si les noirs ne savent pas exactement ce qu'ils font, ils pourraient très vite se retrouver en difficulté...}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3\"]\r\n\r\n{Les blancs viennent de jouer Fc4, et nous devons maintenant choisir entre ...h6, ...Fe7 et ...Fc5. Quel est le meilleur coup ?}\r\n3...Bc5\r\n    {[%wrong Vous avez trois options dans cette position :  ...h6, ...Fe7 et ...Fc5.][%hint Quel coup développe notre fou sur une diagonale active pour qu'il contrôle des cases centrales ?]}\r\n    (3...h6 $2 {En règle générale, il est préférable d'éviter de jouer dans l'ouverture des coups de pions qui n'aident pas au développement. Les blancs ne menaçaient de toutes façons pas Cg5. Pourquoi ne pas tout simplement développer notre fou de cases noires sur une diagonale active ?})\r\n    (3...Be7 $5 4.d4 {Ce coup solide est un peu passif, car il permet aux blancs de jouer agressivement au centre par d4. Trouvez une case plus active pour ce fou.})\r\n4.d3\r\n    {Très bien ! Le fou se place sur une diagonale active. Les blancs continuent avec le solide d3. Où faudrait-il développer le cavalier g8 pour préparer le roque ?}\r\n4...Nf6\r\n    {[%wrong Nous cherchons à développer le cavalier g8. Essayez encore !][%hint Le contrôle du centre est primordial...]}\r\n    (4...Nge7 $2 5.Ng5 {Bien essayé, mais ce cavalier est passif. Il aurait été plus actif en f6 ! Notez que si les noirs roquent au prochain coup, Dh5 est très fort pour les blancs. Trouvez mieux !})\r\n    (4...Nh6 $2 {On évite en général de placer les cavaliers sur le bord de l'échiquier, où ils contrôlent deux fois moins de cases... Cherchez encore !})\r\n5.Ng5\r\n    {Exactement ! Les blancs auraient du jouer un coup solide, comme 0-0, par exemple, mais ils se lancent dans une attaque prématurée. Comment répondre à ce coup douteux ?}\r\n5...O-O\r\n    {[%wrong Il existe une façon beaucoup plus solide de réfuter l'attaque blanche. Cherchez encore !][%hint Mettre le roi à l'abri est toujours une bonne idée.]}\r\n    (5...Qe7 $2 6.Bxf7+ {Bien que les noirs aient deux attaquants contre deux défenseurs, les deux défenseurs ont plus de valeur, et nous allons donc perdre du matériel. Cherchez encore !})\r\n    (5...d5 $6 6.exd5 {Une idée créative, mais l'ouverture de la position va améliorer les chances des blancs. Il existe un moyen plus simple de réfuter l'attaque blanche. Cherchez encore !})\r\n6.Nxf7\r\n    {Excellente décision ! Les noirs roquent calmement, et les blancs continuent dans une veine trop agressive. Quelle est la meilleur réponse ?}\r\n6...Rxf7\r\n    {[%wrong Il faut à tout prix se débarrasser de ce cavalier en f7... Cherchez encore !][%hint Échanger une tour et un pion contre deux pièces mineures est généralement une bonne idée...]}\r\n    (6...Qe7 $2 7.Ng5+ {Les blancs s'enfuient et ont gagné un pion... Trouvez une défense plus active !})\r\n    (6...Qe8 $2 7.Nd6+ {Nous perdons la dame... Cherchez encore !})\r\n7.Bxf7+\r\n    {Continuez sur cette voie ! Les noirs échangent avec joie une tour et un pion contre deux pièces mineures. Finissez le travail !}\r\n7...Kxf7\r\n    {[%wrong Ce coup ne capture pas une pièce mineure. Cherchez encore !][%hint Le fou est en prise !] Les noirs ont défendu activement contre l'attaque prématurée des blancs, qui se retrouvent sous-développée avec une mauvaise position. Bien joué !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3\"]\r\n\r\n{Les blancs viennent de jouer 3.Fb5 pour entrer dans la partie espagnole. Jouons la réponse standard des noirs : 3...a6.}\r\n3...a6\r\n    {[%wrong Pour les besoins de l'exercice, commençons si vous le voulez bien par le coup 3...a6.][%hint Poussez le pion a en a6 !]}\r\n4.Bxc6\r\n    {Pour comprendre la partie espagnole, il faut savoir que les blancs ne peuvent pas gagner un pion en jouant ce coup. Quelle la meilleure manière de reprendre le fou ?}\r\n4...dxc6\r\n    {[%wrong Non, nous voulons prendre le fou adverse !][%hint Il serait préférable de reprendre en ouvrant une colonne pour la dame...]}\r\n    (4...bxc6 $6 5.Nxe5 {Les noirs peuvent récupérer le pion en jouant 5...De7, mais notre structure de pions présente de sérieuses faiblesses. Essayons avec un autre pion...})\r\n5.Nxe5\r\n    {Bien vu ! Les noirs prennent avec le pion d pour ouvrir les yeux de la dame et du fou de cases blanches. Et maintenant, comment attaquer à la fois le cavalier e5 et le pion e4 ?}\r\n5...Qd4\r\n    {[%wrong Ce coup n'attaque pas à la fois le cavalier e5 et le pion e4. Cherchez encore !][%hint Trouvez une belle case centrale pour votre dame.] Bien joué ! Les noirs récupèrent le pion central et empêchent les blancs de roquer. Nous avons maintenant une très bonne position, ce qui explique pourquoi les blancs ne prennent généralement pas ce pion dans l'ouverture.}\r\n    (5...Qg5 $6 6.Nf3 {Cette idée créative gagne le pion g2 et permet de gagner un tempo sur la tour g1, mais nous sommes à la recherche d'un coup plus fort qui permet de s'emparer du pion e4. Trouvez-le !})\r\n    (5...Qd5 $2 6.exd5 {Nous voulons attaquer à la fois e4 et e5, mais pas en mettant notre dame en prise ! Soyez prudent.})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4\"]\r\n\r\n{Comme les blancs ne souhaitent pas prendre le pion après 4.Fxc6, jouons plutôt le coup le plus populaire : il consiste à mettre notre fou en sécurité tout en gardant la pression sur le cavalier c6. A vous !}\r\n4.Ba4\r\n    {[%wrong Ce n'est pas le meilleur coup. Cherchez encore !][%hint Battez en retraite avec le fou de cases blanches tout en gardant la pression sur cette diagonale.]}\r\n4...Nf6\r\n    {Bien vu ! Le cavalier c6 reste sous pression. Les noirs répondent en s'attaquant à e4. Faut-il défendre ce pion ou jouer un autre coup ?}\r\n5.O-O\r\n    {[%wrong Bien essayé, mais il existe une idée beaucoup plus forte. Trouvez-la !][%hint Si vous roquez, votre tour sera prête à attaquer sur la colonne e...]}\r\n    (5.d3 $5 {Cette idée est intéressante, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !})\r\n    (5.Nc3 $5 {Cette idée est jouable, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !})\r\n    (5.Qe2 $5 {Cette idée est jouable, mais les blancs peuvent roquer et obtenir une bonne position. Essayons !})\r\n5...Nxe4\r\n    {Un jeu puissant ! Les blancs roquent, offrant le pion aux noirs. Ces derniers le prennent, il est donc temps de les attaquer sur la colonne e !}\r\n6.Re1\r\n    {[%wrong Bien essayé, mais ce coup n'attaque pas sur la colonne e. Cherchez encore !][%hint Comme nous avons roqué, nous pouvons désormais activer la tour f sur une case intéressante...] Beau travail ! Nous attaquons le cavalier noir, et s'il bouge, Cxe5 est dans les tuyaux ! Si les noirs protègent le cavalier, d3 est également envisageable. Les blancs ont une position prometteuse.}\r\n    (6.d4 $5 {Cette variante ultra-théorique est intéressante, mais très compliquée. Pour le moment, tenons-nous en aux plans simples et attaquons sur la colonne e !})\r\n    (6.Qe1 $2 {Notre dame est sous-utilisée sur cette case. Il aurait été plus indiqué de la laisser à notre tour, désormais coincée en f1...})\r\n    (6.Qe2 $6 {Attaquer avec la dame est une bonne idée, mais le faire avec la tour serait encore plus fort...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6\"]\r\n\r\n{Au lieu de prendre en e4, les noirs vont généralement développer leur fou de cases noires et roquer. Les blancs aimeraient bien jouer d4 pour s'en prendre au centre noir. Trouvez un fort coup de pion qui prépare cette poussée.}\r\n6.c3\r\n    {[%wrong Ce coup ne prépare pas la poussée d4. Cherchez encore !][%hint Jouez un coup de pion protégeant la case d4.]}\r\n6...b5\r\n    {Bien vu ! Les blancs se préparent à pousser d4. Les noirs répondent en attaquant notre fou. Que faire ?}\r\n7.Bb3\r\n    {[%wrong Commençons par mettre notre fou en sécurité !][%hint Quelle est la diagonale la plus active pour le fou de cases blanches ?]}\r\n    (7.Bc2 $5 {Bien vu. Cette idée consistant à sur-protéger le pion central et préparer d4 est très forte. Trouvez maintenant un autre excellent coup de fou !})\r\n7...d6\r\n    {Ce fou actif met maintenant la pression sur f7 ! Il est temps de passer à l'offensive centrale...}\r\n8.d4\r\n    {[%wrong Non, nous sommes maintenant prêt à faire entrer le pion d dans la bagarre !][%hint Attaquons le centre en jouant d4 !] Bien vu ! Les blancs agressent le centre noir et obtiennent une bonne position.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5\"]\r\n\r\n{Terminons nos aventures espagnoles en essayant le coup le plus solide des noirs : 5...Fe7.}\r\n5...Be7\r\n    {[%wrong Pour les besoins de l'exercice, jouons ...Fe7.][%hint Jouez ...Fe7.]}\r\n6.Re1\r\n    {Très bien. Les noirs sont prêts à roquer, et le fou est désormais posté sur une case solide où il ne pourra pas être attaqué par un pion blanc. Les blancs répondent en protégeant le pion e4. Choisissez la meilleure suite parmi ces trois options : 6...b5, 6...0-0, ou 6...d6.}\r\n6...b5\r\n    {[%wrong Choisissez votre coup parmi ces trois options : 6...b5, 6...0-0, ou 6...d6.][%hint Gagner un tempo sur le fou blanc en empêchant Fxc6 vous donnerait une position solide...] Excellent ! Rappelez-vous bien qu'une fois que votre adversaire a protégé son pion e4, il faut protéger votre pion e5. Les noirs vont maintenant pouvoir roquer et terminer leur développement avec une position très solide.}\r\n    (6...d6 $5 7.Bxc6+ {Cette idée est intéressante, mais la structure noire est affaiblie. Trouvez un coup empêchant Fxc6 avant de jouer ...d6.})\r\n    (6...O-O $2 7.Bxc6 {Maintenant que le pion e4 est protégé, les blancs peuvent gagner un pion en prenant en c6 puis en e5 au prochain coup. Rappelez-vous bien qu'une fois que votre adversaire a protégé son pion e4, il faut protéger votre pion e5.})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Prêt à apprendre plus d'ouvertures populaires ?",
+    "outroText": "Des coups solides de développement mènent généralement à de bonnes positions",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "path": "les-ouvertures-cles",
+      "title": "Les ouvertures clefs",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/8f5e9600-a55a-11e8-b0e1-bd476147acc9.4deacac2.728x410o.099ececa4400.png"
+    },
+    "parentId": "d9405c6c-83b4-11e8-a440-bb4739be76ea",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings5e7aaf045d664.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-566886d2dba64f.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-15ea2407e3c69a.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/popular-1-e4-openings-2615c81dea51ae.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 87,
+    "order": 2,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "8f5e9600-a55a-11e8-b0e1-bd476147acc9",
+      "name": "Les ouvertures clefs",
+      "path": "les-ouvertures-cles",
+      "order": 1
+    }
+  }
+}

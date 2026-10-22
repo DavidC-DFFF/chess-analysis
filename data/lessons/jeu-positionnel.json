@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/choisir-le-meilleur-coup/jeu-positionnel",
+  "capturedAt": "2026-10-22T12:23:46.331Z",
+  "title": "Le jeu positionnel",
+  "exercises": [
+    {
+      "fen": "rn1q1rk1/1b1pbppp/p3p3/1ppnP3/3P4/2PB1N2/PP1NQPPP/R1B1R1K1 b - - 6 10",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs viennent de jouer Cbd2, bloquant le contrôle de la diagonale c1-h6 par leur propre fou de cases noires. Trouvez un moyen d'échanger leur fort fou de cases blanches pointé sur notre aile roi.",
+        "[%wrong Ce coup ne nous permet pas de nous débarrasser du fou de cases blanches ennemi. Cherchez encore !][%hint La case f4 n'est plus couverte... Profitez-en !]",
+        "Bien essayé, mais le fou de cases blanches échappe à notre attaque. Trouvez un moyen de le supprimer de l'échiquier une bonne fois pour toutes !",
+        "Bien vu ! Les noirs réalisent une fourchette sur la dame et le fou adverses. Les blancs mettent leur dame en sécurité. Emparons-nous maintenant de ce pénible fou !",
+        "[%wrong Ce coup ne prend pas le fou de cases blanches adverse. Cherchez encore !][%hint Prenez le fou d3.] Beau travail ! Les noirs se débarrassent du puissant fou d3 et vont profiter du contrôle unilatéral du fou b7 sur les cases blanches !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/1b1pbppp/p3p3/1ppnP3/3P4/2PB1N2/PP1NQPPP/R1B1R1K1 b - - 6 10\"]\r\n\r\n{Trait aux noirs. Les blancs viennent de jouer Cbd2, bloquant le contrôle de la diagonale c1-h6 par leur propre fou de cases noires. Trouvez un moyen d'échanger leur fort fou de cases blanches pointé sur notre aile roi.}\r\n10...Nf4\r\n    {[%wrong Ce coup ne nous permet pas de nous débarrasser du fou de cases blanches ennemi. Cherchez encore !][%hint La case f4 n'est plus couverte... Profitez-en !]}\r\n    (10...c4 $6 11.Bc2 {Bien essayé, mais le fou de cases blanches échappe à notre attaque. Trouvez un moyen de le supprimer de l'échiquier une bonne fois pour toutes !})\r\n11.Qe3\r\n    {Bien vu ! Les noirs réalisent une fourchette sur la dame et le fou adverses. Les blancs mettent leur dame en sécurité. Emparons-nous maintenant de ce pénible fou !}\r\n11...Nxd3\r\n    {[%wrong Ce coup ne prend pas le fou de cases blanches adverse. Cherchez encore !][%hint Prenez le fou d3.] Beau travail ! Les noirs se débarrassent du puissant fou d3 et vont profiter du contrôle unilatéral du fou b7 sur les cases blanches !}\r\n*"
+    },
+    {
+      "fen": "r2q1rk1/pp1b2pp/2pbpn2/3p1p2/2PP4/1P2PNP1/PB3PBP/R1Q2RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le fou d6 des noirs couvre une grande partie de leurs faiblesses sur cases noires. Trouvez un moyen de vous en débarrasser !",
+        "[%wrong Ce coup ne va pas nous permettre de supprimer le fou de cases noires adverse. Cherchez encore !][%hint Trouvez comment attaquer le fou d6 en forçant l'échange.]",
+        "Bon travail. Les noirs protègent leur fou de cases noires avec la dame. Échangeons-le !",
+        "[%wrong Ce coup n'échange pas les fous. Cherchez encore !][%hint Prenez le fou d6.]",
+        "Bien vu ! Le fou noir ne contrôlant plus la case e5, profitons-en pour y installer un cavalier !",
+        "[%wrong Non, nous souhaitons jouer Ce5 dans cette position !][%hint Jouez Ce5.] Superbe jeu positionnel ! Les blancs ont un avantage confortable."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pp1b2pp/2pbpn2/3p1p2/2PP4/1P2PNP1/PB3PBP/R1Q2RK1 w - - 0 1\"]\r\n\r\n{Le fou d6 des noirs couvre une grande partie de leurs faiblesses sur cases noires. Trouvez un moyen de vous en débarrasser !}\r\n1.Ba3\r\n    {[%wrong Ce coup ne va pas nous permettre de supprimer le fou de cases noires adverse. Cherchez encore !][%hint Trouvez comment attaquer le fou d6 en forçant l'échange.]}\r\n1...Qe7\r\n    {Bon travail. Les noirs protègent leur fou de cases noires avec la dame. Échangeons-le !}\r\n2.Bxd6\r\n    {[%wrong Ce coup n'échange pas les fous. Cherchez encore !][%hint Prenez le fou d6.]}\r\n2...Qxd6\r\n    {Bien vu ! Le fou noir ne contrôlant plus la case e5, profitons-en pour y installer un cavalier !}\r\n3.Ne5\r\n    {[%wrong Non, nous souhaitons jouer Ce5 dans cette position !][%hint Jouez Ce5.] Superbe jeu positionnel ! Les blancs ont un avantage confortable.}\r\n*"
+    },
+    {
+      "fen": "r1bqn1k1/pp1p1ppp/2p2b2/8/8/BPNB4/P1PP1PPP/R3Q1K1 w - - 1 14",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux blancs. Voyons si vous êtes capable d'obtenir un avantage positionnel ! Votre premier objectif : améliorer la position de la dame et créer une faiblesse sur le roque noir.",
+        "[%wrong Ce coup n'active pas la dame en forçant la création d'une faiblesse dans le camp noir. Cherchez encore !][%hint Comment activer la dame blanche tout en menaçant mat ?]",
+        "Beau boulot ! Les noirs sont obligés d'affaiblir les cases noires autour de leur roi. Activez maintenant la tour en créant une nouvelle menace !",
+        "[%wrong Ce coup n'active pas la tour blanche en créant une menace. Cherchez encore !][%hint Les tours adorent les colonnes ouvertes !]",
+        "Les blancs ont terminé leur développement et obtiennent une excellente position ! Mais il reste du travail. Les noirs préparent le coup ...d5 pour prendre de l'espace au centre en attaquant la dame blanche. Ce coup ouvrirait également la diagonale de leur fou de cases blanches. Comment l'empêcher ?",
+        "[%wrong Il existe un coup beaucoup plus fort empêchant le pion d d'avancer. Trouvez-le !][%hint Bloquez le pion d avec une pièce !] Votre compréhension positionnelle s'améliore à vue d’œil ! Les pièces adverses sont très passives, et l'harmonie des pièces blanches restreint le jeu noir. Dans la partie, les blancs montèrent une jolie attaque sur le roque pour l'emporter."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqn1k1/pp1p1ppp/2p2b2/8/8/BPNB4/P1PP1PPP/R3Q1K1 w - - 1 14\"]\r\n\r\n{Trait aux blancs. Voyons si vous êtes capable d'obtenir un avantage positionnel ! Votre premier objectif : améliorer la position de la dame et créer une faiblesse sur le roque noir.}\r\n14.Qe4\r\n    {[%wrong Ce coup n'active pas la dame en forçant la création d'une faiblesse dans le camp noir. Cherchez encore !][%hint Comment activer la dame blanche tout en menaçant mat ?]}\r\n14...g6\r\n    {Beau boulot ! Les noirs sont obligés d'affaiblir les cases noires autour de leur roi. Activez maintenant la tour en créant une nouvelle menace !}\r\n15.Re1\r\n    {[%wrong Ce coup n'active pas la tour blanche en créant une menace. Cherchez encore !][%hint Les tours adorent les colonnes ouvertes !]}\r\n15...Nc7\r\n    {Les blancs ont terminé leur développement et obtiennent une excellente position ! Mais il reste du travail. Les noirs préparent le coup ...d5 pour prendre de l'espace au centre en attaquant la dame blanche. Ce coup ouvrirait également la diagonale de leur fou de cases blanches. Comment l'empêcher ?}\r\n16.Bd6\r\n    {[%wrong Il existe un coup beaucoup plus fort empêchant le pion d d'avancer. Trouvez-le !][%hint Bloquez le pion d avec une pièce !] Votre compréhension positionnelle s'améliore à vue d’œil ! Les pièces adverses sont très passives, et l'harmonie des pièces blanches restreint le jeu noir. Dans la partie, les blancs montèrent une jolie attaque sur le roque pour l'emporter.}\r\n*"
+    },
+    {
+      "fen": "r4rk1/pbq1ppbp/1p3np1/8/2P5/R2P1NP1/1B2PPBP/3QK2R w K - 1 15",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Dans cette position, le grand-maître Richard Réti conduit les pièces blanches et met la pression sur la colonne semi-ouverte a. Trouvez un fort coup positionnel rajoutant de la pression sur cette colonne et renforçant Le fou de cases noires sur la grande diagonale.",
+        "[%wrong Ce coup ne renforce pas à la fois la colonne a et la grande diagonale. Cherchez encore !][%hint Nous sommes à la recherche d'un coup de dame inattendu...]",
+        "Bien joué ! La dame blanche renforce à la fois la tour sur la colonne et le fou sur la grande diagonale. Le GMI Rubinstein répond en battant en retraite avec son cavalier pour soulager la pression que subissent les cases noires. Échangeons maintenant le meilleur défenseur de roi adverse : le fou de cases noires !",
+        "[%wrong Jouons le coup de Réti, Fxg7.][%hint Jouons le coup de Réti, Fxg7.]",
+        "Les blancs ont d'ores et déjà un solide avantage positionnel. Faut-il améliorer la position en roquant ou en prenant le pion a7 ?",
+        "[%wrong Choisissez entre ces deux options : petit roque et Txa7.][%hint Une fois que les tours auront été échangées en a7, la dame blanche aura-t-elle une case de fuite ?] Vous jouez comme un grand-maître ! Les blancs mettent leur roi en sécurité et se préparent à jouer Tb1 pour continuer à mettre la pression sur les colonnes semi-ouvertes a et b. Réti remporta une partie magnifique.",
+        "Oups, vous êtes tombé dans le piège ! Il est impossible de reprendre en a7 avec la dame, car ...Ta8 l'enfermerait..."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pbq1ppbp/1p3np1/8/2P5/R2P1NP1/1B2PPBP/3QK2R w K - 1 15\"]\r\n\r\n{Dans cette position, le grand-maître Richard Réti conduit les pièces blanches et met la pression sur la colonne semi-ouverte a. Trouvez un fort coup positionnel rajoutant de la pression sur cette colonne et renforçant Le fou de cases noires sur la grande diagonale.}\r\n15.Qa1\r\n    {[%wrong Ce coup ne renforce pas à la fois la colonne a et la grande diagonale. Cherchez encore !][%hint Nous sommes à la recherche d'un coup de dame inattendu...]}\r\n15...Ne8\r\n    {Bien joué ! La dame blanche renforce à la fois la tour sur la colonne et le fou sur la grande diagonale. Le GMI Rubinstein répond en battant en retraite avec son cavalier pour soulager la pression que subissent les cases noires. Échangeons maintenant le meilleur défenseur de roi adverse : le fou de cases noires !}\r\n16.Bxg7\r\n    {[%wrong Jouons le coup de Réti, Fxg7.][%hint Jouons le coup de Réti, Fxg7.]}\r\n16...Nxg7\r\n    {Les blancs ont d'ores et déjà un solide avantage positionnel. Faut-il améliorer la position en roquant ou en prenant le pion a7 ?}\r\n17.O-O\r\n    {[%wrong Choisissez entre ces deux options : petit roque et Txa7.][%hint Une fois que les tours auront été échangées en a7, la dame blanche aura-t-elle une case de fuite ?] Vous jouez comme un grand-maître ! Les blancs mettent leur roi en sécurité et se préparent à jouer Tb1 pour continuer à mettre la pression sur les colonnes semi-ouvertes a et b. Réti remporta une partie magnifique.}\r\n    (17.Rxa7 $2 Rxa7 {Oups, vous êtes tombé dans le piège ! Il est impossible de reprendre en a7 avec la dame, car ...Ta8 l'enfermerait...})\r\n*"
+    },
+    {
+      "fen": "r2q1rk1/pp2ppbp/1nnp2p1/8/1PPP2b1/P1N2N1P/4BPP1/R1BQ1RK1 b - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Trait aux noirs. Les blancs ont un avantage d'espace, mais les pions c4 et d4 sont sous pression. Le dernier coup joué est h3. Que faire de notre fou de cases blanches ?",
+        "[%wrong N'abandonnons pas le fou g4 !][%hint Le cavalier f3 protège le pion d4. Pour le moment...]",
+        "Ce coup intelligent attaque le pion faible c4 et tend un piège aux blancs. Sur d5?, le cavalier c3 tombe ! Il s'agit donc d'une idée intéressante, mais il y a beaucoup plus fort.",
+        "Les blancs continuent de se développer, renforcent le centre et obtiennent une position confortable. Trouvez un coup plus fort !",
+        "Cette case est trop passive. Cherchez encore !",
+        "Oups ! Notre fou est enfermé. Cherchez encore.",
+        "Ramener le fou sur sa case de départ est une perte de temps. Trouvez une idée plus active !",
+        "Excellente décision ! Les noirs suppriment le cavalier f3 et menacent ...Cxd4. Comment continuer ?",
+        "[%wrong Il existe un coup beaucoup plus fort. Trouvez-le !][%hint Certains pions blancs sont désormais en prise...]",
+        "Bien vu ! Les noirs gagnent un pion et activent un cavalier auparavant faible sur la case b6. Et le pion d4 est toujours sous pression !",
+        "Après ...Tb8, les noirs obtiennent une position solide et vont pouvoir cibler plusieurs faiblesses. Mais il y avait un coup encore plus simple gagnant un pion sans contrepartie. Trouvez-le !",
+        "Prendre un pion en attaquant le cavalier c3 non-protégé est intéressant, mais cette variante affaiblit les cases noires autour de notre roi. Trouvez comment gagner un pion grâce à une pièce jusque là assez passive."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pp2ppbp/1nnp2p1/8/1PPP2b1/P1N2N1P/4BPP1/R1BQ1RK1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont un avantage d'espace, mais les pions c4 et d4 sont sous pression. Le dernier coup joué est h3. Que faire de notre fou de cases blanches ?}\r\n1...Bxf3\r\n    {[%wrong N'abandonnons pas le fou g4 !][%hint Le cavalier f3 protège le pion d4. Pour le moment...]}\r\n    (1...Be6 $6 {Ce coup intelligent attaque le pion faible c4 et tend un piège aux blancs. Sur d5?, le cavalier c3 tombe ! Il s'agit donc d'une idée intéressante, mais il y a beaucoup plus fort.})\r\n    (1...Bf5 $6 2.Be3 {Les blancs continuent de se développer, renforcent le centre et obtiennent une position confortable. Trouvez un coup plus fort !})\r\n    (1...Bd7 $6 {Cette case est trop passive. Cherchez encore !})\r\n    (1...Bh5 $2 2.g4 {Oups ! Notre fou est enfermé. Cherchez encore.})\r\n    (1...Bc8 $2 {Ramener le fou sur sa case de départ est une perte de temps. Trouvez une idée plus active !})\r\n2.Bxf3\r\n    {Excellente décision ! Les noirs suppriment le cavalier f3 et menacent ...Cxd4. Comment continuer ?}\r\n2...Nxc4\r\n{[%wrong Il existe un coup beaucoup plus fort. Trouvez-le !][%hint Certains pions blancs sont désormais en prise...]}\r\n    {Bien vu ! Les noirs gagnent un pion et activent un cavalier auparavant faible sur la case b6. Et le pion d4 est toujours sous pression !}\r\n    (2...Nxd4 $5 3.Bxb7 {Après ...Tb8, les noirs obtiennent une position solide et vont pouvoir cibler plusieurs faiblesses. Mais il y avait un coup encore plus simple gagnant un pion sans contrepartie. Trouvez-le !})\r\n    (2...Bxd4 $5 {Prendre un pion en attaquant le cavalier c3 non-protégé est intéressant, mais cette variante affaiblit les cases noires autour de notre roi. Trouvez comment gagner un pion grâce à une pièce jusque là assez passive.})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc86e36-9cec-11e8-9b32-f76d002fac93",
+    "name": "Le jeu positionnel",
+    "path": "jeu-positionnel",
+    "description": "La tactique est un aspect important du jeu, mais elle profite généralement au joueur ayant déjà la meilleure position. Prenez le temps de bien activer vos pièces, de contrôler le centre et de mettre votre roi en sécurité. Une fois tout ceci fait, vous obtiendrez sans doute de bonnes chances tactiques.",
+    "glyphName": "board-pointing",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-AVA-positional-play-z9h.mp4",
+    "fen": "r4rk1/pbq1ppbp/1p3np1/8/2P5/R2P1NP1/1B2PPBP/Q3K2R b K - 2 15",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn1q1rk1/1b1pbppp/p3p3/1ppnP3/3P4/2PB1N2/PP1NQPPP/R1B1R1K1 b - - 6 10\"]\r\n\r\n{Trait aux noirs. Les blancs viennent de jouer Cbd2, bloquant le contrôle de la diagonale c1-h6 par leur propre fou de cases noires. Trouvez un moyen d'échanger leur fort fou de cases blanches pointé sur notre aile roi.}\r\n10...Nf4\r\n    {[%wrong Ce coup ne nous permet pas de nous débarrasser du fou de cases blanches ennemi. Cherchez encore !][%hint La case f4 n'est plus couverte... Profitez-en !]}\r\n    (10...c4 $6 11.Bc2 {Bien essayé, mais le fou de cases blanches échappe à notre attaque. Trouvez un moyen de le supprimer de l'échiquier une bonne fois pour toutes !})\r\n11.Qe3\r\n    {Bien vu ! Les noirs réalisent une fourchette sur la dame et le fou adverses. Les blancs mettent leur dame en sécurité. Emparons-nous maintenant de ce pénible fou !}\r\n11...Nxd3\r\n    {[%wrong Ce coup ne prend pas le fou de cases blanches adverse. Cherchez encore !][%hint Prenez le fou d3.] Beau travail ! Les noirs se débarrassent du puissant fou d3 et vont profiter du contrôle unilatéral du fou b7 sur les cases blanches !}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pp1b2pp/2pbpn2/3p1p2/2PP4/1P2PNP1/PB3PBP/R1Q2RK1 w - - 0 1\"]\r\n\r\n{Le fou d6 des noirs couvre une grande partie de leurs faiblesses sur cases noires. Trouvez un moyen de vous en débarrasser !}\r\n1.Ba3\r\n    {[%wrong Ce coup ne va pas nous permettre de supprimer le fou de cases noires adverse. Cherchez encore !][%hint Trouvez comment attaquer le fou d6 en forçant l'échange.]}\r\n1...Qe7\r\n    {Bon travail. Les noirs protègent leur fou de cases noires avec la dame. Échangeons-le !}\r\n2.Bxd6\r\n    {[%wrong Ce coup n'échange pas les fous. Cherchez encore !][%hint Prenez le fou d6.]}\r\n2...Qxd6\r\n    {Bien vu ! Le fou noir ne contrôlant plus la case e5, profitons-en pour y installer un cavalier !}\r\n3.Ne5\r\n    {[%wrong Non, nous souhaitons jouer Ce5 dans cette position !][%hint Jouez Ce5.] Superbe jeu positionnel ! Les blancs ont un avantage confortable.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqn1k1/pp1p1ppp/2p2b2/8/8/BPNB4/P1PP1PPP/R3Q1K1 w - - 1 14\"]\r\n\r\n{Trait aux blancs. Voyons si vous êtes capable d'obtenir un avantage positionnel ! Votre premier objectif : améliorer la position de la dame et créer une faiblesse sur le roque noir.}\r\n14.Qe4\r\n    {[%wrong Ce coup n'active pas la dame en forçant la création d'une faiblesse dans le camp noir. Cherchez encore !][%hint Comment activer la dame blanche tout en menaçant mat ?]}\r\n14...g6\r\n    {Beau boulot ! Les noirs sont obligés d'affaiblir les cases noires autour de leur roi. Activez maintenant la tour en créant une nouvelle menace !}\r\n15.Re1\r\n    {[%wrong Ce coup n'active pas la tour blanche en créant une menace. Cherchez encore !][%hint Les tours adorent les colonnes ouvertes !]}\r\n15...Nc7\r\n    {Les blancs ont terminé leur développement et obtiennent une excellente position ! Mais il reste du travail. Les noirs préparent le coup ...d5 pour prendre de l'espace au centre en attaquant la dame blanche. Ce coup ouvrirait également la diagonale de leur fou de cases blanches. Comment l'empêcher ?}\r\n16.Bd6\r\n    {[%wrong Il existe un coup beaucoup plus fort empêchant le pion d d'avancer. Trouvez-le !][%hint Bloquez le pion d avec une pièce !] Votre compréhension positionnelle s'améliore à vue d’œil ! Les pièces adverses sont très passives, et l'harmonie des pièces blanches restreint le jeu noir. Dans la partie, les blancs montèrent une jolie attaque sur le roque pour l'emporter.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pbq1ppbp/1p3np1/8/2P5/R2P1NP1/1B2PPBP/3QK2R w K - 1 15\"]\r\n\r\n{Dans cette position, le grand-maître Richard Réti conduit les pièces blanches et met la pression sur la colonne semi-ouverte a. Trouvez un fort coup positionnel rajoutant de la pression sur cette colonne et renforçant Le fou de cases noires sur la grande diagonale.}\r\n15.Qa1\r\n    {[%wrong Ce coup ne renforce pas à la fois la colonne a et la grande diagonale. Cherchez encore !][%hint Nous sommes à la recherche d'un coup de dame inattendu...]}\r\n15...Ne8\r\n    {Bien joué ! La dame blanche renforce à la fois la tour sur la colonne et le fou sur la grande diagonale. Le GMI Rubinstein répond en battant en retraite avec son cavalier pour soulager la pression que subissent les cases noires. Échangeons maintenant le meilleur défenseur de roi adverse : le fou de cases noires !}\r\n16.Bxg7\r\n    {[%wrong Jouons le coup de Réti, Fxg7.][%hint Jouons le coup de Réti, Fxg7.]}\r\n16...Nxg7\r\n    {Les blancs ont d'ores et déjà un solide avantage positionnel. Faut-il améliorer la position en roquant ou en prenant le pion a7 ?}\r\n17.O-O\r\n    {[%wrong Choisissez entre ces deux options : petit roque et Txa7.][%hint Une fois que les tours auront été échangées en a7, la dame blanche aura-t-elle une case de fuite ?] Vous jouez comme un grand-maître ! Les blancs mettent leur roi en sécurité et se préparent à jouer Tb1 pour continuer à mettre la pression sur les colonnes semi-ouvertes a et b. Réti remporta une partie magnifique.}\r\n    (17.Rxa7 $2 Rxa7 {Oups, vous êtes tombé dans le piège ! Il est impossible de reprendre en a7 avec la dame, car ...Ta8 l'enfermerait...})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r2q1rk1/pp2ppbp/1nnp2p1/8/1PPP2b1/P1N2N1P/4BPP1/R1BQ1RK1 b - - 0 1\"]\r\n\r\n{Trait aux noirs. Les blancs ont un avantage d'espace, mais les pions c4 et d4 sont sous pression. Le dernier coup joué est h3. Que faire de notre fou de cases blanches ?}\r\n1...Bxf3\r\n    {[%wrong N'abandonnons pas le fou g4 !][%hint Le cavalier f3 protège le pion d4. Pour le moment...]}\r\n    (1...Be6 $6 {Ce coup intelligent attaque le pion faible c4 et tend un piège aux blancs. Sur d5?, le cavalier c3 tombe ! Il s'agit donc d'une idée intéressante, mais il y a beaucoup plus fort.})\r\n    (1...Bf5 $6 2.Be3 {Les blancs continuent de se développer, renforcent le centre et obtiennent une position confortable. Trouvez un coup plus fort !})\r\n    (1...Bd7 $6 {Cette case est trop passive. Cherchez encore !})\r\n    (1...Bh5 $2 2.g4 {Oups ! Notre fou est enfermé. Cherchez encore.})\r\n    (1...Bc8 $2 {Ramener le fou sur sa case de départ est une perte de temps. Trouvez une idée plus active !})\r\n2.Bxf3\r\n    {Excellente décision ! Les noirs suppriment le cavalier f3 et menacent ...Cxd4. Comment continuer ?}\r\n2...Nxc4\r\n{[%wrong Il existe un coup beaucoup plus fort. Trouvez-le !][%hint Certains pions blancs sont désormais en prise...]}\r\n    {Bien vu ! Les noirs gagnent un pion et activent un cavalier auparavant faible sur la case b6. Et le pion d4 est toujours sous pression !}\r\n    (2...Nxd4 $5 3.Bxb7 {Après ...Tb8, les noirs obtiennent une position solide et vont pouvoir cibler plusieurs faiblesses. Mais il y avait un coup encore plus simple gagnant un pion sans contrepartie. Trouvez-le !})\r\n    (2...Bxd4 $5 {Prendre un pion en attaquant le cavalier c3 non-protégé est intéressant, mais cette variante affaiblit les cases noires autour de notre roi. Trouvez comment gagner un pion grâce à une pièce jusque là assez passive.})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "La prochaine étape dans votre apprentissage est la compréhension positionnelle.",
+    "outroText": "Un jeu positionnel pertinent peut gêner vos adversaires.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "path": "choisir-le-meilleur-coup",
+      "title": "Choisir le meilleur coup",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/ea56e24c-a55a-11e8-8599-111ef03b9f8e.e4a69554.728x410o.d578708d6c7c.png"
+    },
+    "parentId": "47af1bca-83b5-11e8-94a1-bf02a472c554",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/positional-play5d12583de4b8e.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/positional-play-566886b32c7f7f.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/positional-play-15ea23ff8d0991.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/positional-play-260cc754f60142.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 96,
+    "order": 3,
+    "section": {
+      "id": "4",
+      "name": "Avancé",
+      "level": "SECTION_LEVEL_ADVANCED",
+      "color": "purple",
+      "order": 4
+    },
+    "course": {
+      "id": "ea56e24c-a55a-11e8-8599-111ef03b9f8e",
+      "name": "Choisir le meilleur coup",
+      "path": "choisir-le-meilleur-coup",
+      "order": 2
+    }
+  }
+}

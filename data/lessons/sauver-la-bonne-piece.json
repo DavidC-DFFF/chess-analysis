@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer-aux-echecs/sauver-la-bonne-piece",
+  "capturedAt": "2026-10-22T13:42:28.552Z",
+  "title": "Sauver la bonne pièce",
+  "exercises": [
+    {
+      "fen": "6k1/1p2q1pp/8/3p2N1/1R1P4/P7/5PP1/5BK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e7g5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;g5;persistent;true,e7b4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;b4;persistent;true]Quelle pièce devez-vous mettre à l'abri ?",
+        "[%wrong Bien essayé, mais ce coup ne défend pas votre pièce en prise. Réessayez.][%c_arrow a3b4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a3;to;b4;persistent;true][%hint La tour est défendue par un pion, mais qu'est-ce qui défend votre cavalier ?]Bravo d'avoir mis votre cavalier en sécurité ! Votre tour est bien protégée par un pion.",
+        "[%c_arrow a3b4;color;rgba(72%2C%20193%2C%20249%2C%200.8);opacity;0.8;from;a3;to;b4;persistent;true]Bravo d'avoir mis votre cavalier en sécurité ! Votre tour est bien protégée par un pion.",
+        "[%c_arrow e3g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g1;persistent;true,e3f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;f4;persistent;true]Idée créative, mais ce coup perd du matériel. Essayez de déplacer votre cavalier."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1p2q1pp/8/3p2N1/1R1P4/P7/5PP1/5BK1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/Mc8eEvHDY/lesson-editor\"]\r\n\r\n{[%c_arrow e7g5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;g5;persistent;true,e7b4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;b4;persistent;true]Quelle pièce devez-vous mettre à l'abri ?} 1. Nf3 {[%wrong Bien essayé, mais ce coup ne défend pas votre pièce en prise. Réessayez.][%c_arrow a3b4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a3;to;b4;persistent;true][%hint La tour est défendue par un pion, mais qu'est-ce qui défend votre cavalier ?]Bravo d'avoir mis votre cavalier en sécurité ! Votre tour est bien protégée par un pion.} (1. Nh3!! {[%c_arrow a3b4;color;rgba(72%2C%20193%2C%20249%2C%200.8);opacity;0.8;from;a3;to;b4;persistent;true]Bravo d'avoir mis votre cavalier en sécurité ! Votre tour est bien protégée par un pion.}) (1. f4? Qe3+ {[%c_arrow e3g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g1;persistent;true,e3f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;f4;persistent;true]Idée créative, mais ce coup perd du matériel. Essayez de déplacer votre cavalier.}) *"
+    },
+    {
+      "fen": "2rr2k1/5pp1/2n1p3/3pQ3/1B1P4/4P1P1/5P1P/5RK1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow c6e5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;e5;persistent;true,c6b4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;b4;persistent;true] Et maintenant ?",
+        "[%hint Votre pièce la plus puissante sur l'échiquier est attaquée — déplacez-la sur une case sûre.][%wrong Bien essayé, mais votre pièce la plus puissante peut encore être prise. Réessayez.]Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.",
+        "Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.",
+        "Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.",
+        "Bien essayé, mais ce coup perd votre dame. Essayez de trouver un coup plus sûr pour la dame.",
+        "Bien essayé, mais ce coup perd votre dame. Essayez de trouver un coup plus sûr pour la dame."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr2k1/5pp1/2n1p3/3pQ3/1B1P4/4P1P1/5P1P/5RK1 w - - 0 1\"]\r\n\r\n{[%c_arrow c6e5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;e5;persistent;true,c6b4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;b4;persistent;true] Et maintenant ?} 1. Qh5 {[%hint Votre pièce la plus puissante sur l'échiquier est attaquée — déplacez-la sur une case sûre.][%wrong Bien essayé, mais votre pièce la plus puissante peut encore être prise. Réessayez.]Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.} (1. Qg5!! {Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.}) (1. Qf4!! {Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.}) (1. Qd6? Rxd6 {Bien essayé, mais ce coup perd votre dame. Essayez de trouver un coup plus sûr pour la dame.}) (1. Bd6? Nxe5 {Bien essayé, mais ce coup perd votre dame. Essayez de trouver un coup plus sûr pour la dame.}) *"
+    },
+    {
+      "fen": "5nk1/5pp1/3bp3/3p4/3P1R2/N2P2P1/5P1P/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,d6a3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;a3;persistent;true]Vous ne pouvez sauver qu'une seule pièce.",
+        "[%wrong Bien essayé, mais vos pièces sont toujours en prise. Essayez de mettre à l'abri une pièce non protégée.][%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true][%hint Mets la pièce non protégée en sécurité.] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.",
+        "[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.",
+        "[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.",
+        "Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.",
+        "Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.",
+        "Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5nk1/5pp1/3bp3/3p4/3P1R2/N2P2P1/5P1P/6K1 w - - 0 1\"]\r\n\r\n{[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,d6a3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;a3;persistent;true]Vous ne pouvez sauver qu'une seule pièce.} 1. Nb5 {[%wrong Bien essayé, mais vos pièces sont toujours en prise. Essayez de mettre à l'abri une pièce non protégée.][%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true][%hint Mets la pièce non protégée en sécurité.] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.} (1. Nc2!! {[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.}) (1. Nb1!! {[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.}) (1. Rf3? Bxa3 {Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.}) (1. Rg4? Bxa3 {Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.}) (1. Rh4? Bxa3 {Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.}) *"
+    },
+    {
+      "fen": "1r6/5Npk/1p5p/3b4/1P6/5P1P/R5P1/6K1 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow d5f7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d5;to;f7;persistent;true,d5a2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d5;to;a2;persistent;true]Pouvez-vous sauver les deux pièces ici ?",
+        "[%hint Votre tour et votre cavalier sont tous les deux en prise. Y a-t-il un moyen de défendre les deux pièces en toute sécurité ?][%wrong Bien essayé, mais vous perdez du matériel après ce coup. Vous pouvez utiliser un indice.]Excellent travail : vous avez trouvé un moyen de sauver votre tour et de défendre le cavalier en même temps.",
+        "Bien essayé, mais ce coup perd votre cavalier. Pouvez-vous défendre les deux pièces ?"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r6/5Npk/1p5p/3b4/1P6/5P1P/R5P1/6K1 w - - 0 1\"]\r\n\r\n{[%c_arrow d5f7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d5;to;f7;persistent;true,d5a2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d5;to;a2;persistent;true]Pouvez-vous sauver les deux pièces ici ?} 1. Ra7 {[%hint Votre tour et votre cavalier sont tous les deux en prise. Y a-t-il un moyen de défendre les deux pièces en toute sécurité ?][%wrong Bien essayé, mais vous perdez du matériel après ce coup. Vous pouvez utiliser un indice.]Excellent travail : vous avez trouvé un moyen de sauver votre tour et de défendre le cavalier en même temps.} (1. Rd2? Bxf7 {Bien essayé, mais ce coup perd votre cavalier. Pouvez-vous défendre les deux pièces ?}) *"
+    },
+    {
+      "fen": "2k5/2p5/8/6R1/8/4n1PP/1r3PK1/5R2 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_arrow e3g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g2;persistent;true,e3f1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;f1;persistent;true] Comment les blancs peuvent-ils garder leur avantage ?",
+        "[%c_arrow g1f1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g1;to;f1;persistent;true][%wrong Ce coup est illégal.][%hint Déplacez votre roi sur une case où il défend une tour.]Bien joué ! Votre roi défend la tour menacée — vous gardez votre avantage matériel.",
+        "Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.",
+        "Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.",
+        "Bien essayé, mais ce coup perd une tour gratuitement. Réessaye."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/2p5/8/6R1/8/4n1PP/1r3PK1/5R2 w - - 0 1\"]\r\n\r\n{[%c_arrow e3g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g2;persistent;true,e3f1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;f1;persistent;true] Comment les blancs peuvent-ils garder leur avantage ?} 1. Kg1 {[%c_arrow g1f1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g1;to;f1;persistent;true][%wrong Ce coup est illégal.][%hint Déplacez votre roi sur une case où il défend une tour.]Bien joué ! Votre roi défend la tour menacée — vous gardez votre avantage matériel.} (1. Kf3? Nxf1 {Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.}) (1. Kh2? Nxf1+ {Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.}) (1. Kh1? Nxf1 {Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0bc5c272-6691-11f1-b6ce-1a39a9e5840d",
+    "name": "Sauver la bonne pièce",
+    "path": "sauver-la-bonne-piece",
+    "description": "Apprenez à sauver la bonne pièce lorsque vous êtes attaqué.",
+    "glyphName": "utility-balance",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"6k1/1p2q1pp/8/3p2N1/1R1P4/P7/5PP1/5BK1 w - - 0 1\"]\r\n[Link \"https://www.chess.com/analysis/game/pgn/Mc8eEvHDY/lesson-editor\"]\r\n\r\n{[%c_arrow e7g5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;g5;persistent;true,e7b4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e7;to;b4;persistent;true]Quelle pièce devez-vous mettre à l'abri ?} 1. Nf3 {[%wrong Bien essayé, mais ce coup ne défend pas votre pièce en prise. Réessayez.][%c_arrow a3b4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;a3;to;b4;persistent;true][%hint La tour est défendue par un pion, mais qu'est-ce qui défend votre cavalier ?]Bravo d'avoir mis votre cavalier en sécurité ! Votre tour est bien protégée par un pion.} (1. Nh3!! {[%c_arrow a3b4;color;rgba(72%2C%20193%2C%20249%2C%200.8);opacity;0.8;from;a3;to;b4;persistent;true]Bravo d'avoir mis votre cavalier en sécurité ! Votre tour est bien protégée par un pion.}) (1. f4? Qe3+ {[%c_arrow e3g1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g1;persistent;true,e3f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;f4;persistent;true]Idée créative, mais ce coup perd du matériel. Essayez de déplacer votre cavalier.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2rr2k1/5pp1/2n1p3/3pQ3/1B1P4/4P1P1/5P1P/5RK1 w - - 0 1\"]\r\n\r\n{[%c_arrow c6e5;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;e5;persistent;true,c6b4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;c6;to;b4;persistent;true] Et maintenant ?} 1. Qh5 {[%hint Votre pièce la plus puissante sur l'échiquier est attaquée — déplacez-la sur une case sûre.][%wrong Bien essayé, mais votre pièce la plus puissante peut encore être prise. Réessayez.]Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.} (1. Qg5!! {Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.}) (1. Qf4!! {Bravo d'avoir mis votre dame en sécurité, elle vaut bien plus que votre fou en prise.}) (1. Qd6? Rxd6 {Bien essayé, mais ce coup perd votre dame. Essayez de trouver un coup plus sûr pour la dame.}) (1. Bd6? Nxe5 {Bien essayé, mais ce coup perd votre dame. Essayez de trouver un coup plus sûr pour la dame.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"5nk1/5pp1/3bp3/3p4/3P1R2/N2P2P1/5P1P/6K1 w - - 0 1\"]\r\n\r\n{[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,d6a3;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;a3;persistent;true]Vous ne pouvez sauver qu'une seule pièce.} 1. Nb5 {[%wrong Bien essayé, mais vos pièces sont toujours en prise. Essayez de mettre à l'abri une pièce non protégée.][%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true][%hint Mets la pièce non protégée en sécurité.] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.} (1. Nc2!! {[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.}) (1. Nb1!! {[%c_arrow d6f4;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d6;to;f4;persistent;true,g3f4;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g3;to;f4;persistent;true] Bien joué ! Un cavalier vaut plus qu'une tour échangée contre un fou.}) (1. Rf3? Bxa3 {Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.}) (1. Rg4? Bxa3 {Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.}) (1. Rh4? Bxa3 {Celle-ci était délicate ! On comprend l'envie de sauver la tour, mais perdre un cavalier entier coûte plus de points qu'échanger votre tour contre le fou adverse.}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"1r6/5Npk/1p5p/3b4/1P6/5P1P/R5P1/6K1 w - - 0 1\"]\r\n\r\n{[%c_arrow d5f7;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d5;to;f7;persistent;true,d5a2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;d5;to;a2;persistent;true]Pouvez-vous sauver les deux pièces ici ?} 1. Ra7 {[%hint Votre tour et votre cavalier sont tous les deux en prise. Y a-t-il un moyen de défendre les deux pièces en toute sécurité ?][%wrong Bien essayé, mais vous perdez du matériel après ce coup. Vous pouvez utiliser un indice.]Excellent travail : vous avez trouvé un moyen de sauver votre tour et de défendre le cavalier en même temps.} (1. Rd2? Bxf7 {Bien essayé, mais ce coup perd votre cavalier. Pouvez-vous défendre les deux pièces ?}) *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"2k5/2p5/8/6R1/8/4n1PP/1r3PK1/5R2 w - - 0 1\"]\r\n\r\n{[%c_arrow e3g2;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;g2;persistent;true,e3f1;color;rgba(248%2C%2085%2C%2063%2C%200.8);opacity;0.8;from;e3;to;f1;persistent;true] Comment les blancs peuvent-ils garder leur avantage ?} 1. Kg1 {[%c_arrow g1f1;color;rgba(255%2C%20170%2C%200%2C%200.8);opacity;0.8;from;g1;to;f1;persistent;true][%wrong Ce coup est illégal.][%hint Déplacez votre roi sur une case où il défend une tour.]Bien joué ! Votre roi défend la tour menacée — vous gardez votre avantage matériel.} (1. Kf3? Nxf1 {Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.}) (1. Kh2? Nxf1+ {Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.}) (1. Kh1? Nxf1 {Bien essayé, mais ce coup perd une tour gratuitement. Réessaye.}) *"
+    ],
+    "courseId": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Apprenez à sauver la bonne pièce lorsque vous êtes attaqué.",
+    "outroText": "Vous savez maintenant comment sauver la bonne pièce — bien joué !",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "path": "jouer-aux-echecs",
+      "title": "Jouer une partie"
+    },
+    "parentId": "5824f402-18b3-11f1-8fb3-3da2a261b851"
+  },
+  "curriculum": {
+    "number": 20,
+    "order": 8,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "8c0f51c0-5942-11f1-9cbe-1a39a9e5840b",
+      "name": "Jouer une partie",
+      "path": "jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}

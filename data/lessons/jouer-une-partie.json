@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/jouer/jouer-une-partie",
+  "capturedAt": "2026-10-22T12:23:28.308Z",
+  "title": "Jouer une partie",
+  "exercises": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Commençons par ouvrir en déplaçant le pion du roi de deux cases, pour occuper le centre.",
+        "[%wrong Ce n'est pas le bon coup. Essayez encore.][%hint Déplacez le pion placé devant le roi sur la case e4.]",
+        "Ce coup de pion occupe également le centre, mais nous allons cette fois-ci jouer le pion du roi.",
+        "Bien joué ! Nous avons placé un pion au centre et ouvert des lignes pour notre fou et notre dame. La réponse des noirs ne contrôle pas immédiatement le centre. Profitons-en pour y placer un deuxième pion !",
+        "[%wrong Ce coup ne place pas un deuxième pion au centre. Essayez encore.][%hint Il faut jouer le pion de la dame.]",
+        "Bien essayé, mais rappelez-vous : un pion peut se déplacer de deux cases lors de son premier coup. Essayez encore !",
+        "Très bien ! Les pions blancs occupent maintenant le centre."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{Commençons par ouvrir en déplaçant le pion du roi de deux cases, pour occuper le centre.}\r\n1.e4\r\n    {[%wrong Ce n'est pas le bon coup. Essayez encore.][%hint Déplacez le pion placé devant le roi sur la case e4.]}\r\n    (1.d4 $1 {Ce coup de pion occupe également le centre, mais nous allons cette fois-ci jouer le pion du roi.})\r\n1...c6\r\n    {Bien joué ! Nous avons placé un pion au centre et ouvert des lignes pour notre fou et notre dame. La réponse des noirs ne contrôle pas immédiatement le centre. Profitons-en pour y placer un deuxième pion !}\r\n2.d4\r\n    {[%wrong Ce coup ne place pas un deuxième pion au centre. Essayez encore.][%hint Il faut jouer le pion de la dame.]}\r\n    (2.d3 $2 {Bien essayé, mais rappelez-vous : un pion peut se déplacer de deux cases lors de son premier coup. Essayez encore !})\r\n2...d5\r\n    {Très bien ! Les pions blancs occupent maintenant le centre.}\r\n*"
+    },
+    {
+      "fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs menacent de prendre le pion e4. Trouvez un moyen de le protéger tout en développant un cavalier.",
+        "[%wrong Ce coup ne développe pas un cavalier tout en protégeant le pion e4. Essayez encore !][%hint Il faut jouer le cavalier b1.]",
+        "Ce choix a des mérites, mais il enferme le fou c1, qui va avoir du mal à entrer en jeu. Essayez de trouver un coup plus actif avec ce cavalier.",
+        "Excellent ! Les blancs se développent en protégeant le pion e4. Comment récupérer immédiatement le matériel que les noirs viennent de capturer ?",
+        "[%wrong Ce coup ne récupère pas le pion. Essayez encore.][%hint Utilisez le cavalier que vous avez développé à cet effet.] Très bien ! Le cavalier restaure l'égalité matérielle et vient se poster au centre de l'échiquier."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{Les noirs menacent de prendre le pion e4. Trouvez un moyen de le protéger tout en développant un cavalier.}\r\n1.Nc3\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en protégeant le pion e4. Essayez encore !][%hint Il faut jouer le cavalier b1.]}\r\n    (1.Nd2 $1 {Ce choix a des mérites, mais il enferme le fou c1, qui va avoir du mal à entrer en jeu. Essayez de trouver un coup plus actif avec ce cavalier.})\r\n1...dxe4\r\n    {Excellent ! Les blancs se développent en protégeant le pion e4. Comment récupérer immédiatement le matériel que les noirs viennent de capturer ?}\r\n2.Nxe4\r\n    {[%wrong Ce coup ne récupère pas le pion. Essayez encore.][%hint Utilisez le cavalier que vous avez développé à cet effet.] Très bien ! Le cavalier restaure l'égalité matérielle et vient se poster au centre de l'échiquier.}\r\n*"
+    },
+    {
+      "fen": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les blancs veulent mettre la pression sur la case f7. Développez un fou pour attaquer cette case tout en aidant à contrôler le centre.",
+        "[%wrong Ce coup ne développe pas un fou en attaquant le pion f7. Essayez encore !][%hint Jouez le fou blanc en f1.] Bien joué, en se postant sur cette diagonale active, votre fou met la pression sur le pion f7 des noirs."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 0 1\"]\r\n\r\n{Les blancs veulent mettre la pression sur la case f7. Développez un fou pour attaquer cette case tout en aidant à contrôler le centre.}\r\n1.Bc4\r\n    {[%wrong Ce coup ne développe pas un fou en attaquant le pion f7. Essayez encore !][%hint Jouez le fou blanc en f1.] Bien joué, en se postant sur cette diagonale active, votre fou met la pression sur le pion f7 des noirs.}\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Le cavalier blanc en e4 est attaqué par le cavalier f6. Mettez le en sécurité tout en aidant le fou c4 à attaquer le pion f7.",
+        "[%wrong Ce coup ne met pas le cavalier en sûreté tout en attaquant le pion f7. Essayez encore.][%hint Placez votre cavalier sur la colonne g.] Voilà ! Le cavalier se joint à l'attaque !",
+        "Ce coup attaque le pion f7 et met le roi en échec, mais les noirs peuvent simplement s'emparer du cavalier. Trouvez un moyen moins risqué d'attaquer f7.",
+        "Échanger les cavaliers n'est pas une erreur, mais ce coup aide les noirs à se développer. Trouvez un moyen d'attaquer f7 !",
+        "Ce coup agressif est prématuré. Les noirs peuvent simplement prendre avec le roi et les blancs ont un déficit matériel. Essayez de ramener une nouvelle pièce à l'attaque de f7 !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 0 1\"]\r\n\r\n{Le cavalier blanc en e4 est attaqué par le cavalier f6. Mettez le en sécurité tout en aidant le fou c4 à attaquer le pion f7.}\r\n1.Ng5\r\n    {[%wrong Ce coup ne met pas le cavalier en sûreté tout en attaquant le pion f7. Essayez encore.][%hint Placez votre cavalier sur la colonne g.] Voilà ! Le cavalier se joint à l'attaque !}\r\n    (1.Nd6+ $2 exd6 {Ce coup attaque le pion f7 et met le roi en échec, mais les noirs peuvent simplement s'emparer du cavalier. Trouvez un moyen moins risqué d'attaquer f7.})\r\n    (1.Nxf6+ $2 Nxf6 {Échanger les cavaliers n'est pas une erreur, mais ce coup aide les noirs à se développer. Trouvez un moyen d'attaquer f7 !})\r\n    (1.Bxf7+ $2 Kxf7 {Ce coup agressif est prématuré. Les noirs peuvent simplement prendre avec le roi et les blancs ont un déficit matériel. Essayez de ramener une nouvelle pièce à l'attaque de f7 !})\r\n*"
+    },
+    {
+      "fen": "r1bqkb1r/pp1nppp1/2p2n1p/6N1/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 0 2",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Les noirs attaquent le cavalier par ...h6 pour le forcer à battre en retraite. Grave erreur ! Parviendrez-vous à trouver le coup gagnant ?",
+        "[%wrong Bien essayé, mais il y a beaucoup plus fort. Essayez encore !][%hint Le cavalier et le fou sont braqués sur la case f7. L'un d'entre eux a un gros potentiel !] Bravo ! Le fou qui donne échec est protégé par son cavalier, et le roi noir ne peut s'échapper. Par conséquent, c'est échec et mat !",
+        "Ce coup est très bon. Il permet de gagner un pion et attaque simultanément la dame et la tour adverse. Mais il y avait possibilité de remporter la partie en un coup seulement. A vous de trouver comment !"
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1nppp1/2p2n1p/6N1/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 0 2\"]\r\n\r\n{Les noirs attaquent le cavalier par ...h6 pour le forcer à battre en retraite. Grave erreur ! Parviendrez-vous à trouver le coup gagnant ?}\r\n2.Bxf7#\r\n    {[%wrong Bien essayé, mais il y a beaucoup plus fort. Essayez encore !][%hint Le cavalier et le fou sont braqués sur la case f7. L'un d'entre eux a un gros potentiel !] Bravo ! Le fou qui donne échec est protégé par son cavalier, et le roi noir ne peut s'échapper. Par conséquent, c'est échec et mat !}\r\n    (2.Nxf7 $2 {Ce coup est très bon. Il permet de gagner un pion et attaque simultanément la dame et la tour adverse. Mais il y avait possibilité de remporter la partie en un coup seulement. A vous de trouver comment !})\r\n*"
+    }
+  ],
+  "sourceLesson": {
+    "id": "0db55ad6-9ce4-11e8-8b3b-d3320bf3f8c7",
+    "name": "Jouer une partie",
+    "path": "jouer-une-partie",
+    "description": "Suivez une partie d’échec commentée dans son intégralité : 1.e4 c6. Les deux camps avancent un pion vers le centre. 2.d4 d5. Les deux camps placent un second pion au centre et permettent à leurs pièces de sortir. 3.Cc3 dxe4 Les blancs défendent leur pion e4 avec un cavalier, mais les noirs le capturent tout de même. 4.Cxe4 Cd7 Les blancs reprennent le pion et les noirs développent un cavalier. 5.Fc4 Cgf6 Les blancs développent un fou et les noirs répondent en développant un second cavalier. 6.Cg5 h6 Les blancs attaquent le pion f7, mais les noirs ne voient pas la menace et tentent de repousser le cavalier avec un pion. 7.Fxf7# Echec et mat !",
+    "glyphName": "board-analysis",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "videoUrl": "https://media.chesscomfiles.com/videos/square/FRA-NOU-a-master-chess-game-t5n.mp4",
+    "fen": "r1bqkb1r/pp1npBp1/2p2n1p/6N1/3P4/8/PPP2PPP/R1BQK1NR w KQkq - 0 1",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n\r\n{Commençons par ouvrir en déplaçant le pion du roi de deux cases, pour occuper le centre.}\r\n1.e4\r\n    {[%wrong Ce n'est pas le bon coup. Essayez encore.][%hint Déplacez le pion placé devant le roi sur la case e4.]}\r\n    (1.d4 $1 {Ce coup de pion occupe également le centre, mais nous allons cette fois-ci jouer le pion du roi.})\r\n1...c6\r\n    {Bien joué ! Nous avons placé un pion au centre et ouvert des lignes pour notre fou et notre dame. La réponse des noirs ne contrôle pas immédiatement le centre. Profitons-en pour y placer un deuxième pion !}\r\n2.d4\r\n    {[%wrong Ce coup ne place pas un deuxième pion au centre. Essayez encore.][%hint Il faut jouer le pion de la dame.]}\r\n    (2.d3 $2 {Bien essayé, mais rappelez-vous : un pion peut se déplacer de deux cases lors de son premier coup. Essayez encore !})\r\n2...d5\r\n    {Très bien ! Les pions blancs occupent maintenant le centre.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1\"]\r\n\r\n{Les noirs menacent de prendre le pion e4. Trouvez un moyen de le protéger tout en développant un cavalier.}\r\n1.Nc3\r\n    {[%wrong Ce coup ne développe pas un cavalier tout en protégeant le pion e4. Essayez encore !][%hint Il faut jouer le cavalier b1.]}\r\n    (1.Nd2 $1 {Ce choix a des mérites, mais il enferme le fou c1, qui va avoir du mal à entrer en jeu. Essayez de trouver un coup plus actif avec ce cavalier.})\r\n1...dxe4\r\n    {Excellent ! Les blancs se développent en protégeant le pion e4. Comment récupérer immédiatement le matériel que les noirs viennent de capturer ?}\r\n2.Nxe4\r\n    {[%wrong Ce coup ne récupère pas le pion. Essayez encore.][%hint Utilisez le cavalier que vous avez développé à cet effet.] Très bien ! Le cavalier restaure l'égalité matérielle et vient se poster au centre de l'échiquier.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 0 1\"]\r\n\r\n{Les blancs veulent mettre la pression sur la case f7. Développez un fou pour attaquer cette case tout en aidant à contrôler le centre.}\r\n1.Bc4\r\n    {[%wrong Ce coup ne développe pas un fou en attaquant le pion f7. Essayez encore !][%hint Jouez le fou blanc en f1.] Bien joué, en se postant sur cette diagonale active, votre fou met la pression sur le pion f7 des noirs.}\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1npppp/2p2n2/8/2BPN3/8/PPP2PPP/R1BQK1NR w KQkq - 0 1\"]\r\n\r\n{Le cavalier blanc en e4 est attaqué par le cavalier f6. Mettez le en sécurité tout en aidant le fou c4 à attaquer le pion f7.}\r\n1.Ng5\r\n    {[%wrong Ce coup ne met pas le cavalier en sûreté tout en attaquant le pion f7. Essayez encore.][%hint Placez votre cavalier sur la colonne g.] Voilà ! Le cavalier se joint à l'attaque !}\r\n    (1.Nd6+ $2 exd6 {Ce coup attaque le pion f7 et met le roi en échec, mais les noirs peuvent simplement s'emparer du cavalier. Trouvez un moyen moins risqué d'attaquer f7.})\r\n    (1.Nxf6+ $2 Nxf6 {Échanger les cavaliers n'est pas une erreur, mais ce coup aide les noirs à se développer. Trouvez un moyen d'attaquer f7 !})\r\n    (1.Bxf7+ $2 Kxf7 {Ce coup agressif est prématuré. Les noirs peuvent simplement prendre avec le roi et les blancs ont un déficit matériel. Essayez de ramener une nouvelle pièce à l'attaque de f7 !})\r\n*",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"r1bqkb1r/pp1nppp1/2p2n1p/6N1/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 0 2\"]\r\n\r\n{Les noirs attaquent le cavalier par ...h6 pour le forcer à battre en retraite. Grave erreur ! Parviendrez-vous à trouver le coup gagnant ?}\r\n2.Bxf7#\r\n    {[%wrong Bien essayé, mais il y a beaucoup plus fort. Essayez encore !][%hint Le cavalier et le fou sont braqués sur la case f7. L'un d'entre eux a un gros potentiel !] Bravo ! Le fou qui donne échec est protégé par son cavalier, et le roi noir ne peut s'échapper. Par conséquent, c'est échec et mat !}\r\n    (2.Nxf7 $2 {Ce coup est très bon. Il permet de gagner un pion et attaque simultanément la dame et la tour adverse. Mais il y avait possibilité de remporter la partie en un coup seulement. A vous de trouver comment !})\r\n*"
+    ],
+    "isPathLesson": true,
+    "courseId": "cae69640-a556-11e8-9fa2-e50425638fa0",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_LESSON_PATH",
+    "introText": "Essayons une petite partie d'entrainement ensemble.",
+    "outroText": "Génial. C'était une petite partie intéressante.",
+    "locale": "fr_FR",
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "path": "jouer",
+      "title": "Jouez !",
+      "imageUrl": "https://images.chesscomfiles.com/uploads/v1/lesson_course/cae69640-a556-11e8-9fa2-e50425638fa0.6f70b58e.728x410o.3924271f36b9.png"
+    },
+    "parentId": "fd12ff80-8393-11e8-9539-831d858c1219",
+    "subtitles": [
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/a-master-chess-game5e61f9219246e.en_US.vtt",
+        "languageCode": "en",
+        "languageName": "English"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/a-master-chess-game-56688c1c5585fd.tr_TR.vtt",
+        "languageCode": "tr",
+        "languageName": "Tϋrkçe"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/a-master-chess-game-660b8f4c867a6f.de_DE.vtt",
+        "languageCode": "de",
+        "languageName": "Deutsch"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/a-master-chess-game-15ea246ef1d9e2.ko_KR.vtt",
+        "languageCode": "ko",
+        "languageName": "한국어"
+      },
+      {
+        "url": "https://media.chesscomfiles.com/subtitles/una-partita-esemplare64067cf4c4795.it_IT.vtt",
+        "languageCode": "it",
+        "languageName": "Italiano"
+      }
+    ],
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 17,
+    "order": 5,
+    "section": {
+      "id": "2",
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "id": "cae69640-a556-11e8-9fa2-e50425638fa0",
+      "name": "Jouez !",
+      "path": "jouer",
+      "order": 1
+    }
+  }
+}

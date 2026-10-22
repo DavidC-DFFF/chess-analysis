@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://www.chess.com/fr/lessons/apprendre-a-jouer-aux-echecs/reagir-a-l-echec",
+  "capturedAt": "2026-10-22T12:23:26.904Z",
+  "title": "Réagir à l'échec",
+  "exercises": [
+    {
+      "fen": "8/8/8/8/8/q7/8/K7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true][%c_arrow a3a1;color;rgba(255%2C%20170%2C%200%2C%200.8);animated;true;opacity;0.8;from;a3;to;a1;persistent;true] Pouvez-vous déplacer votre roi pour sortir de l'échec ?",
+        "[%hint Choisissez une case sûre pour votre roi.] Bien joué, vous avez échappé à l'échec."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/q7/8/K7 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true][%c_arrow a3a1;color;rgba(255%2C%20170%2C%200%2C%200.8);animated;true;opacity;0.8;from;a3;to;a1;persistent;true] Pouvez-vous déplacer votre roi pour sortir de l'échec ?} 1. Kb1 {[%hint Choisissez une case sûre pour votre roi.] Bien joué, vous avez échappé à l'échec.} *"
+    },
+    {
+      "fen": "8/8/8/8/8/8/1q6/K7 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true] Pouvez-vous parer l'échec en prenant la pièce qui menace votre roi ?",
+        "[%hint Essayez de capturer la dame noire pour sortir de l'échec.] Parfait ! Votre roi peut désormais dormir sur ses 2 oreilles."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/1q6/K7 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true] Pouvez-vous parer l'échec en prenant la pièce qui menace votre roi ?} 1. Kxb2 {[%hint Essayez de capturer la dame noire pour sortir de l'échec.] Parfait ! Votre roi peut désormais dormir sur ses 2 oreilles.} *"
+    },
+    {
+      "fen": "8/8/8/8/8/q7/1R6/KR6 w - - 0 1",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true] Pouvez-vous parer l'échec en faisant bouclier avec votre tour ?",
+        "[%hint Essayez de parer la menace sur votre roi en interposant votre tour face à la dame noire.] Bien joué ! Il existe 3 façons de réagir face à un échec : prendre, intercepter ou fuir. Vous pouvez retenir PIF comme moyen mnémotechnique."
+      ],
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/q7/1R6/KR6 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true] Pouvez-vous parer l'échec en faisant bouclier avec votre tour ?} 1. Ra2 {[%hint Essayez de parer la menace sur votre roi en interposant votre tour face à la dame noire.] Bien joué ! Il existe 3 façons de réagir face à un échec : prendre, intercepter ou fuir. Vous pouvez retenir PIF comme moyen mnémotechnique.} *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "2519a30e-ec8b-11f0-8ee8-5328b91d7ce1",
+    "name": "Réagir à l'échec",
+    "path": "reagir-a-l-echec",
+    "description": "Découvrez quelles sont les solutions à adopter quand votre roi est en échec.",
+    "glyphName": "piece-rush-right-king",
+    "status": "LESSON_STATUS_NOT_COMPLETED",
+    "questions": [
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/q7/8/K7 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true][%c_arrow a3a1;color;rgba(255%2C%20170%2C%200%2C%200.8);animated;true;opacity;0.8;from;a3;to;a1;persistent;true] Pouvez-vous déplacer votre roi pour sortir de l'échec ?} 1. Kb1 {[%hint Choisissez une case sûre pour votre roi.] Bien joué, vous avez échappé à l'échec.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/8/1q6/K7 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true] Pouvez-vous parer l'échec en prenant la pièce qui menace votre roi ?} 1. Kxb2 {[%hint Essayez de capturer la dame noire pour sortir de l'échec.] Parfait ! Votre roi peut désormais dormir sur ses 2 oreilles.} *",
+      "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/q7/1R6/KR6 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true] Pouvez-vous parer l'échec en faisant bouclier avec votre tour ?} 1. Ra2 {[%hint Essayez de parer la menace sur votre roi en interposant votre tour face à la dame noire.] Bien joué ! Il existe 3 façons de réagir face à un échec : prendre, intercepter ou fuir. Vous pouvez retenir PIF comme moyen mnémotechnique.} *"
+    ],
+    "isPathLesson": true,
+    "courseId": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+    "onComplete": "LESSON_COMPLETE_ACTION_GO_TO_NEXT_LESSON",
+    "introText": "Découvrez quelles sont les solutions à adopter quand votre roi est en échec.",
+    "outroText": "Bien ! Prêt à apprendre comment faire échec et mat ?",
+    "locale": "fr_FR",
+    "isLearnToPlay": true,
+    "audioCoaches": [
+      "David_coach",
+      "Nadia_coach",
+      "Dante_coach",
+      "Mae_coach",
+      "Drwolf_coach",
+      "Sloane_coach",
+      "Calvin_coach",
+      "Ruben_coach",
+      "Mittens_coach"
+    ],
+    "content": [
+      {
+        "screens": [
+          "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"????.??.??\"]\r\n[Round \"?\"]\r\n[White \"?\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[SetUp \"1\"]\r\n[FEN \"8/8/8/8/8/q7/8/K7 w - - 0 1\"]\r\n\r\n{[%c_highlight a1;color;%23eb6150;opacity;0.8;square;a1;persistent;true][%c_arrow a3a1;color;rgba(255%2C%20170%2C%200%2C%200.8);animated;true;opacity;0.8;from;a3;to;a1;persistent;true] Quand votre roi est attaqué, il doit sortir de l'échec au prochain coup.} *"
+        ]
+      }
+    ],
+    "animationName": "avoid-check",
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "title": "Apprendre à jouer"
+    },
+    "parentId": "fdbccb9c-b4fe-11f0-8690-83431f4242a8",
+    "pathConfigurationKey": "lesson_path_l2p"
+  },
+  "curriculum": {
+    "number": 10,
+    "order": 10,
+    "section": {
+      "id": "1",
+      "name": "Apprendre à jouer",
+      "level": "SECTION_LEVEL_NEW",
+      "color": "lime",
+      "order": 1
+    },
+    "course": {
+      "id": "46e21246-ebd7-11f0-8edc-ddb931c2d5db",
+      "name": "Apprendre à jouer",
+      "path": "apprendre-a-jouer-aux-echecs",
+      "order": 1
+    }
+  }
+}
