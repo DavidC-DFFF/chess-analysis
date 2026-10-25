@@ -3569,19 +3569,41 @@ class TempoLesson {
 
 class StarLesson {
  constructor(lesson){this.lesson=lesson;this.completed=new Set();this.load(0);}
- load(index){BishopLesson.prototype.load.call(this,index);this.userColor=this.lesson.exercises[index].fen.split(' ')[1];}
+ load(index){
+  BishopLesson.prototype.load.call(this,index);this.userColor=this.lesson.exercises[index].fen.split(' ')[1];this.lastMove=null;this.line=undefined;this.game=undefined;
+  const pgn=this.lesson.exercises[index].pgn;
+  this.disallowedSan=pgn.match(/\[LESSON_DISALLOWED_MOVE_SAN "([^"]+)"\]/)?.[1]||'';
+  this.disallowedText=pgn.match(/\[LESSON_DISALLOWED_MOVE_TEXT "([^"]+)"\]/)?.[1]||'Ce coup ne répond pas à la consigne. Essaie encore.';
+ }
  canSelect(square){const piece=this.board[square];return Boolean(piece)&&(this.userColor==='w'?piece===piece.toUpperCase():piece===piece.toLowerCase());}
  move(from,to){
   if(this.solved)return {kind:'complete',text:'Exercice déjà réussi. Passe au suivant ou recommence.'};
   if(from===to)return {kind:'idle',text:'Choisis une autre case.'};
   let placement='';for(let rank=8;rank>=1;rank--){let empty=0;for(const file of 'abcdefgh'){const piece=this.board[file+rank];if(piece){if(empty)placement+=empty;empty=0;placement+=piece;}else empty++;}if(empty)placement+=empty;if(rank>1)placement+='/';}
   const game=new LessonChess(`${placement} ${this.userColor} - - 0 1`,{skipValidation:true});
-  try{game.move({from,to,promotion:'q'});}catch{this.mistakes++;return {kind:'error',text:this.board[from]?.toLowerCase()==='b'?'Le fou se déplace uniquement en diagonale. Essaie encore.':'Ce déplacement n’est pas autorisé pour cette pièce. Essaie encore.'};}
+  // A star is a capture target, although it is not displayed as an enemy piece.
+  if(this.board[from]?.toLowerCase()==='p'&&this.targets.has(to)&&!this.board[to])game.put({type:'p',color:this.userColor==='w'?'b':'w'},to);
+  let played;
+  try{played=game.move({from,to,promotion:'q'});}catch{this.mistakes++;return {kind:'error',text:this.board[from]?.toLowerCase()==='b'?'Le fou se déplace uniquement en diagonale. Essaie encore.':'Ce déplacement n’est pas autorisé pour cette pièce. Essaie encore.'};}
+  if(played.san===this.disallowedSan){this.mistakes++;return {kind:'error',text:this.disallowedText};}
   this.board={};for(const p of game.board().flat().filter(Boolean))this.board[p.square]=p.color==='w'?p.type.toUpperCase():p.type;
-  this.moves++;const captured=this.targets.delete(to);this.solved=this.targets.size===0;
+  this.moves++;this.lastMove={from,to};const captured=this.targets.delete(to);this.solved=this.targets.size===0;
   if(this.solved)this.completed.add(this.index);
   return {kind:this.solved?'success':'move',text:captured?'Étoile capturée !':'Déplacement correct. Continue vers l’étoile.'};
  }
+}
+
+// Some lessons mix normal move exercises with pedagogical star challenges.
+class LessonSession extends TempoLesson {
+ get isStarExercise(){return this.lesson.exercises[this.index].challengeType==='captureTheStar';}
+ load(index){
+  if(this.lesson.exercises[index]?.challengeType==='captureTheStar')StarLesson.prototype.load.call(this,index);
+  else super.load(index);
+ }
+ get waitingForReply(){return this.isStarExercise?false:super.waitingForReply;}
+ canSelect(square){return this.isStarExercise?StarLesson.prototype.canSelect.call(this,square):super.canSelect(square);}
+ move(from,to,options){return this.isStarExercise?StarLesson.prototype.move.call(this,from,to):super.move(from,to,options);}
+ reply(){return this.isStarExercise?{kind:'idle',text:''}:super.reply();}
 }
 
 </script>
@@ -3711,7 +3733,7 @@ globalThis.LessonProgress=LessonProgress;
 </script>
 <script id="lesson-ui">
 const catalog=JSON.parse(document.getElementById('lesson-catalog').textContent);
-let lessonData=catalog[0],session=new StarLesson(lessonData);
+let lessonData=catalog[0],session=new LessonSession(lessonData);
 const el=id=>document.getElementById(id);
 const lessonSounds=new DefaultSoundBank();
 lessonSounds.attach(el('sound-toggle'));
@@ -3739,7 +3761,7 @@ const lessonSessions=new Map([[lessonData.sourceLesson.path,session]]);
 let lessonStorage;try{lessonStorage=localStorage;}catch{}
 const lessonProgress=new LessonProgress(lessonStorage);
 lessonData=lessonProgress.resume(orderedCatalog.map(entry=>entry.lesson));
-session=lessonData.exercises[0].challengeType==='captureTheStar'?new StarLesson(lessonData):new TempoLesson(lessonData);
+session=new LessonSession(lessonData);
 lessonSessions.clear();lessonSessions.set(lessonData.sourceLesson.path,session);
 function restoreProgress(s){lessonProgress.restore(s);}
 restoreProgress(session);
@@ -3776,7 +3798,7 @@ function clearLessonDrag(){
  dragSourceImage=null;dragFrom=null;
  if(drag&&el('lesson-board').hasPointerCapture?.(drag.id))el('lesson-board').releasePointerCapture(drag.id);
 }
-const pedagogical=()=>lessonData.exercises[0].challengeType==='captureTheStar';
+const pedagogical=()=>session.isStarExercise;
 const canSelect=square=>session.canSelect(square);
 const cleanComment=text=>text.replace(/\[%[^\]]*\]/g,'').trim();
 function feedback(text,kind=''){el('lesson-feedback').textContent=text;el('lesson-feedback').dataset.kind=kind;}
@@ -3858,7 +3880,7 @@ function showLessonResult(result){
  if(session.solved)saveProgress();
  feedback(result.text+(completion?' '+completion:'')+(allDone?` Les ${lessonData.exercises.length===3?'trois':lessonData.exercises.length} exercices sont réussis ! Tu peux refaire toute la leçon.`:''),result.kind);render();
 }
-el('lesson-select').onchange=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();lessonData=catalog[Number(el('lesson-select').value)];lessonProgress.visit(lessonData);session=lessonSessions.get(lessonData.sourceLesson.path);if(!session){session=pedagogical()?new StarLesson(lessonData):new TempoLesson(lessonData);restoreProgress(session);lessonSessions.set(lessonData.sourceLesson.path,session);}session.load(0);introduction=true;introIndex=0;selected=null;hintSquare=null;feedback('');render();};
+el('lesson-select').onchange=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();lessonData=catalog[Number(el('lesson-select').value)];lessonProgress.visit(lessonData);session=lessonSessions.get(lessonData.sourceLesson.path);if(!session){session=new LessonSession(lessonData);restoreProgress(session);lessonSessions.set(lessonData.sourceLesson.path,session);}session.load(0);introduction=true;introIndex=0;selected=null;hintSquare=null;feedback('');render();};
 el('intro-previous').onclick=()=>{introIndex=Math.max(0,introIndex-1);render();};
 el('intro-next').onclick=()=>{introIndex=Math.min(introductionScreens().length-1,introIndex+1);render();};
 el('next-lesson').onclick=()=>{const index=orderedCatalog.findIndex(entry=>entry.lesson===lessonData),next=orderedCatalog[index+1];if(next){el('lesson-select').value=String(next.index);el('lesson-select').onchange();}};

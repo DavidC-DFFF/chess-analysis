@@ -42,8 +42,35 @@ test('repeating an exercise restores the board and counters',()=>{
 
 const catalog=JSON.parse(html.match(/<script type="application\/json" id="lesson-catalog">([\s\S]*?)<\/script>/)[1]);
 const tempo=catalog.find(l=>l.title==='Tempo');
-const tempoContext=vm.createContext({LessonChess:Chess});
-vm.runInContext(fs.readFileSync(new URL('../src/tempo-lesson.js',import.meta.url),'utf8')+'\nglobalThis.Tempo = TempoLesson;',tempoContext);
+const tempoContext=vm.createContext({LessonChess:Chess,BishopLesson:context.Lesson});
+vm.runInContext(fs.readFileSync(new URL('../src/tempo-lesson.js',import.meta.url),'utf8')+'\nglobalThis.Tempo = TempoLesson;globalThis.Session = LessonSession;',tempoContext);
+
+test('the pawn lesson switches between normal moves, star capture and promotion without losing progress',()=>{
+ const pawn=catalog.find(l=>l.sourceLesson.path==='le-pion');
+ const s=new tempoContext.Session(pawn);
+ assert.equal(s.move('e2','e3').kind,'success');
+ s.load(1);assert.equal(s.move('e2','e4').kind,'success');
+ s.load(2);assert.equal(s.isStarExercise,true);assert.equal(s.waitingForReply,false);assert.ok(s.targets.has('d7'));
+ assert.equal(s.move('e4','e6').kind,'error');assert.equal(s.board.e4,'P');
+ assert.equal(s.move('e4','e5').kind,'move');assert.equal(s.move('e5','e6').kind,'move');
+ const wrong=s.move('e6','e7');assert.equal(wrong.kind,'error');assert.match(wrong.text,/diagonale/);assert.equal(s.board.e6,'P');
+ assert.equal(s.move('e6','d7').kind,'success');assert.equal(s.board.d7,'P');assert.equal(s.targets.size,0);
+ s.load(3);assert.equal(s.isStarExercise,false);assert.equal(s.move('d7','d8').kind,'success');assert.equal(s.board.d8,'Q');
+ assert.equal(s.completed.size,4);
+ s.load(2);assert.equal(s.moves,0);assert.equal(s.mistakes,0);assert.equal(s.board.e4,'P');assert.ok(s.targets.has('d7'));
+ s.load(0);assert.equal(s.move('e2','e4').kind,'error');assert.equal(s.move('e2','e3').kind,'success');
+});
+
+test('every exercise selects its own engine, even in mixed lessons',()=>{
+ for(const lesson of catalog){
+  const s=new tempoContext.Session(lesson);
+  for(let i=0;i<lesson.exercises.length;i++){
+   s.load(i);const star=lesson.exercises[i].challengeType==='captureTheStar';
+   assert.equal(s.isStarExercise,star,lesson.title+' '+i);assert.equal(s.waitingForReply,false);
+   if(star)assert.ok(s.targets.size>0);else assert.ok(s.line.length>0);
+  }
+ }
+});
 test('tempo: all six expected developments are legal and keep their original explanations',()=>{
  const s=new tempoContext.Tempo(tempo);
  assert.deepEqual(tempo.exercises.map(e=>e.line[0].san),['Nc6','Bd3','Bf4','Nf3','Be3','Rc1']);
@@ -114,7 +141,7 @@ test('opponent replies can be deferred while the player position remains visible
 test('all imported lessons replay their main solutions, including pedagogical boards without kings',()=>{
  for(const data of catalog){
   const moveExercises=data.exercises.filter(e=>e.challengeType!=='captureTheStar');
-  const s=new tempoContext.Tempo({...data,exercises:moveExercises.length?moveExercises:[data.exercises[0]]});
+  const s=new tempoContext.Session({...data,exercises:moveExercises.length?moveExercises:[data.exercises[0]]});
   for(let i=0;i<moveExercises.length;i++){
    s.load(i);let guard=0;
    while(!s.solved){

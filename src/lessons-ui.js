@@ -1,5 +1,5 @@
 const catalog=JSON.parse(document.getElementById('lesson-catalog').textContent);
-let lessonData=catalog[0],session=new StarLesson(lessonData);
+let lessonData=catalog[0],session=new LessonSession(lessonData);
 const el=id=>document.getElementById(id);
 const lessonSounds=new DefaultSoundBank();
 lessonSounds.attach(el('sound-toggle'));
@@ -27,7 +27,7 @@ const lessonSessions=new Map([[lessonData.sourceLesson.path,session]]);
 let lessonStorage;try{lessonStorage=localStorage;}catch{}
 const lessonProgress=new LessonProgress(lessonStorage);
 lessonData=lessonProgress.resume(orderedCatalog.map(entry=>entry.lesson));
-session=lessonData.exercises[0].challengeType==='captureTheStar'?new StarLesson(lessonData):new TempoLesson(lessonData);
+session=new LessonSession(lessonData);
 lessonSessions.clear();lessonSessions.set(lessonData.sourceLesson.path,session);
 function restoreProgress(s){lessonProgress.restore(s);}
 restoreProgress(session);
@@ -64,7 +64,7 @@ function clearLessonDrag(){
  dragSourceImage=null;dragFrom=null;
  if(drag&&el('lesson-board').hasPointerCapture?.(drag.id))el('lesson-board').releasePointerCapture(drag.id);
 }
-const pedagogical=()=>lessonData.exercises[0].challengeType==='captureTheStar';
+const pedagogical=()=>session.isStarExercise;
 const canSelect=square=>session.canSelect(square);
 const cleanComment=text=>text.replace(/\[%[^\]]*\]/g,'').trim();
 function feedback(text,kind=''){el('lesson-feedback').textContent=text;el('lesson-feedback').dataset.kind=kind;}
@@ -146,7 +146,7 @@ function showLessonResult(result){
  if(session.solved)saveProgress();
  feedback(result.text+(completion?' '+completion:'')+(allDone?` Les ${lessonData.exercises.length===3?'trois':lessonData.exercises.length} exercices sont réussis ! Tu peux refaire toute la leçon.`:''),result.kind);render();
 }
-el('lesson-select').onchange=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();lessonData=catalog[Number(el('lesson-select').value)];lessonProgress.visit(lessonData);session=lessonSessions.get(lessonData.sourceLesson.path);if(!session){session=pedagogical()?new StarLesson(lessonData):new TempoLesson(lessonData);restoreProgress(session);lessonSessions.set(lessonData.sourceLesson.path,session);}session.load(0);introduction=true;introIndex=0;selected=null;hintSquare=null;feedback('');render();};
+el('lesson-select').onchange=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();lessonData=catalog[Number(el('lesson-select').value)];lessonProgress.visit(lessonData);session=lessonSessions.get(lessonData.sourceLesson.path);if(!session){session=new LessonSession(lessonData);restoreProgress(session);lessonSessions.set(lessonData.sourceLesson.path,session);}session.load(0);introduction=true;introIndex=0;selected=null;hintSquare=null;feedback('');render();};
 el('intro-previous').onclick=()=>{introIndex=Math.max(0,introIndex-1);render();};
 el('intro-next').onclick=()=>{introIndex=Math.min(introductionScreens().length-1,introIndex+1);render();};
 el('next-lesson').onclick=()=>{const index=orderedCatalog.findIndex(entry=>entry.lesson===lessonData),next=orderedCatalog[index+1];if(next){el('lesson-select').value=String(next.index);el('lesson-select').onchange();}};

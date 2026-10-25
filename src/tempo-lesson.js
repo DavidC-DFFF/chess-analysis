@@ -46,17 +46,39 @@ class TempoLesson {
 
 class StarLesson {
  constructor(lesson){this.lesson=lesson;this.completed=new Set();this.load(0);}
- load(index){BishopLesson.prototype.load.call(this,index);this.userColor=this.lesson.exercises[index].fen.split(' ')[1];}
+ load(index){
+  BishopLesson.prototype.load.call(this,index);this.userColor=this.lesson.exercises[index].fen.split(' ')[1];this.lastMove=null;this.line=undefined;this.game=undefined;
+  const pgn=this.lesson.exercises[index].pgn;
+  this.disallowedSan=pgn.match(/\[LESSON_DISALLOWED_MOVE_SAN "([^"]+)"\]/)?.[1]||'';
+  this.disallowedText=pgn.match(/\[LESSON_DISALLOWED_MOVE_TEXT "([^"]+)"\]/)?.[1]||'Ce coup ne répond pas à la consigne. Essaie encore.';
+ }
  canSelect(square){const piece=this.board[square];return Boolean(piece)&&(this.userColor==='w'?piece===piece.toUpperCase():piece===piece.toLowerCase());}
  move(from,to){
   if(this.solved)return {kind:'complete',text:'Exercice déjà réussi. Passe au suivant ou recommence.'};
   if(from===to)return {kind:'idle',text:'Choisis une autre case.'};
   let placement='';for(let rank=8;rank>=1;rank--){let empty=0;for(const file of 'abcdefgh'){const piece=this.board[file+rank];if(piece){if(empty)placement+=empty;empty=0;placement+=piece;}else empty++;}if(empty)placement+=empty;if(rank>1)placement+='/';}
   const game=new LessonChess(`${placement} ${this.userColor} - - 0 1`,{skipValidation:true});
-  try{game.move({from,to,promotion:'q'});}catch{this.mistakes++;return {kind:'error',text:this.board[from]?.toLowerCase()==='b'?'Le fou se déplace uniquement en diagonale. Essaie encore.':'Ce déplacement n’est pas autorisé pour cette pièce. Essaie encore.'};}
+  // A star is a capture target, although it is not displayed as an enemy piece.
+  if(this.board[from]?.toLowerCase()==='p'&&this.targets.has(to)&&!this.board[to])game.put({type:'p',color:this.userColor==='w'?'b':'w'},to);
+  let played;
+  try{played=game.move({from,to,promotion:'q'});}catch{this.mistakes++;return {kind:'error',text:this.board[from]?.toLowerCase()==='b'?'Le fou se déplace uniquement en diagonale. Essaie encore.':'Ce déplacement n’est pas autorisé pour cette pièce. Essaie encore.'};}
+  if(played.san===this.disallowedSan){this.mistakes++;return {kind:'error',text:this.disallowedText};}
   this.board={};for(const p of game.board().flat().filter(Boolean))this.board[p.square]=p.color==='w'?p.type.toUpperCase():p.type;
-  this.moves++;const captured=this.targets.delete(to);this.solved=this.targets.size===0;
+  this.moves++;this.lastMove={from,to};const captured=this.targets.delete(to);this.solved=this.targets.size===0;
   if(this.solved)this.completed.add(this.index);
   return {kind:this.solved?'success':'move',text:captured?'Étoile capturée !':'Déplacement correct. Continue vers l’étoile.'};
  }
+}
+
+// Some lessons mix normal move exercises with pedagogical star challenges.
+class LessonSession extends TempoLesson {
+ get isStarExercise(){return this.lesson.exercises[this.index].challengeType==='captureTheStar';}
+ load(index){
+  if(this.lesson.exercises[index]?.challengeType==='captureTheStar')StarLesson.prototype.load.call(this,index);
+  else super.load(index);
+ }
+ get waitingForReply(){return this.isStarExercise?false:super.waitingForReply;}
+ canSelect(square){return this.isStarExercise?StarLesson.prototype.canSelect.call(this,square):super.canSelect(square);}
+ move(from,to,options){return this.isStarExercise?StarLesson.prototype.move.call(this,from,to):super.move(from,to,options);}
+ reply(){return this.isStarExercise?{kind:'idle',text:''}:super.reply();}
 }
