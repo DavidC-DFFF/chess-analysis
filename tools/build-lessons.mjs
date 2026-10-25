@@ -63,6 +63,9 @@ const layoutMarker=/(<style id="lesson-layout">)[\s\S]*?(<\/style>)/;
 html=layoutMarker.test(html)?html.replace(layoutMarker,(_,open,close)=>open+'\n'+layout+'\n'+close):html.replace('</head>','<style id="lesson-layout">\n'+layout+'\n</style>\n</head>');
 if(!html.includes('.level-tag{'))html=html.replace('</style>','.level-tag{display:inline-block;padding:4px 9px;border-radius:5px;font-size:.83rem;font-weight:750;color:#17211d}.level-tag[data-level="lime"]{background:#c7df6d}.level-tag[data-level="green"]{background:#9ed78a}.level-tag[data-level="orange"]{background:#edb46e}.level-tag[data-level="purple"]{background:#c7a5eb}#level-select{width:100%;margin:6px 0 12px;padding:10px;background:#17211d;color:#e9ece5;border:1px solid #708069;border-radius:8px;font:inherit}#intro-position{align-self:center;color:#b7c3b5}\n</style>');
 if(!html.includes('id="lesson-sounds"'))html=html.replace('<script id="lesson-ui">','<script id="lesson-sounds"></script>\n<script id="lesson-ui">');
+if(!html.includes('id="lesson-progress"'))html=html.replace('<script id="lesson-ui">','<script id="lesson-progress"></script>\n<script id="lesson-ui">');
+if(!html.includes('id="lesson-progress-info"'))html=html.replace('</dialog>','<p class="source" id="lesson-progress-info">Dans la liste : vert = tous les exercices réussis sans erreur ni indice ; orange = leçon terminée avec des erreurs ou de l’aide ; blanc = jamais faite ou encore en cours. Le meilleur résultat de chaque exercice est conservé dans ce navigateur, même en recommençant la leçon. Les anciens résultats sans détail restent orange jusqu’à une nouvelle réussite sans erreur.</p></dialog>');
+html=html.replace('même en recommençant la leçon.','sauf si tu réinitialises la leçon : elle redevient blanche et non faite. À l’ouverture, la dernière leçon consultée qui n’est pas verte est sélectionnée.');
 html=html.replace('<p class="board-help">','<p class="board-help" id="board-help">');
 const marker = /(<script type="application\/json" id="lesson-data">)[\s\S]*?(<\/script>)/;
 if (!marker.test(html)) throw new Error('Emplacement des données de leçon absent');
@@ -73,7 +76,7 @@ const chessSource=fs.readFileSync(new URL('node_modules/chess.js/dist/cjs/chess.
 const license=fs.readFileSync(new URL('node_modules/chess.js/LICENSE',root),'utf8');
 const rules=`/* ${license.replaceAll('*/','* /')} */\n(()=>{const exports={};\n${chessSource}\nglobalThis.LessonChess=exports.Chess;})();`;
 html=html.replace(/(<script id="lesson-rules">)[\s\S]*?(<\/script>)/,(_,open,close)=>open+rules.replaceAll('</script','<\\/script')+close);
-for(const [id,path] of [['tempo-engine','src/tempo-lesson.js'],['lesson-sounds','src/sound-bank.js'],['lesson-ui','src/lessons-ui.js']]) {
+for(const [id,path] of [['tempo-engine','src/tempo-lesson.js'],['lesson-sounds','src/sound-bank.js'],['lesson-progress','src/lesson-progress.js'],['lesson-ui','src/lessons-ui.js']]) {
   const source=fs.readFileSync(new URL(path,root),'utf8');
   html=html.replace(new RegExp('(<script id="'+id+'">)[\\s\\S]*?(<\\/script>)'),(_,open,close)=>open+'\n'+source+'\n'+close);
 }

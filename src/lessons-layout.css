@@ -2,6 +2,10 @@
 .info-button:hover{background:#3b5041}
 .site-nav{align-items:center}
 .lesson-picker{padding:12px}
+#lesson-select option{background:#17211d;color:#e9ece5}
+#lesson-select option[data-status="perfect"],#lesson-select[data-status="perfect"]{color:#b9edaa}
+#lesson-select option[data-status="completed"],#lesson-select[data-status="completed"]{color:#efbf7c}
+#lesson-select[data-status="new"],#lesson-select[data-status="progress"]{color:#e9ece5}
 .feedback{min-height:0}
 .shell{grid-template-areas:"board context" "board controls";align-items:start}
 .lesson-board-area{grid-area:board;min-width:0}

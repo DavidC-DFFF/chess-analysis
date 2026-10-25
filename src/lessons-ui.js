@@ -24,10 +24,22 @@ function queueLessonReply(previousText){
 const levelInfo={SECTION_LEVEL_NEW:{name:'Apprendre à jouer',color:'lime'},SECTION_LEVEL_BEGINNER:{name:'Débutant',color:'green'},SECTION_LEVEL_INTERMEDIATE:{name:'Intermédiaire',color:'orange'},SECTION_LEVEL_ADVANCED:{name:'Avancé',color:'purple'}};
 const orderedCatalog=catalog.map((lesson,index)=>({lesson,index})).sort((a,b)=>a.lesson.libraryCurriculum.number-b.lesson.libraryCurriculum.number);
 const lessonSessions=new Map([[lessonData.sourceLesson.path,session]]);
-let savedProgress={};try{savedProgress=JSON.parse(localStorage.getItem('chess-analysis.lesson-progress')||'{}');}catch{}
-function restoreProgress(s){s.completed=new Set((savedProgress[s.lesson.sourceLesson.path]||[]).filter(i=>Number.isInteger(i)&&i>=0&&i<s.lesson.exercises.length));}
+let lessonStorage;try{lessonStorage=localStorage;}catch{}
+const lessonProgress=new LessonProgress(lessonStorage);
+lessonData=lessonProgress.resume(orderedCatalog.map(entry=>entry.lesson));
+session=lessonData.exercises[0].challengeType==='captureTheStar'?new StarLesson(lessonData):new TempoLesson(lessonData);
+lessonSessions.clear();lessonSessions.set(lessonData.sourceLesson.path,session);
+function restoreProgress(s){lessonProgress.restore(s);}
 restoreProgress(session);
-function saveProgress(){savedProgress[lessonData.sourceLesson.path]=[...session.completed];try{localStorage.setItem('chess-analysis.lesson-progress',JSON.stringify(savedProgress));}catch{}}
+function saveProgress(){lessonProgress.save(session);}
+function updateLessonStatuses(){
+ const selector=el('lesson-select');
+ for(const option of selector.options){
+  const status=lessonProgress.status(catalog[Number(option.value)]);
+  option.dataset.status=status.state;option.textContent=option.dataset.label+(status.label?' — '+status.label:'');
+ }
+ selector.dataset.status=lessonProgress.status(lessonData).state;
+}
 function lessonLevel(data){return data.libraryCurriculum.section.level;}
 function introductionScreens(){return lessonData.sourceLesson.content?.flatMap(part=>part.screens||[])||[];}
 function introductionPgn(){return introductionScreens()[introIndex]||'';}
@@ -38,9 +50,10 @@ function fillLessonSelector(){
   const curriculum=lesson.libraryCurriculum;
   const level=levelInfo[lessonLevel(lesson)],key=curriculum.section.level+':'+curriculum.course.path;
   if(key!==lastKey){group=document.createElement('optgroup');group.label=level.name+' · '+curriculum.course.name;selector.append(group);lastKey=key;}
-  const option=document.createElement('option');option.value=index;option.textContent=curriculum.number+'. '+lesson.title;group.append(option);
+  const option=document.createElement('option');option.value=index;option.dataset.label=curriculum.number+'. '+lesson.title;option.textContent=option.dataset.label;group.append(option);
  }
  selector.value=String(catalog.indexOf(lessonData));
+ updateLessonStatuses();
 }
 let dragSourceImage=null;
 let lessonPointerDrag=null,suppressLessonClick=false;
@@ -95,11 +108,11 @@ function render(){
  el('lesson-hint').disabled=Boolean(session.waitingForReply);
  el('next-exercise').hidden=introduction||!session.solved||session.index===lessonData.exercises.length-1;
  el('next-lesson').hidden=introduction||session.completed.size!==lessonData.exercises.length||orderedCatalog.at(-1).lesson===lessonData;
- el('restart-lesson').textContent=session.completed.size===lessonData.exercises.length?'Refaire toute la leçon':'Recommencer la leçon';
+ el('restart-lesson').textContent='Réinitialiser la leçon';
  el('progress-note').textContent=introduction?'Prends le temps de lire, puis passe à la pratique.':`${session.completed.size} / ${lessonData.exercises.length} exercices réussis · ${session.moves} déplacement(s) · ${session.mistakes} erreur(s)${session.hinted?' · indice utilisé':''}`;
  el('exercise-progress').replaceChildren();
  lessonData.exercises.forEach((_,i)=>{const b=document.createElement('button');b.type='button';b.textContent=(session.completed.has(i)?'✓ ':'')+(i+1);b.className=session.completed.has(i)?'done':'';b.setAttribute('aria-label',`Exercice ${i+1}${session.completed.has(i)?', déjà réussi':''}`);if(i===session.index)b.setAttribute('aria-current','step');b.onclick=()=>startExercise(i);el('exercise-progress').append(b);});
- renderBoard();fitLessonBoard();
+ updateLessonStatuses();renderBoard();fitLessonBoard();
 }
 function fitLessonBoard(){
  const wrap=el('lesson-board').parentElement;
@@ -113,7 +126,7 @@ window.addEventListener('resize',fitLessonBoard);
 el('lesson-info-toggle').onclick=()=>{clearLessonDrag();el('lesson-info').showModal();};
 el('lesson-info-close').onclick=()=>el('lesson-info').close();
 el('lesson-info').addEventListener('click',event=>{const box=event.currentTarget.getBoundingClientRect();if(event.target===event.currentTarget&&(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom))event.currentTarget.close();});
-function startExercise(index){cancelLessonReply();clearLessonDrag();lessonSounds.stop();introduction=false;session.load(index);selected=null;hintSquare=null;feedback(pedagogical()?'Capture l’étoile en un ou plusieurs déplacements.':'À toi de trouver le coup qui répond à la consigne.');render();lessonSounds.play('game-start');}
+function startExercise(index,{markStarted=true}={}){cancelLessonReply();clearLessonDrag();lessonSounds.stop();introduction=false;session.load(index);if(markStarted)lessonProgress.start(lessonData);selected=null;hintSquare=null;feedback(pedagogical()?'Capture l’étoile en un ou plusieurs déplacements.':'À toi de trouver le coup qui répond à la consigne.');render();lessonSounds.play('game-start');}
 function chooseSquare(square){
  if(introduction){feedback('Clique sur « Commencer les exercices » pour jouer.');return;}
  if(session.solved)return;
@@ -122,6 +135,7 @@ function chooseSquare(square){
  if(!selected){feedback('Sélectionne d’abord une pièce de ton camp.');return;}
  const captured=Boolean(session.board[square])||session.targets.has(square);
  const result=session.move(selected,square,{deferReply:true});if(result.kind!=='error'){selected=null;hintSquare=null;}
+ if(['error','move','success'].includes(result.kind))lessonProgress.start(lessonData);
  if(result.kind==='error')lessonSounds.play('illegal');
  else if(result.kind==='success'||result.kind==='move')lessonSounds.playMove(pedagogical()?{captured}:session.game.history({verbose:true}).at(-1),{finished:session.solved});
  showLessonResult(result);queueLessonReply(result.text);
@@ -132,16 +146,16 @@ function showLessonResult(result){
  if(session.solved)saveProgress();
  feedback(result.text+(completion?' '+completion:'')+(allDone?` Les ${lessonData.exercises.length===3?'trois':lessonData.exercises.length} exercices sont réussis ! Tu peux refaire toute la leçon.`:''),result.kind);render();
 }
-el('lesson-select').onchange=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();lessonData=catalog[Number(el('lesson-select').value)];session=lessonSessions.get(lessonData.sourceLesson.path);if(!session){session=pedagogical()?new StarLesson(lessonData):new TempoLesson(lessonData);restoreProgress(session);lessonSessions.set(lessonData.sourceLesson.path,session);}session.load(0);introduction=true;introIndex=0;selected=null;hintSquare=null;feedback('');render();};
+el('lesson-select').onchange=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();lessonData=catalog[Number(el('lesson-select').value)];lessonProgress.visit(lessonData);session=lessonSessions.get(lessonData.sourceLesson.path);if(!session){session=pedagogical()?new StarLesson(lessonData):new TempoLesson(lessonData);restoreProgress(session);lessonSessions.set(lessonData.sourceLesson.path,session);}session.load(0);introduction=true;introIndex=0;selected=null;hintSquare=null;feedback('');render();};
 el('intro-previous').onclick=()=>{introIndex=Math.max(0,introIndex-1);render();};
 el('intro-next').onclick=()=>{introIndex=Math.min(introductionScreens().length-1,introIndex+1);render();};
 el('next-lesson').onclick=()=>{const index=orderedCatalog.findIndex(entry=>entry.lesson===lessonData),next=orderedCatalog[index+1];if(next){el('lesson-select').value=String(next.index);el('lesson-select').onchange();}};
 el('start-lesson').onclick=()=>startExercise(0);
 el('next-exercise').onclick=()=>startExercise(session.index+1);
 el('restart-exercise').onclick=()=>startExercise(session.index);
-el('restart-lesson').onclick=()=>{session.completed.clear();saveProgress();startExercise(0);};
+el('restart-lesson').onclick=()=>{lessonProgress.reset(lessonData);session.completed.clear();startExercise(0,{markStarted:false});};
 el('review-intro').onclick=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();introduction=true;session.load(0);selected=null;hintSquare=null;feedback('');render();};
-el('lesson-hint').onclick=()=>{session.hinted=true;if(pedagogical()){hintSquare=Object.keys(session.board).find(canSelect);feedback('Observe les déplacements possibles de ta pièce pour rejoindre l’étoile, en plusieurs coups si nécessaire.');}else{feedback(session.line[session.cursor].hint||'Relis la consigne et cherche un coup qui atteint cet objectif.');}render();};
+el('lesson-hint').onclick=()=>{lessonProgress.start(lessonData);session.hinted=true;if(pedagogical()){hintSquare=Object.keys(session.board).find(canSelect);feedback('Observe les déplacements possibles de ta pièce pour rejoindre l’étoile, en plusieurs coups si nécessaire.');}else{feedback(session.line[session.cursor].hint||'Relis la consigne et cherche un coup qui atteint cet objectif.');}render();};
 el('lesson-board').addEventListener('dragstart',event=>event.preventDefault());
 el('lesson-board').addEventListener('pointerdown',event=>{
  const cell=event.target.closest('[data-square]'),from=cell?.dataset.square;
