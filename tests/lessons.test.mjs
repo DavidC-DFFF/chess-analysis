@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import { Chess } from 'chess.js';
+import {compileExercise} from '../tools/compile-lesson.mjs';
 
 const html=fs.readFileSync(new URL('../lecons.html',import.meta.url),'utf8');
 const lesson=JSON.parse(html.match(/<script type="application\/json" id="lesson-data">([\s\S]*?)<\/script>/)[1]);
@@ -69,6 +70,32 @@ test('tempo: illegal and unlisted legal moves preserve the exercise; reset permi
  s.move('b8','c6');assert.equal(s.move('a7','a6').kind,'complete');s.load(0);
  assert.equal(s.solved,false);assert.equal(s.mistakes,0);assert.equal(s.completed.has(0),true);
 });
+test('retreat: every annotated safe bishop move succeeds and unsafe squares still fail',()=>{
+ const source=JSON.parse(fs.readFileSync(new URL('../data/lessons/retraite-des-pieces.json',import.meta.url),'utf8'));
+ const data={...source,exercises:source.exercises.map(compileExercise)};
+ for(const to of ['h5','f5','e6','c8','h3','f3','e2']){
+  const s=new tempoContext.Tempo(data),result=s.move('g4',to);
+  assert.equal(result.kind,'success',to);assert.equal(s.board[to],'B');assert.equal(s.board.g4,undefined);
+  assert.equal(s.moves,1);assert.equal(s.mistakes,0);assert.ok(s.completed.has(0));assert.match(result.text,/sécurité/);
+ }
+ for(const to of ['d1','d7']){
+  const s=new tempoContext.Tempo(data),before=s.game.fen();
+  assert.equal(s.move('g4',to).kind,'error');assert.equal(s.game.fen(),before);assert.equal(s.mistakes,1);assert.equal(s.solved,false);
+ }
+ const s=new tempoContext.Tempo(data);s.load(7);
+ assert.equal(s.move('d4','f5').kind,'success');assert.equal(s.mistakes,0);
+});
+
+test('accepted branches follow their own continuation, delayed reply and reset',()=>{
+ const exercise=compileExercise({fen:new Chess().fen(),pgn:'1. e4 {Principal} (1. d4!! {Autre réponse} d5 {Réponse adverse} 2. c4 {Suite} (2. Nf3 $3 {Autre suite correcte})) (1. f3? {À revoir}) *'});
+ const s=new tempoContext.Tempo({exercises:[exercise]});
+ assert.equal(s.move('d2','d4',{deferReply:true}).pendingReply,true);assert.equal(s.mistakes,0);
+ assert.equal(s.reply().text,'Réponse adverse');
+ assert.equal(s.move('g1','f3').kind,'success');assert.equal(s.moves,2);
+ s.load(0);assert.equal(s.line,exercise.line);assert.equal(s.move('f2','f3').kind,'error');
+ assert.equal(s.move('e2','e4').kind,'success');
+});
+
 test('opponent replies can be deferred while the player position remains visible and input is blocked',()=>{
  const data={exercises:[{fen:new Chess().fen(),line:[
   {from:'e2',to:'e4',san:'e4',comment:'Le pion avance.',wrongMoves:[]},

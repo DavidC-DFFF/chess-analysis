@@ -104,8 +104,8 @@ function render(){
 function fitLessonBoard(){
  const wrap=el('lesson-board').parentElement;
  if(typeof matchMedia!=='function'||!matchMedia('(min-width:780px) and (min-height:650px)').matches){wrap.style.width='';return;}
- const shell=document.querySelector('.shell'),help=el('board-help'),shellStyle=getComputedStyle(shell),helpStyle=getComputedStyle(help);
- const available=shell.getBoundingClientRect().bottom-parseFloat(shellStyle.paddingBottom)-wrap.getBoundingClientRect().top-help.getBoundingClientRect().height-parseFloat(helpStyle.marginTop);
+ const shell=document.querySelector('.shell'),shellStyle=getComputedStyle(shell);
+ const available=shell.getBoundingClientRect().bottom-parseFloat(shellStyle.paddingBottom)-wrap.getBoundingClientRect().top;
  const size=Math.floor(Math.min(wrap.parentElement.clientWidth,available,700));
  if(size>0)wrap.style.width=size+'px';
 }
@@ -141,7 +141,7 @@ el('next-exercise').onclick=()=>startExercise(session.index+1);
 el('restart-exercise').onclick=()=>startExercise(session.index);
 el('restart-lesson').onclick=()=>{session.completed.clear();saveProgress();startExercise(0);};
 el('review-intro').onclick=()=>{cancelLessonReply();clearLessonDrag();lessonSounds.stop();introduction=true;session.load(0);selected=null;hintSquare=null;feedback('');render();};
-el('lesson-hint').onclick=()=>{session.hinted=true;if(pedagogical()){hintSquare=Object.keys(session.board).find(canSelect);feedback('Observe les déplacements possibles de ta pièce pour rejoindre l’étoile, en plusieurs coups si nécessaire.');}else{feedback(lessonData.exercises[session.index].line[session.cursor].hint||'Relis la consigne et cherche un coup qui atteint cet objectif.');}render();};
+el('lesson-hint').onclick=()=>{session.hinted=true;if(pedagogical()){hintSquare=Object.keys(session.board).find(canSelect);feedback('Observe les déplacements possibles de ta pièce pour rejoindre l’étoile, en plusieurs coups si nécessaire.');}else{feedback(session.line[session.cursor].hint||'Relis la consigne et cherche un coup qui atteint cet objectif.');}render();};
 el('lesson-board').addEventListener('dragstart',event=>event.preventDefault());
 el('lesson-board').addEventListener('pointerdown',event=>{
  const cell=event.target.closest('[data-square]'),from=cell?.dataset.square;

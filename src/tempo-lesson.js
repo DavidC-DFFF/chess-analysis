@@ -4,15 +4,15 @@ class TempoLesson {
   load(index) {
     if(!Number.isInteger(index)||index<0||index>=this.lesson.exercises.length)throw new Error('Exercice inconnu');
     this.index=index;this.game=new LessonChess(this.lesson.exercises[index].fen,{skipValidation:true});
-    this.userColor=this.game.turn();this.cursor=0;this.moves=0;this.mistakes=0;this.hinted=false;this.solved=false;this.targets=new Set();this.lastMove=null;this.syncBoard();
+    this.userColor=this.game.turn();this.line=this.lesson.exercises[index].line;this.cursor=0;this.moves=0;this.mistakes=0;this.hinted=false;this.solved=false;this.targets=new Set();this.lastMove=null;this.syncBoard();
   }
   syncBoard(){this.board={};for(const piece of this.game.board().flat().filter(Boolean))this.board[piece.square]=piece.color==='w'?piece.type.toUpperCase():piece.type;}
-  get waitingForReply(){return !this.solved&&this.cursor<this.lesson.exercises[this.index].line.length&&this.game.turn()!==this.userColor;}
+  get waitingForReply(){return !this.solved&&this.cursor<this.line.length&&this.game.turn()!==this.userColor;}
   canSelect(square){const p=this.game.get(square);return !this.waitingForReply&&p?.color===this.userColor;}
   applyNextMove(){
-    const node=this.lesson.exercises[this.index].line[this.cursor];
+    const node=this.line[this.cursor];
     this.game.move({from:node.from,to:node.to,promotion:node.promotion});this.lastMove={from:node.from,to:node.to};this.cursor++;
-    this.syncBoard();this.solved=this.cursor===this.lesson.exercises[this.index].line.length;
+    this.syncBoard();this.solved=this.cursor===this.line.length;
     if(this.solved)this.completed.add(this.index);
     return node.comment;
   }
@@ -24,14 +24,18 @@ class TempoLesson {
     if(this.solved)return {kind:'complete',text:'Exercice déjà réussi. Passe au suivant ou recommence.'};
     if(this.waitingForReply)return {kind:'waiting',text:'Attends la réponse adverse.'};
     if(from===to)return {kind:'idle',text:'Choisis une case d’arrivée.'};
-    const exercise=this.lesson.exercises[this.index],expected=exercise.line[this.cursor];
+    const exercise=this.lesson.exercises[this.index],expected=this.line[this.cursor];
     let attempt;
     try{attempt=this.game.move({from,to,promotion:expected.promotion||'q'});}catch{this.mistakes++;return {kind:'error',text:'Déplacement illégal : vérifie le déplacement de la pièce et la sécurité du roi.'};}
     this.game.undo();
     if(attempt.from!==expected.from||attempt.to!==expected.to||attempt.promotion!==expected.promotion){
+      const accepted=expected.acceptedMoves?.find(branch=>{const move=branch.line[0];return move.from===from&&move.to===to&&move.promotion===attempt.promotion;});
+      if(accepted)this.line=[...this.line.slice(0,this.cursor),...accepted.line];
+      else{
       this.mistakes++;
       const alternative=(expected.wrongMoves||exercise.wrongMoves).find(m=>m.from===from&&m.to===to);
       return {kind:'error',text:alternative?.comment||expected.wrong||'Ce coup est légal, mais ne répond pas à la consigne de cet exercice. Essaie encore.'};
+      }
     }
     const comments=[this.applyNextMove()];
     if(!deferReply)while(this.waitingForReply)comments.push(this.applyNextMove());

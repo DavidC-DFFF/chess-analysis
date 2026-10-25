@@ -11,24 +11,29 @@ export function compileExercise(exercise){
   if(token===')'){const frame=stack.pop();if(!frame)throw new Error('Variante non équilibrée');({current,parent}=frame);continue;}
   if(token.startsWith('{')){current.comment+=(current.comment?' ':'')+token.slice(1,-1);continue;}
   if(/^(\*|1-0|0-1|1\/2-1\/2)$/.test(token)){if(!stack.length)break;continue;}
-  if(/^\$\d+$/.test(token))continue;
+  if(/^\$\d+$/.test(token)){if(token==='$3')current.accepted=true;continue;}
   token=token.replace(/^\d+\.(?:\.\.)?/,'');if(!token||/^\.+$/.test(token))continue;
   const game=new Chess(current.fen,{skipValidation:true});
   let move;
   try{move=game.move(token.replace(/[!?]+$/,''));}catch(error){if(!stack.length)throw error;warnings.push('Variante source non légale : '+token);skipDepth=1;continue;}
-  const node={from:move.from,to:move.to,...(move.promotion?{promotion:move.promotion}:{}),san:move.san,fen:game.fen(),children:[],comment:''};
+  const node={from:move.from,to:move.to,...(move.promotion?{promotion:move.promotion}:{}),san:move.san,fen:game.fen(),children:[],comment:'',accepted:token.endsWith('!!')};
   current.children.push(node);parent=current;current=node;
  }
- const line=[];current=root;
+ function compileLine(start){
+ const line=[];let current=start;
  while(current.children.length){
   const node=current.children[0];
-  const alternatives=current.children.slice(1).map(branch=>{
+  const alternatives=current.children.slice(1).filter(branch=>!branch.accepted).map(branch=>{
    const comments=[];let child=branch;while(child){if(child.comment)comments.push(cleanComment(child.comment));child=child.children[0];}
    return {from:branch.from,to:branch.to,san:branch.san,comment:comments.filter(Boolean).join(' ')};
   });
-  line.push({from:node.from,to:node.to,...(node.promotion?{promotion:node.promotion}:{}),san:node.san,comment:cleanComment(node.comment),hint:node.comment.match(/\[%hint ([^\]]*)\]/)?.[1]||'',wrong:node.comment.match(/\[%wrong ([^\]]*)\]/)?.[1]||'',wrongMoves:alternatives});
+  const acceptedMoves=current.children.slice(1).filter(branch=>branch.accepted).map(branch=>({line:compileLine({children:[branch]})}));
+  line.push({from:node.from,to:node.to,...(node.promotion?{promotion:node.promotion}:{}),san:node.san,comment:cleanComment(node.comment),hint:node.comment.match(/\[%hint ([^\]]*)\]/)?.[1]||'',wrong:node.comment.match(/\[%wrong ([^\]]*)\]/)?.[1]||'',wrongMoves:alternatives,...(acceptedMoves.length?{acceptedMoves}:{})});
   current=node;
  }
+ return line;
+ }
+ const line=compileLine(root);
  if(!line.length)throw new Error('Exercice sans coup attendu');
  return {...exercise,prompt:cleanComment(root.comment),line,wrongMoves:line[0].wrongMoves,...(warnings.length?{warnings}:{})};
 }
