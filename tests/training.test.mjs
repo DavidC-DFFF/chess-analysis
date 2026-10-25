@@ -8,9 +8,17 @@ const html=fs.readFileSync(new URL('../ouvertures.html',import.meta.url),'utf8')
 const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
 const data=vm.runInNewContext(script.slice(script.indexOf('const raw = '),script.indexOf('const names='))+';({raw,trainingGroups})');
 
-test('les 11 ouvertures et les 12 variantes ont des coups SAN/UCI légaux et expliqués',()=>{
+test('aucune réponse ne répète une autre ligne ou ne s’arrête au milieu de sa suite',()=>{
+ const lines=data.trainingGroups.flatMap(group=>group.lines);
+ for(const a of lines)for(const b of lines){
+  if(a===b||a.moves.length>b.moves.length)continue;
+  assert.ok(!a.moves.every((move,i)=>move.uci===b.moves[i].uci),`${a.name} est incluse dans ${b.name}`);
+ }
+});
+
+test('les 11 ouvertures et les 11 variantes ont des coups SAN/UCI légaux et expliqués',()=>{
  assert.equal(data.raw.length,11);
- assert.equal(data.trainingGroups.reduce((n,g)=>n+g.lines.length,0),12);
+ assert.equal(data.trainingGroups.reduce((n,g)=>n+g.lines.length,0),11);
  const lines=[...data.raw.map(([name,,,moves])=>({name,moves:moves.map(([san,uci,note])=>({san,uci,note}))})),...data.trainingGroups.flatMap(g=>g.lines)];
  for(const line of lines){
   const game=new Chess();
@@ -63,6 +71,18 @@ function session(lineIndex=0,step=7){
  return {run:code=>vm.runInContext(code,ctx),state:()=>vm.runInContext('({step,opening,feedback,correctAnswers,wrongAnswers,assists})',ctx)};
 }
 
+test('la contre-attaque b5 conserve toute sa suite après l’échange en c6',()=>{
+ const index=data.trainingGroups[0].lines.findIndex(line=>line.name==='Contre-attaque · 5…b5');
+ const line=data.trainingGroups[0].lines[index];
+ assert.deepEqual(Array.from(line.moves.slice(9),move=>move.san),['b5','Bxb5','Qxd5','Bxc6+','Qxc6','O-O','Bb7','f3','h6','Nh3','O-O-O']);
+ const s=session(index,11);s.run('playTrainingMove("d8","d5")');
+ assert.equal(s.state().step,12);
+ assert.equal(s.state().opening.moves[s.state().step].san,'Bxc6+');
+ s.run('step=19;playTrainingMove("e8","c8")');
+ assert.equal(s.state().step,line.moves.length);
+ assert.equal(s.state().wrongAnswers,0);
+});
+
 test('une bonne réponse explique la rupture centrale',()=>{
  const s=session();s.run('playTrainingMove("d7","d5")');
  assert.equal(s.state().step,8);
@@ -112,15 +132,15 @@ test('montrer une réponse compte une aide, pas une réussite autonome',()=>{
 
 test('la rotation propose chaque variante dans l’ordre avant de recommencer',()=>{
  const s=session();const visited=new Set();
- for(let i=0;i<7;i++){s.run('startExercise()');visited.add(s.state().opening.name);assert.equal(s.state().opening.name,data.trainingGroups[0].lines[i].name);assert.equal(s.state().step,7)}
- assert.equal(visited.size,7);
+ for(let i=0;i<data.trainingGroups[0].lines.length;i++){s.run('startExercise()');visited.add(s.state().opening.name);assert.equal(s.state().opening.name,data.trainingGroups[0].lines[i].name);assert.equal(s.state().step,7)}
+ assert.equal(visited.size,data.trainingGroups[0].lines.length);
  const previous=s.state().opening.name;s.run('startExercise()');assert.notEqual(s.state().opening.name,previous);
  assert.equal(s.state().opening.name,data.trainingGroups[0].lines[0].name);
  assert.equal(s.run('trainingCycle().round'),2);
 });
 
 test('la rotation ne répète pas la même variante après un changement de réponse au dernier exercice',()=>{
- const s=session();for(let i=0;i<7;i++)s.run('startExercise()');
+ const s=session();for(let i=0;i<data.trainingGroups[0].lines.length;i++)s.run('startExercise()');
  s.run('playTrainingMove("d7","d5")');
  const current=s.state().opening.name;
  s.run('startExercise()');
@@ -139,12 +159,12 @@ test('la rotation accepte une autre branche puis passe à une variante encore no
 
 test('passer de l’aléatoire à la rotation en fin de tour continue dans l’ordre sans répéter la variante',()=>{
  const s=session();s.run('trainingOrder="random";Math.random=()=>0');
- for(let i=0;i<7;i++)s.run('startExercise()');
+ for(let i=0;i<data.trainingGroups[0].lines.length;i++)s.run('startExercise()');
  assert.equal(s.state().opening.name,data.trainingGroups[0].lines[0].name);
  s.run('trainingOrder="rotation"');
- for(let i=1;i<=7;i++){
+ for(let i=1;i<=data.trainingGroups[0].lines.length;i++){
   s.run('startExercise()');
-  assert.equal(s.state().opening.name,data.trainingGroups[0].lines[i%7].name);
+  assert.equal(s.state().opening.name,data.trainingGroups[0].lines[i%data.trainingGroups[0].lines.length].name);
  }
  assert.equal(s.run('trainingCycle().round'),2);
 });
@@ -153,8 +173,8 @@ test('le parcours aléatoire ne répète aucune variante pendant un tour',()=>{
  const s=session();s.run('trainingOrder="random"');
  for(let round=1;round<=3;round++){
   const visited=new Set();
-  for(let i=0;i<7;i++){s.run('startExercise()');visited.add(s.state().opening.name)}
-  assert.equal(visited.size,7);
+  for(let i=0;i<data.trainingGroups[0].lines.length;i++){s.run('startExercise()');visited.add(s.state().opening.name)}
+  assert.equal(visited.size,data.trainingGroups[0].lines.length);
   assert.equal(s.run('trainingCycle().round'),round);
  }
 });
