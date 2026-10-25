@@ -16,9 +16,11 @@ test('aucune réponse ne répète une autre ligne ou ne s’arrête au milieu de
  }
 });
 
-test('les 11 ouvertures et les 11 variantes ont des coups SAN/UCI légaux et expliqués',()=>{
+test('les 11 ouvertures et les 8 variantes ont des coups SAN/UCI légaux et expliqués',()=>{
  assert.equal(data.raw.length,11);
- assert.equal(data.trainingGroups.reduce((n,g)=>n+g.lines.length,0),11);
+ assert.equal(data.trainingGroups.reduce((n,g)=>n+g.lines.length,0),8);
+ assert.deepEqual(Array.from(data.trainingGroups[0].lines,line=>line.name),['Défense principale · 5…Na5','Capture du fou · 5.Bxd5','Contre-attaque · 5…b5']);
+ assert.ok(data.trainingGroups[0].lines.every(line=>line.moves[7].san==='d5'));
  const lines=[...data.raw.map(([name,,,moves])=>({name,moves:moves.map(([san,uci,note])=>({san,uci,note}))})),...data.trainingGroups.flatMap(g=>g.lines)];
  for(const line of lines){
   const game=new Chess();
@@ -91,9 +93,9 @@ test('une bonne réponse explique la rupture centrale',()=>{
 });
 
 test('le mode mélangé accepte une autre réponse étudiée et suit sa branche',()=>{
- const s=session();s.run('trainingOrder="random";playTrainingMove("f6","e4")');
- assert.equal(s.state().step,8);
- assert.equal(s.state().opening.moves[7].san,'Nxe4');
+ const s=session(0,9);s.run('trainingOrder="random";playTrainingMove("b7","b5")');
+ assert.equal(s.state().step,10);
+ assert.equal(s.state().opening.moves[9].san,'b5');
  assert.equal(s.state().wrongAnswers,0);
  const second=session(0,9);second.run('trainingOrder="random";playTrainingMove("b7","b5")');
  assert.equal(second.state().opening.moves[9].san,'b5');
@@ -101,10 +103,10 @@ test('le mode mélangé accepte une autre réponse étudiée et suit sa branche'
 });
 
 test('une variante sélectionnée s’adapte à une autre réponse du répertoire',()=>{
- const s=session();s.run('variantFilter=opening.name;playTrainingMove("f6","e4")');
- assert.equal(s.state().step,8);
+ const s=session(0,9);s.run('variantFilter=opening.name;playTrainingMove("b7","b5")');
+ assert.equal(s.state().step,10);
  assert.equal(s.state().wrongAnswers,0);
- assert.equal(s.state().opening.moves[7].san,'Nxe4');
+ assert.equal(s.state().opening.moves[9].san,'b5');
  assert.equal(s.run('variantFilter'),s.state().opening.name);
  assert.match(s.state().feedback,/Bonne réponse/);
 });
@@ -141,7 +143,7 @@ test('la rotation propose chaque variante dans l’ordre avant de recommencer',(
 
 test('la rotation ne répète pas la même variante après un changement de réponse au dernier exercice',()=>{
  const s=session();for(let i=0;i<data.trainingGroups[0].lines.length;i++)s.run('startExercise()');
- s.run('playTrainingMove("d7","d5")');
+ s.run('step=9;playTrainingMove("c6","a5")');
  const current=s.state().opening.name;
  s.run('startExercise()');
  assert.notEqual(s.state().opening.name,current);
@@ -149,9 +151,9 @@ test('la rotation ne répète pas la même variante après un changement de rép
 
 test('la rotation accepte une autre branche puis passe à une variante encore non vue',()=>{
  const s=session();s.run('startExercise()');
- s.run('playTrainingMove("f6","e4")');
- assert.equal(s.state().opening.moves[7].san,'Nxe4');
- assert.equal(s.state().step,8);
+ s.run('step=9;playTrainingMove("b7","b5")');
+ assert.equal(s.state().opening.moves[9].san,'b5');
+ assert.equal(s.state().step,10);
  assert.equal(s.state().wrongAnswers,0);
  const seen=s.run('[...trainingCycle().seen]');
  s.run('startExercise()');assert.ok(!seen.includes(s.state().opening.name));
@@ -187,7 +189,8 @@ test('changer de parcours conserve les variantes déjà vues ; recommencer ne fa
  s.run('startExercise(true)');assert.equal(s.state().opening.name,current);
  assert.equal(s.run('trainingCycle().seen.size'),3);
  s.run('trainingOrder="rotation";startExercise()');
- assert.equal(s.run('trainingCycle().seen.size'),4);
+ assert.equal(s.run('trainingCycle().seen.size'),1);
+ assert.equal(s.run('trainingCycle().round'),2);
 });
 
 test('Learn commence au premier coup et revenir en Test conserve la variante et le parcours',()=>{
@@ -207,9 +210,9 @@ test('Learn ne déclenche pas de réponse automatique et accepte une autre branc
  const s=session();s.run(script.slice(script.indexOf('function autoTurn()'),script.indexOf('function cancelReply()')));
  s.run('learningMode="learn";trainingOrder="random";step=0');
  assert.equal(s.run('autoTurn()'),false);
- s.run('step=7;playTrainingMove("f6","e4")');
- assert.equal(s.state().step,8);
- assert.equal(s.state().opening.moves[7].san,'Nxe4');
+ s.run('step=9;playTrainingMove("b7","b5")');
+ assert.equal(s.state().step,10);
+ assert.equal(s.state().opening.moves[9].san,'b5');
  assert.equal(s.state().correctAnswers,0);
  assert.equal(s.state().wrongAnswers,0);
 });
