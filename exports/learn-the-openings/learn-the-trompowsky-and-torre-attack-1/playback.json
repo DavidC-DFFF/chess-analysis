@@ -1,0 +1,1235 @@
+{
+  "sourceUrl": "https://www.chess.com/lessons/learn-the-openings/learn-the-trompowsky-and-torre-attack-1",
+  "exercises": [
+    {
+      "number": 1,
+      "fen": "rnbqkb1r/pppp1pp1/4pn1p/8/3PP2B/8/PPP2PPP/RN1QKBNR b KQkq - 0 4",
+      "pgn": "[Event \"Candidates final\"]\r\n[Site \"Moscow\"]\r\n[Date \"1974.??.??\"]\r\n[Round \"19\"]\r\n[White \"Video 1\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppp1pp1/4pn1p/8/3PP2B/8/PPP2PPP/RN1QKBNR b KQkq - 0 4\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"1974.09.16\"]\r\n[SourceVersionDate \"2019.07.15\"]\r\n\r\n{How can Black win material?} 4... g5 {[%wrong There's a better move. Try to\r\nfind a good way to break the pin on your knight.] [%hint Break the pin on your\r\nknight and make a threat.]} (4... Nxe4 $2 5. Bxd8 {White is winning. Try again.\r\n}) (4... Be7 $2 5. Bd3 {White is OK. Try again.}) 5. Bg3 {Good move! What's\r\nnext?} Nxe4 {[%wrong There's a better move which wins material. Try to find it.\r\n] [%hint What can you capture?] Great job! Black has an extra pawn for no\r\ncompensation.} *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "How can Black win material?",
+        "[%wrong There's a better move. Try to\r\nfind a good way to break the pin on your knight.] [%hint Break the pin on your\r\nknight and make a threat.]",
+        "White is winning. Try again.\r\n",
+        "White is OK. Try again.",
+        "Good move! What's\r\nnext?",
+        "[%wrong There's a better move which wins material. Try to find it.\r\n] [%hint What can you capture?] Great job! Black has an extra pawn for no\r\ncompensation."
+      ],
+      "prompt": "How can Black win material?",
+      "line": [
+        {
+          "from": "g7",
+          "to": "g5",
+          "san": "g5",
+          "comment": "",
+          "hint": "Break the pin on your\r\nknight and make a threat.",
+          "wrong": "There's a better move. Try to\r\nfind a good way to break the pin on your knight.",
+          "wrongMoves": [
+            {
+              "from": "f6",
+              "to": "e4",
+              "san": "Nxe4",
+              "comment": "White is winning. Try again."
+            },
+            {
+              "from": "f8",
+              "to": "e7",
+              "san": "Be7",
+              "comment": "White is OK. Try again."
+            }
+          ]
+        },
+        {
+          "from": "h4",
+          "to": "g3",
+          "san": "Bg3",
+          "comment": "Good move! What's\r\nnext?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "f6",
+          "to": "e4",
+          "san": "Nxe4",
+          "comment": "Great job! Black has an extra pawn for no\r\ncompensation.",
+          "hint": "What can you capture?",
+          "wrong": "There's a better move which wins material. Try to find it.\r\n",
+          "wrongMoves": []
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "f6",
+          "to": "e4",
+          "san": "Nxe4",
+          "comment": "White is winning. Try again."
+        },
+        {
+          "from": "f8",
+          "to": "e7",
+          "san": "Be7",
+          "comment": "White is OK. Try again."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "fen": "rn2kb1r/pp3ppp/q3pn2/2pp2B1/P2P4/2P1PN2/1P1N1PPP/R1Q1K2R w KQkq - 0 10",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 2\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"rn2kb1r/pp3ppp/q3pn2/2pp2B1/P2P4/2P1PN2/1P1N1PPP/R1Q1K2R w KQkq - 0 10\"]\r\n[PlyCount \"7\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{How did Magnus Carlsen gain space on the queenside and fight for the\r\ninitiative?} 10. b4 {[%wrong There's a better option. Try again and look for a\r\nstrong pawn break.] [%hint Offer a pawn sacrifice to open the c-file.]} (10.\r\nBxf6 $5 {This is OK, but Carlsen preferred a strong pawn break. Try to find it.\r\n}) (10. c4 $5 {This is playable, but Carlsen advanced another queenside pawn.\r\nHow did he do it?}) (10. dxc5 $5 {This is playable, but Carlsen preferred to\r\nattack c5 with another pawn. How did he do it?}) 10... cxb4 {Nice move! How\r\nshould you win back the lost pawn?} 11. cxb4 {[%wrong Black is doing well. Try\r\nagain and look for a good capture.] [%hint Recapture the pawn.]} (11. Bxf6 $2\r\nbxc3 {Black takes over the initiative with a good position.. Try again and\r\nlook for a better capture.}) 11... Bxb4 {Good choice! In the actual game Black\r\nplayed Nbd7. How would White win material after Bxb4?} 12. Qc8+ {[%wrong\r\nThere's a better option. Try again and look for a way to win material.] [%hint\r\nTake advantage of the open c-file and use a skewer to win material.]} (12. Bxf6\r\n$5 {White is doing well, but there's a much stronger move. Try to find it.})\r\n12... Ke7 {Well played! What's next?} 13. Qxh8 {[%wrong Black is winning. Try\r\nagain and look for a good capture.] [%hint Capture an undefended piece.] Well\r\nplayed! White wins a rook and should win the game.} (13. Bxf6+ $5 {White is\r\ndoing well, but there's a much stronger move. Try to find it.}) *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "How did Magnus Carlsen gain space on the queenside and fight for the\r\ninitiative?",
+        "[%wrong There's a better option. Try again and look for a\r\nstrong pawn break.] [%hint Offer a pawn sacrifice to open the c-file.]",
+        "This is OK, but Carlsen preferred a strong pawn break. Try to find it.\r\n",
+        "This is playable, but Carlsen advanced another queenside pawn.\r\nHow did he do it?",
+        "This is playable, but Carlsen preferred to\r\nattack c5 with another pawn. How did he do it?",
+        "Nice move! How\r\nshould you win back the lost pawn?",
+        "[%wrong Black is doing well. Try\r\nagain and look for a good capture.] [%hint Recapture the pawn.]",
+        "Black takes over the initiative with a good position.. Try again and\r\nlook for a better capture.",
+        "Good choice! In the actual game Black\r\nplayed Nbd7. How would White win material after Bxb4?",
+        "[%wrong\r\nThere's a better option. Try again and look for a way to win material.] [%hint\r\nTake advantage of the open c-file and use a skewer to win material.]",
+        "White is doing well, but there's a much stronger move. Try to find it.",
+        "Well played! What's next?",
+        "[%wrong Black is winning. Try\r\nagain and look for a good capture.] [%hint Capture an undefended piece.] Well\r\nplayed! White wins a rook and should win the game.",
+        "White is\r\ndoing well, but there's a much stronger move. Try to find it."
+      ],
+      "prompt": "How did Magnus Carlsen gain space on the queenside and fight for the\r\ninitiative?",
+      "line": [
+        {
+          "from": "b2",
+          "to": "b4",
+          "san": "b4",
+          "comment": "",
+          "hint": "Offer a pawn sacrifice to open the c-file.",
+          "wrong": "There's a better option. Try again and look for a\r\nstrong pawn break.",
+          "wrongMoves": [
+            {
+              "from": "g5",
+              "to": "f6",
+              "san": "Bxf6",
+              "comment": "This is OK, but Carlsen preferred a strong pawn break. Try to find it."
+            },
+            {
+              "from": "c3",
+              "to": "c4",
+              "san": "c4",
+              "comment": "This is playable, but Carlsen advanced another queenside pawn.\r\nHow did he do it?"
+            },
+            {
+              "from": "d4",
+              "to": "c5",
+              "san": "dxc5",
+              "comment": "This is playable, but Carlsen preferred to\r\nattack c5 with another pawn. How did he do it?"
+            }
+          ]
+        },
+        {
+          "from": "c5",
+          "to": "b4",
+          "san": "cxb4",
+          "comment": "Nice move! How\r\nshould you win back the lost pawn?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "c3",
+          "to": "b4",
+          "san": "cxb4",
+          "comment": "",
+          "hint": "Recapture the pawn.",
+          "wrong": "Black is doing well. Try\r\nagain and look for a good capture.",
+          "wrongMoves": [
+            {
+              "from": "g5",
+              "to": "f6",
+              "san": "Bxf6",
+              "comment": "Black takes over the initiative with a good position.. Try again and\r\nlook for a better capture."
+            }
+          ]
+        },
+        {
+          "from": "f8",
+          "to": "b4",
+          "san": "Bxb4",
+          "comment": "Good choice! In the actual game Black\r\nplayed Nbd7. How would White win material after Bxb4?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "c1",
+          "to": "c8",
+          "san": "Qc8+",
+          "comment": "",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": [
+            {
+              "from": "g5",
+              "to": "f6",
+              "san": "Bxf6",
+              "comment": "White is doing well, but there's a much stronger move. Try to find it."
+            }
+          ]
+        },
+        {
+          "from": "e8",
+          "to": "e7",
+          "san": "Ke7",
+          "comment": "Well played! What's next?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "c8",
+          "to": "h8",
+          "san": "Qxh8",
+          "comment": "Well\r\nplayed! White wins a rook and should win the game.",
+          "hint": "Capture an undefended piece.",
+          "wrong": "Black is winning. Try\r\nagain and look for a good capture.",
+          "wrongMoves": [
+            {
+              "from": "g5",
+              "to": "f6",
+              "san": "Bxf6+",
+              "comment": "White is\r\ndoing well, but there's a much stronger move. Try to find it."
+            }
+          ]
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "g5",
+          "to": "f6",
+          "san": "Bxf6",
+          "comment": "This is OK, but Carlsen preferred a strong pawn break. Try to find it."
+        },
+        {
+          "from": "c3",
+          "to": "c4",
+          "san": "c4",
+          "comment": "This is playable, but Carlsen advanced another queenside pawn.\r\nHow did he do it?"
+        },
+        {
+          "from": "d4",
+          "to": "c5",
+          "san": "dxc5",
+          "comment": "This is playable, but Carlsen preferred to\r\nattack c5 with another pawn. How did he do it?"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "fen": "r4rk1/pppnqpb1/3p2pp/4p3/3PPP2/2PB1R1P/PP1QN1P1/R5K1 b - - 0 14",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 3\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pppnqpb1/3p2pp/4p3/3PPP2/2PB1R1P/PP1QN1P1/R5K1 b - - 0 14\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{How did Vishy Anand fight back against White's big center?} 14... c5 {[%wrong\r\nThere's a better option. Try again and look for a pawn move to fight against\r\nWhite's big center.] [%hint Advance a pawn to target the d4-square.]} (14...\r\nRad8 $5 {This is reasonable, but Anand preferred to target the center with\r\nanother pawn. How did he do it?}) (14... Rac8 $5 {This is reasonable, but\r\nAnand preferred to target the center with another pawn. How did he do it?}) (\r\n14... Nf6 $5 {This is reasonable, but Anand preferred to target the center\r\nwith another pawn. How did he do it?}) (14... exd4 $2 15. Nxd4 {This exchange\r\ngives up Black's influence in the center. Try again and look for a way to\r\nattack the center with another pawn.}) (14... exf4 $2 15. Nxf4 {White's\r\nexcellent control of the center offers a significant advantage. Try again and\r\nlook for a way to fight for the center.}) (14... c6 $2 15. Raf1 {There's a\r\nmore aggressive use of the c-pawn. Try to find it.}) (14... f5 $2 {Advancing\r\nthe f-pawn leaves Black's king too exposed. Try to find another pawn move to\r\nattack the center.}) (14... f6 $2 {Advancing the f-pawn leaves Black's king\r\ntoo exposed. Try to find another pawn move to attack the center.}) 15. dxe5 {\r\nGood start! How should you win back the lost pawn?} dxe5 {[%wrong There's a\r\nstronger move. Try again and look for a good capture.] [%hint Recapture with\r\na pawn.] Well played! You can continue the sharp struggle between GMs Nakamura\r\nand Anand in the next challenge.} (15... c4 $2 16. Bxc4 {White wins a pawn\r\nwith a good position. Try again and look for a good capture.}) *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "How did Vishy Anand fight back against White's big center?",
+        "[%wrong\r\nThere's a better option. Try again and look for a pawn move to fight against\r\nWhite's big center.] [%hint Advance a pawn to target the d4-square.]",
+        "This is reasonable, but Anand preferred to target the center with\r\nanother pawn. How did he do it?",
+        "This is reasonable, but\r\nAnand preferred to target the center with another pawn. How did he do it?",
+        "This is reasonable, but Anand preferred to target the center\r\nwith another pawn. How did he do it?",
+        "This exchange\r\ngives up Black's influence in the center. Try again and look for a way to\r\nattack the center with another pawn.",
+        "White's\r\nexcellent control of the center offers a significant advantage. Try again and\r\nlook for a way to fight for the center.",
+        "There's a\r\nmore aggressive use of the c-pawn. Try to find it.",
+        "Advancing\r\nthe f-pawn leaves Black's king too exposed. Try to find another pawn move to\r\nattack the center.",
+        "Advancing the f-pawn leaves Black's king\r\ntoo exposed. Try to find another pawn move to attack the center.",
+        "\r\nGood start! How should you win back the lost pawn?",
+        "[%wrong There's a\r\nstronger move. Try again and look for a good capture.] [%hint Recapture with\r\na pawn.] Well played! You can continue the sharp struggle between GMs Nakamura\r\nand Anand in the next challenge.",
+        "White wins a pawn\r\nwith a good position. Try again and look for a good capture."
+      ],
+      "prompt": "How did Vishy Anand fight back against White's big center?",
+      "line": [
+        {
+          "from": "c7",
+          "to": "c5",
+          "san": "c5",
+          "comment": "",
+          "hint": "Advance a pawn to target the d4-square.",
+          "wrong": "",
+          "wrongMoves": [
+            {
+              "from": "a8",
+              "to": "d8",
+              "san": "Rad8",
+              "comment": "This is reasonable, but Anand preferred to target the center with\r\nanother pawn. How did he do it?"
+            },
+            {
+              "from": "a8",
+              "to": "c8",
+              "san": "Rac8",
+              "comment": "This is reasonable, but\r\nAnand preferred to target the center with another pawn. How did he do it?"
+            },
+            {
+              "from": "d7",
+              "to": "f6",
+              "san": "Nf6",
+              "comment": "This is reasonable, but Anand preferred to target the center\r\nwith another pawn. How did he do it?"
+            },
+            {
+              "from": "e5",
+              "to": "d4",
+              "san": "exd4",
+              "comment": "This exchange\r\ngives up Black's influence in the center. Try again and look for a way to\r\nattack the center with another pawn."
+            },
+            {
+              "from": "e5",
+              "to": "f4",
+              "san": "exf4",
+              "comment": "White's\r\nexcellent control of the center offers a significant advantage. Try again and\r\nlook for a way to fight for the center."
+            },
+            {
+              "from": "c7",
+              "to": "c6",
+              "san": "c6",
+              "comment": "There's a\r\nmore aggressive use of the c-pawn. Try to find it."
+            },
+            {
+              "from": "f7",
+              "to": "f5",
+              "san": "f5",
+              "comment": "Advancing\r\nthe f-pawn leaves Black's king too exposed. Try to find another pawn move to\r\nattack the center."
+            },
+            {
+              "from": "f7",
+              "to": "f6",
+              "san": "f6",
+              "comment": "Advancing the f-pawn leaves Black's king\r\ntoo exposed. Try to find another pawn move to attack the center."
+            }
+          ]
+        },
+        {
+          "from": "d4",
+          "to": "e5",
+          "san": "dxe5",
+          "comment": "Good start! How should you win back the lost pawn?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "d6",
+          "to": "e5",
+          "san": "dxe5",
+          "comment": "Well played! You can continue the sharp struggle between GMs Nakamura\r\nand Anand in the next challenge.",
+          "hint": "Recapture with\r\na pawn.",
+          "wrong": "There's a\r\nstronger move. Try again and look for a good capture.",
+          "wrongMoves": [
+            {
+              "from": "c5",
+              "to": "c4",
+              "san": "c4",
+              "comment": "White wins a pawn\r\nwith a good position. Try again and look for a good capture."
+            }
+          ]
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "a8",
+          "to": "d8",
+          "san": "Rad8",
+          "comment": "This is reasonable, but Anand preferred to target the center with\r\nanother pawn. How did he do it?"
+        },
+        {
+          "from": "a8",
+          "to": "c8",
+          "san": "Rac8",
+          "comment": "This is reasonable, but\r\nAnand preferred to target the center with another pawn. How did he do it?"
+        },
+        {
+          "from": "d7",
+          "to": "f6",
+          "san": "Nf6",
+          "comment": "This is reasonable, but Anand preferred to target the center\r\nwith another pawn. How did he do it?"
+        },
+        {
+          "from": "e5",
+          "to": "d4",
+          "san": "exd4",
+          "comment": "This exchange\r\ngives up Black's influence in the center. Try again and look for a way to\r\nattack the center with another pawn."
+        },
+        {
+          "from": "e5",
+          "to": "f4",
+          "san": "exf4",
+          "comment": "White's\r\nexcellent control of the center offers a significant advantage. Try again and\r\nlook for a way to fight for the center."
+        },
+        {
+          "from": "c7",
+          "to": "c6",
+          "san": "c6",
+          "comment": "There's a\r\nmore aggressive use of the c-pawn. Try to find it."
+        },
+        {
+          "from": "f7",
+          "to": "f5",
+          "san": "f5",
+          "comment": "Advancing\r\nthe f-pawn leaves Black's king too exposed. Try to find another pawn move to\r\nattack the center."
+        },
+        {
+          "from": "f7",
+          "to": "f6",
+          "san": "f6",
+          "comment": "Advancing the f-pawn leaves Black's king\r\ntoo exposed. Try to find another pawn move to attack the center."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "fen": "r4rk1/pp1nqpb1/6pp/2p1pP2/4P3/2PB1R1P/PP1QN1P1/R5K1 b - - 0 16",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 4\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"r4rk1/pp1nqpb1/6pp/2p1pP2/4P3/2PB1R1P/PP1QN1P1/R5K1 b - - 0 16\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{One common technique for Black in the Trompowsky and Torre is to take\r\nadvantage of the absence of White's dark-squared bishop. What active move did\r\nAnand play here to fight for the initiative?} 16... c4 {[%wrong There's a\r\nbetter move. Try again and look for Anand's strong pawn sacrifice.] [%hint\r\nSacrifice a pawn to clear a square for your queen to check from.]} (16... Rad8\r\n$2 17. Qe3 {White's f-pawn may lead to a dangerous attack. Try again and look\r\nfor Anand's strong pawn sacrifice.}) (16... Nf6 $2 17. Qe3 {White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice.}) (16... gxf5 $2 17. Rxf5 {Black's exposed king will soon cause\r\nproblems. Try again and look for Anand's strong pawn sacrifice.}) (16... Qd6 $2\r\n17. Rd1 {White's f-pawn may lead to a dangerous attack. Try again and look for\r\nAnand's strong pawn sacrifice.}) (16... Rfd8 $2 17. Qe3 {White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice.}) 17. Bxc4 {Good start! How can a fork win back the lost material?}\r\nQc5+ {[%wrong There's a better move. Try again and look for a good fork.] \r\n[%hint Fork White's king and bishop.] Well played! After Rf2 Black can play\r\nNf6 or Qxc4 with a fine position. Note that the d7-knight is in danger so\r\nBlack has no clear win. The game Nakamura - Anand 2011 was eventually a hard-fought draw.} (17... gxf5 $2 18. Rxf5 {White is doing well. Try again and look\r\nfor a stronger forcing option.}) (17... Nf6 $2 18. Qe3 {White keeps an extra\r\npawn and a good position. Try again and look for a strong forcing move.}) *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "One common technique for Black in the Trompowsky and Torre is to take\r\nadvantage of the absence of White's dark-squared bishop. What active move did\r\nAnand play here to fight for the initiative?",
+        "[%wrong There's a\r\nbetter move. Try again and look for Anand's strong pawn sacrifice.] [%hint\r\nSacrifice a pawn to clear a square for your queen to check from.]",
+        "White's f-pawn may lead to a dangerous attack. Try again and look\r\nfor Anand's strong pawn sacrifice.",
+        "White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice.",
+        "Black's exposed king will soon cause\r\nproblems. Try again and look for Anand's strong pawn sacrifice.",
+        "White's f-pawn may lead to a dangerous attack. Try again and look for\r\nAnand's strong pawn sacrifice.",
+        "White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice.",
+        "Good start! How can a fork win back the lost material?",
+        "[%wrong There's a better move. Try again and look for a good fork.] \r\n[%hint Fork White's king and bishop.] Well played! After Rf2 Black can play\r\nNf6 or Qxc4 with a fine position. Note that the d7-knight is in danger so\r\nBlack has no clear win. The game Nakamura - Anand 2011 was eventually a hard-fought draw.",
+        "White is doing well. Try again and look\r\nfor a stronger forcing option.",
+        "White keeps an extra\r\npawn and a good position. Try again and look for a strong forcing move."
+      ],
+      "prompt": "One common technique for Black in the Trompowsky and Torre is to take\r\nadvantage of the absence of White's dark-squared bishop. What active move did\r\nAnand play here to fight for the initiative?",
+      "line": [
+        {
+          "from": "c5",
+          "to": "c4",
+          "san": "c4",
+          "comment": "",
+          "hint": "",
+          "wrong": "There's a\r\nbetter move. Try again and look for Anand's strong pawn sacrifice.",
+          "wrongMoves": [
+            {
+              "from": "a8",
+              "to": "d8",
+              "san": "Rad8",
+              "comment": "White's f-pawn may lead to a dangerous attack. Try again and look\r\nfor Anand's strong pawn sacrifice."
+            },
+            {
+              "from": "d7",
+              "to": "f6",
+              "san": "Nf6",
+              "comment": "White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice."
+            },
+            {
+              "from": "g6",
+              "to": "f5",
+              "san": "gxf5",
+              "comment": "Black's exposed king will soon cause\r\nproblems. Try again and look for Anand's strong pawn sacrifice."
+            },
+            {
+              "from": "e7",
+              "to": "d6",
+              "san": "Qd6",
+              "comment": "White's f-pawn may lead to a dangerous attack. Try again and look for\r\nAnand's strong pawn sacrifice."
+            },
+            {
+              "from": "f8",
+              "to": "d8",
+              "san": "Rfd8",
+              "comment": "White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice."
+            }
+          ]
+        },
+        {
+          "from": "d3",
+          "to": "c4",
+          "san": "Bxc4",
+          "comment": "Good start! How can a fork win back the lost material?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "e7",
+          "to": "c5",
+          "san": "Qc5+",
+          "comment": "Well played! After Rf2 Black can play\r\nNf6 or Qxc4 with a fine position. Note that the d7-knight is in danger so\r\nBlack has no clear win. The game Nakamura - Anand 2011 was eventually a hard-fought draw.",
+          "hint": "Fork White's king and bishop.",
+          "wrong": "There's a better move. Try again and look for a good fork.",
+          "wrongMoves": [
+            {
+              "from": "g6",
+              "to": "f5",
+              "san": "gxf5",
+              "comment": "White is doing well. Try again and look\r\nfor a stronger forcing option."
+            },
+            {
+              "from": "d7",
+              "to": "f6",
+              "san": "Nf6",
+              "comment": "White keeps an extra\r\npawn and a good position. Try again and look for a strong forcing move."
+            }
+          ]
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "a8",
+          "to": "d8",
+          "san": "Rad8",
+          "comment": "White's f-pawn may lead to a dangerous attack. Try again and look\r\nfor Anand's strong pawn sacrifice."
+        },
+        {
+          "from": "d7",
+          "to": "f6",
+          "san": "Nf6",
+          "comment": "White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice."
+        },
+        {
+          "from": "g6",
+          "to": "f5",
+          "san": "gxf5",
+          "comment": "Black's exposed king will soon cause\r\nproblems. Try again and look for Anand's strong pawn sacrifice."
+        },
+        {
+          "from": "e7",
+          "to": "d6",
+          "san": "Qd6",
+          "comment": "White's f-pawn may lead to a dangerous attack. Try again and look for\r\nAnand's strong pawn sacrifice."
+        },
+        {
+          "from": "f8",
+          "to": "d8",
+          "san": "Rfd8",
+          "comment": "White's f-pawn may\r\nlead to a dangerous attack. Try again and look for Anand's strong pawn\r\nsacrifice."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "fen": "rnb1kb1r/pp2pppp/3p1n2/2pP4/8/2N5/PqPBPPPP/R2QKBNR w KQkq - 0 6",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 2\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kb1r/pp2pppp/3p1n2/2pP4/8/2N5/PqPBPPPP/R2QKBNR w KQkq - 0 6\"]\r\n[PlyCount \"7\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{Black has left the queen in White's camp for too long and there's a way to\r\nwin material. Try to find it.} 6. Rb1 {[%wrong There's a better attacking move.\r\nLook for a good way to target Black's queen and try again.] [%hint Develop and\r\nattack the black queen.]} (6. e4 $2 Qb6 {White has compensation for the pawn,\r\nbut Black is OK. Try again and look for a strong threat.}) (6. Nb5 $2 Qxb5 {\r\nBlack wins a piece. Try again and look for a stronger threat.}) (6. Na4 $2 Qd4\r\n{Black is doing well. Try again and look for a stronger threat.}) 6... Qa3 {\r\nGood start! How can you continue to take advantage of Black's exposed queen?}\r\n7. Nb5 {[%wrong There's a stronger attacking move. Try again and look for a\r\nwinning threat.] [%hint Attack the black queen and prepare a fork on c7.]} (7.\r\ne4 $2 a6 {White is slightly better, but there's a stronger move to win\r\nmaterial. Try to find it.}) (7. Rb3 $2 Qa5 {Black is OK. Try again and look\r\nfor a stronger threat.}) (7. f4 $2 c4 {White is slightly better, but there's a\r\nstronger move to win material. Try to find it.}) 7... Qa4 {Great move! How can\r\nyou win material?} 8. Nc7+ {[%wrong There's a better move. Try again and look\r\nfor a winning fork.] [%hint Fork Black's king and rook.]} Kd8 {Good choice!\r\nWhat's next?} 9. Nxa8 {[%wrong Black is better. Try again and look for a good\r\ncapture.] [%hint Capture an undefended piece.] Well played! White wins a rook\r\nand should win the game.} *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Black has left the queen in White's camp for too long and there's a way to\r\nwin material. Try to find it.",
+        "[%wrong There's a better attacking move.\r\nLook for a good way to target Black's queen and try again.] [%hint Develop and\r\nattack the black queen.]",
+        "White has compensation for the pawn,\r\nbut Black is OK. Try again and look for a strong threat.",
+        "\r\nBlack wins a piece. Try again and look for a stronger threat.",
+        "Black is doing well. Try again and look for a stronger threat.",
+        "\r\nGood start! How can you continue to take advantage of Black's exposed queen?",
+        "[%wrong There's a stronger attacking move. Try again and look for a\r\nwinning threat.] [%hint Attack the black queen and prepare a fork on c7.]",
+        "White is slightly better, but there's a stronger move to win\r\nmaterial. Try to find it.",
+        "Black is OK. Try again and look\r\nfor a stronger threat.",
+        "White is slightly better, but there's a\r\nstronger move to win material. Try to find it.",
+        "Great move! How can\r\nyou win material?",
+        "[%wrong There's a better move. Try again and look\r\nfor a winning fork.] [%hint Fork Black's king and rook.]",
+        "Good choice!\r\nWhat's next?",
+        "[%wrong Black is better. Try again and look for a good\r\ncapture.] [%hint Capture an undefended piece.] Well played! White wins a rook\r\nand should win the game."
+      ],
+      "prompt": "Black has left the queen in White's camp for too long and there's a way to\r\nwin material. Try to find it.",
+      "line": [
+        {
+          "from": "a1",
+          "to": "b1",
+          "san": "Rb1",
+          "comment": "",
+          "hint": "Develop and\r\nattack the black queen.",
+          "wrong": "There's a better attacking move.\r\nLook for a good way to target Black's queen and try again.",
+          "wrongMoves": [
+            {
+              "from": "e2",
+              "to": "e4",
+              "san": "e4",
+              "comment": "White has compensation for the pawn,\r\nbut Black is OK. Try again and look for a strong threat."
+            },
+            {
+              "from": "c3",
+              "to": "b5",
+              "san": "Nb5",
+              "comment": "Black wins a piece. Try again and look for a stronger threat."
+            },
+            {
+              "from": "c3",
+              "to": "a4",
+              "san": "Na4",
+              "comment": "Black is doing well. Try again and look for a stronger threat."
+            }
+          ]
+        },
+        {
+          "from": "b2",
+          "to": "a3",
+          "san": "Qa3",
+          "comment": "Good start! How can you continue to take advantage of Black's exposed queen?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "c3",
+          "to": "b5",
+          "san": "Nb5",
+          "comment": "",
+          "hint": "Attack the black queen and prepare a fork on c7.",
+          "wrong": "There's a stronger attacking move. Try again and look for a\r\nwinning threat.",
+          "wrongMoves": [
+            {
+              "from": "e2",
+              "to": "e4",
+              "san": "e4",
+              "comment": "White is slightly better, but there's a stronger move to win\r\nmaterial. Try to find it."
+            },
+            {
+              "from": "b1",
+              "to": "b3",
+              "san": "Rb3",
+              "comment": "Black is OK. Try again and look\r\nfor a stronger threat."
+            },
+            {
+              "from": "f2",
+              "to": "f4",
+              "san": "f4",
+              "comment": "White is slightly better, but there's a\r\nstronger move to win material. Try to find it."
+            }
+          ]
+        },
+        {
+          "from": "a3",
+          "to": "a4",
+          "san": "Qa4",
+          "comment": "Great move! How can\r\nyou win material?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "b5",
+          "to": "c7",
+          "san": "Nc7+",
+          "comment": "",
+          "hint": "Fork Black's king and rook.",
+          "wrong": "There's a better move. Try again and look\r\nfor a winning fork.",
+          "wrongMoves": []
+        },
+        {
+          "from": "e8",
+          "to": "d8",
+          "san": "Kd8",
+          "comment": "Good choice!\r\nWhat's next?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "c7",
+          "to": "a8",
+          "san": "Nxa8",
+          "comment": "Well played! White wins a rook\r\nand should win the game.",
+          "hint": "Capture an undefended piece.",
+          "wrong": "Black is better. Try again and look for a good\r\ncapture.",
+          "wrongMoves": []
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "e2",
+          "to": "e4",
+          "san": "e4",
+          "comment": "White has compensation for the pawn,\r\nbut Black is OK. Try again and look for a strong threat."
+        },
+        {
+          "from": "c3",
+          "to": "b5",
+          "san": "Nb5",
+          "comment": "Black wins a piece. Try again and look for a stronger threat."
+        },
+        {
+          "from": "c3",
+          "to": "a4",
+          "san": "Na4",
+          "comment": "Black is doing well. Try again and look for a stronger threat."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "fen": "rnbqkb1r/pppppp1p/8/6p1/3PnB2/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 6\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pppppp1p/8/6p1/3PnB2/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4\"]\r\n[PlyCount \"1\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{An early g5 advance is often too aggressive. What surprising move gives White\r\ngood chances for an advantage?} 4. Bc1 {[%wrong There's a stronger option. Try\r\nto find the safest square for your bishop.] [%hint Retreat your bishop to its\r\nstarting square.] Great move! Black will lose significant time defending the\r\ng5 pawn and retreating the centralized knight if it's attacked. White has a\r\ngood opportunity to obtain an opening advantage.} (4. f3 $2 gxf4 {After fxe4\r\nand Bg7 Black is doing well. Try again and look for a way to save your bishop.}\r\n) (4. Bxg5 $2 Nxg5 {Black wins the bishop. Try again and look for the best way\r\nto save the piece.}) (4. Be5 $5 {This is a good move, but most players prefer\r\nthe safest square for the bishop. Try to find it.}) (4. Be3 $5 {This is a good\r\nmove, but most players prefer the safest square for the bishop. Try to find it.\r\n}) (4. Bd2 $2 d5 {Black has an active position. Try again and look for a\r\nstronger bishop move.}) (4. Bg3 $2 h5 {Black has an active position. Try again\r\nand look for a stronger bishop move.}) (4. Qd3 $2 Nxf2 {After Kxf2 and gxf4\r\nBlack wins material. Try again and look for a way to save your bishop.}) (4.\r\nNd2 $2 Nxf2 {After Kxf2 and gxf4 Black wins material. Try again and look for a\r\nway to save your bishop.}) *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "An early g5 advance is often too aggressive. What surprising move gives White\r\ngood chances for an advantage?",
+        "[%wrong There's a stronger option. Try\r\nto find the safest square for your bishop.] [%hint Retreat your bishop to its\r\nstarting square.] Great move! Black will lose significant time defending the\r\ng5 pawn and retreating the centralized knight if it's attacked. White has a\r\ngood opportunity to obtain an opening advantage.",
+        "After fxe4\r\nand Bg7 Black is doing well. Try again and look for a way to save your bishop.",
+        "Black wins the bishop. Try again and look for the best way\r\nto save the piece.",
+        "This is a good move, but most players prefer\r\nthe safest square for the bishop. Try to find it.",
+        "This is a good\r\nmove, but most players prefer the safest square for the bishop. Try to find it.\r\n",
+        "Black has an active position. Try again and look for a\r\nstronger bishop move.",
+        "Black has an active position. Try again\r\nand look for a stronger bishop move.",
+        "After Kxf2 and gxf4\r\nBlack wins material. Try again and look for a way to save your bishop.",
+        "After Kxf2 and gxf4 Black wins material. Try again and look for a\r\nway to save your bishop."
+      ],
+      "prompt": "An early g5 advance is often too aggressive. What surprising move gives White\r\ngood chances for an advantage?",
+      "line": [
+        {
+          "from": "f4",
+          "to": "c1",
+          "san": "Bc1",
+          "comment": "Great move! Black will lose significant time defending the\r\ng5 pawn and retreating the centralized knight if it's attacked. White has a\r\ngood opportunity to obtain an opening advantage.",
+          "hint": "Retreat your bishop to its\r\nstarting square.",
+          "wrong": "There's a stronger option. Try\r\nto find the safest square for your bishop.",
+          "wrongMoves": [
+            {
+              "from": "f2",
+              "to": "f3",
+              "san": "f3",
+              "comment": "After fxe4\r\nand Bg7 Black is doing well. Try again and look for a way to save your bishop."
+            },
+            {
+              "from": "f4",
+              "to": "g5",
+              "san": "Bxg5",
+              "comment": "Black wins the bishop. Try again and look for the best way\r\nto save the piece."
+            },
+            {
+              "from": "f4",
+              "to": "e5",
+              "san": "Be5",
+              "comment": "This is a good move, but most players prefer\r\nthe safest square for the bishop. Try to find it."
+            },
+            {
+              "from": "f4",
+              "to": "e3",
+              "san": "Be3",
+              "comment": "This is a good\r\nmove, but most players prefer the safest square for the bishop. Try to find it."
+            },
+            {
+              "from": "f4",
+              "to": "d2",
+              "san": "Bd2",
+              "comment": "Black has an active position. Try again and look for a\r\nstronger bishop move."
+            },
+            {
+              "from": "f4",
+              "to": "g3",
+              "san": "Bg3",
+              "comment": "Black has an active position. Try again\r\nand look for a stronger bishop move."
+            },
+            {
+              "from": "d1",
+              "to": "d3",
+              "san": "Qd3",
+              "comment": "After Kxf2 and gxf4\r\nBlack wins material. Try again and look for a way to save your bishop."
+            },
+            {
+              "from": "b1",
+              "to": "d2",
+              "san": "Nd2",
+              "comment": "After Kxf2 and gxf4 Black wins material. Try again and look for a\r\nway to save your bishop."
+            }
+          ]
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "f2",
+          "to": "f3",
+          "san": "f3",
+          "comment": "After fxe4\r\nand Bg7 Black is doing well. Try again and look for a way to save your bishop."
+        },
+        {
+          "from": "f4",
+          "to": "g5",
+          "san": "Bxg5",
+          "comment": "Black wins the bishop. Try again and look for the best way\r\nto save the piece."
+        },
+        {
+          "from": "f4",
+          "to": "e5",
+          "san": "Be5",
+          "comment": "This is a good move, but most players prefer\r\nthe safest square for the bishop. Try to find it."
+        },
+        {
+          "from": "f4",
+          "to": "e3",
+          "san": "Be3",
+          "comment": "This is a good\r\nmove, but most players prefer the safest square for the bishop. Try to find it."
+        },
+        {
+          "from": "f4",
+          "to": "d2",
+          "san": "Bd2",
+          "comment": "Black has an active position. Try again and look for a\r\nstronger bishop move."
+        },
+        {
+          "from": "f4",
+          "to": "g3",
+          "san": "Bg3",
+          "comment": "Black has an active position. Try again\r\nand look for a stronger bishop move."
+        },
+        {
+          "from": "d1",
+          "to": "d3",
+          "san": "Qd3",
+          "comment": "After Kxf2 and gxf4\r\nBlack wins material. Try again and look for a way to save your bishop."
+        },
+        {
+          "from": "b1",
+          "to": "d2",
+          "san": "Nd2",
+          "comment": "After Kxf2 and gxf4 Black wins material. Try again and look for a\r\nway to save your bishop."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "fen": "rnbqkb1r/pp1ppppp/8/2p5/3PnB2/5P2/PPP1P1PP/RN1QKBNR b KQkq - 0 4",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 7\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnbqkb1r/pp1ppppp/8/2p5/3PnB2/5P2/PPP1P1PP/RN1QKBNR b KQkq - 0 4\"]\r\n[PlyCount \"5\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{White has attacked the e4-knight, but Black can fight for the initiative\r\ninstead of just retreating. How should you do it?} 4... Qa5+ {[%wrong There's\r\na better move. Try again and look for a good forcing option.] [%hint Develop\r\nwith a check.]} (4... Nf6 $5 5. dxc5 {This is playable, but most people prefer\r\nto insert a check first. How should you do it?}) (4... Nd6 $2 5. dxc5 {White\r\nwins material. Try again and look for a safer forcing move.}) (4... g5 $2 5.\r\nBxb8 {White wins material. Try again and look for a safer forcing move.}) (4...\r\ne5 $2 5. dxe5 {White wins material. Try again and look for a safer forcing\r\nmove.}) 5. c3 {Good choice! How should you save your knight?} Nf6 {[%wrong\r\nThere's a better move. Try to find a way to save your knight.] [%hint Retreat\r\nyour knight to a safe square.]} (5... Nd6 $2 6. d5 {The knight on d6 makes it\r\nharder for Black to continue development. Try to find a safer knight move.}) (\r\n5... g5 $2 6. Bxb8 {White wins a piece. Try to find a safer move.}) 6. d5 {\r\nNice move! How can Black make another useful threat?} Qb6 {[%wrong There's a\r\nbetter move. Try to find a good threat.] [%hint Retreat your queen and attack\r\nthe b2-pawn.] Well played! White should retreat with Bc1 to defend the b-pawn.\r\nWe will examine another option in the next challenge.} (6... e6 $5 {This is\r\nreasonable, but most players prefer to target the b2-pawn. How should you do\r\nit?}) (6... d6 $5 {This is reasonable, but most players prefer to target the\r\nb2-pawn. How should you do it?}) (6... a6 $5 {This is reasonable, but most\r\nplayers prefer to target the b2-pawn. How should you do it?}) (6... Qb5 $2 7.\r\nQd2 {Once White's e-pawn advances the black queen must move again. Try to find\r\na stronger queen move.}) *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "White has attacked the e4-knight, but Black can fight for the initiative\r\ninstead of just retreating. How should you do it?",
+        "[%wrong There's\r\na better move. Try again and look for a good forcing option.] [%hint Develop\r\nwith a check.]",
+        "This is playable, but most people prefer\r\nto insert a check first. How should you do it?",
+        "White\r\nwins material. Try again and look for a safer forcing move.",
+        "White wins material. Try again and look for a safer forcing move.",
+        "White wins material. Try again and look for a safer forcing\r\nmove.",
+        "Good choice! How should you save your knight?",
+        "[%wrong\r\nThere's a better move. Try to find a way to save your knight.] [%hint Retreat\r\nyour knight to a safe square.]",
+        "The knight on d6 makes it\r\nharder for Black to continue development. Try to find a safer knight move.",
+        "White wins a piece. Try to find a safer move.",
+        "\r\nNice move! How can Black make another useful threat?",
+        "[%wrong There's a\r\nbetter move. Try to find a good threat.] [%hint Retreat your queen and attack\r\nthe b2-pawn.] Well played! White should retreat with Bc1 to defend the b-pawn.\r\nWe will examine another option in the next challenge.",
+        "This is\r\nreasonable, but most players prefer to target the b2-pawn. How should you do\r\nit?",
+        "This is reasonable, but most players prefer to target the\r\nb2-pawn. How should you do it?",
+        "This is reasonable, but most\r\nplayers prefer to target the b2-pawn. How should you do it?",
+        "Once White's e-pawn advances the black queen must move again. Try to find\r\na stronger queen move."
+      ],
+      "prompt": "White has attacked the e4-knight, but Black can fight for the initiative\r\ninstead of just retreating. How should you do it?",
+      "line": [
+        {
+          "from": "d8",
+          "to": "a5",
+          "san": "Qa5+",
+          "comment": "",
+          "hint": "Develop\r\nwith a check.",
+          "wrong": "There's\r\na better move. Try again and look for a good forcing option.",
+          "wrongMoves": [
+            {
+              "from": "e4",
+              "to": "f6",
+              "san": "Nf6",
+              "comment": "This is playable, but most people prefer\r\nto insert a check first. How should you do it?"
+            },
+            {
+              "from": "e4",
+              "to": "d6",
+              "san": "Nd6",
+              "comment": "White\r\nwins material. Try again and look for a safer forcing move."
+            },
+            {
+              "from": "g7",
+              "to": "g5",
+              "san": "g5",
+              "comment": "White wins material. Try again and look for a safer forcing move."
+            },
+            {
+              "from": "e7",
+              "to": "e5",
+              "san": "e5",
+              "comment": "White wins material. Try again and look for a safer forcing\r\nmove."
+            }
+          ]
+        },
+        {
+          "from": "c2",
+          "to": "c3",
+          "san": "c3",
+          "comment": "Good choice! How should you save your knight?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "e4",
+          "to": "f6",
+          "san": "Nf6",
+          "comment": "",
+          "hint": "Retreat\r\nyour knight to a safe square.",
+          "wrong": "",
+          "wrongMoves": [
+            {
+              "from": "e4",
+              "to": "d6",
+              "san": "Nd6",
+              "comment": "The knight on d6 makes it\r\nharder for Black to continue development. Try to find a safer knight move."
+            },
+            {
+              "from": "g7",
+              "to": "g5",
+              "san": "g5",
+              "comment": "White wins a piece. Try to find a safer move."
+            }
+          ]
+        },
+        {
+          "from": "d4",
+          "to": "d5",
+          "san": "d5",
+          "comment": "Nice move! How can Black make another useful threat?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "a5",
+          "to": "b6",
+          "san": "Qb6",
+          "comment": "Well played! White should retreat with Bc1 to defend the b-pawn.\r\nWe will examine another option in the next challenge.",
+          "hint": "Retreat your queen and attack\r\nthe b2-pawn.",
+          "wrong": "There's a\r\nbetter move. Try to find a good threat.",
+          "wrongMoves": [
+            {
+              "from": "e7",
+              "to": "e6",
+              "san": "e6",
+              "comment": "This is\r\nreasonable, but most players prefer to target the b2-pawn. How should you do\r\nit?"
+            },
+            {
+              "from": "d7",
+              "to": "d6",
+              "san": "d6",
+              "comment": "This is reasonable, but most players prefer to target the\r\nb2-pawn. How should you do it?"
+            },
+            {
+              "from": "a7",
+              "to": "a6",
+              "san": "a6",
+              "comment": "This is reasonable, but most\r\nplayers prefer to target the b2-pawn. How should you do it?"
+            },
+            {
+              "from": "a5",
+              "to": "b5",
+              "san": "Qb5",
+              "comment": "Once White's e-pawn advances the black queen must move again. Try to find\r\na stronger queen move."
+            }
+          ]
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "e4",
+          "to": "f6",
+          "san": "Nf6",
+          "comment": "This is playable, but most people prefer\r\nto insert a check first. How should you do it?"
+        },
+        {
+          "from": "e4",
+          "to": "d6",
+          "san": "Nd6",
+          "comment": "White\r\nwins material. Try again and look for a safer forcing move."
+        },
+        {
+          "from": "g7",
+          "to": "g5",
+          "san": "g5",
+          "comment": "White wins material. Try again and look for a safer forcing move."
+        },
+        {
+          "from": "e7",
+          "to": "e5",
+          "san": "e5",
+          "comment": "White wins material. Try again and look for a safer forcing\r\nmove."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "fen": "rnb1kb1r/pp1ppppp/1q3n2/2pP4/4PB2/2P2P2/PP4PP/RN1QKBNR b KQkq - 0 7",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 8\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1kb1r/pp1ppppp/1q3n2/2pP4/4PB2/2P2P2/PP4PP/RN1QKBNR b KQkq - 0 7\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{White has a big center, but Black is doing well. How should you win material?\r\n} 7... Qxb2 {[%wrong There's a better move. Try to find a way to win material.]\r\n[%hint Capture an undefended pawn.]} (7... d6 $2 8. Qd2 {White's space\r\nadvantage will cause Black difficulties. Try again and look for a way to win\r\nmaterial.}) (7... e6 $2 8. Na3 {White's space advantage will cause Black\r\ndifficulties. Try again and look for a way to win material.}) 8. Nd2 {Good\r\nchoice! How should you keep fighting for the initiative?} Qxc3 {[%wrong White\r\nhas great compensation for the lost material. Try again and look for a good\r\ncapture.] [%hint Capture another free pawn.] Well played! White has a big\r\ncenter, but likely not quite enough compensation for Black's two extra pawns.}\r\n*",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "White has a big center, but Black is doing well. How should you win material?\r\n",
+        "[%wrong There's a better move. Try to find a way to win material.]\r\n[%hint Capture an undefended pawn.]",
+        "White's space\r\nadvantage will cause Black difficulties. Try again and look for a way to win\r\nmaterial.",
+        "White's space advantage will cause Black\r\ndifficulties. Try again and look for a way to win material.",
+        "Good\r\nchoice! How should you keep fighting for the initiative?",
+        "[%wrong White\r\nhas great compensation for the lost material. Try again and look for a good\r\ncapture.] [%hint Capture another free pawn.] Well played! White has a big\r\ncenter, but likely not quite enough compensation for Black's two extra pawns."
+      ],
+      "prompt": "White has a big center, but Black is doing well. How should you win material?",
+      "line": [
+        {
+          "from": "b6",
+          "to": "b2",
+          "san": "Qxb2",
+          "comment": "",
+          "hint": "Capture an undefended pawn.",
+          "wrong": "There's a better move. Try to find a way to win material.",
+          "wrongMoves": [
+            {
+              "from": "d7",
+              "to": "d6",
+              "san": "d6",
+              "comment": "White's space\r\nadvantage will cause Black difficulties. Try again and look for a way to win\r\nmaterial."
+            },
+            {
+              "from": "e7",
+              "to": "e6",
+              "san": "e6",
+              "comment": "White's space advantage will cause Black\r\ndifficulties. Try again and look for a way to win material."
+            }
+          ]
+        },
+        {
+          "from": "b1",
+          "to": "d2",
+          "san": "Nd2",
+          "comment": "Good\r\nchoice! How should you keep fighting for the initiative?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "b2",
+          "to": "c3",
+          "san": "Qxc3",
+          "comment": "Well played! White has a big\r\ncenter, but likely not quite enough compensation for Black's two extra pawns.",
+          "hint": "Capture another free pawn.",
+          "wrong": "White\r\nhas great compensation for the lost material. Try again and look for a good\r\ncapture.",
+          "wrongMoves": []
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "d7",
+          "to": "d6",
+          "san": "d6",
+          "comment": "White's space\r\nadvantage will cause Black difficulties. Try again and look for a way to win\r\nmaterial."
+        },
+        {
+          "from": "e7",
+          "to": "e6",
+          "san": "e6",
+          "comment": "White's space advantage will cause Black\r\ndifficulties. Try again and look for a way to win material."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "fen": "rnb1k2r/2p1qpb1/p2pp1pp/8/1p1PP2P/2N2NPB/PPPQ1P2/2KR3R w kq - 0 12",
+      "pgn": "[Event \"Candidates final\"]\r\n[Site \"Moscow\"]\r\n[Date \"1974.??.??\"]\r\n[Round \"19\"]\r\n[White \"Video 10, Viktor\"]\r\n[Black \"Karpov, Anatoly\"]\r\n[Result \"1-0\"]\r\n[ECO \"A46\"]\r\n[WhiteElo \"2670\"]\r\n[BlackElo \"2700\"]\r\n[SetUp \"1\"]\r\n[FEN \"rnb1k2r/2p1qpb1/p2pp1pp/8/1p1PP2P/2N2NPB/PPPQ1P2/2KR3R w kq - 0 12\"]\r\n[PlyCount \"7\"]\r\n[EventDate \"1974.09.16\"]\r\n[EventType \"match\"]\r\n[EventRounds \"24\"]\r\n[EventCountry \"URS\"]\r\n[SourceTitle \"Candidates\"]\r\n[Source \"ChessBase\"]\r\n[SourceDate \"1999.07.01\"]\r\n[SourceVersion \"2\"]\r\n[SourceVersionDate \"1999.07.01\"]\r\n[SourceQuality \"1\"]\r\n\r\n{How did GM Korchnoi handle the threat to his c3 knight?} 12. Nd5 {[%wrong\r\nBlack wins material. Try again.] [%hint Take advantage of the pin on Black's\r\ne-pawn.]} (12. Ne2 $2 Bb7 {Black's powerful bishops provide an advantage. Try\r\nagain.}) (12. Na4 $2 a5 {Black is better. Try again.}) (12. Nb1 $2 a5 {Black\r\nis better. Try again.}) 12... exd5 {Good move! How can you win back the lost\r\nmaterial?} 13. Bxc8 {[%wrong There's a better move. Try to find it.] [%hint\r\nWhat can you capture for free?]} (13. exd5 $2 O-O {Black is winning. Try again.\r\n}) 13... O-O {Nice move! How should White save the bishop and make a fork?} 14.\r\nBb7 {[%wrong There's a better move. Try to find it.] [%hint Find the most\r\nuseful square for your bishop.]} Ra7 {Great move! How should you save the\r\nbishop?} 15. Bxd5 {[%wrong Black wins material. Try again.] [%hint Find a safe\r\nsquare for your bishop.] Well played! White is slightly better and Korchnoi\r\nwent on to win a key game against his longtime rival, Karpov.} 1-0",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "How did GM Korchnoi handle the threat to his c3 knight?",
+        "[%wrong\r\nBlack wins material. Try again.] [%hint Take advantage of the pin on Black's\r\ne-pawn.]",
+        "Black's powerful bishops provide an advantage. Try\r\nagain.",
+        "Black is better. Try again.",
+        "Black\r\nis better. Try again.",
+        "Good move! How can you win back the lost\r\nmaterial?",
+        "[%wrong There's a better move. Try to find it.] [%hint\r\nWhat can you capture for free?]",
+        "Black is winning. Try again.\r\n",
+        "Nice move! How should White save the bishop and make a fork?",
+        "[%wrong There's a better move. Try to find it.] [%hint Find the most\r\nuseful square for your bishop.]",
+        "Great move! How should you save the\r\nbishop?",
+        "[%wrong Black wins material. Try again.] [%hint Find a safe\r\nsquare for your bishop.] Well played! White is slightly better and Korchnoi\r\nwent on to win a key game against his longtime rival, Karpov."
+      ],
+      "prompt": "How did GM Korchnoi handle the threat to his c3 knight?",
+      "line": [
+        {
+          "from": "c3",
+          "to": "d5",
+          "san": "Nd5",
+          "comment": "",
+          "hint": "Take advantage of the pin on Black's\r\ne-pawn.",
+          "wrong": "",
+          "wrongMoves": [
+            {
+              "from": "c3",
+              "to": "e2",
+              "san": "Ne2",
+              "comment": "Black's powerful bishops provide an advantage. Try\r\nagain."
+            },
+            {
+              "from": "c3",
+              "to": "a4",
+              "san": "Na4",
+              "comment": "Black is better. Try again."
+            },
+            {
+              "from": "c3",
+              "to": "b1",
+              "san": "Nb1",
+              "comment": "Black\r\nis better. Try again."
+            }
+          ]
+        },
+        {
+          "from": "e6",
+          "to": "d5",
+          "san": "exd5",
+          "comment": "Good move! How can you win back the lost\r\nmaterial?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "h3",
+          "to": "c8",
+          "san": "Bxc8",
+          "comment": "",
+          "hint": "",
+          "wrong": "There's a better move. Try to find it.",
+          "wrongMoves": [
+            {
+              "from": "e4",
+              "to": "d5",
+              "san": "exd5",
+              "comment": "Black is winning. Try again."
+            }
+          ]
+        },
+        {
+          "from": "e8",
+          "to": "g8",
+          "san": "O-O",
+          "comment": "Nice move! How should White save the bishop and make a fork?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "c8",
+          "to": "b7",
+          "san": "Bb7",
+          "comment": "",
+          "hint": "Find the most\r\nuseful square for your bishop.",
+          "wrong": "There's a better move. Try to find it.",
+          "wrongMoves": []
+        },
+        {
+          "from": "a8",
+          "to": "a7",
+          "san": "Ra7",
+          "comment": "Great move! How should you save the\r\nbishop?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "b7",
+          "to": "d5",
+          "san": "Bxd5",
+          "comment": "Well played! White is slightly better and Korchnoi\r\nwent on to win a key game against his longtime rival, Karpov.",
+          "hint": "Find a safe\r\nsquare for your bishop.",
+          "wrong": "Black wins material. Try again.",
+          "wrongMoves": []
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "c3",
+          "to": "e2",
+          "san": "Ne2",
+          "comment": "Black's powerful bishops provide an advantage. Try\r\nagain."
+        },
+        {
+          "from": "c3",
+          "to": "a4",
+          "san": "Na4",
+          "comment": "Black is better. Try again."
+        },
+        {
+          "from": "c3",
+          "to": "b1",
+          "san": "Nb1",
+          "comment": "Black\r\nis better. Try again."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "fen": "1k4r1/1p2p3/pq1p4/1P1P3B/R1p4P/2Nb2P1/3Q2K1/R4r2 b - - 0 38",
+      "pgn": "[Event \"?\"]\r\n[Site \"?\"]\r\n[Date \"2021.02.26\"]\r\n[Round \"?\"]\r\n[White \"Video 5\"]\r\n[Black \"?\"]\r\n[Result \"*\"]\r\n[ECO \"A45\"]\r\n[Annotator \"Ftacnik,L\"]\r\n[SetUp \"1\"]\r\n[FEN \"1k4r1/1p2p3/pq1p4/1P1P3B/R1p4P/2Nb2P1/3Q2K1/R4r2 b - - 0 38\"]\r\n[PlyCount \"3\"]\r\n[EventDate \"2021.??.??\"]\r\n[SourceVersionDate \"2021.02.26\"]\r\n\r\n{Black's counter-attack has broken through. How can you force checkmate?} 38...\r\nQg1+ {[%wrong There's a better attacking option. Try to find a way to force\r\nmate in two moves.] [%hint Find a safe check on the back rank.]} (38... Qd4 $5\r\n{Black is doing well, but another move forces a quick checkmate. Try to find\r\nit.}) (38... Rxg3+ $5 {Black is doing well, but another move forces a quick\r\ncheckmate. Try to find it.}) 39. Kh3 {White resigned in Carlsen - Ivanchuk\r\n2015. How can you checkmate with the queen?} Qxg3# {[%wrong That's not mate.\r\nLook at your checks and try again.] [%hint Look at your checks. Which one is\r\nmate?] Great work!} (39... Rxg3# $5 {This is a great move. Try to find the\r\nother checkmate as well.}) *",
+      "challengeType": "",
+      "targets": "",
+      "comments": [
+        "Black's counter-attack has broken through. How can you force checkmate?",
+        "[%wrong There's a better attacking option. Try to find a way to force\r\nmate in two moves.] [%hint Find a safe check on the back rank.]",
+        "Black is doing well, but another move forces a quick checkmate. Try to find\r\nit.",
+        "Black is doing well, but another move forces a quick\r\ncheckmate. Try to find it.",
+        "White resigned in Carlsen - Ivanchuk\r\n2015. How can you checkmate with the queen?",
+        "[%wrong That's not mate.\r\nLook at your checks and try again.] [%hint Look at your checks. Which one is\r\nmate?] Great work!",
+        "This is a great move. Try to find the\r\nother checkmate as well."
+      ],
+      "prompt": "Black's counter-attack has broken through. How can you force checkmate?",
+      "line": [
+        {
+          "from": "b6",
+          "to": "g1",
+          "san": "Qg1+",
+          "comment": "",
+          "hint": "Find a safe check on the back rank.",
+          "wrong": "There's a better attacking option. Try to find a way to force\r\nmate in two moves.",
+          "wrongMoves": [
+            {
+              "from": "b6",
+              "to": "d4",
+              "san": "Qd4",
+              "comment": "Black is doing well, but another move forces a quick checkmate. Try to find\r\nit."
+            },
+            {
+              "from": "g8",
+              "to": "g3",
+              "san": "Rxg3+",
+              "comment": "Black is doing well, but another move forces a quick\r\ncheckmate. Try to find it."
+            }
+          ]
+        },
+        {
+          "from": "g2",
+          "to": "h3",
+          "san": "Kh3",
+          "comment": "White resigned in Carlsen - Ivanchuk\r\n2015. How can you checkmate with the queen?",
+          "hint": "",
+          "wrong": "",
+          "wrongMoves": []
+        },
+        {
+          "from": "g1",
+          "to": "g3",
+          "san": "Qxg3#",
+          "comment": "Great work!",
+          "hint": "Look at your checks. Which one is\r\nmate?",
+          "wrong": "That's not mate.\r\nLook at your checks and try again.",
+          "wrongMoves": [
+            {
+              "from": "g8",
+              "to": "g3",
+              "san": "Rxg3#",
+              "comment": "This is a great move. Try to find the\r\nother checkmate as well."
+            }
+          ]
+        }
+      ],
+      "wrongMoves": [
+        {
+          "from": "b6",
+          "to": "d4",
+          "san": "Qd4",
+          "comment": "Black is doing well, but another move forces a quick checkmate. Try to find\r\nit."
+        },
+        {
+          "from": "g8",
+          "to": "g3",
+          "san": "Rxg3+",
+          "comment": "Black is doing well, but another move forces a quick\r\ncheckmate. Try to find it."
+        }
+      ]
+    }
+  ],
+  "unavailable": []
+}

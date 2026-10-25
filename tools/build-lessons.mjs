@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import { Chess } from 'chess.js';
 import {compileExercise} from './compile-lesson.mjs';
 import {orderLessonLibrary} from './lesson-library-order.mjs';
+import {embedOpeningCourses} from './build-opening-courses.mjs';
 const root = new URL('../', import.meta.url);
 const lesson = JSON.parse(fs.readFileSync(new URL('data/lessons/le-fou.json', root), 'utf8'));
 const clean = text => text.replace(/\[%[^\]]*\]/g, '').trim();
@@ -94,4 +95,4 @@ if(!openingsHtml.includes('id="opening-sounds"'))openingsHtml=openingsHtml.repla
 const soundSource=fs.readFileSync(new URL('src/sound-bank.js',root),'utf8');
 const mount='\nglobalThis.openingSounds=new DefaultSoundBank();openingSounds.attach(document.getElementById("sound-toggle"));';
 openingsHtml=openingsHtml.replace(/(<script id="opening-sounds">)[\s\S]*?(<\/script>)/,(_,open,close)=>open+'\n'+soundSource+mount+'\n'+close);
-fs.writeFileSync(openingsPage,openingsHtml);
+fs.writeFileSync(openingsPage,embedOpeningCourses(openingsHtml));

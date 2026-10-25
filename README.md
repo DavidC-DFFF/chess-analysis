@@ -1,4 +1,14 @@
-# Atelier d’analyse d’échecs
+# Chess Analysis
+
+Les pages Ouvertures, Leçons et Analyse partagent le nom **Chess Analysis** et une icône locale de tour (`favicon.svg`, également fournie dans `public/` pour la compilation). Les liens d’icône sont relatifs pour fonctionner dans un fichier local et sur GitHub Pages.
+
+## Cours d’ouvertures
+
+Dans **Ouvertures → Choisir un entraînement → Cours d’ouvertures · 500 exercices**, choisir parmi les 50 thèmes classés en cinq familles, puis travailler les dix exercices du cours. Les entraînements existants (ouvertures classiques, Fégatello et Berger) restent disponibles dans le même menu.
+
+Les modes Learn et Test, les indices, la répétition, la rotation et le parcours aléatoire sont disponibles. Chaque exercice commence à sa position FEN réelle, avec le bon camp à jouer et la numérotation d’origine. Les réponses adverses sont automatiques en Test ; les variantes explicitement acceptées et les commentaires d’erreur de la source sont conservés. Les commentaires sont en anglais, les noms et commandes sont en français ; le lien vers la source est affiché près des commentaires.
+
+Les données PGN sont conservées dans `data/opening-courses.json`. `tools/build-opening-courses.mjs` les compile et les intègre à `ouvertures.html` lors de `npm run build`, sans requête au chargement : les exercices sont disponibles hors ligne. Les fichiers exportés sous `exports/learn-the-openings/` restent une archive distincte ; les vidéos ne sont pas intégrées.
 
 ## Apparence de l’échiquier
 

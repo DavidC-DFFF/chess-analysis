@@ -12,7 +12,7 @@ const demo = review.pgn;
 const state = { game: new Chess(), moves: [], headers: {}, comments: new Map(), notes: new Map(), step: 0, flipped: false, alternative: false };
 
 document.querySelector('#app').innerHTML = `
-  <header class="topbar"><div class="brand"><span class="brand-mark">♞</span><span>ATELIER <strong>D’ANALYSE</strong></span></div><nav class="site-nav" aria-label="Navigation principale"><a href="./ouvertures.html">Ouvertures</a><a href="./lecons.html">Leçons</a><button type="button" id="sound-toggle" aria-pressed="true">Son : activé</button></nav></header>
+  <header class="topbar"><div class="brand"><img src="./favicon.svg" width="32" height="32" alt=""><span>Chess Analysis</span></div><nav class="site-nav" aria-label="Navigation principale"><a href="./ouvertures.html">Ouvertures</a><a href="./lecons.html">Leçons</a><button type="button" id="sound-toggle" aria-pressed="true">Son : activé</button></nav></header>
   <main class="workspace">
     <section class="board-column" aria-label="Échiquier">
       <div class="game-heading"><div><p class="eyebrow">POSITION ANALYSÉE</p><h1 id="game-title">Partie exemple</h1><p id="game-meta" class="muted"></p></div><button id="flip" class="icon-button" title="Retourner l’échiquier" aria-label="Retourner l’échiquier">⇅</button></div>
