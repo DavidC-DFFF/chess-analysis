@@ -57,6 +57,23 @@ test('la variante Bxd5 continue jusqu’à Qxc6 et retire seulement le petit roq
  assert.equal(pieces.filter(p=>p.color==='b'&&['n','b'].includes(p.type)).length,pieces.filter(p=>p.color==='w'&&['n','b'].includes(p.type)).length);
 });
 
+test('le contre-jeu du Berger explique le sacrifice en e4 jusqu’au gain de la dame',()=>{
+ const line=data.trainingGroups.find(group=>group.id==='berger').lines.find(line=>line.name==='Poussée g4 · contre-jeu central');
+ assert.deepEqual(Array.from(line.moves.slice(14),move=>move.san),['fxe4','Qh4+','Kf1','Bxg4','Be2','Qf6+','Ke1','Nxe2','Nxe2','Qh4+','Ng3','Bxd1','Kxd1']);
+ const game=new Chess();
+ for(let i=0;i<line.moves.length;i++){
+  game.move(line.moves[i].san,{strict:true});
+  if(i===15)assert.deepEqual(game.moves(),['Kf1'],'Dh4+ force le roi en f1 après la prise du cavalier');
+  if(i===16||i===20)assert.deepEqual(game.getCastlingRights('w'),{k:false,q:false},'le retour en e1 ne rétablit aucun droit au roque');
+  if(i===25){assert.equal(game.get('d1')?.type,'b');assert.equal(game.board().flat().filter(p=>p?.color==='w'&&p.type==='q').length,0)}
+ }
+ const pieces=game.board().flat().filter(Boolean),count=(color,type)=>pieces.filter(p=>p.color===color&&p.type===type).length;
+ assert.equal(count('b','q'),1);assert.equal(count('w','q'),0);
+ assert.equal(count('w','n')-count('b','n'),2);
+ assert.equal(count('b','p')-count('w','p'),2);
+ assert.equal(game.get('d1')?.type,'k');
+});
+
 function session(lineIndex=0,step=7){
  const group=data.trainingGroups[0];
  const elements=new Map();

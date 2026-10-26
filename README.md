@@ -75,6 +75,8 @@ La contre-attaque « 5…b5 » conserve une seule entrée, avec la suite complè
 
 La variante « Capture du fou · 5.Bxd5 » continue après `6…Qxg5` par `7.dxc6 Qxg2 8.Rf1 Qxc6`. Elle illustre la menace sur la tour h1 et la perte du droit au petit roque après son déplacement. Le grand roque reste autorisé en principe ; le bilan final est un pion de plus pour les Noirs, avec autant de pièces mineures de chaque côté.
 
+La variante du Berger « Poussée g4 · contre-jeu central » prolonge `7…Nxe4` par `8.fxe4 Qh4+ 9.Kf1 Bxg4 10.Be2 Qf6+ 11.Ke1 Nxe2 12.Nxe2 Qh4+ 13.Ng3 Bxd1 14.Kxd1`. Cette continuation illustrative explique l’ouverture de la diagonale h4–e1, la perte des droits au roque et la déviation des défenseurs de la dame. Les Noirs conservent leur dame contre deux cavaliers supplémentaires chez les Blancs, avec deux pions de plus ; les commentaires ne présentent pas tous les coups blancs comme forcés.
+
 Sur grand écran, l’échiquier, les commandes avec leurs commentaires et les sélecteurs occupent trois colonnes. Les panneaux restent entièrement accessibles sans barre de défilement sur la colonne de droite. Sur une fenêtre plus étroite, la disposition revient à deux colonnes, puis à une seule sur mobile ; le défilement de la page reste possible si la hauteur disponible l’exige.
 
 Les règles de `chess.js` sont embarquées dans le fichier HTML, avec leur licence BSD, pour conserver le fonctionnement hors ligne. Pour vérifier la légalité des lignes, les plateaux et les réponses alternatives :
