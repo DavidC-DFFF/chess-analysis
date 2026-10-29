@@ -105,8 +105,9 @@
 .opening-panel select{min-width:0;max-width:100%}
 #course-options{margin-top:6px}
 .opening-panel:has(#course-options:not([hidden])) #order-options{margin-top:5px}
-#course-source{font-size:.76rem;line-height:1.4;margin:6px 0}
-#course-source a{color:#e4c38a}
+#course-source,#london-source{font-size:.76rem;line-height:1.4;margin:6px 0}
+#course-source a,#london-source a{color:#e4c38a}
+#london-source{margin:0}
 @media(max-width:560px){.top{flex-wrap:wrap;gap:6px 12px}.shell{grid-template-columns:minmax(0,1fr)}.board-head>div{min-width:0}.board-head h1{overflow-wrap:anywhere}}
 .opening-panel #new-variant{margin-top:8px;padding:7px 10px;border:1px solid #dabb7e;border-radius:7px;background:#29392f;color:#ffe3ad}
 .feedback{color:#edf3e9!important;background:#17251c;padding:10px;border-radius:7px;font-size:.86rem;line-height:1.5;margin:9px 0 0!important;overflow-wrap:anywhere}
@@ -188,8 +189,9 @@
 
 </section>
 <aside class="sidebar">
-<section class="panel opening-panel"><label for="practice-select">Choisir un entraînement</label><select id="practice-select"><option value="classic">Ouvertures classiques</option><option value="course">Cours d’ouvertures · 500 exercices</option><option value="fegatello">Répondre à Fégatello</option><option value="berger">Répondre au coup du Berger</option></select>
+<section class="panel opening-panel"><label for="practice-select">Choisir un entraînement</label><select id="practice-select"><option value="classic">Ouvertures classiques</option><option value="course">Cours d’ouvertures · 500 exercices</option><option value="fegatello">Répondre à Fégatello</option><option value="berger">Répondre au coup du Berger</option><option value="london">Répondre au système de Londres</option></select>
 <div id="course-options" hidden><label for="course-select">Ouverture à étudier</label><select id="course-select" aria-label="Cours d’ouverture"></select><p id="course-source">Commentaires en anglais · <a id="course-source-link" target="_blank" rel="noopener noreferrer">Source Chess.com</a></p></div>
+<p id="london-source" hidden>Source : <a href="https://www.youtube.com/watch?v=KBEPZtS8Nfo" target="_blank" rel="noopener noreferrer">Julien Song · contrer le Londres</a></p>
 <div id="classic-options"><label for="opening-select">Choisir une ouverture</label><select id="opening-select" aria-label="Ouverture"></select></div>
 <div id="attack-options" hidden><label for="variant-select" id="variant-picker-label">Variante à travailler</label><select id="variant-select"></select><div id="order-options"><label for="order-select">Parcours</label><select id="order-select"><option value="rotation">Rotation · dans l’ordre</option><option value="random">Aléatoire · sans répétition</option></select></div><p id="training-guide">Joue les Noirs. Toutes les variantes sont proposées avant le tour suivant.</p><button id="new-variant" type="button">Variante suivante</button><p id="coverage-progress" aria-live="polite"></p><p id="practice-progress" aria-live="polite"></p></div>
 <fieldset class="mode-picker"><legend>Mode de jeu</legend><div class="mode-options">
@@ -1556,6 +1558,1087 @@ const attackRaw = [
         ]
       ]
     ]
+  },
+  {
+    "id": "london",
+    "name": "Système de Londres",
+    "start": 3,
+    "lines": [
+      [
+        "c3 et b3 · rupture …e5",
+        "1.d4",
+        "Après b3, ouvrir le centre et exploiter les cases noires avec …e5 et …Fb4+. La continuation blanche est illustrative.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "c3",
+            "c2c3",
+            "Le pion c3 soutient d4 et prépare la structure habituelle du Londres ; les Noirs doivent rester actifs."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "b3",
+            "b2b3",
+            "Les Blancs défendent b2 par b3, mais affaiblissent les cases noires et la diagonale a1–h8."
+          ],
+          [
+            "cxd4",
+            "c5d4",
+            "La prise en d4 oblige les Blancs à préciser leur structure et libère la colonne c."
+          ],
+          [
+            "cxd4",
+            "c3d4",
+            "Le pion c3 reprend en d4 : la diagonale b4–e1 ne contient désormais plus de pion blanc en c3."
+          ],
+          [
+            "Nc6",
+            "b8c6",
+            "Le cavalier se développe en c6 et ajoute une pression centrale avant la rupture e5."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "e5",
+            "e7e5",
+            "La rupture e5 attaque le fou f4 ; la prise blanche autorise un échec actif sur b4."
+          ],
+          [
+            "dxe5",
+            "d4e5",
+            "Le pion quitte d4 pour capturer e5, ce qui dégage encore la diagonale b4–e1."
+          ],
+          [
+            "Bb4+",
+            "f8b4",
+            "Le fou donne échec sur b4 et prépare le clouage du cavalier qui viendra en d2."
+          ],
+          [
+            "Nd2",
+            "b1d2",
+            "Le cavalier intercepte l’échec en d2, mais ne peut bouger sans exposer le roi e1."
+          ],
+          [
+            "Ne4",
+            "f6e4",
+            "Le cavalier f6 rejoint e4 et attaque d2, déjà visé par le fou b4."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Le cavalier blanc défend d2 depuis f3 ; les Noirs cherchent à dévier ce défenseur."
+          ],
+          [
+            "g5",
+            "g7g5",
+            "La poussée g5 attaque le fou f4 et prépare g4 pour chasser le cavalier f3."
+          ],
+          [
+            "Bg3",
+            "f4g3",
+            "Le fou recule en g3 ; cette réponse permet aux Noirs de poursuivre leur attaque sur les défenseurs."
+          ],
+          [
+            "g4",
+            "g5g4",
+            "Le pion attaque f3. Si ce cavalier quitte la défense de d2, le cavalier e4 peut capturer la pièce clouée."
+          ]
+        ]
+      ],
+      [
+        "c3 et Dc2 · dévier la dame",
+        "1.d4",
+        "La dame c2 protège b2 : …Ff5 exploite ce double rôle. Ne pas prendre d4 avec la dame à cause de Dxc8 mat.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "c3",
+            "c2c3",
+            "Le pion c3 soutient d4 et prépare la structure habituelle du Londres ; les Noirs doivent rester actifs."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Qc2",
+            "d1c2",
+            "La dame protège b2 depuis c2 ; elle doit aussi surveiller les attaques sur sa diagonale."
+          ],
+          [
+            "cxd4",
+            "c5d4",
+            "Prends d4 avec le pion c5 pour ouvrir le centre, sans exposer la dame à une tactique sur c8."
+          ],
+          [
+            "cxd4",
+            "c3d4",
+            "Le pion c3 reprend en d4 et ouvre la colonne c entre les dames et le fou c8."
+          ],
+          [
+            "Nc6",
+            "b8c6",
+            "Développe le cavalier. Ici Dxd4 serait une erreur : Dxc8 serait échec et mat."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "d5",
+            "d7d5",
+            "Le pion d5 soutient le centre et libère la diagonale c8–f5 du fou noir."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Les Blancs développent le cavalier vers le centre, mais la dame reste chargée de défendre b2."
+          ],
+          [
+            "Bf5",
+            "c8f5",
+            "Le fou attaque la dame c2 : s’il est capturé, la dame blanche abandonne la défense de b2."
+          ],
+          [
+            "Qxf5",
+            "c2f5",
+            "La dame prend le fou ; c’est la déviation étudiée, et non une réponse blanche forcée."
+          ],
+          [
+            "Qxb2",
+            "b6b2",
+            "La dame capture b2 et attaque la tour a1. Le gain de la tour exige encore de surveiller les réponses blanches."
+          ]
+        ]
+      ],
+      [
+        "c3 et Db3 · échange des dames",
+        "1.d4",
+        "Échanger les dames, puis placer le cavalier en b4 pour provoquer Ca3 et gêner les pièces blanches.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "c3",
+            "c2c3",
+            "Le pion c3 soutient d4 et prépare la structure habituelle du Londres ; les Noirs doivent rester actifs."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Qb3",
+            "d1b3",
+            "La dame blanche propose l’échange pour supprimer la pression directe sur b2."
+          ],
+          [
+            "Qxb3",
+            "b6b3",
+            "Échange les dames avant de choisir une structure de finale et un développement actif."
+          ],
+          [
+            "axb3",
+            "a2b3",
+            "Le pion a2 reprend en b3 : les Blancs ont deux pions sur la colonne b et la colonne a est ouverte."
+          ],
+          [
+            "cxd4",
+            "c5d4",
+            "L’échange central attire le pion c3 en d4 et libère la diagonale du fou c8 vers e6."
+          ],
+          [
+            "cxd4",
+            "c3d4",
+            "Le pion c3 reprend d4 et laisse la case c2 accessible à une intrusion du cavalier."
+          ],
+          [
+            "Nc6",
+            "b8c6",
+            "Développe le cavalier vers c6 pour préparer son saut en b4."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Nb4",
+            "c6b4",
+            "Le cavalier menace Cc2+, une fourchette sur le roi e1 et la tour a1."
+          ],
+          [
+            "Na3",
+            "b1a3",
+            "Le cavalier a3 défend c2, mais son placement au bord limite ses possibilités."
+          ],
+          [
+            "a6",
+            "a7a6",
+            "Le pion a6 contrôle b5 et empêche le cavalier a3 de s’y installer."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Les Blancs poursuivent leur développement ; les Noirs peuvent organiser leurs pions sans dame sur l’échiquier."
+          ],
+          [
+            "d6",
+            "d7d6",
+            "Le pion d6 contrôle e5 et libère e6 pour le fou c8, qui pourra viser le pion b3."
+          ]
+        ]
+      ],
+      [
+        "e3 et b3 · fianchetto et …Cd5",
+        "1.d4",
+        "Après b3 puis c3, …Cd5 attaque le fou f4 et le pion c3. Apprendre le plan sans réciter une attaque forcée.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "b3",
+            "b2b3",
+            "Le pion b3 défend b2, mais cesse de soutenir une future avance du pion c en c3."
+          ],
+          [
+            "g6",
+            "g7g6",
+            "Le fianchetto prépare Fg7 et le petit roque, avec une pression sur la grande diagonale."
+          ],
+          [
+            "c3",
+            "c2c3",
+            "Le pion c3 soutient d4 et prépare la structure habituelle du Londres ; les Noirs doivent rester actifs."
+          ],
+          [
+            "Bg7",
+            "f8g7",
+            "Le fou rejoint g7 et vise le centre sur la diagonale h8–a1."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Le cavalier blanc se développe vers f3 et prépare le petit roque."
+          ],
+          [
+            "O-O",
+            "e8g8",
+            "Le roi noir se met à l’abri ; la tour f8 pourra ensuite participer au jeu central."
+          ],
+          [
+            "Bd3",
+            "f1d3",
+            "Le fou d3 vise h7, un placement fréquent dans le dispositif de Londres."
+          ],
+          [
+            "d6",
+            "d7d6",
+            "Le pion d6 soutient la poussée e5 et permet le développement du fou c8."
+          ],
+          [
+            "Nbd2",
+            "b1d2",
+            "Le cavalier d2 complète le dispositif blanc, mais ne règle pas la faiblesse du pion c3."
+          ],
+          [
+            "Nd5",
+            "f6d5",
+            "Le cavalier attaque le fou f4 et le pion c3, qui n’est plus protégé par b2 après b3."
+          ]
+        ]
+      ],
+      [
+        "e3 et Dc1 · développement en fianchetto",
+        "1.d4",
+        "Face à Dc1, développer le fou en g7 et roquer. La dame blanche défend b2 : ne pas appliquer aveuglément la tactique sur c3.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Qc1",
+            "d1c1",
+            "La dame défend b2 depuis c1, au prix d’un déplacement précoce ; le pion b2 reste en place."
+          ],
+          [
+            "g6",
+            "g7g6",
+            "Le fianchetto prépare Fg7 et le petit roque, avec une pression sur la grande diagonale."
+          ],
+          [
+            "c3",
+            "c2c3",
+            "Le pion c3 soutient d4 et prépare la structure habituelle du Londres ; les Noirs doivent rester actifs."
+          ],
+          [
+            "Bg7",
+            "f8g7",
+            "Le fou rejoint g7 et vise le centre sur la diagonale h8–a1."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Le cavalier blanc se développe vers f3 et prépare le petit roque."
+          ],
+          [
+            "O-O",
+            "e8g8",
+            "Le roi noir se met à l’abri ; la tour f8 pourra ensuite participer au jeu central."
+          ],
+          [
+            "Bd3",
+            "f1d3",
+            "Le fou d3 vise h7, un placement fréquent dans le dispositif de Londres."
+          ],
+          [
+            "d6",
+            "d7d6",
+            "Le pion d6 soutient la poussée e5 et permet le développement du fou c8."
+          ]
+        ]
+      ],
+      [
+        "Cc3 et Cf3 · …a6 avant la prise b2",
+        "1.d4",
+        "Contre Cc3, empêcher Cb5 par …a6. Après Dxb2 et Ca4, la dame trouve refuge en a3 et …Cd5 attaque f4.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Nc3",
+            "b1c3",
+            "Le cavalier c3 se développe en laissant b2 en prise ; Cb5 serait dangereux pour les Noirs après une prise précipitée."
+          ],
+          [
+            "a6",
+            "a7a6",
+            "Le pion a6 contrôle b5 : joue cette précaution avant d’envisager Dxb2."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Les Blancs développent f3 et maintiennent leur offre du pion b2."
+          ],
+          [
+            "Qxb2",
+            "b6b2",
+            "La dame prend b2 après avoir interdit Cb5 ; il faut connaître sa sortie face à Ca4."
+          ],
+          [
+            "Na4",
+            "c3a4",
+            "Le cavalier attaque la dame b2 depuis a4 et lui impose de trouver une case sûre."
+          ],
+          [
+            "Qa3",
+            "b2a3",
+            "La dame se retire en a3, hors de l’attaque du cavalier a4."
+          ],
+          [
+            "c3",
+            "c2c3",
+            "Le pion c3 soutient d4 et libère la diagonale de la dame d1 vers le cavalier a4."
+          ],
+          [
+            "Nd5",
+            "f6d5",
+            "Le cavalier d5 attaque le fou f4 et contrôle c3 ; surveille aussi la dame a3 qui vise le cavalier a4."
+          ]
+        ]
+      ],
+      [
+        "Cc3 et Cxc5 · échec en c3",
+        "1.d4",
+        "Après …a6, Dxb2 et Da3, répondre à Cxc5 par Dc3+ pour exploiter la diagonale vers le roi.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Nc3",
+            "b1c3",
+            "Le cavalier c3 développe le jeu blanc et prépare Cb5 si les Noirs prennent b2 trop tôt."
+          ],
+          [
+            "a6",
+            "a7a6",
+            "Le pion a6 empêche Cb5 avant la capture du pion b2."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Le cavalier f3 se développe sans défendre b2."
+          ],
+          [
+            "Qxb2",
+            "b6b2",
+            "La dame capture b2 ; son trajet de repli doit être prévu."
+          ],
+          [
+            "Na4",
+            "c3a4",
+            "Le cavalier a4 attaque la dame et menace ensuite de capturer le pion c5."
+          ],
+          [
+            "Qa3",
+            "b2a3",
+            "La dame a3 reste active sur la troisième rangée et hors de portée du cavalier a4."
+          ],
+          [
+            "Nxc5",
+            "a4c5",
+            "Le cavalier capture le pion c5, mais la case c3 est désormais libre."
+          ],
+          [
+            "Qc3+",
+            "a3c3",
+            "La dame donne échec depuis c3 sur la diagonale c3–d2–e1. La case c3 est vide : c’est Dc3+, sans capture."
+          ],
+          [
+            "Nd2",
+            "f3d2",
+            "Le cavalier f3 intercepte l’échec en d2 et les Noirs peuvent poursuivre leur développement."
+          ],
+          [
+            "d6",
+            "d7d6",
+            "Le pion d6 attaque le cavalier c5 et libère le fou c8."
+          ],
+          [
+            "Na4",
+            "c5a4",
+            "Le cavalier revient en a4 et attaque à nouveau la dame c3."
+          ],
+          [
+            "Qa5",
+            "c3a5",
+            "La dame se retire en a5, en conservant une présence sur l’aile dame."
+          ]
+        ]
+      ],
+      [
+        "Cc3 et b3 · …Da5 et …Fb4",
+        "1.d4",
+        "Après …a6 et b3, activer la dame en a5 et préparer …Fb4 sur la diagonale du roi blanc.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Nc3",
+            "b1c3",
+            "Le cavalier se développe en c3 ; les Noirs doivent d’abord prévenir le saut Cb5."
+          ],
+          [
+            "a6",
+            "a7a6",
+            "Le pion a6 contrôle b5 et donne aux Noirs le temps d’activer leur dame."
+          ],
+          [
+            "b3",
+            "b2b3",
+            "Le pion b3 défend b2 mais affaiblit les cases noires de l’aile dame."
+          ],
+          [
+            "Qa5",
+            "b6a5",
+            "La dame a5 vise le cavalier c3 sur la diagonale vers e1."
+          ],
+          [
+            "Qd2",
+            "d1d2",
+            "La dame d2 soutient le cavalier c3 et prépare le développement blanc."
+          ],
+          [
+            "cxd4",
+            "c5d4",
+            "Le pion c5 capture d4 pour clarifier le centre avant le développement du fou."
+          ],
+          [
+            "exd4",
+            "e3d4",
+            "Le pion e3 reprend en d4 ; la diagonale f8–b4 s’ouvrira après e6."
+          ],
+          [
+            "e6",
+            "e7e6",
+            "Le pion e6 libère le fou f8 et prépare sa sortie en b4."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Le cavalier blanc se développe, tandis que le roi reste sur e1."
+          ],
+          [
+            "Bb4",
+            "f8b4",
+            "Le fou b4 augmente la pression sur le cavalier c3, cloué devant la dame d2 et le roi e1."
+          ]
+        ]
+      ],
+      [
+        "Tb1 et Cf3 · sortir le fou avant …e6",
+        "1.d4",
+        "Dans la structure Carlsbad, sortir le fou c8 en f5 avant …e6, puis terminer le développement.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Nc3",
+            "b1c3",
+            "Le cavalier c3 développe une pièce mais bloque le pion c2, ce qui aura un effet sur la structure centrale."
+          ],
+          [
+            "a6",
+            "a7a6",
+            "Le pion a6 empêche Cb5 avant de décider comment répondre à la défense de b2."
+          ],
+          [
+            "Rb1",
+            "a1b1",
+            "La tour b1 défend b2 et évite la prise du pion par la dame noire."
+          ],
+          [
+            "cxd4",
+            "c5d4",
+            "L’échange en d4 force les Blancs à choisir leur structure de pions."
+          ],
+          [
+            "exd4",
+            "e3d4",
+            "Le pion e3 reprend d4 ; les Blancs gardent un pion c2 bloqué par leur cavalier."
+          ],
+          [
+            "d5",
+            "d7d5",
+            "Le pion d5 fixe le centre dans une structure de type Carlsbad ; le fou c8 peut encore sortir avant e6."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Le cavalier f3 développe le jeu blanc, mais laisse f5 accessible au fou c8."
+          ],
+          [
+            "Bf5",
+            "c8f5",
+            "Le fou sort en f5 avant que le pion e6 ne ferme sa diagonale de développement."
+          ],
+          [
+            "Bd3",
+            "f1d3",
+            "Le fou blanc d3 propose l’échange des fous de cases blanches."
+          ],
+          [
+            "Bxd3",
+            "f5d3",
+            "Le fou capture en d3 : les Noirs échangent leur fou actif avant de fermer leur structure."
+          ],
+          [
+            "Qxd3",
+            "d1d3",
+            "La dame reprend le fou d3 ; les Blancs doivent encore mettre leur roi à l’abri."
+          ],
+          [
+            "e6",
+            "e7e6",
+            "Le pion e6 soutient d5 et libère le fou f8 sans avoir enfermé le fou c8, déjà échangé."
+          ]
+        ]
+      ],
+      [
+        "Tb1 et Fd3 · pression par …Fg4",
+        "1.d4",
+        "Si Fd3 empêche …Ff5, développer …Cc6 puis …Fg4 pour augmenter la pression sur d4.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Nc3",
+            "b1c3",
+            "Le cavalier c3 développe une pièce mais bloque le pion c2, ce qui aura un effet sur la structure centrale."
+          ],
+          [
+            "a6",
+            "a7a6",
+            "Le pion a6 empêche Cb5 avant de décider comment répondre à la défense de b2."
+          ],
+          [
+            "Rb1",
+            "a1b1",
+            "La tour b1 défend b2 et évite la prise du pion par la dame noire."
+          ],
+          [
+            "cxd4",
+            "c5d4",
+            "L’échange en d4 force les Blancs à choisir leur structure de pions."
+          ],
+          [
+            "exd4",
+            "e3d4",
+            "Le pion e3 reprend d4 ; les Blancs gardent un pion c2 bloqué par leur cavalier."
+          ],
+          [
+            "d5",
+            "d7d5",
+            "Le pion d5 fixe le centre dans une structure de type Carlsbad ; le fou c8 peut encore sortir avant e6."
+          ],
+          [
+            "Bd3",
+            "f1d3",
+            "Le fou d3 contrôle f5 et empêche le développement confortable du fou noir sur cette case."
+          ],
+          [
+            "Nc6",
+            "b8c6",
+            "Le cavalier c6 se développe et attaque le pion d4."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Le cavalier f3 défend d4 mais se place sur la diagonale du fou noir vers la dame d1."
+          ],
+          [
+            "Bg4",
+            "c8g4",
+            "Le fou g4 cloue le cavalier f3 sur la dame d1 : la pression sur le centre blanc augmente."
+          ]
+        ]
+      ],
+      [
+        "Tb1 et Cge2 · le saut …Cb4",
+        "1.d4",
+        "Si le cavalier g1 va en e2 après Fd3, …Cb4 attaque le fou d3. Les Blancs peuvent choisir de le conserver.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Nc3",
+            "b1c3",
+            "Le cavalier c3 développe une pièce mais bloque le pion c2, ce qui aura un effet sur la structure centrale."
+          ],
+          [
+            "a6",
+            "a7a6",
+            "Le pion a6 empêche Cb5 avant de décider comment répondre à la défense de b2."
+          ],
+          [
+            "Rb1",
+            "a1b1",
+            "La tour b1 défend b2 et évite la prise du pion par la dame noire."
+          ],
+          [
+            "cxd4",
+            "c5d4",
+            "L’échange en d4 force les Blancs à choisir leur structure de pions."
+          ],
+          [
+            "exd4",
+            "e3d4",
+            "Le pion e3 reprend d4 ; les Blancs gardent un pion c2 bloqué par leur cavalier."
+          ],
+          [
+            "d5",
+            "d7d5",
+            "Le pion d5 fixe le centre dans une structure de type Carlsbad ; le fou c8 peut encore sortir avant e6."
+          ],
+          [
+            "Bd3",
+            "f1d3",
+            "Le fou d3 empêche le fou c8 de se développer en f5."
+          ],
+          [
+            "Nc6",
+            "b8c6",
+            "Le cavalier c6 développe une pièce et prépare le saut b4 contre le fou d3."
+          ],
+          [
+            "Nge2",
+            "g1e2",
+            "Le cavalier g1 choisit e2 plutôt que f3 ; le clouage par Fg4 n’est donc plus le même plan."
+          ],
+          [
+            "Nb4",
+            "c6b4",
+            "Le cavalier b4 attaque le fou d3. Ce saut gagne un temps sur le fou ; l’échange n’est pas forcé."
+          ]
+        ]
+      ],
+      [
+        "c3 puis Cf3 · adaptation du plan",
+        "1.d4",
+        "Adaptation illustrative à l’ordre fréquent de SebCamille, distincte des variantes transcrites : …c5, …Cc6 et pression sur b2.",
+        [
+          [
+            "d4",
+            "d2d4",
+            "Les Blancs occupent le centre et libèrent le fou c1 pour installer leur système de Londres."
+          ],
+          [
+            "Nf6",
+            "g8f6",
+            "Les Noirs développent le cavalier, contrôlent e4 et gardent le choix de leur structure centrale."
+          ],
+          [
+            "c3",
+            "c2c3",
+            "Le pion c3 soutient d4 et prépare la structure habituelle du Londres ; les Noirs doivent rester actifs."
+          ],
+          [
+            "c5",
+            "c7c5",
+            "Les Noirs contestent immédiatement d4 et préparent une pression sur b2 par la dame en b6."
+          ],
+          [
+            "Nf3",
+            "g1f3",
+            "Les Blancs développent f3 avant de sortir le fou : ce n’est pas l’ordre initial présenté dans la vidéo."
+          ],
+          [
+            "d5",
+            "d7d5",
+            "Les Noirs occupent d5. Cette adaptation illustrative transpose le plan de pression dans une structure différente."
+          ],
+          [
+            "Bf4",
+            "c1f4",
+            "Le fou sort avant e3 ; en quittant c1, il cesse de défendre le pion b2."
+          ],
+          [
+            "Nc6",
+            "b8c6",
+            "Le cavalier c6 se développe et renforce la pression contre d4."
+          ],
+          [
+            "e3",
+            "e2e3",
+            "Le pion e3 soutient d4 et libère le fou f1, tandis que le fou c1 est déjà sorti."
+          ],
+          [
+            "Qb6",
+            "d8b6",
+            "La dame attaque b2 et augmente la pression sur d4 : surveille les menaces blanches avant de capturer."
+          ],
+          [
+            "Qb3",
+            "d1b3",
+            "La dame b3 défend b2 et propose un échange : vérifier la position avant de reprendre une variante de la vidéo."
+          ],
+          [
+            "c4",
+            "c5c4",
+            "Le pion c4 attaque la dame b3 et fixe le centre ; il n’attaque pas le fou f1."
+          ],
+          [
+            "Qxb6",
+            "b3b6",
+            "La dame blanche choisit l’échange en b6 ; cette réponse est illustrative et non forcée."
+          ],
+          [
+            "axb6",
+            "a7b6",
+            "Le pion a7 reprend la dame en b6, ouvrant la colonne a et doublant les pions b noirs."
+          ],
+          [
+            "Nbd2",
+            "b1d2",
+            "Le cavalier d2 se développe et prépare une éventuelle remise en cause du pion c4."
+          ],
+          [
+            "b5",
+            "b6b5",
+            "Le pion b5 soutient c4 et prépare de l’espace à l’aile dame ; les Noirs doivent encore développer leurs fous et roquer."
+          ]
+        ]
+      ]
+    ]
   }
 ];
 const openings = raw.map(([name,first,summary,moves])=>({name,first,summary,moves:moves.map(([san,uci,note])=>({san,uci,note}))}));
@@ -1612,6 +2695,7 @@ function selectPractice(){
  if(!training){classicOpening=opening;classicMode=mode}
  training=id==="course"?openingCourses.find(course=>course.id===document.getElementById("course-select").value):trainingGroups.find(group=>group.id===id)||null;
  document.getElementById("course-options").hidden=id!=="course";
+ document.getElementById("london-source").hidden=id!=="london";
  if(training?.imported)document.getElementById("course-source-link").href=training.sourceUrl;
  document.getElementById("classic-options").hidden=!!training;
  document.getElementById("attack-options").hidden=!training;

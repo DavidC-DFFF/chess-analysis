@@ -16,9 +16,9 @@ test('aucune réponse ne répète une autre ligne ou ne s’arrête au milieu de
  }
 });
 
-test('les 11 ouvertures et les 8 variantes ont des coups SAN/UCI légaux et expliqués',()=>{
+test('les 11 ouvertures et les 20 variantes ont des coups SAN/UCI légaux et expliqués',()=>{
  assert.equal(data.raw.length,11);
- assert.equal(data.trainingGroups.reduce((n,g)=>n+g.lines.length,0),8);
+ assert.equal(data.trainingGroups.reduce((n,g)=>n+g.lines.length,0),20);
  assert.deepEqual(Array.from(data.trainingGroups[0].lines,line=>line.name),['Défense principale · 5…Na5','Capture du fou · 5.Bxd5','Contre-attaque · 5…b5']);
  assert.ok(data.trainingGroups[0].lines.every(line=>line.moves[7].san==='d5'));
  const lines=[...data.raw.map(([name,,,moves])=>({name,moves:moves.map(([san,uci,note])=>({san,uci,note}))})),...data.trainingGroups.flatMap(g=>g.lines)];
@@ -74,8 +74,8 @@ test('le contre-jeu du Berger explique le sacrifice en e4 jusqu’au gain de la 
  assert.equal(game.get('d1')?.type,'k');
 });
 
-function session(lineIndex=0,step=7){
- const group=data.trainingGroups[0];
+function session(lineIndex=0,step=7,groupId='fegatello'){
+ const group=data.trainingGroups.find(group=>group.id===groupId);
  const elements=new Map();
  const ctx=vm.createContext({
   TrainingChess:Chess,files:'abcdefgh',trainingGroups:data.trainingGroups,
@@ -86,9 +86,47 @@ function session(lineIndex=0,step=7){
  });
  ctx.go=n=>{ctx.step=n};
  vm.runInContext(script.slice(script.indexOf('let training=null'),script.indexOf('function initialBoard()')),ctx);
- vm.runInContext('training=trainingGroups[0]',ctx);
+ vm.runInContext(`training=trainingGroups.find(group=>group.id===${JSON.stringify(groupId)})`,ctx);
  return {run:code=>vm.runInContext(code,ctx),state:()=>vm.runInContext('({step,opening,feedback,correctAnswers,wrongAnswers,assists})',ctx)};
 }
+
+test('Londres démarre avec les Noirs et retrouve la branche choisie après c3 ou e3',()=>{
+ const group=data.trainingGroups.find(group=>group.id==='london');
+ assert.equal(group.start,3);
+ assert.equal(group.lines.length,12);
+ for(const line of group.lines){
+  const game=new Chess();
+  for(const move of line.moves.slice(0,group.start))game.move(move.san,{strict:true});
+  assert.equal(game.turn(),'b',line.name);
+  assert.equal(line.moves[group.start].san,'c5',line.name);
+ }
+ const s=session(0,3,'london');
+ s.run('playTrainingMove("c7","c5")');
+ assert.equal(s.state().step,4);
+ assert.equal(s.state().correctAnswers,1);
+ assert.match(s.state().feedback,/Bonne réponse.*b2/);
+ const delayed=session(11,3,'london');
+ delayed.run('playTrainingMove("c7","c5")');
+ assert.equal(delayed.state().step,4);
+ assert.equal(delayed.state().wrongAnswers,0);
+});
+
+test('Londres prépare la prise b2 par a6 et conserve un échec légal sur la case c3 vide',()=>{
+ const group=data.trainingGroups.find(group=>group.id==='london');
+ const line=group.lines.find(line=>line.name==='Cc3 et Cxc5 · échec en c3');
+ const game=new Chess();
+ for(let i=0;i<line.moves.length;i++){
+  if(i===13){assert.equal(game.get('c3'),undefined);assert.equal(line.moves[i].san,'Qc3+')}
+  game.move(line.moves[i].san,{strict:true});
+  if(i===7)assert.equal(game.get('a6')?.type,'p');
+ }
+ assert.equal(game.get('a5')?.type,'q');
+ assert.equal(game.get('d2')?.type,'n');
+ const s=session(5,7,'london');
+ s.run('playTrainingMove("a7","a6")');
+ assert.equal(s.state().step,8);
+ assert.match(s.state().feedback,/Bonne réponse.*b5/);
+});
 
 test('la contre-attaque b5 conserve toute sa suite après l’échange en c6',()=>{
  const index=data.trainingGroups[0].lines.findIndex(line=>line.name==='Contre-attaque · 5…b5');
