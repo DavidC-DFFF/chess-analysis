@@ -2,7 +2,7 @@
 // Keep each course's internal order; introduce a topic before its deeper practice.
 const courseOrder = {
  SECTION_LEVEL_NEW: ['apprendre-a-jouer-aux-echecs'],
- SECTION_LEVEL_BEGINNER: ['jouer-aux-echecs','jouer','principes-ouverture','gagner-la-partie','capturer-les-pieces-adverses','attaquer-le-roi-adverse','introduction-au-ouvertures-classiques'],
+ SECTION_LEVEL_BEGINNER: ['jouer-aux-echecs','jouer','principes-ouverture','gagner-la-partie','capturer-les-pieces-adverses','attaquer-le-roi-adverse','introduction-au-ouvertures-classiques','mes-parties'],
  SECTION_LEVEL_INTERMEDIATE: ['ouvertures-echecs','tactiques-echecs','gagner-grace-a-la-tactique','les-coups-forces','strategie-echecs','utiliser-le-potentiel-de-ses-pieces','lecture-de-l-echiquier','finales-echecs','comprendre-les-finales'],
  SECTION_LEVEL_ADVANCED: ['ouvertures-avancees','les-ouvertures-cles','choisir-le-meilleur-coup','activer-ses-pieces','strategie-avancee','attaquer-le-roi','tactiques-echecs-avancees','tactiques-avancees','finales-avancees','motifs-de-finales'],
 };

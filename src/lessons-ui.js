@@ -89,7 +89,7 @@ function renderBoard(){
 function render(){
  el('lesson-title').textContent=lessonData.title;
  el('board-subtitle').textContent=lessonData.sourceLesson.description||'Lis la consigne et retrouve les coups attendus.';
- el('lesson-source').href=lessonData.sourceUrl;el('lesson-source').textContent='Chess.com · '+lessonData.title;
+ el('lesson-source').href=lessonData.sourceUrl;el('lesson-source').textContent=lessonData.sourceLabel||'Chess.com · '+lessonData.title;
  el('intro-arrows').toggleAttribute('hidden',!introduction||lessonData.sourceLesson.path!=='le-fou');
  el('stage-title').textContent=introduction?'Comprendre la leçon':`Exercice ${session.index+1} sur ${lessonData.exercises.length}`;
  const screen=introductionPgn();

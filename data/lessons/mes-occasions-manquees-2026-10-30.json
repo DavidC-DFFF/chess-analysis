@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "title": "Mes occasions manquées · 30 octobre 2026",
+  "sourceUrl": "https://www.chess.com/game/live/186206819634",
+  "sourceLabel": "Ma partie · David_Ch3ssa – Ak112007",
+  "sourceGame": {
+    "date": "2026.10.30",
+    "white": "David_Ch3ssa",
+    "black": "Ak112007",
+    "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2026.10.30\"]\n[Round \"?\"]\n[White \"David_Ch3ssa\"]\n[Black \"Ak112007\"]\n[Result \"1-0\"]\n[WhiteElo \"505\"]\n[BlackElo \"406\"]\n[ECO \"C55\"]\n[TimeControl \"900+10\"]\n[Termination \"David_Ch3ssa a gagné par échec et mat\"]\n[EndTime \"9:55:46 GMT+0000\"]\n[Link \"https://www.chess.com/game/live/186206819634?username=david_ch3ssa&move=0\"]\n\n1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O Qf6 5. d3 d6 6. Nc3 a6 7. Nd5 Qd8 8. d4 Be6 9. c3 Na5 10. Bd3 c6 11. Nb4 Qf6 12. d5 cxd5 13. exd5 Bd7 14. Re1 Bb5 15. Bxb5+ axb5 16. Qd3 Nc4 17. b3 Na5 18. Qxb5+ Kd8 19. Be3 Ne7 20. Bb6+ Kc8 21. Bxa5 Qf4 22. Qb6 Rxa5 23. Qxa5 Nf5 24. Qa8+ Kc7 25. Nd3 Qg4 26. h3 Qg5 27. Qe8 Qg6 28. a4 Ne7 29. a5 e4 30. Rxe4 Qxe4 31. Nde1 f6 32. a6 bxa6 33. Rxa6 Qxd5 34. Ra7+ Kb6 35. Qb8+ Kc5 36. Ra5+ Kc6 37. Rxd5 Kxd5 38. b4 Ke6 39. b5 Nd5 40. c4 Nf4 41. Kf1 d5 42. cxd5+ Nxd5 43. Qc8+ Kf7 44. Qc4 Kg6 45. Qxd5 Bb4 46. b6 Rb8 47. b7 Bc3 48. Qc6 Ba5 49. Nd3 h5 50. h4 Kh7 51. Nc5 Bb4 52. Nd7 Rxb7 53. Qxb7 Bd6 54. Nf8+ Bxf8 55. Qc8 Ba3 56. Qc2+ Kh6 57. Nd4 g6 58. Qc3 Bc5 59. Qxc5 g5 60. Nf3 gxh4 61. Qf8+ Kg6 62. Nxh4+ Kg5 63. g3 Kg4 64. Qxf6 Kh3 65. Qh6 Kh2 66. Qxh5 Kh1 67. Qa5 Kh2 68. f4 Kh3 69. g4 Kxg4 70. Kf2 Kxf4 71. Qa4+ Kg5 72. Kg3 Kh5 73. Qa5+ Kh6 74. Kg4 Kg7 75. Qa6 Kf7 76. Kf5 Ke7 77. Qa7+ Kd8 78. Ke6 Ke8 79. Qa8# 1-0"
+  },
+  "exercises": [
+    {
+      "id": "ak112007-21",
+      "fen": "r1k2b1r/1p2npp1/1B1p1q1p/nQ1Pp3/1N6/1PP2N2/P4PPP/R3R1K1 w - - 5 21",
+      "challengeType": "",
+      "targets": "",
+      "moveNumber": 21,
+      "goal": "mate",
+      "playedMove": "Bxa5",
+      "comments": [
+        "Au 21e coup, trouve le mat en un. Vérifie les cases de fuite du roi noir.",
+        "De8# : la dame attaque le roi c8 et contrôle b8, d8 et d7. Le fou b6 contrôle c7 et empêche une interposition en d8. Le pion noir b7 bloque la dernière fuite du roi."
+      ],
+      "pgn": "[SetUp \"1\"]\n[FEN \"r1k2b1r/1p2npp1/1B1p1q1p/nQ1Pp3/1N6/1PP2N2/P4PPP/R3R1K1 w - - 5 21\"]\n\n{Au 21e coup, trouve le mat en un. Vérifie les cases de fuite du roi noir.} 21. Qe8# {[%hint Cherche un échec de dame sur la dernière rangée. Quelle case ton fou b6 contrôle-t-il ?][%wrong Cherche d’abord les échecs, puis les prises. Vérifie les pièces qui protègent les cases importantes.] De8# : la dame attaque le roi c8 et contrôle b8, d8 et d7. Le fou b6 contrôle c7 et empêche une interposition en d8. Le pion noir b7 bloque la dernière fuite du roi.} (21. Bxa5? {Prendre le cavalier ne termine pas la partie. Cherche d’abord un échec qui ferme toutes les cases de fuite.}) *"
+    },
+    {
+      "id": "ak112007-22",
+      "fen": "r1k2b1r/1p2npp1/3p3p/BQ1Pp3/1N3q2/1PP2N2/P4PPP/R3R1K1 w - - 1 22",
+      "challengeType": "",
+      "targets": "",
+      "moveNumber": 22,
+      "goal": "mate",
+      "playedMove": "Qb6",
+      "comments": [
+        "Au 22e coup, une nouvelle occasion de mat en un se présente. Trouve-la.",
+        "De8# : le fou a5 contrôle toujours c7 et d8 par la diagonale a5–b6–c7–d8. La dame attaque c8 et contrôle b8 et d7 ; le pion noir b7 bloque cette case. Le même réseau de mat fonctionne encore."
+      ],
+      "pgn": "[SetUp \"1\"]\n[FEN \"r1k2b1r/1p2npp1/3p3p/BQ1Pp3/1N3q2/1PP2N2/P4PPP/R3R1K1 w - - 1 22\"]\n\n{Au 22e coup, une nouvelle occasion de mat en un se présente. Trouve-la.} 22. Qe8# {[%hint Le fou a changé de case, mais contrôle encore une case essentielle sur la huitième rangée.][%wrong Cherche d’abord les échecs, puis les prises. Vérifie les pièces qui protègent les cases importantes.] De8# : le fou a5 contrôle toujours c7 et d8 par la diagonale a5–b6–c7–d8. La dame attaque c8 et contrôle b8 et d7 ; le pion noir b7 bloque cette case. Le même réseau de mat fonctionne encore.} (22. Qb6? {Ce déplacement de dame ne donne pas mat. Examine les échecs possibles avant de préparer une autre menace.}) *"
+    },
+    {
+      "id": "ak112007-27",
+      "fen": "Q4b1r/1pk2pp1/3p3p/3Ppnq1/8/1PPN1N1P/P4PP1/R3R1K1 w - - 1 27",
+      "challengeType": "",
+      "targets": "",
+      "moveNumber": 27,
+      "goal": "captureQueen",
+      "playedMove": "Qe8",
+      "comments": [
+        "Au 27e coup, trouve la prise qui gagne immédiatement le plus de matériel.",
+        "Cxg5 : le cavalier f3 prend la dame noire g5. Le pion h6 peut reprendre par …hxg5, mais tu as alors échangé un cavalier contre une dame : le gain matériel reste décisif. Avant de déplacer ta dame, examine les prises de toutes tes pièces."
+      ],
+      "pgn": "[SetUp \"1\"]\n[FEN \"Q4b1r/1pk2pp1/3p3p/3Ppnq1/8/1PPN1N1P/P4PP1/R3R1K1 w - - 1 27\"]\n\n{Au 27e coup, trouve la prise qui gagne immédiatement le plus de matériel.} 27. Nxg5 {[%hint Examine les cases attaquées par ton cavalier f3. Une pièce lourde noire est sans défense.][%wrong Cherche d’abord les échecs, puis les prises. Vérifie les pièces qui protègent les cases importantes.] Cxg5 : le cavalier f3 prend la dame noire g5. Le pion h6 peut reprendre par …hxg5, mais tu as alors échangé un cavalier contre une dame : le gain matériel reste décisif. Avant de déplacer ta dame, examine les prises de toutes tes pièces.} (27. Qe8? {Ce coup laisse passer une prise de dame. Examine les captures légales de tes cavaliers.}) *"
+    },
+    {
+      "id": "ak112007-67",
+      "fen": "8/8/8/7Q/7N/6P1/5P2/5K1k w - - 1 67",
+      "challengeType": "",
+      "targets": "",
+      "moveNumber": 67,
+      "goal": "mate",
+      "playedMove": "Qa5",
+      "comments": [
+        "Au 67e coup, trouve le mat en un. Une pièce peut libérer la ligne d’attaque d’une autre.",
+        "Cf3# est un échec à la découverte : le cavalier quitte h4 et libère la colonne h pour la dame h5, qui attaque le roi h1. En f3, le cavalier contrôle g1 et h2 ; le roi blanc f1 contrôle g2. Aucune fuite n’est possible."
+      ],
+      "pgn": "[SetUp \"1\"]\n[FEN \"8/8/8/7Q/7N/6P1/5P2/5K1k w - - 1 67\"]\n\n{Au 67e coup, trouve le mat en un. Une pièce peut libérer la ligne d’attaque d’une autre.} 67. Nf3# {[%hint Ta dame et le roi noir sont sur la colonne h. Déplace la pièce qui bouche cette colonne tout en fermant les cases de fuite.][%wrong Cherche d’abord les échecs, puis les prises. Vérifie les pièces qui protègent les cases importantes.] Cf3# est un échec à la découverte : le cavalier quitte h4 et libère la colonne h pour la dame h5, qui attaque le roi h1. En f3, le cavalier contrôle g1 et h2 ; le roi blanc f1 contrôle g2. Aucune fuite n’est possible.} (67. Qa5? {Cet échec ne mate pas immédiatement. Cherche comment ta dame et ton cavalier peuvent agir ensemble.}) *"
+    },
+    {
+      "id": "ak112007-71",
+      "fen": "8/8/8/Q7/5k1N/8/5K2/8 w - - 0 71",
+      "challengeType": "",
+      "targets": "",
+      "moveNumber": 71,
+      "goal": "mate",
+      "playedMove": "Qa4+",
+      "comments": [
+        "Au 71e coup, trouve le mat en un en faisant coopérer dame, cavalier et roi.",
+        "Df5# : le cavalier h4 protège la dame f5, donc le roi f4 ne peut pas la prendre. La dame ferme e4, e5, f5, g4 et g5 ; le roi blanc f2 contrôle e3, f3 et g3. Toutes les sorties sont fermées."
+      ],
+      "pgn": "[SetUp \"1\"]\n[FEN \"8/8/8/Q7/5k1N/8/5K2/8 w - - 0 71\"]\n\n{Au 71e coup, trouve le mat en un en faisant coopérer dame, cavalier et roi.} 71. Qf5# {[%hint Le cavalier h4 protège une case de la cinquième rangée où la dame peut donner échec au roi f4.][%wrong Cherche d’abord les échecs, puis les prises. Vérifie les pièces qui protègent les cases importantes.] Df5# : le cavalier h4 protège la dame f5, donc le roi f4 ne peut pas la prendre. La dame ferme e4, e5, f5, g4 et g5 ; le roi blanc f2 contrôle e3, f3 et g3. Toutes les sorties sont fermées.} (71. Qa4+? {Ce coup donne échec, mais laisse une fuite au roi. Cherche une case protégée par ton cavalier.}) *"
+    }
+  ],
+  "sourceLesson": {
+    "id": "personal-ak112007-2026-10-30",
+    "name": "Mes occasions manquées · 30 octobre 2026",
+    "path": "mes-occasions-manquees-2026-10-30",
+    "description": "Cinq occasions tirées de David_Ch3ssa – Ak112007, le 30 octobre 2026 : quatre mats en un et une prise de dame. Avant chaque coup, examine les échecs puis les prises. Après ta réponse, identifie les pièces qui coopèrent.",
+    "introText": "Cinq occasions tirées de David_Ch3ssa – Ak112007, le 30 octobre 2026 : quatre mats en un et une prise de dame. Avant chaque coup, examine les échecs puis les prises. Après ta réponse, identifie les pièces qui coopèrent.",
+    "outroText": "Refais ces positions en vérifiant les échecs, les prises et les cases de fuite.",
+    "course": {
+      "path": "mes-parties",
+      "title": "Mes parties"
+    }
+  },
+  "curriculum": {
+    "order": 1,
+    "section": {
+      "name": "Débutant",
+      "level": "SECTION_LEVEL_BEGINNER",
+      "color": "green",
+      "order": 2
+    },
+    "course": {
+      "path": "mes-parties",
+      "name": "Mes parties",
+      "order": 8
+    }
+  }
+}
